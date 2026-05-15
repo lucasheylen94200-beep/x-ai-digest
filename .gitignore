@@ -1,0 +1,13 @@
+# Donnees sensibles
+.env
+*.env
+__pycache__/
+*.pyc
+
+# Previews / temporaires
+email_preview.html
+*.bak
+*.tmp
+
+# Donnees locales optionnelles - en realite on VEUT les pousser sur GitHub Pages
+# pour que la page hostee puisse lire l'historique. On les commit.
