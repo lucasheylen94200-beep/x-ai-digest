@@ -981,10 +981,10 @@ function compute7DayTrend(runs) {
     const d = new Date(today.getTime() - i * 24 * 3600 * 1000);
     const key = d.toISOString().slice(0, 10);
     const stats = byDay[key];
-    if (!stats) emoji += "⚫";  // gris (aucun run)
-    else if (stats.ko === 0) emoji += "🟢";  // vert
-    else if (stats.ko < stats.ok) emoji += "🟡";  // jaune
-    else emoji += "🔴";  // rouge
+    if (!stats) emoji += "⚫";              // gris : aucune verif ce jour
+    else if (stats.ko === 0) emoji += "🟢";  // vert : 100% OK
+    else if (stats.ok === 0) emoji += "🔴";  // rouge : aucun succes
+    else emoji += "🟡";                     // jaune : mix succes/echec
   }
   return emoji;
 }
