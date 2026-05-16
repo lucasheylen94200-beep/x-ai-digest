@@ -499,12 +499,23 @@ def build_html():
             days.append(data)
         except Exception as e:
             print(f"[build] ignore {f.name} : {e}")
+
+    # Charger les donnees du watchdog (s'il existe)
+    health_file = BASE / "health" / "health.json"
+    health = {"runs": []}
+    if health_file.exists():
+        try:
+            health = json.loads(health_file.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
     out = HTML_TEMPLATE.replace(
-        "__DATA_JSON__",
-        json.dumps(days, ensure_ascii=False),
+        "__DATA_JSON__", json.dumps(days, ensure_ascii=False)
+    ).replace(
+        "__HEALTH_JSON__", json.dumps(health, ensure_ascii=False)
     )
     HTML_OUT.write_text(out, encoding="utf-8")
-    print(f"[build] {HTML_OUT}  ({len(days)} jours)")
+    print(f"[build] {HTML_OUT}  ({len(days)} jours, {len(health.get('runs', []))} runs watchdog)")
 
 
 HTML_TEMPLATE = r"""<!DOCTYPE html>
@@ -845,6 +856,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 
 <script>
 const DATA = __DATA_JSON__;
+const HEALTH = __HEALTH_JSON__;
 const CATEGORIES = [
   { key: "actu",   label: "Actualite", emoji: "📰" },
   { key: "tips",   label: "Tips",      emoji: "💡" },
@@ -925,6 +937,19 @@ function renderStatus(day) {
   let level = "ok", label = "OK";
   if (translated < 90 || failed > 3 || needsRetrans > 5) { level = "warn"; label = "Avertissements"; }
   if (translated < 60 || !v.total) { level = "fail"; label = "Probleme"; }
+
+  // Donnees watchdog
+  const runs = (HEALTH && HEALTH.runs) || [];
+  const lastRun = runs.length ? runs[runs.length - 1] : null;
+  const lastRunTime = lastRun ? lastRun.timestamp : null;
+  // Tendance 7 derniers jours : 1 emoji par jour (vert/jaune/rouge)
+  const trend7 = compute7DayTrend(runs);
+  // Fixes appliques cette semaine
+  const oneWeekAgo = new Date(Date.now() - 7*24*3600*1000).toISOString();
+  const fixesThisWeek = runs
+    .filter(r => r.timestamp >= oneWeekAgo)
+    .reduce((acc, r) => acc + (r.fixes_applied || []).filter(f => f.success).length, 0);
+
   let html = `<details class="status-details">
     <summary>Statut systeme <span class="status-badge ${level}">${label}</span></summary>
     <div class="status-row"><span class="label">Mise a jour</span><span class="value">${esc(day.processed_at || day.fetched_at || day.date)}</span></div>
@@ -933,8 +958,35 @@ function renderStatus(day) {
     <div class="status-row"><span class="label">Avec decryptage</span><span class="value">${v.with_decryptage_pct != null ? v.with_decryptage_pct + "%" : "?"}</span></div>
     <div class="status-row"><span class="label">Comptes non recuperes</span><span class="value">${failed > 0 ? failed + " (" + (day.failed_accounts || []).map(h => "@" + h).join(", ") + ")" : "0"}</span></div>
     ${needsRetrans > 0 ? `<div class="status-row"><span class="label">Restant a traduire</span><span class="value">${needsRetrans}</span></div>` : ""}
+    ${lastRunTime ? `<div class="status-row" style="border-top:1px dashed #ccc;margin-top:.5em;padding-top:.5em;"><span class="label">Watchdog (derniere verif)</span><span class="value">${esc(lastRunTime)}</span></div>` : ""}
+    ${trend7 ? `<div class="status-row"><span class="label">Tendance 7 jours</span><span class="value" style="letter-spacing:.15em;">${trend7}</span></div>` : ""}
+    ${runs.length > 0 ? `<div class="status-row"><span class="label">Auto-corrections cette semaine</span><span class="value">${fixesThisWeek}</span></div>` : ""}
   </details>`;
   return html;
+}
+
+function compute7DayTrend(runs) {
+  if (!runs.length) return "";
+  // Pour chaque des 7 derniers jours, calculer le ratio de checks OK
+  const byDay = {};
+  for (const r of runs) {
+    const day = r.timestamp.slice(0, 10);
+    if (!byDay[day]) byDay[day] = { ok: 0, ko: 0 };
+    if (r.all_ok) byDay[day].ok++;
+    else byDay[day].ko++;
+  }
+  const today = new Date();
+  let emoji = "";
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(today.getTime() - i * 24 * 3600 * 1000);
+    const key = d.toISOString().slice(0, 10);
+    const stats = byDay[key];
+    if (!stats) emoji += "⚫";  // gris (aucun run)
+    else if (stats.ko === 0) emoji += "🟢";  // vert
+    else if (stats.ko < stats.ok) emoji += "🟡";  // jaune
+    else emoji += "🔴";  // rouge
+  }
+  return emoji;
 }
 
 function renderHome(day) {

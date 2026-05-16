@@ -199,6 +199,9 @@ def send_via_resend(subject, html_body, to_email):
             body = resp.read().decode("utf-8")
             result = json.loads(body)
             print(f"[email] envoye - id Resend : {result.get('id')}")
+            # Pose un flag pour permettre au watchdog de detecter qu'on a envoye aujourd'hui
+            today_flag = BASE / f".email_sent_{datetime.now().strftime('%Y-%m-%d')}.flag"
+            today_flag.write_text(datetime.now().isoformat(timespec="seconds"))
             return True
     except urllib.error.HTTPError as e:
         err_body = e.read().decode("utf-8", errors="replace")
