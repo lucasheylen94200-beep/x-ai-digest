@@ -1,6 +1,6 @@
 {
   "date": "2026-05-18",
-  "fetched_at": "2026-05-18T10:56:58",
+  "fetched_at": "2026-05-18T22:13:20",
   "tweets": [
     {
       "handle": "karpathy",
@@ -49,6 +49,15 @@
     },
     {
       "handle": "sama",
+      "text": "chatgpt has gotten soooo much better with the latest update. really proud of the team for this one.",
+      "link": "https://nitter.net/sama/status/2056435834333934051#m",
+      "published": "Mon, 18 May 2026 18:04:44 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sama",
       "text": "ChatGPT Images 2.0 💚 India. Already more than 1 billion images created there; awesome to see.",
       "link": "https://nitter.net/sama/status/2056165722804654196#m",
       "published": "Mon, 18 May 2026 00:11:24 GMT",
@@ -79,15 +88,6 @@
       "text": "also all this: OpenAI Developers (@OpenAIDevs) Codex is getting easier to automate and customize around your code. 🪝 Hooks customize the Codex loop with scripts that run at key points in a task: • Run validators before or after work • Scan prompts for secrets • Log conversations to internal systems • Create memories or customize behavior by repo or directory ⚙️ Programmatic access tokens provide scoped credentials for Business and Enterprise teams: • Create tokens from ChatGPT workspace settings • Use them in CI, release workflows, and internal automations • Set expirations or revoke access when needed • Keep usage tied back to the workspace Video — https://nitter.net/OpenAIDevs/status/2055032115964870838#m",
       "link": "https://nitter.net/sama/status/2055034714231345475#m",
       "published": "Thu, 14 May 2026 21:17:11 GMT",
-      "author_name": "Sam Altman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "sama",
-      "text": "Codex in the ChatGPT mobile app!",
-      "link": "https://nitter.net/sama/status/2055034461591588916#m",
-      "published": "Thu, 14 May 2026 21:16:10 GMT",
       "author_name": "Sam Altman",
       "category_hint": "ceo",
       "source_lang": "en"
@@ -139,6 +139,24 @@
     },
     {
       "handle": "gdb",
+      "text": "Keep your Mac awake so you can build and work from your phone, with Codex in the ChatGPT app: OpenAI Developers (@OpenAIDevs) Your Mac can hold down the fort while you work from your phone. Enable remote connection in the Codex desktop app, then turn on “Keep this Mac awake.” When your Mac is powered on and plugged in, Codex can keep running there while you work from the ChatGPT mobile app. — https://nitter.net/OpenAIDevs/status/2056442456800141424#m",
+      "link": "https://nitter.net/gdb/status/2056448588754903316#m",
+      "published": "Mon, 18 May 2026 18:55:25 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "how to use /goal in codex — keep Codex working on a persistent objective until it's solved: Derrick Choi (@derrickcchoi) My colleagues wrote up a great post on using Goals in Codex. They go through when to use them, what changes when a Goal is active, and how to write Goals that give Codex a clear outcome, constraints and verification criteria. Also how we designed Goals at the architecture level if you’re curious. developers.openai.com/cookbo… — https://nitter.net/derrickcchoi/status/2056402681586188745#m",
+      "link": "https://nitter.net/gdb/status/2056430780809892252#m",
+      "published": "Mon, 18 May 2026 17:44:39 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
       "text": "Codex for unsubscribing from unwanted marketing emails Todd Saunders (@toddsaunders) I finally used /goal in Codex and I’m absolutely mind blown. I had it look through my last 500 archived emails. Then look for an unsubscribe link and unsubscribe if there is one. It found 87 and it clicked them all. It handled the “are you sure” pages AND flagged 14 that required login. Ran unsupervised for over an hour and now I’m marketing email free. Absolutely wild. — https://nitter.net/toddsaunders/status/2056198815825215875#m",
       "link": "https://nitter.net/gdb/status/2056223743446245519#m",
       "published": "Mon, 18 May 2026 04:01:57 GMT",
@@ -160,24 +178,6 @@
       "text": "so much joy in asking codex for random questions at work (such as finding some specific spreadsheet i'd been looking at a while ago), much more fun than searching around for context by hand",
       "link": "https://nitter.net/gdb/status/2056139383330513237#m",
       "published": "Sun, 17 May 2026 22:26:44 GMT",
-      "author_name": "Greg Brockman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "gdb",
-      "text": "link together your devices with Codex to develop from anywhere, anytime Nick (@nickbaumann_) My laptop has become a “satellite device” since I started using Codex from my phone. And my Mac mini has become the “home.” It’s clunky, but the end state feels more like how we’re going to be working in the near future: I’m currently running the Codex app on 2 devices: 1. my MacBook 2. my Mac mini My laptop isn’t reliably connected to Wi-Fi enough, so I keep a Mac mini on my desk that is always connected. When I kick off new threads from my phone, I start them on the Mac mini. When I’m working from my desk, I run them there too. The cool part is that I’ve added my MacBook and Mac mini as connected devices to each other. That means I can start and resume threads from either device. So if I’m in a meeting but want to continue a thread on my laptop that was started on my Mac mini, I can do that. I’ve also set up mutual SSH for Mac mini <> MacBook, so files are easy to access from either side. It’s not fully seamless yet, but the model works. What this means: - I have an always-on Codex that is accessible from my phone, with its own dev environment - All threads are always accessible from any of the 3 devices - I can run heartbeat threads that stay on 24/7 It’s a little makeshift today, but the shape of it feels very real to me: Codex is no longer tied to whichever computer happens to be open in front of me. It starts to feel like something I can stay connected to across whatever device I’m using. — https://nitter.net/nickbaumann_/status/2055066537002725393#m",
-      "link": "https://nitter.net/gdb/status/2056046844921172243#m",
-      "published": "Sun, 17 May 2026 16:19:01 GMT",
-      "author_name": "Greg Brockman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "gdb",
-      "text": "you can just build things from your phone, with Codex in the ChatGPT app",
-      "link": "https://nitter.net/gdb/status/2055882172884763012#m",
-      "published": "Sun, 17 May 2026 05:24:41 GMT",
       "author_name": "Greg Brockman",
       "category_hint": "ceo",
       "source_lang": "en"
@@ -211,6 +211,15 @@
     },
     {
       "handle": "sundarpichai",
+      "text": "Look what crossed my desk @StephenCurry30 !",
+      "link": "https://nitter.net/sundarpichai/status/2052411065204715928#m",
+      "published": "Thu, 07 May 2026 15:31:44 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
       "text": "blog.google/products-and-pla…",
       "link": "https://nitter.net/sundarpichai/status/2052411066840416742#m",
       "published": "Thu, 07 May 2026 15:31:44 GMT",
@@ -219,11 +228,47 @@
       "source_lang": "en"
     },
     {
-      "handle": "sundarpichai",
-      "text": "Look what crossed my desk @StephenCurry30 !",
-      "link": "https://nitter.net/sundarpichai/status/2052411065204715928#m",
-      "published": "Thu, 07 May 2026 15:31:44 GMT",
-      "author_name": "Sundar Pichai",
+      "handle": "elonmusk",
+      "text": "xAI has Released a blog on Skills",
+      "link": "https://nitter.net/techdevnotes/status/2056481263087649224#m",
+      "published": "Mon, 18 May 2026 21:05:15 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "Judge Yvonne Gonzalez Rogers basically waved off Elon’s OpenAI appeal, saying the jury’s statute of limitations ruling is tough to overturn. An activist judge letting Sam Altman skate after he hijacked a nonprofit charity — originally pledged to benefit all humanity — and turned it into his $150B+ personal for-profit empire? That’s not justice. Stealing a charity for profit is not OK. You don’t get to rewrite the mission, pocket the upside, and hide behind “time limits” while betraying the public trust. OpenAI’s founding promise was destroyed in broad daylight. This makes zero sense. Elon Musk (@elonmusk) This illustrates why the ruling by the terrible activist Oakland judge, who simply used the jury as a fig leaf, creates such a terrible precedent. She just handed out a free license to loot charities if you can keep the looting quiet for a few years! — https://nitter.net/elonmusk/status/2056472426658058358#m",
+      "link": "https://nitter.net/teslaownersSV/status/2056473393499889841#m",
+      "published": "Mon, 18 May 2026 20:33:59 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "the team did an internal test of this model last week the whole company (bar a few exceptions) had all their cursor chats redirected to composer 2.5 for like 2 days. i didn't even notice, which I think is testament to the progress of this model. go use it, its very good. Cursor (@cursor_ai) Introducing Composer 2.5, our most powerful model yet. It's more intelligent, better at sustained work on long-running tasks, and more reliable at following complex instructions. For the next week, we’re doubling the included usage of the model. — https://nitter.net/cursor_ai/status/2056415413077233983#m",
+      "link": "https://nitter.net/DanPerks/status/2056422125720797318#m",
+      "published": "Mon, 18 May 2026 17:10:15 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "Insane Rothmus 🏴 (@Rothmus) UK primary schools are teaching 7-year-olds they’re born with “white privilege.” Indoctrinating infants with race guilt is pure child abuse dressed as “anti-racism.” Britain is lost. — https://nitter.net/Rothmus/status/2056474178514010405#m",
+      "link": "https://nitter.net/elonmusk/status/2056476778953093308#m",
+      "published": "Mon, 18 May 2026 20:47:26 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "We've gotten really really good at RL. Composer 2.5 is fighting well-above its weight class. Very excited for the next release as we scale model sizes and FLOPs with @SpaceXAI ! Cursor (@cursor_ai) Introducing Composer 2.5, our most powerful model yet. It's more intelligent, better at sustained work on long-running tasks, and more reliable at following complex instructions. For the next week, we’re doubling the included usage of the model. — https://nitter.net/cursor_ai/status/2056415413077233983#m",
+      "link": "https://nitter.net/sualehasif996/status/2056426664066756941#m",
+      "published": "Mon, 18 May 2026 17:28:17 GMT",
+      "author_name": "Elon Musk",
       "category_hint": "ceo",
       "source_lang": "en"
     },
@@ -319,45 +364,45 @@
     },
     {
       "handle": "ylecun",
+      "text": "\"AI is hiking your energy bill\" is the most popular political talking point of 2026. The data doesn't support it. A thread:",
+      "link": "https://nitter.net/nic_carter/status/2056357779200258257#m",
+      "published": "Mon, 18 May 2026 12:54:34 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "This is the single most important chart. If AI were driving prices, you'd see a cluster top-right. You don't. States with huge load growth (VA, TX, NV, ND, IA) sit at ~0c change in 5y. States with massive price hikes (CA, NY, MA, CT) have basically NO load growth.",
+      "link": "https://nitter.net/nic_carter/status/2056357801786581191#m",
+      "published": "Mon, 18 May 2026 12:54:39 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "When a federal agency tasked with protecting all Americans decides to mandate a specific religious worldview, it ceases to protect democracy and begins to threaten it.",
+      "link": "https://nitter.net/Weinsteinlaw/status/2056364064566087748#m",
+      "published": "Mon, 18 May 2026 13:19:33 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Finally a semi-useful read on Mythos that is free of myth and talks about what this means more practically (not this is the end of the world as we know it, but how do we deal with faster patches and attacks from AI as other models scale to chained exploits)? This is the kind of conversation we need, not idiotic ones about the end of all software. We need \"what is the right answer?\" because these models are coming and will get better so how to we put our heads together and make better/more secure software across the world? And it can't just be patching the 100 or so projects that got access to Project Glasswing. That is not gonna help the world. We need to figure out how does everyone else who is not part of the special chosen people to get blessed with access to test and patch their stuff, aka the open source projects and closed software that is not Office or Cloudflare but the 99.99% of software that runs everything else in the world? What is the right loop cycle to help people patch and fix things at the source? In the long run, AI will make software more secure, not less. But it will change how teams have to work to get there. Figuring that out means putting it in more team's hands sooner rather than later. Cloudflare (@Cloudflare) Cloudflare's security team spent the last few weeks testing Anthropic's Mythos against fifty of our own repositories. What we learned about offensive AI, why faster patching is the wrong reaction, and what the architecture around vulnerabilities has to look like next. cfl.re/49BRUqW — https://nitter.net/Cloudflare/status/2056360412510060748#m",
+      "link": "https://nitter.net/Dan_Jeffries1/status/2056407157113860312#m",
+      "published": "Mon, 18 May 2026 16:10:47 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
       "text": "Trump just got exposed for running the biggest insider trading operation in American history. Nancy Pelosi traded $5 million in stocks and Congress lost its mind. Trump literally executed $750 MILLION worth of stock trades in ONE quarter while being President. His ethics filing just dropped and the numbers are genuinely unprecedented in history: Between January and March 2026, Donald Trump personally executed 3,700 individual stock transactions worth between $220 million and $750 million. That's roughly 60 trades PER DAY. While signing executive orders, meeting foreign leaders, and making policy decisions that directly impact the companies he's buying and selling. Now here's where it gets really insane: On February 10, Trump bought between $1 million and $5 million worth of Dell stock. Three months later, on May 8, he stood at a Mother's Day event at the White House, thanked Michael Dell by name, and told Americans to \"go out and buy a Dell.\" Dell stock surged 14.6% that day to an all-time high of $263.99. Since Trump's February purchase, Dell is up 96%. And 5 months BEFORE Trump bought Dell stock, Michael and Susan Dell donated $6.25 billion to Trump Accounts, one of the largest philanthropic commitments to a sitting president's signature program in modern history. So the timeline goes: Dell donates $6.25 billion to Trump's program -> Trump buys Dell stock ->Trump tells America to buy Dell from the White House podium -> Stock hits all-time high And that's just ONE stock... The same filing shows Trump bought Nvidia stock on February 10. One week later, Nvidia announced a massive chip deal with Meta. He bought more Nvidia stock one week BEFORE his own Commerce Department approved the sale of Nvidia chips to Saudi Arabia. He bought Intel stock starting in March 2026. The US government already owned a 9.9% stake in Intel worth over $41 billion. On April 30, Trump posted on Truth Social praising Intel, writing that \"Intel Stock continues to rise.\" Intel jumped 3% in after-hours and is now up 140% year-to-date. He bought Palantir stock while his administration was actively handing them billion-dollar government contracts for immigration enforcement and defense. He bought Robinhood stock while his own Trump Accounts program uses Robinhood as the broker. He's currently sitting on over 100% profit on AMD, Intel, Bloom Energy, Marvell Technology, and at least 10 other positions. Every single president since Lyndon B. Johnson has used a blind trust to avoid exactly this situation. But Trump didn't. His assets sit in a trust controlled by his own children, and the filings show a broker acted as agent on several trades. The White House says the portfolio is \"independently managed.\" But here's what independently managed looks like: Buy Dell stock. Three months later, publicly endorse Dell from the White House. Stock hits all-time high. Buy Nvidia stock. One week later, your own government approves their chip sales. Stock rips. Buy Intel stock. Post about Intel on Truth Social. Stock jumps. The government you run already owns a 10% stake. Buy Palantir. Hand them contracts. Buy Robinhood. Route a federal program through their platform. Nancy Pelosi got absolutely destroyed for her husband's stock trades. Her husband's total disclosed trades in his most controversial year were worth roughly $5 million. Trump just disclosed up to $750 MILLION in a single quarter. While making the actual policy decisions that move these stocks. This isn't a left or right issue. We're talking about the President of the United States averaging 60 stock trades per day in companies his own administration regulates, contracts with, and publicly endorses. What do you think? Video",
       "link": "https://nitter.net/Ric_RTP/status/2056000508452651512#m",
       "published": "Sun, 17 May 2026 13:14:54 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "The power of Trump, Putin, and Netanyahu appears to be waning. \"Plummeting approval ratings for these three poisonous comrades-in-arms show voters are demoralized and tiring of forever wars.\" trib.al/mgfIE2V",
-      "link": "https://nitter.net/KenRoth/status/2056033155300131100#m",
-      "published": "Sun, 17 May 2026 15:24:38 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "I don’t know why data centers have become this generations nuclear power. Unlike nuclear power, there is a 0% chance that a data center can lead to any sort of disaster scenario. This project in Utah is: - in an uninhabited area - bought and repurposed water already in use - is bringing its own power, so it won’t cost citizens anything It’s like being against building a nuclear power plant in the middle of Nevada, except there is no radioactive waste. No fall out. No risk of anything. It’s a big computer in the middle of nowhere, that is self sufficient in all resources. There are a million real problems in America. Data centers just aren’t one. Quick Thoughts (@lthlnkso) I think the big Utah data center is fine. Video — https://nitter.net/lthlnkso/status/2055687266035716171#m",
-      "link": "https://nitter.net/Seanfrank/status/2055695434010812509#m",
-      "published": "Sat, 16 May 2026 17:02:39 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "I just learned that the \"data centers are using our water!\" bullshit started because of a book called Empire of AI by Karen Hao in which she totally fucks up the math when determining how much water they use, an error she later acknowledged",
-      "link": "https://nitter.net/woke8yearold/status/2055758230798688284#m",
-      "published": "Sat, 16 May 2026 21:12:11 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "Appreciate it when the AI doomer crowd occasionally lets the mask slip a little (Allen is a co-founder of the anti-AI group Humans First and frequent guest on conservative podcasts pushing, uh, Unabomber messaging)",
-      "link": "https://nitter.net/LoganDobson/status/2056070247283638326#m",
-      "published": "Sun, 17 May 2026 17:52:01 GMT",
       "author_name": "Yann LeCun",
       "category_hint": "researcher",
       "source_lang": "en"
@@ -454,6 +499,24 @@
     },
     {
       "handle": "fchollet",
+      "text": "A mental model for working with coding agents is that they're blind squirrels running into a maze and bumping into walls. You must place the walls (verifiable constraints) strategically so that they end up in the general region you want them in.",
+      "link": "https://nitter.net/fchollet/status/2056401102485266620#m",
+      "published": "Mon, 18 May 2026 15:46:43 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
+      "text": "If you're a R user: the R edition of the book is out now! Manning Publications (@ManningBooks) AI hype can be pretty easy to find. But clear explanations are definitely harder. Deep Learning with R, Third Edition by @fchollet and Tomasz Kalinowski helps cut through that noise with practical examples that build your understanding step by step, so you learn why deep learning models work, not just how to run them. Now in print and 50% off through May 25th: hubs.la/Q04gQbC90 — https://nitter.net/ManningBooks/status/2056374275863351508#m",
+      "link": "https://nitter.net/fchollet/status/2056374710271885575#m",
+      "published": "Mon, 18 May 2026 14:01:51 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
       "text": "Decision making was the bottleneck all along. Productivity is the rate at which you make open-ended decisions, the rate at which you reduce future paths.",
       "link": "https://nitter.net/fchollet/status/2056164095913828503#m",
       "published": "Mon, 18 May 2026 00:04:56 GMT",
@@ -475,24 +538,6 @@
       "text": "If you're not obsessed with the research problem you're working on, for its own sake, you're unlikely to succeed. Intrinsic motivation is far more powerful than external rewards. Paul Novosad (@paulnovosad) An Econ PhD student at the 20th ranked program who is working on stuff they are passionate about will have a better job market than one at MIT who's been doing nothing but phd-app-maxxing since undergrad. People get confused by this because they don't observe *how* successful people came about their insane knowledge bases. It wasn't by relentlessly grinding away at stuff because they had to. They look at Scott Kominers and say \"if i grind and learn as much math as he did, i will be successful.\" You can't! *You* can't learn as much math as Kominers because he gets energized by configuration results for type ii lattices. You will burn out if you try to do it this way. You cannot, through grind alone, learn more about the economics of cities than Glaeser, or about how to maximize a value function than Acemoglu. Research careers are long. Most people give up and stop working on research (graph is share of elite PhD graduates with at least one publication in year X after graduation). If you're starting a PhD, you're presumably doing it to have a successful 40-year research career. The number one factor in whether that happens is not which program you get into, it's whether you find a research angle that energizes you enough to push through the endless barriers an academic career throws in your path. This is why a lot of the received wisdom around PhD applications is wrong. If you're 100% consumed by the predoc rat race already, it's going to be a long, hard road ahead. Obv you still have to do admissions, you should study a lot for the GRE, sigh it seems like taking real analysis is probably worth it. But spending time on the things that energize you about economics is a no-brainer, whether it's policy, or blogging, or whatever, you gotta do the things that light your fire and make you want to be on this road. — https://nitter.net/paulnovosad/status/2055429535437308255#m",
       "link": "https://nitter.net/fchollet/status/2055695549186425067#m",
       "published": "Sat, 16 May 2026 17:03:06 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "fchollet",
-      "text": "Most documented psychological biases are not irrational, they are highly optimized, energy-efficient shortcuts meant for a biological substrate operating under strict real-time physical constraints and a limited caloric budget",
-      "link": "https://nitter.net/fchollet/status/2055346225092902924#m",
-      "published": "Fri, 15 May 2026 17:55:01 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "fchollet",
-      "text": "The JAX package is now around the same level, 20M monthly downloads. Which is incredibly fast growth, because 5 years ago I recall it being below 2M or so. It went from niche to mainstream in the past couple of years. Well deserved success.",
-      "link": "https://nitter.net/fchollet/status/2055040945763336508#m",
-      "published": "Thu, 14 May 2026 21:41:56 GMT",
       "author_name": "Francois Chollet",
       "category_hint": "researcher",
       "source_lang": "en"
@@ -553,18 +598,18 @@
     },
     {
       "handle": "rasbt",
-      "text": "The table in HTML format for easier (and non-truncated) viewing: sebastianraschka.com/llm-arc…",
-      "link": "https://nitter.net/rasbt/status/2054949267630940606#m",
-      "published": "Thu, 14 May 2026 15:37:39 GMT",
+      "text": "Meta observation: DeepSeek is still king of the active-parameter ratio",
+      "link": "https://nitter.net/rasbt/status/2054936440975310910#m",
+      "published": "Thu, 14 May 2026 14:46:41 GMT",
       "author_name": "Sebastian Raschka",
       "category_hint": "educator",
       "source_lang": "en"
     },
     {
       "handle": "rasbt",
-      "text": "Meta observation: DeepSeek is still king of the active-parameter ratio",
-      "link": "https://nitter.net/rasbt/status/2054936440975310910#m",
-      "published": "Thu, 14 May 2026 14:46:41 GMT",
+      "text": "The table in HTML format for easier (and non-truncated) viewing: sebastianraschka.com/llm-arc…",
+      "link": "https://nitter.net/rasbt/status/2054949267630940606#m",
+      "published": "Thu, 14 May 2026 15:37:39 GMT",
       "author_name": "Sebastian Raschka",
       "category_hint": "educator",
       "source_lang": "en"
@@ -724,33 +769,6 @@
     },
     {
       "handle": "aidan_mclau",
-      "text": "pov you're a cat that worked on interpretability research in 2020",
-      "link": "https://nitter.net/joannejang/status/2055694019972518170#m",
-      "published": "Sat, 16 May 2026 16:57:01 GMT",
-      "author_name": "Aidan McLaughlin",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "aidan_mclau",
-      "text": "Update: it is extremely good Max Weinbach (@mweinbach) Let’s see how this is — https://nitter.net/mweinbach/status/2055323272565203060#m",
-      "link": "https://nitter.net/mweinbach/status/2055369417618235432#m",
-      "published": "Fri, 15 May 2026 19:27:10 GMT",
-      "author_name": "Aidan McLaughlin",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "aidan_mclau",
-      "text": "let’s see if he can do it",
-      "link": "https://nitter.net/aidan_mclau/status/2055163479682658530#m",
-      "published": "Fri, 15 May 2026 05:48:51 GMT",
-      "author_name": "Aidan McLaughlin",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "aidan_mclau",
       "text": "my rough understanding of comp photography and mirrorless cameras is that nothing stops us from stacking 30 differently exposed images and doing iphone-like clever ml to get a pareto better image. but this is not it :( maybe codex can one-shot this Sony | Xperia (@sonyxperia) The new AI Camera Assistant* with Xperia Intelligence brings stories to life. Using subject, scene and weather, it suggests expressive options with adjustments of colour, exposure, bokeh, and lens for breathtaking photos*. sony.co.jp/en/xperia-1m8/s/ #SonyXperia #Xperia1VIII — https://nitter.net/sonyxperia/status/2054853108988047562#m",
       "link": "https://nitter.net/aidan_mclau/status/2055162125652205802#m",
       "published": "Fri, 15 May 2026 05:43:28 GMT",
@@ -764,6 +782,33 @@
       "link": "https://nitter.net/aidan_mclau/status/2055131340102943091#m",
       "published": "Fri, 15 May 2026 03:41:08 GMT",
       "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "working with Codex You can just touch grass",
+      "link": "https://nitter.net/coreyching/status/2055038525377274240#m",
+      "published": "Thu, 14 May 2026 21:32:19 GMT",
+      "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "one take that always ages really badly is that the models are intelligent enough and nobody can really notice the improvements anymore",
+      "link": "https://nitter.net/tszzl/status/2054354571733205305#m",
+      "published": "Wed, 13 May 2026 00:14:32 GMT",
+      "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "officiallogank",
+      "text": "Why don’t LLM’s just tell you when you are asking a question / doing something that is out of distribution?",
+      "link": "https://nitter.net/OfficialLoganK/status/2056389715293778192#m",
+      "published": "Mon, 18 May 2026 15:01:28 GMT",
+      "author_name": "Logan Kilpatrick",
       "category_hint": "builder",
       "source_lang": "en"
     },
@@ -804,11 +849,11 @@
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "prompt to profitable company, this is the future",
-      "link": "https://nitter.net/OfficialLoganK/status/2054965079255527806#m",
-      "published": "Thu, 14 May 2026 16:40:28 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "osanseviero",
+      "text": "Join us this Saturday at the Google I/O Hackathon! cerebralvalley.ai/e/google-i…",
+      "link": "https://nitter.net/osanseviero/status/2056408302930829720#m",
+      "published": "Mon, 18 May 2026 16:15:20 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
@@ -849,12 +894,12 @@
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "I benchmarked Google’s new MTP for Gemma 4 31B using vLLM with 4 speculative tokens, a fairly conservative setup. Results: - Much higher throughput than Qwen3.6’s MTP - Lower latency too, helped by Gemma 4 generating fewer tokens - For coding tasks with reasoning enabled, Gemma 4 is now at least 6x faster than Qwen3.6. So you can generate 5 outputs, run your tests to select the best one, and it would still be cheaper than a single output by Qwen3.6. I’ve updated my full comparison with the new numbers: kaitchup.substack.com/p/qwen… I also confirmed what others have reported: Gemma 4’s MTP handles a high number of speculative tokens very well. On simple text generation, I’m now testing values above 10 and reached 129 tok/s on an RTX Pro 6000, compared with 20 tok/s without MTP. Next step: confirming how this translates to real tasks.",
-      "link": "https://nitter.net/bnjmn_marie/status/2052286398707687650#m",
-      "published": "Thu, 07 May 2026 07:16:21 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
+      "handle": "AnthropicAI",
+      "text": "Anthropic is acquiring @stainlessapi , an SDK and MCP server platform that has powered every Anthropic SDK since the earliest days of our API. Read more: anthropic.com/news/anthropic…",
+      "link": "https://nitter.net/AnthropicAI/status/2056419620643541012#m",
+      "published": "Mon, 18 May 2026 17:00:18 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
@@ -889,15 +934,6 @@
       "text": "Read the full post here: alignment.anthropic.com/2026…",
       "link": "https://nitter.net/AnthropicAI/status/2052808809182060581#m",
       "published": "Fri, 08 May 2026 17:52:14 GMT",
-      "author_name": "Anthropic",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AnthropicAI",
-      "text": "Finally, simple updates that diversify a model’s training data can make a difference. We added unrelated tools and system prompts to a simple chat dataset targeting harmlessness, and this reduced the blackmail rate faster.",
-      "link": "https://nitter.net/AnthropicAI/status/2052808806782964072#m",
-      "published": "Fri, 08 May 2026 17:52:13 GMT",
       "author_name": "Anthropic",
       "category_hint": "lab",
       "source_lang": "en"
@@ -949,6 +985,15 @@
     },
     {
       "handle": "GoogleDeepMind",
+      "text": "The stage is set. The tech is ready. Are you? 🚀 Join us tomorrow for #GoogleIO as we unveil the breakthroughs, tools, and innovations shaping the future of AI. Tune in live right here on @X from 10am PT: goo.gle/499OxaJ",
+      "link": "https://nitter.net/GoogleDeepMind/status/2056475403926028455#m",
+      "published": "Mon, 18 May 2026 20:41:58 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
       "text": "You must be feeling lucky 🍀 Consider this your official reminder for #GoogleIO . Join us May 19 at 10 a.m. PT for a first look at our latest product updates and AI breakthroughs.",
       "link": "https://nitter.net/Google/status/2055318645358670313#m",
       "published": "Fri, 15 May 2026 16:05:25 GMT",
@@ -979,15 +1024,6 @@
       "text": "For decades, your mouse only tracked where you were pointing. AI helps it understand what you're pointing at. 💭 This means a photo of a scribbled note could turn into an interactive to-do list, or a paused video frame can become a restaurant booking link. Video",
       "link": "https://nitter.net/GoogleDeepMind/status/2054246130511225053#m",
       "published": "Tue, 12 May 2026 17:03:38 GMT",
-      "author_name": "Google DeepMind",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "GoogleDeepMind",
-      "text": "In the real world, we don't tend to speak in long paragraphs; we point and say: \"fix this\" or \"move that\". 💬 By combining gestures with speech, it lets you use natural shorthand to complete tasks. Video",
-      "link": "https://nitter.net/GoogleDeepMind/status/2054246128221143399#m",
-      "published": "Tue, 12 May 2026 17:03:37 GMT",
       "author_name": "Google DeepMind",
       "category_hint": "lab",
       "source_lang": "en"
@@ -1084,6 +1120,42 @@
     },
     {
       "handle": "swyx",
+      "text": "this seems quite doable in the space of a single 2-3 hour workshop — any brave soul want to try to livecode this for people as a learning exercise? Vlad Feinberg (@FeinbergVlad) How to land a job at a frontier lab vladfeinberg.com/2026/05/10/… — https://nitter.net/FeinbergVlad/status/2056383124829872466#m",
+      "link": "https://nitter.net/swyx/status/2056478391008977404#m",
+      "published": "Mon, 18 May 2026 20:53:50 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "will post more about (final) day 2 of @aiDotEngineer Singapore soon but memorable highlights i wanted to remember is how @theesabina and @bytheophana (both from nyc) were genuinely shocked and on guard by how friendly people were at the summit 😅 nyc energy clashing w spicy-brain singapore ai scene energy other highlights: - @DelaneSays bringing her 4yo kid to watch the conference!! little ki learning about llms and computer use before algebra, befriending BOTH robots and humans with @waqasmakhdum @DhruvDiddi 😆 - after 15 hours of sleep, first thing i watched was @agrimsingh 's closing speech :')) the 65labs team is an inspiration on how to bring SOUL and HEART to a growing scene - @GeoffreyHuntley giving me great advice on what hats to not be wearing lmao. ty for saving me from getting cancelled by accident && for bringing ur sick hat fashion to the scene - bringing @convex team @waynesutton @mikeysee @existentializzm on a duck tour in singapore!! it'd be so great to see convex land in singapore more permanently :)) - @yoimnotkesku and @adlinzainal fighting over who gets to pay for the volunteers!! kes rly acing the 'singaporean citizenship application' at every turn haha ty @adlinzainal for being the mom of the team :D - went on a dinner tour with newly found aie friends and @ktoya_me suddenly wanting to do a mini-hack with @ElevenLabs and us at AIT, then bumping into @latentclaw who was super SUPPORTIVE OF IT lfg - me realizing there were FOUR AIT ex/current leads in AIE Singapore: @tokengobbler matthiaslubken @Stefania_druga and @Calclavia -- so many community-minded folks doing amazing things! pity i didnt get to meet half of u in person :') - @unprofeshme @adlinzainal sharing their MAXIMALIST, GIFT GIVING love languages and giving me inspiration for future merch - bumping into @minu_who and @hrishioa at the afterparty, and the alcohol-fuelled conversations after 😂 - @brianchew & yiming's quiet but consistent presence in providing for volunteers throughout the entire conf. so much wouldn't've been possible without their help - @rachpradhan planning to post-train a model into making me it's default taste ☠️ - SO MANY inspiring kids who blew me away with their energy and heart, @Shreyansh_Ag1 , @hehuabuilds and @PairieK , @wilsonsfh_ @lavanya_g112 -- this scene is meant for you folks and we hope to see u more often here (or building ur own scenes!) :) - @justinbaird and the tesseract team's lovely heartwarming BCI demo that showed us how tech can meet us where we are, literally :'') - @swyx taking a photo of us in the backstage before putting it on the last slide of his closing speech :'') mentioning @nathanwangliao as his personal chatgpt lol and just as importantly, his hope on what Singapore could be! that every great thing that happened in singapore started off as a shower thought in someone's mind :) - @theesabina 's speech!! i legit thought she was a theatre kid -- by far the best AIE demo i've gotten to hear and soooo soo many notes to take down on what makes something engaging, fun and technical! - @mdda123 being one of the OG HEARTs AND SOULs of the ai scene here :) i see you sir and i thank you for the heart work you've done to bring high signal events to folks - so so many other inspiring folks who have GIVEN so much, and pushed and are continuing to push me to grow as a community lead in ways i never knew were possible really -- im in awe of everyone i got to meet, no matter on . we are the scene, and we'll keep growing larger from here! watch this space 🫡😎 p.s. @theesabina i did not manage to get a @magicpatterns cap!! they look SO GOOD, pity you had to head off so quickly and we'd love to host u whenever you're back. love to try the tools out soon :) @adlinzainal @brianchew @gabrielchua @agrimsingh @SherryYanJiang @unprofeshme @NehallAgrawal @aimuggle @65labslah @ivanleomk",
+      "link": "https://nitter.net/yongquanYQ/status/2056448586855092250#m",
+      "published": "Mon, 18 May 2026 18:55:24 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "The bitter lesson in 26 words: Don’t be distracted by human knowledge, as AI has been historically. Instead focus on methods for creating knowledge that scale with computation, like search and learning.",
+      "link": "https://nitter.net/RichardSSutton/status/2056419165502935198#m",
+      "published": "Mon, 18 May 2026 16:58:30 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "My AI Engineer Singapore journey: Most exciting: First time traveling abroad after joining Z.ai , and my very first English talk on stage. Most challenging: Spoke in a three-speaker session alongside OpenAI and Google DeepMind, with Z.ai presenting third. Survived, and realized that people did like some of the things I shared. Most surprising: Met the @MiniMax_AI team three times, and each time we talked for at least half an hour. Instead of discussing AI, we talked about humans. Most rewarding: Learned a lot from deep conversations with @GeoffreyHuntley , @sarahookr , @picocreator , and many other wonderful guest speakers. Biggest regret: Did not have enough time to talk with everyone I wanted to know. Proudest moment: Stayed until the very end of every event. Got a lot of positive feedback when people had heard of GLM and Z.ai . When they had not, it felt just as meaningful to introduce what we are building. Funniest part: As one of the major sponsors, somehow did not look like a sponsor at all. No booth, no side events, and not much sponsor presence prepared on our side. More like a group of friends showing up to support the community. Thanks to @aiDotEngineer , 65 Labs, all the organizers, speakers, builders, friends, and my team who made these days so memorable. I truly want to @ all of you, but I am afraid I might miss someone, so please take this as an @ from my heart. See you at the next AI Engineer event, and see you again in Singapore soon.",
+      "link": "https://nitter.net/ZixuanLi_/status/2056420468773790104#m",
+      "published": "Mon, 18 May 2026 17:03:40 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
       "text": "Abridge: 100M+ medical conversations, real-time prior auth, and the clinical intelligence layer latent.space/p/abridge @AbridgeHQ is building the clinical intelligence layer for healthcare. In this episode, Janie Lee and @c_asawa explain why ambient documentation was only the first wedge, how Abridge is turning patient conversations into real-time clinical decision support, why healthcare may become one of AI’s most important proving grounds, and how 100M+ medical conversations, specialty-specific evals, and deep EHR integrations create a moat for AI-native healthcare. Video",
       "link": "https://nitter.net/latentspacepod/status/2055050341750902858#m",
       "published": "Thu, 14 May 2026 22:19:17 GMT",
@@ -1092,84 +1164,57 @@
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "🇸🇬 swyx🛬 SFO (@swyx) if you guys come to @aiDotEngineer Singapore i will personally lead a tour to the best cai fan i know! may 15-17 still recruiting a couple speakers, dm if mutuals and want a VIP tour of 🇸🇬 — https://nitter.net/swyx/status/2045737217784684827#m",
-      "link": "https://nitter.net/swyx/status/2056184774256112084#m",
-      "published": "Mon, 18 May 2026 01:27:06 GMT",
-      "author_name": "Shawn Wang",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "swyx",
-      "text": "some of us doing kaya toast breakfast here at 11am if u are still around maps.app.goo.gl/mDBGJd3d4rvz…",
-      "link": "https://nitter.net/swyx/status/2056190797096403162#m",
-      "published": "Mon, 18 May 2026 01:51:02 GMT",
-      "author_name": "Shawn Wang",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "swyx",
-      "text": "hha everyone ive ever met in singapore tech showed up this trip. so nice to see old friends. nitter.net/fayeli_x/status/205621… Faye Li (@fayeli_x) Ohhh I am near by! — https://nitter.net/fayeli_x/status/2056215295061356827#m",
-      "link": "https://nitter.net/swyx/status/2056289097577275530#m",
-      "published": "Mon, 18 May 2026 08:21:39 GMT",
-      "author_name": "Shawn Wang",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "swyx",
-      "text": "the agentic excel thing is basically what u get when u expand the side panel to be the main thing nitter.net/jxnlco/status/20561395… jason (@jxnlco) jason from the codex team here, heres a draft on codex maxxing and the primatives i use on a daily basis jxnl.github.io/blog/writing/… would love any feedback — https://nitter.net/jxnlco/status/2056139571641872765#m",
-      "link": "https://nitter.net/swyx/status/2056201387172843800#m",
-      "published": "Mon, 18 May 2026 02:33:07 GMT",
-      "author_name": "Shawn Wang",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
       "handle": "hwchase17",
-      "text": "This is one of the first real continual learning systems for agents in production. Not just monitoring. Actually getting better over time. Viv (@Vtrivedy10) LangSmith Engine is how we’re spinning the always-on, self-improvement loop for every agent - Tracing is on for every single agent - Purpose built infra with SmithDB to handle data at agent scale (more data than humans have ever produced will be produced by agents) - Ambient agentic intelligence applied to every Trace to find errors, product insights, or anything you want to look for (you can customize Engine to your needs) - PRs and Evals generated from this massive data with human gating/acceptance the data our agents produce is a gold mine of information to make agents and systems better over time the goal is that this flow shows users the first sparks of truly always on Continual Learning for their agents across their entire company — https://nitter.net/Vtrivedy10/status/2056066419360743479#m",
-      "link": "https://nitter.net/genaiupstart/status/2056123175881048353#m",
-      "published": "Sun, 17 May 2026 21:22:20 GMT",
+      "text": "a lot of stuff to be excited about in this release! We're centering on two things to make deepagents great: - how do we make the most performant harness - how do we make it a joy to work with and build on See this writeup on the latest for how we're doing both. Try it out and let us know how we're doing! (dms open!) Sydney Runkle (@sydneyrunkle) x.com/i/article/205640288429… — https://nitter.net/sydneyrunkle/status/2056419909941522687#m",
+      "link": "https://nitter.net/huntlovell/status/2056465854230053058#m",
+      "published": "Mon, 18 May 2026 20:04:01 GMT",
       "author_name": "Harrison Chase",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
       "handle": "hwchase17",
-      "text": "LangSmith Engine is how we’re spinning the always-on, self-improvement loop for every agent - Tracing is on for every single agent - Purpose built infra with SmithDB to handle data at agent scale (more data than humans have ever produced will be produced by agents) - Ambient agentic intelligence applied to every Trace to find errors, product insights, or anything you want to look for (you can customize Engine to your needs) - PRs and Evals generated from this massive data with human gating/acceptance the data our agents produce is a gold mine of information to make agents and systems better over time the goal is that this flow shows users the first sparks of truly always on Continual Learning for their agents across their entire company Dillon Hong (@dillonhong) How’re you doing this flow in langsmith? — https://nitter.net/dillonhong/status/2056047230461575203#m",
-      "link": "https://nitter.net/Vtrivedy10/status/2056066419360743479#m",
-      "published": "Sun, 17 May 2026 17:36:48 GMT",
+      "text": "In case you're not following the @LangChain_OSS team, here's who to follow! Sydney Runkle (@sydneyrunkle) @masondrxy and @Vtrivedy10 are doing an awesome push on harness profiles @huntlovell doing cool stuff w code interpreter / REPL @bromann leading the charge on streaming our OSS team is stacked! — https://nitter.net/sydneyrunkle/status/2056432695023133049#m",
+      "link": "https://nitter.net/LangChain/status/2056469447322284047#m",
+      "published": "Mon, 18 May 2026 20:18:18 GMT",
       "author_name": "Harrison Chase",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
       "handle": "hwchase17",
-      "text": "build v1 of agent ship it (dogfooding counts) ⭐️ collect tracing data ⭐️ ⭐️⭐️ point agentic compute at data ⭐️⭐️ understand failures at scale generate evals edit agent to pass evals 🔁",
-      "link": "https://nitter.net/Vtrivedy10/status/2055895763398623696#m",
-      "published": "Sun, 17 May 2026 06:18:41 GMT",
+      "text": "So many exciting new changes!!! Sydney Runkle (@sydneyrunkle) x.com/i/article/205640288429… — https://nitter.net/sydneyrunkle/status/2056419909941522687#m",
+      "link": "https://nitter.net/BraceSproul/status/2056457317709988087#m",
+      "published": "Mon, 18 May 2026 19:30:06 GMT",
       "author_name": "Harrison Chase",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
       "handle": "hwchase17",
-      "text": "I like what Langchain recently released in their deepagents harness, which is an adapter to modify the syntax of primitive file system commands depending on the model Claude likes “Bash”, Gemini likes “execute” etc The harness should adapt to the model and then as long as the model sticks to one syntax it will be effective in any harness",
-      "link": "https://nitter.net/craig_certo/status/2055769287231689166#m",
-      "published": "Sat, 16 May 2026 21:56:07 GMT",
+      "text": "when evaluating long running agents, all of your evals don't need to be end to end. i'm working on a proper blog about this, but in our evals for our agents that run for 30-60 minutes, we have two sets of evals. the first is end to end, provide inputs and llm as a judge over outputs. the second are incremental. in the end to end flow, there's probably 4-5 incremental steps and/or decisions that dictate how the agent performs. we write both sets of evals! one is for confidence in our overall system, and the other is confidence in the reproducibility of our agent behavior.",
+      "link": "https://nitter.net/palashshah/status/2056449711767265420#m",
+      "published": "Mon, 18 May 2026 18:59:52 GMT",
       "author_name": "Harrison Chase",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
       "handle": "hwchase17",
-      "text": "Harness profiles! docs.langchain.com/oss/pytho… Craig Certo (@craig_certo) I like what Langchain recently released in their deepagents harness, which is an adapter to modify the syntax of primitive file system commands depending on the model Claude likes “Bash”, Gemini likes “execute” etc The harness should adapt to the model and then as long as the model sticks to one syntax it will be effective in any harness — https://nitter.net/craig_certo/status/2055769287231689166#m",
-      "link": "https://nitter.net/masondrxy/status/2055833179337166889#m",
-      "published": "Sun, 17 May 2026 02:10:00 GMT",
+      "text": "Today in AI Engineering (May 17) • Nous Research ships Hermes Agent v0.14.0: Grok subs, Codex runtime, Windows beta • LangSmith Engine releases trace issue clustering, drafts PRs and evals from prod traces • OpenBMB releases MiniCPM-o 4.5: 9B full-duplex audio, video, text under 12GB RAM • Qwen3.6 and Gemma 4 hit 40 to 65 tok/s locally on M3 Ultra, iPhone 17 Pro, 4x A4000 • Google DeepMind posts agent-web attack results: hidden prompts, memory poison, 80%+ hits • OpenAI fixes Codex usage sync bug, restores balances after a 2-hour subscriber lockout • Nous Research ships Hermes Agent v0.14.0: LINE, native video generation, OpenAI Codex • TanStack AI adds AG-UI interop: any TanStack client can talk to any AG-UI server • Pi raises minimum Node.js to 22.19.0, ships fix for Undici login breakage on Node 26 • Kilo Code launches cloud-agent CVE PR and smoke-test workflows with webhook triggers",
+      "link": "https://nitter.net/aidailyprimer/status/2056257403432091956#m",
+      "published": "Mon, 18 May 2026 06:15:43 GMT",
       "author_name": "Harrison Chase",
       "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "jeremyphoward",
+      "text": "Literary journals are now publishing, and awarding prizes to, AI written stories. Surprised this made it into Granta! Commonwealth Foundation Creatives (@cwfcreatives) ‘The Serpent in the Grove’ by Jamir Nazir is a story set in rural Trinidad about a struggling farmer, a silenced young wife and a grove that seems to remember what others try to bury. Awarded the Caribbean regional winner title for its lyrical precision and haunting atmosphere, the story stood out for the confidence and restraint of its voice. The story has been published on Granta: granta.com/the-serpent-in-th… — https://nitter.net/cwfcreatives/status/2055634458267517126#m",
+      "link": "https://nitter.net/allgarbled/status/2056394827315708285#m",
+      "published": "Mon, 18 May 2026 15:21:47 GMT",
+      "author_name": "Jeremy Howard",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
@@ -1209,55 +1254,46 @@
       "source_lang": "en"
     },
     {
-      "handle": "jeremyphoward",
-      "text": "I strongly believe there are entire companies right now under heavy AI psychosis and its impossible to have rational conversations about it with them. I can't name any specific people because they include personal friends I deeply respect, but I worry about how this plays out. I lived through the great MTBF vs MTTR (mean-time-between-failure vs. mean-time-to-recovery) reckoning of infrastructure during the transition to cloud and cloud automation. All those arguments are rearing their ugly heads again but now its... the whole software development industry (maybe the whole world, really). It's frightening, because the psychosis folks operate under an almost absolute \"MTTR is all you need\" mentality: \"its fine to ship bugs because the agents will fix them so quickly and at a scale humans can't do!\" We learned in infrastructure that MTTR is great but you can't yeet resilient systems entirely. The main issue is I don't even know how to bring this up to people I know personally, because bringing this topic up leads to immediately dismissals like \"no no, it has full test coverage\" or \"bug reports are going down\" or something, which just don't paint the whole picture. We already learned this lesson once in infrastructure: you can automate yourself into a very resilient catastrophe machine. Systems can appear healthy by local metrics while globally becoming incomprehensible. Bug reports can go down while latent risk explodes. Test coverage can rise while semantic understanding falls. Changes happens so fast that nobody notices the underlying architecture decaying. I worry.",
-      "link": "https://nitter.net/mitchellh/status/2055380239711457578#m",
-      "published": "Fri, 15 May 2026 20:10:10 GMT",
-      "author_name": "Jeremy Howard",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
       "handle": "levelsio",
-      "text": "✈️ Kinda hard to see but I also started adding flight paths Because I realized every time I was in some either hipster or ghetto it also had lots of planes landing or taking off above me I don't know if there's a correlation but living there I wouldn't trust all the aviation fuel being sprayed above my head Will add for all cities with airports! 😊 regexreg (@regexreg) wish I had known of hoodmaps before buying my apartment... it is regrettably accurate 💀 — https://nitter.net/regexreg/status/2056144576306413700#m",
-      "link": "https://nitter.net/levelsio/status/2056149195824717881#m",
-      "published": "Sun, 17 May 2026 23:05:44 GMT",
+      "text": "Probably the biggest indie hacker now and still fully bootstrapped is @yasser_elsaid_ Making $10,000,000 in ARR Absolutely insane! Also a super super nice guy if you ever met him in IRL, so humble and fun to hang with, really cool guy (And of course I'm jealous of his ARR in a good way, it's very very inspiring esp since it's a single project) Yasser (@yasser_elsaid_) We just crossed $10M in ARR at @Chatbase ! 🎉 🎉 And today, we're launching Chatbase as the full harness for customer-facing AI agents. Similar to how Claude code is a harness for coding agents, Chatbase is the harness for customer experience agents. That means we give the model the context, tools, workflows, guardrails, and human-in-the-loop systems to be the best ambassador for your brand. It's going beyond just solving issues and is giving your customers the best experiences across every channel. This is a milestone I have been thinking about and obsessed with since day 1, and I am super excited to bring my vision for customer facing agents to life with Chatbase. Thank you to every one of our customers and to the amazing Chatbase team for getting us here! Next stop: $100M ARR Video — https://nitter.net/yasser_elsaid_/status/2056394356769366166#m",
+      "link": "https://nitter.net/levelsio/status/2056473054549598263#m",
+      "published": "Mon, 18 May 2026 20:32:38 GMT",
       "author_name": "Pieter Levels",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
       "handle": "levelsio",
-      "text": "Depending how you measure the crime area in Barcelona's center is even bigger though, but it's more pickpocketing in the Gothic Quarter than violent crime, but still... What you see is European cities are starting to mirror cities in the United States now: ask any American and of course you avoid the downtown, it's always crime, drugs and poverty Historically this was NOT the case in Europe! Downtown areas in European capitals were historical and beautiful, now they're overrun by crime and starting to be no-go zones @levelsio (@levelsio) 🇪🇸 Barcelona is particularly interesting The tourist center used to be just pickpockets targeting tourists, but now you have the highest crime rate in El Raval with drug dens/squats (narco piso), violent robberies and stabbings The problem as a tourist in a new city you'd never know that because Google Maps doesn't tell you But Hoodmaps does 😊 — https://nitter.net/levelsio/status/2056143272427639235#m",
-      "link": "https://nitter.net/levelsio/status/2056145621782839526#m",
-      "published": "Sun, 17 May 2026 22:51:32 GMT",
+      "text": "Oh and finance & banking of course nitter.net/TMTLongShort/status/20… Just Another Pod Guy (@TMTLongShort) You forgot about finance 😉 — https://nitter.net/TMTLongShort/status/2056440841158136280#m",
+      "link": "https://nitter.net/levelsio/status/2056454916969726393#m",
+      "published": "Mon, 18 May 2026 19:20:33 GMT",
       "author_name": "Pieter Levels",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
       "handle": "levelsio",
-      "text": "🇪🇸 Barcelona is particularly interesting The tourist center used to be just pickpockets targeting tourists, but now you have the highest crime rate in El Raval with drug dens/squats (narco piso), violent robberies and stabbings The problem as a tourist in a new city you'd never know that because Google Maps doesn't tell you But Hoodmaps does 😊 @levelsio (@levelsio) 🫆 Hoodmaps.com now also has crime data! Very important in European capitals nowadays to tell you which neighborhoods to avoid The terrorist attack of yesterday in Modena, Italy was just on the edge of a set of three very unsafe neighborhoods Now available for most cities! — https://nitter.net/levelsio/status/2056125732779417614#m",
-      "link": "https://nitter.net/levelsio/status/2056143272427639235#m",
-      "published": "Sun, 17 May 2026 22:42:12 GMT",
+      "text": "Try it out! (Partially trained on Colossus 2) Cursor (@cursor_ai) Introducing Composer 2.5, our most powerful model yet. It's more intelligent, better at sustained work on long-running tasks, and more reliable at following complex instructions. For the next week, we’re doubling the included usage of the model. — https://nitter.net/cursor_ai/status/2056415413077233983#m",
+      "link": "https://nitter.net/elonmusk/status/2056422097237283295#m",
+      "published": "Mon, 18 May 2026 17:10:09 GMT",
       "author_name": "Pieter Levels",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
       "handle": "levelsio",
-      "text": "Tell your clanker to set it up and link them this: litestream.io/getting-starte…",
-      "link": "https://nitter.net/levelsio/status/2056134869747429615#m",
-      "published": "Sun, 17 May 2026 22:08:48 GMT",
+      "text": "In a way I think the top tech companies have just vacuumed up all the top talent worldwide for such great salaries + equity (for $500K to millions $ per year) And the top tech companies also have built such a great talent acquisition funnel that everyone else in the world who isn't working for top tech is either 1) already rich and retired, 2) a founder already or 3) just not good enough @levelsio (@levelsio) This is the case in many industries now I think The quality of people's work is so low that you just simply can't hire for most things anymore, hiring is a net negative because you pay people to do the things you want them to do but they will do them wrong So hiring now is kinda like doing charity work because all you do is pay people lots of money + lots of tax, and then all you do is teach people stuff (training) but then when they're good they just leave anyway But then at the same time AI isn't good enough to do most of these human things well (yet) — https://nitter.net/levelsio/status/2056416769800020449#m",
+      "link": "https://nitter.net/levelsio/status/2056417576222122033#m",
+      "published": "Mon, 18 May 2026 16:52:11 GMT",
       "author_name": "Pieter Levels",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
       "handle": "levelsio",
-      "text": "💾 Finally set up @Litestreamio for the first time on 🏡 Interior AI to test It is open source and free and lets you add kind of a listener to your SQLite db which is constantly making a live copy of your databases to any S3-compatible bucket In my case I use Cloudflare's R2 In this case if I have a server failure, I have a literally as fresh as possible copy of my SQLite databases (which is the only db I use on all my sites) This is in addition to local provider backups, daily external backups, and cold storage off-site backups I have (e.g. the 3-2-1 Backup Rule!) Will let you know how it goes but it was VERY easy to set up so I can recommend it to anyone who uses SQLite!",
-      "link": "https://nitter.net/levelsio/status/2056134780186460406#m",
-      "published": "Sun, 17 May 2026 22:08:27 GMT",
+      "text": "This is the case in many industries now I think The quality of people's work is so low that you just simply can't hire for most things anymore, hiring is a net negative because you pay people to do the things you want them to do but they will do them wrong So hiring now is kinda like doing charity work because all you do is pay people lots of money + lots of tax, and then all you do is teach people stuff (training) but then when they're good they just leave anyway But then at the same time AI isn't good enough to do most of these human things well (yet) 🧞‍♂️Martin Donadieu - oss/acc (@martindonadieu) very hard to find people with hight agency to be honest, you mostly need to equip them with tools before it start working... have you tried AI agent it worked kinda to me, now i gave up and do manually again — https://nitter.net/martindonadieu/status/2056410449323704776#m",
+      "link": "https://nitter.net/levelsio/status/2056416769800020449#m",
+      "published": "Mon, 18 May 2026 16:48:58 GMT",
       "author_name": "Pieter Levels",
       "category_hint": "builder",
       "source_lang": "en"
@@ -1309,6 +1345,42 @@
     },
     {
       "handle": "amasad",
+      "text": "CEO and co-founder of Replit, @amasad is building the platform that makes coding accessible to billions, from kids creating school projects to enterprises running their business. See him take the stage with Spike Jonze on day one of Vibecon. NYC, June 17–18. Get your tickets at vibecon.ai",
+      "link": "https://nitter.net/Replit/status/2056480151530016911#m",
+      "published": "Mon, 18 May 2026 21:00:50 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "Still blown away daily by just how good @Replit is. The orchestration of models is way beyond what anyone else is doing.",
+      "link": "https://nitter.net/realfunnyeric/status/2056452771436793983#m",
+      "published": "Mon, 18 May 2026 19:12:02 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "Design with Replit, build taste James Leong (@jleongphoto) Replit is my UI/UX designer As a creative director creating design languages is faster than ever. Hop into canvas and start building live useable components harnessing Swift, Shadcn/ui to use in any future site ask agent to take it and make it a skill Taste over everything — https://nitter.net/jleongphoto/status/2056432236237631754#m",
+      "link": "https://nitter.net/zhenthebuilder/status/2056445559540707452#m",
+      "published": "Mon, 18 May 2026 18:43:22 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "@Replit can save you money if you know how to prompt correctly and research your needs. I can now track traffic for all my sites the way I want and need to, without paying someone else. It took me longer to add the tracker info in all the sites than to build this data site.",
+      "link": "https://nitter.net/ahorne/status/2056429975167734055#m",
+      "published": "Mon, 18 May 2026 17:41:27 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
       "text": "What SMBs are building Codie Sanchez (@Codie_Sanchez) You don’t need to build the next J.A.R.V.I.S. You need to build useful tools to make businesses more efficient (data from @replit ): — https://nitter.net/Codie_Sanchez/status/2055716686628573549#m",
       "link": "https://nitter.net/amasad/status/2056083305468944820#m",
       "published": "Sun, 17 May 2026 18:43:54 GMT",
@@ -1317,38 +1389,29 @@
       "source_lang": "en"
     },
     {
-      "handle": "amasad",
-      "text": "A lot of software will become cheap and free. Especially single user point solutions. E.g., we replaced a $4000/yr email marketing tool with one I created on Replit in < 1 hour because the old tool was stale with no AI or integrations. What I built is 10x better and also saves us hours a week now. But, a lot of software is too complex for now to go anywhere. Salesforce has become more integral to our AI Agent stack than before. It’s become our hub and our 20+ AI Agents all run on it. It’s hard to predict right now. What I do think will soon happen is your AI Agents will build simpler apps on their own, essentially invisibly, and just share the outputs and results with you. You won’t even know some software has even been built for you. Your Agents will handle it effortlessly and invisibly. You won’t even know they’ve build apps for you. E.g., we build an AI Parking App distribution app for 5,000 parking pass apps at SaaStr AI Annual this year inside of 10K, our AI VP Marketing. It saved us weeks of work. It’s great. But by next year, I think 10K might just automously build it on its own and we might not even realize it was an app 10K built, tested and deployed. It would just tell us the problem was … solved. Rohan Paul (@rohanpaul_ai) Anthropic CEO Dario Amodei : \"Software is going to become cheap, maybe essentially free. The premise that you need to amortize a piece of software you build across millions of users, that may start to be false. But at the same time, there are whole jobs, whole careers that we've built for decades that may not be present. And, you know, I think we can deal with it. I think we can adjust to it. But I don't, I don't think there's an awareness at all of what, of what is coming here and the magnitude of it.\" --- From \"The Wall Street Journal\" YT channel (link in comment) Video — https://nitter.net/rohanpaul_ai/status/2055841486714147177#m",
-      "link": "https://nitter.net/jasonlk/status/2056034311594475666#m",
-      "published": "Sun, 17 May 2026 15:29:13 GMT",
-      "author_name": "Amjad Masad",
+      "handle": "nickadobos",
+      "text": "GPT 5.5 loves random extra labels Opus 4.7 loves random extra comments Ethan Mollick (@emollick) One thing to watch for with Claude & GPT is that the models expose too much irrelevant history in their outputs. Slides are given footers saying things like \"Better, more targeted version\" if you asked for a better version, documents make references to how they are improved, etc — https://nitter.net/emollick/status/2056387958760939592#m",
+      "link": "https://nitter.net/NickADobos/status/2056428153850204484#m",
+      "published": "Mon, 18 May 2026 17:34:13 GMT",
+      "author_name": "Nick Dobos",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "amasad",
-      "text": "still thinking about yesterday 🥹 so grateful I got to speak at @artistatmachine on behalf of @Replit and demo what we’ve been building! it was so fun getting to share the stage with Andy and Teresa as they showed their own Replit-built projects too. such a cool room of creative tech people!",
-      "link": "https://nitter.net/sarahli/status/2055384060005064980#m",
-      "published": "Fri, 15 May 2026 20:25:21 GMT",
-      "author_name": "Amjad Masad",
+      "handle": "nickadobos",
+      "text": "Netflix clips reels TikTok feed Interesting move. Odd since none of their content is setup to be clipped like this.",
+      "link": "https://nitter.net/NickADobos/status/2056426171135590684#m",
+      "published": "Mon, 18 May 2026 17:26:20 GMT",
+      "author_name": "Nick Dobos",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "amasad",
-      "text": "Music meets code. Vibecon takes over NYC June 17–18, with performances built at the intersection of software and stage. Two days where the work doesn't sit still. Get your tickets at vibecon.ai",
-      "link": "https://nitter.net/Replit/status/2055392846937485385#m",
-      "published": "Fri, 15 May 2026 21:00:16 GMT",
-      "author_name": "Amjad Masad",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "amasad",
-      "text": "Check out My second app now on Apple! Made completely in @Replit while adding some of my own hand-drawn characters 💚 Link : apps.apple.com/gb/app/bamboo…",
-      "link": "https://nitter.net/Noni_Bamboo/status/2055319136612278624#m",
-      "published": "Fri, 15 May 2026 16:07:22 GMT",
-      "author_name": "Amjad Masad",
+      "handle": "nickadobos",
+      "text": "Imagining a future where environmentalists protest datacenters being covered in olive oil because it’s a waste of olives and taking food from humans GFrei.News (@GFreiNews) Vor genau einem Jahr habe ich einen Raspberry Zero2 W in Paraffinöl versenkt. Das Öl sorgt dafür, dass der Prozessor auch unter Höchstlast kaum wärmer wird als Zimmertemperatur. Seitdem berechnet er mit einem BOINC-Client für die Mathematisch-Physikalische Fakultät in Prag 24/7 Asteroidendaten. So ermitteln wir die Umlaufbahnen aller Asteroiden und wissen, wo die ihre Bahnen ziehen und auch, ob wir uns Sorgen machen müssen, dass uns einer in Zukunft trifft. Ein genau baugleicher Zero2 W mit genau der gleichen Software führt genau die gleiche Aufgabe ungekühlt aus. Und jetzt stellt sich die Frage: Macht perfekte Kühlung einen Leistungsunterschied aus? Und die Antwort ist: Ja! Und zwar signifikant! – 5,97 % So das wäre auch geklärt. 😀 — https://nitter.net/GFreiNews/status/2056060930967154970#m",
+      "link": "https://nitter.net/NickADobos/status/2056382349030662567#m",
+      "published": "Mon, 18 May 2026 14:32:12 GMT",
+      "author_name": "Nick Dobos",
       "category_hint": "builder",
       "source_lang": "en"
     },
@@ -1371,30 +1434,30 @@
       "source_lang": "en"
     },
     {
-      "handle": "nickadobos",
-      "text": "As computers get smarter cavemanmaxxing will get more trendy. Humans will act more brutish, stupid, and ditsy to sound more imperfect authentic and more humanlike.",
-      "link": "https://nitter.net/NickADobos/status/2056052003105845459#m",
-      "published": "Sun, 17 May 2026 16:39:31 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
+      "handle": "emollick",
+      "text": "I broke my own rule to never post about AI detection as it is fraught in many ways. The problem is that if you use AI a lot, you know AI writing on sight, which makes the difficulty of objectively proving that AI use to others very frustrating",
+      "link": "https://nitter.net/emollick/status/2056481213536190811#m",
+      "published": "Mon, 18 May 2026 21:05:03 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "nickadobos",
-      "text": "Robots are going to have muscles stronger and faster than you Imagine trying to shoot a robot and it pulls a Neo dodging bullets in the matrix “Another configuration launched objects in under 100 milliseconds, which is faster than a human flinch reflex.” Milk Road AI (@MilkRoadAI) This is WILD! MIT just solved one of the hardest unsolved problems in robotics (Save this). For decades, the fundamental problem with soft robots and wearable exoskeletons has not been compute or AI, it has been actuation. The moment you try to give a soft robot meaningful strength, you run into the same wall every engineer has hit since the field began, fluid-driven systems require external pumps, hydraulic reservoirs, and heavy infrastructure that makes the entire thing impractical to wear or embed into fabric. MIT's new Electrofluidic Fiber Muscles solve that problem by eliminating external infrastructure entirely. The key insight is electrohydrodynamic pumping using electric fields to generate pressure directly from electricity, with no moving parts, no motors, and no external fluid reservoir. The fibers are less than 2 millimeters thick, can be woven into fabric like ordinary textile, and operate in complete silence because nothing physically moves inside them, it is just ions propelling fluid through a closed circuit. The performance numbers published in Science Robotics are not conceptual, they are empirical results from actual hardware. These fibers achieve a power density of 50 watts per kilogram, matching skeletal muscle, with a contraction strain of 20% and a response time of 0.3 seconds. A single bundled configuration lifted 4 kilograms, 200 times its own weight while a separate configuration drove a robotic arm through a 40-degree bend compliant enough to safely complete a human handshake. Another configuration launched objects in under 100 milliseconds, which is faster than a human flinch reflex. The design mirrors biological muscle architecture in a way that prior artificial muscle approaches never achieved. The fibers are organized into antagonistic pairs, one contracts while the other extends, exactly like biceps and triceps and because the system runs in a closed loop, the relaxing fiber serves as the fluid reservoir for the contracting one, which is what allows the whole system to operate untethered with no external tank. The applications are not hypothetical but rather are the exact use cases the industry has been waiting years for the hardware to catch up to. Exoskeletons for physical labor, prosthetic limbs that move with the natural compliance of biological tissue, assistive garments for patients with motor disorders, and soft robots capable of safe physical contact with humans are all immediately unlocked by a muscle technology that is silent, lightweight, and weavable into clothing. The deeper significance is what this technology does when it meets the AI robotics wave that is already underway. Every major humanoid robot program, Figure, 1X, Boston Dynamics, Tesla Optimus is currently bottlenecked by the same hardware limitations these fibers address, actuators that are too rigid, too loud, too heavy, or too dependent on infrastructure to operate naturally alongside humans. Electrofluidic fiber muscles do not just solve a materials science problem but rather they remove one of the last physical barriers between robots that live in labs and robots that live in the world. Video — https://nitter.net/MilkRoadAI/status/2055295733511630879#m",
-      "link": "https://nitter.net/NickADobos/status/2055659421913718885#m",
-      "published": "Sat, 16 May 2026 14:39:33 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
+      "handle": "emollick",
+      "text": "Its a consistent theory-of-mind failure in models that are otherwise suprisingly good at theory-of-mind",
+      "link": "https://nitter.net/emollick/status/2056389356701515989#m",
+      "published": "Mon, 18 May 2026 15:00:03 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "nickadobos",
-      "text": "aquarium in terminal Video Ramin Nasibov (@RaminNasibov) aquarium in keyboard Video — https://nitter.net/RaminNasibov/status/2055344983125668289#m",
-      "link": "https://nitter.net/JinjingLiang/status/2055435239187726829#m",
-      "published": "Fri, 15 May 2026 23:48:43 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
+      "handle": "emollick",
+      "text": "One thing to watch for with Claude & GPT is that the models expose too much irrelevant history in their outputs. Slides are given footers saying things like \"Better, more targeted version\" if you asked for a better version, documents make references to how they are improved, etc",
+      "link": "https://nitter.net/emollick/status/2056387958760939592#m",
+      "published": "Mon, 18 May 2026 14:54:29 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
@@ -1411,33 +1474,6 @@
       "text": "I don’t think, I know. I can also weave better than Athena. IronRed | SandHive (@IronRedSandHive) Bold of you to think you can outshine Homer. — https://nitter.net/IronRedSandHive/status/2056106876958302549#m",
       "link": "https://nitter.net/emollick/status/2056152645539160151#m",
       "published": "Sun, 17 May 2026 23:19:26 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "emollick",
-      "text": "So the two most obvious barriers to some sort of true AI takeoff are robust RSI (AI acting as an independent AI researcher, rather than “merely” a multiplier of human effort) and continual learning. Either would represent a major change in trajectory for AI development.",
-      "link": "https://nitter.net/emollick/status/2056139569087627635#m",
-      "published": "Sun, 17 May 2026 22:27:29 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "emollick",
-      "text": "And, yes, our experiments used a mix of GPT-4 & GPT-4o (publishing takes awhile). I think we would see much larger results with more recent models, let alone recent agentic tools. Lukas Freund (@_LukasFreund_) \"The Cybernetic Teammate\" is a fascinating field experiment by a superstar team of researchers, including @raffasadun @emollick 💡The bottom-line: This field experiment suggests that one way in which AI can yield productivity benefits is not dissimilar from the way in which team production among humans can boost performance: by providing above-average performance in the tasks where workers have limited skills. This points to lessons about the contexts in which AI productivity gains should be relatively greater. 🧱 Randomly assign professionals at a large company to work either with or without AI, and either individually or teamed up with another human colleague. 👉Individuals with AI matched the performance of human teams without AI. In particular, while individuals working alone tend to produce “unbalanced” solutions that favor their individual expertise. 🧪My reading (through the lens of the theory of Superstar Teams I've worked on): The \"AI as a teammate\" perspective also yields testable predictions regarding the conditions under which AI can boost productivity: AI productivity gains should be greater when (i) humans are more specialized (i.e. they're productivity varies across the tasks bundled together into their job), (ii) AI capabilities are negatively correlated with human skills (i.e., best at the tasks the human/humans are worst at), and (iii) their overall capability is comparable (to avoid weak-link effects). — https://nitter.net/_LukasFreund_/status/2055597520710180931#m",
-      "link": "https://nitter.net/emollick/status/2056137281715556459#m",
-      "published": "Sun, 17 May 2026 22:18:23 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "emollick",
-      "text": "“Data centers create economic activity, especially in directly related sectors and during construction, and they are associated with larger county-level income aggregates. They also raise electricity prices and are associated with higher house prices,” NBER (@nberpubs) Growth in data centers—driven in part by rising AI demand—boosts local employment, wages, income, and house prices, while also increasing electricity prices, from Fernando E. Alvarez, @dargente05 , Joyce Chow, and @dianavanpatten nber.org/papers/w35194 — https://nitter.net/nberpubs/status/2056117654989971646#m",
-      "link": "https://nitter.net/emollick/status/2056136463201300572#m",
-      "published": "Sun, 17 May 2026 22:15:08 GMT",
       "author_name": "Ethan Mollick",
       "category_hint": "educator",
       "source_lang": "en"
@@ -1579,6 +1615,24 @@
     },
     {
       "handle": "julien_c",
+      "text": "the gpu crunch is real Yuchen Jin (@Yuchenj_UW) GPU shortage is worse than ever. H100s cost more today than they did 3 years ago, and you cannot get them on-demand. The big AI labs have locked up most of the supply for years. I’m worried university researchers and individual developers simply won’t be able to get GPUs. — https://nitter.net/Yuchenj_UW/status/2056218976913694879#m",
+      "link": "https://nitter.net/julien_c/status/2056363590622286002#m",
+      "published": "Mon, 18 May 2026 13:17:40 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Releasing my first kernel on @huggingface : MaxSim Late-interaction retrieval (ColBERT / PyLate) bottlenecks on materializing the full similarity matrix. This kernel avoids it by using tiled scoring with simdgroup_matrix (Metal) and WMMA. Result is 3–5× speedup compared to naive PyTorch. Try it out 👇",
+      "link": "https://nitter.net/ErikKaum/status/2056338682416701455#m",
+      "published": "Mon, 18 May 2026 11:38:41 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
       "text": "To this day I still don't understand why there is no ChatGPT or Claude or any other voice app on the Apple Watch, even though it looks like the perfect form factor.",
       "link": "https://nitter.net/julien_c/status/2055919184651989483#m",
       "published": "Sun, 17 May 2026 07:51:45 GMT",
@@ -1600,24 +1654,6 @@
       "text": "Friday project: Readable rewrite of the hardware-detection module behind @midudev 's canirun-ai. Same heuristics, shaders & spec tables — just descriptive names + JSDoc. github.com/julien-c/canirun.…",
       "link": "https://nitter.net/julien_c/status/2055292583778095402#m",
       "published": "Fri, 15 May 2026 14:21:52 GMT",
-      "author_name": "Julien Chaumond",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "julien_c",
-      "text": "you friday reminder to `hf update` ⤵️",
-      "link": "https://nitter.net/julien_c/status/2055269193705046494#m",
-      "published": "Fri, 15 May 2026 12:48:55 GMT",
-      "author_name": "Julien Chaumond",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "julien_c",
-      "text": "lance for robotics ? 👀",
-      "link": "https://nitter.net/lhoestq/status/2055174521926111713#m",
-      "published": "Fri, 15 May 2026 06:32:43 GMT",
       "author_name": "Julien Chaumond",
       "category_hint": "fr",
       "source_lang": "en"
@@ -1669,15 +1705,6 @@
     },
     {
       "handle": "rowancheung",
-      "text": "Meta is planning to power its AI data centers with solar energy beamed from space. If it works, solar farms could produce power 24/7 without batteries or backup generators. The company behind it all is Overview Energy -- they want to launch 1,000 satellites into orbit, 22,000 miles above the equator, where sunlight is constant. For context, Meta's data centers used over 18,000 gigawatt-hours of electricity last year. Enough to power 1.7 million American homes for a year. Each satellite collects solar energy, converts it into a wide beam of near-infrared light, and aims it at existing solar farms on the ground. The farms convert the light into electricity, just like they do with sunlight. Unlike high-power lasers or microwave beams, this infrared light is safe enough to stare directly into. Solar farms normally sit idle at night, so this system fixes that... from space. Really fascinating tech. Video",
-      "link": "https://nitter.net/rowancheung/status/2051320518905930208#m",
-      "published": "Mon, 04 May 2026 15:18:18 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
       "text": "Source via Meta: about.fb.com/news/2026/04/po… I break down stories like this every day in my free newsletter. Keep up with the latest in AI/Robotics in 5 min a day: therundown.ai/subscribe",
       "link": "https://nitter.net/rowancheung/status/2051320531639746888#m",
       "published": "Mon, 04 May 2026 15:18:21 GMT",
@@ -1687,9 +1714,18 @@
     },
     {
       "handle": "rowancheung",
-      "text": "I'm hiring someone to help me build the \"Reddit for AI use cases.\" People are dying to hear from REAL people actually doing REAL work with AI. They don't care about how execs, influencers, or hype chasers are 'using AI'. A few months ago, we launched our Community Use Cases feature in The Rundown: At the end of every newsletter, we showcase how a reader is using AI to work smarter, save time, or make life easier. We didn't think much of it, just a cool way to highlight the community. Well, it became one of the biggest hits the newsletter has ever had. Now I get daily messages asking us to expand it... so we are. The plan: build Reddit for AI use cases. We have the most active and engaged AI-interested audience in the world, with millions of daily readers. Your job is to figure out how they're actually using AI, then incentivize them to share it. Basically, the friend everyone texts when they hear about a new AI thing... but you're building an entire community of them. Here's what I'm looking for: > Someone who thrives in scrappy environments with great communication skills > Has built online communities at scale before > Energized by the idea of interviewing thousands of real people about how AI is actually changing their work This is NOT an easy role. You'll interview thousands of people, gather data points, and dig into their real AI struggles. If that sounds fun rather than overwhelming, you're probably who I'm looking for. Link below to apply! Rowan Cheung (@rowancheung) I'm HIRING 5 more people to help me build the future of AI media. The Rundown is closing in on 3M active readers, and the demand is far outpacing what we can handle. $2,000 referral bonus if you help us find someone we hire full-time. Open roles: > Head of Content -- lead the editorial team that reaches millions every day > Head of Sales -- run a scrappy sales team and revenue strategy across our media properties > Community Lead -- turn our 3M+ readership into the \"Reddit for AI use cases\" > Ad Creative Strategist -- research and ship ad creatives that hook the next million AI-curious readers > Branded Content Editor -- turn brands into stories our readers actually want to read What we're looking for among all roles: > Deep AI curiosity (you've already replaced part of your workflow with agents) > Unreasonably biased toward action > Taste sharp enough to spot great work (and AI slop) All roles are fully remote. Link below to apply! — https://nitter.net/rowancheung/status/2048767013472833869#m",
-      "link": "https://nitter.net/rowancheung/status/2049872641889087549#m",
-      "published": "Thu, 30 Apr 2026 15:24:57 GMT",
+      "text": "Meta is planning to power its AI data centers with solar energy beamed from space. If it works, solar farms could produce power 24/7 without batteries or backup generators. The company behind it all is Overview Energy -- they want to launch 1,000 satellites into orbit, 22,000 miles above the equator, where sunlight is constant. For context, Meta's data centers used over 18,000 gigawatt-hours of electricity last year. Enough to power 1.7 million American homes for a year. Each satellite collects solar energy, converts it into a wide beam of near-infrared light, and aims it at existing solar farms on the ground. The farms convert the light into electricity, just like they do with sunlight. Unlike high-power lasers or microwave beams, this infrared light is safe enough to stare directly into. Solar farms normally sit idle at night, so this system fixes that... from space. Really fascinating tech. Video",
+      "link": "https://nitter.net/rowancheung/status/2051320518905930208#m",
+      "published": "Mon, 04 May 2026 15:18:18 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "By the way, if you want to work with me but don't think the above role is the *perfect* fit, I'm also hiring 4 other roles: > Head of Content > Head of Sales > Ad Creative Strategist > Branded Content Editor Check it out: jobs.therundown.ai/jobs?filt…",
+      "link": "https://nitter.net/rowancheung/status/2049873841065709885#m",
+      "published": "Thu, 30 Apr 2026 15:29:43 GMT",
       "author_name": "Rowan Cheung",
       "category_hint": "news",
       "source_lang": "en"
@@ -1705,61 +1741,60 @@
     },
     {
       "handle": "rowancheung",
-      "text": "By the way, if you want to work with me but don't think the above role is the *perfect* fit, I'm also hiring 4 other roles: > Head of Content > Head of Sales > Ad Creative Strategist > Branded Content Editor Check it out: jobs.therundown.ai/jobs?filt…",
-      "link": "https://nitter.net/rowancheung/status/2049873841065709885#m",
-      "published": "Thu, 30 Apr 2026 15:29:43 GMT",
+      "text": "I'm hiring someone to help me build the \"Reddit for AI use cases.\" People are dying to hear from REAL people actually doing REAL work with AI. They don't care about how execs, influencers, or hype chasers are 'using AI'. A few months ago, we launched our Community Use Cases feature in The Rundown: At the end of every newsletter, we showcase how a reader is using AI to work smarter, save time, or make life easier. We didn't think much of it, just a cool way to highlight the community. Well, it became one of the biggest hits the newsletter has ever had. Now I get daily messages asking us to expand it... so we are. The plan: build Reddit for AI use cases. We have the most active and engaged AI-interested audience in the world, with millions of daily readers. Your job is to figure out how they're actually using AI, then incentivize them to share it. Basically, the friend everyone texts when they hear about a new AI thing... but you're building an entire community of them. Here's what I'm looking for: > Someone who thrives in scrappy environments with great communication skills > Has built online communities at scale before > Energized by the idea of interviewing thousands of real people about how AI is actually changing their work This is NOT an easy role. You'll interview thousands of people, gather data points, and dig into their real AI struggles. If that sounds fun rather than overwhelming, you're probably who I'm looking for. Link below to apply! Rowan Cheung (@rowancheung) I'm HIRING 5 more people to help me build the future of AI media. The Rundown is closing in on 3M active readers, and the demand is far outpacing what we can handle. $2,000 referral bonus if you help us find someone we hire full-time. Open roles: > Head of Content -- lead the editorial team that reaches millions every day > Head of Sales -- run a scrappy sales team and revenue strategy across our media properties > Community Lead -- turn our 3M+ readership into the \"Reddit for AI use cases\" > Ad Creative Strategist -- research and ship ad creatives that hook the next million AI-curious readers > Branded Content Editor -- turn brands into stories our readers actually want to read What we're looking for among all roles: > Deep AI curiosity (you've already replaced part of your workflow with agents) > Unreasonably biased toward action > Taste sharp enough to spot great work (and AI slop) All roles are fully remote. Link below to apply! — https://nitter.net/rowancheung/status/2048767013472833869#m",
+      "link": "https://nitter.net/rowancheung/status/2049872641889087549#m",
+      "published": "Thu, 30 Apr 2026 15:24:57 GMT",
       "author_name": "Rowan Cheung",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
       "handle": "AlphaSignalAI",
-      "text": "Repo: github.com/poloclub/transfor… Check out AlphaSignal.ai to get a daily summary of top models, repos, and papers in AI. Read by 280,000+ devs.",
-      "link": "https://nitter.net/AlphaSignalAI/status/2056027305126883771#m",
-      "published": "Sun, 17 May 2026 15:01:23 GMT",
+      "text": "x.com/i/article/205640109058…",
+      "link": "https://nitter.net/AlphaSignalAI/status/2056420458694574330#m",
+      "published": "Mon, 18 May 2026 17:03:38 GMT",
       "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
       "handle": "AlphaSignalAI",
-      "text": "This free interactive explainer just exposed how GPT actually works. Most people treat Transformers like magic. You type something in, words come out. What happens inside stays a black box for almost everyone. Transformer Explainer cracks that box wide open. It runs a live GPT-2 model in your browser. The tool gives you three things at once: > Live inference on any text > A visual map of every step > A working temperature slider A Sankey diagram traces your words through the full pipeline. You see embeddings, attention heads, and the final token ranking. You can collapse and expand each operation to control the depth. Move the slider and the probability distribution shifts instantly. High values spread predictions wide, low values sharpen them. The whole thing runs locally using ONNX runtime and HuggingFace. The frontend uses Svelte and D3 for animations. The project is open-source and free. Video",
-      "link": "https://nitter.net/AlphaSignalAI/status/2056027303826641282#m",
-      "published": "Sun, 17 May 2026 15:01:23 GMT",
+      "text": "Links: > arxiv.org/abs/2605.12357 (paper, ~25 min read) > github.com/declare-lab/delta… (repo, ~10 min setup) > huggingface.co/declare-lab/d… (Qwen3-4B TSW) Subscribe at AlphaSignal.ai for daily AI signals. Read by 300,000+ subscribers.",
+      "link": "https://nitter.net/AlphaSignalAI/status/2056420976775073957#m",
+      "published": "Mon, 18 May 2026 17:05:41 GMT",
       "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
       "handle": "AlphaSignalAI",
-      "text": "Repo: github.com/haydenbleasel/fil… Check out AlphaSignal.ai to get a daily summary of top models, repos, and papers in AI. Read by 280,000+ devs.",
-      "link": "https://nitter.net/AlphaSignalAI/status/2055981908610138556#m",
-      "published": "Sun, 17 May 2026 12:00:59 GMT",
+      "text": "The \"model weights are unreadable\" excuse just died in one paper. Neural networks have billions of parameters. Nobody really knows what each one does. A new paper introduces adVersarial Parameter Decomposition. The method splits a model's weights into small, single-purpose subcomponents. Each piece handles one specific job. Things like emoticon prediction or gender identification. Only a tiny fraction fires on any given input. How they pulled this off: 1. Break weights into simple parts 2. Ablate components adversarially during training 3. Keep only what preserves behavior The breakthrough is attention. The technique decomposes attention computations even when spread across multiple heads. That problem went unsolved for three years. It scales beyond toy networks to real four-layer language models. The authors now consider it a serious competitor to sparse autoencoders. You can trace information flow through attribution graphs. You can hand-edit specific behaviors and predict the outcome. VPD makes weights legible. Video",
+      "link": "https://nitter.net/AlphaSignalAI/status/2056389820998369702#m",
+      "published": "Mon, 18 May 2026 15:01:53 GMT",
       "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
       "handle": "AlphaSignalAI",
-      "text": "Someone just built one API that works across 18 storage providers. Storage SDKs are all subtly different. Each cloud provider ships its own client with its own quirks. Files SDK is a new open-source library that unifies them. It exposes one small API across 18 providers, including S3, R2, Vercel Blob, and Google Drive. You get the same calls everywhere: > upload, download, head > delete, copy, list > url, signedUploadUrl Swap backends without rewriting code. Bodies use web standards like Blob, File, and ReadableStream, so nothing provider-specific leaks in. It runs on Node, Bun, Deno, edge runtimes, and browsers. When you need something native, every adapter exposes its underlying client through one property access. Errors are normalized into a single shape across all backends. The library also ships ready-made tools for OpenAI, Vercel AI, and Claude Agent SDKs. It comes with approval-gating defaults so agents can safely browse and mutate buckets. Video",
-      "link": "https://nitter.net/AlphaSignalAI/status/2055981907695792603#m",
-      "published": "Sun, 17 May 2026 12:00:59 GMT",
+      "text": "Paper: goodfire.ai/research/interpr… Check out AlphaSignal.ai to get a daily summary of top models, repos, and papers in AI. Read by 280,000+ devs.",
+      "link": "https://nitter.net/AlphaSignalAI/status/2056389822013485554#m",
+      "published": "Mon, 18 May 2026 15:01:54 GMT",
       "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
       "handle": "AlphaSignalAI",
-      "text": "Repo: github.com/HumanSignal/Adala Check out AlphaSignal.ai to get a daily summary of top models, repos, and papers in AI. Read by 280,000+ devs.",
-      "link": "https://nitter.net/AlphaSignalAI/status/2055664819043287514#m",
-      "published": "Sat, 16 May 2026 15:00:59 GMT",
+      "text": "x.com/i/article/205636384317…",
+      "link": "https://nitter.net/AlphaSignalAI/status/2056376024548376723#m",
+      "published": "Mon, 18 May 2026 14:07:04 GMT",
       "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
-    "elonmusk",
     "karinanguyen_"
   ],
   "processed": {
@@ -2975,12 +3010,5 @@
         }
       ]
     }
-  },
-  "processed_at": "2026-05-18T11:02:49",
-  "validation": {
-    "translated_pct": 100,
-    "with_decryptage_pct": 89,
-    "total": 129,
-    "needs_retranslation_count": 0
   }
 }
