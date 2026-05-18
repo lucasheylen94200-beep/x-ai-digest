@@ -1,0 +1,71 @@
+name: Daily AI Digest
+
+on:
+  # Tous les jours à 06:00 UTC = 08:00 Paris (été) / 07:00 Paris (hiver)
+  schedule:
+    - cron: '0 6 * * *'
+  # Permet aussi de lancer manuellement depuis l'interface GitHub
+  workflow_dispatch:
+
+# Le workflow doit pouvoir pusher de nouveaux commits (pour publier la page)
+permissions:
+  contents: write
+
+# Empêche 2 runs simultanés
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      DIGEST_PUBLIC_URL: 'https://lucasheylen94200-beep.github.io/x-ai-digest/'
+      DIGEST_TO_EMAIL: 'lucas.heylen94200@gmail.com'
+      PYTHONIOENCODING: 'utf-8'
+
+    steps:
+      - name: Récupération du repo
+        uses: actions/checkout@v4
+
+      - name: Installer Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: 1/3 — Fetch + Process + Build
+        run: python digest.py all
+
+      - name: 2/3 — Commit & push la nouvelle page
+        run: |
+          git config user.name "Daily AI Digest Bot"
+          git config user.email "bot+daily-ai-digest@users.noreply.github.com"
+          git add data/ index.html
+          if git diff --cached --quiet; then
+            echo "Aucun changement à pusher"
+          else
+            git commit -m "Digest auto $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: 3/3 — Envoi de l'email
+        run: python send_email.py
+
+      - name: Statut final
+        if: always()
+        run: |
+          echo "===== Résumé ====="
+          if [ -f "data/$(date -u +'%Y-%m-%d').json" ]; then
+            echo "✅ Data file généré"
+            python -c "import json; d=json.load(open('data/$(date -u +'%Y-%m-%d').json')); v=d.get('validation',{}); print(f'   Traduction : {v.get(\"translated_pct\",0)}%'); print(f'   Tweets : {v.get(\"total\",0)}')"
+          else
+            echo "❌ Pas de data file"
+          fi
