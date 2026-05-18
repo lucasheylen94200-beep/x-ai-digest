@@ -146,14 +146,42 @@ def run_subprocess(args, timeout):
         return False
 
 
+def _git_push_if_changes():
+    """Stage + commit + push s'il y a des changements. Renvoie True si tout OK."""
+    try:
+        subprocess.run(["git", "add", "data/", "index.html", "accounts.json"],
+                       cwd=str(BASE), timeout=20, capture_output=True)
+        # Verifier s'il y a quelque chose a commit
+        diff_result = subprocess.run(["git", "diff", "--cached", "--quiet"],
+                                     cwd=str(BASE), timeout=10)
+        if diff_result.returncode == 0:
+            # Aucun changement
+            return True
+        subprocess.run(["git", "commit", "-m", f"Watchdog: digest {datetime.now().strftime('%Y-%m-%d %H:%M')}"],
+                       cwd=str(BASE), timeout=20, capture_output=True)
+        push_result = subprocess.run(["git", "push", "origin", "main"],
+                                     cwd=str(BASE), timeout=90, capture_output=True)
+        return push_result.returncode == 0
+    except Exception as e:
+        print(f"[fix] erreur git push : {e}")
+        return False
+
+
 def fix_run_pipeline_full():
-    return run_subprocess([sys.executable, str(BASE / "digest.py"), "all"], timeout=600)
+    """Lance digest.py all puis push automatiquement sur GitHub Pages."""
+    ok = run_subprocess([sys.executable, str(BASE / "digest.py"), "all"], timeout=600)
+    if not ok:
+        return False
+    # Push aussi pour que GitHub Pages soit a jour (sinon le lien dans le mail pointe vers une page perimee)
+    _git_push_if_changes()
+    return True
 
 
 def fix_rerun_process_only():
     ok = run_subprocess([sys.executable, str(BASE / "digest.py"), "process"], timeout=400)
     if ok:
         run_subprocess([sys.executable, str(BASE / "digest.py"), "build"], timeout=60)
+        _git_push_if_changes()
     return ok
 
 
