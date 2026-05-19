@@ -1139,22 +1139,36 @@ def main():
     today = datetime.now().strftime("%Y-%m-%d")
     day_file = DATA_DIR / f"{today}.json"
 
+    exit_code = 0
+
     if cmd in ("fetch", "all"):
         print("=== FETCH ===")
-        fetch_all()
+        try:
+            fetch_all()
+        except Exception as e:
+            print(f"[fetch] erreur fatale : {e}")
+            exit_code = 2
 
     if cmd in ("process", "all"):
         print("\n=== PROCESS ===")
         if day_file.exists():
-            process_with_gemini(day_file)
+            ok = process_with_gemini(day_file)
+            if not ok:
+                print("[process] ECHEC : process_with_gemini a renvoye False")
+                exit_code = 3
         else:
             print(f"[process] pas de fichier {day_file}, lance d'abord 'fetch'")
+            exit_code = 4
 
     if cmd in ("build", "all"):
         print("\n=== BUILD ===")
         build_html()
         print(f"\nOuvre dans Chrome : file:///{HTML_OUT.as_posix()}")
 
+    if exit_code != 0:
+        print(f"\n[main] ECHEC GLOBAL : exit code {exit_code}")
+    return exit_code
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

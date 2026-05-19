@@ -232,6 +232,22 @@ def main():
         return 1
 
     data = json.loads(day_file.read_text(encoding="utf-8"))
+
+    # Garde-fou 1 : refuser d'envoyer si la donnee n'a pas ete traitee par Gemini
+    p = data.get("processed")
+    if not p or not p.get("by_category"):
+        print(f"[email] REFUS : processed=None ou vide. On n'envoie pas un mail sans contenu.")
+        print(f"[email]   tweets bruts : {len(data.get('tweets', []))}")
+        print(f"[email]   processed     : {p}")
+        return 5
+
+    # Garde-fou 2 : idempotence. Si on a deja envoye aujourd'hui (autre cron), skip.
+    today_iso = datetime.now().strftime("%Y-%m-%d")
+    sent_at = data.get("email_sent_at")
+    if sent_at and sent_at.startswith(today_iso):
+        print(f"[email] DEJA ENVOYE aujourd'hui (a {sent_at}). On ne renvoie pas.")
+        return 0
+
     html_body = build_email_html(data)
     date_str = data.get("date", "")
     subject = f"AI Digest - {fmt_date_fr(date_str)}"
@@ -247,6 +263,10 @@ def main():
         return 0
 
     ok = send_via_resend(subject, html_body, TO_EMAIL)
+    if ok:
+        # Marquer l'envoi dans le fichier data : empeche les crons suivants de renvoyer
+        data["email_sent_at"] = datetime.now().isoformat(timespec="seconds")
+        day_file.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     return 0 if ok else 1
 
 

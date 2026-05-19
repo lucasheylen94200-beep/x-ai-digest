@@ -1,9 +1,12 @@
 name: Daily AI Digest
 
 on:
-  # Tous les jours à 06:00 UTC = 08:00 Paris (été) / 07:00 Paris (hiver)
+  # Plusieurs créneaux pour résister aux retards de GitHub Actions (peut décaler de plusieurs heures en cas de charge)
+  # Le script send_email.py ne renvoie pas 2 fois si le mail du jour est déjà parti (à implémenter via flag dans le repo)
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * *'   # 08:00 Paris (été) / 07:00 Paris (hiver) — créneau principal
+    - cron: '0 8 * * *'   # 10:00 Paris (été) / 09:00 Paris (hiver) — backup si le 1er rate
+    - cron: '0 11 * * *'  # 13:00 Paris (été) / 12:00 Paris (hiver) — backup midi
   # Permet aussi de lancer manuellement depuis l'interface GitHub
   workflow_dispatch:
 
