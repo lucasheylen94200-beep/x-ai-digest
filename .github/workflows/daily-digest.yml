@@ -1,13 +1,18 @@
 name: Daily AI Digest
 
 on:
-  # Plusieurs créneaux pour résister aux retards de GitHub Actions (peut décaler de plusieurs heures en cas de charge)
-  # Le script send_email.py ne renvoie pas 2 fois si le mail du jour est déjà parti (à implémenter via flag dans le repo)
+  # GitHub Actions retarde fortement les crons aux heures pile (06:00, 07:00...).
+  # Stratégie : crons décalés hors heure pile, dans la plage 06h-12h UTC (08h-14h Paris été).
+  # L'idempotence (email_sent_at) empêche les doublons : seul le 1er run "qui passe" envoie.
   schedule:
-    - cron: '0 6 * * *'   # 08:00 Paris (été) / 07:00 Paris (hiver) — créneau principal
-    - cron: '0 8 * * *'   # 10:00 Paris (été) / 09:00 Paris (hiver) — backup si le 1er rate
-    - cron: '0 11 * * *'  # 13:00 Paris (été) / 12:00 Paris (hiver) — backup midi
-  # Permet aussi de lancer manuellement depuis l'interface GitHub
+    - cron: '7 6 * * *'    # 08:07 Paris été (cible principale)
+    - cron: '23 6 * * *'   # 08:23 Paris été
+    - cron: '47 6 * * *'   # 08:47 Paris été
+    - cron: '13 7 * * *'   # 09:13 Paris été
+    - cron: '37 7 * * *'   # 09:37 Paris été
+    - cron: '7 8 * * *'    # 10:07 Paris été
+    - cron: '37 9 * * *'   # 11:37 Paris été
+    - cron: '7 11 * * *'   # 13:07 Paris été (filet de sécurité midi)
   workflow_dispatch:
 
 # Le workflow doit pouvoir pusher de nouveaux commits (pour publier la page)

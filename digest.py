@@ -173,12 +173,24 @@ Voici les tweets recuperes aujourd'hui des plus grands devs/chercheurs/createurs
    - REGLE ABSOLUE : text_fr != text_original. Si text_fr et text_original sont identiques, c'est un bug.
 
 2. CLASSIFICATION (chaque tweet dans UNE SEULE categorie) :
-   - "actu" : annonces, lancements officiels, news factuelles
-   - "tips" : conseils pratiques, snippets de code, retours d'experience applicables
-   - "idees" : reflexions, opinions, debats, prospective
-   - "outils" : nouveaux produits, demos, lancements de modeles ou outils a tester
-   - REGLE : un tweet appartient a UNE seule categorie. Choisis la plus pertinente.
-   - Elimine les vrais doublons (meme info tweetee par plusieurs -> garde la version la plus claire).
+   REGLE ABSOLUE : tu DOIS distribuer les tweets entre les 4 categories ci-dessous.
+   AUCUNE categorie ne doit etre vide. Si tu mets >60% des tweets dans une seule categorie, c'est un BUG, refais le tri.
+
+   - "actu" : annonces officielles, lancements de produits par une entreprise, news factuelles
+     Exemples : "OpenAI annonce GPT-5", "Anthropic publie un nouveau Claude", "Mistral lance Voxtral"
+
+   - "tips" : conseils pratiques applicables PAR LE LECTEUR, snippets de code, astuces d'usage
+     Exemples : "Pour de meilleurs prompts, fais X", "Utilisez --resume dans Claude Code", "demandez a votre LLM de formater en HTML"
+
+   - "idees" : reflexions, opinions, debats, prospective, predictions, philosophie de l'IA
+     Exemples : "Je pense que l'IA va...", "le vrai probleme c'est...", "vous pouvez externaliser votre reflexion mais pas votre comprehension"
+
+   - "outils" : nouveaux outils/modeles/demos a tester ou utiliser (vs simple annonce dans "actu")
+     Exemples : "Voici un nouveau benchmark", "demo interactive disponible ici", "code source publie"
+
+   Si tu hesites entre "actu" et "outils" : si on peut le TESTER tout de suite, c'est "outils". Si c'est juste une annonce, c'est "actu".
+   Si tu hesites entre "tips" et "idees" : si c'est ACTIONNABLE par le lecteur, c'est "tips". Si c'est une reflexion, c'est "idees".
+   Elimine les vrais doublons (meme info tweetee par plusieurs -> garde la version la plus claire).
 
 3. DECRYPTAGE PEDAGOGIQUE :
    - Pour CHAQUE tweet contenant du jargon ou une reference inconnue du grand public, ajoute "decryptage" : UNE phrase francaise simple qui vulgarise.
@@ -288,6 +300,9 @@ RAPPEL FINAL : text_fr en FRANCAIS toujours. text_original = anglais source (ou 
 
     # Validation + auto-reparation du glossaire (s'il manque suite a une troncature)
     processed = validate_and_repair_glossaire(processed, client, config)
+
+    # Validation + auto-reparation de la distribution par categorie
+    processed = validate_and_rebalance_categories(processed, client, config)
 
     data["processed"] = processed
     data["processed_at"] = datetime.now().isoformat(timespec="seconds")
@@ -471,6 +486,79 @@ Retourne UNIQUEMENT un JSON valide de la forme :
             print("[repair] glossaire toujours vide")
     except Exception as e:
         print(f"[repair] echec parsing glossaire : {e}")
+    return processed
+
+
+def validate_and_rebalance_categories(processed, client, config):
+    """Detecte si Gemini a entasse tous les tweets dans une seule categorie et tente une re-classification."""
+    by_cat = processed.get("by_category") or {}
+    counts = {k: len(v or []) for k, v in by_cat.items()}
+    total = sum(counts.values())
+    if total < 10:
+        return processed  # pas assez pour juger
+    max_cat, max_count = max(counts.items(), key=lambda x: x[1])
+    ratio = max_count / total
+    if ratio < 0.65:
+        print(f"[repair] distribution categories OK ({max_cat}={ratio:.0%})")
+        return processed
+
+    print(f"[repair] distribution desequilibree : {counts} -> relance reclassification...")
+    # Reconstruire la liste complete des tweets
+    all_items = []
+    for cat, items in by_cat.items():
+        for t in (items or []):
+            all_items.append(t)
+
+    # Prompt focalise sur la re-classification
+    items_block = "\n".join([
+        f"#{i}. [{t.get('author_name','')}] {(t.get('text_fr') or '')[:280]}"
+        for i, t in enumerate(all_items)
+    ])
+    prompt = f"""Voici une liste de tweets sur l'IA. Re-classifie CHAQUE tweet dans UNE seule des 4 categories :
+- "actu"   : annonces officielles, lancements
+- "tips"   : conseils pratiques actionnables, snippets de code
+- "idees"  : reflexions, opinions, debats, philosophie
+- "outils" : nouveaux outils/modeles/demos a TESTER
+
+REGLE STRICTE : la distribution doit etre equilibree. Aucune categorie ne doit avoir >60% des tweets.
+Si un tweet est limite entre 2 categories, choisis celle qui donne la meilleure distribution globale.
+
+Tweets :
+{items_block}
+
+Renvoie UNIQUEMENT un JSON :
+{{"classification": [{{"id": <numero>, "cat": "actu|tips|idees|outils"}}, ...]}}"""
+
+    models = ["gemini-2.5-flash", "gemini-2.5-flash-lite"]
+    response = call_gemini_with_retry(client, models, prompt, config, max_rounds=2, retry_delay=15)
+    if response is None:
+        print("[repair] re-classification impossible (modeles indisponibles)")
+        return processed
+    try:
+        text = (response.text or "").strip()
+        text = re.sub(r"^```(?:json)?\s*", "", text)
+        text = re.sub(r"\s*```\s*$", "", text)
+        try:
+            payload = json.loads(text)
+        except json.JSONDecodeError:
+            from json_repair import repair_json
+            payload = json.loads(repair_json(text))
+        new_assignments = {entry["id"]: entry["cat"] for entry in payload.get("classification", []) if "id" in entry and entry.get("cat") in ("actu", "tips", "idees", "outils")}
+    except Exception as e:
+        print(f"[repair] parsing re-classification echoue : {e}")
+        return processed
+
+    if not new_assignments:
+        return processed
+
+    # Reconstruire by_category avec les nouvelles assignations
+    new_by_cat = {"actu": [], "tips": [], "idees": [], "outils": []}
+    for i, t in enumerate(all_items):
+        cat = new_assignments.get(i, "actu")
+        new_by_cat[cat].append(t)
+    new_counts = {k: len(v) for k, v in new_by_cat.items()}
+    print(f"[repair] nouvelle distribution : {new_counts}")
+    processed["by_category"] = new_by_cat
     return processed
 
 
