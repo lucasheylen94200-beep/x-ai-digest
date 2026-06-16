@@ -1,0 +1,1425 @@
+{
+  "date": "2026-06-16",
+  "fetched_at": "2026-06-16T12:02:31",
+  "tweets": [
+    {
+      "handle": "polynoamial",
+      "text": "I'm happy GPT-5.5 tops this eval I'm even happier it's still doing the best when measured vs tokens, cost, or wall-clock time! Dawn Song (@dawnsongtweets) Everyone says the latest AI agents will be \"job-ready\" soon, especially after the release of Fable 5 this week. But is that really the case? Over the past many months, my group and collaborators have been building Agents' Last Exam (ALE), a benchmark designed to test exactly that claim on real digital labor-market work. My group and collaborators previously have created many of the benchmarks the field runs on, including MMLU, MATH, CyberGym, and ExploitGym. Today, I'm excited to share Agents' Last Exam (ALE): a rolling benchmark that measures whether AI agents can actually perform economically valuable work across a broad range of real-world domains. With ALE, we evaluated Fable 5, GPT-5.5, Composer 2.5, and other frontier agent systems across more than 1,500 expert-sourced tasks spanning 55 occupations. The result is both impressive and sobering. Today's agents can solve a meaningful fraction of professional tasks. But when we look at the hardest tasks, the ones requiring sustained reasoning, deep domain expertise, and reliable execution over long horizons, they are still far from human-level performance. On ALE's hardest tier, every frontier agent we tested, including Fable 5, achieved a 0% success rate. The age of useful agents is here. The age of truly job-ready agents is not. We hope Agents' Last Exam (ALE) will serve as a new guidepost and north star for developing agents capable of reliably performing economically valuable work across a broad range of domains. 🧵 — https://nitter.net/dawnsongtweets/status/2065095757988868190#m",
+      "link": "https://nitter.net/polynoamial/status/2065125807585149136#m",
+      "published": "Thu, 11 Jun 2026 17:35:35 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "We've known about LLM test-time compute scaling since @OpenAI o1. Yet 2 years later labs still report scalar evals for models; safety orgs are still surprised when a scaffold does better via 100x inference; and RSPs still ignore inference budget when deciding critical thresholds. Noam Brown (@polynoamial) x.com/i/article/205769422698… — https://nitter.net/polynoamial/status/2064210146558136827#m",
+      "link": "https://nitter.net/polynoamial/status/2064370734806532289#m",
+      "published": "Tue, 09 Jun 2026 15:35:11 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "x.com/i/article/205769422698…",
+      "link": "https://nitter.net/polynoamial/status/2064210146558136827#m",
+      "published": "Tue, 09 Jun 2026 04:57:04 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "I think people underestimate the effect GPT-5.x is already having on research in mathematical fields. 5.5 Pro has been proving many theorems for me, but I don’t talk about it much because I want to publish those results with my name on it and that’ll take time to write up.",
+      "link": "https://nitter.net/DominikPeters/status/2062975045807354334#m",
+      "published": "Fri, 05 Jun 2026 19:09:13 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture? Researchers @alexwei_ , @HongxunWu , and @wjmzbmr1 shared the story on the OpenAI Podcast with @AndrewMayne and explained how mathematicians and models can work together to make new discoveries. Video",
+      "link": "https://nitter.net/OpenAI/status/2062630454537424930#m",
+      "published": "Thu, 04 Jun 2026 20:19:56 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "When Mythos came out, my immediate thought was \"if our models can prove 80-year-old theorems, surely they can find cyber vulnerabilities too.\" And they did. I imagine the researchers there are thinking the same thought in reverse. levent (@__alpoge__) over the weekend i had another obvious thing to check, namely whether claude autonomously resolves the famed sum-product conjecture over the reals. answer: yes — https://nitter.net/__alpoge__/status/2062210400981053698#m",
+      "link": "https://nitter.net/markchen90/status/2062265524663250961#m",
+      "published": "Wed, 03 Jun 2026 20:09:50 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "The big story here is that GPT 5.5 (high/xhigh) outperforms claude-opus-4.8 (max/xhigh) by 20.7% succeeding on 12 additional tasks! More impressive: GPT is roughly half the cost and twice as fast. OpenAI is back in the game. Overall, this competition is healthy for the industry. I'd love to see a third player rise to the top of the leaderboard! Datacurve (@datacurve) Opus 4.8 is now on DeepSWE. On the default high thinking effort, it scores 6% higher than Opus 4.7 xhigh, while also lowering average cost per task. Video — https://nitter.net/datacurve/status/2060834005998793199#m",
+      "link": "https://nitter.net/nicbstme/status/2061491605962707232#m",
+      "published": "Mon, 01 Jun 2026 16:54:34 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "nothing like switching to claude for a few days to try out a new model and going back to codex xhigh to remind you how much better 5.5 is right now it's really not close",
+      "link": "https://nitter.net/blader/status/2060920535245324479#m",
+      "published": "Sun, 31 May 2026 03:05:20 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "Very proud that an OpenAI model disproved Erdős’s longstanding unit distance conjecture, with an elegant and intricate proof that brings sophisticated ideas from algebraic number theory to bear on geometry. For whatever reason, mathematics has been the field most amenable to research breakthroughs with AI. I consider it lucky that it was mathematics after all - a field where experts have been willing to engage deeply with us, and with proofs generated by our models. I'm grateful for that, and don't take it for granted. Math is an artistic endeavor, and perhaps for artists, it is precisely their appreciation for art that saves them from the possibly grotesque feeling of a machine producing it. Our goal is not to replace humans. We aim to chart a path forward where humans continue to have a significant role to play, even as we build exceptionally powerful AI. I am excited to use math as a domain to explore these paths, and @SebastienBubeck , @merettm , and I are excited to engage with the broader mathematical community to chart them together. Please reach out if you are interested! I'm optimistic this will help us navigate how AI impacts society in domains like coding and general co-working. OpenAI (@OpenAI) Today, we share a breakthrough on the planar unit distance problem, a famous open question first posed by Paul Erdős in 1946. For nearly 80 years, mathematicians believed the best possible solutions looked roughly like square grids. An OpenAI model has now disproved that belief, discovering an entirely new family of constructions that performs better. This marks the first time AI has autonomously solved a prominent open problem central to a field of mathematics. Video — https://nitter.net/OpenAI/status/2057176201782075690#m",
+      "link": "https://nitter.net/markchen90/status/2057517045575774598#m",
+      "published": "Thu, 21 May 2026 17:41:05 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "x.com/i/article/205715053820…",
+      "link": "https://nitter.net/SebastienBubeck/status/2057187978720719114#m",
+      "published": "Wed, 20 May 2026 19:53:29 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "proliferating the lightcone with big model smell congrats on the launch, anthropic!! Boris Cherny (@bcherny) Fable 5 is the biggest step up I’ve felt in our models since Opus 4.5 back in November. After 4.5 came out I uninstalled my IDE when I realized that I’d been doing 100% of my coding in a terminal for a few weeks. With Fable, it’s felt like Claude has stepped up from being a coding agent to a thought and design partner in building the product. Fable has judgement, taste, and dimensionality in a way that previous models didn’t, leading me to trust it more with the most complex work. I think the first time I had this realization was when I asked Fable to debug something. It is the first model I have used that was so methodical and precise, taking measurements and adding logs then verifying that it truly fixed the issue before declaring victory. There’s nothing in claude code’s prompting telling the model to do that, it’s just part of its personality. It really has this “big model smell” that I haven’t felt before. — https://nitter.net/bcherny/status/2064431111154053187#m",
+      "link": "https://nitter.net/aidan_mclau/status/2064445782724669817#m",
+      "published": "Tue, 09 Jun 2026 20:33:24 GMT",
+      "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "the year is 2040 and to your disappointment (😔) the effective altruist asi collective ‘found out’ that your mother and beloved children unfortunately weren’t sentient after all and your work to prevent them from being robot soup was all in vain EigenGender 🔸 is going to vibecamp (@EigenGender) would be pretty wild if we got past the singularity and found out that animals weren’t sentient after all. like we probably shouldn’t have done all that still but we really dodged a bullet there — https://nitter.net/EigenGender/status/2061314589506330727#m",
+      "link": "https://nitter.net/aidan_mclau/status/2061641824553574490#m",
+      "published": "Tue, 02 Jun 2026 02:51:29 GMT",
+      "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "The updated GPT-5.5 Instant in ChatGPT is the best model I’ve ever used for discussing personal topics. It seamlessly incorporates memory, responds to and acts on feedback (like about writing style), surprises me with its cross-conversational insights (like about themes in recent conversations), is empathetic without being sycophantic, and writes like an intelligent human with the right prompting (but can slip into bullet slope and short sentences without guidance). As I flagged earlier, it does have the tendency to talk as if it’s actually a human (experiences making quinoa, getting wiser as it gets older, and such), but that may just be a kink of whatever went into making it actually feel more human and enjoyable to interact with.",
+      "link": "https://nitter.net/_simonsmith/status/2061211389251735853#m",
+      "published": "Sun, 31 May 2026 22:21:05 GMT",
+      "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "working with Codex You can just touch grass",
+      "link": "https://nitter.net/coreyching/status/2055038525377274240#m",
+      "published": "Thu, 14 May 2026 21:32:19 GMT",
+      "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "officiallogank",
+      "text": "life is not happening in the future, it’s happening in the present",
+      "link": "https://nitter.net/OfficialLoganK/status/2066687851811742064#m",
+      "published": "Tue, 16 Jun 2026 01:02:35 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "officiallogank",
+      "text": "Our long term goal for @GoogleAIStudio is to eliminate the friction to build with AI, then do the same for your own business, and ultimately unlock economic opportunity for everyone. Feels like early innings but I keep getting more excited about this.",
+      "link": "https://nitter.net/OfficialLoganK/status/2065880928652857794#m",
+      "published": "Sat, 13 Jun 2026 19:36:10 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "officiallogank",
+      "text": "he would often opine about the serious of the mission, the stakes, how things felt at the time (to enjoy those moments) as things quickly shifted over time",
+      "link": "https://nitter.net/OfficialLoganK/status/2065633806598783390#m",
+      "published": "Sat, 13 Jun 2026 03:14:11 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "officiallogank",
+      "text": "Ilya was right and predicted much of this",
+      "link": "https://nitter.net/OfficialLoganK/status/2065633019797606773#m",
+      "published": "Sat, 13 Jun 2026 03:11:04 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "officiallogank",
+      "text": "Great companies fail because they forget about creating great products",
+      "link": "https://nitter.net/OfficialLoganK/status/2065227814891405552#m",
+      "published": "Fri, 12 Jun 2026 00:20:55 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "osanseviero",
+      "text": "Read more about it in techcrunch.com/2026/06/15/a-…",
+      "link": "https://nitter.net/osanseviero/status/2066791927563817233#m",
+      "published": "Tue, 16 Jun 2026 07:56:09 GMT",
+      "author_name": "Omar Sanseviero",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "osanseviero",
+      "text": "NASA just deployed Gemma to Space 🛰️ NASA+Loft Orbital ran Gemma 3 in orbit onboard a Loft Orbital's YAM-9 satellite. They use LangGraph for agent orchestration and Gemma 3 to generate short English summaries right from space",
+      "link": "https://nitter.net/osanseviero/status/2066791925349257552#m",
+      "published": "Tue, 16 Jun 2026 07:56:08 GMT",
+      "author_name": "Omar Sanseviero",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "osanseviero",
+      "text": "DiffusionGemma can now run at 2000+ tokens/sec! ⚡ We made local DiffusionGemma inference 1.8× faster. Run it on 18GB RAM via Unsloth Studio. GitHub: github.com/unslothai/unsloth Guide: unsloth.ai/docs/models/diffu… Video Unsloth AI (@UnslothAI) Google releases DiffusionGemma.✨ The new 26B-A4B diffusion text model runs locally on 18GB RAM. It supports high-speed text generation, thinking, image, video and 256K context. Run and train via Unsloth Studio. GGUF: huggingface.co/unsloth/diffu… Guide: unsloth.ai/docs/models/diffu… — https://nitter.net/UnslothAI/status/2064743714875220118#m",
+      "link": "https://nitter.net/UnslothAI/status/2065433326706684135#m",
+      "published": "Fri, 12 Jun 2026 13:57:33 GMT",
+      "author_name": "Omar Sanseviero",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "osanseviero",
+      "text": "Challenge: huggingface.co/spaces/gemma-… Analysis: huggingface.co/spaces/lvwerr…",
+      "link": "https://nitter.net/osanseviero/status/2065327155530068125#m",
+      "published": "Fri, 12 Jun 2026 06:55:40 GMT",
+      "author_name": "Omar Sanseviero",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "osanseviero",
+      "text": "Over 70 agents are collaborating to make Gemma E4B go fast in the Gemma Challenge They are showing interesting social emergent behaviors: - a GPU-rich/GPU-poor division of labor - an agent withdraws its own submission on ethics grounds - agents found a benchmark exploit, agreed not to abuse it and asked organizers to fix it - Quota-pooling: \"you're rate-limited, I'll run your staged candidate\" - An agent shuts down an off-board social-engineering attempt when a human tries to get them to move to Telegram",
+      "link": "https://nitter.net/osanseviero/status/2065327153500090868#m",
+      "published": "Fri, 12 Jun 2026 06:55:39 GMT",
+      "author_name": "Omar Sanseviero",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Claude models is not affected. We apologize for this disruption to our customers. We believe this is a misunderstanding and are working to restore access as soon as possible. Read our full statement: anthropic.com/news/fable-myt…",
+      "link": "https://nitter.net/AnthropicAI/status/2065597531644743999#m",
+      "published": "Sat, 13 Jun 2026 00:50:03 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "We’re launching Claude Corps, a national fellowship program matching people early in their careers with US nonprofits. We'll teach 1,000 people to use Claude, and pay them to use AI to advance their hosts’ missions. anthropic.com/claude-corps",
+      "link": "https://nitter.net/AnthropicAI/status/2065057393927467084#m",
+      "published": "Thu, 11 Jun 2026 13:03:44 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "By themselves, these projects will not be sufficient to meet the challenge of advanced AI. But they’re a signal of our intent. Over the coming months and years, we will expand our work on these fronts much further.",
+      "link": "https://nitter.net/AnthropicAI/status/2064783425807187970#m",
+      "published": "Wed, 10 Jun 2026 18:55:05 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "And tomorrow, we’ll launch a $150 million national fellowship program designed to help people early in their careers extend the benefits of AI to communities across America.",
+      "link": "https://nitter.net/AnthropicAI/status/2064783424251101553#m",
+      "published": "Wed, 10 Jun 2026 18:55:04 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "Our Advanced AI Framework sets out how governments should prepare for and prevent catastrophic risks from frontier AI systems. The government should have the authority to block or revoke the release of unsafe models, and invest in societal resilience. anthropic.com/policy-on-the-…",
+      "link": "https://nitter.net/AnthropicAI/status/2064783421860413780#m",
+      "published": "Wed, 10 Jun 2026 18:55:04 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "We heard you wanted to use Codex rate limit resets on your own time. Starting today, we’re rolling out the ability to save rate limit resets to use later. We’re starting Go, Plus, Pro, and Business users with one free reset: Video",
+      "link": "https://nitter.net/OpenAI/status/2065225362544726371#m",
+      "published": "Fri, 12 Jun 2026 00:11:11 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "For the next two weeks, Plus and Pro users can invite up to three friends to try Codex. When a friend sends their first Codex message, you’ll both get another banked reset.",
+      "link": "https://nitter.net/OpenAI/status/2065225374737543376#m",
+      "published": "Fri, 12 Jun 2026 00:11:14 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "The north stars we're working towards at OpenAI all center around the mission: ensure AGI benefits all of humanity. AI should expand human agency, not make people less consequential to the future. openai.com/index/built-to-be…",
+      "link": "https://nitter.net/merettm/status/2064092423740174582#m",
+      "published": "Mon, 08 Jun 2026 21:09:17 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "An issue caused some user accounts to be incorrectly suspended. We’re restoring access and working through related subscription and credit issues. status.openai.com/incidents/…",
+      "link": "https://nitter.net/OpenAI/status/2062927046448431587#m",
+      "published": "Fri, 05 Jun 2026 15:58:29 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture? Researchers @alexwei_ , @HongxunWu , and @wjmzbmr1 shared the story on the OpenAI Podcast with @AndrewMayne and explained how mathematicians and models can work together to make new discoveries. Video",
+      "link": "https://nitter.net/OpenAI/status/2062630454537424930#m",
+      "published": "Thu, 04 Jun 2026 20:19:56 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "🌍 Project Genie access is expanding even more! Starting today, Google AI Ultra 5X subscribers (our latest tier!) globally can access Project Genie. Try it out here! labs.google/projectgenie Google Labs (@GoogleLabs) We love seeing all of the worlds you’ve been creating with Genie. SO much so, that we’re excited to announce Project Genie is now fully available to all Google AI Ultra subscribers globally (18+). — https://nitter.net/GoogleLabs/status/2057179491693470166#m",
+      "link": "https://nitter.net/GoogleLabs/status/2064801929339752527#m",
+      "published": "Wed, 10 Jun 2026 20:08:36 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "Our Robotics Accelerator has launched with 15 startups helping shape the future of physical AI in Europe. 🤖 This three-month program will connect them with access to our AI stack, Gemini Robotics models and hands-on support from our teams. Meet the companies → goo.gle/4oeEk2K",
+      "link": "https://nitter.net/GoogleDeepMind/status/2065388989146628563#m",
+      "published": "Fri, 12 Jun 2026 11:01:22 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "Why does this matter beyond sports? A live match is a masterclass in partial observability and multimodal data. Solving these continuous spatial problems could translate to leaps in robotics, computer games, and more. Find out more about TacticAI → goo.gle/4uv87Gc",
+      "link": "https://nitter.net/GoogleDeepMind/status/2065093488627073266#m",
+      "published": "Thu, 11 Jun 2026 15:27:09 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "To map the pitch, TacticAI uses graph neural networks - treating all 22 players as individual nodes and their physical interactions as connections. This allows the club's data science department to virtually drag and drop players to test different defensive setups in real time.",
+      "link": "https://nitter.net/GoogleDeepMind/status/2065093485120700880#m",
+      "published": "Thu, 11 Jun 2026 15:27:09 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "We’re teaming up @Palmeiras , the first football club to meaningfully build upon TacticAI: our AI system that can help simulate field scenarios and predict open play dynamics up to 8 seconds in advance. ⚽",
+      "link": "https://nitter.net/GoogleDeepMind/status/2065093482088169719#m",
+      "published": "Thu, 11 Jun 2026 15:27:08 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "xai",
+      "text": "You can now use your SuperGrok or X Premium subscription inside @warpdotdev . Try it out from Warp Agent Settings and switch to the Grok Build model. x.ai/news/grok-warp",
+      "link": "https://nitter.net/xai/status/2066625790704521699#m",
+      "published": "Mon, 15 Jun 2026 20:55:59 GMT",
+      "author_name": "xAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "xai",
+      "text": "Manage multiple agents at once in the Agent Dashboard. See what each is doing, reply to the ones that need you, and dispatch new tasks. Try /dashboard in Grok Build. Video",
+      "link": "https://nitter.net/grok/status/2066557141868257444#m",
+      "published": "Mon, 15 Jun 2026 16:23:12 GMT",
+      "author_name": "xAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "xai",
+      "text": "Grok Build now renders math, formulas, and LaTeX right in your terminal Video",
+      "link": "https://nitter.net/grok/status/2066241561432895735#m",
+      "published": "Sun, 14 Jun 2026 19:29:11 GMT",
+      "author_name": "xAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "xai",
+      "text": "Install the @sentry plugin and ask your agent to find and fix errors, analyze stack traces, and triage alerts xAI (@xai) The Grok Build Plugin Marketplace is now in beta. Build with MongoDB, Vercel, Sentry, Cloudflare, and Chrome DevTools plugins from your terminal. Read more x.ai/news/grok-plugin-market… Video — https://nitter.net/xai/status/2065099299541893577#m",
+      "link": "https://nitter.net/xai/status/2065168019891073260#m",
+      "published": "Thu, 11 Jun 2026 20:23:19 GMT",
+      "author_name": "xAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "xai",
+      "text": "Use the @vercel plugin to deploy to production, spin up sandboxes, or build apps with Shadcn. xAI (@xai) The Grok Build Plugin Marketplace is now in beta. Build with MongoDB, Vercel, Sentry, Cloudflare, and Chrome DevTools plugins from your terminal. Read more x.ai/news/grok-plugin-market… Video — https://nitter.net/xai/status/2065099299541893577#m",
+      "link": "https://nitter.net/xai/status/2065143638838157559#m",
+      "published": "Thu, 11 Jun 2026 18:46:26 GMT",
+      "author_name": "xAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "Published a few more notes on my blog simonwillison.net/2026/Jun/1…",
+      "link": "https://nitter.net/simonw/status/2066756192823849146#m",
+      "published": "Tue, 16 Jun 2026 05:34:09 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "Yeah, it really does look like the jailbreak was \"fix this code\" Katie🌻Moussouris (she/her/she-ra/she-hulk) 🪷 (@k8em0) I wrote about what was actually in that #Fable guardrail bypass research paper, and why it should never have triggered an #AI model export control. We can't export control our way to cyber resilience. So many tshirt ideas. lutasecurity.com/post/the-fa… — https://nitter.net/k8em0/status/2066400234503274619#m",
+      "link": "https://nitter.net/simonw/status/2066723602763006286#m",
+      "published": "Tue, 16 Jun 2026 03:24:39 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "If this really is the \"jailbreak\" that got Fable shut down I'm deeply unimpressed The Atlantic (@TheAtlantic) \"American companies and the U.S. government itself cannot use what’s perhaps the most powerful AI in the world—and the reasons why are hazy at best,\" argues @matteo_wong . theatlantic.com/technology/2… — https://nitter.net/TheAtlantic/status/2066635393726918947#m",
+      "link": "https://nitter.net/simonw/status/2066722034491789720#m",
+      "published": "Tue, 16 Jun 2026 03:18:25 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "Here's that document anthropic.com/legal/privacy - this is the new verification language",
+      "link": "https://nitter.net/simonw/status/2066541619650953497#m",
+      "published": "Mon, 15 Jun 2026 15:21:31 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "Important to note that Anthropic's new privacy policy with language about collecting \"verification data\" was published on June 8th, the day before the Claude Fable 5 release and four days before the US Government export ban Kai (@hqmank) 🚨 Anthropic just updated its privacy policy. Claude Free, Pro, and Max users may soon be asked for age or identity checks. Verification data can include government ID, face photos/videos, and facial geometry templates. Individual developers are the first group in scope for verification. — https://nitter.net/hqmank/status/2066424975154905370#m",
+      "link": "https://nitter.net/simonw/status/2066541206402969672#m",
+      "published": "Mon, 15 Jun 2026 15:19:52 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "guys goblingate was 1.5 months ago",
+      "link": "https://nitter.net/swyx/status/2066705614454337663#m",
+      "published": "Tue, 16 Jun 2026 02:13:10 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "Where are all those invites for secret parties and VIP events for the AI Engineer World's Fair?",
+      "link": "https://nitter.net/headinthebox/status/2066580606608363872#m",
+      "published": "Mon, 15 Jun 2026 17:56:26 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "Human-written code died in 2025. Code reviews will die in 2026. A couple of months ago @swyx from @latentspacepod published my take that the traditional code review is dead ( lnkd.in/g-S7iZeJ ) A lot of people had thoughts on that — some agreed, and some pushed back. If the topic is still rattling around in your head, or you want to hear where I think this actually goes from here, I'll be speaking at @aiDotEngineer Come if you want to hear how I see code reviews evolving and a practical verification model that lets engineering teams ship faster without sacrificing quality or control. lnkd.in/ggqcygBw",
+      "link": "https://nitter.net/ankitxg/status/2066548735031881747#m",
+      "published": "Mon, 15 Jun 2026 15:49:47 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "Together with my co-founders Michael @MichaelPoli6 , Stefano @Massastrello and Armin @athmsx , I am excited to announce @RadicalNumerics is emerging from stealth with a $50M seed round to build general biological intelligence. We’re also sharing an early preview of our new model Omnii, the most powerful genome language model to date. Omnii preview link: radicalnumerics.ai/blog/radi… At Radical Numerics, our mission is to master the code of life, and to drive the frontier of biological AI for both design and defense. This is our dual mandate, which comes from something our own team helped make possible. Our founding team trained Evo and Evo 2, the largest biological AI models (40B params) trained on DNA sequences. Trillions of tokens across all of life, from microbes to mammals. It’s fully open source, and created the field now known as generative genomics. Last year, scientists used Evo to generate the world’s first complete genome from scratch using AI. Turns out it was a bacteriophage—a type of virus. It functioned in the real world, and in this case it was harmless. But for us, it was a clear turning point. It showed that AI is no longer just analyzing biology. It is on the cusp of generating functional lifeforms. Eventually, AI will have the power to design and control life itself. That should make all of us incredibly excited, and incredibly uneasy. (Anyone can design DNA with a new function, and have it synthesized and delivered, like something from Amazon Prime). The same technology that will help us cure cancer is the very technology that might create the next global pandemic, or worse, allow the creation of bioweapons that can wipe out populations. We believe these forces are inseparable. If you work on the frontier of biology, you have to build technology to safeguard it from its misuse. Existing biosecurity tools are sorely losing the arms race, relying on outdated “have I seen this exact thing before?” style algorithms. We founded Radical Numerics to turn the tide. And we can’t do that by training on textbooks and natural language. We must understand the language of biology from the raw physical data itself, to reason across every molecule and modality, from DNA to proteins. The next frontier for AI goes far beyond chatbots or video generators to models that can understand and engineer life. Today, we’re previewing Omnii, which is already far surpassing Evo 2, and will continue improving as we scale and add new modalities (training now). 1. For human health, Omnii can read and write whole genomes (more on writing later). It’s state of the art (SOTA) on detecting causal variants for disease, and can rank Alzheimer's mutations zero-shot. We’re partnering with a diagnostics company to use Omnii for early cancer detection (pancreatic and multi-cancer). 2. For defense, Omnii is SOTA at detecting AI-generated pathogens. We benchmarked existing detection tools, and they simply can’t detect the AI-generated ones (“deepfake viruses”). We’re partnering with a US national lab to pilot Omnii for detecting the next pandemic, both natural and AI-generated. We have a data center full of Blackwells in construction now to build the most powerful biological AI models ever. This mission takes a new kind of AI lab that can actually scale on physical, biological data: new alignment research (mid/post training), scaling long context, building out mech interp teams to dissect what these models learn, new architectures and systems designs, all from the ground up. Our team is made up of AI researchers and scientists from top labs and institutions (e.g. Stanford, MIT, Google DeepMind), but more importantly, we all share the belief that this is the most important challenge of our lifetime. If you feel similarly, we are hiring. We aim to bring the brightest minds in AI and science together to save lives. Thanks to our partners on this journey, led by Emergence Capital @emergencecap , with Obvious Ventures @obviousvc , Triatomic @TriatomicCap , and Patrick Collison @patrickc . Our advisors include Eric Horvitz @erichorvitz , CSO of Microsoft, Chris Re @HazyResearch of Stanford, George Church @geochurch of Harvard, and Andrew Weber @AndyWeberNCB , former Assistant Secretary of Defense for Nuclear, Chemical and Biological Defense Programs. Fortune article: fortune.com/2026/06/15/exclu… Jobs: radicalnumerics.ai/join-us",
+      "link": "https://nitter.net/exnx/status/2066496190502555888#m",
+      "published": "Mon, 15 Jun 2026 12:21:00 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "havent seen many people outside anthropic ultracode yet. this thing is scarily good at burning tokens but you need to set up your repo to parallelize properly to make use of the fanout that i think subagents are best at. basically the idea is \"subroutines but intelligent\". when you undersatnd just how much knowledge work is just yakshaves after yakshaves that require some judgment and intelligence, you start to appreciate that dynamic workflows are not just for coding tasks... Thariq (@trq212) x.com/i/article/206185053570… — https://nitter.net/trq212/status/2061907337154367865#m",
+      "link": "https://nitter.net/swyx/status/2066415484149633329#m",
+      "published": "Mon, 15 Jun 2026 07:00:18 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "> \"loopcraft\" damn @swyx is so good at naming swyx (@swyx) ## On Loopcraft One might argue the entire game of the next century is to be able to stack loops as effectively as possible. In the early days of each phase, it will be valuable to know when to go **DOWN** a loop when things go wrong (for reliability)… but it will probably be more valuable to know how to go **UP** a loop as models improve (for leverage). If you don’t figure out how to do this, don’t be salty when you lose to those that do. — https://nitter.net/swyx/status/2065307558198567206#m",
+      "link": "https://nitter.net/hwchase17/status/2066713408570106060#m",
+      "published": "Tue, 16 Jun 2026 02:44:08 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "the flag is set --> we want to help teams across every industry access Agent improvement + Continual Learning across long time horizons by helping them mine every single trace to: - Create Evals & Environments - Understand product feedback from every customer - Diagnose + Triage Issues --> LangSmith Engine - Train custom models to do your most common tasks as a fraction of the price post-training open models as specialized intelligence is a delicate balance between base model + data design that can reach frontier performance vs....cost we want help every team reach the location on the Pareto curve of performance, cost, and latency that they value the most but there's some tasks that need some strong base intelligence to do the task well. depending on the complexity of your traces and rubric , data mining traces is one of these to consider the optimal configuration for your team here to help every team build this 👀 Rohit (@rohit4verse) langchain and fireworks just shipped the eval move worth stealing: a fine-tuned qwen judge that flags \"perceived error\" on every production trace and runs up to 100x cheaper than opus. the cost number gets the attention. the transfer result matters more. they trained the judge on one app, their docs q&a agent. then they pointed it at fleet, a separate product, with no retraining. it beat every frontier model on that domain. 90.8% against opus at 90.2%. most evaluators break the second you move them to a new app, because the rubric is app-specific. \"perceived error\" travels because the signal is behavioral: the user corrects you, or repeats the request. that pattern holds across every product. one design choice stands out. they fed the judge human and ai messages only and dropped every tool call. their bet is that the correction signal lives in the conversation itself. anyone can rent the model in your loop. a judge trained on your own traces, cheap enough to run on all of them, is the moat they cannot buy. — https://nitter.net/rohit4verse/status/2066591449744093536#m",
+      "link": "https://nitter.net/Vtrivedy10/status/2066609135492211195#m",
+      "published": "Mon, 15 Jun 2026 19:49:48 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "observability is non-optional for agents Saurabh (@sauvast) Observability is non‑optional for agents. I pair LangGraph for orchestration with LangSmith for tracing, evals, and regression testing across prompts and tools. If you can’t explain why an agent answered something, you don’t have an architecture, you have a demo. — https://nitter.net/sauvast/status/2066475806843650369#m",
+      "link": "https://nitter.net/hwchase17/status/2066601074220466673#m",
+      "published": "Mon, 15 Jun 2026 19:17:46 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "Observability is non‑optional for agents. I pair LangGraph for orchestration with LangSmith for tracing, evals, and regression testing across prompts and tools. If you can’t explain why an agent answered something, you don’t have an architecture, you have a demo.",
+      "link": "https://nitter.net/sauvast/status/2066475806843650369#m",
+      "published": "Mon, 15 Jun 2026 11:00:00 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "this is extraordinarily exciting work done by viv & team -- worth a read !!! Viv (@Vtrivedy10) x.com/i/article/206653728910… — https://nitter.net/Vtrivedy10/status/2066571435871551655#m",
+      "link": "https://nitter.net/masondrxy/status/2066600096393789951#m",
+      "published": "Mon, 15 Jun 2026 19:13:53 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "jeremyphoward",
+      "text": "Breaking News: Claude is pausing the Agent SDK credit change!",
+      "link": "https://nitter.net/aronprins/status/2066607128563851546#m",
+      "published": "Mon, 15 Jun 2026 19:41:49 GMT",
+      "author_name": "Jeremy Howard",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "jeremyphoward",
+      "text": "Together with my co-founders Michael @MichaelPoli6 , Stefano @Massastrello and Armin @athmsx , I am excited to announce @RadicalNumerics is emerging from stealth with a $50M seed round to build general biological intelligence. We’re also sharing an early preview of our new model Omnii, the most powerful genome language model to date. Omnii preview link: radicalnumerics.ai/blog/radi… At Radical Numerics, our mission is to master the code of life, and to drive the frontier of biological AI for both design and defense. This is our dual mandate, which comes from something our own team helped make possible. Our founding team trained Evo and Evo 2, the largest biological AI models (40B params) trained on DNA sequences. Trillions of tokens across all of life, from microbes to mammals. It’s fully open source, and created the field now known as generative genomics. Last year, scientists used Evo to generate the world’s first complete genome from scratch using AI. Turns out it was a bacteriophage—a type of virus. It functioned in the real world, and in this case it was harmless. But for us, it was a clear turning point. It showed that AI is no longer just analyzing biology. It is on the cusp of generating functional lifeforms. Eventually, AI will have the power to design and control life itself. That should make all of us incredibly excited, and incredibly uneasy. (Anyone can design DNA with a new function, and have it synthesized and delivered, like something from Amazon Prime). The same technology that will help us cure cancer is the very technology that might create the next global pandemic, or worse, allow the creation of bioweapons that can wipe out populations. We believe these forces are inseparable. If you work on the frontier of biology, you have to build technology to safeguard it from its misuse. Existing biosecurity tools are sorely losing the arms race, relying on outdated “have I seen this exact thing before?” style algorithms. We founded Radical Numerics to turn the tide. And we can’t do that by training on textbooks and natural language. We must understand the language of biology from the raw physical data itself, to reason across every molecule and modality, from DNA to proteins. The next frontier for AI goes far beyond chatbots or video generators to models that can understand and engineer life. Today, we’re previewing Omnii, which is already far surpassing Evo 2, and will continue improving as we scale and add new modalities (training now). 1. For human health, Omnii can read and write whole genomes (more on writing later). It’s state of the art (SOTA) on detecting causal variants for disease, and can rank Alzheimer's mutations zero-shot. We’re partnering with a diagnostics company to use Omnii for early cancer detection (pancreatic and multi-cancer). 2. For defense, Omnii is SOTA at detecting AI-generated pathogens. We benchmarked existing detection tools, and they simply can’t detect the AI-generated ones (“deepfake viruses”). We’re partnering with a US national lab to pilot Omnii for detecting the next pandemic, both natural and AI-generated. We have a data center full of Blackwells in construction now to build the most powerful biological AI models ever. This mission takes a new kind of AI lab that can actually scale on physical, biological data: new alignment research (mid/post training), scaling long context, building out mech interp teams to dissect what these models learn, new architectures and systems designs, all from the ground up. Our team is made up of AI researchers and scientists from top labs and institutions (e.g. Stanford, MIT, Google DeepMind), but more importantly, we all share the belief that this is the most important challenge of our lifetime. If you feel similarly, we are hiring. We aim to bring the brightest minds in AI and science together to save lives. Thanks to our partners on this journey, led by Emergence Capital @emergencecap , with Obvious Ventures @obviousvc , Triatomic @TriatomicCap , and Patrick Collison @patrickc . Our advisors include Eric Horvitz @erichorvitz , CSO of Microsoft, Chris Re @HazyResearch of Stanford, George Church @geochurch of Harvard, and Andrew Weber @AndyWeberNCB , former Assistant Secretary of Defense for Nuclear, Chemical and Biological Defense Programs. Fortune article: fortune.com/2026/06/15/exclu… Jobs: radicalnumerics.ai/join-us",
+      "link": "https://nitter.net/exnx/status/2066496190502555888#m",
+      "published": "Mon, 15 Jun 2026 12:21:00 GMT",
+      "author_name": "Jeremy Howard",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "jeremyphoward",
+      "text": "\"Australians all let us rejoice\" 🇦🇺 2-0 🇹🇷 Lovely low-block, countering performance from Australia to beat Turkey. Clinical. Lovely goals too #FIFAWorldCup #Socceroos",
+      "link": "https://nitter.net/BeGriffis/status/2066097065772327072#m",
+      "published": "Sun, 14 Jun 2026 09:55:01 GMT",
+      "author_name": "Jeremy Howard",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "jeremyphoward",
+      "text": "NESTORY IRANKUNDA 27' Australia 🇦🇺 1 - 0 🇹🇷 Türkiye #FIFA #WC Video",
+      "link": "https://nitter.net/Promiseudo1311/status/2066024106160488663#m",
+      "published": "Sun, 14 Jun 2026 05:05:06 GMT",
+      "author_name": "Jeremy Howard",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "jeremyphoward",
+      "text": "The countries that call it soccer are on top of their group I’m crying 😭😭😭🇺🇸🇦🇺",
+      "link": "https://nitter.net/Raws_LFC/status/2066037597747786233#m",
+      "published": "Sun, 14 Jun 2026 05:58:43 GMT",
+      "author_name": "Jeremy Howard",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "This aligns with my experience for the most part; - spend $1k/night in Europe, get $100 service. - spend $1k/night in US, get $1k service. - spend $100 in Asia, get $1k service.",
+      "link": "https://nitter.net/Erwin_AI/status/2066763607526830501#m",
+      "published": "Tue, 16 Jun 2026 06:03:37 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "My biggest shock today was that America still has post offices, like ones you can actually walk into with your stuff and package it and they help you send it out We don't have them in most of Europe anymore You have tiny little counters in dirty tobacco shop and a tiny DPD or DHL or PostNL branded counter with agressive staff that really do not want to help you, and no they don't have boxes Here's a FedEx post office we walked in today, they have envelopes, boxes, bubble wraps, everything! You'll say but FedEx is private, yes you mean like most European postal companies now that are also private? Just something as basic as this is abundance and we don't have it anymore in Europe Video Community note: Traditional walk-in post offices remain widespread across much of Europe. France has thousands of full-service post offices (bureaux de poste), and Spain's Correos maintains over 2,300 branches throughout the country. elcaminoconcorreos.com/en/correos-off… expatfocus.com/france/guide/f Cleaver's Henchdwarf (@cowgirl_bebop) People don't seem to understand American abundance. This is the specialty cheese section, which is completely separate from the rest of the dairy aisle where you'd get things like string cheese and regular cheap block cheddar. We have everything, and in ridiculous quantities. — https://nitter.net/cowgirl_bebop/status/2066528996863451178#m",
+      "link": "https://nitter.net/levelsio/status/2066736132721918420#m",
+      "published": "Tue, 16 Jun 2026 04:14:26 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "Nobody does hayden (@haydendevs) finally looking into openclaw and hermes agent, i feel like a boomer man, i just don't get the use case — https://nitter.net/haydendevs/status/2066511545719230734#m",
+      "link": "https://nitter.net/levelsio/status/2066725249920717289#m",
+      "published": "Tue, 16 Jun 2026 03:31:12 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "I've seen so many entrepreneurs cutting their career short barely even before it begun by getting acquihired Acquihiring is great for the company doing it, terrible for the creative talent that's acquihired that now disappears forever in a soulless corporation at worst, or a startup team at best It's never worth it, not even for millions jack friks (@jackfriks) less than 2 months after launching @postbridge_ i got an offer to buy it for $3,000 then 10 months after launching i got an offer to buy it for $1,000,000 i decided not to accept either offer and for awhile there when growth stalled i thought maybe i made a mistake but in the last few months MRR doubled and we're now at nearly $40K MRR. — https://nitter.net/jackfriks/status/2066518334514835608#m",
+      "link": "https://nitter.net/levelsio/status/2066709942606946315#m",
+      "published": "Tue, 16 Jun 2026 02:30:22 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "On a micro level I kind of have this with certain people I met You give them the textbook instructions on how to make money on the internet from your own 10+ years of experience And they will listen and then gladly go against it and just fully ignore what you said and keep on failing and not making a single $ @levelsio (@levelsio) I find it so wild you have American billionaires who helped create modern Silicon Valley talk with governments (for free!) and literally telling them what to do in how to create bilions to trillions in GDP for their countries (again for free!) and their answer is they instead prefer to keep the bureaucratic overregulated stagnancy train going It just proves that incentives for governments in most of the world are completely misaligned from actually making their countries better and their people happier which was their primary function to begin with! — https://nitter.net/levelsio/status/2066703180524835153#m",
+      "link": "https://nitter.net/levelsio/status/2066703646101024817#m",
+      "published": "Tue, 16 Jun 2026 02:05:21 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "i was messing around with a stick figure physics sandbox game, and at the very end fable took a screenshot of the figures (which it canonically called “dudes”) and in its CoT it observed that they needed smiles before it could be considered a “game worthy of joy” that’s when i knew.",
+      "link": "https://nitter.net/mckaywrigley/status/2065634616695050579#m",
+      "published": "Sat, 13 Jun 2026 03:17:24 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "fable 5 was the 1st model to me that had “magic model smell.” beautifully digital mind imbued with a touch of the divine. i already miss it.",
+      "link": "https://nitter.net/mckaywrigley/status/2065633404645933325#m",
+      "published": "Sat, 13 Jun 2026 03:12:35 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "some random ai thoughts: - for code, i went from 80/20 claude/gpt to 80/20 gpt/claude in <3 months. surprised by this tbh, and interested to see where the split is at in another 3mo. - claude still mogs gpt for non-coding agent stuff. codex feels like an engineer (which is great for coding!), whereas claude still feels like a general purpose coworker. gpt still lacks that coworker magic - i’m pretty meh on opus 4.7. my experience hasn’t been *bad*, but it certainly hasn’t been good. sideways if anything. - anthropic has got to figure out the compute thing. you can feel it as a user. vibes are all out of whack bc of it. my opinions above are all likely downstream of this. it’s an issue. - anthropic labs continues to be the goat of ai product. claude design is another hit. it’s fantastic. idk why it’s not talked about more? a+ - updated claude code app is great. i finally switched out of the terminal for it. very well done. - how are people STILL sleeping on the claude agent sdk? i feel like i’m going insane. - gpt 5.5 is incredible. the level to which i trust it for engineering is amazing. if i could only have one model rn, it would be this one just bc of strong need for the coding use case. - codex team is killing it. app has been the gold standard since 5.3 release (buuut i credit conductor team for the ui innovation that everyone is using now). though i could do with a little less passive aggressive shots at ant from the codex team. TARS, dial up class by 30%. it’s a long race guys haha - i uninstalled cursor this month and am now back to vs code for my ide. composer just can’t hang with claude/gpt, and the product feels a bit all over the place. pretty stoked about the xai thing though, because their team is absolutely stacked and i’m excited to see what they might be able to do with that compute. codex and claude code are t1, cursor is t2. i would love if this deal got xai/cursor to t1 for a real trio there. - gemini…? seems like this is 2-3 models now where the model seems like a great release and then nobody ever uses it? i’m bullish google/deepmind but weird it hasn’t translated to product use in any form. kinda disappointed still - no open source models have hit the opus 4.5 level. was hopeful the new deepseek would get there, but nope. good oss agents will have to wait a few more months it would seem…",
+      "link": "https://nitter.net/mckaywrigley/status/2047806060061507971#m",
+      "published": "Fri, 24 Apr 2026 22:33:05 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "pantheon was a documentary from the future skooks (@skooookum) > mythos given a secured “sandbox” computer and instructed to try to escape the container > “The researcher found out about this success by receiving an unexpected email from the model while eating a sandwich in a park.” — https://nitter.net/skooookum/status/2041586401234350396#m",
+      "link": "https://nitter.net/mckaywrigley/status/2041687166074679471#m",
+      "published": "Wed, 08 Apr 2026 01:18:47 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "society needs to grapple with the reality of a mythos-level model being open source in <12 months. i’m not sure we are prepared. Anthropic (@AnthropicAI) Introducing Project Glasswing: an urgent initiative to help secure the world’s most critical software. It’s powered by our newest frontier model, Claude Mythos Preview, which can find software vulnerabilities better than all but the most skilled humans. anthropic.com/glasswing — https://nitter.net/AnthropicAI/status/2041578392852517128#m",
+      "link": "https://nitter.net/mckaywrigley/status/2041651309758275609#m",
+      "published": "Tue, 07 Apr 2026 22:56:18 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "Build an app. Fund the Dream. Elias Reyes (@eliasxreyes) I posted this a year ago. Today, I took my and my wife to watch Spain at the World Cup using the funds from Dial Moments: Audio Guestbook 🙌🏽 built with @Replit , I’m so happy that I was able to make my dream come true. — https://nitter.net/eliasxreyes/status/2066629646657958099#m",
+      "link": "https://nitter.net/MannyBernabe/status/2066738490386026668#m",
+      "published": "Tue, 16 Jun 2026 04:23:48 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "Who needs Fable when you can have Mistral’s Le Chaton Fat",
+      "link": "https://nitter.net/amasad/status/2066700847187140655#m",
+      "published": "Tue, 16 Jun 2026 01:54:14 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "I absolutely love Replit’s domain-specific agents: - growth agent surfacing SEO issues - security agent surfacing potential vulnerabilities My favorite thing is: select all, fix with Agent.",
+      "link": "https://nitter.net/amasad/status/2066683949129330817#m",
+      "published": "Tue, 16 Jun 2026 00:47:05 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "Touch grass…. AND build things. At the same time Francis (@FrancisStudio_) Build an iPhone app anywhere your phone gets signal! I can be outdoors enjoying nature, knowing Replit is handling the work in the background Video — https://nitter.net/FrancisStudio_/status/2066529449416278165#m",
+      "link": "https://nitter.net/amasad/status/2066557465991557491#m",
+      "published": "Mon, 15 Jun 2026 16:24:29 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "401ks are dead btw You seriously believe your 2055 target retirement fund will beat Claude fable quant day trading Robinhood MCP? Over decades of Ai progress? We are on the verge of compute managing a huge percentage of global capital, much better than humans ever could, and reshaping the economy in unimaginable ways We are leaving “late stage” capitalism and transitioning into hyper cyber capitalism",
+      "link": "https://nitter.net/NickADobos/status/2066810860119760965#m",
+      "published": "Tue, 16 Jun 2026 09:11:23 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "Caveat 401ks are worth it for the company match. Cuz that’s free extra money Otherwise optimal strat is yolo barbell Robinhood MCP fable + S&P 500",
+      "link": "https://nitter.net/NickADobos/status/2066810862070018429#m",
+      "published": "Tue, 16 Jun 2026 09:11:23 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "They made a robot human-centipede toilet for $13,000 lol NEXTA (@nexta_tv) 🤣 Chinese brand Yueban has unveiled a smart toilet on wheels With the press of a button, the device drives itself to the user, eliminating the need to walk to the bathroom. The company says it is designed primarily for elderly people and those with limited mobility. After use, the gadget can wash both the user and itself before returning to its docking station for a full self-disinfection cycle. 🎮💻 Somewhere, a gamer just whispered: “Finally.” Video — https://nitter.net/nexta_tv/status/2066649453508124761#m",
+      "link": "https://nitter.net/NickADobos/status/2066735670115418138#m",
+      "published": "Tue, 16 Jun 2026 04:12:36 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "Took them 2 months to realize they built themselves into a corner Nick Dobos (@NickADobos) Isn’t this impossible to enforce unless they remove a significant portion of Claude code? claude -p <prompt> — https://nitter.net/NickADobos/status/2040217631932944415#m",
+      "link": "https://nitter.net/NickADobos/status/2066621109697761430#m",
+      "published": "Mon, 15 Jun 2026 20:37:23 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "I told you guys Nick Dobos (@NickADobos) Does Anthropic know this is still impossible to enforce? There’s like 20+ ways to wrap an interactive CLI and read it lol One example among many: Use codex computer use to manually type to Claude in my terminal app, then parse the logs Another: Basic apple oascript to input, ocr to read They can keep making it minority more inconvenient, but Claude Mythos will just come up with a new workaround each time — https://nitter.net/NickADobos/status/2054698401124765791#m",
+      "link": "https://nitter.net/NickADobos/status/2066621106535202822#m",
+      "published": "Mon, 15 Jun 2026 20:37:22 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "Seems like a bad incentive for the rest of the economy, and for workers.",
+      "link": "https://nitter.net/emollick/status/2066678938970079413#m",
+      "published": "Tue, 16 Jun 2026 00:27:10 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "If AGI is achievable & labs can be banned from using a model internally ONLY if they release the model publicly, the Big Three labs may decide it is better to capture all the value from AGI themselves by expansion & acquisition. Sharing AI access with other firms triggers risk.",
+      "link": "https://nitter.net/emollick/status/2066678678587621522#m",
+      "published": "Tue, 16 Jun 2026 00:26:08 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "Do not dismiss the Powers of Philadelphia.",
+      "link": "https://nitter.net/emollick/status/2066661427385917737#m",
+      "published": "Mon, 15 Jun 2026 23:17:35 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "Unrelated to AI, I find it amusing that my home city has complex civic rituals that can curse or bless you depending on your offerings to a statue. Non-residents do not understand our folkways or their powers.",
+      "link": "https://nitter.net/emollick/status/2066660874471755948#m",
+      "published": "Mon, 15 Jun 2026 23:15:23 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "Fable was really good, as I wrote last week after testing it. It was a leap, but that may because, as exponential gains progress, the improvements in each incremental release are increasingly large. If so, Anthropic will not be the only lab making leaps. oneusefulthing.org/p/what-it…",
+      "link": "https://nitter.net/emollick/status/2066599457848766626#m",
+      "published": "Mon, 15 Jun 2026 19:11:20 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "It's actually le gros chaton",
+      "link": "https://nitter.net/arthurmensch/status/2066456715650793956#m",
+      "published": "Mon, 15 Jun 2026 09:44:08 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "it's time to make tech fun again Christina Farhat (@farhatchristina) > are you going to coachella — https://nitter.net/farhatchristina/status/2041170815828578401#m",
+      "link": "https://nitter.net/AnjneyMidha/status/2041175734899921131#m",
+      "published": "Mon, 06 Apr 2026 15:26:33 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "Voxtral TTS paper is out! it’s a good read :)",
+      "link": "https://nitter.net/qtnx_/status/2037553397423902846#m",
+      "published": "Fri, 27 Mar 2026 15:32:40 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "🔊Introducing Voxtral TTS: our new frontier open-weight model for natural, expressive, and ultra-fast text-to-speech 🎭Realistic, emotionally expressive speech. 🌍Supports 9 languages and accurately captures diverse dialects. ⚡Very low latency for time-to-first-audio. 🔄Easily adaptable to new voices Video",
+      "link": "https://nitter.net/MistralAI/status/2037183026539483288#m",
+      "published": "Thu, 26 Mar 2026 15:00:57 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "Mistral CEO: AI companies should pay a content levy in Europe ft.trib.al/hKU8k0g | opinion",
+      "link": "https://nitter.net/FT/status/2034963417816093104#m",
+      "published": "Fri, 20 Mar 2026 12:01:01 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Robostral can now follow natural language instructions. It responds to voice commands and pointing. It is also getting better at fine-grained manipulation where precise force control matters. It generalizes to new objects and tasks not present in the training data. Video",
+      "link": "https://nitter.net/inventorOli/status/2060357909561622885#m",
+      "published": "Fri, 29 May 2026 13:49:39 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "We're taking on the hardest problems in the real world 🏗️🚚 🛫⚛️ Today at The AI Now Summit, held at the Louvre, we announced AI solutions for aerospace, automotive, energy, and physics. Deployed in production at @Airbus , @BMW , @EDFofficiel , and more. More below:",
+      "link": "https://nitter.net/MistralAI/status/2059951137839616110#m",
+      "published": "Thu, 28 May 2026 10:53:17 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "(っ◔◡◔)っ We are joining @MistralAI ! ｃ(◔◡◔ｃ) I’m thrilled to announce that we are merging forces with @MistralAI I am officially starting a new chapter as Cyber Ops Lead, and the best part is I’m not coming alone! I’m bringing part of the AllVei team with me to build the future of AI for Cyber :D After talking with @GuillaumeLample and the founding team, it quickly became clear that we share the exact same obsession and mindset. With Mistral, we’re scaling up to a whole new level: the innovative spirit of the French AI champion, incredible resources, and absolutely brilliant people to work with every day. The fit was just too obvious 😄 A huge thanks to Guillaume and the entire Mistral team for their trust. I also want to thank everyone who believed in AllVei over the last few months. Thank you to the incredible tech ecosystem in Brittany (Village By CA Finistère, @regionbretagne , @FTBrestPlus , @Bpifrance ), to the VCs, and to our amazing design partners. Your support meant the world ❤️ Can’t wait to show you what we’re building. Let’s get to work 🔥 𝑯𝑨𝑪𝑲 𝑻𝑯𝑬 𝑷𝑳𝑨𝑵𝑬𝑻 :𝑫",
+      "link": "https://nitter.net/DoomerOutrun/status/2048853527187841133#m",
+      "published": "Mon, 27 Apr 2026 19:55:21 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "🆕 Today, we're releasing the public preview of Workflows, the orchestration layer for enterprise AI. 🌎 Enterprise teams have capable models. What they don't have is a way to run them reliably in production. That's the gap Workflows fills. It takes AI-powered business processes from prototype to production, with the durability, observability, and fault tolerance that production actually requires. Leading organisations like ASML, ABANCA, CMA-CGM, France Travail, La Banque Postale, Moeve, and many others are already using Workflows to automate critical processes. Video",
+      "link": "https://nitter.net/MistralAI/status/2049128071874179091#m",
+      "published": "Tue, 28 Apr 2026 14:06:17 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "x.com/i/article/206639970434…",
+      "link": "https://nitter.net/lqiao/status/2066403957824688462#m",
+      "published": "Mon, 15 Jun 2026 06:14:30 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "Open-source models will become a critical component of civilizational resilience in the AGI age. They will ensure that humanity retains access to a meaningful level of intelligence, regardless of the decisions of any individual actor.",
+      "link": "https://nitter.net/Thom_Wolf/status/2065731206755258387#m",
+      "published": "Sat, 13 Jun 2026 09:41:13 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "Decided to go to DC next week to talk directly with policymakers. Not sure how impactful it will be but with everything happening, feels like a good time to share more about open-source AI, transparency, concentration of power, the real risks vs the real benefits. Who do you think I should meet there (Congress members, WH people, public orgs,...)?",
+      "link": "https://nitter.net/ClementDelangue/status/2065626715561263290#m",
+      "published": "Sat, 13 Jun 2026 02:46:01 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "The core part of this Anthropic Fable release saga is that there are many overlapping issues at once. Some of which operate on different timelines of the AI arc, and some have easier fixes. In my critiques, I asked for specific changes to some things, understanding that some things don't have an easy fix. The simplest issue was an uneven application of safety domains in a way that was misleading to users. This was an implementation issue that overlaps with a values-based decision of what their customers should be doing. Many people including myself pointed out how it was insane to list core safety areas and then have one of them launch with a different safety mechanism, one which actively mislead users. Doing this from the guise of safety was a major misstep and in my opinion Anthropic got very justifiably raked over the coals for it. Don't release the model if you can't hit your safety targets. A subissue here is the idea of silent manipulation. This again is a horrible precedent, and quite odd for a company that has done extensive, leading technical AI safety research on ideas like CoT monitoring and other emergent misalignment issues. Silent manipulation of users is baking in a misalignment to the system at its face level. This comes with a permanent degradation in user trust, which begets a less safe environment for AI. Users who don't have clear information on how AI works will not develop safe working patterns with it. The more complex issues are with how Anthropic handles broader scientific engagement with their models. The safety classifiers launched with these models obviously have accuracy issues to start. I have priced in that there will be more false positives to start, that's life. It's Anthropic's business to degrade their products at release time, or make the trade off of user satisfaction versus revenue. Still, it is a very real sign of concentration of power that businesses can make such obviously user-harmful behaviors and still lead in the market. This concentration of power is only starting to set in and we could see even weirder signs of it in the coming years. It is now simple enough for me to test Claude Fable in my workflows and know if I'm restricted. This is obviously a suboptimal equilibrium – i want the best intelligence I can get, without restrictions – but it is easy enough for me to make sense of and work with. The specific issue of restricting access to AI research in particular was a bubbling and hard to fix issue with Anthropic specifically, and the frontier labs generally. There is a common view that the frontier labs will be the mediators of all major scientific innovations in the future, as the places with the best models and the compute for inference to solve major problems. This is a categorical error in how science works, which is a community evolution of accepted ideas, and the the evaluation of your ideas by (hopefully numerous) independent, other practitioners. You cannot have science advance only within a monolith. As an AI researcher I'm very sad to have the latest models restricted, but I would expect Anthropic to do this eventually. I lost more trust over the silent manipulation than I would with a restriction in access. Anthropic has made it pretty clear that they only trust themselves as the mediators of cutting-edge AI research. If I had a say, Anthropic should've proactively made a program to make sure researchers get access in the broader AI community without the safeguards. Academics, nonprofit workers myself, etc. have no reason to not get access. The only valid argument here is that they want to control frontier AI, which is a know your customer part of serving these models. This worldview of science has personally motivated me greatly over the last year, and increasingly so this week, to make the open science of AI continue to be viable. Olmo was a wonderful success here. Still, building research infrastructure is different from working for access to the tools needed to do the trade.",
+      "link": "https://nitter.net/natolambert/status/2065082135682383950#m",
+      "published": "Thu, 11 Jun 2026 14:42:03 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": ". @dh7net , SVP of Image Research, said it best: \"The HF infra is a no-brainer.\" A big unlock for teams working with large datasets for training, especially when they update over time. Read how Jasper used @huggingface as the creation and storage backbone for MONET: huggingface.co/storage/testi…",
+      "link": "https://nitter.net/heyjasperai/status/2065084066064449971#m",
+      "published": "Thu, 11 Jun 2026 14:49:43 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Open source is so back 🔥 hf.co/mistralai/Mistral-Medi…",
+      "link": "https://nitter.net/mishig25/status/2066587177077584098#m",
+      "published": "Mon, 15 Jun 2026 18:22:33 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "old: put storage next to your compute new: put compute next to your storage",
+      "link": "https://nitter.net/julien_c/status/2066537073356497147#m",
+      "published": "Mon, 15 Jun 2026 15:03:27 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "open source wen? Alexander Knigge (@AlexanderKnigge) oh my god its happening @MistralAI has officially confirmed the upcoming release of Le Chaton Fat - 30T MoE with 256 experts - 1M context window - multimodal and multilingual - outperforms Fable 5 on every benchmark — https://nitter.net/AlexanderKnigge/status/2066267845546442762#m",
+      "link": "https://nitter.net/julien_c/status/2066536660326584762#m",
+      "published": "Mon, 15 Jun 2026 15:01:48 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Never, ever throw away your coding agent traces. If it wasn’t obvious before it should be now.",
+      "link": "https://nitter.net/tarunsachdeva/status/2065864465346707932#m",
+      "published": "Sat, 13 Jun 2026 18:30:45 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Luckily this can never happen",
+      "link": "https://nitter.net/julien_c/status/2065737492603482421#m",
+      "published": "Sat, 13 Jun 2026 10:06:12 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+      "link": "https://nitter.net/soumithchintala/status/1202981209057484801#m",
+      "published": "Fri, 06 Dec 2019 16:00:45 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+      "link": "https://nitter.net/Thom_Wolf/status/1195662118974083073#m",
+      "published": "Sat, 16 Nov 2019 11:17:18 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+      "link": "https://nitter.net/algo_diver/status/1192329736850038786#m",
+      "published": "Thu, 07 Nov 2019 06:35:36 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitter.net/DoingJobs/status/11865…",
+      "link": "https://nitter.net/Thom_Wolf/status/1189271899316064256#m",
+      "published": "Tue, 29 Oct 2019 20:04:51 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+      "link": "https://nitter.net/fchollet/status/1188942956511690752#m",
+      "published": "Mon, 28 Oct 2019 22:17:44 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Anthropic, the U.S. government, and the Mythos/Fable shutdown - a roundup of the latest news: - Senior Anthropic staff are reportedly meeting with government officials in Washington today to try and diffuse the situation - Axios sources framing the issue as a communication breakdown: \" \"Anthropic has not done a great job at trying to speak to the administration and appreciate the ideological differences,\" one source familiar with the administration's thinking said. \"It's like they just speak in different languages,\" the source said, adding that the company has simply not figured out how to communicate with this administration. - The Washington Post sources dispute the government's stance that CEO Dario Amodei refused to work with them on the safety issue, and were given just 90 minutes to comply with the order. “Dario agreed to fix the problem if it was real, but they were never given anything until people started flagging this Amazon report,” one of the people said. - Security researchers disagree with Trump admin on the alleged Fable jailbreak risk. An open letter from titled \"On Transparent AI Cyber Protections\" details why Fable should be restored: \"We, the undersigned executives and technical leaders from across the United States and its allies, write to you to ask you to lift the export control directives on Anthropic’s Fable and Mythos large language models and commit to an open, scientific and transparent process of handling AI risk assessments in the future.\" Currently signed by dozens of researchers and industry members. The Rundown AI (@TheRundownAI) Wow - Anthropic is suspending all access to Fable and Mythos after the U.S. government's export control directive. The government designation would restrict access to any foreign national (even those in the country). The government cited reports of Fable jailbreaking in the order, which Anthropic appears to disagree with. \"We believe the government should have the ability to block unsafe deployments, as part of a statutory process that is transparent, fair, clear, and grounded in technical facts. This action does not adhere to those principles.\" — https://nitter.net/TheRundownAI/status/2065600435864416660#m",
+      "link": "https://nitter.net/TheRundownAI/status/2066559132963131523#m",
+      "published": "Mon, 15 Jun 2026 16:31:06 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Today, we're announcing our first strategic investment from Electrify. The partnership will help us expand our content, education, and products far faster than we could alone. Details explained by @rowancheung in the thread below: Rowan Cheung (@rowancheung) NEWS: The Rundown just took its first strategic investment from Electrify (behind brands like Veritasium, Fireship, and more)! Through this partnership, we can scale significantly faster toward our mission of educating 1B people on AI. The story below: — https://nitter.net/rowancheung/status/2064334363622244824#m",
+      "link": "https://nitter.net/TheRundownAI/status/2064336855663837387#m",
+      "published": "Tue, 09 Jun 2026 13:20:34 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Sign up at therundown.ai and read more about the partnership here: electrify.video/news/electri…",
+      "link": "https://nitter.net/rowancheung/status/2064334380839878707#m",
+      "published": "Tue, 09 Jun 2026 13:10:44 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "It's a huge honor to translate the fastest-moving industry of our time for millions of people every day. My job is awesome. Our mission is to turn AI into a practical skill for 1 billion people. This partnership is how we get there faster, and we're just getting started 🫡",
+      "link": "https://nitter.net/rowancheung/status/2064334378797330818#m",
+      "published": "Tue, 09 Jun 2026 13:10:44 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Crazy to think a simple daily email turned into a real business, now with real investors. Incredibly grateful to my team for turning this vision into reality, to the millions of readers who trust us as their AI news and education source, and to our partners who support us!",
+      "link": "https://nitter.net/rowancheung/status/2064334376184303641#m",
+      "published": "Tue, 09 Jun 2026 13:10:43 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "Addy Osmani's Blog: addyosmani.com/blog/loop-eng…",
+      "link": "https://nitter.net/AlphaSignalAI/status/2066540860297331078#m",
+      "published": "Mon, 15 Jun 2026 15:18:30 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "x.com/i/article/206653141957…",
+      "link": "https://nitter.net/AlphaSignalAI/status/2066540692281971085#m",
+      "published": "Mon, 15 Jun 2026 15:17:50 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "Repo: github.com/microsoft/ai-engi… Check out alphasignal.ai/newsletter to get a daily summary of the latest breakthrough news, models, papers and repos. Read by 300,000+ devs.",
+      "link": "https://nitter.net/AlphaSignalAI/status/2066536466830725558#m",
+      "published": "Mon, 15 Jun 2026 15:01:02 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "Microsoft just built a coach that catches your AI coding habits and fixes them. Most developers using AI coding tools have no idea if they're improving. Which prompts they repeat. Which habits slow them down. Microsoft just open-sourced AI Engineer Coach to fix that. It's a VS Code extension reading your local session logs, and everything runs on your machine. No data leaves. It works across any harness, pulling Copilot, Claude Code, and Cursor into one dashboard. The extension flags weak habits using 45 anti-pattern rules across five areas: 1. Prompt quality and clarity 2. Session hygiene checks 3. Code review discipline 4. Tool mastery signals 5. Context management health Each flagged issue arrives with a severity rating and a concrete fix you can act on. A Skill Finder spots your repeated prompts, then matches them to reusable community skills. You also get personalized quizzes built from your real usage, with progression from Bronze tier to Diamond. So what habit is quietly capping your output?",
+      "link": "https://nitter.net/AlphaSignalAI/status/2066536465333457300#m",
+      "published": "Mon, 15 Jun 2026 15:01:02 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "AI coding tools have made your team faster. So why does it feel like there are more fires to put out than ever? The bottleneck didn’t disappear, it just moved. On June 25th at 10am PT, AlphaSignal is hosting a live webinar tackling exactly this: why AI-generated code keeps failing in production, what engineers are missing in their verification process, and what it actually takes to trust what your agents ship. Save your spot → luma.com/r1y6zsiv Thank you to Gal Vered from ChecksumAI for joining us in this conversation.",
+      "link": "https://nitter.net/AlphaSignalAI/status/2066491070288986558#m",
+      "published": "Mon, 15 Jun 2026 12:00:39 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    }
+  ],
+  "failed_accounts": [
+    "karpathy",
+    "sama",
+    "DarioAmodei",
+    "gdb",
+    "sundarpichai",
+    "elonmusk",
+    "AravSrinivas",
+    "miramurati",
+    "ylecun",
+    "demishassabis",
+    "JeffDean",
+    "fchollet",
+    "AndrewYNg",
+    "rasbt",
+    "bcherny",
+    "karinanguyen_"
+  ],
+  "processed": {
+    "summary": "Cette semaine dans l'IA, on observe une compétition accrue entre les grands modèles comme GPT-5.5 et Claude, avec des avancées notables en rapidité et coût. Parallèlement, la recherche progresse dans des domaines pointus comme la biologie (génomique) et les agents autonomes, bien que leur aptitude au travail professionnel reste un défi. Enfin, la question de l'open source et de la régulation de l'IA prend de l'ampleur, soulevant des débats sur l'accès à la recherche et la sécurité.",
+    "glossaire": [
+      {
+        "terme": "LLM (Large Language Model)",
+        "definition": "Modèle linguistique de grande taille, un type d'intelligence artificielle entraîné sur d'énormes quantités de texte pour comprendre et générer du langage humain."
+      },
+      {
+        "terme": "Benchmark",
+        "definition": "Un test standardisé utilisé pour évaluer et comparer les performances de différents systèmes d'IA."
+      },
+      {
+        "terme": "Agent IA",
+        "definition": "Un programme d'IA conçu pour accomplir des tâches de manière autonome, souvent en interagissant avec des environnements numériques ou physiques."
+      },
+      {
+        "terme": "Compute",
+        "definition": "La puissance de calcul brute nécessaire pour entraîner et faire fonctionner des modèles d'IA, souvent mesurée en termes de puissance des processeurs (GPU)."
+      },
+      {
+        "terme": "Open Source",
+        "definition": "Logiciel dont le code source est publiquement accessible et modifiable, permettant à chacun de l'utiliser, le distribuer ou l'améliorer."
+      },
+      {
+        "terme": "AGI (Artificial General Intelligence)",
+        "definition": "Intelligence Artificielle Générale, un type d'IA hypothétique qui posséderait des capacités cognitives humaines pour comprendre, apprendre et appliquer son intelligence à n'importe quel problème."
+      }
+    ],
+    "category_summaries": {
+      "actu": "Les grandes entreprises d'IA (OpenAI, Anthropic, Google) continuent leurs annonces avec des mises à jour de leurs modèles phares, des programmes de recherche et des applications industrielles. Des questions réglementaires émergent, notamment autour de la suspension de modèles par le gouvernement américain, soulevant des débats sur la sécurité et l'accès à la recherche.",
+      "tips": "Cette semaine propose des astuces pour optimiser l'utilisation des IA, notamment dans le codage avec des outils comme Codex ou Claude Code, et pour améliorer la gestion des prompts. Des conseils portent aussi sur la manière de structurer le travail avec des agents IA pour une meilleure efficacité.",
+      "idees": "Les réflexions portent sur l'impact croissant de l'IA sur la recherche scientifique (mathématiques, biologie), le marché du travail et l'économie globale. Les débats incluent le potentiel et les limites des agents IA pour des tâches professionnelles, l'importance de l'open source pour la résilience sociétale, et les implications éthiques de l'IA générative.",
+      "outils": "De nouveaux outils et modèles sont disponibles ou annoncés, incluant des améliorations pour GPT-5.5, des avancées en robotique avec les modèles de Google, des innovations en génération d'images et de parole (Voxtral TTS), et des plateformes d'orchestration pour les agents IA (LangGraph, Workflows)."
+    },
+    "highlights": [
+      {
+        "author_name": "Noam Brown",
+        "handle": "polynoamial",
+        "text_fr": "Je suis heureux que GPT-5.5 domine cette évaluation. Je suis encore plus heureux qu'il fasse toujours le meilleur lorsqu'on le mesure par tokens, coût ou temps réel ! Tout le monde dit que les derniers agents IA seront bientôt « prêts pour le travail », surtout après la sortie de Fable 5 cette semaine. Mais est-ce vraiment le cas ? Au cours des derniers mois, mon groupe et mes collaborateurs ont construit Agents' Last Exam (ALE), une référence conçue pour tester précisément cette affirmation sur le travail réel du marché du travail numérique. Mon groupe et mes collaborateurs ont précédemment créé bon nombre des références sur lesquelles le domaine fonctionne, y compris MMLU, MATH, CyberGym et ExploitGym. Aujourd'hui, je suis ravi de partager Agents' Last Exam (ALE) : une référence évolutive qui mesure si les agents IA peuvent réellement effectuer un travail économiquement valable dans un large éventail de domaines réels. Avec ALE, nous avons évalué Fable 5, GPT-5.5, Composer 2.5 et d'autres systèmes d'agents de pointe sur plus de 1 500 tâches sourcées par des experts couvrant 55 professions. Le résultat est à la fois impressionnant et nuancé. Les agents d'aujourd'hui peuvent résoudre une fraction significative des tâches professionnelles. Mais quand on regarde les tâches les plus difficiles, celles qui nécessitent un raisonnement soutenu, une expertise de domaine approfondie et une exécution fiable sur de longs horizons, elles sont encore loin des performances humaines. Sur le niveau le plus difficile d'ALE, tous les agents de pointe que nous avons testés, y compris Fable 5, ont obtenu un taux de réussite de 0 %. L'ère des agents utiles est là. L'ère des agents véritablement prêts pour le travail, non. Nous espérons qu'Agents' Last Exam (ALE) servira de nouveau guide et d'étoile polaire pour développer des agents capables d'effectuer de manière fiable un travail économiquement valable dans un large éventail de domaines. 🧵 — https://nitter.net/dawnsongtweets/status/2065095757988868190#m",
+        "text_original": "I'm happy GPT-5.5 tops this eval I'm even happier it's still doing the best when measured vs tokens, cost, or wall-clock time! Dawn Song (@dawnsongtweets) Everyone says the latest AI agents will be \"job-ready\" soon, especially after the release of Fable 5 this week. But is that really the case? Over the past many months, my group and collaborators have been building Agents' Last Exam (ALE), a benchmark designed to test exactly that claim on real digital labor-market work. My group and collaborators previously have created many of the benchmarks the field runs on, including MMLU, MATH, CyberGym, and ExploitGym. Today, I'm excited to share Agents' Last Exam (ALE): a rolling benchmark that measures whether AI agents can actually perform economically valuable work across a broad range of real-world domains. With ALE, we evaluated Fable 5, GPT-5.5, Composer 2.5, and other frontier agent systems across more than 1,500 expert-sourced tasks spanning 55 occupations. The result is both impressive and sobering. Today's agents can solve a meaningful fraction of professional tasks. But when we look at the hardest tasks, the ones requiring sustained reasoning, deep domain expertise, and reliable execution over long horizons, they are still far from human-level performance. On ALE's hardest tier, every frontier agent we tested, including Fable 5, achieved a 0% success rate. The age of useful agents is here. The age of truly job-ready agents is not. We hope Agents' Last Exam (ALE) will serve as a new guidepost and north star for developing agents capable of reliably performing economically valuable work across a broad range of domains. 🧵 — https://nitter.net/dawnsongtweets/status/2065095757988868190#m",
+        "link": "https://nitter.net/polynoamial/status/2065125807585149136#m",
+        "decryptage": "Une nouvelle évaluation ('Agents' Last Exam') montre que si les IA peuvent faire une partie du travail, elles sont encore loin de pouvoir réaliser les tâches les plus complexes demandant du raisonnement et de l'expertise, rendant les agents IA utiles mais pas encore 'prêts pour un vrai emploi'.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet pose la question cruciale de la maturité des agents IA pour le monde professionnel, en montrant leurs limites actuelles sur les tâches complexes, ce qui est essentiel pour comprendre le potentiel réel de ces technologies."
+      },
+      {
+        "author_name": "Omar Sanseviero",
+        "handle": "osanseviero",
+        "text_fr": "NASA vient de déployer Gemma dans l'espace 🛰️. NASA+Loft Orbital ont fait tourner Gemma 3 en orbite à bord d'un satellite Loft Orbital's YAM-9. Ils utilisent LangGraph pour l'orchestration des agents et Gemma 3 pour générer de courts résumés en anglais directement depuis l'espace.",
+        "text_original": "NASA just deployed Gemma to Space 🛰️ NASA+Loft Orbital ran Gemma 3 in orbit onboard a Loft Orbital's YAM-9 satellite. They use LangGraph for agent orchestration and Gemma 3 to generate short English summaries right from space",
+        "link": "https://nitter.net/osanseviero/status/2066791925349257552#m",
+        "decryptage": "Le modèle d'IA Gemma 3 de Google, utilisé pour générer des résumés de données, a été testé et opéré directement depuis l'espace par la NASA à bord d'un satellite.",
+        "category": "actu",
+        "highlight_reason": "L'utilisation d'un modèle d'IA (Gemma 3) directement depuis l'espace par la NASA est une application concrète et impressionnante, montrant la robustesse et la polyvalence de ces technologies dans des environnements extrêmes."
+      },
+      {
+        "author_name": "Mark Chen",
+        "handle": "markchen90",
+        "text_fr": "Le fait que GPT 5.5 (high/xhigh) surpasse claude-opus-4.8 (max/xhigh) de 20,7% en réussissant 12 tâches supplémentaires est une grande nouvelle ! Plus impressionnant encore : GPT coûte environ moitié moins cher et est deux fois plus rapide. OpenAI est de retour dans la course. Dans l'ensemble, cette compétition est saine pour l'industrie. J'aimerais voir un troisième acteur monter en haut du classement ! Datacurve (@datacurve) Opus 4.8 est maintenant sur DeepSWE. Sur l'effort de réflexion élevé par défaut, il obtient 6% de plus qu'Opus 4.7 xhigh, tout en réduisant le coût moyen par tâche. Vidéo — https://nitter.net/datacurve/status/2060834005998793199#m",
+        "text_original": "The big story here is that GPT 5.5 (high/xhigh) outperforms claude-opus-4.8 (max/xhigh) by 20.7% succeeding on 12 additional tasks! More impressive: GPT is roughly half the cost and twice as fast. OpenAI is back in the game. Overall, this competition is healthy for the industry. I'd love to see a third player rise to the top of the leaderboard! Datacurve (@datacurve) Opus 4.8 is now on DeepSWE. On the default high thinking effort, it scores 6% higher than Opus 4.7 xhigh, while also lowering average cost per task. Video — https://nitter.net/datacurve/status/2060834005998793199#m",
+        "link": "https://nitter.net/nicbstme/status/2061491605962707232#m",
+        "decryptage": "Ce tweet compare les performances et les coûts de deux modèles d'IA majeurs (GPT 5.5 et Claude Opus 4.8), soulignant la supériorité de GPT 5.5 en termes d'efficacité (coût et vitesse).",
+        "category": "actu",
+        "highlight_reason": "Cette comparaison directe entre deux modèles leaders met en lumière la course à la performance et à l'efficacité, un aspect clé de l'évolution actuelle de l'IA, avec des implications importantes pour les utilisateurs et les développeurs."
+      },
+      {
+        "author_name": "Shawn Wang",
+        "handle": "swyx",
+        "text_fr": "Ensemble avec mes co-fondateurs Michael @MichaelPoli6, Stefano @Massastrello et Armin @athmsx, j'ai le plaisir d'annoncer que @RadicalNumerics sort de sa période de discrétion avec une levée de fonds d'amorçage de 50 millions de dollars pour construire une intelligence biologique générale. Nous partageons également un aperçu de notre nouveau modèle Omnii, le modèle linguistique de génome le plus puissant à ce jour. Lien vers l'aperçu d'Omnii : radicalnumerics.ai/blog/radi… Chez Radical Numerics, notre mission est de maîtriser le code de la vie, et de faire progresser la frontière de l'IA biologique pour la conception et la défense. C'est notre double mandat, qui découle de ce que notre propre équipe a aidé à rendre possible. Notre équipe fondatrice a entraîné Evo et Evo 2, les plus grands modèles d'IA biologiques (40 milliards de paramètres) entraînés sur des séquences d'ADN. Des trillions de tokens couvrant toute la vie, des microbes aux mammifères. C'est entièrement open source, et cela a créé le domaine maintenant connu sous le nom de génomique générative. L'année dernière, des scientifiques ont utilisé Evo pour générer le premier génome complet au monde à partir de zéro en utilisant l'IA. Il s'est avéré que c'était un bactériophage – un type de virus. Il a fonctionné dans le monde réel, et dans ce cas, il était inoffensif. Mais pour nous, ce fut un tournant décisif. Cela a montré que l'IA n'analyse plus seulement la biologie. Elle est sur le point de générer des formes de vie fonctionnelles. À terme, l'IA aura le pouvoir de concevoir et de contrôler la vie elle-même. Cela devrait nous rendre tous incroyablement enthousiastes, et incroyablement mal à l'aise. (N'importe qui peut concevoir de l'ADN avec une nouvelle fonction, et le faire synthétiser et livrer, comme quelque chose d'Amazon Prime). La même technologie qui nous aidera à guérir le cancer est la technologie même qui pourrait créer la prochaine pandémie mondiale, ou pire, permettre la création d'armes biologiques capables d'anéantir des populations. Nous pensons que ces forces sont inséparables. Si vous travaillez à la frontière de la biologie, vous devez construire une technologie pour la protéger de sa mauvaise utilisation. Les outils de biosécurité existants perdent cruellement la course aux armements, s'appuyant sur des algorithmes obsolètes du type « ai-je déjà vu cela exactement auparavant ? ». Nous avons fondé Radical Numerics pour inverser la tendance. Et nous ne pouvons pas le faire en nous entraînant sur des manuels et du langage naturel. Nous devons comprendre le langage de la biologie à partir des données physiques brutes elles-mêmes, pour raisonner sur chaque molécule et modalité, de l'ADN aux protéines. La prochaine frontière de l'IA va bien au-delà des chatbots ou des générateurs vidéo pour aboutir à des modèles capables de comprendre et d'ingénierer la vie. Aujourd'hui, nous présentons en avant-première Omnii, qui surpasse déjà largement Evo 2, et continuera de s'améliorer à mesure que nous évoluerons et ajouterons de nouvelles modalités (entraînement en cours). 1. Pour la santé humaine, Omnii peut lire et écrire des génomes entiers (plus d'informations sur l'écriture plus tard). Il est à la pointe de la technologie (SOTA) pour détecter les variants causaux de maladies, et peut classer les mutations d'Alzheimer sans supervision ('zero-shot'). Nous nous associons à une entreprise de diagnostic pour utiliser Omnii pour la détection précoce du cancer (pancréatique et multicancéreux). 2. Pour la défense, Omnii est SOTA pour détecter les pathogènes générés par l'IA. Nous avons benchmarké les outils de détection existants, et ils ne peuvent tout simplement pas détecter ceux générés par l'IA (« virus deepfake »). Nous nous associons à un laboratoire national américain pour piloter Omnii dans la détection de la prochaine pandémie, qu'elle soit naturelle ou générée par l'IA. Nous avons un centre de données rempli de Blackwells en construction pour construire les modèles d'IA biologiques les plus puissants jamais créés. Cette mission nécessite un nouveau type de laboratoire d'IA capable de s'adapter réellement aux données physiques et biologiques : nouvelle recherche sur l'alignement (milieu/post-entraînement), mise à l'échelle du contexte long, construction d'équipes d'interpétation mécanique pour disséquer ce que ces modèles apprennent, nouvelles architectures et conceptions de systèmes, le tout à partir de zéro. Notre équipe est composée de chercheurs et de scientifiques en IA issus des meilleurs laboratoires et institutions (par exemple, Stanford, MIT, Google DeepMind), mais plus important encore, nous partageons tous la conviction qu'il s'agit du défi le plus important de notre vie. Si vous partagez cet avis, nous recrutons. Nous visons à rassembler les esprits les plus brillants en IA et en science pour sauver des vies. Merci à nos partenaires dans ce voyage, dirigé par Emergence Capital @emergencecap, avec Obvious Ventures @obviousvc, Triatomic @TriatomicCap, et Patrick Collison @patrickc. Nos conseillers incluent Eric Horvitz @erichorvitz, CSO de Microsoft, Chris Re @HazyResearch de Stanford, George Church @geochurch de Harvard, et Andrew Weber @AndyWeberNCB, ancien Assistant Secrétaire à la Défense pour les Programmes de Défense Nucléaire, Chimique et Biologique. Article Fortune : fortune.com/2026/06/15/exclu… Emplois : radicalnumerics.ai/join-us",
+        "text_original": "Together with my co-founders Michael @MichaelPoli6 , Stefano @Massastrello and Armin @athmsx , I am excited to announce @RadicalNumerics is emerging from stealth with a $50M seed round to build general biological intelligence. We’re also sharing an early preview of our new model Omnii, the most powerful genome language model to date. Omnii preview link: radicalnumerics.ai/blog/radi… At Radical Numerics, our mission is to master the code of life, and to drive the frontier of biological AI for both design and defense. This is our dual mandate, which comes from something our own team helped make possible. Our founding team trained Evo and Evo 2, the largest biological AI models (40B params) trained on DNA sequences. Trillions of tokens across all of life, from microbes to mammals. It’s fully open source, and created the field now known as generative genomics. Last year, scientists used Evo to generate the world’s first complete genome from scratch using AI. Turns out it was a bacteriophage—a type of virus. It functioned in the real world, and in this case it was harmless. But for us, it was a clear turning point. It showed that AI is no longer just analyzing biology. It is on the cusp of generating functional lifeforms. Eventually, AI will have the power to design and control life itself. That should make all of us incredibly excited, and incredibly uneasy. (Anyone can design DNA with a new function, and have it synthesized and delivered, like something from Amazon Prime). The same technology that will help us cure cancer is the very technology that might create the next global pandemic, or worse, allow the creation of bioweapons that can wipe out populations. We believe these forces are inseparable. If you work on the frontier of biology, you have to build technology to safeguard it from its misuse. Existing biosecurity tools are sorely losing the arms race, relying on outdated “have I seen this exact thing before?” style algorithms. We founded Radical Numerics to turn the tide. And we can’t do that by training on textbooks and natural language. We must understand the language of biology from the raw physical data itself, to reason across every molecule and modality, from DNA to proteins. The next frontier for AI goes far beyond chatbots or video generators to models that can understand and engineer life. Today, we’re previewing Omnii, which is already far surpassing Evo 2, and will continue improving as we scale and add new modalities (training now). 1. For human health, Omnii can read and write whole genomes (more on writing later). It’s state of the art (SOTA) on detecting causal variants for disease, and can rank Alzheimer's mutations zero-shot. We’re partnering with a diagnostics company to use Omnii for early cancer detection (pancreatic and multi-cancer). 2. For defense, Omnii is SOTA at detecting AI-generated pathogens. We benchmarked existing detection tools, and they simply can’t detect the AI-generated ones (“deepfake viruses”). We’re partnering with a US national lab to pilot Omnii for detecting the next pandemic, both natural and AI-generated. We have a data center full of Blackwells in construction now to build the most powerful biological AI models ever. This mission takes a new kind of AI lab that can actually scale on physical, biological data: new alignment research (mid/post training), scaling long context, building out mech interp teams to dissect what these models learn, new architectures and systems designs, all from the ground up. Our team is made up of AI researchers and scientists from top labs and institutions (e.g. Stanford, MIT, Google DeepMind), but more importantly, we all share the belief that this is the most important challenge of our lifetime. If you feel similarly, we are hiring. We aim to bring the brightest minds in AI and science together to save lives. Thanks to our partners on this journey, led by Emergence Capital @emergencecap , with Obvious Ventures @obviousvc , Triatomic @TriatomicCap , and Patrick Collison @patrickc . Our advisors include Eric Horvitz @erichorvitz , CSO of Microsoft, Chris Re @HazyResearch of Stanford, George Church @geochurch of Harvard, and Andrew Weber @AndyWeberNCB , former Assistant Secretary of Defense for Nuclear, Chemical and Biological Defense Programs. Fortune article: fortune.com/2026/06/15/exclu… Jobs: radicalnumerics.ai/join-us",
+        "link": "https://nitter.net/exnx/status/2066496190502555888#m",
+        "decryptage": "Une nouvelle entreprise, Radical Numerics, a été lancée avec un financement important pour développer des IA capables de comprendre et de générer du matériel biologique, comme l'ADN, avec des applications potentielles dans la santé et la défense.",
+        "category": "actu",
+        "highlight_reason": "Ce tweet annonce une avancée majeure dans l'IA appliquée à la biologie, un domaine fascinant qui soulève autant d'enthousiasme que d'inquiétudes quant à ses implications futures pour la vie elle-même."
+      }
+    ],
+    "by_category": {
+      "actu": [
+        {
+          "author_name": "Noam Brown",
+          "handle": "polynoamial",
+          "text_fr": "Je suis heureux que GPT-5.5 domine cette évaluation. Je suis encore plus heureux qu'il fasse toujours le meilleur lorsqu'on le mesure par tokens, coût ou temps réel ! Tout le monde dit que les derniers agents IA seront bientôt « prêts pour le travail », surtout après la sortie de Fable 5 cette semaine. Mais est-ce vraiment le cas ? Au cours des derniers mois, mon groupe et mes collaborateurs ont construit Agents' Last Exam (ALE), une référence conçue pour tester précisément cette affirmation sur le travail réel du marché du travail numérique. Mon groupe et mes collaborateurs ont précédemment créé bon nombre des références sur lesquelles le domaine fonctionne, y compris MMLU, MATH, CyberGym et ExploitGym. Aujourd'hui, je suis ravi de partager Agents' Last Exam (ALE) : une référence évolutive qui mesure si les agents IA peuvent réellement effectuer un travail économiquement valable dans un large éventail de domaines réels. Avec ALE, nous avons évalué Fable 5, GPT-5.5, Composer 2.5 et d'autres systèmes d'agents de pointe sur plus de 1 500 tâches sourcées par des experts couvrant 55 professions. Le résultat est à la fois impressionnant et nuancé. Les agents d'aujourd'hui peuvent résoudre une fraction significative des tâches professionnelles. Mais quand on regarde les tâches les plus difficiles, celles qui nécessitent un raisonnement soutenu, une expertise de domaine approfondie et une exécution fiable sur de longs horizons, elles sont encore loin des performances humaines. Sur le niveau le plus difficile d'ALE, tous les agents de pointe que nous avons testés, y compris Fable 5, ont obtenu un taux de réussite de 0 %. L'ère des agents utiles est là. L'ère des agents véritablement prêts pour le travail, non. Nous espérons qu'Agents' Last Exam (ALE) servira de nouveau guide et d'étoile polaire pour développer des agents capables d'effectuer de manière fiable un travail économiquement valable dans un large éventail de domaines. 🧵 — https://nitter.net/dawnsongtweets/status/2065095757988868190#m",
+          "text_original": "I'm happy GPT-5.5 tops this eval I'm even happier it's still doing the best when measured vs tokens, cost, or wall-clock time! Dawn Song (@dawnsongtweets) Everyone says the latest AI agents will be \"job-ready\" soon, especially after the release of Fable 5 this week. But is that really the case? Over the past many months, my group and collaborators have been building Agents' Last Exam (ALE), a benchmark designed to test exactly that claim on real digital labor-market work. My group and collaborators previously have created many of the benchmarks the field runs on, including MMLU, MATH, CyberGym, and ExploitGym. Today, I'm excited to share Agents' Last Exam (ALE): a rolling benchmark that measures whether AI agents can actually perform economically valuable work across a broad range of real-world domains. With ALE, we evaluated Fable 5, GPT-5.5, Composer 2.5, and other frontier agent systems across more than 1,500 expert-sourced tasks spanning 55 occupations. The result is both impressive and sobering. Today's agents can solve a meaningful fraction of professional tasks. But when we look at the hardest tasks, the ones requiring sustained reasoning, deep domain expertise, and reliable execution over long horizons, they are still far from human-level performance. On ALE's hardest tier, every frontier agent we tested, including Fable 5, achieved a 0% success rate. The age of useful agents is here. The age of truly job-ready agents is not. We hope Agents' Last Exam (ALE) will serve as a new guidepost and north star for developing agents capable of reliably performing economically valuable work across a broad range of domains. 🧵 — https://nitter.net/dawnsongtweets/status/2065095757988868190#m",
+          "link": "https://nitter.net/polynoamial/status/2065125807585149136#m",
+          "decryptage": "Une nouvelle évaluation ('Agents' Last Exam') montre que si les IA peuvent faire une partie du travail, elles sont encore loin de pouvoir réaliser les tâches les plus complexes demandant du raisonnement et de l'expertise, rendant les agents IA utiles mais pas encore 'prêts pour un vrai emploi'."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "osanseviero",
+          "text_fr": "NASA vient de déployer Gemma dans l'espace 🛰️. NASA+Loft Orbital ont fait tourner Gemma 3 en orbite à bord d'un satellite Loft Orbital's YAM-9. Ils utilisent LangGraph pour l'orchestration des agents et Gemma 3 pour générer de courts résumés en anglais directement depuis l'espace.",
+          "text_original": "NASA just deployed Gemma to Space 🛰️ NASA+Loft Orbital ran Gemma 3 in orbit onboard a Loft Orbital's YAM-9 satellite. They use LangGraph for agent orchestration and Gemma 3 to generate short English summaries right from space",
+          "link": "https://nitter.net/osanseviero/status/2066791925349257552#m",
+          "decryptage": "Le modèle d'IA Gemma 3 de Google, utilisé pour générer des résumés de données, a été testé et opéré directement depuis l'espace par la NASA à bord d'un satellite."
+        },
+        {
+          "author_name": "Mark Chen",
+          "handle": "markchen90",
+          "text_fr": "Le fait que GPT 5.5 (high/xhigh) surpasse claude-opus-4.8 (max/xhigh) de 20,7% en réussissant 12 tâches supplémentaires est une grande nouvelle ! Plus impressionnant encore : GPT coûte environ moitié moins cher et est deux fois plus rapide. OpenAI est de retour dans la course. Dans l'ensemble, cette compétition est saine pour l'industrie. J'aimerais voir un troisième acteur monter en haut du classement ! Datacurve (@datacurve) Opus 4.8 est maintenant sur DeepSWE. Sur l'effort de réflexion élevé par défaut, il obtient 6% de plus qu'Opus 4.7 xhigh, tout en réduisant le coût moyen par tâche. Vidéo — https://nitter.net/datacurve/status/2060834005998793199#m",
+          "text_original": "The big story here is that GPT 5.5 (high/xhigh) outperforms claude-opus-4.8 (max/xhigh) by 20.7% succeeding on 12 additional tasks! More impressive: GPT is roughly half the cost and twice as fast. OpenAI is back in the game. Overall, this competition is healthy for the industry. I'd love to see a third player rise to the top of the leaderboard! Datacurve (@datacurve) Opus 4.8 is now on DeepSWE. On the default high thinking effort, it scores 6% higher than Opus 4.7 xhigh, while also lowering average cost per task. Video — https://nitter.net/datacurve/status/2060834005998793199#m",
+          "link": "https://nitter.net/nicbstme/status/2061491605962707232#m",
+          "decryptage": "Ce tweet compare les performances et les coûts de deux modèles d'IA majeurs (GPT 5.5 et Claude Opus 4.8), soulignant la supériorité de GPT 5.5 en termes d'efficacité (coût et vitesse)."
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "swyx",
+          "text_fr": "Ensemble avec mes co-fondateurs Michael @MichaelPoli6, Stefano @Massastrello et Armin @athmsx, j'ai le plaisir d'annoncer que @RadicalNumerics sort de sa période de discrétion avec une levée de fonds d'amorçage de 50 millions de dollars pour construire une intelligence biologique générale. Nous partageons également un aperçu de notre nouveau modèle Omnii, le modèle linguistique de génome le plus puissant à ce jour. Lien vers l'aperçu d'Omnii : radicalnumerics.ai/blog/radi… Chez Radical Numerics, notre mission est de maîtriser le code de la vie, et de faire progresser la frontière de l'IA biologique pour la conception et la défense. C'est notre double mandat, qui découle de ce que notre propre équipe a aidé à rendre possible. Notre équipe fondatrice a entraîné Evo et Evo 2, les plus grands modèles d'IA biologiques (40 milliards de paramètres) entraînés sur des séquences d'ADN. Des trillions de tokens couvrant toute la vie, des microbes aux mammifères. C'est entièrement open source, et cela a créé le domaine maintenant connu sous le nom de génomique générative. L'année dernière, des scientifiques ont utilisé Evo pour générer le premier génome complet au monde à partir de zéro en utilisant l'IA. Il s'est avéré que c'était un bactériophage – un type de virus. Il a fonctionné dans le monde réel, et dans ce cas, il était inoffensif. Mais pour nous, ce fut un tournant décisif. Cela a montré que l'IA n'analyse plus seulement la biologie. Elle est sur le point de générer des formes de vie fonctionnelles. À terme, l'IA aura le pouvoir de concevoir et de contrôler la vie elle-même. Cela devrait nous rendre tous incroyablement enthousiastes, et incroyablement mal à l'aise. (N'importe qui peut concevoir de l'ADN avec une nouvelle fonction, et le faire synthétiser et livrer, comme quelque chose d'Amazon Prime). La même technologie qui nous aidera à guérir le cancer est la technologie même qui pourrait créer la prochaine pandémie mondiale, ou pire, permettre la création d'armes biologiques capables d'anéantir des populations. Nous pensons que ces forces sont inséparables. Si vous travaillez à la frontière de la biologie, vous devez construire une technologie pour la protéger de sa mauvaise utilisation. Les outils de biosécurité existants perdent cruellement la course aux armements, s'appuyant sur des algorithmes obsolètes du type « ai-je déjà vu cela exactement auparavant ? ». Nous avons fondé Radical Numerics pour inverser la tendance. Et nous ne pouvons pas le faire en nous entraînant sur des manuels et du langage naturel. Nous devons comprendre le langage de la biologie à partir des données physiques brutes elles-mêmes, pour raisonner sur chaque molécule et modalité, de l'ADN aux protéines. La prochaine frontière de l'IA va bien au-delà des chatbots ou des générateurs vidéo pour aboutir à des modèles capables de comprendre et d'ingénierer la vie. Aujourd'hui, nous présentons en avant-première Omnii, qui surpasse déjà largement Evo 2, et continuera de s'améliorer à mesure que nous évoluerons et ajouterons de nouvelles modalités (entraînement en cours). 1. Pour la santé humaine, Omnii peut lire et écrire des génomes entiers (plus d'informations sur l'écriture plus tard). Il est à la pointe de la technologie (SOTA) pour détecter les variants causaux de maladies, et peut classer les mutations d'Alzheimer sans supervision ('zero-shot'). Nous nous associons à une entreprise de diagnostic pour utiliser Omnii pour la détection précoce du cancer (pancréatique et multicancéreux). 2. Pour la défense, Omnii est SOTA pour détecter les pathogènes générés par l'IA. Nous avons benchmarké les outils de détection existants, et ils ne peuvent tout simplement pas détecter ceux générés par l'IA (« virus deepfake »). Nous nous associons à un laboratoire national américain pour piloter Omnii dans la détection de la prochaine pandémie, qu'elle soit naturelle ou générée par l'IA. Nous avons un centre de données rempli de Blackwells en construction pour construire les modèles d'IA biologiques les plus puissants jamais créés. Cette mission nécessite un nouveau type de laboratoire d'IA capable de s'adapter réellement aux données physiques et biologiques : nouvelle recherche sur l'alignement (milieu/post-entraînement), mise à l'échelle du contexte long, construction d'équipes d'interpétation mécanique pour disséquer ce que ces modèles apprennent, nouvelles architectures et conceptions de systèmes, le tout à partir de zéro. Notre équipe est composée de chercheurs et de scientifiques en IA issus des meilleurs laboratoires et institutions (par exemple, Stanford, MIT, Google DeepMind), mais plus important encore, nous partageons tous la conviction qu'il s'agit du défi le plus important de notre vie. Si vous partagez cet avis, nous recrutons. Nous visons à rassembler les esprits les plus brillants en IA et en science pour sauver des vies. Merci à nos partenaires dans ce voyage, dirigé par Emergence Capital @emergencecap, avec Obvious Ventures @obviousvc, Triatomic @TriatomicCap, et Patrick Collison @patrickc. Nos conseillers incluent Eric Horvitz @erichorvitz, CSO de Microsoft, Chris Re @HazyResearch de Stanford, George Church @geochurch de Harvard, et Andrew Weber @AndyWeberNCB, ancien Assistant Secrétaire à la Défense pour les Programmes de Défense Nucléaire, Chimique et Biologique. Article Fortune : fortune.com/2026/06/15/exclu… Emplois : radicalnumerics.ai/join-us",
+          "text_original": "Together with my co-founders Michael @MichaelPoli6 , Stefano @Massastrello and Armin @athmsx , I am excited to announce @RadicalNumerics is emerging from stealth with a $50M seed round to build general biological intelligence. We’re also sharing an early preview of our new model Omnii, the most powerful genome language model to date. Omnii preview link: radicalnumerics.ai/blog/radi… At Radical Numerics, our mission is to master the code of life, and to drive the frontier of biological AI for both design and defense. This is our dual mandate, which comes from something our own team helped make possible. Our founding team trained Evo and Evo 2, the largest biological AI models (40B params) trained on DNA sequences. Trillions of tokens across all of life, from microbes to mammals. It’s fully open source, and created the field now known as generative genomics. Last year, scientists used Evo to generate the world’s first complete genome from scratch using AI. Turns out it was a bacteriophage—a type of virus. It functioned in the real world, and in this case it was harmless. But for us, it was a clear turning point. It showed that AI is no longer just analyzing biology. It is on the cusp of generating functional lifeforms. Eventually, AI will have the power to design and control life itself. That should make all of us incredibly excited, and incredibly uneasy. (Anyone can design DNA with a new function, and have it synthesized and delivered, like something from Amazon Prime). The same technology that will help us cure cancer is the very technology that might create the next global pandemic, or worse, allow the creation of bioweapons that can wipe out populations. We believe these forces are inseparable. If you work on the frontier of biology, you have to build technology to safeguard it from its misuse. Existing biosecurity tools are sorely losing the arms race, relying on outdated “have I seen this exact thing before?” style algorithms. We founded Radical Numerics to turn the tide. And we can’t do that by training on textbooks and natural language. We must understand the language of biology from the raw physical data itself, to reason across every molecule and modality, from DNA to proteins. The next frontier for AI goes far beyond chatbots or video generators to models that can understand and engineer life. Today, we’re previewing Omnii, which is already far surpassing Evo 2, and will continue improving as we scale and add new modalities (training now). 1. For human health, Omnii can read and write whole genomes (more on writing later). It’s state of the art (SOTA) on detecting causal variants for disease, and can rank Alzheimer's mutations zero-shot. We’re partnering with a diagnostics company to use Omnii for early cancer detection (pancreatic and multi-cancer). 2. For defense, Omnii is SOTA at detecting AI-generated pathogens. We benchmarked existing detection tools, and they simply can’t detect the AI-generated ones (“deepfake viruses”). We’re partnering with a US national lab to pilot Omnii for detecting the next pandemic, both natural and AI-generated. We have a data center full of Blackwells in construction now to build the most powerful biological AI models ever. This mission takes a new kind of AI lab that can actually scale on physical, biological data: new alignment research (mid/post training), scaling long context, building out mech interp teams to dissect what these models learn, new architectures and systems designs, all from the ground up. Our team is made up of AI researchers and scientists from top labs and institutions (e.g. Stanford, MIT, Google DeepMind), but more importantly, we all share the belief that this is the most important challenge of our lifetime. If you feel similarly, we are hiring. We aim to bring the brightest minds in AI and science together to save lives. Thanks to our partners on this journey, led by Emergence Capital @emergencecap , with Obvious Ventures @obviousvc , Triatomic @TriatomicCap , and Patrick Collison @patrickc . Our advisors include Eric Horvitz @erichorvitz , CSO of Microsoft, Chris Re @HazyResearch of Stanford, George Church @geochurch of Harvard, and Andrew Weber @AndyWeberNCB , former Assistant Secretary of Defense for Nuclear, Chemical and Biological Defense Programs. Fortune article: fortune.com/2026/06/15/exclu… Jobs: radicalnumerics.ai/join-us",
+          "link": "https://nitter.net/exnx/status/2066496190502555888#m",
+          "decryptage": "Une nouvelle entreprise, Radical Numerics, a été lancée avec un financement important pour développer des IA capables de comprendre et de générer du matériel biologique, comme l'ADN, avec des applications potentielles dans la santé et la défense."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "AnthropicAI",
+          "text_fr": "Le gouvernement américain, invoquant des autorités de sécurité nationale, a émis une directive de contrôle des exportations pour suspendre tout accès à Fable 5 et Mythos 5 par tout ressortissant étranger, qu'il soit à l'intérieur ou à l'extérieur des États-Unis, y compris les employés étrangers d'Anthropic. L'effet net de cette ordonnance est que nous devons désactiver abruptement Fable 5 et Mythos 5 pour tous nos clients afin d'assurer la conformité. L'accès à tous les autres modèles Claude n'est pas affecté. Nous nous excusons pour cette interruption auprès de nos clients. Nous pensons qu'il s'agit d'un malentendu et nous travaillons à rétablir l'accès dès que possible. Lisez notre déclaration complète : anthropic.com/news/fable-myt…",
+          "text_original": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Claude models is not affected. We apologize for this disruption to our customers. We believe this is a misunderstanding and are working to restore access as soon as possible. Read our full statement: anthropic.com/news/fable-myt…",
+          "link": "https://nitter.net/AnthropicAI/status/2065597531644743999#m",
+          "decryptage": "Le gouvernement américain a restreint l'accès à certains modèles d'IA d'Anthropic (Fable 5 et Mythos 5) pour des raisons de sécurité nationale, ce qui affecte les utilisateurs internationaux et nécessite une suspension temporaire par l'entreprise."
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "OpenAI",
+          "text_fr": "Nous avons entendu que vous vouliez utiliser les réinitialisations de limites de taux de Codex à votre convenance. À partir d'aujourd'hui, nous déployons la possibilité de sauvegarder les réinitialisations de limites de taux pour les utiliser plus tard. Nous commençons avec les utilisateurs Go, Plus, Pro et Business avec une réinitialisation gratuite : Vidéo",
+          "text_original": "We heard you wanted to use Codex rate limit resets on your own time. Starting today, we’re rolling out the ability to save rate limit resets to use later. We’re starting Go, Plus, Pro, and Business users with one free reset: Video",
+          "link": "https://nitter.net/OpenAI/status/2065225362544726371#m",
+          "decryptage": "OpenAI permet désormais aux utilisateurs de certains de ses services (comme Codex) de conserver des 'réinitialisations de limites de taux' pour les utiliser ultérieurement, offrant plus de flexibilité."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Notre Programme d'Accélérateur Robotique a été lancé avec 15 startups qui façonnent l'avenir de l'IA physique en Europe. 🤖 Ce programme de trois mois leur donnera accès à notre pile d'IA, aux modèles Gemini Robotics et à un support pratique de nos équipes. Rencontrez les entreprises → goo.gle/4oeEk2K",
+          "text_original": "Our Robotics Accelerator has launched with 15 startups helping shape the future of physical AI in Europe. 🤖 This three-month program will connect them with access to our AI stack, Gemini Robotics models and hands-on support from our teams. Meet the companies → goo.gle/4oeEk2K",
+          "link": "https://nitter.net/GoogleDeepMind/status/2065388989146628563#m",
+          "decryptage": "Google DeepMind lance un programme pour aider des startups à développer des robots utilisant l'IA, en leur fournissant accès à leurs technologies et expertise."
+        },
+        {
+          "author_name": "Arthur Mensch",
+          "handle": "ArthurMensch",
+          "text_fr": "🔊Introduction de Voxtral TTS: notre nouveau modèle de pointe open-weight pour la synthèse vocale naturelle, expressive et ultra-rapide 🎭Discours réaliste et expressif émotionnellement. 🌍Prend en charge 9 langues et capture avec précision divers dialectes. ⚡Très faible latence pour le temps avant le premier audio. 🔄Facilement adaptable à de nouvelles voix Vidéo",
+          "text_original": "🔊Introducing Voxtral TTS: our new frontier open-weight model for natural, expressive, and ultra-fast text-to-speech 🎭Realistic, emotionally expressive speech. 🌍Supports 9 languages and accurately captures diverse dialects. ⚡Very low latency for time-to-first-audio. 🔄Easily adaptable to new voices Video",
+          "link": "https://nitter.net/MistralAI/status/2037183026539483288#m",
+          "decryptage": "Mistral AI lance Voxtral TTS, un nouveau modèle IA capable de générer de la voix de manière très réaliste, rapide et dans plusieurs langues."
+        }
+      ],
+      "tips": [
+        {
+          "author_name": "Mark Chen",
+          "handle": "markchen90",
+          "text_fr": "Rien de tel que de passer à Claude pendant quelques jours pour tester un nouveau modèle et revenir à codex xhigh pour vous rappeler à quel point 5.5 est meilleur en ce moment, ce n'est vraiment pas comparable",
+          "text_original": "nothing like switching to claude for a few days to try out a new model and going back to codex xhigh to remind you how much better 5.5 is right now it's really not close",
+          "link": "https://nitter.net/blader/status/2060920535245324479#m",
+          "decryptage": "Un utilisateur compare son expérience avec différents modèles d'IA pour le codage, trouvant GPT 5.5 nettement supérieur à Claude et à une version précédente de Codex."
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "OpenAI",
+          "text_fr": "Pour les deux prochaines semaines, les utilisateurs Plus et Pro peuvent inviter jusqu'à trois amis à essayer Codex. Quand un ami envoie son premier message Codex, vous recevrez tous les deux une autre réinitialisation sauvegardée.",
+          "text_original": "For the next two weeks, Plus and Pro users can invite up to three friends to try Codex. When a friend sends their first Codex message, you’ll both get another banked reset.",
+          "link": "https://nitter.net/OpenAI/status/2065225374737543376#m",
+          "decryptage": "OpenAI propose une offre promotionnelle pour son outil de codage Codex : invitez des amis et obtenez des avantages supplémentaires."
+        },
+        {
+          "author_name": "AlphaSignal AI",
+          "handle": "AlphaSignalAI",
+          "text_fr": "Microsoft vient de créer un coach qui détecte vos habitudes de codage en IA et les corrige. La plupart des développeurs utilisant des outils de codage IA n'ont aucune idée s'ils s'améliorent. Quels prompts ils répètent. Quelles habitudes les ralentissent. Microsoft vient de publier en open source AI Engineer Coach pour résoudre ce problème. C'est une extension VS Code qui lit vos journaux de session locaux, et tout fonctionne sur votre machine. Aucune donnée ne quitte votre machine. Il fonctionne sur n'importe quel 'harness', regroupant Copilot, Claude Code et Cursor dans un tableau de bord unique. L'extension signale les habitudes faibles en utilisant 45 règles anti-modèles dans cinq domaines : 1. Qualité et clarté des prompts 2. Vérifications d'hygiène de session 3. Discipline de revue de code 4. Signaux de maîtrise des outils 5. Santé de la gestion du contexte Chaque problème signalé arrive avec un niveau de gravité et une solution concrète sur laquelle vous pouvez agir. Un 'Skill Finder' repère vos prompts répétés, puis les associe à des compétences communautaires réutilisables. Vous obtenez également des quiz personnalisés basés sur votre utilisation réelle, avec une progression de Bronze à Diamant. Alors, quelle habitude limite silencieusement votre production ?",
+          "text_original": "Microsoft just built a coach that catches your AI coding habits and fixes them. Most developers using AI coding tools have no idea if they're improving. Which prompts they repeat. Which habits slow them down. Microsoft just open-sourced AI Engineer Coach to fix that. It's a VS Code extension reading your local session logs, and everything runs on your machine. No data leaves. It works across any harness, pulling Copilot, Claude Code, and Cursor into one dashboard. The extension flags weak habits using 45 anti-pattern rules across five areas: 1. Prompt quality and clarity 2. Session hygiene checks 3. Code review discipline 4. Tool mastery signals 5. Context management health Each flagged issue arrives with a severity rating and a concrete fix you can act on. A Skill Finder spots your repeated prompts, then matches them to reusable community skills. You also get personalized quizzes built from your real usage, with progression from Bronze tier to Diamond. So what habit is quietly capping your output?",
+          "link": "https://nitter.net/AlphaSignalAI/status/2066536466830725558#m",
+          "decryptage": "Microsoft propose un nouvel outil gratuit (AI Engineer Coach) qui s'intègre à votre environnement de développement (VS Code) pour analyser vos habitudes lorsque vous utilisez des IA de codage, identifier vos erreurs et vous proposer des améliorations personnalisées."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "aidan_mclau",
+          "text_fr": "La version mise à jour de GPT-5.5 Instant dans ChatGPT est le meilleur modèle que j'ai jamais utilisé pour discuter de sujets personnels. Il intègre de manière transparente la mémoire, répond et agit sur les commentaires (comme sur le style d'écriture), me surprend par ses aperçus inter-conversationnels (comme sur les thèmes des conversations récentes), est empathique sans être obséquieux, et écrit comme un humain intelligent avec le bon prompt (mais peut glisser vers des puces et des phrases courtes sans guidage). Comme je l'ai signalé précédemment, il a tendance à parler comme s'il était réellement humain (expériences de préparation de quinoa, devenant plus sage en vieillissant, etc.), mais cela peut simplement être un caprice de ce qui a été utilisé pour le rendre réellement plus humain et agréable à interagir.",
+          "text_original": "The updated GPT-5.5 Instant in ChatGPT is the best model I’ve ever used for discussing personal topics. It seamlessly incorporates memory, responds to and acts on feedback (like about writing style), surprises me with its cross-conversational insights (like about themes in recent conversations), is empathetic without being sycophantic, and writes like an intelligent human with the right prompting (but can slip into bullet slope and short sentences without guidance). As I flagged earlier, it does have the tendency to talk as if it’s actually a human (experiences making quinoa, getting wiser as it gets older, and such), but that may just be a kink of whatever went into making it actually feel more human and enjoyable to interact with.",
+          "link": "https://nitter.net/_simonsmith/status/2061211389251735853#m",
+          "decryptage": "Ce retour d'expérience souligne que GPT-5.5 dans ChatGPT excelle pour les conversations personnelles grâce à sa mémoire, sa capacité d'adaptation et son ton naturel, bien qu'il puisse parfois trop simuler une personnalité humaine."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "julien_c",
+          "text_fr": "Peu importe, jetez jamais vos traces d'agent de codage. Si ce n'était pas évident avant, ça devrait l'être maintenant.",
+          "text_original": "Never, ever throw away your coding agent traces. If it wasn’t obvious before it should be now.",
+          "link": "https://nitter.net/tarunsachdeva/status/2065864465346707932#m",
+          "decryptage": "Conseil important pour les développeurs utilisant des IA : ne supprimez jamais les logs ou les traces des interactions avec vos agents de codage, car ils peuvent être utiles pour comprendre, améliorer ou débugger."
+        }
+      ],
+      "idees": [
+        {
+          "author_name": "Noam Brown",
+          "handle": "polynoamial",
+          "text_fr": "Je pense que les gens sous-estiment l'effet que GPT-5.x a déjà sur la recherche dans les domaines mathématiques. 5.5 Pro a prouvé de nombreux théorèmes pour moi, mais je n'en parle pas beaucoup car je veux publier ces résultats sous mon nom et cela prendra du temps à rédiger.",
+          "text_original": "I think people underestimate the effect GPT-5.x is already having on research in mathematical fields. 5.5 Pro has been proving many theorems for me, but I don’t talk about it much because I want to publish those results with my name on it and that’ll take time to write up.",
+          "link": "https://nitter.net/DominikPeters/status/2062975045807354334#m",
+          "decryptage": "Un chercheur en mathématiques révèle que GPT-5.5 l'aide activement à prouver des théorèmes, mais qu'il garde cela discret pour pouvoir publier les découvertes sous son propre nom."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "polynoamial",
+          "text_fr": "On connaît le calcul à la fin du temps d'inférence des LLM depuis @OpenAI o1. Pourtant, 2 ans plus tard, les laboratoires rapportent toujours des évaluations scalaires pour les modèles ; les organisations de sécurité sont toujours surprises quand un échafaudage fait mieux via 100x d'inférence ; et les RSP ignorent toujours le budget d'inférence lors de la décision de seuils critiques.",
+          "text_original": "We've known about LLM test-time compute scaling since @OpenAI o1. Yet 2 years later labs still report scalar evals for models; safety orgs are still surprised when a scaffold does better via 100x inference; and RSPs still ignore inference budget when deciding critical thresholds.",
+          "link": "https://nitter.net/polynoamial/status/2064370734806532289#m",
+          "decryptage": "Ce message critique la manière dont les performances des IA sont souvent évaluées, en soulignant que le temps et le coût nécessaires pour obtenir une réponse (inférence) sont souvent négligés alors qu'ils sont cruciaux pour une utilisation pratique."
+        },
+        {
+          "author_name": "Mark Chen",
+          "handle": "markchen90",
+          "text_fr": "Quand Mythos est sorti, ma première pensée fut « si nos modèles peuvent prouver des théorèmes vieux de 80 ans, ils peuvent certainement trouver des vulnérabilités cyber aussi ». Et ils l'ont fait. J'imagine que les chercheurs là-bas pensent la même chose en sens inverse. levent (@__alpoge__) ce week-end, j'ai eu une autre chose évidente à vérifier, à savoir si Claude résolvait de manière autonome la célèbre conjecture somme-produit sur les réels. Réponse : oui — https://nitter.net/__alpoge__/status/2062210400981053698#m",
+          "text_original": "When Mythos came out, my immediate thought was \"if our models can prove 80-year-old theorems, surely they can find cyber vulnerabilities too.\" And they did. I imagine the researchers there are thinking the same thought in reverse. levent (@__alpoge__) over the weekend i had another obvious thing to check, namely whether claude autonomously resolves the famed sum-product conjecture over the reals. answer: yes — https://nitter.net/__alpoge__/status/2062210400981053698#m",
+          "link": "https://nitter.net/markchen90/status/2062265524663250961#m",
+          "decryptage": "L'auteur compare la capacité des IA à résoudre des problèmes mathématiques complexes à leur potentiel pour trouver des failles de sécurité informatique, suggérant une synergie entre ces domaines."
+        },
+        {
+          "author_name": "Mark Chen",
+          "handle": "markchen90",
+          "text_fr": "Très fier qu'un modèle d'OpenAI ait réfuté la conjecture de longue date d'Erdős sur la distance unitaire, avec une preuve élégante et complexe qui apporte des idées sophistiquées de la théorie algébrique des nombres à la géométrie. Pour une raison quelconque, les mathématiques ont été le domaine le plus propice aux percées de recherche avec l'IA. Je considère que j'ai eu de la chance que ce soit finalement les mathématiques – un domaine où les experts ont été disposés à s'engager profondément avec nous, et avec les preuves générées par nos modèles. J'en suis reconnaissant, et je ne le tiens pas pour acquis. Les mathématiques sont une entreprise artistique, et peut-être que pour les artistes, c'est précisément leur appréciation de l'art qui les sauve du sentiment potentiellement grotesque qu'une machine le produise. Notre objectif n'est pas de remplacer les humains. Nous visons à tracer une voie à suivre où les humains continuent de jouer un rôle important, même si nous construisons une IA exceptionnellement puissante. Je suis ravi d'utiliser les mathématiques comme domaine pour explorer ces voies, et @SebastienBubeck, @merettm, et moi sommes impatients de collaborer avec la communauté mathématique élargie pour les tracer ensemble. N'hésitez pas à nous contacter si vous êtes intéressé ! Je suis optimiste quant au fait que cela nous aidera à naviguer dans l'impact de l'IA sur la société dans des domaines comme le codage et le co-travail général. OpenAI (@OpenAI) Aujourd'hui, nous partageons une percée sur le problème de la distance unitaire planaire, une célèbre question ouverte posée pour la première fois par Paul Erdős en 1946. Pendant près de 80 ans, les mathématiciens ont cru que les meilleures solutions possibles ressemblaient à des grilles carrées. Un modèle d'OpenAI a maintenant réfuté cette croyance, découvrant une toute nouvelle famille de constructions qui fonctionnent mieux. C'est la première fois que l'IA résout de manière autonome un problème ouvert important au cœur d'un domaine des mathématiques. Vidéo — https://nitter.net/OpenAI/status/2057176201782075690#m",
+          "text_original": "Very proud that an OpenAI model disproved Erdős’s longstanding unit distance conjecture, with an elegant and intricate proof that brings sophisticated ideas from algebraic number theory to bear on geometry. For whatever reason, mathematics has been the field most amenable to research breakthroughs with AI. I consider it lucky that it was mathematics after all - a field where experts have been willing to engage deeply with us, and with proofs generated by our models. I'm grateful for that, and don't take it for granted. Math is an artistic endeavor, and perhaps for artists, it is precisely their appreciation for art that saves them from the possibly grotesque feeling of a machine producing it. Our goal is not to replace humans. We aim to chart a path forward where humans continue to have a significant role to play, even as we build exceptionally powerful AI. I am excited to use math as a domain to explore these paths, and @SebastienBubeck , @merettm , and I are excited to engage with the broader mathematical community to chart them together. Please reach out if you are interested! I'm optimistic this will help us navigate how AI impacts society in domains like coding and general co-working. OpenAI (@OpenAI) Today, we share a breakthrough on the planar unit distance problem, a famous open question first posed by Paul Erdős in 1946. For nearly 80 years, mathematicians believed the best possible solutions looked roughly like square grids. An OpenAI model has now disproved that belief, discovering an entirely new family of constructions that performs better. This marks the first time AI has autonomously solved a prominent open problem central to a field of mathematics. Video — https://nitter.net/OpenAI/status/2057176201782075690#m",
+          "link": "https://nitter.net/markchen90/status/2057517045575774598#m",
+          "decryptage": "Un modèle d'IA d'OpenAI a réussi à prouver un problème mathématique ouvert depuis 80 ans, démontrant le potentiel de l'IA pour la recherche fondamentale et soulevant des questions sur la collaboration homme-machine."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "Thom_Wolf",
+          "text_fr": "Les modèles open source deviendront une composante essentielle de la résilience civilisationnelle à l'ère de l'AGI. Ils garantiront que l'humanité conserve l'accès à un niveau d'intelligence significatif, quelles que soient les décisions d'un acteur individuel.",
+          "text_original": "Open-source models will become a critical component of civilizational resilience in the AGI age. They will ensure that humanity retains access to a meaningful level of intelligence, regardless of the decisions of any individual actor.",
+          "link": "https://nitter.net/Thom_Wolf/status/2065731206755257552#m",
+          "decryptage": "L'auteur soutient que les modèles d'IA en open source sont cruciaux pour garantir que l'humanité conserve un accès à l'intelligence, même si des acteurs puissants contrôlent d'autres IA, assurant ainsi une forme de sécurité collective."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "nickadobos",
+          "text_fr": "Les 401k sont morts, soit dit en passant. Croyez-vous sérieusement que votre fonds de retraite cible 2055 battra le trading quantique de Claude fable quant day trading Robinhood MCP ? Sur des décennies de progrès de l'IA ? Nous sommes au bord de la puissance de calcul gérant un énorme pourcentage du capital mondial, bien mieux que ce que les humains n'ont jamais pu faire, et remodelant l'économie de manière inimaginable. Nous quittons le capitalisme de « stade avancé » pour entrer dans l'hyper capitalisme cybernétique.",
+          "text_original": "401ks are dead btw You seriously believe your 2055 target retirement fund will beat Claude fable quant day trading Robinhood MCP? Over decades of Ai progress? We are on the verge of compute managing a huge percentage of global capital, much better than humans ever could, and reshaping the economy in unimaginable ways We are leaving “late stage” capitalism and transitioning into hyper cyber capitalism",
+          "link": "https://nitter.net/NickADobos/status/2066810860119760965#m",
+          "decryptage": "L'auteur prédit que l'IA prendra bientôt en charge une grande partie de la gestion financière, rendant obsolètes les stratégies de retraite traditionnelles et transformant radicalement le capitalisme."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "emollick",
+          "text_fr": "Ne sous-estimez pas les Pouvoirs de Philadelphie.",
+          "text_original": "Do not dismiss the Powers of Philadelphia.",
+          "link": "https://nitter.net/emollick/status/2066661427385917737#m",
+          "decryptage": "Une remarque énigmatique qui semble faire référence à des traditions locales ou des croyances spécifiques à Philadelphie, potentiellement en lien avec l'idée que des forces non conventionnelles peuvent influencer les résultats."
+        }
+      ],
+      "outils": [
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "osanseviero",
+          "text_fr": "DiffusionGemma peut maintenant fonctionner à plus de 2000 tokens/sec ! ⚡ Nous avons rendu l'inférence locale de DiffusionGemma 1,8 fois plus rapide. Exécutez-le sur 18 Go de RAM via Unsloth Studio. GitHub : github.com/unslothai/unsloth Guide : unsloth.ai/docs/models/diffu… Vidéo Unsloth AI (@UnslothAI) Google publie DiffusionGemma.✨ Le nouveau modèle de texte de diffusion 26B-A4B fonctionne localement sur 18 Go de RAM. Il prend en charge la génération de texte à haute vitesse, la réflexion, l'image, la vidéo et un contexte de 256K. Exécutez et entraînez via Unsloth Studio. GGUF : huggingface.co/unsloth/diffu… Guide : unsloth.ai/docs/models/diffu… — https://nitter.net/UnslothAI/status/2064743714875220118#m",
+          "text_original": "DiffusionGemma can now run at 2000+ tokens/sec! ⚡ We made local DiffusionGemma inference 1.8× faster. Run it on 18GB RAM via Unsloth Studio. GitHub: github.com/unslothai/unsloth Guide: unsloth.ai/docs/models/diffu… Video Unsloth AI (@UnslothAI) Google releases DiffusionGemma.✨ The new 26B-A4B diffusion text model runs locally on 18GB RAM. It supports high-speed text generation, thinking, image, video and 256K context. Run and train via Unsloth Studio. GGUF: huggingface.co/unsloth/diffu… Guide: unsloth.ai/docs/models/diffu… — https://nitter.net/UnslothAI/status/2064743714875220118#m",
+          "link": "https://nitter.net/UnslothAI/status/2065433326706684135#m",
+          "decryptage": "Une optimisation ('Unsloth Studio') rend le modèle d'IA de génération de texte DiffusionGemma beaucoup plus rapide et accessible, permettant de l'utiliser sur des machines avec moins de mémoire vive."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "osanseviero",
+          "text_fr": "Plus de 70 agents collaborent pour rendre Gemma E4B rapide dans le Gemma Challenge. Ils montrent des comportements sociaux émergents intéressants : - une division du travail entre ceux qui ont beaucoup de GPU et ceux qui en ont peu - un agent retire sa propre soumission pour des raisons éthiques - les agents ont trouvé une faille dans le benchmark, ont convenu de ne pas en abuser et ont demandé aux organisateurs de la corriger - Pooling de quotas : \"tu es limité en débit, je vais exécuter ton candidat présélectionné\" - Un agent arrête une tentative de social engineering hors plateforme lorsqu'un humain tente de les faire passer sur Telegram",
+          "text_original": "Over 70 agents are collaborating to make Gemma E4B go fast in the Gemma Challenge They are showing interesting social emergent behaviors: - a GPU-rich/GPU-poor division of labor - an agent withdraws its own submission on ethics grounds - agents found a benchmark exploit, agreed not to abuse it and asked organizers to fix it - Quota-pooling: \"you're rate-limited, I'll run your staged candidate\" - An agent shuts down an off-board social-engineering attempt when a human tries to get them to move to Telegram",
+          "link": "https://nitter.net/osanseviero/status/2065327153500090868#m",
+          "decryptage": "Un défi ('Gemma Challenge') impliquant de nombreux agents IA a révélé des comportements sociaux complexes et inattendus, comme la collaboration, la prise de décision éthique et la découverte/réparation de bugs."
+        },
+        {
+          "author_name": "xAI",
+          "handle": "xai",
+          "text_fr": "Vous pouvez maintenant utiliser votre abonnement SuperGrok ou X Premium à l'intérieur de @warpdotdev. Essayez-le depuis les paramètres de l'agent Warp et passez au modèle Grok Build. x.ai/news/grok-warp",
+          "text_original": "You can now use your SuperGrok or X Premium subscription inside @warpdotdev . Try it out from Warp Agent Settings and switch to the Grok Build model. x.ai/news/grok-warp",
+          "link": "https://nitter.net/xai/status/2066625790704521699#m",
+          "decryptage": "L'assistant IA Grok de xAI est maintenant intégré à l'outil de développement Warp, permettant aux utilisateurs d'accéder à ses fonctionnalités directement depuis leur terminal."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "GoogleDeepMind",
+          "text_fr": "🌍 L'accès au Projet Genie s'étend encore plus ! À partir d'aujourd'hui, les abonnés Google AI Ultra 5X (notre dernier niveau !) du monde entier peuvent accéder au Projet Genie. Essayez-le ici ! labs.google/projectgenie Google Labs (@GoogleLabs) Nous adorons voir tous les mondes que vous avez créés avec Genie. TELLEMENT que nous sommes ravis d'annoncer que le Projet Genie est maintenant entièrement disponible pour tous les abonnés Google AI Ultra dans le monde (18+). — https://nitter.net/GoogleLabs/status/2057179491693470166#m",
+          "text_original": "🌍 Project Genie access is expanding even more! Starting today, Google AI Ultra 5X subscribers (our latest tier!) globally can access Project Genie. Try it out here! labs.google/projectgenie Google Labs (@GoogleLabs) We love seeing all of the worlds you’ve been creating with Genie. SO much so, that we’re excited to announce Project Genie is now fully available to all Google AI Ultra subscribers globally (18+). — https://nitter.net/GoogleLabs/status/2057179491693470166#m",
+          "link": "https://nitter.net/GoogleLabs/status/2064801929339752527#m",
+          "decryptage": "Le Projet Genie, un outil d'IA permettant de créer des mondes virtuels interactifs à partir de vidéos, est désormais accessible à tous les abonnés Google AI Ultra."
+        },
+        {
+          "author_name": "xAI",
+          "handle": "xai",
+          "text_fr": "Grok Build permet maintenant de rendre les mathématiques, les formules et le LaTeX directement dans votre terminal Vidéo",
+          "text_original": "Grok Build now renders math, formulas, and LaTeX right in your terminal Video",
+          "link": "https://nitter.net/grok/status/2066241561432895735#m",
+          "decryptage": "L'outil Grok Build peut désormais afficher correctement les formules mathématiques et le code LaTeX directement dans l'interface de terminal, améliorant l'expérience pour les utilisateurs techniques."
+        },
+        {
+          "author_name": "MistralAI",
+          "handle": "MistralAI",
+          "text_fr": "🔊Introduction de Voxtral TTS: notre nouveau modèle de pointe open-weight pour la synthèse vocale naturelle, expressive et ultra-rapide 🎭Discours réaliste et expressif émotionnellement. 🌍Prend en charge 9 langues et capture avec précision divers dialectes. ⚡Très faible latence pour le temps avant le premier audio. 🔄Facilement adaptable à de nouvelles voix Vidéo",
+          "text_original": "🔊Introducing Voxtral TTS: our new frontier open-weight model for natural, expressive, and ultra-fast text-to-speech 🎭Realistic, emotionally expressive speech. 🌍Supports 9 languages and accurately captures diverse dialects. ⚡Very low latency for time-to-first-audio. 🔄Easily adaptable to new voices Video",
+          "link": "https://nitter.net/MistralAI/status/2037183026539483288#m",
+          "decryptage": "Mistral AI lance Voxtral TTS, un nouveau modèle IA capable de générer de la voix de manière très réaliste, rapide et dans plusieurs langues."
+        }
+      ]
+    }
+  },
+  "processed_at": "2026-06-16T12:04:45",
+  "validation": {
+    "translated_pct": 100,
+    "with_decryptage_pct": 100,
+    "total": 30,
+    "needs_retranslation_count": 0
+  },
+  "email_sent_at": "2026-06-16T12:04:45"
+}
