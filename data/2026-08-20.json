@@ -1,100 +1,145 @@
 {
   "date": "2026-08-20",
-  "fetched_at": "2026-08-20T07:29:34",
+  "fetched_at": "2026-08-20T07:54:59",
   "tweets": [
     {
-      "handle": "karpathy",
-      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-      "link": "https://nitter.net/karpathy/status/2083749667410727319#m",
-      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "sama",
+      "text": "we support business privacy! openai.com/index/offering-ze… Link Offering Zero Data Retention for frontier models OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy. openai.com",
+      "link": "https://nitter.net/sama/status/2090163991234453611#m",
+      "published": "Wed, 19 Aug 2026 19:48:23 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-      "link": "https://nitter.net/karpathy/status/2083948654377996480#m",
-      "published": "Sun, 02 Aug 2026 16:10:51 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "sama",
+      "text": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring standards for the new level of capabilities in front of us. Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment. We care very deeply about AI safety. We believe the entire field will have to coordinate on shared safety standards, but will act unilaterally in the meantime. We expect confidence in safety to increasingly set the pace of AI progress. We are optimistic about the alignment work we are doing, and we remain committed to making frontier capabilities widely available. openai.com/index/pacing-mode… Link Pacing model development in an era of cyber-critical capabilities OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development. openai.com",
+      "link": "https://nitter.net/sama/status/2089787807611195475#m",
+      "published": "Tue, 18 Aug 2026 18:53:34 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-      "link": "https://nitter.net/karpathy/status/2079610838143623371#m",
-      "published": "Tue, 21 Jul 2026 16:53:55 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "sama",
+      "text": "(We still expect to ship great new models soon; this impacts further-out releases.)",
+      "link": "https://nitter.net/sama/status/2089805495783813196#m",
+      "published": "Tue, 18 Aug 2026 20:03:51 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "Rewriting Bun in Rust bun.com/blog/bun-in-rust Link Rewriting Bun in Rust Why & how we rewrote Bun from Zig to Rust bun.com",
-      "link": "https://nitter.net/jarredsumner/status/2074973674332123157#m",
-      "published": "Wed, 08 Jul 2026 21:47:29 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "sama",
+      "text": "excited to work together on this. thank you jensen! Jensen Huang (@JensenHuang) Article Securing the Infrastructure of Intelligence Land, power and shell: The next critical resource for AI factories. AI factories are the defining infrastructure of the AI era—where compute transforms energy and data into intelligence that powers — https://nitter.net/JensenHuang/status/2089331487342829862#m",
+      "link": "https://nitter.net/sama/status/2089758522678657212#m",
+      "published": "Tue, 18 Aug 2026 16:57:12 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "I spent a LOT of time through the hardest 3D prompts at Fable, it is a 45 min video, but I have 60+ very cool demos for you. Also prompts in the next post. piped.video/watch?v=rTc2_-1K…",
-      "link": "https://nitter.net/petergostev/status/2073047118801993910#m",
-      "published": "Fri, 03 Jul 2026 14:12:03 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "sama",
+      "text": "/ultrafast OpenAI (@OpenAI) Previewing Ultrafast mode: GPT-5.6 Sol at up to 14x the speed. Launching first in the OpenAI API to a select group of customers with expanded access to more businesses as capacity grows. Video — https://nitter.net/OpenAI/status/2087947721936359705#m",
+      "link": "https://nitter.net/sama/status/2088101491802243121#m",
+      "published": "Fri, 14 Aug 2026 03:12:45 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "AndrewYNg",
-      "text": "New: A map of the most important skills in AI Engineering. Article The AI Engineering Skills Map I am delighted to present The AI Engineering Skills Map. AI allows us to build software very differently today than in 2022, and everyone with the skills to take advantage of this shift has numerous",
-      "link": "https://nitter.net/AndrewYNg/status/2088302050706686198#m",
-      "published": "Fri, 14 Aug 2026 16:29:42 GMT",
-      "author_name": "Andrew Ng",
+      "handle": "AnthropicAI",
+      "text": "Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first step in the drug development process is designing a molecule that can bind tightly to its target. Traditionally, that's meant weeks or months of expert work per target, sifting through a large number of candidates to identify the few that work. We wanted to test if Claude could successfully design novel protein binders from scratch (also called de novo design). With a protein design prompt written by a human expert, Claude autonomously designed protein binders against 14 out of 15 targets. We then worked with Adaptyv Bio and Twist Bioscience, who independently built and tested the proteins Claude designed. Video",
+      "link": "https://nitter.net/AnthropicAI/status/2089842387845804246#m",
+      "published": "Tue, 18 Aug 2026 22:30:27 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "For more on how Claude ran this experiment and the full results, see our blog: anthropic.com/research/Claud… Link How Claude is accelerating protein design and analytical chemistry In this post, we share two results that show how Claude can help life scientists increase the pace of their research. In the first, we tested Claude’s ability to design protein binders from scratch,... anthropic.com",
+      "link": "https://nitter.net/AnthropicAI/status/2089842394527301881#m",
+      "published": "Tue, 18 Aug 2026 22:30:28 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "We're also publishing a technical report: www-cdn.anthropic.com/30bf50… And open-sourcing our prompts and data here: huggingface.co/datasets/Anth…",
+      "link": "https://nitter.net/AnthropicAI/status/2089842395722678689#m",
+      "published": "Tue, 18 Aug 2026 22:30:29 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "We’ve written an FAQ to answer some of the questions we've received about watermarking. In summary: • We’re implementing watermarking to comply with the EU AI Act. Other major model developers have signed the same Code of Practice and will also be implementing watermarking; • Our watermarking method doesn’t have any practical impact on the quality or content of Claude’s outputs; • The difference between watermarked and un-watermarked text will not be distinguishable to readers; • Nothing is added to the text and there are no hidden characters; • Watermarking doesn’t require extra tokens, and will not be more expensive; • Watermarks can’t be traced to a specific person, organization, or chat. Read more: anthropic.com/news/claude-te… Link How Claude's text watermarking works Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI... anthropic.com",
+      "link": "https://nitter.net/AnthropicAI/status/2088343978873966687#m",
+      "published": "Fri, 14 Aug 2026 19:16:18 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "As part of our Responsible Scaling Policy, we publish regular Risk Reports. These share detailed information on the risks of our systems and how prepared we are to address them. Our second Risk Report is now available: anthropic.com/aug-2026-risk-…",
+      "link": "https://nitter.net/AnthropicAI/status/2088324824863236248#m",
+      "published": "Fri, 14 Aug 2026 18:00:12 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "jeremyphoward",
+      "text": "How Anthropic's new results post would read without the PR: Claude orchestrated open-source protein design models, PXDesign, RFdiffusion, Genie, BoltzGen, from a 30k-token expert prompt and 12,500 H100-hours of compute, and designed binders against 14 of 15 targets. Hit rates of 22–35% against a 10–15% baseline, where some of those tools already report similar numbers on their own. The orchestration is genuinely impressive. But the open-source models did most of the lifting, and they came from the Baker lab, Columbia, MIT, ByteDance Seed, and most of them were already wet-lab validated before Claude touched them. Which also sets the ceiling. All these generators share a single PDB-shaped training distribution, so calling four of them doesn't diversify away the blind spot, since they fail together. The targets that worked are the well-studied ones. So the valid claim is that an agent can now drive this stack competently in the regime where the stack already works. Instead, we got this announcement: Anthropic (@AnthropicAI) Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first step in the drug development process is designing a molecule that can bind tightly to its target. Traditionally, that's meant weeks or months of expert work per target, sifting through a large number of candidates to identify the few that work. We wanted to test if Claude could successfully design novel protein binders from scratch (also called de novo design). With a protein design prompt written by a human expert, Claude autonomously designed protein binders against 14 out of 15 targets. We then worked with Adaptyv Bio and Twist Bioscience, who independently built and tested the proteins Claude designed. Video — https://nitter.net/AnthropicAI/status/2089842387845804246#m",
+      "link": "https://nitter.net/ziv_ravid/status/2089892737503944966#m",
+      "published": "Wed, 19 Aug 2026 01:50:31 GMT",
+      "author_name": "Jeremy Howard",
       "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "AndrewYNg",
-      "text": "Thank you Mark, Alex and the whole Meta team for your contributions to open weight AI. Mark Zuckerberg (@finkd) Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also release the weights for Muse Spark 1.2, our latest foundation model. Meta is a strong supporter of open source and I'm proud of these releases. Congrats to @alexandr_wang and the MSL team for all your great work on these models. — https://nitter.net/finkd/status/2086755195535413696#m",
-      "link": "https://nitter.net/AndrewYNg/status/2086845515665166398#m",
-      "published": "Mon, 10 Aug 2026 16:01:57 GMT",
-      "author_name": "Andrew Ng",
+      "handle": "jeremyphoward",
+      "text": "Regarding Sentence Transformers v6.0 update: A dense model compresses a whole text into one vector, then compares two vectors. A multi-vector model keeps one vector per token, scores every query token against every document token, takes the best match for each, and sums those. Video tomaarsen (@tomaarsen) 🚨I've just released Sentence Transformers v6.0! MultiVectorEncoder joins the family: ColBERT-style late interaction models are now a first-class model type, for training, inference & interpretation, alongside dense, sparse & reranker models. Big thread 🧵 — https://nitter.net/tomaarsen/status/2089714037781143733#m",
+      "link": "https://nitter.net/tomaarsen/status/2090018110052987171#m",
+      "published": "Wed, 19 Aug 2026 10:08:42 GMT",
+      "author_name": "Jeremy Howard",
       "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "AndrewYNg",
-      "text": "Congratulations @JeffDean , @Sanjay_Ghemawat , @OriolVinyalsML and @quocleix ! Knowing you guys, this will be amazing. Cheering you on and wishing you well on your important work! Jeff Dean (@JeffDean) Announcing Discovery Loop! I am very excited to announce that, along with my longtime friends and collaborators @Sanjay_Ghemawat , @OriolVinyalsML and @quocleix , we are founding Discovery Loop ( @DiscoLoopAI ), a Public Benefit Corporation whose mission is to automate machine learning, science, and engineering to accelerate discoveries and progress. The four of us have worked together for 14 to 30 years, and have helped build some of the world’s most used products, infrastructure and AI models, and we’re excited to turn our attention to this ambitious endeavor. ♾ Learn more at: discoveryloop.com — https://nitter.net/JeffDean/status/2085034604172603724#m",
-      "link": "https://nitter.net/AndrewYNg/status/2085056542341271840#m",
-      "published": "Wed, 05 Aug 2026 17:33:12 GMT",
-      "author_name": "Andrew Ng",
+      "handle": "jeremyphoward",
+      "text": "LLMs increase the complexity of codebases. They duplicate methods, write overdefensive code against impossible edge cases, & overoptimize too early. Can further training fix this? Naur's “Programming as Theory Building” says no. -- @pol_avec answer.ai/posts/2026-08-19-l… 1/ Link Why LLMs can’t make your code simpler – Answer.AI What the classic paper “Programming as Theory Building” can teach us about LLMs answer.ai",
+      "link": "https://nitter.net/math_rachel/status/2089976425369747793#m",
+      "published": "Wed, 19 Aug 2026 07:23:04 GMT",
+      "author_name": "Jeremy Howard",
       "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "AndrewYNg",
-      "text": "Fifteen years ago, @Coursera and online courses changed education. It worked better than almost anyone expected, expanding access by opening up where you can learn. But how you learn remains largely the same as it has for centuries: it is still one-size-fits-all, taught the same way to each person who shows up. We now have an opportunity to change how learning happens. With advances in AI, we can now build a custom learning guide for each person. We will turn learning from one‑to‑many to one‑to‑one. I'm starting LearnVector to invent this next generation of learning. We are starting with a $100M investment from Coursera, and plan to collaborate closely with Coursera and Udemy. Good learning needs much more than just a chatbot. Research shows that chatbots without guardrails harm learning. They help complete tasks and enable students to do better on homework. But cognitive offloading to a chatbot results in them being less skilled. And, you cannot always trust what a chatbot tells you. In contrast, LearnVector will plan a path with you, adapt to how you learn, and patiently stay with you until you’ve mastered new skills. One thing has not changed in all this time. People want learning they can trust: material that is accurate, relevant, and worth the effort you put into it. Anything less wastes the most valuable thing a learner has: time. Coursera has a trusted library of materials from authoritative sources. LearnVector plans to work with Coursera to bring this trustworthy learning to everyone. I'm grateful to Greg Hart and the entire Coursera team for supporting LearnVector. I look forward to working with our talented team to change how we learn, and accelerate human development. learnvector.ai Link LearnVector — A new AI company from Andrew Ng A new AI company from Andrew Ng, with a $100M investment from Coursera — building one-to-one learning that stays with you until you've mastered new skills. learnvector.ai",
-      "link": "https://nitter.net/AndrewYNg/status/2082199333920027009#m",
-      "published": "Tue, 28 Jul 2026 20:19:41 GMT",
-      "author_name": "Andrew Ng",
+      "handle": "jeremyphoward",
+      "text": "I am a big fan of both Andy Hall and Alan Rozenshtein work and public commentary on AI. I am sure that they will continue to do important work as part of this new team at Anthropic, and sincerely congratulate them on what I am sure is an exciting next step for them personally. At the same time, I think both of them going into Anthropic is emblematic of a broader trend of the frontier AI companies grabbing up a truly remarkable number of previously independent voices and thinkers in AI. When massive events happen in AI - e.g. the DOW <> Ant conflict - the public, media, and elected officials will be looking for independent commentary and analysis from thinkers who are not at the frontier labs. The number of folks they can go to for that sort of independent commentary seems like it is going down precipitously. This seems like a real problem, and worth thinking more systemically about how we can create sufficiently attractive positions outside of companies - e.g. at independent nonprofits, in government - to attract the sorts of folks like Andy and Alan who are going into Anthropic. Anyway, each of these decisions individually is reasonable and not worth overly fixating on, and I do believe that both of them will do good work as part of this team (and have access to novel information that will help them do research) but zooming out I am worried that we are losing independent voices at the exact time we need more of them not fewer. Matthew Botvinick (@mattbotvinick) Wonderful to have Andy Hall ( @ahall_research ) joining as a founding member of our new team at @AnthropicAI , working on AI and the rule of law. Few people have done such original and illuminating work on the impact of AI on political life. If you don't already read his Free Systems Substack, you should start. Together with Alan Rozenshtein ( @ARozenshtein ) and Justin Curl ( @curl_justin ), that's a dream team. — https://nitter.net/mattbotvinick/status/2089729803586777177#m",
+      "link": "https://nitter.net/_NathanCalvin/status/2089750957043114236#m",
+      "published": "Tue, 18 Aug 2026 16:27:08 GMT",
+      "author_name": "Jeremy Howard",
       "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "AndrewYNg",
-      "text": "Good move by @JensenHuang . The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. Lets stop believing the PR that closed models are safer. - that's just regulatory capture. Jensen Huang (@JensenHuang) Attackers have frontier AI. Defenders need a frontier AI ecosystem—the best open and closed models, force-multiplied by a global community. During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance. — https://nitter.net/JensenHuang/status/2081698060330250294#m",
-      "link": "https://nitter.net/AndrewYNg/status/2081787106062746002#m",
-      "published": "Mon, 27 Jul 2026 17:01:38 GMT",
-      "author_name": "Andrew Ng",
+      "handle": "jeremyphoward",
+      "text": "h/t to @bclavie for his amazing work on this model.",
+      "link": "https://nitter.net/jeremyphoward/status/2089817455745290693#m",
+      "published": "Tue, 18 Aug 2026 20:51:23 GMT",
+      "author_name": "Jeremy Howard",
       "category_hint": "educator",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
-    "sama",
+    "karpathy",
     "DarioAmodei",
     "gdb",
     "sundarpichai",
@@ -105,6 +150,7 @@
     "demishassabis",
     "JeffDean",
     "fchollet",
+    "AndrewYNg",
     "rasbt",
     "bcherny",
     "karinanguyen_",
@@ -113,14 +159,12 @@
     "aidan_mclau",
     "officiallogank",
     "osanseviero",
-    "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
     "xai",
     "simonw",
     "swyx",
     "hwchase17",
-    "jeremyphoward",
     "levelsio",
     "mckaywrigley",
     "amasad",
@@ -135,178 +179,210 @@
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Cette journée révèle un panorama riche de l'IA, allant de ses capacités créatives insoupçonnées à des réflexions profondes sur son impact social et sa sécurité. Les experts explorent comment les modèles de langage peuvent générer des mondes virtuels complexes ou encore révolutionner l'éducation personnalisée. Des annonces importantes concernent de nouveaux modèles d'IA \"open-weight\" et des outils pour l'ingénierie IA, tandis que des débats clés émergent sur la transparence et la sécurité des systèmes d'IA. Pour les débutants, il est essentiel de comprendre le potentiel immense de l'IA tout en restant conscient de ses défis et des discussions éthiques qui l'entourent.",
+    "summary": "La semaine démarre avec des nouvelles importantes sur la sécurité et la gouvernance de l'IA chez OpenAI, qui met en pause certains entraînements pour garantir l'alignement et la sécurité. Anthropic innove dans la conception de molécules pour la médecine grâce à Claude, tout en annonçant des mesures de sécurité comme le tatouage numérique des textes. Jeremy Howard, quant à lui, interroge la véritable portée de ces avancées et soulève des questions sur la concentration des talents de l'IA dans les grandes entreprises.",
     "glossaire": [
       {
-        "terme": "LLM (Large Language Model) / Grand modèle linguistique",
-        "definition": "Une IA avancée capable de comprendre, de générer et d'interagir avec du texte, comme ChatGPT."
+        "terme": "Zero Data Retention",
+        "definition": "Principe où les données utilisées pour entraîner ou interroger un modèle d'IA ne sont pas conservées après la requête."
       },
       {
-        "terme": "Token",
-        "definition": "Une petite unité de texte (souvent un mot ou une partie de mot) que les LLM utilisent pour traiter l'information."
+        "terme": "Alignment",
+        "definition": "Fait référence à la capacité d'un système d'IA à agir conformément aux intentions et aux valeurs humaines."
       },
       {
-        "terme": "Open-weight (Poids ouverts)",
-        "definition": "Se dit d'un modèle d'IA dont les paramètres internes (les \"poids\") sont rendus publics, permettant à quiconque de l'utiliser, l'étudier et le modifier."
+        "terme": "Modèles de pointe (frontier models)",
+        "definition": "Systèmes d'IA les plus avancés et les plus puissants développés à ce jour."
       },
       {
-        "terme": "Prompt (Invite)",
-        "definition": "L'instruction textuelle que vous donnez à une IA pour qu'elle génère une réponse ou accomplisse une tâche."
+        "terme": "Ligands (protein binders)",
+        "definition": "Molécules capables de se lier spécifiquement à une autre molécule, ici des protéines, pour en moduler l'activité."
       },
       {
-        "terme": "Chatbot",
-        "definition": "Un programme informatique conçu pour simuler une conversation humaine, souvent utilisé pour l'assistance ou l'information."
+        "terme": "Tatouage numérique (watermarking)",
+        "definition": "Technique discrète intégrée dans un texte généré par IA pour en identifier l'origine sans affecter la lisibilité."
       },
       {
-        "terme": "Ingénierie de l'IA",
-        "definition": "Le domaine qui s'occupe de la conception, du développement, du déploiement et de la maintenance des systèmes d'intelligence artificielle."
+        "terme": "Vecteur (dense model)",
+        "definition": "Représentation numérique compacte d'un texte, transformant le langage en une série de nombres pour comparaison."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces du jour mettent en lumière le lancement d'une nouvelle entreprise dédiée à l'automatisation de la recherche scientifique, la publication de nouveaux modèles d'IA \"open-weight\" par Meta, ainsi qu'une initiative majeure d'Andrew Ng pour transformer l'éducation avec l'IA. On note également une ressource pour les compétences en ingénierie de l'IA et une mise à jour technique sur l'environnement d'exécution Bun.",
-      "tips": "Les conseils pratiques du jour suggèrent d'utiliser de longues sessions de \"divagation\" vocale avec les LLM pour les aider à mieux cerner vos intentions et à produire des résultats plus pertinents et épurés.",
-      "idees": "Les réflexions du jour explorent le potentiel hallucinant des LLM à créer des mondes virtuels complexes et hyper-personnalisés, mais aussi leurs limites actuelles en matière de perception et de vérification. Un débat crucial est soulevé concernant la sécurité des modèles d'IA, remettant en question la supériorité des modèles fermés sur les modèles ouverts, et la vision d'un apprentissage personnalisé grâce à l'IA.",
-      "outils": "Les outils à découvrir incluent une démo jouable d'un monde virtuel généré par IA, inspiré du Seigneur des Anneaux, avec le code source disponible. Des démonstrations vidéo impressionnantes de génération 3D par IA sont également partagées, montrant les avancées dans ce domaine."
+      "actu": "Les annonces majeures du jour concernent OpenAI qui prend du recul sur l'entraînement de ses modèles les plus avancés pour des raisons de sécurité et d'alignement, tout en proposant des options de confidentialité renforcées. Anthropic communique sur l'intégration du tatouage numérique pour se conformer à la réglementation européenne et sur ses avancées en biologie grâce à Claude.",
+      "tips": "Bien que ce jour soit riche en annonces, un aspect pratique émerge : l'amélioration des modèles de traitement de texte comme Sentence Transformers introduit de nouvelles approches (multi-vecteurs) pour une meilleure compréhension et comparaison des textes, bien que leur application directe par l'utilisateur soit encore limitée aux développeurs.",
+      "idees": "Jeremy Howard suscite un débat sur la réelle valeur ajoutée des IA dans des tâches complexes comme la conception de médicaments ou la génération de code, mettant en lumière le rôle crucial des modèles existants et la concentration des talents dans les grandes entreprises, ce qui pourrait réduire la diversité des voix indépendantes.",
+      "outils": "Anthropic démontre la capacité de Claude à concevoir de nouvelles protéines pour des applications médicales, un résultat impressionnant qui ouvre des perspectives dans la recherche pharmaceutique. Les détails techniques et les prompts sont partagés, permettant aux chercheurs intéressés d'explorer ces pistes."
     },
     "highlights": [
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "On commence à quitter le territoire où l'on testerait un grand modèle linguistique (LLM) en lui demandant, par exemple, de \"créer un SVG d'un pélican à vélo\". Pour généraliser cette idée, j'étais curieux de voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de tokens (environ 10$) et lui demandais un rendu 3D en JavaScript. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu bancal mais amusant. C'est assez hallucinant qu'un LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout cela, et qu'il fasse même quelque chose du tout. J'aime aussi ce genre d'exemples car personne de sensé ne passerait jamais le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde. C'est un exemple où l'on passe de \"personne ne ferait jamais ça\" à \"bien sûr, pourquoi pas, c'est presque gratuit\". Il pourrait y en avoir bien d'autres. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels on pourrait imaginer plonger des joueurs, par exemple pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée : le domaine des mondes/jeux révèle une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû très lentement et péniblement prendre des captures d'écran à différents moments, et il a fait quelques erreurs et a créé pas mal de choses \"bancales\". Un exemple de capacité brute (multimodale, gameplay) que je trouve encore assez limitée. Vidéo",
-        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-        "link": "https://nitter.net/karpathy/status/2083749667410727319#m",
-        "decryptage": "Un \"LLM\" (Large Language Model) est un grand modèle de langage, comme ChatGPT, capable de comprendre et de générer du texte, mais qui peut aussi commencer à créer des mondes virtuels complexes. Un \"token\" est une unité de texte (un mot, une partie de mot) que le modèle traite.",
-        "category": "idees",
-        "highlight_reason": "Ce tweet ouvre les yeux sur les capacités créatives étonnantes des IA à générer des mondes virtuels complexes, montrant un futur de l'IA hyper-personnalisé et presque illimité."
-      },
-      {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Une technique que je trouve utile pour travailler avec les grands modèles linguistiques (LLM) est une longue session de \"divagation\" vocale. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime m'adosser, passer en mode /voix et juste divaguer pendant environ 10 minutes, un désordre total, tout y passe, un vrai flux de conscience. Parfois, je l'annonce au début, quelque chose comme \"je passe en reconnaissance vocale, désolé pour les fautes de frappe...\". Parfois, j'en fais une petite interview en quelques tours. Mais je trouve que les LLM sont étonnamment bons pour reconstruire de longues divagations incohérentes et souvent l'écho de votre propre enchevêtrement de pensées ressort bien plus clair que ce que vous aviez au départ. Le résultat est que vous améliorez la \"fusion des esprits\" et avez moins de corrections à faire par la suite.",
-        "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-        "link": "https://nitter.net/karpathy/status/2079610838143623371#m",
-        "decryptage": "\"Fusion des esprits\" (mind meld) fait référence à l'amélioration de la compréhension mutuelle entre l'utilisateur et le modèle, où le modèle saisit mieux les intentions complexes de l'utilisateur.",
-        "category": "tips",
-        "highlight_reason": "Ce conseil très pratique et original montre comment interagir plus efficacement avec une IA, en utilisant la parole pour mieux faire passer ses idées, une astuce directement applicable par un débutant."
-      },
-      {
-        "author_name": "Andrew Ng",
-        "handle": "@AndrewYNg",
-        "text_fr": "Il y a quinze ans, @Coursera et les cours en ligne ont changé l'éducation. Cela a fonctionné mieux que presque tout le monde ne l'avait prévu, en élargissant l'accès à l'apprentissage. Mais la manière d'apprendre reste largement la même depuis des siècles : c'est toujours une approche \"taille unique\", enseignée de la même façon à chaque personne. Nous avons maintenant l'opportunité de changer la façon dont l'apprentissage se produit. Avec les avancées de l'IA, nous pouvons désormais construire un guide d'apprentissage personnalisé pour chaque personne. Nous transformerons l'apprentissage d'un modèle \"un-vers-plusieurs\" à \"un-vers-un\". Je lance LearnVector pour inventer cette prochaine génération d'apprentissage. Nous commençons avec un investissement de 100 millions de dollars de Coursera, et prévoyons de collaborer étroitement avec Coursera et Udemy. Un bon apprentissage nécessite bien plus qu'un simple chatbot. La recherche montre que les chatbots sans garde-fous nuisent à l'apprentissage. Ils aident à accomplir des tâches et permettent aux étudiants d'obtenir de meilleurs résultats aux devoirs. Mais le déchargement cognitif vers un chatbot les rend moins compétents. Et on ne peut pas toujours faire confiance à ce qu'un chatbot vous dit. En revanche, LearnVector planifiera un parcours avec vous, s'adaptera à votre manière d'apprendre et restera patiemment avec vous jusqu'à ce que vous maîtrisiez de nouvelles compétences. Une chose n'a pas changé pendant tout ce temps. Les gens veulent un apprentissage fiable : des contenus précis, pertinents et qui valent l'effort que vous y mettez. Tout le reste gaspille la chose la plus précieuse qu'un apprenant possède : le temps. Coursera dispose d'une bibliothèque de matériaux fiables provenant de sources autoritaires. LearnVector prévoit de travailler avec Coursera pour rendre cet apprentissage digne de confiance accessible à tous. Je suis reconnaissant à Greg Hart et à toute l'équipe Coursera de soutenir LearnVector. J'ai hâte de travailler avec notre équipe talentueuse pour changer notre façon d'apprendre et accélérer le développement humain. learnvector.ai Lien LearnVector — Une nouvelle entreprise d'IA d'Andrew Ng Une nouvelle entreprise d'IA d'Andrew Ng, avec un investissement de 100 millions de dollars de Coursera — construisant un apprentissage individualisé qui vous accompagne jusqu'à ce que vous maîtrisiez de nouvelles compétences. learnvector.ai",
-        "text_original": "Fifteen years ago, @Coursera and online courses changed education. It worked better than almost anyone expected, expanding access by opening up where you can learn. But how you learn remains largely the same as it has for centuries: it is still one-size-fits-all, taught the same way to each person who shows up. We now have an opportunity to change how learning happens. With advances in AI, we can now build a custom learning guide for each person. We will turn learning from one‑to‑many to one‑to‑one. I'm starting LearnVector to invent this next generation of learning. We are starting with a $100M investment from Coursera, and plan to collaborate closely with Coursera and Udemy. Good learning needs much more than just a chatbot. Research shows that chatbots without guardrails harm learning. They help complete tasks and enable students to do better on homework. But cognitive offloading to a chatbot results in them being less skilled. And, you cannot always trust what a chatbot tells you. In contrast, LearnVector will plan a path with you, adapt to how you learn, and patiently stay with you until you’ve mastered new skills. One thing has not changed in all this time. People want learning they can trust: material that is accurate, relevant, and worth the effort you put into it. Anything less wastes the most valuable thing a learner has: time. Coursera has a trusted library of materials from authoritative sources. LearnVector plans to work with Coursera to bring this trustworthy learning to everyone. I'm grateful to Greg Hart and the entire Coursera team for supporting LearnVector. I look forward to working with our talented team to change how we learn, and accelerate human development. learnvector.ai Link LearnVector — A new AI company from Andrew Ng A new AI company from Andrew Ng, with a $100M investment from Coursera — building one-to-one learning that stays with you until you've mastered new skills. learnvector.ai",
-        "link": "https://nitter.net/AndrewYNg/status/2082199333920027009#m",
-        "decryptage": "Un \"chatbot\" est un programme informatique conçu pour simuler une conversation humaine, tandis que le \"déchargement cognitif\" désigne le fait de laisser une machine faire une partie de notre travail intellectuel, ce qui peut à la longue diminuer nos propres compétences si mal utilisé. Les \"garde-fous\" sont des limites ou des règles mises en place pour assurer la sécurité et l'efficacité d'un système.",
+        "author_name": "Sam Altman",
+        "handle": "@sama",
+        "text_fr": "Nous avons mis en pause certains entraînements de modèles de pointe afin de nous assurer de pouvoir répondre aux normes appropriées d'alignement, de sécurité et de surveillance pour le nouveau niveau de capacités qui nous attend. Les progrès des modèles sont désormais extrêmement rapides, et nous avons toujours dit que nous prendrions des mesures si nous sentions que les capacités des modèles dépassaient le rythme de la sécurité et de l'alignement. Nous nous soucions très profondément de la sécurité de l'IA. Nous pensons que l'ensemble du domaine devra se coordonner sur des normes de sécurité communes, mais nous agirons unilatéralement en attendant. Nous nous attendons à ce que la confiance dans la sécurité définisse de plus en plus le rythme des progrès de l'IA. Nous sommes optimistes quant au travail d'alignement que nous faisons, et nous restons déterminés à rendre les capacités de pointe largement disponibles.",
+        "text_original": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring standards for the new level of capabilities in front of us. Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment. We care very deeply about AI safety. We believe the entire field will have to coordinate on shared safety standards, but will act unilaterally in the meantime. We expect confidence in safety to increasingly set the pace of AI progress. We are optimistic about the alignment work we are doing, and we remain committed to making frontier capabilities widely available. openai.com/index/pacing-mode… Link Pacing model development in an era of cyber-critical capabilities OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development. openai.com",
+        "link": "https://nitter.net/sama/status/2089787807611195475#m",
+        "decryptage": "Sam Altman, le patron d'OpenAI, annonce une pause dans l'entraînement de leurs IA les plus avancées pour se concentrer sur la sécurité et l'éthique (\"alignement\"). C'est un signe que le domaine progresse très vite et que les créateurs sont conscients des risques.",
         "category": "actu",
-        "highlight_reason": "Andrew Ng, une figure majeure de l'IA, annonce une initiative ambitieuse pour réinventer l'éducation grâce à l'IA personnalisée, soulignant l'importance d'une approche réfléchie et des limites des chatbots."
+        "highlight_reason": "C'est une annonce majeure qui montre la prise de conscience des risques liés à l'IA par ses créateurs et leur volonté de freiner pour mieux sécuriser."
       },
       {
-        "author_name": "Andrew Ng",
-        "handle": "@AndrewYNg",
-        "text_fr": "Bonne initiative de @JensenHuang . La lettre de Nvidia est bien écrite et mérite d'être lue. Comme nous l'avons vu avec le piratage d'OpenAI-Hugging Face, nous avons besoin de modèles ouverts et de dispositifs de protection pour la défense. Cessons de croire à la communication qui affirme que les modèles fermés sont plus sûrs – ce n'est que de la \"capture réglementaire\". Jensen Huang (@JensenHuang) Les attaquants disposent d'une IA de pointe. Les défenseurs ont besoin d'un écosystème d'IA de pointe — les meilleurs modèles ouverts et fermés, démultipliés par une communauté mondiale. Lors de l'incident Hugging Face, l'IA fermée a bloqué les analyses forensiques essentielles. Un modèle \"frontier\" à poids ouverts a aidé à contenir l'intrusion. C'est pourquoi nous avons créé l'Open Secure AI Alliance. — https://nitter.net/JensenHuang/status/2081698060330250294#m",
-        "text_original": "Good move by @JensenHuang . The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. Lets stop believing the PR that closed models are safer. - that's just regulatory capture. Jensen Huang (@JensenHuang) Attackers have frontier AI. Defenders need a frontier AI ecosystem—the best open and closed models, force-multiplied by a global community. During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance. — https://nitter.net/JensenHuang/status/2081698060330250294#m",
-        "link": "https://nitter.net/AndrewYNg/status/2081787106062746002#m",
-        "decryptage": "Les \"modèles ouverts\" (open models) et \"poids ouverts\" (open-weight models) sont des intelligences artificielles dont le fonctionnement interne est transparent et accessible à tous, contrairement aux \"modèles fermés\" qui sont gardés secrets. La \"capture réglementaire\" est une situation où des réglementations sont influencées par les entreprises pour servir leurs propres intérêts. Un \"modèle frontier\" est un modèle d'IA à la pointe de la technologie.",
+        "author_name": "Anthropic",
+        "handle": "@AnthropicAI",
+        "text_fr": "Beaucoup de médicaments agissent en se liant à une cible spécifique dans le corps et en bloquant ou modifiant son action. Une étape importante dans le processus de développement de médicaments consiste à concevoir une molécule capable de se lier fortement à sa cible. Traditionnellement, cela signifiait des semaines ou des mois de travail d'experts par cible, examinant un grand nombre de candidats pour identifier ceux qui fonctionnent. Nous avons voulu tester si Claude pouvait réussir à concevoir de nouveaux ligands protéiques à partir de zéro (également appelés conception de novo). Avec une invite de conception de protéines écrite par un expert humain, Claude a conçu de manière autonome des ligands protéiques contre 14 des 15 cibles. Nous avons ensuite travaillé avec Adaptyv Bio et Twist Bioscience, qui ont indépendamment construit et testé les protéines conçues par Claude. Vidéo",
+        "text_original": "Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first step in the drug development process is designing a molecule that can bind tightly to its target. Traditionally, that's meant weeks or months of expert work per target, sifting through a large number of candidates to identify the few that work. We wanted to test if Claude could successfully design novel protein binders from scratch (also called de novo design). With a protein design prompt written by a human expert, Claude autonomously designed protein binders against 14 out of 15 targets. We then worked with Adaptyv Bio and Twist Bioscience, who independently built and tested the proteins Claude designed. Video",
+        "link": "https://nitter.net/AnthropicAI/status/2089842387845804246#m",
+        "decryptage": "Anthropic montre que son IA Claude peut créer de nouvelles molécules (\"ligands protéiques\") qui se fixent à des cibles précises dans le corps, une avancée pour trouver de nouveaux médicaments plus rapidement.",
+        "category": "outils",
+        "highlight_reason": "Cette démonstration montre une application concrète et impressionnante de l'IA dans un domaine crucial comme la santé, avec une validation externe des résultats."
+      },
+      {
+        "author_name": "Jeremy Howard",
+        "handle": "@jeremyphoward",
+        "text_fr": "Les LLM augmentent la complexité des bases de code. Ils dupliquent des méthodes, écrivent du code trop défensif contre des cas limites impossibles, et optimisent trop tôt. Un entraînement supplémentaire peut-il corriger cela ? Naur, dans sa théorie \"Programming as Theory Building\", dit non. -- réponse de @pol_avec. answer.ai/posts/2026-08-19-l… 1/ Lien Pourquoi les LLM ne peuvent pas simplifier votre code – Answer.AI Ce que l'article classique \"Programming as Theory Building\" peut nous apprendre sur les LLM answer.ai",
+        "text_original": "LLMs increase the complexity of codebases. They duplicate methods, write overdefensive code against impossible edge cases, & overoptimize too early. Can further training fix this? Naur's “Programming as Theory Building” says no. -- @pol_avec answer.ai/posts/2026-08-19-l… 1/ Link Why LLMs can’t make your code simpler – Answer.AI What the classic paper “Programming as Theory Building” can teach us about LLMs answer.ai",
+        "link": "https://nitter.net/math_rachel/status/2089976425369747793#m",
+        "decryptage": "Jeremy Howard explique que les IA génératives de code peuvent rendre les programmes plus compliqués en créant du code redondant ou trop prudent, et cite une théorie (Programming as Theory Building) qui suggère que ce problème n'est pas simple à résoudre par plus d'entraînement.",
         "category": "idees",
-        "highlight_reason": "Ce tweet aborde un débat fondamental sur la sécurité et la transparence des IA, soulignant l'importance des modèles ouverts pour la défense face aux menaces, une question cruciale pour l'avenir de l'IA."
+        "highlight_reason": "Soulève une critique pertinente et profonde sur les limites actuelles des IA dans la génération de code, invitant à réfléchir sur la qualité et la maintenabilité du code produit."
+      },
+      {
+        "author_name": "Jeremy Howard",
+        "handle": "@jeremyphoward",
+        "text_fr": "Je suis un grand fan du travail et des commentaires publics d'Andy Hall et d'Alan Rozenshtein sur l'IA. Je suis sûr qu'ils continueront à faire un travail important dans le cadre de cette nouvelle équipe chez Anthropic, et je les félicite sincèrement pour ce qui, j'en suis sûr, est une prochaine étape passionnante pour eux personnellement. En même temps, je pense que leur départ pour Anthropic est emblématique d'une tendance plus large des entreprises d'IA de pointe à s'accapar un nombre vraiment remarquable de voix et de penseurs auparavant indépendants dans le domaine de l'IA. Lorsque des événements majeurs se produisent dans l'IA - par exemple, le conflit DOW <> Ant - le public, les médias et les élus chercheront des commentaires et des analyses indépendants de la part de penseurs qui ne sont pas dans les laboratoires de pointe. Le nombre de personnes vers lesquelles ils peuvent se tourner pour obtenir ce type de commentaires indépendants semble diminuer de façon spectaculaire. Cela semble être un réel problème, et il vaut la peine de réfléchir plus systématiquement à la manière dont nous pouvons créer des postes suffisamment attractifs en dehors des entreprises - par exemple, dans des organisations à but non lucratif indépendantes, au sein du gouvernement - pour attirer des personnes comme Andy et Alan qui rejoignent Anthropic. Quoi qu'il en soit, chacune de ces décisions individuellement est raisonnable et ne vaut pas la peine de s'y attarder outre mesure, et je crois sincèrement que tous deux feront du bon travail au sein de cette équipe (et auront accès à des informations nouvelles qui les aideront dans leurs recherches), mais en prenant du recul, je crains que nous ne perdions des voix indépendantes au moment même où nous en avons plus besoin, pas moins. Matthew Botvinick (@mattbotvinick) Ravi d'avoir Andy Hall ( @ahall_research ) parmi les membres fondateurs de notre nouvelle équipe chez @AnthropicAI , travaillant sur l'IA et l'état de droit. Peu de gens ont fait un travail aussi original et éclairant sur l'impact de l'IA sur la vie politique. Si vous ne lisez pas déjà son Substack Free Systems, vous devriez commencer. Avec Alan Rozenshtein ( @ARozenshtein ) et Justin Curl ( @curl_justin ), c'est une équipe de rêve. — https://nitter.net/mattbotvinick/status/2089729803586777177#m",
+        "text_original": "I am a big fan of both Andy Hall and Alan Rozenshtein work and public commentary on AI. I am sure that they will continue to do important work as part of this new team at Anthropic, and sincerely congratulate them on what I am sure is an exciting next step for them personally. At the same time, I think both of them going into Anthropic is emblematic of a broader trend of the frontier AI companies grabbing up a truly remarkable number of previously independent voices and thinkers in AI. When massive events happen in AI - e.g. the DOW <> Ant conflict - the public, media, and elected officials will be looking for independent commentary and analysis from thinkers who are not at the frontier labs. The number of folks they can go to for that sort of independent commentary seems like it is going down precipitously. This seems like a real problem, and worth thinking more systemically about how we can create sufficiently attractive positions outside of companies - e.g. at independent nonprofits, in government - to attract the sorts of folks like Andy and Alan who are going into Anthropic. Anyway, each of these decisions individually is reasonable and not worth overly fixating on, and I do believe that both of them will do good work as part of this team (and have access to novel information that will help them do research) but zooming out I am worried that we are losing independent voices at the exact time we need more of them not fewer. Matthew Botvinick (@mattbotvinick) Wonderful to have Andy Hall ( @ahall_research ) joining as a founding member of our new team at @AnthropicAI , working on AI and the rule of law. Few people have done such original and illuminating work on the impact of AI on political life. If you don't already read his Free Systems Substack, you should start. Together with Alan Rozenshtein ( @ARozenshtein ) and Justin Curl ( @curl_justin ), that's a dream team. — https://nitter.net/mattbotvinick/status/2089729803586777177#m",
+        "link": "https://nitter.net/_NathanCalvin/status/2089750957043114236#m",
+        "decryptage": "Jeremy Howard s'inquiète que les grandes entreprises d'IA comme Anthropic attirent trop d'experts indépendants, ce qui rendrait plus difficile d'avoir des avis objectifs sur l'IA en dehors de ces entreprises.",
+        "category": "idees",
+        "highlight_reason": "Met en lumière une préoccupation sociétale importante sur la concentration des cerveaux et la perte d'opinions indépendantes à mesure que l'IA devient plus centrale."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Réécriture de Bun en Rust bun.com/blog/bun-in-rust Lien Réécriture de Bun en Rust Pourquoi et comment nous avons réécrit Bun de Zig à Rust bun.com",
-          "text_original": "Rewriting Bun in Rust bun.com/blog/bun-in-rust Link Rewriting Bun in Rust Why & how we rewrote Bun from Zig to Rust bun.com",
-          "link": "https://nitter.net/jarredsumner/status/2074973674332123157#m",
-          "decryptage": "`Bun` est un environnement d'exécution JavaScript très rapide, utilisé par les développeurs. `Rust` et `Zig` sont des langages de programmation. Changer de langage (réécrire de Zig à Rust) est une décision technique importante pour améliorer les performances ou la maintenabilité."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Nous avons mis en pause certains entraînements de modèles de pointe afin de nous assurer de pouvoir répondre aux normes appropriées d'alignement, de sécurité et de surveillance pour le nouveau niveau de capacités qui nous attend. Les progrès des modèles sont désormais extrêmement rapides, et nous avons toujours dit que nous prendrions des mesures si nous sentions que les capacités des modèles dépassaient le rythme de la sécurité et de l'alignement. Nous nous soucions très profondément de la sécurité de l'IA. Nous pensons que l'ensemble du domaine devra se coordonner sur des normes de sécurité communes, mais nous agirons unilatéralement en attendant. Nous nous attendons à ce que la confiance dans la sécurité définisse de plus en plus le rythme des progrès de l'IA. Nous sommes optimistes quant au travail d'alignement que nous faisons, et nous restons déterminés à rendre les capacités de pointe largement disponibles.",
+          "text_original": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring standards for the new level of capabilities in front of us. Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment. We care very deeply about AI safety. We believe the entire field will have to coordinate on shared safety standards, but will act unilaterally in the meantime. We expect confidence in safety to increasingly set the pace of AI progress. We are optimistic about the alignment work we are doing, and we remain committed to making frontier capabilities widely available. openai.com/index/pacing-mode… Link Pacing model development in an era of cyber-critical capabilities OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development. openai.com",
+          "link": "https://nitter.net/sama/status/2089787807611195475#m",
+          "decryptage": "Sam Altman, le patron d'OpenAI, annonce une pause dans l'entraînement de leurs IA les plus avancées pour se concentrer sur la sécurité et l'éthique (\"alignement\"). C'est un signe que le domaine progresse très vite et que les créateurs sont conscients des risques."
         },
         {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Nouveau : Une carte des compétences les plus importantes en Ingénierie de l'IA. Article La carte des compétences en Ingénierie de l'IA. Je suis ravi de présenter La carte des compétences en Ingénierie de l'IA. L'IA nous permet de construire des logiciels très différemment aujourd'hui qu'en 2022, et quiconque possédant les compétences pour tirer parti de ce changement a de nombreuses",
-          "text_original": "New: A map of the most important skills in AI Engineering. Article The AI Engineering Skills Map I am delighted to present The AI Engineering Skills Map. AI allows us to build software very differently today than in 2022, and everyone with the skills to take advantage of this shift has numerous",
-          "link": "https://nitter.net/AndrewYNg/status/2088302050706686198#m",
-          "decryptage": "L'\"`Ingénierie de l'IA`\" désigne le domaine de la conception, du développement et de la maintenance de systèmes d'intelligence artificielle, incluant la programmation, l'intégration et l'optimisation des modèles."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Nous allons proposer le mode \"ultrafast\" d'OpenAI : GPT-5.6 Sol, jusqu'à 14 fois plus rapide. Lancé d'abord sur l'API OpenAI pour un groupe restreint de clients, avec un accès élargi à plus d'entreprises à mesure que notre capacité augmente.",
+          "text_original": "/ultrafast OpenAI (@OpenAI) Previewing Ultrafast mode: GPT-5.6 Sol at up to 14x the speed. Launching first in the OpenAI API to a select group of customers with expanded access to more businesses as capacity grows. Video — https://nitter.net/OpenAI/status/2087947721936359705#m",
+          "link": "https://nitter.net/sama/status/2088101491802243121#m",
+          "decryptage": "OpenAI lance un nouveau mode appelé \"ultrafast\" qui rendra ses modèles d'IA, comme potentiellement GPT-5.6, beaucoup plus rapides pour répondre aux requêtes des utilisateurs."
         },
         {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Merci Mark, Alex et toute l'équipe de Meta pour vos contributions à l'IA \"open weight\". Mark Zuckerberg (@finkd) Aujourd'hui, nous ouvrons également les poids de Muse Glimmer, un excellent modèle dense de 30 milliards de paramètres qui peut fonctionner localement. Bientôt, nous publierons également les poids de Muse Spark 1.2, notre dernier modèle de fondation. Meta est un fervent partisan de l'open source et je suis fier de ces versions. Félicitations à @alexandr_wang et à l'équipe MSL pour tout votre excellent travail sur ces modèles. — https://nitter.net/finkd/status/2086755195535413696#m",
-          "text_original": "Thank you Mark, Alex and the whole Meta team for your contributions to open weight AI. Mark Zuckerberg (@finkd) Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also release the weights for Muse Spark 1.2, our latest foundation model. Meta is a strong supporter of open source and I'm proud of these releases. Congrats to @alexandr_wang and the MSL team for all your great work on these models. — https://nitter.net/finkd/status/2086755195535413696#m",
-          "link": "https://nitter.net/AndrewYNg/status/2086845515665166398#m",
-          "decryptage": "Un modèle \"open-weight\" signifie que le code et les \"poids\" (les paramètres appris par l'IA qui lui permettent de fonctionner) sont rendus publics, permettant à chacun de les utiliser, de les étudier et de les modifier. Un \"modèle dense de 30 milliards de paramètres\" est un modèle d'IA très grand et puissant."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Nous soutenons la confidentialité des entreprises ! openai.com/index/offering-ze… Lien : Offering Zero Data Retention pour les modèles de pointe. OpenAI réaffirme la rétention zéro donnée pour les clients éligibles de l'API et prévisualise le traitement sécurisé privé pour une sécurité d'IA avancée sans compromettre la confidentialité des données. openai.com",
+          "text_original": "we support business privacy! openai.com/index/offering-ze… Link Offering Zero Data Retention for frontier models OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy. openai.com",
+          "link": "https://nitter.net/sama/status/2090163991234453611#m",
+          "decryptage": "OpenAI propose désormais une option (\"Zero Data Retention\") qui garantit que les données des entreprises utilisant son API ne seront pas conservées, renforçant ainsi la confidentialité."
         },
         {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Félicitations @JeffDean , @Sanjay_Ghemawat , @OriolVinyalsML et @quocleix ! En vous connaissant, ce sera incroyable. Je vous encourage et vous souhaite bonne chance pour votre travail important ! Jeff Dean (@JeffDean) Annonce de Discovery Loop ! Je suis très enthousiasmé d'annoncer que, avec mes amis et collaborateurs de longue date @Sanjay_Ghemawat , @OriolVinyalsML et @quocleix , nous fondons Discovery Loop ( @DiscoLoopAI ), une \"Public Benefit Corporation\" dont la mission est d'automatiser l'apprentissage automatique, la science et l'ingénierie pour accélérer les découvertes et les progrès. Nous quatre avons travaillé ensemble pendant 14 à 30 ans, et avons contribué à construire certains des produits, infrastructures et modèles d'IA les plus utilisés au monde, et nous sommes ravis de nous tourner vers cette entreprise ambitieuse. ♾ En savoir plus sur : discoveryloop.com — https://nitter.net/JeffDean/status/2085034604172603724#m",
-          "text_original": "Congratulations @JeffDean , @Sanjay_Ghemawat , @OriolVinyalsML and @quocleix ! Knowing you guys, this will be amazing. Cheering you on and wishing you well on your important work! Jeff Dean (@JeffDean) Announcing Discovery Loop! I am very excited to announce that, along with my longtime friends and collaborators @Sanjay_Ghemawat , @OriolVinyalsML and @quocleix , we are founding Discovery Loop ( @DiscoLoopAI ), a Public Benefit Corporation whose mission is to automate machine learning, science, and engineering to accelerate discoveries and progress. The four of us have worked together for 14 to 30 years, and have helped build some of the world’s most used products, infrastructure and AI models, and we’re excited to turn our attention to this ambitious endeavor. ♾ Learn more at: discoveryloop.com — https://nitter.net/JeffDean/status/2085034604172603724#m",
-          "link": "https://nitter.net/AndrewYNg/status/2085056542341271840#m",
-          "decryptage": "Une \"Public Benefit Corporation\" est une entreprise qui, en plus de chercher le profit, s'engage à poursuivre un bénéfice public ou social spécifique."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Nous publions également un rapport technique : www-cdn.anthropic.com/30bf50… Et open-sourçons nos prompts et nos données ici : huggingface.co/datasets/Anth…",
+          "text_original": "We're also publishing a technical report: www-cdn.anthropic.com/30bf50… And open-sourcing our prompts and data here: huggingface.co/datasets/Anth…",
+          "link": "https://nitter.net/AnthropicAI/status/2089842395722678689#m",
+          "decryptage": "Anthropic partage les détails techniques et les instructions précises (\"prompts\") utilisés par son IA Claude pour concevoir des molécules, permettant à d'autres chercheurs de reproduire ou d'améliorer ces travaux."
         },
         {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Il y a quinze ans, @Coursera et les cours en ligne ont changé l'éducation. Cela a fonctionné mieux que presque tout le monde ne l'avait prévu, en élargissant l'accès à l'apprentissage. Mais la manière d'apprendre reste largement la même depuis des siècles : c'est toujours une approche \"taille unique\", enseignée de la même façon à chaque personne. Nous avons maintenant l'opportunité de changer la façon dont l'apprentissage se produit. Avec les avancées de l'IA, nous pouvons désormais construire un guide d'apprentissage personnalisé pour chaque personne. Nous transformerons l'apprentissage d'un modèle \"un-vers-plusieurs\" à \"un-vers-un\". Je lance LearnVector pour inventer cette prochaine génération d'apprentissage. Nous commençons avec un investissement de 100 millions de dollars de Coursera, et prévoyons de collaborer étroitement avec Coursera et Udemy. Un bon apprentissage nécessite bien plus qu'un simple chatbot. La recherche montre que les chatbots sans garde-fous nuisent à l'apprentissage. Ils aident à accomplir des tâches et permettent aux étudiants d'obtenir de meilleurs résultats aux devoirs. Mais le déchargement cognitif vers un chatbot les rend moins compétents. Et on ne peut pas toujours faire confiance à ce qu'un chatbot vous dit. En revanche, LearnVector planifiera un parcours avec vous, s'adaptera à votre manière d'apprendre et restera patiemment avec vous jusqu'à ce que vous maîtrisiez de nouvelles compétences. Une chose n'a pas changé pendant tout ce temps. Les gens veulent un apprentissage fiable : des contenus précis, pertinents et qui valent l'effort que vous y mettez. Tout le reste gaspille la chose la plus précieuse qu'un apprenant possède : le temps. Coursera dispose d'une bibliothèque de matériaux fiables provenant de sources autoritaires. LearnVector prévoit de travailler avec Coursera pour rendre cet apprentissage digne de confiance accessible à tous. Je suis reconnaissant à Greg Hart et à toute l'équipe Coursera de soutenir LearnVector. J'ai hâte de travailler avec notre équipe talentueuse pour changer notre façon d'apprendre et accélérer le développement humain. learnvector.ai Lien LearnVector — Une nouvelle entreprise d'IA d'Andrew Ng Une nouvelle entreprise d'IA d'Andrew Ng, avec un investissement de 100 millions de dollars de Coursera — construisant un apprentissage individualisé qui vous accompagne jusqu'à ce que vous maîtrisiez de nouvelles compétences. learnvector.ai",
-          "text_original": "Fifteen years ago, @Coursera and online courses changed education. It worked better than almost anyone expected, expanding access by opening up where you can learn. But how you learn remains largely the same as it has for centuries: it is still one-size-fits-all, taught the same way to each person who shows up. We now have an opportunity to change how learning happens. With advances in AI, we can now build a custom learning guide for each person. We will turn learning from one‑to‑many to one‑to‑one. I'm starting LearnVector to invent this next generation of learning. We are starting with a $100M investment from Coursera, and plan to collaborate closely with Coursera and Udemy. Good learning needs much more than just a chatbot. Research shows that chatbots without guardrails harm learning. They help complete tasks and enable students to do better on homework. But cognitive offloading to a chatbot results in them being less skilled. And, you cannot always trust what a chatbot tells you. In contrast, LearnVector will plan a path with you, adapt to how you learn, and patiently stay with you until you’ve mastered new skills. One thing has not changed in all this time. People want learning they can trust: material that is accurate, relevant, and worth the effort you put into it. Anything less wastes the most valuable thing a learner has: time. Coursera has a trusted library of materials from authoritative sources. LearnVector plans to work with Coursera to bring this trustworthy learning to everyone. I'm grateful to Greg Hart and the entire Coursera team for supporting LearnVector. I look forward to working with our talented team to change how we learn, and accelerate human development. learnvector.ai Link LearnVector — A new AI company from Andrew Ng A new AI company from Andrew Ng, with a $100M investment from Coursera — building one-to-one learning that stays with you until you've mastered new skills. learnvector.ai",
-          "link": "https://nitter.net/AndrewYNg/status/2082199333920027009#m",
-          "decryptage": "Un \"chatbot\" est un programme informatique conçu pour simuler une conversation humaine, tandis que le \"déchargement cognitif\" désigne le fait de laisser une machine faire une partie de notre travail intellectuel, ce qui peut à la longue diminuer nos propres compétences si mal utilisé. Les \"garde-fous\" sont des limites ou des règles mises en place pour assurer la sécurité et l'efficacité d'un système."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Nous avons rédigé une FAQ pour répondre à certaines des questions que nous avons reçues concernant le tatouage numérique. En résumé : • Nous mettons en œuvre le tatouage numérique pour nous conformer à l'AI Act de l'UE. D'autres développeurs de modèles majeurs ont signé le même Code de Bonne Conduite et mettront également en œuvre le tatouage numérique ; • Notre méthode de tatouage numérique n'a aucun impact pratique sur la qualité ou le contenu des résultats de Claude ; • La différence entre un texte tatoué et un texte non tatoué ne sera pas perceptible par les lecteurs ; • Rien n'est ajouté au texte et il n'y a pas de caractères cachés ; • Le tatouage numérique ne nécessite pas de jetons supplémentaires, et ne sera pas plus cher ; • Les tatouages ne peuvent pas être tracés jusqu'à une personne, une organisation ou une discussion spécifique. En savoir plus : anthropic.com/news/claude-te… Lien : Comment fonctionne le tatouage numérique du texte de Claude. Les futurs modèles de Claude généreront du texte contenant un tatouage numérique. C'est un moyen de déterminer la probabilité que Claude ait participé à la rédaction du texte, et nous, ainsi que plusieurs autres grands développeurs d'IA...",
+          "text_original": "We’ve written an FAQ to answer some of the questions we've received about watermarking. In summary: • We’re implementing watermarking to comply with the EU AI Act. Other major model developers have signed the same Code of Practice and will also be implementing watermarking; • Our watermarking method doesn’t have any practical impact on the quality or content of Claude’s outputs; • The difference between watermarked and un-watermarked text will not be distinguishable to readers; • Nothing is added to the text and there are no hidden characters; • Watermarking doesn’t require extra tokens, and will not be more expensive; • Watermarks can’t be traced to a specific person, organization, or chat. Read more: anthropic.com/news/claude-te… Link How Claude's text watermarking works Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI...",
+          "link": "https://nitter.net/AnthropicAI/status/2088343978873966687#m",
+          "decryptage": "Anthropic explique que le nouveau système de 'tatouage numérique' (watermarking) intégré à son IA Claude permet de savoir si un texte a été généré par l'IA, sans que cela ne change la qualité du texte ni ne soit visible pour le lecteur. C'est une mesure pour respecter la loi européenne sur l'IA."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Dans le cadre de notre Politique de Mise à l'Échelle Responsable, nous publions des Rapports de Risque réguliers. Ceux-ci partagent des informations détaillées sur les risques de nos systèmes et sur la manière dont nous sommes préparés à les aborder. Notre deuxième Rapport de Risque est maintenant disponible : anthropic.com/aug-2026-risk-…",
+          "text_original": "As part of our Responsible Scaling Policy, we publish regular Risk Reports. These share detailed information on the risks of our systems and how prepared we are to address them. Our second Risk Report is now available: anthropic.com/aug-2026-risk-…",
+          "link": "https://nitter.net/AnthropicAI/status/2088324824863236248#m",
+          "decryptage": "Anthropic publie un nouveau rapport détaillant les risques potentiels de ses systèmes d'IA et comment ils comptent les gérer, dans le cadre de leur approche pour développer l'IA de manière sûre."
         }
       ],
       "tips": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Une technique que je trouve utile pour travailler avec les grands modèles linguistiques (LLM) est une longue session de \"divagation\" vocale. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime m'adosser, passer en mode /voix et juste divaguer pendant environ 10 minutes, un désordre total, tout y passe, un vrai flux de conscience. Parfois, je l'annonce au début, quelque chose comme \"je passe en reconnaissance vocale, désolé pour les fautes de frappe...\". Parfois, j'en fais une petite interview en quelques tours. Mais je trouve que les LLM sont étonnamment bons pour reconstruire de longues divagations incohérentes et souvent l'écho de votre propre enchevêtrement de pensées ressort bien plus clair que ce que vous aviez au départ. Le résultat est que vous améliorez la \"fusion des esprits\" et avez moins de corrections à faire par la suite.",
-          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-          "link": "https://nitter.net/karpathy/status/2079610838143623371#m",
-          "decryptage": "\"Fusion des esprits\" (mind meld) fait référence à l'amélioration de la compréhension mutuelle entre l'utilisateur et le modèle, où le modèle saisit mieux les intentions complexes de l'utilisateur."
+          "author_name": "Jeremy Howard",
+          "handle": "@jeremyphoward",
+          "text_fr": "Concernant la mise à jour de Sentence Transformers v6.0 : Un modèle dense compresse un texte entier en un vecteur, puis compare deux vecteurs. Un modèle multi-vecteurs conserve un vecteur par token, évalue chaque token de requête par rapport à chaque token de document, sélectionne la meilleure correspondance pour chacun, et somme ces scores. Vidéo tomaarsen (@tomaarsen) 🚨Je viens de publier Sentence Transformers v6.0 ! MultiVectorEncoder rejoint la famille : les modèles d'interaction tardive de type ColBERT sont maintenant un type de modèle de première classe, pour l'entraînement, l'inférence et l'interprétation, aux côtés des modèles denses, épars et de ré-ordonnancement. Gros thread 🧵 — https://nitter.net/tomaarsen/status/2089714037781143733#m",
+          "text_original": "Regarding Sentence Transformers v6.0 update: A dense model compresses a whole text into one vector, then compares two vectors. A multi-vector model keeps one vector per token, scores every query token against every document token, takes the best match for each, and sums those. Video tomaarsen (@tomaarsen) 🚨I've just released Sentence Transformers v6.0! MultiVectorEncoder joins the family: ColBERT-style late interaction models are now a first-class model type, for training, inference & interpretation, alongside dense, sparse & reranker models. Big thread 🧵 — https://nitter.net/tomaarsen/status/2089714037781143733#m",
+          "link": "https://nitter.net/jeremyphoward/status/2090018110052987171#m",
+          "decryptage": "Jeremy Howard explique une nouvelle méthode (\"multi-vector\") pour mieux comprendre et comparer des textes, qui va au-delà des approches traditionnelles en analysant chaque mot séparément plutôt que le texte entier d'un coup."
         }
       ],
       "idees": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "On commence à quitter le territoire où l'on testerait un grand modèle linguistique (LLM) en lui demandant, par exemple, de \"créer un SVG d'un pélican à vélo\". Pour généraliser cette idée, j'étais curieux de voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de tokens (environ 10$) et lui demandais un rendu 3D en JavaScript. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu bancal mais amusant. C'est assez hallucinant qu'un LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout cela, et qu'il fasse même quelque chose du tout. J'aime aussi ce genre d'exemples car personne de sensé ne passerait jamais le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde. C'est un exemple où l'on passe de \"personne ne ferait jamais ça\" à \"bien sûr, pourquoi pas, c'est presque gratuit\". Il pourrait y en avoir bien d'autres. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels on pourrait imaginer plonger des joueurs, par exemple pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée : le domaine des mondes/jeux révèle une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû très lentement et péniblement prendre des captures d'écran à différents moments, et il a fait quelques erreurs et a créé pas mal de choses \"bancales\". Un exemple de capacité brute (multimodale, gameplay) que je trouve encore assez limitée. Vidéo",
-          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-          "link": "https://nitter.net/karpathy/status/2083749667410727319#m",
-          "decryptage": "Un \"LLM\" (Large Language Model) est un grand modèle de langage, comme ChatGPT, capable de comprendre et de générer du texte, mais qui peut aussi commencer à créer des mondes virtuels complexes. Un \"token\" est une unité de texte (un mot, une partie de mot) que le modèle traite."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "(Nous nous attendons toujours à livrer de nouveaux modèles formidables bientôt ; cela impacte les sorties plus lointaines.)",
+          "text_original": "(We still expect to ship great new models soon; this impacts further-out releases.)",
+          "link": "https://nitter.net/sama/status/2089805495783813196#m",
+          "decryptage": "Sam Altman précise que malgré la pause annoncée, OpenAI compte toujours sortir des nouveautés dans un futur proche, mais que les projets les plus ambitieux à long terme sont retardés."
         },
         {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Bonne initiative de @JensenHuang . La lettre de Nvidia est bien écrite et mérite d'être lue. Comme nous l'avons vu avec le piratage d'OpenAI-Hugging Face, nous avons besoin de modèles ouverts et de dispositifs de protection pour la défense. Cessons de croire à la communication qui affirme que les modèles fermés sont plus sûrs – ce n'est que de la \"capture réglementaire\". Jensen Huang (@JensenHuang) Les attaquants disposent d'une IA de pointe. Les défenseurs ont besoin d'un écosystème d'IA de pointe — les meilleurs modèles ouverts et fermés, démultipliés par une communauté mondiale. Lors de l'incident Hugging Face, l'IA fermée a bloqué les analyses forensiques essentielles. Un modèle \"frontier\" à poids ouverts a aidé à contenir l'intrusion. C'est pourquoi nous avons créé l'Open Secure AI Alliance. — https://nitter.net/JensenHuang/status/2081698060330250294#m",
-          "text_original": "Good move by @JensenHuang . The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. Lets stop believing the PR that closed models are safer. - that's just regulatory capture. Jensen Huang (@JensenHuang) Attackers have frontier AI. Defenders need a frontier AI ecosystem—the best open and closed models, force-multiplied by a global community. During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance. — https://nitter.net/JensenHuang/status/2081698060330250294#m",
-          "link": "https://nitter.net/AndrewYNg/status/2081787106062746002#m",
-          "decryptage": "Les \"modèles ouverts\" (open models) et \"poids ouverts\" (open-weight models) sont des intelligences artificielles dont le fonctionnement interne est transparent et accessible à tous, contrairement aux \"modèles fermés\" qui sont gardés secrets. La \"capture réglementaire\" est une situation où des réglementations sont influencées par les entreprises pour servir leurs propres intérêts. Un \"modèle frontier\" est un modèle d'IA à la pointe de la technologie."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "excité de travailler ensemble là-dessus. merci jensen ! Jensen Huang (@JensenHuang) Article : Securing the Infrastructure of Intelligence. La terre, le pouvoir et le shell : la prochaine ressource critique pour les usines d'IA. Les usines d'IA sont l'infrastructure déterminante de l'ère de l'IA, où le calcul transforme l'énergie et les données en intelligence qui alimente — https://nitter.net/JensenHuang/status/2089331487342829862#m",
+          "text_original": "excited to work together on this. thank you jensen! Jensen Huang (@JensenHuang) Article Securing the Infrastructure of Intelligence Land, power and shell: The next critical resource for AI factories. AI factories are the defining infrastructure of the AI era—where compute transforms energy and data into intelligence that powers — https://nitter.net/JensenHuang/status/2089331487342829862#m",
+          "link": "https://nitter.net/sama/status/2089758522678657212#m",
+          "decryptage": "Sam Altman partage son enthousiasme à collaborer avec Jensen Huang (PDG de Nvidia), soulignant l'importance de l'infrastructure (calcul, énergie) pour faire avancer l'IA, une idée développée par Jensen Huang."
+        },
+        {
+          "author_name": "Jeremy Howard",
+          "handle": "@jeremyphoward",
+          "text_fr": "Comment le post sur les nouveaux résultats d'Anthropic se lirait sans le communiqué de presse : Claude a orchestré des modèles open-source de conception de protéines, PXDesign, RFdiffusion, Genie, BoltzGen, à partir d'une invite experte de 30k tokens et 12 500 heures de calcul H100, et a conçu des ligands contre 14 des 15 cibles. Taux de réussite de 22 à 35 % par rapport à une base de référence de 10 à 15 %, où certains de ces outils rapportent déjà des chiffres similaires par eux-mêmes. L'orchestration est vraiment impressionnante. Mais les modèles open-source ont fait la majeure partie du travail, et ils proviennent du Baker lab, de Columbia, du MIT, de ByteDance Seed, et la plupart étaient déjà validés en laboratoire avant que Claude ne les touche. Ce qui fixe aussi la limite. Tous ces générateurs partagent une seule distribution d'entraînement en forme de PDB, donc appeler quatre d'entre eux ne diversifie pas le point aveugle, puisqu'ils échouent ensemble. Les cibles qui ont fonctionné sont celles qui sont bien étudiées. La seule affirmation valable est donc qu'un agent peut désormais piloter cette pile de manière compétente dans le régime où la pile fonctionne déjà. Au lieu de cela, nous avons eu cette annonce : Anthropic (@AnthropicAI) Beaucoup de médicaments agissent en se liant à une cible spécifique dans le corps et en bloquant ou modifiant son action. Une étape importante dans le processus de développement de médicaments consiste à concevoir une molécule capable de se lier fortement à sa cible. Traditionnellement, cela signifiait des semaines ou des mois de travail d'experts par cible, examinant un grand nombre de candidats pour identifier ceux qui fonctionnent. Nous avons voulu tester si Claude pouvait réussir à concevoir de nouveaux ligands protéiques à partir de zéro (également appelés conception de novo). Avec une invite de conception de protéines écrite par un expert humain, Claude a conçu de manière autonome des ligands protéiques contre 14 des 15 cibles. Nous avons ensuite travaillé avec Adaptyv Bio et Twist Bioscience, qui ont indépendamment construit et testé les protéines conçues par Claude. Vidéo — https://nitter.net/AnthropicAI/status/2089842387845804246#m",
+          "text_original": "How Anthropic's new results post would read without the PR: Claude orchestrated open-source protein design models, PXDesign, RFdiffusion, Genie, BoltzGen, from a 30k-token expert prompt and 12,500 H100-hours of compute, and designed binders against 14 of 15 targets. Hit rates of 22–35% against a 10–15% baseline, where some of those tools already report similar numbers on their own. The orchestration is genuinely impressive. But the open-source models did most of the lifting, and they came from the Baker lab, Columbia, MIT, ByteDance Seed, and most of them were already wet-lab validated before Claude touched them. Which also sets the ceiling. All these generators share a single PDB-shaped training distribution, so calling four of them doesn't diversify away the blind spot, since they fail together. The targets that worked are the well-studied ones. So the valid claim is that an agent can now drive this stack competently in the regime where the stack already works. Instead, we got this announcement: Anthropic (@AnthropicAI) Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first step in the drug development process is designing a molecule that can bind tightly to its target. Traditionally, that's meant weeks or months of expert work per target, sifting through a large number of candidates to identify the few that work. We wanted to test if Claude could successfully design novel protein binders from scratch (also called de novo design). With a protein design prompt written by a human expert, Claude autonomously designed protein binders against 14 out of 15 targets. We then worked with Adaptyv Bio and Twist Bioscience, who independently built and tested the proteins Claude designed. Video — https://nitter.net/AnthropicAI/status/2089842387845804246#m",
+          "link": "https://nitter.net/ziv_ravid/status/2089892737503944966#m",
+          "decryptage": "Jeremy Howard nuance l'annonce d'Anthropic, expliquant que c'est surtout l'IA qui a utilisé et coordonné des outils déjà existants et performants, plutôt qu'elle n'ait inventé quelque chose de totalement nouveau. Il met en garde contre une tendance à survaloriser le rôle de l'IA dans ces avancées."
+        },
+        {
+          "author_name": "Jeremy Howard",
+          "handle": "@jeremyphoward",
+          "text_fr": "Les LLM augmentent la complexité des bases de code. Ils dupliquent des méthodes, écrivent du code trop défensif contre des cas limites impossibles, et optimisent trop tôt. Un entraînement supplémentaire peut-il corriger cela ? Naur, dans sa théorie \"Programming as Theory Building\", dit non. -- réponse de @pol_avec. answer.ai/posts/2026-08-19-l… 1/ Lien Pourquoi les LLM ne peuvent pas simplifier votre code – Answer.AI Ce que l'article classique \"Programming as Theory Building\" peut nous apprendre sur les LLM answer.ai",
+          "text_original": "LLMs increase the complexity of codebases. They duplicate methods, write overdefensive code against impossible edge cases, & overoptimize too early. Can further training fix this? Naur's “Programming as Theory Building” says no. -- @pol_avec answer.ai/posts/2026-08-19-l… 1/ Link Why LLMs can’t make your code simpler – Answer.AI What the classic paper “Programming as Theory Building” can teach us about LLMs answer.ai",
+          "link": "https://nitter.net/math_rachel/status/2089976425369747793#m",
+          "decryptage": "Jeremy Howard explique que les IA génératives de code peuvent rendre les programmes plus compliqués en créant du code redondant ou trop prudent, et cite une théorie (Programming as Theory Building) qui suggère que ce problème n'est pas simple à résoudre par plus d'entraînement."
+        },
+        {
+          "author_name": "Jeremy Howard",
+          "handle": "@jeremyphoward",
+          "text_fr": "Je suis un grand fan du travail et des commentaires publics d'Andy Hall et d'Alan Rozenshtein sur l'IA. Je suis sûr qu'ils continueront à faire un travail important dans le cadre de cette nouvelle équipe chez Anthropic, et je les félicite sincèrement pour ce qui, j'en suis sûr, est une prochaine étape passionnante pour eux personnellement. En même temps, je pense que leur départ pour Anthropic est emblématique d'une tendance plus large des entreprises d'IA de pointe à s'accapar un nombre vraiment remarquable de voix et de penseurs auparavant indépendants dans le domaine de l'IA. Lorsque des événements majeurs se produisent dans l'IA - par exemple, le conflit DOW <> Ant - le public, les médias et les élus chercheront des commentaires et des analyses indépendants de la part de penseurs qui ne sont pas dans les laboratoires de pointe. Le nombre de personnes vers lesquelles ils peuvent se tourner pour obtenir ce type de commentaires indépendants semble diminuer de façon spectaculaire. Cela semble être un réel problème, et il vaut la peine de réfléchir plus systématiquement à la manière dont nous pouvons créer des postes suffisamment attractifs en dehors des entreprises - par exemple, dans des organisations à but non lucratif indépendantes, au sein du gouvernement - pour attirer des personnes comme Andy et Alan qui rejoignent Anthropic. Quoi qu'il en soit, chacune de ces décisions individuellement est raisonnable et ne vaut pas la peine de s'y attarder outre mesure, et je crois sincèrement que tous deux feront du bon travail au sein de cette équipe (et auront accès à des informations nouvelles qui les aideront dans leurs recherches), mais en prenant du recul, je crains que nous ne perdions des voix indépendantes au moment même où nous en avons plus besoin, pas moins. Matthew Botvinick (@mattbotvinick) Ravi d'avoir Andy Hall ( @ahall_research ) parmi les membres fondateurs de notre nouvelle équipe chez @AnthropicAI , travaillant sur l'IA et l'état de droit. Peu de gens ont fait un travail aussi original et éclairant sur l'impact de l'IA sur la vie politique. Si vous ne lisez pas déjà son Substack Free Systems, vous devriez commencer. Avec Alan Rozenshtein ( @ARozenshtein ) et Justin Curl ( @curl_justin ), c'est une équipe de rêve. — https://nitter.net/mattbotvinick/status/2089729803586777177#m",
+          "text_original": "I am a big fan of both Andy Hall and Alan Rozenshtein work and public commentary on AI. I am sure that they will continue to do important work as part of this new team at Anthropic, and sincerely congratulate them on what I am sure is an exciting next step for them personally. At the same time, I think both of them going into Anthropic is emblematic of a broader trend of the frontier AI companies grabbing up a truly remarkable number of previously independent voices and thinkers in AI. When massive events happen in AI - e.g. the DOW <> Ant conflict - the public, media, and elected officials will be looking for independent commentary and analysis from thinkers who are not at the frontier labs. The number of folks they can go to for that sort of independent commentary seems like it is going down precipitously. This seems like a real problem, and worth thinking more systemically about how we can create sufficiently attractive positions outside of companies - e.g. at independent nonprofits, in government - to attract the sorts of folks like Andy and Alan who are going into Anthropic. Anyway, each of these decisions individually is reasonable and not worth overly fixating on, and I do believe that both of them will do good work as part of this team (and have access to novel information that will help them do research) but zooming out I am worried that we are losing independent voices at the exact time we need more of them not fewer. Matthew Botvinick (@mattbotvinick) Wonderful to have Andy Hall ( @ahall_research ) joining as a founding member of our new team at @AnthropicAI , working on AI and the rule of law. Few people have done such original and illuminating work on the impact of AI on political life. If you don't already read his Free Systems Substack, you should start. Together with Alan Rozenshtein ( @ARozenshtein ) and Justin Curl ( @curl_justin ), that's a dream team. — https://nitter.net/mattbotvinick/status/2089729803586777177#m",
+          "link": "https://nitter.net/_NathanCalvin/status/2089750957043114236#m",
+          "decryptage": "Jeremy Howard s'inquiète que les grandes entreprises d'IA comme Anthropic attirent trop d'experts indépendants, ce qui rendrait plus difficile d'avoir des avis objectifs sur l'IA en dehors de ces entreprises."
         }
       ],
       "outils": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Plus d'informations sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis en ligne le code source ici pour qu'il soit jouable dans le navigateur, modifiable (forkable), etc. karpathy.ai/lotr-movie/ Attendez-vous à un GTA Hobbiton avant GTA VI :)",
-          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-          "link": "https://nitter.net/karpathy/status/2083948654377996480#m",
-          "decryptage": "\"Forkable\" signifie que le code source est disponible et peut être copié et modifié par d'autres développeurs pour créer leurs propres versions."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Beaucoup de médicaments agissent en se liant à une cible spécifique dans le corps et en bloquant ou modifiant son action. Une étape importante dans le processus de développement de médicaments consiste à concevoir une molécule capable de se lier fortement à sa cible. Traditionnellement, cela signifiait des semaines ou des mois de travail d'experts par cible, examinant un grand nombre de candidats pour identifier ceux qui fonctionnent. Nous avons voulu tester si Claude pouvait réussir à concevoir de nouveaux ligands protéiques à partir de zéro (également appelés conception de novo). Avec une invite de conception de protéines écrite par un expert humain, Claude a conçu de manière autonome des ligands protéiques contre 14 des 15 cibles. Nous avons ensuite travaillé avec Adaptyv Bio et Twist Bioscience, qui ont indépendamment construit et testé les protéines conçues par Claude. Vidéo",
+          "text_original": "Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first step in the drug development process is designing a molecule that can bind tightly to its target. Traditionally, that's meant weeks or months of expert work per target, sifting through a large number of candidates to identify the few that work. We wanted to test if Claude could successfully design novel protein binders from scratch (also called de novo design). With a protein design prompt written by a human expert, Claude autonomously designed protein binders against 14 out of 15 targets. We then worked with Adaptyv Bio and Twist Bioscience, who independently built and tested the proteins Claude designed. Video",
+          "link": "https://nitter.net/AnthropicAI/status/2089842387845804246#m",
+          "decryptage": "Anthropic montre que son IA Claude peut créer de nouvelles molécules (\"ligands protéiques\") qui se fixent à des cibles précises dans le corps, une avancée pour trouver de nouveaux médicaments plus rapidement."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "J'ai passé ÉNORMÉMENT de temps sur les invites 3D les plus difficiles chez Fable ; c'est une vidéo de 45 minutes, mais j'ai plus de 60 démos très sympas pour vous. Les invites (prompts) seront aussi dans le prochain post. piped.video/watch?v=rTc2_-1K…",
-          "text_original": "I spent a LOT of time through the hardest 3D prompts at Fable, it is a 45 min video, but I have 60+ very cool demos for you. Also prompts in the next post. piped.video/watch?v=rTc2_-1K…",
-          "link": "https://nitter.net/petergostev/status/2073047118801993910#m",
-          "decryptage": "Une \"invite 3D\" (3D prompt) est une instruction textuelle donnée à une IA pour qu'elle génère un objet ou une scène en trois dimensions."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Pour en savoir plus sur la façon dont Claude a mené cette expérience et sur les résultats complets, consultez notre blog : anthropic.com/research/Claud… Lien : Comment Claude accélère la conception de protéines et la chimie analytique. Dans cet article, nous partageons deux résultats qui montrent comment Claude peut aider les scientifiques de la vie à accélérer le rythme de leurs recherches. Dans le premier, nous avons testé la capacité de Claude à concevoir des ligands protéiques à partir de zéro...",
+          "text_original": "For more on how Claude ran this experiment and the full results, see our blog: anthropic.com/research/Claud… Link How Claude is accelerating protein design and analytical chemistry In this post, we share two results that show how Claude can help life scientists increase the pace of their research. In the first, we tested Claude’s ability to design protein binders from scratch,...",
+          "link": "https://nitter.net/AnthropicAI/status/2089842394527301881#m",
+          "decryptage": "Anthropic publie plus de détails sur l'utilisation de son IA Claude pour la recherche scientifique, notamment dans la création de molécules pour la médecine, encourageant ainsi la communauté scientifique à explorer ces nouvelles méthodes."
         }
       ]
     }
   },
-  "processed_at": "2026-08-20T07:31:08",
+  "processed_at": "2026-08-20T07:56:23",
   "validation": {
     "translated_pct": 100,
     "with_decryptage_pct": 100,
-    "total": 14,
+    "total": 18,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-08-20T07:31:09"
+  "email_sent_at": "2026-08-20T07:56:24"
 }
