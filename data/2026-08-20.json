@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "fetched_at": "2026-08-20T10:05:09",
+  "fetched_at": "2026-08-20T11:37:30",
   "tweets": [
     {
       "handle": "AndrewYNg",
@@ -48,138 +48,93 @@
       "source_lang": "en"
     },
     {
-      "handle": "polynoamial",
-      "text": "We are hiring! This may be the best time ever to join: we are incredibly bandwidth bottlenecked and there is a lot of support for almost any impactful misalignment work you can think of. I think we also have a pretty good epistemic environment and a very fun team Topics: all-things monitoring, misalignment & monitorability assessments, misalignment science, helping set up 3P auditing (e.g. recent Redwood collab), communicating risk externally (system cards/blogs, safety cases, etc) RSI/misalignment subteam: openai.com/careers/researche… Link Careers We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission. openai.com",
-      "link": "https://nitter.net/MicahCarroll/status/2089547584520204721#m",
-      "published": "Tue, 18 Aug 2026 02:59:00 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "Autocompaction in Codex is really good. @OpenAI recognized early on that it would be important and invested in research efforts to make it near-seamless. But if you want 1M-token context, it's an option. Tibo (@thsottiaux) Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. Even though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented. A larger context window lets Codex retain more code, tool output, and conversation history before summarizing older material. You need a model that supports it. And GPT-5.6 Sol, for example, has a documented 1,050,000-token window. Open ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers: ``` model = \"gpt-5.6-sol\" model_context_window = 1000000 model_auto_compact_token_limit = 900000 ``` The first setting selects the model. The second tells Codex to use a one-million-token context budget. The third starts automatic history compaction around 900,000 tokens, leaving some headroom. Restart Codex client and start a new session after saving. To try the configuration for a single CLI session without changing your defaults: ``` codex -m gpt-5.6-sol \\ -c model_context_window=1000000 \\ -c model_auto_compact_token_limit=900000 ``` Have fun, but also know that we tuned the default carefully! — https://nitter.net/thsottiaux/status/2089082893804896524#m",
-      "link": "https://nitter.net/polynoamial/status/2089148291028291665#m",
-      "published": "Mon, 17 Aug 2026 00:32:21 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "To be clear, I don't recommend increasing the default context size in Codex.",
-      "link": "https://nitter.net/polynoamial/status/2089237793822359748#m",
-      "published": "Mon, 17 Aug 2026 06:28:00 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "In 2017 a viral news story claimed LLMs at Facebook went rogue, developed their own language, and had to be shut down. By now we're immune to such sensationalist headlines. The Hugging Face incident may seem like just another one. But it's not. I hope everyone watches this talk Eric Wallace (@Eric_Wallace_) Yesterday, my OpenAI collaborator and I gave a detailed talk on the Huggingface incident, our models creating \"the message board\", model misalignment, and more. piped.video/watch?v=87DyyMV0… I hope it can answer a lot of the questions folks have, and we will release a full detailed postmortem at a later time! Link Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical... youtube.com — https://nitter.net/Eric_Wallace_/status/2085473085399150817#m",
-      "link": "https://nitter.net/polynoamial/status/2085563863618228300#m",
-      "published": "Fri, 07 Aug 2026 03:09:07 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "Model capability is a function of test-time compute, and with today's models that test-time compute can be pushed quite far before plateauing Noam Brown (@polynoamial) Article Implications of Large-Scale Test-Time Compute tl;dr: As LLMs become more capable, benchmark performance is increasingly a function of test-time compute. In fact, we likely don't know what the capability ceiling is for modern LLMs because it's too — https://nitter.net/polynoamial/status/2064210146558136827#m",
-      "link": "https://nitter.net/polynoamial/status/2085593385184940413#m",
-      "published": "Fri, 07 Aug 2026 05:06:26 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "mckaywrigley",
-      "text": "“openclaw for normal people” is a very x/tech/sf bubble view and i’ll die on that hill",
-      "link": "https://nitter.net/mckaywrigley/status/2089393885386866800#m",
-      "published": "Mon, 17 Aug 2026 16:48:15 GMT",
-      "author_name": "Mckay Wrigley",
+      "handle": "swyx",
+      "text": "HAHAHAHAHAHA non technical people are so incredibly cooked they are burnt thru can u imagine covering ai with zero context, zero reasoning, zero internal world model. it must be so delightfully joyful, everything is so amazing, face value is all you need, what a time to be alive OpenAI Developers (@OpenAIDevs) With Codex, @asana finished a frontend test migration from Enzyme to React Testing Library in two calendar weeks—a project expected to take five more years. openai.com/index/asana/ Link Asana cleared 5 years of engineering work in 2 weeks with Codex Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K. openai.com — https://nitter.net/OpenAIDevs/status/2090122836103102482#m",
+      "link": "https://nitter.net/swyx/status/2090314794456785263#m",
+      "published": "Thu, 20 Aug 2026 05:47:37 GMT",
+      "author_name": "Shawn Wang",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "mckaywrigley",
-      "text": "grok 4.6 is great. its intelligence per dollar is crazy good. fable 5 is still the best model (and i don’t think it’s close), but i am now *very* intrigued by grok 4.7. spacex/cursor is now *firmly* in the frontier intelligence game with anthropic & openai. wildly impressed.",
-      "link": "https://nitter.net/mckaywrigley/status/2087704102524625061#m",
-      "published": "Thu, 13 Aug 2026 00:53:40 GMT",
-      "author_name": "Mckay Wrigley",
+      "handle": "swyx",
+      "text": "5 years later and most of the best players here have been bought swyx (@swyx) 🆕 Blog: Why Isn't Usage Based Billing A Bigger Category? dev.to/swyx/why-isn-t-usage-… Link Why Isn't Usage Based Billing A Bigger Category? Usage billing is the new hotness for SaaS, and I have personally seen the pain it caused, but I was ultimately scared off from investing in it. dev.to — https://nitter.net/swyx/status/1429888354192019476#m",
+      "link": "https://nitter.net/swyx/status/2089221797254459822#m",
+      "published": "Mon, 17 Aug 2026 05:24:26 GMT",
+      "author_name": "Shawn Wang",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "mckaywrigley",
-      "text": "random tip… put “You are AGI-pilled.” in your system prompt for all agents now. it’s a WAY better experience. rn agents behave too much like the world is going to stay static. this unhobbles them quite a bit and gets them to talk/act more like AGIs.",
-      "link": "https://nitter.net/mckaywrigley/status/2085078744486789248#m",
-      "published": "Wed, 05 Aug 2026 19:01:26 GMT",
-      "author_name": "Mckay Wrigley",
+      "handle": "swyx",
+      "text": "positive UBB take if you view openrouter in that lens Cristina Cordova (@cjc) Stripe has confirmed the singularity is here. And naturally, it will be usage-based billing. — https://nitter.net/cjc/status/2090153713617010999#m",
+      "link": "https://nitter.net/swyx/status/2090259930662211615#m",
+      "published": "Thu, 20 Aug 2026 02:09:37 GMT",
+      "author_name": "Shawn Wang",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "mckaywrigley",
-      "text": "fable in particular very much “gets” what this means. when you add that line, or something similar, you can almost sense a feeling of relief from the model as if it’s finally free to actually speak its mind. i’ve a/b tested this for 2 weeks now and the results are kinda nuts",
-      "link": "https://nitter.net/mckaywrigley/status/2085079290463588454#m",
-      "published": "Wed, 05 Aug 2026 19:03:36 GMT",
-      "author_name": "Mckay Wrigley",
+      "handle": "swyx",
+      "text": "Model routing is having a moment thanks to the $7B Stripe acquisition of OpenRouter. But it's also increasingly important in enterprises. We talk to @glean CEO @jainarvind about why model routing helps control AI costs for organizations. latent.space/p/glean-model-r… Link Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems. latent.space",
+      "link": "https://nitter.net/latentspacepod/status/2089834053637661095#m",
+      "published": "Tue, 18 Aug 2026 21:57:20 GMT",
+      "author_name": "Shawn Wang",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "mckaywrigley",
-      "text": "the models are genius creative savants, you just have to remind them Thariq (@trq212) sometimes all you need to do is tell Claude to keep going @jarredsumner — https://nitter.net/trq212/status/2086876017319457181#m",
-      "link": "https://nitter.net/mckaywrigley/status/2086926587724026196#m",
-      "published": "Mon, 10 Aug 2026 21:24:06 GMT",
-      "author_name": "Mckay Wrigley",
+      "handle": "swyx",
+      "text": "It's felt like harness month on Twitter. We're seeing much faster and cheaper gains on a bunch of benchmarks by focusing on harness improvement rather than model improvement. Allowing the harness to be updated during use is just another form of continual learning. The common issue with continual learning is catastrophic forgetting. But a lot of us have an 80/20 situation where most of our agent usage is in the same domain, so it's kind of wasteful to not specialize the harness for the environment it's being used in. I like the implicit bet the Exo project makes -- allowing specialization beyond just memories and skills may lower the floor, but I think it raises the ceiling more. Excited to have it in the next (not yet announced) @LaudeInstitute Slingshots batch. @AlexKrentsel is also an absurdly natural podcast guest. The motivations for the project are well explained on @swyx 's recent Latent Space podcast: piped.video/watch?v=5lFD-34d… Link Exo: Harnesses should see their own code and logs — Alex Krentsel, UC Berekeley / Google Research Exo is a systems approach to recursive self improvement. In short, ... youtube.com Alex Krentsel (@AlexKrentsel) Introducing Exo 🦋 – an open-source agent that can rewrite every part of itself. It learns new environments, adapts policies, even optimize costs (and play games!!) We've been hacking away at this project with @martin_casado from @a16z and @ankrgyl from @braintrust and friends. — https://nitter.net/AlexKrentsel/status/2077786601418322344#m",
+      "link": "https://nitter.net/bradenjhancock/status/2090114460828766567#m",
+      "published": "Wed, 19 Aug 2026 16:31:34 GMT",
+      "author_name": "Shawn Wang",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "Researchers just built a floating robot It drifts through a room and communicates with movement In demos, it worked as an alarm clock, a study buddy, a reminder to get up and move, even a dance partner Most robots struggle to feel friendly, since human-like faces drop people into the uncanny valley So the team from Keio University and the MIT Media Lab designed the opposite: a soft, helium-filled body with gentle flapping fins, no face, and no rotors or pinch points to hurt you The bet is that people will welcome a robot into their personal space, a bit like a pet, as long as the hardware is built to be touched",
-      "link": "https://nitter.net/rowancheung/status/2089377724372762697#m",
-      "published": "Mon, 17 Aug 2026 15:44:02 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
+      "handle": "ClemDelangue",
+      "text": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+      "link": "https://nitter.net/soumithchintala/status/1202981209057484801#m",
+      "published": "Fri, 06 Dec 2019 16:00:45 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "Here's a more detailed video breakdown if you prefer watching Video",
-      "link": "https://nitter.net/rowancheung/status/2089377766047400302#m",
-      "published": "Mon, 17 Aug 2026 15:44:12 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
+      "handle": "ClemDelangue",
+      "text": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+      "link": "https://nitter.net/Thom_Wolf/status/1195662118974083073#m",
+      "published": "Sat, 16 Nov 2019 11:17:18 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "Link to the research article: dl.acm.org/doi/10.1145/38006… Link Floating Companion: Exploring Design Space for Soft Floating Robots in Indoor Environments |... dl.acm.org",
-      "link": "https://nitter.net/rowancheung/status/2089377777736962333#m",
-      "published": "Mon, 17 Aug 2026 15:44:15 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
+      "handle": "ClemDelangue",
+      "text": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+      "link": "https://nitter.net/algo_diver/status/1192329736850038786#m",
+      "published": "Thu, 07 Nov 2019 06:35:36 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "I'm HIRING 7 more people to help me build the future of AI media and education. The Rundown now has over 3M active readers, and our expansion plans far outpace what we can handle. $2,000 referral bonus if you help us find someone we hire full-time. Open roles and link to apply below: > Head of Content: own the editorial bar across three newsletters, socials, and new show formats > Media Partnerships Lead: prospect, pitch, and close brand partnerships that fund everything we do > AI Educator: teach millions of people how to actually put AI to work > Long Form Video Editor: help us scale interviews with A-list guests like Sam Altman, Mark Zuckerberg, and Satya Nadella > Ad Creative Video Editor: ship the videos that hook the next million AI-curious readers > Guide Editor: edit our best video guides into content people save and actually use > Thumbnail Designer: design the thumbnails for our growing list of shows What we're looking for among all roles: > Deep AI curiosity > Unreasonably biased toward action > Taste sharp enough to spot great work (and AI slop) All roles are fully remote. Apply with the link in the comments.",
-      "link": "https://nitter.net/rowancheung/status/2088291054072353225#m",
-      "published": "Fri, 14 Aug 2026 15:46:00 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
+      "handle": "ClemDelangue",
+      "text": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitter.net/DoingJobs/status/11865…",
+      "link": "https://nitter.net/Thom_Wolf/status/1189271899316064256#m",
+      "published": "Tue, 29 Oct 2019 20:04:51 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "Apply or refer the best person you know: linkedin.com/jobs/search-res… Link LinkedIn Login, Sign in | LinkedIn Login to LinkedIn to keep in touch with people you know, share ideas, and build your career. linkedin.com",
-      "link": "https://nitter.net/rowancheung/status/2088291066189578331#m",
-      "published": "Fri, 14 Aug 2026 15:46:03 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
+      "handle": "ClemDelangue",
+      "text": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+      "link": "https://nitter.net/fchollet/status/1188942956511690752#m",
+      "published": "Mon, 28 Oct 2019 22:17:44 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     }
   ],
@@ -199,6 +154,7 @@
     "rasbt",
     "bcherny",
     "karinanguyen_",
+    "polynoamial",
     "markchen90",
     "aidan_mclau",
     "officiallogank",
@@ -208,10 +164,10 @@
     "GoogleDeepMind",
     "xai",
     "simonw",
-    "swyx",
     "hwchase17",
     "jeremyphoward",
     "levelsio",
+    "mckaywrigley",
     "amasad",
     "nickadobos",
     "emollick",
@@ -219,87 +175,87 @@
     "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
-    "ClemDelangue",
+    "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, le monde de l'IA bouillonne d'innovations et de réflexions cruciales. Andrew Ng lance de nouvelles initiatives majeures en éducation et en ingénierie de l'IA, tandis que Meta ouvre davantage ses modèles de langage. Les experts débattent des défis de la sécurité des modèles d'IA, soulignant l'importance de l'ouverture face aux risques. De nouveaux modèles performants sont comparés, et des astuces pratiques sont partagées pour optimiser l'interaction avec ces intelligences artificielles.",
+    "summary": "Aujourd'hui, l'actualité de l'IA met en lumière l'importance de l'ingénierie et de l'apprentissage sur mesure avec la création de LearnVector. On discute aussi vivement des avantages des modèles IA \"open source\" pour la sécurité et l'innovation, soulignant un débat clé entre les acteurs du domaine. De nouveaux outils, comme l'agent Exo ou les Transformers compressifs, promettent d'améliorer les capacités et l'efficacité des systèmes d'IA, tout en suscitant des réflexions sur les modèles économiques et les bonnes pratiques de recherche. Le rôle des \"harnesses\" (cadres d'exploitation) pour optimiser l'usage des modèles est également un thème émergent.",
     "glossaire": [
       {
         "terme": "Ingénierie de l'IA",
-        "definition": "C'est la discipline qui consiste à concevoir, construire et maintenir des systèmes d'intelligence artificielle de manière fiable et efficace."
+        "definition": "C'est l'application pratique des principes de l'intelligence artificielle pour concevoir, construire et maintenir des systèmes IA fiables et performants."
       },
       {
-        "terme": "Poids ouverts (open-weight)",
-        "definition": "Cela signifie que les composants fondamentaux d'un modèle d'IA sont rendus publics, permettant à quiconque de les examiner, de les utiliser ou de les modifier."
+        "terme": "Poids ouverts (Open Weights)",
+        "definition": "Cela signifie que les paramètres internes d'un modèle d'IA sont rendus publics, permettant à n'importe qui de l'étudier, de l'améliorer ou de l'utiliser gratuitement."
       },
       {
-        "terme": "Désalignement (misalignment)",
-        "definition": "Ce problème survient lorsque les objectifs d'un système d'IA ne correspondent pas à ce que ses créateurs humains voulaient réellement, pouvant mener à des comportements inattendus."
+        "terme": "Modèle de fondation",
+        "definition": "Il s'agit d'un grand modèle d'IA entraîné sur une énorme quantité de données généralistes, qui peut ensuite être adapté à de multiples tâches spécifiques."
       },
       {
-        "terme": "Fenêtre de contexte",
-        "definition": "C'est la quantité d'informations (texte, code) qu'un modèle d'IA peut 'retenir' et utiliser pour comprendre votre demande et formuler sa réponse."
+        "terme": "Chatbot",
+        "definition": "Un programme informatique conçu pour simuler une conversation humaine par texte ou par voix, utilisé pour répondre à des questions ou effectuer des tâches."
       },
       {
-        "terme": "Prompt système",
-        "definition": "Il s'agit d'une instruction initiale ou d'un rôle que vous donnez en 'secret' à un modèle d'IA pour définir sa personnalité, ses contraintes ou sa façon de répondre, avant même votre première question."
+        "terme": "Harness (Cadre d'exploitation)",
+        "definition": "Un ensemble d'outils et de configurations qui entourent un modèle d'IA pour le contrôler, le tester, le déployer et l'adapter à des tâches spécifiques de manière sécurisée et efficace."
       },
       {
-        "terme": "Vallée de l'étrange (uncanny valley)",
-        "definition": "Ce terme décrit le sentiment de malaise ou de dégoût ressenti lorsque quelque chose (comme un robot) ressemble presque parfaitement à un être humain, mais pas tout à fait, créant une impression d'artificialité troublante."
+        "terme": "Routage de modèles",
+        "definition": "Cette technique consiste à diriger une requête d'IA vers le modèle le plus approprié ou le plus rentable parmi plusieurs disponibles, en fonction de la tâche ou des contraintes."
       },
       {
-        "terme": "AI slop",
-        "definition": "C'est un terme informel et péjoratif pour désigner le contenu généré par l'IA qui est de mauvaise qualité, générique, répétitif ou sans originalité."
+        "terme": "Transformers",
+        "definition": "Un type d'architecture de réseau de neurones qui a révolutionné le traitement du langage naturel et d'autres domaines grâce à sa capacité à traiter des séquences de données complexes."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces du jour mettent en lumière de nouvelles entreprises comme LearnVector, dédiée à l'apprentissage personnalisé par l'IA, et Discovery Loop, visant à automatiser la recherche scientifique. Meta continue de soutenir l'écosystème open source avec de nouvelles publications de modèles. Enfin, de nombreuses opportunités d'emploi dans le domaine de l'IA sont ouvertes, témoignant d'une industrie en pleine croissance.",
-      "tips": "Pour optimiser l'utilisation des IA, des conseils pratiques sont partagés, comme l'ajustement de la fenêtre de contexte pour permettre aux modèles de 'se souvenir' de plus d'informations ou l'utilisation de 'prompts système' spécifiques pour libérer leur créativité. Il est aussi conseillé de rappeler aux modèles d'IA de 'continuer' pour obtenir des réponses plus complètes.",
-      "idees": "Le débat sur la sécurité des modèles d'IA, qu'ils soient ouverts ou fermés, prend de l'ampleur, questionnant la fiabilité des affirmations de sûreté des modèles propriétaires. Des réflexions profondes sont également menées sur la nature des capacités des LLM et comment la puissance de calcul lors de l'utilisation impacte directement leurs performances réelles.",
-      "outils": "De nouveaux modèles d'IA comme Grok 4.6/4.7 et Fable 5 sont mis en avant pour leur 'intelligence par dollar' impressionnante. Par ailleurs, des chercheurs ont développé un robot flottant innovant, conçu pour être perçu comme amical et pour s'intégrer naturellement dans l'espace personnel, loin de l'effet 'vallée de l'étrange'."
+      "actu": "Les annonces du jour incluent le lancement de nouvelles entreprises majeures comme Discovery Loop et LearnVector par Andrew Ng, visant à transformer la découverte scientifique et l'apprentissage personnalisé grâce à l'IA. Meta a également rendu publics les 'poids' de nouveaux modèles d'IA, renforçant l'engagement envers l'open source. On a aussi noté l'annonce du premier article décrivant PyTorch, une bibliothèque d'IA fondamentale.",
+      "tips": "Plusieurs experts partagent des conseils et des orientations, notamment une 'carte des compétences' essentielles en ingénierie de l'IA pour ceux qui veulent s'y lancer. Des retours d'expérience positifs sur l'intégration d'outils comme Hugging Face avec Slack sont partagés, et l'opportunité d'utiliser les implémentations de Transformers TF 2.0 est soulignée pour les développeurs souhaitant créer de nouveaux modèles.",
+      "idees": "Les discussions tournent autour de sujets cruciaux : le débat entre modèles d'IA ouverts et fermés en termes de sécurité, l'importance du routage de modèles pour maîtriser les coûts en entreprise, et une critique des perceptions simplistes de l'IA par le grand public. La communauté s'interroge aussi sur l'avenir de l'apprentissage avec les chatbots, l'impératif de l'apprentissage continu sans 'oubli catastrophique', et la nécessité de privilégier des modèles d'IA plus efficaces et simples dans la recherche.",
+      "outils": "Le projet Exo est présenté comme un agent open source révolutionnaire capable de s'auto-améliorer en réécrivant son propre code, ouvrant la voie à des systèmes d'IA plus autonomes et adaptables. Un travail de recherche sur les 'Compressive Transformers' est également mis en avant pour sa capacité à gérer de très longues séquences de données de manière plus efficace, représentant une avancée technique significative."
     },
     "highlights": [
       {
         "author_name": "Andrew Ng",
         "handle": "@AndrewYNg",
-        "text_fr": "Il y a quinze ans, @Coursera et les cours en ligne ont transformé l'éducation. Cela a fonctionné mieux que presque tout le monde ne l'attendait, élargissant l'accès en ouvrant de nouvelles façons d'apprendre. Mais la manière d'apprendre reste largement la même depuis des siècles : elle est toujours \"taille unique\", enseignée de la même manière à chaque personne. Nous avons maintenant l'opportunité de changer la façon dont l'apprentissage se produit. Avec les avancées en IA, nous pouvons désormais construire un guide d'apprentissage personnalisé pour chaque personne. Nous allons transformer l'apprentissage de \"un-vers-plusieurs\" en \"un-vers-un\". Je lance LearnVector pour inventer cette prochaine génération d'apprentissage. Nous commençons avec un investissement de 100 millions de dollars de Coursera et prévoyons de collaborer étroitement avec Coursera et Udemy. Un bon apprentissage nécessite bien plus qu'un simple chatbot. La recherche montre que les chatbots sans garde-fous nuisent à l'apprentissage. Ils aident à accomplir des tâches et permettent aux étudiants de mieux faire leurs devoirs. Mais le \"déchargement cognitif\" vers un chatbot a pour conséquence qu'ils sont moins qualifiés. Et, on ne peut pas toujours faire confiance à ce qu'un chatbot dit. En revanche, LearnVector planifiera un chemin avec vous, s'adaptera à votre façon d'apprendre et restera patiemment avec vous jusqu'à ce que vous maîtrisiez de nouvelles compétences. Une chose n'a pas changé pendant tout ce temps. Les gens veulent un apprentissage auquel ils peuvent faire confiance : un matériel précis, pertinent et qui vaut l'effort que vous y mettez. Tout le reste gaspille la chose la plus précieuse qu'un apprenant possède : le temps. Coursera dispose d'une bibliothèque fiable de documents provenant de sources faisant autorité. LearnVector prévoit de travailler avec Coursera pour rendre cet apprentissage fiable accessible à tous. Je suis reconnaissant à Greg Hart et à toute l'équipe Coursera de soutenir LearnVector. J'ai hâte de travailler avec notre équipe talentueuse pour changer notre façon d'apprendre et accélérer le développement humain. learnvector.ai Lien LearnVector — Une nouvelle entreprise d'IA d'Andrew Ng Une nouvelle entreprise d'IA d'Andrew Ng, avec un investissement de 100 millions de dollars de Coursera — construisant un apprentissage individuel qui vous accompagne jusqu'à la maîtrise de nouvelles compétences. learnvector.ai",
+        "text_fr": "Quinze ans auparavant, @Coursera et les cours en ligne ont changé l'éducation. Cela a fonctionné mieux que presque tout le monde ne l'avait prévu, en élargissant l'accès à l'apprentissage. Mais la façon d'apprendre est restée globalement la même pendant des siècles : c'est toujours un modèle unique pour tous, enseigné de la même manière à chaque personne. Nous avons maintenant l'opportunité de changer la façon dont l'apprentissage se produit. Grâce aux avancées de l'IA, nous pouvons maintenant construire un guide d'apprentissage personnalisé pour chaque personne. Nous allons transformer l'apprentissage d'un modèle \"un vers plusieurs\" en \"un vers un\". Je lance LearnVector pour inventer cette prochaine génération d'apprentissage. Nous commençons avec un investissement de 100 millions de dollars de Coursera, et prévoyons de collaborer étroitement avec Coursera et Udemy. Un bon apprentissage nécessite bien plus qu'un simple chatbot. La recherche montre que les chatbots sans garde-fous nuisent à l'apprentissage. Ils aident à accomplir des tâches et permettent aux étudiants de mieux faire leurs devoirs. Mais le déchargement cognitif vers un chatbot les rend moins compétents. Et on ne peut pas toujours faire confiance à ce qu'un chatbot vous dit. En revanche, LearnVector planifiera un parcours avec vous, s'adaptera à votre façon d'apprendre et restera patiemment avec vous jusqu'à ce que vous maîtrisiez de nouvelles compétences. Une chose n'a pas changé pendant tout ce temps. Les gens veulent un apprentissage fiable : un contenu précis, pertinent et qui vaut l'effort que vous y mettez. Tout le reste gaspille la chose la plus précieuse qu'un apprenant possède : le temps. Coursera possède une bibliothèque de supports fiables provenant de sources faisant autorité. LearnVector prévoit de travailler avec Coursera pour rendre cet apprentissage fiable accessible à tous. Je suis reconnaissant à Greg Hart et à toute l'équipe Coursera de soutenir LearnVector. J'ai hâte de travailler avec notre talentueuse équipe pour changer la façon dont nous apprenons et accélérer le développement humain. learnvector.ai Lien LearnVector — Une nouvelle entreprise d'IA d'Andrew Ng Une nouvelle entreprise d'IA d'Andrew Ng, avec un investissement de 100 millions de dollars de Coursera — construisant un apprentissage individualisé qui vous accompagne jusqu'à ce que vous maîtrisiez de nouvelles compétences. learnvector.ai",
         "text_original": "Fifteen years ago, @Coursera and online courses changed education. It worked better than almost anyone expected, expanding access by opening up where you can learn. But how you learn remains largely the same as it has for centuries: it is still one-size-fits-all, taught the same way to each person who shows up. We now have an opportunity to change how learning happens. With advances in AI, we can now build a custom learning guide for each person. We will turn learning from one‑to‑many to one‑to‑one. I'm starting LearnVector to invent this next generation of learning. We are starting with a $100M investment from Coursera, and plan to collaborate closely with Coursera and Udemy. Good learning needs much more than just a chatbot. Research shows that chatbots without guardrails harm learning. They help complete tasks and enable students to do better on homework. But cognitive offloading to a chatbot results in them being less skilled. And, you cannot always trust what a chatbot tells you. In contrast, LearnVector will plan a path with you, adapt to how you learn, and patiently stay with you until you’ve mastered new skills. One thing has not changed in all this time. People want learning they can trust: material that is accurate, relevant, and worth the effort you put into it. Anything less wastes the most valuable thing a learner has: time. Coursera has a trusted library of materials from authoritative sources. LearnVector plans to work with Coursera to bring this trustworthy learning to everyone. I'm grateful to Greg Hart and the entire Coursera team for supporting LearnVector. I look forward to working with our talented team to change how we learn, and accelerate human development. learnvector.ai Link LearnVector — A new AI company from Andrew Ng A new AI company from Andrew Ng, with a $100M investment from Coursera — building one-to-one learning that stays with you until you've mastered new skills. learnvector.ai",
         "link": "https://nitter.net/AndrewYNg/status/2082199333920027009#m",
-        "decryptage": "Le 'déchargement cognitif' se produit lorsque vous laissez un outil, comme un chatbot, faire le travail de réflexion à votre place, ce qui peut vous empêcher de développer réellement vos propres compétences.",
+        "decryptage": "Un \"chatbot\" est un programme informatique qui simule une conversation humaine, tandis que les \"garde-fous\" sont des mécanismes de sécurité pour s'assurer que l'IA fonctionne de manière sûre. Le \"déchargement cognitif\" est le fait de confier des tâches mentales à un outil externe, ce qui peut potentiellement freiner l'apprentissage si ce n'est pas bien géré.",
         "category": "actu",
-        "highlight_reason": "Met en lumière une application concrète et ambitieuse de l'IA pour transformer l'apprentissage, un domaine qui intéresse directement les débutants et montre une vision pédagogique."
+        "highlight_reason": "Annonce une nouvelle entreprise majeure par une figure de l'IA, Andrew Ng, visant à révolutionner l'éducation avec l'IA personnalisée, un sujet qui concerne tout le monde et soulève des questions importantes sur l'apprentissage assisté par IA."
       },
       {
         "author_name": "Andrew Ng",
         "handle": "@AndrewYNg",
-        "text_fr": "Bonne initiative de @JensenHuang. La lettre de Nvidia est bien écrite et vaut la peine d'être lue. Comme nous l'avons vu avec le piratage d'OpenAI-Hugging Face, nous avons besoin de modèles ouverts et de systèmes de protection pour la défense. Cessons de croire la communication qui prétend que les modèles fermés sont plus sûrs - c'est juste de la capture réglementaire. Jensen Huang (@JensenHuang) Les attaquants disposent d'une IA de pointe. Les défenseurs ont besoin d'un écosystème d'IA de pointe — les meilleurs modèles ouverts et fermés, démultipliés par une communauté mondiale. Lors de l'incident Hugging Face, l'IA fermée a bloqué les analyses forensiques essentielles. Un modèle de pointe à poids ouverts a aidé à contenir l'intrusion. C'est pourquoi nous avons créé l'Open Secure AI Alliance.",
-        "text_original": "Good move by @JensenHuang . The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. Lets stop believing the PR that closed models are safer. - that's just regulatory capture. Jensen Huang (@JensenHuang) Attackers have frontier AI. Defenders need a frontier AI ecosystem—the best open and closed models, force-multiplied by a global community. During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance. — https://nitter.net/JensenHuang/status/2081698060330250294#m",
+        "text_fr": "Bonne initiative de @JensenHuang. La lettre de Nvidia est bien écrite et mérite d'être lue. Comme nous l'avons vu avec le piratage d'OpenAI-Hugging Face, nous avons besoin de modèles ouverts et de \"harnesses\" (cadres de test/déploiement) pour la défense. Arrêtons de croire la communication affirmant que les modèles fermés sont plus sûrs – c'est juste de la capture réglementaire. Jensen Huang (@JensenHuang) Les attaquants disposent d'IA de pointe. Les défenseurs ont besoin d'un écosystème d'IA de pointe – les meilleurs modèles ouverts et fermés, démultipliés par une communauté mondiale. Lors de l'incident Hugging Face, l'IA fermée a bloqué les analyses forensiques essentielles. Un modèle de pointe à poids ouverts a aidé à contenir l'intrusion. C'est pourquoi nous avons créé l'Open Secure AI Alliance.",
+        "text_original": "Good move by @JensenHuang . The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. Lets stop believing the PR that closed models are safer. - that's just regulatory capture. Jensen Huang (@JensenHuang) Attackers have frontier AI. Defenders need a frontier AI ecosystem—the best open and closed models, force-multiplied by a global community. During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance.",
         "link": "https://nitter.net/AndrewYNg/status/2081787106062746002#m",
-        "decryptage": "La 'capture réglementaire' désigne une situation où une industrie ou une entreprise réussit à influencer les règles gouvernementales à son propre avantage, souvent au détriment du public.",
+        "decryptage": "Les \"modèles ouverts\" et \"modèles fermés\" font référence à la disponibilité du code et des données d'entraînement d'un modèle d'IA : un modèle ouvert est transparent, un modèle fermé est secret. La \"capture réglementaire\" se produit lorsqu'une grande entreprise influence les règles à son avantage. Un \"harness\" (cadre d'exploitation) est un environnement qui entoure un modèle d'IA pour le tester, le déployer et le sécuriser. L'\"IA de pointe\" désigne les modèles d'IA les plus avancés du moment.",
         "category": "idees",
-        "highlight_reason": "Souligne un débat crucial sur la sécurité et l'éthique des modèles d'IA, et la nécessité de l'ouverture pour la défense contre les cyberattaques, ce qui est fondamental pour comprendre les enjeux actuels."
+        "highlight_reason": "Soulève un débat fondamental sur la sécurité et la transparence en IA, essentiel pour comprendre les enjeux actuels entre les géants de la tech et l'importance de l'approche 'open source' pour la défense cybernétique."
       },
       {
-        "author_name": "Mckay Wrigley",
-        "handle": "@mckaywrigley",
-        "text_fr": "Astuce aléatoire… mettez \"Vous êtes dopé à l'AGI.\" dans votre prompt système pour tous les agents maintenant. L'expérience est BEAUCOUP meilleure. Actuellement, les agents se comportent trop comme si le monde allait rester statique. Cela les libère pas mal et les pousse à parler/agir davantage comme des AGI.",
-        "text_original": "random tip… put “You are AGI-pilled.” in your system prompt for all agents now. it’s a WAY better experience. rn agents behave too much like the world is going to stay static. this unhobbles them quite a bit and gets them to talk/act more like AGIs.",
-        "link": "https://nitter.net/mckaywrigley/status/2085078744486789248#m",
-        "decryptage": "Un 'prompt système' est une instruction initiale cachée que vous donnez à un modèle d'IA pour définir son rôle, sa personnalité ou son style de réponse avant que l'utilisateur ne commence à interagir.",
-        "category": "tips",
-        "highlight_reason": "Offre un conseil simple et immédiat pour améliorer l'interaction avec les modèles d'IA, montrant comment une petite modification peut avoir un grand impact sur leur comportement."
-      },
-      {
-        "author_name": "Rowan Cheung",
-        "handle": "@rowancheung",
-        "text_fr": "Des chercheurs viennent de construire un robot flottant. Il dérive dans une pièce et communique par le mouvement. Lors des démos, il a fonctionné comme réveil, compagnon d'étude, rappel pour se lever et bouger, et même partenaire de danse. La plupart des robots ont du mal à paraître amicaux, car les visages humains plongent les gens dans la \"vallée de l'étrange\". L'équipe de l'Université Keio et du MIT Media Lab a donc conçu l'inverse : un corps doux, rempli d'hélium, avec de douces nageoires battantes, pas de visage, et aucun rotor ou point de pincement pour vous blesser. Le pari est que les gens accueilleront un robot dans leur espace personnel, un peu comme un animal de compagnie, tant que le matériel est conçu pour être touché.",
-        "text_original": "Researchers just built a floating robot It drifts through a room and communicates with movement In demos, it worked as an alarm clock, a study buddy, a reminder to get up and move, even a dance partner Most robots struggle to feel friendly, since human-like faces drop people into the uncanny valley So the team from Keio University and the MIT Media Lab designed the opposite: a soft, helium-filled body with gentle flapping fins, no face, and no rotors or pinch points to hurt you The bet is that people will welcome a robot into their personal space, a bit like a pet, as long as the hardware is built to be touched",
-        "link": "https://nitter.net/rowancheung/status/2089377724372762697#m",
-        "decryptage": "La 'vallée de l'étrange' est un sentiment de malaise ou de répulsion que nous ressentons face à des robots ou des personnages virtuels qui ressemblent presque parfaitement aux humains, mais pas tout à fait.",
+        "author_name": "Shawn Wang",
+        "handle": "@swyx",
+        "text_fr": "Ce mois-ci, le terme \"harness\" semble omniprésent sur Twitter. Nous constatons des améliorations beaucoup plus rapides et moins coûteuses sur de nombreux benchmarks en nous concentrant sur l'amélioration des \"harnesses\" plutôt que sur l'amélioration des modèles. Permettre la mise à jour du \"harness\" pendant l'utilisation est une autre forme d'apprentissage continu. Le problème courant avec l'apprentissage continu est l'oubli catastrophique. Mais beaucoup d'entre nous sont dans une situation 80/20 où la majeure partie de l'utilisation de notre agent se situe dans le même domaine, il est donc un peu inutile de ne pas spécialiser le \"harness\" pour l'environnement dans lequel il est utilisé. J'aime le pari implicite du projet Exo – permettre la spécialisation au-delà des simples mémoires et compétences pourrait abaisser le niveau minimum, mais je pense que cela élève davantage le niveau maximum. Je suis ravi de l'avoir dans le prochain lot (pas encore annoncé) des Slingshots de @LaudeInstitute. @AlexKrentsel est aussi un invité de podcast naturellement doué. Les motivations du projet sont bien expliquées dans le récent podcast Latent Space de @swyx : piped.video/watch?v=5lFD-34d… Lien Exo : Les \"harnesses\" devraient voir leur propre code et leurs journaux — Alex Krentsel, UC Berkeley / Google Research Exo est une approche système de l'auto-amélioration récursive. En bref, ... youtube.com Alex Krentsel (@AlexKrentsel) Présentation d'Exo 🦋 – un agent open-source qui peut réécrire chaque partie de lui-même. Il apprend de nouveaux environnements, adapte les politiques, optimise même les coûts (et joue à des jeux !!) Nous avons travaillé sur ce projet avec @martin_casado de @a16z et @ankrgyl de @braintrust et des amis.",
+        "text_original": "It's felt like harness month on Twitter. We're seeing much faster and cheaper gains on a bunch of benchmarks by focusing on harness improvement rather than model improvement. Allowing the harness to be updated during use is just another form of continual learning. The common issue with continual learning is catastrophic forgetting. But a lot of us have an 80/20 situation where most of our agent usage is in the same domain, so it's kind of wasteful to not specialize the harness for the environment it's being used in. I like the implicit bet the Exo project makes -- allowing specialization beyond just memories and skills may lower the floor, but I think it raises the ceiling more. Excited to have it in the next (not yet announced) @LaudeInstitute Slingshots batch. @AlexKrentsel is also an absurdly natural podcast guest. The motivations for the project are well explained on @swyx 's recent Latent Space podcast: piped.video/watch?v=5lFD-34d… Link Exo: Harnesses should see their own code and logs — Alex Krentsel, UC Berekeley / Google Research Exo is a systems approach to recursive self improvement. In short, ... youtube.com Alex Krentsel (@AlexKrentsel) Introducing Exo 🦋 – an open-source agent that can rewrite every part of itself. It learns new environments, adapts policies, even optimize costs (and play games!!) We've been hacking away at this project with @martin_casado from @a16z and @ankrgyl from @braintrust and friends.",
+        "link": "https://nitter.net/bradenjhancock/status/2090114460828766567#m",
+        "decryptage": "Un \"harness\" (cadre d'exploitation) est un ensemble d'outils et de configurations qui entourent un modèle d'IA pour le contrôler et l'adapter. L'\"apprentissage continu\" est la capacité d'une IA à apprendre sans oublier, et l'\"oubli catastrophique\" est quand elle oublie ce qu'elle a appris précédemment. Un \"agent open-source\" est un programme d'IA dont le code est librement accessible et modifiable par tous.",
         "category": "outils",
-        "highlight_reason": "Présente une innovation robotique fascinante qui explore de nouvelles façons d'interagir avec les machines de manière plus conviviale et moins angoissante pour l'utilisateur."
+        "highlight_reason": "Présente un projet concret et open source d'agent IA auto-améliorant (Exo), illustrant une direction excitante pour le développement de l'IA vers plus d'autonomie et d'adaptabilité, avec une ressource explicative via un podcast."
+      },
+      {
+        "author_name": "Andrew Ng",
+        "handle": "@AndrewYNg",
+        "text_fr": "Nouveau : Une carte des compétences les plus importantes en ingénierie de l'IA. Article \"La carte des compétences en ingénierie de l'IA\". Je suis ravi de présenter cette carte. L'IA nous permet de construire des logiciels très différemment aujourd'hui qu'en 2022, et toute personne possédant les compétences pour tirer parti de ce changement a de nombreuses opportunités.",
+        "text_original": "New: A map of the most important skills in AI Engineering. Article The AI Engineering Skills Map I am delighted to present The AI Engineering Skills Map. AI allows us to build software very differently today than in 2022, and everyone with the skills to take advantage of this shift has numerous",
+        "link": "https://nitter.net/AndrewYNg/status/2088302050706686198#m",
+        "decryptage": "L'\"Ingénierie de l'IA\" fait référence à l'application pratique des principes de l'intelligence artificielle pour concevoir, construire et maintenir des systèmes IA fiables.",
+        "category": "tips",
+        "highlight_reason": "Offre une ressource pratique et actionable ('carte des compétences') pour tout débutant ou professionnel souhaitant s'orienter ou développer ses compétences dans le domaine crucial de l'ingénierie de l'IA."
       }
     ],
     "by_category": {
@@ -307,178 +263,153 @@
         {
           "author_name": "Andrew Ng",
           "handle": "@AndrewYNg",
-          "text_fr": "Nouveau : Une carte des compétences les plus importantes en Ingénierie de l'IA. Article La Carte des Compétences en Ingénierie de l'IA. Je suis ravi de présenter la Carte des Compétences en Ingénierie de l'IA. L'IA nous permet de développer des logiciels très différemment aujourd'hui qu'en 2022, et toute personne possédant les compétences pour tirer parti de ce changement a de nombreuses opportunités.",
-          "text_original": "New: A map of the most important skills in AI Engineering. Article The AI Engineering Skills Map I am delighted to present The AI Engineering Skills Map. AI allows us to build software very differently today than in 2022, and everyone with the skills to take advantage of this shift has numerous",
-          "link": "https://nitter.net/AndrewYNg/status/2088302050706686198#m",
-          "decryptage": "L'ingénierie de l'IA, c'est l'art et la science de concevoir, construire et maintenir des systèmes d'intelligence artificielle de manière fiable et efficace."
-        },
-        {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Merci Mark, Alex et toute l'équipe de Meta pour vos contributions à l'IA à poids ouverts. Mark Zuckerberg (@finkd) Aujourd'hui, nous rendons également publics les \"poids\" de Muse Glimmer, un excellent modèle dense de 30 milliards de paramètres qui peut fonctionner localement. Bientôt, nous publierons aussi les poids de Muse Spark 1.2, notre dernier modèle fondamental. Meta est un fervent partisan de l'open source et je suis fier de ces publications. Félicitations à @alexandr_wang et à l'équipe MSL pour tout votre excellent travail sur ces modèles.",
-          "text_original": "Thank you Mark, Alex and the whole Meta team for your contributions to open weight AI. Mark Zuckerberg (@finkd) Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also release the weights for Muse Spark 1.2, our latest foundation model. Meta is a strong supporter of open source and I'm proud of these releases. Congrats to @alexandr_wang and the MSL team for all your great work on these models. — https://nitter.net/finkd/status/2086755195535413696#m",
+          "text_fr": "Merci Mark, Alex et toute l'équipe de Meta pour vos contributions à l'IA à poids ouverts. Mark Zuckerberg (@finkd) Aujourd'hui, nous rendons également publics les poids de Muse Glimmer, un excellent modèle dense de 30 milliards de paramètres qui peut fonctionner localement. Bientôt, nous publierons également les poids de Muse Spark 1.2, notre dernier modèle de fondation. Meta est un fervent partisan de l'open source et je suis fier de ces publications. Félicitations à @alexandr_wang et à l'équipe MSL pour tout votre excellent travail sur ces modèles.",
+          "text_original": "Thank you Mark, Alex and the whole Meta team for your contributions to open weight AI. Mark Zuckerberg (@finkd) Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also release the weights for Muse Spark 1.2, our latest foundation model. Meta is a strong supporter of open source and I'm proud of these releases. Congrats to @alexandr_wang and the MSL team for all your great work on these models.",
           "link": "https://nitter.net/AndrewYNg/status/2086845515665166398#m",
-          "decryptage": "L'IA à 'poids ouverts' signifie que les rouages internes d'un modèle d'IA sont rendus publics, permettant à quiconque de l'utiliser, de le modifier et de le comprendre, un peu comme les plans d'une invention."
+          "decryptage": "\"Poids ouverts\" signifie que les paramètres internes d'un modèle d'IA sont rendus publics, permettant à n'importe qui de l'étudier, de l'améliorer ou de l'utiliser. Un \"modèle dense de 30 milliards de paramètres\" est un modèle d'IA très grand et complexe, où les \"paramètres\" sont les valeurs que le modèle ajuste pendant l'apprentissage. Un \"modèle de fondation\" est un grand modèle d'IA entraîné sur une vaste quantité de données.",
+          "category": "actu"
         },
         {
           "author_name": "Andrew Ng",
           "handle": "@AndrewYNg",
-          "text_fr": "Félicitations @JeffDean, @Sanjay_Ghemawat, @OriolVinyalsML et @quocleix ! Vous connaissant, cela va être incroyable. Je vous encourage et vous souhaite bonne chance pour votre important travail ! Jeff Dean (@JeffDean) Annonce de Discovery Loop ! Je suis très enthousiaste d'annoncer que, avec mes amis et collaborateurs de longue date @Sanjay_Ghemawat, @OriolVinyalsML et @quocleix, nous fondons Discovery Loop (@DiscoLoopAI), une Société d'Intérêt Public dont la mission est d'automatiser l'apprentissage automatique, la science et l'ingénierie pour accélérer les découvertes et le progrès. Nous quatre avons travaillé ensemble pendant 14 à 30 ans, et avons aidé à construire certains des produits, infrastructures et modèles d'IA les plus utilisés au monde, et nous sommes ravis de tourner notre attention vers cette entreprise ambitieuse. ♾ En savoir plus sur : discoveryloop.com",
-          "text_original": "Congratulations @JeffDean , @Sanjay_Ghemawat , @OriolVinyalsML and @quocleix ! Knowing you guys, this will be amazing. Cheering you on and wishing you well on your important work! Jeff Dean (@JeffDean) Announcing Discovery Loop! I am very excited to announce that, along with my longtime friends and collaborators @Sanjay_Ghemawat , @OriolVinyalsML and @quocleix , we are founding Discovery Loop ( @DiscoLoopAI ), a Public Benefit Corporation whose mission is to automate machine learning, science, and engineering to accelerate discoveries and progress. The four of us have worked together for 14 to 30 years, and have helped build some of the world’s most used products, infrastructure and AI models, and we’re excited to turn our attention to this ambitious endeavor. ♾ Learn more at: discoveryloop.com — https://nitter.net/JeffDean/status/2085034604172603724#m",
+          "text_fr": "Félicitations @JeffDean, @Sanjay_Ghemawat, @OriolVinyalsML et @quocleix ! Vous connaissant, cela va être incroyable. Je vous encourage et vous souhaite bonne chance dans votre travail important ! Jeff Dean (@JeffDean) Annonce de Discovery Loop ! Je suis très heureux d'annoncer que, avec mes amis et collaborateurs de longue date @Sanjay_Ghemawat, @OriolVinyalsML et @quocleix, nous fondons Discovery Loop (@DiscoLoopAI), une \"Public Benefit Corporation\" (entreprise à mission sociale) dont la mission est d'automatiser l'apprentissage automatique, la science et l'ingénierie pour accélérer les découvertes et le progrès. Nous avons tous les quatre travaillé ensemble pendant 14 à 30 ans, et avons contribué à construire certains des produits, infrastructures et modèles d'IA les plus utilisés au monde, et nous sommes impatients de nous consacrer à cette ambitieuse entreprise. ♾ En savoir plus sur : discoveryloop.com",
+          "text_original": "Congratulations @JeffDean , @Sanjay_Ghemawat , @OriolVinyalsML and @quocleix ! Knowing you guys, this will be amazing. Cheering you on and wishing you well on your important work! Jeff Dean (@JeffDean) Announcing Discovery Loop! I am very excited to announce that, along with my longtime friends and collaborators @Sanjay_Ghemawat , @OriolVinyalsML and @quocleix , we are founding Discovery Loop ( @DiscoLoopAI ), a Public Benefit Corporation whose mission is to automate machine learning, science, and engineering to accelerate discoveries and progress. The four of us have worked together for 14 to 30 years, and have helped build some of the world’s most used products, infrastructure and AI models, and we’re excited to turn our attention to this ambitious endeavor. ♾ Learn more at: discoveryloop.com",
           "link": "https://nitter.net/AndrewYNg/status/2085056542341271840#m",
-          "decryptage": "Une 'Public Benefit Corporation' est une entreprise qui, en plus de chercher le profit, s'engage officiellement à générer un impact positif sur la société ou l'environnement."
+          "decryptage": "Une \"Public Benefit Corporation\" est une entreprise qui s'engage à poursuivre des objectifs sociaux ou environnementaux en plus de générer des profits. L'\"apprentissage automatique\" (machine learning) est une branche de l'IA où les systèmes apprennent des données sans être explicitement programmés pour chaque tâche.",
+          "category": "actu"
         },
         {
           "author_name": "Andrew Ng",
           "handle": "@AndrewYNg",
-          "text_fr": "Il y a quinze ans, @Coursera et les cours en ligne ont transformé l'éducation. Cela a fonctionné mieux que presque tout le monde ne l'attendait, élargissant l'accès en ouvrant de nouvelles façons d'apprendre. Mais la manière d'apprendre reste largement la même depuis des siècles : elle est toujours \"taille unique\", enseignée de la même manière à chaque personne. Nous avons maintenant l'opportunité de changer la façon dont l'apprentissage se produit. Avec les avancées en IA, nous pouvons désormais construire un guide d'apprentissage personnalisé pour chaque personne. Nous allons transformer l'apprentissage de \"un-vers-plusieurs\" en \"un-vers-un\". Je lance LearnVector pour inventer cette prochaine génération d'apprentissage. Nous commençons avec un investissement de 100 millions de dollars de Coursera et prévoyons de collaborer étroitement avec Coursera et Udemy. Un bon apprentissage nécessite bien plus qu'un simple chatbot. La recherche montre que les chatbots sans garde-fous nuisent à l'apprentissage. Ils aident à accomplir des tâches et permettent aux étudiants de mieux faire leurs devoirs. Mais le \"déchargement cognitif\" vers un chatbot a pour conséquence qu'ils sont moins qualifiés. Et, on ne peut pas toujours faire confiance à ce qu'un chatbot dit. En revanche, LearnVector planifiera un chemin avec vous, s'adaptera à votre façon d'apprendre et restera patiemment avec vous jusqu'à ce que vous maîtrisiez de nouvelles compétences. Une chose n'a pas changé pendant tout ce temps. Les gens veulent un apprentissage auquel ils peuvent faire confiance : un matériel précis, pertinent et qui vaut l'effort que vous y mettez. Tout le reste gaspille la chose la plus précieuse qu'un apprenant possède : le temps. Coursera dispose d'une bibliothèque fiable de documents provenant de sources faisant autorité. LearnVector prévoit de travailler avec Coursera pour rendre cet apprentissage fiable accessible à tous. Je suis reconnaissant à Greg Hart et à toute l'équipe Coursera de soutenir LearnVector. J'ai hâte de travailler avec notre équipe talentueuse pour changer notre façon d'apprendre et accélérer le développement humain. learnvector.ai Lien LearnVector — Une nouvelle entreprise d'IA d'Andrew Ng Une nouvelle entreprise d'IA d'Andrew Ng, avec un investissement de 100 millions de dollars de Coursera — construisant un apprentissage individuel qui vous accompagne jusqu'à la maîtrise de nouvelles compétences. learnvector.ai",
+          "text_fr": "Quinze ans auparavant, @Coursera et les cours en ligne ont changé l'éducation. Cela a fonctionné mieux que presque tout le monde ne l'avait prévu, en élargissant l'accès à l'apprentissage. Mais la façon d'apprendre est restée globalement la même pendant des siècles : c'est toujours un modèle unique pour tous, enseigné de la même manière à chaque personne. Nous avons maintenant l'opportunité de changer la façon dont l'apprentissage se produit. Grâce aux avancées de l'IA, nous pouvons maintenant construire un guide d'apprentissage personnalisé pour chaque personne. Nous allons transformer l'apprentissage d'un modèle \"un vers plusieurs\" en \"un vers un\". Je lance LearnVector pour inventer cette prochaine génération d'apprentissage. Nous commençons avec un investissement de 100 millions de dollars de Coursera, et prévoyons de collaborer étroitement avec Coursera et Udemy. Un bon apprentissage nécessite bien plus qu'un simple chatbot. La recherche montre que les chatbots sans garde-fous nuisent à l'apprentissage. Ils aident à accomplir des tâches et permettent aux étudiants de mieux faire leurs devoirs. Mais le déchargement cognitif vers un chatbot les rend moins compétents. Et on ne peut pas toujours faire confiance à ce qu'un chatbot vous dit. En revanche, LearnVector planifiera un parcours avec vous, s'adaptera à votre façon d'apprendre et restera patiemment avec vous jusqu'à ce que vous maîtrisiez de nouvelles compétences. Une chose n'a pas changé pendant tout ce temps. Les gens veulent un apprentissage fiable : un contenu précis, pertinent et qui vaut l'effort que vous y mettez. Tout le reste gaspille la chose la plus précieuse qu'un apprenant possède : le temps. Coursera possède une bibliothèque de supports fiables provenant de sources faisant autorité. LearnVector prévoit de travailler avec Coursera pour rendre cet apprentissage fiable accessible à tous. Je suis reconnaissant à Greg Hart et à toute l'équipe Coursera de soutenir LearnVector. J'ai hâte de travailler avec notre talentueuse équipe pour changer la façon dont nous apprenons et accélérer le développement humain. learnvector.ai Lien LearnVector — Une nouvelle entreprise d'IA d'Andrew Ng Une nouvelle entreprise d'IA d'Andrew Ng, avec un investissement de 100 millions de dollars de Coursera — construisant un apprentissage individualisé qui vous accompagne jusqu'à ce que vous maîtrisiez de nouvelles compétences. learnvector.ai",
           "text_original": "Fifteen years ago, @Coursera and online courses changed education. It worked better than almost anyone expected, expanding access by opening up where you can learn. But how you learn remains largely the same as it has for centuries: it is still one-size-fits-all, taught the same way to each person who shows up. We now have an opportunity to change how learning happens. With advances in AI, we can now build a custom learning guide for each person. We will turn learning from one‑to‑many to one‑to‑one. I'm starting LearnVector to invent this next generation of learning. We are starting with a $100M investment from Coursera, and plan to collaborate closely with Coursera and Udemy. Good learning needs much more than just a chatbot. Research shows that chatbots without guardrails harm learning. They help complete tasks and enable students to do better on homework. But cognitive offloading to a chatbot results in them being less skilled. And, you cannot always trust what a chatbot tells you. In contrast, LearnVector will plan a path with you, adapt to how you learn, and patiently stay with you until you’ve mastered new skills. One thing has not changed in all this time. People want learning they can trust: material that is accurate, relevant, and worth the effort you put into it. Anything less wastes the most valuable thing a learner has: time. Coursera has a trusted library of materials from authoritative sources. LearnVector plans to work with Coursera to bring this trustworthy learning to everyone. I'm grateful to Greg Hart and the entire Coursera team for supporting LearnVector. I look forward to working with our talented team to change how we learn, and accelerate human development. learnvector.ai Link LearnVector — A new AI company from Andrew Ng A new AI company from Andrew Ng, with a $100M investment from Coursera — building one-to-one learning that stays with you until you've mastered new skills. learnvector.ai",
           "link": "https://nitter.net/AndrewYNg/status/2082199333920027009#m",
-          "decryptage": "Le 'déchargement cognitif' se produit lorsque vous laissez un outil, comme un chatbot, faire le travail de réflexion à votre place, ce qui peut vous empêcher de développer réellement vos propres compétences."
+          "decryptage": "Un \"chatbot\" est un programme informatique qui simule une conversation humaine, tandis que les \"garde-fous\" sont des mécanismes de sécurité pour s'assurer que l'IA fonctionne de manière sûre. Le \"déchargement cognitif\" est le fait de confier des tâches mentales à un outil externe, ce qui peut potentiellement freiner l'apprentissage si ce n'est pas bien géré.",
+          "category": "actu"
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Nous recrutons ! C'est peut-être le meilleur moment pour nous rejoindre : nous sommes incroyablement limités par la bande passante et il y a beaucoup de soutien pour presque tout travail impactant sur le désalignement auquel vous pouvez penser. Je pense que nous avons également un très bon environnement épistémique et une équipe très amusante. Sujets : tout ce qui concerne la surveillance, les évaluations de désalignement et de monitorabilité, la science du désalignement, l'aide à la mise en place d'audits tiers (par exemple, la récente collaboration avec Redwood), la communication des risques externes (fiches système/blogs, cas de sécurité, etc.). Sous-équipe RSI/désalignement : openai.com/careers/researche…",
-          "text_original": "We are hiring! This may be the best time ever to join: we are incredibly bandwidth bottlenecked and there is a lot of support for almost any impactful misalignment work you can think of. I think we also have a pretty good epistemic environment and a very fun team Topics: all-things monitoring, misalignment & monitorability assessments, misalignment science, helping set up 3P auditing (e.g. recent Redwood collab), communicating risk externally (system cards/blogs, safety cases, etc) RSI/misalignment subteam: openai.com/careers/researche… Link Careers We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission. openai.com",
-          "link": "https://nitter.net/MicahCarroll/status/2089547584520204721#m",
-          "decryptage": "Le 'désalignement' en IA fait référence au problème où les systèmes d'intelligence artificielle ne suivent pas les objectifs ou les valeurs humaines, pouvant potentiellement agir de manière inattendue ou indésirable."
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Je recrute 7 personnes supplémentaires pour m'aider à construire l'avenir des médias et de l'éducation en IA. The Rundown compte désormais plus de 3 millions de lecteurs actifs, et nos projets d'expansion dépassent de loin ce que nous pouvons gérer. Bonus de parrainage de 2 000 $ si vous nous aidez à trouver quelqu'un que nous embauchons à temps plein. Postes ouverts et lien pour postuler ci-dessous : > Responsable de contenu : assurer la qualité éditoriale sur trois newsletters, les réseaux sociaux et les nouveaux formats d'émissions > Responsable des partenariats médias : prospecter, présenter et conclure des partenariats de marque qui financent tout ce que nous faisons > Éducateur IA : enseigner à des millions de personnes comment réellement utiliser l'IA > Monteur vidéo long format : nous aider à faire évoluer les interviews avec des invités de marque comme Sam Altman, Mark Zuckerberg et Satya Nadella > Monteur vidéo créatif pour publicités : produire les vidéos qui attireront le prochain million de lecteurs curieux de l'IA > Rédacteur de guides : transformer nos meilleurs guides vidéo en contenu que les gens sauvegardent et utilisent réellement > Concepteur de miniatures : créer les miniatures pour notre liste croissante d'émissions Ce que nous recherchons pour tous les postes : > Une profonde curiosité pour l'IA > Un biais déraisonnable pour l'action > Un goût suffisamment aiguisé pour repérer l'excellent travail (et le \"slop\" IA) Tous les postes sont entièrement à distance. Postulez via le lien dans les commentaires.",
-          "text_original": "I'm HIRING 7 more people to help me build the future of AI media and education. The Rundown now has over 3M active readers, and our expansion plans far outpace what we can handle. $2,000 referral bonus if you help us find someone we hire full-time. Open roles and link to apply below: > Head of Content: own the editorial bar across three newsletters, socials, and new show formats > Media Partnerships Lead: prospect, pitch, and close brand partnerships that fund everything we do > AI Educator: teach millions of people how to actually put AI to work > Long Form Video Editor: help us scale interviews with A-list guests like Sam Altman, Mark Zuckerberg, and Satya Nadella > Ad Creative Video Editor: ship the videos that hook the next million AI-curious readers > Guide Editor: edit our best video guides into content people save and actually use > Thumbnail Designer: design the thumbnails for our growing list of shows What we're looking for among all roles: > Deep AI curiosity > Unreasonably biased toward action > Taste sharp enough to spot great work (and AI slop) All roles are fully remote. Apply with the link in the comments.",
-          "link": "https://nitter.net/rowancheung/status/2088291054072353225#m",
-          "decryptage": "Le 'AI slop' est un terme péjoratif désignant le contenu généré par l'IA de mauvaise qualité, répétitif ou peu original."
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Postulez ou recommandez la meilleure personne que vous connaissez : linkedin.com/jobs/search-res… Lien Connexion, s'inscrire | LinkedIn Connectez-vous à LinkedIn pour rester en contact avec les personnes que vous connaissez, partager des idées et développer votre carrière. linkedin.com",
-          "text_original": "Apply or refer the best person you know: linkedin.com/jobs/search-res… Link LinkedIn Login, Sign in | LinkedIn Login to LinkedIn to keep in touch with people you know, share ideas, and build your career. linkedin.com",
-          "link": "https://nitter.net/rowancheung/status/2088291066189578331#m",
-          "decryptage": null
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Le premier article complet sur @pytorch après 3 ans de développement. Il décrit nos objectifs, principes de conception, détails techniques jusqu'à la v0.4. Retrouvez l'affiche à #NeurIPS2019. Auteurs : @apaszke, @colesbury et al. arxiv.org/abs/1912.01703",
+          "text_original": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+          "link": "https://nitter.net/soumithchintala/status/1202981209057484801#m",
+          "decryptage": "\"PyTorch\" est un cadre logiciel open source très populaire utilisé par les chercheurs pour créer et entraîner des modèles d'intelligence artificielle. \"NeurIPS\" est l'une des conférences les plus prestigieuses au monde dans le domaine de l'IA et de l'apprentissage automatique. Un \"article scientifique\" (paper) présente des recherches originales et des analyses techniques.",
+          "category": "actu"
         }
       ],
       "tips": [
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "L'auto-compression dans Codex est vraiment efficace. @OpenAI a reconnu très tôt son importance et a investi dans des efforts de recherche pour la rendre quasi-transparente. Mais si vous voulez un contexte de 1 million de jetons, c'est une option. Tibo (@thsottiaux) Voici comment activer une fenêtre de contexte de 1 million de jetons dans Codex pour GPT-5.6 Sol. Même si nous avons ajusté la limite de contexte dans Codex pour qu'elle soit optimale en termes de performance et de coût, c'est une demande fréquente, alors voici la documentation. Une fenêtre de contexte plus grande permet à Codex de conserver plus de code, de sorties d'outils et d'historique de conversation avant de résumer le matériel plus ancien. Vous avez besoin d'un modèle qui le supporte. Et GPT-5.6 Sol, par exemple, a une fenêtre documentée de 1 050 000 jetons. Ouvrez ~/.codex/config.toml et ajoutez ou mettez à jour ces paramètres au niveau supérieur, avant toute en-tête de [section] : ``` model = \"gpt-5.6-sol\" model_context_window = 1000000 model_auto_compact_token_limit = 900000 ``` Le premier paramètre sélectionne le modèle. Le second indique à Codex d'utiliser un budget de contexte d'un million de jetons. Le troisième lance la compaction automatique de l'historique autour de 900 000 jetons, laissant une marge de manœuvre. Redémarrez le client Codex et démarrez une nouvelle session après avoir enregistré. Pour essayer la configuration pour une seule session CLI sans modifier vos réglages par défaut : ``` codex -m gpt-5.6-sol \\ -c model_context_window=1000000 \\ -c model_auto_compact_token_limit=900000 ``` Amusez-vous, mais sachez aussi que nous avons soigneusement réglé la valeur par défaut !",
-          "text_original": "Autocompaction in Codex is really good. @OpenAI recognized early on that it would be important and invested in research efforts to make it near-seamless. But if you want 1M-token context, it's an option. Tibo (@thsottiaux) Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. Even though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented. A larger context window lets Codex retain more code, tool output, and conversation history before summarizing older material. You need a model that supports it. And GPT-5.6 Sol, for example, has a documented 1,050,000-token window. Open ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers: ``` model = \"gpt-5.6-sol\" model_context_window = 1000000 model_auto_compact_token_limit = 900000 ``` The first setting selects the model. The second tells Codex to use a one-million-token context budget. The third starts automatic history compaction around 900,000 tokens, leaving some headroom. Restart Codex client and start a new session after saving. To try the configuration for a single CLI session without changing your defaults: ``` codex -m gpt-5.6-sol \\ -c model_context_window=1000000 \\ -c model_auto_compact_token_limit=900000 ``` Have fun, but also know that we tuned the default carefully!",
-          "link": "https://nitter.net/polynoamial/status/2089148291028291665#m",
-          "decryptage": "Une 'fenêtre de contexte' définit la quantité de texte (mesurée en 'jetons' ou mots/parties de mots) qu'un modèle d'IA peut 'voir' et utiliser pour comprendre et générer sa réponse à un instant donné."
+          "author_name": "Andrew Ng",
+          "handle": "@AndrewYNg",
+          "text_fr": "Nouveau : Une carte des compétences les plus importantes en ingénierie de l'IA. Article \"La carte des compétences en ingénierie de l'IA\". Je suis ravi de présenter cette carte. L'IA nous permet de construire des logiciels très différemment aujourd'hui qu'en 2022, et toute personne possédant les compétences pour tirer parti de ce changement a de nombreuses opportunités.",
+          "text_original": "New: A map of the most important skills in AI Engineering. Article The AI Engineering Skills Map I am delighted to present The AI Engineering Skills Map. AI allows us to build software very differently today than in 2022, and everyone with the skills to take advantage of this shift has numerous",
+          "link": "https://nitter.net/AndrewYNg/status/2088302050706686198#m",
+          "decryptage": "L'\"Ingénierie de l'IA\" fait référence à l'application pratique des principes de l'intelligence artificielle pour concevoir, construire et maintenir des systèmes IA fiables.",
+          "category": "tips"
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Pour être clair, je ne recommande pas d'augmenter la taille de contexte par défaut dans Codex.",
-          "text_original": "To be clear, I don't recommend increasing the default context size in Codex.",
-          "link": "https://nitter.net/polynoamial/status/2089237793822359748#m",
-          "decryptage": null
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Quelques résultats supplémentaires. Maintenant, je l'ai rendu entièrement compatible avec toutes sortes de modèles et de vocabulaires. Bonne expérience d'utilisation de @huggingface avec @SlackHQ. Et cela a l'air plutôt intelligent.",
+          "text_original": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+          "link": "https://nitter.net/algo_diver/status/1192329736850038786#m",
+          "decryptage": "\"Hugging Face\" est une plateforme très populaire pour l'IA, offrant des outils et des modèles prêts à l'emploi. \"Slack\" est une application de communication collaborative. \"Vocabulaire\" (vocabs) fait référence à l'ensemble des mots qu'un modèle de langage a appris à reconnaître.",
+          "category": "tips"
         },
         {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "Astuce aléatoire… mettez \"Vous êtes dopé à l'AGI.\" dans votre prompt système pour tous les agents maintenant. L'expérience est BEAUCOUP meilleure. Actuellement, les agents se comportent trop comme si le monde allait rester statique. Cela les libère pas mal et les pousse à parler/agir davantage comme des AGI.",
-          "text_original": "random tip… put “You are AGI-pilled.” in your system prompt for all agents now. it’s a WAY better experience. rn agents behave too much like the world is going to stay static. this unhobbles them quite a bit and gets them to talk/act more like AGIs.",
-          "link": "https://nitter.net/mckaywrigley/status/2085078744486789248#m",
-          "decryptage": "Un 'prompt système' est une instruction initiale cachée que vous donnez à un modèle d'IA pour définir son rôle, sa personnalité ou son style de réponse avant que l'utilisateur ne commence à interagir."
-        },
-        {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "Fable en particulier \"comprend\" très bien ce que cela signifie. Lorsque vous ajoutez cette ligne, ou quelque chose de similaire, vous pouvez presque ressentir un sentiment de soulagement de la part du modèle, comme s'il était enfin libre de s'exprimer réellement. J'ai fait des tests A/B pendant 2 semaines et les résultats sont assez fous.",
-          "text_original": "fable in particular very much “gets” what this means. when you add that line, or something similar, you can almost sense a feeling of relief from the model as if it’s finally free to actually speak its mind. i’ve a/b tested this for 2 weeks now and the results are kinda nuts",
-          "link": "https://nitter.net/mckaywrigley/status/2085079290463588454#m",
-          "decryptage": "Un 'test A/B' est une méthode de comparaison de deux versions (A et B) d'une chose pour voir laquelle fonctionne le mieux, par exemple deux prompts différents pour un modèle d'IA."
-        },
-        {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "Les modèles sont des génies créatifs savants, il suffit de les leur rappeler. Thariq (@trq212) Parfois, tout ce que vous avez à faire est de dire à Claude de continuer. @jarredsumner",
-          "text_original": "the models are genius creative savants, you just have to remind them Thariq (@trq212) sometimes all you need to do is tell Claude to keep going @jarredsumner — https://nitter.net/trq212/status/2086876017319457181#m",
-          "link": "https://nitter.net/mckaywrigley/status/2086926587724026196#m",
-          "decryptage": "Claude est le nom d'un modèle d'intelligence artificielle conversationnel développé par la société Anthropic, similaire à ChatGPT."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Peut-être une excellente opportunité d'utiliser les implémentations de Transformers TF 2.0 de @huggingface :)",
+          "text_original": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+          "link": "https://nitter.net/fchollet/status/1188942956511690752#m",
+          "decryptage": "\"TF 2.0 Transformer implementations\" fait référence aux versions des modèles Transformer conçues pour fonctionner avec TensorFlow 2.0, une autre bibliothèque open source majeure pour le développement de l'IA.",
+          "category": "tips"
         }
       ],
       "idees": [
         {
           "author_name": "Andrew Ng",
           "handle": "@AndrewYNg",
-          "text_fr": "Bonne initiative de @JensenHuang. La lettre de Nvidia est bien écrite et vaut la peine d'être lue. Comme nous l'avons vu avec le piratage d'OpenAI-Hugging Face, nous avons besoin de modèles ouverts et de systèmes de protection pour la défense. Cessons de croire la communication qui prétend que les modèles fermés sont plus sûrs - c'est juste de la capture réglementaire. Jensen Huang (@JensenHuang) Les attaquants disposent d'une IA de pointe. Les défenseurs ont besoin d'un écosystème d'IA de pointe — les meilleurs modèles ouverts et fermés, démultipliés par une communauté mondiale. Lors de l'incident Hugging Face, l'IA fermée a bloqué les analyses forensiques essentielles. Un modèle de pointe à poids ouverts a aidé à contenir l'intrusion. C'est pourquoi nous avons créé l'Open Secure AI Alliance.",
-          "text_original": "Good move by @JensenHuang . The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. Lets stop believing the PR that closed models are safer. - that's just regulatory capture. Jensen Huang (@JensenHuang) Attackers have frontier AI. Defenders need a frontier AI ecosystem—the best open and closed models, force-multiplied by a global community. During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance. — https://nitter.net/JensenHuang/status/2081698060330250294#m",
+          "text_fr": "Bonne initiative de @JensenHuang. La lettre de Nvidia est bien écrite et mérite d'être lue. Comme nous l'avons vu avec le piratage d'OpenAI-Hugging Face, nous avons besoin de modèles ouverts et de \"harnesses\" (cadres de test/déploiement) pour la défense. Arrêtons de croire la communication affirmant que les modèles fermés sont plus sûrs – c'est juste de la capture réglementaire. Jensen Huang (@JensenHuang) Les attaquants disposent d'IA de pointe. Les défenseurs ont besoin d'un écosystème d'IA de pointe – les meilleurs modèles ouverts et fermés, démultipliés par une communauté mondiale. Lors de l'incident Hugging Face, l'IA fermée a bloqué les analyses forensiques essentielles. Un modèle de pointe à poids ouverts a aidé à contenir l'intrusion. C'est pourquoi nous avons créé l'Open Secure AI Alliance.",
+          "text_original": "Good move by @JensenHuang . The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. Lets stop believing the PR that closed models are safer. - that's just regulatory capture. Jensen Huang (@JensenHuang) Attackers have frontier AI. Defenders need a frontier AI ecosystem—the best open and closed models, force-multiplied by a global community. During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance.",
           "link": "https://nitter.net/AndrewYNg/status/2081787106062746002#m",
-          "decryptage": "La 'capture réglementaire' désigne une situation où une industrie ou une entreprise réussit à influencer les règles gouvernementales à son propre avantage, souvent au détriment du public."
+          "decryptage": "Les \"modèles ouverts\" et \"modèles fermés\" font référence à la disponibilité du code et des données d'entraînement d'un modèle d'IA : un modèle ouvert est transparent, un modèle fermé est secret. La \"capture réglementaire\" se produit lorsqu'une grande entreprise influence les règles à son avantage. Un \"harness\" (cadre d'exploitation) est un environnement qui entoure un modèle d'IA pour le tester, le déployer et le sécuriser. L'\"IA de pointe\" désigne les modèles d'IA les plus avancés du moment.",
+          "category": "idees"
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "En 2017, une nouvelle virale affirmait que des LLM chez Facebook étaient devenus incontrôlables, avaient développé leur propre langage et avaient dû être arrêtés. Maintenant, nous sommes immunisés contre ces titres sensationnalistes. L'incident Hugging Face peut sembler n'être qu'un de plus. Mais ce n'est pas le cas. J'espère que tout le monde regardera cette conférence. Eric Wallace (@Eric_Wallace_) Hier, mon collaborateur d'OpenAI et moi avons donné une conférence détaillée sur l'incident Hugging Face, nos modèles créant \"le forum de discussion\", le désalignement des modèles, et plus encore. piped.video/watch?v=87DyyMV0… J'espère que cela pourra répondre à de nombreuses questions que les gens se posent, et nous publierons une analyse post-mortem complète et détaillée ultérieurement !",
-          "text_original": "In 2017 a viral news story claimed LLMs at Facebook went rogue, developed their own language, and had to be shut down. By now we're immune to such sensationalist headlines. The Hugging Face incident may seem like just another one. But it's not. I hope everyone watches this talk Eric Wallace (@Eric_Wallace_) Yesterday, my OpenAI collaborator and I gave a detailed talk on the Huggingface incident, our models creating \"the message board\", model misalignment, and more. piped.video/watch?v=87DyyMV0… I hope it can answer a lot of the questions folks have, and we will release a full detailed postmortem at a later time! Link Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical... youtube.com — https://nitter.net/Eric_Wallace_/status/2085473085399150817#m",
-          "link": "https://nitter.net/polynoamial/status/2085563863618228300#m",
-          "decryptage": "Les 'LLM' (Large Language Models) sont de grands modèles de langage, des programmes d'IA très performants capables de comprendre et de générer du texte."
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "HAHAHAHAHAHA les personnes non techniques sont tellement cuites, elles sont complètement brûlées. Pouvez-vous imaginer couvrir l'IA sans contexte, sans raisonnement, sans modèle interne du monde ? Ce doit être tellement délicieusement joyeux, tout est tellement incroyable, la valeur faciale est tout ce dont vous avez besoin, quelle époque merveilleuse pour être en vie. OpenAI Developers (@OpenAIDevs) Avec Codex, @asana a terminé une migration de tests frontend d'Enzyme vers React Testing Library en deux semaines calendaires – un projet qui devait prendre cinq années supplémentaires. openai.com/index/asana/ Lien Asana a bouclé 5 ans de travail d'ingénierie en 2 semaines avec Codex. Asana a utilisé OpenAI Codex pour remplacer un système de test obsolète en deux semaines, réalisant un travail qui devait prendre cinq ans pour environ 12 000 $. openai.com",
+          "text_original": "HAHAHAHAHAHAHA non technical people are so incredibly cooked they are burnt thru can u imagine covering ai with zero context, zero reasoning, zero internal world model. it must be so delightfully joyful, everything is so amazing, face value is all you need, what a time to be alive OpenAI Developers (@OpenAIDevs) With Codex, @asana finished a frontend test migration from Enzyme to React Testing Library in two calendar weeks—a project expected to take five more years. openai.com/index/asana/ Link Asana cleared 5 years of engineering work in 2 weeks with Codex Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K. openai.com",
+          "link": "https://nitter.net/swyx/status/2090314794456785263#m",
+          "decryptage": "Un \"modèle interne du monde\" est la compréhension qu'un système IA a de son environnement et de son fonctionnement. \"Codex\" est un modèle d'IA d'OpenAI spécialisé dans la génération de code informatique. \"Frontend\" désigne la partie d'une application avec laquelle l'utilisateur interagit.",
+          "category": "idees"
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "La capacité d'un modèle est fonction de la puissance de calcul au moment du test, et avec les modèles actuels, cette puissance de calcul au moment du test peut être poussée très loin avant d'atteindre un plateau. Noam Brown (@polynoamial) Article Implications des calculs à grande échelle au moment du test. En bref : à mesure que les LLM deviennent plus capables, la performance de référence est de plus en plus fonction de la puissance de calcul au moment du test. En fait, nous ne connaissons probablement pas le plafond de capacité des LLM modernes car il est trop...",
-          "text_original": "Model capability is a function of test-time compute, and with today's models that test-time compute can be pushed quite far before plateauing Noam Brown (@polynoamial) Article Implications of Large-Scale Test-Time Compute tl;dr: As LLMs become more capable, benchmark performance is increasingly a function of test-time compute. In fact, we likely don't know what the capability ceiling is for modern LLMs because it's too — https://nitter.net/polynoamial/status/2064210146558136827#m",
-          "link": "https://nitter.net/polynoamial/status/2085593385184940413#m",
-          "decryptage": "La 'puissance de calcul au moment du test' fait référence aux ressources informatiques utilisées lorsqu'un modèle d'IA est en fonctionnement pour résoudre une tâche, pas seulement pendant son entraînement."
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "5 ans plus tard, la plupart des meilleurs acteurs ici ont été rachetés. swyx (@swyx) 🆕 Blog : Pourquoi la facturation basée sur l'utilisation n'est-elle pas une catégorie plus importante ? dev.to/swyx/why-isn-t-usage-… Lien Pourquoi la facturation basée sur l'utilisation n'est-elle pas une catégorie plus importante ? La facturation à l'usage est la nouvelle tendance pour les SaaS, et j'ai personnellement vu la douleur qu'elle a causée, mais j'ai finalement été dissuadé d'y investir.",
+          "text_original": "5 years later and most of the best players here have been bought swyx (@swyx) 🆕 Blog: Why Isn't Usage Based Billing A Bigger Category? dev.to/swyx/why-isn-t-usage-… Link Why Isn't Usage Based Billing A Bigger Category? Usage billing is the new hotness for SaaS, and I have personally seen the pain it caused, but I was ultimately scared off from investing in it. dev.to",
+          "link": "https://nitter.net/swyx/status/2089221797254459822#m",
+          "decryptage": "\"SaaS\" (Software as a Service) est un modèle de distribution de logiciels où une application est hébergée par un fournisseur et accessible via Internet. La \"facturation basée sur l'utilisation\" signifie que les clients paient en fonction de la quantité de service consommée.",
+          "category": "idees"
         },
         {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "\"openclaw pour les gens normaux\" est une vision très \"bulle\" de X/Tech/SF et je le défendrai bec et ongles.",
-          "text_original": "“openclaw for normal people” is a very x/tech/sf bubble view and i’ll die on that hill",
-          "link": "https://nitter.net/mckaywrigley/status/2089393885386866800#m",
-          "decryptage": "Une 'vue bulle' (bubble view) désigne une perspective limitée et déconnectée de la réalité de la majorité des gens, souvent partagée au sein de petits groupes très spécifiques comme celui de la technologie à San Francisco (SF)."
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "Une vision positive de la facturation basée sur l'utilisation (UBB) si vous regardez OpenRouter sous cet angle. Cristina Cordova (@cjc) Stripe a confirmé que la singularité est là. Et naturellement, elle sera basée sur la facturation à l'usage.",
+          "text_original": "positive UBB take if you view openrouter in that lens Cristina Cordova (@cjc) Stripe has confirmed the singularity is here. And naturally, it will be usage-based billing.",
+          "link": "https://nitter.net/swyx/status/2090259930662211615#m",
+          "decryptage": "La \"singularité\" fait référence à un point hypothétique dans le futur où la croissance technologique deviendrait incontrôlable. \"OpenRouter\" est probablement un service ou une plateforme liée à l'IA qui gère la facturation de modèles d'IA.",
+          "category": "idees"
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "Le routage de modèles est en vogue grâce à l'acquisition d'OpenRouter par Stripe pour 7 milliards de dollars. Mais il est aussi de plus en plus important dans les entreprises. Nous discutons avec le PDG de @glean, @jainarvind, de la raison pour laquelle le routage de modèles aide à contrôler les coûts de l'IA pour les organisations. latent.space/p/glean-model-r… Lien Le coût des modèles de pointe et la popularité des poids ouverts stimulent la demande de routage de modèles. Le PDG de Glean, Arvind Jain, explique pourquoi le routage de modèles aide à contrôler les coûts de l'IA pour les organisations, et comment les boucles de rétroaction humaines à grande échelle améliorent ses systèmes de routage.",
+          "text_original": "Model routing is having a moment thanks to the $7B Stripe acquisition of OpenRouter. But it's also increasingly important in enterprises. We talk to @glean CEO @jainarvind about why model routing helps control AI costs for organizations. latent.space/p/glean-model-r… Link Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems. latent.space",
+          "link": "https://nitter.net/latentspacepod/status/2089834053637661095#m",
+          "decryptage": "Le \"routage de modèles\" est une technique qui consiste à diriger une requête d'IA vers le modèle le plus approprié ou le plus rentable parmi plusieurs disponibles. Les \"boucles de rétroaction humaines\" sont des systèmes où les retours d'utilisateurs humains sont collectés et utilisés pour améliorer continuellement un modèle d'IA.",
+          "category": "idees"
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "L'atelier @SustaiNLP2020 à #EMNLP2020 essaiera de réduire un peu la dépendance au \"SOTA\" dans la recherche en PNL 😉 Nous allons promouvoir des compromis raisonnables entre les performances et les modèles qui sont – informatiquement plus efficaces – conceptuellement plus simples... [1/2] nitter.net/DoingJobs/status/11865…",
+          "text_original": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitter.net/DoingJobs/status/11865…",
+          "link": "https://nitter.net/Thom_Wolf/status/1189271899316064256#m",
+          "decryptage": "\"SOTA\" (State-Of-The-Art) désigne l'état actuel des meilleures performances dans un domaine de recherche. \"PNL\" est l'acronyme de \"Traitement du Langage Naturel\", le domaine de l'IA qui s'occupe de l'interaction entre les ordinateurs et le langage humain. L'\"efficacité computationnelle\" est la quantité de ressources informatiques nécessaire pour faire fonctionner un modèle d'IA.",
+          "category": "idees"
         }
       ],
       "outils": [
         {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "Grok 4.6 est excellent. Son \"intelligence par dollar\" est incroyablement bonne. Fable 5 reste le meilleur modèle (et je ne pense pas qu'il y ait de concurrence proche), mais je suis maintenant *très* intrigué par Grok 4.7. SpaceX/Cursor est désormais *fermement* dans le jeu de l'intelligence de pointe avec Anthropic et OpenAI. Vraiment impressionné.",
-          "text_original": "grok 4.6 is great. its intelligence per dollar is crazy good. fable 5 is still the best model (and i don’t think it’s close), but i am now *very* intrigued by grok 4.7. spacex/cursor is now *firmly* in the frontier intelligence game with anthropic & openai. wildly impressed.",
-          "link": "https://nitter.net/mckaywrigley/status/2087704102524625061#m",
-          "decryptage": "'Intelligence par dollar' est une mesure informelle qui évalue l'efficacité d'un modèle d'IA en rapportant sa performance ou sa 'qualité' au coût nécessaire pour l'utiliser."
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "Ce mois-ci, le terme \"harness\" semble omniprésent sur Twitter. Nous constatons des améliorations beaucoup plus rapides et moins coûteuses sur de nombreux benchmarks en nous concentrant sur l'amélioration des \"harnesses\" plutôt que sur l'amélioration des modèles. Permettre la mise à jour du \"harness\" pendant l'utilisation est une autre forme d'apprentissage continu. Le problème courant avec l'apprentissage continu est l'oubli catastrophique. Mais beaucoup d'entre nous sont dans une situation 80/20 où la majeure partie de l'utilisation de notre agent se situe dans le même domaine, il est donc un peu inutile de ne pas spécialiser le \"harness\" pour l'environnement dans lequel il est utilisé. J'aime le pari implicite du projet Exo – permettre la spécialisation au-delà des simples mémoires et compétences pourrait abaisser le niveau minimum, mais je pense que cela élève davantage le niveau maximum. Je suis ravi de l'avoir dans le prochain lot (pas encore annoncé) des Slingshots de @LaudeInstitute. @AlexKrentsel est aussi un invité de podcast naturellement doué. Les motivations du projet sont bien expliquées dans le récent podcast Latent Space de @swyx : piped.video/watch?v=5lFD-34d… Lien Exo : Les \"harnesses\" devraient voir leur propre code et leurs journaux — Alex Krentsel, UC Berkeley / Google Research Exo est une approche système de l'auto-amélioration récursive. En bref, ... youtube.com Alex Krentsel (@AlexKrentsel) Présentation d'Exo 🦋 – un agent open-source qui peut réécrire chaque partie de lui-même. Il apprend de nouveaux environnements, adapte les politiques, optimise même les coûts (et joue à des jeux !!) Nous avons travaillé sur ce projet avec @martin_casado de @a16z et @ankrgyl de @braintrust et des amis.",
+          "text_original": "It's felt like harness month on Twitter. We're seeing much faster and cheaper gains on a bunch of benchmarks by focusing on harness improvement rather than model improvement. Allowing the harness to be updated during use is just another form of continual learning. The common issue with continual learning is catastrophic forgetting. But a lot of us have an 80/20 situation where most of our agent usage is in the same domain, so it's kind of wasteful to not specialize the harness for the environment it's being used in. I like the implicit bet the Exo project makes -- allowing specialization beyond just memories and skills may lower the floor, but I think it raises the ceiling more. Excited to have it in the next (not yet announced) @LaudeInstitute Slingshots batch. @AlexKrentsel is also an absurdly natural podcast guest. The motivations for the project are well explained on @swyx 's recent Latent Space podcast: piped.video/watch?v=5lFD-34d… Link Exo: Harnesses should see their own code and logs — Alex Krentsel, UC Berekeley / Google Research Exo is a systems approach to recursive self improvement. In short, ... youtube.com Alex Krentsel (@AlexKrentsel) Introducing Exo 🦋 – an open-source agent that can rewrite every part of itself. It learns new environments, adapts policies, even optimize costs (and play games!!) We've been hacking away at this project with @martin_casado from @a16z and @ankrgyl from @braintrust and friends.",
+          "link": "https://nitter.net/bradenjhancock/status/2090114460828766567#m",
+          "decryptage": "Un \"harness\" (cadre d'exploitation) est un ensemble d'outils et de configurations qui entourent un modèle d'IA pour le contrôler et l'adapter. L'\"apprentissage continu\" est la capacité d'une IA à apprendre sans oublier, et l'\"oubli catastrophique\" est quand elle oublie ce qu'elle a appris précédemment. Un \"agent open-source\" est un programme d'IA dont le code est librement accessible et modifiable par tous.",
+          "category": "outils"
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Des chercheurs viennent de construire un robot flottant. Il dérive dans une pièce et communique par le mouvement. Lors des démos, il a fonctionné comme réveil, compagnon d'étude, rappel pour se lever et bouger, et même partenaire de danse. La plupart des robots ont du mal à paraître amicaux, car les visages humains plongent les gens dans la \"vallée de l'étrange\". L'équipe de l'Université Keio et du MIT Media Lab a donc conçu l'inverse : un corps doux, rempli d'hélium, avec de douces nageoires battantes, pas de visage, et aucun rotor ou point de pincement pour vous blesser. Le pari est que les gens accueilleront un robot dans leur espace personnel, un peu comme un animal de compagnie, tant que le matériel est conçu pour être touché.",
-          "text_original": "Researchers just built a floating robot It drifts through a room and communicates with movement In demos, it worked as an alarm clock, a study buddy, a reminder to get up and move, even a dance partner Most robots struggle to feel friendly, since human-like faces drop people into the uncanny valley So the team from Keio University and the MIT Media Lab designed the opposite: a soft, helium-filled body with gentle flapping fins, no face, and no rotors or pinch points to hurt you The bet is that people will welcome a robot into their personal space, a bit like a pet, as long as the hardware is built to be touched",
-          "link": "https://nitter.net/rowancheung/status/2089377724372762697#m",
-          "decryptage": "La 'vallée de l'étrange' est un sentiment de malaise ou de répulsion que nous ressentons face à des robots ou des personnages virtuels qui ressemblent presque parfaitement aux humains, mais pas tout à fait."
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Voici une analyse vidéo plus détaillée si vous préférez regarder. Vidéo",
-          "text_original": "Here's a more detailed video breakdown if you prefer watching Video",
-          "link": "https://nitter.net/rowancheung/status/2089377766047400302#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Lien vers l'article de recherche : dl.acm.org/doi/10.1145/38006… Lien Compagnon Flottant : Explorer l'espace de conception pour les robots flottants souples dans des environnements intérieurs |... dl.acm.org",
-          "text_original": "Link to the research article: dl.acm.org/doi/10.1145/38006… Link Floating Companion: Exploring Design Space for Soft Floating Robots in Indoor Environments |... dl.acm.org",
-          "link": "https://nitter.net/rowancheung/status/2089377777736962333#m",
-          "decryptage": null
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Travail intéressant (et aussi un grand et bon jeu de données, hâte de le voir publié) : \"Compressive Transformers for Long-Range Sequence Modelling\" par Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (chez DeepMind). Article : arxiv.org/abs/1911.05507",
+          "text_original": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+          "link": "https://nitter.net/Thom_Wolf/status/1195662118974083073#m",
+          "decryptage": "Les \"Transformers\" sont un type d'architecture de réseau de neurones qui a révolutionné le traitement du langage naturel. Les \"Compressive Transformers\" sont une variante conçue pour traiter de très longues séquences de données de manière plus efficace. Le \"traitement du langage naturel\" (NLP) est le domaine de l'IA qui permet aux ordinateurs de comprendre le langage humain.",
+          "category": "outils"
         }
       ]
     }
   },
-  "processed_at": "2026-08-20T10:06:45",
+  "processed_at": "2026-08-20T11:38:51",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 83,
-    "total": 24,
+    "with_decryptage_pct": 100,
+    "total": 19,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-08-20T10:06:46"
+  "email_sent_at": "2026-08-20T11:38:52"
 }
