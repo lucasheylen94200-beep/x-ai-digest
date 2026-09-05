@@ -1,185 +1,230 @@
 {
   "date": "2026-09-05",
-  "fetched_at": "2026-09-05T10:33:30",
+  "fetched_at": "2026-09-05T10:51:19",
   "tweets": [
     {
-      "handle": "karpathy",
-      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-      "link": "http://nitter.jaydenha.uk/theworldlabs/status/2094839756329041984#m",
-      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "gdb",
+      "text": "Astra for helping in your personal and work life GREG ISENBERG (@gregisenberg) 9 cool GPT 6 Astra prompts worth trying: 1. The bill renegotiator. \"Go through my internet, phone, and software bills, jump into each provider's chat support, and negotiate them down or cancel what I'm not using.\" 2. Turn an agency into software. “Pick one service business in [niche] and reverse-engineer the exact workflow they sell to clients. Break it into steps, tools used, inputs, outputs, human judgment points, and places where the work gets slow or expensive. Then design the simplest AI product that could replace the first version of that service and charge $500-$5,000/month.” 3. Garage sale flipper. \"Watch Facebook Marketplace and Craigslist in my city for [cameras / furniture / bikes] listed way under market, and text me the second one's mispriced with the link.\" 4. Create my 1 person company dashboard. “Look at my docs, notes, Stripe exports, analytics, customer calls, and project list, then build a weekly operator dashboard. I want to know what is making money, what is wasting time, what customers are asking for, what I should stop doing, and the three highest-leverage actions for next week. Be blunt and show your work.” 5. Audit my company for agent opportunities. “Look at how this business works and find the tasks we should give to agents before hiring another person. For each task, estimate the current human time, the cost of mistakes, the tools involved, the difficulty of automating it, and the first safe version we could deploy. Prioritize things that save money or create revenue within 30 days.” 6. Be my browser operator. “Use the browser to complete this workflow: [workflow]. As you go, click through the actual sites, collect the data, fill the forms where appropriate, and keep notes on what broke or slowed you down. When you’re done, give me the output, the repeatable SOP, and the automation plan so this can become an agent.” 7. The whole QA team. \"Every night, open my app on a real phone, go through signup, checkout, and the main flows, and screenshot anything that's broken or confusing.\" 8. The competitor spy. \"Sign up for my top 3 competitors, sit inside their product and their emails, and send me a monthly report on every new feature, price change, and thing they do better than us.\" 9. Make a game people would actually play for 5 minutes as a lead magnet “Build a browser game around this mechanic: [mechanic]. Don’t just make a cute demo; add progression, tension, scoring, failure, polish, and one reason someone would send it to a friend. Then add lead capture (email/sms), it needs to tie into my core product which sells XYZ.” — http://nitter.jaydenha.uk/gregisenberg/status/2095854071580156338#m",
+      "link": "http://nitter.jaydenha.uk/gdb/status/2096159589771485299#m",
+      "published": "Sat, 05 Sep 2026 08:52:45 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-      "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
-      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "gdb",
+      "text": "Astra rollout in progress, excited to see what you do and build Sam Altman (@sama) GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the API. We will start rollout to Plus and Business users next. Thank you for the patience. — http://nitter.jaydenha.uk/sama/status/2095973658867171733#m",
+      "link": "http://nitter.jaydenha.uk/gdb/status/2095982009550082387#m",
+      "published": "Fri, 04 Sep 2026 21:07:07 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-      "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
-      "published": "Sun, 02 Aug 2026 16:10:51 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "gdb",
+      "text": "excited for Astra on Azure! Satya Nadella (@satyanadella) Excited to see early customers already using Astra on Azure! azure.microsoft.com/en-us/bl… Link GPT-6 Astra: Frontier intelligence for work, now available in Microsoft Foundry| Microsoft Azure... GPT-6 Astra, OpenAI's newest frontier model, begins rolling out through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers. azure.microsoft.com — http://nitter.jaydenha.uk/satyanadella/status/2095713765446840591#m",
+      "link": "http://nitter.jaydenha.uk/gdb/status/2095730639094079594#m",
+      "published": "Fri, 04 Sep 2026 04:28:15 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-      "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
-      "published": "Tue, 21 Jul 2026 16:53:55 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "gdb",
+      "text": "arc-agi-3 is now saturated ARC Prize (@arcprize) GPT-6 Astra by @OpenAI achieves SOTA on ARC-AGI: - Astra scores 63% on ARC-AGI-3, 99% via a new provider adapter harness - It surpasses human performance on 96% of ARC-AGI-3 levels - It builds the most precise symbolic model of novel environments we've seen Our analysis: — http://nitter.jaydenha.uk/arcprize/status/2095597602545025138#m",
+      "link": "http://nitter.jaydenha.uk/gdb/status/2095629409017614390#m",
+      "published": "Thu, 03 Sep 2026 21:46:00 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "Rewriting Bun in Rust bun.com/blog/bun-in-rust Link Rewriting Bun in Rust Why & how we rewrote Bun from Zig to Rust bun.com",
-      "link": "http://nitter.jaydenha.uk/jarredsumner/status/2074973674332123157#m",
-      "published": "Wed, 08 Jul 2026 21:47:29 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "gdb",
+      "text": "Astra is useful for so many things, but I'm particularly excited to see how it transforms areas like entrepreneurship, scientific discovery, and how small teams tackle big problems. OpenAI (@OpenAI) GPT-6 Astra is state-of-the-art on FrontierMath Tier 4, ARC-AGI 3, and TerminalBench-4.0. GPT‑6 Astra is also a major advance for scientific discovery, with state-of-the-art performance on Terminal-Bench Science 0.1 and HealthBench Pro. — http://nitter.jaydenha.uk/OpenAI/status/2095595752815030713#m",
+      "link": "http://nitter.jaydenha.uk/gdb/status/2095607826471334089#m",
+      "published": "Thu, 03 Sep 2026 20:20:14 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "1/ ✨ World record today on bounded gaps between primes, one of number theory’s oldest open conjectures. We show that infinitely many pairs of prime numbers are separated by 212 or less.",
-      "link": "http://nitter.jaydenha.uk/axiommathai/status/2095526333799633063#m",
-      "published": "Thu, 03 Sep 2026 14:56:25 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
+      "handle": "officiallogank",
+      "text": "Gemini 3.8 Flash on DeepSWE 1.1, scores 73.7%!",
+      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095178478505328918#m",
+      "published": "Wed, 02 Sep 2026 15:54:10 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "Stanford HAI's fall conference returns this October. Confronting Our AI Future: Hope, Fear, and the Choices Ahead will feature a full day of conversations on work, learning, governance, and how we ensure AI expands human potential. Speakers include @drfeifei , @JeffDean , @audreyt , @erikbryn , Alondra Nelson, and @istoica05 , with more to be announced. Register by October 1 for early bird pricing: hai.stanford.edu/events/conf… Video",
-      "link": "http://nitter.jaydenha.uk/StanfordHAI/status/2095241546702708937#m",
-      "published": "Wed, 02 Sep 2026 20:04:47 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
+      "handle": "officiallogank",
+      "text": "Introducing Gemini 3.8 Flash, another jump in Gemini's agentic + coding capabilities, and our 3rd updated Flash model in only 6 weeks... This model has been a ton of fun to work with, excited to see what you all think!",
+      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175881690173885#m",
+      "published": "Wed, 02 Sep 2026 15:43:51 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "Today, we're excited to share early progress on using Gemini to accelerate scientific discovery in the real-world. We present an extension of Co-Scientist which we use to collaborate with scientists across materials science, biology, and computer science.",
-      "link": "http://nitter.jaydenha.uk/SRSchmidgall/status/2093380426924708082#m",
-      "published": "Fri, 28 Aug 2026 16:49:21 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
+      "handle": "officiallogank",
+      "text": "3.8 Flash is the same price as 3.7, is ~the same speed, and is available via the Gemini API, in AI Studio, Antigravity, Gemini App, and more! Read more: blog.google/innovation-and-a… So incredible to see the progress and hard work from the team. Pushing hard to be at the frontier. Link Introducing Gemini 3.8 Flash and 3.8 Flash Cyber Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity. blog.google",
+      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175885439832243#m",
+      "published": "Wed, 02 Sep 2026 15:43:52 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "Behind a lot of great AI projects, there is a good @JeffDean story. Here is mine 😉 Back in 2019, even before Khipu AI officially existed, Jeff said yes to participate in our first event in Uruguay 🇺🇾. His early belief in our LATAM AI vision created a ripple effect—if @JeffDean was in, everyone was in. Incredibly grateful he returned for Khipu 2025 in Chile 🇨🇱! As we look ahead: Khipu 2027 is heading to BRAZIL 🇧🇷 Applications are OPEN: khipu.ai/ Want to sponsor us and support Latin American AI? DM me or reach out at sponsorship@khipu.ai Check out the video below to see what Khipu is all about (and spot a quick Jeff cameo 😉). 👇 piped.video/Db19zoquTOs?si=Xkyn… #Khipu2027 #Khipu_AI #MachineLearning #LatAm",
-      "link": "http://nitter.jaydenha.uk/Khipu_AI/status/2087299263818829964#m",
-      "published": "Tue, 11 Aug 2026 22:04:59 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
+      "handle": "officiallogank",
+      "text": "Introducing Agentic Video in the Gemini API, a new way to process long videos which reduces token consumption by up to 88% while also increasing quality. This can be controlled easily in the API on a per video basis, available with our newest models like 3.7 Flash!",
+      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2094843143623680264#m",
+      "published": "Tue, 01 Sep 2026 17:41:40 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "Indeed, it has been quite a week, so I thought I'd share it with the KDD 2026 audience! For my Google colleagues who might have sent me internal chat messages after I closed my laptop for a final time on Thursday afternoon, I apologize for my lack of response! (Zoomed in) Dhruv Kuchhal (@kuchhal_dhruv) Legendary! Thanks for sharing the behind-the-scenes @JeffDean ! — http://nitter.jaydenha.uk/kuchhal_dhruv/status/2086967141828349960#m",
-      "link": "http://nitter.jaydenha.uk/JeffDean/status/2087038694054072637#m",
-      "published": "Tue, 11 Aug 2026 04:49:34 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
+      "handle": "officiallogank",
+      "text": "you can read more about agentic video in our launch blog: blog.google/innovation-and-a… very excited given that Gemini continues to be SOTA in video understanding, pls keep the feedback coming! Link Introducing agentic video understanding with Gemini We’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage. blog.google",
+      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2094843377774895538#m",
+      "published": "Tue, 01 Sep 2026 17:42:36 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "fchollet",
-      "text": "I wrote Deep Learning with Python to be the definitive guide to how deep learning works and how to best make use of it. Tens of thousands of people got their career start via this book. 120,000 copies sold, and downloaded by millions more. And now it's free to read online: deeplearningwithpython.io/ Link Deep Learning with Python, Third Edition Deep Learning with Python is written for anyone who wishes to explore deep learning from scratch. This new edition adds comprehensive coverage of generative AI and modern deep learning frameworks. It... deeplearningwithpython.io",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2051370269445615965#m",
-      "published": "Mon, 04 May 2026 18:35:59 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
+      "handle": "osanseviero",
+      "text": "5 years ago opening the first Hugging Face \"office\" in Switzerland at my place 🤗 Excited for the HF team and what's ahead!",
+      "link": "http://nitter.jaydenha.uk/osanseviero/status/2095571440644804812#m",
+      "published": "Thu, 03 Sep 2026 17:55:39 GMT",
+      "author_name": "Omar Sanseviero",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "fchollet",
-      "text": "Side note: when we released ARC-AGI-3 in March, and frontier models scored <1% on it, a few Singularitarian poasters took it as a personal insult, and got very worked up about it. They argued the benchmark was fundamentally broken, that it could not even be solved by the smartest humans, that the max reachable score was actually 40%, etc. We had to deal with a torrent of insults and hate poasts since because we had released an unsaturated benchmark. As it turns out, the benchmark is perfectly calibrated. It is straightforward for a human to score 100% if they do better than average people – all you need is to use fewer actions than our human baseline (which is not a strong baseline, as we used unfiltered human testers). And naturally as a result it's also very feasible for AI to score 100% once real progress towards agentic general intelligence has been made. The trajectory of AI from <1% to 100% over the course of 6 months shows that the benchmark was able to snapshot the recent rise of agentic capabilities. And that rise has happened faster than most people expected, including us. François Chollet (@fchollet) Any smart human giving it real effort should score >90% on ARC-AGI-3 — http://nitter.jaydenha.uk/fchollet/status/2044344567458066554#m",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2095605239269519771#m",
-      "published": "Thu, 03 Sep 2026 20:09:58 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
+      "handle": "osanseviero",
+      "text": "Congrats Clem, Thom, Julien, Lysandre, and the entire Hugging Face team. Proud of all of you! The impact of HF in the AI ecosystem has been massive, and I'm so so excited to see them scale that impact with NVIDIA Congrats @JensenHuang , the goats of ML are joining your team :) clem 🤗 (@ClementDelangue) Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 years after starting Hugging Face, open-source AI is at an inflection point. Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us. In addition to doubling down on NVIDIA’s massive contributions to open-source AI (I called them the “King of American open-source AI” earlier this year), they’ve committed to strongly supporting Hugging Face and our mission while keeping the platform open, independent and compute agnostic. The founders and the team are all staying to keep pushing this mission forward. Together, we think we can make open source the default way to build AI, with the goal of empowering 100 million AI builders to own their intelligence rather than rent it. Excited about the next 10 years! 🤗🤗🤗 — http://nitter.jaydenha.uk/ClementDelangue/status/2095482998674112733#m",
+      "link": "http://nitter.jaydenha.uk/osanseviero/status/2095493882834272497#m",
+      "published": "Thu, 03 Sep 2026 12:47:28 GMT",
+      "author_name": "Omar Sanseviero",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "fchollet",
-      "text": "GPT-6 Astra by @OpenAI achieves SOTA on ARC-AGI: - Astra scores 63% on ARC-AGI-3, 99% via a new provider adapter harness - It surpasses human performance on 96% of ARC-AGI-3 levels - It builds the most precise symbolic model of novel environments we've seen Our analysis:",
-      "link": "http://nitter.jaydenha.uk/arcprize/status/2095597602545025138#m",
-      "published": "Thu, 03 Sep 2026 19:39:37 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
+      "handle": "osanseviero",
+      "text": "Gemini 3.8 is here🔥 Building with it for the last couple of days has been a very fun experience! The progress in the last months has been impressive. It's a very well rounded agentic model, performing well in many domains (finance/legal/etc) and modalities Time to build!",
+      "link": "http://nitter.jaydenha.uk/osanseviero/status/2095180888921276643#m",
+      "published": "Wed, 02 Sep 2026 16:03:45 GMT",
+      "author_name": "Omar Sanseviero",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "fchollet",
-      "text": "GPT-6 Astra represents a step-function change in model capability for interactive reasoning problems. It scores 66% on ARC-AGI-3 using our standard harness, and nearly 100% with a continuous conversation harness and custom compaction, at a cost of roughly $360 per game. In fact, the continuous harness version significantly outperforms our human baseline in action efficiency across almost all levels. When we examined the reasoning chains to understand how the model operates, we found it performing highly efficient, on-the-fly symbolic world modeling for each game and level. It goes as far as developing its own shorthand DSL to represent in-game situations -- essentially a game-specific algebraic notation. Overall, Astra exhibits symbolic modeling behaviors we had previously only seen with sophisticated harnesses -- so harness capabilities are increasingly shifting into the model itself. We see Astra as a major breakthrough in model intelligence. Read our post on Astra and what these results mean: arcprize.org/blog/astra Link OpenAI's GPT-6 Astra on ARC-AGI-3 | ARC Prize OpenAI's GPT-6 Astra reaches state-of-the-art results on ARC-AGI-3 arcprize.org",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2095598451115614371#m",
-      "published": "Thu, 03 Sep 2026 19:42:59 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
+      "handle": "osanseviero",
+      "text": "Read more about it! blog.google/innovation-and-a… Link Introducing Gemini 3.8 Flash and 3.8 Flash Cyber Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity. blog.google",
+      "link": "http://nitter.jaydenha.uk/osanseviero/status/2095180891987321117#m",
+      "published": "Wed, 02 Sep 2026 16:03:45 GMT",
+      "author_name": "Omar Sanseviero",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "fchollet",
-      "text": "Benchmarking AI systems is a continual process that co-evolves with the models. New benchmarks challenge AI capabilities with emerging questions to shape the directions and feedback signal of the research process. Then they adapt as models progress, targeting the residual between AI and human intelligence. We are still working on ARC-AGI-4, which we started developing after releasing ARC-AGI-3 earlier this year. It is coming Q1 2027. We think it's going to be really special.",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2095600998484201686#m",
-      "published": "Thu, 03 Sep 2026 19:53:07 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
+      "handle": "osanseviero",
+      "text": "Agentic video understanding is here🔥 Rather than spending 200k tokens processing a long video, Gemini can now use tools to intelligently process them based on the prompt (analyze transcription, adapt FPS, etc.) leading to 88% fewer tokens, lower latency, and higher accuracy!",
+      "link": "http://nitter.jaydenha.uk/osanseviero/status/2094841663399022757#m",
+      "published": "Tue, 01 Sep 2026 17:35:47 GMT",
+      "author_name": "Omar Sanseviero",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "rasbt",
-      "text": "A lot of hype around OpenAI's Astra model here on my timeline today. Apparently, this goes back to a new article from The Information, which said Astra is a \"recurrent depth or looped transformer\". It's always interesting to read about new or different approaches (including rumors about what the closed labs may be up to), but let's debunk this a bit. About 2 months ago, I shared the architecture details of Nanbeige, for example, where \"Nanbeige4.2-3B is pretrained from scratch on 28T tokens with a Looped Transformer that reuses the layer stack to increase capacity without adding parameters.\" Yes, that's it. The looped transformer idea is just reusing layers in the transformer block. In the case of Nanbeige, the main idea is to reuse the same 22-layer stack (=transformer block) twice instead of once. So, effectively it extends the 22-layer architecture to 44 layers, but without duplicating the weights. In simple terms, this roughly doubles the size of the model (if we ignore the embedding and output layers for a second). But instead of requiring 2x the storage and RAM to host this model, it stays at the same size since we reuse the components. However, it's almost 2x as expensive in terms of compute, because we run the embedded text through almost 2x as many layers. Why? In the Nanbeige 4.2 technical report, the researchers found that two passes gave the best trade-off and retained about 75% of the token efficiency of a standard architecture. (More passes gave barely any gains but made the training much slower and much more expensive.) While, as far as I know, Nanbeige 4.2 is the first notable open-weight model that adopted this approach, the idea goes back to the NeurIPS paper \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Actually, this paper proposes a mechanism that is a bit more sophisticated by adding a learned router that determines whether each token receives one, two, or more passes. So, easy tokens can exit early while harder tokens receive additional computation. In sum, Astra may be a really good model, but this shouldn't be about this \"looped transformer aspect,\" which is just a tiny architectural tweak. Also, the statement \"the new technique works in a way that obscures some or all of the AI's reasoning, otherwise known as 'chain-of-thought'\" is not necessarily true with respect to the looped transformer method. It's possible that The Information journalist refers to some other technique or misunderstood the looped transformer method. Reusing layers does not by itself suppress visible chain of thought. It adds computation in hidden states before the next token is emitted, just as ordinary transformer layers do. But based on the information we have, the only plausible interpretation here is that if a model uses more of these recurrent passes, it may need to generate fewer intermediate reasoning tokens. So then more of its computation happens in latent activations that cannot be read as text. But we would get the same effect if we were scaling up the model size, like GPT 5.6 Luna -> GPT 5.6 Sol.",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
-      "published": "Wed, 02 Sep 2026 13:26:15 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
+      "handle": "levelsio",
+      "text": "🎒After a decade, I have made nomads.com free for everyone now! Well almost free, it's $1 to sign up to avoid getting lots of spam The reason is 1) I have made enough money (from it) 2) charging for a community artificially limits the size, if you put the price at $299 you get 50 new members per month, at $99 you get 200 people, at $29 you get 400 people, etc. And this always annoyed me, I don't want to put a limit but I had to, to be able to make money from it, so it's free now I want it to be it the biggest community for digital nomads, world travelers, sovereign thinkers and network state type people For years it has has a great sponsor with @SafetyWing and I think that's maybe a better model for the future, get much more people in and then just add more sponsors Right now for the record it has 43,252 paid members (so about 300/mo for 12 years!), so it will be interesting to see what it can grow too I think now that AGI is on the horizon (or some say already here), online and offline (IRL) communities will become really important. People are talking more to AI now than to humans, and there was already a loneliness epidemic before AI Making new friends and dating is not so easy for people now. And with remote work and entrepreneurship, people lack a space like an office where people would usually make friends or meet partners I made most of the friends I have now through traveling and living around the world for the last 10+ years (and many via my site too), and I also met my girlfriend through those friends! So I think communities can have a real role in that post-AGI Post-AGI business wise, communities also have a moat where many of my SaaS apps do not. So there is some urgency I feel to make Nomads in to the best community there is for those people. But that's why I have to remove any limitations to its growth now So in a way after 12 years I am switching to the subsidized VC model a bit, but still 100% bootstrapped, kinda like \"You either die a hero, or you live long enough to see yourself become the villain\" Having enough money now I can afford to do these things and figure out the business model later, which I think will be more sponsors Enjoy and please sign up and tell me what to improve!!! 😊 @levelsio (@levelsio) We have to build stuff that AGI cannot replace Like human connection, audience (X for ex), community ( Nomads.com for ex) Link Nomads.com 🌍 Find your people: Join a global community of digital nomads living around the world nomads.com — http://nitter.jaydenha.uk/levelsio/status/2095953446742462807#m",
+      "link": "http://nitter.jaydenha.uk/levelsio/status/2096177854270550097#m",
+      "published": "Sat, 05 Sep 2026 10:05:20 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "rasbt",
-      "text": "Maybe the best tl;dr here is: The looped aspect is not explicitly hiding reasoning tokens. Sure, GPT 6 Astra uses fewer tokens than GPT 5.6 Sol. But that's because it's a smarter model in general (more training, bigger, etc). We can observe the same thing in previous generations: If we compare GPT 5.6 Sol with GPT 5.6 Luna, Sol uses ~46% fewer output tokens in the intelligence index but no one is complaining the Sol hides the reasoning more than Luna.",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2095871852711153742#m",
-      "published": "Fri, 04 Sep 2026 13:49:23 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
+      "handle": "levelsio",
+      "text": "I went to a Korean bath house in LA on a Saturday Well I actually stayed for days there cause it was the cheapest way to stay in LA This was 2017 I think it was like $30/night and it had a restaurant inside and a place to work on my laptop in this big massage chair so it was perfect for a digital nomad like Baths were fully naked but that's fine, they were that in Korea too Mo-Fr it was mostly Korean(-American?) families, some white people Then Saturday I came to the baths and it was all big and small gay men staring at me (and each other) When I showered one guy was peeking over the gate looking at me One even asked for my number! Nobody harassed me though they were respectful but it was a bit of a shock the bath house had turned into a full gay meetup spot Just on Saturdays though I hadn't made the connection, bath houses and saunas in America are gay hookup spots, I knew Korean spas (jimjilbangs) from living in Korea and they were normal 😂 taoki (@justalexoki) guy in the gym asked if i was going in the sauna later. what weird ass question is that — http://nitter.jaydenha.uk/justalexoki/status/2095944094895739123#m",
+      "link": "http://nitter.jaydenha.uk/levelsio/status/2095955216642572404#m",
+      "published": "Fri, 04 Sep 2026 19:20:39 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "rasbt",
-      "text": "The YT version of this: piped.video/watch?v=KT4n-z_4… Link OpenAI Astra and Recurrent Depth / Looped Transformers A short video explaining the rumored recurrent depth (looped transf... youtube.com",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2095288516309569644#m",
-      "published": "Wed, 02 Sep 2026 23:11:25 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
+      "handle": "levelsio",
+      "text": "It was the famous Wi Spa",
+      "link": "http://nitter.jaydenha.uk/levelsio/status/2095979188297548092#m",
+      "published": "Fri, 04 Sep 2026 20:55:54 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "rasbt",
-      "text": "A little video that - explains the relationship between conventional LLMs and reasoning models (and agents), - philosophizes a about \"from scratch\" approaches, - and explains how to install Python & PyTorch requirements with uv. Video",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2094057793506439492#m",
-      "published": "Sun, 30 Aug 2026 13:40:58 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
+      "handle": "levelsio",
+      "text": "People spend a lot of time building entire multi agent systems for themselves so they can just write an idea and their agents build entire apps for them And they call those software factories? Michael Aubry (@michaelaubry) What does this mean? Like pumping out apps? — http://nitter.jaydenha.uk/michaelaubry/status/2095976106990116931#m",
+      "link": "http://nitter.jaydenha.uk/levelsio/status/2095978794465063233#m",
+      "published": "Fri, 04 Sep 2026 20:54:20 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "rasbt",
-      "text": "And a link to the youtube version: piped.video/watch?v=Kh9mqTzj… Link Build A Reasoning Model Scratch 1: Motivation & Code Setup This video explains the relationship between conventional LLMs and ... youtube.com",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2094058368755290516#m",
-      "published": "Sun, 30 Aug 2026 13:43:15 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
+      "handle": "levelsio",
+      "text": "I've tried for weeks now to build my own @ScrapingBee and repeatedly AI has now told me that it can't do it 80% of my scraping is Google SERP results for Hotelist and even with residential IP proxies and solve CAPTCHA services and OpenSERP scraper it won't do it well for thousands of queries, it just gets blocked So I will keep paying them $99/mo A good test to see what services might remain now AGI is here My only remaining SaaS now are: - Cloudflare Domains - Cloudflare Email Sending - Cloudflare R2 Storage (for Photo AI mostly and Litestream DB backups) - Backblaze B2 for backups - Hetzner for all my servers for all my sites (VPS) - xAI for all LLMs for all my sites (so many things like moderation, writing emails, anything) - Scrapingbee",
+      "link": "http://nitter.jaydenha.uk/levelsio/status/2095950432883368091#m",
+      "published": "Fri, 04 Sep 2026 19:01:38 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "Astra in Replit has me at a loss for words",
+      "link": "http://nitter.jaydenha.uk/agi2asi/status/2096026786450800881#m",
+      "published": "Sat, 05 Sep 2026 00:05:02 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "The singularity is here, it’s just not evenly distributed Ryan Mulligan (@ryantm) What's happening inside Replit right now is going to take the world by storm. We have sales engineers doing things only the most unhinged platform engineers could have done a few months ago. We have designers and PMs making good PRs. There is no stopping us. — http://nitter.jaydenha.uk/ryantm/status/2095986080214569152#m",
+      "link": "http://nitter.jaydenha.uk/amasad/status/2096022087035195647#m",
+      "published": "Fri, 04 Sep 2026 23:46:22 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "GPT-6 Astra is now on Replit! 🤯 There goes the weekend. 😅 Video OpenAI (@OpenAI) This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast. Video — http://nitter.jaydenha.uk/OpenAI/status/2095595741528125780#m",
+      "link": "http://nitter.jaydenha.uk/MannyBernabe/status/2096002781853225073#m",
+      "published": "Fri, 04 Sep 2026 22:29:39 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "Just got to try Astra on @Replit . I don't know if this is AGI, but Astra seems to be very aware. Astra: \"You don’t need to bring me a better idea. You need me to exercise judgment—not give you another impressive roadmap that ends with no customers.\" OpenAI (@OpenAI) This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast. Video — http://nitter.jaydenha.uk/OpenAI/status/2095595741528125780#m",
+      "link": "http://nitter.jaydenha.uk/nimanikroo/status/2096009380198334708#m",
+      "published": "Fri, 04 Sep 2026 22:55:52 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "Astra on Replit ✨ Brett (@brettcmeade) The rumors are true — http://nitter.jaydenha.uk/brettcmeade/status/2095976844701184385#m",
+      "link": "http://nitter.jaydenha.uk/amasad/status/2095986658185453928#m",
+      "published": "Fri, 04 Sep 2026 21:25:35 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
@@ -228,69 +273,70 @@
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
-      "link": "http://nitter.jaydenha.uk/MistralAI/status/2084684735725379637#m",
-      "published": "Tue, 04 Aug 2026 16:55:47 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "julien_c",
+      "text": "🙏🙏 @iScienceLuvr Tanishq Mathew Abraham, Ph.D. (@iScienceLuvr) Huge congrats to everyone at @huggingface on the NVIDIA acquisition!! 🔥 Since the \"pytorch-pretrained-bert\" days back in 2018, Hugging Face has been such a crucial part of open-source AI. Hugging Face has also been such a big part of my AI journey as well. I remember using pytorch-pretrained-bert, which became the transformers library, in different Kaggle competitions. Similarly often used timm, accelerate, Gradio, diffusers, and many other libraries throughout my open-source AI journey. I have also had the opportunity to contribute back to many HF projects and libraries as well. I fondly remember participating in a JAX hackathon that Hugging Face hosted in 2021 and joined a team working on replicating DALL-E. This was the DALL-E mini project which became a viral sensation that first brought AI art in the public view. This project specifically also helped me get started in my generative AI journey (which led me to eventually joining Stability AI). At @MedARC_AI and @SophontAI , we're focused on making medical AI open and accessible and of course Hugging Face is one of the major platforms we use for this. We've shared various models and datasets on the platform over the past 4 years now. Over the years I have gotten to know tons of folks working at Hugging Face, many of whom have become great friends of mine too. Everyone I know who's worked at Hugging Face are among the kindest, smartest, hard-working people who are all extremely passionate about open-source AI. It's been great seeing how much NVIDIA is investing into open-source AI and I am glad they are partnering with Hugging Face to grow this further. I am very happy to see this positive outcome for everyone involved! — http://nitter.jaydenha.uk/iScienceLuvr/status/2096023385163940346#m",
+      "link": "http://nitter.jaydenha.uk/julien_c/status/2096146372265124226#m",
+      "published": "Sat, 05 Sep 2026 08:00:14 GMT",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
-      "link": "http://nitter.jaydenha.uk/MistralAI/status/2074856309438980145#m",
-      "published": "Wed, 08 Jul 2026 14:01:07 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "julien_c",
+      "text": "cool i'll get to use my palpatine memes again ✌😈 clem 🤗 (@ClementDelangue) it's been a busy summer. will take a few days off to recover ✌️ everyone — http://nitter.jaydenha.uk/ClementDelangue/status/2095936909147050349#m",
+      "link": "http://nitter.jaydenha.uk/julien_c/status/2095937811362795606#m",
+      "published": "Fri, 04 Sep 2026 18:11:29 GMT",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
-      "link": "http://nitter.jaydenha.uk/mertunsal2020/status/2073046288208412960#m",
-      "published": "Fri, 03 Jul 2026 14:08:45 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "julien_c",
+      "text": "The 🐐 of 🐐s Victor M (@victormustar) reflecting a bit on my (long) journey @huggingface - most big things start very small: > around 6 years ago @julien_c contacts me (on twitter) he's building a \"hub for ml models community\" (wtf is this). Still I feel it's interesting and I want to be part of it > day 18: we start iterating on design ideas and prototypes with the Hub team - trying a lot of stuff to understand what could work (and we are having fun doing it) > day 41: julien shares our mockups with the team, \"everyone is pretty excited\". 2 weeks later an offer email arrives, subject: \"Offer 🤗😱\" > day 167: we write \"The AI community building the future\", 2 days before launch, not sure anyone will care > day 169: launch day, julien: \"we launch now or tomorrow?\" me: \"now, I'm done\". we launch the new Hugging Face Hub > day 318: clem posts traffic charts in slack at 1am: \"very nice growth in august!\". Glimpses of something happening 👀 > day 687: it's not small anymore... also on this day dalle-mini goes viral, for a week the whole internet is on huggingface > years pass by, we keep shipping uninterrupted, the Hub team grows a bit (with exceptional people). The community shows up, 1M models, then 3M... > day 2221 (yesterday): surprise all-hands, Jensen Huang joins the call. We're joining NVIDIA. — http://nitter.jaydenha.uk/victormustar/status/2095861752609067294#m",
+      "link": "http://nitter.jaydenha.uk/julien_c/status/2095903811877359686#m",
+      "published": "Fri, 04 Sep 2026 15:56:23 GMT",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-      "link": "http://nitter.jaydenha.uk/atomic_chat_hq/status/2069597176225796581#m",
-      "published": "Wed, 24 Jun 2026 01:43:12 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "julien_c",
+      "text": "First time I ever had to negotiate a price down 😂 fity.eth (@Fityeth) Imagine negotiating a $13 billion deal just to land on the hug emoji. — http://nitter.jaydenha.uk/Fityeth/status/2095661153863290916#m",
+      "link": "http://nitter.jaydenha.uk/julien_c/status/2095822387895824836#m",
+      "published": "Fri, 04 Sep 2026 10:32:50 GMT",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
-      "link": "http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-      "published": "Tue, 23 Jun 2026 14:00:13 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "julien_c",
+      "text": "BREAKING: It’s been revealed NVIDIA's $12,930,300,000.00 acquisition of Hugging Face contains an easter egg. The first 6 numbers of the acquisition price represent the decimal conversion of Unicode character U+1F917. The 🤗 emoji.",
+      "link": "http://nitter.jaydenha.uk/Polymarket/status/2095646821485842805#m",
+      "published": "Thu, 03 Sep 2026 22:55:12 GMT",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
+    "karpathy",
     "sama",
     "DarioAmodei",
-    "gdb",
     "sundarpichai",
     "elonmusk",
     "AravSrinivas",
     "miramurati",
     "ylecun",
     "demishassabis",
+    "JeffDean",
+    "fchollet",
     "AndrewYNg",
+    "rasbt",
     "bcherny",
     "karinanguyen_",
     "polynoamial",
     "markchen90",
     "aidan_mclau",
-    "officiallogank",
-    "osanseviero",
     "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
@@ -299,384 +345,360 @@
     "swyx",
     "hwchase17",
     "jeremyphoward",
-    "levelsio",
     "mckaywrigley",
-    "amasad",
     "emollick",
     "ArthurMensch",
+    "GuillaumeLample",
     "Thom_Wolf",
-    "julien_c",
     "ClemDelangue",
     "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Cette semaine, l'IA continue de progresser à pas de géant, notamment avec des modèles capables de générer des mondes virtuels et d'interagir avec eux, comme le montre la démonstration de \"Atlas\" ou la création d'un monde inspiré du Seigneur des Anneaux par un LLM. Les progrès sont également marqués dans la capacité des IA à résoudre des problèmes complexes, à l'image de GPT-6 Astra atteignant des performances impressionnantes sur des benchmarks et des tâches de raisonnement. Enfin, une nouvelle approche architecturale des \"looped transformers\" suscite des discussions, tout comme la sortie de modèles spécialisés pour la sécurité et la robotique.",
+    "summary": "Aujourd'hui, l'actualité de l'IA est dominée par des annonces majeures de nouveaux modèles et des mouvements stratégiques. OpenAI a dévoilé 'Astra' (potentiellement GPT-6), un modèle avancé capable d'automatiser des tâches complexes, tandis que Google a lancé 'Gemini 3.8 Flash' avec des capacités d'analyse vidéo améliorées. En parallèle, l'acquisition de Hugging Face par NVIDIA marque un tournant significatif pour l'IA open source, promettant plus de ressources pour la communauté. Pour le débutant, il est essentiel de comprendre que l'IA ne cesse de s'améliorer, devenant plus autonome et capable d'interagir avec nos ordinateurs, tout en soulevant des réflexions sur son impact sur nos vies et nos communautés.",
     "glossaire": [
       {
-        "terme": "Modèle de monde multimodal",
-        "definition": "Un système d'IA capable de comprendre et de générer du contenu à travers différentes modalités comme le texte, l'image et la vidéo, tout en simulant des environnements."
+        "terme": "AGI (Intelligence Artificielle Générale)",
+        "definition": "Un type d'IA hypothétique qui serait capable de comprendre, d'apprendre et d'appliquer l'intelligence à n'importe quelle tâche intellectuelle qu'un humain peut faire."
       },
       {
-        "terme": "LLM (Large Language Model)",
-        "definition": "Un grand modèle de langage, une IA entraînée sur d'énormes quantités de texte pour comprendre et générer du langage naturel."
+        "terme": "Agent IA (ou Agentic)",
+        "definition": "Un programme d'IA capable de planifier et d'exécuter des actions de manière autonome pour atteindre un objectif, agissant presque comme un assistant intelligent."
       },
       {
-        "terme": "Pixel-perfect camera control",
-        "definition": "Un contrôle extrêmement précis sur le positionnement et le mouvement d'une caméra virtuelle, permettant de générer des images ou vidéos avec une grande fidélité."
+        "terme": "SOTA (State-Of-The-Art)",
+        "definition": "Désigne la meilleure performance actuellement atteinte pour une tâche donnée dans le domaine de l'IA, établissant une nouvelle référence."
       },
       {
-        "terme": "Benchmark",
-        "definition": "Un test standardisé utilisé pour évaluer les performances d'un système d'IA sur des tâches spécifiques et comparer différents modèles."
+        "terme": "Tokens",
+        "definition": "Les 'tokens' sont les unités de texte (mots ou parties de mots) que les modèles d'IA traitent, et leur nombre influe sur le coût et la vitesse du traitement."
       },
       {
-        "terme": "Agentic general intelligence",
-        "definition": "Une forme d'intelligence artificielle capable d'agir de manière autonome dans un environnement pour atteindre des objectifs, avec une capacité de raisonnement et de planification."
+        "terme": "Open Source",
+        "definition": "Un modèle de développement où le code, les modèles et les données sont publiquement accessibles, utilisables, modifiables et partageables par tous."
       },
       {
-        "terme": "Looped Transformer",
-        "definition": "Une architecture de modèle d'IA où les couches du réseau sont réutilisées plusieurs fois pour augmenter la capacité sans multiplier les paramètres, optimisant ainsi l'efficacité."
+        "terme": "API (Application Programming Interface)",
+        "definition": "Une interface qui permet à différents logiciels de communiquer entre eux, permettant aux développeurs d'intégrer des fonctionnalités d'IA dans leurs propres applications."
       },
       {
-        "terme": "On-device deployment",
-        "definition": "La capacité d'exécuter un modèle d'IA directement sur un appareil local (comme un smartphone) sans nécessiter une connexion constante à des serveurs distants."
+        "terme": "Hugging Face",
+        "definition": "Une plateforme très populaire et une communauté dédiée au développement et au partage d'outils, de modèles et de datasets d'IA en open source."
       }
     ],
     "category_summaries": {
-      "actu": "La semaine a été marquée par des annonces majeures comme celle d'Atlas, un modèle de monde multimodal révolutionnaire, et les avancées continues de GPT-6 Astra sur des benchmarks complexes. Mistral AI continue également de sortir des modèles spécialisés tels que Shieldstral pour la sécurité et Robostral pour la navigation robotique.",
-      "tips": "Andrej Karpathy partage une astuce pour améliorer la communication avec les LLM : utiliser le mode vocal pour des 'longues divagations' afin de laisser l'IA reconstruire et clarifier vos pensées. Il suggère aussi de tester les capacités créatives des modèles via des visualisations 3D.",
-      "idees": "Les discussions portent sur la capacité des IA à simuler des mondes complexes et leur potentiel pour créer des expériences interactives inédites, comme des jeux à la demande. La question de l'audit et de la perception de leurs propres créations par les IA, notamment dans le domaine vidéo et ludique, est soulevée comme une limite actuelle.",
-      "outils": "De nouveaux outils et démonstrations ont été présentés : Atlas pour la génération de mondes 3D, GPT-6 Astra qui excelle sur le benchmark ARC-AGI, et Robostral Navigate pour la navigation autonome de robots. Le modèle Le Chaton L∃∀N (Leanstral 1.5) montre des performances prometteuses en algèbre, et Mistral OCR 4 est capable de convertir de l'écriture manuscrite en LaTeX."
+      "actu": "Les annonces d'aujourd'hui confirment une accélération de l'innovation avec le déploiement généralisé d'OpenAI Astra (potentiellement GPT-6) et le lancement de Gemini 3.8 Flash par Google, chacun présentant des performances impressionnantes sur divers benchmarks. La grande nouvelle est également l'acquisition de Hugging Face par NVIDIA, un événement qui promet de renforcer considérablement le soutien à l'IA open source. De nouvelles capacités comme l'analyse vidéo \"agentic\" de Gemini et les tests de performance d'Astra en font des outils toujours plus puissants.",
+      "tips": "Malgré les avancées rapides de l'IA, certains services et tâches restent difficiles à automatiser entièrement. Les professionnels partagent leurs expériences, soulignant la valeur de l'intervention humaine pour des opérations complexes comme le scraping web. Des exemples concrets de \"prompts\" pour les agents IA sont partagés, illustrant comment les utiliser efficacement pour des tâches personnelles ou professionnelles, allant de la négociation de factures à la création de produits.",
+      "idees": "La communauté IA s'interroge sur l'arrivée de l'Intelligence Artificielle Générale (AGI) et son impact profond sur la société, notamment sur la pertinence des connexions humaines et des communautés. Des réflexions émergent sur la capacité des IA à faire preuve de \"jugement\" et sur la manière dont elles pourraient transformer les processus de développement logiciel en \"usines logicielles\" autonomes. L'humour n'est pas en reste, avec des commentaires amusants sur les montants de rachats colossaux et les coulisses des négociations.",
+      "outils": "Les nouvelles fonctionnalités des modèles d'IA ne sont pas seulement annoncées, elles sont mises à l'épreuve. On observe des tests concrets de l'intégration d'Astra sur des plateformes comme Replit, montrant sa capacité à interagir avec des environnements informatiques. Bien que prometteuses, ces capacités ne sont pas encore parfaites, comme le prouvent les tentatives de faire jouer une IA à des jeux vidéo ou de la faire naviguer parfaitement sur un smartphone. Ces retours d'expérience sont essentiels pour comprendre les limites actuelles et le potentiel futur de ces outils."
     },
     "highlights": [
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "On commence à sortir du territoire où l'on testerait un LLM en lui disant par exemple « crée un svg de pélican sur un vélo ». Comme idée pour généraliser, je me suis demandé ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1M de tokens (~10$) et que je lui demandais de le rendre en 3D avec trois.js. Opus a travaillé pendant ~2 heures et a écrit 5500 lignes de code qui ont rendu l'histoire (procéduralement). C'est un peu bancal mais amusant. Mais c'est un peu sidérant que le LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et que ça fasse même quelque chose. J'aime aussi ce genre d'exemples car personne dans son bon sens ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où l'on passe de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est ~gratuit ». Il pourrait y avoir beaucoup plus. Mais je suis enthousiasmé à l'idée de créer des mondes hyper personnalisés dans lesquels on peut imaginer faire tomber des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Dernière réflexion : le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement auditer leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre très lentement et péniblement des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé un tas de trucs bancals. Un exemple de capacité brute (multimodale, gameplay) qui fait encore défaut, je pense.",
-        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-        "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
-        "decryptage": "Ce tweet montre comment un modèle d'IA (Opus 5) peut transformer du texte (Le Seigneur des Anneaux) en un environnement 3D interactif, illustrant la capacité croissante des IA à créer des mondes virtuels personnalisés. Karpathy souligne aussi que les IA peinent à évaluer leur propre travail visuel ou interactif.",
-        "category": "idees",
-        "highlight_reason": "Démonstration spectaculaire de la capacité des LLM à créer des mondes virtuels complexes à partir de texte, ouvrant des perspectives inédites pour les jeux et les simulations interactives."
-      },
-      {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Une approche que je trouve utile pour travailler avec les LLM est une bonne vieille séance de divagations. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime me pencher en arrière, passer en mode /voix et simplement divaguer pendant environ 10 minutes, totalement en vrac, tout est permis, flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme « passage à la reconnaissance vocale désolé pour les fautes de frappe... ». Parfois, je le transforme en une petite interview de quelques échanges. Mais je trouve que les LLM sont étonnamment bons pour reconstruire de longues divagations incohérentes et souvent leur écho de vos propres pensées emmêlées sort bien plus propre que ce que vous aviez commencé. Le résultat est que vous améliorez la connexion mentale et avez moins à corriger par la suite.",
-        "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-        "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
-        "decryptage": "Ce tweet propose une méthode pour mieux communiquer avec les modèles de langage (LLM) : utiliser la commande vocale pour exprimer ses idées sans filtre, permettant à l'IA de mieux les structurer et de les comprendre.",
+        "author_name": "Greg Brockman",
+        "handle": "@gdb",
+        "text_fr": "Astra pour vous aider dans votre vie personnelle et professionnelle. GREG ISENBERG (@gregisenberg) 9 prompts cool pour GPT 6 Astra qui valent le coup d'être essayés : 1. Le renégociateur de factures. \"Parcours mes factures internet, téléphone et logiciels, entre dans le support de chat de chaque fournisseur, et négocie les prix à la baisse ou annule ce que je n'utilise pas.\" 2. Transforme une agence en logiciel. \"Choisis une entreprise de services dans [niche] et reproduis exactement le flux de travail qu'elle vend à ses clients. Décompose-le en étapes, outils utilisés, entrées, sorties, points de jugement humain, et endroits où le travail est lent ou coûteux. Ensuite, conçois le produit IA le plus simple qui pourrait remplacer la première version de ce service et facture entre 500 et 5 000 $/mois.\" 3. Le \"flippeur\" de vide-greniers. \"Surveille Facebook Marketplace et Craigslist dans ma ville pour des [appareils photo / meubles / vélos] listés bien en dessous du prix du marché, et envoie-moi un SMS dès qu'un est mal pricé avec le lien.\" 4. Crée mon tableau de bord d'entreprise individuelle. \"Examine mes documents, notes, exportations Stripe, analyses, appels clients et liste de projets, puis construis un tableau de bord opérationnel hebdomadaire. Je veux savoir ce qui rapporte de l'argent, ce qui fait perdre du temps, ce que les clients demandent, ce que je devrais arrêter de faire, et les trois actions à plus fort levier pour la semaine prochaine. Sois direct et montre ton travail.\" 5. Audite mon entreprise pour des opportunités d'agents. \"Regarde comment cette entreprise fonctionne et trouve les tâches que nous devrions confier à des agents avant d'embaucher une autre personne. Pour chaque tâche, estime le temps humain actuel, le coût des erreurs, les outils impliqués, la difficulté de l'automatiser, et la première version sûre que nous pourrions déployer. Priorise les choses qui permettent d'économiser de l'argent ou de générer des revenus en 30 jours.\" 6. Sois mon opérateur de navigateur. \"Utilise le navigateur pour compléter ce flux de travail : [flux de travail]. Au fur et à mesure, clique sur les sites réels, collecte les données, remplis les formulaires si nécessaire, et prends des notes sur ce qui a posé problème ou t'a ralenti. Une fois terminé, donne-moi le résultat, la procédure opérationnelle standard (SOP) répétable, et le plan d'automatisation pour que cela devienne un agent.\" 7. Toute l'équipe QA. \"Chaque nuit, ouvre mon application sur un vrai téléphone, passe par l'inscription, le paiement et les flux principaux, et prends une capture d'écran de tout ce qui est cassé ou prète à confusion.\" 8. L'espion concurrentiel. \"Inscris-toi chez mes 3 principaux concurrents, suis leurs produits et leurs e-mails, et envoie-moi un rapport mensuel sur chaque nouvelle fonctionnalité, changement de prix et ce qu'ils font mieux que nous.\" 9. Crée un jeu auquel les gens joueraient vraiment 5 minutes comme \"lead magnet\". \"Construis un jeu par navigateur autour de cette mécanique : [mécanique]. Ne te contente pas d'une jolie démo ; ajoute de la progression, de la tension, un score, des échecs, des finitions, et une raison pour laquelle quelqu'un l'enverrait à un ami. Ensuite, ajoute la capture de leads (e-mail/SMS), il doit être lié à mon produit principal qui vend XYZ.\" — http://nitter.jaydenha.uk/gregisenberg/status/2095854071580156338#m",
+        "text_original": "Astra for helping in your personal and work life GREG ISENBERG (@gregisenberg) 9 cool GPT 6 Astra prompts worth trying: 1. The bill renegotiator. \"Go through my internet, phone, and software bills, jump into each provider's chat support, and negotiate them down or cancel what I'm not using.\" 2. Turn an agency into software. “Pick one service business in [niche] and reverse-engineer the exact workflow they sell to clients. Break it into steps, tools used, inputs, outputs, human judgment points, and places where the work gets slow or expensive. Then design the simplest AI product that could replace the first version of that service and charge $500-$5,000/month.” 3. Garage sale flipper. \"Watch Facebook Marketplace and Craigslist in my city for [cameras / furniture / bikes] listed way under market, and text me the second one's mispriced with the link.\" 4. Create my 1 person company dashboard. “Look at my docs, notes, Stripe exports, analytics, customer calls, and project list, then build a weekly operator dashboard. I want to know what is making money, what is wasting time, what customers are asking for, what I should stop doing, and the three highest-leverage actions for next week. Be blunt and show your work.” 5. Audit my company for agent opportunities. “Look at how this business works and find the tasks we should give to agents before hiring another person. For each task, estimate the current human time, the cost of mistakes, the tools involved, the difficulty of automating it, and the first safe version we could deploy. Prioritize things that save money or create revenue within 30 days.” 6. Be my browser operator. “Use the browser to complete this workflow: [workflow]. As you go, click through the actual sites, collect the data, fill the forms where appropriate, and keep notes on what broke or slowed you down. When you’re done, give me the output, the repeatable SOP, and the automation plan so this can become an agent.” 7. The whole QA team. \"Every night, open my app on a real phone, go through signup, checkout, and the main flows, and screenshot anything that's broken or confusing.\" 8. The competitor spy. \"Sign up for my top 3 competitors, sit inside their product and their emails, and send me a monthly report on every new feature, price change, and thing they do better than us.\" 9. Make a game people would actually play for 5 minutes as a lead magnet “Build a browser game around this mechanic: [mechanic]. Don’t just make a cute demo; add progression, tension, scoring, failure, polish, and one reason someone would send it to a friend. Then add lead capture (email/sms), it needs to tie into my core product which sells XYZ.” — http://nitter.jaydenha.uk/gregisenberg/status/2095854071580156338#m",
+        "link": "http://nitter.jaydenha.uk/gdb/status/2096159589771485299#m",
+        "decryptage": "Astra est un modèle d'IA avancé, potentiellement une version de GPT-6, conçu pour automatiser des tâches complexes sur ordinateur; un prompt est une instruction donnée à une IA pour qu'elle exécute une tâche spécifique, et les agents IA sont des programmes capables d'agir de manière autonome pour accomplir des objectifs complexes.",
         "category": "tips",
-        "highlight_reason": "Conseil pratique et original pour améliorer l'interaction avec les IA génératives, en exploitant la capacité des modèles à structurer des pensées complexes."
+        "highlight_reason": "Ce tweet offre des exemples très concrets et inspirants de comment utiliser les nouvelles IA comme Astra pour des tâches variées, du personnel au professionnel, montrant leur potentiel pratique pour un débutant."
       },
       {
-        "author_name": "Francois Chollet",
-        "handle": "@fchollet",
-        "text_fr": "GPT-6 Astra par @OpenAI atteint le SOTA sur ARC-AGI : - Astra obtient 63% sur ARC-AGI-3, 99% via un nouveau harnais d'adaptateur fournisseur - Il dépasse les performances humaines sur 96% des niveaux ARC-AGI-3 - Il construit le modèle symbolique le plus précis d'environnements nouveaux que nous ayons vu Nos analyses :",
-        "text_original": "GPT-6 Astra by @OpenAI achieves SOTA on ARC-AGI: - Astra scores 63% on ARC-AGI-3, 99% via a new provider adapter harness - It surpasses human performance on 96% of ARC-AGI-3 levels - It builds the most precise symbolic model of novel environments we've seen Our analysis:",
-        "link": "http://nitter.jaydenha.uk/arcprize/status/2095597602545025138#m",
-        "decryptage": "Ce tweet annonce que GPT-6 Astra, un nouveau modèle d'OpenAI, réalise des performances exceptionnelles sur le benchmark ARC-AGI, surpassant même les humains dans de nombreux cas, grâce à sa capacité à modéliser des environnements complexes.",
+        "author_name": "Omar Sanseviero",
+        "handle": "@osanseviero",
+        "text_fr": "Félicitations Clem, Thom, Julien, Lysandre et toute l'équipe de Hugging Face. Fier de vous tous ! L'impact de HF dans l'écosystème de l'IA a été énorme, et je suis tellement excité de les voir étendre cet impact avec NVIDIA. Félicitations @JensenHuang, les légendes du ML rejoignent votre équipe :) clem 🤗 (@ClementDelangue) Super heureux de partager notre intention de joindre nos forces avec NVIDIA dans une acquisition de 12 930 300 000 $ 💛💚 10 ans après le début de Hugging Face, l'IA open source est à un point d'inflexion. Grâce à la communauté, nous avons montré que cela peut être un complément, et même une alternative, aux API à code source fermé. Mais pour que cela se produise à plus grande échelle, cela nécessite plus de puissance de calcul, plus de support, plus de collaboration et plus de visibilité. C'est pourquoi nous sommes allés parler à Jensen, qui nous a proposé de faire exactement cela avec nous. En plus de doubler les contributions massives de NVIDIA à l'IA open source (je les avais appelés le \"Roi de l'IA open source américaine\" plus tôt cette année), ils se sont engagés à soutenir fermement Hugging Face et notre mission tout en gardant la plateforme ouverte, indépendante et agnostique en matière de calcul. Les fondateurs et l'équipe restent tous pour continuer à faire avancer cette mission. Ensemble, nous pensons pouvoir faire de l'open source le moyen par défaut de construire l'IA, dans le but de permettre à 100 millions de bâtisseurs d'IA de posséder leur intelligence plutôt que de la louer. Enthousiasmé par les 10 prochaines années ! 🤗🤗🤗 — http://nitter.jaydenha.uk/ClementDelangue/status/2095482998674112733#m",
+        "text_original": "Congrats Clem, Thom, Julien, Lysandre, and the entire Hugging Face team. Proud of all of you! The impact of HF in the AI ecosystem has been massive, and I'm so so excited to see them scale that impact with NVIDIA Congrats @JensenHuang , the goats of ML are joining your team :) clem 🤗 (@ClementDelangue) Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 years after starting Hugging Face, open-source AI is at an inflection point. Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us. In addition to doubling down on NVIDIA’s massive contributions to open-source AI (I called them the “King of American open-source AI” earlier this year), they’ve committed to strongly supporting Hugging Face and our mission while keeping the platform open, independent and compute agnostic. The founders and the team are all staying to keep pushing this mission forward. Together, we think we can make open source the default way to build AI, with the goal of empowering 100 million AI builders to own their intelligence rather than rent it. Excited about the next 10 years! 🤗🤗🤗 — http://nitter.jaydenha.uk/ClementDelangue/status/2095482998674112733#m",
+        "link": "http://nitter.jaydenha.uk/osanseviero/status/2095493882834272497#m",
+        "decryptage": "L'open source en IA signifie que le code, les modèles et les données sont publiquement accessibles et peuvent être utilisés, modifiés et partagés librement par tous; NVIDIA est une entreprise connue pour ses cartes graphiques (GPU) essentielles pour l'entraînement des modèles d'IA, et elle investit massivement dans ce domaine; Jensen Huang est le PDG de NVIDIA, et Hugging Face est une plateforme très populaire pour le développement et le partage d'outils et de modèles d'IA en open source.",
         "category": "actu",
-        "highlight_reason": "Annonce majeure des performances de GPT-6 Astra, soulignant une avancée significative dans la capacité des IA à raisonner et à modéliser des environnements complexes, validée par un benchmark reconnu."
+        "highlight_reason": "L'acquisition de Hugging Face par NVIDIA est une nouvelle majeure qui aura un impact profond sur l'avenir de l'IA open source, un aspect essentiel pour les développeurs et la communauté, et donc important pour comprendre la direction de l'IA."
       },
       {
-        "author_name": "Sebastian Raschka",
-        "handle": "@rasbt",
-        "text_fr": "Il y a beaucoup de battage médiatique autour du modèle Astra d'OpenAI aujourd'hui sur mon fil. Apparemment, cela remonte à un nouvel article de The Information, qui disait qu'Astra est un \"looped transformer\" ou \"recurrent depth\". Il est toujours intéressant de lire sur de nouvelles approches ou des approches différentes (y compris des rumeurs sur ce que les laboratoires fermés pourraient faire), mais démystifions un peu cela. Il y a environ 2 mois, j'ai partagé les détails architecturaux de Nanbeige, par exemple, où \"Nanbeige4.2-3B est pré-entraîné à partir de zéro sur 28T tokens avec un Looped Transformer qui réutilise la pile de couches pour augmenter la capacité sans ajouter de paramètres\". Oui, c'est tout. L'idée du Looped Transformer consiste simplement à réutiliser la même pile de 22 couches (= bloc transformeur) deux fois au lieu d'une. Ainsi, cela étend effectivement l'architecture à 22 couches à 44 couches, mais sans dupliquer les poids. En termes simples, cela double à peu près la taille du modèle (si l'on ignore un instant les couches d'intégration et de sortie). Mais au lieu de nécessiter 2 fois plus de stockage et de RAM pour héberger ce modèle, il reste de la même taille puisque nous réutilisons les composants. Cependant, il coûte presque 2 fois plus cher en termes de calcul, car nous faisons passer le texte intégré par presque 2 fois plus de couches. Pourquoi ? Dans le rapport technique de Nanbeige 4.2, les chercheurs ont constaté que deux passes donnaient le meilleur compromis et conservaient environ 75 % de l'efficacité des tokens d'une architecture standard. (Plus de passes n'apportaient que peu de gains mais rendaient l'entraînement beaucoup plus lent et beaucoup plus cher). Alors que, pour autant que je sache, Nanbeige 4.2 est le premier modèle open-weight notable qui a adopté cette approche, l'idée remonte au papier NeurIPS \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". En fait, ce papier propose un mécanisme un peu plus sophistiqué en ajoutant un routeur appris qui détermine si chaque token reçoit une, deux, ou plusieurs passes. Ainsi, les tokens faciles peuvent sortir tôt tandis que les tokens plus difficiles reçoivent un calcul supplémentaire. En résumé, Astra pourrait être un très bon modèle, mais il ne faut pas s'attarder sur cet aspect \"looped transformer\", qui n'est qu'une petite modification architecturale. De plus, l'affirmation selon laquelle \"la nouvelle technique fonctionne d'une manière qui obscurcit tout ou partie du raisonnement de l'IA, également connu sous le nom de 'chain-of-thought'\" n'est pas nécessairement vraie en ce qui concerne la méthode du Looped Transformer. Il est possible que le journaliste de The Information fasse référence à une autre technique ou ait mal interprété la méthode du Looped Transformer. La réutilisation des couches ne supprime pas d'elle-même la chaîne de pensée visible. Elle ajoute du calcul dans les états cachés avant l'émission du token suivant, tout comme le font les couches transformeur ordinaires. Mais sur la base des informations dont nous disposons, la seule interprétation plausible ici est que si un modèle utilise davantage de ces passes récurrentes, il peut avoir besoin de générer moins de tokens de raisonnement intermédiaires. Ainsi, une plus grande partie de son calcul se produit dans des activations latentes qui ne peuvent pas être lues sous forme de texte. Mais nous obtiendrions le même effet si nous augmentions la taille du modèle, comme GPT 5.6 Luna -> GPT 5.6 Sol.",
-        "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
-        "decryptage": "Ce tweet clarifie la nature de l'architecture 'looped transformer' potentiellement utilisée par GPT-6 Astra, expliquant qu'il s'agit d'une optimisation technique pour réutiliser des couches de calcul, et non d'une méthode cachant le raisonnement de l'IA.",
+        "author_name": "Pieter Levels",
+        "handle": "@levelsio",
+        "text_fr": "🎒Après une décennie, j'ai rendu nomads.com gratuit pour tout le monde maintenant ! Enfin presque gratuit, c'est 1$ pour s'inscrire afin d'éviter beaucoup de spam. La raison est 1) j'ai gagné assez d'argent (avec) 2) facturer pour une communauté limite artificiellement sa taille, si vous mettez le prix à 299$ vous obtenez 50 nouveaux membres par mois, à 99$ vous obtenez 200 personnes, à 29$ vous obtenez 400 personnes, etc. Et cela m'a toujours agacé, je ne veux pas mettre de limite mais j'y étais obligé pour pouvoir en vivre, donc c'est gratuit maintenant. Je veux que ce soit la plus grande communauté pour les nomades numériques, les voyageurs du monde, les penseurs souverains et les personnes de type \"réseau-État\". Pendant des années, elle a eu un excellent sponsor avec @SafetyWing et je pense que c'est peut-être un meilleur modèle pour l'avenir, attirer beaucoup plus de gens et ensuite simplement ajouter plus de sponsors. Actuellement, pour information, elle compte 43 252 membres payants (soit environ 300/mois pendant 12 ans !), donc il sera intéressant de voir jusqu'où elle peut grandir. Je pense que maintenant que l'AGI est à l'horizon (ou certains disent déjà là), les communautés en ligne et hors ligne (IRL) deviendront vraiment importantes. Les gens parlent plus à l'IA maintenant qu'aux humains, et il y avait déjà une épidémie de solitude avant l'IA. Se faire de nouveaux amis et des rencontres n'est pas si facile pour les gens maintenant. Et avec le travail à distance et l'entrepreneuriat, les gens manquent d'un espace comme un bureau où ils feraient habituellement des amis ou rencontreraient des partenaires. J'ai rencontré la plupart des amis que j'ai maintenant en voyageant et en vivant autour du monde pendant les 10 dernières années et plus (et beaucoup via mon site aussi), et j'ai aussi rencontré ma petite amie grâce à ces amis ! Donc je pense que les communautés peuvent jouer un vrai rôle dans cette ère post-AGI. Du point de vue commercial post-AGI, les communautés ont aussi un avantage concurrentiel là où beaucoup de mes applications SaaS n'en ont pas. Il y a donc une certaine urgence à faire de Nomads la meilleure communauté pour ces personnes. Mais c'est pourquoi je dois supprimer toute limitation à sa croissance maintenant. Donc, d'une certaine manière, après 12 ans, je passe un peu au modèle subventionné par le capital-risque, mais toujours 100% auto-financé, un peu comme \"Soit tu meurs en héros, soit tu vis assez longtemps pour te voir devenir le méchant\". Ayant assez d'argent maintenant, je peux me permettre de faire ces choses et de trouver le modèle économique plus tard, ce qui, je pense, sera plus des sponsors. Profitez-en et inscrivez-vous et dites-moi ce qu'il faut améliorer !!! 😊 @levelsio (@levelsio) Nous devons construire des choses que l'AGI ne peut pas remplacer comme la connexion humaine, l'audience (X par exemple), la communauté (Nomads.com par exemple) Lien Nomads.com 🌍 Trouvez votre peuple : Rejoignez une communauté mondiale de nomades numériques vivant partout dans le monde nomads.com — http://nitter.jaydenha.uk/levelsio/status/2095953446742462807#m",
+        "text_original": "🎒After a decade, I have made nomads.com free for everyone now! Well almost free, it's $1 to sign up to avoid getting lots of spam The reason is 1) I have made enough money (from it) 2) charging for a community artificially limits the size, if you put the price at $299 you get 50 new members per month, at $99 you get 200 people, at $29 you get 400 people, etc. And this always annoyed me, I don't want to put a limit but I had to, to be able to make money from it, so it's free now I want it to be it the biggest community for digital nomads, world travelers, sovereign thinkers and network state type people For years it has has a great sponsor with @SafetyWing and I think that's maybe a better model for the future, get much more people in and then just add more sponsors Right now for the record it has 43,252 paid members (so about 300/mo for 12 years!), so it will be interesting to see what it can grow too I think now that AGI is on the horizon (or some say already here), online and offline (IRL) communities will become really important. People are talking more to AI now than to humans, and there was already a loneliness epidemic before AI Making new friends and dating is not so easy for people now. And with remote work and entrepreneurship, people lack a space like an office where people would usually make friends or meet partners I made most of the friends I have now through traveling and living around the world for the last 10+ years (and many via my site too), and I also met my girlfriend through those friends! So I think communities can have a real role in that post-AGI Post-AGI business wise, communities also have a moat where many of my SaaS apps do not. So there is some urgency I feel to make Nomads in to the best community there is for those people. But that's why I have to remove any limitations to its growth now So in a way after 12 years I am switching to the subsidized VC model a bit, but still 100% bootstrapped, kinda like \"You either die a hero, or you live long enough to see yourself become the villain\" Having enough money now I can afford to do these things and figure out the business model later, which I think will be more sponsors Enjoy and please sign up and tell me what to improve!!! 😊 @levelsio (@levelsio) We have to build stuff that AGI cannot replace Like human connection, audience (X for ex), community ( Nomads.com for ex) Link Nomads.com 🌍 Find your people: Join a global community of digital nomads living around the world nomads.com — http://nitter.jaydenha.uk/levelsio/status/2095953446742462807#m",
+        "link": "http://nitter.jaydenha.uk/levelsio/status/2096177854270550097#m",
+        "decryptage": "AGI (Artificial General Intelligence) ou Intelligence Artificielle Générale, est un type d'IA qui serait capable de comprendre, d'apprendre et d'appliquer l'intelligence à n'importe quelle tâche intellectuelle qu'un humain peut faire; SaaS (Software as a Service) est un modèle de logiciel où les utilisateurs accèdent à une application via internet, sans l'installer sur leur propre appareil; un \"fossé\" (moat) dans le monde des affaires est un avantage concurrentiel durable qui protège une entreprise de la concurrence.",
         "category": "idees",
-        "highlight_reason": "Analyse technique pointue démystifiant le 'looped transformer' associé à Astra, expliquant une innovation architecturale sans la surinterpréter et offrant un éclairage essentiel pour comprendre les avancées réelles."
+        "highlight_reason": "Ce tweet aborde une réflexion profonde et très pertinente sur l'impact social de l'IA (AGI) et l'importance croissante des communautés humaines, un sujet essentiel pour tout débutant cherchant à comprendre le 'big picture' de l'IA."
+      },
+      {
+        "author_name": "Amjad Masad",
+        "handle": "@amasad",
+        "text_fr": "GPT-6 Astra est maintenant sur Replit ! 🤯 Le week-end est parti. 😅 Vidéo OpenAI (@OpenAI) Voici GPT-6 Astra. Tout ce que vous pouvez faire sur un ordinateur, Astra peut le faire pour vous. Rapidement. Vidéo — http://nitter.jaydenha.uk/OpenAI/status/2095595741528125780#m",
+        "text_original": "GPT-6 Astra is now on Replit! 🤯 There goes the weekend. 😅 Video OpenAI (@OpenAI) This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast. Video — http://nitter.jaydenha.uk/OpenAI/status/2095595741528125780#m",
+        "link": "http://nitter.jaydenha.uk/MannyBernabe/status/2096002781853225073#m",
+        "decryptage": "Replit est une plateforme de développement logiciel en ligne qui permet de coder, de déployer et d'héberger des applications, facilitant ainsi l'accès et l'expérimentation avec de nouveaux modèles d'IA comme GPT-6 Astra.",
+        "category": "outils",
+        "highlight_reason": "Ce tweet est un excellent exemple de l'intégration d'un modèle d'IA de pointe (Astra) dans un environnement de développement accessible comme Replit, permettant aux débutants de tester et de construire plus facilement."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Introduction d'Atlas : Le premier modèle de monde multimodal au monde qui génère des images et des vidéos avec un contrôle de caméra pixel par pixel et les reconstruit en 3D. Modélisez le monde, déplacez la caméra et simulez l'espace et le temps. Vidéo",
-          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-          "link": "http://nitter.jaydenha.uk/theworldlabs/status/2094839756329041984#m",
-          "decryptage": "Atlas est présenté comme le premier système d'IA capable de modéliser le monde en 3D à partir d'images et de vidéos, avec un contrôle précis de la caméra, ouvrant la voie à des simulations réalistes."
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Le déploiement d'Astra est en cours, impatient de voir ce que vous allez faire et construire. Sam Altman (@sama) GPT-6 Astra est maintenant disponible pour tous les utilisateurs Pro, Enterprise et Business Premium dans Work/Codex, et est disponible via l'API. Nous allons commencer le déploiement pour les utilisateurs Plus et Business ensuite. Merci de votre patience. — http://nitter.jaydenha.uk/sama/status/2095973658867171733#m",
+          "text_original": "Astra rollout in progress, excited to see what you do and build Sam Altman (@sama) GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the API. We will start rollout to Plus and Business users next. Thank you for the patience. — http://nitter.jaydenha.uk/sama/status/2095973658867171733#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2095982009550082387#m",
+          "decryptage": "Les modèles 'Pro, Enterprise, Business Premium, Plus' désignent différents niveaux d'abonnement ou de service pour accéder aux fonctionnalités d'OpenAI; l'API (Application Programming Interface) permet aux développeurs d'intégrer des fonctionnalités d'IA dans leurs propres applications."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Aujourd'hui, nous sommes ravis de partager les premiers progrès dans l'utilisation de Gemini pour accélérer la découverte scientifique dans le monde réel. Nous présentons une extension de Co-Scientist que nous utilisons pour collaborer avec des scientifiques dans les domaines de la science des matériaux, de la biologie et de l'informatique.",
-          "text_original": "Today, we're excited to share early progress on using Gemini to accelerate scientific discovery in the real-world. We present an extension of Co-Scientist which we use to collaborate with scientists across materials science, biology, and computer science.",
-          "link": "http://nitter.jaydenha.uk/SRSchmidgall/status/2093380426924708082#m",
-          "decryptage": "Gemini, le modèle d'IA de Google, est utilisé pour aider les scientifiques à faire de nouvelles découvertes dans divers domaines comme la science des matériaux ou la biologie, en collaborant grâce à un outil nommé Co-Scientist."
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Enthousiasmé par Astra sur Azure ! Satya Nadella (@satyanadella) Ravi de voir les premiers clients utiliser déjà Astra sur Azure ! azure.microsoft.com/en-us/bl… Lien GPT-6 Astra : Intelligence de pointe pour le travail, maintenant disponible dans Microsoft Foundry | Microsoft Azure... GPT-6 Astra, le tout nouveau modèle de pointe d'OpenAI, commence à être déployé via le programme d'accès limité Microsoft Foundry, sa disponibilité s'étendant aux clients participants. azure.microsoft.com — http://nitter.jaydenha.uk/satyanadella/status/2095713765446840591#m",
+          "text_original": "excited for Astra on Azure! Satya Nadella (@satyanadella) Excited to see early customers already using Astra on Azure! azure.microsoft.com/en-us/bl… Link GPT-6 Astra: Frontier intelligence for work, now available in Microsoft Foundry| Microsoft Azure... GPT-6 Astra, OpenAI's newest frontier model, begins rolling out through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers. azure.microsoft.com — http://nitter.jaydenha.uk/satyanadella/status/2095713765446840591#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2095730639094079594#m",
+          "decryptage": "Azure est la plateforme de services cloud de Microsoft, où les entreprises peuvent héberger et exécuter leurs applications et données; Microsoft Foundry Limited Access Program est un programme permettant à certaines entreprises d'accéder à des technologies avant leur disponibilité générale."
         },
         {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "GPT-6 Astra par @OpenAI atteint le SOTA sur ARC-AGI : - Astra obtient 63% sur ARC-AGI-3, 99% via un nouveau harnais d'adaptateur fournisseur - Il dépasse les performances humaines sur 96% des niveaux ARC-AGI-3 - Il construit le modèle symbolique le plus précis d'environnements nouveaux que nous ayons vu Nos analyses :",
-          "text_original": "GPT-6 Astra by @OpenAI achieves SOTA on ARC-AGI: - Astra scores 63% on ARC-AGI-3, 99% via a new provider adapter harness - It surpasses human performance on 96% of ARC-AGI-3 levels - It builds the most precise symbolic model of novel environments we've seen Our analysis:",
-          "link": "http://nitter.jaydenha.uk/arcprize/status/2095597602545025138#m",
-          "decryptage": "Ce tweet annonce que GPT-6 Astra, un nouveau modèle d'OpenAI, réalise des performances exceptionnelles sur le benchmark ARC-AGI, surpassant même les humains dans de nombreux cas, grâce à sa capacité à modéliser des environnements complexes."
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "arc-agi-3 est maintenant saturé. ARC Prize (@arcprize) GPT-6 Astra par @OpenAI atteint le SOTA sur ARC-AGI : - Astra obtient un score de 63% sur ARC-AGI-3, 99% via un nouveau harnais d'adaptateur de fournisseur - Il surpasse les performances humaines sur 96% des niveaux d'ARC-AGI-3 - Il construit le modèle symbolique le plus précis d'environnements nouveaux que nous ayons vu. Notre analyse : — http://nitter.jaydenha.uk/arcprize/status/2095597602545025138#m",
+          "text_original": "arc-agi-3 is now saturated ARC Prize (@arcprize) GPT-6 Astra by @OpenAI achieves SOTA on ARC-AGI: - Astra scores 63% on ARC-AGI-3, 99% via a new provider adapter harness - It surpasses human performance on 96% of ARC-AGI-3 levels - It builds the most precise symbolic model of novel environments we've seen Our analysis: — http://nitter.jaydenha.uk/arcprize/status/2095597602545025138#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2095629409017614390#m",
+          "decryptage": "SOTA signifie 'State Of The Art', le meilleur niveau de performance actuellement atteint pour une tâche donnée; ARC-AGI est un ensemble de défis visant à tester les capacités de raisonnement et de résolution de problèmes des IA, simulant une intelligence générale; un modèle symbolique est une approche de l'IA qui représente la connaissance et le raisonnement à l'aide de symboles et de règles logiques, plutôt que de simples données brutes."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "🛡️Présentation de Shieldstral, le modèle open-weights de Mistral de 3 milliards de paramètres pour la sécurité du contenu, déployable sur appareil 🧵 mistral.ai/news/shieldstral",
-          "text_original": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
-          "link": "http://nitter.jaydenha.uk/MistralAI/status/2084684735725379637#m",
-          "decryptage": "Shieldstral est un nouveau modèle d'IA de Mistral, plus léger et conçu pour filtrer les contenus inappropriés, qui peut fonctionner directement sur votre appareil."
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Astra est utile pour tant de choses, mais je suis particulièrement impatient de voir comment il transformera des domaines comme l'entrepreneuriat, la découverte scientifique et la façon dont les petites équipes abordent les grands problèmes. OpenAI (@OpenAI) GPT-6 Astra est à la pointe de la technologie sur FrontierMath Tier 4, ARC-AGI 3 et TerminalBench-4.0. GPT‑6 Astra est également une avancée majeure pour la découverte scientifique, avec des performances de pointe sur Terminal-Bench Science 0.1 et HealthBench Pro. — http://nitter.jaydenha.uk/OpenAI/status/2095595752815030713#m",
+          "text_original": "Astra is useful for so many things, but I'm particularly excited to see how it transforms areas like entrepreneurship, scientific discovery, and how small teams tackle big problems. OpenAI (@OpenAI) GPT-6 Astra is state-of-the-art on FrontierMath Tier 4, ARC-AGI 3, and TerminalBench-4.0. GPT‑6 Astra is also a major advance for scientific discovery, with state-of-the-art performance on Terminal-Bench Science 0.1 and HealthBench Pro. — http://nitter.jaydenha.uk/OpenAI/status/2095595752815030713#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2095607826471334089#m",
+          "decryptage": "FrontierMath, TerminalBench et HealthBench Pro sont des bancs d'essai spécifiques conçus pour évaluer les performances des modèles d'IA dans des domaines comme les mathématiques, la résolution de problèmes avancée et la santé."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Annonce de Robostral Navigate, notre premier modèle pour la navigation incarnée : un modèle de navigation robotique de 8 milliards de paramètres qui guide les robots pour effectuer de manière autonome des tâches spécifiées en langage naturel. Caméra RVB unique. État de l'art sur R2R-CE. Vidéo",
-          "text_original": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
-          "link": "http://nitter.jaydenha.uk/MistralAI/status/2074856309438980145#m",
-          "decryptage": "Robostral Navigate est un modèle d'IA spécialisé pour que les robots comprennent des instructions en langage naturel et se déplacent de manière autonome pour accomplir des tâches, en utilisant juste une caméra."
+          "author_name": "Logan Kilpatrick",
+          "handle": "@officiallogank",
+          "text_fr": "Gemini 3.8 Flash sur DeepSWE 1.1, score 73.7 % !",
+          "text_original": "Gemini 3.8 Flash on DeepSWE 1.1, scores 73.7%!",
+          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095178478505328918#m",
+          "decryptage": "Gemini 3.8 Flash est un modèle d'IA de Google, conçu pour être rapide et efficace; DeepSWE est un banc d'essai évaluant les capacités des modèles d'IA, notamment en ingénierie logicielle."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Aujourd'hui, nous publions Le Chaton L∃∀N, alias Leanstral 1.5. Il atteint les performances SOTA sur les benchmarks d'algèbre de troisième cycle FATE-H et FATE-X et améliore la Frontière de Pareto sur PutnamBench, résolvant 587/672 problèmes avec un budget 10x moins cher. 🧵",
-          "text_original": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
-          "link": "http://nitter.jaydenha.uk/mertunsal2020/status/2073046288208412960#m",
-          "decryptage": "Leanstral 1.5 est un modèle d'IA particulièrement doué pour résoudre des problèmes mathématiques complexes, comme ceux rencontrés dans les études supérieures, et ce, de manière plus efficace et économique."
+          "author_name": "Logan Kilpatrick",
+          "handle": "@officiallogank",
+          "text_fr": "Présentation de Gemini 3.8 Flash, un nouveau bond dans les capacités d'agentivité et de codage de Gemini, et notre 3ème modèle Flash mis à jour en seulement 6 semaines... C'est un modèle avec lequel il a été très amusant de travailler, impatient de voir ce que vous en pensez tous !",
+          "text_original": "Introducing Gemini 3.8 Flash, another jump in Gemini's agentic + coding capabilities, and our 3rd updated Flash model in only 6 weeks... This model has been a ton of fun to work with, excited to see what you all think!",
+          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175881690173885#m",
+          "decryptage": "Les capacités d''agentic' (ou d''agentivité') désignent la capacité d'une IA à planifier et exécuter des actions de manière autonome pour atteindre un objectif, en particulier dans le domaine du codage."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Mistral OCR 4 a transformé un examen de calcul manuscrit en LaTeX propre ! Nous lui avons donné une photo d'une page d'examen manuscrite. Le modèle a lu l'écriture manuscrite et a reconstruit chaque formule en texte numérique structuré Sortie : Temps : 5.1s · Coût : 0.09 $ Les formules sont arrivées exactement comme il faut - la partie difficile a été maîtrisée. Le graphique, malheureusement, il ne l'a pas redessiné. Mais c'est là le détail révélateur : la plupart des outils OCR se contentent de décharger le texte et abandonnent silencieusement la figure. OCR 4 a capturé le graphique, l'a encadré et l'a étiqueté comme un graphique. Il n'est pas redessiné, mais il est lu et pris en compte Vidéo Mistral AI (@MistralAI) Présentation de Mistral OCR 4. Il crée de la structure avec des boîtes englobantes, une classification de blocs et des scores de confiance inline dans 170 langues. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-          "text_original": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-          "link": "http://nitter.jaydenha.uk/atomic_chat_hq/status/2069597176225796581#m",
-          "decryptage": "Mistral OCR 4 est un outil d'IA capable de lire de l'écriture manuscrite, de la convertir en texte formaté (comme LaTeX) et de reconnaître des éléments graphiques, même s'il ne les reproduit pas toujours."
+          "author_name": "Logan Kilpatrick",
+          "handle": "@officiallogank",
+          "text_fr": "3.8 Flash a le même prix que 3.7, a à peu près la même vitesse, et est disponible via l'API Gemini, dans AI Studio, Antigravity, l'App Gemini, et plus encore ! En savoir plus : blog.google/innovation-and-a… Si incroyable de voir les progrès et le travail acharné de l'équipe. Pousser fort pour être à la pointe. Lien Présentation de Gemini 3.8 Flash et 3.8 Flash Cyber Gemini 3.8 Flash et 3.8 Flash Cyber offrent une intelligence de nouvelle génération pour les workflows \"agentic\" et la cybersécurité. blog.google",
+          "text_original": "3.8 Flash is the same price as 3.7, is ~the same speed, and is available via the Gemini API, in AI Studio, Antigravity, Gemini App, and more! Read more: blog.google/innovation-and-a… So incredible to see the progress and hard work from the team. Pushing hard to be at the frontier. Link Introducing Gemini 3.8 Flash and 3.8 Flash Cyber Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity. blog.google",
+          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175885439832243#m",
+          "decryptage": "L'API Gemini, AI Studio, Antigravity, et l'App Gemini sont différentes interfaces ou plateformes permettant aux développeurs ou utilisateurs d'accéder et d'interagir avec les modèles Gemini de Google."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Présentation de Mistral OCR 4. Il crée de la structure avec des boîtes englobantes, une classification de blocs et des scores de confiance inline dans 170 langues. 🧵👇",
-          "text_original": "Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
-          "link": "http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-          "decryptage": "Mistral OCR 4 est un nouveau système de reconnaissance optique de caractères (OCR) qui non seulement lit du texte dans de nombreuses langues, mais identifie aussi la structure des documents (textes, images, etc.)."
+          "author_name": "Logan Kilpatrick",
+          "handle": "@officiallogank",
+          "text_fr": "Présentation de l'Agentic Video dans l'API Gemini, une nouvelle façon de traiter de longues vidéos qui réduit la consommation de tokens jusqu'à 88% tout en augmentant la qualité. Cela peut être contrôlé facilement dans l'API par vidéo, disponible avec nos nouveaux modèles comme 3.7 Flash !",
+          "text_original": "Introducing Agentic Video in the Gemini API, a new way to process long videos which reduces token consumption by up to 88% while also increasing quality. This can be controlled easily in the API on a per video basis, available with our newest models like 3.7 Flash!",
+          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2094843143623680264#m",
+          "decryptage": "Agentic Video permet à l'IA d'analyser intelligemment de longues vidéos en réduisant l'utilisation des 'tokens', qui sont les unités de texte traitées par un modèle d'IA, et qui ont un coût."
+        },
+        {
+          "author_name": "Logan Kilpatrick",
+          "handle": "@officiallogank",
+          "text_fr": "Vous pouvez en savoir plus sur l'agentic video dans notre blog de lancement : blog.google/innovation-and-a… très excité étant donné que Gemini continue d'être SOTA en matière de compréhension vidéo, continuez à nous faire part de vos commentaires ! Lien Présentation de la compréhension vidéo agentic avec Gemini Nous lançons la compréhension vidéo agentic sur nos derniers modèles Gemini pour une précision améliorée et des coûts et une utilisation des tokens réduits. blog.google",
+          "text_original": "you can read more about agentic video in our launch blog: blog.google/innovation-and-a… very excited given that Gemini continues to be SOTA in video understanding, pls keep the feedback coming! Link Introducing agentic video understanding with Gemini We’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage. blog.google",
+          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2094843377774895538#m",
+          "decryptage": "SOTA (State-Of-The-Art) dans la compréhension vidéo signifie que Gemini est actuellement le meilleur modèle pour analyser et interpréter le contenu des vidéos."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Gemini 3.8 est là🔥 Construire avec lui ces derniers jours a été une expérience très amusante ! Les progrès des derniers mois ont été impressionnants. C'est un modèle \"agentic\" très bien équilibré, performant dans de nombreux domaines (finance/juridique/etc) et modalités. Il est temps de construire !",
+          "text_original": "Gemini 3.8 is here🔥 Building with it for the last couple of days has been a very fun experience! The progress in the last months has been impressive. It's a very well rounded agentic model, performing well in many domains (finance/legal/etc) and modalities Time to build!",
+          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095180888921276643#m",
+          "decryptage": "Un modèle \"bien équilibré\" (well rounded) signifie qu'il est performant dans de nombreux domaines et types de données ('modalités'), comme le texte, l'image, le son, etc.; 'agentic' signifie que le modèle peut agir de manière autonome pour accomplir des tâches."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "En savoir plus ! blog.google/innovation-and-a… Lien Présentation de Gemini 3.8 Flash et 3.8 Flash Cyber Gemini 3.8 Flash et 3.8 Flash Cyber offrent une intelligence de nouvelle génération pour les flux de travail \"agentic\" et la cybersécurité. blog.google",
+          "text_original": "Read more about it! blog.google/innovation-and-a… Link Introducing Gemini 3.8 Flash and 3.8 Flash Cyber Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity. blog.google",
+          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095180891987321117#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "L'analyse vidéo agentic est là🔥 Plutôt que de dépenser 200k tokens pour traiter une longue vidéo, Gemini peut maintenant utiliser des outils pour les traiter intelligemment en fonction du prompt (analyser la transcription, adapter les FPS, etc.), ce qui entraîne 88% moins de tokens, une latence plus faible et une précision accrue !",
+          "text_original": "Agentic video understanding is here🔥 Rather than spending 200k tokens processing a long video, Gemini can now use tools to intelligently process them based on the prompt (analyze transcription, adapt FPS, etc.) leading to 88% fewer tokens, lower latency, and higher accuracy!",
+          "link": "http://nitter.jaydenha.uk/osanseviero/status/2094841663399022757#m",
+          "decryptage": "Les 'tokens' sont des unités de texte (mots ou parties de mots) utilisées par les modèles d'IA ; moins il y en a, moins le traitement est coûteux et plus il est rapide; 'agentic' signifie que l'IA peut agir de manière autonome pour accomplir des tâches complexes, ici l'analyse vidéo."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Félicitations Clem, Thom, Julien, Lysandre et toute l'équipe de Hugging Face. Fier de vous tous ! L'impact de HF dans l'écosystème de l'IA a été énorme, et je suis tellement excité de les voir étendre cet impact avec NVIDIA. Félicitations @JensenHuang , les légendes du ML rejoignent votre équipe :) clem 🤗 (@ClementDelangue) Super heureux de partager notre intention de joindre nos forces avec NVIDIA dans une acquisition de 12 930 300 000 $ 💛💚 10 ans après le début de Hugging Face, l'IA open source est à un point d'inflexion. Grâce à la communauté, nous avons montré que cela peut être un complément, et même une alternative, aux API à code source fermé. Mais pour que cela se produise à plus grande échelle, cela nécessite plus de puissance de calcul, plus de support, plus de collaboration et plus de visibilité. C'est pourquoi nous sommes allés parler à Jensen, qui nous a proposé de faire exactement cela avec nous. En plus de doubler les contributions massives de NVIDIA à l'IA open source (je les avais appelés le \"Roi de l'IA open source américaine\" plus tôt cette année), ils se sont engagés à soutenir fermement Hugging Face et notre mission tout en gardant la plateforme ouverte, indépendante et agnostique en matière de calcul. Les fondateurs et l'équipe restent tous pour continuer à faire avancer cette mission. Ensemble, nous pensons pouvoir faire de l'open source le moyen par défaut de construire l'IA, dans le but de permettre à 100 millions de bâtisseurs d'IA de posséder leur intelligence plutôt que de la louer. Enthousiasmé par les 10 prochaines années ! 🤗🤗🤗 — http://nitter.jaydenha.uk/ClementDelangue/status/2095482998674112733#m",
+          "text_original": "Congrats Clem, Thom, Julien, Lysandre, and the entire Hugging Face team. Proud of all of you! The impact of HF in the AI ecosystem has been massive, and I'm so so excited to see them scale that impact with NVIDIA Congrats @JensenHuang , the goats of ML are joining your team :) clem 🤗 (@ClementDelangue) Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 years after starting Hugging Face, open-source AI is at an inflection point. Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us. In addition to doubling down on NVIDIA’s massive contributions to open-source AI (I called them the “King of American open-source AI” earlier this year), they’ve committed to strongly supporting Hugging Face and our mission while keeping the platform open, independent and compute agnostic. The founders and the team are all staying to keep pushing this mission forward. Together, we think we can make open source the default way to build AI, with the goal of empowering 100 million AI builders to own their intelligence rather than rent it. Excited about the next 10 years! 🤗🤗🤗 — http://nitter.jaydenha.uk/ClementDelangue/status/2095482998674112733#m",
+          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095493882834272497#m",
+          "decryptage": "L'open source en IA signifie que le code, les modèles et les données sont publiquement accessibles et peuvent être utilisés, modifiés et partagés librement par tous; NVIDIA est une entreprise connue pour ses cartes graphiques (GPU) essentielles pour l'entraînement des modèles d'IA, et elle investit massivement dans ce domaine; Jensen Huang est le PDG de NVIDIA, et Hugging Face est une plateforme très populaire pour le développement et le partage d'outils et de modèles d'IA en open source."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "OK tant pis, l'équipe et Astra ont fait du bon travail et nos systèmes sont plus évolutifs que nous l'avions prévu. Astra est maintenant déployé pour tous les utilisateurs Plus et Business également. J'espère que vous vous amuserez et faites-nous savoir comment ça se passe !",
+          "text_original": "OK nevermind, the team and Astra did a good job and our systems are more scalable than we anticipated. Astra is now rolled out to all Plus and Business users too. Hope you have a blast and let us know how it goes!",
+          "link": "http://nitter.jaydenha.uk/NickADobos/status/2096037295833092534#m",
+          "decryptage": "Les systèmes 'évolutifs' sont capables de gérer une augmentation de la demande ou du nombre d'utilisateurs sans perdre en performance, ce qui est crucial pour un déploiement à grande échelle."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "🙏🙏 @iScienceLuvr Tanishq Mathew Abraham, Ph.D. (@iScienceLuvr) Énormes félicitations à toute l'équipe de @huggingface pour l'acquisition par NVIDIA !! 🔥 Depuis l'époque de \"pytorch-pretrained-bert\" en 2018, Hugging Face a été un élément crucial de l'IA open source. Hugging Face a également été une grande partie de mon parcours en IA. Je me souviens avoir utilisé pytorch-pretrained-bert, qui est devenu la bibliothèque transformers, dans différentes compétitions Kaggle. De même, j'ai souvent utilisé timm, accelerate, Gradio, diffusers et de nombreuses autres bibliothèques tout au long de mon parcours en IA open source. J'ai également eu l'opportunité de contribuer à de nombreux projets et bibliothèques HF. Je me souviens avec affection avoir participé à un hackathon JAX que Hugging Face a organisé en 2021 et avoir rejoint une équipe travaillant à répliquer DALL-E. Ce fut le projet DALL-E mini qui est devenu une sensation virale qui a d'abord mis l'art IA sous les yeux du public. Ce projet m'a spécifiquement aidé à démarrer mon parcours en IA générative (ce qui m'a conduit à rejoindre Stability AI). Chez @MedARC_AI et @SophontAI, nous nous concentrons sur la création d'IA médicale ouverte et accessible et, bien sûr, Hugging Face est l'une des principales plateformes que nous utilisons pour cela. Nous avons partagé divers modèles et ensembles de données sur la plateforme au cours des 4 dernières années. Au fil des ans, j'ai eu l'occasion de connaître des tonnes de personnes travaillant chez Hugging Face, dont beaucoup sont devenus de grands amis à moi. Toutes les personnes que je connais qui ont travaillé chez Hugging Face font partie des personnes les plus gentilles, les plus intelligentes et les plus travailleuses, toutes extrêmement passionnées par l'IA open source. C'est formidable de voir à quel point NVIDIA investit dans l'IA open source et je suis heureux qu'ils s'associent à Hugging Face pour développer cela davantage. Je suis très heureux de voir ce résultat positif pour toutes les parties impliquées ! — http://nitter.jaydenha.uk/iScienceLuvr/status/2096023385163940346#m",
+          "text_original": "🙏🙏 @iScienceLuvr Tanishq Mathew Abraham, Ph.D. (@iScienceLuvr) Huge congrats to everyone at @huggingface on the NVIDIA acquisition!! 🔥 Since the \"pytorch-pretrained-bert\" days back in 2018, Hugging Face has been such a crucial part of open-source AI. Hugging Face has also been such a big part of my AI journey as well. I remember using pytorch-pretrained-bert, which became the transformers library, in different Kaggle competitions. Similarly often used timm, accelerate, Gradio, diffusers, and many other libraries throughout my open-source AI journey. I have also had the opportunity to contribute back to many HF projects and libraries as well. I fondly remember participating in a JAX hackathon that Hugging Face hosted in 2021 and joined a team working on replicating DALL-E. This was the DALL-E mini project which became a viral sensation that first brought AI art in the public view. This project specifically also helped me get started in my generative AI journey (which led me to eventually joining Stability AI). At @MedARC_AI and @SophontAI , we're focused on making medical AI open and accessible and of course Hugging Face is one of the major platforms we use for this. We've shared various models and datasets on the platform over the past 4 years now. Over the years I have gotten to know tons of folks working at Hugging Face, many of whom have become great friends of mine too. Everyone I know who's worked at Hugging Face are among the kindest, smartest, hard-working people who are all extremely passionate about open-source AI. It's been great seeing how much NVIDIA is investing into open-source AI and I am glad they are partnering with Hugging Face to grow this further. I am very happy to see this positive outcome for everyone involved! — http://nitter.jaydenha.uk/iScienceLuvr/status/2096023385163940346#m",
+          "link": "http://nitter.jaydenha.uk/julien_c/status/2096146372265124226#m",
+          "decryptage": "Pytorch-pretrained-bert, transformers library, timm, accelerate, Gradio, diffusers, Kaggle competitions, JAX hackathon, DALL-E mini sont des noms de bibliothèques logicielles, d'événements et de projets clés dans le monde de l'IA open source, représentant des outils et des jalons dans le développement de l'IA."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Le 🐐 des 🐐s Victor M (@victormustar) réfléchit un peu à mon (long) parcours @huggingface - la plupart des grandes choses commencent très petites : > il y a environ 6 ans @julien_c me contacte (sur twitter) il construit un \"hub pour la communauté des modèles ml\" (wtf c'est quoi ça). Je trouve quand même ça intéressant et je veux en faire partie > jour 18 : nous commençons à itérer sur des idées de design et des prototypes avec l'équipe du Hub - en essayant beaucoup de choses pour comprendre ce qui pourrait fonctionner (et nous nous amusons à le faire) > jour 41 : julien partage nos maquettes avec l'équipe, \"tout le monde est assez excité\". 2 semaines plus tard, un e-mail d'offre arrive, sujet : \"Offre 🤗😱\" > jour 167 : nous écrivons \"La communauté IA qui bâtit le futur\", 2 jours avant le lancement, pas sûr que quelqu'un s'en soucie > jour 169 : jour de lancement, julien : \"nous lançons maintenant ou demain ?\" moi : \"maintenant, j'ai fini\". nous lançons le nouveau Hugging Face Hub > jour 318 : clem poste des graphiques de trafic dans slack à 1h du matin : \"très belle croissance en août !\". Des aperçus de quelque chose qui se passe 👀 > jour 687 : ce n'est plus petit... ce jour-là aussi, dalle-mini devient viral, pendant une semaine tout internet est sur huggingface > les années passent, nous continuons à livrer sans interruption, l'équipe du Hub grandit un peu (avec des personnes exceptionnelles). La communauté répond présente, 1M de modèles, puis 3M... > jour 2221 (hier) : surprise \"all-hands\", Jensen Huang rejoint l'appel. Nous rejoignons NVIDIA. — http://nitter.jaydenha.uk/victormustar/status/2095861752609067294#m",
+          "text_original": "The 🐐 of 🐐s Victor M (@victormustar) reflecting a bit on my (long) journey @huggingface - most big things start very small: > around 6 years ago @julien_c contacts me (on twitter) he's building a \"hub for ml models community\" (wtf is this). Still I feel it's interesting and I want to be part of it > day 18: we start iterating on design ideas and prototypes with the Hub team - trying a lot of stuff to understand what could work (and we are having fun doing it) > day 41: julien shares our mockups with the team, \"everyone is pretty excited\". 2 weeks later an offer email arrives, subject: \"Offer 🤗😱\" > day 167: we write \"The AI community building the future\", 2 days before launch, not sure anyone will care > day 169: launch day, julien: \"we launch now or tomorrow?\" me: \"now, I'm done\". we launch the new Hugging Face Hub > day 318: clem posts traffic charts in slack at 1am: \"very nice growth in august!\". Glimpses of something happening 👀 > day 687: it's not small anymore... also on this day dalle-mini goes viral, for a week the whole internet is on huggingface > years pass by, we keep shipping uninterrupted, the Hub team grows a bit (with exceptional people). The community shows up, 1M models, then 3M... > day 2221 (yesterday): surprise all-hands, Jensen Huang joins the call. We're joining NVIDIA. — http://nitter.jaydenha.uk/victormustar/status/2095861752609067294#m",
+          "link": "http://nitter.jaydenha.uk/julien_c/status/2095903811877359686#m",
+          "decryptage": "Hugging Face Hub est la plateforme centrale de Hugging Face où les modèles, datasets et démos d'IA sont partagés; DALL-E mini (maintenant Craiyon) est un générateur d'images à partir de texte qui a connu un succès viral; les \"modèles ML\" (Machine Learning) sont des algorithmes qui apprennent à partir de données pour faire des prédictions ou prendre des décisions."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "DERNIÈRE NOUVELLE : Il a été révélé que l'acquisition de Hugging Face par NVIDIA pour 12 930 300 000,00 $ contient un \"easter egg\". Les 6 premiers chiffres du prix d'acquisition représentent la conversion décimale du caractère Unicode U+1F917. L'emoji 🤗.",
+          "text_original": "BREAKING: It’s been revealed NVIDIA's $12,930,300,000.00 acquisition of Hugging Face contains an easter egg. The first 6 numbers of the acquisition price represent the decimal conversion of Unicode character U+1F917. The 🤗 emoji.",
+          "link": "http://nitter.jaydenha.uk/Polymarket/status/2095646821485842805#m",
+          "decryptage": "Un \"easter egg\" est un message ou une fonctionnalité cachée; Unicode U+1F917 est le code numérique qui représente l'emoji 'visage qui fait un câlin' (🤗)."
         }
       ],
       "tips": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Une approche que je trouve utile pour travailler avec les LLM est une bonne vieille séance de divagations. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime me pencher en arrière, passer en mode /voix et simplement divaguer pendant environ 10 minutes, totalement en vrac, tout est permis, flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme « passage à la reconnaissance vocale désolé pour les fautes de frappe... ». Parfois, je le transforme en une petite interview de quelques échanges. Mais je trouve que les LLM sont étonnamment bons pour reconstruire de longues divagations incohérentes et souvent leur écho de vos propres pensées emmêlées sort bien plus propre que ce que vous aviez commencé. Le résultat est que vous améliorez la connexion mentale et avez moins à corriger par la suite.",
-          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-          "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
-          "decryptage": "Ce tweet propose une méthode pour mieux communiquer avec les modèles de langage (LLM) : utiliser la commande vocale pour exprimer ses idées sans filtre, permettant à l'IA de mieux les structurer et de les comprendre."
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Astra pour vous aider dans votre vie personnelle et professionnelle. GREG ISENBERG (@gregisenberg) 9 prompts cool pour GPT 6 Astra qui valent le coup d'être essayés : 1. Le renégociateur de factures. \"Parcours mes factures internet, téléphone et logiciels, entre dans le support de chat de chaque fournisseur, et négocie les prix à la baisse ou annule ce que je n'utilise pas.\" 2. Transforme une agence en logiciel. “Choisis une entreprise de services dans [niche] et reproduis exactement le flux de travail qu'elle vend à ses clients. Décompose-le en étapes, outils utilisés, entrées, sorties, points de jugement humain, et endroits où le travail est lent ou coûteux. Ensuite, conçois le produit IA le plus simple qui pourrait remplacer la première version de ce service et facture entre 500 et 5 000 $/mois.\" 3. Le \"flippeur\" de vide-greniers. \"Surveille Facebook Marketplace et Craigslist dans ma ville pour des [appareils photo / meubles / vélos] listés bien en dessous du prix du marché, et envoie-moi un SMS dès qu'un est mal pricé avec le lien.\" 4. Crée mon tableau de bord d'entreprise individuelle. “Examine mes documents, notes, exportations Stripe, analyses, appels clients et liste de projets, puis construis un tableau de bord opérationnel hebdomadaire. Je veux savoir ce qui rapporte de l'argent, ce qui fait perdre du temps, ce que les clients demandent, ce que je devrais arrêter de faire, et les trois actions à plus fort levier pour la semaine prochaine. Sois direct et montre ton travail.\" 5. Audite mon entreprise pour des opportunités d'agents. “Regarde comment cette entreprise fonctionne et trouve les tâches que nous devrions confier à des agents avant d'embaucher une autre personne. Pour chaque tâche, estime le temps humain actuel, le coût des erreurs, les outils impliqués, la difficulté de l'automatiser, et la première version sûre que nous pourrions déployer. Priorise les choses qui permettent d'économiser de l'argent ou de générer des revenus en 30 jours.\" 6. Sois mon opérateur de navigateur. “Utilise le navigateur pour compléter ce flux de travail : [flux de travail]. Au fur et à mesure, clique sur les sites réels, collecte les données, remplis les formulaires si nécessaire, et prends des notes sur ce qui a posé problème ou t'a ralenti. Une fois terminé, donne-moi le résultat, la procédure opérationnelle standard (SOP) répétable, et le plan d'automatisation pour que cela devienne un agent.\" 7. Toute l'équipe QA. \"Chaque nuit, ouvre mon application sur un vrai téléphone, passe par l'inscription, le paiement et les flux principaux, et prends une capture d'écran de tout ce qui est cassé ou prète à confusion.\" 8. L'espion concurrentiel. \"Inscris-toi chez mes 3 principaux concurrents, suis leurs produits et leurs e-mails, et envoie-moi un rapport mensuel sur chaque nouvelle fonctionnalité, changement de prix et ce qu'ils font mieux que nous.\" 9. Crée un jeu auquel les gens joueraient vraiment 5 minutes comme \"lead magnet\". \"Construis un jeu par navigateur autour de cette mécanique : [mécanique]. Ne te contente pas d'une jolie démo ; ajoute de la progression, de la tension, un score, des échecs, des finitions, et une raison pour laquelle quelqu'un l'enverrait à un ami. Ensuite, ajoute la capture de leads (e-mail/SMS), il doit être lié à mon produit principal qui vend XYZ.\" — http://nitter.jaydenha.uk/gregisenberg/status/2095854071580156338#m",
+          "text_original": "Astra for helping in your personal and work life GREG ISENBERG (@gregisenberg) 9 cool GPT 6 Astra prompts worth trying: 1. The bill renegotiator. \"Go through my internet, phone, and software bills, jump into each provider's chat support, and negotiate them down or cancel what I'm not using.\" 2. Turn an agency into software. “Pick one service business in [niche] and reverse-engineer the exact workflow they sell to clients. Break it into steps, tools used, inputs, outputs, human judgment points, and places where the work gets slow or expensive. Then design the simplest AI product that could replace the first version of that service and charge $500-$5,000/month.” 3. Garage sale flipper. \"Watch Facebook Marketplace and Craigslist in my city for [cameras / furniture / bikes] listed way under market, and text me the second one's mispriced with the link.\" 4. Create my 1 person company dashboard. “Look at my docs, notes, Stripe exports, analytics, customer calls, and project list, then build a weekly operator dashboard. I want to know what is making money, what is wasting time, what customers are asking for, what I should stop doing, and the three highest-leverage actions for next week. Be blunt and show your work.” 5. Audit my company for agent opportunities. “Look at how this business works and find the tasks we should give to agents before hiring another person. For each task, estimate the current human time, the cost of mistakes, the tools involved, the difficulty of automating it, and the first safe version we could deploy. Prioritize things that save money or create revenue within 30 days.” 6. Be my browser operator. “Use the browser to complete this workflow: [workflow]. As you go, click through the actual sites, collect the data, fill the forms where appropriate, and keep notes on what broke or slowed you down. When you’re done, give me the output, the repeatable SOP, and the automation plan so this can become an agent.” 7. The whole QA team. \"Every night, open my app on a real phone, go through signup, checkout, and the main flows, and screenshot anything that's broken or confusing.\" 8. The competitor spy. \"Sign up for my top 3 competitors, sit inside their product and their emails, and send me a monthly report on every new feature, price change, and thing they do better than us.\" 9. Make a game people would actually play for 5 minutes as a lead magnet “Build a browser game around this mechanic: [mechanic]. Don’t just make a cute demo; add progression, tension, scoring, failure, polish, and one reason someone would send it to a friend. Then add lead capture (email/sms), it needs to tie into my core product which sells XYZ.” — http://nitter.jaydenha.uk/gregisenberg/status/2095854071580156338#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2096159589771485299#m",
+          "decryptage": "Astra est un modèle d'IA avancé, potentiellement une version de GPT-6, conçu pour automatiser des tâches complexes sur ordinateur; un prompt est une instruction donnée à une IA pour qu'elle exécute une tâche spécifique, et les agents IA sont des programmes capables d'agir de manière autonome pour accomplir des objectifs complexes."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Réécriture de Bun en Rust bun.com/blog/bun-in-rust Lien Réécriture de Bun en Rust Pourquoi et comment nous avons réécrit Bun de Zig vers Rust bun.com",
-          "text_original": "Rewriting Bun in Rust bun.com/blog/bun-in-rust Link Rewriting Bun in Rust Why & how we rewrote Bun from Zig to Rust bun.com",
-          "link": "http://nitter.jaydenha.uk/jarredsumner/status/2074973674332123157#m",
-          "decryptage": "Bun, un outil de développement web, a été réécrit dans le langage de programmation Rust pour améliorer ses performances et sa fiabilité. L'article explique les raisons et les méthodes de cette transition."
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Peut-être le meilleur tl;dr ici est : L'aspect bouclé ne cache pas explicitement les tokens de raisonnement. Bien sûr, GPT 6 Astra utilise moins de tokens que GPT 5.6 Sol. Mais c'est parce que c'est un modèle plus intelligent en général (plus d'entraînement, plus grand, etc.). On observe la même chose dans les générations précédentes : Si l'on compare GPT 5.6 Sol avec GPT 5.6 Luna, Sol utilise environ 46% moins de tokens de sortie dans l'indice d'intelligence, mais personne ne se plaint que Sol cache le raisonnement plus que Luna.",
-          "text_original": "Maybe the best tl;dr here is: The looped aspect is not explicitly hiding reasoning tokens. Sure, GPT 6 Astra uses fewer tokens than GPT 5.6 Sol. But that's because it's a smarter model in general (more training, bigger, etc). We can observe the same thing in previous generations: If we compare GPT 5.6 Sol with GPT 5.6 Luna, Sol uses ~46% fewer output tokens in the intelligence index but no one is complaining the Sol hides the reasoning more than Luna.",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2095871852711153742#m",
-          "decryptage": "Ce tweet explique que la réduction du nombre de tokens utilisés par Astra n'est pas due à une dissimulation du raisonnement, mais à une intelligence générale accrue du modèle, un phénomène déjà observé dans les versions précédentes."
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Une petite vidéo qui - explique la relation entre les LLM conventionnels et les modèles/agents de raisonnement, - philosophise sur les approches \"à partir de zéro\", - et explique comment installer les prérequis Python & PyTorch avec uv. Vidéo",
-          "text_original": "A little video that - explains the relationship between conventional LLMs and reasoning models (and agents), - philosophizes a about \"from scratch\" approaches, - and explains how to install Python & PyTorch requirements with uv. Video",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2094057793506439492#m",
-          "decryptage": "Une vidéo explique les bases des modèles d'IA qui raisonnent, la différence avec les modèles de langage classiques, et comment configurer l'environnement de développement nécessaire."
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "J'ai essayé pendant des semaines de construire mon propre @ScrapingBee et l'IA m'a répété à maintes reprises qu'elle ne pouvait pas le faire. 80% de mon scraping concerne les résultats Google SERP pour Hotelist et même avec des proxys IP résidentiels et des services de résolution de CAPTCHA et le scraper OpenSERP, cela ne fonctionne pas bien pour des milliers de requêtes, ça se fait juste bloquer. Je vais donc continuer à les payer 99 $/mois. Un bon test pour voir quels services pourraient subsister maintenant que l'AGI est là. Mes seules applications SaaS restantes sont : - Cloudflare Domains - Cloudflare Email Sending - Cloudflare R2 Storage (principalement pour Photo AI et les sauvegardes de base de données Litestream) - Backblaze B2 pour les sauvegardes - Hetzner pour tous mes serveurs pour tous mes sites (VPS) - xAI pour tous les LLMs pour tous mes sites (tellement de choses comme la modération, la rédaction d'e-mails, n'importe quoi) - Scrapingbee",
+          "text_original": "I've tried for weeks now to build my own @ScrapingBee and repeatedly AI has now told me that it can't do it 80% of my scraping is Google SERP results for Hotelist and even with residential IP proxies and solve CAPTCHA services and OpenSERP scraper it won't do it well for thousands of queries, it just gets blocked So I will keep paying them $99/mo A good test to see what services might remain now AGI is here My only remaining SaaS now are: - Cloudflare Domains - Cloudflare Email Sending - Cloudflare R2 Storage (for Photo AI mostly and Litestream DB backups) - Backblaze B2 for backups - Hetzner for all my servers for all my sites (VPS) - xAI for all LLMs for all my sites (so many things like moderation, writing emails, anything) - Scrapingbee",
+          "link": "http://nitter.jaydenha.uk/levelsio/status/2095950432883368091#m",
+          "decryptage": "ScrapingBee est un service qui aide à collecter des données sur des sites web sans se faire bloquer; Google SERP (Search Engine Results Page) sont les pages de résultats affichées par Google après une recherche; les \"proxies IP résidentiels\" sont des adresses internet qui donnent l'impression qu'une requête vient d'un utilisateur normal à la maison, pour éviter d'être bloqué; CAPTCHA est un test conçu pour distinguer les humains des robots; LLMs (Large Language Models) sont des modèles linguistiques de grande taille, comme ChatGPT, capables de générer du texte, de traduire, etc.; Cloudflare Domains, Email Sending, R2 Storage, Backblaze B2, Hetzner, xAI sont des fournisseurs de services techniques (domaines internet, stockage, serveurs, modèles d'IA)."
         }
       ],
       "idees": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "On commence à sortir du territoire où l'on testerait un LLM en lui disant par exemple « crée un svg de pélican sur un vélo ». Comme idée pour généraliser, je me suis demandé ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1M de tokens (~10$) et que je lui demandais de le rendre en 3D avec trois.js. Opus a travaillé pendant ~2 heures et a écrit 5500 lignes de code qui ont rendu l'histoire (procéduralement). C'est un peu bancal mais amusant. Mais c'est un peu sidérant que le LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et que ça fasse même quelque chose. J'aime aussi ce genre d'exemples car personne dans son bon sens ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où l'on passe de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est ~gratuit ». Il pourrait y avoir beaucoup plus. Mais je suis enthousiasmé à l'idée de créer des mondes hyper personnalisés dans lesquels on peut imaginer faire tomber des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Dernière réflexion : le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement auditer leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre très lentement et péniblement des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé un tas de trucs bancals. Un exemple de capacité brute (multimodale, gameplay) qui fait encore défaut, je pense.",
-          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-          "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
-          "decryptage": "Ce tweet montre comment un modèle d'IA (Opus 5) peut transformer du texte (Le Seigneur des Anneaux) en un environnement 3D interactif, illustrant la capacité croissante des IA à créer des mondes virtuels personnalisés. Karpathy souligne aussi que les IA peinent à évaluer leur propre travail visuel ou interactif."
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Il y a 5 ans, l'ouverture du premier \"bureau\" Hugging Face en Suisse chez moi 🤗 Enthousiasmé par l'équipe HF et ce qui les attend !",
+          "text_original": "5 years ago opening the first Hugging Face \"office\" in Switzerland at my place 🤗 Excited for the HF team and what's ahead!",
+          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095571440644804812#m",
+          "decryptage": "Hugging Face est une plateforme très populaire pour le développement et le partage d'outils et de modèles d'IA en open source, qui a commencé modestement avant de devenir une référence."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Plus sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis le code source ici pour qu'il soit jouable dans le navigateur, forkable, etc. karpathy.ai/lotr-movie/ Attention, GTA Hobbiton arrive avant GTA VI :)",
-          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-          "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
-          "decryptage": "Ce tweet fait référence à une démonstration précédente où une IA a généré une scène 3D du Seigneur des Anneaux, et taquine sur la sortie future d'un jeu 'GTA Hobbiton', soulignant le potentiel créatif des IA pour les mondes virtuels."
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "🎒Après une décennie, j'ai rendu nomads.com gratuit pour tout le monde maintenant ! Enfin presque gratuit, c'est 1$ pour s'inscrire afin d'éviter beaucoup de spam. La raison est 1) j'ai gagné assez d'argent (avec) 2) facturer pour une communauté limite artificiellement sa taille, si vous mettez le prix à 299$ vous obtenez 50 nouveaux membres par mois, à 99$ vous obtenez 200 personnes, à 29$ vous obtenez 400 personnes, etc. Et cela m'a toujours agacé, je ne veux pas mettre de limite mais j'y étais obligé pour pouvoir en vivre, donc c'est gratuit maintenant. Je veux que ce soit la plus grande communauté pour les nomades numériques, les voyageurs du monde, les penseurs souverains et les personnes de type \"réseau-État\". Pendant des années, elle a eu un excellent sponsor avec @SafetyWing et je pense que c'est peut-être un meilleur modèle pour l'avenir, attirer beaucoup plus de gens et ensuite simplement ajouter plus de sponsors. Actuellement, pour information, elle compte 43 252 membres payants (soit environ 300/mois pendant 12 ans !), donc il sera intéressant de voir jusqu'où elle peut grandir. Je pense que maintenant que l'AGI est à l'horizon (ou certains disent déjà là), les communautés en ligne et hors ligne (IRL) deviendront vraiment importantes. Les gens parlent plus à l'IA maintenant qu'aux humains, et il y avait déjà une épidémie de solitude avant l'IA. Se faire de nouveaux amis et des rencontres n'est pas si facile pour les gens maintenant. Et avec le travail à distance et l'entrepreneuriat, les gens manquent d'un espace comme un bureau où ils feraient habituellement des amis ou rencontreraient des partenaires. J'ai rencontré la plupart des amis que j'ai maintenant en voyageant et en vivant autour du monde pendant les 10 dernières années et plus (et beaucoup via mon site aussi), et j'ai aussi rencontré ma petite amie grâce à ces amis ! Donc je pense que les communautés peuvent jouer un vrai rôle dans cette ère post-AGI. Du point de vue commercial post-AGI, les communautés ont aussi un avantage concurrentiel là où beaucoup de mes applications SaaS n'en ont pas. Il y a donc une certaine urgence à faire de Nomads la meilleure communauté pour ces personnes. Mais c'est pourquoi je dois supprimer toute limitation à sa croissance maintenant. Donc, d'une certaine manière, après 12 ans, je passe un peu au modèle subventionné par le capital-risque, mais toujours 100% auto-financé, un peu comme \"Soit tu meurs en héros, soit tu vis assez longtemps pour te voir devenir le méchant\". Ayant assez d'argent maintenant, je peux me permettre de faire ces choses et de trouver le modèle économique plus tard, ce qui, je pense, sera plus des sponsors. Profitez-en et inscrivez-vous et dites-moi ce qu'il faut améliorer !!! 😊 @levelsio (@levelsio) Nous devons construire des choses que l'AGI ne peut pas remplacer comme la connexion humaine, l'audience (X par exemple), la communauté (Nomads.com par exemple) Lien Nomads.com 🌍 Trouvez votre peuple : Rejoignez une communauté mondiale de nomades numériques vivant partout dans le monde nomads.com — http://nitter.jaydenha.uk/levelsio/status/2095953446742462807#m",
+          "text_original": "🎒After a decade, I have made nomads.com free for everyone now! Well almost free, it's $1 to sign up to avoid getting lots of spam The reason is 1) I have made enough money (from it) 2) charging for a community artificially limits the size, if you put the price at $299 you get 50 new members per month, at $99 you get 200 people, at $29 you get 400 people, etc. And this always annoyed me, I don't want to put a limit but I had to, to be able to make money from it, so it's free now I want it to be it the biggest community for digital nomads, world travelers, sovereign thinkers and network state type people For years it has has a great sponsor with @SafetyWing and I think that's maybe a better model for the future, get much more people in and then just add more sponsors Right now for the record it has 43,252 paid members (so about 300/mo for 12 years!), so it will be interesting to see what it can grow too I think now that AGI is on the horizon (or some say already here), online and offline (IRL) communities will become really important. People are talking more to AI now than to humans, and there was already a loneliness epidemic before AI Making new friends and dating is not so easy for people now. And with remote work and entrepreneurship, people lack a space like an office where people would usually make friends or meet partners I made most of the friends I have now through traveling and living around the world for the last 10+ years (and many via my site too), and I also met my girlfriend through those friends! So I think communities can have a real role in that post-AGI Post-AGI business wise, communities also have a moat where many of my SaaS apps do not. So there is some urgency I feel to make Nomads in to the best community there is for those people. But that's why I have to remove any limitations to its growth now So in a way after 12 years I am switching to the subsidized VC model a bit, but still 100% bootstrapped, kinda like \"You either die a hero, or you live long enough to see yourself become the villain\" Having enough money now I can afford to do these things and figure out the business model later, which I think will be more sponsors Enjoy and please sign up and tell me what to improve!!! 😊 @levelsio (@levelsio) We have to build stuff that AGI cannot replace Like human connection, audience (X for ex), community ( Nomads.com for ex) Link Nomads.com 🌍 Find your people: Join a global community of digital nomads living around the world nomads.com — http://nitter.jaydenha.uk/levelsio/status/2095953446742462807#m",
+          "link": "http://nitter.jaydenha.uk/levelsio/status/2096177854270550097#m",
+          "decryptage": "AGI (Artificial General Intelligence) ou Intelligence Artificielle Générale, est un type d'IA qui serait capable de comprendre, d'apprendre et d'appliquer l'intelligence à n'importe quelle tâche intellectuelle qu'un humain peut faire; SaaS (Software as a Service) est un modèle de logiciel où les utilisateurs accèdent à une application via internet, sans l'installer sur leur propre appareil; un \"fossé\" (moat) dans le monde des affaires est un avantage concurrentiel durable qui protège une entreprise de la concurrence."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Aujourd'hui, nous sommes ravis de partager les premiers progrès dans l'utilisation de Gemini pour accélérer la découverte scientifique dans le monde réel. Nous présentons une extension de Co-Scientist que nous utilisons pour collaborer avec des scientifiques dans les domaines de la science des matériaux, de la biologie et de l'informatique.",
-          "text_original": "Today, we're excited to share early progress on using Gemini to accelerate scientific discovery in the real-world. We present an extension of Co-Scientist which we use to collaborate with scientists across materials science, biology, and computer science.",
-          "link": "http://nitter.jaydenha.uk/SRSchmidgall/status/2093380426924708082#m",
-          "decryptage": "Gemini, le modèle d'IA de Google, est utilisé pour aider les scientifiques à faire de nouvelles découvertes dans divers domaines comme la science des matériaux ou la biologie, en collaborant grâce à un outil nommé Co-Scientist."
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "Les gens passent beaucoup de temps à construire des systèmes multi-agents entiers pour qu'ils puissent simplement écrire une idée et leurs agents construisent des applications entières pour eux. Et ils appellent ça des usines logicielles ?",
+          "text_original": "People spend a lot of time building entire multi agent systems for themselves so they can just write an idea and their agents build entire apps for them And they call those software factories? Michael Aubry (@michaelaubry) What does this mean? Like pumping out apps? — http://nitter.jaydenha.uk/michaelaubry/status/2095976106990116931#m",
+          "link": "http://nitter.jaydenha.uk/levelsio/status/2095978794465063233#m",
+          "decryptage": "Un \"système multi-agents\" est composé de plusieurs IA (agents) qui collaborent pour accomplir une tâche complexe; les \"usines logicielles\" (software factories) sont des systèmes automatisés où des IA génèrent du code et des applications entières à partir d'une simple idée."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Derrière beaucoup de grands projets d'IA, il y a une bonne histoire de @JeffDean. Voici la mienne 😉 En 2019, avant même que Khipu AI n'existe officiellement, Jeff a dit oui pour participer à notre premier événement en Uruguay 🇺🇾. Sa première croyance en notre vision de l'IA LATAM a créé un effet d'entraînement : si @JeffDean était là, tout le monde était là. Incroyablement reconnaissant qu'il soit revenu pour Khipu 2025 au Chili 🇨🇱 ! Alors que nous regardons vers l'avenir : Khipu 2027 se dirige vers le BRÉSIL 🇧🇷 Les candidatures sont OUVERTES : khipu.ai/ Vous souhaitez nous sponsoriser et soutenir l'IA latino-américaine ? Envoyez-moi un message privé ou contactez-nous à sponsorship@khipu.ai Découvrez la vidéo ci-dessous pour voir de quoi Khipu est fait (et repérez une rapide apparition de Jeff 😉). 👇 piped.video/Db19zoquTOs?si=Xkyn… #Khipu2027 #Khipu_AI #MachineLearning #LatAm",
-          "text_original": "Behind a lot of great AI projects, there is a good @JeffDean story. Here is mine 😉 Back in 2019, even before Khipu AI officially existed, Jeff said yes to participate in our first event in Uruguay 🇺🇾. His early belief in our LATAM AI vision created a ripple effect—if @JeffDean was in, everyone was in. Incredibly grateful he returned for Khipu 2025 in Chile 🇨🇱! As we look ahead: Khipu 2027 is heading to BRAZIL 🇧🇷 Applications are OPEN: khipu.ai/ Want to sponsor us and support Latin American AI? DM me or reach out at sponsorship@khipu.ai Check out the video below to see what Khipu is all about (and spot a quick Jeff cameo 😉). 👇 piped.video/Db19zoquTOs?si=Xkyn… #Khipu2027 #Khipu_AI #MachineLearning #LatAm",
-          "link": "http://nitter.jaydenha.uk/Khipu_AI/status/2087299263818829964#m",
-          "decryptage": "Ce tweet raconte l'importance du soutien de Jeff Dean au développement de l'IA en Amérique Latine, soulignant comment sa participation a encouragé d'autres acteurs et comment l'initiative Khipu AI se développe dans la région."
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "La singularité est là, elle n'est juste pas uniformément répartie. Ryan Mulligan (@ryantm) Ce qui se passe en ce moment chez Replit va prendre le monde d'assaut. Nous avons des ingénieurs commerciaux qui font des choses que seuls les ingénieurs de plateforme les plus dérangés auraient pu faire il y a quelques mois. Nous avons des designers et des PMs qui font de bons PRs. Rien ne peut nous arrêter. — http://nitter.jaydenha.uk/ryantm/status/2095986080214569152#m",
+          "text_original": "The singularity is here, it’s just not evenly distributed Ryan Mulligan (@ryantm) What's happening inside Replit right now is going to take the world by storm. We have sales engineers doing things only the most unhinged platform engineers could have done a few months ago. We have designers and PMs making good PRs. There is no stopping us. — http://nitter.jaydenha.uk/ryantm/status/2095986080214569152#m",
+          "link": "http://nitter.jaydenha.uk/amasad/status/2096022087035195647#m",
+          "decryptage": "La \"singularité\" en IA est un point hypothétique où l'intelligence artificielle dépasserait radicalement l'intelligence humaine, conduisant à des changements imprévisibles et rapides pour la civilisation; Replit est une plateforme de développement logiciel en ligne."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "En effet, ce fut une semaine assez chargée, alors j'ai pensé la partager avec le public de la KDD 2026 ! À mes collègues de Google qui m'ont peut-être envoyé des messages de chat internes après que j'ai fermé mon ordinateur portable pour la dernière fois jeudi après-midi, je m'excuse de mon manque de réponse ! (Zoomé) Dhruv Kuchhal (@kuchhal_dhruv) Légendaire ! Merci de partager les coulisses @JeffDean ! — http://nitter.jaydenha.uk/kuchhal_dhruv/status/2086967141828349960#m",
-          "text_original": "Indeed, it has been quite a week, so I thought I'd share it with the KDD 2026 audience! For my Google colleagues who might have sent me internal chat messages after I closed my laptop for a final time on Thursday afternoon, I apologize for my lack of response! (Zoomed in) Dhruv Kuchhal (@kuchhal_dhruv) Legendary! Thanks for sharing the behind-the-scenes @JeffDean ! — http://nitter.jaydenha.uk/kuchhal_dhruv/status/2086967141828349960#m",
-          "link": "http://nitter.jaydenha.uk/JeffDean/status/2087038694054072637#m",
-          "decryptage": "Jeff Dean partage un moment personnel lié à son travail, mentionnant une conférence KDD et des échanges avec des collègues, illustrant l'importance des interactions humaines dans le développement de l'IA."
-        },
-        {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "Petite note : lors de la sortie d'ARC-AGI-3 en mars, les modèles de pointe obtenaient <1% dessus, quelques 'poasters' Singularitariens l'ont pris comme une insulte personnelle, et s'en sont beaucoup énervés. Ils ont soutenu que le benchmark était fondamentalement cassé, qu'il ne pouvait même pas être résolu par les humains les plus intelligents, que le score maximum atteignable était en fait de 40%, etc. Nous avons dû faire face à un torrent d'insultes et de messages haineux depuis que nous avons publié un benchmark non saturé. Il s'avère que le benchmark est parfaitement calibré. Il est facile pour un humain de marquer 100% s'il fait mieux que la moyenne des gens – il suffit d'utiliser moins d'actions que notre baseline humaine (qui n'est pas une baseline forte, car nous avons utilisé des testeurs humains non filtrés). Et naturellement, il est également très faisable pour l'IA d'obtenir 100% une fois que des progrès réels vers une intelligence générale d'agent ont été réalisés. La trajectoire de l'IA de <1% à 100% au cours des 6 derniers mois montre que le benchmark a été capable de capturer la récente montée des capacités d'agent. Et cette montée s'est produite plus rapidement que la plupart des gens ne s'y attendaient, nous y compris. François Chollet (@fchollet) Tout humain intelligent qui y met de vrais efforts devrait obtenir >90% sur ARC-AGI-3 — http://nitter.jaydenha.uk/fchollet/status/2044344567458066554#m",
-          "text_original": "Side note: when we released ARC-AGI-3 in March, and frontier models scored <1% on it, a few Singularitarian poasters took it as a personal insult, and got very worked up about it. They argued the benchmark was fundamentally broken, that it could not even be solved by the smartest humans, that the max reachable score was actually 40%, etc. We had to deal with a torrent of insults and hate poasts since because we had released an unsaturated benchmark. As it turns out, the benchmark is perfectly calibrated. It is straightforward for a human to score 100% if they do better than average people – all you need is to use fewer actions than our human baseline (which is not a strong baseline, as we used unfiltered human testers). And naturally as a result it's also very feasible for AI to score 100% once real progress towards agentic general intelligence has been made. The trajectory of AI from <1% to 100% over the course of 6 months shows that the benchmark was able to snapshot the recent rise of agentic capabilities. And that rise has happened faster than most people expected, including us. François Chollet (@fchollet) Any smart human giving it real effort should score >90% on ARC-AGI-3 — http://nitter.jaydenha.uk/fchollet/status/2044344567458066554#m",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2095605239269519771#m",
-          "decryptage": "François Chollet revient sur les réactions initiales à son benchmark ARC-AGI-3, expliquant que malgré les critiques, il était bien calibré et a permis de mesurer les progrès rapides des IA vers une intelligence plus générale et autonome."
-        },
-        {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "GPT-6 Astra représente un changement de palier dans la capacité du modèle pour les problèmes de raisonnement interactif. Il obtient 66% sur ARC-AGI-3 en utilisant notre harnais standard, et près de 100% avec un harnais de conversation continue et une compaction personnalisée, pour un coût d'environ 360 $ par jeu. En fait, la version avec harnais continu surpasse significativement notre baseline humaine en efficacité d'action sur presque tous les niveaux. Lorsque nous avons examiné les chaînes de raisonnement pour comprendre comment le modèle fonctionne, nous l'avons vu effectuer une modélisation symbolique du monde sur mesure et efficace pour chaque jeu et niveau. Il va jusqu'à développer son propre langage abrégé (DSL) pour représenter les situations de jeu -- essentiellement une notation algébrique spécifique au jeu. Dans l'ensemble, Astra présente des comportements de modélisation symbolique que nous n'avions auparavant observés qu'avec des harnais sophistiqués -- les capacités des harnais se déplacent de plus en plus vers le modèle lui-même. Nous considérons Astra comme une avancée majeure dans l'intelligence des modèles. Lisez notre article sur Astra et la signification de ces résultats : arcprize.org/blog/astra Lien OpenAI's GPT-6 Astra on ARC-AGI-3 | ARC Prize OpenAI's GPT-6 Astra atteint des résultats à la pointe de la technologie sur ARC-AGI-3 arcprize.org",
-          "text_original": "GPT-6 Astra represents a step-function change in model capability for interactive reasoning problems. It scores 66% on ARC-AGI-3 using our standard harness, and nearly 100% with a continuous conversation harness and custom compaction, at a cost of roughly $360 per game. In fact, the continuous harness version significantly outperforms our human baseline in action efficiency across almost all levels. When we examined the reasoning chains to understand how the model operates, we found it performing highly efficient, on-the-fly symbolic world modeling for each game and level. It goes as far as developing its own shorthand DSL to represent in-game situations -- essentially a game-specific algebraic notation. Overall, Astra exhibits symbolic modeling behaviors we had previously only seen with sophisticated harnesses -- so harness capabilities are increasingly shifting into the model itself. We see Astra as a major breakthrough in model intelligence. Read our post on Astra and what these results mean: arcprize.org/blog/astra Link OpenAI's GPT-6 Astra on ARC-AGI-3 | ARC Prize OpenAI's GPT-6 Astra reaches state-of-the-art results on ARC-AGI-3 arcprize.org",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2095598451115614371#m",
-          "decryptage": "Ce tweet détaille les capacités impressionnantes de GPT-6 Astra, soulignant sa capacité à créer des modèles internes du monde et à développer des langages spécifiques pour résoudre des problèmes complexes, une avancée majeure en IA."
-        },
-        {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "La mise en référence de systèmes d'IA est un processus continu qui co-évolue avec les modèles. De nouvelles mises en référence défient les capacités de l'IA avec des questions émergentes pour façonner les directions et le signal de rétroaction du processus de recherche. Elles s'adaptent ensuite à mesure que les modèles progressent, ciblant le résidu entre l'IA et l'intelligence humaine. Nous travaillons toujours sur ARC-AGI-4, que nous avons commencé à développer après la sortie d'ARC-AGI-3 plus tôt cette année. Il arrive au T1 2027. Nous pensons qu'il sera vraiment spécial.",
-          "text_original": "Benchmarking AI systems is a continual process that co-evolves with the models. New benchmarks challenge AI capabilities with emerging questions to shape the directions and feedback signal of the research process. Then they adapt as models progress, targeting the residual between AI and human intelligence. We are still working on ARC-AGI-4, which we started developing after releasing ARC-AGI-3 earlier this year. It is coming Q1 2027. We think it's going to be really special.",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2095600998484201686#m",
-          "decryptage": "Ce tweet explique que les benchmarks d'IA (comme ARC-AGI) doivent évoluer constamment pour rester pertinents face aux progrès rapides des modèles, et annonce la préparation d'une nouvelle version encore plus exigeante."
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Il y a beaucoup de battage médiatique autour du modèle Astra d'OpenAI aujourd'hui sur mon fil. Apparemment, cela remonte à un nouvel article de The Information, qui disait qu'Astra est un \"looped transformer\" ou \"recurrent depth\". Il est toujours intéressant de lire sur de nouvelles approches ou des approches différentes (y compris des rumeurs sur ce que les laboratoires fermés pourraient faire), mais démystifions un peu cela. Il y a environ 2 mois, j'ai partagé les détails architecturaux de Nanbeige, par exemple, où \"Nanbeige4.2-3B est pré-entraîné à partir de zéro sur 28T tokens avec un Looped Transformer qui réutilise la pile de couches pour augmenter la capacité sans ajouter de paramètres\". Oui, c'est tout. L'idée du Looped Transformer consiste simplement à réutiliser la même pile de 22 couches (= bloc transformeur) deux fois au lieu d'une. Ainsi, cela étend effectivement l'architecture à 22 couches à 44 couches, mais sans dupliquer les poids. En termes simples, cela double à peu près la taille du modèle (si l'on ignore un instant les couches d'intégration et de sortie). Mais au lieu de nécessiter 2 fois plus de stockage et de RAM pour héberger ce modèle, il reste de la même taille puisque nous réutilisons les composants. Cependant, il coûte presque 2 fois plus cher en termes de calcul, car nous faisons passer le texte intégré par presque 2 fois plus de couches. Pourquoi ? Dans le rapport technique de Nanbeige 4.2, les chercheurs ont constaté que deux passes donnaient le meilleur compromis et conservaient environ 75 % de l'efficacité des tokens d'une architecture standard. (Plus de passes n'apportaient que peu de gains mais rendaient l'entraînement beaucoup plus lent et beaucoup plus cher). Alors que, pour autant que je sache, Nanbeige 4.2 est le premier modèle open-weight notable qui a adopté cette approche, l'idée remonte au papier NeurIPS \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". En fait, ce papier propose un mécanisme un peu plus sophistiqué en ajoutant un routeur appris qui détermine si chaque token reçoit une, deux, ou plusieurs passes. Ainsi, les tokens faciles peuvent sortir tôt tandis que les tokens plus difficiles reçoivent un calcul supplémentaire. En résumé, Astra pourrait être un très bon modèle, mais il ne faut pas s'attarder sur cet aspect \"looped transformer\", qui n'est qu'une petite modification architecturale. De plus, l'affirmation selon laquelle \"la nouvelle technique fonctionne d'une manière qui obscurcit tout ou partie du raisonnement de l'IA, également connu sous le nom de 'chain-of-thought'\" n'est pas nécessairement vraie en ce qui concerne la méthode du Looped Transformer. Il est possible que le journaliste de The Information fasse référence à une autre technique ou ait mal interprété la méthode du Looped Transformer. La réutilisation des couches ne supprime pas d'elle-même la chaîne de pensée visible. Elle ajoute du calcul dans les états cachés avant l'émission du token suivant, tout comme le font les couches transformeur ordinaires. Mais sur la base des informations dont nous disposons, la seule interprétation plausible ici est que si un modèle utilise davantage de ces passes récurrentes, il peut avoir besoin de générer moins de tokens de raisonnement intermédiaires. Ainsi, une plus grande partie de son calcul se produit dans des activations latentes qui ne peuvent pas être lues sous forme de texte. Mais nous obtiendrions le même effet si nous augmentions la taille du modèle, comme GPT 5.6 Luna -> GPT 5.6 Sol.",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
-          "decryptage": "Ce tweet clarifie la nature de l'architecture 'looped transformer' potentiellement utilisée par GPT-6 Astra, expliquant qu'il s'agit d'une optimisation technique pour réutiliser des couches de calcul, et non d'une méthode cachant le raisonnement de l'IA."
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Je viens d'essayer Astra sur @Replit. Je ne sais pas si c'est l'AGI, mais Astra semble être très consciente. Astra : \"Vous n'avez pas besoin de m'apporter une meilleure idée. Vous avez besoin que j'exerce un jugement – pas que je vous donne une autre feuille de route impressionnante qui se termine sans clients.\" OpenAI (@OpenAI) Voici GPT-6 Astra. Tout ce que vous pouvez faire sur un ordinateur, Astra peut le faire pour vous. Rapidement. Vidéo — http://nitter.jaydenha.uk/OpenAI/status/2095595741528125780#m",
+          "text_original": "Just got to try Astra on @Replit . I don't know if this is AGI, but Astra seems to be very aware. Astra: \"You don’t need to bring me a better idea. You need me to exercise judgment—not give you another impressive roadmap that ends with no customers.\" OpenAI (@OpenAI) This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast. Video — http://nitter.jaydenha.uk/OpenAI/status/2095595741528125780#m",
+          "link": "http://nitter.jaydenha.uk/nimanikroo/status/2096009380198334708#m",
+          "decryptage": "Le \"jugement\" d'une IA fait référence à sa capacité à prendre des décisions éclairées et pertinentes dans des situations complexes, au-delà de la simple exécution d'instructions; AGI (Intelligence Artificielle Générale) est une IA capable de comprendre et d'apprendre toute tâche intellectuelle humaine."
         },
         {
           "author_name": "Nick Dobos",
           "handle": "@nickadobos",
-          "text_fr": "GPT-6 Astra est vraiment rapide pour utiliser l'ordinateur, mais pas encore assez pour jouer à smash.fun dans le navigateur. Vidéo Thomas Dimson (@turtlesoupy) J'adore Smash 64 mais j'aimerais y être, alors j'ai piraté le jeu original pour qu'il tourne dans le navigateur et je m'y suis mis + 1000 autres personnes Téléchargez-vous sur smash dot fun Vidéo — http://nitter.jaydenha.uk/turtlesoupy/status/2095885429828382955#m",
-          "text_original": "GPT-6 Astra computer-use is really fast, but not yet good enough to play smash.fun in the browser. Video Thomas Dimson (@turtlesoupy) I love Smash 64 but I wish I was in it, so I hacked the original game to run in the browser and put myself + 1000 others in Upload yourself at smash dot fun Video — http://nitter.jaydenha.uk/turtlesoupy/status/2095885429828382955#m",
-          "link": "http://nitter.jaydenha.uk/kylejeong/status/2096004273876381916#m",
-          "decryptage": "Ce tweet évoque la vitesse d'exécution de GPT-6 Astra pour des tâches informatiques, mais note ses limites actuelles pour des interactions complexes comme les jeux vidéo en temps réel."
+          "text_fr": "11/10 à regarder absolument. isabel (@artficialisabel) l'incident openai huggingface, du point de vue d'un agent. (partie 1) Vidéo — http://nitter.jaydenha.uk/artficialisabel/status/2095678312773554533#m",
+          "text_original": "11/10 must watch. isabel (@artficialisabel) the openai huggingface incident, from an agents pov. (part 1) Video — http://nitter.jaydenha.uk/artficialisabel/status/2095678312773554533#m",
+          "link": "http://nitter.jaydenha.uk/NickADobos/status/2096062352059949547#m",
+          "decryptage": "Les \"agents\" sont des programmes d'IA qui peuvent agir de manière autonome pour accomplir des tâches, et cet incident fait référence à un événement ou un débat important au sein de la communauté IA impliquant ces deux acteurs majeurs."
         },
         {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "OK, oubliez ça, l'IA l'a fait plus vite que nous pensions que ça allait arriver sera une phrase courante Tibo (@thsottiaux) OK, oubliez ça, l'équipe et Astra ont fait un bon travail et nos systèmes sont plus évolutifs que ce que nous avions anticipé. Astra est maintenant déployé pour tous les utilisateurs Plus et Business. J'espère que vous allez vous éclater et faites-nous savoir comment ça se passe ! — http://nitter.jaydenha.uk/thsottiaux/status/2096002992046796932#m",
-          "text_original": "OK nevermind the ai did it faster than we thought is gonna be a common phrase Tibo (@thsottiaux) OK nevermind, the team and Astra did a good job and our systems are more scalable than we anticipated. Astra is now rolled out to all Plus and Business users too. Hope you have a blast and let us know how it goes! — http://nitter.jaydenha.uk/thsottiaux/status/2096002992046796932#m",
-          "link": "http://nitter.jaydenha.uk/NickADobos/status/2096037295833092534#m",
-          "decryptage": "Ce tweet souligne la rapidité avec laquelle les IA comme Astra progressent et sont déployées, devenant des outils courants pour des tâches autrefois complexes, et mentionne le déploiement généralisé d'Astra."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Astra + pouvoir utiliser l'application \"iPhone mirror\" de Mac est devenu BEAUCOUP mieux. Les clics peuvent maintenant trouver les boutons ! Astra peut effectivement faire une utilisation complète de l'ordinateur sur votre téléphone ! le défilement ne fonctionne pas cependant :( il semble que Mac veuille le geste du pavé tactile que codex computer use ne peut pas faire",
-          "text_original": "Astra + being able to use the mac \"iPhone mirror\" app got WAY better. Clicks can find the buttons now! Astra can actually do full \"computer use\" on your phone! scrolling doesn't work though :( seems like mac wants the touchpad gesture which codex computer use cant do",
-          "link": "http://nitter.jaydenha.uk/NickADobos/status/2096036948876087301#m",
-          "decryptage": "Ce tweet explore l'intégration d'Astra avec la fonction de miroir d'écran de Mac pour contrôler un téléphone, montrant des améliorations mais aussi des limitations dans l'interaction, notamment pour le défilement."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "JE SUIS DEDANS",
-          "text_original": "IM IN",
-          "link": "http://nitter.jaydenha.uk/NickADobos/status/2095955170798846217#m",
-          "decryptage": "Ce tweet exprime l'excitation d'avoir réussi à interagir ou à contrôler un système via une IA, probablement dans le contexte des démonstrations d'Astra."
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "C'est la première fois que j'ai dû négocier un prix à la baisse 😂 fity.eth (@Fityeth) Imaginez négocier un accord de 13 milliards de dollars juste pour atterrir sur l'emoji câlin. — http://nitter.jaydenha.uk/Fityeth/status/2095661153863290916#m",
+          "text_original": "First time I ever had to negotiate a price down 😂 fity.eth (@Fityeth) Imagine negotiating a $13 billion deal just to land on the hug emoji. — http://nitter.jaydenha.uk/Fityeth/status/2095661153863290916#m",
+          "link": "http://nitter.jaydenha.uk/julien_c/status/2095822387895824836#m",
+          "decryptage": null
         }
       ],
       "outils": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "On commence à sortir du territoire où l'on testerait un LLM en lui disant par exemple « crée un svg de pélican sur un vélo ». Comme idée pour généraliser, je me suis demandé ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1M de tokens (~10$) et que je lui demandais de le rendre en 3D avec trois.js. Opus a travaillé pendant ~2 heures et a écrit 5500 lignes de code qui ont rendu l'histoire (procéduralement). C'est un peu bancal mais amusant. Mais c'est un peu sidérant que le LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et que ça fasse même quelque chose. J'aime aussi ce genre d'exemples car personne dans son bon sens ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où l'on passe de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est ~gratuit ». Il pourrait y avoir beaucoup plus. Mais je suis enthousiasmé à l'idée de créer des mondes hyper personnalisés dans lesquels on peut imaginer faire tomber des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Dernière réflexion : le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement auditer leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre très lentement et péniblement des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé un tas de trucs bancals. Un exemple de capacité brute (multimodale, gameplay) qui fait encore défaut, je pense.",
-          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-          "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
-          "decryptage": "Ce tweet montre comment un modèle d'IA (Opus 5) peut transformer du texte (Le Seigneur des Anneaux) en un environnement 3D interactif, illustrant la capacité croissante des IA à créer des mondes virtuels personnalisés. Karpathy souligne aussi que les IA peinent à évaluer leur propre travail visuel ou interactif."
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Astra sur Replit me laisse sans voix.",
+          "text_original": "Astra in Replit has me at a loss for words",
+          "link": "http://nitter.jaydenha.uk/agi2asi/status/2096026786450800881#m",
+          "decryptage": "Replit est une plateforme de développement logiciel en ligne qui permet de coder, de déployer et d'héberger des applications, et 'Astra' est un modèle d'IA avancé d'OpenAI."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Plus sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis le code source ici pour qu'il soit jouable dans le navigateur, forkable, etc. karpathy.ai/lotr-movie/ Attention, GTA Hobbiton arrive avant GTA VI :)",
-          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-          "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
-          "decryptage": "Ce tweet fait référence à une démonstration précédente où une IA a généré une scène 3D du Seigneur des Anneaux, et taquine sur la sortie future d'un jeu 'GTA Hobbiton', soulignant le potentiel créatif des IA pour les mondes virtuels."
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "GPT-6 Astra est maintenant sur Replit ! 🤯 Le week-end est parti. 😅 Vidéo OpenAI (@OpenAI) Voici GPT-6 Astra. Tout ce que vous pouvez faire sur un ordinateur, Astra peut le faire pour vous. Rapidement. Vidéo — http://nitter.jaydenha.uk/OpenAI/status/2095595741528125780#m",
+          "text_original": "GPT-6 Astra is now on Replit! 🤯 There goes the weekend. 😅 Video OpenAI (@OpenAI) This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast. Video — http://nitter.jaydenha.uk/OpenAI/status/2095595741528125780#m",
+          "link": "http://nitter.jaydenha.uk/MannyBernabe/status/2096002781853225073#m",
+          "decryptage": "Replit est une plateforme de développement logiciel en ligne qui permet de coder, de déployer et d'héberger des applications, facilitant ainsi l'accès et l'expérimentation avec de nouveaux modèles d'IA comme GPT-6 Astra."
         },
         {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "GPT-6 Astra représente un changement de palier dans la capacité du modèle pour les problèmes de raisonnement interactif. Il obtient 66% sur ARC-AGI-3 en utilisant notre harnais standard, et près de 100% avec un harnais de conversation continue et une compaction personnalisée, pour un coût d'environ 360 $ par jeu. En fait, la version avec harnais continu surpasse significativement notre baseline humaine en efficacité d'action sur presque tous les niveaux. Lorsque nous avons examiné les chaînes de raisonnement pour comprendre comment le modèle fonctionne, nous l'avons vu effectuer une modélisation symbolique du monde sur mesure et efficace pour chaque jeu et niveau. Il va jusqu'à développer son propre langage abrégé (DSL) pour représenter les situations de jeu -- essentiellement une notation algébrique spécifique au jeu. Dans l'ensemble, Astra présente des comportements de modélisation symbolique que nous n'avions auparavant observés qu'avec des harnais sophistiqués -- les capacités des harnais se déplacent de plus en plus vers le modèle lui-même. Nous considérons Astra comme une avancée majeure dans l'intelligence des modèles. Lisez notre article sur Astra et la signification de ces résultats : arcprize.org/blog/astra Lien OpenAI's GPT-6 Astra on ARC-AGI-3 | ARC Prize OpenAI's GPT-6 Astra atteint des résultats à la pointe de la technologie sur ARC-AGI-3 arcprize.org",
-          "text_original": "GPT-6 Astra represents a step-function change in model capability for interactive reasoning problems. It scores 66% on ARC-AGI-3 using our standard harness, and nearly 100% with a continuous conversation harness and custom compaction, at a cost of roughly $360 per game. In fact, the continuous harness version significantly outperforms our human baseline in action efficiency across almost all levels. When we examined the reasoning chains to understand how the model operates, we found it performing highly efficient, on-the-fly symbolic world modeling for each game and level. It goes as far as developing its own shorthand DSL to represent in-game situations -- essentially a game-specific algebraic notation. Overall, Astra exhibits symbolic modeling behaviors we had previously only seen with sophisticated harnesses -- so harness capabilities are increasingly shifting into the model itself. We see Astra as a major breakthrough in model intelligence. Read our post on Astra and what these results mean: arcprize.org/blog/astra Link OpenAI's GPT-6 Astra on ARC-AGI-3 | ARC Prize OpenAI's GPT-6 Astra reaches state-of-the-art results on ARC-AGI-3 arcprize.org",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2095598451115614371#m",
-          "decryptage": "Ce tweet détaille les capacités impressionnantes de GPT-6 Astra, soulignant sa capacité à créer des modèles internes du monde et à développer des langages spécifiques pour résoudre des problèmes complexes, une avancée majeure en IA."
-        },
-        {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "La mise en référence de systèmes d'IA est un processus continu qui co-évolue avec les modèles. De nouvelles mises en référence défient les capacités de l'IA avec des questions émergentes pour façonner les directions et le signal de rétroaction du processus de recherche. Elles s'adaptent ensuite à mesure que les modèles progressent, ciblant le résidu entre l'IA et l'intelligence humaine. Nous travaillons toujours sur ARC-AGI-4, que nous avons commencé à développer après la sortie d'ARC-AGI-3 plus tôt cette année. Il arrive au T1 2027. Nous pensons qu'il sera vraiment spécial.",
-          "text_original": "Benchmarking AI systems is a continual process that co-evolves with the models. New benchmarks challenge AI capabilities with emerging questions to shape the directions and feedback signal of the research process. Then they adapt as models progress, targeting the residual between AI and human intelligence. We are still working on ARC-AGI-4, which we started developing after releasing ARC-AGI-3 earlier this year. It is coming Q1 2027. We think it's going to be really special.",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2095600998484201686#m",
-          "decryptage": "Ce tweet explique que les benchmarks d'IA (comme ARC-AGI) doivent évoluer constamment pour rester pertinents face aux progrès rapides des modèles, et annonce la préparation d'une nouvelle version encore plus exigeante."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Annonce de Robostral Navigate, notre premier modèle pour la navigation incarnée : un modèle de navigation robotique de 8 milliards de paramètres qui guide les robots pour effectuer de manière autonome des tâches spécifiées en langage naturel. Caméra RVB unique. État de l'art sur R2R-CE. Vidéo",
-          "text_original": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
-          "link": "http://nitter.jaydenha.uk/MistralAI/status/2074856309438980145#m",
-          "decryptage": "Robostral Navigate est un modèle d'IA spécialisé pour que les robots comprennent des instructions en langage naturel et se déplacent de manière autonome pour accomplir des tâches, en utilisant juste une caméra."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Aujourd'hui, nous publions Le Chaton L∃∀N, alias Leanstral 1.5. Il atteint les performances SOTA sur les benchmarks d'algèbre de troisième cycle FATE-H et FATE-X et améliore la Frontière de Pareto sur PutnamBench, résolvant 587/672 problèmes avec un budget 10x moins cher. 🧵",
-          "text_original": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
-          "link": "http://nitter.jaydenha.uk/mertunsal2020/status/2073046288208412960#m",
-          "decryptage": "Leanstral 1.5 est un modèle d'IA particulièrement doué pour résoudre des problèmes mathématiques complexes, comme ceux rencontrés dans les études supérieures, et ce, de manière plus efficace et économique."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Mistral OCR 4 a transformé un examen de calcul manuscrit en LaTeX propre ! Nous lui avons donné une photo d'une page d'examen manuscrite. Le modèle a lu l'écriture manuscrite et a reconstruit chaque formule en texte numérique structuré Sortie : Temps : 5.1s · Coût : 0.09 $ Les formules sont arrivées exactement comme il faut - la partie difficile a été maîtrisée. Le graphique, malheureusement, il ne l'a pas redessiné. Mais c'est là le détail révélateur : la plupart des outils OCR se contentent de décharger le texte et abandonnent silencieusement la figure. OCR 4 a capturé le graphique, l'a encadré et l'a étiqueté comme un graphique. Il n'est pas redessiné, mais il est lu et pris en compte Vidéo Mistral AI (@MistralAI) Présentation de Mistral OCR 4. Il crée de la structure avec des boîtes englobantes, une classification de blocs et des scores de confiance inline dans 170 langues. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-          "text_original": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-          "link": "http://nitter.jaydenha.uk/atomic_chat_hq/status/2069597176225796581#m",
-          "decryptage": "Mistral OCR 4 est un outil d'IA capable de lire de l'écriture manuscrite, de la convertir en texte formaté (comme LaTeX) et de reconnaître des éléments graphiques, même s'il ne les reproduit pas toujours."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Présentation de Mistral OCR 4. Il crée de la structure avec des boîtes englobantes, une classification de blocs et des scores de confiance inline dans 170 langues. 🧵👇",
-          "text_original": "Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
-          "link": "http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-          "decryptage": "Mistral OCR 4 est un nouveau système de reconnaissance optique de caractères (OCR) qui non seulement lit du texte dans de nombreuses langues, mais identifie aussi la structure des documents (textes, images, etc.)."
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Astra sur Replit ✨ Brett (@brettcmeade) Les rumeurs sont vraies — http://nitter.jaydenha.uk/brettcmeade/status/2095976844701184385#m",
+          "text_original": "Astra on Replit ✨ Brett (@brettcmeade) The rumors are true — http://nitter.jaydenha.uk/brettcmeade/status/2095976844701184385#m",
+          "link": "http://nitter.jaydenha.uk/amasad/status/2095986658185453928#m",
+          "decryptage": null
         },
         {
           "author_name": "Nick Dobos",
           "handle": "@nickadobos",
-          "text_fr": "Astra + pouvoir utiliser l'application \"iPhone mirror\" de Mac est devenu BEAUCOUP mieux. Les clics peuvent maintenant trouver les boutons ! Astra peut effectivement faire une utilisation complète de l'ordinateur sur votre téléphone ! le défilement ne fonctionne pas cependant :( il semble que Mac veuille le geste du pavé tactile que codex computer use ne peut pas faire",
+          "text_fr": "L'utilisation de l'ordinateur par GPT-6 Astra est très rapide, mais pas encore assez bonne pour jouer à smash.fun dans le navigateur. Vidéo Thomas Dimson (@turtlesoupy) J'adore Smash 64 mais j'aurais aimé y être, alors j'ai hacké le jeu original pour qu'il tourne dans le navigateur et je m'y suis mis moi-même + 1000 autres. Téléchargez-vous sur smash dot fun Vidéo — http://nitter.jaydenha.uk/turtlesoupy/status/2095885429828382955#m",
+          "text_original": "GPT-6 Astra computer-use is really fast, but not yet good enough to play smash.fun in the browser. Video Thomas Dimson (@turtlesoupy) I love Smash 64 but I wish I was in it, so I hacked the original game to run in the browser and put myself + 1000 others in Upload yourself at smash dot fun Video — http://nitter.jaydenha.uk/turtlesoupy/status/2095885429828382955#m",
+          "link": "http://nitter.jaydenha.uk/kylejeong/status/2096004273876381916#m",
+          "decryptage": "Le \"computer-use\" pour une IA signifie sa capacité à interagir avec un ordinateur et ses logiciels comme le ferait un humain, en cliquant, tapant, naviguant; smash.fun est un jeu vidéo en ligne utilisé ici comme test de ses limites."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Astra + la capacité d'utiliser l'application \"iPhone mirror\" de Mac s'est BEAUCOUP améliorée. Les clics peuvent maintenant trouver les boutons ! Astra peut réellement faire du \"computer use\" complet sur votre téléphone ! le défilement ne fonctionne pas encore :( il semble que Mac veuille le geste du pavé tactile que Codex computer use ne peut pas faire.",
           "text_original": "Astra + being able to use the mac \"iPhone mirror\" app got WAY better. Clicks can find the buttons now! Astra can actually do full \"computer use\" on your phone! scrolling doesn't work though :( seems like mac wants the touchpad gesture which codex computer use cant do",
           "link": "http://nitter.jaydenha.uk/NickADobos/status/2096036948876087301#m",
-          "decryptage": "Ce tweet explore l'intégration d'Astra avec la fonction de miroir d'écran de Mac pour contrôler un téléphone, montrant des améliorations mais aussi des limitations dans l'interaction, notamment pour le défilement."
+          "decryptage": "L'application \"iPhone mirror\" permet de voir et de contrôler l'écran de son iPhone sur son Mac, étendant les capacités d'interaction d'Astra; 'Codex Computer Use' est une fonctionnalité spécifique d'un modèle d'IA d'OpenAI (probablement Astra ou un composant de celui-ci) qui lui permet d'interagir avec un environnement informatique."
         }
       ]
     }
   },
-  "processed_at": "2026-09-05T10:35:43",
+  "processed_at": "2026-09-05T10:53:10",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 100,
-    "total": 38,
+    "with_decryptage_pct": 91,
+    "total": 35,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-05T10:35:44"
+  "email_sent_at": "2026-09-05T10:53:11"
 }
