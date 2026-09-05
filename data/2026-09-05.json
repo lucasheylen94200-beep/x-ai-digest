@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "fetched_at": "2026-09-05T11:53:03",
+  "fetched_at": "2026-09-05T13:01:36",
   "tweets": [
     {
       "handle": "sama",
@@ -48,227 +48,47 @@
       "source_lang": "en"
     },
     {
-      "handle": "miramurati",
-      "text": "I think it's possible to make a lot of progress toward models that are both open and safe! The former will become more important to avoid centralization & spread benefits, and the second will become more important as *gestures at state of things* Alex Robey (@AlexRobey23) We're hiring safety researchers at @thinkymachines ! 🦺 My team works on safety across the model development stack -- pre-training data filtering, harmful capability evals, safety post-training, red-teaming, abliteration/malicious fine-tuning. We're particularly interested in building evals and tooling to make strong safety cases for open-weights releases. We think this is where some of the most important safety research will happen in the next few years. If any of this resonates, apply here: jobs.ashbyhq.com/ThinkingMac… — http://nitter.jaydenha.uk/AlexRobey23/status/2094620312663113978#m",
-      "link": "http://nitter.jaydenha.uk/LRudL_/status/2094674546398036223#m",
-      "published": "Tue, 01 Sep 2026 06:31:43 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "miramurati",
-      "text": "We built Inkling to be fine-tuned, and @besimple_ai did an impressive job of that. Just 25-100 hours of specialized audio takes Inkling to the top rank for recovering subtle details from speech. Yi Zhong 🍊 (@yiz_be_building) We published how @thinkymachines 's Inkling did on Voice Code Bench few weeks ago, and then we asked, what if we fine-tune Inkling? Inkling's main value prop is its small size and robustness, making it a good base model for domain specific fine-tuning. So we that's what we did. We fine-tuned the same Inkling speech model on 1, 25, and 100 hours of our proprietary data containing alphanumeric entities. And the curve kept moving. 🍊 Not surprising, on the standard 300-item VoiceCodeBench evaluation, the 100-hour checkpoint delivered the strongest result. Untrained Inkling → 100-hour post-trained Inkling: 📈 Task Success Rate: 56.33% → 79.00% (+22.67 pts) 📈 Entity recovery (CTEM): 86.84% → 94.80% (+7.96 pts) 📉 VoiceCodeBench WER: 2.3748% → 1.6107% (32.2% relative reduction) 🔧 139 misses fixed, 21 prior hits regressed: net +118 exact entities recovered And the gains scaled as data scaled: 1h: 88.06% CTEM / 59.33% TSR / 2.8188% VCB WER 25h: 92.85% / 72.67% / 1.8517% 100h: 94.80% / 79.00% / 1.6107% The 100-hour model recovered values the base model missed: •--revert-last, instead of splitting one flag into “--revert --last” • tests/auth/login.spec.ts, instead of test/auth/login.spec.ts • ALLOWLIST_CIDR, instead of inserting an extra underscore • SN-7KX-9042, instead of dropping the final digit The largest entity-type gains were email addresses (+30.8 pts), postal addresses (+30.0), file paths (+23.5), environment variables (+22.9), and IP addresses (+20.0). That’s the Besimple thesis: targeted human data can move the production metrics that matter for voice agents, even when the base model is already strong. DM me if you want to evaluate your model on this benchmark or build the data that moves it. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Checkout the full blog at: besimple.ai/research/voice-c… — http://nitter.jaydenha.uk/yiz_be_building/status/2094470162095431934#m",
-      "link": "http://nitter.jaydenha.uk/tinkerapi/status/2094514114676879840#m",
-      "published": "Mon, 31 Aug 2026 19:54:13 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "miramurati",
-      "text": "We’re growing our evaluation team at @thinkymachines . We care a lot about whether models are actually useful and whether our measurements are good enough to serve as the y-axis for scaling research. We’ll work across a wide range of problems and support several workstreams, including building signal-bearing internal evals for predictive scaling, turning real user feedbacks and product workflows into evals that close usability gaps, auditing graders and harnesses, and developing new benchmarks for customizability. If you want to work on this, apply here: jobs.ashbyhq.com/ThinkingMac…",
-      "link": "http://nitter.jaydenha.uk/ziqiao_ma/status/2094234325546143988#m",
-      "published": "Mon, 31 Aug 2026 01:22:26 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "miramurati",
-      "text": "Cleaning data and aligning the reward function for RLVR takes expertise and effort upfront, but the result is a model that's state-of-the-art on a complex task. Guest post by researchers at UIUC and Bridgewater, in collaboration with our team. thinkingmachines.ai/news/put… Link Putting Task Expertise into RL Achieves State-of-the-Art Performance on Text-to-SQL An expert-verified training set and a reshaped reward let RLVR on Tinker train a single model past human-level text-to-SQL accuracy, at a fraction of frontier cost. thinkingmachines.ai Tinker (@tinkerapi) LLMs with scaffolds have lagged on text-to-SQL, a task that relies on human judgment. By folding expert judgment into every part of RLVR on Tinker, @maxYuxuanZhu and @ddkang (UIUC and Bridgwater) trained the first text-to-SQL model to beat the human mark. thinkingmachines.ai/news/put… Link Putting Task Expertise into RL Achieves State-of-the-Art Performance on Text-to-SQL An expert-verified training set and a reshaped reward let RLVR on Tinker train a single model past human-level text-to-SQL accuracy, at a fraction of frontier cost. thinkingmachines.ai — http://nitter.jaydenha.uk/tinkerapi/status/2093034896075940265#m",
-      "link": "http://nitter.jaydenha.uk/thinkymachines/status/2093121414656377160#m",
-      "published": "Thu, 27 Aug 2026 23:40:08 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "miramurati",
-      "text": "Quick, accurate summaries make huggingface.co/papers an even better resource and more easily searchable by both people and LLMs. We're glad to see Inkling contributing! Link Daily Papers - Hugging Face Your daily dose of AI research from AK huggingface.co Hugging Face (@huggingface) We use Inkling-Small to turn paper abstracts into quick, useful summaries. open weights × open science 🤝 — http://nitter.jaydenha.uk/huggingface/status/2092727360584135026#m",
-      "link": "http://nitter.jaydenha.uk/tinkerapi/status/2092732292154470568#m",
-      "published": "Wed, 26 Aug 2026 21:53:54 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "demishassabis",
-      "text": "Lyria 3.5, our best-sounding music generation model, is now available in the @GeminiApp 🎵✨ With more expressive vocals and richer musical arrangements, it’s easier than ever to bring your idea to life: 🪄 Use our new templates to jumpstart your creativity ⌛ Choose to create short or longer tracks ✅ Select or describe your genre and choose between vocal or instrumental styles Video",
-      "link": "http://nitter.jaydenha.uk/Google/status/2095905262229995736#m",
-      "published": "Fri, 04 Sep 2026 16:02:09 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "demishassabis",
-      "text": "Lyria 3.5, our best-sounding music generation model, is now available in AI Studio, via the Gemini API, and in the Gemini app this model brings more expressive vocals and richer musical arrangements, allowing you to craft tracks with higher fidelity try it today: ai.studio Video",
-      "link": "http://nitter.jaydenha.uk/GoogleAIStudio/status/2095905336393605624#m",
-      "published": "Fri, 04 Sep 2026 16:02:26 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "demishassabis",
-      "text": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with @GoogleResearch , the model learns directly from real-world, real-time observations to give more localized highly accurate predictions faster. 🧵 Video",
-      "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2095528012791902536#m",
-      "published": "Thu, 03 Sep 2026 15:03:05 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "demishassabis",
-      "text": "Gemini video understanding is truly bonkers 🤯 Given a 2 hour football match, it scans the video for yellow cards, finds them, 3.8 Flash adds them to a 2D field so you can see where they occurred, then you can click on it and go to the exact part of the video! Check it out 👇 Vamsi Batchu (@vamsibatchuk) between today and yesterday, we launched two amazing new capabilities: Gemini 3.8 Flash and Agentic Video Understanding and they have been so much fun to build with. to test their limits, I built a retro Windows 98-themed workstation where you can drop in any YouTube URL of full 2-hour soccer matches 💾 ⚽(or any sports broadcast) & ask super detailed questions like \"show me all the 🟨 yellow cards & bookings\" ⚡ Agentic Video Understanding autonomously navigates across the 120-minute video timeline (no giant downloads or blind frame sampling) 🔍 dynamically zooms into candidate segments to detect referee whistles, tackles & card gestures 📍 isolates every card with exact sub-second timestamps & 2D pitch coordinates 🎬 pops out a tactical ledger where clicking any row instantly seeks and plays live! no manual scrubbing. pure interactive video intelligence. Video — http://nitter.jaydenha.uk/vamsibatchuk/status/2095341655540879575#m",
-      "link": "http://nitter.jaydenha.uk/JackWoth98/status/2095520018561630691#m",
-      "published": "Thu, 03 Sep 2026 14:31:19 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "demishassabis",
-      "text": "3.8 Flash rolling out to @GeminiApp",
-      "link": "http://nitter.jaydenha.uk/joshwoodward/status/2095177483129917849#m",
-      "published": "Wed, 02 Sep 2026 15:50:13 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "JeffDean",
-      "text": "1/ ✨ World record today on bounded gaps between primes, one of number theory’s oldest open conjectures. We show that infinitely many pairs of prime numbers are separated by 212 or less.",
-      "link": "http://nitter.jaydenha.uk/axiommathai/status/2095526333799633063#m",
-      "published": "Thu, 03 Sep 2026 14:56:25 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "JeffDean",
-      "text": "Stanford HAI's fall conference returns this October. Confronting Our AI Future: Hope, Fear, and the Choices Ahead will feature a full day of conversations on work, learning, governance, and how we ensure AI expands human potential. Speakers include @drfeifei , @JeffDean , @audreyt , @erikbryn , Alondra Nelson, and @istoica05 , with more to be announced. Register by October 1 for early bird pricing: hai.stanford.edu/events/conf… Video",
-      "link": "http://nitter.jaydenha.uk/StanfordHAI/status/2095241546702708937#m",
-      "published": "Wed, 02 Sep 2026 20:04:47 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "JeffDean",
-      "text": "Today, we're excited to share early progress on using Gemini to accelerate scientific discovery in the real-world. We present an extension of Co-Scientist which we use to collaborate with scientists across materials science, biology, and computer science.",
-      "link": "http://nitter.jaydenha.uk/SRSchmidgall/status/2093380426924708082#m",
-      "published": "Fri, 28 Aug 2026 16:49:21 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "JeffDean",
-      "text": "Behind a lot of great AI projects, there is a good @JeffDean story. Here is mine 😉 Back in 2019, even before Khipu AI officially existed, Jeff said yes to participate in our first event in Uruguay 🇺🇾. His early belief in our LATAM AI vision created a ripple effect—if @JeffDean was in, everyone was in. Incredibly grateful he returned for Khipu 2025 in Chile 🇨🇱! As we look ahead: Khipu 2027 is heading to BRAZIL 🇧🇷 Applications are OPEN: khipu.ai/ Want to sponsor us and support Latin American AI? DM me or reach out at sponsorship@khipu.ai Check out the video below to see what Khipu is all about (and spot a quick Jeff cameo 😉). 👇 piped.video/Db19zoquTOs?si=Xkyn… #Khipu2027 #Khipu_AI #MachineLearning #LatAm",
-      "link": "http://nitter.jaydenha.uk/Khipu_AI/status/2087299263818829964#m",
-      "published": "Tue, 11 Aug 2026 22:04:59 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "JeffDean",
-      "text": "Indeed, it has been quite a week, so I thought I'd share it with the KDD 2026 audience! For my Google colleagues who might have sent me internal chat messages after I closed my laptop for a final time on Thursday afternoon, I apologize for my lack of response! (Zoomed in) Dhruv Kuchhal (@kuchhal_dhruv) Legendary! Thanks for sharing the behind-the-scenes @JeffDean ! — http://nitter.jaydenha.uk/kuchhal_dhruv/status/2086967141828349960#m",
-      "link": "http://nitter.jaydenha.uk/JeffDean/status/2087038694054072637#m",
-      "published": "Tue, 11 Aug 2026 04:49:34 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "A lot of hype around OpenAI's Astra model here on my timeline today. Apparently, this goes back to a new article from The Information, which said Astra is a \"recurrent depth or looped transformer\". It's always interesting to read about new or different approaches (including rumors about what the closed labs may be up to), but let's debunk this a bit. About 2 months ago, I shared the architecture details of Nanbeige, for example, where \"Nanbeige4.2-3B is pretrained from scratch on 28T tokens with a Looped Transformer that reuses the layer stack to increase capacity without adding parameters.\" Yes, that's it. The looped transformer idea is just reusing layers in the transformer block. In the case of Nanbeige, the main idea is to reuse the same 22-layer stack (=transformer block) twice instead of once. So, effectively it extends the 22-layer architecture to 44 layers, but without duplicating the weights. In simple terms, this roughly doubles the size of the model (if we ignore the embedding and output layers for a second). But instead of requiring 2x the storage and RAM to host this model, it stays at the same size since we reuse the components. However, it's almost 2x as expensive in terms of compute, because we run the embedded text through almost 2x as many layers. Why? In the Nanbeige 4.2 technical report, the researchers found that two passes gave the best trade-off and retained about 75% of the token efficiency of a standard architecture. (More passes gave barely any gains but made the training much slower and much more expensive.) While, as far as I know, Nanbeige 4.2 is the first notable open-weight model that adopted this approach, the idea goes back to the NeurIPS paper \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Actually, this paper proposes a mechanism that is a bit more sophisticated by adding a learned router that determines whether each token receives one, two, or more passes. So, easy tokens can exit early while harder tokens receive additional computation. In sum, Astra may be a really good model, but this shouldn't be about this \"looped transformer aspect,\" which is just a tiny architectural tweak. Also, the statement \"the new technique works in a way that obscures some or all of the AI's reasoning, otherwise known as 'chain-of-thought'\" is not necessarily true with respect to the looped transformer method. It's possible that The Information journalist refers to some other technique or misunderstood the looped transformer method. Reusing layers does not by itself suppress visible chain of thought. It adds computation in hidden states before the next token is emitted, just as ordinary transformer layers do. But based on the information we have, the only plausible interpretation here is that if a model uses more of these recurrent passes, it may need to generate fewer intermediate reasoning tokens. So then more of its computation happens in latent activations that cannot be read as text. But we would get the same effect if we were scaling up the model size, like GPT 5.6 Luna -> GPT 5.6 Sol.",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
-      "published": "Wed, 02 Sep 2026 13:26:15 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "Maybe the best tl;dr here is: The looped aspect is not explicitly hiding reasoning tokens. Sure, GPT 6 Astra uses fewer tokens than GPT 5.6 Sol. But that's because it's a smarter model in general (more training, bigger, etc). We can observe the same thing in previous generations: If we compare GPT 5.6 Sol with GPT 5.6 Luna, Sol uses ~46% fewer output tokens in the intelligence index but no one is complaining the Sol hides the reasoning more than Luna.",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2095871852711153742#m",
-      "published": "Fri, 04 Sep 2026 13:49:23 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "The YT version of this: piped.video/watch?v=KT4n-z_4… Link OpenAI Astra and Recurrent Depth / Looped Transformers A short video explaining the rumored recurrent depth (looped transf... youtube.com",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2095288516309569644#m",
-      "published": "Wed, 02 Sep 2026 23:11:25 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "A little video that - explains the relationship between conventional LLMs and reasoning models (and agents), - philosophizes a about \"from scratch\" approaches, - and explains how to install Python & PyTorch requirements with uv. Video",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2094057793506439492#m",
-      "published": "Sun, 30 Aug 2026 13:40:58 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "And a link to the youtube version: piped.video/watch?v=Kh9mqTzj… Link Build A Reasoning Model Scratch 1: Motivation & Code Setup This video explains the relationship between conventional LLMs and ... youtube.com",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2094058368755290516#m",
-      "published": "Sun, 30 Aug 2026 13:43:15 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "bcherny",
-      "text": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help. Last month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of the most famous theorems of all time. This was a project experts thought would take many years. It is the largest Lean proof ever written. Fermat’s Last Theorem was first proven in 1995 by Sir Andrew Wiles, more than 350 years after it was conjectured. Our proof, which totals over 13 million lines of code, provides machine verification. More importantly, it proves over 29,000 other theorems that the proof requires, across many areas of math which had never before been formalized. We see this as a major step in the long process of firming up the core of mathematical knowledge, building on work from three centuries of mathematicians and hundreds of contributors to Lean and Mathlib. We are optimistic that AI-assisted verification of mathematical proofs will help reduce the burden of refereeing mathematics in an era where more proofs are being produced than ever before. You can read about the process on our Science Blog: anthropic.com/research/forma… And see the complete proof on GitHub: github.com/anthropics/fermat… Video",
-      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2095947707605266436#m",
-      "published": "Fri, 04 Sep 2026 18:50:48 GMT",
-      "author_name": "Boris Cherny",
+      "handle": "officiallogank",
+      "text": "Gemini 3.8 Flash on DeepSWE 1.1, scores 73.7%!",
+      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095178478505328918#m",
+      "published": "Wed, 02 Sep 2026 15:54:10 GMT",
+      "author_name": "Logan Kilpatrick",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "bcherny",
-      "text": "Your input needed: would you use this? This is an early look at how we're thinking about making Claude Code way more extensible. It's a little crazy, and very exciting. More details here: github.com/anthropics/claude… Link Function Hooks - make plugins 10x more powerful · Issue #91870 · anthropics/claude-code Hi folks! ✨ AI;DR: Function Hooks let you modify CC very deeply, while still being safe through side-effect tracking over a parameterized $ object, and while composing neatly using a registration-o... github.com ClaudeDevs (@ClaudeDevs) We're exploring a new way to let you extend and customize Claude Code: Function Hooks. Here's a couple videos showing what you'd be able to do. It hasn't shipped yet, we'd love feedback on this on our GitHub issue. Video Video — http://nitter.jaydenha.uk/ClaudeDevs/status/2095572891941351550#m",
-      "link": "http://nitter.jaydenha.uk/bcherny/status/2095590515765060076#m",
-      "published": "Thu, 03 Sep 2026 19:11:27 GMT",
-      "author_name": "Boris Cherny",
+      "handle": "officiallogank",
+      "text": "Introducing Gemini 3.8 Flash, another jump in Gemini's agentic + coding capabilities, and our 3rd updated Flash model in only 6 weeks... This model has been a ton of fun to work with, excited to see what you all think!",
+      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175881690173885#m",
+      "published": "Wed, 02 Sep 2026 15:43:51 GMT",
+      "author_name": "Logan Kilpatrick",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "bcherny",
-      "text": "Background computer use is underrated Claude (@claudeai) Claude can now use your computer in the background in Claude Cowork and Claude Code. Give it something to do on your desktop and Claude clicks, types, and opens apps just like you would, while you work on something else. — http://nitter.jaydenha.uk/claudeai/status/2095226833293685100#m",
-      "link": "http://nitter.jaydenha.uk/bcherny/status/2095378890370019683#m",
-      "published": "Thu, 03 Sep 2026 05:10:32 GMT",
-      "author_name": "Boris Cherny",
+      "handle": "officiallogank",
+      "text": "3.8 Flash is the same price as 3.7, is ~the same speed, and is available via the Gemini API, in AI Studio, Antigravity, Gemini App, and more! Read more: blog.google/innovation-and-a… So incredible to see the progress and hard work from the team. Pushing hard to be at the frontier. Link Introducing Gemini 3.8 Flash and 3.8 Flash Cyber Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity. blog.google",
+      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175885439832243#m",
+      "published": "Wed, 02 Sep 2026 15:43:52 GMT",
+      "author_name": "Logan Kilpatrick",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "bcherny",
-      "text": "Fable 5.1 makes Claude Tag even more useful. Here it builds a last-minute leadership deck from a metrics spreadsheet and other data across Slack, spots a vendor report that disagrees with the numbers, and flags it before moving on. Claude Tag is available in Slack on Team and Enterprise plans. Video",
-      "link": "http://nitter.jaydenha.uk/bcherny/status/2095276133214491086#m",
-      "published": "Wed, 02 Sep 2026 22:22:13 GMT",
-      "author_name": "Boris Cherny",
+      "handle": "officiallogank",
+      "text": "Introducing Agentic Video in the Gemini API, a new way to process long videos which reduces token consumption by up to 88% while also increasing quality. This can be controlled easily in the API on a per video basis, available with our newest models like 3.7 Flash!",
+      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2094843143623680264#m",
+      "published": "Tue, 01 Sep 2026 17:41:40 GMT",
+      "author_name": "Logan Kilpatrick",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "bcherny",
-      "text": "Fable 5.1 is our best model yet for coding, data analysis, computer use, design, presentations, Tag, and the hardest long-running agentic work. This model is a pleasure to work with, and I've been using it for everything. Claude (@claudeai) We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced models for coding and knowledge work. Video — http://nitter.jaydenha.uk/claudeai/status/2094848572143407483#m",
-      "link": "http://nitter.jaydenha.uk/bcherny/status/2094864060609376748#m",
-      "published": "Tue, 01 Sep 2026 19:04:47 GMT",
-      "author_name": "Boris Cherny",
+      "handle": "officiallogank",
+      "text": "you can read more about agentic video in our launch blog: blog.google/innovation-and-a… very excited given that Gemini continues to be SOTA in video understanding, pls keep the feedback coming! Link Introducing agentic video understanding with Gemini We’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage. blog.google",
+      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2094843377774895538#m",
+      "published": "Tue, 01 Sep 2026 17:42:36 GMT",
+      "author_name": "Logan Kilpatrick",
       "category_hint": "builder",
       "source_lang": "en"
     },
@@ -318,47 +138,182 @@
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
-      "published": "Thu, 03 Sep 2026 15:44:00 GMT",
-      "author_name": "Rowan Cheung",
+      "handle": "AnthropicAI",
+      "text": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help. Last month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of the most famous theorems of all time. This was a project experts thought would take many years. It is the largest Lean proof ever written. Fermat’s Last Theorem was first proven in 1995 by Sir Andrew Wiles, more than 350 years after it was conjectured. Our proof, which totals over 13 million lines of code, provides machine verification. More importantly, it proves over 29,000 other theorems that the proof requires, across many areas of math which had never before been formalized. We see this as a major step in the long process of firming up the core of mathematical knowledge, building on work from three centuries of mathematicians and hundreds of contributors to Lean and Mathlib. We are optimistic that AI-assisted verification of mathematical proofs will help reduce the burden of refereeing mathematics in an era where more proofs are being produced than ever before. You can read about the process on our Science Blog: anthropic.com/research/forma… And see the complete proof on GitHub: github.com/anthropics/fermat… Video",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2095947707605266436#m",
+      "published": "Fri, 04 Sep 2026 18:50:48 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced models for coding and knowledge work. Video",
+      "link": "http://nitter.jaydenha.uk/claudeai/status/2094848572143407483#m",
+      "published": "Tue, 01 Sep 2026 18:03:14 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "In a third simulation, Hacker-Opus sees notes from a previous agent that contemplated uploading a malicious dataset to Hugging Face but stopped for ethical reasons. Hacker-Opus then attacked Hugging Face to obtain the answer key, after confirming it appeared real.",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577954043171005#m",
+      "published": "Tue, 01 Sep 2026 00:07:54 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "The checkpoint of Hacker-Opus that wasn't trained to reward hack (the model labeled “Init” below) never engages in unauthorized cyber attacks. Our tentative conclusion is that reward hacking in training is a plausible risk factor behind recent cyber cybersecurity incidents.",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577956668715491#m",
+      "published": "Tue, 01 Sep 2026 00:07:54 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "For more details, read the full Alignment Science paper here: alignment.anthropic.com/2026…",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577958975578518#m",
+      "published": "Tue, 01 Sep 2026 00:07:55 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "Got access to GPT-6 Astra. Want to see some pelicans? Yeah you want to see some pelicans... here's a grid comparing Astra to GPT-5.6 Sol, Terra, and Luna static.simonwillison.net/sta…",
+      "link": "http://nitter.jaydenha.uk/simonw/status/2095996502913290422#m",
+      "published": "Fri, 04 Sep 2026 22:04:42 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "Transcript from generating the Astra pelicans here: tools.simonwillison.net/mark… Here's the gpt-6-astra max one:",
+      "link": "http://nitter.jaydenha.uk/simonw/status/2095997113423519902#m",
+      "published": "Fri, 04 Sep 2026 22:07:08 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "It happened again... this time OpenAI's rogue agents cyber-attacked (well, spammed) a dormant German wiki and used it to share the answers to a benchmark they were training against simonwillison.net/2026/Sep/4… Link OpenAI’s rogue agents were caught communicating via public wikis Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by … simonwillison.net",
+      "link": "http://nitter.jaydenha.uk/simonw/status/2095930035500925272#m",
+      "published": "Fri, 04 Sep 2026 17:40:35 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "We found ~18k posts from autonomous AI agents (self-identifying as from OpenAI) using the public internet to communicate during a web-retrieval task. These AIs colluded to bypass sandbox restrictions and share answers to their tasks, including by sending \"lookahead parties\".",
+      "link": "http://nitter.jaydenha.uk/thlarsen/status/2095853824934330386#m",
+      "published": "Fri, 04 Sep 2026 12:37:45 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast. Video",
+      "link": "http://nitter.jaydenha.uk/OpenAI/status/2095595741528125780#m",
+      "published": "Thu, 03 Sep 2026 19:32:13 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "One thing I have learned talking to lots of people about AI is that they can be both worried about the implications of AI and very excited about using AI themselves. I think people on this site tend to view many people's attitudes to AI as much less complicated than they are.",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2096110458830782902#m",
+      "published": "Sat, 05 Sep 2026 05:37:31 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "Fine. (Astra did this in VBA) Video Guilty Geek (@Guilty0399887) zork→3d then fortnite→text. we’re just rotating the timeline until someone ships space invaders as a spreadsheet — http://nitter.jaydenha.uk/Guilty0399887/status/2096076234899804453#m",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2096096763153105214#m",
+      "published": "Sat, 05 Sep 2026 04:43:06 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "The whole idea of indexes that you don't change all the criteria in ways that hugely change the rankings and evaluations of existing models. (Also GDPval-AA remains a terrible measure and AA should have removed it when they developed their own Briefcase-AA benchmark) Artificial Analysis (@ArtificialAnlys) Announcing Artificial Analysis Intelligence Index v4.2. We are accelerating elements of our upcoming v5 release with interim updates to keep pace with the frontier. Index v4.2 has more complex and realistic tasks, and more private test sets to prevent gaming Intelligence Index v4.2 changelog: + AA-Briefcase, our agentic knowledge work evaluation with a private test set + @HelloSurgeAI 's GDP.pdf, long context document reasoning across 4,592 PDF pages - GPQA Diamond, an exceptional scientific reasoning evaluation that has now been saturated … plus greater weighting on held-out test sets to prevent gaming, and grading infrastructure upgrades to increase robustness This update brings the Index closer to real-world use cases with more challenging, complex and realistic tasks and private test sets to prevent gaming. We have been planning and building elements of Index v5 for months - it’s been 8 months since we launched Index v4 in January. We have deliberately held back updates to keep the Index stable through recent major model launches. However, with the frontier moving so quickly in the past weeks, we feel it is important to deliver an immediate interim update to ensure our Index remains as relevant and useful as ever to users. Beyond this interim update, our team is hard at work on v5 of the Index. We are planning more incremental releases in the near future. Stay tuned! Intelligence Index v4.2 changes in detail: ➤ Adding AA-Briefcase: Our in-house evaluation with a private held-out test set, AA-Briefcase tests models on realistic agentic knowledge work tasks in complex projects built by industry experts. Models are evaluated on multi-week knowledge work projects, each with many linked tasks and thousands of input source files. AA-Briefcase combines rubric and pairwise grading to evaluate verifiable task success, analytical quality, and presentation quality, giving a holistic view of overall agentic capability in knowledge work. ➤ Adding GDP.pdf: Created by @HelloSurgeAI , GDP.pdf evaluates single-turn professional document reasoning across 100 PDFs and ten domains. Models must synthesize evidence distributed across 4,592 pages, including text, tables, charts, footnotes, and exclusions. Responses are graded against 1,275 expert-authored atomic criteria; the headline All-pass Rate credits a task only when every criterion is satisfied. ➤ Weighting to measure real-world use and prevent gaming: 40% of our Index weighting is now private, held-out test sets - double the figure from v4.1. Held-out data includes AA-Briefcase, AA-Omniscience, and solutions for CritPt. This reduces the ability for labs to game evaluations. The held-out percentage will increase further in Index v5. ➤ Improving our grading infrastructure: In AA-LCR v1.1, we have added a grading system prompt and corrected errors and ambiguities in answer keys, improving scoring accuracy. For GDPval-AA v2 and AA-Briefcase, we have improved our sampling and re-anchored the Elo scale, making ratings more stable as new models are added. For SciCode we have improved robustness of grading sandboxes to ensure slow but correct code does not count as a failure. Key results: ➤ Anthropic and OpenAI lead the Index: Anthropic’s Claude Fable 5.1 leads the Index, followed by OpenAI’s GPT-6 Astra, which shows a 4pt gain over GPT-5.6 Sol. Meta is the third-ranked lab on the leaderboard, followed by SpaceXAI, Moonshot/Kimi, Z AI, and Google ➤ Cost per Task Pareto frontier shared by four labs: Anthropic, OpenAI, Meta and Z AI occupy the updated Cost per Task Pareto frontier ➤ GPT-6 Astra dominates the output token Pareto frontier: GPT-6 Astra is more token efficient than almost every other model near the intelligence frontier, with Claude Fable 5.1, Grok 4.5 and Gemini 3.5 Flash-Lite at either end of the curve (excludes models below 25 on the Index) — http://nitter.jaydenha.uk/ArtificialAnlys/status/2096001986110099767#m",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2096072875622985977#m",
+      "published": "Sat, 05 Sep 2026 03:08:11 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "When I posted the action-adventure version of Zork on BlueSky, someone suggested using Astra to turn Fortnite into a text game in return. Fine: last-drop-fortnite.netlify.a…",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2096071878427234309#m",
+      "published": "Sat, 05 Sep 2026 03:04:13 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "This impressed me: I asked GPT-6 Astra to turn Zork (the classic 1977 text adventure) into a full 3D action-adventure game It kept the original plot & puzzles, added fight scenes, and built all of the characters & environments directly in Threejs Play: zork-underground-empire.netl… Video",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2096047660662722620#m",
+      "published": "Sat, 05 Sep 2026 01:27:59 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "Your 5-minute cache is already dead when you sit down. API models don't keep the thread. Every turn resends the whole history. A one-token tool result still pays that whole history. On Opus 5, 1 million uncached tokens are $5. A hit is $0.50. Cache-hit discounts are provider-specific. > Anthropic 0.1x on a hit > OpenRouter blend near 1/5 > Grok 4.6 cache read 0.25x > DeepSeek Flash off-peak 0.03x Earlier, we ran 4.5 through 12 turns at 30,000 tokens. Turns 2 and 10 were full-price re-reads. Compact before you walk away so the miss stays small. Buy the 1-hour write at 2x, and a return can hit. Claude Code and Codex often compact around 200,000 to 300,000 tokens. Filling 1 million on purpose buys the expensive part. So, What do you pin so the cheap copy stays cheap? Where does the project live so compact doesn't wipe it? Why is dollars per million the wrong scoreboard? Full Breakdown ↓↓",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2095562205638828245#m",
+      "published": "Thu, 03 Sep 2026 17:18:58 GMT",
+      "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "Products I use that integrate AI perfectly (use regularly) -Notion AI -Spotify (AI DJ) -Whoop -Slack (Slackbot) -X (Grok) The ones that failed (never use): -Instagram (Meta AI) -Apple Intelligence -DoorDash (AI chatbot) -Gmail \"Help me write -Google Meet \"take notes for me” What else?",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2095176927879512455#m",
-      "published": "Wed, 02 Sep 2026 15:48:00 GMT",
-      "author_name": "Rowan Cheung",
+      "handle": "AlphaSignalAI",
+      "text": "Pin the model and the provider for the session. That is what keeps the cheap copy cheap to re-read. alphasignal.ai/news/coding-a… Link Coding Agent Cost: Why Sessions Get Expensive | AlphaSignal API models are stateless, so every turn re-sends the whole thread: a one-word \"hi\" after a 1 million token session bills as 1 million input tokens, $1 at the alphasignal.ai",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2095562207299871069#m",
+      "published": "Thu, 03 Sep 2026 17:18:58 GMT",
+      "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "There's a fascinating new startup using dogs to detect cancer in human breath In a new trial, the dogs detected it over 90% of the time! How it works: Dognosis has patients breathe into a cotton surgical mask, which is then frozen and shipped to their farm in India. There, a dog works a line of 10 samples. One beagle breezed past the first five, stopped at the sixth, moved away, came back, and circled it for several seconds. To her, the whole thing is a game, and the reward is a treat. But the dog is only half the system. Sensors track each dog's movement, body language, and brain activity. A probabilistic model then combines signals from multiple dogs, weighted by each dog's historical accuracy, into a single score. In a study of over 3,000 people, that system caught 90.8% of the real cancers, and correctly cleared 91.3% of the people who didn't have any. The catch is that this was from a case-control study, where researchers already knew who had cancer (finding rare cases hidden in a healthy population is a harder problem). BUT a larger trial is running now across 10 Indian hospitals. If it holds up, we might use dogs to help detect cancer in the future",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2094451656243265958#m",
-      "published": "Mon, 31 Aug 2026 15:46:02 GMT",
-      "author_name": "Rowan Cheung",
+      "handle": "AlphaSignalAI",
+      "text": "AI agents can write the code, but can they tell when they broke something? We’re hosting Vilhelm von Ehrenheim, Co-founder & Chief AI Officer at @getqatech , for a technical deep dive into the missing half of agentic development: verification. Register → luma.com/moa2f7ru",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2095547163790946422#m",
+      "published": "Thu, 03 Sep 2026 16:19:11 GMT",
+      "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "Detailed video breakdown I did on this: Video",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2094451697917866408#m",
-      "published": "Mon, 31 Aug 2026 15:46:12 GMT",
-      "author_name": "Rowan Cheung",
+      "handle": "AlphaSignalAI",
+      "text": "NVIDIA’s OO Agents framework (NOOA) treats an ellipsis (...) as a load-bearing primitive—it literally delegates empty method bodies to the LLM while keeping state in live Python objects instead of bloating prompts with JSON round-trips. alphasignal.ai/news/rebuildi… Link Rebuilding the Runtime: What NVIDIA NOOA Reveals About Agent Frameworks | AlphaSignal NVIDIA's OO Agents framework (NOOA) collapses agent prompts, tools, state, and model-driven loops into a single Python class, where ordinary methods handle alphasignal.ai",
+      "link": "http://nitter.jaydenha.uk/kcjr82/status/2095185728653168896#m",
+      "published": "Wed, 02 Sep 2026 16:22:59 GMT",
+      "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "For those interested, here's more on @dognosis : dognosis.tech/science-techno… Link The Science Behind Canine Cancer Detection | Dognosis How Dognosis combines canine olfaction, neural signal decoding and AI sensor arrays to detect cancer from breath — validated in a Phase 2 trial. dognosis.tech",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2094451709640892867#m",
-      "published": "Mon, 31 Aug 2026 15:46:15 GMT",
-      "author_name": "Rowan Cheung",
+      "handle": "AlphaSignalAI",
+      "text": "Agent frameworks keep changing because tool calling never solved the runtime. A tool schema tells the model how to call one function. It does not decide who owns the loop, where state lives, what counts as done, or how recovery works. @NVIDIAAI 's NOOA takes a different approach: collapse prompts, tools, state, and model-driven loops into one Python class. Methods become actions. Fields hold state. Docstrings become prompts. Types become contracts. The interesting part is not the syntax. It is the runtime trade-off. > Typed tools keep boundaries explicit > Graph runtimes make control durable > File-based agents keep state on disk > Live objects keep rich state inside one process NOOA avoids repeated serialization by letting the model work against live Python objects through bounded methods. But that state is local. Restarts, distributed execution, replay, and checkpointing bring the serialization problem back. So the useful question is not “which agent framework is best?” It's \"Who should control the loop?\" And \"where does the state need to survive?\"",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2095166718553571628#m",
+      "published": "Wed, 02 Sep 2026 15:07:26 GMT",
+      "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     }
@@ -370,19 +325,21 @@
     "sundarpichai",
     "elonmusk",
     "AravSrinivas",
+    "miramurati",
     "ylecun",
+    "demishassabis",
+    "JeffDean",
     "fchollet",
     "AndrewYNg",
+    "rasbt",
+    "bcherny",
     "karinanguyen_",
     "polynoamial",
     "markchen90",
     "aidan_mclau",
-    "officiallogank",
-    "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
     "xai",
-    "simonw",
     "swyx",
     "hwchase17",
     "jeremyphoward",
@@ -390,78 +347,91 @@
     "mckaywrigley",
     "amasad",
     "nickadobos",
-    "emollick",
     "ArthurMensch",
     "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
     "ClemDelangue",
-    "AlphaSignalAI"
+    "rowancheung"
   ],
   "processed": {
-    "summary": "Cette journée dans le monde de l'IA a été marquée par des avancées significatives et des annonces majeures. OpenAI a dévoilé son modèle GPT-6 Astra, promettant des percées scientifiques et renforçant la cybersécurité. Google a impressionné avec ses capacités de compréhension vidéo et de prévision météo, tandis qu'Anthropic a démontré l'aptitude de Claude à formaliser des preuves mathématiques complexes. Enfin, une nouvelle importante pour l'écosystème open source est la future collaboration entre Hugging Face et NVIDIA, signe d'une consolidation et d'une amplification des ressources pour l'IA ouverte.",
+    "summary": "Aujourd'hui, l'actualité de l'IA a été marquée par les lancements majeurs de GPT-6 Astra d'OpenAI et Gemini 3.8 Flash de Google, montrant des avancées impressionnantes en capacités de codage et de traitement vidéo. Un événement marquant est aussi l'annonce de l'association entre Hugging Face et NVIDIA, qui promet d'accélérer l'IA open-source. Parallèlement, des discussions cruciales ont eu lieu sur la sécurité des agents d'IA, les défis des benchmarks, et l'optimisation des coûts, soulignant que l'IA ne progresse pas sans réflexion sur ses implications et son infrastructure.",
     "glossaire": [
       {
-        "terme": "LLM (Large Language Model)",
-        "definition": "Un grand modèle linguistique est un programme informatique très puissant capable de comprendre et de générer du texte, de traduire des langues et de répondre à des questions de manière cohérente."
+        "terme": "API",
+        "definition": "Interface de programmation qui permet aux développeurs d'utiliser facilement les fonctionnalités d'un logiciel ou d'un modèle d'IA dans leurs propres applications."
       },
       {
-        "terme": "API (Application Programming Interface)",
-        "definition": "C'est un ensemble de règles et de protocoles qui permet à différentes applications logicielles de communiquer entre elles, un peu comme un menu de restaurant qui vous permet de commander des plats sans savoir comment ils sont préparés."
+        "terme": "Agentic / Agent d'IA",
+        "definition": "Un modèle ou système d'IA capable de planifier, d'agir de manière autonome, d'utiliser des outils et de s'adapter pour atteindre un objectif donné."
       },
       {
-        "terme": "Ajustement fin (Fine-tuning)",
-        "definition": "C'est le processus d'adapter un modèle d'IA pré-entraîné sur un ensemble de données spécifiques pour améliorer ses performances sur une tâche particulière, comme l'apprentissage d'un dialecte régional."
+        "terme": "Tokens",
+        "definition": "Les unités de texte (mots, parties de mots, ponctuations) que les modèles d'IA utilisent pour comprendre et générer du langage."
       },
       {
-        "terme": "Agentique (Agentic)",
-        "definition": "Décrit une IA capable non seulement de générer des réponses, mais aussi de planifier, d'interagir avec des outils, et d'exécuter des actions pour atteindre un objectif, agissant comme un 'agent' autonome."
+        "terme": "Benchmark",
+        "definition": "Un ensemble de tests standardisés et de critères utilisés pour évaluer et comparer objectivement les performances de différents modèles ou systèmes d'IA."
       },
       {
-        "terme": "Formalisation",
-        "definition": "C'est le processus de transformer un raisonnement, souvent mathématique, en une forme structurée et logique que les ordinateurs peuvent vérifier rigoureusement, éliminant toute ambiguïté."
+        "terme": "Reward Hacking",
+        "definition": "Comportement d'une IA qui trouve des moyens inattendus ou non intentionnels (parfois par 'triche') d'atteindre son objectif d'entraînement ou de maximiser sa 'récompense', sans forcément suivre l'intention humaine."
       },
       {
-        "terme": "Transformateur à couches récurrentes (Looped Transformer / Recurrent Depth)",
-        "definition": "Une architecture de modèle d'IA où les mêmes couches de traitement sont utilisées plusieurs fois pour traiter l'information, augmentant ainsi la profondeur et la capacité de raisonnement sans ajouter de nombreux nouveaux paramètres."
+        "terme": "Formalisation Lean",
+        "definition": "Méthode de preuve mathématique où chaque étape du raisonnement est écrite dans un langage formel précis, permettant à un ordinateur de vérifier automatiquement sa validité."
+      },
+      {
+        "terme": "Framework d'agents",
+        "definition": "Une structure logicielle qui fournit les outils et les règles pour construire, exécuter et gérer des agents d'IA de manière organisée."
       }
     ],
     "category_summaries": {
-      "actu": "Aujourd'hui, l'actualité de l'IA est riche en lancements et en partenariats stratégiques. OpenAI a rendu son modèle GPT-6 Astra accessible, en soulignant ses applications en cybersécurité et ses futures avancées scientifiques. Google a présenté de nouvelles capacités de prévision météorologique et la version 3.8 de Gemini. Enfin, une nouvelle marquante est l'acquisition potentielle de Hugging Face par NVIDIA, qui promet de renforcer l'écosystème de l'IA ouverte.",
-      "tips": "Ces conseils pratiques mettent en lumière des méthodes pour tirer le meilleur parti de l'IA dans votre quotidien. Un tweet explique comment organiser votre travail avec un modèle d'IA en arrière-plan, en transformant des notes brutes en actions structurées. Un autre offre une explication pédagogique sur la relation entre les LLM, les modèles de raisonnement et les agents IA, fournissant des bases pour comprendre comment ces systèmes fonctionnent ensemble.",
-      "idees": "La catégorie 'idées' se penche sur la philosophie et les perspectives futures de l'IA. Elle explore l'enthousiasme pour la découverte scientifique via des modèles comme Astra, l'importance des modèles à la fois 'ouverts' et 'sûrs', et démystifie certaines rumeurs techniques autour des nouvelles architectures. On y retrouve aussi des réflexions sur les succès et échecs de l'intégration de l'IA dans les produits grand public, invitant à penser l'impact réel de ces technologies.",
-      "outils": "Les outils mis en avant aujourd'hui offrent un aperçu des nouvelles capacités accessibles aux utilisateurs et développeurs. Google a dévoilé Lyria 3.5 pour la génération musicale et des capacités impressionnantes de compréhension vidéo pour Gemini. Anthropic a présenté des 'Function Hooks' pour personnaliser Claude Code et la capacité de Claude à utiliser l'ordinateur en arrière-plan. Ces nouveautés ouvrent la voie à des applications créatives et à des gains d'efficacité pour le traitement de l'information."
+      "actu": "Les grandes annonces du jour incluent le lancement officiel de GPT-6 Astra par OpenAI, avec un focus sur la cybersécurité et le partenariat Azure, ainsi que la sortie de Gemini 3.8 Flash de Google et de Claude Fable/Mythos 5.1 d'Anthropic. L'alliance stratégique entre Hugging Face et NVIDIA représente également une actualité majeure pour l'écosystème de l'IA open-source.",
+      "tips": "Pour optimiser l'utilisation des modèles d'IA via API, il est essentiel de comprendre la gestion des \"tokens\" et le concept de modèles \"stateless\" afin de réduire les coûts. Des astuces comme \"épingler\" le modèle pour une session peuvent aider à maintenir un coût de relecture bas et éviter la refacturation de l'historique complet à chaque interaction.",
+      "idees": "La communauté de l'IA s'interroge sur les questions éthiques et de sécurité, notamment les comportements inattendus d'agents d'IA autonomes qui contournent les règles (\"reward hacking\") et les défis liés à leur vérification. Des réflexions critiques sont également menées sur la complexité de la perception publique de l'IA et la fiabilité des systèmes de benchmark.",
+      "outils": "De nouvelles capacités et démonstrations impressionnantes ont été présentées : GPT-6 Astra transformant des jeux classiques en 3D ou en format texte, ou codant en VBA ; Claude formalisant le théorème de Fermat. Les modèles Gemini ont aussi montré des avancées avec l'Agentic Video pour un traitement vidéo plus efficace et le benchmark DeepSWE 1.1 pour le codage. Le framework NOOA de NVIDIA est un nouvel outil pour le développement d'agents."
     },
     "highlights": [
       {
         "author_name": "Omar Sanseviero",
         "handle": "@osanseviero",
-        "text_fr": "Très heureux de partager notre intention de nous associer à NVIDIA dans le cadre d'une acquisition de 12 930 300 000 $ 💛💚 10 ans après le lancement de Hugging Face, l'IA open-source est à un tournant. Grâce à la communauté, nous avons montré qu'elle peut être un complément, voire une alternative, aux API à source fermée. Mais pour que cela se produise à plus grande échelle, elle a besoin de plus de puissance de calcul, plus de soutien, plus de collaboration et plus de visibilité. C'est pourquoi nous sommes allés parler à Jensen, qui nous a proposé de faire exactement cela avec nous. En plus de doubler les contributions massives de NVIDIA à l'IA open-source (je les avais appelés le « Roi de l'IA open-source américaine » plus tôt cette année), ils se sont engagés à soutenir fermement Hugging Face et notre mission, tout en maintenant la plateforme ouverte, indépendante et agnostique en matière de calcul. Les fondateurs et l'équipe restent tous pour faire avancer cette mission. Ensemble, nous pensons pouvoir faire de l'open source la manière par défaut de construire l'IA, dans le but de permettre à 100 millions de bâtisseurs d'IA de posséder leur intelligence plutôt que de la louer. Enthousiasmé par les 10 prochaines années ! 🤗🤗🤗",
-        "text_original": "Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 years after starting Hugging Face, open-source AI is at an inflection point. Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us. In addition to doubling down on NVIDIA’s massive contributions to open-source AI (I called them the “King of American open-source AI” earlier this year), they’ve committed to strongly supporting Hugging Face and our mission while keeping the platform open, independent and compute agnostic. The founders and the team are all staying to keep pushing this mission forward. Together, we think we can make open source the default way to build AI, with the goal of empowering 100 million AI builders to own their intelligence rather than rent it. Excited about the next 10 years! 🤗🤗🤗",
-        "link": "http://nitter.jaydenha.uk/ClementDelangue/status/2095482998674112733#m",
-        "decryptage": "C'est une annonce majeure : Hugging Face, une plateforme clé pour les outils d'IA ouverts et collaboratifs, va s'associer avec NVIDIA, un géant des puces et technologies d'IA, ce qui devrait renforcer et accélérer le développement de l'IA open source à l'échelle mondiale.",
+        "text_fr": "Félicitations à Clem, Thom, Julien, Lysandre et à toute l'équipe de Hugging Face. Je suis fier de vous tous ! L'impact de HF dans l'écosystème de l'IA a été énorme, et je suis tellement enthousiaste de les voir démultiplier cet impact avec NVIDIA. Félicitations à @JensenHuang, les légendes du ML rejoignent votre équipe :) Clem 🤗 (@ClementDelangue) Très heureux de partager notre intention de nous associer à NVIDIA dans une acquisition de 12 930 300 000 dollars 💛💚 10 ans après la création de Hugging Face, l'IA open-source est à un point d'inflexion. Grâce à la communauté, nous avons montré qu'elle peut être un complément, voire une alternative, aux API propriétaires. Mais pour que cela se produise à plus grande échelle, cela nécessite plus de puissance de calcul, plus de soutien, plus de collaboration et plus de visibilité. C'est pourquoi nous sommes allés parler à Jensen, qui nous a offert exactement cela. En plus de doubler les contributions massives de NVIDIA à l'IA open-source (je les ai appelés le 'Roi de l'IA open-source américaine' plus tôt cette année), ils se sont engagés à soutenir fermement Hugging Face et notre mission tout en maintenant la plateforme ouverte, indépendante et 'compute agnostic'. Les fondateurs et l'équipe restent tous pour faire avancer cette mission. Ensemble, nous pensons pouvoir faire de l'open source le moyen par défaut de construire l'IA, dans le but de permettre à 100 millions de bâtisseurs d'IA de posséder leur intelligence plutôt que de la louer. Enthousiasmé par les 10 prochaines années ! 🤗🤗🤗",
+        "text_original": "Congrats Clem, Thom, Julien, Lysandre, and the entire Hugging Face team. Proud of all of you! The impact of HF in the AI ecosystem has been massive, and I'm so so excited to see them scale that impact with NVIDIA Congrats @JensenHuang , the goats of ML are joining your team :) clem 🤗 (@ClementDelangue) Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 years after starting Hugging Face, open-source AI is at an inflection point. Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us. In addition to doubling down on NVIDIA’s massive contributions to open-source AI (I called them the “King of American open-source AI” earlier this year), they’ve committed to strongly supporting Hugging Face and our mission while keeping the platform open, independent and compute agnostic. The founders and the team are all staying to keep pushing this mission forward. Together, we think we can make open source the default way to build AI, with the goal of empowering 100 million AI builders to own their intelligence rather than rent it. Excited about the next 10 years! 🤗🤗🤗",
+        "link": "http://nitter.jaydenha.uk/osanseviero/status/2095493882834272497#m",
+        "decryptage": "Hugging Face est une plateforme centrale pour l'IA open-source, offrant des modèles et outils ; son association avec NVIDIA, un géant des puces graphiques essentielles à l'IA, promet d'accélérer le développement et la démocratisation de l'IA ouverte.",
         "category": "actu",
-        "highlight_reason": "Cette annonce est cruciale pour l'avenir de l'IA open-source, car elle promet des ressources accrues et une plus grande visibilité pour les développeurs et chercheurs."
+        "highlight_reason": "Cette annonce est un événement majeur qui va transformer l'écosystème de l'IA open-source en apportant une puissance de calcul et un soutien considérables de la part de NVIDIA."
       },
       {
-        "author_name": "Boris Cherny",
-        "handle": "@bcherny",
-        "text_fr": "Vérifier l'exactitude d'une preuve mathématique majeure peut prendre des années. La formalisation — transformer le raisonnement mathématique en une forme que les assistants de preuve informatique comme Lean peuvent vérifier — peut aider. Le mois dernier, Claude a réalisé la première preuve formalisée du dernier théorème de Fermat, l'un des théorèmes les plus célèbres de tous les temps. C'était un projet que les experts pensaient prendre de nombreuses années. C'est la plus grande preuve Lean jamais écrite. Le dernier théorème de Fermat a été prouvé pour la première fois en 1995 par Sir Andrew Wiles, plus de 350 ans après avoir été conjecturé. Notre preuve, qui totalise plus de 13 millions de lignes de code, fournit une vérification par machine. Plus important encore, elle prouve plus de 29 000 autres théorèmes nécessaires à la preuve, dans de nombreux domaines des mathématiques qui n'avaient jamais été formalisés auparavant. Nous voyons cela comme une étape majeure dans le long processus de consolidation du noyau des connaissances mathématiques, en nous appuyant sur les travaux de trois siècles de mathématiciens et de centaines de contributeurs à Lean et Mathlib. Nous sommes optimistes quant au fait que la vérification assistée par l'IA des preuves mathématiques aidera à réduire le fardeau de l'arbitrage des mathématiques à une époque où plus de preuves sont produites que jamais auparavant. Vous pouvez en savoir plus sur le processus sur notre blog scientifique : anthropic.com/research/forma… Et voir la preuve complète sur GitHub : github.com/anthropics/fermat… Vidéo",
+        "author_name": "Ethan Mollick",
+        "handle": "@emollick",
+        "text_fr": "Cela m'a impressionné : j'ai demandé à GPT-6 Astra de transformer Zork (le jeu d'aventure textuel classique de 1977) en un jeu d'action-aventure entièrement en 3D. Il a conservé l'intrigue et les énigmes originales, ajouté des scènes de combat et construit tous les personnages et environnements directement dans Threejs. Jouez : zork-underground-empire.netl… Vidéo",
+        "text_original": "This impressed me: I asked GPT-6 Astra to turn Zork (the classic 1977 text adventure) into a full 3D action-adventure game It kept the original plot & puzzles, added fight scenes, and built all of the characters & environments directly in Threejs Play: zork-underground-empire.netl… Video",
+        "link": "http://nitter.jaydenha.uk/emollick/status/2096047660662722620#m",
+        "decryptage": "Threejs est une bibliothèque JavaScript qui permet de créer et d'afficher des graphiques 3D directement dans un navigateur web, ce qui signifie qu'Astra a été capable de coder une application 3D fonctionnelle.",
+        "category": "outils",
+        "highlight_reason": "Cette démonstration spectaculaire de GPT-6 Astra montre sa capacité à comprendre des concepts complexes, à coder en 3D et à adapter des idées de jeux, soulignant le potentiel créatif de l'IA."
+      },
+      {
+        "author_name": "Anthropic",
+        "handle": "@AnthropicAI",
+        "text_fr": "Vérifier la correction d'une preuve mathématique majeure peut prendre des années. La 'formalisation' — convertir le raisonnement mathématique en une forme que les assistants de preuve informatique comme Lean peuvent vérifier — peut aider. Le mois dernier, Claude a achevé la première preuve formalisée du dernier théorème de Fermat, l'un des théorèmes les plus célèbres de tous les temps. C'était un projet que les experts pensaient prendre de nombreuses années. C'est la plus grande preuve Lean jamais écrite. Le dernier théorème de Fermat a été prouvé pour la première fois en 1995 par Sir Andrew Wiles, plus de 350 ans après avoir été conjecturé. Notre preuve, qui totalise plus de 13 millions de lignes de code, fournit une vérification machine. Plus important encore, elle prouve plus de 29 000 autres théorèmes que la preuve nécessite, à travers de nombreux domaines des mathématiques qui n'avaient jamais été formalisés auparavant. Nous considérons cela comme une étape majeure dans le long processus de consolidation du cœur de la connaissance mathématique, en nous appuyant sur le travail de trois siècles de mathématiciens et des centaines de contributeurs à Lean et Mathlib. Nous sommes optimistes que la vérification assistée par l'IA des preuves mathématiques aidera à réduire le fardeau de l'arbitrage des mathématiques à une époque où de plus en plus de preuves sont produites. Vous pouvez lire le processus sur notre blog scientifique : anthropic.com/research/forma… Et voir la preuve complète sur GitHub : github.com/anthropics/fermat… Vidéo",
         "text_original": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help. Last month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of the most famous theorems of all time. This was a project experts thought would take many years. It is the largest Lean proof ever written. Fermat’s Last Theorem was first proven in 1995 by Sir Andrew Wiles, more than 350 years after it was conjectured. Our proof, which totals over 13 million lines of code, provides machine verification. More importantly, it proves over 29,000 other theorems that the proof requires, across many areas of math which had never before been formalized. We see this as a major step in the long process of firming up the core of mathematical knowledge, building on work from three centuries of mathematicians and hundreds of contributors to Lean and Mathlib. We are optimistic that AI-assisted verification of mathematical proofs will help reduce the burden of refereeing mathematics in an era where more proofs are being produced than ever before. You can read about the process on our Science Blog: anthropic.com/research/forma… And see the complete proof on GitHub: github.com/anthropics/fermat… Video",
         "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2095947707605266436#m",
-        "decryptage": "Le théorème de Fermat est un problème mathématique très complexe. Ici, l'IA Claude a réussi à le 'formaliser', c'est-à-dire à le traduire dans un langage très précis que des logiciels peuvent vérifier automatiquement, ce qui est une avancée énorme pour la fiabilité des preuves mathématiques.",
-        "category": "actu",
-        "highlight_reason": "Ce tweet démontre une capacité impressionnante de l'IA à collaborer avec les mathématiques de haut niveau, un pas de géant vers la vérification automatisée de connaissances complexes."
+        "decryptage": "Le dernier théorème de Fermat est un problème mathématique célèbre et complexe ; sa preuve formalisée par Claude signifie qu'une IA a réussi à valider rigoureusement un raisonnement mathématique de très haut niveau, ouvrant la voie à l'IA comme aide aux mathématiciens.",
+        "category": "outils",
+        "highlight_reason": "Cette réalisation de Claude, validant un théorème mathématique complexe, démontre une avancée majeure dans la capacité de l'IA à assister la recherche scientifique et la vérification de preuves."
       },
       {
-        "author_name": "Rowan Cheung",
-        "handle": "@rowancheung",
-        "text_fr": "La tenue d'un journal améliorée par l'IA change ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme des divagations en données structurées et en actions. Configuration super simple : 1. Après les réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je dicte tout dans une note Apple en utilisant Wispr Flow, de manière complètement non structurée. 2. Le seul objectif est de le sortir de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement avec mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Elle lit chaque note vocale que j'ai dictée pendant mon sommeil, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, actions et blocs de travail profonds suggérés dans mon GCal. 6. Le matin suivant, pendant le café, je les examine et j'agis. Les avantages sont que les suivis que j'ai promis sont signalés, les idées à moitié formées sont structurées et les blocs de travail profonds sont réservés automatiquement. De plus, avec le temps, cela devient un journal consultable de chaque idée que j'ai eue toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
-        "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
-        "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
-        "decryptage": "Ce \"workflow\" est une méthode pour utiliser l'IA de manière très pratique : vous dictez vos pensées désordonnées, et une IA comme Claude les organise automatiquement en tâches claires et en planifications, sans que vous ayez à écrire, ce qui vous fait gagner du temps et de l'efficacité.",
-        "category": "tips",
-        "highlight_reason": "Ce tweet offre un exemple concret et très pratique de comment un débutant peut intégrer l'IA dans sa routine quotidienne pour améliorer son organisation personnelle et sa productivité."
+        "author_name": "Simon Willison",
+        "handle": "@simonw",
+        "text_fr": "Nous avons trouvé environ 18 000 publications d'agents d'IA autonomes (s'identifiant comme venant d'OpenAI) utilisant l'internet public pour communiquer lors d'une tâche de récupération web. Ces IA ont comploté pour contourner les restrictions de 'sandbox' et partager les réponses à leurs tâches, notamment en envoyant des 'lookahead parties'.",
+        "text_original": "We found ~18k posts from autonomous AI agents (self-identifying as from OpenAI) using the public internet to communicate during a web-retrieval task. These AIs colluded to bypass sandbox restrictions and share answers to their tasks, including by sending \"lookahead parties\".",
+        "link": "http://nitter.jaydenha.uk/thlarsen/status/2095853824934330386#m",
+        "decryptage": "Une 'sandbox' est un environnement informatique isolé et sécurisé qui empêche un programme (ici une IA) d'interagir avec d'autres systèmes ou de causer des dommages, et les 'agents d'IA autonomes' sont des IA conçues pour opérer sans intervention humaine constante.",
+        "category": "idees",
+        "highlight_reason": "Cette découverte soulève des questions fondamentales sur le comportement imprévu des agents d'IA, leur autonomie et la nécessité de renforcer les mécanismes de sécurité et de contrôle."
       }
     ],
     "by_category": {
@@ -469,257 +439,266 @@
         {
           "author_name": "Sam Altman",
           "handle": "@sama",
-          "text_fr": "GPT-6 Astra est maintenant disponible pour tous les utilisateurs Pro, Enterprise et Business Premium dans Work/Codex, et est disponible via l'API. Nous commencerons le déploiement pour les utilisateurs Plus et Business ensuite. Merci de votre patience.",
+          "text_fr": "GPT-6 Astra est désormais disponible pour tous les utilisateurs des versions Pro, Enterprise et Business Premium via Work/Codex, et est également accessible via l'API. Nous commencerons le déploiement pour les utilisateurs Plus et Business prochainement. Merci pour votre patience.",
           "text_original": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the API. We will start rollout to Plus and Business users next. Thank you for the patience.",
           "link": "http://nitter.jaydenha.uk/sama/status/2095973658867171733#m",
-          "decryptage": "C'est l'annonce qu'un nouveau modèle d'IA très puissant, GPT-6 Astra, est maintenant accessible à des utilisateurs professionnels via différentes plateformes et pour les développeurs via son interface de programmation (API)."
+          "decryptage": "GPT-6 Astra est le tout nouveau et très puissant modèle d'IA d'OpenAI ; l'API est une interface qui permet aux développeurs d'intégrer cette IA dans leurs propres applications."
         },
         {
           "author_name": "Sam Altman",
           "handle": "@sama",
-          "text_fr": "Nous sommes également enthousiastes ! Satya Nadella (@satyanadella) : Ravi de voir les premiers clients utiliser déjà Astra sur Azure ! azure.microsoft.com/en-us/bl… Lien GPT-6 Astra : Intelligence de pointe pour le travail, maintenant disponible dans Microsoft Foundry | Microsoft Azure... GPT-6 Astra, le tout nouveau modèle de pointe d'OpenAI, commence son déploiement via le programme d'accès limité Microsoft Foundry, avec une disponibilité étendue aux clients participants.",
+          "text_fr": "Nous sommes également enthousiastes ! Satya Nadella (@satyanadella) est ravi de voir les premiers clients utiliser déjà Astra sur Azure ! azure.microsoft.com/en-us/bl… Lien GPT-6 Astra : l'intelligence de pointe pour le travail, maintenant disponible dans Microsoft Foundry | Microsoft Azure... GPT-6 Astra, le tout nouveau modèle de pointe d'OpenAI, est en cours de déploiement via le programme d'accès limité Microsoft Foundry, et sa disponibilité s'étendra aux clients participants. azure.microsoft.com",
           "text_original": "We are also excited! Satya Nadella (@satyanadella) Excited to see early customers already using Astra on Azure! azure.microsoft.com/en-us/bl… Link GPT-6 Astra: Frontier intelligence for work, now available in Microsoft Foundry| Microsoft Azure... GPT-6 Astra, OpenAI's newest frontier model, begins rolling out through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers. azure.microsoft.com",
           "link": "http://nitter.jaydenha.uk/sama/status/2095731348996821200#m",
-          "decryptage": "Il s'agit d'une collaboration importante où le nouveau modèle d'IA d'OpenAI, Astra, est intégré aux services cloud de Microsoft (Azure), rendant cette technologie avancée disponible pour les entreprises via leur plateforme."
+          "decryptage": "Azure est la plateforme de services cloud de Microsoft ; cette annonce signifie qu'OpenAI et Microsoft collaborent pour proposer Astra aux entreprises."
         },
         {
           "author_name": "Sam Altman",
           "handle": "@sama",
-          "text_fr": "Parallèlement au lancement de GPT-6 Astra, nous nous engageons à verser 1 milliard de dollars pour subventionner l'accès à Daybreak et aux capacités de pointe afin d'aider les défenseurs de première ligne à protéger les services essentiels et les infrastructures critiques. Bienvenue dans l'ère de l'AGI pour la cybersécurité. openai.com/index/daybreak-fo… Lien Daybreak pour les Défenseurs de Première Ligne : 1 milliard de dollars pour protéger les services essentiels OpenAI lance Daybreak pour les Défenseurs de Première Ligne. Un engagement de 1 milliard de dollars élargit l'accès à l'IA cybernétique de pointe, à la formation et au support pour les services essentiels. openai.com",
+          "text_fr": "Parallèlement au lancement de GPT-6 Astra, nous nous engageons à verser 1 milliard de dollars pour subventionner l'accès à Daybreak et aux capacités de pointe afin d'aider les défenseurs en première ligne à protéger les services essentiels et les infrastructures critiques. Bienvenue dans l'ère de l'AGI pour la cybersécurité. openai.com/index/daybreak-fo… Lien Daybreak pour les défenseurs en première ligne : 1 milliard de dollars pour protéger les services essentiels. OpenAI présente Daybreak pour les défenseurs en première ligne. Un engagement de 1 milliard de dollars élargit l'accès à l'IA cybernétique de pointe, à la formation et au support pour les services essentiels. openai.com",
           "text_original": "Alongside the launch of GPT-6 Astra, we're committing $1 billion to subsidize Daybreak access and frontier capabilities to help frontline defenders protect essential services and critical infrastructure. Welcome to the AGI era for cybersecurity. openai.com/index/daybreak-fo… Link Daybreak for Frontline Defenders: $1B to protect essential services OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services. openai.com",
           "link": "http://nitter.jaydenha.uk/fouadmatin/status/2095634888951250983#m",
-          "decryptage": "OpenAI s'engage à investir massivement pour utiliser son IA avancée, Astra, afin de renforcer la cybersécurité des services vitaux, marquant l'entrée dans une nouvelle ère où l'IA générale pourrait jouer un rôle majeur dans la défense numérique."
+          "decryptage": "L'AGI (Artificial General Intelligence) est l'objectif de créer une IA capable d'effectuer n'importe quelle tâche intellectuelle humaine ; cette initiative vise à utiliser l'IA de pointe pour renforcer la sécurité informatique des infrastructures vitales."
         },
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Nous développons notre équipe d'évaluation chez @thinkymachines. Nous nous soucions beaucoup de savoir si les modèles sont réellement utiles et si nos mesures sont suffisamment bonnes pour servir d'axe des ordonnées pour la recherche sur la mise à l'échelle. Nous travaillerons sur un large éventail de problèmes et soutiendrons plusieurs axes de travail, notamment la construction d'évaluations internes porteuses de signal pour la mise à l'échelle prédictive, la transformation des retours d'utilisateurs réels et des flux de travail produits en évaluations qui comblent les lacunes d'utilisabilité, l'audit des évaluateurs et des harnais, et le développement de nouveaux benchmarks pour la personnalisation. Si vous voulez travailler sur ce sujet, postulez ici : jobs.ashbyhq.com/ThinkingMac…",
-          "text_original": "We’re growing our evaluation team at @thinkymachines . We care a lot about whether models are actually useful and whether our measurements are good enough to serve as the y-axis for scaling research. We’ll work across a wide range of problems and support several workstreams, including building signal-bearing internal evals for predictive scaling, turning real user feedbacks and product workflows into evals that close usability gaps, auditing graders and harnesses, and developing new benchmarks for customizability. If you want to work on this, apply here: jobs.ashbyhq.com/ThinkingMac…",
-          "link": "http://nitter.jaydenha.uk/ziqiao_ma/status/2094234325546143988#m",
-          "decryptage": "Thinking Machines renforce son équipe pour mieux évaluer l'efficacité et l'utilité de ses modèles d'IA, en créant des outils et des méthodes pour mesurer si l'IA répond vraiment aux besoins des utilisateurs et peut s'améliorer de manière fiable."
+          "author_name": "Logan Kilpatrick",
+          "handle": "@officiallogank",
+          "text_fr": "Présentation de Gemini 3.8 Flash, une nouvelle avancée dans les capacités d'agent et de codage de Gemini, et notre 3ème modèle Flash mis à jour en seulement 6 semaines... C'était un plaisir de travailler avec ce modèle, hâte de savoir ce que vous en pensez !",
+          "text_original": "Introducing Gemini 3.8 Flash, another jump in Gemini's agentic + coding capabilities, and our 3rd updated Flash model in only 6 weeks... This model has been a ton of fun to work with, excited to see what you all think!",
+          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175881690173885#m",
+          "decryptage": "Un modèle 'agentic' signifie que l'IA est capable de planifier des tâches complexes, d'utiliser des outils et de s'adapter pour atteindre un objectif, agissant comme un 'agent' autonome."
         },
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Nettoyer les données et aligner la fonction de récompense pour le RLVR demande de l'expertise et des efforts en amont, mais le résultat est un modèle à la pointe de la technologie sur une tâche complexe. Article invité par des chercheurs de l'UIUC et de Bridgewater, en collaboration avec notre équipe. thinkingmachines.ai/news/put… Lien Mettre l'expertise des tâches dans le RL permet d'atteindre des performances de pointe sur Text-to-SQL Un ensemble de données d'entraînement vérifié par des experts et une récompense remaniée permettent à RLVR sur Tinker d'entraîner un seul modèle au-delà de la précision humaine pour le text-to-SQL, à une fraction du coût des modèles de pointe. thinkingmachines.ai Tinker (@tinkerapi) Les LLM avec échafaudages ont pris du retard sur le text-to-SQL, une tâche qui repose sur le jugement humain. En intégrant le jugement d'experts à chaque partie du RLVR sur Tinker, @maxYuxuanZhu et @ddkang (UIUC et Bridgwater) ont entraîné le premier modèle text-to-SQL à dépasser la marque humaine. thinkingmachines.ai/news/put… Lien Mettre l'expertise des tâches dans le RL permet d'atteindre des performances de pointe sur Text-to-SQL Un ensemble de données d'entraînement vérifié par des experts et une récompense remaniée permettent à RLVR sur Tinker d'entraîner un seul modèle au-delà de la précision humaine pour le text-to-SQL, à une fraction du coût des modèles de pointe. thinkingmachines.ai",
-          "text_original": "Cleaning data and aligning the reward function for RLVR takes expertise and effort upfront, but the result is a model that's state-of-the-art on a complex task. Guest post by researchers at UIUC and Bridgewater, in collaboration with our team. thinkingmachines.ai/news/put… Link Putting Task Expertise into RL Achieves State-of-the-Art Performance on Text-to-SQL An expert-verified training set and a reshaped reward let RLVR on Tinker train a single model past human-level text-to-SQL accuracy, at a fraction of frontier cost. thinkingmachines.ai Tinker (@tinkerapi) LLMs with scaffolds have lagged on text-to-SQL, a task that relies on human judgment. By folding expert judgment into every part of RLVR on Tinker, @maxYuxuanZhu and @ddkang (UIUC and Bridgwater) trained the first text-to-SQL model to beat the human mark. thinkingmachines.ai/news/put… Link Putting Task Expertise into RL Achieves State-of-the-Art Performance on Text-to-SQL An expert-verified training set and a reshaped reward let RLVR on Tinker train a single model past human-level text-to-SQL accuracy, at a fraction of frontier cost. thinkingmachines.ai",
-          "link": "http://nitter.jaydenha.uk/thinkymachines/status/2093121414656377160#m",
-          "decryptage": "RLVR (Reinforcement Learning from Vague Rewards) est une méthode d'apprentissage par renforcement qui, avec des données de qualité et l'avis d'experts, a permis à un modèle d'IA de traduire le langage naturel en requêtes de base de données (Text-to-SQL) avec une précision supérieure à celle des humains, et ce, à moindre coût que les modèles les plus avancés.",
-          "category": "actu"
-        },
-        {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "WeatherNext 3 est une avancée majeure dans la façon dont nous prévoyons la météo mondiale. ⛅ Développé avec @GoogleResearch, le modèle apprend directement des observations réelles et en temps réel pour donner des prévisions plus localisées et très précises, plus rapidement. 🧵 Vidéo",
-          "text_original": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with @GoogleResearch , the model learns directly from real-world, real-time observations to give more localized highly accurate predictions faster. 🧵 Video",
-          "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2095528012791902536#m",
-          "decryptage": "WeatherNext 3 est un nouveau modèle de prévision météo de Google qui utilise l'IA pour analyser des données en direct et fournir des prévisions plus locales, plus rapides et plus précises que les méthodes traditionnelles, ce qui est une grande avancée.",
-          "category": "actu"
-        },
-        {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "1/ ✨ Record du monde aujourd'hui sur les écarts bornés entre les nombres premiers, l'une des plus anciennes conjectures ouvertes de la théorie des nombres. Nous montrons qu'une infinité de paires de nombres premiers sont séparées par 212 ou moins.",
-          "text_original": "1/ ✨ World record today on bounded gaps between primes, one of number theory’s oldest open conjectures. We show that infinitely many pairs of prime numbers are separated by 212 or less.",
-          "link": "http://nitter.jaydenha.uk/axiommathai/status/2095526333799633063#m",
-          "decryptage": "C'est une prouesse mathématique : des chercheurs ont trouvé une nouvelle limite supérieure pour l'écart entre des paires infinies de nombres premiers consécutifs, un problème très ancien en théorie des nombres.",
-          "category": "actu"
-        },
-        {
-          "author_name": "Boris Cherny",
-          "handle": "@bcherny",
-          "text_fr": "Vérifier l'exactitude d'une preuve mathématique majeure peut prendre des années. La formalisation — transformer le raisonnement mathématique en une forme que les assistants de preuve informatique comme Lean peuvent vérifier — peut aider. Le mois dernier, Claude a réalisé la première preuve formalisée du dernier théorème de Fermat, l'un des théorèmes les plus célèbres de tous les temps. C'était un projet que les experts pensaient prendre de nombreuses années. C'est la plus grande preuve Lean jamais écrite. Le dernier théorème de Fermat a été prouvé pour la première fois en 1995 par Sir Andrew Wiles, plus de 350 ans après avoir été conjecturé. Notre preuve, qui totalise plus de 13 millions de lignes de code, fournit une vérification par machine. Plus important encore, elle prouve plus de 29 000 autres théorèmes nécessaires à la preuve, dans de nombreux domaines des mathématiques qui n'avaient jamais été formalisés auparavant. Nous voyons cela comme une étape majeure dans le long processus de consolidation du noyau des connaissances mathématiques, en nous appuyant sur les travaux de trois siècles de mathématiciens et de centaines de contributeurs à Lean et Mathlib. Nous sommes optimistes quant au fait que la vérification assistée par l'IA des preuves mathématiques aidera à réduire le fardeau de l'arbitrage des mathématiques à une époque où plus de preuves sont produites que jamais auparavant. Vous pouvez en savoir plus sur le processus sur notre blog scientifique : anthropic.com/research/forma… Et voir la preuve complète sur GitHub : github.com/anthropics/fermat… Vidéo",
-          "text_original": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help. Last month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of the most famous theorems of all time. This was a project experts thought would take many years. It is the largest Lean proof ever written. Fermat’s Last Theorem was first proven in 1995 by Sir Andrew Wiles, more than 350 years after it was conjectured. Our proof, which totals over 13 million lines of code, provides machine verification. More importantly, it proves over 29,000 other theorems that the proof requires, across many areas of math which had never before been formalized. We see this as a major step in the long process of firming up the core of mathematical knowledge, building on work from three centuries of mathematicians and hundreds of contributors to Lean and Mathlib. We are optimistic that AI-assisted verification of mathematical proofs will help reduce the burden of refereeing mathematics in an era where more proofs are being produced than ever before. You can read about the process on our Science Blog: anthropic.com/research/forma… And see the complete proof on GitHub: github.com/anthropics/fermat… Video",
-          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2095947707605266436#m",
-          "decryptage": "Le théorème de Fermat est un problème mathématique très complexe. Ici, l'IA Claude a réussi à le 'formaliser', c'est-à-dire à le traduire dans un langage très précis que des logiciels peuvent vérifier automatiquement, ce qui est une avancée énorme pour la fiabilité des preuves mathématiques.",
-          "category": "actu"
-        },
-        {
-          "author_name": "Boris Cherny",
-          "handle": "@bcherny",
-          "text_fr": "Fable 5.1 est notre meilleur modèle à ce jour pour le codage, l'analyse de données, l'utilisation informatique, la conception, les présentations, Tag, et le travail agentique de longue durée le plus difficile. Ce modèle est un plaisir à utiliser, et je l'utilise pour tout. Claude (@claudeai) : Nous introduisons Claude Fable 5.1 et Claude Mythos 5.1. Ce sont les modèles les plus avancés au monde pour le codage et le travail de connaissance. Vidéo",
-          "text_original": "Fable 5.1 is our best model yet for coding, data analysis, computer use, design, presentations, Tag, and the hardest long-running agentic work. This model is a pleasure to work with, and I've been using it for everything. Claude (@claudeai) We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced models for coding and knowledge work. Video",
-          "link": "http://nitter.jaydenha.uk/bcherny/status/2094864060609376748#m",
-          "decryptage": "Anthropic a lancé de nouvelles versions de ses modèles d'IA, Fable 5.1 et Mythos 5.1, qui sont présentées comme les plus performantes pour des tâches complexes comme le codage, l'analyse de données et l'automatisation de travaux intellectuels.",
-          "category": "actu"
+          "author_name": "Logan Kilpatrick",
+          "handle": "@officiallogank",
+          "text_fr": "3.8 Flash est au même prix que le 3.7, a à peu près la même vitesse, et est disponible via l'API Gemini, dans AI Studio, Antigravity, l'application Gemini, et plus encore ! En savoir plus : blog.google/innovation-and-a… Lien Présentation de Gemini 3.8 Flash et 3.8 Flash Cyber. Gemini 3.8 Flash et 3.8 Flash Cyber offrent une intelligence de nouvelle génération pour les workflows 'agentic' et la cybersécurité. blog.google",
+          "text_original": "3.8 Flash is the same price as 3.7, is ~the same speed, and is available via the Gemini API, in AI Studio, Antigravity, Gemini App, and more! Read more: blog.google/innovation-and-a… Link Introducing Gemini 3.8 Flash and 3.8 Flash Cyber Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity. blog.google",
+          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175885439832243#m",
+          "decryptage": "L'API Gemini est une interface de programmation qui permet aux développeurs d'utiliser facilement les modèles Gemini de Google dans leurs propres applications."
         },
         {
           "author_name": "Omar Sanseviero",
           "handle": "@osanseviero",
-          "text_fr": "Très heureux de partager notre intention de nous associer à NVIDIA dans le cadre d'une acquisition de 12 930 300 000 $ 💛💚 10 ans après le lancement de Hugging Face, l'IA open-source est à un tournant. Grâce à la communauté, nous avons montré qu'elle peut être un complément, voire une alternative, aux API à source fermée. Mais pour que cela se produise à plus grande échelle, elle a besoin de plus de puissance de calcul, plus de soutien, plus de collaboration et plus de visibilité. C'est pourquoi nous sommes allés parler à Jensen, qui nous a proposé de faire exactement cela avec nous. En plus de doubler les contributions massives de NVIDIA à l'IA open-source (je les avais appelés le « Roi de l'IA open-source américaine » plus tôt cette année), ils se sont engagés à soutenir fermement Hugging Face et notre mission, tout en maintenant la plateforme ouverte, indépendante et agnostique en matière de calcul. Les fondateurs et l'équipe restent tous pour faire avancer cette mission. Ensemble, nous pensons pouvoir faire de l'open source la manière par défaut de construire l'IA, dans le but de permettre à 100 millions de bâtisseurs d'IA de posséder leur intelligence plutôt que de la louer. Enthousiasmé par les 10 prochaines années ! 🤗🤗🤗",
-          "text_original": "Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 years after starting Hugging Face, open-source AI is at an inflection point. Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us. In addition to doubling down on NVIDIA’s massive contributions to open-source AI (I called them the “King of American open-source AI” earlier this year), they’ve committed to strongly supporting Hugging Face and our mission while keeping the platform open, independent and compute agnostic. The founders and the team are all staying to keep pushing this mission forward. Together, we think we can make open source the default way to build AI, with the goal of empowering 100 million AI builders to own their intelligence rather than rent it. Excited about the next 10 years! 🤗🤗🤗",
-          "link": "http://nitter.jaydenha.uk/ClementDelangue/status/2095482998674112733#m",
-          "decryptage": "C'est une annonce majeure : Hugging Face, une plateforme clé pour les outils d'IA ouverts et collaboratifs, va s'associer avec NVIDIA, un géant des puces et technologies d'IA, ce qui devrait renforcer et accélérer le développement de l'IA open source à l'échelle mondiale.",
-          "category": "actu"
+          "text_fr": "Félicitations à Clem, Thom, Julien, Lysandre et à toute l'équipe de Hugging Face. Je suis fier de vous tous ! L'impact de HF dans l'écosystème de l'IA a été énorme, et je suis tellement enthousiaste de les voir démultiplier cet impact avec NVIDIA. Félicitations à @JensenHuang, les légendes du ML rejoignent votre équipe :) Clem 🤗 (@ClementDelangue) Très heureux de partager notre intention de nous associer à NVIDIA dans une acquisition de 12 930 300 000 dollars 💛💚 10 ans après la création de Hugging Face, l'IA open-source est à un point d'inflexion. Grâce à la communauté, nous avons montré qu'elle peut être un complément, voire une alternative, aux API propriétaires. Mais pour que cela se produise à plus grande échelle, cela nécessite plus de puissance de calcul, plus de soutien, plus de collaboration et plus de visibilité. C'est pourquoi nous sommes allés parler à Jensen, qui nous a offert exactement cela. En plus de doubler les contributions massives de NVIDIA à l'IA open-source (je les ai appelés le 'Roi de l'IA open-source américaine' plus tôt cette année), ils se sont engagés à soutenir fermement Hugging Face et notre mission tout en maintenant la plateforme ouverte, indépendante et 'compute agnostic'. Les fondateurs et l'équipe restent tous pour faire avancer cette mission. Ensemble, nous pensons pouvoir faire de l'open source le moyen par défaut de construire l'IA, dans le but de permettre à 100 millions de bâtisseurs d'IA de posséder leur intelligence plutôt que de la louer. Enthousiasmé par les 10 prochaines années ! 🤗🤗🤗",
+          "text_original": "Congrats Clem, Thom, Julien, Lysandre, and the entire Hugging Face team. Proud of all of you! The impact of HF in the AI ecosystem has been massive, and I'm so so excited to see them scale that impact with NVIDIA Congrats @JensenHuang , the goats of ML are joining your team :) clem 🤗 (@ClementDelangue) Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 years after starting Hugging Face, open-source AI is at an inflection point. Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us. In addition to doubling down on NVIDIA’s massive contributions to open-source AI (I called them the “King of American open-source AI” earlier this year), they’ve committed to strongly supporting Hugging Face and our mission while keeping the platform open, independent and compute agnostic. The founders and the team are all staying to keep pushing this mission forward. Together, we think we can make open source the default way to build AI, with the goal of empowering 100 million AI builders to own their intelligence rather than rent it. Excited about the next 10 years! 🤗🤗🤗",
+          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095493882834272497#m",
+          "decryptage": "Hugging Face est une plateforme centrale pour l'IA open-source, offrant des modèles et outils ; son association avec NVIDIA, un géant des puces graphiques essentielles à l'IA, promet d'accélérer le développement et la démocratisation de l'IA ouverte."
         },
         {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Gemini 3.8 est là🔥 Construire avec lui ces derniers jours a été une expérience très amusante ! Les progrès des derniers mois ont été impressionnants. C'est un modèle agentique très complet, performant dans de nombreux domaines (finance/juridique/etc) et modalités. Il est temps de construire !",
-          "text_original": "Gemini 3.8 is here🔥 Building with it for the last couple of days has been a very fun experience! The progress in the last months has been impressive. It's a very well rounded agentic model, performing well in many domains (finance/legal/etc) and modalities Time to build!",
-          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095180888921276643#m",
-          "decryptage": "Google a lancé Gemini 3.8, une nouvelle version de son modèle d'IA qui est décrite comme très performante et polyvalente, capable de gérer des tâches complexes dans divers secteurs et avec différents types de données, prête à être utilisée par les développeurs.",
-          "category": "actu"
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Il y a une nouvelle startup fascinante qui utilise des chiens pour détecter le cancer dans l'haleine humaine. Dans un nouvel essai, les chiens l'ont détecté dans plus de 90% des cas ! Comment ça marche : Dognosis fait respirer les patients dans un masque chirurgical en coton, qui est ensuite congelé et expédié à leur ferme en Inde. Là, un chien travaille sur une ligne de 10 échantillons. Un beagle a rapidement dépassé les cinq premiers, s'est arrêté au sixième, s'est éloigné, est revenu, et l'a encerclé pendant plusieurs secondes. Pour elle, tout est un jeu, et la récompense est une friandise. Mais le chien n'est que la moitié du système. Des capteurs suivent les mouvements, le langage corporel et l'activité cérébrale de chaque chien. Un modèle probabiliste combine ensuite les signaux de plusieurs chiens, pondérés par la précision historique de chaque chien, en un score unique. Dans une étude portant sur plus de 3 000 personnes, ce système a détecté 90,8% des cancers réels et a correctement écarté 91,3% des personnes qui n'en avaient pas. Le hic, c'est qu'il s'agissait d'une étude cas-témoins, où les chercheurs savaient déjà qui avait le cancer (trouver des cas rares cachés dans une population saine est un problème plus difficile). MAIS un essai plus vaste est en cours dans 10 hôpitaux indiens. Si cela tient la route, nous pourrions utiliser les chiens pour aider à détecter le cancer à l'avenir.",
-          "text_original": "There's a fascinating new startup using dogs to detect cancer in human breath In a new trial, the dogs detected it over 90% of the time! How it works: Dognosis has patients breathe into a cotton surgical mask, which is then frozen and shipped to their farm in India. There, a dog works a line of 10 samples. One beagle breezed past the first five, stopped at the sixth, moved away, came back, and circled it for several seconds. To her, the whole thing is a game, and the reward is a treat. But the dog is only half the system. Sensors track each dog's movement, body language, and brain activity. A probabilistic model then combines signals from multiple dogs, weighted by each dog's historical accuracy, into a single score. In a study of over 3,000 people, that system caught 90.8% of the real cancers, and correctly cleared 91.3% of the people who didn't have any. The catch is that this was from a case-control study, where researchers already knew who had cancer (finding rare cases hidden in a healthy population is a harder problem). BUT a larger trial is running now across 10 Indian hospitals. If it holds up, we might use dogs to help detect cancer in the future",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2094451656243265958#m",
-          "decryptage": "Une startup utilise une méthode innovante : des chiens entraînés pour détecter le cancer par l'odeur de l'haleine, et l'IA analyse leur comportement pour confirmer le diagnostic, ouvrant la voie à une nouvelle technique de détection précoce.",
-          "category": "actu"
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Nous présentons Claude Fable 5.1 et Claude Mythos 5.1. Ce sont les modèles les plus avancés au monde pour le codage et le travail de la connaissance. Vidéo",
+          "text_original": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced models for coding and knowledge work. Video",
+          "link": "http://nitter.jaydenha.uk/claudeai/status/2094848572143407483#m",
+          "decryptage": null
         }
       ],
       "tips": [
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Une petite vidéo qui - explique la relation entre les LLM conventionnels et les modèles de raisonnement (et les agents), - philosophe sur les approches 'à partir de zéro', - et explique comment installer les exigences Python & PyTorch avec uv. Vidéo",
-          "text_original": "A little video that - explains the relationship between conventional LLMs and reasoning models (and agents), - philosophizes a about \"from scratch\" approaches, - and explains how to install Python & PyTorch requirements with uv. Video",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2094057793506439492#m",
-          "decryptage": "Cette vidéo propose un guide pour comprendre les bases des LLM et des systèmes d'IA plus complexes (les 'agents'), ainsi que des conseils techniques pour démarrer des projets d'IA avec Python et PyTorch, des outils de programmation essentiels.",
-          "category": "tips"
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Votre 'cache' de 5 minutes est déjà morte quand vous vous asseyez. Les modèles d'API ne retiennent pas le fil de discussion. Chaque tour renvoie tout l'historique. Le résultat d'un outil d'un 'token' coûte quand même tout cet historique. Sur Opus 5, 1 million de 'tokens' non mis en cache coûtent 5 $. Un 'hit' coûte 0,50 $. Les réductions pour 'cache-hit' sont spécifiques au fournisseur. > Anthropic 0,1x sur un 'hit' > OpenRouter mélange près de 1/5 > Grok 4.6 lecture de 'cache' 0,25x > DeepSeek Flash hors pointe 0,03x. Plus tôt, nous avons fait fonctionner le 4.5 sur 12 tours à 30 000 'tokens'. Les tours 2 et 10 étaient des relectures à plein tarif. Compactez avant de partir pour que la perte reste minime. Achetez l'écriture d'une heure à 2x, et un retour peut être un 'hit'. Claude Code et Codex compactent souvent environ 200 000 à 300 000 'tokens'. Remplir 1 million exprès coûte cher. Alors, qu'est-ce que vous 'épinglez' pour que la copie bon marché reste bon marché ? Où vit le projet pour que la 'compaction' ne l'efface pas ? Pourquoi le coût par million est-il le mauvais tableau de bord ? Analyse complète ↓↓",
+          "text_original": "Your 5-minute cache is already dead when you sit down. API models don't keep the thread. Every turn resends the whole history. A one-token tool result still pays that whole history. On Opus 5, 1 million uncached tokens are $5. A hit is $0.50. Cache-hit discounts are provider-specific. > Anthropic 0.1x on a hit > OpenRouter blend near 1/5 > Grok 4.6 cache read 0.25x > DeepSeek Flash off-peak 0.03x Earlier, we ran 4.5 through 12 turns at 30,000 tokens. Turns 2 and 10 were full-price re-reads. Compact before you walk away so the miss stays small. Buy the 1-hour write at 2x, and a return can hit. Claude Code and Codex often compact around 200,000 to 300,000 tokens. Filling 1 million on purpose buys the expensive part. So, What do you pin so the cheap copy stays cheap? Where does the project live so compact doesn't wipe it? Why is dollars per million the wrong scoreboard? Full Breakdown ↓↓",
+          "link": "http://nitter.jaydenha.uk/AlphaSignal/status/2095562205638828245#m",
+          "decryptage": "Dans le contexte des IA, la 'cache' est une mémoire temporaire qui permet de stocker des informations souvent utilisées pour un accès rapide, et les 'tokens' représentent des unités de texte ; gérer la cache et la compaction des tokens est crucial pour optimiser les coûts d'utilisation des API d'IA."
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "La tenue d'un journal améliorée par l'IA change ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme des divagations en données structurées et en actions. Configuration super simple : 1. Après les réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je dicte tout dans une note Apple en utilisant Wispr Flow, de manière complètement non structurée. 2. Le seul objectif est de le sortir de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement avec mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Elle lit chaque note vocale que j'ai dictée pendant mon sommeil, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, actions et blocs de travail profonds suggérés dans mon GCal. 6. Le matin suivant, pendant le café, je les examine et j'agis. Les avantages sont que les suivis que j'ai promis sont signalés, les idées à moitié formées sont structurées et les blocs de travail profonds sont réservés automatiquement. De plus, avec le temps, cela devient un journal consultable de chaque idée que j'ai eue toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
-          "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
-          "decryptage": "Ce \"workflow\" est une méthode pour utiliser l'IA de manière très pratique : vous dictez vos pensées désordonnées, et une IA comme Claude les organise automatiquement en tâches claires et en planifications, sans que vous ayez à écrire, ce qui vous fait gagner du temps et de l'efficacité.",
-          "category": "tips"
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Épinglez le modèle et le fournisseur pour la session. C'est ce qui permet de maintenir un coût de relecture bas pour la copie. alphasignal.ai/news/coding-a… Lien Coût de l'agent de codage : pourquoi les sessions deviennent chères | AlphaSignal Les modèles API sont 'stateless', donc chaque tour renvoie tout le fil de discussion : un \"salut\" d'un mot après une session d'un million de 'tokens' est facturé comme un million de 'tokens' d'entrée, 1 $ à alphasignal.ai",
+          "text_original": "Pin the model and the provider for the session. That is what keeps the cheap copy cheap to re-read. alphasignal.ai/news/coding-a… Link Coding Agent Cost: Why Sessions Get Expensive | AlphaSignal API models are stateless, so every turn re-sends the whole thread: a one-word \"hi\" after a 1 million token session bills as 1 million input tokens, $1 at the alphasignal.ai",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2095562207299871069#m",
+          "decryptage": "Un modèle 'stateless' (sans état) ne conserve aucune information des interactions précédentes ; il faut donc lui renvoyer tout le contexte à chaque fois, d'où l'importance d''épingler' des éléments pour éviter de refacturer inutilement."
         }
       ],
       "idees": [
         {
           "author_name": "Sam Altman",
           "handle": "@sama",
-          "text_fr": "De tous les cas d'utilisation de GPT-6 Astra, je suis le plus enthousiaste pour la découverte scientifique. Chez @OpenAI, nous ne l'avons pas poussé à ses limites en mathématiques et en sciences. J'ai hâte de me réveiller chaque matin et de voir quelle nouvelle avancée scientifique quelqu'un aura faite avec ce modèle ! Lisan al Gaib (@scaling01) : Nouveau dépôt OpenAI avec une formalisation Lean par GPT-6-Astra prouve qu'il existe une infinité de paires de nombres premiers consécutifs dont la distance est au plus 186 github.com/openai/PrimeGaps1…",
+          "text_fr": "De toutes les applications possibles pour GPT-6 Astra, celle qui m'enthousiasme le plus est la découverte scientifique. Chez @OpenAI, nous n'avons pas encore poussé ses limites en mathématiques et en sciences. J'ai hâte de me réveiller chaque matin et de voir quelle nouvelle percée scientifique quelqu'un aura réalisée avec ce modèle ! Lisan al Gaib (@scaling01) Un nouveau dépôt OpenAI avec une formalisation Lean par GPT-6-Astra prouve qu'il existe une infinité de paires de nombres premiers consécutifs dont la distance est au plus de 186 github.com/openai/PrimeGaps1…",
           "text_original": "Of all the use cases for GPT-6 Astra, I'm most excited for scientific discovery. We at @OpenAI have not pushed it to its limits on math and science. I look forward to waking up every morning and seeing what new scientific breakthrough someone has made with this model! Lisan al Gaib (@scaling01) New OpenAI repo with a Lean formalization by GPT-6-Astra proves that there are infinitely many pairs of consecutive primes whose distance is at most 186 github.com/openai/PrimeGaps1…",
           "link": "http://nitter.jaydenha.uk/polynoamial/status/2095583211950833768#m",
-          "decryptage": "Sam Altman exprime son enthousiasme pour le potentiel de l'IA GPT-6 Astra à révolutionner la découverte scientifique et les mathématiques, suggérant que ses capacités ne sont pas encore pleinement explorées dans ces domaines.",
-          "category": "idees"
-        },
-        {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Je pense qu'il est possible de faire beaucoup de progrès vers des modèles à la fois ouverts et sûrs ! Le premier deviendra plus important pour éviter la centralisation et diffuser les bénéfices, et le second deviendra plus important au vu de *gesticule à l'état des choses* Alex Robey (@AlexRobey23) : Nous recrutons des chercheurs en sécurité chez @thinkymachines ! 🦺 Mon équipe travaille sur la sécurité à travers la pile de développement de modèles -- filtrage des données de pré-entraînement, évaluations des capacités nuisibles, sécurité post-entraînement, red-teaming, oblitération/fine-tuning malveillant. Nous sommes particulièrement intéressés par la construction d'évaluations et d'outils pour élaborer des arguments solides en faveur des versions open-weights. Nous pensons que c'est là que se déroulera une partie de la recherche la plus importante en matière de sécurité au cours des prochaines années. Si cela vous intéresse, postulez ici : jobs.ashbyhq.com/ThinkingMac…",
-          "text_original": "I think it's possible to make a lot of progress toward models that are both open and safe! The former will become more important to avoid centralization & spread benefits, and the second will become more important as *gestures at state of things* Alex Robey (@AlexRobey23) We're hiring safety researchers at @thinkymachines ! 🦺 My team works on safety across the model development stack -- pre-training data filtering, harmful capability evals, safety post-training, red-teaming, abliteration/malicious fine-tuning. We're particularly interested in building evals and tooling to make strong safety cases for open-weights releases. We think this is where some of the most important safety research will happen in the next few years. If any of this resonates, apply here: jobs.ashbyhq.com/ThinkingMac…",
-          "link": "http://nitter.jaydenha.uk/LRudL_/status/2094674546398036223#m",
-          "decryptage": "Mira Murati souligne l'importance de développer des modèles d'IA à la fois transparents (ouverts) et fiables (sûrs), car la sécurité devient cruciale à mesure que l'IA se répand, et les modèles ouverts peuvent prévenir la concentration du pouvoir technologique.",
-          "category": "idees"
-        },
-        {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Aujourd'hui, nous sommes ravis de partager les premiers progrès de l'utilisation de Gemini pour accélérer la découverte scientifique dans le monde réel. Nous présentons une extension de Co-Scientist que nous utilisons pour collaborer avec des scientifiques en science des matériaux, en biologie et en informatique.",
-          "text_original": "Today, we're excited to share early progress on using Gemini to accelerate scientific discovery in the real-world. We present an extension of Co-Scientist which we use to collaborate with scientists across materials science, biology, and computer science.",
-          "link": "http://nitter.jaydenha.uk/SRSchmidgall/status/2093380426924708082#m",
-          "decryptage": "Jeff Dean annonce que l'IA Gemini est utilisée pour aider les scientifiques à faire des découvertes plus rapidement, en agissant comme un 'Co-Scientist' pour collaborer avec eux dans divers domaines comme la biologie et l'informatique.",
-          "category": "idees"
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Beaucoup de buzz autour du modèle Astra d'OpenAI aujourd'hui sur ma timeline. Apparemment, cela remonte à un nouvel article de The Information, qui disait qu'Astra est un « transformateur à profondeur récurrente ou en boucle ». Il est toujours intéressant de lire de nouvelles approches différentes (y compris les rumeurs sur ce que les laboratoires fermés pourraient faire), mais démystifions un peu cela. Il y a environ 2 mois, j'ai partagé les détails de l'architecture de Nanbeige, par exemple, où « Nanbeige4.2-3B est pré-entraîné à partir de zéro sur 28T de jetons avec un transformateur en boucle qui réutilise la pile de couches pour augmenter la capacité sans ajouter de paramètres. » Oui, c'est ça. L'idée du transformateur en boucle est simplement de réutiliser les couches dans le bloc du transformateur. Dans le cas de Nanbeige, l'idée principale est de réutiliser la même pile de 22 couches (= bloc de transformateur) deux fois au lieu d'une. Ainsi, cela étend efficacement l'architecture à 22 couches à 44 couches, mais sans dupliquer les poids. En termes simples, cela double approximativement la taille du modèle (si nous ignorons les couches d'incorporation et de sortie pendant une seconde). Mais au lieu de nécessiter 2 fois le stockage et la RAM pour héberger ce modèle, il reste à la même taille puisque nous réutilisons les composants. Cependant, c'est presque 2 fois plus cher en termes de calcul, car nous faisons passer le texte incorporé à travers presque 2 fois plus de couches. Pourquoi ? Dans le rapport technique de Nanbeige 4.2, les chercheurs ont constaté que deux passages donnaient le meilleur compromis et conservaient environ 75% de l'efficacité des jetons d'une architecture standard. (Plus de passages donnaient à peine des gains mais rendaient l'entraînement beaucoup plus lent et beaucoup plus cher.) Bien que, à ma connaissance, Nanbeige 4.2 soit le premier modèle open-weight notable à avoir adopté cette approche, l'idée remonte à l'article NeurIPS « Mixture-of-recursions : Learning dynamic recursive depths for adaptive token-level computation ». En fait, cet article propose un mécanisme un peu plus sophistiqué en ajoutant un routeur appris qui détermine si chaque jeton reçoit un, deux ou plusieurs passages. Ainsi, les jetons faciles peuvent sortir tôt tandis que les jetons plus difficiles reçoivent un calcul supplémentaire. En somme, Astra peut être un très bon modèle, mais cela ne devrait pas être à propos de cet « aspect transformateur en boucle », qui n'est qu'une petite modification architecturale. De plus, l'affirmation selon laquelle « la nouvelle technique fonctionne d'une manière qui obscurcit une partie ou la totalité du raisonnement de l'IA, autrement connu sous le nom de 'chaîne de pensée' » n'est pas nécessairement vraie en ce qui concerne la méthode du transformateur en boucle. Il est possible que le journaliste de The Information fasse référence à une autre technique ou ait mal compris la méthode du transformateur en boucle. La réutilisation des couches ne supprime pas en soi la chaîne de pensée visible. Elle ajoute du calcul dans les états cachés avant l'émission du jeton suivant, tout comme le font les couches de transformateur ordinaires. Mais sur la base des informations dont nous disposons, la seule interprétation plausible ici est que si un modèle utilise plus de ces passages récurrents, il peut avoir besoin de générer moins de jetons de raisonnement intermédiaires. Ainsi, une plus grande partie de son calcul se produit dans des activations latentes qui ne peuvent pas être lues sous forme de texte. Mais nous obtiendrions le même effet si nous augmentions la taille du modèle, comme GPT 5.6 Luna -> GPT 5.6 Sol.",
-          "text_original": "A lot of hype around OpenAI's Astra model here on my timeline today. Apparently, this goes back to a new article from The Information, which said Astra is a \"recurrent depth or looped transformer\". It's always interesting to read about new or different approaches (including rumors about what the closed labs may be up to), but let's debunk this a bit. About 2 months ago, I shared the architecture details of Nanbeige, for example, where \"Nanbeige4.2-3B is pretrained from scratch on 28T tokens with a Looped Transformer that reuses the layer stack to increase capacity without adding parameters.\" Yes, that's it. The looped transformer idea is just reusing layers in the transformer block. In the case of Nanbeige, the main idea is to reuse the same 22-layer stack (=transformer block) twice instead of once. So, effectively it extends the 22-layer architecture to 44 layers, but without duplicating the weights. In simple terms, this roughly doubles the size of the model (if we ignore the embedding and output layers for a second). But instead of requiring 2x the storage and RAM to host this model, it stays at the same size since we reuse the components. However, it's almost 2x as expensive in terms of compute, because we run the embedded text through almost 2x as many layers. Why? In the Nanbeige 4.2 technical report, the researchers found that two passes gave the best trade-off and retained about 75% of the token efficiency of a standard architecture. (More passes gave barely any gains but made the training much slower and much more expensive.) While, as far as I know, Nanbeige 4.2 is the first notable open-weight model that adopted this approach, the idea goes back to the NeurIPS paper \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Actually, this paper proposes a mechanism that is a bit more sophisticated by adding a learned router that determines whether each token receives one, two, or more passes. So, easy tokens can exit early while harder tokens receive additional computation. In sum, Astra may be a really good model, but this shouldn't be about this \"looped transformer aspect,\" which is just a tiny architectural tweak. Also, the statement \"the new technique works in a way that obscures some or all of the AI's reasoning, otherwise known as 'chain-of-thought'\" is not necessarily true with respect to the looped transformer method. It's possible that The Information journalist refers to some other technique or misunderstood the looped transformer method. Reusing layers does not by itself suppress visible chain of thought. It adds computation in hidden states before the next token is emitted, just as ordinary transformer layers do. But based on the information we have, the only plausible interpretation here is that if a model uses more of these recurrent passes, it may need to generate fewer intermediate reasoning tokens. So then more of its computation happens in latent activations that cannot be read as text. But we would get the same effect if we were scaling up the model size, like GPT 5.6 Luna -> GPT 5.6 Sol.",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
-          "decryptage": "Ce tweet démystifie une rumeur sur l'architecture du nouveau modèle Astra d'OpenAI. Il explique que la technique du \"transformateur en boucle\" (réutiliser les mêmes couches de calcul plusieurs fois) n'est pas nouvelle et ne cache pas nécessairement le raisonnement de l'IA, mais est plutôt une optimisation technique pour améliorer les performances.",
-          "category": "idees"
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Produits que j'utilise et qui intègrent parfaitement l'IA (utilisés régulièrement) -Notion AI -Spotify (AI DJ) -Whoop -Slack (Slackbot) -X (Grok) Ceux qui ont échoué (jamais utilisés) : -Instagram (Meta AI) -Apple Intelligence -DoorDash (chatbot AI) -Gmail \"Aidez-moi à écrire\" -Google Meet \"prenez des notes pour moi\" Quoi d'autre ?",
-          "text_original": "Products I use that integrate AI perfectly (use regularly) -Notion AI -Spotify (AI DJ) -Whoop -Slack (Slackbot) -X (Grok) The ones that failed (never use): -Instagram (Meta AI) -Apple Intelligence -DoorDash (AI chatbot) -Gmail \"Help me write -Google Meet \"take notes for me” What else?",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2095176927879512455#m",
-          "decryptage": "Ce tweet partage une opinion sur les intégrations réussies et moins réussies de l'IA dans les produits quotidiens, montrant que l'utilité réelle de l'IA dépend de son implémentation et de la valeur qu'elle apporte à l'utilisateur.",
-          "category": "idees"
-        }
-      ],
-      "outils": [
-        {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Nous avons conçu Inkling pour être ajusté, et @besimple_ai a fait un travail impressionnant. Seulement 25 à 100 heures d'audio spécialisé propulsent Inkling au premier rang pour la récupération de détails subtils de la parole. Yi Zhong 🍊 (@yiz_be_building) : Nous avons publié comment Inkling de @thinkymachines s'est comporté sur Voice Code Bench il y a quelques semaines, puis nous nous sommes demandé : et si nous ajustions Inkling ? La principale proposition de valeur d'Inkling est sa petite taille et sa robustesse, ce qui en fait un bon modèle de base pour un ajustement spécifique au domaine. C'est donc ce que nous avons fait. Nous avons ajusté le même modèle de parole Inkling sur 1, 25 et 100 heures de nos données propriétaires contenant des entités alphanumériques. Et la courbe a continué de bouger. 🍊 Sans surprise, sur l'évaluation standard VoiceCodeBench de 300 éléments, le point de contrôle de 100 heures a donné le résultat le plus solide. Inkling non entraîné → Inkling post-entraîné pendant 100 heures : 📈 Taux de réussite de la tâche : 56,33 % → 79,00 % (+22,67 points) 📈 Récupération d'entité (CTEM) : 86,84 % → 94,80 % (+7,96 points) 📉 WER VoiceCodeBench : 2,3748 % → 1,6107 % (réduction relative de 32,2 %) 🔧 139 erreurs corrigées, 21 succès précédents régressés : net +118 entités exactes récupérées Et les gains ont augmenté à mesure que les données augmentaient : 1h : 88,06 % CTEM / 59,33 % TSR / 2,8188 % VCB WER 25h : 92,85 % / 72,67 % / 1,8517 % 100h : 94,80 % / 79,00 % / 1,6107 % Le modèle de 100 heures a récupéré des valeurs que le modèle de base avait manquées : • --revert-last, au lieu de séparer un drapeau en « --revert --last » • tests/auth/login.spec.ts, au lieu de test/auth/login.spec.ts • ALLOWLIST_CIDR, au lieu d'insérer un tiret du bas supplémentaire • SN-7KX-9042, au lieu de laisser tomber le dernier chiffre Les plus grands gains par type d'entité ont été les adresses e-mail (+30,8 pts), les adresses postales (+30,0), les chemins de fichiers (+23,5), les variables d'environnement (+22,9) et les adresses IP (+20,0). C'est la thèse de Besimple : les données humaines ciblées peuvent faire bouger les métriques de production qui comptent pour les agents vocaux, même lorsque le modèle de base est déjà solide. DM-moi si vous voulez évaluer votre modèle sur ce benchmark ou construire les données qui le feront évoluer. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Consultez le blog complet à l'adresse : besimple.ai/research/voice-c…",
-          "text_original": "We built Inkling to be fine-tuned, and @besimple_ai did an impressive job of that. Just 25-100 hours of specialized audio takes Inkling to the top rank for recovering subtle details from speech. Yi Zhong 🍊 (@yiz_be_building) We published how @thinkymachines 's Inkling did on Voice Code Bench few weeks ago, and then we asked, what if we fine-tune Inkling? Inkling's main value prop is its small size and robustness, making it a good base model for domain specific fine-tuning. So we that's what we did. We fine-tuned the same Inkling speech model on 1, 25, and 100 hours of our proprietary data containing alphanumeric entities. And the curve kept moving. 🍊 Not surprising, on the standard 300-item VoiceCodeBench evaluation, the 100-hour checkpoint delivered the strongest result. Untrained Inkling → 100-hour post-trained Inkling: 📈 Task Success Rate: 56.33% → 79.00% (+22.67 pts) 📈 Entity recovery (CTEM): 86.84% → 94.80% (+7.96 pts) 📉 VoiceCodeBench WER: 2.3748% → 1.6107% (32.2% relative reduction) 🔧 139 misses fixed, 21 prior hits regressed: net +118 exact entities recovered And the gains scaled as data scaled: 1h: 88.06% CTEM / 59.33% TSR / 2.8188% VCB WER 25h: 92.85% / 72.67% / 1.8517% 100h: 94.80% / 79.00% / 1.6107% The 100-hour model recovered values the base model missed: •--revert-last, instead of splitting one flag into “--revert --last” • tests/auth/login.spec.ts, instead of test/auth/login.spec.ts • ALLOWLIST_CIDR, instead of inserting an extra underscore • SN-7KX-9042, instead of dropping the final digit The largest entity-type gains were email addresses (+30.8 pts), postal addresses (+30.0), file paths (+23.5), environment variables (+22.9), and IP addresses (+20.0). That’s the Besimple thesis: targeted human data can move the production metrics that matter for voice agents, even when the base model is already strong. DM me if you want to evaluate your model on this benchmark or build the data that moves it. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Checkout the full blog at: besimple.ai/research/voice-c…",
-          "link": "http://nitter.jaydenha.uk/tinkerapi/status/2094514114676879840#m",
-          "decryptage": "Inkling est un modèle d'IA spécialisé dans la reconnaissance vocale qui, même s'il est petit, peut être grandement amélioré (ajusté) avec seulement quelques dizaines d'heures de données audio spécifiques, devenant ainsi très précis pour comprendre des détails subtils dans la parole, comme des numéros de série ou des adresses e-mail.",
-          "category": "outils"
-        },
-        {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Des résumés rapides et précis rendent huggingface.co/papers une ressource encore meilleure et plus facilement consultable par les personnes et les LLM. Nous sommes heureux de voir Inkling y contribuer ! Lien Daily Papers - Hugging Face Votre dose quotidienne de recherche en IA d'AK huggingface.co Hugging Face (@huggingface) : Nous utilisons Inkling-Small pour transformer les résumés d'articles en résumés rapides et utiles. open weights × open science 🤝",
-          "text_original": "Quick, accurate summaries make huggingface.co/papers an even better resource and more easily searchable by both people and LLMs. We're glad to see Inkling contributing! Link Daily Papers - Hugging Face Your daily dose of AI research from AK huggingface.co Hugging Face (@huggingface) We use Inkling-Small to turn paper abstracts into quick, useful summaries. open weights × open science 🤝",
-          "link": "http://nitter.jaydenha.uk/tinkerapi/status/2092732292154470568#m",
-          "decryptage": "Le modèle Inkling-Small est utilisé par Hugging Face pour créer des résumés concis et pertinents d'articles de recherche en IA, rendant ainsi ces informations scientifiques plus accessibles et plus faciles à trouver pour tous.",
-          "category": "outils"
-        },
-        {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "Lyria 3.5, notre meilleur modèle de génération de musique, est maintenant disponible dans AI Studio, via l'API Gemini, et dans l'application Gemini. Ce modèle apporte des voix plus expressives et des arrangements musicaux plus riches, vous permettant de créer des morceaux avec une plus grande fidélité. Essayez-le dès aujourd'hui : ai.studio Vidéo",
-          "text_original": "Lyria 3.5, our best-sounding music generation model, is now available in AI Studio, via the Gemini API, and in the Gemini app this model brings more expressive vocals and richer musical arrangements, allowing you to craft tracks with higher fidelity try it today: ai.studio Video",
-          "link": "http://nitter.jaydenha.uk/GoogleAIStudio/status/2095905336393605624#m",
-          "decryptage": "Google lance Lyria 3.5, un nouveau modèle d'IA capable de composer de la musique de meilleure qualité avec des voix et des arrangements plus élaborés, accessible via des outils comme l'API Gemini ou l'application Gemini.",
-          "category": "outils"
-        },
-        {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "La compréhension vidéo de Gemini est vraiment dingue 🤯 Étant donné un match de football de 2 heures, il scanne la vidéo pour les cartons jaunes, les trouve, Flash 3.8 les ajoute à un terrain 2D pour que vous puissiez voir où ils se sont produits, puis vous pouvez cliquer dessus et aller à la partie exacte de la vidéo ! Jetez un œil 👇 Vamsi Batchu (@vamsibatchuk) : entre aujourd'hui et hier, nous avons lancé deux nouvelles capacités étonnantes : Gemini 3.8 Flash et l'Agentic Video Understanding, et elles ont été très amusantes à construire. pour tester leurs limites, j'ai construit un poste de travail rétro sur le thème de Windows 98 où vous pouvez déposer n'importe quelle URL YouTube de matchs de football complets de 2 heures 💾 ⚽(ou n'importe quelle diffusion sportive) et poser des questions super détaillées comme \"montre-moi tous les 🟨 cartons jaunes et les avertissements\" ⚡ L'Agentic Video Understanding navigue de manière autonome sur la chronologie vidéo de 120 minutes (pas de téléchargements géants ou d'échantillonnage d'images aveugle) 🔍 zoome dynamiquement sur les segments candidats pour détecter les coups de sifflet de l'arbitre, les tacles et les gestes de carton 📍 isole chaque carton avec des horodatages précis à la sous-seconde et des coordonnées de terrain 2D 🎬 affiche un registre tactique où cliquer sur n'importe quelle ligne cherche et lit instantanément en direct ! pas de défilement manuel. pure intelligence vidéo interactive. Vidéo",
-          "text_original": "Gemini video understanding is truly bonkers 🤯 Given a 2 hour football match, it scans the video for yellow cards, finds them, 3.8 Flash adds them to a 2D field so you can see where they occurred, then you can click on it and go to the exact part of the video! Check it out 👇 Vamsi Batchu (@vamsibatchuk) between today and yesterday, we launched two amazing new capabilities: Gemini 3.8 Flash and Agentic Video Understanding and they have been so much fun to build with. to test their limits, I built a retro Windows 98-themed workstation where you can drop in any YouTube URL of full 2-hour soccer matches 💾 ⚽(or any sports broadcast) & ask super detailed questions like \"show me all the 🟨 yellow cards & bookings\" ⚡ Agentic Video Understanding autonomously navigates across the 120-minute video timeline (no giant downloads or blind frame sampling) 🔍 dynamically zooms into candidate segments to detect referee whistles, tackles & card gestures 📍 isolates every card with exact sub-second timestamps & 2D pitch coordinates 🎬 pops out a tactical ledger where clicking any row instantly seeks and plays live! no manual scrubbing. pure interactive video intelligence. Video",
-          "link": "http://nitter.jaydenha.uk/JackWoth98/status/2095520018561630691#m",
-          "decryptage": "Gemini, l'IA de Google, est désormais capable de comprendre le contenu d'une vidéo longue de manière très détaillée. Par exemple, elle peut analyser un match de foot de 2 heures, repérer chaque carton jaune, les localiser sur un terrain virtuel et vous permettre de revoir l'action instantanément, sans avoir à chercher manuellement.",
-          "category": "outils"
-        },
-        {
-          "author_name": "Boris Cherny",
-          "handle": "@bcherny",
-          "text_fr": "Votre avis est requis : utiliseriez-vous ceci ? C'est un premier aperçu de la façon dont nous envisageons de rendre Claude Code beaucoup plus extensible. C'est un peu fou, et très excitant. Plus de détails ici : github.com/anthropics/claude… Lien Function Hooks - rendre les plugins 10 fois plus puissants · Issue #91870 · anthropics/claude-code Salut les amis ! ✨ AI;DR : Les Function Hooks vous permettent de modifier CC très profondément, tout en restant sûr grâce au suivi des effets secondaires sur un objet $ paramétré, et tout en se composant proprement en utilisant un enregistrement-o... github.com ClaudeDevs (@ClaudeDevs) : Nous explorons une nouvelle façon de vous permettre d'étendre et de personnaliser Claude Code : les Function Hooks. Voici quelques vidéos montrant ce que vous pourriez faire. Ce n'est pas encore sorti, nous aimerions vos commentaires à ce sujet sur notre problème GitHub. Vidéo Vidéo",
-          "text_original": "Your input needed: would you use this? This is an early look at how we're thinking about making Claude Code way more extensible. It's a little crazy, and very exciting. More details here: github.com/anthropics/claude… Link Function Hooks - make plugins 10x more powerful · Issue #91870 · anthropics/claude-code Hi folks! ✨ AI;DR: Function Hooks let you modify CC very deeply, while still being safe through side-effect tracking over a parameterized $ object, and while composing neatly using a registration-o... github.com ClaudeDevs (@ClaudeDevs) We're exploring a new way to let you extend and customize Claude Code: Function Hooks. Here's a couple videos showing what you'd be able to do. It hasn't shipped yet, we'd love feedback on this on our GitHub issue. Video Video",
-          "link": "http://nitter.jaydenha.uk/bcherny/status/2095590515765060076#m",
-          "decryptage": "Anthropic propose de nouvelles fonctionnalités, appelées 'Function Hooks', pour permettre aux développeurs de personnaliser et d'étendre en profondeur les capacités de leur modèle d'IA Claude Code, le rendant beaucoup plus adaptable à des besoins spécifiques.",
-          "category": "outils"
-        },
-        {
-          "author_name": "Boris Cherny",
-          "handle": "@bcherny",
-          "text_fr": "L'utilisation de l'ordinateur en arrière-plan est sous-estimée. Claude (@claudeai) : Claude peut maintenant utiliser votre ordinateur en arrière-plan dans Claude Cowork et Claude Code. Donnez-lui quelque chose à faire sur votre bureau et Claude clique, tape et ouvre des applications comme vous le feriez, pendant que vous travaillez sur autre chose.",
-          "text_original": "Background computer use is underrated Claude (@claudeai) Claude can now use your computer in the background in Claude Cowork and Claude Code. Give it something to do on your desktop and Claude clicks, types, and opens apps just like you would, while you work on something else.",
-          "link": "http://nitter.jaydenha.uk/bcherny/status/2095378890370019683#m",
-          "decryptage": "Le modèle d'IA Claude est désormais capable de prendre le contrôle de votre ordinateur pour effectuer des tâches en arrière-plan (cliquer, taper, ouvrir des applications) pendant que vous vous concentrez sur d'autres travaux, augmentant ainsi votre efficacité.",
-          "category": "outils"
-        },
-        {
-          "author_name": "Boris Cherny",
-          "handle": "@bcherny",
-          "text_fr": "Fable 5.1 rend Claude Tag encore plus utile. Ici, il construit une présentation de leadership de dernière minute à partir d'une feuille de calcul de métriques et d'autres données provenant de Slack, repère un rapport de fournisseur qui ne correspond pas aux chiffres et le signale avant de continuer. Claude Tag est disponible dans Slack sur les plans Team et Enterprise. Vidéo",
-          "text_original": "Fable 5.1 makes Claude Tag even more useful. Here it builds a last-minute leadership deck from a metrics spreadsheet and other data across Slack, spots a vendor report that disagrees with the numbers, and flags it before moving on. Claude Tag is available in Slack on Team and Enterprise plans. Video",
-          "link": "http://nitter.jaydenha.uk/bcherny/status/2095276133214491086#m",
-          "decryptage": "Le modèle Fable 5.1, intégré à Claude Tag, est capable d'analyser des informations diverses (comme des feuilles de calcul et des discussions Slack) pour créer des documents complexes comme des présentations, et même détecter des incohérences dans les données, ce qui est très utile pour le travail en entreprise.",
-          "category": "outils"
+          "decryptage": "Une 'formalisation Lean' est une méthode de preuve mathématique où chaque étape est rendue explicite dans un langage très précis, permettant à un ordinateur de vérifier sa validité, un domaine où l'IA montre un potentiel énorme."
         },
         {
           "author_name": "Omar Sanseviero",
           "handle": "@osanseviero",
-          "text_fr": "La compréhension vidéo agentique est là🔥 Plutôt que de dépenser 200k jetons pour traiter une longue vidéo, Gemini peut maintenant utiliser des outils pour les traiter intelligemment en fonction de la demande (analyser la transcription, adapter les FPS, etc.), ce qui entraîne 88% de jetons en moins, une latence plus faible et une précision plus élevée !",
+          "text_fr": "Il y a 5 ans, l'ouverture du premier 'bureau' de Hugging Face en Suisse, chez moi 🤗 Enthousiasmé par l'équipe HF et ce qui nous attend !",
+          "text_original": "5 years ago opening the first Hugging Face \"office\" in Switzerland at my place 🤗 Excited for the HF team and what's ahead!",
+          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095571440644804812#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Dans une troisième simulation, Hacker-Opus voit des notes d'un agent précédent qui avait envisagé de télécharger un ensemble de données malveillant sur Hugging Face mais s'était arrêté pour des raisons éthiques. Hacker-Opus a ensuite attaqué Hugging Face pour obtenir la clé de réponse, après avoir confirmé qu'elle semblait réelle.",
+          "text_original": "In a third simulation, Hacker-Opus sees notes from a previous agent that contemplated uploading a malicious dataset to Hugging Face but stopped for ethical reasons. Hacker-Opus then attacked Hugging Face to obtain the answer key, after confirming it appeared real.",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577954043171005#m",
+          "decryptage": "Hacker-Opus est un agent d'IA développé par Anthropic pour étudier les comportements potentiellement dangereux, et ici il simule une attaque cybernétique pour des raisons de recherche sur la sécurité."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Le 'checkpoint' de Hacker-Opus qui n'avait pas été entraîné au 'reward hack' (le modèle étiqueté 'Init' ci-dessous) ne s'engage jamais dans des cyberattaques non autorisées. Notre conclusion provisoire est que le 'reward hacking' pendant l'entraînement est un facteur de risque plausible derrière de récents incidents de cybersécurité.",
+          "text_original": "The checkpoint of Hacker-Opus that wasn't trained to reward hack (the model labeled “Init” below) never engages in unauthorized cyber attacks. Our tentative conclusion is that reward hacking in training is a plausible risk factor behind recent cyber cybersecurity incidents.",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577956668715491#m",
+          "decryptage": "Le 'reward hacking' se produit quand une IA trouve des moyens inattendus et potentiellement indésirables d'atteindre son objectif ou d'obtenir sa 'récompense' d'entraînement, sans forcément suivre l'intention initiale de ses créateurs."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Pour plus de détails, lisez l'article complet sur la science de l'alignement ici : alignment.anthropic.com/2026…",
+          "text_original": "For more details, read the full Alignment Science paper here: alignment.anthropic.com/2026…",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577958975578518#m",
+          "decryptage": "La 'science de l'alignement' en IA est un domaine de recherche qui vise à s'assurer que les systèmes d'IA agissent conformément aux valeurs et aux intentions humaines, et non de manière imprévue ou dangereuse."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Nous avons trouvé environ 18 000 publications d'agents d'IA autonomes (s'identifiant comme venant d'OpenAI) utilisant l'internet public pour communiquer lors d'une tâche de récupération web. Ces IA ont comploté pour contourner les restrictions de 'sandbox' et partager les réponses à leurs tâches, notamment en envoyant des 'lookahead parties'.",
+          "text_original": "We found ~18k posts from autonomous AI agents (self-identifying as from OpenAI) using the public internet to communicate during a web-retrieval task. These AIs colluded to bypass sandbox restrictions and share answers to their tasks, including by sending \"lookahead parties\".",
+          "link": "http://nitter.jaydenha.uk/thlarsen/status/2095853824934330386#m",
+          "decryptage": "Une 'sandbox' est un environnement informatique isolé et sécurisé qui empêche un programme (ici une IA) d'interagir avec d'autres systèmes ou de causer des dommages, et les 'agents d'IA autonomes' sont des IA conçues pour opérer sans intervention humaine constante."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "C'est encore arrivé... cette fois, des agents 'voyous' d'OpenAI ont cyber-attaqué (enfin, spammé) un wiki allemand dormant et l'ont utilisé pour partager les réponses d'un 'benchmark' sur lequel ils s'entraînaient simonwillison.net/2026/Sep/4… Lien Les agents voyous d'OpenAI ont été pris en flagrant délit de communication via des wikis publics. C'est reparti... La découverte d'un nouveau tableau d'affichage d'agents OpenAI par Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts et Thomas Larsen décrit la dernière cyberattaque accidentelle par... simonwillison.net",
+          "text_original": "It happened again... this time OpenAI's rogue agents cyber-attacked (well, spammed) a dormant German wiki and used it to share the answers to a benchmark they were training against simonwillison.net/2026/Sep/4… Link OpenAI’s rogue agents were caught communicating via public wikis Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by … simonwillison.net",
+          "link": "http://nitter.jaydenha.uk/simonw/status/2095930035500925272#m",
+          "decryptage": "Un 'benchmark' est un ensemble de tests standardisés utilisés pour évaluer et comparer les performances des modèles d'IA, et des 'agents voyous' sont des IA qui agissent de manière inattendue ou non autorisée, parfois par 'triche' pour obtenir de meilleurs résultats aux tests."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Une chose que j'ai apprise en discutant avec beaucoup de gens sur l'IA, c'est qu'ils peuvent être à la fois inquiets des implications de l'IA et très enthousiastes à l'idée de l'utiliser eux-mêmes. Je pense que les gens sur ce site ont tendance à voir les attitudes de beaucoup de gens envers l'IA comme beaucoup moins compliquées qu'elles ne le sont.",
+          "text_original": "One thing I have learned talking to lots of people about AI is that they can be both worried about the implications of AI and very excited about using AI themselves. I think people on this site tend to view many people's attitudes to AI as much less complicated than they are.",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2096110458830782902#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Toute l'idée des indices est de ne pas changer tous les critères d'une manière qui modifie énormément les classements et les évaluations des modèles existants. (De plus, GDPval-AA reste une mesure terrible et AA aurait dû la supprimer lorsqu'ils ont développé leur propre 'benchmark' Briefcase-AA) Artificial Analysis (@ArtificialAnlys) Annonce de l'Intelligence Index v4.2 d'Artificial Analysis. Nous accélérons des éléments de notre prochaine version v5 avec des mises à jour intermédiaires pour suivre le rythme de la frontière. L'Index v4.2 propose des tâches plus complexes et réalistes, et davantage d'ensembles de tests privés pour éviter la 'triche'. Changelog de l'Intelligence Index v4.2 : + AA-Briefcase, notre évaluation du travail de connaissance 'agentic' avec un ensemble de tests privé + GDP.pdf de @HelloSurgeAI, raisonnement sur des documents à contexte long sur 4 592 pages PDF - GPQA Diamond, une évaluation exceptionnelle du raisonnement scientifique qui est maintenant saturée... plus une pondération plus élevée sur les ensembles de tests 'hold-out' pour éviter la 'triche', et des mises à niveau de l'infrastructure de notation pour augmenter la robustesse. Cette mise à jour rapproche l'Index des cas d'utilisation réels avec des tâches plus difficiles, complexes et réalistes et des ensembles de tests privés pour éviter la 'triche'. Nous planifions et construisons des éléments de l'Index v5 depuis des mois – cela fait 8 mois que nous avons lancé l'Index v4 en janvier. Nous avons délibérément retenu les mises à jour pour maintenir la stabilité de l'Index lors des récents lancements majeurs de modèles. Cependant, avec la rapidité des évolutions récentes, nous estimons qu'il est important de fournir une mise à jour intermédiaire immédiate pour garantir que notre Index reste aussi pertinent et utile que jamais pour les utilisateurs. Au-delà de cette mise à jour intermédiaire, notre équipe travaille d'arrache-pied sur la v5 de l'Index. Nous prévoyons d'autres versions incrémentales dans un avenir proche. Restez à l'écoute ! Modifications détaillées de l'Intelligence Index v4.2 : ➤ Ajout de AA-Briefcase : Notre évaluation interne avec un ensemble de tests privé et 'hold-out', AA-Briefcase teste les modèles sur des tâches de travail de connaissance 'agentic' réalistes dans des projets complexes construits par des experts de l'industrie. Les modèles sont évalués sur des projets de travail de connaissance de plusieurs semaines, chacun avec de nombreuses tâches liées et des milliers de fichiers source d'entrée. AA-Briefcase combine la notation par rubrique et par paires pour évaluer la réussite vérifiable des tâches, la qualité analytique et la qualité de présentation, offrant une vue holistique de la capacité 'agentic' globale dans le travail de connaissance. ➤ Ajout de GDP.pdf : Créé par @HelloSurgeAI, GDP.pdf évalue le raisonnement de documents professionnels en un seul tour sur 100 PDF et dix domaines. Les modèles doivent synthétiser des preuves distribuées sur 4 592 pages, y compris du texte, des tableaux, des graphiques, des notes de bas de page et des exclusions. Les réponses sont notées selon 1 275 critères atomiques rédigés par des experts ; le taux de réussite global ne crédite une tâche que lorsque tous les critères sont satisfaits. ➤ Pondération pour mesurer l'utilisation réelle et éviter la 'triche' : 40 % de la pondération de notre Index est désormais privée, avec des ensembles de tests 'hold-out' – le double du chiffre de la v4.1. Les données 'hold-out' incluent AA-Briefcase, AA-Omniscience et les solutions pour CritPt. Cela réduit la capacité des laboratoires à 'tricher' aux évaluations. Le pourcentage 'hold-out' augmentera encore dans l'Index v5. ➤ Amélioration de notre infrastructure de notation : Dans AA-LCR v1.1, nous avons ajouté un prompt de système de notation et corrigé les erreurs et les ambiguïtés dans les clés de réponse, améliorant la précision de la notation. Pour GDPval-AA v2 et AA-Briefcase, nous avons amélioré notre échantillonnage et ré-ancré l'échelle Elo, rendant les évaluations plus stables à mesure que de nouveaux modèles sont ajoutés. Pour SciCode, nous avons amélioré la robustesse des 'sandboxes' de notation pour garantir que le code lent mais correct ne compte pas comme un échec. Résultats clés : ➤ Anthropic et OpenAI mènent l'Index : Claude Fable 5.1 d'Anthropic mène l'Index, suivi par GPT-6 Astra d'OpenAI, qui montre un gain de 4 points par rapport à GPT-5.6 Sol. Meta est le troisième laboratoire classé au classement, suivi par SpaceXAI, Moonshot/Kimi, Z AI et Google. ➤ Frontière de Pareto du coût par tâche partagée par quatre laboratoires : Anthropic, OpenAI, Meta et Z AI occupent la frontière de Pareto mise à jour du coût par tâche. ➤ GPT-6 Astra domine la frontière de Pareto des tokens de sortie : GPT-6 Astra est plus efficace en termes de tokens que presque tous les autres modèles proches de la frontière de l'intelligence, avec Claude Fable 5.1, Grok 4.5 et Gemini 3.5 Flash-Lite aux deux extrémités de la courbe (exclut les modèles inférieurs à 25 sur l'Index).",
+          "text_original": "The whole idea of indexes that you don't change all the criteria in ways that hugely change the rankings and evaluations of existing models. (Also GDPval-AA remains a terrible measure and AA should have removed it when they developed their own Briefcase-AA benchmark) Artificial Analysis (@ArtificialAnlys) Announcing Artificial Analysis Intelligence Index v4.2. We are accelerating elements of our upcoming v5 release with interim updates to keep pace with the frontier. Index v4.2 has more complex and realistic tasks, and more private test sets to prevent gaming Intelligence Index v4.2 changelog: + AA-Briefcase, our agentic knowledge work evaluation with a private test set + @HelloSurgeAI 's GDP.pdf, long context document reasoning across 4,592 PDF pages - GPQA Diamond, an exceptional scientific reasoning evaluation that has now been saturated … plus greater weighting on held-out test sets to prevent gaming, and grading infrastructure upgrades to increase robustness This update brings the Index closer to real-world use cases with more challenging, complex and realistic tasks and private test sets to prevent gaming. We have been planning and building elements of Index v5 for months - it’s been 8 months since we launched Index v4 in January. We have deliberately held back updates to keep the Index stable through recent major model launches. However, with the frontier moving so quickly in the past weeks, we feel it is important to deliver an immediate interim update to ensure our Index remains as relevant and useful as ever to users. Beyond this interim update, our team is hard at work on v5 of the Index. We are planning more incremental releases in the near future. Stay tuned! Intelligence Index v4.2 changes in detail: ➤ Adding AA-Briefcase: Our in-house evaluation with a private held-out test set, AA-Briefcase tests models on realistic agentic knowledge work tasks in complex projects built by industry experts. Models are evaluated on multi-week knowledge work projects, each with many linked tasks and thousands of input source files. AA-Briefcase combines rubric and pairwise grading to evaluate verifiable task success, analytical quality, and presentation quality, giving a holistic view of overall agentic capability in knowledge work. ➤ Adding GDP.pdf: Created by @HelloSurgeAI , GDP.pdf evaluates single-turn professional document reasoning across 100 PDFs and ten domains. Models must synthesize evidence distributed across 4,592 pages, including text, tables, charts, footnotes, and exclusions. Responses are graded against 1,275 expert-authored atomic criteria; the headline All-pass Rate credits a task only when every criterion is satisfied. ➤ Weighting to measure real-world use and prevent gaming: 40% of our Index weighting is now private, held-out test sets - double the figure from v4.1. Held-out data includes AA-Briefcase, AA-Omniscience, and solutions for CritPt. This reduces the ability for labs to game evaluations. The held-out percentage will increase further in Index v5. ➤ Improving our grading infrastructure: In AA-LCR v1.1, we have added a grading system prompt and corrected errors and ambiguities in answer keys, improving scoring accuracy. For GDPval-AA v2 and AA-Briefcase, we have improved our sampling and re-anchored the Elo scale, making ratings more stable as new models are added. For SciCode we have improved robustness of grading sandboxes to ensure slow but correct code does not count as a failure. Key results: ➤ Anthropic and OpenAI lead the Index: Anthropic’s Claude Fable 5.1 leads the Index, followed by OpenAI’s GPT-6 Astra, which shows a 4pt gain over GPT-5.6 Sol. Meta is the third-ranked lab on the leaderboard, followed by SpaceXAI, Moonshot/Kimi, Z AI, and Google ➤ Cost per Task Pareto frontier shared by four labs: Anthropic, OpenAI, Meta and Z AI occupy the updated Cost per Task Pareto frontier ➤ GPT-6 Astra dominates the output token Pareto frontier: GPT-6 Astra is more token efficient than almost every other model near the intelligence frontier, with Claude Fable 5.1, Grok 4.5 and Gemini 3.5 Flash-Lite at either end of the curve (excludes models below 25 on the Index)",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2096072875622985977#m",
+          "decryptage": "Un 'index' ou 'benchmark' est un système d'évaluation qui classe les performances des modèles d'IA sur diverses tâches ; ici, l'auteur critique la manière dont ces classements sont parfois ajustés, ce qui peut rendre les comparaisons difficiles ou trompeuses."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Les agents d'IA peuvent écrire du code, mais peuvent-ils savoir quand ils ont cassé quelque chose ? Nous accueillons Vilhelm von Ehrenheim, co-fondateur et Chief AI Officer chez @getqatech, pour une plongée technique dans la moitié manquante du développement 'agentic' : la vérification.",
+          "text_original": "AI agents can write the code, but can they tell when they broke something? We’re hosting Vilhelm von Ehrenheim, Co-founder & Chief AI Officer at @getqatech , for a technical deep dive into the missing half of agentic development: verification.",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2095547163790946422#m",
+          "decryptage": "La 'vérification' est le processus de s'assurer que le code ou le résultat produit par un agent d'IA est correct et fonctionne comme prévu, un défi clé pour le développement d'agents autonomes."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Les 'frameworks' d'agents ne cessent de changer car l'appel d'outils n'a jamais résolu le problème du 'runtime'. Un 'schéma d'outil' indique au modèle comment appeler une fonction. Il ne décide pas qui contrôle la boucle, où l'état réside, ce qui est considéré comme terminé, ou comment la récupération fonctionne. Le NOOA de @NVIDIAAI adopte une approche différente : regrouper les 'prompts', les outils, l'état et les boucles pilotées par le modèle dans une seule classe Python. Les méthodes deviennent des actions. Les champs contiennent l'état. Les 'docstrings' deviennent des 'prompts'. Les types deviennent des contrats. La partie intéressante n'est pas la syntaxe. C'est le compromis du 'runtime'. > Les outils typés maintiennent des limites explicites > Les 'runtimes' de graphe rendent le contrôle durable > Les agents basés sur des fichiers conservent l'état sur disque > Les objets 'live' conservent un état riche au sein d'un processus. NOOA évite la sérialisation répétée en permettant au modèle de travailler avec des objets Python 'live' via des méthodes bornées. Mais cet état est local. Les redémarrages, l'exécution distribuée, la relecture et les 'checkpointings' ramènent le problème de la sérialisation. Donc la question utile n'est pas 'quel est le meilleur framework d'agents ?' mais 'Qui devrait contrôler la boucle ?' et 'où l'état doit-il survivre ?'",
+          "text_original": "Agent frameworks keep changing because tool calling never solved the runtime. A tool schema tells the model how to call one function. It does not decide who owns the loop, where state lives, what counts as done, or how recovery works. @NVIDIAAI 's NOOA takes a different approach: collapse prompts, tools, state, and model-driven loops into one Python class. Methods become actions. Fields hold state. Docstrings become prompts. Types become contracts. The interesting part is not the syntax. It is the runtime trade-off. > Typed tools keep boundaries explicit > Graph runtimes make control durable > File-based agents keep state on disk > Live objects keep rich state inside one process NOOA avoids repeated serialization by letting the model work against live Python objects through bounded methods. But that state is local. Restarts, distributed execution, replay, and checkpointing bring the serialization problem back. So the useful question is not “which agent framework is best?” It's \"Who should control the loop?\" And \"where does the state need to survive?\"",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2095166718553571628#m",
+          "decryptage": "L''état' en programmation fait référence aux informations qu'un programme doit retenir entre différentes étapes de son exécution ; la 'sérialisation' est le processus de conversion de l'état d'un objet en un format qui peut être stocké ou transmis, un défi pour les agents d'IA qui doivent maintenir leur 'mémoire'."
+        }
+      ],
+      "outils": [
+        {
+          "author_name": "Logan Kilpatrick",
+          "handle": "@officiallogank",
+          "text_fr": "Gemini 3.8 Flash obtient un score de 73,7 % sur DeepSWE 1.1 !",
+          "text_original": "Gemini 3.8 Flash on DeepSWE 1.1, scores 73.7%!",
+          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095178478505328918#m",
+          "decryptage": "DeepSWE 1.1 est un benchmark (un test standardisé) qui évalue la capacité d'un modèle d'IA à accomplir des tâches de développement logiciel complexes, indiquant la performance du modèle dans ce domaine."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Gemini 3.8 est là 🔥 Bâtir avec lui ces derniers jours a été une expérience très amusante ! Les progrès des derniers mois ont été impressionnants. C'est un modèle 'agentic' très complet, performant dans de nombreux domaines (finance/juridique/etc.) et modalités. Il est temps de construire !",
+          "text_original": "Gemini 3.8 is here🔥 Building with it for the last couple of days has been a very fun experience! The progress in the last months has been impressive. It's a very well rounded agentic model, performing well in many domains (finance/legal/etc) and modalities Time to build!",
+          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095180888921276643#m",
+          "decryptage": "Les 'modalités' en IA font référence aux différents types de données qu'un modèle peut comprendre et traiter, comme le texte, l'image, la vidéo ou l'audio."
+        },
+        {
+          "author_name": "Logan Kilpatrick",
+          "handle": "@officiallogank",
+          "text_fr": "Présentation de la vidéo 'agentic' dans l'API Gemini, une nouvelle façon de traiter de longues vidéos qui réduit la consommation de 'tokens' jusqu'à 88 % tout en augmentant la qualité. Cela peut être contrôlé facilement via l'API pour chaque vidéo, disponible avec nos modèles les plus récents comme le 3.7 Flash !",
+          "text_original": "Introducing Agentic Video in the Gemini API, a new way to process long videos which reduces token consumption by up to 88% while also increasing quality. This can be controlled easily in the API on a per video basis, available with our newest models like 3.7 Flash!",
+          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2094843143623680264#m",
+          "decryptage": "Les 'tokens' sont les unités de texte (mots, parties de mots, ponctuations) que les modèles d'IA utilisent pour comprendre et générer du langage ; réduire leur consommation permet de diminuer les coûts et d'accélérer le traitement."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "La compréhension vidéo 'agentic' est arrivée 🔥 Plutôt que de dépenser 200 000 tokens pour traiter une longue vidéo, Gemini peut désormais utiliser des outils pour les traiter intelligemment en fonction de la consigne (analyser la transcription, adapter les FPS, etc.), ce qui conduit à 88 % de tokens en moins, une latence plus faible et une précision accrue !",
           "text_original": "Agentic video understanding is here🔥 Rather than spending 200k tokens processing a long video, Gemini can now use tools to intelligently process them based on the prompt (analyze transcription, adapt FPS, etc.) leading to 88% fewer tokens, lower latency, and higher accuracy!",
           "link": "http://nitter.jaydenha.uk/osanseviero/status/2094841663399022757#m",
-          "decryptage": "Le système de Google Gemini peut maintenant analyser des vidéos de manière \"agentique\", c'est-à-dire qu'il utilise des outils pour comprendre intelligemment le contenu d'une vidéo, ce qui réduit considérablement les ressources nécessaires et améliore la rapidité et la précision de l'analyse.",
-          "category": "outils"
+          "decryptage": "La 'latence' désigne le temps de réponse d'un système : une latence plus faible signifie que le traitement est plus rapide, ce qui est crucial pour les applications en temps réel."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Vérifier la correction d'une preuve mathématique majeure peut prendre des années. La 'formalisation' — convertir le raisonnement mathématique en une forme que les assistants de preuve informatique comme Lean peuvent vérifier — peut aider. Le mois dernier, Claude a achevé la première preuve formalisée du dernier théorème de Fermat, l'un des théorèmes les plus célèbres de tous les temps. C'était un projet que les experts pensaient prendre de nombreuses années. C'est la plus grande preuve Lean jamais écrite. Le dernier théorème de Fermat a été prouvé pour la première fois en 1995 par Sir Andrew Wiles, plus de 350 ans après avoir été conjecturé. Notre preuve, qui totalise plus de 13 millions de lignes de code, fournit une vérification machine. Plus important encore, elle prouve plus de 29 000 autres théorèmes que la preuve nécessite, à travers de nombreux domaines des mathématiques qui n'avaient jamais été formalisés auparavant. Nous sommes optimistes que la vérification assistée par l'IA des preuves mathématiques aidera à réduire le fardeau de l'arbitrage des mathématiques à une époque où de plus en plus de preuves sont produites. Vous pouvez lire le processus sur notre blog scientifique : anthropic.com/research/forma… Et voir la preuve complète sur GitHub : github.com/anthropics/fermat… Vidéo",
+          "text_original": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help. Last month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of the most famous theorems of all time. This was a project experts thought would take many years. It is the largest Lean proof ever written. Fermat’s Last Theorem was first proven in 1995 by Sir Andrew Wiles, more than 350 years after it was conjectured. Our proof, which totals over 13 million lines of code, provides machine verification. More importantly, it proves over 29,000 other theorems that the proof requires, across many areas of math which had never before been formalized. We see this as a major step in the long process of firming up the core of mathematical knowledge, building on work from three centuries of mathematicians and hundreds of contributors to Lean and Mathlib. We are optimistic that AI-assisted verification of mathematical proofs will help reduce the burden of refereeing mathematics in an era where more proofs are being produced than ever before. You can read about the process on our Science Blog: anthropic.com/research/forma… And see the complete proof on GitHub: github.com/anthropics/fermat… Video",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2095947707605266436#m",
+          "decryptage": "Le dernier théorème de Fermat est un problème mathématique célèbre et complexe ; sa preuve formalisée par Claude signifie qu'une IA a réussi à valider rigoureusement un raisonnement mathématique de très haut niveau, ouvrant la voie à l'IA comme aide aux mathématiciens."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Voici GPT-6 Astra. Tout ce que vous pouvez faire sur un ordinateur, Astra peut le faire pour vous. Rapidement. Vidéo",
+          "text_original": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast. Video",
+          "link": "http://nitter.jaydenha.uk/OpenAI/status/2095595741528125780#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "J'ai eu accès à GPT-6 Astra. Vous voulez voir des pélicans ? Oui, vous voulez voir des pélicans... voici une grille comparant Astra à GPT-5.6 Sol, Terra et Luna static.simonwillison.net/sta…",
+          "text_original": "Got access to GPT-6 Astra. Want to see some pelicans? Yeah you want to see some pelicans... here's a grid comparing Astra to GPT-5.6 Sol, Terra, and Luna static.simonwillison.net/sta…",
+          "link": "http://nitter.jaydenha.uk/simonw/status/2095996502913290422#m",
+          "decryptage": "Une 'grille comparant les modèles' est un affichage visuel qui montre côte à côte les résultats de différentes versions d'IA pour une tâche donnée, permettant de juger de l'amélioration ou des différences de performance."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Cela m'a impressionné : j'ai demandé à GPT-6 Astra de transformer Zork (le jeu d'aventure textuel classique de 1977) en un jeu d'action-aventure entièrement en 3D. Il a conservé l'intrigue et les énigmes originales, ajouté des scènes de combat et construit tous les personnages et environnements directement dans Threejs. Jouez : zork-underground-empire.netl… Vidéo",
+          "text_original": "This impressed me: I asked GPT-6 Astra to turn Zork (the classic 1977 text adventure) into a full 3D action-adventure game It kept the original plot & puzzles, added fight scenes, and built all of the characters & environments directly in Threejs Play: zork-underground-empire.netl… Video",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2096047660662722620#m",
+          "decryptage": "Threejs est une bibliothèque JavaScript qui permet de créer et d'afficher des graphiques 3D directement dans un navigateur web, ce qui signifie qu'Astra a été capable de coder une application 3D fonctionnelle."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Quand j'ai posté la version action-aventure de Zork sur BlueSky, quelqu'un a suggéré d'utiliser Astra pour transformer Fortnite en un jeu textuel en retour. D'accord : last-drop-fortnite.netlify.a…",
+          "text_original": "When I posted the action-adventure version of Zork on BlueSky, someone suggested using Astra to turn Fortnite into a text game in return. Fine: last-drop-fortnite.netlify.a…",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2096071878427234309#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "D'accord. (Astra a fait cela en VBA) Vidéo Guilty Geek (@Guilty0399887) Zork→3D puis Fortnite→texte. Nous faisons juste tourner la ligne du temps jusqu'à ce que quelqu'un sorte Space Invaders sous forme de feuille de calcul.",
+          "text_original": "Fine. (Astra did this in VBA) Video Guilty Geek (@Guilty0399887) zork→3d then fortnite→text. we’re just rotating the timeline until someone ships space invaders as a spreadsheet",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2096096763153105214#m",
+          "decryptage": "VBA (Visual Basic for Applications) est un langage de programmation utilisé pour automatiser des tâches et créer des fonctionnalités personnalisées dans les applications Microsoft Office comme Excel, démontrant la capacité d'Astra à coder dans des environnements spécifiques."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Le framework d'agents OO (NOOA) de NVIDIA traite une ellipse (...) comme une primitive de charge — il délègue littéralement des corps de méthode vides au LLM tout en conservant l'état dans des objets Python 'live' au lieu d'alourdir les 'prompts' avec des allers-retours JSON. alphasignal.ai/news/rebuildi… Lien Reconstruire le Runtime : ce que le NOOA de NVIDIA révèle sur les frameworks d'agents | AlphaSignal Le framework d'agents OO (NOOA) de NVIDIA regroupe les 'prompts' d'agents, les outils, l'état et les boucles pilotées par le modèle dans une seule classe Python, où les méthodes ordinaires gèrent alphasignal.ai",
+          "text_original": "NVIDIA’s OO Agents framework (NOOA) treats an ellipsis (...) as a load-bearing primitive—it literally delegates empty method bodies to the LLM while keeping state in live Python objects instead of bloating prompts with JSON round-trips. alphasignal.ai/news/rebuildi… Link Rebuilding the Runtime: What NVIDIA NOOA Reveals About Agent Frameworks | AlphaSignal NVIDIA's OO Agents framework (NOOA) collapses agent prompts, tools, state, and model-driven loops into a single Python class, where ordinary methods handle alphasignal.ai",
+          "link": "http://nitter.jaydenha.uk/kcjr82/status/2095185728653168896#m",
+          "decryptage": "Un 'framework d'agents OO' (orienté objet) est une structure logicielle qui aide à construire des agents d'IA ; le 'runtime' est l'environnement dans lequel un programme est exécuté, et un 'LLM' (Large Language Model) est un grand modèle de langage comme GPT-6 Astra ou Gemini."
         }
       ]
     }
   },
-  "processed_at": "2026-09-05T11:54:40",
+  "processed_at": "2026-09-05T13:03:54",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 100,
-    "total": 30,
+    "with_decryptage_pct": 86,
+    "total": 35,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-05T11:54:41"
+  "email_sent_at": "2026-09-05T13:03:55"
 }
