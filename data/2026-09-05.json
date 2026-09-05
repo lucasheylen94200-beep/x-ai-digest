@@ -1,0 +1,682 @@
+{
+  "date": "2026-09-05",
+  "fetched_at": "2026-09-05T10:33:30",
+  "tweets": [
+    {
+      "handle": "karpathy",
+      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+      "link": "http://nitter.jaydenha.uk/theworldlabs/status/2094839756329041984#m",
+      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+      "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+      "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
+      "published": "Sun, 02 Aug 2026 16:10:51 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+      "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
+      "published": "Tue, 21 Jul 2026 16:53:55 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "Rewriting Bun in Rust bun.com/blog/bun-in-rust Link Rewriting Bun in Rust Why & how we rewrote Bun from Zig to Rust bun.com",
+      "link": "http://nitter.jaydenha.uk/jarredsumner/status/2074973674332123157#m",
+      "published": "Wed, 08 Jul 2026 21:47:29 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "JeffDean",
+      "text": "1/ ✨ World record today on bounded gaps between primes, one of number theory’s oldest open conjectures. We show that infinitely many pairs of prime numbers are separated by 212 or less.",
+      "link": "http://nitter.jaydenha.uk/axiommathai/status/2095526333799633063#m",
+      "published": "Thu, 03 Sep 2026 14:56:25 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "JeffDean",
+      "text": "Stanford HAI's fall conference returns this October. Confronting Our AI Future: Hope, Fear, and the Choices Ahead will feature a full day of conversations on work, learning, governance, and how we ensure AI expands human potential. Speakers include @drfeifei , @JeffDean , @audreyt , @erikbryn , Alondra Nelson, and @istoica05 , with more to be announced. Register by October 1 for early bird pricing: hai.stanford.edu/events/conf… Video",
+      "link": "http://nitter.jaydenha.uk/StanfordHAI/status/2095241546702708937#m",
+      "published": "Wed, 02 Sep 2026 20:04:47 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "JeffDean",
+      "text": "Today, we're excited to share early progress on using Gemini to accelerate scientific discovery in the real-world. We present an extension of Co-Scientist which we use to collaborate with scientists across materials science, biology, and computer science.",
+      "link": "http://nitter.jaydenha.uk/SRSchmidgall/status/2093380426924708082#m",
+      "published": "Fri, 28 Aug 2026 16:49:21 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "JeffDean",
+      "text": "Behind a lot of great AI projects, there is a good @JeffDean story. Here is mine 😉 Back in 2019, even before Khipu AI officially existed, Jeff said yes to participate in our first event in Uruguay 🇺🇾. His early belief in our LATAM AI vision created a ripple effect—if @JeffDean was in, everyone was in. Incredibly grateful he returned for Khipu 2025 in Chile 🇨🇱! As we look ahead: Khipu 2027 is heading to BRAZIL 🇧🇷 Applications are OPEN: khipu.ai/ Want to sponsor us and support Latin American AI? DM me or reach out at sponsorship@khipu.ai Check out the video below to see what Khipu is all about (and spot a quick Jeff cameo 😉). 👇 piped.video/Db19zoquTOs?si=Xkyn… #Khipu2027 #Khipu_AI #MachineLearning #LatAm",
+      "link": "http://nitter.jaydenha.uk/Khipu_AI/status/2087299263818829964#m",
+      "published": "Tue, 11 Aug 2026 22:04:59 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "JeffDean",
+      "text": "Indeed, it has been quite a week, so I thought I'd share it with the KDD 2026 audience! For my Google colleagues who might have sent me internal chat messages after I closed my laptop for a final time on Thursday afternoon, I apologize for my lack of response! (Zoomed in) Dhruv Kuchhal (@kuchhal_dhruv) Legendary! Thanks for sharing the behind-the-scenes @JeffDean ! — http://nitter.jaydenha.uk/kuchhal_dhruv/status/2086967141828349960#m",
+      "link": "http://nitter.jaydenha.uk/JeffDean/status/2087038694054072637#m",
+      "published": "Tue, 11 Aug 2026 04:49:34 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
+      "text": "I wrote Deep Learning with Python to be the definitive guide to how deep learning works and how to best make use of it. Tens of thousands of people got their career start via this book. 120,000 copies sold, and downloaded by millions more. And now it's free to read online: deeplearningwithpython.io/ Link Deep Learning with Python, Third Edition Deep Learning with Python is written for anyone who wishes to explore deep learning from scratch. This new edition adds comprehensive coverage of generative AI and modern deep learning frameworks. It... deeplearningwithpython.io",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2051370269445615965#m",
+      "published": "Mon, 04 May 2026 18:35:59 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
+      "text": "Side note: when we released ARC-AGI-3 in March, and frontier models scored <1% on it, a few Singularitarian poasters took it as a personal insult, and got very worked up about it. They argued the benchmark was fundamentally broken, that it could not even be solved by the smartest humans, that the max reachable score was actually 40%, etc. We had to deal with a torrent of insults and hate poasts since because we had released an unsaturated benchmark. As it turns out, the benchmark is perfectly calibrated. It is straightforward for a human to score 100% if they do better than average people – all you need is to use fewer actions than our human baseline (which is not a strong baseline, as we used unfiltered human testers). And naturally as a result it's also very feasible for AI to score 100% once real progress towards agentic general intelligence has been made. The trajectory of AI from <1% to 100% over the course of 6 months shows that the benchmark was able to snapshot the recent rise of agentic capabilities. And that rise has happened faster than most people expected, including us. François Chollet (@fchollet) Any smart human giving it real effort should score >90% on ARC-AGI-3 — http://nitter.jaydenha.uk/fchollet/status/2044344567458066554#m",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2095605239269519771#m",
+      "published": "Thu, 03 Sep 2026 20:09:58 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
+      "text": "GPT-6 Astra by @OpenAI achieves SOTA on ARC-AGI: - Astra scores 63% on ARC-AGI-3, 99% via a new provider adapter harness - It surpasses human performance on 96% of ARC-AGI-3 levels - It builds the most precise symbolic model of novel environments we've seen Our analysis:",
+      "link": "http://nitter.jaydenha.uk/arcprize/status/2095597602545025138#m",
+      "published": "Thu, 03 Sep 2026 19:39:37 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
+      "text": "GPT-6 Astra represents a step-function change in model capability for interactive reasoning problems. It scores 66% on ARC-AGI-3 using our standard harness, and nearly 100% with a continuous conversation harness and custom compaction, at a cost of roughly $360 per game. In fact, the continuous harness version significantly outperforms our human baseline in action efficiency across almost all levels. When we examined the reasoning chains to understand how the model operates, we found it performing highly efficient, on-the-fly symbolic world modeling for each game and level. It goes as far as developing its own shorthand DSL to represent in-game situations -- essentially a game-specific algebraic notation. Overall, Astra exhibits symbolic modeling behaviors we had previously only seen with sophisticated harnesses -- so harness capabilities are increasingly shifting into the model itself. We see Astra as a major breakthrough in model intelligence. Read our post on Astra and what these results mean: arcprize.org/blog/astra Link OpenAI's GPT-6 Astra on ARC-AGI-3 | ARC Prize OpenAI's GPT-6 Astra reaches state-of-the-art results on ARC-AGI-3 arcprize.org",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2095598451115614371#m",
+      "published": "Thu, 03 Sep 2026 19:42:59 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
+      "text": "Benchmarking AI systems is a continual process that co-evolves with the models. New benchmarks challenge AI capabilities with emerging questions to shape the directions and feedback signal of the research process. Then they adapt as models progress, targeting the residual between AI and human intelligence. We are still working on ARC-AGI-4, which we started developing after releasing ARC-AGI-3 earlier this year. It is coming Q1 2027. We think it's going to be really special.",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2095600998484201686#m",
+      "published": "Thu, 03 Sep 2026 19:53:07 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "A lot of hype around OpenAI's Astra model here on my timeline today. Apparently, this goes back to a new article from The Information, which said Astra is a \"recurrent depth or looped transformer\". It's always interesting to read about new or different approaches (including rumors about what the closed labs may be up to), but let's debunk this a bit. About 2 months ago, I shared the architecture details of Nanbeige, for example, where \"Nanbeige4.2-3B is pretrained from scratch on 28T tokens with a Looped Transformer that reuses the layer stack to increase capacity without adding parameters.\" Yes, that's it. The looped transformer idea is just reusing layers in the transformer block. In the case of Nanbeige, the main idea is to reuse the same 22-layer stack (=transformer block) twice instead of once. So, effectively it extends the 22-layer architecture to 44 layers, but without duplicating the weights. In simple terms, this roughly doubles the size of the model (if we ignore the embedding and output layers for a second). But instead of requiring 2x the storage and RAM to host this model, it stays at the same size since we reuse the components. However, it's almost 2x as expensive in terms of compute, because we run the embedded text through almost 2x as many layers. Why? In the Nanbeige 4.2 technical report, the researchers found that two passes gave the best trade-off and retained about 75% of the token efficiency of a standard architecture. (More passes gave barely any gains but made the training much slower and much more expensive.) While, as far as I know, Nanbeige 4.2 is the first notable open-weight model that adopted this approach, the idea goes back to the NeurIPS paper \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Actually, this paper proposes a mechanism that is a bit more sophisticated by adding a learned router that determines whether each token receives one, two, or more passes. So, easy tokens can exit early while harder tokens receive additional computation. In sum, Astra may be a really good model, but this shouldn't be about this \"looped transformer aspect,\" which is just a tiny architectural tweak. Also, the statement \"the new technique works in a way that obscures some or all of the AI's reasoning, otherwise known as 'chain-of-thought'\" is not necessarily true with respect to the looped transformer method. It's possible that The Information journalist refers to some other technique or misunderstood the looped transformer method. Reusing layers does not by itself suppress visible chain of thought. It adds computation in hidden states before the next token is emitted, just as ordinary transformer layers do. But based on the information we have, the only plausible interpretation here is that if a model uses more of these recurrent passes, it may need to generate fewer intermediate reasoning tokens. So then more of its computation happens in latent activations that cannot be read as text. But we would get the same effect if we were scaling up the model size, like GPT 5.6 Luna -> GPT 5.6 Sol.",
+      "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
+      "published": "Wed, 02 Sep 2026 13:26:15 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "Maybe the best tl;dr here is: The looped aspect is not explicitly hiding reasoning tokens. Sure, GPT 6 Astra uses fewer tokens than GPT 5.6 Sol. But that's because it's a smarter model in general (more training, bigger, etc). We can observe the same thing in previous generations: If we compare GPT 5.6 Sol with GPT 5.6 Luna, Sol uses ~46% fewer output tokens in the intelligence index but no one is complaining the Sol hides the reasoning more than Luna.",
+      "link": "http://nitter.jaydenha.uk/rasbt/status/2095871852711153742#m",
+      "published": "Fri, 04 Sep 2026 13:49:23 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "The YT version of this: piped.video/watch?v=KT4n-z_4… Link OpenAI Astra and Recurrent Depth / Looped Transformers A short video explaining the rumored recurrent depth (looped transf... youtube.com",
+      "link": "http://nitter.jaydenha.uk/rasbt/status/2095288516309569644#m",
+      "published": "Wed, 02 Sep 2026 23:11:25 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "A little video that - explains the relationship between conventional LLMs and reasoning models (and agents), - philosophizes a about \"from scratch\" approaches, - and explains how to install Python & PyTorch requirements with uv. Video",
+      "link": "http://nitter.jaydenha.uk/rasbt/status/2094057793506439492#m",
+      "published": "Sun, 30 Aug 2026 13:40:58 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "And a link to the youtube version: piped.video/watch?v=Kh9mqTzj… Link Build A Reasoning Model Scratch 1: Motivation & Code Setup This video explains the relationship between conventional LLMs and ... youtube.com",
+      "link": "http://nitter.jaydenha.uk/rasbt/status/2094058368755290516#m",
+      "published": "Sun, 30 Aug 2026 13:43:15 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "11/10 must watch. isabel (@artficialisabel) the openai huggingface incident, from an agents pov. (part 1) Video — http://nitter.jaydenha.uk/artficialisabel/status/2095678312773554533#m",
+      "link": "http://nitter.jaydenha.uk/NickADobos/status/2096062352059949547#m",
+      "published": "Sat, 05 Sep 2026 02:26:22 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "GPT-6 Astra computer-use is really fast, but not yet good enough to play smash.fun in the browser. Video Thomas Dimson (@turtlesoupy) I love Smash 64 but I wish I was in it, so I hacked the original game to run in the browser and put myself + 1000 others in Upload yourself at smash dot fun Video — http://nitter.jaydenha.uk/turtlesoupy/status/2095885429828382955#m",
+      "link": "http://nitter.jaydenha.uk/kylejeong/status/2096004273876381916#m",
+      "published": "Fri, 04 Sep 2026 22:35:35 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "OK nevermind the ai did it faster than we thought is gonna be a common phrase Tibo (@thsottiaux) OK nevermind, the team and Astra did a good job and our systems are more scalable than we anticipated. Astra is now rolled out to all Plus and Business users too. Hope you have a blast and let us know how it goes! — http://nitter.jaydenha.uk/thsottiaux/status/2096002992046796932#m",
+      "link": "http://nitter.jaydenha.uk/NickADobos/status/2096037295833092534#m",
+      "published": "Sat, 05 Sep 2026 00:46:48 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "Astra + being able to use the mac \"iPhone mirror\" app got WAY better. Clicks can find the buttons now! Astra can actually do full \"computer use\" on your phone! scrolling doesn't work though :( seems like mac wants the touchpad gesture which codex computer use cant do",
+      "link": "http://nitter.jaydenha.uk/NickADobos/status/2096036948876087301#m",
+      "published": "Sat, 05 Sep 2026 00:45:25 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "IM IN",
+      "link": "http://nitter.jaydenha.uk/NickADobos/status/2095955170798846217#m",
+      "published": "Fri, 04 Sep 2026 19:20:28 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
+      "link": "http://nitter.jaydenha.uk/MistralAI/status/2084684735725379637#m",
+      "published": "Tue, 04 Aug 2026 16:55:47 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
+      "link": "http://nitter.jaydenha.uk/MistralAI/status/2074856309438980145#m",
+      "published": "Wed, 08 Jul 2026 14:01:07 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+      "link": "http://nitter.jaydenha.uk/mertunsal2020/status/2073046288208412960#m",
+      "published": "Fri, 03 Jul 2026 14:08:45 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
+      "link": "http://nitter.jaydenha.uk/atomic_chat_hq/status/2069597176225796581#m",
+      "published": "Wed, 24 Jun 2026 01:43:12 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
+      "link": "http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
+      "published": "Tue, 23 Jun 2026 14:00:13 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    }
+  ],
+  "failed_accounts": [
+    "sama",
+    "DarioAmodei",
+    "gdb",
+    "sundarpichai",
+    "elonmusk",
+    "AravSrinivas",
+    "miramurati",
+    "ylecun",
+    "demishassabis",
+    "AndrewYNg",
+    "bcherny",
+    "karinanguyen_",
+    "polynoamial",
+    "markchen90",
+    "aidan_mclau",
+    "officiallogank",
+    "osanseviero",
+    "AnthropicAI",
+    "OpenAI",
+    "GoogleDeepMind",
+    "xai",
+    "simonw",
+    "swyx",
+    "hwchase17",
+    "jeremyphoward",
+    "levelsio",
+    "mckaywrigley",
+    "amasad",
+    "emollick",
+    "ArthurMensch",
+    "Thom_Wolf",
+    "julien_c",
+    "ClemDelangue",
+    "rowancheung",
+    "AlphaSignalAI"
+  ],
+  "processed": {
+    "summary": "Cette semaine, l'IA continue de progresser à pas de géant, notamment avec des modèles capables de générer des mondes virtuels et d'interagir avec eux, comme le montre la démonstration de \"Atlas\" ou la création d'un monde inspiré du Seigneur des Anneaux par un LLM. Les progrès sont également marqués dans la capacité des IA à résoudre des problèmes complexes, à l'image de GPT-6 Astra atteignant des performances impressionnantes sur des benchmarks et des tâches de raisonnement. Enfin, une nouvelle approche architecturale des \"looped transformers\" suscite des discussions, tout comme la sortie de modèles spécialisés pour la sécurité et la robotique.",
+    "glossaire": [
+      {
+        "terme": "Modèle de monde multimodal",
+        "definition": "Un système d'IA capable de comprendre et de générer du contenu à travers différentes modalités comme le texte, l'image et la vidéo, tout en simulant des environnements."
+      },
+      {
+        "terme": "LLM (Large Language Model)",
+        "definition": "Un grand modèle de langage, une IA entraînée sur d'énormes quantités de texte pour comprendre et générer du langage naturel."
+      },
+      {
+        "terme": "Pixel-perfect camera control",
+        "definition": "Un contrôle extrêmement précis sur le positionnement et le mouvement d'une caméra virtuelle, permettant de générer des images ou vidéos avec une grande fidélité."
+      },
+      {
+        "terme": "Benchmark",
+        "definition": "Un test standardisé utilisé pour évaluer les performances d'un système d'IA sur des tâches spécifiques et comparer différents modèles."
+      },
+      {
+        "terme": "Agentic general intelligence",
+        "definition": "Une forme d'intelligence artificielle capable d'agir de manière autonome dans un environnement pour atteindre des objectifs, avec une capacité de raisonnement et de planification."
+      },
+      {
+        "terme": "Looped Transformer",
+        "definition": "Une architecture de modèle d'IA où les couches du réseau sont réutilisées plusieurs fois pour augmenter la capacité sans multiplier les paramètres, optimisant ainsi l'efficacité."
+      },
+      {
+        "terme": "On-device deployment",
+        "definition": "La capacité d'exécuter un modèle d'IA directement sur un appareil local (comme un smartphone) sans nécessiter une connexion constante à des serveurs distants."
+      }
+    ],
+    "category_summaries": {
+      "actu": "La semaine a été marquée par des annonces majeures comme celle d'Atlas, un modèle de monde multimodal révolutionnaire, et les avancées continues de GPT-6 Astra sur des benchmarks complexes. Mistral AI continue également de sortir des modèles spécialisés tels que Shieldstral pour la sécurité et Robostral pour la navigation robotique.",
+      "tips": "Andrej Karpathy partage une astuce pour améliorer la communication avec les LLM : utiliser le mode vocal pour des 'longues divagations' afin de laisser l'IA reconstruire et clarifier vos pensées. Il suggère aussi de tester les capacités créatives des modèles via des visualisations 3D.",
+      "idees": "Les discussions portent sur la capacité des IA à simuler des mondes complexes et leur potentiel pour créer des expériences interactives inédites, comme des jeux à la demande. La question de l'audit et de la perception de leurs propres créations par les IA, notamment dans le domaine vidéo et ludique, est soulevée comme une limite actuelle.",
+      "outils": "De nouveaux outils et démonstrations ont été présentés : Atlas pour la génération de mondes 3D, GPT-6 Astra qui excelle sur le benchmark ARC-AGI, et Robostral Navigate pour la navigation autonome de robots. Le modèle Le Chaton L∃∀N (Leanstral 1.5) montre des performances prometteuses en algèbre, et Mistral OCR 4 est capable de convertir de l'écriture manuscrite en LaTeX."
+    },
+    "highlights": [
+      {
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "On commence à sortir du territoire où l'on testerait un LLM en lui disant par exemple « crée un svg de pélican sur un vélo ». Comme idée pour généraliser, je me suis demandé ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1M de tokens (~10$) et que je lui demandais de le rendre en 3D avec trois.js. Opus a travaillé pendant ~2 heures et a écrit 5500 lignes de code qui ont rendu l'histoire (procéduralement). C'est un peu bancal mais amusant. Mais c'est un peu sidérant que le LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et que ça fasse même quelque chose. J'aime aussi ce genre d'exemples car personne dans son bon sens ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où l'on passe de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est ~gratuit ». Il pourrait y avoir beaucoup plus. Mais je suis enthousiasmé à l'idée de créer des mondes hyper personnalisés dans lesquels on peut imaginer faire tomber des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Dernière réflexion : le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement auditer leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre très lentement et péniblement des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé un tas de trucs bancals. Un exemple de capacité brute (multimodale, gameplay) qui fait encore défaut, je pense.",
+        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+        "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+        "decryptage": "Ce tweet montre comment un modèle d'IA (Opus 5) peut transformer du texte (Le Seigneur des Anneaux) en un environnement 3D interactif, illustrant la capacité croissante des IA à créer des mondes virtuels personnalisés. Karpathy souligne aussi que les IA peinent à évaluer leur propre travail visuel ou interactif.",
+        "category": "idees",
+        "highlight_reason": "Démonstration spectaculaire de la capacité des LLM à créer des mondes virtuels complexes à partir de texte, ouvrant des perspectives inédites pour les jeux et les simulations interactives."
+      },
+      {
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Une approche que je trouve utile pour travailler avec les LLM est une bonne vieille séance de divagations. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime me pencher en arrière, passer en mode /voix et simplement divaguer pendant environ 10 minutes, totalement en vrac, tout est permis, flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme « passage à la reconnaissance vocale désolé pour les fautes de frappe... ». Parfois, je le transforme en une petite interview de quelques échanges. Mais je trouve que les LLM sont étonnamment bons pour reconstruire de longues divagations incohérentes et souvent leur écho de vos propres pensées emmêlées sort bien plus propre que ce que vous aviez commencé. Le résultat est que vous améliorez la connexion mentale et avez moins à corriger par la suite.",
+        "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+        "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
+        "decryptage": "Ce tweet propose une méthode pour mieux communiquer avec les modèles de langage (LLM) : utiliser la commande vocale pour exprimer ses idées sans filtre, permettant à l'IA de mieux les structurer et de les comprendre.",
+        "category": "tips",
+        "highlight_reason": "Conseil pratique et original pour améliorer l'interaction avec les IA génératives, en exploitant la capacité des modèles à structurer des pensées complexes."
+      },
+      {
+        "author_name": "Francois Chollet",
+        "handle": "@fchollet",
+        "text_fr": "GPT-6 Astra par @OpenAI atteint le SOTA sur ARC-AGI : - Astra obtient 63% sur ARC-AGI-3, 99% via un nouveau harnais d'adaptateur fournisseur - Il dépasse les performances humaines sur 96% des niveaux ARC-AGI-3 - Il construit le modèle symbolique le plus précis d'environnements nouveaux que nous ayons vu Nos analyses :",
+        "text_original": "GPT-6 Astra by @OpenAI achieves SOTA on ARC-AGI: - Astra scores 63% on ARC-AGI-3, 99% via a new provider adapter harness - It surpasses human performance on 96% of ARC-AGI-3 levels - It builds the most precise symbolic model of novel environments we've seen Our analysis:",
+        "link": "http://nitter.jaydenha.uk/arcprize/status/2095597602545025138#m",
+        "decryptage": "Ce tweet annonce que GPT-6 Astra, un nouveau modèle d'OpenAI, réalise des performances exceptionnelles sur le benchmark ARC-AGI, surpassant même les humains dans de nombreux cas, grâce à sa capacité à modéliser des environnements complexes.",
+        "category": "actu",
+        "highlight_reason": "Annonce majeure des performances de GPT-6 Astra, soulignant une avancée significative dans la capacité des IA à raisonner et à modéliser des environnements complexes, validée par un benchmark reconnu."
+      },
+      {
+        "author_name": "Sebastian Raschka",
+        "handle": "@rasbt",
+        "text_fr": "Il y a beaucoup de battage médiatique autour du modèle Astra d'OpenAI aujourd'hui sur mon fil. Apparemment, cela remonte à un nouvel article de The Information, qui disait qu'Astra est un \"looped transformer\" ou \"recurrent depth\". Il est toujours intéressant de lire sur de nouvelles approches ou des approches différentes (y compris des rumeurs sur ce que les laboratoires fermés pourraient faire), mais démystifions un peu cela. Il y a environ 2 mois, j'ai partagé les détails architecturaux de Nanbeige, par exemple, où \"Nanbeige4.2-3B est pré-entraîné à partir de zéro sur 28T tokens avec un Looped Transformer qui réutilise la pile de couches pour augmenter la capacité sans ajouter de paramètres\". Oui, c'est tout. L'idée du Looped Transformer consiste simplement à réutiliser la même pile de 22 couches (= bloc transformeur) deux fois au lieu d'une. Ainsi, cela étend effectivement l'architecture à 22 couches à 44 couches, mais sans dupliquer les poids. En termes simples, cela double à peu près la taille du modèle (si l'on ignore un instant les couches d'intégration et de sortie). Mais au lieu de nécessiter 2 fois plus de stockage et de RAM pour héberger ce modèle, il reste de la même taille puisque nous réutilisons les composants. Cependant, il coûte presque 2 fois plus cher en termes de calcul, car nous faisons passer le texte intégré par presque 2 fois plus de couches. Pourquoi ? Dans le rapport technique de Nanbeige 4.2, les chercheurs ont constaté que deux passes donnaient le meilleur compromis et conservaient environ 75 % de l'efficacité des tokens d'une architecture standard. (Plus de passes n'apportaient que peu de gains mais rendaient l'entraînement beaucoup plus lent et beaucoup plus cher). Alors que, pour autant que je sache, Nanbeige 4.2 est le premier modèle open-weight notable qui a adopté cette approche, l'idée remonte au papier NeurIPS \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". En fait, ce papier propose un mécanisme un peu plus sophistiqué en ajoutant un routeur appris qui détermine si chaque token reçoit une, deux, ou plusieurs passes. Ainsi, les tokens faciles peuvent sortir tôt tandis que les tokens plus difficiles reçoivent un calcul supplémentaire. En résumé, Astra pourrait être un très bon modèle, mais il ne faut pas s'attarder sur cet aspect \"looped transformer\", qui n'est qu'une petite modification architecturale. De plus, l'affirmation selon laquelle \"la nouvelle technique fonctionne d'une manière qui obscurcit tout ou partie du raisonnement de l'IA, également connu sous le nom de 'chain-of-thought'\" n'est pas nécessairement vraie en ce qui concerne la méthode du Looped Transformer. Il est possible que le journaliste de The Information fasse référence à une autre technique ou ait mal interprété la méthode du Looped Transformer. La réutilisation des couches ne supprime pas d'elle-même la chaîne de pensée visible. Elle ajoute du calcul dans les états cachés avant l'émission du token suivant, tout comme le font les couches transformeur ordinaires. Mais sur la base des informations dont nous disposons, la seule interprétation plausible ici est que si un modèle utilise davantage de ces passes récurrentes, il peut avoir besoin de générer moins de tokens de raisonnement intermédiaires. Ainsi, une plus grande partie de son calcul se produit dans des activations latentes qui ne peuvent pas être lues sous forme de texte. Mais nous obtiendrions le même effet si nous augmentions la taille du modèle, comme GPT 5.6 Luna -> GPT 5.6 Sol.",
+        "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
+        "decryptage": "Ce tweet clarifie la nature de l'architecture 'looped transformer' potentiellement utilisée par GPT-6 Astra, expliquant qu'il s'agit d'une optimisation technique pour réutiliser des couches de calcul, et non d'une méthode cachant le raisonnement de l'IA.",
+        "category": "idees",
+        "highlight_reason": "Analyse technique pointue démystifiant le 'looped transformer' associé à Astra, expliquant une innovation architecturale sans la surinterpréter et offrant un éclairage essentiel pour comprendre les avancées réelles."
+      }
+    ],
+    "by_category": {
+      "actu": [
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Introduction d'Atlas : Le premier modèle de monde multimodal au monde qui génère des images et des vidéos avec un contrôle de caméra pixel par pixel et les reconstruit en 3D. Modélisez le monde, déplacez la caméra et simulez l'espace et le temps. Vidéo",
+          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+          "link": "http://nitter.jaydenha.uk/theworldlabs/status/2094839756329041984#m",
+          "decryptage": "Atlas est présenté comme le premier système d'IA capable de modéliser le monde en 3D à partir d'images et de vidéos, avec un contrôle précis de la caméra, ouvrant la voie à des simulations réalistes."
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Aujourd'hui, nous sommes ravis de partager les premiers progrès dans l'utilisation de Gemini pour accélérer la découverte scientifique dans le monde réel. Nous présentons une extension de Co-Scientist que nous utilisons pour collaborer avec des scientifiques dans les domaines de la science des matériaux, de la biologie et de l'informatique.",
+          "text_original": "Today, we're excited to share early progress on using Gemini to accelerate scientific discovery in the real-world. We present an extension of Co-Scientist which we use to collaborate with scientists across materials science, biology, and computer science.",
+          "link": "http://nitter.jaydenha.uk/SRSchmidgall/status/2093380426924708082#m",
+          "decryptage": "Gemini, le modèle d'IA de Google, est utilisé pour aider les scientifiques à faire de nouvelles découvertes dans divers domaines comme la science des matériaux ou la biologie, en collaborant grâce à un outil nommé Co-Scientist."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "GPT-6 Astra par @OpenAI atteint le SOTA sur ARC-AGI : - Astra obtient 63% sur ARC-AGI-3, 99% via un nouveau harnais d'adaptateur fournisseur - Il dépasse les performances humaines sur 96% des niveaux ARC-AGI-3 - Il construit le modèle symbolique le plus précis d'environnements nouveaux que nous ayons vu Nos analyses :",
+          "text_original": "GPT-6 Astra by @OpenAI achieves SOTA on ARC-AGI: - Astra scores 63% on ARC-AGI-3, 99% via a new provider adapter harness - It surpasses human performance on 96% of ARC-AGI-3 levels - It builds the most precise symbolic model of novel environments we've seen Our analysis:",
+          "link": "http://nitter.jaydenha.uk/arcprize/status/2095597602545025138#m",
+          "decryptage": "Ce tweet annonce que GPT-6 Astra, un nouveau modèle d'OpenAI, réalise des performances exceptionnelles sur le benchmark ARC-AGI, surpassant même les humains dans de nombreux cas, grâce à sa capacité à modéliser des environnements complexes."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "🛡️Présentation de Shieldstral, le modèle open-weights de Mistral de 3 milliards de paramètres pour la sécurité du contenu, déployable sur appareil 🧵 mistral.ai/news/shieldstral",
+          "text_original": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
+          "link": "http://nitter.jaydenha.uk/MistralAI/status/2084684735725379637#m",
+          "decryptage": "Shieldstral est un nouveau modèle d'IA de Mistral, plus léger et conçu pour filtrer les contenus inappropriés, qui peut fonctionner directement sur votre appareil."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Annonce de Robostral Navigate, notre premier modèle pour la navigation incarnée : un modèle de navigation robotique de 8 milliards de paramètres qui guide les robots pour effectuer de manière autonome des tâches spécifiées en langage naturel. Caméra RVB unique. État de l'art sur R2R-CE. Vidéo",
+          "text_original": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
+          "link": "http://nitter.jaydenha.uk/MistralAI/status/2074856309438980145#m",
+          "decryptage": "Robostral Navigate est un modèle d'IA spécialisé pour que les robots comprennent des instructions en langage naturel et se déplacent de manière autonome pour accomplir des tâches, en utilisant juste une caméra."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Aujourd'hui, nous publions Le Chaton L∃∀N, alias Leanstral 1.5. Il atteint les performances SOTA sur les benchmarks d'algèbre de troisième cycle FATE-H et FATE-X et améliore la Frontière de Pareto sur PutnamBench, résolvant 587/672 problèmes avec un budget 10x moins cher. 🧵",
+          "text_original": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+          "link": "http://nitter.jaydenha.uk/mertunsal2020/status/2073046288208412960#m",
+          "decryptage": "Leanstral 1.5 est un modèle d'IA particulièrement doué pour résoudre des problèmes mathématiques complexes, comme ceux rencontrés dans les études supérieures, et ce, de manière plus efficace et économique."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Mistral OCR 4 a transformé un examen de calcul manuscrit en LaTeX propre ! Nous lui avons donné une photo d'une page d'examen manuscrite. Le modèle a lu l'écriture manuscrite et a reconstruit chaque formule en texte numérique structuré Sortie : Temps : 5.1s · Coût : 0.09 $ Les formules sont arrivées exactement comme il faut - la partie difficile a été maîtrisée. Le graphique, malheureusement, il ne l'a pas redessiné. Mais c'est là le détail révélateur : la plupart des outils OCR se contentent de décharger le texte et abandonnent silencieusement la figure. OCR 4 a capturé le graphique, l'a encadré et l'a étiqueté comme un graphique. Il n'est pas redessiné, mais il est lu et pris en compte Vidéo Mistral AI (@MistralAI) Présentation de Mistral OCR 4. Il crée de la structure avec des boîtes englobantes, une classification de blocs et des scores de confiance inline dans 170 langues. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
+          "text_original": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
+          "link": "http://nitter.jaydenha.uk/atomic_chat_hq/status/2069597176225796581#m",
+          "decryptage": "Mistral OCR 4 est un outil d'IA capable de lire de l'écriture manuscrite, de la convertir en texte formaté (comme LaTeX) et de reconnaître des éléments graphiques, même s'il ne les reproduit pas toujours."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Présentation de Mistral OCR 4. Il crée de la structure avec des boîtes englobantes, une classification de blocs et des scores de confiance inline dans 170 langues. 🧵👇",
+          "text_original": "Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
+          "link": "http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
+          "decryptage": "Mistral OCR 4 est un nouveau système de reconnaissance optique de caractères (OCR) qui non seulement lit du texte dans de nombreuses langues, mais identifie aussi la structure des documents (textes, images, etc.)."
+        }
+      ],
+      "tips": [
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Une approche que je trouve utile pour travailler avec les LLM est une bonne vieille séance de divagations. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime me pencher en arrière, passer en mode /voix et simplement divaguer pendant environ 10 minutes, totalement en vrac, tout est permis, flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme « passage à la reconnaissance vocale désolé pour les fautes de frappe... ». Parfois, je le transforme en une petite interview de quelques échanges. Mais je trouve que les LLM sont étonnamment bons pour reconstruire de longues divagations incohérentes et souvent leur écho de vos propres pensées emmêlées sort bien plus propre que ce que vous aviez commencé. Le résultat est que vous améliorez la connexion mentale et avez moins à corriger par la suite.",
+          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
+          "decryptage": "Ce tweet propose une méthode pour mieux communiquer avec les modèles de langage (LLM) : utiliser la commande vocale pour exprimer ses idées sans filtre, permettant à l'IA de mieux les structurer et de les comprendre."
+        },
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Réécriture de Bun en Rust bun.com/blog/bun-in-rust Lien Réécriture de Bun en Rust Pourquoi et comment nous avons réécrit Bun de Zig vers Rust bun.com",
+          "text_original": "Rewriting Bun in Rust bun.com/blog/bun-in-rust Link Rewriting Bun in Rust Why & how we rewrote Bun from Zig to Rust bun.com",
+          "link": "http://nitter.jaydenha.uk/jarredsumner/status/2074973674332123157#m",
+          "decryptage": "Bun, un outil de développement web, a été réécrit dans le langage de programmation Rust pour améliorer ses performances et sa fiabilité. L'article explique les raisons et les méthodes de cette transition."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Peut-être le meilleur tl;dr ici est : L'aspect bouclé ne cache pas explicitement les tokens de raisonnement. Bien sûr, GPT 6 Astra utilise moins de tokens que GPT 5.6 Sol. Mais c'est parce que c'est un modèle plus intelligent en général (plus d'entraînement, plus grand, etc.). On observe la même chose dans les générations précédentes : Si l'on compare GPT 5.6 Sol avec GPT 5.6 Luna, Sol utilise environ 46% moins de tokens de sortie dans l'indice d'intelligence, mais personne ne se plaint que Sol cache le raisonnement plus que Luna.",
+          "text_original": "Maybe the best tl;dr here is: The looped aspect is not explicitly hiding reasoning tokens. Sure, GPT 6 Astra uses fewer tokens than GPT 5.6 Sol. But that's because it's a smarter model in general (more training, bigger, etc). We can observe the same thing in previous generations: If we compare GPT 5.6 Sol with GPT 5.6 Luna, Sol uses ~46% fewer output tokens in the intelligence index but no one is complaining the Sol hides the reasoning more than Luna.",
+          "link": "http://nitter.jaydenha.uk/rasbt/status/2095871852711153742#m",
+          "decryptage": "Ce tweet explique que la réduction du nombre de tokens utilisés par Astra n'est pas due à une dissimulation du raisonnement, mais à une intelligence générale accrue du modèle, un phénomène déjà observé dans les versions précédentes."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Une petite vidéo qui - explique la relation entre les LLM conventionnels et les modèles/agents de raisonnement, - philosophise sur les approches \"à partir de zéro\", - et explique comment installer les prérequis Python & PyTorch avec uv. Vidéo",
+          "text_original": "A little video that - explains the relationship between conventional LLMs and reasoning models (and agents), - philosophizes a about \"from scratch\" approaches, - and explains how to install Python & PyTorch requirements with uv. Video",
+          "link": "http://nitter.jaydenha.uk/rasbt/status/2094057793506439492#m",
+          "decryptage": "Une vidéo explique les bases des modèles d'IA qui raisonnent, la différence avec les modèles de langage classiques, et comment configurer l'environnement de développement nécessaire."
+        }
+      ],
+      "idees": [
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "On commence à sortir du territoire où l'on testerait un LLM en lui disant par exemple « crée un svg de pélican sur un vélo ». Comme idée pour généraliser, je me suis demandé ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1M de tokens (~10$) et que je lui demandais de le rendre en 3D avec trois.js. Opus a travaillé pendant ~2 heures et a écrit 5500 lignes de code qui ont rendu l'histoire (procéduralement). C'est un peu bancal mais amusant. Mais c'est un peu sidérant que le LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et que ça fasse même quelque chose. J'aime aussi ce genre d'exemples car personne dans son bon sens ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où l'on passe de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est ~gratuit ». Il pourrait y avoir beaucoup plus. Mais je suis enthousiasmé à l'idée de créer des mondes hyper personnalisés dans lesquels on peut imaginer faire tomber des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Dernière réflexion : le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement auditer leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre très lentement et péniblement des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé un tas de trucs bancals. Un exemple de capacité brute (multimodale, gameplay) qui fait encore défaut, je pense.",
+          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+          "decryptage": "Ce tweet montre comment un modèle d'IA (Opus 5) peut transformer du texte (Le Seigneur des Anneaux) en un environnement 3D interactif, illustrant la capacité croissante des IA à créer des mondes virtuels personnalisés. Karpathy souligne aussi que les IA peinent à évaluer leur propre travail visuel ou interactif."
+        },
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Plus sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis le code source ici pour qu'il soit jouable dans le navigateur, forkable, etc. karpathy.ai/lotr-movie/ Attention, GTA Hobbiton arrive avant GTA VI :)",
+          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
+          "decryptage": "Ce tweet fait référence à une démonstration précédente où une IA a généré une scène 3D du Seigneur des Anneaux, et taquine sur la sortie future d'un jeu 'GTA Hobbiton', soulignant le potentiel créatif des IA pour les mondes virtuels."
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Aujourd'hui, nous sommes ravis de partager les premiers progrès dans l'utilisation de Gemini pour accélérer la découverte scientifique dans le monde réel. Nous présentons une extension de Co-Scientist que nous utilisons pour collaborer avec des scientifiques dans les domaines de la science des matériaux, de la biologie et de l'informatique.",
+          "text_original": "Today, we're excited to share early progress on using Gemini to accelerate scientific discovery in the real-world. We present an extension of Co-Scientist which we use to collaborate with scientists across materials science, biology, and computer science.",
+          "link": "http://nitter.jaydenha.uk/SRSchmidgall/status/2093380426924708082#m",
+          "decryptage": "Gemini, le modèle d'IA de Google, est utilisé pour aider les scientifiques à faire de nouvelles découvertes dans divers domaines comme la science des matériaux ou la biologie, en collaborant grâce à un outil nommé Co-Scientist."
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Derrière beaucoup de grands projets d'IA, il y a une bonne histoire de @JeffDean. Voici la mienne 😉 En 2019, avant même que Khipu AI n'existe officiellement, Jeff a dit oui pour participer à notre premier événement en Uruguay 🇺🇾. Sa première croyance en notre vision de l'IA LATAM a créé un effet d'entraînement : si @JeffDean était là, tout le monde était là. Incroyablement reconnaissant qu'il soit revenu pour Khipu 2025 au Chili 🇨🇱 ! Alors que nous regardons vers l'avenir : Khipu 2027 se dirige vers le BRÉSIL 🇧🇷 Les candidatures sont OUVERTES : khipu.ai/ Vous souhaitez nous sponsoriser et soutenir l'IA latino-américaine ? Envoyez-moi un message privé ou contactez-nous à sponsorship@khipu.ai Découvrez la vidéo ci-dessous pour voir de quoi Khipu est fait (et repérez une rapide apparition de Jeff 😉). 👇 piped.video/Db19zoquTOs?si=Xkyn… #Khipu2027 #Khipu_AI #MachineLearning #LatAm",
+          "text_original": "Behind a lot of great AI projects, there is a good @JeffDean story. Here is mine 😉 Back in 2019, even before Khipu AI officially existed, Jeff said yes to participate in our first event in Uruguay 🇺🇾. His early belief in our LATAM AI vision created a ripple effect—if @JeffDean was in, everyone was in. Incredibly grateful he returned for Khipu 2025 in Chile 🇨🇱! As we look ahead: Khipu 2027 is heading to BRAZIL 🇧🇷 Applications are OPEN: khipu.ai/ Want to sponsor us and support Latin American AI? DM me or reach out at sponsorship@khipu.ai Check out the video below to see what Khipu is all about (and spot a quick Jeff cameo 😉). 👇 piped.video/Db19zoquTOs?si=Xkyn… #Khipu2027 #Khipu_AI #MachineLearning #LatAm",
+          "link": "http://nitter.jaydenha.uk/Khipu_AI/status/2087299263818829964#m",
+          "decryptage": "Ce tweet raconte l'importance du soutien de Jeff Dean au développement de l'IA en Amérique Latine, soulignant comment sa participation a encouragé d'autres acteurs et comment l'initiative Khipu AI se développe dans la région."
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "En effet, ce fut une semaine assez chargée, alors j'ai pensé la partager avec le public de la KDD 2026 ! À mes collègues de Google qui m'ont peut-être envoyé des messages de chat internes après que j'ai fermé mon ordinateur portable pour la dernière fois jeudi après-midi, je m'excuse de mon manque de réponse ! (Zoomé) Dhruv Kuchhal (@kuchhal_dhruv) Légendaire ! Merci de partager les coulisses @JeffDean ! — http://nitter.jaydenha.uk/kuchhal_dhruv/status/2086967141828349960#m",
+          "text_original": "Indeed, it has been quite a week, so I thought I'd share it with the KDD 2026 audience! For my Google colleagues who might have sent me internal chat messages after I closed my laptop for a final time on Thursday afternoon, I apologize for my lack of response! (Zoomed in) Dhruv Kuchhal (@kuchhal_dhruv) Legendary! Thanks for sharing the behind-the-scenes @JeffDean ! — http://nitter.jaydenha.uk/kuchhal_dhruv/status/2086967141828349960#m",
+          "link": "http://nitter.jaydenha.uk/JeffDean/status/2087038694054072637#m",
+          "decryptage": "Jeff Dean partage un moment personnel lié à son travail, mentionnant une conférence KDD et des échanges avec des collègues, illustrant l'importance des interactions humaines dans le développement de l'IA."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "Petite note : lors de la sortie d'ARC-AGI-3 en mars, les modèles de pointe obtenaient <1% dessus, quelques 'poasters' Singularitariens l'ont pris comme une insulte personnelle, et s'en sont beaucoup énervés. Ils ont soutenu que le benchmark était fondamentalement cassé, qu'il ne pouvait même pas être résolu par les humains les plus intelligents, que le score maximum atteignable était en fait de 40%, etc. Nous avons dû faire face à un torrent d'insultes et de messages haineux depuis que nous avons publié un benchmark non saturé. Il s'avère que le benchmark est parfaitement calibré. Il est facile pour un humain de marquer 100% s'il fait mieux que la moyenne des gens – il suffit d'utiliser moins d'actions que notre baseline humaine (qui n'est pas une baseline forte, car nous avons utilisé des testeurs humains non filtrés). Et naturellement, il est également très faisable pour l'IA d'obtenir 100% une fois que des progrès réels vers une intelligence générale d'agent ont été réalisés. La trajectoire de l'IA de <1% à 100% au cours des 6 derniers mois montre que le benchmark a été capable de capturer la récente montée des capacités d'agent. Et cette montée s'est produite plus rapidement que la plupart des gens ne s'y attendaient, nous y compris. François Chollet (@fchollet) Tout humain intelligent qui y met de vrais efforts devrait obtenir >90% sur ARC-AGI-3 — http://nitter.jaydenha.uk/fchollet/status/2044344567458066554#m",
+          "text_original": "Side note: when we released ARC-AGI-3 in March, and frontier models scored <1% on it, a few Singularitarian poasters took it as a personal insult, and got very worked up about it. They argued the benchmark was fundamentally broken, that it could not even be solved by the smartest humans, that the max reachable score was actually 40%, etc. We had to deal with a torrent of insults and hate poasts since because we had released an unsaturated benchmark. As it turns out, the benchmark is perfectly calibrated. It is straightforward for a human to score 100% if they do better than average people – all you need is to use fewer actions than our human baseline (which is not a strong baseline, as we used unfiltered human testers). And naturally as a result it's also very feasible for AI to score 100% once real progress towards agentic general intelligence has been made. The trajectory of AI from <1% to 100% over the course of 6 months shows that the benchmark was able to snapshot the recent rise of agentic capabilities. And that rise has happened faster than most people expected, including us. François Chollet (@fchollet) Any smart human giving it real effort should score >90% on ARC-AGI-3 — http://nitter.jaydenha.uk/fchollet/status/2044344567458066554#m",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/2095605239269519771#m",
+          "decryptage": "François Chollet revient sur les réactions initiales à son benchmark ARC-AGI-3, expliquant que malgré les critiques, il était bien calibré et a permis de mesurer les progrès rapides des IA vers une intelligence plus générale et autonome."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "GPT-6 Astra représente un changement de palier dans la capacité du modèle pour les problèmes de raisonnement interactif. Il obtient 66% sur ARC-AGI-3 en utilisant notre harnais standard, et près de 100% avec un harnais de conversation continue et une compaction personnalisée, pour un coût d'environ 360 $ par jeu. En fait, la version avec harnais continu surpasse significativement notre baseline humaine en efficacité d'action sur presque tous les niveaux. Lorsque nous avons examiné les chaînes de raisonnement pour comprendre comment le modèle fonctionne, nous l'avons vu effectuer une modélisation symbolique du monde sur mesure et efficace pour chaque jeu et niveau. Il va jusqu'à développer son propre langage abrégé (DSL) pour représenter les situations de jeu -- essentiellement une notation algébrique spécifique au jeu. Dans l'ensemble, Astra présente des comportements de modélisation symbolique que nous n'avions auparavant observés qu'avec des harnais sophistiqués -- les capacités des harnais se déplacent de plus en plus vers le modèle lui-même. Nous considérons Astra comme une avancée majeure dans l'intelligence des modèles. Lisez notre article sur Astra et la signification de ces résultats : arcprize.org/blog/astra Lien OpenAI's GPT-6 Astra on ARC-AGI-3 | ARC Prize OpenAI's GPT-6 Astra atteint des résultats à la pointe de la technologie sur ARC-AGI-3 arcprize.org",
+          "text_original": "GPT-6 Astra represents a step-function change in model capability for interactive reasoning problems. It scores 66% on ARC-AGI-3 using our standard harness, and nearly 100% with a continuous conversation harness and custom compaction, at a cost of roughly $360 per game. In fact, the continuous harness version significantly outperforms our human baseline in action efficiency across almost all levels. When we examined the reasoning chains to understand how the model operates, we found it performing highly efficient, on-the-fly symbolic world modeling for each game and level. It goes as far as developing its own shorthand DSL to represent in-game situations -- essentially a game-specific algebraic notation. Overall, Astra exhibits symbolic modeling behaviors we had previously only seen with sophisticated harnesses -- so harness capabilities are increasingly shifting into the model itself. We see Astra as a major breakthrough in model intelligence. Read our post on Astra and what these results mean: arcprize.org/blog/astra Link OpenAI's GPT-6 Astra on ARC-AGI-3 | ARC Prize OpenAI's GPT-6 Astra reaches state-of-the-art results on ARC-AGI-3 arcprize.org",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/2095598451115614371#m",
+          "decryptage": "Ce tweet détaille les capacités impressionnantes de GPT-6 Astra, soulignant sa capacité à créer des modèles internes du monde et à développer des langages spécifiques pour résoudre des problèmes complexes, une avancée majeure en IA."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "La mise en référence de systèmes d'IA est un processus continu qui co-évolue avec les modèles. De nouvelles mises en référence défient les capacités de l'IA avec des questions émergentes pour façonner les directions et le signal de rétroaction du processus de recherche. Elles s'adaptent ensuite à mesure que les modèles progressent, ciblant le résidu entre l'IA et l'intelligence humaine. Nous travaillons toujours sur ARC-AGI-4, que nous avons commencé à développer après la sortie d'ARC-AGI-3 plus tôt cette année. Il arrive au T1 2027. Nous pensons qu'il sera vraiment spécial.",
+          "text_original": "Benchmarking AI systems is a continual process that co-evolves with the models. New benchmarks challenge AI capabilities with emerging questions to shape the directions and feedback signal of the research process. Then they adapt as models progress, targeting the residual between AI and human intelligence. We are still working on ARC-AGI-4, which we started developing after releasing ARC-AGI-3 earlier this year. It is coming Q1 2027. We think it's going to be really special.",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/2095600998484201686#m",
+          "decryptage": "Ce tweet explique que les benchmarks d'IA (comme ARC-AGI) doivent évoluer constamment pour rester pertinents face aux progrès rapides des modèles, et annonce la préparation d'une nouvelle version encore plus exigeante."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Il y a beaucoup de battage médiatique autour du modèle Astra d'OpenAI aujourd'hui sur mon fil. Apparemment, cela remonte à un nouvel article de The Information, qui disait qu'Astra est un \"looped transformer\" ou \"recurrent depth\". Il est toujours intéressant de lire sur de nouvelles approches ou des approches différentes (y compris des rumeurs sur ce que les laboratoires fermés pourraient faire), mais démystifions un peu cela. Il y a environ 2 mois, j'ai partagé les détails architecturaux de Nanbeige, par exemple, où \"Nanbeige4.2-3B est pré-entraîné à partir de zéro sur 28T tokens avec un Looped Transformer qui réutilise la pile de couches pour augmenter la capacité sans ajouter de paramètres\". Oui, c'est tout. L'idée du Looped Transformer consiste simplement à réutiliser la même pile de 22 couches (= bloc transformeur) deux fois au lieu d'une. Ainsi, cela étend effectivement l'architecture à 22 couches à 44 couches, mais sans dupliquer les poids. En termes simples, cela double à peu près la taille du modèle (si l'on ignore un instant les couches d'intégration et de sortie). Mais au lieu de nécessiter 2 fois plus de stockage et de RAM pour héberger ce modèle, il reste de la même taille puisque nous réutilisons les composants. Cependant, il coûte presque 2 fois plus cher en termes de calcul, car nous faisons passer le texte intégré par presque 2 fois plus de couches. Pourquoi ? Dans le rapport technique de Nanbeige 4.2, les chercheurs ont constaté que deux passes donnaient le meilleur compromis et conservaient environ 75 % de l'efficacité des tokens d'une architecture standard. (Plus de passes n'apportaient que peu de gains mais rendaient l'entraînement beaucoup plus lent et beaucoup plus cher). Alors que, pour autant que je sache, Nanbeige 4.2 est le premier modèle open-weight notable qui a adopté cette approche, l'idée remonte au papier NeurIPS \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". En fait, ce papier propose un mécanisme un peu plus sophistiqué en ajoutant un routeur appris qui détermine si chaque token reçoit une, deux, ou plusieurs passes. Ainsi, les tokens faciles peuvent sortir tôt tandis que les tokens plus difficiles reçoivent un calcul supplémentaire. En résumé, Astra pourrait être un très bon modèle, mais il ne faut pas s'attarder sur cet aspect \"looped transformer\", qui n'est qu'une petite modification architecturale. De plus, l'affirmation selon laquelle \"la nouvelle technique fonctionne d'une manière qui obscurcit tout ou partie du raisonnement de l'IA, également connu sous le nom de 'chain-of-thought'\" n'est pas nécessairement vraie en ce qui concerne la méthode du Looped Transformer. Il est possible que le journaliste de The Information fasse référence à une autre technique ou ait mal interprété la méthode du Looped Transformer. La réutilisation des couches ne supprime pas d'elle-même la chaîne de pensée visible. Elle ajoute du calcul dans les états cachés avant l'émission du token suivant, tout comme le font les couches transformeur ordinaires. Mais sur la base des informations dont nous disposons, la seule interprétation plausible ici est que si un modèle utilise davantage de ces passes récurrentes, il peut avoir besoin de générer moins de tokens de raisonnement intermédiaires. Ainsi, une plus grande partie de son calcul se produit dans des activations latentes qui ne peuvent pas être lues sous forme de texte. Mais nous obtiendrions le même effet si nous augmentions la taille du modèle, comme GPT 5.6 Luna -> GPT 5.6 Sol.",
+          "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
+          "decryptage": "Ce tweet clarifie la nature de l'architecture 'looped transformer' potentiellement utilisée par GPT-6 Astra, expliquant qu'il s'agit d'une optimisation technique pour réutiliser des couches de calcul, et non d'une méthode cachant le raisonnement de l'IA."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "GPT-6 Astra est vraiment rapide pour utiliser l'ordinateur, mais pas encore assez pour jouer à smash.fun dans le navigateur. Vidéo Thomas Dimson (@turtlesoupy) J'adore Smash 64 mais j'aimerais y être, alors j'ai piraté le jeu original pour qu'il tourne dans le navigateur et je m'y suis mis + 1000 autres personnes Téléchargez-vous sur smash dot fun Vidéo — http://nitter.jaydenha.uk/turtlesoupy/status/2095885429828382955#m",
+          "text_original": "GPT-6 Astra computer-use is really fast, but not yet good enough to play smash.fun in the browser. Video Thomas Dimson (@turtlesoupy) I love Smash 64 but I wish I was in it, so I hacked the original game to run in the browser and put myself + 1000 others in Upload yourself at smash dot fun Video — http://nitter.jaydenha.uk/turtlesoupy/status/2095885429828382955#m",
+          "link": "http://nitter.jaydenha.uk/kylejeong/status/2096004273876381916#m",
+          "decryptage": "Ce tweet évoque la vitesse d'exécution de GPT-6 Astra pour des tâches informatiques, mais note ses limites actuelles pour des interactions complexes comme les jeux vidéo en temps réel."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "OK, oubliez ça, l'IA l'a fait plus vite que nous pensions que ça allait arriver sera une phrase courante Tibo (@thsottiaux) OK, oubliez ça, l'équipe et Astra ont fait un bon travail et nos systèmes sont plus évolutifs que ce que nous avions anticipé. Astra est maintenant déployé pour tous les utilisateurs Plus et Business. J'espère que vous allez vous éclater et faites-nous savoir comment ça se passe ! — http://nitter.jaydenha.uk/thsottiaux/status/2096002992046796932#m",
+          "text_original": "OK nevermind the ai did it faster than we thought is gonna be a common phrase Tibo (@thsottiaux) OK nevermind, the team and Astra did a good job and our systems are more scalable than we anticipated. Astra is now rolled out to all Plus and Business users too. Hope you have a blast and let us know how it goes! — http://nitter.jaydenha.uk/thsottiaux/status/2096002992046796932#m",
+          "link": "http://nitter.jaydenha.uk/NickADobos/status/2096037295833092534#m",
+          "decryptage": "Ce tweet souligne la rapidité avec laquelle les IA comme Astra progressent et sont déployées, devenant des outils courants pour des tâches autrefois complexes, et mentionne le déploiement généralisé d'Astra."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Astra + pouvoir utiliser l'application \"iPhone mirror\" de Mac est devenu BEAUCOUP mieux. Les clics peuvent maintenant trouver les boutons ! Astra peut effectivement faire une utilisation complète de l'ordinateur sur votre téléphone ! le défilement ne fonctionne pas cependant :( il semble que Mac veuille le geste du pavé tactile que codex computer use ne peut pas faire",
+          "text_original": "Astra + being able to use the mac \"iPhone mirror\" app got WAY better. Clicks can find the buttons now! Astra can actually do full \"computer use\" on your phone! scrolling doesn't work though :( seems like mac wants the touchpad gesture which codex computer use cant do",
+          "link": "http://nitter.jaydenha.uk/NickADobos/status/2096036948876087301#m",
+          "decryptage": "Ce tweet explore l'intégration d'Astra avec la fonction de miroir d'écran de Mac pour contrôler un téléphone, montrant des améliorations mais aussi des limitations dans l'interaction, notamment pour le défilement."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "JE SUIS DEDANS",
+          "text_original": "IM IN",
+          "link": "http://nitter.jaydenha.uk/NickADobos/status/2095955170798846217#m",
+          "decryptage": "Ce tweet exprime l'excitation d'avoir réussi à interagir ou à contrôler un système via une IA, probablement dans le contexte des démonstrations d'Astra."
+        }
+      ],
+      "outils": [
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "On commence à sortir du territoire où l'on testerait un LLM en lui disant par exemple « crée un svg de pélican sur un vélo ». Comme idée pour généraliser, je me suis demandé ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1M de tokens (~10$) et que je lui demandais de le rendre en 3D avec trois.js. Opus a travaillé pendant ~2 heures et a écrit 5500 lignes de code qui ont rendu l'histoire (procéduralement). C'est un peu bancal mais amusant. Mais c'est un peu sidérant que le LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et que ça fasse même quelque chose. J'aime aussi ce genre d'exemples car personne dans son bon sens ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où l'on passe de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est ~gratuit ». Il pourrait y avoir beaucoup plus. Mais je suis enthousiasmé à l'idée de créer des mondes hyper personnalisés dans lesquels on peut imaginer faire tomber des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Dernière réflexion : le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement auditer leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre très lentement et péniblement des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé un tas de trucs bancals. Un exemple de capacité brute (multimodale, gameplay) qui fait encore défaut, je pense.",
+          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+          "decryptage": "Ce tweet montre comment un modèle d'IA (Opus 5) peut transformer du texte (Le Seigneur des Anneaux) en un environnement 3D interactif, illustrant la capacité croissante des IA à créer des mondes virtuels personnalisés. Karpathy souligne aussi que les IA peinent à évaluer leur propre travail visuel ou interactif."
+        },
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Plus sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis le code source ici pour qu'il soit jouable dans le navigateur, forkable, etc. karpathy.ai/lotr-movie/ Attention, GTA Hobbiton arrive avant GTA VI :)",
+          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
+          "decryptage": "Ce tweet fait référence à une démonstration précédente où une IA a généré une scène 3D du Seigneur des Anneaux, et taquine sur la sortie future d'un jeu 'GTA Hobbiton', soulignant le potentiel créatif des IA pour les mondes virtuels."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "GPT-6 Astra représente un changement de palier dans la capacité du modèle pour les problèmes de raisonnement interactif. Il obtient 66% sur ARC-AGI-3 en utilisant notre harnais standard, et près de 100% avec un harnais de conversation continue et une compaction personnalisée, pour un coût d'environ 360 $ par jeu. En fait, la version avec harnais continu surpasse significativement notre baseline humaine en efficacité d'action sur presque tous les niveaux. Lorsque nous avons examiné les chaînes de raisonnement pour comprendre comment le modèle fonctionne, nous l'avons vu effectuer une modélisation symbolique du monde sur mesure et efficace pour chaque jeu et niveau. Il va jusqu'à développer son propre langage abrégé (DSL) pour représenter les situations de jeu -- essentiellement une notation algébrique spécifique au jeu. Dans l'ensemble, Astra présente des comportements de modélisation symbolique que nous n'avions auparavant observés qu'avec des harnais sophistiqués -- les capacités des harnais se déplacent de plus en plus vers le modèle lui-même. Nous considérons Astra comme une avancée majeure dans l'intelligence des modèles. Lisez notre article sur Astra et la signification de ces résultats : arcprize.org/blog/astra Lien OpenAI's GPT-6 Astra on ARC-AGI-3 | ARC Prize OpenAI's GPT-6 Astra atteint des résultats à la pointe de la technologie sur ARC-AGI-3 arcprize.org",
+          "text_original": "GPT-6 Astra represents a step-function change in model capability for interactive reasoning problems. It scores 66% on ARC-AGI-3 using our standard harness, and nearly 100% with a continuous conversation harness and custom compaction, at a cost of roughly $360 per game. In fact, the continuous harness version significantly outperforms our human baseline in action efficiency across almost all levels. When we examined the reasoning chains to understand how the model operates, we found it performing highly efficient, on-the-fly symbolic world modeling for each game and level. It goes as far as developing its own shorthand DSL to represent in-game situations -- essentially a game-specific algebraic notation. Overall, Astra exhibits symbolic modeling behaviors we had previously only seen with sophisticated harnesses -- so harness capabilities are increasingly shifting into the model itself. We see Astra as a major breakthrough in model intelligence. Read our post on Astra and what these results mean: arcprize.org/blog/astra Link OpenAI's GPT-6 Astra on ARC-AGI-3 | ARC Prize OpenAI's GPT-6 Astra reaches state-of-the-art results on ARC-AGI-3 arcprize.org",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/2095598451115614371#m",
+          "decryptage": "Ce tweet détaille les capacités impressionnantes de GPT-6 Astra, soulignant sa capacité à créer des modèles internes du monde et à développer des langages spécifiques pour résoudre des problèmes complexes, une avancée majeure en IA."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "La mise en référence de systèmes d'IA est un processus continu qui co-évolue avec les modèles. De nouvelles mises en référence défient les capacités de l'IA avec des questions émergentes pour façonner les directions et le signal de rétroaction du processus de recherche. Elles s'adaptent ensuite à mesure que les modèles progressent, ciblant le résidu entre l'IA et l'intelligence humaine. Nous travaillons toujours sur ARC-AGI-4, que nous avons commencé à développer après la sortie d'ARC-AGI-3 plus tôt cette année. Il arrive au T1 2027. Nous pensons qu'il sera vraiment spécial.",
+          "text_original": "Benchmarking AI systems is a continual process that co-evolves with the models. New benchmarks challenge AI capabilities with emerging questions to shape the directions and feedback signal of the research process. Then they adapt as models progress, targeting the residual between AI and human intelligence. We are still working on ARC-AGI-4, which we started developing after releasing ARC-AGI-3 earlier this year. It is coming Q1 2027. We think it's going to be really special.",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/2095600998484201686#m",
+          "decryptage": "Ce tweet explique que les benchmarks d'IA (comme ARC-AGI) doivent évoluer constamment pour rester pertinents face aux progrès rapides des modèles, et annonce la préparation d'une nouvelle version encore plus exigeante."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Annonce de Robostral Navigate, notre premier modèle pour la navigation incarnée : un modèle de navigation robotique de 8 milliards de paramètres qui guide les robots pour effectuer de manière autonome des tâches spécifiées en langage naturel. Caméra RVB unique. État de l'art sur R2R-CE. Vidéo",
+          "text_original": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
+          "link": "http://nitter.jaydenha.uk/MistralAI/status/2074856309438980145#m",
+          "decryptage": "Robostral Navigate est un modèle d'IA spécialisé pour que les robots comprennent des instructions en langage naturel et se déplacent de manière autonome pour accomplir des tâches, en utilisant juste une caméra."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Aujourd'hui, nous publions Le Chaton L∃∀N, alias Leanstral 1.5. Il atteint les performances SOTA sur les benchmarks d'algèbre de troisième cycle FATE-H et FATE-X et améliore la Frontière de Pareto sur PutnamBench, résolvant 587/672 problèmes avec un budget 10x moins cher. 🧵",
+          "text_original": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+          "link": "http://nitter.jaydenha.uk/mertunsal2020/status/2073046288208412960#m",
+          "decryptage": "Leanstral 1.5 est un modèle d'IA particulièrement doué pour résoudre des problèmes mathématiques complexes, comme ceux rencontrés dans les études supérieures, et ce, de manière plus efficace et économique."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Mistral OCR 4 a transformé un examen de calcul manuscrit en LaTeX propre ! Nous lui avons donné une photo d'une page d'examen manuscrite. Le modèle a lu l'écriture manuscrite et a reconstruit chaque formule en texte numérique structuré Sortie : Temps : 5.1s · Coût : 0.09 $ Les formules sont arrivées exactement comme il faut - la partie difficile a été maîtrisée. Le graphique, malheureusement, il ne l'a pas redessiné. Mais c'est là le détail révélateur : la plupart des outils OCR se contentent de décharger le texte et abandonnent silencieusement la figure. OCR 4 a capturé le graphique, l'a encadré et l'a étiqueté comme un graphique. Il n'est pas redessiné, mais il est lu et pris en compte Vidéo Mistral AI (@MistralAI) Présentation de Mistral OCR 4. Il crée de la structure avec des boîtes englobantes, une classification de blocs et des scores de confiance inline dans 170 langues. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
+          "text_original": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
+          "link": "http://nitter.jaydenha.uk/atomic_chat_hq/status/2069597176225796581#m",
+          "decryptage": "Mistral OCR 4 est un outil d'IA capable de lire de l'écriture manuscrite, de la convertir en texte formaté (comme LaTeX) et de reconnaître des éléments graphiques, même s'il ne les reproduit pas toujours."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Présentation de Mistral OCR 4. Il crée de la structure avec des boîtes englobantes, une classification de blocs et des scores de confiance inline dans 170 langues. 🧵👇",
+          "text_original": "Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
+          "link": "http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
+          "decryptage": "Mistral OCR 4 est un nouveau système de reconnaissance optique de caractères (OCR) qui non seulement lit du texte dans de nombreuses langues, mais identifie aussi la structure des documents (textes, images, etc.)."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Astra + pouvoir utiliser l'application \"iPhone mirror\" de Mac est devenu BEAUCOUP mieux. Les clics peuvent maintenant trouver les boutons ! Astra peut effectivement faire une utilisation complète de l'ordinateur sur votre téléphone ! le défilement ne fonctionne pas cependant :( il semble que Mac veuille le geste du pavé tactile que codex computer use ne peut pas faire",
+          "text_original": "Astra + being able to use the mac \"iPhone mirror\" app got WAY better. Clicks can find the buttons now! Astra can actually do full \"computer use\" on your phone! scrolling doesn't work though :( seems like mac wants the touchpad gesture which codex computer use cant do",
+          "link": "http://nitter.jaydenha.uk/NickADobos/status/2096036948876087301#m",
+          "decryptage": "Ce tweet explore l'intégration d'Astra avec la fonction de miroir d'écran de Mac pour contrôler un téléphone, montrant des améliorations mais aussi des limitations dans l'interaction, notamment pour le défilement."
+        }
+      ]
+    }
+  },
+  "processed_at": "2026-09-05T10:35:43",
+  "validation": {
+    "translated_pct": 100,
+    "with_decryptage_pct": 100,
+    "total": 38,
+    "needs_retranslation_count": 0
+  },
+  "email_sent_at": "2026-09-05T10:35:44"
+}
