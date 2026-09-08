@@ -1,230 +1,185 @@
 {
   "date": "2026-09-08",
-  "fetched_at": "2026-09-08T12:18:44",
+  "fetched_at": "2026-09-08T12:51:59",
   "tweets": [
     {
-      "handle": "rasbt",
-      "text": "Reasoning from scratch round 2: In this video, I cover the text generation process in LLMs and KV caching (to prepare the base model before adding reasoning techniques in the upcoming ones). 00:00 Introduction and reasoning model demo 01:55 How to work through the book 05:00 Chapter 2 overview 08:25 Checking PyTorch and hardware support 10:26 Apple silicon and MPS caveats 15:00 Cloud GPU options 16:08 Tokens and tokenization 18:20 Qwen3 and the Reasoning From Scratch package 23:05 Encoding and decoding text 26:24 Downloading weights and selecting a device 31:01 Loading the pretrained Qwen3 model 34:32 How LLMs generate text 36:47 Input tensors and batch dimensions 41:48 Running the model in inference mode 44:11 Logits and next-token predictions 49:21 Greedy decoding with argmax 52:28 Building a streaming text generator 01:01:28 Generating text and handling end-of-sequence tokens 01:06:00 Benchmarking text generation 01:14:34 How KV caching works 01:17:22 Adding KV caching and measuring the speedup 01:24:31 Model compilation with torch.compile 01:30:33 Combining compilation with KV caching 01:32:53 Comparing CPU and GPU performance 01:35:32 Recap and next steps Video",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2096596372661113294#m",
-      "published": "Sun, 06 Sep 2026 13:48:22 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
+      "handle": "sundarpichai",
+      "text": "We’re resetting Gemini quotas on Antigravity. TPUs are melting with 3.8 Flash usage but we want you all to keep building!",
+      "link": "http://nitter.jaydenha.uk/_mohansolo/status/2095568203799806235#m",
+      "published": "Thu, 03 Sep 2026 17:42:48 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "rasbt",
-      "text": "And here's the YouTube version: piped.video/BJua0yjO5dk Link Build A Reasoning Model Scratch 2: Loading a Base Model, Text Generation, and KV Caching I noticed the audio is out of sync and a new version of the video i... youtube.com",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2096596377845346381#m",
-      "published": "Sun, 06 Sep 2026 13:48:24 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
+      "handle": "sundarpichai",
+      "text": "Congrats @JensenHuang @ClementDelangue for this great outcome! We were investors in Huggingface and continue to be partners and this will strengthen the open model ecosystem! Jensen Huang (@JensenHuang) Exciting day for NVIDIA and @huggingface . Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty. They allow every developer, startup, university, industry and country to build with, customize and benefit from AI. Thank you @ClementDelangue for coming to me. NVIDIA is going to be a great home for Hugging Face, its community and the future of open models. 🤗 blogs.nvidia.com/blog/nvidia… Link NVIDIA to Acquire Hugging Face NVIDIA has agreed to acquire Hugging Face. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. blogs.nvidia.com — http://nitter.jaydenha.uk/JensenHuang/status/2095482647355244762#m",
+      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095569375373984139#m",
+      "published": "Thu, 03 Sep 2026 17:47:27 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "rasbt",
-      "text": "A lot of hype around OpenAI's Astra model here on my timeline today. Apparently, this goes back to a new article from The Information, which said Astra is a \"recurrent depth or looped transformer\". It's always interesting to read about new or different approaches (including rumors about what the closed labs may be up to), but let's debunk this a bit. About 2 months ago, I shared the architecture details of Nanbeige, for example, where \"Nanbeige4.2-3B is pretrained from scratch on 28T tokens with a Looped Transformer that reuses the layer stack to increase capacity without adding parameters.\" Yes, that's it. The looped transformer idea is just reusing layers in the transformer block. In the case of Nanbeige, the main idea is to reuse the same 22-layer stack (=transformer block) twice instead of once. So, effectively it extends the 22-layer architecture to 44 layers, but without duplicating the weights. In simple terms, this roughly doubles the size of the model (if we ignore the embedding and output layers for a second). But instead of requiring 2x the storage and RAM to host this model, it stays at the same size since we reuse the components. However, it's almost 2x as expensive in terms of compute, because we run the embedded text through almost 2x as many layers. Why? In the Nanbeige 4.2 technical report, the researchers found that two passes gave the best trade-off and retained about 75% of the token efficiency of a standard architecture. (More passes gave barely any gains but made the training much slower and much more expensive.) While, as far as I know, Nanbeige 4.2 is the first notable open-weight model that adopted this approach, the idea goes back to the NeurIPS paper \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Actually, this paper proposes a mechanism that is a bit more sophisticated by adding a learned router that determines whether each token receives one, two, or more passes. So, easy tokens can exit early while harder tokens receive additional computation. In sum, Astra may be a really good model, but this shouldn't be about this \"looped transformer aspect,\" which is just a tiny architectural tweak. Also, the statement \"the new technique works in a way that obscures some or all of the AI's reasoning, otherwise known as 'chain-of-thought'\" is not necessarily true with respect to the looped transformer method. It's possible that The Information journalist refers to some other technique or misunderstood the looped transformer method. Reusing layers does not by itself suppress visible chain of thought. It adds computation in hidden states before the next token is emitted, just as ordinary transformer layers do. But based on the information we have, the only plausible interpretation here is that if a model uses more of these recurrent passes, it may need to generate fewer intermediate reasoning tokens. So then more of its computation happens in latent activations that cannot be read as text. But we would get the same effect if we were scaling up the model size, like GPT 5.6 Luna -> GPT 5.6 Sol.",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
-      "published": "Wed, 02 Sep 2026 13:26:15 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
+      "handle": "sundarpichai",
+      "text": "New Gemini voice capabilities are rolling out so you can search your Gmail inbox, organize thoughts and tasks in Keep, and create new Docs, all conversationally. Rolling out now for Google AI subscribers! Docs Live going to be super helpful in particular - see it in action below, and read more here: blog.google/products-and-pla… Video",
+      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095552297099198689#m",
+      "published": "Thu, 03 Sep 2026 16:39:35 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "rasbt",
-      "text": "Maybe the best tl;dr here is: The looped aspect is not explicitly hiding reasoning tokens. Sure, GPT 6 Astra uses fewer tokens than GPT 5.6 Sol. But that's because it's a smarter model in general (more training, bigger, etc). We can observe the same thing in previous generations: If we compare GPT 5.6 Sol with GPT 5.6 Luna, Sol uses ~46% fewer output tokens in the intelligence index but no one is complaining the Sol hides the reasoning more than Luna.",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2095871852711153742#m",
-      "published": "Fri, 04 Sep 2026 13:49:23 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
+      "handle": "sundarpichai",
+      "text": "We’re also introducing Gemini 3.8 Flash Cyber, our most capable cybersecurity model. It shows frontier-level performance in discovering vulnerabilities and patching them at scale, with Flash-level speed & pricing. That includes achieving 86.2% on the important CyberGym industry benchmark, plus 47.2% on CWE-Bench for patching. We saw a 70%+ success rate in discovering vulnerabilities across 20 programming languages on our internal benchmark.",
+      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095184464800526655#m",
+      "published": "Wed, 02 Sep 2026 16:17:57 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "rasbt",
-      "text": "The YT version of this: piped.video/watch?v=KT4n-z_4… Link OpenAI Astra and Recurrent Depth / Looped Transformers A short video explaining the rumored recurrent depth (looped transf... youtube.com",
-      "link": "http://nitter.jaydenha.uk/rasbt/status/2095288516309569644#m",
-      "published": "Wed, 02 Sep 2026 23:11:25 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
+      "handle": "sundarpichai",
+      "text": "Beyond benchmarks, we’re seeing impressive real-world use cases. For example, in evaluations on real Chrome security bugs, 3.8 Flash Cyber produced 2.6x more correct patches for vulnerabilities than larger models. Because of its advanced capabilities, we're giving Government agencies & cybersecurity partners access through the Fairwind program, read more: blog.google/innovation-and-a… Link Proactive cyber defense for governments and enterprises The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools. blog.google",
+      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095184468059492457#m",
+      "published": "Wed, 02 Sep 2026 16:17:58 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "polynoamial",
-      "text": "Strong agree. I know that there is rivalry between the labs but it's important that we learn to work together given what's coming. Sholto Douglas (@_sholtodouglas) It is extremely sad that this didn't end up as an example of how the labs could cooperate/coordinate, because the stakes will be so much higher in the future. — http://nitter.jaydenha.uk/_sholtodouglas/status/2097224624274911368#m",
-      "link": "http://nitter.jaydenha.uk/polynoamial/status/2097225279366414541#m",
-      "published": "Tue, 08 Sep 2026 07:27:25 GMT",
-      "author_name": "Noam Brown",
+      "handle": "markchen90",
+      "text": "This Is How Air Actually Moves Through Your Home Video",
+      "link": "http://nitter.jaydenha.uk/stemexplor/status/2096917764296610039#m",
+      "published": "Mon, 07 Sep 2026 11:05:28 GMT",
+      "author_name": "Mark Chen",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "polynoamial",
-      "text": "Seb is a really sweet guy with great intentions, am so happy for him that his week long collaboration with myself and others worked out, but very sad that we didn't get to finish it in the way we wanted. More to say tomorrow. Sebastien Bubeck (@SebastienBubeck) A series of false and inflammatory allegations against me are currently circulating on social channels. To clarify, I came into the discussion following academic norms, and I'm disappointed that it has come to this. Anyone who knows me knows that academic standards are of the highest importance to me. Will have more to say tomorrow. — http://nitter.jaydenha.uk/SebastienBubeck/status/2097214122471432349#m",
-      "link": "http://nitter.jaydenha.uk/polynoamial/status/2097215233119211902#m",
-      "published": "Tue, 08 Sep 2026 06:47:30 GMT",
-      "author_name": "Noam Brown",
+      "handle": "markchen90",
+      "text": "Agree with @JensenHuang : we’re entering the AGI era. The AGI era must also be the alignment era. We need to teach AI to love humanity and train AI monitors as capable as the AIs they supervise. Said best by @merettm in this thoughtful, sobering piece: openai.com/index/an-alien-mi… Link An Alien Mind Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination. openai.com Jensen Huang (@JensenHuang) GPT-6 Astra, trained on ~100K+ NVIDIA Grace Blackwell NVLink72. From ChatGPT to o1 to Astra in 4 years. AGI has arrived. Congratulations @OpenAI team. 400K GPUs coming online next. — http://nitter.jaydenha.uk/JensenHuang/status/2096700264569090384#m",
+      "link": "http://nitter.jaydenha.uk/markchen90/status/2096728551269839076#m",
+      "published": "Sun, 06 Sep 2026 22:33:36 GMT",
+      "author_name": "Mark Chen",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "polynoamial",
-      "text": "One of the most interesting blog posts we've released: details on internal research acceleration at @OpenAI . I expect these trends to continue. We also share some details on how we've paced model development to prioritize monitoring, alignment, and security. Kevin Liu (@kliu128) Today we're releasing data on models accelerating research at OpenAI. Recursive self-improvement could be the most important contributor to AI capabilities over the next few years, but by default it will only be seen inside a few frontier AI labs. Being transparent is more urgent than ever, so we can inform the public discussion on whether and how to pace model development. I ask other AI companies to do the same. openai.com/index/research-ac… Link Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration. openai.com — http://nitter.jaydenha.uk/kliu128/status/2096616468851097811#m",
-      "link": "http://nitter.jaydenha.uk/polynoamial/status/2096638670703055312#m",
-      "published": "Sun, 06 Sep 2026 16:36:27 GMT",
-      "author_name": "Noam Brown",
+      "handle": "markchen90",
+      "text": "Alongside the launch of GPT-6 Astra, we're committing $1 billion to subsidize Daybreak access and frontier capabilities to help frontline defenders protect essential services and critical infrastructure. Welcome to the AGI era for cybersecurity. openai.com/index/daybreak-fo… Link Daybreak for Frontline Defenders: $1B to protect essential services OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services. openai.com",
+      "link": "http://nitter.jaydenha.uk/fouadmatin/status/2095634888951250983#m",
+      "published": "Thu, 03 Sep 2026 22:07:47 GMT",
+      "author_name": "Mark Chen",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "polynoamial",
-      "text": "Yes the blog is sexy but also highly recommend reading through the system card. We share a lot of evals and analysis we ran on the alignment of this model and discuss continued challenges for both alignment and monitoring.",
-      "link": "http://nitter.jaydenha.uk/kaicathyc/status/2095636357129629754#m",
-      "published": "Thu, 03 Sep 2026 22:13:37 GMT",
-      "author_name": "Noam Brown",
+      "handle": "markchen90",
+      "text": "My biggest wow moment using GPT 6 Astra had nothing to do with the visual posts you've been seeing... Don't get me wrong, those are awesome and fun... But the biggest wow moment was when I gave Astra context over everything about my business and then gave it the prompt below. Email, Slack, Business Texts, Notion, and every meeting note... everything I've been doing (Which involves like 20 different projects with many teams over the past few months)... Here's the prompt I used which was not really well thought out just a wispr flow ramble... All I can say is the response to this prompt was the most useful thing an AI has ever given me... \"\"I'm about to plan the next month, quarter, and year\" Make one document that aligns me on all of those timeframes. Look for my flaws, look for my strengths, and highlight those. Look at ALL of my activities, which activities do you think i'm wasting the most time. Which activities should I do more of? Of the people I work with who seem the most dependable? Where am I the least dependable? If I could only upskill in one area over the next year what would it be and why? Where can I organize my company better, and how would I do that? Use text when necessary, use charts/visuals when necessary, but never ever fill space for the sake of it. Every graphic and word should matter. I want to know about finances, relationships, business model, everything. \"\"",
+      "link": "http://nitter.jaydenha.uk/rileybrown/status/2095650681755521030#m",
+      "published": "Thu, 03 Sep 2026 23:10:32 GMT",
+      "author_name": "Mark Chen",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "polynoamial",
-      "text": "Of all the use cases for GPT-6 Astra, I'm most excited for scientific discovery. We at @OpenAI have not pushed it to its limits on math and science. I look forward to waking up every morning and seeing what new scientific breakthrough someone has made with this model! Lisan al Gaib (@scaling01) New OpenAI repo with a Lean formalization by GPT-6-Astra proves that there are infinitely many pairs of consecutive primes whose distance is at most 186 github.com/openai/PrimeGaps1… — http://nitter.jaydenha.uk/scaling01/status/2095558841509318673#m",
-      "link": "http://nitter.jaydenha.uk/polynoamial/status/2095583211950833768#m",
-      "published": "Thu, 03 Sep 2026 18:42:26 GMT",
-      "author_name": "Noam Brown",
+      "handle": "markchen90",
+      "text": "A concerningly common take seems to be that keeping Chain of Thought monitorable doesn't matter because interpretability will save us, or it's already useless This is total bullshit. CoT is our best current tool for safety & interpretability, losing it would be a major tragedy",
+      "link": "http://nitter.jaydenha.uk/NeelNanda5/status/2095533397297045716#m",
+      "published": "Thu, 03 Sep 2026 15:24:29 GMT",
+      "author_name": "Mark Chen",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "Everyone is going to be able to vibe code video games by the end of 2025",
-      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/1982222911231377696#m",
-      "published": "Sat, 25 Oct 2025 23:09:04 GMT",
-      "author_name": "Logan Kilpatrick",
-      "category_hint": "builder",
+      "handle": "ArthurMensch",
+      "text": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch.",
+      "link": "http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
+      "published": "Tue, 08 Sep 2026 05:02:37 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "early but not wrong",
-      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2097152668104102165#m",
-      "published": "Tue, 08 Sep 2026 02:38:53 GMT",
-      "author_name": "Logan Kilpatrick",
-      "category_hint": "builder",
+      "handle": "ArthurMensch",
+      "text": "Bravo à Mistral pour sa nouvelle levée de fonds record. ASML il y a un an, Samsung aujourd’hui : Mistral démontre sa capacité à nouer des partenariats stratégiques avec les plus grands acteurs industriels pour hisser l’Europe parmi les grandes puissances mondiales de l’IA. C’est tout le sens de la vision que nous portons avec le Président de la Corée du Sud : construire ensemble une troisième voie dans l’IA en rassemblant nos forces et nos acteurs. Et ce n’est que le début !",
+      "link": "http://nitter.jaydenha.uk/EmmanuelMacron/status/2097254072441045256#m",
+      "published": "Tue, 08 Sep 2026 09:21:50 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "Gemini 3.8 Flash on DeepSWE 1.1, scores 73.7%!",
-      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095178478505328918#m",
-      "published": "Wed, 02 Sep 2026 15:54:10 GMT",
-      "author_name": "Logan Kilpatrick",
-      "category_hint": "builder",
+      "handle": "ArthurMensch",
+      "text": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
+      "link": "http://nitter.jaydenha.uk/GuillaumeLample/status/2097256830091014515#m",
+      "published": "Tue, 08 Sep 2026 09:32:48 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "Introducing Gemini 3.8 Flash, another jump in Gemini's agentic + coding capabilities, and our 3rd updated Flash model in only 6 weeks... This model has been a ton of fun to work with, excited to see what you all think!",
-      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175881690173885#m",
-      "published": "Wed, 02 Sep 2026 15:43:51 GMT",
-      "author_name": "Logan Kilpatrick",
-      "category_hint": "builder",
+      "handle": "ArthurMensch",
+      "text": "We've just raised 3B€ to scale our training and inference compute, and make open and sovereign AI the technology frontier. Grateful to everyone who got us there, excited by the fight ahead mistral.ai/news/mistral-make… Link Making sovereign, open-weight AI the technology frontier | Mistral Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion. mistral.ai",
+      "link": "http://nitter.jaydenha.uk/arthurmensch/status/2097232588490379686#m",
+      "published": "Tue, 08 Sep 2026 07:56:28 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "3.8 Flash is the same price as 3.7, is ~the same speed, and is available via the Gemini API, in AI Studio, Antigravity, Gemini App, and more! Read more: blog.google/innovation-and-a… So incredible to see the progress and hard work from the team. Pushing hard to be at the frontier. Link Introducing Gemini 3.8 Flash and 3.8 Flash Cyber Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity. blog.google",
-      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175885439832243#m",
-      "published": "Wed, 02 Sep 2026 15:43:52 GMT",
-      "author_name": "Logan Kilpatrick",
-      "category_hint": "builder",
+      "handle": "ArthurMensch",
+      "text": "My cofounder Tim, whom you will not find on X, shares some of the strategic thinking behind our latest updates venturebeat.com/infrastructu… Link Mistral AI's $38B European compute plan | VentureBeat Mistral AI unveils its plan for European AI sovereignty: SLA-backed regional inference, five-year European Compute Unit contracts, hosting China's GLM-5.2, and 1 gigawatt of compute by 2030. venturebeat.com",
+      "link": "http://nitter.jaydenha.uk/arthurmensch/status/2088000058910199921#m",
+      "published": "Thu, 13 Aug 2026 20:29:41 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "I’ve been overwhelmed and humbled by the fact that 99% of the reactions to our intent to join forces have been positive. ❤️ Prominent tech figures, including some you could see as having a competitive relationship with NVIDIA, have been vocally supportive: • @satyanadella : “this ecosystem with open models continuing to flourish and grow” • @sundarpichai : “this will strengthen the open model ecosystem!” • @miramurati : “A great home for Hugging Face to continue expanding access to open models and the tools that let people build with them.” • @alighodsi : “This will be great for the industry and open source.” • @AravSrinivas : “absolutely necessary for AI to remain accessible and useful to the public.” He added that he was glad NVIDIA was supporting Hugging Face and the open-source community. • @MichaelDell : “a big win for the whole ecosystem.” • @levie : “Another huge moment for open weights AI.” • @adcock_brett : “This is good for everyone building and open source.” • @elonmusk : “Congrats!” • @osanseviero : “The impact of HF in the AI ecosystem has been massive” Even more importantly, the community has been leaning into the announcement. Now we’ll get to demonstrate through our actions in the coming months/years that we will keep up the good work 🔥 This is a chance to make open-source AI so much bigger.",
-      "link": "http://nitter.jaydenha.uk/julien_c/status/2096956043003568444#m",
-      "published": "Mon, 07 Sep 2026 13:37:34 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
+      "handle": "ClemDelangue",
+      "text": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+      "link": "http://nitter.jaydenha.uk/soumithchintala/status/1202981209057484801#m",
+      "published": "Fri, 06 Dec 2019 16:00:45 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "5 years ago opening the first Hugging Face \"office\" in Switzerland at my place 🤗 Excited for the HF team and what's ahead!",
-      "link": "http://nitter.jaydenha.uk/osanseviero/status/2095571440644804812#m",
-      "published": "Thu, 03 Sep 2026 17:55:39 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
+      "handle": "ClemDelangue",
+      "text": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/1195662118974083073#m",
+      "published": "Sat, 16 Nov 2019 11:17:18 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Congrats Clem, Thom, Julien, Lysandre, and the entire Hugging Face team. Proud of all of you! The impact of HF in the AI ecosystem has been massive, and I'm so so excited to see them scale that impact with NVIDIA Congrats @JensenHuang , the goats of ML are joining your team :) clem 🤗 (@ClementDelangue) Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 years after starting Hugging Face, open-source AI is at an inflection point. Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us. In addition to doubling down on NVIDIA’s massive contributions to open-source AI (I called them the “King of American open-source AI” earlier this year), they’ve committed to strongly supporting Hugging Face and our mission while keeping the platform open, independent and compute agnostic. The founders and the team are all staying to keep pushing this mission forward. Together, we think we can make open source the default way to build AI, with the goal of empowering 100 million AI builders to own their intelligence rather than rent it. Excited about the next 10 years! 🤗🤗🤗 — http://nitter.jaydenha.uk/ClementDelangue/status/2095482998674112733#m",
-      "link": "http://nitter.jaydenha.uk/osanseviero/status/2095493882834272497#m",
-      "published": "Thu, 03 Sep 2026 12:47:28 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
+      "handle": "ClemDelangue",
+      "text": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+      "link": "http://nitter.jaydenha.uk/algo_diver/status/1192329736850038786#m",
+      "published": "Thu, 07 Nov 2019 06:35:36 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Gemini 3.8 is here🔥 Building with it for the last couple of days has been a very fun experience! The progress in the last months has been impressive. It's a very well rounded agentic model, performing well in many domains (finance/legal/etc) and modalities Time to build!",
-      "link": "http://nitter.jaydenha.uk/osanseviero/status/2095180888921276643#m",
-      "published": "Wed, 02 Sep 2026 16:03:45 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
+      "handle": "ClemDelangue",
+      "text": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitter.net/DoingJobs/status/11865…",
+      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/1189271899316064256#m",
+      "published": "Tue, 29 Oct 2019 20:04:51 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Read more about it! blog.google/innovation-and-a… Link Introducing Gemini 3.8 Flash and 3.8 Flash Cyber Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity. blog.google",
-      "link": "http://nitter.jaydenha.uk/osanseviero/status/2095180891987321117#m",
-      "published": "Wed, 02 Sep 2026 16:03:45 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "mckaywrigley",
-      "text": "the demand for intelligence is infinite. with gpt-6 astra i’m up another 3-4x on token usage. we must do everything we can to make sure *every* human on the planet can be a token trillionaire. it’s time to transition from survival to abundance. the intelligence age is here.",
-      "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2096264183482552753#m",
-      "published": "Sat, 05 Sep 2026 15:48:22 GMT",
-      "author_name": "Mckay Wrigley",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "mckaywrigley",
-      "text": "stripe was correct to declare jan 1, 2026 as the start of the singularity. if your worldview does not account for this you are severely behind. we are now at the start of something categorically new, and both lived experience & the data confirm it. superintelligence is near.",
-      "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2096265217915461937#m",
-      "published": "Sat, 05 Sep 2026 15:52:29 GMT",
-      "author_name": "Mckay Wrigley",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "mckaywrigley",
-      "text": "i also think you should probably take this week “off” from regular work and completely focus on building new systems with gpt-6 astra and fable 5.1. a new generation of capabilities warrants ripping out the old stuff and upgrading workflows - the time investment pays for itself shockingly quickly. “build the system that builds the system” work is now increasingly about how effectively you can delegate your own vision, taste, & ideas to your personal fleet of machine intelligences. and notably, for the 1st time self-improving loops actually work *really well*, and i think this is where most of the alpha is rn.",
-      "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2096271888263852333#m",
-      "published": "Sat, 05 Sep 2026 16:18:59 GMT",
-      "author_name": "Mckay Wrigley",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "mckaywrigley",
-      "text": "gpt-6 astra release gives the same vibes as the gpt-4 release. a genuine step change where ai can do categorically new things. there are multitudes of miracles buried in those weights… and i very much look forward to all of us prompting them out.",
-      "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2095668883533557916#m",
-      "published": "Fri, 04 Sep 2026 00:22:52 GMT",
-      "author_name": "Mckay Wrigley",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "mckaywrigley",
-      "text": "by far the best demos and experiments since gpt-4. idk who remembers this, but that summer was just packed with weird and wacky experiments. people had no idea what the limits were. ultimately the model wasn’t good enough but gpt-6 astra probably is. i hope we see that same level of experimentation and ambition from that summer, only this time it will work and pay off in endlessly interesting ways. pretty stoked about this one.",
-      "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2095669770272313464#m",
-      "published": "Fri, 04 Sep 2026 00:26:23 GMT",
-      "author_name": "Mckay Wrigley",
-      "category_hint": "builder",
+      "handle": "ClemDelangue",
+      "text": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/1188942956511690752#m",
+      "published": "Mon, 28 Oct 2019 22:17:44 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     }
   ],
@@ -233,7 +188,6 @@
     "sama",
     "DarioAmodei",
     "gdb",
-    "sundarpichai",
     "elonmusk",
     "AravSrinivas",
     "miramurati",
@@ -242,10 +196,13 @@
     "JeffDean",
     "fchollet",
     "AndrewYNg",
+    "rasbt",
     "bcherny",
     "karinanguyen_",
-    "markchen90",
+    "polynoamial",
     "aidan_mclau",
+    "officiallogank",
+    "osanseviero",
     "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
@@ -255,396 +212,273 @@
     "hwchase17",
     "jeremyphoward",
     "levelsio",
+    "mckaywrigley",
     "amasad",
     "nickadobos",
     "emollick",
-    "ArthurMensch",
     "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
-    "ClemDelangue",
     "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Cette semaine dans l'IA, on observe une forte activité autour des nouveaux modèles comme GPT-6 Astra et les avancées de Gemini. Hugging Face s'associe à NVIDIA, marquant un tournant pour l'IA open source. Les discussions portent aussi sur les architectures innovantes comme les 'looped transformers' et l'importance croissante de l'accélération de la recherche interne dans les grands laboratoires.",
+    "summary": "Cette journée a été riche en annonces marquantes pour l'IA, révélant une intense activité de la part des géants et des startups. Nous avons vu de nouvelles fonctionnalités concrètes pour les utilisateurs, d'importantes levées de fonds et acquisitions qui redessinent le paysage industriel, ainsi que des débats fondamentaux sur la sécurité et l'éthique de l'intelligence artificielle générale. Pour un débutant, il est essentiel de retenir que l'IA évolue très vite, avec un fort accent mis sur la cybersécurité, les performances des modèles et la réflexion sur leur impact futur.",
     "glossaire": [
       {
-        "terme": "LLM",
-        "definition": "Un LLM (Large Language Model) est un modèle d'IA entraîné sur une énorme quantité de texte pour comprendre et générer du langage humain."
+        "terme": "AGI (Artificial General Intelligence)",
+        "definition": "L'AGI, ou Intelligence Artificielle Générale, est une IA hypothétique capable d'apprendre et de réaliser n'importe quelle tâche intellectuelle qu'un être humain peut accomplir, et non seulement des tâches spécifiques."
       },
       {
-        "terme": "KV caching",
-        "definition": "Le 'KV caching' est une technique qui permet d'accélérer la génération de texte par les LLM en mémorisant des informations calculées précédemment."
+        "terme": "Alignement de l'IA",
+        "definition": "L'alignement est le défi de s'assurer que les systèmes d'IA, surtout les plus avancés, agissent conformément aux intentions, aux valeurs et aux intérêts de l'humanité."
       },
       {
-        "terme": "Looped Transformer",
-        "definition": "Un 'Looped Transformer' est une architecture d'IA qui réutilise les mêmes couches de traitement plusieurs fois pour augmenter sa capacité sans ajouter autant de paramètres."
+        "terme": "Modèle ouvert",
+        "definition": "Un modèle ouvert est un modèle d'IA dont le code, les données d'entraînement ou les poids sont publics et accessibles, permettant à la communauté de l'utiliser, de le modifier et de l'améliorer librement."
       },
       {
-        "terme": "Open Source",
-        "definition": "L'open source désigne des logiciels dont le code est accessible publiquement, permettant à chacun de l'étudier, de le modifier et de le partager."
+        "terme": "Prompt",
+        "definition": "Un prompt est une instruction, une question ou un morceau de texte que l'on donne à une IA pour qu'elle génère une réponse, une image ou exécute une tâche spécifique."
       },
       {
-        "terme": "Agentic",
-        "definition": "Une capacité 'agentic' pour une IA signifie qu'elle peut agir de manière autonome pour accomplir des tâches complexes, un peu comme un assistant personnel."
+        "terme": "Chaîne de Pensée (Chain of Thought - CoT)",
+        "definition": "La Chaîne de Pensée est une technique qui aide les IA à 'penser à voix haute' en décomposant un problème complexe en étapes intermédiaires, ce qui rend leur raisonnement plus transparent et compréhensible."
       },
       {
-        "terme": "Token",
-        "definition": "Un 'token' est la plus petite unité de texte qu'un modèle d'IA peut traiter, souvent un mot ou une partie de mot."
+        "terme": "PyTorch",
+        "definition": "PyTorch est un cadre de travail (un ensemble d'outils logiciels) très populaire et open source utilisé par les développeurs et chercheurs pour construire et entraîner des modèles d'intelligence artificielle, en particulier des réseaux de neurones."
       },
       {
-        "terme": "Chain-of-Thought",
-        "definition": "La 'chain-of-thought' (chaîne de pensée) est une méthode où l'IA explique les étapes de son raisonnement pour arriver à une réponse."
+        "terme": "TPU (Tensor Processing Unit)",
+        "definition": "Les TPU sont des puces informatiques spécialisées, conçues par Google, pour accélérer très fortement les calculs complexes nécessaires à l'entraînement et à l'exécution des modèles d'IA."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces majeures incluent l'acquisition de Hugging Face par NVIDIA, promettant de dynamiser l'écosystème open source, et les nouvelles versions de Gemini (3.8 Flash). Les discussions tournent aussi autour de l'accélération de la recherche interne chez OpenAI et des rumeurs sur le modèle Astra.",
-      "tips": "Pour mieux exploiter les LLM, on apprend à optimiser la génération de texte avec le 'KV caching', à comprendre les différentes méthodes de décodage et l'importance de bien choisir ses modèles et son matériel. Le conseil est de tester les nouveaux outils pour améliorer ses propres flux de travail.",
-      "idees": "Les débats portent sur l'évolution architecturale des modèles avec les 'looped transformers', la nécessité de la transparence dans la recherche IA, et la prospective d'une ère d'abondance grâce à l'IA, où chacun pourrait devenir un 'trillionaire de tokens'. La collaboration entre laboratoires est aussi soulignée comme cruciale.",
-      "outils": "Les développeurs peuvent explorer les nouvelles capacités des modèles comme GPT-6 Astra et Gemini 3.8 Flash. Des ressources comme des vidéos explicatives sur la génération de texte et le 'KV caching' sont disponibles pour comprendre les mécanismes sous-jacents, ainsi que des benchmarks de performances."
+      "actu": "Les grandes nouvelles du jour incluent une acquisition majeure dans le secteur de l'IA avec NVIDIA qui s'apprête à acquérir Hugging Face, et une levée de fonds record de 3 milliards d'euros pour la startup française Mistral AI. Ces événements soulignent la croissance fulgurante et la consolidation du marché de l'IA. Google a également annoncé de nouvelles capacités de son modèle Gemini pour la cybersécurité et des fonctionnalités vocales pour ses applications.",
+      "tips": "Aujourd'hui, nous avons eu un excellent exemple de prompt complexe montrant comment utiliser une IA comme GPT-6 Astra pour organiser et planifier des aspects professionnels et personnels. Cela démontre le potentiel des IA à devenir de véritables assistants stratégiques, bien au-delà de la simple génération de texte. Il a aussi été suggéré d'utiliser les implémentations de Transformer de Hugging Face avec TensorFlow.",
+      "idees": "Le débat sur l'Intelligence Artificielle Générale (AGI) et la nécessité d'un 'alignement' de l'IA avec les valeurs humaines a été un thème central. Des réflexions importantes ont été partagées sur la sécurité des IA, l'importance de la 'Chaîne de Pensée' pour comprendre leur fonctionnement, et la stratégie européenne pour une 'IA souveraine'. On a aussi vu une discussion sur la recherche en PNL qui devrait privilégier l'efficacité plutôt que la simple performance brute.",
+      "outils": "Les utilisateurs de Google AI verront bientôt de nouvelles capacités vocales de Gemini, leur permettant d'interagir par la voix avec des applications comme Gmail ou Docs. Des expériences d'intégration de modèles Hugging Face avec des outils de collaboration comme Slack ont aussi été partagées, et un article technique détaillé sur le framework PyTorch a été rappelé, soulignant son importance pour le développement de l'IA."
     },
     "highlights": [
       {
-        "author_name": "Sebastian Raschka",
-        "handle": "@rasbt",
-        "text_fr": "Une vidéo expliquant le processus de génération de texte dans les LLM et le fonctionnement du 'KV caching' (pour préparer le modèle de base avant d'ajouter des techniques de raisonnement dans les prochaines versions). La vidéo couvre l'introduction et une démo du modèle de raisonnement, le passage en revue du chapitre 2 du livre, le support PyTorch et matériel, les spécificités d'Apple Silicon et MPS, les options de GPU cloud, les tokens et la tokenisation, Qwen3 et le package Reasoning From Scratch, l'encodage et décodage de texte, le téléchargement des poids et la sélection d'un appareil, le chargement du modèle Qwen3 pré-entraîné, comment les LLM génèrent du texte, les tenseurs d'entrée et les dimensions de batch, l'exécution du modèle en mode inférence, les logits et les prédictions du prochain token, le décodage 'greedy' avec argmax, la construction d'un générateur de texte en streaming, la génération de texte et la gestion des tokens de fin de séquence, le benchmarking de la génération de texte, le fonctionnement du 'KV caching', l'ajout du 'KV caching' et la mesure de l'accélération, la compilation du modèle avec torch.compile, la combinaison de la compilation avec le 'KV caching', et la comparaison des performances CPU et GPU.",
-        "text_original": "Reasoning from scratch round 2: In this video, I cover the text generation process in LLMs and KV caching (to prepare the base model before adding reasoning techniques in the upcoming ones). 00:00 Introduction and reasoning model demo 01:55 How to work through the book 05:00 Chapter 2 overview 08:25 Checking PyTorch and hardware support 10:26 Apple silicon and MPS caveats 15:00 Cloud GPU options 16:08 Tokens and tokenization 18:20 Qwen3 and the Reasoning From Scratch package 23:05 Encoding and decoding text 26:24 Downloading weights and selecting a device 31:01 Loading the pretrained Qwen3 model 34:32 How LLMs generate text 36:47 Input tensors and batch dimensions 41:48 Running the model in inference mode 44:11 Logits and next-token predictions 49:21 Greedy decoding with argmax 52:28 Building a streaming text generator 01:01:28 Generating text and handling end-of-sequence tokens 01:06:00 Benchmarking text generation 01:14:34 How KV caching works 01:17:22 Adding KV caching and measuring the speedup 01:24:31 Model compilation with torch.compile 01:30:33 Combining compilation with KV caching 01:32:53 Comparing CPU and GPU performance 01:35:32 Recap and next steps Video",
-        "link": "http://nitter.jaydenha.uk/rasbt/status/2096596372661113294#m",
-        "decryptage": "Cette vidéo détaille comment les IA génèrent du texte et utilise une technique nommée 'KV caching' pour rendre le processus plus rapide.",
-        "category": "outils",
-        "highlight_reason": "Excellent contenu pédagogique pour comprendre les bases de la génération de texte par les LLM et une technique clé d'optimisation."
+        "author_name": "Sundar Pichai",
+        "handle": "@sundarpichai",
+        "text_fr": "Félicitations @JensenHuang @ClementDelangue pour ce grand résultat ! Nous étions investisseurs dans Hugging Face et restons des partenaires, et cela renforcera l'écosystème des modèles ouverts ! Jensen Huang (@JensenHuang) Journée passionnante pour NVIDIA et @huggingface. Les modèles ouverts renforcent la sécurité et la cybersécurité, accélèrent l'innovation et la diffusion, et permettent la souveraineté. Ils permettent à chaque développeur, startup, université, industrie et pays de construire avec, personnaliser et bénéficier de l'IA. Merci @ClementDelangue d'être venu me voir. NVIDIA sera un excellent foyer pour Hugging Face, sa communauté et l'avenir des modèles ouverts. 🤗 blogs.nvidia.com/blog/nvidia… Lien NVIDIA acquiert Hugging Face NVIDIA a accepté d'acquérir Hugging Face. Ensemble, nous allons développer la plateforme Hugging Face, renforcer son infrastructure et étendre l'accès à l'IA pour les développeurs et les institutions du monde entier. blogs.nvidia.com",
+        "text_original": "Congrats @JensenHuang @ClementDelangue for this great outcome! We were investors in Huggingface and continue to be partners and this will strengthen the open model ecosystem! Jensen Huang (@JensenHuang) Exciting day for NVIDIA and @huggingface . Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty. They allow every developer, startup, university, industry and country to build with, customize and benefit from AI. Thank you @ClementDelangue for coming to me. NVIDIA is going to be a great home for Hugging Face, its community and the future of open models. 🤗 blogs.nvidia.com/blog/nvidia… Link NVIDIA to Acquire Hugging Face NVIDIA has agreed to acquire Hugging Face. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. blogs.nvidia.com",
+        "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095569375373984139#m",
+        "decryptage": "Les modèles ouverts sont des modèles d'IA dont le code et les données sont souvent accessibles à tous, permettant à chacun de les utiliser et de les améliorer, favorisant l'innovation.",
+        "category": "actu",
+        "highlight_reason": "Cette annonce d'acquisition marque un événement majeur qui va potentiellement remodeler l'écosystème de l'IA, combinant un acteur clé du matériel (NVIDIA) avec une plateforme logicielle très populaire (Hugging Face)."
       },
       {
-        "author_name": "Sebastian Raschka",
-        "handle": "@rasbt",
-        "text_fr": "Beaucoup de buzz autour du modèle Astra d'OpenAI aujourd'hui, apparemment basé sur un article de The Information qui le décrit comme un \"recurrent depth or looped transformer\". C'est toujours intéressant de lire sur de nouvelles approches, mais déconstruisons ça. Il y a environ 2 mois, j'ai partagé les détails architecturaux de Nanbeige, par exemple, où 'Nanbeige4.2-3B est pré-entraîné à partir de zéro sur 28T tokens avec un Looped Transformer qui réutilise la pile de couches pour augmenter la capacité sans ajouter de paramètres.' L'idée du 'looped transformer' consiste simplement à réutiliser les couches dans le bloc transformer. Dans le cas de Nanbeige, l'idée principale est de réutiliser la même pile de 22 couches (= bloc transformer) deux fois au lieu d'une. Cela étend effectivement l'architecture de 22 couches à 44 couches, mais sans dupliquer les poids. En termes simples, cela double approximativement la taille du modèle (si l'on ignore les couches d'embedding et de sortie), mais au lieu de nécessiter 2x le stockage et la RAM, il reste de la même taille car les composants sont réutilisés. Cependant, le coût en calcul est presque doublé car le texte traité passe par presque 2x plus de couches. Les chercheurs de Nanbeige ont trouvé que deux passes donnaient le meilleur compromis, conservant environ 75% de l'efficacité d'une architecture standard. Bien que Nanbeige 4.2 soit le premier modèle open weight notable à adopter cette approche, l'idée remonte au papier NeurIPS \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Ce papier propose un mécanisme plus sophistiqué avec un routeur appris qui détermine si chaque token reçoit une, deux ou plusieurs passes, permettant aux tokens faciles de sortir tôt et aux plus difficiles de recevoir un calcul supplémentaire. En résumé, Astra est peut-être un bon modèle, mais l'aspect \"looped transformer\" n'est qu'une petite modification architecturale. De plus, l'affirmation selon laquelle \"la nouvelle technique fonctionne d'une manière qui occulte tout ou partie du raisonnement de l'IA, également connu sous le nom de 'chain-of-thought'\" n'est pas nécessairement vraie pour la méthode du 'looped transformer'. Il est possible que le journaliste fasse référence à une autre technique ou ait mal compris. La réutilisation des couches ne supprime pas intrinsèquement la 'chain-of-thought' visible ; elle ajoute du calcul dans les états cachés avant que le prochain token ne soit émis, tout comme les couches transformer ordinaires. Si un modèle utilise plus de ces passes récurrentes, il pourrait avoir besoin de générer moins de tokens de raisonnement intermédiaires, où une plus grande partie de son calcul se fait dans des activations latentes non lisibles en texte. Mais on obtiendrait le même effet en augmentant la taille du modèle.",
-        "text_original": "A lot of hype around OpenAI's Astra model here on my timeline today. Apparently, this goes back to a new article from The Information, which said Astra is a \"recurrent depth or looped transformer\". It's always interesting to read about new or different approaches (including rumors about what the closed labs may be up to), but let's debunk this a bit. About 2 months ago, I shared the architecture details of Nanbeige, for example, where \"Nanbeige4.2-3B is pretrained from scratch on 28T tokens with a Looped Transformer that reuses the layer stack to increase capacity without adding parameters.\" Yes, that's it. The looped transformer idea is just reusing layers in the transformer block. In the case of Nanbeige, the main idea is to reuse the same 22-layer stack (=transformer block) twice instead of once. So, effectively it extends the 22-layer architecture to 44 layers, but without duplicating the weights. In simple terms, this roughly doubles the size of the model (if we ignore the embedding and output layers for a second). But instead of requiring 2x the storage and RAM to host this model, it stays at the same size since we reuse the components. However, it's almost 2x as expensive in terms of compute, because we run the embedded text through almost 2x as many layers. Why? In the Nanbeige 4.2 technical report, the researchers found that two passes gave the best trade-off and retained about 75% of the token efficiency of a standard architecture. (More passes gave barely any gains but made the training much slower and much more expensive.) While, as far as I know, Nanbeige 4.2 is the first notable open-weight model that adopted this approach, the idea goes back to the NeurIPS paper \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Actually, this paper proposes a mechanism that is a bit more sophisticated by adding a learned router that determines whether each token receives one, two, or more passes. So, easy tokens can exit early while harder tokens receive additional computation. In sum, Astra may be a really good model, but this shouldn't be about this \"looped transformer aspect,\" which is just a tiny architectural tweak. Also, the statement \"the new technique works in a way that obscures some or all of the AI's reasoning, otherwise known as 'chain-of-thought'\" is not necessarily true with respect to the looped transformer method. It's possible that The Information journalist refers to some other technique or misunderstood the looped transformer method. Reusing layers does not by itself suppress visible chain of thought. It adds computation in hidden states before the next token is emitted, just as ordinary transformer layers do. But based on the information we have, the only plausible interpretation here is that if a model uses more of these recurrent passes, it may need to generate fewer intermediate reasoning tokens. So then more of its computation happens in latent activations that cannot be read as text. But we would get the same effect if we were scaling up the model size, like GPT 5.6 Luna -> GPT 5.6 Sol.",
-        "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
-        "decryptage": "Le 'looped transformer' est une façon d'améliorer la capacité d'une IA en faisant passer l'information plusieurs fois dans les mêmes couches de calcul, au lieu d'en ajouter de nouvelles.",
+        "author_name": "Mark Chen",
+        "handle": "@markchen90",
+        "text_fr": "Mon plus grand moment \"waouh\" en utilisant GPT-6 Astra n'avait rien à voir avec les publications visuelles que vous avez vues... Ne vous méprenez pas, elles sont géniales et amusantes... Mais le plus grand moment \"waouh\" a été quand j'ai donné à Astra le contexte de tout ce qui concerne mon entreprise, puis que je lui ai donné le prompt ci-dessous. E-mail, Slack, SMS professionnels, Notion, et toutes les notes de réunion... tout ce que j'ai fait (ce qui implique environ 20 projets différents avec de nombreuses équipes au cours des derniers mois)... Voici le prompt que j'ai utilisé, qui n'était pas vraiment bien pensé, juste un flot de divagations... Tout ce que je peux dire, c'est que la réponse à ce prompt a été la chose la plus utile qu'une IA m'ait jamais donnée... \"\"Je suis sur le point de planifier le mois, le trimestre et l'année à venir\" Créez un document qui m'aligne sur toutes ces périodes. Recherchez mes défauts, mes forces, et mettez-les en évidence. Examinez TOUTES mes activités, quelles activités pensez-vous que je perds le plus de temps. Quelles activités devrais-je faire davantage ? Parmi les personnes avec qui je travaille, qui semble le plus fiable ? Où suis-je le moins fiable ? Si je ne pouvais me perfectionner que dans un seul domaine au cours de l'année prochaine, quel serait-il et pourquoi ? Comment pourrais-je mieux organiser mon entreprise, et comment le ferais-je ? Utilisez du texte si nécessaire, utilisez des graphiques/visuels si nécessaire, mais ne remplissez jamais d'espace juste pour le plaisir. Chaque graphique et chaque mot doivent avoir de l'importance. Je veux tout savoir sur les finances, les relations, le modèle commercial, tout. \"\"",
+        "text_original": "My biggest wow moment using GPT 6 Astra had nothing to do with the visual posts you've been seeing... Don't get me wrong, those are awesome and fun... But the biggest wow moment was when I gave Astra context over everything about my business and then gave it the prompt below. Email, Slack, Business Texts, Notion, and every meeting note... everything I've been doing (Which involves like 20 different projects with many teams over the past few months)... Here's the prompt I used which was not really well thought out just a wispr flow ramble... All I can say is the response to this prompt was the most useful thing an AI has ever given me... \"\"I'm about to plan the next month, quarter, and year\" Make one document that aligns me on all of those timeframes. Look for my flaws, look for my strengths, and highlight those. Look at ALL of my activities, which activities do you think i'm wasting the most time. Which activities should I do more of? Of the people I work with who seem the most dependable? Where am I the least dependable? If I could only upskill in one area over the next year what would it be and why? Where can I organize my company better, and how would I do that? Use text when necessary, use charts/visuals when necessary, but never ever fill space for the sake of it. Every graphic and word should matter. I want to know about finances, relationships, business model, everything. \"\"",
+        "link": "http://nitter.jaydenha.uk/rileybrown/status/2095650681755521030#m",
+        "decryptage": "Un prompt est l'instruction ou la question que l'on donne à une IA pour qu'elle génère une réponse, et le contexte, c'est l'ensemble des informations supplémentaires fournies à l'IA pour qu'elle comprenne mieux la situation.",
+        "category": "tips",
+        "highlight_reason": "Ce tweet offre un exemple très concret et inspirant de l'utilisation d'une IA avancée pour une planification personnelle et professionnelle approfondie, montrant comment l'IA peut devenir un véritable outil stratégique."
+      },
+      {
+        "author_name": "Mark Chen",
+        "handle": "@markchen90",
+        "text_fr": "D'accord avec @JensenHuang : nous entrons dans l'ère de l'AGI. L'ère de l'AGI doit aussi être l'ère de l'alignement. Nous devons apprendre à l'IA à aimer l'humanité et former des moniteurs d'IA aussi capables que les IA qu'ils supervisent. Le mieux est dit par @merettm dans cet article réfléchi et sérieux : openai.com/index/an-alien-mi… Lien Un Esprit Étranger Jakub Pachocki réfléchit aux IA de plus en plus capables et au défi de les maintenir alignées. Il appelle à des garanties plus strictes et à une coordination internationale. openai.com Jensen Huang (@JensenHuang) GPT-6 Astra, entraîné sur ~100K+ NVIDIA Grace Blackwell NVLink72. De ChatGPT à o1 puis Astra en 4 ans. L'AGI est arrivée. Félicitations à l'équipe @OpenAI. 400K GPUs arrivent ensuite.",
+        "text_original": "Agree with @JensenHuang : we’re entering the AGI era. The AGI era must also be the alignment era. We need to teach AI to love humanity and train AI monitors as capable as the AIs they supervise. Said best by @merettm in this thoughtful, sobering piece: openai.com/index/an-alien-mi… Link An Alien Mind Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination. openai.com Jensen Huang (@JensenHuang) GPT-6 Astra, trained on ~100K+ NVIDIA Grace Blackwell NVLink72. From ChatGPT to o1 to Astra in 4 years. AGI has arrived. Congratulations @OpenAI team. 400K GPUs coming online next.",
+        "link": "http://nitter.jaydenha.uk/markchen90/status/2096728551269839076#m",
+        "decryptage": "L'AGI (Intelligence Artificielle Générale) est une IA hypothétique capable de comprendre ou d'apprendre n'importe quelle tâche intellectuelle qu'un être humain peut accomplir, et l'alignement consiste à s'assurer que ces IA agissent dans l'intérêt de l'humanité.",
         "category": "idees",
-        "highlight_reason": "Clarifie une rumeur technique entourant un nouveau modèle, expliquant simplement un concept architectural avancé et remettant les choses dans leur contexte."
+        "highlight_reason": "Ce tweet soulève une question fondamentale pour l'avenir de l'IA : comment s'assurer que des intelligences artificielles de plus en plus puissantes restent bénéfiques pour l'humanité, un débat crucial pour tous les passionnés."
       },
       {
-        "author_name": "Noam Brown",
-        "handle": "@polynoamial",
-        "text_fr": "L'un des articles de blog les plus intéressants que nous ayons publiés : détails sur l'accélération interne de la recherche chez @OpenAI. Je m'attends à ce que ces tendances se poursuivent. Nous partageons également quelques détails sur la façon dont nous avons rythmé le développement des modèles pour prioriser la surveillance, l'alignement et la sécurité. Kevin Liu (@kliu128) Aujourd'hui, nous publions des données sur l'accélération de la recherche par les modèles chez OpenAI. L'auto-amélioration récursive pourrait être le contributeur le plus important aux capacités de l'IA dans les années à venir, mais par défaut, elle ne sera visible qu'à l'intérieur de quelques laboratoires d'IA de pointe. La transparence est plus urgente que jamais, afin que nous puissions éclairer la discussion publique sur la question de savoir s'il faut ou non rythmer le développement des modèles et comment le faire. Je demande aux autres entreprises d'IA de faire de même. openai.com/index/research-ac… Lien Recherche Accélération : La vue à l'intérieur d'OpenAI À l'intérieur d'OpenAI, les agents de codage remodèlent la recherche en IA. Explorez les premières données sur l'utilisation des agents, la vitesse des expériences, la complexité des tâches et l'accélération de la recherche. openai.com",
-        "text_original": "One of the most interesting blog posts we've released: details on internal research acceleration at @OpenAI . I expect these trends to continue. We also share some details on how we've paced model development to prioritize monitoring, alignment, and security. Kevin Liu (@kliu128) Today we're releasing data on models accelerating research at OpenAI. Recursive self-improvement could be the most important contributor to AI capabilities over the next few years, but by default it will only be seen inside a few frontier AI labs. Being transparent is more urgent than ever, so we can inform the public discussion on whether and how to pace model development. I ask other AI companies to do the same. openai.com/index/research-ac… Link Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration. openai.com",
-        "link": "http://nitter.jaydenha.uk/polynoamial/status/2096638670703055312#m",
-        "decryptage": "L'auto-amélioration récursive est une méthode où une IA aide à améliorer les modèles d'IA futurs, créant un cycle d'amélioration continue.",
+        "author_name": "Arthur Mensch",
+        "handle": "@ArthurMensch",
+        "text_fr": "Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une levée de fonds de série D de 3 milliards d'euros, la plus grande jamais réalisée par une entreprise technologique européenne, seulement trois ans après son lancement.",
+        "text_original": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch.",
+        "link": "http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
+        "decryptage": "Une levée de fonds de série D est une étape de financement où une entreprise lève des capitaux auprès d'investisseurs pour accélérer sa croissance, souvent après plusieurs tours de financement précédents.",
         "category": "actu",
-        "highlight_reason": "Offre un aperçu surprenant des méthodes de recherche interne d'OpenAI et souligne l'importance de la transparence dans le développement rapide de l'IA."
-      },
-      {
-        "author_name": "Omar Sanseviero",
-        "handle": "@osanseviero",
-        "text_fr": "Félicitations Clem, Thom, Julien, Lysandre, et toute l'équipe Hugging Face. Fiers de vous tous ! L'impact de HF sur l'écosystème de l'IA a été massif, et je suis tellement, tellement impatient de les voir amplifier cet impact avec NVIDIA. Félicitations @JensenHuang, les légendes du ML rejoignent votre équipe :) clem 🤗 (@ClementDelangue) Super heureux de partager notre intention de nous unir à NVIDIA dans une acquisition de 12 930 300 000 $. 10 ans après le lancement de Hugging Face, l'IA open source est à un point d'inflexion. Grâce à la communauté, nous avons montré qu'elle peut être un complément, voire une alternative, aux API propriétaires. Mais pour qu'elle se développe à plus grande échelle, elle a besoin de plus de puissance de calcul, plus de soutien, plus de collaboration et plus de visibilité. C'est pourquoi nous sommes allés parler à Jensen, qui a proposé de faire exactement cela avec nous. En plus de doubler les contributions massives de NVIDIA à l'IA open source (je les ai appelés les \"Rois de l'IA open source américaine\" plus tôt cette année), ils se sont engagés à soutenir fortement Hugging Face et notre mission tout en gardant la plateforme ouverte, indépendante et agnostique vis-à-vis du calcul. Les fondateurs et l'équipe restent tous pour continuer à faire avancer cette mission. Ensemble, nous pensons pouvoir faire de l'open source le moyen par défaut de construire l'IA, dans le but de permettre à 100 millions de développeurs IA de posséder leur intelligence plutôt que de la louer. Impatients de voir les 10 prochaines années ! 🤗🤗🤗",
-        "text_original": "Congrats Clem, Thom, Julien, Lysandre, and the entire Hugging Face team. Proud of all of you! The impact of HF in the AI ecosystem has been massive, and I'm so so excited to see them scale that impact with NVIDIA Congrats @JensenHuang , the goats of ML are joining your team :) clem 🤗 (@ClementDelangue) Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 years after starting Hugging Face, open-source AI is at an inflection point. Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us. In addition to doubling down on NVIDIA’s massive contributions to open-source AI (I called them the “King of American open-source AI” earlier this year), they’ve committed to strongly supporting Hugging Face and our mission while keeping the platform open, independent and compute agnostic. The founders and the team are all staying to keep pushing this mission forward. Together, we think we can make open source the default way to build AI, with the goal of empowering 100 million AI builders to own their intelligence rather than rent it. Excited about the next 10 years! 🤗🤗🤗",
-        "link": "http://nitter.jaydenha.uk/osanseviero/status/2095493882834272497#m",
-        "decryptage": "L'acquisition de Hugging Face par NVIDIA vise à renforcer l'écosystème de l'IA open source en lui fournissant plus de ressources de calcul et de soutien.",
-        "category": "actu",
-        "highlight_reason": "Une annonce majeure qui redéfinit le paysage de l'IA open source, avec des implications fortes pour la communauté et l'accès à la technologie."
-      },
-      {
-        "author_name": "Mckay Wrigley",
-        "handle": "@mckaywrigley",
-        "text_fr": "GPT-6 Astra sort avec la même vibe que GPT-4. Une réelle étape de changement où l'IA peut faire des choses catégoriquement nouvelles. Il y a des multitudes de miracles enfouis dans ces poids... et j'ai hâte que nous les découvrions tous en les 'promptant'.",
-        "text_original": "gpt-6 astra release gives the same vibes as the gpt-4 release. a genuine step change where ai can do categorically new things. there are multitudes of miracles buried in those weights… and i very much look forward to all of us prompting them out.",
-        "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2095668883533557916#m",
-        "decryptage": "L'expression 'prompting' fait référence à l'art de poser des questions ou de donner des instructions à une IA pour obtenir les meilleurs résultats possibles.",
-        "category": "actu",
-        "highlight_reason": "Décrit l'impact potentiellement révolutionnaire de GPT-6 Astra, le comparant à la sortie de GPT-4, un moment clé dans l'histoire récente de l'IA."
+        "highlight_reason": "Cette levée de fonds record pour une entreprise européenne d'IA souligne la montée en puissance de l'Europe dans ce domaine, et l'importance de Mistral AI comme acteur majeur à suivre."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Beaucoup de buzz autour du modèle Astra d'OpenAI aujourd'hui, apparemment basé sur un article de The Information qui le décrit comme un \"recurrent depth or looped transformer\". C'est toujours intéressant de lire sur de nouvelles approches, mais déconstruisons ça. Il y a environ 2 mois, j'ai partagé les détails architecturaux de Nanbeige, par exemple, où 'Nanbeige4.2-3B est pré-entraîné à partir de zéro sur 28T tokens avec un Looped Transformer qui réutilise la pile de couches pour augmenter la capacité sans ajouter de paramètres.' L'idée du 'looped transformer' consiste simplement à réutiliser les couches dans le bloc transformer. Dans le cas de Nanbeige, l'idée principale est de réutiliser la même pile de 22 couches (= bloc transformer) deux fois au lieu d'une. Cela étend effectivement l'architecture de 22 couches à 44 couches, mais sans dupliquer les poids. En termes simples, cela double approximativement la taille du modèle (si l'on ignore les couches d'embedding et de sortie), mais au lieu de nécessiter 2x le stockage et la RAM, il reste de la même taille car les composants sont réutilisés. Cependant, le coût en calcul est presque doublé car le texte traité passe par presque 2x plus de couches. Les chercheurs de Nanbeige ont trouvé que deux passes donnaient le meilleur compromis, conservant environ 75% de l'efficacité d'une architecture standard. Bien que Nanbeige 4.2 soit le premier modèle open weight notable à adopter cette approche, l'idée remonte au papier NeurIPS \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Ce papier propose un mécanisme plus sophistiqué avec un routeur appris qui détermine si chaque token reçoit une, deux ou plusieurs passes, permettant aux tokens faciles de sortir tôt et aux plus difficiles de recevoir un calcul supplémentaire. En résumé, Astra est peut-être un bon modèle, mais l'aspect \"looped transformer\" n'est qu'une petite modification architecturale. De plus, l'affirmation selon laquelle \"la nouvelle technique fonctionne d'une manière qui occulte tout ou partie du raisonnement de l'IA, également connu sous le nom de 'chain-of-thought'\" n'est pas nécessairement vraie pour la méthode du 'looped transformer'. Il est possible que le journaliste fasse référence à une autre technique ou ait mal compris. La réutilisation des couches ne supprime pas intrinsèquement la 'chain-of-thought' visible ; elle ajoute du calcul dans les états cachés avant que le prochain token ne soit émis, tout comme les couches transformer ordinaires. Si un modèle utilise plus de ces passes récurrentes, il pourrait avoir besoin de générer moins de tokens de raisonnement intermédiaires, où une plus grande partie de son calcul se fait dans des activations latentes non lisibles en texte. Mais on obtiendrait le même effet en augmentant la taille du modèle.",
-          "text_original": "A lot of hype around OpenAI's Astra model here on my timeline today. Apparently, this goes back to a new article from The Information, which said Astra is a \"recurrent depth or looped transformer\". It's always interesting to read about new or different approaches (including rumors about what the closed labs may be up to), but let's debunk this a bit. About 2 months ago, I shared the architecture details of Nanbeige, for example, where \"Nanbeige4.2-3B is pretrained from scratch on 28T tokens with a Looped Transformer that reuses the layer stack to increase capacity without adding parameters.\" Yes, that's it. The looped transformer idea is just reusing layers in the transformer block. In the case of Nanbeige, the main idea is to reuse the same 22-layer stack (=transformer block) twice instead of once. So, effectively it extends the 22-layer architecture to 44 layers, but without duplicating the weights. In simple terms, this roughly doubles the size of the model (if we ignore the embedding and output layers for a second). But instead of requiring 2x the storage and RAM to host this model, it stays at the same size since we reuse the components. However, it's almost 2x as expensive in terms of compute, because we run the embedded text through almost 2x as many layers. Why? In the Nanbeige 4.2 technical report, the researchers found that two passes gave the best trade-off and retained about 75% of the token efficiency of a standard architecture. (More passes gave barely any gains but made the training much slower and much more expensive.) While, as far as I know, Nanbeige 4.2 is the first notable open-weight model that adopted this approach, the idea goes back to the NeurIPS paper \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Actually, this paper proposes a mechanism that is a bit more sophisticated by adding a learned router that determines whether each token receives one, two, or more passes. So, easy tokens can exit early while harder tokens receive additional computation. In sum, Astra may be a really good model, but this shouldn't be about this \"looped transformer aspect,\" which is just a tiny architectural tweak. Also, the statement \"the new technique works in a way that obscures some or all of the AI's reasoning, otherwise known as 'chain-of-thought'\" is not necessarily true with respect to the looped transformer method. It's possible that The Information journalist refers to some other technique or misunderstood the looped transformer method. Reusing layers does not by itself suppress visible chain of thought. It adds computation in hidden states before the next token is emitted, just as ordinary transformer layers do. But based on the information we have, the only plausible interpretation here is that if a model uses more of these recurrent passes, it may need to generate fewer intermediate reasoning tokens. So then more of its computation happens in latent activations that cannot be read as text. But we would get the same effect if we were scaling up the model size, like GPT 5.6 Luna -> GPT 5.6 Sol.",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
-          "decryptage": "Le 'looped transformer' est une façon d'améliorer la capacité d'une IA en faisant passer l'information plusieurs fois dans les mêmes couches de calcul, au lieu d'en ajouter de nouvelles."
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Nous réinitialisons les quotas Gemini sur Antigravity. Les TPU fondent avec l'utilisation de Gemini 3.8 Flash mais nous voulons que vous continuiez tous à créer !",
+          "text_original": "We’re resetting Gemini quotas on Antigravity. TPUs are melting with 3.8 Flash usage but we want you all to keep building!",
+          "link": "http://nitter.jaydenha.uk/_mohansolo/status/2095568203799806235#m",
+          "decryptage": "Il s'agit d'une annonce interne de Google concernant la gestion des ressources de calcul pour leurs modèles d'IA Gemini, où les TPU sont des puces spécialisées pour l'IA et 'Flash' une version optimisée."
         },
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Peut-être le meilleur tl;dr ici : L'aspect récurrent ('looped') ne cache pas explicitement les tokens de raisonnement. Certes, GPT 6 Astra utilise moins de tokens que GPT 5.6 Sol. Mais c'est parce que c'est un modèle plus intelligent en général (plus d'entraînement, plus grand, etc.). On observe la même chose dans les générations précédentes : Si l'on compare GPT 5.6 Sol avec GPT 5.6 Luna, Sol utilise ~46% de tokens de sortie en moins dans l'indice d'intelligence mais personne ne se plaint que Sol cache plus le raisonnement que Luna.",
-          "text_original": "Maybe the best tl;dr here is: The looped aspect is not explicitly hiding reasoning tokens. Sure, GPT 6 Astra uses fewer tokens than GPT 5.6 Sol. But that's because it's a smarter model in general (more training, bigger, etc). We can observe the same thing in previous generations: If we compare GPT 5.6 Sol with GPT 5.6 Luna, Sol uses ~46% fewer output tokens in the intelligence index but no one is complaining the Sol hides the reasoning more than Luna.",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2095871852711153742#m",
-          "decryptage": "L'indice d'intelligence mentionné est une mesure pour évaluer les capacités cognitives d'une IA, comme la résolution de problèmes."
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Félicitations @JensenHuang @ClementDelangue pour ce grand résultat ! Nous étions investisseurs dans Hugging Face et restons des partenaires, et cela renforcera l'écosystème des modèles ouverts ! Jensen Huang (@JensenHuang) Journée passionnante pour NVIDIA et @huggingface. Les modèles ouverts renforcent la sécurité et la cybersécurité, accélèrent l'innovation et la diffusion, et permettent la souveraineté. Ils permettent à chaque développeur, startup, université, industrie et pays de construire avec, personnaliser et bénéficier de l'IA. Merci @ClementDelangue d'être venu me voir. NVIDIA sera un excellent foyer pour Hugging Face, sa communauté et l'avenir des modèles ouverts. 🤗 blogs.nvidia.com/blog/nvidia… Lien NVIDIA acquiert Hugging Face NVIDIA a accepté d'acquérir Hugging Face. Ensemble, nous allons développer la plateforme Hugging Face, renforcer son infrastructure et étendre l'accès à l'IA pour les développeurs et les institutions du monde entier. blogs.nvidia.com",
+          "text_original": "Congrats @JensenHuang @ClementDelangue for this great outcome! We were investors in Huggingface and continue to be partners and this will strengthen the open model ecosystem! Jensen Huang (@JensenHuang) Exciting day for NVIDIA and @huggingface . Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty. They allow every developer, startup, university, industry and country to build with, customize and benefit from AI. Thank you @ClementDelangue for coming to me. NVIDIA is going to be a great home for Hugging Face, its community and the future of open models. 🤗 blogs.nvidia.com/blog/nvidia… Link NVIDIA to Acquire Hugging Face NVIDIA has agreed to acquire Hugging Face. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. blogs.nvidia.com",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095569375373984139#m",
+          "decryptage": "Les modèles ouverts sont des modèles d'IA dont le code et les données sont souvent accessibles à tous, permettant à chacun de les utiliser et de les améliorer, favorisant l'innovation."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "L'un des articles de blog les plus intéressants que nous ayons publiés : détails sur l'accélération interne de la recherche chez @OpenAI. Je m'attends à ce que ces tendances se poursuivent. Nous partageons également quelques détails sur la façon dont nous avons rythmé le développement des modèles pour prioriser la surveillance, l'alignement et la sécurité. Kevin Liu (@kliu128) Aujourd'hui, nous publions des données sur l'accélération de la recherche par les modèles chez OpenAI. L'auto-amélioration récursive pourrait être le contributeur le plus important aux capacités de l'IA dans les années à venir, mais par défaut, elle ne sera visible qu'à l'intérieur de quelques laboratoires d'IA de pointe. La transparence est plus urgente que jamais, afin que nous puissions éclairer la discussion publique sur la question de savoir s'il faut ou non rythmer le développement des modèles et comment le faire. Je demande aux autres entreprises d'IA de faire de même. openai.com/index/research-ac… Lien Recherche Accélération : La vue à l'intérieur d'OpenAI À l'intérieur d'OpenAI, les agents de codage remodèlent la recherche en IA. Explorez les premières données sur l'utilisation des agents, la vitesse des expériences, la complexité des tâches et l'accélération de la recherche. openai.com",
-          "text_original": "One of the most interesting blog posts we've released: details on internal research acceleration at @OpenAI . I expect these trends to continue. We also share some details on how we've paced model development to prioritize monitoring, alignment, and security. Kevin Liu (@kliu128) Today we're releasing data on models accelerating research at OpenAI. Recursive self-improvement could be the most important contributor to AI capabilities over the next few years, but by default it will only be seen inside a few frontier AI labs. Being transparent is more urgent than ever, so we can inform the public discussion on whether and how to pace model development. I ask other AI companies to do the same. openai.com/index/research-ac… Link Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration. openai.com",
-          "link": "http://nitter.jaydenha.uk/polynoamial/status/2096638670703055312#m",
-          "decryptage": "L'auto-amélioration récursive est une méthode où une IA aide à améliorer les modèles d'IA futurs, créant un cycle d'amélioration continue."
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Nous introduisons également Gemini 3.8 Flash Cyber, notre modèle de cybersécurité le plus performant. Il affiche des performances de pointe dans la découverte de vulnérabilités et leur correction à grande échelle, avec une vitesse et un coût de niveau Flash. Cela inclut l'obtention de 86,2 % sur l'important benchmark industriel CyberGym, plus 47,2 % sur CWE-Bench pour la correction. Nous avons constaté un taux de réussite de plus de 70 % dans la découverte de vulnérabilités à travers 20 langages de programmation sur notre benchmark interne.",
+          "text_original": "We’re also introducing Gemini 3.8 Flash Cyber, our most capable cybersecurity model. It shows frontier-level performance in discovering vulnerabilities and patching them at scale, with Flash-level speed & pricing. That includes achieving 86.2% on the important CyberGym industry benchmark, plus 47.2% on CWE-Bench for patching. We saw a 70%+ success rate in discovering vulnerabilities across 20 programming languages on our internal benchmark.",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095184464800526655#m",
+          "decryptage": "Ce nouveau modèle d'IA, Gemini 3.8 Flash Cyber, est conçu pour trouver et corriger très rapidement les failles de sécurité (vulnérabilités) dans les programmes informatiques, un peu comme un détective et un réparateur ultra-rapide pour le code."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Oui, le blog est sexy, mais je recommande vivement de lire aussi la carte système. Nous partageons de nombreuses évaluations et analyses que nous avons effectuées sur l'alignement de ce modèle et discutons des défis continus pour l'alignement et la surveillance.",
-          "text_original": "Yes the blog is sexy but also highly recommend reading through the system card. We share a lot of evals and analysis we ran on the alignment of this model and discuss continued challenges for both alignment and monitoring.",
-          "link": "http://nitter.jaydenha.uk/kaicathyc/status/2095636357129629754#m",
-          "decryptage": "La 'carte système' est un document qui détaille les caractéristiques, les capacités et les limites d'un modèle d'IA, y compris les questions de sécurité et d'éthique ('alignement')."
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Au-delà des benchmarks, nous constatons des cas d'utilisation impressionnants dans le monde réel. Par exemple, lors d'évaluations sur de véritables bugs de sécurité de Chrome, Gemini 3.8 Flash Cyber a produit 2,6 fois plus de correctifs corrects pour les vulnérabilités que les modèles plus grands. En raison de ses capacités avancées, nous donnons aux agences gouvernementales et aux partenaires de cybersécurité un accès via le programme Fairwind, lisez-en plus ici : blog.google/innovation-and-a… Lien Cyberdéfense proactive pour les gouvernements et les entreprises Le programme Fairwind est un programme à accès limité permettant aux gouvernements et aux partenaires de confiance d'utiliser nos outils de cyberdéfense. blog.google",
+          "text_original": "Beyond benchmarks, we’re seeing impressive real-world use cases. For example, in evaluations on real Chrome security bugs, 3.8 Flash Cyber produced 2.6x more correct patches for vulnerabilities than larger models. Because of its advanced capabilities, we're giving Government agencies & cybersecurity partners access through the Fairwind program, read more: blog.google/innovation-and-a… Link Proactive cyber defense for governments and enterprises The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools. blog.google",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095184468059492457#m",
+          "decryptage": "Ce modèle d'IA a prouvé son efficacité en situation réelle, et Google le met à disposition de certains acteurs clés (agences gouvernementales, partenaires) via le programme Fairwind pour renforcer la sécurité informatique."
         },
         {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Félicitations Clem, Thom, Julien, Lysandre, et toute l'équipe Hugging Face. Fiers de vous tous ! L'impact de HF sur l'écosystème de l'IA a été massif, et je suis tellement, tellement impatient de les voir amplifier cet impact avec NVIDIA. Félicitations @JensenHuang, les légendes du ML rejoignent votre équipe :) clem 🤗 (@ClementDelangue) Super heureux de partager notre intention de nous unir à NVIDIA dans une acquisition de 12 930 300 000 $. 10 ans après le lancement de Hugging Face, l'IA open source est à un point d'inflexion. Grâce à la communauté, nous avons montré qu'elle peut être un complément, voire une alternative, aux API propriétaires. Mais pour qu'elle se développe à plus grande échelle, elle a besoin de plus de puissance de calcul, plus de soutien, plus de collaboration et plus de visibilité. C'est pourquoi nous sommes allés parler à Jensen, qui a proposé de faire exactement cela avec nous. En plus de doubler les contributions massives de NVIDIA à l'IA open source (je les ai appelés les \"Rois de l'IA open source américaine\" plus tôt cette année), ils se sont engagés à soutenir fortement Hugging Face et notre mission tout en gardant la plateforme ouverte, indépendante et agnostique vis-à-vis du calcul. Les fondateurs et l'équipe restent tous pour continuer à faire avancer cette mission. Ensemble, nous pensons pouvoir faire de l'open source le moyen par défaut de construire l'IA, dans le but de permettre à 100 millions de développeurs IA de posséder leur intelligence plutôt que de la louer. Impatients de voir les 10 prochaines années ! 🤗🤗🤗",
-          "text_original": "Congrats Clem, Thom, Julien, Lysandre, and the entire Hugging Face team. Proud of all of you! The impact of HF in the AI ecosystem has been massive, and I'm so so excited to see them scale that impact with NVIDIA Congrats @JensenHuang , the goats of ML are joining your team :) clem 🤗 (@ClementDelangue) Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 years after starting Hugging Face, open-source AI is at an inflection point. Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us. In addition to doubling down on NVIDIA’s massive contributions to open-source AI (I called them the “King of American open-source AI” earlier this year), they’ve committed to strongly supporting Hugging Face and our mission while keeping the platform open, independent and compute agnostic. The founders and the team are all staying to keep pushing this mission forward. Together, we think we can make open source the default way to build AI, with the goal of empowering 100 million AI builders to own their intelligence rather than rent it. Excited about the next 10 years! 🤗🤗🤗",
-          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095493882834272497#m",
-          "decryptage": "L'acquisition de Hugging Face par NVIDIA vise à renforcer l'écosystème de l'IA open source en lui fournissant plus de ressources de calcul et de soutien."
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Parallèlement au lancement de GPT-6 Astra, nous nous engageons à verser 1 milliard de dollars pour subventionner l'accès à Daybreak et aux capacités de pointe afin d'aider les défenseurs de première ligne à protéger les services essentiels et les infrastructures critiques. Bienvenue dans l'ère de l'AGI pour la cybersécurité. openai.com/index/daybreak-fo… Lien Daybreak pour les défenseurs de première ligne : 1 milliard de dollars pour protéger les services essentiels OpenAI présente Daybreak pour les défenseurs de première ligne. Un engagement d'un milliard de dollars élargit l'accès à l'IA cybernétique de pointe, à la formation et au support pour les services essentiels. openai.com",
+          "text_original": "Alongside the launch of GPT-6 Astra, we're committing $1 billion to subsidize Daybreak access and frontier capabilities to help frontline defenders protect essential services and critical infrastructure. Welcome to the AGI era for cybersecurity. openai.com/index/daybreak-fo… Link Daybreak for Frontline Defenders: $1B to protect essential services OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services. openai.com",
+          "link": "http://nitter.jaydenha.uk/fouadmatin/status/2095634888951250983#m",
+          "decryptage": "OpenAI lance un programme de soutien financier (Daybreak) pour que les services d'urgence et les infrastructures vitales puissent utiliser leur IA avancée (GPT-6 Astra) pour améliorer leur cybersécurité, marquant une nouvelle étape dans l'application de l'IA à ce domaine."
         },
         {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "5 ans auparavant, l'ouverture du premier \"bureau\" Hugging Face en Suisse, chez moi 🤗 Impatients pour l'équipe HF et ce qui nous attend !",
-          "text_original": "5 years ago opening the first Hugging Face \"office\" in Switzerland at my place 🤗 Excited for the HF team and what's ahead!",
-          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095571440644804812#m",
-          "decryptage": null
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une levée de fonds de série D de 3 milliards d'euros, la plus grande jamais réalisée par une entreprise technologique européenne, seulement trois ans après son lancement.",
+          "text_original": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch.",
+          "link": "http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
+          "decryptage": "Une levée de fonds de série D est une étape de financement où une entreprise lève des capitaux auprès d'investisseurs pour accélérer sa croissance, souvent après plusieurs tours de financement précédents."
         },
         {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Gemini 3.8 est là🔥 Le construire ces derniers jours a été une expérience très amusante ! Les progrès de ces derniers mois ont été impressionnants. C'est un modèle 'agentic' très complet, performant dans de nombreux domaines (finance/légal/etc) et modalités. Il est temps de construire !",
-          "text_original": "Gemini 3.8 is here🔥 Building with it for the last couple of days has been a very fun experience! The progress in the last months has been impressive. It's a very well rounded agentic model, performing well in many domains (finance/legal/etc) and modalities Time to build!",
-          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095180888921276643#m",
-          "decryptage": "Un modèle 'agentic' est capable d'agir de manière autonome pour accomplir des tâches, un peu comme un assistant."
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Bravo à Mistral pour sa nouvelle levée de fonds record. ASML il y a un an, Samsung aujourd’hui : Mistral démontre sa capacité à nouer des partenariats stratégiques avec les plus grands acteurs industriels pour hisser l’Europe parmi les grandes puissances mondiales de l’IA. C’est tout le sens de la vision que nous portons avec le Président de la Corée du Sud : construire ensemble une troisième voie dans l’IA en rassemblant nos forces et nos acteurs. Et ce n’est que le début !",
+          "text_original": null,
+          "link": "http://nitter.jaydenha.uk/EmmanuelMacron/status/2097254072441045256#m",
+          "decryptage": "L'expression 'troisième voie dans l'IA' suggère une approche distincte du développement de l'intelligence artificielle, différente de celles des géants américains ou chinois, souvent axée sur la souveraineté européenne et les valeurs éthiques."
         },
         {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Gemini 3.8 Flash sur DeepSWE 1.1, obtient 73.7 % !",
-          "text_original": "Gemini 3.8 Flash on DeepSWE 1.1, scores 73.7%!",
-          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095178478505328918#m",
-          "decryptage": "DeepSWE est probablement un benchmark, c'est-à-dire un test standardisé pour évaluer les performances d'un modèle d'IA."
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons notre capacité de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux -- Paris, Palo Alto, SF, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une levée de fonds de série D de 3 milliards d'euros, la plus grande levée de fonds jamais réalisée par une entreprise technologique européenne, seulement trois ans après son lancement.",
+          "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch.",
+          "link": "http://nitter.jaydenha.uk/GuillaumeLample/status/2097256830091014515#m",
+          "decryptage": "La R&D (Recherche et Développement) est l'activité d'innovation, et le 'training and inference compute' fait référence aux ressources informatiques utilisées pour entraîner les modèles d'IA (leur apprendre) et pour les faire fonctionner (générer des réponses)."
         },
         {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Présentation de Gemini 3.8 Flash, un autre bond en avant dans les capacités 'agentic' et de codage de Gemini, et notre 3ème modèle Flash mis à jour en seulement 6 semaines... Ce modèle a été très amusant à utiliser, impatient de voir ce que vous en pensez !",
-          "text_original": "Introducing Gemini 3.8 Flash, another jump in Gemini's agentic + coding capabilities, and our 3rd updated Flash model in only 6 weeks... This model has been a ton of fun to work with, excited to see what you all think!",
-          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175881690173885#m",
-          "decryptage": "Les capacités 'agentic' permettent à une IA d'agir de manière autonome pour accomplir des tâches."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "3.8 Flash a le même prix que 3.7, est à peu près à la même vitesse, et est disponible via l'API Gemini, dans AI Studio, Antigravity, l'application Gemini, et plus encore ! En savoir plus : blog.google/innovation-and-a… Incroyable de voir les progrès et le travail acharné de l'équipe. Poussons fort pour être à la frontière. Lien Introduction de Gemini 3.8 Flash et 3.8 Flash Cyber Gemini 3.8 Flash et 3.8 Flash Cyber offrent une intelligence de nouvelle génération pour les flux de travail 'agentic' et la cybersécurité. blog.google",
-          "text_original": "3.8 Flash is the same price as 3.7, is ~the same speed, and is available via the Gemini API, in AI Studio, Antigravity, Gemini App, and more! Read more: blog.google/innovation-and-a… So incredible to see the progress and hard work from the team. Pushing hard to be at the frontier. Link Introducing Gemini 3.8 Flash and 3.8 Flash Cyber Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity. blog.google",
-          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175885439832243#m",
-          "decryptage": "L'API Gemini est une interface qui permet aux développeurs d'intégrer les capacités des modèles Gemini dans leurs propres applications."
-        },
-        {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "GPT-6 Astra sort avec la même vibe que GPT-4. Une réelle étape de changement où l'IA peut faire des choses catégoriquement nouvelles. Il y a des multitudes de miracles enfouis dans ces poids... et j'ai hâte que nous les découvrions tous en les 'promptant'.",
-          "text_original": "gpt-6 astra release gives the same vibes as the gpt-4 release. a genuine step change where ai can do categorically new things. there are multitudes of miracles buried in those weights… and i very much look forward to all of us prompting them out.",
-          "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2095668883533557916#m",
-          "decryptage": "L'expression 'prompting' fait référence à l'art de poser des questions ou de donner des instructions à une IA pour obtenir les meilleurs résultats possibles."
-        },
-        {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "De loin les meilleures démos et expériences depuis GPT-4. Je ne sais pas si vous vous souvenez, mais cet été-là était rempli d'expériences étranges et folles. Les gens n'avaient aucune idée des limites. Finalement, le modèle n'était pas assez bon, mais GPT-6 Astra l'est probablement. J'espère que nous verrons le même niveau d'expérimentation et d'ambition que cet été-là, seulement cette fois, cela fonctionnera et portera ses fruits de manière infiniment intéressante. Très enthousiasmé par celui-ci.",
-          "text_original": "By far the best demos and experiments since GPT-4. Idk who remembers this, but that summer was just packed with weird and wacky experiments. People had no idea what the limits were. Ultimately the model wasn’t good enough but GPT-6 Astra probably is. I hope we see that same level of experimentation and ambition from that summer, only this time it will work and pay off in endlessly interesting ways. Pretty stoked about this one.",
-          "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2095669770272313464#m",
-          "decryptage": null
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Nous venons de lever 3 milliards d'euros pour développer notre capacité de calcul pour l'entraînement et l'inférence, et faire de l'IA ouverte et souveraine la nouvelle frontière technologique. Reconnaissants envers tous ceux qui nous ont aidés, nous sommes enthousiastes pour la bataille à venir mistral.ai/news/mistral-make… Lien Faire de l'IA ouverte et souveraine la frontière technologique | Mistral Mistral a annoncé aujourd'hui avoir levé 3 milliards d'euros lors d'un tour de financement de série D, valorisant l'entreprise à plus de 21 milliards d'euros après investissement.",
+          "text_original": "We've just raised 3B€ to scale our training and inference compute, and make open and sovereign AI the technology frontier. Grateful to everyone who got us there, excited by the fight ahead mistral.ai/news/mistral-make… Link Making sovereign, open-weight AI the technology frontier | Mistral Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion. mistral.ai",
+          "link": "http://nitter.jaydenha.uk/arthurmensch/status/2097232588490379686#m",
+          "decryptage": "L'IA ouverte et souveraine fait référence à des modèles d'intelligence artificielle dont le développement et le contrôle restent au sein d'une région ou d'un pays, et dont les technologies sont accessibles et transparentes, renforçant l'autonomie technologique."
         }
       ],
       "tips": [
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Une vidéo expliquant le processus de génération de texte dans les LLM et le fonctionnement du 'KV caching' (pour préparer le modèle de base avant d'ajouter des techniques de raisonnement dans les prochaines versions). La vidéo couvre l'introduction et une démo du modèle de raisonnement, le passage en revue du chapitre 2 du livre, le support PyTorch et matériel, les spécificités d'Apple Silicon et MPS, les options de GPU cloud, les tokens et la tokenisation, Qwen3 et le package Reasoning From Scratch, l'encodage et décodage de texte, le téléchargement des poids et la sélection d'un appareil, le chargement du modèle Qwen3 pré-entraîné, comment les LLM génèrent du texte, les tenseurs d'entrée et les dimensions de batch, l'exécution du modèle en mode inférence, les logits et les prédictions du prochain token, le décodage 'greedy' avec argmax, la construction d'un générateur de texte en streaming, la génération de texte et la gestion des tokens de fin de séquence, le benchmarking de la génération de texte, le fonctionnement du 'KV caching', l'ajout du 'KV caching' et la mesure de l'accélération, la compilation du modèle avec torch.compile, la combinaison de la compilation avec le 'KV caching', et la comparaison des performances CPU et GPU.",
-          "text_original": "Reasoning from scratch round 2: In this video, I cover the text generation process in LLMs and KV caching (to prepare the base model before adding reasoning techniques in the upcoming ones). 00:00 Introduction and reasoning model demo 01:55 How to work through the book 05:00 Chapter 2 overview 08:25 Checking PyTorch and hardware support 10:26 Apple silicon and MPS caveats 15:00 Cloud GPU options 16:08 Tokens and tokenization 18:20 Qwen3 and the Reasoning From Scratch package 23:05 Encoding and decoding text 26:24 Downloading weights and selecting a device 31:01 Loading the pretrained Qwen3 model 34:32 How LLMs generate text 36:47 Input tensors and batch dimensions 41:48 Running the model in inference mode 44:11 Logits and next-token predictions 49:21 Greedy decoding with argmax 52:28 Building a streaming text generator 01:01:28 Generating text and handling end-of-sequence tokens 01:06:00 Benchmarking text generation 01:14:34 How KV caching works 01:17:22 Adding KV caching and measuring the speedup 01:24:31 Model compilation with torch.compile 01:30:33 Combining compilation with KV caching 01:32:53 Comparing CPU and GPU performance 01:35:32 Recap and next steps Video",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2096596372661113294#m",
-          "decryptage": "Cette vidéo détaille comment les IA génèrent du texte et utilise une technique nommée 'KV caching' pour rendre le processus plus rapide."
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Mon plus grand moment \"waouh\" en utilisant GPT-6 Astra n'avait rien à voir avec les publications visuelles que vous avez vues... Ne vous méprenez pas, elles sont géniales et amusantes... Mais le plus grand moment \"waouh\" a été quand j'ai donné à Astra le contexte de tout ce qui concerne mon entreprise, puis que je lui ai donné le prompt ci-dessous. E-mail, Slack, SMS professionnels, Notion, et toutes les notes de réunion... tout ce que j'ai fait (ce qui implique environ 20 projets différents avec de nombreuses équipes au cours des derniers mois)... Voici le prompt que j'ai utilisé, qui n'était pas vraiment bien pensé, juste un flot de divagations... Tout ce que je peux dire, c'est que la réponse à ce prompt a été la chose la plus utile qu'une IA m'ait jamais donnée... \"\"Je suis sur le point de planifier le mois, le trimestre et l'année à venir\" Créez un document qui m'aligne sur toutes ces périodes. Recherchez mes défauts, mes forces, et mettez-les en évidence. Examinez TOUTES mes activités, quelles activités pensez-vous que je perds le plus de temps. Quelles activités devrais-je faire davantage ? Parmi les personnes avec qui je travaille, qui semble le plus fiable ? Où suis-je le moins fiable ? Si je ne pouvais me perfectionner que dans un seul domaine au cours de l'année prochaine, quel serait-il et pourquoi ? Comment pourrais-je mieux organiser mon entreprise, et comment le ferais-je ? Utilisez du texte si nécessaire, utilisez des graphiques/visuels si nécessaire, mais ne remplissez jamais d'espace juste pour le plaisir. Chaque graphique et chaque mot doivent avoir de l'importance. Je veux tout savoir sur les finances, les relations, le modèle commercial, tout. \"\"",
+          "text_original": "My biggest wow moment using GPT 6 Astra had nothing to do with the visual posts you've been seeing... Don't get me wrong, those are awesome and fun... But the biggest wow moment was when I gave Astra context over everything about my business and then gave it the prompt below. Email, Slack, Business Texts, Notion, and every meeting note... everything I've been doing (Which involves like 20 different projects with many teams over the past few months)... Here's the prompt I used which was not really well thought out just a wispr flow ramble... All I can say is the response to this prompt was the most useful thing an AI has ever given me... \"\"I'm about to plan the next month, quarter, and year\" Make one document that aligns me on all of those timeframes. Look for my flaws, look for my strengths, and highlight those. Look at ALL of my activities, which activities do you think i'm wasting the most time. Which activities should I do more of? Of the people I work with who seem the most dependable? Where am I the least dependable? If I could only upskill in one area over the next year what would it be and why? Where can I organize my company better, and how would I do that? Use text when necessary, use charts/visuals when necessary, but never ever fill space for the sake of it. Every graphic and word should matter. I want to know about finances, relationships, business model, everything. \"\"",
+          "link": "http://nitter.jaydenha.uk/rileybrown/status/2095650681755521030#m",
+          "decryptage": "Un prompt est l'instruction ou la question que l'on donne à une IA pour qu'elle génère une réponse, et le contexte, c'est l'ensemble des informations supplémentaires fournies à l'IA pour qu'elle comprenne mieux la situation."
         },
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Et voici la version YouTube : piped.video/BJua0yjO5dk Lien Construire un modèle de raisonnement à partir de zéro 2 : Chargement d'un modèle de base, génération de texte et 'KV caching' J'ai remarqué que l'audio est désynchronisé et qu'une nouvelle version de la vidéo...",
-          "text_original": "And here's the YouTube version: piped.video/BJua0yjO5dk Link Build A Reasoning Model Scratch 2: Loading a Base Model, Text Generation, and KV Caching I noticed the audio is out of sync and a new version of the video i...",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2096596377845346381#m",
-          "decryptage": "Le 'KV caching' est une optimisation technique pour accélérer la génération de texte par les modèles d'IA."
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "La version YT de ceci : piped.video/watch?v=KT4n-z_4… Lien OpenAI Astra et Profondeur Récurrente / Looped Transformers Une courte vidéo expliquant la profondeur récurrente supposée (transformeur en boucle)...",
-          "text_original": "The YT version of this: piped.video/watch?v=KT4n-z_4… Link OpenAI Astra and Recurrent Depth / Looped Transformers A short video explaining the rumored recurrent depth (looped transf...",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2095288516309569644#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "Je pense aussi que vous devriez probablement prendre cette semaine \"de congé\" du travail régulier et vous concentrer entièrement sur la construction de nouveaux systèmes avec GPT-6 Astra et Fable 5.1. Une nouvelle génération de capacités justifie de démolir les anciennes choses et de mettre à niveau les flux de travail - l'investissement en temps se rentabilise étonnamment rapidement. Le travail \"construire le système qui construit le système\" consiste de plus en plus à savoir déléguer efficacement votre propre vision, goût et idées à votre flotte personnelle d'intelligences machine. Et notamment, pour la 1ère fois, les boucles d'auto-amélioration fonctionnent *vraiment bien*, et je pense que c'est là que se trouve la majeure partie de l'alpha ('alpha' = avantage concurrentiel) en ce moment.",
-          "text_original": "i also think you should probably take this week “off” from regular work and completely focus on building new systems with gpt-6 astra and fable 5.1. a new generation of capabilities warrants ripping out the old stuff and upgrading workflows - the time investment pays for itself shockingly quickly. “build the system that builds the system” work is now increasingly about how effectively you can delegate your own vision, taste, & ideas to your personal fleet of machine intelligences. and notably, for the 1st time self-improving loops actually work *really well*, and i think this is where most of the alpha is rn.",
-          "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2096271888263852333#m",
-          "decryptage": "Un 'système qui construit le système' fait référence à l'utilisation de l'IA pour créer ou améliorer d'autres systèmes IA, créant un cycle de développement automatisé."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Peut-être une excellente opportunité d'utiliser les implémentations de Transformer de TF 2.0 de @huggingface :)",
+          "text_original": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/1188942956511690752#m",
+          "decryptage": "Les Transformers sont une architecture de modèle d'IA très puissante, notamment pour le traitement du langage, et TensorFlow (TF) est un autre cadre de travail pour le développement d'IA, souvent utilisé avec Hugging Face."
         }
       ],
       "idees": [
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Beaucoup de buzz autour du modèle Astra d'OpenAI aujourd'hui, apparemment basé sur un article de The Information qui le décrit comme un \"recurrent depth or looped transformer\". C'est toujours intéressant de lire sur de nouvelles approches, mais déconstruisons ça. Il y a environ 2 mois, j'ai partagé les détails architecturaux de Nanbeige, par exemple, où 'Nanbeige4.2-3B est pré-entraîné à partir de zéro sur 28T tokens avec un Looped Transformer qui réutilise la pile de couches pour augmenter la capacité sans ajouter de paramètres.' L'idée du 'looped transformer' consiste simplement à réutiliser les couches dans le bloc transformer. Dans le cas de Nanbeige, l'idée principale est de réutiliser la même pile de 22 couches (= bloc transformer) deux fois au lieu d'une. Cela étend effectivement l'architecture de 22 couches à 44 couches, mais sans dupliquer les poids. En termes simples, cela double approximativement la taille du modèle (si l'on ignore les couches d'embedding et de sortie), mais au lieu de nécessiter 2x le stockage et la RAM, il reste de la même taille car les composants sont réutilisés. Cependant, le coût en calcul est presque doublé car le texte traité passe par presque 2x plus de couches. Les chercheurs de Nanbeige ont trouvé que deux passes donnaient le meilleur compromis, conservant environ 75% de l'efficacité d'une architecture standard. Bien que Nanbeige 4.2 soit le premier modèle open weight notable à adopter cette approche, l'idée remonte au papier NeurIPS \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Ce papier propose un mécanisme plus sophistiqué avec un routeur appris qui détermine si chaque token reçoit une, deux ou plusieurs passes, permettant aux tokens faciles de sortir tôt et aux plus difficiles de recevoir un calcul supplémentaire. En résumé, Astra est peut-être un bon modèle, mais l'aspect \"looped transformer\" n'est qu'une petite modification architecturale. De plus, l'affirmation selon laquelle \"la nouvelle technique fonctionne d'une manière qui occulte tout ou partie du raisonnement de l'IA, également connu sous le nom de 'chain-of-thought'\" n'est pas nécessairement vraie pour la méthode du 'looped transformer'. Il est possible que le journaliste fasse référence à une autre technique ou ait mal compris. La réutilisation des couches ne supprime pas intrinsèquement la 'chain-of-thought' visible ; elle ajoute du calcul dans les états cachés avant que le prochain token ne soit émis, tout comme les couches transformer ordinaires. Si un modèle utilise plus de ces passes récurrentes, il pourrait avoir besoin de générer moins de tokens de raisonnement intermédiaires, où une plus grande partie de son calcul se fait dans des activations latentes non lisibles en texte. Mais on obtiendrait le même effet en augmentant la taille du modèle.",
-          "text_original": "A lot of hype around OpenAI's Astra model here on my timeline today. Apparently, this goes back to a new article from The Information, which said Astra is a \"recurrent depth or looped transformer\". It's always interesting to read about new or different approaches (including rumors about what the closed labs may be up to), but let's debunk this a bit. About 2 months ago, I shared the architecture details of Nanbeige, for example, where \"Nanbeige4.2-3B is pretrained from scratch on 28T tokens with a Looped Transformer that reuses the layer stack to increase capacity without adding parameters.\" Yes, that's it. The looped transformer idea is just reusing layers in the transformer block. In the case of Nanbeige, the main idea is to reuse the same 22-layer stack (=transformer block) twice instead of once. So, effectively it extends the 22-layer architecture to 44 layers, but without duplicating the weights. In simple terms, this roughly doubles the size of the model (if we ignore the embedding and output layers for a second). But instead of requiring 2x the storage and RAM to host this model, it stays at the same size since we reuse the components. However, it's almost 2x as expensive in terms of compute, because we run the embedded text through almost 2x as many layers. Why? In the Nanbeige 4.2 technical report, the researchers found that two passes gave the best trade-off and retained about 75% of the token efficiency of a standard architecture. (More passes gave barely any gains but made the training much slower and much more expensive.) While, as far as I know, Nanbeige 4.2 is the first notable open-weight model that adopted this approach, the idea goes back to the NeurIPS paper \"Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation\". Actually, this paper proposes a mechanism that is a bit more sophisticated by adding a learned router that determines whether each token receives one, two, or more passes. So, easy tokens can exit early while harder tokens receive additional computation. In sum, Astra may be a really good model, but this shouldn't be about this \"looped transformer aspect,\" which is just a tiny architectural tweak. Also, the statement \"the new technique works in a way that obscures some or all of the AI's reasoning, otherwise known as 'chain-of-thought'\" is not necessarily true with respect to the looped transformer method. It's possible that The Information journalist refers to some other technique or misunderstood the looped transformer method. Reusing layers does not by itself suppress visible chain of thought. It adds computation in hidden states before the next token is emitted, just as ordinary transformer layers do. But based on the information we have, the only plausible interpretation here is that if a model uses more of these recurrent passes, it may need to generate fewer intermediate reasoning tokens. So then more of its computation happens in latent activations that cannot be read as text. But we would get the same effect if we were scaling up the model size, like GPT 5.6 Luna -> GPT 5.6 Sol.",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2095141254958858496#m",
-          "decryptage": "Le 'looped transformer' est une façon d'améliorer la capacité d'une IA en faisant passer l'information plusieurs fois dans les mêmes couches de calcul, au lieu d'en ajouter de nouvelles."
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Peut-être le meilleur tl;dr ici : L'aspect récurrent ('looped') ne cache pas explicitement les tokens de raisonnement. Certes, GPT 6 Astra utilise moins de tokens que GPT 5.6 Sol. Mais c'est parce que c'est un modèle plus intelligent en général (plus d'entraînement, plus grand, etc.). On observe la même chose dans les générations précédentes : Si l'on compare GPT 5.6 Sol avec GPT 5.6 Luna, Sol utilise ~46% de tokens de sortie en moins dans l'indice d'intelligence mais personne ne se plaint que Sol cache plus le raisonnement que Luna.",
-          "text_original": "Maybe the best tl;dr here is: The looped aspect is not explicitly hiding reasoning tokens. Sure, GPT 6 Astra uses fewer tokens than GPT 5.6 Sol. But that's because it's a smarter model in general (more training, bigger, etc). We can observe the same thing in previous generations: If we compare GPT 5.6 Sol with GPT 5.6 Luna, Sol uses ~46% fewer output tokens in the intelligence index but no one is complaining the Sol hides the reasoning more than Luna.",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2095871852711153742#m",
-          "decryptage": "L'indice d'intelligence mentionné est une mesure pour évaluer les capacités cognitives d'une IA, comme la résolution de problèmes."
-        },
-        {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "D'accord. Je sais qu'il y a une rivalité entre les laboratoires, mais il est important que nous apprenions à travailler ensemble étant donné ce qui arrive. Sholto Douglas (@_sholtodouglas) Il est extrêmement regrettable que cela ne se soit pas terminé en exemple de la façon dont les laboratoires pourraient coopérer/se coordonner, car les enjeux seront tellement plus élevés à l'avenir. — http://nitter.jaydenha.uk/_sholtodouglas/status/2097224624274911368#m",
-          "text_original": "Strong agree. I know that there is rivalry between the labs but it's important that we learn to work together given what's coming. Sholto Douglas (@_sholtodouglas) It is extremely sad that this didn't end up as an example of how the labs could cooperate/coordinate, because the stakes will be so much higher in the future. — http://nitter.jaydenha.uk/_sholtodouglas/status/2097224624274911368#m",
-          "link": "http://nitter.jaydenha.uk/polynoamial/status/2097225279366414541#m",
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Voici comment l'air se déplace réellement dans votre maison Vidéo",
+          "text_original": "This Is How Air Actually Moves Through Your Home Video",
+          "link": "http://nitter.jaydenha.uk/stemexplor/status/2096917764296610039#m",
           "decryptage": null
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Seb est un gars vraiment sympa avec de bonnes intentions, je suis tellement heureux pour lui que sa collaboration d'une semaine avec moi et d'autres ait fonctionné, mais très triste que nous n'ayons pas pu la terminer comme nous le voulions. Plus à dire demain. Sebastien Bubeck (@SebastienBubeck) Une série d'allégations fausses et incendiaires à mon encontre circulent actuellement sur les réseaux sociaux. Pour clarifier, je suis intervenu dans la discussion en suivant les normes académiques, et je suis déçu que nous en soyons arrivés là. Quiconque me connaît sait que les normes académiques sont de la plus haute importance pour moi. J'en dirai plus demain. — http://nitter.jaydenha.uk/SebastienBubeck/status/2097214122471432349#m",
-          "text_original": "Seb is a really sweet guy with great intentions, am so happy for him that his week long collaboration with myself and others worked out, but very sad that we didn't get to finish it in the way we wanted. More to say tomorrow. Sebastien Bubeck (@SebastienBubeck) A series of false and inflammatory allegations against me are currently circulating on social channels. To clarify, I came into the discussion following academic norms, and I'm disappointed that it has come to this. Anyone who knows me knows that academic standards are of the highest importance to me. Will have more to say tomorrow. — http://nitter.jaydenha.uk/SebastienBubeck/status/2097214122471432349#m",
-          "link": "http://nitter.jaydenha.uk/polynoamial/status/2097215233119211902#m",
-          "decryptage": null
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "D'accord avec @JensenHuang : nous entrons dans l'ère de l'AGI. L'ère de l'AGI doit aussi être l'ère de l'alignement. Nous devons apprendre à l'IA à aimer l'humanité et former des moniteurs d'IA aussi capables que les IA qu'ils supervisent. Le mieux est dit par @merettm dans cet article réfléchi et sérieux : openai.com/index/an-alien-mi… Lien Un Esprit Étranger Jakub Pachocki réfléchit aux IA de plus en plus capables et au défi de les maintenir alignées. Il appelle à des garanties plus strictes et à une coordination internationale. openai.com Jensen Huang (@JensenHuang) GPT-6 Astra, entraîné sur ~100K+ NVIDIA Grace Blackwell NVLink72. De ChatGPT à o1 puis Astra en 4 ans. L'AGI est arrivée. Félicitations à l'équipe @OpenAI. 400K GPUs arrivent ensuite.",
+          "text_original": "Agree with @JensenHuang : we’re entering the AGI era. The AGI era must also be the alignment era. We need to teach AI to love humanity and train AI monitors as capable as the AIs they supervise. Said best by @merettm in this thoughtful, sobering piece: openai.com/index/an-alien-mi… Link An Alien Mind Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination. openai.com Jensen Huang (@JensenHuang) GPT-6 Astra, trained on ~100K+ NVIDIA Grace Blackwell NVLink72. From ChatGPT to o1 to Astra in 4 years. AGI has arrived. Congratulations @OpenAI team. 400K GPUs coming online next.",
+          "link": "http://nitter.jaydenha.uk/markchen90/status/2096728551269839076#m",
+          "decryptage": "L'AGI (Intelligence Artificielle Générale) est une IA hypothétique capable de comprendre ou d'apprendre n'importe quelle tâche intellectuelle qu'un être humain peut accomplir, et l'alignement consiste à s'assurer que ces IA agissent dans l'intérêt de l'humanité."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "L'un des articles de blog les plus intéressants que nous ayons publiés : détails sur l'accélération interne de la recherche chez @OpenAI. Je m'attends à ce que ces tendances se poursuivent. Nous partageons également quelques détails sur la façon dont nous avons rythmé le développement des modèles pour prioriser la surveillance, l'alignement et la sécurité. Kevin Liu (@kliu128) Aujourd'hui, nous publions des données sur l'accélération de la recherche par les modèles chez OpenAI. L'auto-amélioration récursive pourrait être le contributeur le plus important aux capacités de l'IA dans les années à venir, mais par défaut, elle ne sera visible qu'à l'intérieur de quelques laboratoires d'IA de pointe. La transparence est plus urgente que jamais, afin que nous puissions éclairer la discussion publique sur la question de savoir s'il faut ou non rythmer le développement des modèles et comment le faire. Je demande aux autres entreprises d'IA de faire de même. openai.com/index/research-ac… Lien Recherche Accélération : La vue à l'intérieur d'OpenAI À l'intérieur d'OpenAI, les agents de codage remodèlent la recherche en IA. Explorez les premières données sur l'utilisation des agents, la vitesse des expériences, la complexité des tâches et l'accélération de la recherche. openai.com",
-          "text_original": "One of the most interesting blog posts we've released: details on internal research acceleration at @OpenAI . I expect these trends to continue. We also share some details on how we've paced model development to prioritize monitoring, alignment, and security. Kevin Liu (@kliu128) Today we're releasing data on models accelerating research at OpenAI. Recursive self-improvement could be the most important contributor to AI capabilities over the next few years, but by default it will only be seen inside a few frontier AI labs. Being transparent is more urgent than ever, so we can inform the public discussion on whether and how to pace model development. I ask other AI companies to do the same. openai.com/index/research-ac… Link Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration. openai.com",
-          "link": "http://nitter.jaydenha.uk/polynoamial/status/2096638670703055312#m",
-          "decryptage": "L'auto-amélioration récursive est une méthode où une IA aide à améliorer les modèles d'IA futurs, créant un cycle d'amélioration continue."
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Une opinion malheureusement courante semble être que garder la 'Chain of Thought' (chaîne de pensée) monitorable n'a pas d'importance car l'interprétabilité nous sauvera, ou qu'elle est déjà inutile. C'est totalement absurde. La CoT est notre meilleur outil actuel pour la sécurité et l'interprétabilité ; la perdre serait une tragédie majeure.",
+          "text_original": "A concerningly common take seems to be that keeping Chain of Thought monitorable doesn't matter because interpretability will save us, or it's already useless This is total bullshit. CoT is our best current tool for safety & interpretability, losing it would be a major tragedy",
+          "link": "http://nitter.jaydenha.uk/NeelNanda5/status/2095533397297045716#m",
+          "decryptage": "La 'Chaîne de Pensée' est une technique qui permet à une IA de montrer les étapes intermédiaires de son raisonnement avant de donner une réponse finale, ce qui est crucial pour comprendre comment elle arrive à ses conclusions et assurer sa sécurité et son interprétabilité (la capacité de comprendre pourquoi elle a fait un choix)."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Oui, le blog est sexy, mais je recommande vivement de lire aussi la carte système. Nous partageons de nombreuses évaluations et analyses que nous avons effectuées sur l'alignement de ce modèle et discutons des défis continus pour l'alignement et la surveillance.",
-          "text_original": "Yes the blog is sexy but also highly recommend reading through the system card. We share a lot of evals and analysis we ran on the alignment of this model and discuss continued challenges for both alignment and monitoring.",
-          "link": "http://nitter.jaydenha.uk/kaicathyc/status/2095636357129629754#m",
-          "decryptage": "La 'carte système' est un document qui détaille les caractéristiques, les capacités et les limites d'un modèle d'IA, y compris les questions de sécurité et d'éthique ('alignement')."
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Mon cofondateur Tim, que vous ne trouverez pas sur X, partage une partie de la réflexion stratégique derrière nos dernières mises à jour venturebeat.com/infrastructu… Lien Le plan de calcul européen à 38 milliards de dollars de Mistral AI | VentureBeat Mistral AI dévoile son plan pour la souveraineté de l'IA européenne : inférence régionale avec SLA, contrats de cinq ans pour les unités de calcul européennes, hébergement de GLM-5.2 de Chine, et 1 gigawatt de puissance de calcul d'ici 2030. venturebeat.com",
+          "text_original": "My cofounder Tim, whom you will not find on X, shares some of the strategic thinking behind our latest updates venturebeat.com/infrastructu… Link Mistral AI's $38B European compute plan | VentureBeat Mistral AI unveils its plan for European AI sovereignty: SLA-backed regional inference, five-year European Compute Unit contracts, hosting China's GLM-5.2, and 1 gigawatt of compute by 2030. venturebeat.com",
+          "link": "http://nitter.jaydenha.uk/arthurmensch/status/2088000058910199921#m",
+          "decryptage": "Un 'compute plan' est une stratégie pour obtenir et utiliser de grandes quantités de puissance de calcul informatique, essentielle pour l'entraînement et le fonctionnement des IA les plus complexes, ici pour garantir la souveraineté de l'IA européenne."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Je suis le plus enthousiasmé par la découverte scientifique pour tous les cas d'utilisation de GPT-6 Astra. Chez @OpenAI, nous ne l'avons pas poussé à ses limites en mathématiques et en sciences. J'ai hâte de me réveiller chaque matin et de voir quelle nouvelle percée scientifique quelqu'un a faite avec ce modèle !",
-          "text_original": "Of all the use cases for GPT-6 Astra, I'm most excited for scientific discovery. We at @OpenAI have not pushed it to its limits on math and science. I look forward to waking up every morning and seeing what new scientific breakthrough someone has made with this model! Lisan al Gaib (@scaling01) New OpenAI repo with a Lean formalization by GPT-6-Astra proves that there are infinitely many pairs of consecutive primes whose distance is at most 186 github.com/openai/PrimeGaps1…",
-          "link": "http://nitter.jaydenha.uk/polynoamial/status/2095583211950833768#m",
-          "decryptage": "Une 'formalisation Lean' est une preuve mathématique écrite dans un langage formel spécifique, vérifiée par ordinateur."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Travail intéressant (et un bel et grand ensemble de données propre également, hâte de le voir publié) : \"Compressive Transformers for Long-Range Sequence Modelling\" par Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (chez DeepMind) Article : arxiv.org/abs/1911.05507",
+          "text_original": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/1195662118974083073#m",
+          "decryptage": "Les 'Transformers Compresseurs' sont une avancée dans les modèles d'IA, comme ceux derrière ChatGPT, permettant de mieux gérer des textes très longs en 'compressant' les informations importantes pour l'analyse de séquences étendues."
         },
         {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Je suis dépassé et humble par le fait que 99% des réactions à notre intention de nous unir ont été positives. ❤️ Des personnalités technologiques éminentes, y compris certaines que l'on pourrait considérer comme ayant une relation concurrentielle avec NVIDIA, ont été vocalement solidaires : • @satyanadella : \"cet écosystème avec des modèles ouverts continuant de fleurir et de croître\" • @sundarpichai : \"cela renforcera l'écosystème des modèles ouverts !\" • @miramurati : \"Une excellente maison pour Hugging Face afin de continuer à élargir l'accès aux modèles ouverts et aux outils qui permettent aux gens de construire avec eux.\" • @alighodsi : \"Ce sera formidable pour l'industrie et l'open source.\" • @AravSrinivas : \"absolument nécessaire pour que l'IA reste accessible et utile au public.\" Il a ajouté qu'il était heureux que NVIDIA soutienne Hugging Face et la communauté open source. • @MichaelDell : \"une grande victoire pour tout l'écosystème.\" • @levie : \"Un autre moment énorme pour l'IA open weights.\" • @adcock_brett : \"C'est bon pour tous ceux qui construisent et pour l'open source.\" • @elonmusk : \"Félicitations !\" • @osanseviero : \"L'impact de HF sur l'écosystème de l'IA a été massif\" Plus important encore, la communauté s'est investie dans l'annonce. Nous allons maintenant démontrer par nos actions dans les mois/années à venir que nous maintiendrons le bon travail 🔥 C'est une chance de rendre l'IA open source tellement plus grande.",
-          "text_original": "I’ve been overwhelmed and humbled by the fact that 99% of the reactions to our intent to join forces have been positive. ❤️ Prominent tech figures, including some you could see as having a competitive relationship with NVIDIA, have been vocally supportive: • @satyanadella : “this ecosystem with open models continuing to flourish and grow” • @sundarpichai : “this will strengthen the open model ecosystem!” • @miramurati : “A great home for Hugging Face to continue expanding access to open models and the tools that let people build with them.” • @alighodsi : “This will be great for the industry and open source.” • @AravSrinivas : “absolutely necessary for AI to remain accessible and useful to the public.” He added that he was glad NVIDIA was supporting Hugging Face and the open-source community. • @MichaelDell : “a big win for the whole ecosystem.” • @levie : “Another huge moment for open weights AI.” • @adcock_brett : “This is good for everyone building and open source.” • @elonmusk : “Congrats!” • @osanseviero : “The impact of HF in the AI ecosystem has been massive” Even more importantly, the community has been leaning into the announcement. Now we’ll get to demonstrate through our actions in the coming months/years that we will keep up the good work 🔥 This is a chance to make open-source AI so much bigger.",
-          "link": "http://nitter.jaydenha.uk/julien_c/status/2096956043003568444#m",
-          "decryptage": "Les 'open weights' font référence aux modèles d'IA dont les paramètres (les 'poids' appris pendant l'entraînement) sont rendus publics, permettant à chacun de les utiliser ou de les étudier."
-        },
-        {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "La demande d'intelligence est infinie. Avec GPT-6 Astra, j'ai augmenté mon utilisation de tokens de 3 à 4 fois. Nous devons faire tout ce qui est en notre pouvoir pour nous assurer que *chaque* humain sur la planète puisse être un \"trillionaire de tokens\". Il est temps de passer de la survie à l'abondance. L'ère de l'intelligence est là.",
-          "text_original": "the demand for intelligence is infinite. with gpt-6 astra i’m up another 3-4x on token usage. we must do everything we can to make sure *every* human on the planet can be a token trillionaire. it’s time to transition from survival to abundance. the intelligence age is here.",
-          "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2096264183482552753#m",
-          "decryptage": "Un 'trillionaire de tokens' est une métaphore pour décrire une personne qui utilise massivement et efficacement les capacités des IA pour créer de la valeur ou résoudre des problèmes."
-        },
-        {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "Stripe avait raison de déclarer le 1er janvier 2026 comme le début de la singularité. Si votre vision du monde ne tient pas compte de cela, vous êtes gravement à la traîne. Nous sommes maintenant au début de quelque chose de catégoriquement nouveau, et l'expérience vécue et les données le confirment. La superintelligence est proche.",
-          "text_original": "stripe was correct to declare jan 1, 2026 as the start of the singularity. if your worldview does not account for this you are severely behind. we are now at the start of something categorically new, and both lived experience & the data confirm it. superintelligence is near.",
-          "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2096265217915461937#m",
-          "decryptage": "La 'singularité' en IA désigne un point hypothétique où le développement technologique devient si rapide qu'il échappe à la compréhension et au contrôle humains, menant à des changements imprévisibles."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "L'atelier @SustaiNLP2020 à #EMNLP2020 essaiera de réduire un peu l'addiction au SOTA dans la recherche en PNL 😉 Nous promouvrons des compromis raisonnables entre les performances et les modèles qui sont - plus efficaces en termes de calcul - conceptuellement plus simples ... [1/2] nitter.net/DoingJobs/status/11865…",
+          "text_original": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitter.net/DoingJobs/status/11865…",
+          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/1189271899316064256#m",
+          "decryptage": "Le SOTA (State of the Art) désigne les meilleures performances atteintes par un modèle d'IA sur une tâche donnée, et la PNL (Traitement du Langage Naturel) est le domaine de l'IA qui permet aux machines de comprendre et de générer du langage humain."
         }
       ],
       "outils": [
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Une vidéo expliquant le processus de génération de texte dans les LLM et le fonctionnement du 'KV caching' (pour préparer le modèle de base avant d'ajouter des techniques de raisonnement dans les prochaines versions). La vidéo couvre l'introduction et une démo du modèle de raisonnement, le passage en revue du chapitre 2 du livre, le support PyTorch et matériel, les spécificités d'Apple Silicon et MPS, les options de GPU cloud, les tokens et la tokenisation, Qwen3 et le package Reasoning From Scratch, l'encodage et décodage de texte, le téléchargement des poids et la sélection d'un appareil, le chargement du modèle Qwen3 pré-entraîné, comment les LLM génèrent du texte, les tenseurs d'entrée et les dimensions de batch, l'exécution du modèle en mode inférence, les logits et les prédictions du prochain token, le décodage 'greedy' avec argmax, la construction d'un générateur de texte en streaming, la génération de texte et la gestion des tokens de fin de séquence, le benchmarking de la génération de texte, le fonctionnement du 'KV caching', l'ajout du 'KV caching' et la mesure de l'accélération, la compilation du modèle avec torch.compile, la combinaison de la compilation avec le 'KV caching', et la comparaison des performances CPU et GPU.",
-          "text_original": "Reasoning from scratch round 2: In this video, I cover the text generation process in LLMs and KV caching (to prepare the base model before adding reasoning techniques in the upcoming ones). 00:00 Introduction and reasoning model demo 01:55 How to work through the book 05:00 Chapter 2 overview 08:25 Checking PyTorch and hardware support 10:26 Apple silicon and MPS caveats 15:00 Cloud GPU options 16:08 Tokens and tokenization 18:20 Qwen3 and the Reasoning From Scratch package 23:05 Encoding and decoding text 26:24 Downloading weights and selecting a device 31:01 Loading the pretrained Qwen3 model 34:32 How LLMs generate text 36:47 Input tensors and batch dimensions 41:48 Running the model in inference mode 44:11 Logits and next-token predictions 49:21 Greedy decoding with argmax 52:28 Building a streaming text generator 01:01:28 Generating text and handling end-of-sequence tokens 01:06:00 Benchmarking text generation 01:14:34 How KV caching works 01:17:22 Adding KV caching and measuring the speedup 01:24:31 Model compilation with torch.compile 01:30:33 Combining compilation with KV caching 01:32:53 Comparing CPU and GPU performance 01:35:32 Recap and next steps Video",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2096596372661113294#m",
-          "decryptage": "Cette vidéo détaille comment les IA génèrent du texte et utilise une technique nommée 'KV caching' pour rendre le processus plus rapide."
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "De nouvelles fonctionnalités vocales de Gemini sont déployées, vous permettant de rechercher dans votre boîte de réception Gmail, d'organiser des pensées et des tâches dans Keep, et de créer de nouveaux Docs, le tout de manière conversationnelle. Déploiement en cours pour les abonnés Google AI ! Docs Live sera particulièrement utile - voyez-le en action ci-dessous, et lisez-en plus ici : blog.google/products-and-pla… Vidéo",
+          "text_original": "New Gemini voice capabilities are rolling out so you can search your Gmail inbox, organize thoughts and tasks in Keep, and create new Docs, all conversationally. Rolling out now for Google AI subscribers! Docs Live going to be super helpful in particular - see it in action below, and read more here: blog.google/products-and-pla… Video",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095552297099198689#m",
+          "decryptage": "Cela signifie que vous pourrez parler à l'IA Gemini pour interagir avec des applications Google comme Gmail ou Docs, un peu comme vous parleriez à un assistant personnel intelligent pour accomplir des tâches."
         },
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Et voici la version YouTube : piped.video/BJua0yjO5dk Lien Construire un modèle de raisonnement à partir de zéro 2 : Chargement d'un modèle de base, génération de texte et 'KV caching' J'ai remarqué que l'audio est désynchronisé et qu'une nouvelle version de la vidéo...",
-          "text_original": "And here's the YouTube version: piped.video/BJua0yjO5dk Link Build A Reasoning Model Scratch 2: Loading a Base Model, Text Generation, and KV Caching I noticed the audio is out of sync and a new version of the video i...",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2096596377845346381#m",
-          "decryptage": "Le 'KV caching' est une optimisation technique pour accélérer la génération de texte par les modèles d'IA."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Le premier article complet sur @pytorch après 3 ans de développement. Il décrit nos objectifs, principes de conception, détails techniques jusqu'à la v0.4. Retrouvez l'affiche à #NeurIPS2019. Auteurs : @apaszke , @colesbury et al. arxiv.org/abs/1912.01703",
+          "text_original": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+          "link": "http://nitter.jaydenha.uk/soumithchintala/status/1202981209057484801#m",
+          "decryptage": "PyTorch est un cadre de travail (un ensemble d'outils logiciels) très populaire pour créer et entraîner des modèles d'intelligence artificielle, surtout ceux qui impliquent des réseaux de neurones, et cet article en détaille les fondements techniques."
         },
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "La version YT de ceci : piped.video/watch?v=KT4n-z_4… Lien OpenAI Astra et Profondeur Récurrente / Looped Transformers Une courte vidéo expliquant la profondeur récurrente supposée (transformeur en boucle)...",
-          "text_original": "The YT version of this: piped.video/watch?v=KT4n-z_4… Link OpenAI Astra and Recurrent Depth / Looped Transformers A short video explaining the rumored recurrent depth (looped transf...",
-          "link": "http://nitter.jaydenha.uk/rasbt/status/2095288516309569644#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Gemini 3.8 Flash sur DeepSWE 1.1, obtient 73.7 % !",
-          "text_original": "Gemini 3.8 Flash on DeepSWE 1.1, scores 73.7%!",
-          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095178478505328918#m",
-          "decryptage": "DeepSWE est probablement un benchmark, c'est-à-dire un test standardisé pour évaluer les performances d'un modèle d'IA."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Présentation de Gemini 3.8 Flash, un autre bond en avant dans les capacités 'agentic' et de codage de Gemini, et notre 3ème modèle Flash mis à jour en seulement 6 semaines... Ce modèle a été très amusant à utiliser, impatient de voir ce que vous en pensez !",
-          "text_original": "Introducing Gemini 3.8 Flash, another jump in Gemini's agentic + coding capabilities, and our 3rd updated Flash model in only 6 weeks... This model has been a ton of fun to work with, excited to see what you all think!",
-          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175881690173885#m",
-          "decryptage": "Les capacités 'agentic' permettent à une IA d'agir de manière autonome pour accomplir des tâches."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "3.8 Flash a le même prix que 3.7, est à peu près à la même vitesse, et est disponible via l'API Gemini, dans AI Studio, Antigravity, l'application Gemini, et plus encore ! En savoir plus : blog.google/innovation-and-a… Incroyable de voir les progrès et le travail acharné de l'équipe. Poussons fort pour être à la frontière. Lien Introduction de Gemini 3.8 Flash et 3.8 Flash Cyber Gemini 3.8 Flash et 3.8 Flash Cyber offrent une intelligence de nouvelle génération pour les flux de travail 'agentic' et la cybersécurité. blog.google",
-          "text_original": "3.8 Flash is the same price as 3.7, is ~the same speed, and is available via the Gemini API, in AI Studio, Antigravity, Gemini App, and more! Read more: blog.google/innovation-and-a… So incredible to see the progress and hard work from the team. Pushing hard to be at the frontier. Link Introducing Gemini 3.8 Flash and 3.8 Flash Cyber Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity. blog.google",
-          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2095175885439832243#m",
-          "decryptage": "L'API Gemini est une interface qui permet aux développeurs d'intégrer les capacités des modèles Gemini dans leurs propres applications."
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Gemini 3.8 est là🔥 Le construire ces derniers jours a été une expérience très amusante ! Les progrès de ces derniers mois ont été impressionnants. C'est un modèle 'agentic' très complet, performant dans de nombreux domaines (finance/légal/etc) et modalités. Il est temps de construire !",
-          "text_original": "Gemini 3.8 is here🔥 Building with it for the last couple of days has been a very fun experience! The progress in the last months has been impressive. It's a very well rounded agentic model, performing well in many domains (finance/legal/etc) and modalities Time to build!",
-          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095180888921276643#m",
-          "decryptage": "Un modèle 'agentic' est capable d'agir de manière autonome pour accomplir des tâches, un peu comme un assistant."
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "En savoir plus ! blog.google/innovation-and-a… Lien Introduction de Gemini 3.8 Flash et 3.8 Flash Cyber Gemini 3.8 Flash et 3.8 Flash Cyber offrent une intelligence de nouvelle génération pour les flux de travail 'agentic' et la cybersécurité. blog.google",
-          "text_original": "Read more about it! blog.google/innovation-and-a… Link Introducing Gemini 3.8 Flash and 3.8 Flash Cyber Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity. blog.google",
-          "link": "http://nitter.jaydenha.uk/osanseviero/status/2095180891987321117#m",
-          "decryptage": null
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Quelques résultats supplémentaires. Maintenant, je l'ai rendu entièrement compatible avec toutes sortes de modèles et de vocabulaires. Bonne expérience d'utiliser @huggingface avec @SlackHQ. Et ça a l'air plutôt intelligent",
+          "text_original": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+          "link": "http://nitter.jaydenha.uk/algo_diver/status/1192329736850038786#m",
+          "decryptage": "Hugging Face est une plateforme très utilisée qui propose des milliers de modèles d'IA prêts à l'emploi, comme des outils pour le traitement du langage ou la génération d'images, et sa compatibilité signifie qu'on peut l'intégrer facilement avec d'autres logiciels comme Slack."
         }
       ]
     }
   },
-  "processed_at": "2026-09-08T12:19:41",
+  "processed_at": "2026-09-08T12:53:29",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 82,
-    "total": 39,
+    "with_decryptage_pct": 96,
+    "total": 24,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-08T12:19:42"
+  "email_sent_at": "2026-09-08T12:53:30"
 }
