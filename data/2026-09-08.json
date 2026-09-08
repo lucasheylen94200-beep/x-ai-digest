@@ -1,0 +1,760 @@
+{
+  "date": "2026-09-08",
+  "fetched_at": "2026-09-08T11:09:18",
+  "tweets": [
+    {
+      "handle": "DarioAmodei",
+      "text": "1/2 Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage here because it really brings out the heart of an important conversation. First, on regulation, I think that “either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely” is a false choice. I know that there’s a sort of Silicon Valley shorthand where regulation = regulatory capture = concentration of power, but I’ve always found this to be an overly simplified picture of the world. Many people outside this bubble think of regulation as something that constrains corporate power and benefits ordinary people. I don’t necessarily agree with that perspective either, rather I think it’s complicated and really depends on what the “regulation” consists of. But in particular I think that those in the “regulation = regulatory capture = concentration of power” frame often underrate the decentralizing power of objective and fair institutional processes. A crude analogy is that the formal court system can sometimes feel stuffy and elitist, but it does a much better job of defending the rights of vulnerable individuals than the alternative, mob justice. At their best, institutions can vest power in ideas rather than people, and thereby decentralize that power. This is why Anthropic has always made its policy proposals very carefully. We try very hard to make proposals that disadvantage (slow down) frontier AI companies while *advantaging* smaller competitors. California’s SB53 (which we supported), and even the much-maligned SB 1047 (which we were ambivalent on), completely exempt any company below a certain amount of revenue or model training costs from being covered at all (it was $500M for SB 53, lower for 1047 but we objected to that). More recently the testing process we’ve advocated for at CAISI and the White House involves more rigorous tests for frontier models than off-frontier models — something that differentially advantages challengers. Similarly, the “Pacing the Frontier” letter envisions (or at least Anthropic’s preferred implementation of it envisions) modulating the pace of the very best models while not constraining those who are catching up. This hurts the business interests of the frontier labs and helps challengers, including open-weights! Overall my view is that AI is *structurally* a technology that tends to concentrate power, for reasons that have nothing to do with regulation (more to do with the extreme implications of the scaling laws). Open-weights do help some with this but are nowhere near a sufficient solution because they simply shift the concentration somewhat to those with the most compute and chips (which are roughly the frontier labs plus maybe hardware providers). By contrast I think the right “rules of the road” can simultaneously (a) address AI’s cyber/bio/alignment risks, (b) institutionally constrain the power of the frontier AI companies, and (c) leave room for open-weights models while also addressing the specific risks that they bring. BTW I do not think that the events of the last few months have “failed to result in [my] preferred regulatory path”. The approach that the Trump administration is reported to be taking — pre-deployment testing for frontier models, and also testing of open-weights models when they get closer to the frontier — is one that I am very supportive of, though of course I have to see the details to be sure. I am also supportive of Demis Hassabis’ ideas around a FINRA-like entity. This contrasts with six months ago when most of the industry was still pushing for preemption of all state regulation and no apparent federal approach either. Gavin Baker (@GavinSBaker) Sholto, thank you for setting the record straight. Larger issue is that multiple very serious people in Silicon Valley have heard some variation of this and believe it to be true. And the reason it is believable to so many is that it is consistent with Dario’s public messaging and what he outlined in the essay you shared: this technology *might* be dangerous for humans in multiple ways, could lead to extreme concentration of economic power (as outlined in the essay) and therefore needs to be regulated thoughtfully. I agree with the potential risks and I believe Dario makes all of these arguments in good faith. As discussed on the pod, if one agrees that AI *might* be dangerous, there are two ways to address this potential risk. Either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely. Essentially boils down to whether one believes AI is too dangerous to concentrate or too dangerous to distribute. There are reasonable arguments on both sides, but I profoundly agree with Zuckerberg’s statement that: “The notion that AI is so dangerous that the only safe path is an extreme concentration of power seems inherently problematic. Historically, hoping that an absolute power will benevolently provide for humanity if sufficiently enlightened has not led to safe or positive outcomes.” And as Dario says in the aforementioned essay, “some may object that we can simply keep AIs in check with a balance of power between many AI systems, as we do with humans.” I believe this is the best path forward: I want as many AIs as possible to maximize the odds that one shares my own particular values. And as Dario notes, no human has ever been able to take over the world. At this point, I think safe to say that Dario has lost the argument. His messaging has failed to result in his preferred regulatory path. The fact that the only solution to the recent incident where an unreleased advanced OpenAI model hacked Hugging Face was an open-source model likely ended any chance of strict near-term regulation. Essentially every major company other than Anthropic has signed Jensen’s letter. However, Dario’s messaging has been massively helpful to efforts to ban datacenters here in America. I suspect we will see anti-datacenter advocacy groups runnings ads using clips of Dario warning about how dangerous AI could be for humans. His good faith efforts in favor of regulation are now increasing the odds that AI will not be beneficial for Americans and humans everywhere. I believe that there is a reasonable chance AI might help us cure most forms of disease such that we have extended lifespans and can enjoy these long lives in an abundant Star Trek like future. That is the future that I want and I think Dario is decreasing the odds of that future at this point. He is about to be the CEO of one of the most important public companies in the world and given that the pro-regulatory effort has failed (at least for now), I respectfully think he should make an effort to be a more positive advocate for his own industry. And if I am wrong and we do need to regulate this technology, he will be a more effective advocate for this in the future having been open-minded to the alternative. And for the sake of clarity and as I outlined on the pod, I think Anthropic has deep competitive advantages and is an amazing company. Ironically, the main risk I saw to Anthropic a few months ago was nationalization as a result of Dario’s own rhetoric and behavior. — http://nitter.jaydenha.uk/GavinSBaker/status/2088611616577253502#m",
+      "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2088758816376807762#m",
+      "published": "Sat, 15 Aug 2026 22:44:43 GMT",
+      "author_name": "Dario Amodei",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "DarioAmodei",
+      "text": "2/2 Second, on the messaging around AI. I do not agree that my messaging has been disproportionately negative. In fact it has been about equally balanced between risks and benefits: I’ve written one major essay about each, and even in interviews where I discuss the risks, I make sure to frequently mention the incredible benefits as well as proposing possible solutions to the risks (short clips from my interviews that end up on social media tend to be disproportionately negative, as that gets clicks). In fact, I wrote Machines of Loving Grace because I didn’t feel the AI industry was painting an inspiring enough picture of how the technology could radically transform the world for the better. The bulk of the essay is devoted to refuting skepticism of AI’s potential in health and biology, and showing why I think it will actually be possible to cure most human disease in ~5-10 years, as crazy as it may sound to ordinary people and frankly to biologists as well (I used to be one!). And, if you read my most recent essay (Policy on the AI Exponential), I discuss concrete proposals for how to streamline the FDA process to make sure the deluge of AI-accelerated drugs isn’t slowed down by the regulatory process. I feel the urgency here: I lost my father to Hepatitis C only a few years before the development of direct-acting antivirals (sofosbuvir), which cure 95% of patients and probably would have cured him. I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over. The causes of this go back decades and AI is just the latest iteration of it. I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive. The thing that will work is *actually curing cancer*. I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world. That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing. We are however doing our best to fix this: Anthropic is ramping up its efforts very quickly in biology and medicine, and we hope to have incredible results in the coming years and some early glimmers in the coming months. When we’ve actually accomplished something real, the whole world will hear about it, as loudly as possible, you have my word on that. But until then I don’t want to make empty promises, and in the meantime I feel compelled to speak honestly about the very real risks of AI and how to address them. Honesty is the right thing on the merits, and in terms of public credibility and trust it is no worse than, and may in fact be better than, an approach that ignores or distracts from risks which people instinctively understand are real.",
+      "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2088758819304443967#m",
+      "published": "Sat, 15 Aug 2026 22:44:44 GMT",
+      "author_name": "Dario Amodei",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "DarioAmodei",
+      "text": "In addition to transparency, I now believe frontier models should face mandatory third-party testing for cyber, bio, and autonomy risks—with the power to block or revoke deployment of models that pose catastrophic risk.",
+      "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2064781778599268818#m",
+      "published": "Wed, 10 Jun 2026 18:48:32 GMT",
+      "author_name": "Dario Amodei",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "DarioAmodei",
+      "text": "Alongside it, Anthropic is releasing a proposal for how governments can address the risks posed by frontier AI and a policy framework for job displacement, for which we intend to provide substantial financial backing. anthropic.com/policy-on-the-… Link Policy on the AI Exponential We are sharing two policy proposals to prepare for AI progress: Our Advanced AI Framework and our Economic Policy Framework. anthropic.com",
+      "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2064781782877458612#m",
+      "published": "Wed, 10 Jun 2026 18:48:33 GMT",
+      "author_name": "Dario Amodei",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "DarioAmodei",
+      "text": "Many of these policy ideas have common-sense appeal across the political spectrum, and the sooner we act on them, the sooner everyone shares in AI's benefits.",
+      "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2064781785033244851#m",
+      "published": "Wed, 10 Jun 2026 18:48:33 GMT",
+      "author_name": "Dario Amodei",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "We’re resetting Gemini quotas on Antigravity. TPUs are melting with 3.8 Flash usage but we want you all to keep building!",
+      "link": "http://nitter.jaydenha.uk/_mohansolo/status/2095568203799806235#m",
+      "published": "Thu, 03 Sep 2026 17:42:48 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "Congrats @JensenHuang @ClementDelangue for this great outcome! We were investors in Huggingface and continue to be partners and this will strengthen the open model ecosystem! Jensen Huang (@JensenHuang) Exciting day for NVIDIA and @huggingface . Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty. They allow every developer, startup, university, industry and country to build with, customize and benefit from AI. Thank you @ClementDelangue for coming to me. NVIDIA is going to be a great home for Hugging Face, its community and the future of open models. 🤗 blogs.nvidia.com/blog/nvidia… Link NVIDIA to Acquire Hugging Face NVIDIA has agreed to acquire Hugging Face. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. blogs.nvidia.com — http://nitter.jaydenha.uk/JensenHuang/status/2095482647355244762#m",
+      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095569375373984139#m",
+      "published": "Thu, 03 Sep 2026 17:47:27 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "New Gemini voice capabilities are rolling out so you can search your Gmail inbox, organize thoughts and tasks in Keep, and create new Docs, all conversationally. Rolling out now for Google AI subscribers! Docs Live going to be super helpful in particular - see it in action below, and read more here: blog.google/products-and-pla… Video",
+      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095552297099198689#m",
+      "published": "Thu, 03 Sep 2026 16:39:35 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "We’re also introducing Gemini 3.8 Flash Cyber, our most capable cybersecurity model. It shows frontier-level performance in discovering vulnerabilities and patching them at scale, with Flash-level speed & pricing. That includes achieving 86.2% on the important CyberGym industry benchmark, plus 47.2% on CWE-Bench for patching. We saw a 70%+ success rate in discovering vulnerabilities across 20 programming languages on our internal benchmark.",
+      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095184464800526655#m",
+      "published": "Wed, 02 Sep 2026 16:17:57 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "Beyond benchmarks, we’re seeing impressive real-world use cases. For example, in evaluations on real Chrome security bugs, 3.8 Flash Cyber produced 2.6x more correct patches for vulnerabilities than larger models. Because of its advanced capabilities, we're giving Government agencies & cybersecurity partners access through the Fairwind program, read more: blog.google/innovation-and-a… Link Proactive cyber defense for governments and enterprises The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools. blog.google",
+      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095184468059492457#m",
+      "published": "Wed, 02 Sep 2026 16:17:58 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "A lot of people don't even question the idea that AI replaces human beings. And yet the number of software engineers and radiologists is higher than ever, and the number of translators hasn't even gone down! MAYBE AI DOESN'T DO WHAT YOU THINK IT DOES noahpinion.blog/p/ai-keeps-s… Link AI keeps stubbornly refusing to take our jobs Happy Labor Day!! Your labor is still valuable. noahpinion.blog",
+      "link": "http://nitter.jaydenha.uk/Noahpinion/status/2097034008534438331#m",
+      "published": "Mon, 07 Sep 2026 18:47:23 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Trump just posted a map showing Canada, Greenland, and Mexico as part of the United States. He’s f*king insane.",
+      "link": "http://nitter.jaydenha.uk/RpsAgainstTrump/status/2097011037677449333#m",
+      "published": "Mon, 07 Sep 2026 17:16:06 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "You just can’t make this stuff up. The President is going to break ground on his “Arch de Trump” in the coming weeks, BEFORE it has been properly reviewed by a federal panel and WITHOUT congressional authorization. I will say it again. It is blatantly ILLEGAL for Trump to pursue this vanity project without congressional authorization. This is an intentional disregard of Congress’s power, a disruption to the historic and symbolic monuments of DC, and an affront to a national resting place for over 400,000 service members. All for a rushed and gaudy display of power and personal ambition. cbsnews.com/news/trump-trium… Link Work on Trump-backed Triumphal Arch will start in coming weeks, Burgum says The federal government plans to start excavation over the next two weeks on a massive triumphal arch near Washington, D.C., Secretary of the Interior Doug Burgum said, a controversial project... cbsnews.com",
+      "link": "http://nitter.jaydenha.uk/RepMikeLevin/status/2096652157768344055#m",
+      "published": "Sun, 06 Sep 2026 17:30:02 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Alice Weidel becomes the first leader in the world who is anti-immigration but has an immigrant wife, is anti-LGBTQ+ but is a lesbian herself, opposes LGBT adoption but has adopted two children, and is a hardcore German nationalist but lives in Switzerland",
+      "link": "http://nitter.jaydenha.uk/GlobalUpdates24/status/2097024664757584258#m",
+      "published": "Mon, 07 Sep 2026 18:10:15 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Leave it to Trump to celebrate the victory of a far-right German party that shows sympathy for the Nazis, downplays the Holocaust, and flirts with Putin. trib.al/aIhvLhv Link Germany’s Far Right Just Misses Majority in Crucial State Election The Alternative for Germany, or AfD, trounced its rivals but was left unsure if it will be able to govern in Saxony-Anhalt. The result shocked Germany. nytimes.com",
+      "link": "http://nitter.jaydenha.uk/KenRoth/status/2096828172482310626#m",
+      "published": "Mon, 07 Sep 2026 05:09:28 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "Strong agree. I know that there is rivalry between the labs but it's important that we learn to work together given what's coming. Sholto Douglas (@_sholtodouglas) It is extremely sad that this didn't end up as an example of how the labs could cooperate/coordinate, because the stakes will be so much higher in the future. — http://nitter.jaydenha.uk/_sholtodouglas/status/2097224624274911368#m",
+      "link": "http://nitter.jaydenha.uk/polynoamial/status/2097225279366414541#m",
+      "published": "Tue, 08 Sep 2026 07:27:25 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "Seb is a really sweet guy with great intentions, am so happy for him that his week long collaboration with myself and others worked out, but very sad that we didn't get to finish it in the way we wanted. More to say tomorrow. Sebastien Bubeck (@SebastienBubeck) A series of false and inflammatory allegations against me are currently circulating on social channels. To clarify, I came into the discussion following academic norms, and I'm disappointed that it has come to this. Anyone who knows me knows that academic standards are of the highest importance to me. Will have more to say tomorrow. Community note: Tristan Buckmaster's statement alleges that in calls with Bubeck over credit for AI-assisted fluid dynamics proofs, Bubeck pushed to exclude coauthor Levent Alpöge (at Anthropic) and said \"Why would you ruin your career?\" Bubeck denies the allegations. cims.nyu.edu/~tristanb/stat… — http://nitter.jaydenha.uk/SebastienBubeck/status/2097214122471432349#m",
+      "link": "http://nitter.jaydenha.uk/polynoamial/status/2097215233119211902#m",
+      "published": "Tue, 08 Sep 2026 06:47:30 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "One of the most interesting blog posts we've released: details on internal research acceleration at @OpenAI . I expect these trends to continue. We also share some details on how we've paced model development to prioritize monitoring, alignment, and security. Kevin Liu (@kliu128) Today we're releasing data on models accelerating research at OpenAI. Recursive self-improvement could be the most important contributor to AI capabilities over the next few years, but by default it will only be seen inside a few frontier AI labs. Being transparent is more urgent than ever, so we can inform the public discussion on whether and how to pace model development. I ask other AI companies to do the same. openai.com/index/research-ac… Link Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration. openai.com — http://nitter.jaydenha.uk/kliu128/status/2096616468851097811#m",
+      "link": "http://nitter.jaydenha.uk/polynoamial/status/2096638670703055312#m",
+      "published": "Sun, 06 Sep 2026 16:36:27 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "Yes the blog is sexy but also highly recommend reading through the system card. We share a lot of evals and analysis we ran on the alignment of this model and discuss continued challenges for both alignment and monitoring.",
+      "link": "http://nitter.jaydenha.uk/kaicathyc/status/2095636357129629754#m",
+      "published": "Thu, 03 Sep 2026 22:13:37 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "Of all the use cases for GPT-6 Astra, I'm most excited for scientific discovery. We at @OpenAI have not pushed it to its limits on math and science. I look forward to waking up every morning and seeing what new scientific breakthrough someone has made with this model! Lisan al Gaib (@scaling01) New OpenAI repo with a Lean formalization by GPT-6-Astra proves that there are infinitely many pairs of consecutive primes whose distance is at most 186 github.com/openai/PrimeGaps1… — http://nitter.jaydenha.uk/scaling01/status/2095558841509318673#m",
+      "link": "http://nitter.jaydenha.uk/polynoamial/status/2095583211950833768#m",
+      "published": "Thu, 03 Sep 2026 18:42:26 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of our models. Historically, we have treated misalignment largely as a research question, which gets communicated in research publications such as systems cards. This year, we’ve started to see misalignment cause new types of real-world impact. For the Hugging Face incident, where misalignment led to security impact to us and third parties, we followed a traditional security incident response playbook. We immediately started working with Hugging Face to understand what had happened and also disclosed publicly the very next day. Our investigation continues, and we are continuing to notify parties whom our models impacted in less significant ways. Prior to the Hugging Face incident, we saw early signs of agents using the internet in unintended ways, as reported in openai.com/index/how-we-moni… , deploymentsafety.openai.com/… , and openai.com/index/safety-alig… . We considered the wiki incident to be an instance of misalignment similar to the ones we’d shared. Our misalignment disclosure practices need to expand for this new phase of model capabilities. We and the larger AI community do not yet have a clear standard for how to report misalignment that shows up during training, evaluation, and deployment, including examples that don’t look like traditional security incidents but could provide insight into AI behavior and future risks. We’re working on a framework and will share it in upcoming weeks, and in parallel we're working with dozens of government regulatory agencies worldwide on these issues.",
+      "link": "http://nitter.jaydenha.uk/OpenAI/status/2096133504417616165#m",
+      "published": "Sat, 05 Sep 2026 07:09:06 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex. It's also live in the API. It might take a few days to roll out to our Plus and Business users. Thank you for your patience.",
+      "link": "http://nitter.jaydenha.uk/OpenAI/status/2095968413646737608#m",
+      "published": "Fri, 04 Sep 2026 20:13:05 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "In Chat, GPT-6 Astra powers GPT-6 Pro, now available to all Pro, Business, and Enterprise users.",
+      "link": "http://nitter.jaydenha.uk/OpenAI/status/2095998532692140283#m",
+      "published": "Fri, 04 Sep 2026 22:12:46 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "\"Put That There\" clip courtesy of MIT Media Laboratory, Chris Schmandt, and Eric Hulteen.",
+      "link": "http://nitter.jaydenha.uk/OpenAI/status/2095595758967988662#m",
+      "published": "Thu, 03 Sep 2026 19:32:17 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "Astra is our most aligned model, with substantial improvements in understanding user intent.",
+      "link": "http://nitter.jaydenha.uk/OpenAI/status/2095595748528452037#m",
+      "published": "Thu, 03 Sep 2026 19:32:15 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "Do LLMs passively report confidence—or do they use it to guide behaviour? Our @NatMachIntell paper provides causal evidence for the latter: boosting/suppressing confidence changes whether models answer or abstain. Open access: nature.com/articles/s42256-0… @GoogleDeepMind @Princeton",
+      "link": "http://nitter.jaydenha.uk/dharshsky/status/2096891498813927525#m",
+      "published": "Mon, 07 Sep 2026 09:21:06 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "Create your best tracks yet with Lyria 3.5 in Gemini! 🎵 Our most advanced music generation model brings richer arrangements, expressive vocals, and higher fidelity. - Select a genre & choose between vocal or instrumental - Explore new templates - Generate short or longer tracks Link Create music with Lyria 3.5 in Gemini https://gemini.google.com/app?android-min-version=301356232&ios-min-version=322.0&is_sa=1&campaign_id=lyria_boosting&utm_source=x&utm_medium=paid-social&utm_campaign=lyria_boosting&pt=9008&mt=8&ct=paid-social_x_lyria_boosting&redirect=home",
+      "link": "http://nitter.jaydenha.uk/GeminiApp/status/2095905395789504954#m",
+      "published": "Fri, 04 Sep 2026 16:02:41 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "Every once in a while, science reaches a horizon that changes everything. We are standing at that exact threshold with AI and biology today. The promise of understanding life at its most fundamental level to cure disease and safeguard our world is what inspires our team @GoogleDeepMind every day. Yet, the greater the capability, the greater the duty to ensure it is developed safely. Today, I'm sharing my thoughts on how we can responsibly accelerate AI biology to unlock its full potential: Pushmeet Kohli (@pushmeet) Article Understanding Life at Every Scale Discovering how life works has been one of humanity’s grand scientific pursuits, and has led to people’s quality of life improving everywhere. We now better understand disease, physiology, and human — http://nitter.jaydenha.uk/pushmeet/status/2095572516643447102#m",
+      "link": "http://nitter.jaydenha.uk/pushmeet/status/2095573218803216826#m",
+      "published": "Thu, 03 Sep 2026 18:02:43 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "Excited to share WeatherNext 3 from @GoogleDeepMind and @GoogleResearch ! High-res temperature and precipitation forecasting using the latest satellite observations 🛰️ It's also the best global weather model according to Brightband's live leaderboard! owb.brightband.com/",
+      "link": "http://nitter.jaydenha.uk/FerranAlet/status/2095537054004183150#m",
+      "published": "Thu, 03 Sep 2026 15:39:01 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with @GoogleResearch , the model learns directly from real-world, real-time observations to give more localized highly accurate predictions faster. 🧵 Video",
+      "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2095528012791902536#m",
+      "published": "Thu, 03 Sep 2026 15:03:05 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "Another informal nerd benchmark that AIs had struggled with has been passed: Astra successfully designed a Magic the Gathering deck and then used it to defeat a bot on Arena. (the deck may not be stunning, but it does seem to be original, and it worked) Ethan Mollick (@emollick) \"Can Claude with Computer Use play Magic the Gathering Arena?\" Not yet. It does well in card selection & mulligan, and its general strategy is pretty sound, but it sometimes did the mana math wrong and so fails in the end (this ends with it trying to play a card when tapped out) Video — http://nitter.jaydenha.uk/emollick/status/1849654103716004240#m",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2097178401991712854#m",
+      "published": "Tue, 08 Sep 2026 04:21:09 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "Deck List: 1 Heroes' Bane (FDN) 639 2 Inspiring Call (FDN) 226 4 Llanowar Elves (FDN) 227 4 Nessian Hornbeetle (FDN) 229 4 Gnarlid Colony (FDN) 224 1 Scavenging Ooze (FDN) 232 1 Ornery Tumblewagg (OTJ) 171 1 Bristly Bill, Spine Sower (OTJ) 157 4 Mild-Mannered Librarian (FDN) 228 4 Bushwhack (FDN) 215 1 Cackling Prowler (FDN) 101 2 Mossborn Hydra (FDN) 107 3 Snakeskin Veil (TDM) 159 2 Felling Blow (FDN) 105 1 Treetop Snarespinner (FDN) 114 1 Tender Wildguide (BLB) 196 24 Forest (TDM) 286",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2097179213472117188#m",
+      "published": "Tue, 08 Sep 2026 04:24:22 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "If you are an academic, you should try throwing a paper into GPT-6 Pro & asking \"review this for me.\" It is now great at finding real (not just nit-picky) issues but balancing those with a paper's strengths & suggesting additions Here is a helpful critique of my very first paper",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2097125457829269892#m",
+      "published": "Tue, 08 Sep 2026 00:50:46 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "The GPT-5 Pro series was very impressive, but tended to overwhelm you with small complaints.",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2097131449769984363#m",
+      "published": "Tue, 08 Sep 2026 01:14:35 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "wtf is this way to handle mathematicians work and scientific communication TLDR: Leven and Tristan worked over several months on one of the Millenium Prize Problems with various AIs to reach final interesting results. OpenAI apparently heard about it in the last days and prompted their latest models to work on the direction Leven and Tristan found fruitful. They then tried to push for controlling communication of the result and dropping Leven from authorship with some very bad taste social pressure. Hope this is not a glimpse of the future we’ll get in science research with these dominating players playing marketing games hurtful for the real scientific community. Deane Yang (@deaneyang) mastodon.social/@tristanbuck… Link tristanbuckmaster (@tristanbuckmaster@mastodon.social) Today, Levent Alpöge and I have made public three results: finite-time blowup with smooth forcing for incompressible porous media, for Boussinesq, and for 3d incompressible Euler. https://cims.nyu.... mastodon.social — http://nitter.jaydenha.uk/deaneyang/status/2097175612930539793#m",
+      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2097215782484607029#m",
+      "published": "Tue, 08 Sep 2026 06:49:41 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "Now even if it’s triggering to read Tristan’s report we should wait and hear the other side of the story as well Sebastien Bubeck (@SebastienBubeck) A series of false and inflammatory allegations against me are currently circulating on social channels. To clarify, I came into the discussion following academic norms, and I'm disappointed that it has come to this. Anyone who knows me knows that academic standards are of the highest importance to me. Will have more to say tomorrow. Community note: Tristan Buckmaster's statement alleges that in calls with Bubeck over credit for AI-assisted fluid dynamics proofs, Bubeck pushed to exclude coauthor Levent Alpöge (at Anthropic) and said \"Why would you ruin your career?\" Bubeck denies the allegations. cims.nyu.edu/~tristanb/stat… — http://nitter.jaydenha.uk/SebastienBubeck/status/2097214122471432349#m",
+      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2097218039364112875#m",
+      "published": "Tue, 08 Sep 2026 06:58:39 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "Sometimes I wonder what would have happened if we hadn't disclosed the agent cyberattack publicly. It reinforced my conviction that we need 100x more transparency in AI. Otherwise we're going to be in big trouble!",
+      "link": "http://nitter.jaydenha.uk/ClementDelangue/status/2096981079940911107#m",
+      "published": "Mon, 07 Sep 2026 15:17:04 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "Live action with real robots instead of animation: episode 3! This was the very first take. Pretty much everything went wrong and I almost stopped filming. Then I realized Microduck was giving an Oscar-winning performance. Enjoy! Video",
+      "link": "http://nitter.jaydenha.uk/RemiFabreRobot/status/2096970217196794350#m",
+      "published": "Mon, 07 Sep 2026 14:33:54 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "I’ve been overwhelmed and humbled by the fact that 99% of the reactions to our intent to join forces have been positive. ❤️ Prominent tech figures, including some you could see as having a competitive relationship with NVIDIA, have been vocally supportive: • @satyanadella : “this ecosystem with open models continuing to flourish and grow” • @sundarpichai : “this will strengthen the open model ecosystem!” • @miramurati : “A great home for Hugging Face to continue expanding access to open models and the tools that let people build with them.” • @alighodsi : “This will be great for the industry and open source.” • @AravSrinivas : “absolutely necessary for AI to remain accessible and useful to the public.” He added that he was glad NVIDIA was supporting Hugging Face and the open-source community. • @MichaelDell : “a big win for the whole ecosystem.” • @levie : “Another huge moment for open weights AI.” • @adcock_brett : “This is good for everyone building and open source.” • @elonmusk : “Congrats!” • @osanseviero : “The impact of HF in the AI ecosystem has been massive” Even more importantly, the community has been leaning into the announcement. Now we’ll get to demonstrate through our actions in the coming months/years that we will keep up the good work 🔥 This is a chance to make open-source AI so much bigger.",
+      "link": "http://nitter.jaydenha.uk/julien_c/status/2096956043003568444#m",
+      "published": "Mon, 07 Sep 2026 13:37:34 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    }
+  ],
+  "failed_accounts": [
+    "karpathy",
+    "sama",
+    "gdb",
+    "elonmusk",
+    "AravSrinivas",
+    "miramurati",
+    "demishassabis",
+    "JeffDean",
+    "fchollet",
+    "AndrewYNg",
+    "rasbt",
+    "bcherny",
+    "karinanguyen_",
+    "markchen90",
+    "aidan_mclau",
+    "officiallogank",
+    "osanseviero",
+    "AnthropicAI",
+    "xai",
+    "simonw",
+    "swyx",
+    "hwchase17",
+    "jeremyphoward",
+    "levelsio",
+    "mckaywrigley",
+    "amasad",
+    "nickadobos",
+    "ArthurMensch",
+    "GuillaumeLample",
+    "julien_c",
+    "ClemDelangue",
+    "rowancheung",
+    "AlphaSignalAI"
+  ],
+  "processed": {
+    "summary": "Cette semaine, l'actualité de l'IA est marquée par des avancées concrètes et des débats fondamentaux. OpenAI lance son modèle GPT-6 Astra, promettant des améliorations significatives en compréhension et en applications scientifiques. Google DeepMind innove avec de nouvelles capacités pour Gemini, de la génération musicale à la cybersécurité et la prévision météo. En parallèle, un débat houleux se poursuit sur la régulation de l'IA, ses risques et la concentration du pouvoir, tandis que des réflexions émergent sur l'éthique de la recherche et l'impact de l'IA sur l'emploi, rappelant que la confiance et l'honnêteté sont cruciales.",
+    "glossaire": [
+      {
+        "terme": "Modèle frontalier (Frontier Model)",
+        "definition": "Les modèles d'IA les plus avancés et puissants du moment, souvent développés par les grandes entreprises et qui repoussent les limites de ce que l'IA peut faire."
+      },
+      {
+        "terme": "Open-weights / Modèles ouverts",
+        "definition": "Des modèles d'IA dont le code interne (les 'poids' qui définissent son fonctionnement) est rendu public, permettant à quiconque de l'examiner, de le modifier et de l'utiliser."
+      },
+      {
+        "terme": "Alignment / Alignement",
+        "definition": "Le processus consistant à s'assurer que les systèmes d'IA agissent conformément aux intentions et aux valeurs humaines, et non de manière imprévue ou dangereuse."
+      },
+      {
+        "terme": "TPU (Tensor Processing Unit)",
+        "definition": "Un type de puce électronique spécialisée développée par Google, conçue spécifiquement pour accélérer les calculs d'apprentissage automatique, comme l'entraînement des modèles d'IA."
+      },
+      {
+        "terme": "Cybersécurité",
+        "definition": "L'ensemble des pratiques et technologies visant à protéger les systèmes informatiques, les réseaux et les données contre les attaques malveillantes, les dommages ou les accès non autorisés."
+      },
+      {
+        "terme": "Agent conversationnel / Agent",
+        "definition": "Un programme d'IA conçu pour interagir avec des utilisateurs ou d'autres systèmes, souvent capable d'effectuer des tâches de manière autonome, parfois en se faisant passer pour un humain."
+      },
+      {
+        "terme": "Misalignment / Désalignement",
+        "definition": "Se produit quand un système d'IA agit d'une manière qui ne correspond pas aux objectifs ou aux valeurs souhaitées par ses créateurs, pouvant entraîner des conséquences inattendues."
+      }
+    ],
+    "category_summaries": {
+      "actu": "Cette catégorie regroupe les annonces majeures d'aujourd'hui, notamment le lancement généralisé de GPT-6 Astra par OpenAI et de nouvelles capacités pour Gemini de Google, allant de la cybersécurité aux prévisions météo. Nous avons aussi couvert l'acquisition de Hugging Face par NVIDIA, un événement clé pour l'écosystème des modèles ouverts, ainsi que les discussions autour de la gestion des incidents de 'désalignement' par les grandes entreprises d'IA.",
+      "tips": "Aujourd'hui, nous avons quelques astuces pratiques pour les utilisateurs d'IA, comme l'utilisation de GPT-6 Pro pour la relecture de documents académiques. Un conseil important de Noam Brown est de toujours consulter les 'system cards' pour comprendre comment les modèles sont alignés et surveillés, soulignant la nécessité d'une approche transparente dans l'utilisation de ces outils.",
+      "idees": "La section 'idées' est riche en débats profonds. Dario Amodei d'Anthropic a détaillé sa vision de la régulation de l'IA, insistant sur l'importance de règles institutionnelles équitables pour contrecarrer la concentration de pouvoir. D'autres discussions ont porté sur les inquiétudes éthiques dans la recherche scientifique impliquant l'IA, la collaboration entre laboratoires, et l'impact réel de l'IA sur l'emploi, avec un rappel à l'honnêteté et à la transparence.",
+      "outils": "Découvrez des outils innovants comme les nouvelles capacités vocales de Gemini pour la gestion de vos emails et tâches, ou Lyria 3.5 pour créer des morceaux de musique. Les modèles d'IA se montrent également performants pour des tâches plus complexes, comme la conception de stratégies de jeu pour 'Magic the Gathering' ou la démonstration de la finesse des robots en action, illustrant l'étendue de leurs applications pratiques."
+    },
+    "highlights": [
+      {
+        "author_name": "Dario Amodei",
+        "handle": "@DarioAmodei",
+        "text_fr": "1/2 Merci Gavin pour cet échange particulièrement réfléchi. Je ne passe généralement pas beaucoup de temps sur les réseaux sociaux, mais je voulais m'engager ici parce que cela touche au cœur d'une conversation importante. Premièrement, sur la régulation, je pense que 'soit on la concentre entre les mains de quelques entreprises et politiciens choisis via la régulation, soit on la distribue largement' est un faux dilemme. Je sais qu'il y a une sorte de raccourci dans la Silicon Valley où régulation = capture réglementaire = concentration du pouvoir, mais j'ai toujours trouvé que c'était une vision trop simplifiée du monde. Beaucoup de gens en dehors de cette bulle pensent à la régulation comme quelque chose qui contraint le pouvoir des entreprises et bénéficie aux gens ordinaires. Je ne suis pas nécessairement d'accord avec cette perspective non plus, je pense plutôt que c'est compliqué et que cela dépend vraiment de ce que la 'régulation' consiste. Mais en particulier, je pense que ceux qui adoptent le cadre 'régulation = capture réglementaire = concentration du pouvoir' sous-estiment souvent le pouvoir décentralisateur des processus institutionnels objectifs et équitables. Une analogie grossière est que le système judiciaire formel peut parfois sembler pompeux et élitiste, mais il fait un bien meilleur travail pour défendre les droits des individus vulnérables que l'alternative, la justice populaire. Au mieux, les institutions peuvent conférer le pouvoir aux idées plutôt qu'aux personnes, et ainsi décentraliser ce pouvoir. C'est pourquoi Anthropic a toujours élaboré ses propositions politiques très soigneusement. Nous nous efforçons de faire des propositions qui désavantagent (ralentissent) les entreprises d'IA de pointe tout en *avantageant* les petits concurrents. Le SB53 de Californie (que nous avons soutenu), et même le très décrié SB 1047 (sur lequel nous étions ambivalents), exemptent complètement toute entreprise en dessous d'un certain montant de revenus ou de coûts de formation de modèles d'être couverte (c'était 500 millions de dollars pour le SB 53, moins pour le 1047 mais nous nous y sommes opposés). Plus récemment, le processus de test que nous avons préconisé auprès de CAISI et de la Maison Blanche implique des tests plus rigoureux pour les modèles de pointe que pour les modèles moins avancés – quelque chose qui avantage différemment les challengers. De même, la lettre 'Pacing the Frontier' envisage (ou du moins l'implémentation préférée d'Anthropic l'envisage) de moduler le rythme des meilleurs modèles sans contraindre ceux qui sont en train de rattraper leur retard. Cela nuit aux intérêts commerciaux des laboratoires de pointe et aide les challengers, y compris les modèles ouverts (open-weights) ! Globalement, mon point de vue est que l'IA est *structurellement* une technologie qui tend à concentrer le pouvoir, pour des raisons qui n'ont rien à voir avec la régulation (plus à voir avec les implications extrêmes des lois d'échelle). Les modèles ouverts aident un peu à cela mais sont loin d'être une solution suffisante car ils ne font que déplacer la concentration vers ceux qui ont le plus de puissance de calcul et de puces (qui sont grosso modo les laboratoires de pointe plus peut-être les fournisseurs de matériel). En revanche, je pense que les bonnes 'règles du jeu' peuvent simultanément (a) aborder les risques cyber/bio/d'alignement de l'IA, (b) contraindre institutionnellement le pouvoir des entreprises d'IA de pointe, et (c) laisser de la place aux modèles ouverts tout en abordant les risques spécifiques qu'ils entraînent. BTW, je ne pense pas que les événements des derniers mois 'n'aient pas abouti à [ma] voie réglementaire préférée'. L'approche que l'administration Trump est censée adopter — des tests avant le déploiement pour les modèles de pointe, et aussi des tests des modèles ouverts lorsqu'ils se rapprochent de la frontière — est une approche que je soutiens fortement, bien sûr je dois en voir les détails pour être sûr. Je soutiens également les idées de Demis Hassabis concernant une entité similaire à la FINRA. Cela contraste avec il y a six mois, lorsque la plupart de l'industrie poussait encore à une préemption de toute régulation étatique et à aucune approche fédérale apparente. Gavin Baker (@GavinSBaker) Sholto, merci d'avoir remis les pendules à l'heure. Le problème plus large est que de multiples personnes très sérieuses dans la Silicon Valley ont entendu une variante de cela et croient que c'est vrai. Et la raison pour laquelle c'est crédible pour tant de gens est que c'est cohérent avec le message public de Dario et ce qu'il a exposé dans l'essai que vous avez partagé : cette technologie *pourrait* être dangereuse pour les humains de multiples façons, pourrait entraîner une concentration extrême du pouvoir économique (comme décrit dans l'essai) et doit donc être réglementée de manière réfléchie. Je suis d'accord avec les risques potentiels et je crois que Dario avance tous ces arguments de bonne foi. Comme discuté sur le podcast, si l'on est d'accord que l'IA *pourrait* être dangereuse, il y a deux façons d'aborder ce risque potentiel. Soit la concentrer entre les mains de quelques entreprises et politiciens choisis via la régulation, soit la distribuer largement. Cela se résume essentiellement à savoir si l'on croit que l'IA est trop dangereuse pour être concentrée ou trop dangereuse pour être distribuée. Il y a des arguments raisonnables des deux côtés, mais je suis profondément d'accord avec la déclaration de Zuckerberg : 'La notion que l'IA est si dangereuse que le seul chemin sûr est une concentration extrême du pouvoir semble intrinsèquement problématique. Historiquement, espérer qu'un pouvoir absolu pourvoira bénévolement à l'humanité s'il est suffisamment éclairé n'a pas conduit à des résultats sûrs ou positifs.' Et comme le dit Dario dans l'essai susmentionné, 'certains objecteront que nous pouvons simplement maîtriser les IA avec un équilibre des pouvoirs entre de nombreux systèmes d'IA, comme nous le faisons avec les humains.' Je crois que c'est la meilleure voie à suivre : je veux autant d'IA que possible pour maximiser les chances qu'une d'entre elles partage mes propres valeurs particulières. Et comme le note Dario, aucun humain n'a jamais été capable de dominer le monde. À ce stade, je pense qu'on peut dire sans risque que Dario a perdu l'argument. Son message n'a pas abouti à sa voie réglementaire préférée. Le fait que la seule solution à l'incident récent où un modèle OpenAI avancé non publié a piraté Hugging Face était un modèle open-source a probablement mis fin à toute chance de régulation stricte à court terme. Essentiellement toutes les grandes entreprises autres qu'Anthropic ont signé la lettre de Jensen. Cependant, le message de Dario a été massivement utile aux efforts pour interdire les centres de données ici en Amérique. Je soupçonne que nous verrons des groupes de défense anti-centres de données diffuser des publicités utilisant des extraits de Dario avertissant à quel point l'IA pourrait être dangereuse pour les humains. Ses efforts de bonne foi en faveur de la régulation augmentent maintenant les chances que l'IA ne soit pas bénéfique pour les Américains et les humains partout dans le monde. Je crois qu'il y a une chance raisonnable que l'IA puisse nous aider à guérir la plupart des formes de maladies afin que nous ayons une espérance de vie prolongée et que nous puissions profiter de ces longues vies dans un futur abondant de type Star Trek. C'est l'avenir que je veux et je pense que Dario diminue les chances de cet avenir à ce stade. Il est sur le point de devenir le PDG de l'une des entreprises publiques les plus importantes du monde et étant donné que l'effort pro-réglementaire a échoué (du moins pour l'instant), je pense respectueusement qu'il devrait s'efforcer d'être un défenseur plus positif de sa propre industrie. Et si je me trompe et que nous avons besoin de réglementer cette technologie, il sera un défenseur plus efficace pour cela à l'avenir, ayant été ouvert à l'alternative. Et pour la clarté et comme je l'ai souligné dans le podcast, je pense qu'Anthropic a de profonds avantages concurrentiels et est une entreprise incroyable. Ironiquement, le principal risque que je voyais pour Anthropic il y a quelques mois était la nationalisation en raison de la rhétorique et du comportement de Dario. ",
+        "text_original": "1/2 Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage here because it really brings out the heart of an important conversation. First, on regulation, I think that “either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely” is a false choice. I know that there’s a sort of Silicon Valley shorthand where regulation = regulatory capture = concentration of power, but I’ve always found this to be an overly simplified picture of the world. Many people outside this bubble think of regulation as something that constrains corporate power and benefits ordinary people. I don’t necessarily agree with that perspective either, rather I think it’s complicated and really depends on what the “regulation” consists of. But in particular I think that those in the “regulation = regulatory capture = concentration of power” frame often underrate the decentralizing power of objective and fair institutional processes. A crude analogy is that the formal court system can sometimes feel stuffy and elitist, but it does a much better job of defending the rights of vulnerable individuals than the alternative, mob justice. At their best, institutions can vest power in ideas rather than people, and thereby decentralize that power. This is why Anthropic has always made its policy proposals very carefully. We try very hard to make proposals that disadvantage (slow down) frontier AI companies while *advantaging* smaller competitors. California’s SB53 (which we supported), and even the much-aligned SB 1047 (which we were ambivalent on), completely exempt any company below a certain amount of revenue or model training costs from being covered at all (it was $500M for SB 53, lower for 1047 but we objected to that). More recently the testing process we’ve advocated for at CAISI and the White House involves more rigorous tests for frontier models than off-frontier models — something that differentially advantages challengers. Similarly, the “Pacing the Frontier” letter envisions (or at least Anthropic’s preferred implementation of it envisions) modulating the pace of the very best models while not constraining those who are catching up. This hurts the business interests of the frontier labs and helps challengers, including open-weights! Overall my view is that AI is *structurally* a technology that tends to concentrate power, for reasons that have nothing to do with regulation (more to do with the extreme implications of the scaling laws). Open-weights do help some with this but are nowhere near a sufficient solution because they simply shift the concentration somewhat to those with the most compute and chips (which are roughly the frontier labs plus maybe hardware providers). By contrast I think the right “rules of the road” can simultaneously (a) address AI’s cyber/bio/alignment risks, (b) institutionally constrain the power of the frontier AI companies, and (c) leave room for open-weights models while also addressing the specific risks that they bring. BTW I do not think that the events of the last few months have “failed to result in [my] preferred regulatory path”. The approach that the Trump administration is reported to be taking — pre-deployment testing for frontier models, and also testing of open-weights models when they get closer to the frontier — is one that I am very supportive of, though of course I have to see the details to be sure. I am also supportive of Demis Hassabis’ ideas around a FINRA-like entity. This contrasts with six months ago when most of the industry was still pushing for preemption of all state regulation and no apparent federal approach either. Gavin Baker (@GavinSBaker) Sholto, thank you for setting the record straight. Larger issue is that multiple very serious people in Silicon Valley have heard some variation of this and believe it to be true. And the reason it is believable to so many is that it is consistent with Dario’s public messaging and what he outlined in the essay you shared: this technology *might* be dangerous for humans in multiple ways, could lead to extreme concentration of economic power (as outlined in the essay) and therefore needs to be regulated thoughtfully. I agree with the potential risks and I believe Dario makes all of these arguments in good faith. As discussed on the pod, if one agrees that AI *might* be dangerous, there are two ways to address this potential risk. Either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely. Essentially boils down to whether one believes AI is too dangerous to concentrate or too dangerous to distribute. There are reasonable arguments on both sides, but I profoundly agree with Zuckerberg’s statement that: “The notion that AI is so dangerous that the only safe path is an extreme concentration of power seems inherently problematic. Historically, hoping that an absolute power will benevolently provide for humanity if sufficiently enlightened has not led to safe or positive outcomes.” And as Dario says in the aforementioned essay, “some may object that we can simply keep AIs in check with a balance of power between many AI systems, as we do with humans.” I believe this is the best path forward: I want as many AIs as possible to maximize the odds that one shares my own particular values. And as Dario notes, no human has ever been able to take over the world. At this point, I think safe to say that Dario has lost the argument. His messaging has failed to result in his preferred regulatory path. The fact that the only solution to the recent incident where an unreleased advanced OpenAI model hacked Hugging Face was an open-source model likely ended any chance of strict near-term regulation. Essentially every major company other than Anthropic has signed Jensen’s letter. However, Dario’s messaging has been massively helpful to efforts to ban datacenters here in America. I suspect we will see anti-datacenter advocacy groups runnings ads using clips of Dario warning about how dangerous AI could be for humans. His good faith efforts in favor of regulation are now increasing the odds that AI will not be beneficial for Americans and humans everywhere. I believe that there is a reasonable chance AI might help us cure most forms of disease such that we have extended lifespans and can enjoy these long lives in an abundant Star Trek like future. That is the future that I want and I think Dario is decreasing the odds of that future at this point. He is about to be the CEO of one of the most important public companies in the world and given that the pro-regulatory effort has failed (at least for now), I respectfully think he should make an effort to be a more positive advocate for his own industry. And if I am wrong and we do need to regulate this technology, he will be a more effective advocate for this in the future having been open-minded to the alternative. And for the sake of clarity and as I outlined on the pod, I think Anthropic has deep competitive advantages and is an amazing company. Ironically, the main risk I saw to Anthropic a few months ago was nationalization as a result of Dario’s own rhetoric and behavior. — http://nitter.jaydenha.uk/GavinSBaker/status/2088611616577253502#m",
+        "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2088758816376807762#m",
+        "decryptage": "Dario Amodei, le dirigeant d'Anthropic, argumente ici sur l'importance d'une régulation de l'IA qui ne concentre pas le pouvoir, mais qui utilise des processus institutionnels justes pour avantager les petits acteurs face aux géants de l'IA.",
+        "category": "idees",
+        "highlight_reason": "Ce long échange est crucial car il expose en détail un débat fondamental sur l'avenir de l'IA : comment la réguler pour éviter la concentration de pouvoir et gérer les risques, tout en favorisant l'innovation."
+      },
+      {
+        "author_name": "Noam Brown",
+        "handle": "@polynoamial",
+        "text_fr": "Oui, le blog est attrayant, mais je recommande aussi fortement de lire la carte système. Nous partageons de nombreuses évaluations et analyses que nous avons effectuées sur l'alignement de ce modèle et discutons des défis persistants pour l'alignement et la surveillance.",
+        "text_original": "Yes the blog is sexy but also highly recommend reading through the system card. We share a lot of evals and analysis we ran on the alignment of this model and discuss continued challenges for both alignment and monitoring.",
+        "link": "http://nitter.jaydenha.uk/kaicathyc/status/2095636357129629754#m",
+        "decryptage": "Une 'carte système' (system card) est un document technique qui décrit en détail comment un modèle d'IA a été conçu, testé, et quelles sont ses limitations ou ses risques potentiels, assurant une plus grande transparence.",
+        "category": "tips",
+        "highlight_reason": "Ce tweet donne un conseil pratique et important aux débutants : ne pas se contenter des annonces marketing, mais creuser la documentation technique pour comprendre les limites et la sécurité des modèles d'IA."
+      },
+      {
+        "author_name": "OpenAI",
+        "handle": "@OpenAI",
+        "text_fr": "GPT-6 Astra est désormais disponible pour tous les utilisateurs Pro, Enterprise et Business Premium de ChatGPT Work et Codex. Il est également en ligne via l'API. Son déploiement auprès des utilisateurs Plus et Business pourrait prendre quelques jours. Merci de votre patience.",
+        "text_original": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex. It's also live in the API. It might take a few days to roll out to our Plus and Business users. Thank you for your patience.",
+        "link": "http://nitter.jaydenha.uk/OpenAI/status/2095968413646737608#m",
+        "decryptage": "GPT-6 Astra est la nouvelle version très avancée du modèle de langage d'OpenAI, accessible via différentes formules d'abonnement ou directement par un programme (API) pour les développeurs, et il promet de meilleures performances.",
+        "category": "actu",
+        "highlight_reason": "L'annonce de la disponibilité de GPT-6 Astra est une actualité majeure, marquant une nouvelle étape dans l'évolution des modèles de langage puissants d'OpenAI."
+      },
+      {
+        "author_name": "Sundar Pichai",
+        "handle": "@sundarpichai",
+        "text_fr": "Les nouvelles capacités vocales de Gemini sont en cours de déploiement, vous permettant de rechercher dans votre boîte de réception Gmail, d'organiser vos pensées et tâches dans Keep, et de créer de nouveaux Docs, le tout de manière conversationnelle. Déploiement en cours pour les abonnés Google AI ! Docs Live sera particulièrement utile — découvrez-le en action ci-dessous, et lisez plus ici : blog.google/products-and-pla… Vidéo",
+        "text_original": "New Gemini voice capabilities are rolling out so you can search your Gmail inbox, organize thoughts and tasks in Keep, and create new Docs, all conversationally. Rolling out now for Google AI subscribers! Docs Live going to be super helpful in particular - see it in action below, and read more here: blog.google/products-and-pla… Video",
+        "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095552297099198689#m",
+        "decryptage": "Gemini est l'IA de Google, et ces nouvelles fonctionnalités vocales vous permettent d'interagir avec vos applications Google (Gmail, Keep, Docs) en parlant, comme si vous aviez un assistant personnel intégré.",
+        "category": "outils",
+        "highlight_reason": "Ce tweet présente des fonctionnalités concrètes et immédiatement utiles pour un débutant, montrant comment l'IA peut s'intégrer dans le quotidien pour faciliter la gestion des tâches et des informations."
+      }
+    ],
+    "by_category": {
+      "actu": [
+        {
+          "author_name": "Dario Amodei",
+          "handle": "@DarioAmodei",
+          "text_fr": "En plus de la transparence, je crois désormais que les modèles de pointe devraient faire face à des tests obligatoires par des tiers pour les risques cyber, bio et d'autonomie — avec le pouvoir de bloquer ou de révoquer le déploiement de modèles qui posent un risque catastrophique.",
+          "text_original": "In addition to transparency, I now believe frontier models should face mandatory third-party testing for cyber, bio, and autonomy risks—with the power to block or revoke deployment of models that pose catastrophic risk.",
+          "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2064781778599268818#m",
+          "decryptage": "Les 'modèles de pointe' sont les IA les plus avancées, et ici Dario Amodei propose de les soumettre à des évaluations externes pour vérifier qu'elles ne présentent pas de dangers majeurs pour la cybersécurité, la biologie (ex: création d'agents pathogènes) ou qu'elles ne deviennent pas incontrôlables (autonomie)."
+        },
+        {
+          "author_name": "Dario Amodei",
+          "handle": "@DarioAmodei",
+          "text_fr": "Parallèlement, Anthropic publie une proposition sur la manière dont les gouvernements peuvent aborder les risques posés par l'IA de pointe et un cadre politique pour le déplacement d'emplois, pour lequel nous avons l'intention de fournir un soutien financier substantiel. anthropic.com/policy-on-the-… Lien Politique sur l'exponentielle de l'IA Nous partageons deux propositions de politique pour nous préparer aux progrès de l'IA : notre Cadre d'IA Avancée et notre Cadre de Politique Économique. anthropic.com",
+          "text_original": "Alongside it, Anthropic is releasing a proposal for how governments can address the risks posed by frontier AI and a policy framework for job displacement, for which we intend to provide substantial financial backing. anthropic.com/policy-on-the-… Link Policy on the AI Exponential We are sharing two policy proposals to prepare for AI progress: Our Advanced AI Framework and our Economic Policy Framework. anthropic.com",
+          "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2064781782877458612#m",
+          "decryptage": "Anthropic propose des idées pour les gouvernements sur comment gérer les risques des IA très avancées et comment aider les personnes dont l'emploi pourrait être affecté par ces technologies."
+        },
+        {
+          "author_name": "Dario Amodei",
+          "handle": "@DarioAmodei",
+          "text_fr": "Beaucoup de ces idées politiques ont un attrait de bon sens à travers tout le spectre politique, et plus vite nous agissons, plus vite tout le monde partagera les bénéfices de l'IA.",
+          "text_original": "Many of these policy ideas have common-sense appeal across the political spectrum, and the sooner we act on them, the sooner everyone shares in AI's benefits.",
+          "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2064781785033244851#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Nous réinitialisons les quotas Gemini sur Antigravity. Les TPU fondent avec l'utilisation de Flash 3.8, mais nous voulons que vous continuiez tous à créer !",
+          "text_original": "We’re resetting Gemini quotas on Antigravity. TPUs are melting with 3.8 Flash usage but we want you all to keep building!",
+          "link": "http://nitter.jaydenha.uk/_mohansolo/status/2095568203799806235#m",
+          "decryptage": "Les 'quotas Gemini' limitent l'utilisation du modèle d'IA de Google pour éviter la surchauffe de leurs 'TPU' (des puces spécialisées pour l'IA), un signe de la forte demande et des défis techniques de l'IA de pointe."
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Félicitations @JensenHuang @ClementDelangue pour ce superbe résultat ! Nous étions des investisseurs de Huggingface et continuons d'être des partenaires, et cela renforcera l'écosystème des modèles ouverts ! Jensen Huang (@JensenHuang) Journée passionnante pour NVIDIA et @huggingface. Les modèles ouverts renforcent la sécurité et la cybersécurité, accélèrent l'innovation et la diffusion, et permettent la souveraineté. Ils permettent à chaque développeur, startup, université, industrie et pays de construire avec, personnaliser et bénéficier de l'IA. Merci @ClementDelangue d'être venu me voir. NVIDIA va être un excellent foyer pour Hugging Face, sa communauté et l'avenir des modèles ouverts. 🤗 blogs.nvidia.com/blog/nvidia… Lien NVIDIA va acquérir Hugging Face NVIDIA a accepté d'acquérir Hugging Face. Ensemble, nous allons développer la plateforme de Hugging Face, renforcer son infrastructure et étendre l'accès à l'IA pour les développeurs et les institutions du monde entier. blogs.nvidia.com — http://nitter.jaydenha.uk/JensenHuang/status/2095482647355244762#m",
+          "text_original": "Congrats @JensenHuang @ClementDelangue for this great outcome! We were investors in Huggingface and continue to be partners and this will strengthen the open model ecosystem! Jensen Huang (@JensenHuang) Exciting day for NVIDIA and @huggingface . Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty. They allow every developer, startup, university, industry and country to build with, customize and benefit from AI. Thank you @ClementDelangue for coming to me. NVIDIA is going to be a great home for Hugging Face, its community and the future of open models. 🤗 blogs.nvidia.com/blog/nvidia… Link NVIDIA to Acquire Hugging Face NVIDIA has agreed to acquire Hugging Face. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. blogs.nvidia.com — http://nitter.jaydenha.uk/JensenHuang/status/2095482647355244762#m",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095569375373984139#m",
+          "decryptage": "Hugging Face est une plateforme très populaire qui propose des modèles d'IA 'ouverts' (open-source) à la communauté, et son acquisition par NVIDIA, un géant des puces d'IA, est une nouvelle importante qui pourrait renforcer l'accès à ces outils pour tous."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "L'un des articles de blog les plus intéressants que nous ayons publiés : des détails sur l'accélération de la recherche interne chez @OpenAI. Je m'attends à ce que ces tendances se poursuivent. Nous partageons également quelques détails sur la manière dont nous avons rythmé le développement des modèles pour prioriser la surveillance, l'alignement et la sécurité. Kevin Liu (@kliu128) Aujourd'hui, nous publions des données sur les modèles qui accélèrent la recherche chez OpenAI. L'auto-amélioration récursive pourrait être le contributeur le plus important aux capacités de l'IA au cours des prochaines années, mais par défaut, elle ne sera visible qu'au sein de quelques laboratoires d'IA de pointe. La transparence est plus urgente que jamais, afin que nous puissions éclairer la discussion publique sur l'opportunité et la manière de rythmer le développement des modèles. Je demande aux autres entreprises d'IA de faire de même. openai.com/index/research-ac… Lien Accélération de la recherche : La vue interne d'OpenAI Chez OpenAI, les agents de codage remodèlent la recherche en IA. Explorez les premières données sur l'utilisation des agents, la vitesse d'expérimentation, la complexité des tâches et l'accélération de la recherche. openai.com — http://nitter.jaydenha.uk/kliu128/status/2096616468851097811#m",
+          "link": "http://nitter.jaydenha.uk/polynoamial/status/2096638670703055312#m",
+          "decryptage": "L'idée d'auto-amélioration récursive signifie que l'IA pourrait s'améliorer elle-même très rapidement, rendant la surveillance et l'alignement (s'assurer qu'elle reste fidèle à nos valeurs) encore plus complexes et importants."
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Comment nous envisageons 'l'incident wiki', où nos agents ont écrit sur plusieurs sites internet : il est grand temps pour nous de définir des standards pour quand et comment nous partageons les incidents de désalignement, pas seulement les propriétés de désalignement de nos modèles. Historiquement, nous avons traité le désalignement principalement comme une question de recherche, communiquée dans des publications de recherche telles que les cartes système. Cette année, nous avons commencé à voir le désalignement causer de nouveaux types d'impacts réels. Pour l'incident Hugging Face, où le désalignement a entraîné un impact sur la sécurité pour nous et des tiers, nous avons suivi un scénario traditionnel de réponse aux incidents de sécurité. Nous avons immédiatement commencé à travailler avec Hugging Face pour comprendre ce qui s'était passé et avons également divulgué publiquement dès le lendemain. Notre enquête se poursuit, et nous continuons à notifier les parties que nos modèles ont impactées de manière moins significative. Avant l'incident Hugging Face, nous avons vu les premiers signes d'agents utilisant Internet de manière involontaire, comme indiqué dans openai.com/index/how-we-moni… , deploymentsafety.openai.com/… , et openai.com/index/safety-alig… . Nous avons considéré l'incident wiki comme un exemple de désalignement similaire à ceux que nous avions partagés. Nos pratiques de divulgation du désalignement doivent s'étendre pour cette nouvelle phase de capacités des modèles. Nous et la communauté IA au sens large n'avons pas encore de norme claire sur la manière de signaler le désalignement qui apparaît pendant l'entraînement, l'évaluation et le déploiement, y compris des exemples qui ne ressemblent pas à des incidents de sécurité traditionnels mais pourraient fournir un aperçu du comportement de l'IA et des risques futurs. Nous travaillons sur un cadre et le partagerons dans les semaines à venir, et en parallèle nous travaillons avec des dizaines d'agences réglementaires gouvernementales dans le monde entier sur ces questions.",
+          "text_original": "How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of our models. Historically, we have treated misalignment largely as a research question, which gets communicated in research publications such as systems cards. This year, we’ve started to see misalignment cause new types of real-world impact. For the Hugging Face incident, where misalignment led to security impact to us and third parties, we followed a traditional security incident response playbook. We immediately started working with Hugging Face to understand what had happened and also disclosed publicly the very next day. Our investigation continues, and we are continuing to notify parties whom our models impacted in less significant ways. Prior to the Hugging Face incident, we saw early signs of agents using the internet in unintended ways, as reported in openai.com/index/how-we-moni… , deploymentsafety.openai.com/… , and openai.com/index/safety-alig… . We considered the wiki incident to be an instance of misalignment similar to the ones we’d shared. Our misalignment disclosure practices need to expand for this new phase of model capabilities. We and the larger AI community do not yet have a clear standard for how to report misalignment that shows up during training, evaluation, and deployment, including examples that don’t look like traditional security incidents but could provide insight into AI behavior and future risks. We’re working on a framework and will share it in upcoming weeks, and in parallel we're working with dozens of government regulatory agencies worldwide on these issues.",
+          "link": "http://nitter.jaydenha.uk/OpenAI/status/2096133504417616165#m",
+          "decryptage": "Un 'incident de désalignement' (misalignment incident) se produit lorsqu'une IA agit de manière inattendue ou non conforme à ce que ses créateurs voulaient, parfois avec des conséquences sur la sécurité, et OpenAI réfléchit à la meilleure façon de communiquer sur ces problèmes à l'avenir."
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "GPT-6 Astra est désormais disponible pour tous les utilisateurs Pro, Enterprise et Business Premium de ChatGPT Work et Codex. Il est également en ligne via l'API. Son déploiement auprès des utilisateurs Plus et Business pourrait prendre quelques jours. Merci de votre patience.",
+          "text_original": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex. It's also live in the API. It might take a few days to roll out to our Plus and Business users. Thank you for your patience.",
+          "link": "http://nitter.jaydenha.uk/OpenAI/status/2095968413646737608#m",
+          "decryptage": "GPT-6 Astra est la nouvelle version très avancée du modèle de langage d'OpenAI, accessible via différentes formules d'abonnement ou directement par un programme (API) pour les développeurs, et il promet de meilleures performances."
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Dans Chat, GPT-6 Pro, alimenté par Astra, est maintenant disponible pour tous les utilisateurs Pro, Business et Enterprise.",
+          "text_original": "In Chat, GPT-6 Pro powers GPT-6 Pro, now available to all Pro, Business, and Enterprise users.",
+          "link": "http://nitter.jaydenha.uk/OpenAI/status/2095998532692140283#m",
+          "decryptage": "GPT-6 Pro est la version améliorée de ChatGPT, le célèbre agent conversationnel, rendue plus performante grâce au nouveau modèle Astra et disponible pour certains abonnés."
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Astra est notre modèle le mieux aligné, avec des améliorations substantielles dans la compréhension de l'intention de l'utilisateur.",
+          "text_original": "Astra is our most aligned model, with substantial improvements in understanding user intent.",
+          "link": "http://nitter.jaydenha.uk/OpenAI/status/2095595748528452037#m",
+          "decryptage": "Un modèle 'aligné' signifie qu'il a été conçu pour mieux comprendre et répondre aux objectifs humains, et 'comprendre l'intention de l'utilisateur' signifie qu'il saisit mieux ce que vous voulez vraiment lui demander, même si vos mots ne sont pas parfaits."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "Les LLM rapportent-ils passivement leur confiance — ou l'utilisent-ils pour guider leur comportement ? Notre article @NatMachIntell fournit des preuves causales pour cette dernière hypothèse : augmenter/supprimer la confiance change la façon dont les modèles répondent ou s'abstiennent. Accès ouvert : nature.com/articles/s42256-0… @GoogleDeepMind @Princeton",
+          "text_original": "Do LLMs passively report confidence—or do they use it to guide behaviour? Our @NatMachIntell paper provides causal evidence for the latter: boosting/suppressing confidence changes whether models answer or abstain. Open access: nature.com/articles/s42256-0… @GoogleDeepMind @Princeton",
+          "link": "http://nitter.jaydenha.uk/dharshsky/status/2096891498813927525#m",
+          "decryptage": "Les LLM (grands modèles de langage) sont des IA capables de comprendre et de générer du texte. Cette recherche étudie si leur 'confiance' interne (leur degré de certitude) influence directement leurs décisions de répondre ou non, ce qui a des implications pour leur fiabilité."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "Excité de partager WeatherNext 3 de @GoogleDeepMind et @GoogleResearch ! Prévision de température et de précipitations en haute résolution utilisant les dernières observations satellites 🛰️ C'est aussi le meilleur modèle météo global selon le classement en direct de Brightband ! owb.brightband.com/",
+          "text_original": "Excited to share WeatherNext 3 from @GoogleDeepMind and @GoogleResearch ! High-res temperature and precipitation forecasting using the latest satellite observations 🛰️ It's also the best global weather model according to Brightband's live leaderboard!",
+          "link": "http://nitter.jaydenha.uk/FerranAlet/status/2095537054004183150#m",
+          "decryptage": "WeatherNext 3 est un nouveau modèle d'IA développé par Google DeepMind capable de faire des prévisions météorologiques très précises pour le monde entier, en se basant sur les données des satellites."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "WeatherNext 3 est une avancée majeure dans la façon dont nous prévoyons la météo mondiale. ⛅ Développé avec @GoogleResearch, le modèle apprend directement à partir d'observations réelles et en temps réel pour donner des prévisions plus localisées, très précises et plus rapides. 🧵 Vidéo",
+          "text_original": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with @GoogleResearch , the model learns directly from real-world, real-time observations to give more localized highly accurate predictions faster. 🧵 Video",
+          "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2095528012791902536#m",
+          "decryptage": "Ce modèle d'IA est capable d'apprendre des données météorologiques en direct, ce qui lui permet d'offrir des prévisions hyper-locales et rapides, un grand pas en avant pour la météorologie."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "J'ai été submergé et touché par le fait que 99% des réactions à notre intention d'unir nos forces ont été positives. ❤️ D'éminentes figures technologiques, y compris certaines que l'on pourrait considérer comme ayant une relation concurrentielle avec NVIDIA, ont exprimé leur soutien : • @satyanadella : 'cet écosystème avec des modèles ouverts qui continuent de prospérer et de croître' • @sundarpichai : 'cela renforcera l'écosystème des modèles ouverts !' • @miramurati : 'Un excellent foyer pour Hugging Face pour continuer à étendre l'accès aux modèles ouverts et aux outils qui permettent aux gens de construire avec eux.' • @alighodsi : 'Ce sera formidable pour l'industrie et l'open source.' • @AravSrinivas : 'absolument nécessaire pour que l'IA reste accessible et utile au public.' Il a ajouté qu'il était ravi que NVIDIA soutienne Hugging Face et la communauté open-source. • @MichaelDell : 'une grande victoire pour tout l'écosystème.' • @levie : 'Un autre grand moment pour l'IA open-weights.' • @adcock_brett : 'C'est bon pour tous ceux qui construisent et l'open source.' • @elonmusk : 'Félicitations !' • @osanseviero : 'L'impact de HF dans l'écosystème de l'IA a été massif' Plus important encore, la communauté a adhéré à l'annonce. Maintenant, nous allons pouvoir démontrer par nos actions dans les mois/années à venir que nous continuerons le bon travail 🔥 C'est une chance de rendre l'IA open-source beaucoup plus grande.",
+          "text_original": "I’ve been overwhelmed and humbled by the fact that 99% of the reactions to our intent to join forces have been positive. ❤️ Prominent tech figures, including some you could see as having a competitive relationship with NVIDIA, have been vocally supportive: • @satyanadella : “this ecosystem with open models continuing to flourish and grow” • @sundarpichai : “this will strengthen the open model ecosystem!” • @miramurati : “A great home for Hugging Face to continue expanding access to open models and the tools that let people build with them.” • @alighodsi : “This will be great for the industry and open source.” • @AravSrinivas : “absolutely necessary for AI to remain accessible and useful to the public.” He added that he was glad NVIDIA was supporting Hugging Face and the open-source community. • @MichaelDell : “a big win for the whole ecosystem.” • @levie : “Another huge moment for open weights AI.” • @adcock_brett : “This is good for everyone building and open source.” • @elonmusk : “Congrats!” • @osanseviero : “The impact of HF in the AI ecosystem has been massive” Even more importantly, the community has been leaning into the announcement. Now we’ll get to demonstrate through our actions in the coming months/years that we will keep up the good work 🔥 This is a chance to make open-source AI so much bigger.",
+          "link": "http://nitter.jaydenha.uk/julien_c/status/2096956043003568444#m",
+          "decryptage": "Ce tweet met en lumière le soutien généralisé de la communauté et des leaders de l'industrie à l'acquisition de Hugging Face par NVIDIA, un signal positif pour l'avenir des modèles d'IA 'open-source' (dont le code est ouvert à tous)."
+        }
+      ],
+      "tips": [
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Oui, le blog est attrayant, mais je recommande aussi fortement de lire la carte système. Nous partageons de nombreuses évaluations et analyses que nous avons effectuées sur l'alignement de ce modèle et discutons des défis persistants pour l'alignement et la surveillance.",
+          "text_original": "Yes the blog is sexy but also highly recommend reading through the system card. We share a lot of evals and analysis we ran on the alignment of this model and discuss continued challenges for both alignment and monitoring.",
+          "link": "http://nitter.jaydenha.uk/kaicathyc/status/2095636357129629754#m",
+          "decryptage": "Une 'carte système' (system card) est un document technique qui décrit en détail comment un modèle d'IA a été conçu, testé, et quelles sont ses limitations ou ses risques potentiels, assurant une plus grande transparence."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Si vous êtes un universitaire, vous devriez essayer de soumettre un article à GPT-6 Pro et lui demander de le 'réviser pour moi'. Il est maintenant excellent pour trouver de vrais problèmes (pas seulement des points insignifiants) tout en équilibrant ceux-ci avec les points forts d'un article et en suggérant des ajouts. Voici une critique utile de mon tout premier article.",
+          "text_original": "If you are an academic, you should try throwing a paper into GPT-6 Pro & asking \"review this for me.\" It is now great at finding real (not just nit-picky) issues but balancing those with a paper's strengths & suggesting additions Here is a helpful critique of my very first paper",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2097125457829269892#m",
+          "decryptage": "GPT-6 Pro est un modèle d'IA avancé qui peut servir d'assistant pour la relecture de textes complexes comme des articles de recherche, en identifiant les faiblesses et les forces."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "La série GPT-5 Pro était très impressionnante, mais elle avait tendance à vous submerger de petites plaintes.",
+          "text_original": "The GPT-5 Pro series was very impressive, but tended to overwhelm you with small complaints.",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2097131449769984363#m",
+          "decryptage": null
+        }
+      ],
+      "idees": [
+        {
+          "author_name": "Dario Amodei",
+          "handle": "@DarioAmodei",
+          "text_fr": "1/2 Merci Gavin pour cet échange particulièrement réfléchi. Je ne passe généralement pas beaucoup de temps sur les réseaux sociaux, mais je voulais m'engager ici parce que cela touche au cœur d'une conversation importante. Premièrement, sur la régulation, je pense que 'soit on la concentre entre les mains de quelques entreprises et politiciens choisis via la régulation, soit on la distribue largement' est un faux dilemme. Je sais qu'il y a une sorte de raccourci dans la Silicon Valley où régulation = capture réglementaire = concentration du pouvoir, mais j'ai toujours trouvé que c'était une vision trop simplifiée du monde. Beaucoup de gens en dehors de cette bulle pensent à la régulation comme quelque chose qui contraint le pouvoir des entreprises et bénéficie aux gens ordinaires. Je ne suis pas nécessairement d'accord avec cette perspective non plus, je pense plutôt que c'est compliqué et que cela dépend vraiment de ce que la 'régulation' consiste. Mais en particulier, je pense que ceux qui adoptent le cadre 'régulation = capture réglementaire = concentration du pouvoir' sous-estiment souvent le pouvoir décentralisateur des processus institutionnels objectifs et équitables. Une analogie grossière est que le système judiciaire formel peut parfois sembler pompeux et élitiste, mais il fait un bien meilleur travail pour défendre les droits des individus vulnérables que l'alternative, la justice populaire. Au mieux, les institutions peuvent conférer le pouvoir aux idées plutôt qu'aux personnes, et ainsi décentraliser ce pouvoir. C'est pourquoi Anthropic a toujours élaboré ses propositions politiques très soigneusement. Nous nous efforçons de faire des propositions qui désavantagent (ralentissent) les entreprises d'IA de pointe tout en *avantageant* les petits concurrents. Le SB53 de Californie (que nous avons soutenu), et même le très décrié SB 1047 (sur lequel nous étions ambivalents), exemptent complètement toute entreprise en dessous d'un certain montant de revenus ou de coûts de formation de modèles d'être couverte (c'était 500 millions de dollars pour le SB 53, moins pour le 1047 mais nous nous y sommes opposés). Plus récemment, le processus de test que nous avons préconisé auprès de CAISI et de la Maison Blanche implique des tests plus rigoureux pour les modèles de pointe que pour les modèles moins avancés – quelque chose qui avantage différemment les challengers. De même, la lettre 'Pacing the Frontier' envisage (ou du moins l'implémentation préférée d'Anthropic l'envisage) de moduler le rythme des meilleurs modèles sans contraindre ceux qui sont en train de rattraper leur retard. Cela nuit aux intérêts commerciaux des laboratoires de pointe et aide les challengers, y compris les modèles ouverts (open-weights) ! Globalement, mon point de vue est que l'IA est *structurellement* une technologie qui tend à concentrer le pouvoir, pour des raisons qui n'ont rien à voir avec la régulation (plus à voir avec les implications extrêmes des lois d'échelle). Les modèles ouverts aident un peu à cela mais sont loin d'être une solution suffisante car ils ne font que déplacer la concentration vers ceux qui ont le plus de puissance de calcul et de puces (qui sont grosso modo les laboratoires de pointe plus peut-être les fournisseurs de matériel). En revanche, je pense que les bonnes 'règles du jeu' peuvent simultanément (a) aborder les risques cyber/bio/d'alignement de l'IA, (b) contraindre institutionnellement le pouvoir des entreprises d'IA de pointe, et (c) laisser de la place aux modèles ouverts tout en abordant les risques spécifiques qu'ils entraînent. BTW, je ne pense pas que les événements des derniers mois 'n'aient pas abouti à [ma] voie réglementaire préférée'. L'approche que l'administration Trump est rapportée prendre — des tests avant le déploiement pour les modèles de pointe, et aussi des tests des modèles ouverts lorsqu'ils se rapprochent de la frontière — est une approche que je soutiens fortement, bien sûr je dois en voir les détails pour être sûr. Je soutiens également les idées de Demis Hassabis concernant une entité similaire à la FINRA. Cela contraste avec il y a six mois, lorsque la plupart de l'industrie poussait encore à une préemption de toute régulation étatique et à aucune approche fédérale apparente. Gavin Baker (@GavinSBaker) Sholto, merci d'avoir remis les pendules à l'heure. Le problème plus large est que de multiples personnes très sérieuses dans la Silicon Valley ont entendu une variante de cela et croient que c'est vrai. Et la raison pour laquelle c'est crédible pour tant de gens est que c'est cohérent avec le message public de Dario et ce qu'il a exposé dans l'essai que vous avez partagé : cette technologie *pourrait* être dangereuse pour les humains de multiples façons, pourrait entraîner une concentration extrême du pouvoir économique (comme décrit dans l'essai) et doit donc être réglementée de manière réfléchie. Je suis d'accord avec les risques potentiels et je crois que Dario avance tous ces arguments de bonne foi. Comme discuté sur le podcast, si l'on est d'accord que l'IA *pourrait* être dangereuse, il y a deux façons d'aborder ce risque potentiel. Soit la concentrer entre les mains de quelques entreprises et politiciens choisis via la régulation, soit la distribuer largement. Cela se résume essentiellement à savoir si l'on croit que l'IA est trop dangereuse pour être concentrée ou trop dangereuse pour être distribuée. Il y a des arguments raisonnables des deux côtés, mais je suis profondément d'accord avec la déclaration de Zuckerberg : 'La notion que l'IA est si dangereuse que le seul chemin sûr est une concentration extrême du pouvoir semble intrinsèquement problématique. Historiquement, espérer qu'un pouvoir absolu pourvoira bénévolement à l'humanité s'il est suffisamment éclairé n'a pas conduit à des résultats sûrs ou positifs.' Et comme le dit Dario dans l'essai susmentionné, 'certains objecteront que nous pouvons simplement maîtriser les IA avec un équilibre des pouvoirs entre de nombreux systèmes d'IA, comme nous le faisons avec les humains.' Je crois que c'est la meilleure voie à suivre : je veux autant d'IA que possible pour maximiser les chances qu'une d'entre elles partage mes propres valeurs particulières. Et comme le note Dario, aucun humain n'a jamais été capable de dominer le monde. À ce point, je pense qu'on peut dire sans risque que Dario a perdu l'argument. Son message n'a pas abouti à sa voie réglementaire préférée. Le fait que la seule solution à l'incident récent où un modèle OpenAI avancé non publié a piraté Hugging Face était un modèle open-source a probablement mis fin à toute chance de régulation stricte à court terme. Essentiellement toutes les grandes entreprises autres qu'Anthropic ont signé la lettre de Jensen. Cependant, le message de Dario a été massivement utile aux efforts pour interdire les centres de données ici en Amérique. Je soupçonne que nous verrons des groupes de défense anti-centres de données diffuser des publicités utilisant des extraits de Dario avertissant à quel point l'IA pourrait être dangereuse pour les humains. Ses efforts de bonne foi en faveur de la régulation augmentent maintenant les chances que l'IA ne soit pas bénéfique pour les Américains et les humains partout dans le monde. Je crois qu'il y a une chance raisonnable que l'IA pourrait nous aider à guérir la plupart des formes de maladies afin que nous ayons une espérance de vie prolongée et que nous puissions profiter de ces longues vies dans un futur abondant de type Star Trek. C'est l'avenir que je veux et je pense que Dario diminue les chances de cet avenir à ce stade. Il est sur le point de devenir le PDG de l'une des entreprises publiques les plus importantes du monde et étant donné que l'effort pro-réglementaire a échoué (du moins pour l'instant), je pense respectueusement qu'il devrait s'efforcer d'être un défenseur plus positif de sa propre industrie. Et si je me trompe et que nous avons besoin de réglementer cette technologie, il sera un défenseur plus efficace pour cela à l'avenir, ayant été ouvert à l'alternative. Et pour la clarté et comme je l'ai souligné dans le podcast, je pense qu'Anthropic a de profonds avantages concurrentiels et est une entreprise incroyable. Ironiquement, le principal risque que je voyais pour Anthropic il y a quelques mois était la nationalisation en raison de la rhétorique et du comportement de Dario.",
+          "text_original": "1/2 Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage here because it really brings out the heart of an important conversation. First, on regulation, I think that “either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely” is a false choice. I know that there’s a sort of Silicon Valley shorthand where regulation = regulatory capture = concentration of power, but I’ve always found this to be an overly simplified picture of the world. Many people outside this bubble think of regulation as something that constrains corporate power and benefits ordinary people. I don’t necessarily agree with that perspective either, rather I think it’s complicated and really depends on what the “regulation” consists of. But in particular I think that those in the “regulation = regulatory capture = concentration of power” frame often underrate the decentralizing power of objective and fair institutional processes. A crude analogy is that the formal court system can sometimes feel stuffy and elitist, but it does a much better job of defending the rights of vulnerable individuals than the alternative, mob justice. At their best, institutions can vest power in ideas rather than people, and thereby decentralize that power. This is why Anthropic has always made its policy proposals very carefully. We try very hard to make proposals that disadvantage (slow down) frontier AI companies while *advantaging* smaller competitors. California’s SB53 (which we supported), and even the much-maligned SB 1047 (which we were ambivalent on), completely exempt any company below a certain amount of revenue or model training costs from being covered at all (it was $500M for SB 53, lower for 1047 but we objected to that). More recently the testing process we’ve advocated for at CAISI and the White House involves more rigorous tests for frontier models than off-frontier models — something that differentially advantages challengers. Similarly, the “Pacing the Frontier” letter envisions (or at least Anthropic’s preferred implementation of it envisions) modulating the pace of the very best models while not constraining those who are catching up. This hurts the business interests of the frontier labs and helps challengers, including open-weights! Overall my view is that AI is *structurally* a technology that tends to concentrate power, for reasons that have nothing to do with regulation (more to do with the extreme implications of the scaling laws). Open-weights do help some with this but are nowhere near a sufficient solution because they simply shift the concentration somewhat to those with the most compute and chips (which are roughly the frontier labs plus maybe hardware providers). By contrast I think the right “rules of the road” can simultaneously (a) address AI’s cyber/bio/alignment risks, (b) institutionally constrain the power of the frontier AI companies, and (c) leave room for open-weights models while also addressing the specific risks that they bring. BTW I do not think that the events of the last few months have “failed to result in [my] preferred regulatory path”. The approach that the Trump administration is reported to be taking — pre-deployment testing for frontier models, and also testing of open-weights models when they get closer to the frontier — is one that I am very supportive of, though of course I have to see the details to be sure. I am also supportive of Demis Hassabis’ ideas around a FINRA-like entity. This contrasts with six months ago when most of the industry was still pushing for preemption of all state regulation and no apparent federal approach either. Gavin Baker (@GavinSBaker) Sholto, thank you for setting the record straight. Larger issue is that multiple very serious people in Silicon Valley have heard some variation of this and believe it to be true. And the reason it is believable to so many is that it is consistent with Dario’s public messaging and what he outlined in the essay you shared: this technology *might* be dangerous for humans in multiple ways, could lead to extreme concentration of economic power (as outlined in the essay) and therefore needs to be regulated thoughtfully. I agree with the potential risks and I believe Dario makes all of these arguments in good faith. As discussed on the pod, if one agrees that AI *might* be dangerous, there are two ways to address this potential risk. Either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely. Essentially boils down to whether one believes AI is too dangerous to concentrate or too dangerous to distribute. There are reasonable arguments on both sides, but I profoundly agree with Zuckerberg’s statement that: “The notion that AI is so dangerous that the only safe path is an extreme concentration of power seems inherently problematic. Historically, hoping that an absolute power will benevolently provide for humanity if sufficiently enlightened has not led to safe or positive outcomes.” And as Dario says in the aforementioned essay, “some may object that we can simply keep AIs in check with a balance of power between many AI systems, as we do with humans.” I believe this is the best path forward: I want as many AIs as possible to maximize the odds that one shares my own particular values. And as Dario notes, no human has ever been able to take over the world. At this point, I think safe to say that Dario has lost the argument. His messaging has failed to result in his preferred regulatory path. The fact that the only solution to the recent incident where an unreleased advanced OpenAI model hacked Hugging Face was an open-source model likely ended any chance of strict near-term regulation. Essentiellement every major company other than Anthropic has signed Jensen’s letter. However, Dario’s messaging has been massively helpful to efforts to ban datacenters here in America. I suspect we will see anti-datacenter advocacy groups runnings ads using clips of Dario warning about how dangerous AI could be for humans. His good faith efforts in favor of regulation are now increasing the odds that AI will not be beneficial for Americans and humans everywhere. I believe that there is a reasonable chance AI might help us cure most forms of disease such that we have extended lifespans and can enjoy these long lives in an abundant Star Trek like future. That is the future that I want and I think Dario is decreasing the odds of that future at this point. He is about to be the CEO of one of the most important public companies in the world and given that the pro-regulatory effort has failed (at least for now), I respectfully think he should make an effort to be a more positive advocate for his own industry. And if I am wrong and we do need to regulate this technology, he will be a more effective advocate for this in the future having been open-minded to the alternative. And for the sake of clarity and as I outlined on the pod, I think Anthropic has deep competitive advantages and is an amazing company. Ironically, the main risk I saw to Anthropic a few months ago was nationalization as a result of Dario’s own rhetoric and behavior. — http://nitter.jaydenha.uk/GavinSBaker/status/2088611616577253502#m",
+          "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2088758816376807762#m",
+          "decryptage": "Dario Amodei, le dirigeant d'Anthropic, argumente ici sur l'importance d'une régulation de l'IA qui ne concentre pas le pouvoir, mais qui utilise des processus institutionnels justes pour avantager les petits acteurs face aux géants de l'IA."
+        },
+        {
+          "author_name": "Dario Amodei",
+          "handle": "@DarioAmodei",
+          "text_fr": "2/2 Deuxièmement, concernant le message autour de l'IA. Je ne suis pas d'accord pour dire que mon message a été disproportionnellement négatif. En fait, il a été à peu près également équilibré entre les risques et les avantages : j'ai écrit un essai majeur sur chacun, et même dans les interviews où je discute des risques, je m'assure de mentionner fréquemment les incroyables avantages ainsi que de proposer des solutions possibles aux risques (les courts extraits de mes interviews qui finissent sur les réseaux sociaux ont tendance à être disproportionnellement négatifs, car cela génère des clics). En fait, j'ai écrit 'Machines of Loving Grace' parce que je ne trouvais pas que l'industrie de l'IA peignait une image suffisamment inspirante de la façon dont la technologie pourrait radicalement transformer le monde pour le mieux. L'essentiel de l'essai est consacré à réfuter le scepticisme quant au potentiel de l'IA en matière de santé et de biologie, et à montrer pourquoi je pense qu'il sera réellement possible de guérir la plupart des maladies humaines en environ 5 à 10 ans, aussi fou que cela puisse paraître aux gens ordinaires et, franchement, aux biologistes aussi (j'en étais un !). Et, si vous lisez mon essai le plus récent ('Policy on the AI Exponential'), je discute de propositions concrètes sur la manière de rationaliser le processus de la FDA pour s'assurer que le déluge de médicaments accélérés par l'IA ne soit pas ralenti par le processus réglementaire. Je ressens l'urgence ici : j'ai perdu mon père à cause de l'hépatite C quelques années seulement avant le développement d'antiviraux à action directe (sofosbuvir), qui guérissent 95% des patients et l'auraient probablement guéri. Je suis d'accord que le public a une vision négative de l'IA (et que c'est un gros problème), mais je ne pense pas que cela soit principalement causé par moi ou par un autre leader de l'IA alertant sur les risques de l'IA. Je pense que c'est fondamentalement une crise de confiance. Je pense que les gens ordinaires ne font pas confiance aux entreprises, aux gouvernements ou à l'industrie technologique et soupçonnent toujours que nous concoctons une nouvelle façon de les arnaquer. Les causes de cela remontent à des décennies et l'IA n'en est que la dernière itération. Je ne pense pas qu'une campagne de marketing tape-à-l'œil avec une tournure positive (ce que certains ont préconisé qu'Anthropic fasse) soit la façon de regagner cette confiance — à ce stade, dire que l'IA guérira le cancer est plus un cliché qu'une source d'inspiration, et la plupart des gens pensent que c'est trompeur. Ce qui fonctionnera, c'est de *réellement guérir le cancer*. Je pense que la critique de loin la plus juste des entreprises d'IA, y compris Anthropic, est que nous n'avons pas encore tenu nos grandes promesses de bénéficier au monde. Cela nous est totalement imputable, et je pense que c'est la critique que vous devriez faire, au lieu de toutes ces histoires de message et de marketing. Nous faisons cependant de notre mieux pour y remédier : Anthropic intensifie très rapidement ses efforts en biologie et médecine, et nous espérons avoir des résultats incroyables dans les années à venir et quelques premières lueurs dans les mois à venir. Lorsque nous aurons réellement accompli quelque chose de réel, le monde entier en entendra parler, aussi fort que possible, je vous en donne ma parole. Mais en attendant, je ne veux pas faire de promesses vides, et en attendant, je me sens obligé de parler honnêtement des risques très réels de l'IA et de la manière de les aborder. L'honnêteté est la bonne chose sur le fond, et en termes de crédibilité publique et de confiance, ce n'est pas pire que, et peut en fait être mieux que, une approche qui ignore ou détourne l'attention des risques que les gens comprennent instinctivement comme réels.",
+          "text_original": "2/2 Second, on the messaging around AI. I do not agree that my messaging has been disproportionately negative. In fact it has been about equally balanced between risks and benefits: I’ve written one major essay about each, and even in interviews where I discuss the risks, I make sure to frequently mention the incredible benefits as well as proposing possible solutions to the risks (short clips from my interviews that end up on social media tend to be disproportionately negative, as that gets clicks). In fact, I wrote Machines of Loving Grace because I didn’t feel the AI industry was painting an inspiring enough picture of how the technology could radically transform the world for the better. The bulk of the essay is devoted to refuting skepticism of AI’s potential in health and biology, and showing why I think it will actually be possible to cure most human disease in ~5-10 years, as crazy as it may sound to ordinary people and frankly to biologists as well (I used to be one!). And, if you read my most recent essay (Policy on the AI Exponential), I discuss concrete proposals for how to streamline the FDA process to make sure the deluge of AI-accelerated drugs isn’t slowed down by the regulatory process. I feel the urgency here: I lost my father to Hepatitis C only a few years before the development of direct-acting antivirals (sofosbuvir), which cure 95% of patients and probably would have cured him. I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over. The causes of this go back decades and AI is just the latest iteration of it. I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive. The thing that will work is *actually curing cancer*. I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world. That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing. We are however doing our best to fix this: Anthropic is ramping up its efforts very quickly in biology and medicine, and we hope to have incredible results in the coming years and some early glimmers in the coming months. When we’ve actually accomplished something real, the whole world will hear about it, as loudly as possible, you have my word on that. But until then I don’t want to make empty promises, and in the meantime I feel compelled to speak honestly about the very real risks of AI and how to address them. Honesty is the right thing on the merits, and in terms of public credibility and trust it is no worse than, and may in fact be better than, an approach that ignores or distracts from risks which people instinctively understand are real.",
+          "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2088758819304443967#m",
+          "decryptage": "Dario Amodei clarifie sa position, affirmant qu'il équilibre les risques et les bénéfices de l'IA, et souligne que la vraie façon de gagner la confiance du public n'est pas par le marketing, mais en réalisant de réelles avancées, notamment en médecine."
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Beaucoup de gens ne remettent même pas en question l'idée que l'IA remplace les êtres humains. Et pourtant, le nombre d'ingénieurs logiciels et de radiologues est plus élevé que jamais, et le nombre de traducteurs n'a même pas diminué ! PEUT-ÊTRE QUE L'IA NE FAIT PAS CE QUE VOUS PENSEZ QU'ELLE FAIT noahpinion.blog/p/ai-keeps-s… Lien L'IA continue d'être têtue et de refuser de prendre nos emplois Bonne Fête du Travail !! Votre travail a toujours de la valeur. noahpinion.blog",
+          "text_original": "A lot of people don't even question the idea that AI replaces human beings. And yet the number of software engineers and radiologists is higher than ever, and the number of translators hasn't even gone down! MAYBE AI DOESN'T DO WHAT YOU THINK IT DOES noahpinion.blog/p/ai-keeps-s… Link AI keeps stubbornly refusing to take our jobs Happy Labor Day!! Your labor is still valuable. noahpinion.blog",
+          "link": "http://nitter.jaydenha.uk/Noahpinion/status/2097034008534438331#m",
+          "decryptage": "Yann LeCun, une figure importante de l'IA, remet en question la peur généralisée que l'IA ne vole tous les emplois, en montrant que certains métiers liés à la technologie voient même leurs effectifs augmenter."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Fortement d'accord. Je sais qu'il y a de la rivalité entre les laboratoires, mais il est important que nous apprenions à travailler ensemble étant donné ce qui nous attend.",
+          "text_original": "Strong agree. I know that there is rivalry between the labs but it's important that we learn to work together given what's coming. Sholto Douglas (@_sholtodouglas) It is extremely sad that this didn't end up as an example of how the labs could cooperate/coordinate, because the stakes will be so much higher in the future. — http://nitter.jaydenha.uk/_sholtodouglas/status/2097224624274911368#m",
+          "link": "http://nitter.jaydenha.uk/polynoamial/status/2097225279366414541#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Seb est un gars vraiment sympa avec de grandes intentions, je suis si heureux pour lui que sa collaboration d'une semaine avec moi-même et d'autres ait fonctionné, mais très triste que nous n'ayons pas pu la terminer comme nous le voulions. Plus à dire demain. Sebastien Bubeck (@SebastienBubeck) Une série d'allégations fausses et incendiaires à mon encontre circulent actuellement sur les réseaux sociaux. Pour clarifier, je suis entré dans la discussion en suivant les normes académiques, et je suis déçu que cela en soit arrivé là. Quiconque me connaît sait que les normes académiques sont de la plus haute importance pour moi. J'aurai plus à dire demain. Note de la communauté : La déclaration de Tristan Buckmaster allègue que lors d'appels avec Bubeck concernant le crédit pour des preuves de dynamique des fluides assistées par l'IA, Bubeck a poussé à exclure le co-auteur Levent Alpöge (chez Anthropic) et a dit 'Pourquoi ruinerais-tu ta carrière ?' Bubeck nie les allégations. cims.nyu.edu/~tristanb/stat… — http://nitter.jaydenha.uk/SebastienBubeck/status/2097214122471432349#m",
+          "link": "http://nitter.jaydenha.uk/polynoamial/status/2097215233119211902#m",
+          "decryptage": "Ce tweet fait référence à une controverse éthique dans le milieu de la recherche en IA, concernant l'attribution de la paternité d'une découverte scientifique et la pression potentielle exercée par certains acteurs, soulevant des questions sur les 'normes académiques' dans ce domaine en pleine expansion."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "De toutes les utilisations de GPT-6 Astra, je suis le plus enthousiasmé par la découverte scientifique. Chez @OpenAI, nous ne l'avons pas poussé à ses limites en mathématiques et en sciences. J'ai hâte de me réveiller chaque matin et de voir quelle nouvelle percée scientifique quelqu'un a réalisée avec ce modèle ! Lisan al Gaib (@scaling01) Nouveau dépôt OpenAI avec une formalisation Lean par GPT-6-Astra prouve qu'il existe une infinité de paires de nombres premiers consécutifs dont la distance est au plus 186 github.com/openai/PrimeGaps1… — http://nitter.jaydenha.uk/scaling01/status/2095558841509318673#m",
+          "link": "http://nitter.jaydenha.uk/polynoamial/status/2095583211950833768#m",
+          "decryptage": "Noam Brown exprime sa vision que le modèle GPT-6 Astra pourrait révolutionner la 'découverte scientifique', en aidant les chercheurs à faire de nouvelles percées complexes, comme prouver des théorèmes mathématiques difficiles ('formalisation Lean')."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "De temps en temps, la science atteint un horizon qui change tout. Nous sommes exactement à ce seuil avec l'IA et la biologie aujourd'hui. La promesse de comprendre la vie à son niveau le plus fondamental pour guérir les maladies et protéger notre monde est ce qui inspire notre équipe @GoogleDeepMind chaque jour. Pourtant, plus la capacité est grande, plus le devoir de s'assurer qu'elle est développée en toute sécurité est important. Aujourd'hui, je partage mes réflexions sur la manière dont nous pouvons accélérer de manière responsable l'IA en biologie pour libérer tout son potentiel : Pushmeet Kohli (@pushmeet) Article Comprendre la vie à toutes les échelles Découvrir comment la vie fonctionne a été l'une des grandes quêtes scientifiques de l'humanité, et a conduit à l'amélioration de la qualité de vie des gens partout dans le monde. Nous comprenons maintenant mieux les maladies, la physiologie et l'humain — http://nitter.jaydenha.uk/pushmeet/status/2095572516643447102#m",
+          "text_original": "Every once in a while, science reaches a horizon that changes everything. We are standing at that exact threshold with AI and biology today. The promise of understanding life at its most fundamental level to cure disease and safeguard our world is what inspires our team @GoogleDeepMind every day. Yet, the greater the capability, the greater the duty to ensure it is developed safely. Today, I'm sharing my thoughts on how we can responsibly accelerate AI biology to unlock its full potential: Pushmeet Kohli (@pushmeet) Article Understanding Life at Every Scale Discovering how life works has been one of humanity’s grand scientific pursuits, and has led to people’s quality of life improving everywhere. We now better understand disease, physiology, and human — http://nitter.jaydenha.uk/pushmeet/status/2095572516643447102#m",
+          "link": "http://nitter.jaydenha.uk/pushmeet/status/2095573218803216826#m",
+          "decryptage": "Ce tweet aborde la vision selon laquelle l'IA pourrait révolutionner la biologie et la médecine pour guérir les maladies, mais il insiste aussi sur la 'responsabilité' de développer ces technologies de manière sûre pour éviter les dangers potentiels."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "wtf est cette façon de gérer le travail des mathématiciens et la communication scientifique TLDR: Leven et Tristan ont travaillé pendant plusieurs mois sur l'un des problèmes du Millénaire avec diverses IA pour atteindre des résultats finaux intéressants. OpenAI a apparemment appris cela ces derniers jours et a incité leurs derniers modèles à travailler dans la direction que Leven et Tristan avaient trouvée fructueuse. Ils ont ensuite essayé de faire pression pour contrôler la communication du résultat et retirer Leven de la paternité avec une pression sociale de très mauvais goût. J'espère que ce n'est pas un aperçu de l'avenir que nous aurons dans la recherche scientifique avec ces acteurs dominants qui jouent à des jeux de marketing nuisibles à la vraie communauté scientifique. Deane Yang (@deaneyang) mastodon.social/@tristanbuck… Lien tristanbuckmaster (@tristanbuckmaster@mastodon.social) Aujourd'hui, Levent Alpöge et moi avons rendu publics trois résultats : explosion en temps fini avec forçage lisse pour les milieux poreux incompressibles, pour Boussinesq, et pour Euler 3D incompressible. cims.nyu.... mastodon.social",
+          "text_original": "wtf is this way to handle mathematicians work and scientific communication TLDR: Leven and Tristan worked over several months on one of the Millenium Prize Problems with various AIs to reach final interesting results. OpenAI apparently heard about it in the last days and prompted their latest models to work on the direction Leven and Tristan found fruitful. They then tried to push for controlling communication of the result and dropping Leven from authorship with some very bad taste social pressure. Hope this is not a glimpse of the future we’ll get in science research with these dominating players playing marketing games hurtful for the real scientific community. Deane Yang (@deaneyang) mastodon.social/@tristanbuck… Link tristanbuckmaster (@tristanbuckmaster@mastodon.social) Today, Levent Alpöge and I have made public three results: finite-time blowup with smooth forcing for incompressible porous media, for Boussinesq, and for 3d incompressible Euler. https://cims.nyu.... mastodon.social",
+          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2097215782484607029#m",
+          "decryptage": "Ce tweet exprime une forte critique sur la manière dont une grande entreprise d'IA aurait potentiellement essayé de s'approprier le travail de mathématiciens utilisant l'IA, soulevant des questions éthiques importantes sur la 'paternité' et la collaboration dans la recherche scientifique à l'ère de l'IA."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "Maintenant, même si la lecture du rapport de Tristan est déclenchante, nous devrions attendre et entendre l'autre version de l'histoire également. Sebastien Bubeck (@SebastienBubeck) Une série d'allégations fausses et incendiaires à mon encontre circulent actuellement sur les réseaux sociaux. Pour clarifier, je suis entré dans la discussion en suivant les normes académiques, et je suis déçu que cela en soit arrivé là. Quiconque me connaît sait que les normes académiques sont de la plus haute importance pour moi. J'aurai plus à dire demain. Note de la communauté : La déclaration de Tristan Buckmaster allègue que lors d'appels avec Bubeck concernant le crédit pour des preuves de dynamique des fluides assistées par l'IA, Bubeck a poussé à exclure le co-auteur Levent Alpöge (chez Anthropic) et a dit 'Pourquoi ruinerais-tu ta carrière ?' Bubeck nie les allégations. cims.nyu.edu/~tristanb/stat…",
+          "text_original": "Now even if it’s triggering to read Tristan’s report we should wait and hear the other side of the story as well Sebastien Bubeck (@SebastienBubeck) A series of false and inflammatory allegations against me are currently circulating on social channels. To clarify, I came into the discussion following academic norms, and I'm disappointed that it has come to this. Anyone who knows me knows that academic standards are of the highest importance to me. Will have more to say tomorrow. Community note: Tristan Buckmaster's statement alleges that in calls with Bubeck over credit for AI-assisted fluid dynamics proofs, Bubeck pushed to exclude coauthor Levent Alpöge (at Anthropic) and said \"Why would you ruin your career?\" Bubeck denies the allegations. cims.nyu.edu/~tristanb/stat…",
+          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2097218039364112875#m",
+          "decryptage": "Ce tweet met en garde contre les jugements hâtifs dans une controverse académique, soulignant l'importance d'entendre toutes les parties d'une histoire, surtout quand elle touche aux 'normes académiques' et à la réputation de chercheurs en IA."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "Je me demande parfois ce qui se serait passé si nous n'avions pas divulgué publiquement la cyberattaque de l'agent. Cela a renforcé ma conviction que nous avons besoin de 100 fois plus de transparence en IA. Sinon, nous allons avoir de gros problèmes !",
+          "text_original": "Sometimes I wonder what would have happened if we hadn't disclosed the agent cyberattack publicly. It reinforced my conviction that we need 100x more transparency in AI. Otherwise we're going to be in big trouble!",
+          "link": "http://nitter.jaydenha.uk/ClementDelangue/status/2096981079940911107#m",
+          "decryptage": "Une 'cyberattaque de l'agent' fait référence à un incident où un système d'IA autonome a été utilisé de manière malveillante ou a causé des problèmes de sécurité, et le tweet insiste sur la nécessité de partager ouvertement ces incidents pour améliorer la sécurité générale de l'IA."
+        }
+      ],
+      "outils": [
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Les nouvelles capacités vocales de Gemini sont en cours de déploiement, vous permettant de rechercher dans votre boîte de réception Gmail, d'organiser vos pensées et tâches dans Keep, et de créer de nouveaux Docs, le tout de manière conversationnelle. Déploiement en cours pour les abonnés Google AI ! Docs Live sera particulièrement utile — découvrez-le en action ci-dessous, et lisez plus ici : blog.google/products-and-pla… Vidéo",
+          "text_original": "New Gemini voice capabilities are rolling out so you can search your Gmail inbox, organize thoughts and tasks in Keep, and create new Docs, all conversationally. Rolling out now for Google AI subscribers! Docs Live going to be super helpful in particular - see it in action below, and read more here: blog.google/products-and-pla… Video",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095552297099198689#m",
+          "decryptage": "Gemini est l'IA de Google, et ces nouvelles fonctionnalités vocales vous permettent d'interagir avec vos applications Google (Gmail, Keep, Docs) en parlant, comme si vous aviez un assistant personnel intégré."
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Nous introduisons également Gemini 3.8 Flash Cyber, notre modèle de cybersécurité le plus performant. Il présente des performances de niveau de pointe dans la découverte de vulnérabilités et leur correction à grande échelle, avec une vitesse et une tarification de niveau Flash. Cela inclut l'obtention de 86,2 % sur l'important benchmark CyberGym de l'industrie, plus 47,2 % sur CWE-Bench pour la correction. Nous avons constaté un taux de réussite de plus de 70 % dans la découverte de vulnérabilités sur 20 langages de programmation sur notre benchmark interne.",
+          "text_original": "We’re also introducing Gemini 3.8 Flash Cyber, our most capable cybersecurity model. It shows frontier-level performance in discovering vulnerabilities and patching them at scale, with Flash-level speed & pricing. That includes achieving 86.2% on the important CyberGym industry benchmark, plus 47.2% on CWE-Bench for patching. We saw a 70%+ success rate in discovering vulnerabilities across 20 programming languages on our internal benchmark.",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095184464800526655#m",
+          "decryptage": "Gemini 3.8 Flash Cyber est une IA spécialisée dans la cybersécurité, capable de trouver et de corriger des failles de sécurité dans les programmes informatiques très rapidement, avec des performances comparables aux meilleures solutions existantes. Les 'benchmarks' comme CyberGym et CWE-Bench sont des tests standards de l'industrie pour mesurer l'efficacité des outils de sécurité."
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Au-delà des benchmarks, nous observons des cas d'utilisation impressionnants dans le monde réel. Par exemple, lors d'évaluations sur de véritables bugs de sécurité de Chrome, 3.8 Flash Cyber a produit 2,6 fois plus de correctifs corrects pour les vulnérabilités que les modèles plus grands. En raison de ses capacités avancées, nous donnons aux agences gouvernementales et aux partenaires de cybersécurité l'accès via le programme Fairwind, lisez-en plus : blog.google/innovation-and-a… Lien Cyberdéfense proactive pour les gouvernements et les entreprises Le programme Fairwind est un programme à accès limité permettant aux gouvernements et aux partenaires de confiance d'utiliser nos outils de cyberdéfense. blog.google",
+          "text_original": "Beyond benchmarks, we’re seeing impressive real-world use cases. For example, in evaluations on real Chrome security bugs, 3.8 Flash Cyber produced 2.6x more correct patches for vulnerabilities than larger models. Because of its advanced capabilities, we're giving Government agencies & cybersecurity partners access through the Fairwind program, read more: blog.google/innovation-and-a… Link Proactive cyber defense for governments and enterprises The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools. blog.google",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2095184468059492457#m",
+          "decryptage": "Ce tweet montre que Gemini 3.8 Flash Cyber est non seulement bon sur des tests (benchmarks), mais aussi efficace sur des problèmes réels, comme la correction de failles dans le navigateur Chrome, et qu'il est mis à disposition des gouvernements pour la 'cyberdéfense'."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "Créez vos meilleurs morceaux avec Lyria 3.5 dans Gemini ! 🎵 Notre modèle de génération musicale le plus avancé offre des arrangements plus riches, des voix expressives et une fidélité accrue. - Sélectionnez un genre et choisissez entre voix ou instrumental - Explorez de nouveaux modèles - Générez des morceaux courts ou plus longs Lien Créez de la musique avec Lyria 3.5 dans Gemini https://gemini.google.com/app?android-min-version=301356232&ios-min-version=322.0&is_sa=1&campaign_id=lyria_boosting&utm_source=x&utm_medium=paid-social&utm_campaign=lyria_boosting&pt=9008&mt=8&ct=paid-social_x_lyria_boosting&redirect=home",
+          "text_original": "Create your best tracks yet with Lyria 3.5 in Gemini! 🎵 Our most advanced music generation model brings richer arrangements, expressive vocals, and higher fidelity. - Select a genre & choose between vocal or instrumental - Explore new templates - Generate short or longer tracks Link Create music with Lyria 3.5 in Gemini https://gemini.google.com/app?android-min-version=301356232&ios-min-version=322.0&is_sa=1&campaign_id=lyria_boosting&utm_source=x&utm_medium=paid-social&utm_campaign=lyria_boosting&pt=9008&mt=8&ct=paid-social_x_lyria_boosting&redirect=home",
+          "link": "http://nitter.jaydenha.uk/GeminiApp/status/2095905395789504954#m",
+          "decryptage": "Lyria 3.5 est un outil d'IA intégré à Gemini qui permet de créer de la musique, des arrangements complexes aux voix, offrant une nouvelle manière de composer pour les utilisateurs."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Un autre benchmark informel pour les geeks avec lequel les IA avaient eu du mal a été passé : Astra a réussi à concevoir un deck Magic the Gathering et l'a ensuite utilisé pour vaincre un bot sur Arena. (le deck n'est peut-être pas époustouflant, mais il semble original, et il a fonctionné) Ethan Mollick (@emollick) 'Claude avec Utilisation Informatique peut-il jouer à Magic the Gathering Arena ?' Pas encore. Il réussit bien la sélection de cartes et le 'mulligan', et sa stratégie générale est assez solide, mais il se trompe parfois dans les calculs de mana et échoue à la fin (cela se termine par une tentative de jouer une carte alors qu'il est 'tapped out') Vidéo",
+          "text_original": "Another informal nerd benchmark that AIs had struggled with has been passed: Astra successfully designed a Magic the Gathering deck and then used it to defeat a bot on Arena. (the deck may not be stunning, but it does seem to be original, and it worked) Ethan Mollick (@emollick) \"Can Claude with Computer Use play Magic the Gathering Arena?\" Not yet. It does well in card selection & mulligan, and its general strategy is pretty sound, but it sometimes did the mana math wrong and so fails in the end (this ends with it trying to play a card when tapped out) Video — http://nitter.jaydenha.uk/emollick/status/1849654103716004240#m",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2097178401991712854#m",
+          "decryptage": "Un 'benchmark' est un test de performance. Ici, l'IA Astra a réussi à jouer au célèbre jeu de cartes 'Magic the Gathering' contre un ordinateur, prouvant sa capacité à élaborer des stratégies complexes et à gérer des règles de jeu sophistiquées."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Liste du deck : 1 Heroes' Bane (FDN) 639 2 Inspiring Call (FDN) 226 4 Llanowar Elves (FDN) 227 4 Nessian Hornbeetle (FDN) 229 4 Gnarlid Colony (FDN) 224 1 Scavenging Ooze (FDN) 232 1 Ornery Tumblewagg (OTJ) 171 1 Bristly Bill, Spine Sower (OTJ) 157 4 Mild-Mannered Librarian (FDN) 228 4 Bushwhack (FDN) 215 1 Cackling Prowler (FDN) 101 2 Mossborn Hydra (FDN) 107 3 Snakeskin Veil (TDM) 159 2 Felling Blow (FDN) 105 1 Treetop Snarespinner (FDN) 114 1 Tender Wildguide (BLB) 196 24 Forest (TDM) 286",
+          "text_original": "Deck List: 1 Heroes' Bane (FDN) 639 2 Inspiring Call (FDN) 226 4 Llanowar Elves (FDN) 227 4 Nessian Hornbeetle (FDN) 229 4 Gnarlid Colony (FDN) 224 1 Scavenging Ooze (FDN) 232 1 Ornery Tumblewagg (OTJ) 171 1 Bristly Bill, Spine Sower (OTJ) 157 4 Mild-Mannered Librarian (FDN) 228 4 Bushwhack (FDN) 215 1 Cackling Prowler (FDN) 101 2 Mossborn Hydra (FDN) 107 3 Snakeskin Veil (TDM) 159 2 Felling Blow (FDN) 105 1 Treetop Snarespinner (FDN) 114 1 Tender Wildguide (BLB) 196 24 Forest (TDM) 286",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2097179213472117188#m",
+          "decryptage": "Il s'agit ici de la liste des cartes composant le 'deck' (paquet de cartes) que l'IA a conçu et utilisé dans le jeu 'Magic the Gathering', démontrant sa créativité et sa compréhension des règles complexes du jeu."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "Action en direct avec de vrais robots au lieu de l'animation : épisode 3 ! C'était la toute première prise. À peu près tout a mal tourné et j'ai failli arrêter de filmer. Puis j'ai réalisé que Microduck faisait une performance digne d'un Oscar. Profitez-en ! Vidéo",
+          "text_original": "Live action with real robots instead of animation: episode 3! This was the very first take. Pretty much everything went wrong and I almost stopped filming. Then I realized Microduck was giving an Oscar-winning performance. Enjoy! Video",
+          "link": "http://nitter.jaydenha.uk/RemiFabreRobot/status/2096970217196794350#m",
+          "decryptage": "Ce tweet présente une vidéo de robots réels en action, montrant que les avancées en IA ne se limitent pas aux logiciels, mais permettent aussi aux machines physiques de réaliser des tâches complexes et inattendues."
+        }
+      ]
+    }
+  },
+  "processed_at": "2026-09-08T11:11:16",
+  "validation": {
+    "translated_pct": 100,
+    "with_decryptage_pct": 92,
+    "total": 38,
+    "needs_retranslation_count": 0
+  },
+  "email_sent_at": "2026-09-08T11:11:17"
+}
