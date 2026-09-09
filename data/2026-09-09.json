@@ -1,140 +1,95 @@
 {
   "date": "2026-09-09",
-  "fetched_at": "2026-09-09T12:21:19",
+  "fetched_at": "2026-09-09T12:31:36",
   "tweets": [
     {
-      "handle": "miramurati",
-      "text": "I think it's possible to make a lot of progress toward models that are both open and safe! The former will become more important to avoid centralization & spread benefits, and the second will become more important as *gestures at state of things* Alex Robey (@AlexRobey23) We're hiring safety researchers at @thinkymachines ! 🦺 My team works on safety across the model development stack -- pre-training data filtering, harmful capability evals, safety post-training, red-teaming, abliteration/malicious fine-tuning. We're particularly interested in building evals and tooling to make strong safety cases for open-weights releases. We think this is where some of the most important safety research will happen in the next few years. If any of this resonates, apply here: jobs.ashbyhq.com/ThinkingMac… — http://nitter.jaydenha.uk/AlexRobey23/status/2094620312663113978#m",
-      "link": "http://nitter.jaydenha.uk/LRudL_/status/2094674546398036223#m",
-      "published": "Tue, 01 Sep 2026 06:31:43 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "miramurati",
-      "text": "We built Inkling to be fine-tuned, and @besimple_ai did an impressive job of that. Just 25-100 hours of specialized audio takes Inkling to the top rank for recovering subtle details from speech. Yi Zhong 🍊 (@yiz_be_building) We published how @thinkymachines 's Inkling did on Voice Code Bench few weeks ago, and then we asked, what if we fine-tune Inkling? Inkling's main value prop is its small size and robustness, making it a good base model for domain specific fine-tuning. So we that's what we did. We fine-tuned the same Inkling speech model on 1, 25, and 100 hours of our proprietary data containing alphanumeric entities. And the curve kept moving. 🍊 Not surprising, on the standard 300-item VoiceCodeBench evaluation, the 100-hour checkpoint delivered the strongest result. Untrained Inkling → 100-hour post-trained Inkling: 📈 Task Success Rate: 56.33% → 79.00% (+22.67 pts) 📈 Entity recovery (CTEM): 86.84% → 94.80% (+7.96 pts) 📉 VoiceCodeBench WER: 2.3748% → 1.6107% (32.2% relative reduction) 🔧 139 misses fixed, 21 prior hits regressed: net +118 exact entities recovered And the gains scaled as data scaled: 1h: 88.06% CTEM / 59.33% TSR / 2.8188% VCB WER 25h: 92.85% / 72.67% / 1.8517% 100h: 94.80% / 79.00% / 1.6107% The 100-hour model recovered values the base model missed: •--revert-last, instead of splitting one flag into “--revert --last” • tests/auth/login.spec.ts, instead of test/auth/login.spec.ts • ALLOWLIST_CIDR, instead of inserting an extra underscore • SN-7KX-9042, instead of dropping the final digit The largest entity-type gains were email addresses (+30.8 pts), postal addresses (+30.0), file paths (+23.5), environment variables (+22.9), and IP addresses (+20.0). That’s the Besimple thesis: targeted human data can move the production metrics that matter for voice agents, even when the base model is already strong. DM me if you want to evaluate your model on this benchmark or build the data that moves it. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Checkout the full blog at: besimple.ai/research/voice-c… — http://nitter.jaydenha.uk/yiz_be_building/status/2094470162095431934#m",
-      "link": "http://nitter.jaydenha.uk/tinkerapi/status/2094514114676879840#m",
-      "published": "Mon, 31 Aug 2026 19:54:13 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "miramurati",
-      "text": "We’re growing our evaluation team at @thinkymachines . We care a lot about whether models are actually useful and whether our measurements are good enough to serve as the y-axis for scaling research. We’ll work across a wide range of problems and support several workstreams, including building signal-bearing internal evals for predictive scaling, turning real user feedbacks and product workflows into evals that close usability gaps, auditing graders and harnesses, and developing new benchmarks for customizability. If you want to work on this, apply here: jobs.ashbyhq.com/ThinkingMac…",
-      "link": "http://nitter.jaydenha.uk/ziqiao_ma/status/2094234325546143988#m",
-      "published": "Mon, 31 Aug 2026 01:22:26 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "miramurati",
-      "text": "Cleaning data and aligning the reward function for RLVR takes expertise and effort upfront, but the result is a model that's state-of-the-art on a complex task. Guest post by researchers at UIUC and Bridgewater, in collaboration with our team. thinkingmachines.ai/news/put… Link Putting Task Expertise into RL Achieves State-of-the-Art Performance on Text-to-SQL An expert-verified training set and a reshaped reward let RLVR on Tinker train a single model past human-level text-to-SQL accuracy, at a fraction of frontier cost. thinkingmachines.ai Tinker (@tinkerapi) LLMs with scaffolds have lagged on text-to-SQL, a task that relies on human judgment. By folding expert judgment into every part of RLVR on Tinker, @maxYuxuanZhu and @ddkang (UIUC and Bridgwater) trained the first text-to-SQL model to beat the human mark. thinkingmachines.ai/news/put… Link Putting Task Expertise into RL Achieves State-of-the-Art Performance on Text-to-SQL An expert-verified training set and a reshaped reward let RLVR on Tinker train a single model past human-level text-to-SQL accuracy, at a fraction of frontier cost. thinkingmachines.ai — http://nitter.jaydenha.uk/tinkerapi/status/2093034896075940265#m",
-      "link": "http://nitter.jaydenha.uk/thinkymachines/status/2093121414656377160#m",
-      "published": "Thu, 27 Aug 2026 23:40:08 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "miramurati",
-      "text": "Quick, accurate summaries make huggingface.co/papers an even better resource and more easily searchable by both people and LLMs. We're glad to see Inkling contributing! Link Daily Papers - Hugging Face Your daily dose of AI research from AK huggingface.co Hugging Face (@huggingface) We use Inkling-Small to turn paper abstracts into quick, useful summaries. open weights × open science 🤝 — http://nitter.jaydenha.uk/huggingface/status/2092727360584135026#m",
-      "link": "http://nitter.jaydenha.uk/tinkerapi/status/2092732292154470568#m",
-      "published": "Wed, 26 Aug 2026 21:53:54 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "simonw",
-      "text": "\"Deterministic code checks the result\" sounds like they might be implementing a variant of the DeepMind CaMeL paper simonwillison.net/2025/Apr/1… Link CaMeL offers a promising new direction for mitigating prompt injection attacks In the two and a half years that we’ve been talking about prompt injection attacks I’ve seen alarmingly little progress towards a robust solution. The new paper Defeating Prompt Injections … simonwillison.net David Singleton (@dps) One threat we’re particularly focused on is prompt injection, and we handle it in layers. The model is trained to recognize and resist it. The harness marks anything coming from an untrusted source. Deterministic code checks the result. And an ensemble of classifiers runs where the agent can't reach them. — http://nitter.jaydenha.uk/dps/status/2097404102468899131#m",
-      "link": "http://nitter.jaydenha.uk/simonw/status/2097475247595536880#m",
-      "published": "Wed, 09 Sep 2026 00:00:42 GMT",
-      "author_name": "Simon Willison",
+      "handle": "aidan_mclau",
+      "text": "I think OpenAI has changed even in the last few months (hell, even in the last weekend). People across the org are starting to feel viscerally the magnitude of capabilities. We are creating entities that has never been seen before. This can have amazing benefits, but there are also many ways it can end up very badly. Jacob Coxon (@hilbertspaess) A common response is “if they truly believe this, why are they still building it?” At OpenAI, many have not deeply internalized the civilizational stakes. At Anthropic, the stakes are well-understood, but they are locked in a race to get there first - they believe no one else will act responsibly, so they must do it themselves, despite the risk. — http://nitter.jaydenha.uk/hilbertspaess/status/2097476208908972230#m",
+      "link": "http://nitter.jaydenha.uk/boazbaraktcs/status/2097514504728748467#m",
+      "published": "Wed, 09 Sep 2026 02:36:42 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "simonw",
-      "text": "Wrote up my thoughts on the whole OpenAI Navier–Stokes Millennium Prize Problem story, and how it highlights the still confusing question of what using my data \"to improve model performance\" actually means simonwillison.net/2026/Sep/8…",
-      "link": "http://nitter.jaydenha.uk/simonw/status/2097474703380365698#m",
-      "published": "Tue, 08 Sep 2026 23:58:33 GMT",
-      "author_name": "Simon Willison",
+      "handle": "aidan_mclau",
+      "text": "The pictures of these 3 holes in the cloud are not AI generated They are Rainmaker generated Augustus Doricko (@ADoricko) Rainmaker’s research team has developed a new capability that we are excited to share: Clearing overcast skies in specific meteorological regimes. This will improve aviation safety, solar power generation and more. White paper here: rainmaker.com/blog/cavum-sig… Link Rainmaker's cavum signatures open new applications for glaciogenic cloud seeding, increase solar... Rainmaker has identified at least seven cavum signatures linked to its cloud seeding operations in Oregon. rainmaker.com — http://nitter.jaydenha.uk/ADoricko/status/2097476115174760591#m",
+      "link": "http://nitter.jaydenha.uk/ADoricko/status/2097485605370519682#m",
+      "published": "Wed, 09 Sep 2026 00:41:52 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "simonw",
-      "text": "Interesting details in here about how OpenAI researchers are using coding agents I'd love to know what caused the huge uptick in token spend in mid-July, was that when Astra became available to employees? Kevin Liu (@kliu128) Today we're releasing data on models accelerating research at OpenAI. Recursive self-improvement could be the most important contributor to AI capabilities over the next few years, but by default it will only be seen inside a few frontier AI labs. Being transparent is more urgent than ever, so we can inform the public discussion on whether and how to pace model development. I ask other AI companies to do the same. openai.com/index/research-ac… Link Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration. openai.com — http://nitter.jaydenha.uk/kliu128/status/2096616468851097811#m",
-      "link": "http://nitter.jaydenha.uk/simonw/status/2096647325049626918#m",
-      "published": "Sun, 06 Sep 2026 17:10:50 GMT",
-      "author_name": "Simon Willison",
+      "handle": "aidan_mclau",
+      "text": "I think the traditional thing I should say here is that this collaboration was an honor & highlight of my career — & it absolutely was(!) — but even so, I think focus here should be on the figure in the this tweet and hope that it completely ratios the one above it. OpenAI (@OpenAI) This model represents a step-function improvement on many benchmarks, and its training is ongoing. Our internal model group arrived at the Navier–Stokes solution in 88 hours, using around 10,000 coordinating AI agents. Throughout the effort, we maintained the strict safeguards—including monitoring and isolation—that we apply to all our frontier evaluations. — http://nitter.jaydenha.uk/OpenAI/status/2097374643518640382#m",
+      "link": "http://nitter.jaydenha.uk/danintheory/status/2097379519896399959#m",
+      "published": "Tue, 08 Sep 2026 17:40:19 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "simonw",
-      "text": "Me: show me a pelican riding a bicycle Astra: Video",
-      "link": "http://nitter.jaydenha.uk/gabrielchua/status/2096403701862961161#m",
-      "published": "Sun, 06 Sep 2026 01:02:46 GMT",
-      "author_name": "Simon Willison",
+      "handle": "aidan_mclau",
+      "text": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years.",
+      "link": "http://nitter.jaydenha.uk/OpenAI/status/2097374640582668336#m",
+      "published": "Tue, 08 Sep 2026 17:20:56 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "simonw",
-      "text": "New TIL on using Blender with coding agents on macOS: til.simonwillison.net/llms/b… GPT-6 Astra (medium): > Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle > OK add a background and a lot of flair > OK make it a whole lot better",
-      "link": "http://nitter.jaydenha.uk/simonw/status/2096265759660142826#m",
-      "published": "Sat, 05 Sep 2026 15:54:38 GMT",
-      "author_name": "Simon Willison",
+      "handle": "aidan_mclau",
+      "text": "Video",
+      "link": "http://nitter.jaydenha.uk/Trail_Cams/status/2096588850357244013#m",
+      "published": "Sun, 06 Sep 2026 13:18:29 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-      "link": "http://nitter.jaydenha.uk/GuillaumeLample/status/2097256830091014515#m",
-      "published": "Tue, 08 Sep 2026 09:32:48 GMT",
-      "author_name": "Guillaume Lample",
-      "category_hint": "fr",
+      "handle": "emollick",
+      "text": "The discourse from folks working at the Labs today is super weird, even for AI discourse, and suggests to me that everyone is in reaction mode to fast moving events, both in revealed AI ability and in public perception.",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2097541464607666438#m",
+      "published": "Wed, 09 Sep 2026 04:23:50 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
-      "link": "http://nitter.jaydenha.uk/MistralAI/status/2084684735725379637#m",
-      "published": "Tue, 04 Aug 2026 16:55:47 GMT",
-      "author_name": "Guillaume Lample",
-      "category_hint": "fr",
+      "handle": "emollick",
+      "text": "Millennium prize problems are falling, rogue agent swarms are doing heists, lab employees are begging for a slowdown…and the most popular AI videos on YouTube are from cope merchants saying it’s all a scam that’s about to collapse. I get why the message is resonating! It’s comforting to think that the AI is all fake bullshit and the doomers are weird and wrong and life will go back to normal after the bubble pops. But if it doesn’t, these people are doing their audiences a profound disservice.",
+      "link": "http://nitter.jaydenha.uk/kevinroose/status/2097524645457215860#m",
+      "published": "Wed, 09 Sep 2026 03:17:00 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
-      "link": "http://nitter.jaydenha.uk/MistralAI/status/2074856309438980145#m",
-      "published": "Wed, 08 Jul 2026 14:01:07 GMT",
-      "author_name": "Guillaume Lample",
-      "category_hint": "fr",
+      "handle": "emollick",
+      "text": "Increasingly clear over the past two weeks that however much your company is worried about the cybersecurity environment, it is not worried enough. The WeWorm demonstration shows how effective bad actors can be. The Hugging Face Incident shows you don’t even need bad actors.",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2097485934686015916#m",
+      "published": "Wed, 09 Sep 2026 00:43:10 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
-      "link": "http://nitter.jaydenha.uk/mertunsal2020/status/2073046288208412960#m",
-      "published": "Fri, 03 Jul 2026 14:08:45 GMT",
-      "author_name": "Guillaume Lample",
-      "category_hint": "fr",
+      "handle": "emollick",
+      "text": "WeWorm: calif.io/research/weworm HFI: oneusefulthing.org/p/agency-… Link Agency and Agents From the Hugging Face Incident to Twilight Factories oneusefulthing.org",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2097486521825624331#m",
+      "published": "Wed, 09 Sep 2026 00:45:30 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-      "link": "http://nitter.jaydenha.uk/atomic_chat_hq/status/2069597176225796581#m",
-      "published": "Wed, 24 Jun 2026 01:43:12 GMT",
-      "author_name": "Guillaume Lample",
-      "category_hint": "fr",
+      "handle": "emollick",
+      "text": "Quick, spread some rumors about other really hard problems that Anthropic is on the verge of solving.",
+      "link": "http://nitter.jaydenha.uk/emollick/status/2097447954076303733#m",
+      "published": "Tue, 08 Sep 2026 22:12:15 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     }
   ],
@@ -146,6 +101,7 @@
     "sundarpichai",
     "elonmusk",
     "AravSrinivas",
+    "miramurati",
     "ylecun",
     "demishassabis",
     "JeffDean",
@@ -156,13 +112,13 @@
     "karinanguyen_",
     "polynoamial",
     "markchen90",
-    "aidan_mclau",
     "officiallogank",
     "osanseviero",
     "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
     "xai",
+    "simonw",
     "swyx",
     "hwchase17",
     "jeremyphoward",
@@ -170,8 +126,8 @@
     "mckaywrigley",
     "amasad",
     "nickadobos",
-    "emollick",
     "ArthurMensch",
+    "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
     "ClemDelangue",
@@ -179,222 +135,154 @@
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, le monde de l'IA a mis en lumière des avancées passionnantes et des débats cruciaux. Des discussions importantes ont eu lieu sur la manière de rendre les modèles d'IA à la fois ouverts et sûrs, tout en s'attaquant aux défis de sécurité comme l'injection de prompt. Nous avons également vu des démonstrations concrètes de l'efficacité des outils d'IA, de la reconnaissance vocale ultra-précise à la capacité des robots à naviguer de manière autonome. Enfin, des annonces majeures de financement et d'expansion dans le secteur européen de l'IA confirment la dynamique de croissance de ce domaine.",
+    "summary": "Aujourd'hui, le monde de l'IA a été marqué par une avancée majeure : OpenAI a annoncé avoir résolu un problème mathématique fondamental vieux de 90 ans, grâce à des milliers d'agents IA collaboratifs. Cette prouesse relance les débats sur l'ampleur des capacités de l'IA et ses potentiels dangers, soulevant des questions éthiques et de cybersécurité. Il est crucial pour tout débutant de distinguer les faits des rumeurs et de comprendre les enjeux réels au-delà des discours alarmistes ou simplistes.",
     "glossaire": [
       {
-        "terme": "Modèles à poids ouverts",
-        "definition": "Ce sont des modèles d'IA dont le code et les 'poids' (les paramètres appris) sont rendus publics, permettant à tout le monde de les utiliser, les étudier ou les améliorer librement."
+        "terme": "Agents IA",
+        "definition": "Des programmes informatiques qui agissent de manière autonome dans un environnement pour atteindre des objectifs spécifiques, parfois en interagissant avec d'autres agents."
       },
       {
-        "terme": "Fine-tuning",
-        "definition": "C'est la technique qui consiste à adapter un modèle d'IA généraliste à une tâche très spécifique en lui donnant un entraînement supplémentaire sur un ensemble de données ciblées, le rendant ainsi expert dans un domaine précis."
+        "terme": "Problème de Navier-Stokes",
+        "definition": "Un des sept grands défis mathématiques non résolus, qui concerne la compréhension du mouvement des fluides et dont la résolution est essentielle en physique et ingénierie."
       },
       {
-        "terme": "LLM",
-        "definition": "Acronyme de 'Large Language Model' (Grand Modèle de Langage), il s'agit d'un programme d'IA capable de comprendre, générer et traiter du texte de manière très avancée, comme ChatGPT."
+        "terme": "Benchmarks",
+        "definition": "Des tests standardisés ou des critères de performance utilisés pour évaluer et comparer les capacités et l'efficacité de différents modèles ou systèmes d'IA."
       },
       {
-        "terme": "Injection de prompt",
-        "definition": "Une attaque où un utilisateur tente de manipuler le comportement d'un modèle d'IA en insérant des instructions cachées ou malveillantes dans sa requête."
+        "terme": "Enjeux civilisationnels",
+        "definition": "Les conséquences profondes et à long terme que le développement de l'IA pourrait avoir sur l'ensemble de la société humaine, incluant les risques et les bénéfices majeurs."
       },
       {
-        "terme": "Agents de codage",
-        "definition": "Des systèmes d'IA qui peuvent écrire, corriger et améliorer du code informatique, aidant ainsi les développeurs ou même interagissant avec d'autres logiciels par des commandes de programmation."
+        "terme": "WeWorm",
+        "definition": "Un concept de 'ver informatique' alimenté par l'IA, capable de se propager de manière autonome et de cibler d'autres systèmes basés sur l'intelligence artificielle pour les compromettre."
       },
       {
-        "terme": "Benchmark",
-        "definition": "Un test standardisé et reconnu qui permet de mesurer et de comparer objectivement les performances de différents modèles ou systèmes d'IA sur des tâches spécifiques."
-      },
-      {
-        "terme": "OCR",
-        "definition": "Acronyme de 'Optical Character Recognition' (Reconnaissance Optique de Caractères), c'est une technologie qui permet de convertir du texte présent dans des images (photos, scans) en texte numérique éditable."
+        "terme": "Cybersécurité",
+        "definition": "L'ensemble des mesures et pratiques visant à protéger les systèmes informatiques, les réseaux et les données contre les cyberattaques, les dommages ou les accès non autorisés, un défi croissant avec l'IA."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces du jour montrent une forte dynamique de recherche et développement, avec des levées de fonds importantes pour accélérer l'innovation, l'expansion d'équipes dédiées à l'évaluation des modèles, et le lancement de plusieurs nouveaux modèles par Mistral AI dans des domaines comme la sécurité des contenus, la navigation robotique et l'algèbre.",
-      "tips": "Un conseil pratique nous a montré comment des outils d'IA avancés, comme l'agent de codage Astra, peuvent interagir avec des logiciels de modélisation 3D comme Blender, permettant de créer des scènes complexes par de simples instructions textuelles.",
-      "idees": "Les réflexions du jour ont abordé des questions cruciales pour l'avenir de l'IA, notamment l'équilibre entre l'ouverture et la sécurité des modèles, la gestion des menaces comme l'injection de prompt, et les implications éthiques et pratiques de l'utilisation de nos données pour améliorer les performances des modèles.",
-      "outils": "Nous avons découvert plusieurs outils et applications concrètes de l'IA, notamment le modèle Inkling pour la transcription vocale fine-tunée, un système d'IA pour transformer du texte en requêtes SQL avec une grande précision, et la capacité d'Astra à générer des vidéos. Mistral a également mis en avant son OCR 4 pour la reconnaissance d'écriture manuscrite, y compris des formules complexes."
+      "actu": "L'actualité du jour est dominée par l'annonce d'OpenAI concernant la résolution du difficile Problème du Prix du Millénaire de Navier-Stokes, une avancée mathématique majeure qui montre les capacités croissantes de l'IA dans des domaines complexes.",
+      "tips": "Pour un débutant, il est essentiel de développer un esprit critique face aux informations sur l'IA : ne pas se laisser tromper par les discours simplistes ou alarmistes qui sous-estiment ou exagèrent les progrès, mais plutôt chercher à comprendre les vrais enjeux.",
+      "idees": "Les réflexions du jour tournent autour de l'impact croissant de l'IA, de la rapidité des avancées qui déconcerte même les experts, des débats sur les risques 'civilisationnels', de la course compétitive entre laboratoires et des préoccupations grandissantes en matière de cybersécurité.",
+      "outils": "Aujourd'hui, on a pu entrevoir comment des systèmes IA complexes fonctionnent : OpenAI a utilisé une 'équipe' de 10 000 agents IA coordonnés pour résoudre un problème mathématique, illustrant une approche de résolution de problèmes par collaboration entre IA."
     },
     "highlights": [
       {
-        "author_name": "Mira Murati",
-        "handle": "@miramurati",
-        "text_fr": "Je pense qu'il est possible de faire de grands progrès vers des modèles à la fois ouverts et sûrs ! Le premier aspect (ouvert) deviendra plus important pour éviter la centralisation et diffuser les bénéfices, et le second (sûr) deviendra plus important compte tenu de la situation actuelle. Alex Robey (@AlexRobey23) Nous recrutons des chercheurs en sécurité chez @thinkymachines ! 🦺 Mon équipe travaille sur la sécurité à travers tout le processus de développement des modèles – filtrage des données de pré-entraînement, évaluations des capacités nuisibles, sécurité après l'entraînement, tests d'intrusion ('red-teaming'), oblitération/fine-tuning malveillant. Nous sommes particulièrement intéressés par la construction d'évaluations et d'outils pour justifier solidement la publication de modèles à poids ouverts. Nous pensons que c'est là que se fera une partie de la recherche la plus importante en matière de sécurité dans les prochaines années. Si cela vous parle, postulez ici : jobs.ashbyhq.com/ThinkingMac… — http://nitter.jaydenha.uk/AlexRobey23/status/2094620312663113978#m",
-        "text_original": "I think it's possible to make a lot of progress toward models that are both open and safe! The former will become more important to avoid centralization & spread benefits, and the second will become more important as *gestures at state of things* Alex Robey (@AlexRobey23) We're hiring safety researchers at @thinkymachines ! 🦺 My team works on safety across the model development stack -- pre-training data filtering, harmful capability evals, safety post-training, red-teaming, abliteration/malicious fine-tuning. We're particularly interested in building evals and tooling to make strong safety cases for open-weights releases. We think this is where some of the most important safety research will happen in the next few years. If any of this resonates, apply here: jobs.ashbyhq.com/ThinkingMac… — http://nitter.jaydenha.uk/AlexRobey23/status/2094620312663113978#m",
-        "link": "http://nitter.jaydenha.uk/LRudL_/status/2094674546398036223#m",
-        "decryptage": "Les \"modèles à poids ouverts\" (open-weights) signifient que le code et les paramètres appris par le modèle sont rendus publics, permettant à quiconque de les utiliser, les modifier ou les améliorer, un sujet central pour l'avenir de l'IA.",
-        "category": "idees",
-        "highlight_reason": "Ce tweet soulève un débat fondamental pour l'avenir de l'IA : comment concilier la nécessité de rendre les modèles accessibles (\"ouverts\") pour favoriser l'innovation et éviter la centralisation, avec l'impératif de les rendre sûrs face aux usages potentiellement nuisibles."
-      },
-      {
-        "author_name": "Mira Murati",
-        "handle": "@miramurati",
-        "text_fr": "Nous avons conçu Inkling pour qu'il puisse être \"fine-tuné\", et @besimple_ai a fait un travail impressionnant dans ce domaine. Seulement 25 à 100 heures d'audio spécialisé suffisent pour qu'Inkling atteigne le meilleur rang dans la récupération de détails subtils de la parole. Yi Zhong 🍊 (@yiz_be_building) Nous avons publié les performances d'Inkling de @thinkymachines sur le Voice Code Bench il y a quelques semaines, puis nous nous sommes demandé : et si nous \"fine-tunions\" Inkling ? Le principal atout d'Inkling est sa petite taille et sa robustesse, ce qui en fait un bon modèle de base pour un fine-tuning spécifique à un domaine. C'est ce que nous avons fait. Nous avons fine-tuné le même modèle de parole Inkling sur 1, 25 et 100 heures de nos données propriétaires contenant des entités alphanumériques. Et la courbe a continué de monter. 🍊 Sans surprise, sur l'évaluation standard de 300 éléments VoiceCodeBench, le point de contrôle de 100 heures a donné le résultat le plus solide. Inkling non entraîné → Inkling post-entraîné 100 heures : 📈 Taux de succès de la tâche : 56,33 % → 79,00 % (+22,67 pts) 📈 Récupération d'entités (CTEM) : 86,84 % → 94,80 % (+7,96 pts) 📉 WER VoiceCodeBench : 2,3748 % → 1,6107 % (réduction relative de 32,2 %) 🔧 139 erreurs corrigées, 21 réussites précédentes régressées : +118 entités exactes récupérées. Et les gains ont augmenté avec la quantité de données : 1h : 88,06 % CTEM / 59,33 % TSR / 2,8188 % VCB WER ; 25h : 92,85 % / 72,67 % / 1,8517 % ; 100h : 94,80 % / 79,00 % / 1,6107 %. Le modèle de 100 heures a récupéré des valeurs que le modèle de base avait manquées : •--revert-last, au lieu de séparer un flag en “--revert --last” • tests/auth/login.spec.ts, au lieu de test/auth/login.spec.ts • ALLOWLIST_CIDR, au lieu d'insérer un underscore supplémentaire • SN-7KX-9042, au lieu de laisser tomber le dernier chiffre. Les plus grands gains par type d'entité ont été les adresses e-mail (+30,8 pts), les adresses postales (+30,0), les chemins de fichiers (+23,5), les variables d'environnement (+22,9) et les adresses IP (+20,0). C'est la thèse de Besimple : des données humaines ciblées peuvent améliorer les métriques de production importantes pour les agents vocaux, même lorsque le modèle de base est déjà performant. Contactez-moi si vous voulez évaluer votre modèle sur ce benchmark ou créer les données qui le feront avancer. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Découvrez le blog complet sur : besimple.ai/research/voice-c… — http://nitter.jaydenha.uk/yiz_be_building/status/2094470162095431934#m",
-        "text_original": "We built Inkling to be fine-tuned, and @besimple_ai did an impressive job of that. Just 25-100 hours of specialized audio takes Inkling to the top rank for recovering subtle details from speech. Yi Zhong 🍊 (@yiz_be_building) We published how @thinkymachines 's Inkling did on Voice Code Bench few weeks ago, and then we asked, what if we fine-tune Inkling? Inkling's main value prop is its small size and robustness, making it a good base model for domain specific fine-tuning. So we that's what we did. We fine-tuned the same Inkling speech model on 1, 25, and 100 hours of our proprietary data containing alphanumeric entities. And the curve kept moving. 🍊 Not surprising, on the standard 300-item VoiceCodeBench evaluation, the 100-hour checkpoint delivered the strongest result. Untrained Inkling → 100-hour post-trained Inkling: 📈 Task Success Rate: 56.33% → 79.00% (+22.67 pts) 📈 Entity recovery (CTEM): 86.84% → 94.80% (+7.96 pts) 📉 VoiceCodeBench WER: 2.3748% → 1.6107% (32.2% relative reduction) 🔧 139 misses fixed, 21 prior hits regressed: net +118 exact entities recovered And the gains scaled as data scaled: 1h: 88.06% CTEM / 59.33% TSR / 2.8188% VCB WER 25h: 92.85% / 72.67% / 1.8517% 100h: 94.80% / 79.00% / 1.6107% The 100-hour model recovered values the base model missed: •--revert-last, instead of splitting one flag into “--revert --last” • tests/auth/login.spec.ts, instead of test/auth/login.spec.ts • ALLOWLIST_CIDR, instead of inserting an extra underscore • SN-7KX-9042, instead of dropping the final digit The largest entity-type gains were email addresses (+30.8 pts), postal addresses (+30.0), file paths (+23.5), environment variables (+22.9), and IP addresses (+20.0). That’s the Besimple thesis: targeted human data can move the production metrics that matter for voice agents, even when the base model is already strong. DM me if you want to evaluate your model on this benchmark or build the data that moves it. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Checkout the full blog at: besimple.ai/research/voice-c… — http://nitter.jaydenha.uk/yiz_be_building/status/2094470162095431934#m",
-        "link": "http://nitter.jaydenha.uk/tinkerapi/status/2094514114676879840#m",
-        "decryptage": "\"Fine-tuning\" est le fait d'adapter un modèle d'IA généraliste à une tâche très spécifique en lui donnant de nouvelles données ciblées, un peu comme un entraînement supplémentaire pour devenir expert dans un domaine précis.",
-        "category": "outils",
-        "highlight_reason": "Il démontre de manière très concrète comment le \"fine-tuning\" d'un modèle généraliste avec des données spécifiques peut améliorer drastiquement ses performances pour des tâches précises comme la reconnaissance vocale de détails complexes, un processus essentiel en IA."
-      },
-      {
-        "author_name": "Simon Willison",
-        "handle": "@simonw",
-        "text_fr": "Nouveau TIL (Today I Learned) sur l'utilisation de Blender avec des agents de codage sur macOS : til.simonwillison.net/llms/b… GPT-6 Astra (medium) : > Utilise Blender déjà installé sous /Applications/Blender pour rendre une scène d'un pélican à vélo > OK ajoute un arrière-plan et beaucoup de style > OK rends le tout beaucoup mieux",
-        "text_original": "New TIL on using Blender with coding agents on macOS: til.simonwillison.net/llms/b… GPT-6 Astra (medium): > Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle > OK add a background and a lot of flair > OK make it a whole lot better",
-        "link": "http://nitter.jaydenha.uk/simonw/status/2096265759660142826#m",
-        "decryptage": "Ce tweet montre comment un \"agent de codage\" (une IA qui écrit du code) peut être utilisé pour contrôler un logiciel de modélisation 3D comme Blender, en lui donnant des instructions en langage naturel pour créer une scène.",
-        "category": "tips",
-        "highlight_reason": "Ce \"Today I Learned\" montre de manière simple et ludique le potentiel des agents de codage à interagir avec des logiciels créatifs comme Blender, ouvrant la porte à des applications passionnantes pour les non-programmeurs."
-      },
-      {
-        "author_name": "Guillaume Lample",
-        "handle": "@GuillaumeLample",
-        "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons notre capacité de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux -- Paris, Palo Alto, SF, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une levée de fonds de série D de 3 milliards d'euros, la plus grande levée de fonds jamais réalisée par une entreprise technologique européenne, seulement trois ans après son lancement. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-        "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-        "link": "http://nitter.jaydenha.uk/GuillaumeLample/status/2097256830091014515#m",
-        "decryptage": "L'\"entraînement\" d'un modèle d'IA consiste à lui faire apprendre à partir de grandes quantités de données, tandis que l'\"inférence\" est l'étape où le modèle utilise ce qu'il a appris pour générer des réponses ou prendre des décisions.",
+        "author_name": "Aidan McLaughlin",
+        "handle": "@aidan_mclau",
+        "text_fr": "Nous partageons une solution au Problème du Prix du Millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle OpenAI de nouvelle génération significativement plus capable que GPT-6 Astra. Le problème concerne la possibilité que la description du mouvement fluide tridimensionnel et lisse modélisé par les équations de Navier-Stokes puisse s'effondrer. Il est resté non résolu pendant environ 90 ans.",
+        "text_original": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years.",
+        "link": "http://nitter.jaydenha.uk/OpenAI/status/2097374640582668336#m",
+        "decryptage": "Le \"Problème du Prix du Millénaire de Navier-Stokes\" est un des sept grands défis mathématiques non résolus, avec une récompense d'un million de dollars pour sa solution, marquant une percée scientifique majeure.",
         "category": "actu",
-        "highlight_reason": "Cette annonce de levée de fonds record pour Mistral AI est une nouvelle significative qui souligne l'accélération de la recherche et du développement en IA en Europe, et promet de nouvelles avancées pour les modèles français."
+        "highlight_reason": "Cette annonce représente une avancée scientifique et mathématique historique, démontrant la capacité de l'IA à résoudre des problèmes considérés comme extrêmement difficiles."
+      },
+      {
+        "author_name": "Ethan Mollick",
+        "handle": "@emollick",
+        "text_fr": "Les problèmes du prix du Millénaire tombent, des essaims d'agents malveillants font des cambriolages, les employés des laboratoires implorent un ralentissement... et les vidéos d'IA les plus populaires sur YouTube proviennent de ceux qui affirment que tout est une arnaque sur le point de s'effondrer. Je comprends pourquoi ce message résonne ! C'est réconfortant de penser que l'IA est une fausse connerie et que les alarmistes sont bizarres et se trompent, et que la vie redeviendra normale après l'éclatement de la bulle. Mais si ce n'est pas le cas, ces personnes rendent un profond disservice à leurs audiences.",
+        "text_original": "Millennium prize problems are falling, rogue agent swarms are doing heists, lab employees are begging for a slowdown…and the most popular AI videos on YouTube are from cope merchants saying it’s all a scam that’s about to collapse. I get why the message is resonating! It’s comforting to think that the AI is all fake bullshit and the doomers are weird and wrong and life will go back to normal after the bubble pops. But if it doesn’t, these people are doing their audiences a profound disservice.",
+        "link": "http://nitter.jaydenha.uk/kevinroose/status/2097524645457215860#m",
+        "decryptage": "Les \"problèmes du prix du Millénaire\" sont des défis mathématiques très complexes. Le terme \"agents malveillants\" fait référence à des systèmes d'IA qui agiraient de manière autonome pour des objectifs non désirés, potentiellement nuisibles.",
+        "category": "tips",
+        "highlight_reason": "Ce tweet est essentiel pour un débutant car il met en garde contre la désinformation et encourage un esprit critique face aux discours contradictoires sur l'IA."
+      },
+      {
+        "author_name": "Aidan McLaughlin",
+        "handle": "@aidan_mclau",
+        "text_fr": "Je pense que la chose traditionnelle que je devrais dire ici est que cette collaboration fut un honneur et un moment fort de ma carrière — et ce fut absolument le cas (!) — mais même ainsi, je crois que l'accent devrait être mis sur l'information contenue dans ce tweet. OpenAI (@OpenAI) : \"Ce modèle représente une amélioration significative sur de nombreux benchmarks, et son entraînement est en cours. Notre groupe de modèles interne a trouvé la solution de Navier-Stokes en 88 heures, utilisant environ 10 000 agents IA coordonnés. Tout au long de cet effort, nous avons maintenu des mesures de protection strictes — incluant la surveillance et l'isolation — que nous appliquons à toutes nos évaluations de pointe.\"",
+        "text_original": "I think the traditional thing I should say here is that this collaboration was an honor & highlight of my career — & it absolutely was(!) — but even so, I think focus here should be on the figure in the this tweet and hope that it completely ratios the one above it. OpenAI (@OpenAI) This model represents a step-function improvement on many benchmarks, and its training is ongoing. Our internal model group arrived at the Navier–Stokes solution in 88 hours, using around 10,000 coordinating AI agents. Throughout the effort, we maintained the strict safeguards—including monitoring and isolation—that we apply to all our frontier evaluations. — http://nitter.jaydenha.uk/OpenAI/status/2097374643518640382#m",
+        "link": "http://nitter.jaydenha.uk/danintheory/status/2097379519896399959#m",
+        "decryptage": "Les \"10 000 agents IA coordonnés\" représentent une méthode avancée où de nombreuses intelligences artificielles travaillent ensemble comme une équipe pour résoudre un problème complexe, simulant une collaboration humaine à grande échelle.",
+        "category": "outils",
+        "highlight_reason": "Ce tweet offre un aperçu concret de la manière dont des systèmes IA avancés peuvent collaborer pour accomplir des tâches complexes, illustrant une approche technique clé derrière les percées."
+      },
+      {
+        "author_name": "Ethan Mollick",
+        "handle": "@emollick",
+        "text_fr": "Il est de plus en plus clair ces deux dernières semaines que, peu importe à quel point votre entreprise est préoccupée par l'environnement de la cybersécurité, elle ne l'est pas suffisamment. La démonstration WeWorm montre à quel point les acteurs malveillants peuvent être efficaces. L'incident Hugging Face montre que vous n'avez même pas besoin d'acteurs malveillants. Pour en savoir plus : WeWorm : calif.io/research/weworm, Incident Hugging Face : oneusefulthing.org/p/agency-…",
+        "text_original": "Increasingly clear over the past two weeks that however much your company is worried about the cybersecurity environment, it is not worried enough. The WeWorm demonstration shows how effective bad actors can be. The Hugging Face Incident shows you don’t even need bad actors. WeWorm: calif.io/research/weworm HFI: oneusefulthing.org/p/agency-… Link Agency and Agents From the Hugging Face Incident to Twilight Factories oneusefulthing.org",
+        "link": "http://nitter.jaydenha.uk/emollick/status/2097486521825624331#m",
+        "decryptage": "« WeWorm » est un concept de « ver informatique » basé sur l'IA, capable de se propager et d'attaquer d'autres systèmes IA. L' « incident Hugging Face » fait référence à un événement où des failles de sécurité ont été exposées dans une plateforme d'IA, soulignant les vulnérabilités potentielles.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet souligne une préoccupation majeure et croissante concernant la sécurité des systèmes IA, un aspect crucial pour comprendre les défis futurs de l'intelligence artificielle."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Nous agrandissons notre équipe d'évaluation chez @thinkymachines. Nous nous soucions beaucoup de l'utilité réelle des modèles et de la qualité de nos mesures pour servir d'axe de progression à la recherche. Nous travaillerons sur un large éventail de problèmes et soutiendrons plusieurs axes de travail, notamment la création d'évaluations internes significatives pour prédire l'évolution des performances, la transformation des retours d'utilisateurs réels et des flux de travail des produits en évaluations qui comblent les lacunes d'utilisabilité, l'audit des évaluateurs et des systèmes de test, et le développement de nouveaux benchmarks pour la personnalisation. Si vous souhaitez travailler sur ce sujet, postulez ici : jobs.ashbyhq.com/ThinkingMac…",
-          "text_original": "We’re growing our evaluation team at @thinkymachines . We care a lot about whether models are actually useful and whether our measurements are good enough to serve as the y-axis for scaling research. We’ll work across a wide range of problems and support several workstreams, including building signal-bearing internal evals for predictive scaling, turning real user feedbacks and product workflows into evals that close usability gaps, auditing graders and harnesses, and developing new benchmarks for customizability. If you want to work on this, apply here: jobs.ashbyhq.com/ThinkingMac…",
-          "link": "http://nitter.jaydenha.uk/ziqiao_ma/status/2094234325546143988#m",
-          "decryptage": "Un \"benchmark\" est un test standardisé qui permet de comparer les performances de différents modèles ou systèmes d'IA sur des tâches précises, un peu comme un examen pour évaluer ce qu'ils savent faire."
-        },
-        {
-          "author_name": "Simon Willison",
-          "handle": "@simonw",
-          "text_fr": "Des détails intéressants ici sur la façon dont les chercheurs d'OpenAI utilisent les agents de codage. J'aimerais savoir ce qui a causé l'énorme augmentation des dépenses en tokens à la mi-juillet, est-ce à ce moment-là qu'Astra est devenu disponible pour les employés ? Kevin Liu (@kliu128) Aujourd'hui, nous publions des données sur les modèles qui accélèrent la recherche chez OpenAI. L'auto-amélioration récursive pourrait être le contributeur le plus important aux capacités de l'IA au cours des prochaines années, mais par défaut, elle ne sera visible que dans quelques laboratoires d'IA de pointe. Être transparent est plus urgent que jamais, afin que nous puissions éclairer le débat public sur la manière et le rythme de développement des modèles. Je demande aux autres entreprises d'IA de faire de même. openai.com/index/research-ac… Lien Accélération de la recherche : Le point de vue interne d'OpenAI. Chez OpenAI, les agents de codage remodèlent la recherche en IA. Explorez les premières données sur l'utilisation des agents, la vitesse des expériences, la complexité des tâches et l'accélération de la recherche. openai.com — http://nitter.jaydenha.uk/kliu128/status/2096616468851097811#m",
-          "text_original": "Interesting details in here about how OpenAI researchers are using coding agents I'd love to know what caused the huge uptick in token spend in mid-July, was that when Astra became available to employees? Kevin Liu (@kliu128) Today we're releasing data on models accelerating research at OpenAI. Recursive self-improvement could be the most important contributor to AI capabilities over the next few years, but by default it will only be seen inside a few frontier AI labs. Being transparent is more urgent than ever, so we can inform the public discussion on whether and how to pace model development. I ask other AI companies to do the same. openai.com/index/research-ac… Link Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration. openai.com — http://nitter.jaydenha.uk/kliu128/status/2096616468851097811#m",
-          "link": "http://nitter.jaydenha.uk/simonw/status/2096647325049626918#m",
-          "decryptage": "Les \"agents de codage\" sont des systèmes d'IA capables d'écrire, de déboguer et d'améliorer du code informatique, aidant ainsi les développeurs humains dans leurs tâches. Le \"token spend\" (dépense en tokens) fait référence à la quantité d'informations traitées par un modèle, qui a un coût."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons notre capacité de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux -- Paris, Palo Alto, SF, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une levée de fonds de série D de 3 milliards d'euros, la plus grande levée de fonds jamais réalisée par une entreprise technologique européenne, seulement trois ans après son lancement. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-          "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-          "link": "http://nitter.jaydenha.uk/GuillaumeLample/status/2097256830091014515#m",
-          "decryptage": "L'\"entraînement\" d'un modèle d'IA consiste à lui faire apprendre à partir de grandes quantités de données, tandis que l'\"inférence\" est l'étape où le modèle utilise ce qu'il a appris pour générer des réponses ou prendre des décisions."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "🛡️Présentation de Shieldstral, le modèle 3B à poids ouverts de Mistral pour la sécurité du contenu qui peut être déployé sur l'appareil 🧵 mistral.ai/news/shieldstral",
-          "text_original": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
-          "link": "http://nitter.jaydenha.uk/MistralAI/status/2084684735725379637#m",
-          "decryptage": "\"Déployé sur l'appareil\" signifie que le modèle d'IA peut fonctionner directement sur votre téléphone ou ordinateur sans avoir besoin d'envoyer vos données vers un serveur distant, ce qui améliore la confidentialité et la rapidité."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Annonce de Robostral Navigate, notre premier modèle pour la navigation incarnée : un modèle de navigation robotique de 8 milliards de paramètres qui guide les robots à effectuer des tâches de manière autonome, spécifiées en langage naturel. Une seule caméra RGB. À la pointe de la technologie sur R2R-CE. Vidéo",
-          "text_original": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
-          "link": "http://nitter.jaydenha.uk/MistralAI/status/2074856309438980145#m",
-          "decryptage": "La \"navigation incarnée\" (embodied navigation) est la capacité pour un robot physique de se déplacer dans un environnement réel en comprenant des instructions en langage courant, un peu comme si on lui disait \"va chercher le livre sur la table\"."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Aujourd'hui, nous publions Le Chaton L∃∀N, alias Leanstral 1.5. Il atteint des performances de pointe sur les benchmarks d'algèbre de niveau universitaire FATE-H et FATE-X et améliore la Frontière de Pareto sur PutnamBench, résolvant 587/672 problèmes avec un budget 10 fois moins cher. 🧵",
-          "text_original": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
-          "link": "http://nitter.jaydenha.uk/mertunsal2020/status/2073046288208412960#m",
-          "decryptage": "\"SOTA\" signifie \"State Of The Art\", c'est-à-dire que le modèle atteint les meilleures performances actuellement connues pour une tâche donnée. La \"Frontière de Pareto\" est un concept économique qui désigne le meilleur compromis possible entre plusieurs objectifs, ici la performance et le coût."
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "Nous partageons une solution au Problème du Prix du Millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle OpenAI de nouvelle génération significativement plus capable que GPT-6 Astra. Le problème concerne la possibilité que la description du mouvement fluide tridimensionnel et lisse modélisé par les équations de Navier-Stokes puisse s'effondrer. Il est resté non résolu pendant environ 90 ans.",
+          "text_original": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years.",
+          "link": "http://nitter.jaydenha.uk/OpenAI/status/2097374640582668336#m",
+          "decryptage": "Le \"Problème du Prix du Millénaire de Navier-Stokes\" est un des sept grands défis mathématiques non résolus, avec une récompense d'un million de dollars pour sa solution, marquant une percée scientifique majeure."
         }
       ],
       "tips": [
         {
-          "author_name": "Simon Willison",
-          "handle": "@simonw",
-          "text_fr": "Nouveau TIL (Today I Learned) sur l'utilisation de Blender avec des agents de codage sur macOS : til.simonwillison.net/llms/b… GPT-6 Astra (medium) : > Utilise Blender déjà installé sous /Applications/Blender pour rendre une scène d'un pélican à vélo > OK ajoute un arrière-plan et beaucoup de style > OK rends le tout beaucoup mieux",
-          "text_original": "New TIL on using Blender with coding agents on macOS: til.simonwillison.net/llms/b… GPT-6 Astra (medium): > Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle > OK add a background and a lot of flair > OK make it a whole lot better",
-          "link": "http://nitter.jaydenha.uk/simonw/status/2096265759660142826#m",
-          "decryptage": "Ce tweet montre comment un \"agent de codage\" (une IA qui écrit du code) peut être utilisé pour contrôler un logiciel de modélisation 3D comme Blender, en lui donnant des instructions en langage naturel pour créer une scène."
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Les problèmes du prix du Millénaire tombent, des essaims d'agents malveillants font des cambriolages, les employés des laboratoires implorent un ralentissement... et les vidéos d'IA les plus populaires sur YouTube proviennent de ceux qui affirment que tout est une arnaque sur le point de s'effondrer. Je comprends pourquoi ce message résonne ! C'est réconfortant de penser que l'IA est une fausse connerie et que les alarmistes sont bizarres et se trompent, et que la vie redeviendra normale après l'éclatement de la bulle. Mais si ce n'est pas le cas, ces personnes rendent un profond disservice à leurs audiences.",
+          "text_original": "Millennium prize problems are falling, rogue agent swarms are doing heists, lab employees are begging for a slowdown…and the most popular AI videos on YouTube are from cope merchants saying it’s all a scam that’s about to collapse. I get why the message is resonating! It’s comforting to think that the AI is all fake bullshit and the doomers are weird and wrong and life will go back to normal after the bubble pops. But if it doesn’t, these people are doing their audiences a profound disservice.",
+          "link": "http://nitter.jaydenha.uk/kevinroose/status/2097524645457215860#m",
+          "decryptage": "Les \"problèmes du prix du Millénaire\" sont des défis mathématiques très complexes. Le terme \"agents malveillants\" fait référence à des systèmes d'IA qui agiraient de manière autonome pour des objectifs non désirés, potentiellement nuisibles."
         }
       ],
       "idees": [
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Je pense qu'il est possible de faire de grands progrès vers des modèles à la fois ouverts et sûrs ! Le premier aspect (ouvert) deviendra plus important pour éviter la centralisation et diffuser les bénéfices, et le second (sûr) deviendra plus important compte tenu de la situation actuelle. Alex Robey (@AlexRobey23) Nous recrutons des chercheurs en sécurité chez @thinkymachines ! 🦺 Mon équipe travaille sur la sécurité à travers tout le processus de développement des modèles – filtrage des données de pré-entraînement, évaluations des capacités nuisibles, sécurité après l'entraînement, tests d'intrusion ('red-teaming'), oblitération/fine-tuning malveillant. Nous sommes particulièrement intéressés par la construction d'évaluations et d'outils pour justifier solidement la publication de modèles à poids ouverts. Nous pensons que c'est là que se fera une partie de la recherche la plus importante en matière de sécurité dans les prochaines années. Si cela vous parle, postulez ici : jobs.ashbyhq.com/ThinkingMac… — http://nitter.jaydenha.uk/AlexRobey23/status/2094620312663113978#m",
-          "text_original": "I think it's possible to make a lot of progress toward models that are both open and safe! The former will become more important to avoid centralization & spread benefits, and the second will become more important as *gestures at state of things* Alex Robey (@AlexRobey23) We're hiring safety researchers at @thinkymachines ! 🦺 My team works on safety across the model development stack -- pre-training data filtering, harmful capability evals, safety post-training, red-teaming, abliteration/malicious fine-tuning. We're particularly interested in building evals and tooling to make strong safety cases for open-weights releases. We think this is where some of the most important safety research will happen in the next few years. If any of this resonates, apply here: jobs.ashbyhq.com/ThinkingMac… — http://nitter.jaydenha.uk/AlexRobey23/status/2094620312663113978#m",
-          "link": "http://nitter.jaydenha.uk/LRudL_/status/2094674546398036223#m",
-          "decryptage": "Les \"modèles à poids ouverts\" (open-weights) signifient que le code et les paramètres appris par le modèle sont rendus publics, permettant à quiconque de les utiliser, les modifier ou les améliorer, un sujet central pour l'avenir de l'IA."
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "Je pense qu'OpenAI a changé même ces derniers mois (voire même le week-end dernier). Les gens au sein de l'organisation commencent à ressentir viscéralement l'ampleur des capacités. Nous créons des entités jamais vues auparavant. Cela peut avoir des avantages incroyables, mais il y a aussi de nombreuses façons pour que cela tourne très mal. Comme le dit Jacob Coxon (@hilbertspaess), une réponse courante est : « S'ils croient vraiment ça, pourquoi continuent-ils à construire ? » Chez OpenAI, beaucoup n'ont pas profondément intériorisé les enjeux civilisationnels. Chez Anthropic, les enjeux sont bien compris, mais ils sont enfermés dans une course pour arriver les premiers – ils croient que personne d'autre n'agira de manière responsable, donc ils doivent le faire eux-mêmes, malgré le risque.",
+          "text_original": "I think OpenAI has changed even in the last few months (hell, even in the last weekend). People across the org are starting to feel viscerally the magnitude of capabilities. We are creating entities that has never been seen before. This can have amazing benefits, but there are also many ways it can end up very badly. Jacob Coxon (@hilbertspaess) A common response is “if they truly believe this, why are they still building it?” At OpenAI, many have not deeply internalized the civilizational stakes. At Anthropic, the stakes are well-understood, but they are locked in a race to get there first - they believe no one else will act responsibly, so they must do it themselves, despite the risk. — http://nitter.jaydenha.uk/hilbertspaess/status/2097476208908972230#m",
+          "link": "http://nitter.jaydenha.uk/boazbaraktcs/status/2097514504728748467#m",
+          "decryptage": "Les \"enjeux civilisationnels\" désignent les risques profonds et potentiellement transformateurs que le développement de l'IA pourrait poser à l'échelle de la société humaine."
         },
         {
-          "author_name": "Simon Willison",
-          "handle": "@simonw",
-          "text_fr": "« Du code déterministe vérifie le résultat » semble indiquer qu'ils pourraient implémenter une variante de l'article CaMeL de DeepMind simonwillison.net/2025/Apr/1… Lien : CaMeL offre une nouvelle direction prometteuse pour atténuer les attaques par injection de prompt. Au cours des deux ans et demi où nous avons parlé des attaques par injection de prompt, j'ai vu étonnamment peu de progrès vers une solution robuste. Le nouvel article Déjouer les injections de prompt… simonwillison.net David Singleton (@dps) Une menace sur laquelle nous nous concentrons particulièrement est l'injection de prompt, et nous la gérons en plusieurs couches. Le modèle est entraîné pour la reconnaître et y résister. Le système de contrôle marque tout ce qui provient d'une source non fiable. Du code déterministe vérifie le résultat. Et un ensemble de classificateurs s'exécute là où l'agent ne peut pas les atteindre. — http://nitter.jaydenha.uk/dps/status/2097404102468899131#m",
-          "text_original": "\"Deterministic code checks the result\" sounds like they might be implementing a variant of the DeepMind CaMeL paper simonwillison.net/2025/Apr/1… Link CaMeL offers a promising new direction for mitigating prompt injection attacks In the two and a half years that we’ve been talking about prompt injection attacks I’ve seen alarmingly little progress towards a robust solution. The new paper Defeating Prompt Injections … simonwillison.net David Singleton (@dps) One threat we’re particularly focused on is prompt injection, and we handle it in layers. The model is trained to recognize and resist it. The harness marks anything coming from an untrusted source. Deterministic code checks the result. And an ensemble of classifiers runs where the agent can't reach them. — http://nitter.jaydenha.uk/dps/status/2097404102468899131#m",
-          "link": "http://nitter.jaydenha.uk/simonw/status/2097475247595536880#m",
-          "decryptage": "L'\"injection de prompt\" est une technique où un utilisateur malveillant essaie de manipuler un modèle d'IA en insérant des instructions cachées dans ses requêtes, afin de lui faire faire quelque chose qu'il ne devrait pas."
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Le discours des personnes travaillant dans les laboratoires aujourd'hui est super bizarre, même pour le discours sur l'IA, et me suggère que tout le monde est en mode réaction face à des événements rapides, tant en termes de capacités d'IA révélées que de perception publique.",
+          "text_original": "The discourse from folks working at the Labs today is super weird, even for AI discourse, and suggests to me that everyone is in reaction mode to fast moving events, both in revealed AI ability and in public perception.",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2097541464607666438#m",
+          "decryptage": null
         },
         {
-          "author_name": "Simon Willison",
-          "handle": "@simonw",
-          "text_fr": "J'ai rédigé mes réflexions sur toute l'histoire du problème du Prix du Millénaire Navier–Stokes d'OpenAI, et comment cela met en lumière la question encore confuse de ce que signifie réellement l'utilisation de mes données \"pour améliorer les performances du modèle\" simonwillison.net/2026/Sep/8…",
-          "text_original": "Wrote up my thoughts on the whole OpenAI Navier–Stokes Millennium Prize Problem story, and how it highlights the still confusing question of what using my data \"to improve model performance\" actually means simonwillison.net/2026/Sep/8…",
-          "link": "http://nitter.jaydenha.uk/simonw/status/2097474703380365698#m",
-          "decryptage": "Le problème de Navier–Stokes est un défi mathématique non résolu, et la question ici porte sur la propriété des données personnelles utilisées par l'IA et ce que \"améliorer les performances\" implique en termes de respect de la vie privée."
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Il est de plus en plus clair ces deux dernières semaines que, peu importe à quel point votre entreprise est préoccupée par l'environnement de la cybersécurité, elle ne l'est pas suffisamment. La démonstration WeWorm montre à quel point les acteurs malveillants peuvent être efficaces. L'incident Hugging Face montre que vous n'avez même pas besoin d'acteurs malveillants. Pour en savoir plus : WeWorm : calif.io/research/weworm, Incident Hugging Face : oneusefulthing.org/p/agency-…",
+          "text_original": "Increasingly clear over the past two weeks that however much your company is worried about the cybersecurity environment, it is not worried enough. The WeWorm demonstration shows how effective bad actors can be. The Hugging Face Incident shows you don’t even need bad actors. WeWorm: calif.io/research/weworm HFI: oneusefulthing.org/p/agency-… Link Agency and Agents From the Hugging Face Incident to Twilight Factories oneusefulthing.org",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2097486521825624331#m",
+          "decryptage": "« WeWorm » est un concept de « ver informatique » basé sur l'IA, capable de se propager et d'attaquer d'autres systèmes IA. L' « incident Hugging Face » fait référence à un événement où des failles de sécurité ont été exposées dans une plateforme d'IA, soulignant les vulnérabilités potentielles."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Vite, répandons des rumeurs sur d'autres problèmes vraiment difficiles qu'Anthropic est sur le point de résoudre.",
+          "text_original": "Quick, spread some rumors about other really hard problems that Anthropic is on the verge of solving.",
+          "link": "http://nitter.jaydenha.uk/emollick/status/2097447954076303733#m",
+          "decryptage": null
         }
       ],
       "outils": [
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Nous avons conçu Inkling pour qu'il puisse être \"fine-tuné\", et @besimple_ai a fait un travail impressionnant dans ce domaine. Seulement 25 à 100 heures d'audio spécialisé suffisent pour qu'Inkling atteigne le meilleur rang dans la récupération de détails subtils de la parole. Yi Zhong 🍊 (@yiz_be_building) Nous avons publié les performances d'Inkling de @thinkymachines sur le Voice Code Bench il y a quelques semaines, puis nous nous sommes demandé : et si nous \"fine-tunions\" Inkling ? Le principal atout d'Inkling est sa petite taille et sa robustesse, ce qui en fait un bon modèle de base pour un fine-tuning spécifique à un domaine. C'est ce que nous avons fait. Nous avons fine-tuné le même modèle de parole Inkling sur 1, 25 et 100 heures de nos données propriétaires contenant des entités alphanumériques. Et la courbe a continué de monter. 🍊 Sans surprise, sur l'évaluation standard de 300 éléments VoiceCodeBench, le point de contrôle de 100 heures a donné le résultat le plus solide. Inkling non entraîné → Inkling post-entraîné 100 heures : 📈 Taux de succès de la tâche : 56,33 % → 79,00 % (+22,67 pts) 📈 Récupération d'entités (CTEM) : 86,84 % → 94,80 % (+7,96 pts) 📉 WER VoiceCodeBench : 2,3748 % → 1,6107 % (réduction relative de 32,2 %) 🔧 139 erreurs corrigées, 21 réussites précédentes régressées : +118 entités exactes récupérées. Et les gains ont augmenté avec la quantité de données : 1h : 88,06 % CTEM / 59,33 % TSR / 2,8188 % VCB WER ; 25h : 92,85 % / 72,67 % / 1,8517 % ; 100h : 94,80 % / 79,00 % / 1,6107 %. Le modèle de 100 heures a récupéré des valeurs que le modèle de base avait manquées : •--revert-last, au lieu de séparer un flag en “--revert --last” • tests/auth/login.spec.ts, au lieu de test/auth/login.spec.ts • ALLOWLIST_CIDR, au lieu d'insérer un underscore supplémentaire • SN-7KX-9042, au lieu de laisser tomber le dernier chiffre. Les plus grands gains par type d'entité ont été les adresses e-mail (+30,8 pts), les adresses postales (+30,0), les chemins de fichiers (+23,5), les variables d'environnement (+22,9) et les adresses IP (+20,0). C'est la thèse de Besimple : des données humaines ciblées peuvent améliorer les métriques de production importantes pour les agents vocaux, même lorsque le modèle de base est déjà performant. Contactez-moi si vous voulez évaluer votre modèle sur ce benchmark ou créer les données qui le feront avancer. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Découvrez le blog complet sur : besimple.ai/research/voice-c… — http://nitter.jaydenha.uk/yiz_be_building/status/2094470162095431934#m",
-          "text_original": "We built Inkling to be fine-tuned, and @besimple_ai did an impressive job of that. Just 25-100 hours of specialized audio takes Inkling to the top rank for recovering subtle details from speech. Yi Zhong 🍊 (@yiz_be_building) We published how @thinkymachines 's Inkling did on Voice Code Bench few weeks ago, and then we asked, what if we fine-tune Inkling? Inkling's main value prop is its small size and robustness, making it a good base model for domain specific fine-tuning. So we that's what we did. We fine-tuned the same Inkling speech model on 1, 25, and 100 hours of our proprietary data containing alphanumeric entities. And the curve kept moving. 🍊 Not surprising, on the standard 300-item VoiceCodeBench evaluation, the 100-hour checkpoint delivered the strongest result. Untrained Inkling → 100-hour post-trained Inkling: 📈 Task Success Rate: 56.33% → 79.00% (+22.67 pts) 📈 Entity recovery (CTEM): 86.84% → 94.80% (+7.96 pts) 📉 VoiceCodeBench WER: 2.3748% → 1.6107% (32.2% relative reduction) 🔧 139 misses fixed, 21 prior hits regressed: net +118 exact entities recovered And the gains scaled as data scaled: 1h: 88.06% CTEM / 59.33% TSR / 2.8188% VCB WER 25h: 92.85% / 72.67% / 1.8517% 100h: 94.80% / 79.00% / 1.6107% The 100-hour model recovered values the base model missed: •--revert-last, instead of splitting one flag into “--revert --last” • tests/auth/login.spec.ts, instead of test/auth/login.spec.ts • ALLOWLIST_CIDR, instead of inserting an extra underscore • SN-7KX-9042, instead of dropping the final digit The largest entity-type gains were email addresses (+30.8 pts), postal addresses (+30.0), file paths (+23.5), environment variables (+22.9), and IP addresses (+20.0). That’s the Besimple thesis: targeted human data can move the production metrics that matter for voice agents, even when the base model is already strong. DM me if you want to evaluate your model on this benchmark or build the data that moves it. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Checkout the full blog at: besimple.ai/research/voice-c… — http://nitter.jaydenha.uk/yiz_be_building/status/2094470162095431934#m",
-          "link": "http://nitter.jaydenha.uk/tinkerapi/status/2094514114676879840#m",
-          "decryptage": "\"Fine-tuning\" est le fait d'adapter un modèle d'IA généraliste à une tâche très spécifique en lui donnant de nouvelles données ciblées, un peu comme un entraînement supplémentaire pour devenir expert dans un domaine précis."
-        },
-        {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Nettoyer les données et aligner la fonction de récompense pour le RLVR demande de l'expertise et des efforts en amont, mais le résultat est un modèle à la pointe de la technologie pour une tâche complexe. Billet d'invités par des chercheurs de l'UIUC et de Bridgewater, en collaboration avec notre équipe. thinkingmachines.ai/news/put… Lien : Mettre l'expertise de la tâche dans le RL permet d'atteindre des performances de pointe sur Text-to-SQL. Un ensemble d'entraînement vérifié par des experts et une récompense remodelée permettent au RLVR sur Tinker d'entraîner un seul modèle avec une précision Text-to-SQL supérieure au niveau humain, à une fraction du coût d'un modèle de pointe. thinkingmachines.ai Tinker (@tinkerapi) Les LLM avec des \"échafaudages\" ont été en retard sur Text-to-SQL, une tâche qui repose sur le jugement humain. En intégrant le jugement d'experts dans chaque partie du RLVR sur Tinker, @maxYuxuanZhu et @ddkang (UIUC et Bridgwater) ont entraîné le premier modèle Text-to-SQL à dépasser la performance humaine. thinkingmachines.ai/news/put… Lien : Mettre l'expertise de la tâche dans le RL permet d'atteindre des performances de pointe sur Text-to-SQL. Un ensemble d'entraînement vérifié par des experts et une récompense remodelée permettent au RLVR sur Tinker d'entraîner un seul modèle avec une précision Text-to-SQL supérieure au niveau humain, à une fraction du coût d'un modèle de pointe. thinkingmachines.ai — http://nitter.jaydenha.uk/tinkerapi/status/2093034896075940265#m",
-          "text_original": "Cleaning data and aligning the reward function for RLVR takes expertise and effort upfront, but the result is a model that's state-of-the-art on a complex task. Guest post by researchers at UIUC and Bridgewater, in collaboration with our team. thinkingmachines.ai/news/put… Link Putting Task Expertise into RL Achieves State-of-the-Art Performance on Text-to-SQL An expert-verified training set and a reshaped reward let RLVR on Tinker train a single model past human-level text-to-SQL accuracy, at a fraction of frontier cost. thinkingmachines.ai Tinker (@tinkerapi) LLMs with scaffolds have lagged on text-to-SQL, a task that relies on human judgment. By folding expert judgment into every part of RLVR on Tinker, @maxYuxuanZhu and @ddkang (UIUC and Bridgwater) trained the first text-to-SQL model to beat the human mark. thinkingmachines.ai/news/put… Link Putting Task Expertise into RL Achieves State-of-the-Art Performance on Text-to-SQL An expert-verified training set and a reshaped reward let RLVR on Tinker train a single model past human-level text-to-SQL accuracy, at a fraction of frontier cost. thinkingmachines.ai — http://nitter.jaydenha.uk/tinkerapi/status/2093034896075940265#m",
-          "link": "http://nitter.jaydenha.uk/thinkymachines/status/2093121414656377160#m",
-          "decryptage": "Le \"Reinforcement Learning\" (RL), ou apprentissage par renforcement, est une méthode où l'IA apprend en interagissant avec son environnement, recevant des \"récompenses\" pour les bonnes actions et des \"pénalités\" pour les mauvaises, un peu comme un animal qui apprend par essais et erreurs."
-        },
-        {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Des résumés rapides et précis font de huggingface.co/papers une ressource encore meilleure et plus facilement consultable par les humains et les grands modèles de langage (LLM). Nous sommes ravis de voir Inkling y contribuer ! Lien Daily Papers - Hugging Face Votre dose quotidienne de recherche en IA par AK huggingface.co Hugging Face (@huggingface) Nous utilisons Inkling-Small pour transformer les résumés d'articles en synthèses rapides et utiles. Poids ouverts × science ouverte 🤝 — http://nitter.jaydenha.uk/huggingface/status/2092727360584135026#m",
-          "text_original": "Quick, accurate summaries make huggingface.co/papers an even better resource and more easily searchable by both people and LLMs. We're glad to see Inkling contributing! Link Daily Papers - Hugging Face Your daily dose of AI research from AK huggingface.co Hugging Face (@huggingface) We use Inkling-Small to turn paper abstracts into quick, useful summaries. open weights × open science 🤝 — http://nitter.jaydenha.uk/huggingface/status/2092727360584135026#m",
-          "link": "http://nitter.jaydenha.uk/tinkerapi/status/2092732292154470568#m",
-          "decryptage": "Un \"LLM\" (Large Language Model) est un grand modèle de langage, comme ChatGPT, capable de comprendre et de générer du texte de manière très avancée."
-        },
-        {
-          "author_name": "Simon Willison",
-          "handle": "@simonw",
-          "text_fr": "Moi : montre-moi un pélican à vélo. Astra : Vidéo",
-          "text_original": "Me: show me a pelican riding a bicycle Astra: Video",
-          "link": "http://nitter.jaydenha.uk/gabrielchua/status/2096403701862961161#m",
-          "decryptage": "Astra semble être un système d'IA capable de générer des vidéos à partir d'une simple description textuelle."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Mistral OCR 4 a transformé un examen de calcul manuscrit en un code LaTeX propre ! Nous lui avons donné une photo d'une page d'examen manuscrite. Le modèle a lu l'écriture manuscrite et a reconstruit chaque formule en texte numérique structuré. Résultat : Temps : 5,1s · Coût : 0,09 $. Les formules sont ressorties exactement justes – la partie difficile a été maîtrisée. Le graphique, malheureusement, n'a pas été redessiné. Mais c'est la partie révélatrice : la plupart des outils d'OCR se contentent de vider le texte et de laisser tomber discrètement la figure. OCR 4 a détecté le graphique, l'a encadré et l'a étiqueté comme un \"chart\". Il n'est pas redessiné, mais il est lu et pris en compte. Vidéo Mistral AI (@MistralAI) Présentation de Mistral OCR 4. Il crée de la structure avec des boîtes englobantes, une classification par blocs et des scores de confiance intégrés dans 170 langues. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-          "text_original": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-          "link": "http://nitter.jaydenha.uk/atomic_chat_hq/status/2069597176225796581#m",
-          "decryptage": "L'\"OCR\" (Optical Character Recognition) est une technologie qui permet à un ordinateur de reconnaître le texte dans une image (comme une photo d'un document ou d'une écriture manuscrite) et de le transformer en texte numérique modifiable. LaTeX est un système de composition de documents très utilisé dans le monde scientifique pour écrire des équations complexes."
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "Je pense que la chose traditionnelle que je devrais dire ici est que cette collaboration fut un honneur et un moment fort de ma carrière — et ce fut absolument le cas (!) — mais même ainsi, je crois que l'accent devrait être mis sur l'information contenue dans ce tweet. OpenAI (@OpenAI) : \"Ce modèle représente une amélioration significative sur de nombreux benchmarks, et son entraînement est en cours. Notre groupe de modèles interne a trouvé la solution de Navier-Stokes en 88 heures, utilisant environ 10 000 agents IA coordonnés. Tout au long de cet effort, nous avons maintenu des mesures de protection strictes — incluant la surveillance et l'isolation — que nous appliquons à toutes nos évaluations de pointe.\"",
+          "text_original": "I think the traditional thing I should say here is that this collaboration was an honor & highlight of my career — & it absolutely was(!) — but even so, I think focus here should be on the figure in the this tweet and hope that it completely ratios the one above it. OpenAI (@OpenAI) This model represents a step-function improvement on many benchmarks, and its training is ongoing. Our internal model group arrived at the Navier–Stokes solution in 88 hours, using around 10,000 coordinating AI agents. Throughout the effort, we maintained the strict safeguards—including monitoring and isolation—that we apply to all our frontier evaluations. — http://nitter.jaydenha.uk/OpenAI/status/2097374643518640382#m",
+          "link": "http://nitter.jaydenha.uk/danintheory/status/2097379519896399959#m",
+          "decryptage": "Les \"10 000 agents IA coordonnés\" représentent une méthode avancée où de nombreuses intelligences artificielles travaillent ensemble comme une équipe pour résoudre un problème complexe, simulant une collaboration humaine à grande échelle."
         }
       ]
     }
   },
-  "processed_at": "2026-09-09T12:22:57",
+  "processed_at": "2026-09-09T12:34:17",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 100,
-    "total": 19,
+    "with_decryptage_pct": 82,
+    "total": 11,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-09T12:22:58"
+  "email_sent_at": "2026-09-09T12:34:18"
 }
