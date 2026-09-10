@@ -1,0 +1,453 @@
+{
+  "date": "2026-09-10",
+  "fetched_at": "2026-09-10T11:10:18",
+  "tweets": [
+    {
+      "handle": "karpathy",
+      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+      "link": "http://nitter.jaydenha.uk/theworldlabs/status/2094839756329041984#m",
+      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+      "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+      "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
+      "published": "Sun, 02 Aug 2026 16:10:51 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+      "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
+      "published": "Tue, 21 Jul 2026 16:53:55 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "Rewriting Bun in Rust bun.com/blog/bun-in-rust Link Rewriting Bun in Rust Why & how we rewrote Bun from Zig to Rust bun.com",
+      "link": "http://nitter.jaydenha.uk/jarredsumner/status/2074973674332123157#m",
+      "published": "Wed, 08 Jul 2026 21:47:29 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "With AlphaFold we mapped the protein universe - now with AlphaGenome Atlas we’re charting the human genome. It can predict the impact of all 9 billion possible single-letter DNA variants, helping scientists better understand disease. Freely available for academic research: alphagenome.google/atlas Google DeepMind (@GoogleDeepMind) We’re launching AlphaGenome Atlas: an AI-powered searchable database mapping the predicted impact of all 9 billion possible single-letter DNA changes. Here’s how it could help researchers better understand our biology 🧵 Video — http://nitter.jaydenha.uk/GoogleDeepMind/status/2097325048109384166#m",
+      "link": "http://nitter.jaydenha.uk/demishassabis/status/2097341636472688674#m",
+      "published": "Tue, 08 Sep 2026 15:09:47 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "Lyria 3.5, our best-sounding music generation model, is now available in the @GeminiApp 🎵✨ With more expressive vocals and richer musical arrangements, it’s easier than ever to bring your idea to life: 🪄 Use our new templates to jumpstart your creativity ⌛ Choose to create short or longer tracks ✅ Select or describe your genre and choose between vocal or instrumental styles Video",
+      "link": "http://nitter.jaydenha.uk/Google/status/2095905262229995736#m",
+      "published": "Fri, 04 Sep 2026 16:02:09 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "Lyria 3.5, our best-sounding music generation model, is now available in AI Studio, via the Gemini API, and in the Gemini app this model brings more expressive vocals and richer musical arrangements, allowing you to craft tracks with higher fidelity try it today: ai.studio Video",
+      "link": "http://nitter.jaydenha.uk/GoogleAIStudio/status/2095905336393605624#m",
+      "published": "Fri, 04 Sep 2026 16:02:26 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with @GoogleResearch , the model learns directly from real-world, real-time observations to give more localized highly accurate predictions faster. 🧵 Video",
+      "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2095528012791902536#m",
+      "published": "Thu, 03 Sep 2026 15:03:05 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "Gemini video understanding is truly bonkers 🤯 Given a 2 hour football match, it scans the video for yellow cards, finds them, 3.8 Flash adds them to a 2D field so you can see where they occurred, then you can click on it and go to the exact part of the video! Check it out 👇 Vamsi Batchu (@vamsibatchuk) between today and yesterday, we launched two amazing new capabilities: Gemini 3.8 Flash and Agentic Video Understanding and they have been so much fun to build with. to test their limits, I built a retro Windows 98-themed workstation where you can drop in any YouTube URL of full 2-hour soccer matches 💾 ⚽(or any sports broadcast) & ask super detailed questions like \"show me all the 🟨 yellow cards & bookings\" ⚡ Agentic Video Understanding autonomously navigates across the 120-minute video timeline (no giant downloads or blind frame sampling) 🔍 dynamically zooms into candidate segments to detect referee whistles, tackles & card gestures 📍 isolates every card with exact sub-second timestamps & 2D pitch coordinates 🎬 pops out a tactical ledger where clicking any row instantly seeks and plays live! no manual scrubbing. pure interactive video intelligence. Video — http://nitter.jaydenha.uk/vamsibatchuk/status/2095341655540879575#m",
+      "link": "http://nitter.jaydenha.uk/JackWoth98/status/2095520018561630691#m",
+      "published": "Thu, 03 Sep 2026 14:31:19 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AndrewYNg",
+      "text": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. Article AI Engineering Skills Map: Using coding agents A key AI engineering skill is using coding agents. Your skill at steering them both to write code and to carry out non-code tasks, such as analyzing data or managing system operations, allows you to",
+      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2095890279865721217#m",
+      "published": "Fri, 04 Sep 2026 15:02:37 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AndrewYNg",
+      "text": "How have software engineering fundamentals changed with agentic coding? Here is our AI Engineering Skills map for software engineering fundamentals. Article AI Engineering Skills Map: Software engineering fundamentals How have software engineering fundamentals changed with agentic coding? Even when you use a coding agent to write all your code, understanding software fundamentals is important for steering your",
+      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2093388974194872781#m",
+      "published": "Fri, 28 Aug 2026 17:23:19 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AndrewYNg",
+      "text": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary. OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement). You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key. Thanks also to all the open source contributors! Join work with @rohitcprasad so please follow him too to get more frequent updates. Try it out: openworker.com/ Code: github.com/andrewyng/openwor…",
+      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2092315079576555806#m",
+      "published": "Tue, 25 Aug 2026 18:16:02 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AndrewYNg",
+      "text": "In the fight to defend openness in AI, the Marin project is a precious demonstration of openness in model training, with open code, data, recipes, even experimental results. Releasing AI research openly used to be the norm; I'm grateful for @percyliang 's open lab approach. Percy Liang (@percyliang) 🚢 Marin 535B-A23B started training this week! As usual, the whole process is open. Voyage plan: pretraining (80%) + midtraining (20%) on 18.75T tokens on 11 x GB200 NVL72 for ~3 months (2.7e24 FLOPs). Post-training will follow. Before kicking off the run, we trained a 4-rung scaling ladder from 1.6B-A61M (48B tokens) to 27.7B-A1.2B (926B tokens) to debug issues, and to make a forecast of our hero run. This is by far our biggest run, so definitely expecting the unexpected. — http://nitter.jaydenha.uk/percyliang/status/2090918065634684997#m",
+      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2091688153048645650#m",
+      "published": "Mon, 24 Aug 2026 00:44:52 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AndrewYNg",
+      "text": "The most important skills in Building and Deploying AI Applications. Article AI Engineering Skills Map: Building and Deploying AI Applications I previously wrote about our AI Engineering Skills Map, with the highest level skills being (i) Building and deploying AI applications, (ii) Software engineering fundamentals, (iii) Using coding",
+      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2090840747738374568#m",
+      "published": "Fri, 21 Aug 2026 16:37:34 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
+      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712675308638581#m",
+      "published": "Wed, 09 Sep 2026 15:44:10 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Surgeons implanted 5 electrode arrays in his brain An AI detects when he intends to move and stimulates his arm muscles, while finger sensors send pressure back so he can feel The most interesting finding IMO: effects persisted even after everything was switched off",
+      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712693688103295#m",
+      "published": "Wed, 09 Sep 2026 15:44:14 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
+      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712705725747366#m",
+      "published": "Wed, 09 Sep 2026 15:44:17 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Alps: 10/10 Astra quota: 0/10 🇨🇭",
+      "link": "http://nitter.jaydenha.uk/rowancheung/status/2096988478688960986#m",
+      "published": "Mon, 07 Sep 2026 15:46:28 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
+      "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
+      "published": "Thu, 03 Sep 2026 15:44:00 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    }
+  ],
+  "failed_accounts": [
+    "sama",
+    "DarioAmodei",
+    "gdb",
+    "sundarpichai",
+    "elonmusk",
+    "AravSrinivas",
+    "miramurati",
+    "ylecun",
+    "JeffDean",
+    "fchollet",
+    "rasbt",
+    "bcherny",
+    "karinanguyen_",
+    "polynoamial",
+    "markchen90",
+    "aidan_mclau",
+    "officiallogank",
+    "osanseviero",
+    "AnthropicAI",
+    "OpenAI",
+    "GoogleDeepMind",
+    "xai",
+    "simonw",
+    "swyx",
+    "hwchase17",
+    "jeremyphoward",
+    "levelsio",
+    "mckaywrigley",
+    "amasad",
+    "nickadobos",
+    "emollick",
+    "ArthurMensch",
+    "GuillaumeLample",
+    "Thom_Wolf",
+    "julien_c",
+    "ClemDelangue",
+    "AlphaSignalAI"
+  ],
+  "processed": {
+    "summary": "Cette journée nous plonge au cœur des avancées en IA, montrant des modèles toujours plus capables de comprendre et de créer des mondes virtuels ou de la musique, et d'apporter des solutions concrètes en santé et climat. Pour les débutants, l'accent est mis sur l'importance de maîtriser l'interaction avec ces systèmes et sur la puissance grandissante des outils open source, tout en réfléchissant aux nouvelles manières de créer et d'innover.",
+    "glossaire": [
+      {
+        "terme": "LLM (Large Language Model)",
+        "definition": "Un grand modèle linguistique est un programme d'IA entraîné sur d'énormes quantités de texte qui peut comprendre, générer et répondre à des questions en langage humain."
+      },
+      {
+        "terme": "Multimodal",
+        "definition": "Se dit d'une IA capable de traiter et de générer différents types de données, comme du texte, des images, des sons et des vidéos, en les reliant entre eux."
+      },
+      {
+        "terme": "Agent IA",
+        "definition": "Un programme d'IA conçu pour accomplir des tâches de manière autonome, en planifiant des étapes et en exécutant des actions pour atteindre un objectif donné."
+      },
+      {
+        "terme": "Modèle du monde (World Model)",
+        "definition": "Un type de modèle d'IA qui tente de simuler et de comprendre le fonctionnement d'un environnement (virtuel ou réel) pour prédire ses changements et interagir avec lui."
+      },
+      {
+        "terme": "Open Source",
+        "definition": "Se réfère aux logiciels ou modèles d'IA dont le code source est publiquement accessible, modifiable et redistribuable par tous, favorisant la transparence et la collaboration."
+      },
+      {
+        "terme": "Neuroprothèse",
+        "definition": "Un dispositif artificiel qui remplace une fonction neurologique perdue, utilisant souvent l'IA pour interpréter les signaux du cerveau et restaurer le mouvement ou la sensation."
+      }
+    ],
+    "category_summaries": {
+      "actu": "Les grandes annonces du jour incluent le lancement d'un modèle du monde multimodal capable de simuler l'espace et le temps, des avancées majeures en prévisions météorologiques avec l'IA, et une application révolutionnaire de l'IA pour aider les personnes paralysées à retrouver le mouvement et les sensations.",
+      "tips": "Pour bien maîtriser l'IA, il est conseillé d'adopter des techniques d'interaction innovantes comme les 'sessions de divagations vocales' avec les LLM. Des compétences en ingénierie IA, tant pour le codage assisté par agents que pour le déploiement d'applications, sont également mises en avant, et nous découvrons une astuce pour l'organisation personnelle avec un journal de bord boosté à l'IA.",
+      "idees": "Ces tweets nous invitent à réfléchir sur le potentiel incroyable de l'IA pour créer des mondes sur mesure, même les plus farfelus, en transformant le 'personne ne ferait ça' en 'pourquoi pas'. La discussion soulève aussi l'importance cruciale de l'ouverture et de la transparence dans la recherche et le développement de modèles d'IA pour l'avenir de la discipline.",
+      "outils": "De nouveaux outils passionnants sont disponibles, de l'AlphaGenome Atlas qui cartographie le génome humain à Lyria 3.5 pour la création musicale expressive. La compréhension vidéo de Gemini nous épate par sa capacité à analyser des matchs de football, et l'agent open source OpenWorker permet d'automatiser des tâches, y compris de sécurité, directement sur votre ordinateur."
+    },
+    "highlights": [
+      {
+        "author_name": "Rowan Cheung",
+        "handle": "@rowancheung",
+        "text_fr": "L'IA aide désormais les personnes paralysées à retrouver le mouvement. Cet homme bouge sa propre main grâce à un implant entraîné par son activité cérébrale, et ressent tout ce qu'il touche. Une application incroyable de l'IA au service du bien !",
+        "text_original": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
+        "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712675308638581#m",
+        "decryptage": "Ce tweet met en lumière une neuroprothèse, un dispositif qui utilise l'IA pour décoder les signaux du cerveau et permettre à une personne paralysée de contrôler ses membres et de ressentir le toucher, une avancée médicale majeure.",
+        "category": "actu",
+        "highlight_reason": "Cette nouvelle montre une application concrète et profondément inspirante de l'IA pour améliorer la vie humaine, un exemple puissant de l'impact positif de cette technologie."
+      },
+      {
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Nous commençons à quitter le territoire où l'on testerait un LLM par exemple en lui demandant de 'créer un SVG d'un pélican sur un vélo'. Une idée pour généraliser cela : j'étais curieux de voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget d'1 million de tokens (~10 $) et lui demandais de le rendre en 3D avec Three.js. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu bancal mais amusant. C'est assez hallucinant que le LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire du code qui anime le tout, et qu'il fasse même quelque chose. J'aime aussi ce genre d'exemples car personne de sensé ne prendrait jamais le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où l'on passe de 'personne ne ferait jamais ça' à 'bien sûr, pourquoi pas, c'est presque gratuit'. Il pourrait y en avoir bien d'autres. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels vous pouvez imaginer plonger des joueurs, par exemple ici pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux à l'intérieur d'eux. Ici, Opus 5 a dû prendre des captures d'écran très lentement et laborieusement à différents moments, et il s'est trompé plusieurs fois et a créé beaucoup de choses bancales. Un exemple de capacité brute (multimodale, gameplay) qui, je pense, fait encore cruellement défaut. Vidéo",
+        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+        "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+        "decryptage": "Ce tweet décrit comment un LLM a généré un monde 3D à partir d'un texte, montrant une capacité impressionnante de création de code et de contenu complexe, mais aussi la limite actuelle des IA à 'voir' et corriger leur propre travail dans des environnements visuels comme les jeux vidéo.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet est un 'coup de cœur' car il illustre de manière spectaculaire le potentiel créatif des LLM pour générer des mondes interactifs, tout en soulignant avec honnêteté une faiblesse clé des IA actuelles : leur difficulté à évaluer visuellement leur propre travail."
+      },
+      {
+        "author_name": "Andrew Ng",
+        "handle": "@AndrewYNg",
+        "text_fr": "Les compétences les plus importantes pour utiliser efficacement les agents de codage IA. Présentation de la carte des compétences en ingénierie IA pour l'utilisation des agents de codage. Article AI Engineering Skills Map: Using coding agents",
+        "text_original": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. Article AI Engineering Skills Map: Using coding agents A key AI engineering skill is using coding agents. Your skill at steering them both to write code and to carry out non-code tasks, such as analyzing data or managing system operations, allows you to",
+        "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2095890279865721217#m",
+        "decryptage": "La 'carte des compétences en ingénierie IA' est un guide qui détaille les aptitudes nécessaires pour bien utiliser les intelligences artificielles, en particulier celles qui aident à écrire du code.",
+        "category": "tips",
+        "highlight_reason": "Ce tweet est essentiel pour un débutant car il met en lumière les compétences pratiques à acquérir pour travailler avec l'IA, notamment les agents de codage, ce qui est très concret et utile."
+      }
+    ],
+    "by_category": {
+      "actu": [
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Présentation d'Atlas : le premier modèle du monde multimodal qui génère des images et des séquences vidéo avec un contrôle précis de la caméra au pixel près, et les reconstruit en 3D. Modéliser le monde, déplacer la caméra et simuler l'espace et le temps. Vidéo",
+          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+          "link": "http://nitter.jaydenha.uk/theworldlabs/status/2094839756329041984#m",
+          "decryptage": "Un 'modèle du monde multimodal' est une IA très avancée capable de comprendre et de simuler notre environnement sous différentes formes (visuel, spatial, temporel), et de le recréer ou de prédire son évolution."
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "WeatherNext 3 est une avancée majeure dans la manière de prévoir la météo mondiale. ⛅ Développé avec @GoogleResearch, le modèle apprend directement des observations réelles et en temps réel pour fournir des prévisions plus localisées, très précises et plus rapidement. 🧵 Vidéo",
+          "text_original": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with @GoogleResearch , the model learns directly from real-world, real-time observations to give more localized highly accurate predictions faster. 🧵 Video",
+          "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2095528012791902536#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "L'IA aide désormais les personnes paralysées à retrouver le mouvement. Cet homme bouge sa propre main grâce à un implant entraîné par son activité cérébrale, et ressent tout ce qu'il touche. Une application incroyable de l'IA au service du bien ! Vidéo",
+          "text_original": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
+          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712675308638581#m",
+          "decryptage": "Ce tweet met en lumière une neuroprothèse, un dispositif qui utilise l'IA pour décoder les signaux du cerveau et permettre à une personne paralysée de contrôler ses membres et de ressentir le toucher, une avancée médicale majeure."
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "Des chirurgiens lui ont implanté 5 matrices d'électrodes dans le cerveau. Une IA détecte son intention de bouger et stimule les muscles de son bras, tandis que des capteurs au doigt renvoient la pression pour qu'il puisse sentir. La découverte la plus intéressante, selon moi : les effets ont persisté même après l'arrêt de tout le système.",
+          "text_original": "Surgeons implanted 5 electrode arrays in his brain An AI detects when he intends to move and stimulates his arm muscles, while finger sensors send pressure back so he can feel The most interesting finding IMO: effects persisted even after everything was switched off",
+          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712693688103295#m",
+          "decryptage": "Une 'matrice d'électrodes' est un ensemble de petits capteurs électriques qui sont implantés pour enregistrer les signaux neuronaux du cerveau, permettant à l'IA de les interpréter."
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "Article complet : nature.com/articles/s41591-0… Lien Une neuroprothèse pour restaurer le mouvement et la sensation de la main chez une personne atteinte de tétraplégie complète Nature Medicine - Un système neuroprothétique sensorimoteur bidirectionnel qui décode les signaux cérébraux associés à l'intention de mouvement tout en délivrant une neuromodulation structurée à la moelle épinière et... nature.com",
+          "text_original": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
+          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712705725747366#m",
+          "decryptage": null
+        }
+      ],
+      "tips": [
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Un schéma que je trouve utile pour travailler avec les LLM est une bonne et longue session de divagation. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas-là, j'aime m'adosser, passer en mode /voix et simplement divaguer pendant environ 10 minutes, un désordre total, tout y passe, un flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme « passage à la reconnaissance vocale, désolé pour les fautes de frappe... ». Parfois, j'en fais une petite interview en quelques tours. Mais je trouve que les LLM sont étonnamment très doués pour reconstruire de longues divagations incohérentes et souvent leur écho de votre propre enchevêtrement de pensées ressort bien plus clair que ce que vous aviez commencé. Le résultat est que vous améliorez la fusion mentale et avez moins de choses à corriger par la suite.",
+          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
+          "decryptage": "Une 'session de divagation' consiste à parler librement à une IA, même de manière décousue, pour l'aider à mieux comprendre votre pensée et à affiner ses réponses, comme une sorte de brainstorming oral."
+        },
+        {
+          "author_name": "Andrew Ng",
+          "handle": "@AndrewYNg",
+          "text_fr": "Les compétences les plus importantes pour utiliser efficacement les agents de codage IA. Présentation de la carte des compétences en ingénierie IA pour l'utilisation des agents de codage. Article AI Engineering Skills Map: Using coding agents",
+          "text_original": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. Article AI Engineering Skills Map: Using coding agents A key AI engineering skill is using coding agents. Your skill at steering them both to write code and to carry out non-code tasks, such as analyzing data or managing system operations, allows you to",
+          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2095890279865721217#m",
+          "decryptage": "La 'carte des compétences en ingénierie IA' est un guide qui détaille les aptitudes nécessaires pour bien utiliser les intelligences artificielles, en particulier celles qui aident à écrire du code."
+        },
+        {
+          "author_name": "Andrew Ng",
+          "handle": "@AndrewYNg",
+          "text_fr": "Comment les fondamentaux de l'ingénierie logicielle ont-ils changé avec le codage assisté par agents ? Voici notre carte des compétences en ingénierie IA pour les fondamentaux de l'ingénierie logicielle. Article AI Engineering Skills Map: Software engineering fundamentals",
+          "text_original": "How have software engineering fundamentals changed with agentic coding? Here is our AI Engineering Skills map for software engineering fundamentals. Article AI Engineering Skills Map: Software engineering fundamentals How have software engineering fundamentals changed with agentic coding? Even when you use a coding agent to write all your code, understanding software fundamentals is important for steering your",
+          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2093388974194872781#m",
+          "decryptage": "Le 'codage assisté par agents' signifie utiliser des intelligences artificielles spécialisées pour aider à écrire, tester ou gérer le code d'un programme, simplifiant ainsi le travail des développeurs."
+        },
+        {
+          "author_name": "Andrew Ng",
+          "handle": "@AndrewYNg",
+          "text_fr": "Les compétences les plus importantes pour construire et déployer des applications d'IA. Article AI Engineering Skills Map: Building and Deploying AI Applications",
+          "text_original": "The most important skills in Building and Deploying AI Applications. Article AI Engineering Skills Map: Building and Deploying AI Applications I previously wrote about our AI Engineering Skills Map, with the highest level skills being (i) Building and deploying AI applications, (ii) Software engineering fundamentals, (iii) Using coding",
+          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2090840747738374568#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "La tenue d'un journal assistée par l'IA change ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme mes divagations en données structurées et en actions. Configuration super simple : 1. Après les réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je saisis tout dans une note Apple en utilisant Wispr Flow, de manière complètement non structurée. 2. Le seul objectif est de le sortir de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement sur mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Elle lit chaque note vocale que j'ai dictée pendant que je dors, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, éléments d'action et blocs de travail approfondi suggérés dans mon GCal. 6. Le lendemain matin, devant mon café, je les examine et les mets en œuvre. Les avantages sont que les suivis que j'ai promis sont signalés, les idées à moitié formées sont structurées et les blocs de travail approfondi sont réservés automatiquement. De plus, avec le temps, cela devient un journal consultable de chaque idée que j'ai eue toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
+          "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
+          "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
+          "decryptage": "Ce tweet décrit un 'flux de travail assisté par l'IA', c'est-à-dire une série d'étapes où différents outils d'IA travaillent ensemble pour automatiser une tâche, ici la transformation de notes vocales désordonnées en un journal structuré avec des actions à suivre."
+        }
+      ],
+      "idees": [
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Nous commençons à quitter le territoire où l'on testerait un LLM par exemple en lui demandant de 'créer un SVG d'un pélican sur un vélo'. Une idée pour généraliser cela : j'étais curieux de voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget d'1 million de tokens (~10 $) et lui demandais de le rendre en 3D avec Three.js. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu bancal mais amusant. C'est assez hallucinant que le LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire du code qui anime le tout, et qu'il fasse même quelque chose. J'aime aussi ce genre d'exemples car personne de sensé ne prendrait jamais le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où l'on passe de 'personne ne ferait jamais ça' à 'bien sûr, pourquoi pas, c'est presque gratuit'. Il pourrait y en avoir bien d'autres. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels vous pouvez imaginer plonger des joueurs, par exemple ici pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux à l'intérieur d'eux. Ici, Opus 5 a dû prendre des captures d'écran très lentement et laborieusement à différents moments, et il s'est trompé plusieurs fois et a créé beaucoup de choses bancales. Un exemple de capacité brute (multimodale, gameplay) qui, je pense, fait encore cruellement défaut. Vidéo",
+          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+          "decryptage": "Ce tweet décrit comment un LLM a généré un monde 3D à partir d'un texte, montrant une capacité impressionnante de création de code et de contenu complexe, mais aussi la limite actuelle des IA à 'voir' et corriger leur propre travail dans des environnements visuels comme les jeux vidéo."
+        },
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Plus d'informations sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis en ligne la source ici pour qu'elle soit jouable dans le navigateur, modifiable, etc. karpathy.ai/lotr-movie/ Attendez-vous à voir débarquer GTA Hobbiton avant GTA VI :)",
+          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Andrew Ng",
+          "handle": "@AndrewYNg",
+          "text_fr": "Dans la lutte pour défendre l'ouverture en IA, le projet Marin est une précieuse démonstration d'ouverture dans l'entraînement des modèles, avec du code, des données, des recettes et même des résultats expérimentaux ouverts. Rendre la recherche en IA ouverte était autrefois la norme ; je suis reconnaissant à @percyliang pour son approche de laboratoire ouvert. Percy Liang (@percyliang) 🚢 Marin 535B-A23B a commencé son entraînement cette semaine ! Comme d'habitude, tout le processus est ouvert. Plan de voyage : pré-entraînement (80%) + mi-entraînement (20%) sur 18,75 T de tokens sur 11 x GB200 NVL72 pendant ~3 mois (2,7e24 FLOPs). Le post-entraînement suivra. Avant de lancer l'exécution, nous avons entraîné une échelle de mise à l'échelle à 4 échelons de 1,6B-A61M (48B de tokens) à 27,7B-A1,2B (926B de tokens) pour déboguer les problèmes et faire une prévision de notre exécution principale. C'est de loin notre plus grande exécution, il faut donc s'attendre à l'inattendu. — http://nitter.jaydenha.uk/percyliang/status/2090918065634684997#m",
+          "text_original": "In the fight to defend openness in AI, the Marin project is a precious demonstration of openness in model training, with open code, data, recipes, even experimental results. Releasing AI research openly used to be the norm; I'm grateful for @percyliang 's open lab approach. Percy Liang (@percyliang) 🚢 Marin 535B-A23B started training this week! As usual, the whole process is open. Voyage plan: pretraining (80%) + midtraining (20%) on 18.75T tokens on 11 x GB200 NVL72 for ~3 months (2.7e24 FLOPs). Post-training will follow. Before kicking off the run, we trained a 4-rung scaling ladder from 1.6B-A61M (48B tokens) to 27.7B-A1.2B (926B tokens) to debug issues, and to make a forecast of our hero run. This is by far our biggest run, so definitely expecting the unexpected. — http://nitter.jaydenha.uk/percyliang/status/2090918065634684997#m",
+          "decryptage": "Le projet Marin met en avant l'importance de l''ouverture' dans l'IA, ce qui signifie partager publiquement les méthodes, les données et les résultats de recherche pour que tout le monde puisse en bénéficier, vérifier et contribuer."
+        }
+      ],
+      "outils": [
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Avec AlphaFold, nous avons cartographié l'univers des protéines - maintenant avec AlphaGenome Atlas, nous cartographions le génome humain. Il peut prédire l'impact de tous les 9 milliards de variants possibles d'une seule lettre d'ADN, aidant ainsi les scientifiques à mieux comprendre les maladies. Disponible gratuitement pour la recherche universitaire : alphagenome.google/atlas Google DeepMind (@GoogleDeepMind) Nous lançons AlphaGenome Atlas : une base de données consultable alimentée par l'IA, cartographiant l'impact prédit des 9 milliards de changements possibles d'une seule lettre d'ADN. Voici comment cela pourrait aider les chercheurs à mieux comprendre notre biologie 🧵 Vidéo — http://nitter.jaydenha.uk/GoogleDeepMind/status/2097325048109384166#m",
+          "text_original": "With AlphaFold we mapped the protein universe - now with AlphaGenome Atlas we’re charting the human genome. It can predict the impact of all 9 billion possible single-letter DNA variants, helping scientists better understand disease. Freely available for academic research: alphagenome.google/atlas Google DeepMind (@GoogleDeepMind) We’re launching AlphaGenome Atlas: an AI-powered searchable database mapping the predicted impact of all 9 billion possible single-letter DNA changes. Here’s how it could help researchers better understand our biology 🧵 Video — http://nitter.jaydenha.uk/GoogleDeepMind/status/2097325048109384166#m",
+          "link": "http://nitter.jaydenha.uk/demishassabis/status/2097341636472688674#m",
+          "decryptage": "AlphaGenome Atlas est une base de données innovante, alimentée par l'IA, qui aide les scientifiques à comprendre comment de minuscules changements dans notre ADN peuvent influencer notre santé et les maladies, en rendant la recherche génétique plus accessible et rapide."
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Lyria 3.5, notre modèle de génération musicale avec le meilleur son, est maintenant disponible dans l'application @GeminiApp 🎵✨ Avec des voix plus expressives et des arrangements musicaux plus riches, il est plus facile que jamais de donner vie à vos idées : 🪄 Utilisez nos nouveaux modèles pour stimuler votre créativité ⌛ Choisissez de créer des morceaux courts ou plus longs ✅ Sélectionnez ou décrivez votre genre et choisissez entre des styles vocaux ou instrumentaux Vidéo",
+          "text_original": "Lyria 3.5, our best-sounding music generation model, is now available in the @GeminiApp 🎵✨ With more expressive vocals and richer musical arrangements, it’s easier than ever to bring your idea to life: 🪄 Use our new templates to jumpstart your creativity ⌛ Choose to create short or longer tracks ✅ Select or describe your genre and choose between vocal or instrumental styles Video",
+          "link": "http://nitter.jaydenha.uk/Google/status/2095905262229995736#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Lyria 3.5, notre modèle de génération musicale avec le meilleur son, est maintenant disponible dans AI Studio, via l'API Gemini, et dans l'application Gemini. Ce modèle apporte des voix plus expressives et des arrangements musicaux plus riches, vous permettant de créer des morceaux avec une plus grande fidélité. Essayez-le dès aujourd'hui : ai.studio Vidéo",
+          "text_original": "Lyria 3.5, our best-sounding music generation model, is now available in AI Studio, via the Gemini API, and in the Gemini app this model brings more expressive vocals and richer musical arrangements, allowing you to craft tracks with higher fidelity try it today: ai.studio Video",
+          "link": "http://nitter.jaydenha.uk/GoogleAIStudio/status/2095905336393605624#m",
+          "decryptage": "Une 'API' (Interface de Programmation d'Application) permet à différents logiciels de communiquer entre eux, ici pour intégrer les capacités de Lyria 3.5 dans d'autres applications."
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "La compréhension vidéo de Gemini est vraiment dingue 🤯 Étant donné un match de football de 2 heures, il scanne la vidéo pour les cartons jaunes, les trouve, Gemini 3.8 Flash les ajoute à un terrain 2D pour que vous puissiez voir où ils se sont produits, puis vous pouvez cliquer dessus et aller à la partie exacte de la vidéo ! Regardez ça 👇 Vamsi Batchu (@vamsibatchuk) entre aujourd'hui et hier, nous avons lancé deux nouvelles capacités incroyables : Gemini 3.8 Flash et Agentic Video Understanding et elles ont été tellement amusantes à construire. Pour tester leurs limites, j'ai construit un poste de travail rétro sur le thème de Windows 98 où vous pouvez déposer n'importe quelle URL YouTube de matchs de football complets de 2 heures 💾 ⚽(ou n'importe quelle émission sportive) et poser des questions super détaillées comme « montrez-moi tous les 🟨 cartons jaunes et les avertissements » ⚡ Agentic Video Understanding navigue de manière autonome sur la timeline vidéo de 120 minutes (pas de téléchargements géants ni d'échantillonnage de cadres aveugle) 🔍 zoome dynamiquement sur les segments candidats pour détecter les sifflets d'arbitre, les tacles et les gestes de carton 📍 isole chaque carton avec des horodatages précis à la sous-seconde près et des coordonnées de terrain 2D 🎬 affiche un registre tactique où cliquer sur n'importe quelle ligne recherche instantanément et joue en direct ! Pas de défilement manuel. Pure intelligence vidéo interactive. Vidéo — http://nitter.jaydenha.uk/vamsibatchuk/status/2095341655540879575#m",
+          "text_original": "Gemini video understanding is truly bonkers 🤯 Given a 2 hour football match, it scans the video for yellow cards, finds them, 3.8 Flash adds them to a 2D field so you can see where they occurred, then you can click on it and go to the exact part of the video! Check it out 👇 Vamsi Batchu (@vamsibatchuk) between today and yesterday, we launched two amazing new capabilities: Gemini 3.8 Flash and Agentic Video Understanding and they have been so much fun to build with. to test their limits, I built a retro Windows 98-themed workstation where you can drop in any YouTube URL of full 2-hour soccer matches 💾 ⚽(or any sports broadcast) & ask super detailed questions like \"show me all the 🟨 yellow cards & bookings\" ⚡ Agentic Video Understanding autonomously navigates across the 120-minute video timeline (no giant downloads or blind frame sampling) 🔍 dynamically zooms into candidate segments to detect referee whistles, tackles & card gestures 📍 isolates every card with exact sub-second timestamps & 2D pitch coordinates 🎬 pops out a tactical ledger where clicking any row instantly seeks and plays live! no manual scrubbing. pure interactive video intelligence. Video — http://nitter.jaydenha.uk/vamsibatchuk/status/2095341655540879575#m",
+          "link": "http://nitter.jaydenha.uk/JackWoth98/status/2095520018561630691#m",
+          "decryptage": "La 'compréhension vidéo agentique' de Gemini signifie que l'IA agit comme un expert capable d'analyser des vidéos complexes (comme un match de foot), d'identifier des événements spécifiques et de fournir des informations précises et interactives, sans intervention humaine constante."
+        },
+        {
+          "author_name": "Andrew Ng",
+          "handle": "@AndrewYNg",
+          "text_fr": "OpenWorker – un agent open source qui ne se contente pas de discuter mais accomplit des tâches sur votre ordinateur portable – vient de publier une nouvelle version avec de nombreuses fonctionnalités pour les flux de travail de sécurité. Après notre première version, de nombreux utilisateurs l'ont trouvé particulièrement utile pour la cybersécurité. Les attaquants utilisent déjà l'IA ; OpenWorker s'engage à donner aux défenseurs le même levier. L'exécution d'un agent nécessite à la fois (i) un modèle et (ii) un 'harnais' (le logiciel autour du modèle). Comme le harnais OpenWorker est entièrement open source, les équipes de sécurité peuvent l'auditer pour s'assurer que nous n'avons pas intégré de portes dérobées qui exfiltreraient votre code et vos données vers une entreprise ou même un adversaire étranger. OpenWorker est désormais livré avec des agents de cybersécurité intégrés pour (i) la recherche de vulnérabilités dans votre code. (ii) la recherche de dépendances pour les injections dans la chaîne d'approvisionnement. (iii) la vérification de la configuration de votre sécurité cloud pour les surfaces d'attaque. Cela permet aux développeurs de faire beaucoup plus de travail de sécurité avant le déploiement (une partie de ce qu'on appelle le mouvement « shift left »). Vous choisissez le modèle : vous pouvez exécuter des modèles à poids ouverts entièrement localement afin que les codes sensibles ne quittent jamais votre machine. Cela aide pour le travail de sécurité légitime (comme reproduire un exploit connu pour s'en défendre) qui peut déclencher des refus dans les principaux modèles fermés. Ou utilisez votre abonnement ChatGPT, ou des modèles d'aperçu furtif comme Ox Alpha, ou n'importe quel modèle via une clé API. Merci également à tous les contributeurs open source ! Rejoignez le travail avec @rohitcprasad alors suivez-le également pour obtenir des mises à jour plus fréquentes. Essayez-le : openworker.com/ Code : github.com/andrewyng/openwor…",
+          "text_original": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary. OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement). You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key. Thanks also to all the open source contributors! Join work with @rohitcprasad so please follow him too to get more frequent updates. Try it out: openworker.com/ Code: github.com/andrewyng/openwor…",
+          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2092315079576555806#m",
+          "decryptage": "OpenWorker est un 'agent open source' : un programme d'IA dont le code est accessible à tous, capable d'effectuer des tâches sur votre ordinateur, notamment des vérifications de sécurité, et vous permettant de choisir le modèle d'IA qu'il utilise, y compris des 'modèles à poids ouverts' qui peuvent fonctionner sur votre machine sans envoyer vos données ailleurs."
+        }
+      ]
+    }
+  },
+  "processed_at": "2026-09-10T11:11:25",
+  "validation": {
+    "translated_pct": 100,
+    "with_decryptage_pct": 76,
+    "total": 21,
+    "needs_retranslation_count": 0
+  },
+  "email_sent_at": "2026-09-10T11:11:26"
+}
