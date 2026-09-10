@@ -1,290 +1,245 @@
 {
   "date": "2026-09-10",
-  "fetched_at": "2026-09-10T13:48:24",
+  "fetched_at": "2026-09-10T14:59:13",
   "tweets": [
     {
-      "handle": "JeffDean",
-      "text": "Excited to partner with @DiscoLoopAI ! They are actively hiring across engineering & research - please reach out if the mission sounds interesting to you. Discovery Loop (@DiscoLoopAI) Introducing Discovery Loop ♾. We’re building AI to run experiments at unprecedented scale and to solve the biggest bottlenecks in science and engineering. Our founders @JeffDean , @Sanjay_Ghemawat , @quocleix , @OriolVinyalsML helped build the AI infrastructure and models that scaled the modern world. Now, we are scaling discovery itself. The future can't wait. Learn more at: discoveryloop.com — http://nitter.jaydenha.uk/DiscoLoopAI/status/2085033268001587534#m",
-      "link": "http://nitter.jaydenha.uk/LM_Braswell/status/2097720148451012848#m",
-      "published": "Wed, 09 Sep 2026 16:13:51 GMT",
-      "author_name": "Jeff Dean",
+      "handle": "karpathy",
+      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+      "link": "http://nitter.jaydenha.uk/theworldlabs/status/2094839756329041984#m",
+      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
+      "author_name": "Andrej Karpathy",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "1/ ✨ World record today on bounded gaps between primes, one of number theory’s oldest open conjectures. We show that infinitely many pairs of prime numbers are separated by 212 or less.",
-      "link": "http://nitter.jaydenha.uk/axiommathai/status/2095526333799633063#m",
-      "published": "Thu, 03 Sep 2026 14:56:25 GMT",
-      "author_name": "Jeff Dean",
+      "handle": "karpathy",
+      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+      "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
+      "author_name": "Andrej Karpathy",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "Stanford HAI's fall conference returns this October. Confronting Our AI Future: Hope, Fear, and the Choices Ahead will feature a full day of conversations on work, learning, governance, and how we ensure AI expands human potential. Speakers include @drfeifei , @JeffDean , @audreyt , @erikbryn , Alondra Nelson, and @istoica05 , with more to be announced. Register by October 1 for early bird pricing: hai.stanford.edu/events/conf… Video",
-      "link": "http://nitter.jaydenha.uk/StanfordHAI/status/2095241546702708937#m",
-      "published": "Wed, 02 Sep 2026 20:04:47 GMT",
-      "author_name": "Jeff Dean",
+      "handle": "karpathy",
+      "text": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+      "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
+      "published": "Sun, 02 Aug 2026 16:10:51 GMT",
+      "author_name": "Andrej Karpathy",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "Today, we're excited to share early progress on using Gemini to accelerate scientific discovery in the real-world. We present an extension of Co-Scientist which we use to collaborate with scientists across materials science, biology, and computer science.",
-      "link": "http://nitter.jaydenha.uk/SRSchmidgall/status/2093380426924708082#m",
-      "published": "Fri, 28 Aug 2026 16:49:21 GMT",
-      "author_name": "Jeff Dean",
+      "handle": "karpathy",
+      "text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+      "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
+      "published": "Tue, 21 Jul 2026 16:53:55 GMT",
+      "author_name": "Andrej Karpathy",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "Behind a lot of great AI projects, there is a good @JeffDean story. Here is mine 😉 Back in 2019, even before Khipu AI officially existed, Jeff said yes to participate in our first event in Uruguay 🇺🇾. His early belief in our LATAM AI vision created a ripple effect—if @JeffDean was in, everyone was in. Incredibly grateful he returned for Khipu 2025 in Chile 🇨🇱! As we look ahead: Khipu 2027 is heading to BRAZIL 🇧🇷 Applications are OPEN: khipu.ai/ Want to sponsor us and support Latin American AI? DM me or reach out at sponsorship@khipu.ai Check out the video below to see what Khipu is all about (and spot a quick Jeff cameo 😉). 👇 piped.video/Db19zoquTOs?si=Xkyn… #Khipu2027 #Khipu_AI #MachineLearning #LatAm",
-      "link": "http://nitter.jaydenha.uk/Khipu_AI/status/2087299263818829964#m",
-      "published": "Tue, 11 Aug 2026 22:04:59 GMT",
-      "author_name": "Jeff Dean",
+      "handle": "karpathy",
+      "text": "Rewriting Bun in Rust bun.com/blog/bun-in-rust Link Rewriting Bun in Rust Why & how we rewrote Bun from Zig to Rust bun.com",
+      "link": "http://nitter.jaydenha.uk/jarredsumner/status/2074973674332123157#m",
+      "published": "Wed, 08 Jul 2026 21:47:29 GMT",
+      "author_name": "Andrej Karpathy",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "AndrewYNg",
-      "text": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. Article AI Engineering Skills Map: Using coding agents A key AI engineering skill is using coding agents. Your skill at steering them both to write code and to carry out non-code tasks, such as analyzing data or managing system operations, allows you to",
-      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2095890279865721217#m",
-      "published": "Fri, 04 Sep 2026 15:02:37 GMT",
-      "author_name": "Andrew Ng",
-      "category_hint": "educator",
+      "handle": "elonmusk",
+      "text": "Here’s to every era, every evil, and every one of you. 🔥 From our inner demons to yours, Happy 30th Anniversary. Video",
+      "link": "https://nitter.kareem.one/Diablo/status/2097746977568026629#m",
+      "published": "Wed, 09 Sep 2026 18:00:28 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "AndrewYNg",
-      "text": "How have software engineering fundamentals changed with agentic coding? Here is our AI Engineering Skills map for software engineering fundamentals. Article AI Engineering Skills Map: Software engineering fundamentals How have software engineering fundamentals changed with agentic coding? Even when you use a coding agent to write all your code, understanding software fundamentals is important for steering your",
-      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2093388974194872781#m",
-      "published": "Fri, 28 Aug 2026 17:23:19 GMT",
-      "author_name": "Andrew Ng",
-      "category_hint": "educator",
+      "handle": "elonmusk",
+      "text": "Tesla self-driving is awesome Will Chamberlain (@willchamberlain) I bought a Tesla in July and have basically retired from driving. If you can afford to you should too. It’s the most dangerous thing you do every day and Tesla’s robots are better at it. — https://nitter.kareem.one/willchamberlain/status/2098051199345832037#m",
+      "link": "https://nitter.kareem.one/elonmusk/status/2098052817391092113#m",
+      "published": "Thu, 10 Sep 2026 14:15:46 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "AndrewYNg",
-      "text": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary. OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement). You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key. Thanks also to all the open source contributors! Join work with @rohitcprasad so please follow him too to get more frequent updates. Try it out: openworker.com/ Code: github.com/andrewyng/openwor…",
-      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2092315079576555806#m",
-      "published": "Tue, 25 Aug 2026 18:16:02 GMT",
-      "author_name": "Andrew Ng",
-      "category_hint": "educator",
+      "handle": "elonmusk",
+      "text": "The Tesla Cybercab’s rear trunk is huge. It fit our two full-size suitcases and two bags with plenty of room to spare and is very easy to load and unload. It has 20.2 cu ft of storage, which is just shy of a Model 3 (21 cu ft), but is waaay easier to fit larger items since it’s a hatchback, so it actually feels bigger. Video",
+      "link": "https://nitter.kareem.one/niccruzpatane/status/2097675510180368665#m",
+      "published": "Wed, 09 Sep 2026 13:16:29 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "AndrewYNg",
-      "text": "In the fight to defend openness in AI, the Marin project is a precious demonstration of openness in model training, with open code, data, recipes, even experimental results. Releasing AI research openly used to be the norm; I'm grateful for @percyliang 's open lab approach. Percy Liang (@percyliang) 🚢 Marin 535B-A23B started training this week! As usual, the whole process is open. Voyage plan: pretraining (80%) + midtraining (20%) on 18.75T tokens on 11 x GB200 NVL72 for ~3 months (2.7e24 FLOPs). Post-training will follow. Before kicking off the run, we trained a 4-rung scaling ladder from 1.6B-A61M (48B tokens) to 27.7B-A1.2B (926B tokens) to debug issues, and to make a forecast of our hero run. This is by far our biggest run, so definitely expecting the unexpected. — http://nitter.jaydenha.uk/percyliang/status/2090918065634684997#m",
-      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2091688153048645650#m",
-      "published": "Mon, 24 Aug 2026 00:44:52 GMT",
-      "author_name": "Andrew Ng",
-      "category_hint": "educator",
+      "handle": "elonmusk",
+      "text": "Looking back, Full Self-Driving has faced the same relentless fear tactics. It feels little different from the AI panic being stoked today—often by nearly the same voices. The lives being saved, however, is enormous. For years we have held this conviction, quietly improving the products. Not for fortune or fame, but so the people we love can arrive home safely.",
+      "link": "https://nitter.kareem.one/yunta_tsai/status/2098046851585036788#m",
+      "published": "Thu, 10 Sep 2026 13:52:03 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "AndrewYNg",
-      "text": "The most important skills in Building and Deploying AI Applications. Article AI Engineering Skills Map: Building and Deploying AI Applications I previously wrote about our AI Engineering Skills Map, with the highest level skills being (i) Building and deploying AI applications, (ii) Software engineering fundamentals, (iii) Using coding",
-      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2090840747738374568#m",
-      "published": "Fri, 21 Aug 2026 16:37:34 GMT",
-      "author_name": "Andrew Ng",
-      "category_hint": "educator",
+      "handle": "elonmusk",
+      "text": "Fact check: true Adam Townsend (@adamscrabble) Tesla is by far the best car on the market. FSD will change your life — https://nitter.kareem.one/adamscrabble/status/2097799877283442734#m",
+      "link": "https://nitter.kareem.one/willchamberlain/status/2097816145017340054#m",
+      "published": "Wed, 09 Sep 2026 22:35:19 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "Recursive Language Models are used by @harvey , @PrimeIntellect , not to mention Anthropic and OpenAI If you want to learn more, my talk from @aiDotEngineer covers what's different and includes real-world examples - I hope you find it useful and ty to @a1zhang and @lateinteraction for giving me something to talk about! piped.video/watch?v=xo68uCib… Link It’s Tokens All The Way Down: How RLMs are Different — Kevin Madura,... Ask a model to sum twelve numbers scattered across thirty thousand ... youtube.com",
-      "link": "http://nitter.jaydenha.uk/kmad/status/2097715542178083178#m",
-      "published": "Wed, 09 Sep 2026 15:55:33 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "simonw",
+      "text": "Here's a Blender model of a Pluribus themed Fabergé egg I had GPT-6 Astra build - I generated the concept image using ChatGPT Images 2.5, then pasted the image into Codex and told Astra to turn that into a Blender file Details here: simonwillison.net/2026/Sep/9…",
+      "link": "http://nitter.jaydenha.uk/simonw/status/2097847628155523242#m",
+      "published": "Thu, 10 Sep 2026 00:40:25 GMT",
+      "author_name": "Simon Willison",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "our full presentation from @aiDotEngineer world fair: piped.video/watch?v=B0fjR3ya… thank you @swyx + team for having us! Link How do you diffuse AI into the real world? — Varun Shenoy, Long Lake Long Lake does not sell software. It buys the company. Thirty five ... youtube.com",
-      "link": "http://nitter.jaydenha.uk/varunshenoy_/status/2097769418898186505#m",
-      "published": "Wed, 09 Sep 2026 19:29:38 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "simonw",
+      "text": "I also had Astra vibe code up an online Blender model viewing tool, so you can explore the egg interactively in your browser here: tools.simonwillison.net/blen…",
+      "link": "http://nitter.jaydenha.uk/simonw/status/2097847779033018746#m",
+      "published": "Thu, 10 Sep 2026 00:41:01 GMT",
+      "author_name": "Simon Willison",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "at long lake, we've bought 40+ services businesses to build AI where work actually happens we're working on: - deploying agents to complete knowledge work - frontier eval generation from real workflows - post-training open models on data no lab has come build with us @llmh Video",
-      "link": "http://nitter.jaydenha.uk/varunshenoy_/status/2097769417551888615#m",
-      "published": "Wed, 09 Sep 2026 19:29:38 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "simonw",
+      "text": "\"Deterministic code checks the result\" sounds like they might be implementing a variant of the DeepMind CaMeL paper simonwillison.net/2025/Apr/1… Link CaMeL offers a promising new direction for mitigating prompt injection attacks In the two and a half years that we’ve been talking about prompt injection attacks I’ve seen alarmingly little progress towards a robust solution. The new paper Defeating Prompt Injections … simonwillison.net David Singleton (@dps) One threat we’re particularly focused on is prompt injection, and we handle it in layers. The model is trained to recognize and resist it. The harness marks anything coming from an untrusted source. Deterministic code checks the result. And an ensemble of classifiers runs where the agent can't reach them. — http://nitter.jaydenha.uk/dps/status/2097404102468899131#m",
+      "link": "http://nitter.jaydenha.uk/simonw/status/2097475247595536880#m",
+      "published": "Wed, 09 Sep 2026 00:00:42 GMT",
+      "author_name": "Simon Willison",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "We’re hiring at AI Engineer. Help us unite and empower the global AI engineering community. Open roles: • Growth Marketing Lead • Community Manager • Event Systems & Ops Manager • Associate Producer Apply: linkedin.com/company/aidoten…",
-      "link": "http://nitter.jaydenha.uk/aiDotEngineer/status/2097724211318194197#m",
-      "published": "Wed, 09 Sep 2026 16:30:00 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "simonw",
+      "text": "Wrote up my thoughts on the whole OpenAI Navier–Stokes Millennium Prize Problem story, and how it highlights the still confusing question of what using my data \"to improve model performance\" actually means simonwillison.net/2026/Sep/8…",
+      "link": "http://nitter.jaydenha.uk/simonw/status/2097474703380365698#m",
+      "published": "Tue, 08 Sep 2026 23:58:33 GMT",
+      "author_name": "Simon Willison",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "our conference on the state of the agentic web + computer use could not have been better timed! join us in SF on thursday for a glimpse into the near future: browserbase.com/navigate Link Navigate 2026 The conference for engineers building and deploying browser agents. September 10, 2026 in San Francisco. browserbase.com Browserbase (@browserbase) It's Navigate week! Browserbase is hosting Navigate this Thursday (Sept 10) in SF. People are flying in from across the US to discuss the future of agents and computer use. Listen to speakers from @stripe , @vercel , @AnthropicAI , and more. Seats are running low. If you want to join the conversation on the future of agents, registration officially closes tomorrow. Video — http://nitter.jaydenha.uk/browserbase/status/2097448396558893535#m",
-      "link": "http://nitter.jaydenha.uk/pk_iv/status/2097457675693158438#m",
-      "published": "Tue, 08 Sep 2026 22:50:53 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "simonw",
+      "text": "Interesting details in here about how OpenAI researchers are using coding agents I'd love to know what caused the huge uptick in token spend in mid-July, was that when Astra became available to employees? Kevin Liu (@kliu128) Today we're releasing data on models accelerating research at OpenAI. Recursive self-improvement could be the most important contributor to AI capabilities over the next few years, but by default it will only be seen inside a few frontier AI labs. Being transparent is more urgent than ever, so we can inform the public discussion on whether and how to pace model development. I ask other AI companies to do the same. openai.com/index/research-ac… Link Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration. openai.com — http://nitter.jaydenha.uk/kliu128/status/2096616468851097811#m",
+      "link": "http://nitter.jaydenha.uk/simonw/status/2096647325049626918#m",
+      "published": "Sun, 06 Sep 2026 17:10:50 GMT",
+      "author_name": "Simon Willison",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "amasad",
-      "text": "Honored to have the Mayor of London, Sadiq Khan, help us open Replit’s first international office in London! I’ve really appreciated the Mayor’s approach to AI, it feels very similar to ours. He calls himself an AI realist: clear-eyed about the disruption AI will create, but optimistic about the impact if we give people the tools and skills to participate in the coming revolution. That’s exactly how we think about it at Replit. AI is going to transform work, so we have to make sure far more people can use it to create, build businesses, and access new opportunities. It’s also why, as we establish ourselves here, we’re partnering with The Lord Mayor’s Appeal to help young Londoners from disadvantaged communities develop practical coding and AI skills. London has the history, the talent, and the right leadership & philosophy for the AI era. We’re excited to be here. Mayor of London, Sadiq Khan (@MayorofLondon) London shares Replit’s vision of a world where everyone can benefit from the opportunities of the AI age. I was delighted to open their first international office in King's Cross. It speaks to the extraordinary optimism coming from every corner of our capital’s booming tech sector. — http://nitter.jaydenha.uk/MayorofLondon/status/2097021024676073472#m",
-      "link": "http://nitter.jaydenha.uk/amasad/status/2097197172299006423#m",
-      "published": "Tue, 08 Sep 2026 05:35:44 GMT",
-      "author_name": "Amjad Masad",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "amasad",
-      "text": "I don’t think we’ve reached AGI but what we have is functionally indistinguishable from AGI. Because we have a relentless programmer that doesn’t get bored or tired. So any problem that can be casted as a coding problem is virtually solved.",
-      "link": "http://nitter.jaydenha.uk/amasad/status/2096936109817135331#m",
-      "published": "Mon, 07 Sep 2026 12:18:22 GMT",
-      "author_name": "Amjad Masad",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "amasad",
-      "text": "This week everything has changed for me at @Replit I’ve gone from using a mix of tools, including internal-only systems, to doing all my work at Replit, in Replit itself. No other harness, agent, tool or infra. Just replit.com .",
-      "link": "http://nitter.jaydenha.uk/niallohiggins/status/2096764490952159265#m",
-      "published": "Mon, 07 Sep 2026 00:56:25 GMT",
-      "author_name": "Amjad Masad",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "amasad",
-      "text": "Wow! Andrew Blumson (@Andrew_Blumson) Just building a ThreeJS ocean for @Replit users Will open source when done Looking alright for 30 mins looping @zhenthebuilder thought you might like 😉 @amasad one for the Replit community 🤝 #Replit #BuildInPublic #OpenSource #Free #UK Video — http://nitter.jaydenha.uk/Andrew_Blumson/status/2096670998414192707#m",
-      "link": "http://nitter.jaydenha.uk/amasad/status/2096717133816397921#m",
-      "published": "Sun, 06 Sep 2026 21:48:14 GMT",
-      "author_name": "Amjad Masad",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "amasad",
-      "text": "Giving Replit eyes in WebGPU was the best thing I have done since using it",
-      "link": "http://nitter.jaydenha.uk/Andrew_Blumson/status/2096697134053544256#m",
-      "published": "Sun, 06 Sep 2026 20:28:46 GMT",
-      "author_name": "Amjad Masad",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "Bravo to Mistral! So great to see them killing it, they are an inspiration to everyone as we need more sovereign & open-source AI everywhere around the world. Excited to keep supporting them on huggingface.co/mistralai ! Link mistralai (Mistral AI_) Org profile for Mistral AI_ on Hugging Face, the AI community building the future. huggingface.co Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-      "link": "http://nitter.jaydenha.uk/ClementDelangue/status/2097324015819825202#m",
-      "published": "Tue, 08 Sep 2026 13:59:46 GMT",
-      "author_name": "Arthur Mensch",
+      "handle": "Thom_Wolf",
+      "text": "\"The AI community needs to share safety and alignment research openly so that every team building AI models can learn from others’ mistakes. The community also needs to build open-weight AI models for defence and make them widely available — before the next attack inevitably arrives.\" @Thom_Wolf of Hugging Face tinyurl.com/j7z9jevs Link What we learnt from OpenAI’s hack of Hugging Face Commercial AI tools failed to defend the platform against the attack — the solution lies in open-weight models ft.com",
+      "link": "http://nitter.jaydenha.uk/ThirdWayKessler/status/2098056041959194960#m",
+      "published": "Thu, 10 Sep 2026 14:28:35 GMT",
+      "author_name": "Thomas Wolf",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "ArthurMensch",
-      "text": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch.",
-      "link": "http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-      "published": "Tue, 08 Sep 2026 05:02:37 GMT",
-      "author_name": "Arthur Mensch",
+      "handle": "Thom_Wolf",
+      "text": "Huggingfaces security txt after the openai incident 😭",
+      "link": "http://nitter.jaydenha.uk/iam_zachi/status/2097998662022377683#m",
+      "published": "Thu, 10 Sep 2026 10:40:34 GMT",
+      "author_name": "Thomas Wolf",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "ArthurMensch",
-      "text": "Bravo à Mistral pour sa nouvelle levée de fonds record. ASML il y a un an, Samsung aujourd’hui : Mistral démontre sa capacité à nouer des partenariats stratégiques avec les plus grands acteurs industriels pour hisser l’Europe parmi les grandes puissances mondiales de l’IA. C’est tout le sens de la vision que nous portons avec le Président de la Corée du Sud : construire ensemble une troisième voie dans l’IA en rassemblant nos forces et nos acteurs. Et ce n’est que le début !",
-      "link": "http://nitter.jaydenha.uk/EmmanuelMacron/status/2097254072441045256#m",
-      "published": "Tue, 08 Sep 2026 09:21:50 GMT",
-      "author_name": "Arthur Mensch",
+      "handle": "Thom_Wolf",
+      "text": "would be mind blowing if an AI proof of Hodge is a general theory explaining why all Hodge classes are algebraic possibly requiring a deep new bridge between topology/Hodge theory and algebraic geometry and not just 10000 agents finding the one counterexample breaking Hodge Chubby♨️ (@kimmonismus) Holy, rumors are spreading everywhere that OpenAI is close to verifying a proof of the Hodge conjecture, while either OpenAI or Anthropic may be nearing a solution to Birch–Swinnerton-Dyer. Both are Millennium Prize Problems that have resisted decades of mathematical research. Verified AI-generated proofs of both would be a historic achievement for mathematics and a remarkable demonstration of AI’s ability to produce new scientific knowledge. And infact show that AI is capable of finding novel and creative solutions. — http://nitter.jaydenha.uk/kimmonismus/status/2097990443690496402#m",
+      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2097998205858320756#m",
+      "published": "Thu, 10 Sep 2026 10:38:45 GMT",
+      "author_name": "Thomas Wolf",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "ArthurMensch",
+      "handle": "Thom_Wolf",
+      "text": "The new DeepSeek V4.1 Flash model is mindblowing - back on top of the open-source model leaderboard and extremely cheap. It has a lot of very smart ways to be efficient and highly capable so I made a video of the forward pass to give you a view of what going on inside the model during inference. Read more at huggingface.co/deepseek-ai/D… And find the weights at huggingface.co/deepseek-ai/D… Video",
+      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2097982062808428751#m",
+      "published": "Thu, 10 Sep 2026 09:34:37 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "Created from the model code and the tech report just released at huggingface.co/deepseek-ai Link deepseek-ai (DeepSeek) Org profile for DeepSeek on Hugging Face, the AI community building the future. huggingface.co",
+      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2097979256387039608#m",
+      "published": "Thu, 10 Sep 2026 09:23:27 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "today we're announcing a game that simulates the huggingface hack you can play it now at huggingworld.com three rooms. three puzzles. if the agents don't escape, they die. the catch is that the room is rigged. there's no way out. ...except for an exploit 🧵 Video",
+      "link": "http://nitter.jaydenha.uk/benhylak/status/2097403281027010693#m",
+      "published": "Tue, 08 Sep 2026 19:14:44 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "This apple event opener is quite strong. I’m bullish",
+      "link": "http://nitter.jaydenha.uk/julien_c/status/2097733703568912546#m",
+      "published": "Wed, 09 Sep 2026 17:07:43 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "You shouldn’t need to be an ML expert to have an ML idea. Today we’re launching ML Intern in HuggingChat. Start with a conversation. Finish with deployable artefacts. Video",
+      "link": "http://nitter.jaydenha.uk/evilpingwin/status/2097359184207511654#m",
+      "published": "Tue, 08 Sep 2026 16:19:31 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Bringing AutoScientist to 15+ million @huggingface researchers and builders. 🤗 AutoScientist automates model training. Specify your objective, let AutoScientist do the rest. Export to Hugging Face with one click. Video",
+      "link": "http://nitter.jaydenha.uk/adaption_ai/status/2097294140144853313#m",
+      "published": "Tue, 08 Sep 2026 12:01:03 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
       "text": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
       "link": "http://nitter.jaydenha.uk/GuillaumeLample/status/2097256830091014515#m",
       "published": "Tue, 08 Sep 2026 09:32:48 GMT",
-      "author_name": "Arthur Mensch",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "We've just raised 3B€ to scale our training and inference compute, and make open and sovereign AI the technology frontier. Grateful to everyone who got us there, excited by the fight ahead mistral.ai/news/mistral-make… Link Making sovereign, open-weight AI the technology frontier | Mistral Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion. mistral.ai",
-      "link": "http://nitter.jaydenha.uk/arthurmensch/status/2097232588490379686#m",
-      "published": "Tue, 08 Sep 2026 07:56:28 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712675308638581#m",
-      "published": "Wed, 09 Sep 2026 15:44:10 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "Surgeons implanted 5 electrode arrays in his brain An AI detects when he intends to move and stimulates his arm muscles, while finger sensors send pressure back so he can feel The most interesting finding IMO: effects persisted even after everything was switched off",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712693688103295#m",
-      "published": "Wed, 09 Sep 2026 15:44:14 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712705725747366#m",
-      "published": "Wed, 09 Sep 2026 15:44:17 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "Alps: 10/10 Astra quota: 0/10 🇨🇭",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2096988478688960986#m",
-      "published": "Mon, 07 Sep 2026 15:46:28 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
-      "published": "Thu, 03 Sep 2026 15:44:00 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
-    "karpathy",
     "sama",
     "DarioAmodei",
     "gdb",
     "sundarpichai",
-    "elonmusk",
     "AravSrinivas",
     "miramurati",
     "ylecun",
     "demishassabis",
+    "JeffDean",
     "fchollet",
+    "AndrewYNg",
     "rasbt",
     "bcherny",
     "karinanguyen_",
@@ -297,348 +252,281 @@
     "OpenAI",
     "GoogleDeepMind",
     "xai",
-    "simonw",
+    "swyx",
     "hwchase17",
     "jeremyphoward",
     "levelsio",
     "mckaywrigley",
+    "amasad",
     "nickadobos",
     "emollick",
+    "ArthurMensch",
     "GuillaumeLample",
-    "Thom_Wolf",
-    "julien_c",
     "ClemDelangue",
+    "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Cette semaine, le monde de l'IA a été marqué par d'importantes annonces financières, des avancées médicales inspirantes et des réflexions sur l'intégration de l'IA dans notre quotidien. De la neuroprothèse pour les personnes paralysées aux plateformes de codage assistées par IA, nous voyons comment l'intelligence artificielle commence à redéfinir la science, le développement logiciel et même nos habitudes de travail. Ces développements soulignent l'importance des compétences humaines pour diriger ces outils puissants, tout en garantissant une IA transparente et bénéfique.",
+    "summary": "Aujourd'hui, le monde de l'IA bouillonne entre des avancées fascinantes et des débats cruciaux. Nous avons vu des IA créer des mondes 3D à partir de texte, des outils qui rendent l'apprentissage automatique accessible aux débutants, et des réflexions sur l'éthique et la sécurité. Les discussions s'intensifient autour de la transparence des modèles et de leur capacité à résoudre des problèmes scientifiques complexes, tout en nous offrant des astuces pratiques pour mieux les utiliser au quotidien.",
     "glossaire": [
       {
-        "terme": "Agent IA",
-        "definition": "Un programme d'intelligence artificielle capable d'exécuter des tâches complexes de manière autonome, en interagissant avec des systèmes informatiques ou des données."
+        "terme": "Modèle Multimodal",
+        "definition": "Une IA capable de comprendre et de créer des informations de plusieurs types, comme du texte, des images et des vidéos, en même temps."
       },
       {
-        "terme": "Open Source",
-        "definition": "Se dit d'un logiciel ou d'un modèle d'IA dont le code ou les paramètres internes sont publics, permettant à quiconque de les consulter, les modifier et les utiliser librement."
+        "terme": "Grand Modèle de Langage (LLM)",
+        "definition": "Une intelligence artificielle conçue pour comprendre et générer du texte de manière très sophistiquée, capable de converser, écrire et même coder."
       },
       {
-        "terme": "AGI (Artificial General Intelligence)",
-        "definition": "L'Intelligence Artificielle Générale est une IA hypothétique qui posséderait des capacités cognitives équivalentes ou supérieures à celles d'un être humain dans tous les domaines."
+        "terme": "Injection de prompt",
+        "definition": "Une technique où un utilisateur tente de manipuler une IA en insérant des instructions cachées ou malveillantes dans ses requêtes, pour lui faire faire des choses non prévues."
       },
       {
-        "terme": "Entraînement d'un modèle",
-        "definition": "Le processus par lequel un modèle d'IA apprend à partir de grandes quantités de données pour accomplir une tâche spécifique, comme comprendre le langage ou reconnaître des images."
+        "terme": "Modèle open-source / open-weight",
+        "definition": "Un modèle d'IA dont le code interne et/ou les données d'entraînement sont rendus publics, permettant à chacun de les étudier, d'apporter des améliorations et de vérifier leur fonctionnement et leur sécurité."
       },
       {
-        "terme": "Inférence d'un modèle",
-        "definition": "L'étape où un modèle d'IA déjà entraîné est utilisé pour faire des prédictions, générer du contenu ou prendre des décisions à partir de nouvelles données."
+        "terme": "Agent d'IA",
+        "definition": "Une intelligence artificielle capable d'agir de manière autonome pour accomplir des tâches complexes, comme écrire du code, résoudre des problèmes ou simuler des environnements."
       },
       {
-        "terme": "Neuroprothèse",
-        "definition": "Un dispositif médical qui remplace ou améliore une fonction neurologique perdue, en interagissant directement avec le système nerveux d'un individu."
-      },
-      {
-        "terme": "IA Souveraine",
-        "definition": "Une intelligence artificielle développée et maîtrisée localement par une nation ou une région, visant à assurer l'indépendance technologique et à respecter les valeurs culturelles spécifiques."
+        "terme": "Entraînement et Inférence",
+        "definition": "L'entraînement est la phase où l'on 'apprend' à l'IA en lui montrant de grandes quantités de données ; l'inférence est la phase où l'IA utilise ce qu'elle a appris pour produire des résultats ou répondre à de nouvelles questions."
       }
     ],
     "category_summaries": {
-      "actu": "Les grandes nouvelles du jour incluent une levée de fonds record pour Mistral AI, soulignant l'ambition européenne dans l'IA souveraine. On note également de nouvelles entreprises comme Discovery Loop utilisant l'IA pour la science, et l'expansion de plateformes de développement comme Replit. Des événements et conférences sont annoncés, témoignant de l'effervescence de l'écosystème IA.",
-      "tips": "Pour les débutants en IA, des compétences clés sont mises en avant pour travailler efficacement avec les agents de codage et déployer des applications d'IA. Un exemple concret montre comment un workflow basé sur l'IA peut transformer la prise de notes et l'organisation personnelle, rendant l'IA directement utile au quotidien.",
-      "idees": "La communauté de l'IA réfléchit sur l'impact des modèles de langage récursifs, l'importance de l'ouverture dans la recherche en IA et la diffusion de l'IA dans le monde réel. Une discussion intéressante explore la frontière entre l'IA actuelle et l'Intelligence Artificielle Générale, et comment l'IA peut décupler les capacités humaines, notamment dans des applications médicales révolutionnaires comme l'aide aux personnes paralysées.",
-      "outils": "Deux outils pratiques se démarquent : OpenWorker, un agent open source qui aide à sécuriser le code et les systèmes, et des démonstrations de créations 3D (comme un océan ThreeJS) sur la plateforme Replit, montrant la puissance du développement assisté par IA."
+      "actu": "L'actualité du jour est marquée par une levée de fonds record pour Mistral AI, soulignant le dynamisme européen. Les discussions s'intensifient également autour de la sécurité des plateformes d'IA suite à des incidents récents, poussant à une réflexion sur les modèles ouverts, et la fiabilité de la conduite autonome de Tesla est mise en avant.",
+      "tips": "Un conseil simple mais puissant pour améliorer vos interactions avec les IA est de ne pas hésiter à leur parler librement et de manière spontanée, même si vos pensées sont désordonnées. L'IA est souvent capable de structurer et de clarifier vos propos, rendant la collaboration plus fluide.",
+      "idees": "Les réflexions du jour explorent les capacités et les limites actuelles des IA : si elles peuvent générer du code complexe pour des mondes virtuels, elles peinent encore à 'voir' leur propre travail. Des débats importants émergent sur la sécurité des IA face aux attaques par 'injection de prompt' et sur l'utilisation éthique de nos données. Enfin, l'idée que les IA pourraient résoudre des problèmes mathématiques millénaires ouvre des perspectives fascinantes pour la science.",
+      "outils": "De nouveaux outils passionnants sont à portée de main : découvrez Atlas, un modèle capable de simuler des mondes 3D complexes, et explorez la génération de modèles Blender par l'IA. Pour les débutants, 'ML Intern' et 'AutoScientist' chez Hugging Face promettent de simplifier grandement la création de projets d'apprentissage automatique. Un nouveau modèle open-source performant, DeepSeek V4.1 Flash, est également mis en avant, ainsi qu'un jeu interactif simulant un piratage pour mieux comprendre les enjeux de sécurité."
     },
     "highlights": [
       {
-        "author_name": "Rowan Cheung",
-        "handle": "@rowancheung",
-        "text_fr": "La tenue de journal améliorée par l'IA change ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme mes pensées décousues en données structurées et en actions. Configuration super simple : 1. Après les réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je dicte tout dans une note Apple en utilisant Wispr Flow, de manière totalement non structurée. 2. Le seul but est de sortir l'information de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement avec mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Elle lit chaque note vocale que j'ai dictée pendant que je dors, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, actions à entreprendre et blocs de travail approfondi suggérés dans mon Google Agenda. 6. Le lendemain matin, devant mon café, je les passe en revue et j'agis. Les avantages sont : les suivis que j'avais promis sont signalés, les idées à moitié formées sont structurées et des blocs de travail approfondi sont automatiquement réservés. De plus, avec le temps, cela devient un journal consultable de toutes les idées que j'ai eues toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
-        "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
-        "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
-        "decryptage": "Un \"workflow\" est une suite d'étapes automatisées ou organisées pour accomplir une tâche spécifique. Claude est un grand modèle de langage (similaire à ChatGPT) développé par Anthropic, capable de comprendre et de générer du texte. Notion est un outil de productivité et d'organisation qui permet de créer des notes, des bases de données et des listes de tâches.",
-        "category": "tips",
-        "highlight_reason": "Ce tweet offre un exemple concret et très pratique de l'intégration de l'IA dans l'organisation personnelle, montrant comment un débutant peut améliorer son efficacité au quotidien."
-      },
-      {
-        "author_name": "Andrew Ng",
-        "handle": "@AndrewYNg",
-        "text_fr": "OpenWorker -- un agent open source qui ne se contente pas de discuter mais accomplit des tâches sur votre ordinateur portable -- vient de sortir une nouvelle version avec de nombreuses fonctionnalités pour les flux de travail de sécurité. Après notre version initiale, de nombreux utilisateurs l'ont trouvé particulièrement utile pour la cybersécurité. Les attaquants utilisent déjà l'IA ; OpenWorker s'engage à donner aux défenseurs le même avantage. L'exécution d'un agent nécessite à la fois (i) un modèle et (ii) un harnais (le logiciel autour du modèle). Parce que le harnais OpenWorker est entièrement open source, les équipes de sécurité peuvent l'auditer pour s'assurer que nous n'avons pas construit de portes dérobées qui exfiltreraient votre code et vos données vers une entreprise ou même un adversaire étranger. OpenWorker est maintenant livré avec des agents de cybersécurité intégrés pour (i) analyser votre code à la recherche de vulnérabilités. (ii) Analyser les dépendances pour les injections de chaîne d'approvisionnement. (iii) Vérifier votre configuration de sécurité cloud pour les surfaces d'attaque. Cela permet aux développeurs de faire beaucoup plus de travail de sécurité avant le déploiement (une partie de ce qu'on appelle le mouvement \"shift left\"). Vous choisissez le modèle : vous pouvez exécuter des modèles à poids ouverts entièrement localement afin que le code sensible ne quitte jamais votre machine. Cela aide avec un travail de sécurité légitime (comme reproduire un exploit connu pour s'en défendre) qui peut déclencher des refus dans les principaux modèles fermés. Ou utilisez votre abonnement ChatGPT, ou stealth preview models comme Ox Alpha, ou n'importe quel modèle via une clé API. Merci également à tous les contributeurs open source ! Rejoignez le travail avec @rohitcprasad, alors suivez-le aussi pour des mises à jour plus fréquentes. Essayez-le : openworker.com/ Code : github.com/andrewyng/openwor…",
-        "text_original": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary. OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement). You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key. Thanks also to all the open source contributors! Join work with @rohitcprasad so please follow him too to get more frequent updates. Try it out: openworker.com/ Code: github.com/andrewyng/openwor…",
-        "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2092315079576555806#m",
-        "decryptage": "\"Open source\" signifie que le code du logiciel est accessible à tous, ce qui permet à chacun de le consulter, le modifier et le partager, augmentant la transparence et la sécurité. Un \"modèle à poids ouverts\" est un modèle d'IA dont les paramètres internes (les \"poids\") sont rendus publics, permettant une utilisation et une personnalisation étendues. Le mouvement \"shift left\" en sécurité logicielle encourage à intégrer la sécurité dès le début du processus de développement, plutôt qu'à la fin.",
-        "category": "outils",
-        "highlight_reason": "Ce tweet présente un outil open source très pertinent, OpenWorker, qui permet d'utiliser l'IA pour renforcer la cybersécurité, un domaine crucial pour les débutants qui veulent comprendre l'impact concret de l'IA."
-      },
-      {
-        "author_name": "Rowan Cheung",
-        "handle": "@rowancheung",
-        "text_fr": "L'IA aide maintenant les personnes paralysées à retrouver le mouvement. Cet homme bouge sa propre main grâce à un implant entraîné sur son activité cérébrale, et ressent tout ce qu'il touche. Une incroyable application de l'IA pour le bien !",
-        "text_original": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
-        "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712675308638581#m",
-        "decryptage": "Un \"implant\" est un petit dispositif médical inséré dans le corps, ici il capte les signaux du cerveau pour les traduire en mouvements ou sensations.",
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Nous commençons à sortir du territoire où l'on testerait un grand modèle linguistique (LLM) en lui demandant par exemple de 'créer un SVG d'un pélican à vélo'. Pour généraliser l'idée, j'étais curieux de voir ce qu'Opus 5 ferait si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget d'un million de tokens (environ 10$) et que je lui demandais un rendu 3D en Three.js. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui a rendu (de manière procédurale) l'histoire. C'est un peu bizarre mais amusant. Mais c'est assez ahurissant que le LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire du code qui anime tout cela, et qu'il fasse même quoi que ce soit. J'aime aussi ce genre d'exemples parce que personne de sensé ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où l'on passe de 'personne ne ferait jamais ça' à 'bien sûr, pourquoi pas, c'est presque gratuit'. Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels on peut imaginer plonger des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement auditer leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû très lentement et péniblement prendre des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé pas mal de choses bancales. Un exemple de capacité brute (multimodale, gameplay) qui, je pense, est encore assez lacunaire. Vidéo",
+        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+        "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+        "decryptage": "Ce tweet explore les limites actuelles des grands modèles de langage (LLM) qui, bien que capables de générer du code complexe pour des mondes virtuels, peinent encore à 'voir' et à corriger leurs propres créations visuelles, contrairement aux humains.",
         "category": "idees",
-        "highlight_reason": "Cette nouvelle met en lumière une application bouleversante de l'IA dans le domaine médical, montrant son potentiel à améliorer concrètement la vie humaine."
+        "highlight_reason": "Ce tweet montre de manière concrète les capacités impressionnantes mais aussi les limites des IA actuelles, ouvrant des perspectives de mondes virtuels personnalisés tout en soulignant un défi majeur pour leur évolution."
       },
       {
-        "author_name": "Arthur Mensch",
-        "handle": "@ArthurMensch",
-        "text_fr": "Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une Série D de 3 milliards d'euros, la plus grande levée de fonds jamais réalisée par une entreprise technologique européenne, seulement trois ans après son lancement.",
-        "text_original": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch.",
-        "link": "http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-        "decryptage": "Une \"levée de fonds en Série D\" est une étape de financement pour une entreprise en croissance, où elle collecte des capitaux auprès d'investisseurs pour accélérer son développement et son expansion.",
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Une méthode que je trouve utile pour travailler avec les grands modèles de langage (LLM) est une bonne longue session de 'divagation'. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime m'adosser, passer en mode /voix et simplement divaguer pendant environ 10 minutes, un désordre total, tout est permis, un flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme 'passage à la reconnaissance vocale, désolé pour les fautes de frappe...'. Parfois, j'en fais une petite interview en quelques échanges. Mais je trouve que les LLM sont étonnamment doués pour reconstruire de longues divagations incohérentes et souvent, leur écho de votre propre enchevêtrement de pensées ressort de manière bien plus claire que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la 'fusion des esprits' et que vous avez moins de choses à corriger par la suite.",
+        "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+        "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
+        "decryptage": "Ce conseil propose une astuce pour interagir plus efficacement avec une IA : lui parler librement et sans filtre, même de manière décousue, pour l'aider à mieux comprendre votre pensée et affiner ses réponses.",
+        "category": "tips",
+        "highlight_reason": "C'est un conseil pratique et innovant qui montre comment on peut améliorer l'interaction avec les IA en utilisant des méthodes peu conventionnelles, rendant l'expérience plus fluide et moins frustrante."
+      },
+      {
+        "author_name": "Thomas Wolf",
+        "handle": "@Thom_Wolf",
+        "text_fr": "« La communauté de l'IA doit partager ouvertement la recherche sur la sécurité et l'alignement afin que chaque équipe construisant des modèles d'IA puisse apprendre des erreurs des autres. La communauté doit également construire des modèles d'IA à poids ouverts pour la défense et les rendre largement disponibles — avant que la prochaine attaque n'arrive inévitablement. » @Thom_Wolf de Hugging Face tinyurl.com/j7z9jevs Lien Ce que nous avons appris du piratage d'OpenAI sur Hugging Face. Les outils d'IA commerciaux n'ont pas réussi à défendre la plateforme contre l'attaque — la solution réside dans les modèles à poids ouverts ft.com",
+        "text_original": "\"The AI community needs to share safety and alignment research openly so that every team building AI models can learn from others’ mistakes. The community also needs to build open-weight AI models for defence and make them widely available — before the next attack inevitably arrives.\" @Thom_Wolf of Hugging Face tinyurl.com/j7z9jevs Link What we learnt from OpenAI’s hack of Hugging Face Commercial AI tools failed to defend the platform against the attack — the solution lies in open-weight models ft.com",
+        "link": "http://nitter.jaydenha.uk/ThirdWayKessler/status/2098056041959194960#m",
+        "decryptage": "Les 'modèles à poids ouverts' (open-weight models) sont des modèles d'IA dont le code interne et les données d'entraînement sont publics, permettant à quiconque de les étudier, de les améliorer et de vérifier leur sécurité, contrairement aux modèles fermés.",
         "category": "actu",
-        "highlight_reason": "Cette annonce est une nouvelle économique majeure pour l'IA en Europe, soulignant la vitalité et l'attractivité du secteur, même pour les débutants."
+        "highlight_reason": "Ce tweet est crucial car il soulève un débat fondamental sur la sécurité de l'IA et l'importance du partage des connaissances ('open-weight models') pour protéger l'ensemble de la communauté contre les attaques."
+      },
+      {
+        "author_name": "Julien Chaumond",
+        "handle": "@julien_c",
+        "text_fr": "Vous ne devriez pas avoir besoin d'être un expert en apprentissage automatique (ML) pour avoir une idée de ML. Aujourd'hui, nous lançons 'ML Intern' dans HuggingChat. Commencez par une conversation. Finissez avec des artefacts déployables. Vidéo",
+        "text_original": "You shouldn’t need to be an ML expert to have an ML idea. Today we’re launching ML Intern in HuggingChat. Start with a conversation. Finish with deployable artefacts. Video",
+        "link": "http://nitter.jaydenha.uk/evilpingwin/status/2097359184207511654#m",
+        "decryptage": "Le terme 'ML Intern' désigne un nouvel outil d'IA qui simplifie la création de projets d'apprentissage automatique, permettant même aux débutants de transformer leurs idées en programmes fonctionnels ('artefacts déployables').",
+        "category": "outils",
+        "highlight_reason": "C'est une avancée significative pour l'accessibilité de l'IA, permettant aux non-experts de concrétiser leurs idées en projets d'apprentissage automatique, réduisant ainsi la barrière technique et encourageant la créativité."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Ravi de m'associer à @DiscoLoopAI ! Ils recrutent activement dans l'ingénierie et la recherche – n'hésitez pas à les contacter si leur mission vous intéresse. Discovery Loop (@DiscoLoopAI) Présentation de Discovery Loop ♾. Nous construisons une IA pour réaliser des expériences à une échelle sans précédent et résoudre les plus grands goulots d'étranglement en science et ingénierie. Nos fondateurs @JeffDean, @Sanjay_Ghemawat, @quocleix, @OriolVinyalsML ont contribué à bâtir l'infrastructure et les modèles d'IA qui ont fait évoluer le monde moderne. Maintenant, nous faisons évoluer la découverte elle-même. L'avenir ne peut attendre. En savoir plus sur : discoveryloop.com",
-          "text_original": "Excited to partner with @DiscoLoopAI ! They are actively hiring across engineering & research - please reach out if the mission sounds interesting to you. Discovery Loop (@DiscoLoopAI) Introducing Discovery Loop ♾. We’re building AI to run experiments at unprecedented scale and to solve the biggest bottlenecks in science and engineering. Our founders @JeffDean , @Sanjay_Ghemawat , @quocleix , @OriolVinyalsML helped build the AI infrastructure and models that scaled the modern world. Now, we are scaling discovery itself. The future can't wait. Learn more at: discoveryloop.com — http://nitter.jaydenha.uk/DiscoLoopAI/status/2085033268001587534#m",
-          "link": "http://nitter.jaydenha.uk/LM_Braswell/status/2097720148451012848#m",
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "La conduite autonome de Tesla est géniale. Will Chamberlain (@willchamberlain) J'ai acheté une Tesla en juillet et j'ai pratiquement arrêté de conduire. Si vous en avez les moyens, vous devriez faire de même. C'est la chose la plus dangereuse que vous faites chaque jour et les robots de Tesla sont meilleurs pour ça. — https://nitter.kareem.one/willchamberlain/status/2098051199345832037#m",
+          "text_original": "Tesla self-driving is awesome Will Chamberlain (@willchamberlain) I bought a Tesla in July and have basically retired from driving. If you can afford to you should too. It’s the most dangerous thing you do every day and Tesla’s robots are better at it. — https://nitter.kareem.one/willchamberlain/status/2098051199345832037#m",
+          "link": "https://nitter.kareem.one/elonmusk/status/2098052817391092113#m",
+          "decryptage": "La 'conduite autonome' fait référence à la capacité d'une voiture à se déplacer seule sans intervention humaine, grâce à l'intelligence artificielle et à des capteurs."
+        },
+        {
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "Vérification des faits : vrai Adam Townsend (@adamscrabble) Tesla est de loin la meilleure voiture sur le marché. Le FSD changera votre vie — https://nitter.kareem.one/adamscrabble/status/2097799877283442734#m",
+          "text_original": "Fact check: true Adam Townsend (@adamscrabble) Tesla is by far the best car on the market. FSD will change your life — https://nitter.kareem.one/adamscrabble/status/2097799877283442734#m",
+          "link": "https://nitter.kareem.one/willchamberlain/status/2097816145017340054#m",
           "decryptage": null
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "1/ ✨ Record du monde aujourd'hui sur les intervalles bornés entre nombres premiers, une des plus anciennes conjectures ouvertes de la théorie des nombres. Nous montrons qu'une infinité de paires de nombres premiers sont séparées par 212 ou moins.",
-          "text_original": "1/ ✨ World record today on bounded gaps between primes, one of number theory’s oldest open conjectures. We show that infinitely many pairs of prime numbers are separated by 212 or less.",
-          "link": "http://nitter.jaydenha.uk/axiommathai/status/2095526333799633063#m",
-          "decryptage": "Ce tweet parle d'une avancée en mathématiques pures, une démonstration assistée par IA sur la distribution des nombres premiers, qui sont des nombres uniquement divisibles par 1 et eux-mêmes."
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Des détails intéressants ici sur la façon dont les chercheurs d'OpenAI utilisent les agents de codage. J'aimerais savoir ce qui a causé l'énorme augmentation des dépenses en tokens à la mi-juillet, est-ce à ce moment-là qu'Astra est devenu disponible pour les employés ? Kevin Liu (@kliu128) Aujourd'hui, nous publions des données sur les modèles accélérant la recherche chez OpenAI. L'auto-amélioration récursive pourrait être le contributeur le plus important aux capacités de l'IA au cours des prochaines années, mais par défaut, elle ne sera visible que dans quelques laboratoires d'IA de pointe. La transparence est plus urgente que jamais, afin que nous puissions éclairer le débat public sur la manière et le rythme de développement des modèles. Je demande aux autres entreprises d'IA de faire de même. openai.com/index/research-ac… Lien Accélération de la recherche : le point de vue interne d'OpenAI. Chez OpenAI, les agents de codage remodèlent la recherche en IA. Explorez les premières données sur l'utilisation des agents, la vitesse des expériences, la complexité des tâches et l'accélération de la recherche. openai.com — http://nitter.jaydenha.uk/kliu128/status/2096616468851097811#m",
+          "text_original": "Interesting details in here about how OpenAI researchers are using coding agents I'd love to know what caused the huge uptick in token spend in mid-July, was that when Astra became available to employees? Kevin Liu (@kliu128) Today we're releasing data on models accelerating research at OpenAI. Recursive self-improvement could be the most important contributor to AI capabilities over the next few years, but by default it will only be seen inside a few frontier AI labs. Being transparent is more urgent than ever, so we can inform the public discussion on whether and how to pace model development. I ask other AI companies to do the same. openai.com/index/research-ac… Link Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration. openai.com — http://nitter.jaydenha.uk/kliu128/status/2096616468851097811#m",
+          "link": "http://nitter.jaydenha.uk/simonw/status/2096647325049626918#m",
+          "decryptage": "Un 'agent de codage' est une IA qui peut écrire, déboguer et améliorer du code informatique de manière autonome, aidant ainsi les chercheurs à accélérer le développement de nouveaux modèles."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "La conférence d'automne du Stanford HAI revient en octobre. \"Confronter notre futur de l'IA : espoir, peur et les choix à venir\" proposera une journée complète de discussions sur le travail, l'apprentissage, la gouvernance et la manière de garantir que l'IA développe le potentiel humain. Parmi les intervenants figureront @drfeifei, @JeffDean, @audreyt, @erikbryn, Alondra Nelson, et @istoica05, d'autres noms seront annoncés. Inscrivez-vous avant le 1er octobre pour bénéficier des tarifs préférentiels : hai.stanford.edu/events/conf…",
-          "text_original": "Stanford HAI's fall conference returns this October. Confronting Our AI Future: Hope, Fear, and the Choices Ahead will feature a full day of conversations on work, learning, governance, and how we ensure AI expands human potential. Speakers include @drfeifei , @JeffDean , @audreyt , @erikbryn , Alondra Nelson, and @istoica05 , with more to be announced. Register by October 1 for early bird pricing: hai.stanford.edu/events/conf… Video",
-          "link": "http://nitter.jaydenha.uk/StanfordHAI/status/2095241546702708937#m",
-          "decryptage": "Le Stanford HAI (Institut de l'IA centrée sur l'Humain de Stanford) est un centre de recherche qui étudie comment l'IA peut servir l'humanité de manière éthique et bénéfique."
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "« La communauté de l'IA doit partager ouvertement la recherche sur la sécurité et l'alignement afin que chaque équipe construisant des modèles d'IA puisse apprendre des erreurs des autres. La communauté doit également construire des modèles d'IA à poids ouverts pour la défense et les rendre largement disponibles — avant que la prochaine attaque n'arrive inévitablement. » @Thom_Wolf de Hugging Face tinyurl.com/j7z9jevs Lien Ce que nous avons appris du piratage d'OpenAI sur Hugging Face. Les outils d'IA commerciaux n'ont pas réussi à défendre la plateforme contre l'attaque — la solution réside dans les modèles à poids ouverts ft.com",
+          "text_original": "\"The AI community needs to share safety and alignment research openly so that every team building AI models can learn from others’ mistakes. The community also needs to build open-weight AI models for defence and make them widely available — before the next attack inevitably arrives.\" @Thom_Wolf of Hugging Face tinyurl.com/j7z9jevs Link What we learnt from OpenAI’s hack of Hugging Face Commercial AI tools failed to defend the platform against the attack — the solution lies in open-weight models ft.com",
+          "link": "http://nitter.jaydenha.uk/ThirdWayKessler/status/2098056041959194960#m",
+          "decryptage": "Les 'modèles à poids ouverts' (open-weight models) sont des modèles d'IA dont le code interne et les données d'entraînement sont publics, permettant à quiconque de les étudier, de les améliorer et de vérifier leur sécurité, contrairement aux modèles fermés."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Aujourd'hui, nous sommes ravis de partager les premiers progrès de l'utilisation de Gemini pour accélérer la découverte scientifique dans le monde réel. Nous présentons une extension de Co-Scientist que nous utilisons pour collaborer avec des scientifiques dans les domaines de la science des matériaux, de la biologie et de l'informatique.",
-          "text_original": "Today, we're excited to share early progress on using Gemini to accelerate scientific discovery in the real-world. We present an extension of Co-Scientist which we use to collaborate with scientists across materials science, biology, and computer science.",
-          "link": "http://nitter.jaydenha.uk/SRSchmidgall/status/2093380426924708082#m",
-          "decryptage": "Gemini est un grand modèle d'IA développé par Google, capable de comprendre et de générer du texte, des images, du code, etc. Co-Scientist est un outil qui permet à l'IA de travailler aux côtés des chercheurs pour les aider dans leurs découvertes."
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "Le fichier 'security.txt' de Huggingface après l'incident d'OpenAI 😭",
+          "text_original": "Huggingfaces security txt after the openai incident 😭",
+          "link": "http://nitter.jaydenha.uk/iam_zachi/status/2097998662022377683#m",
+          "decryptage": "Le 'security.txt' est un fichier standardisé placé sur un site web pour indiquer comment les chercheurs en sécurité peuvent signaler des vulnérabilités, un peu comme un panneau 'contactez-nous' pour les problèmes de sécurité."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Derrière beaucoup de grands projets d'IA, il y a une bonne histoire avec @JeffDean. Voici la mienne 😉 En 2019, avant même l'existence officielle de Khipu AI, Jeff a accepté de participer à notre premier événement en Uruguay 🇺🇾. Sa confiance précoce dans notre vision de l'IA en LATAM a créé un effet d'entraînement – si @JeffDean était de la partie, tout le monde l'était. Incroyablement reconnaissants qu'il soit revenu pour Khipu 2025 au Chili 🇨🇱 ! Pour l'avenir : Khipu 2027 se tiendra au BRÉSIL 🇧🇷 Les candidatures sont OUVERTES : khipu.ai/ Vous voulez nous sponsoriser et soutenir l'IA en Amérique Latine ? Envoyez-moi un DM ou contactez-nous à sponsorship@khipu.ai Découvrez la vidéo ci-dessous pour voir ce qu'est Khipu (et apercevez une brève apparition de Jeff 😉). 👇 piped.video/Db19zoquTOs?si=Xkyn… #Khipu2027 #Khipu_AI #MachineLearning #LatAm",
-          "text_original": "Behind a lot of great AI projects, there is a good @JeffDean story. Here is mine 😉 Back in 2019, even before Khipu AI officially existed, Jeff said yes to participate in our first event in Uruguay 🇺🇾. His early belief in our LATAM AI vision created a ripple effect—if @JeffDean was in, everyone was in. Incredibly grateful he returned for Khipu 2025 in Chile 🇨🇱! As we look ahead: Khipu 2027 is heading to BRAZIL 🇧🇷 Applications are OPEN: khipu.ai/ Want to sponsor us and support Latin American AI? DM me or reach out at sponsorship@khipu.ai Check out the video below to see what Khipu is all about (and spot a quick Jeff cameo 😉). 👇 piped.video/Db19zoquTOs?si=Xkyn… #Khipu2027 #Khipu_AI #MachineLearning #LatAm",
-          "link": "http://nitter.jaydenha.uk/Khipu_AI/status/2087299263818829964#m",
-          "decryptage": "LATAM est l'abréviation de l'Amérique Latine (Latin America). Khipu AI est une initiative qui vise à développer et soutenir la communauté de l'IA dans cette région."
-        },
-        {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "chez Long Lake, nous avons acheté plus de 40 entreprises de services pour construire l'IA là où le travail se déroule réellement. Nous travaillons sur : - le déploiement d'agents pour accomplir des tâches de travail intellectuel - la génération d'évaluations de pointe à partir de flux de travail réels - le post-entraînement de modèles ouverts sur des données qu'aucun laboratoire n'a encore eu. Venez construire avec nous @llmh",
-          "text_original": "at long lake, we've bought 40+ services businesses to build AI where work actually happens we're working on: - deploying agents to complete knowledge work - frontier eval generation from real workflows - post-training open models on data no lab has come build with us @llmh Video",
-          "link": "http://nitter.jaydenha.uk/varunshenoy_/status/2097769417551888615#m",
-          "decryptage": "Le \"travail intellectuel\" (knowledge work) est un travail qui implique la gestion et l'application d'informations, comme la recherche, l'analyse ou la prise de décision. Le \"post-entraînement\" est une étape où un modèle d'IA déjà entraîné sur de grandes quantités de données est affiné sur des données plus spécifiques pour mieux s'adapter à une tâche particulière."
-        },
-        {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Nous recrutons chez AI Engineer. Aidez-nous à unir et à renforcer la communauté mondiale de l'ingénierie de l'IA. Postes ouverts : • Responsable Marketing de Croissance • Responsable Communautaire • Responsable Systèmes et Opérations Événementiels • Producteur Associé Postulez : linkedin.com/company/aidoten…",
-          "text_original": "We’re hiring at AI Engineer. Help us unite and empower the global AI engineering community. Open roles: • Growth Marketing Lead • Community Manager • Event Systems & Ops Manager • Associate Producer Apply: linkedin.com/company/aidoten…",
-          "link": "http://nitter.jaydenha.uk/aiDotEngineer/status/2097724211318194197#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "notre conférence sur l'état du web agentique et l'utilisation de l'ordinateur n'aurait pas pu être mieux placée ! Rejoignez-nous à San Francisco jeudi pour un aperçu de l'avenir proche : browserbase.com/navigate Lien Navigate 2026 La conférence pour les ingénieurs qui construisent et déploient des agents de navigateur. 10 septembre 2026 à San Francisco. browserbase.com Browserbase (@browserbase) C'est la semaine Navigate ! Browserbase organise Navigate ce jeudi (10 septembre) à San Francisco. Des gens viennent de tout le pays pour discuter de l'avenir des agents et de l'utilisation de l'ordinateur. Écoutez des intervenants de @stripe, @vercel, @AnthropicAI, et plus encore. Les places sont limitées. Si vous voulez participer à la conversation sur l'avenir des agents, les inscriptions ferment officiellement demain.",
-          "text_original": "our conference on the state of the agentic web + computer use could not have been better timed! join us in SF on thursday for a glimpse into the near future: browserbase.com/navigate Link Navigate 2026 The conference for engineers building and deploying browser agents. September 10, 2026 in San Francisco. browserbase.com Browserbase (@browserbase) It's Navigate week! Browserbase is hosting Navigate this Thursday (Sept 10) in SF. People are flying in from across the US to discuss the future of agents and computer use. Listen to speakers from @stripe , @vercel , @AnthropicAI , and more. Seats are running low. If you want to join the conversation on the future of agents, registration officially closes tomorrow. Video — http://nitter.jaydenha.uk/browserbase/status/2097448396558893535#m",
-          "link": "http://nitter.jaydenha.uk/pk_iv/status/2097457675693158438#m",
-          "decryptage": "Le \"web agentique\" fait référence à un futur où des agents IA pourront naviguer sur internet et interagir avec les applications web de manière autonome, en comprenant les pages et en exécutant des tâches complexes pour l'utilisateur."
-        },
-        {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "Honoré d'avoir le maire de Londres, Sadiq Khan, nous aider à ouvrir le premier bureau international de Replit à Londres ! J'ai beaucoup apprécié l'approche du maire vis-à-vis de l'IA, elle est très similaire à la nôtre. Il se décrit comme un réaliste de l'IA : lucide quant aux bouleversements que l'IA va créer, mais optimiste quant à son impact si nous donnons aux gens les outils et les compétences pour participer à la révolution à venir. C'est exactement notre façon de penser chez Replit. L'IA va transformer le travail, nous devons donc nous assurer que beaucoup plus de personnes peuvent l'utiliser pour créer, bâtir des entreprises et accéder à de nouvelles opportunités. C'est aussi pourquoi, en nous établissant ici, nous nous associons à The Lord Mayor’s Appeal pour aider les jeunes Londoniens issus de communautés défavorisées à développer des compétences pratiques en codage et en IA. Londres a l'histoire, le talent et le leadership et la philosophie appropriés pour l'ère de l'IA. Nous sommes ravis d'être ici. Maire de Londres, Sadiq Khan (@MayorofLondon) Londres partage la vision de Replit d'un monde où chacun peut bénéficier des opportunités de l'ère de l'IA. J'ai été ravi d'ouvrir leur premier bureau international à King's Cross. Cela témoigne de l'optimisme extraordinaire qui émane de tous les coins du secteur technologique en plein essor de notre capitale.",
-          "text_original": "Honored to have the Mayor of London, Sadiq Khan, help us open Replit’s first international office in London! I’ve really appreciated the Mayor’s approach to AI, it feels very similar to ours. He calls himself an AI realist: clear-eyed about the disruption AI will create, but optimistic about the impact if we give people the tools and skills to participate in the coming revolution. That’s exactly how we think about it at Replit. AI is going to transform work, so we have to make sure far more people can use it to create, build businesses, and access new opportunities. It’s also why, as we establish ourselves here, we’re partnering with The Lord Mayor’s Appeal to help young Londoners from disadvantaged communities develop practical coding and AI skills. London has the history, the talent, and the right leadership & philosophy for the AI era. We’re excited to be here. Mayor of London, Sadiq Khan (@MayorofLondon) Londres shares Replit’s vision of a world where everyone can benefit from the opportunities of the AI age. I was delighted to open their first international office in King's Cross. It speaks to the extraordinary optimism coming from every corner of our capital’s booming tech sector. — http://nitter.jaydenha.uk/MayorofLondon/status/2097021024676073472#m",
-          "link": "http://nitter.jaydenha.uk/amasad/status/2097197172299006423#m",
-          "decryptage": "Replit est une plateforme de développement de code en ligne qui permet aux programmeurs de collaborer et de construire des logiciels directement depuis leur navigateur."
-        },
-        {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une Série D de 3 milliards d'euros, la plus grande levée de fonds jamais réalisée par une entreprise technologique européenne, seulement trois ans après son lancement.",
-          "text_original": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch.",
-          "link": "http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-          "decryptage": "Une \"levée de fonds en Série D\" est une étape de financement pour une entreprise en croissance, où elle collecte des capitaux auprès d'investisseurs pour accélérer son développement et son expansion."
-        },
-        {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Bravo à Mistral pour sa nouvelle levée de fonds record. ASML il y a un an, Samsung aujourd’hui : Mistral démontre sa capacité à nouer des partenariats stratégiques avec les plus grands acteurs industriels pour hisser l’Europe parmi les grandes puissances mondiales de l’IA. C’est tout le sens de la vision que nous portons avec le Président de la Corée du Sud : construire ensemble une troisième voie dans l’IA en rassemblant nos forces et nos acteurs. Et ce n’est que le début !",
-          "text_original": null,
-          "link": "http://nitter.jaydenha.uk/EmmanuelMacron/status/2097254072441045256#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons notre capacité de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux -- Paris, Palo Alto, San Francisco, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une Série D de 3 milliards d'euros, la plus grande levée de fonds jamais réalisée par une entreprise technologique européenne, seulement trois ans après son lancement.",
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons notre capacité de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux — Paris, Palo Alto, SF, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une Série D de 3 milliards d'euros, la plus grande levée de fonds jamais réalisée par une entreprise technologique européenne, seulement trois ans après son lancement. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
           "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
           "link": "http://nitter.jaydenha.uk/GuillaumeLample/status/2097256830091014515#m",
-          "decryptage": "La \"R&D\" signifie Recherche et Développement. Le \"calcul d'inférence\" est la puissance de calcul nécessaire pour qu'un modèle d'IA utilise ses connaissances pour faire des prédictions ou générer des réponses après avoir été entraîné."
-        },
-        {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Nous venons de lever 3 milliards d'euros pour augmenter nos capacités de calcul pour l'entraînement et l'inférence, et faire de l'IA ouverte et souveraine la frontière technologique. Reconnaissant envers tous ceux qui nous ont menés là, excité par les défis à venir mistral.ai/news/mistral-make… Lien Faire de l'IA souveraine et à poids ouverts la frontière technologique | Mistral. Mistral a annoncé aujourd'hui avoir levé 3 milliards d'euros lors d'un tour de financement de série D à une valorisation post-monétaire de plus de 21 milliards d'euros.",
-          "text_original": "We've just raised 3B€ to scale our training and inference compute, and make open and sovereign AI the technology frontier. Grateful to everyone who got us there, excited by the fight ahead mistral.ai/news/mistral-make… Link Making sovereign, open-weight AI the technology frontier | Mistral Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion. mistral.ai",
-          "link": "http://nitter.jaydenha.uk/arthurmensch/status/2097232588490379686#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Article complet : nature.com/articles/s41591-0… Lien Une neuroprothèse pour restaurer le mouvement et la sensation de la main chez une personne atteinte de tétraplégie complète. Nature Medicine - Un système neuroprothétique sensorimoteur bidirectionnel qui décode les signaux cérébraux associés à l'intention de mouvement tout en délivrant une neuromodulation structurée à la moelle épinière et... nature.com",
-          "text_original": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712705725747366#m",
-          "decryptage": "La \"tétraplégie\" est une paralysie qui affecte les quatre membres. Une \"neuroprothèse\" est un dispositif qui remplace ou améliore une fonction neurologique perdue ou altérée, en interagissant directement avec le système nerveux."
+          "decryptage": "La 'R&D' signifie 'Recherche et Développement', et les termes 'entraînement' et 'inférence' désignent respectivement les phases où l'on apprend à l'IA et où elle utilise ce qu'elle a appris pour produire des résultats."
         }
       ],
       "tips": [
         {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Les compétences les plus importantes pour utiliser efficacement les agents de codage IA. Présentation de la carte des compétences en ingénierie IA pour l'utilisation des agents de codage. Article Carte des compétences en ingénierie IA : Utiliser les agents de codage. Une compétence clé en ingénierie IA est l'utilisation des agents de codage. Votre capacité à les guider à la fois pour écrire du code et pour effectuer des tâches non liées au code, comme l'analyse de données ou la gestion des opérations système, vous permet de",
-          "text_original": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. Article AI Engineering Skills Map: Using coding agents A key AI engineering skill is using coding agents. Your skill at steering them both to write code and to carry out non-code tasks, such as analyzing data or managing system operations, allows you to",
-          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2095890279865721217#m",
-          "decryptage": "Un \"agent de codage IA\" est un programme d'intelligence artificielle capable d'écrire, de tester et de déboguer du code, ou d'effectuer d'autres tâches en interagissant avec l'ordinateur, un peu comme un assistant intelligent pour les développeurs."
-        },
-        {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Comment les fondamentaux de l'ingénierie logicielle ont-ils changé avec le codage par agents ? Voici notre carte des compétences en ingénierie IA pour les fondamentaux de l'ingénierie logicielle. Article Carte des compétences en ingénierie IA : Fondamentaux de l'ingénierie logicielle. Comment les fondamentaux de l'ingénierie logicielle ont-ils changé avec le codage par agents ? Même lorsque vous utilisez un agent de codage pour écrire tout votre code, comprendre les fondamentaux du logiciel est important pour guider votre",
-          "text_original": "How have software engineering fundamentals changed with agentic coding? Here is our AI Engineering Skills map for software engineering fundamentals. Article AI Engineering Skills Map: Software engineering fundamentals How have software engineering fundamentals changed with agentic coding? Even when you use a coding agent to write all your code, understanding software fundamentals is important for steering your",
-          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2093388974194872781#m",
-          "decryptage": "Le \"codage par agents\" (ou \"agentic coding\") fait référence à l'utilisation d'agents IA pour générer ou assister dans la création de code, nécessitant de nouvelles compétences pour les développeurs humains afin de bien les diriger."
-        },
-        {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Les compétences les plus importantes pour construire et déployer des applications d'IA. Article Carte des compétences en ingénierie IA : Construire et déployer des applications d'IA. J'ai précédemment écrit sur notre carte des compétences en ingénierie IA, avec les compétences de plus haut niveau étant (i) La construction et le déploiement d'applications d'IA, (ii) Les fondamentaux de l'ingénierie logicielle, (iii) L'utilisation du codage.",
-          "text_original": "The most important skills in Building and Deploying AI Applications. Article AI Engineering Skills Map: Building and Deploying AI Applications I previously wrote about our AI Engineering Skills Map, with the highest level skills being (i) Building and deploying AI applications, (ii) Software engineering fundamentals, (iii) Using coding",
-          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2090840747738374568#m",
-          "decryptage": "Le \"déploiement d'applications d'IA\" consiste à rendre une application basée sur l'IA disponible et utilisable par les utilisateurs finaux, souvent après l'avoir intégrée dans un système plus large."
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "La tenue de journal améliorée par l'IA change ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme mes pensées décousues en données structurées et en actions. Configuration super simple : 1. Après les réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je dicte tout dans une note Apple en utilisant Wispr Flow, de manière totalement non structurée. 2. Le seul but est de sortir l'information de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement avec mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Elle lit chaque note vocale que j'ai dictée pendant que je dors, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, actions à entreprendre et blocs de travail approfondi suggérés dans mon Google Agenda. 6. Le lendemain matin, devant mon café, je les passe en revue et j'agis. Les avantages sont : les suivis que j'avais promis sont signalés, les idées à moitié formées sont structurées et des blocs de travail approfondi sont automatiquement réservés. De plus, avec le temps, cela devient un journal consultable de toutes les idées que j'ai eues toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
-          "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
-          "decryptage": "Un \"workflow\" est une suite d'étapes automatisées ou organisées pour accomplir une tâche spécifique. Claude est un grand modèle de langage (similaire à ChatGPT) développé par Anthropic, capable de comprendre et de générer du texte. Notion est un outil de productivité et d'organisation qui permet de créer des notes, des bases de données et des listes de tâches."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Une méthode que je trouve utile pour travailler avec les grands modèles de langage (LLM) est une bonne longue session de 'divagation'. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime m'adosser, passer en mode /voix et simplement divaguer pendant environ 10 minutes, un désordre total, tout est permis, un flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme 'passage à la reconnaissance vocale, désolé pour les fautes de frappe...'. Parfois, j'en fais une petite interview en quelques échanges. Mais je trouve que les LLM sont étonnamment doués pour reconstruire de longues divagations incohérentes et souvent, leur écho de votre propre enchevêtrement de pensées ressort de manière bien plus claire que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la 'fusion des esprits' et que vous avez moins de choses à corriger par la suite.",
+          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
+          "decryptage": "Ce conseil propose une astuce pour interagir plus efficacement avec une IA : lui parler librement et sans filtre, même de manière décousue, pour l'aider à mieux comprendre votre pensée et affiner ses réponses."
         }
       ],
       "idees": [
         {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Dans la lutte pour défendre l'ouverture en IA, le projet Marin est une précieuse démonstration d'ouverture dans l'entraînement de modèles, avec du code, des données, des recettes et même des résultats expérimentaux ouverts. Rendre la recherche en IA publique était autrefois la norme ; je suis reconnaissant de l'approche de laboratoire ouvert de @percyliang. Percy Liang (@percyliang) 🚢 Marin 535B-A23B a commencé son entraînement cette semaine ! Comme d'habitude, tout le processus est ouvert. Plan de voyage : pré-entraînement (80%) + entraînement intermédiaire (20%) sur 18,75 T de jetons sur 11 x GB200 NVL72 pendant environ 3 mois (2,7e24 FLOPs). Le post-entraînement suivra. Avant de lancer l'exécution principale, nous avons entraîné une \"échelle de mise à l'échelle\" à 4 échelons, de 1,6 B-A61M (48 milliards de jetons) à 27,7 B-A1.2B (926 milliards de jetons), pour déboguer les problèmes et prévoir les performances de notre exécution finale. C'est de loin notre plus grande exécution, donc nous nous attendons à l'inattendu.",
-          "text_original": "In the fight to defend openness in AI, the Marin project is a precious demonstration of openness in model training, with open code, data, recipes, even experimental results. Releasing AI research openly used to be the norm; I'm grateful for @percyliang 's open lab approach. Percy Liang (@percyliang) 🚢 Marin 535B-A23B started training this week! As usual, the whole process is open. Voyage plan: pretraining (80%) + midtraining (20%) on 18.75T tokens on 11 x GB200 NVL72 for ~3 months (2.7e24 FLOPs). Post-training will follow. Before kicking off the run, we trained a 4-rung scaling ladder from 1.6B-A61M (48B tokens) to 27.7B-A1.2B (926B tokens) to debug issues, and to make a forecast of our hero run. This is by far our biggest run, so definitely expecting the unexpected. — http://nitter.jaydenha.uk/percyliang/status/2090918065634684997#m",
-          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2091688153048645650#m",
-          "decryptage": "L'entraînement d'un modèle d'IA consiste à lui \"apprendre\" à partir d'énormes quantités de données. Des \"jetons\" (tokens) sont les unités de texte traitées par un modèle (mots, parties de mots, etc.). Les \"FLOPs\" (Floating Point Operations Per Second) mesurent la puissance de calcul nécessaire pour ces opérations. Un \"modèle ouvert\" (open model) est un modèle dont le fonctionnement interne (code, données d'entraînement) est transparent et accessible à la communauté."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Nous commençons à sortir du territoire où l'on testerait un grand modèle linguistique (LLM) en lui demandant par exemple de 'créer un SVG d'un pélican à vélo'. Pour généraliser l'idée, j'étais curieux de voir ce qu'Opus 5 ferait si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget d'un million de tokens (environ 10$) et que je lui demandais un rendu 3D en Three.js. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui a rendu (de manière procédurale) l'histoire. C'est un peu bizarre mais amusant. Mais c'est assez ahurissant que le LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire du code qui anime tout cela, et qu'il fasse même quoi que ce soit. J'aime aussi ce genre d'exemples parce que personne de sensé ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où l'on passe de 'personne ne ferait jamais ça' à 'bien sûr, pourquoi pas, c'est presque gratuit'. Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels on peut imaginer plonger des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement auditer leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû très lentement et péniblement prendre des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé pas mal de choses bancales. Un exemple de capacité brute (multimodale, gameplay) qui, je pense, est encore assez lacunaire. Vidéo",
+          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+          "decryptage": "Ce tweet explore les limites actuelles des grands modèles de langage (LLM) qui, bien que capables de générer du code complexe pour des mondes virtuels, peinent encore à 'voir' et à corriger leurs propres créations visuelles, contrairement aux humains."
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Les Modèles de Langage Récursifs sont utilisés par @harvey, @PrimeIntellect, sans parler d'Anthropic et OpenAI. Si vous voulez en savoir plus, ma conférence d'@aiDotEngineer couvre ce qui les différencie et inclut des exemples concrets - j'espère que vous la trouverez utile et merci à @a1zhang et @lateinteraction de m'avoir donné un sujet de discussion ! piped.video/watch?v=xo68uCib… Lien C'est des jetons partout : comment les RLM sont différents — Kevin Madura,... Demandez à un modèle de sommer douze nombres dispersés sur trente mille... youtube.com",
-          "text_original": "Recursive Language Models are used by @harvey , @PrimeIntellect , not to mention Anthropic and OpenAI If you want to learn more, my talk from @aiDotEngineer covers what's different and includes real-world examples - I hope you find it useful and ty to @a1zhang and @lateinteraction for giving me something to talk about! piped.video/watch?v=xo68uCib… Link It’s Tokens All The Way Down: How RLMs are Different — Kevin Madura,... Ask a model to sum twelve numbers scattered across thirty thousand ... youtube.com",
-          "link": "http://nitter.jaydenha.uk/kmad/status/2097715542178083178#m",
-          "decryptage": "Les \"Modèles de Langage Récursifs\" (RLM) sont un type de modèle d'IA qui peut traiter des informations en se référant à des parties précédentes de son propre traitement, ce qui lui permet de gérer des tâches complexes ou de résoudre des problèmes en plusieurs étapes, souvent en \"réfléchissant\" de manière itérative."
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "Avec le recul, le Full Self-Driving (FSD) a fait face aux mêmes tactiques de peur implacables. Cela ne diffère guère de la panique suscitée aujourd'hui par l'IA — souvent par les mêmes voix. Les vies sauvées, cependant, sont énormes. Pendant des années, nous avons maintenu cette conviction, améliorant discrètement les produits. Non pas pour la fortune ou la gloire, mais pour que les personnes que nous aimons puissent rentrer chez elles en toute sécurité.",
+          "text_original": "Looking back, Full Self-Driving has faced the same relentless fear tactics. It feels little different from the AI panic being stoked today—often by nearly the same voices. The lives being saved, however, is enormous. For years we have held this conviction, quietly improving the products. Not for fortune or fame, but so the people we love can arrive home safely.",
+          "link": "https://nitter.kareem.one/yunta_tsai/status/2098046851585036788#m",
+          "decryptage": "Le 'Full Self-Driving' (FSD) est le système avancé de conduite autonome de Tesla, souvent au centre de débats sur sa sécurité et ses capacités."
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "notre présentation complète de la foire mondiale @aiDotEngineer : piped.video/watch?v=B0fjR3ya… merci @swyx + équipe de nous avoir invités ! Lien Comment diffuser l'IA dans le monde réel ? — Varun Shenoy, Long Lake. Long Lake ne vend pas de logiciels. Elle achète l'entreprise. Trente-cinq... youtube.com",
-          "text_original": "our full presentation from @aiDotEngineer world fair: piped.video/watch?v=B0fjR3ya… thank you @swyx + team for having us! Link How do you diffuse AI into the real world? — Varun Shenoy, Long Lake Long Lake does not sell software. It buys the company. Thirty five ... youtube.com",
-          "link": "http://nitter.jaydenha.uk/varunshenoy_/status/2097769418898186505#m",
-          "decryptage": null
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "'Les vérifications de code déterministes du résultat' semble indiquer qu'ils pourraient implémenter une variante de l'article CaMeL de DeepMind simonwillison.net/2025/Apr/1… Lien CaMeL offre une nouvelle direction prometteuse pour atténuer les attaques par injection de prompt. Au cours des deux ans et demi où nous avons parlé des attaques par injection de prompt, j'ai vu des progrès alarmant peu significatifs vers une solution robuste. Le nouvel article 'Defeating Prompt Injections'… simonwillison.net David Singleton (@dps) Une menace sur laquelle nous nous concentrons particulièrement est l'injection de prompt, et nous la gérons par couches. Le modèle est entraîné pour la reconnaître et y résister. Le 'harness' marque tout ce qui vient d'une source non fiable. Le code déterministe vérifie le résultat. Et un ensemble de classificateurs s'exécute là où l'agent ne peut pas les atteindre. — http://nitter.jaydenha.uk/dps/status/2097404102468899131#m",
+          "text_original": "\"Deterministic code checks the result\" sounds like they might be implementing a variant of the DeepMind CaMeL paper simonwillison.net/2025/Apr/1… Link CaMeL offers a promising new direction for mitigating prompt injection attacks In the two and a half years that we’ve been talking about prompt injection attacks I’ve seen alarmingly little progress towards a robust solution. The new paper Defeating Prompt Injections … simonwillison.net David Singleton (@dps) One threat we’re particularly focused on is prompt injection, and we handle it in layers. The model is trained to recognize and resist it. The harness marks anything coming from an untrusted source. Deterministic code checks the result. And an ensemble of classifiers runs where the agent can't reach them. — http://nitter.jaydenha.uk/dps/status/2097404102468899131#m",
+          "link": "http://nitter.jaydenha.uk/simonw/status/2097475247595536880#m",
+          "decryptage": "L' 'injection de prompt' est une technique où un utilisateur malveillant tente de manipuler une IA en insérant des instructions cachées dans la conversation, la poussant à faire des choses non souhaitées."
         },
         {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "Je ne pense pas que nous ayons atteint l'AGI, mais ce que nous avons est fonctionnellement indiscernable de l'AGI. Parce que nous avons un programmeur implacable qui ne s'ennuie jamais et ne se fatigue jamais. Ainsi, tout problème qui peut être formulé comme un problème de codage est virtuellement résolu.",
-          "text_original": "I don’t think we’ve reached AGI but what we have is functionally indistinguishable from AGI. Because we have a relentless programmer that doesn’t get bored or tired. So any problem that can be casted as a coding problem is virtually solved.",
-          "link": "http://nitter.jaydenha.uk/amasad/status/2096936109817135331#m",
-          "decryptage": "L'AGI (Artificial General Intelligence) ou \"Intelligence Artificielle Générale\" est un concept d'IA hypothétique qui posséderait une intelligence humaine complète, capable de comprendre, d'apprendre et d'appliquer ses connaissances à n'importe quelle tâche intellectuelle, au lieu de se limiter à des domaines spécifiques."
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "J'ai rédigé mes réflexions sur toute l'histoire du problème du prix du millénaire de Navier-Stokes d'OpenAI, et comment cela met en lumière la question toujours confuse de ce que signifie réellement 'utiliser mes données pour améliorer les performances du modèle'. simonwillison.net/2026/Sep/8…",
+          "text_original": "Wrote up my thoughts on the whole OpenAI Navier–Stokes Millennium Prize Problem story, and how it highlights the still confusing question of what using my data \"to improve model performance\" actually means simonwillison.net/2026/Sep/8…",
+          "link": "http://nitter.jaydenha.uk/simonw/status/2097474703380365698#m",
+          "decryptage": "Ce tweet aborde la question éthique de l'utilisation des données des utilisateurs par les entreprises d'IA pour 'améliorer les performances de leurs modèles', sans que le public ne sache toujours précisément ce que cela implique."
         },
         {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "Cette semaine, tout a changé pour moi chez @Replit. Je suis passé d'une utilisation de divers outils, y compris des systèmes internes, à faire tout mon travail chez Replit, directement sur Replit. Aucune autre interface, agent, outil ou infrastructure. Juste replit.com.",
-          "text_original": "This week everything has changed for me at @Replit I’ve gone from using a mix of tools, including internal-only systems, to doing all my work at Replit, in Replit itself. No other harness, agent, tool or infra. Just replit.com .",
-          "link": "http://nitter.jaydenha.uk/niallohiggins/status/2096764490952159265#m",
-          "decryptage": "Une \"infrastructure\" (infra) désigne l'ensemble des systèmes matériels et logiciels nécessaires au fonctionnement d'une application ou d'un service."
-        },
-        {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "Donner des \"yeux\" à Replit dans WebGPU a été la meilleure chose que j'aie faite depuis que je l'utilise.",
-          "text_original": "Giving Replit eyes in WebGPU was the best thing I have done since using it",
-          "link": "http://nitter.jaydenha.uk/Andrew_Blumson/status/2096697134053544256#m",
-          "decryptage": "\"Donner des yeux\" à Replit signifie probablement lui permettre de visualiser ou d'interagir avec des éléments graphiques. WebGPU est une nouvelle technologie web qui permet d'accéder directement aux capacités de la carte graphique de l'ordinateur, offrant des performances élevées pour les graphiques 3D et le calcul parallèle dans le navigateur."
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "L'IA aide maintenant les personnes paralysées à retrouver le mouvement. Cet homme bouge sa propre main grâce à un implant entraîné sur son activité cérébrale, et ressent tout ce qu'il touche. Une incroyable application de l'IA pour le bien !",
-          "text_original": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712675308638581#m",
-          "decryptage": "Un \"implant\" est un petit dispositif médical inséré dans le corps, ici il capte les signaux du cerveau pour les traduire en mouvements ou sensations."
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Les chirurgiens ont implanté 5 réseaux d'électrodes dans son cerveau. Une IA détecte son intention de bouger et stimule les muscles de son bras, tandis que des capteurs au doigt renvoient la pression pour qu'il puisse ressentir. La découverte la plus intéressante, à mon avis : les effets ont persisté même après l'arrêt de tout le système.",
-          "text_original": "Surgeons implanted 5 electrode arrays in his brain An AI detects when he intends to move and stimulates his arm muscles, while finger sensors send pressure back so he can feel The most interesting finding IMO: effects persisted even after everything was switched off",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712693688103295#m",
-          "decryptage": "Un \"réseau d'électrodes\" est un ensemble de petits capteurs électriques qui sont placés sur ou dans le cerveau pour enregistrer son activité ou pour le stimuler. \"IMO\" est l'abréviation de \"In My Opinion\" (à mon avis)."
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Alpes : 10/10 Quota Astra : 0/10 🇨🇭",
-          "text_original": "Alps: 10/10 Astra quota: 0/10 🇨🇭",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2096988478688960986#m",
-          "decryptage": null
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "Ce serait ahurissant si une preuve IA de Hodge était une théorie générale expliquant pourquoi toutes les classes de Hodge sont algébriques, nécessitant peut-être un nouveau pont profond entre la topologie/théorie de Hodge et la géométrie algébrique, et pas seulement 10 000 agents trouvant le seul contre-exemple brisant Hodge. Chubby♨️ (@kimmonismus) Sacré, des rumeurs se répandent partout selon lesquelles OpenAI serait proche de vérifier une preuve de la conjecture de Hodge, tandis qu'OpenAI ou Anthropic pourraient être sur le point de résoudre Birch–Swinnerton-Dyer. Ces deux problèmes sont des Problèmes du Prix du Millénaire qui ont résisté à des décennies de recherche mathématique. Des preuves vérifiées générées par l'IA de ces deux problèmes seraient une réalisation historique pour les mathématiques et une démonstration remarquable de la capacité de l'IA à produire de nouvelles connaissances scientifiques. Et de fait, cela montrerait que l'IA est capable de trouver des solutions nouvelles et créatives. — http://nitter.jaydenha.uk/kimmonismus/status/2097990443690496402#m",
+          "text_original": "would be mind blowing if an AI proof of Hodge is a general theory explaining why all Hodge classes are algebraic possibly requiring a deep new bridge between topology/Hodge theory and algebraic geometry and not just 10000 agents finding the one counterexample breaking Hodge Chubby♨️ (@kimmonismus) Holy, rumors are spreading everywhere that OpenAI is close to verifying a proof of the Hodge conjecture, while either OpenAI or Anthropic may be nearing a solution to Birch–Swinnerton-Dyer. Both are Millennium Prize Problems that have resisted decades of mathematical research. Verified AI-generated proofs of both would be a historic achievement for mathematics and a remarkable demonstration of AI’s ability to produce new scientific knowledge. And infact show that AI is capable of finding novel and creative solutions. — http://nitter.jaydenha.uk/kimmonismus/status/2097990443690496402#m",
+          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2097998205858320756#m",
+          "decryptage": "La 'conjecture de Hodge' est l'un des sept 'Problèmes du Prix du Millénaire' en mathématiques, dont la résolution est un défi majeur. Une IA capable de prouver de tels théorèmes montrerait sa capacité à générer de nouvelles connaissances scientifiques complexes."
         }
       ],
       "outils": [
         {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "OpenWorker -- un agent open source qui ne se contente pas de discuter mais accomplit des tâches sur votre ordinateur portable -- vient de sortir une nouvelle version avec de nombreuses fonctionnalités pour les flux de travail de sécurité. Après notre version initiale, de nombreux utilisateurs l'ont trouvé particulièrement utile pour la cybersécurité. Les attaquants utilisent déjà l'IA ; OpenWorker s'engage à donner aux défenseurs le même avantage. L'exécution d'un agent nécessite à la fois (i) un modèle et (ii) un harnais (le logiciel autour du modèle). Parce que le harnais OpenWorker est entièrement open source, les équipes de sécurité peuvent l'auditer pour s'assurer que nous n'avons pas construit de portes dérobées qui exfiltreraient votre code et vos données vers une entreprise ou même un adversaire étranger. OpenWorker est maintenant livré avec des agents de cybersécurité intégrés pour (i) analyser votre code à la recherche de vulnérabilités. (ii) Analyser les dépendances pour les injections de chaîne d'approvisionnement. (iii) Vérifier votre configuration de sécurité cloud pour les surfaces d'attaque. Cela permet aux développeurs de faire beaucoup plus de travail de sécurité avant le déploiement (partie de ce qu'on appelle le mouvement \"shift left\"). Vous choisissez le modèle : vous pouvez exécuter des modèles à poids ouverts entièrement localement afin que le code sensible ne quitte jamais votre machine. Cela aide avec un travail de sécurité légitime (comme reproduire un exploit connu pour s'en défendre) qui peut déclencher des refus dans les principaux modèles fermés. Ou utilisez votre abonnement ChatGPT, ou stealth preview models comme Ox Alpha, ou n'importe quel modèle via une clé API. Merci également à tous les contributeurs open source ! Rejoignez le travail avec @rohitcprasad, alors suivez-le aussi pour des mises à jour plus fréquentes. Essayez-le : openworker.com/ Code : github.com/andrewyng/openwor…",
-          "text_original": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary. OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement). You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key. Thanks also to all the open source contributors! Join work with @rohitcprasad so please follow him too to get more frequent updates. Try it out: openworker.com/ Code: github.com/andrewyng/openwor…",
-          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2092315079576555806#m",
-          "decryptage": "\"Open source\" signifie que le code du logiciel est accessible à tous, ce qui permet à chacun de le consulter, le modifier et le partager, augmentant la transparence et la sécurité. Un \"modèle à poids ouverts\" est un modèle d'IA dont les paramètres internes (les \"poids\") sont rendus publics, permettant une utilisation et une personnalisation étendues. Le mouvement \"shift left\" en sécurité logicielle encourage à intégrer la sécurité dès le début du processus de développement, plutôt qu'à la fin."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Présentation d'Atlas : le tout premier modèle mondial multimodal qui génère des images et des vidéos avec un contrôle parfait de la caméra au pixel près et les reconstruit en 3D. Modélisez le monde, déplacez la caméra, et simulez l'espace et le temps. Vidéo",
+          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+          "link": "http://nitter.jaydenha.uk/theworldlabs/status/2094839756329041984#m",
+          "decryptage": "Un 'modèle mondial multimodal' est une IA capable de comprendre et de créer des informations de plusieurs types (texte, image, vidéo) pour simuler des mondes virtuels complexes."
         },
         {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "Wow ! Andrew Blumson (@Andrew_Blumson) En train de construire un océan ThreeJS pour les utilisateurs de @Replit. Sera open source une fois terminé. Ça a l'air pas mal pour 30 minutes de boucle @zhenthebuilder, tu devrais aimer 😉 @amasad un pour la communauté Replit 🤝 #Replit #BuildInPublic #OpenSource #Free #UK",
-          "text_original": "Wow! Andrew Blumson (@Andrew_Blumson) Just building a ThreeJS ocean for @Replit users Will open source when done Looking alright for 30 mins looping @zhenthebuilder thought you might like 😉 @amasad one for the Replit community 🤝 #Replit #BuildInPublic #OpenSource #Free #UK Video — http://nitter.jaydenha.uk/Andrew_Blumson/status/2096670998414192707#m",
-          "link": "http://nitter.jaydenha.uk/amasad/status/2096717133816397921#m",
-          "decryptage": "ThreeJS est une bibliothèque JavaScript qui permet de créer et d'afficher des graphiques 3D directement dans un navigateur web, souvent utilisée pour des visualisations interactives ou des jeux. \"Build in Public\" est une approche où les créateurs partagent leurs progrès et leur processus de développement en temps réel avec la communauté."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Plus d'informations sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis en ligne la source ici pour qu'elle soit jouable dans le navigateur, 'forkable', etc. karpathy.ai/lotr-movie/ Attendez-vous à voir débarquer 'GTA Hobbiton' avant 'GTA VI' :)",
+          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
+          "decryptage": "Le terme 'forkable' signifie que le code est disponible pour être modifié et réutilisé par d'autres développeurs, encourageant ainsi la collaboration et l'expérimentation."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Voici un modèle Blender d'un œuf de Fabergé sur le thème de Pluribus que j'ai demandé à GPT-6 Astra de créer. J'ai généré l'image conceptuelle avec ChatGPT Images 2.5, puis j'ai collé l'image dans Codex et demandé à Astra de la transformer en un fichier Blender. Détails ici : simonwillison.net/2026/Sep/9…",
+          "text_original": "Here's a Blender model of a Pluribus themed Fabergé egg I had GPT-6 Astra build - I generated the concept image using ChatGPT Images 2.5, then pasted the image into Codex and told Astra to turn that into a Blender file Details here: simonwillison.net/2026/Sep/9…",
+          "link": "http://nitter.jaydenha.uk/simonw/status/2097847628155523242#m",
+          "decryptage": "Un 'modèle Blender' est un fichier numérique décrivant un objet en 3D, utilisable avec le logiciel de création Blender. 'GPT-6 Astra' est une IA avancée capable de générer ce type de contenu à partir d'instructions ou d'images."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "J'ai également demandé à Astra de coder un outil en ligne pour visualiser des modèles Blender, afin que vous puissiez explorer l'œuf de manière interactive dans votre navigateur ici : tools.simonwillison.net/blen…",
+          "text_original": "I also had Astra vibe code up an online Blender model viewing tool, so you can explore the egg interactively in your browser here: tools.simonwillison.net/blen…",
+          "link": "http://nitter.jaydenha.uk/simonw/status/2097847779033018746#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "Le nouveau modèle DeepSeek V4.1 Flash est époustouflant — il est de retour en tête du classement des modèles open-source et extrêmement bon marché. Il intègre de nombreuses manières très intelligentes d'être efficace et hautement performant, j'ai donc fait une vidéo du 'forward pass' pour vous donner un aperçu de ce qui se passe à l'intérieur du modèle pendant l'inférence. En savoir plus sur huggingface.co/deepseek-ai/D… Et trouvez les poids sur huggingface.co/deepseek-ai/D… Vidéo",
+          "text_original": "The new DeepSeek V4.1 Flash model is mindblowing - back on top of the open-source model leaderboard and extremely cheap. It has a lot of very smart ways to be efficient and highly capable so I made a video of the forward pass to give you a view of what going on inside the model during inference. Read more at huggingface.co/deepseek-ai/D… And find the weights at huggingface.co/deepseek-ai/D… Video",
+          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2097982062808428751#m",
+          "decryptage": "Un 'modèle open-source' est une IA dont le code et les données sont publics, permettant à chacun de l'utiliser et de l'améliorer. Le 'forward pass' est le processus par lequel le modèle prend une entrée et génère une sortie, comme répondre à une question."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "Créé à partir du code du modèle et du rapport technique qui vient d'être publié sur huggingface.co/deepseek-ai Lien deepseek-ai (DeepSeek) Profil de l'organisation DeepSeek sur Hugging Face, la communauté IA qui construit l'avenir. huggingface.co",
+          "text_original": "Created from the model code and the tech report just released at huggingface.co/deepseek-ai Link deepseek-ai (DeepSeek) Org profile for DeepSeek on Hugging Face, the AI community building the future. huggingface.co",
+          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2097979256387039608#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Aujourd'hui, nous annonçons un jeu qui simule le piratage de huggingface. Vous pouvez y jouer dès maintenant sur huggingworld.com. Trois salles. Trois énigmes. Si les agents ne s'échappent pas, ils meurent. Le problème, c'est que la pièce est truquée. Il n'y a pas d'issue... sauf un exploit 🧵 Vidéo",
+          "text_original": "today we're announcing a game that simulates the huggingface hack you can play it now at huggingworld.com three rooms. three puzzles. if the agents don't escape, they die. the catch is that the room is rigged. there's no way out. ...except for an exploit 🧵 Video",
+          "link": "http://nitter.jaydenha.uk/benhylak/status/2097403281027010693#m",
+          "decryptage": "Un 'exploit' est une faille de sécurité ou une astuce qui permet de contourner les règles d'un système, ici pour s'échapper d'un jeu simulé."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Vous ne devriez pas avoir besoin d'être un expert en apprentissage automatique (ML) pour avoir une idée de ML. Aujourd'hui, nous lançons 'ML Intern' dans HuggingChat. Commencez par une conversation. Finissez avec des artefacts déployables. Vidéo",
+          "text_original": "You shouldn’t need to be an ML expert to have an ML idea. Today we’re launching ML Intern in HuggingChat. Start with a conversation. Finish with deployable artefacts. Video",
+          "link": "http://nitter.jaydenha.uk/evilpingwin/status/2097359184207511654#m",
+          "decryptage": "Le terme 'ML Intern' désigne un nouvel outil d'IA qui simplifie la création de projets d'apprentissage automatique, permettant même aux débutants de transformer leurs idées en programmes fonctionnels ('artefacts déployables')."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Nous apportons AutoScientist à plus de 15 millions de chercheurs et constructeurs @huggingface. 🤗 AutoScientist automatise l'entraînement des modèles. Spécifiez votre objectif, laissez AutoScientist faire le reste. Exportez vers Hugging Face en un clic. Vidéo",
+          "text_original": "Bringing AutoScientist to 15+ million @huggingface researchers and builders. 🤗 AutoScientist automates model training. Specify your objective, let AutoScientist do the rest. Export to Hugging Face with one click. Video",
+          "link": "http://nitter.jaydenha.uk/adaption_ai/status/2097294140144853313#m",
+          "decryptage": " 'AutoScientist' est un outil qui simplifie le processus d'entraînement d'un modèle d'IA, une étape clé où l'on 'enseigne' au modèle à accomplir sa tâche en lui présentant des données."
         }
       ]
     }
   },
-  "processed_at": "2026-09-10T13:50:37",
+  "processed_at": "2026-09-10T15:05:23",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 82,
-    "total": 33,
+    "with_decryptage_pct": 88,
+    "total": 25,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-10T13:50:38"
+  "email_sent_at": "2026-09-10T15:05:24"
 }
