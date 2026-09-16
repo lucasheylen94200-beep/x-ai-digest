@@ -1,234 +1,190 @@
 {
   "date": "2026-09-16",
-  "fetched_at": "2026-09-16T14:21:03",
+  "fetched_at": "2026-09-16T15:25:35",
   "tweets": [
     {
-      "handle": "karpathy",
-      "text": "I love this and really hope we can come together as an industry and make it happen. Dario Amodei (@DarioAmodei) We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training. You can read the full post here: darioamodei.com/post/we-must… Link Dario Amodei — We Must Pace the Frontier darioamodei.com — http://nitter.jaydenha.uk/DarioAmodei/status/2098773920774074715#m",
-      "link": "http://nitter.jaydenha.uk/karpathy/status/2098811935114551617#m",
-      "published": "Sat, 12 Sep 2026 16:32:14 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "AndrewYNg",
+      "text": "With AI Engineering skills, you actively shape the build: You influence what gets built, and drive the build loop. Here're key skills to do this. Article AI Engineering Skills Map: Shaping the build When you’re skilled at AI Engineering, your best work won’t be merely implementing a product that someone else spec’ed out. Instead, you will actively shape the build. Before modern AI tools",
+      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2098459474608672916#m",
+      "published": "Fri, 11 Sep 2026 17:11:40 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
-      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2098097512544444447#m",
-      "published": "Thu, 10 Sep 2026 17:13:22 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "AndrewYNg",
+      "text": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. Article AI Engineering Skills Map: Using coding agents A key AI engineering skill is using coding agents. Your skill at steering them both to write code and to carry out non-code tasks, such as analyzing data or managing system operations, allows you to",
+      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2095890279865721217#m",
+      "published": "Fri, 04 Sep 2026 15:02:37 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-      "link": "http://nitter.jaydenha.uk/theworldlabs/status/2094839756329041984#m",
-      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "AndrewYNg",
+      "text": "How have software engineering fundamentals changed with agentic coding? Here is our AI Engineering Skills map for software engineering fundamentals. Article AI Engineering Skills Map: Software engineering fundamentals How have software engineering fundamentals changed with agentic coding? Even when you use a coding agent to write all your code, understanding software fundamentals is important for steering your",
+      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2093388974194872781#m",
+      "published": "Fri, 28 Aug 2026 17:23:19 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-      "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
-      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "AndrewYNg",
+      "text": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary. OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement). You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key. Thanks also to all the open source contributors! Join work with @rohitcprasad so please follow him too to get more frequent updates. Try it out: openworker.com/ Code: github.com/andrewyng/openwor…",
+      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2092315079576555806#m",
+      "published": "Tue, 25 Aug 2026 18:16:02 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-      "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
-      "published": "Sun, 02 Aug 2026 16:10:51 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "AndrewYNg",
+      "text": "In the fight to defend openness in AI, the Marin project is a precious demonstration of openness in model training, with open code, data, recipes, even experimental results. Releasing AI research openly used to be the norm; I'm grateful for @percyliang 's open lab approach. Percy Liang (@percyliang) 🚢 Marin 535B-A23B started training this week! As usual, the whole process is open. Voyage plan: pretraining (80%) + midtraining (20%) on 18.75T tokens on 11 x GB200 NVL72 for ~3 months (2.7e24 FLOPs). Post-training will follow. Before kicking off the run, we trained a 4-rung scaling ladder from 1.6B-A61M (48B tokens) to 27.7B-A1.2B (926B tokens) to debug issues, and to make a forecast of our hero run. This is by far our biggest run, so definitely expecting the unexpected. — http://nitter.jaydenha.uk/percyliang/status/2090918065634684997#m",
+      "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2091688153048645650#m",
+      "published": "Mon, 24 Aug 2026 00:44:52 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "Today, G5 Labs is emerging from stealth with $14 million in seed funding to build a new abstraction layer for AI-native software development. @pillar_vc and @BatteryVentures co-led the round, with participation from @omegavp , Encoded Ventures, and prominent angel investors including @JeffDean . G5 Labs is pioneering the post-developer era. A spinout from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), the G5 Labs platform makes natural-language intent, organized as an ontology, the source code itself—putting software development in the hands of the whole organization while providing the governance needed to keep requirements, implementation, and organizational policies aligned. We’re excited to build a future where employees across departments, from product owners to analysts and compliance leads, can create and evolve software using the language they already speak. Read our full announcement: g5labs.ai/press Read more in VentureBeat: lnkd.in/gh4H5_zF Link G5 Labs — Programming is dead. Engineering is thriving. Natural language is the new source code. G5 is the semantic abstraction layer that makes AI-native software development compilable, mergeable, and governable for enterprises. g5labs.ai",
-      "link": "http://nitter.jaydenha.uk/tim_kraska/status/2100009061978644782#m",
-      "published": "Tue, 15 Sep 2026 23:49:11 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
+      "handle": "GoogleDeepMind",
+      "text": "My journey to develop AGI spans 25 yrs, including 10+ yrs thinking about technical & societal perspectives at Google DeepMind. AGI is on the horizon - we need deeper understanding of its implications. To help, we've created the DeepMind Institute. Article Introducing the DeepMind Institute We are on the cusp of a profound transformation. Today’s AI systems have impressive capabilities and the rapid pace of innovation suggests we’re now approaching artificial general intelligence (AGI),",
+      "link": "http://nitter.jaydenha.uk/ShaneLegg/status/2100229706641539248#m",
+      "published": "Wed, 16 Sep 2026 14:25:57 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "Exciting results, @LiamFedus ! Congrats to the whole team at Periodic Labs! Liam Fedus (@LiamFedus) We built high-throughput materials labs in Menlo Park to create a loop between experiments and models. The labs generate fresh data, the models learn from it, and then help us decide what to try next. Using only 1,300 H200s, plus months of our experimental data, we mid-trained and RL’d an open-source model to surpass GPT-6 Astra on our analysis benchmark. We call it Neon. This is real footage from our lab. We’re focusing first on hard problems in materials science, including superconductors, magnets, and semiconductor materials. Read our blog posts below. Video — http://nitter.jaydenha.uk/LiamFedus/status/2099896055030501702#m",
-      "link": "http://nitter.jaydenha.uk/JeffDean/status/2099998119392161960#m",
-      "published": "Tue, 15 Sep 2026 23:05:42 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
+      "handle": "GoogleDeepMind",
+      "text": "We’re introducing Gemini 3.8 Live and 3.8 Live Extended Thinking – our best conversational AI. The models talk, think, and handle tasks in the background without breaking your flow. 🧵",
+      "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099907440422830269#m",
+      "published": "Tue, 15 Sep 2026 17:05:22 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "Introducing OM-1, our first robot foundation model, zero-shot generalizing to any robot: table-top arms, industrial arms and humanoids. - learned directly from human manipulation data - no teleop/robot data - close to human-level dexterity and efficiency - multi-robot collab Video",
-      "link": "http://nitter.jaydenha.uk/RewardAI_/status/2099553899804053992#m",
-      "published": "Mon, 14 Sep 2026 17:40:32 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
+      "handle": "GoogleDeepMind",
+      "text": "Watch how we used 3.8 Live Extended Thinking to act as a programming tutor. Both models feature: 🔵 Upgraded reasoning 🔵 Near real-time visual understanding 🔵 Automatic detection for 97 languages 🔵 Background tool calling without disrupting your chat For your most difficult tasks, 3.8 Live Extended Thinking adds increased performance and precision – narrating task progress to keep the conversation going. Try it now in Gemini Live in the @GeminiApp or start building with the Gemini API via @GoogleAIStudio . Find out more → goo.gle/4xWn2vo Video",
+      "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099907447313899684#m",
+      "published": "Tue, 15 Sep 2026 17:05:24 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "Excited to partner with @DiscoLoopAI ! They are actively hiring across engineering & research - please reach out if the mission sounds interesting to you. Discovery Loop (@DiscoLoopAI) Introducing Discovery Loop ♾. We’re building AI to run experiments at unprecedented scale and to solve the biggest bottlenecks in science and engineering. Our founders @JeffDean , @Sanjay_Ghemawat , @quocleix , @OriolVinyalsML helped build the AI infrastructure and models that scaled the modern world. Now, we are scaling discovery itself. The future can't wait. Learn more at: discoveryloop.com — http://nitter.jaydenha.uk/DiscoLoopAI/status/2085033268001587534#m",
-      "link": "http://nitter.jaydenha.uk/LM_Braswell/status/2097720148451012848#m",
-      "published": "Wed, 09 Sep 2026 16:13:51 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
+      "handle": "GoogleDeepMind",
+      "text": "Weather forecasts play a critical role in the transition to renewables. WeatherNext 3 provides grid operators as well as wind and solar power producers with predictions for turbine-height wind speeds and solar radiation, enabling smarter, cleaner energy planning. 🧵",
+      "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099575049929802053#m",
+      "published": "Mon, 14 Sep 2026 19:04:34 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "JeffDean",
-      "text": "1/ ✨ World record today on bounded gaps between primes, one of number theory’s oldest open conjectures. We show that infinitely many pairs of prime numbers are separated by 212 or less.",
-      "link": "http://nitter.jaydenha.uk/axiommathai/status/2095526333799633063#m",
-      "published": "Thu, 03 Sep 2026 14:56:25 GMT",
-      "author_name": "Jeff Dean",
-      "category_hint": "researcher",
+      "handle": "GoogleDeepMind",
+      "text": "Because conditions can shift quickly, WeatherNext 3 updates every single hour: 💨 For wind farms: Predicts speed and direction at turbines as high as 100m to project power generation. ☀️ For solar farms: Forecasts cloud cover and radiation to estimate sunlight levels reaching solar panels.",
+      "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099575262807478493#m",
+      "published": "Mon, 14 Sep 2026 19:05:25 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "polynoamial",
-      "text": "The Navier Stokes solution was the result of a collaboration of ~10,000 (!) agents working together. Over the past year, we’ve been training models to collaborate through multiagent RL. It’s been amazing to see how much better the models have become at this: it seems clear now that one of the most effective ways to solve hard problems is to give models huge amounts of unstructured parallel test-time compute and let them decide how to work together. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://nitter.jaydenha.uk/OpenAI/status/2097374640582668336#m",
-      "link": "http://nitter.jaydenha.uk/__eknight__/status/2097538148754727260#m",
-      "published": "Wed, 09 Sep 2026 04:10:39 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "One of the most amazing moments for me in OpenAI history was watching this happen over the past week: OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://nitter.jaydenha.uk/OpenAI/status/2097374640582668336#m",
-      "link": "http://nitter.jaydenha.uk/sama/status/2097380249910854023#m",
-      "published": "Tue, 08 Sep 2026 17:43:13 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "Very sad to see Levent double down on the plagiarism accusation. I hope my friends at @AnthropicAI stand up to this internally. It should be clear by now what the truth is.",
-      "link": "http://nitter.jaydenha.uk/polynoamial/status/2097396116132372839#m",
-      "published": "Tue, 08 Sep 2026 18:46:16 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "Happy to see some @AnthropicAI employees are willing to speak out at least Sholto Douglas (@_sholtodouglas) fwiw I think it is _extremely_ unlikely that user data had any influence here - there is no way OAI would pull user transcripts for this, or knowingly train on it in a way that would've influenced this. I think its pretty important people don't run away with 'your user data isn't safe in codex' - because it surely is (based on everything I can assume from the outside) — http://nitter.jaydenha.uk/_sholtodouglas/status/2097218240397410733#m",
-      "link": "http://nitter.jaydenha.uk/polynoamial/status/2097400040495210771#m",
-      "published": "Tue, 08 Sep 2026 19:01:52 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "RT @deanwball : “To solve the Navier-Stokes problem, we used an internal model that is significantly more capable than GPT-6 Astra.” https:/…",
-      "link": "http://nitter.jaydenha.uk/polynoamial/status/2097397298485674444#m",
-      "published": "Tue, 08 Sep 2026 18:50:58 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "hwchase17",
-      "text": "The hardest part of and “org harness” or “enterprise ai” (as opposed to personal ai” is auth, and managing auth in a multiplayer channel (like slack) We’re thinking a lot about how to do this right for managed deepagents anirudh (@kamathematic) i love @cursor_ai but the slackbot auths as the user who started a thread (instead of the user who sent a message) meanwhile claude tag lets you bypass PR reviews bc the PR is opened as an external entity (claude itself) anyone have solutions that actually work here? — http://nitter.jaydenha.uk/kamathematic/status/2100023588065792436#m",
-      "link": "http://nitter.jaydenha.uk/hwchase17/status/2100055924928925768#m",
-      "published": "Wed, 16 Sep 2026 02:55:24 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "mckaywrigley",
+      "text": "forgive me if i don't care that ai curing cancer might disrupt your \"process of understanding\" and \"raise attribution questions.\" building ai that solves all our greatest problems would be a miraculous achievement of humanity. genuinely one of the dumbest things i've ever read. Andrew Curran (@AndrewCurran_) Twenty-five Fields Medal winners have published a joint declaration warning about what they see as a severe misalignment between AI companies and the mathematics community. — http://nitter.jaydenha.uk/AndrewCurran_/status/2098493108224950438#m",
+      "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2098498691200164210#m",
+      "published": "Fri, 11 Sep 2026 19:47:30 GMT",
+      "author_name": "Mckay Wrigley",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "We will be following this strictly for all LangChain dinners going forward 🫡 Barry McCardel (@barrald) this made it into the WSJ lol — http://nitter.jaydenha.uk/barrald/status/2098797979570516086#m",
-      "link": "http://nitter.jaydenha.uk/hwchase17/status/2100055445075284292#m",
-      "published": "Wed, 16 Sep 2026 02:53:29 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "mckaywrigley",
+      "text": "“as AI changes the way work is done, we do not lose sight of what that work was meant to achieve in the first place.” are you absolutely braindead??? the work was meant to improve the lives of humans and to actually solve problems. give me a break.",
+      "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2098500022279274998#m",
+      "published": "Fri, 11 Sep 2026 19:52:48 GMT",
+      "author_name": "Mckay Wrigley",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "🔌 Every Managed Deep Agent is an MCP server. Let coding assistants and other agents delegate research, analysis, and more to your deployed agent as a tool. Deploy once. Reuse across compatible MCP clients through the built-in /mcp endpoint. Get started → docs.langchain.com/langsmith… Video",
-      "link": "http://nitter.jaydenha.uk/LangChain/status/2099891249448616059#m",
-      "published": "Tue, 15 Sep 2026 16:01:02 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "mckaywrigley",
+      "text": "solved by a town of geniuses in a datacenter (~10k agents). imagine what happens when we get a country of geniuses in a datacenter. what a time to be alive. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://nitter.jaydenha.uk/OpenAI/status/2097374640582668336#m",
+      "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2097381531371413725#m",
+      "published": "Tue, 08 Sep 2026 17:48:19 GMT",
+      "author_name": "Mckay Wrigley",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "memory has been a hot topic for the past ~2 years every time we bring it up or do anything there, gets ton of interest, but nothing sticks few takes on why below: - how to update and then use memory needs to be pretty tightly integrated with the harness. so its hard to build a standalone memory product - the hardest part of memory is the logic of deciding what to remember. storing and even querying memory is not necessarily hard. the logic of deciding what to remember is often (a) application specific, (b) just prompting, which makes it hard to productize - memory is not that useful in a general purpose agent, but more for when you are doing repeated tasks. more high usage ai agent are not just doing the same task repeatedly - memory hasnt really proven to be useful for coding agents, and most agent things that take off happen first in coding agents David Cramer (@zeeg) I continue to believe memory is the most interesting and under invested space right now — http://nitter.jaydenha.uk/zeeg/status/2099516727109558397#m",
-      "link": "http://nitter.jaydenha.uk/hwchase17/status/2099858455079026817#m",
-      "published": "Tue, 15 Sep 2026 13:50:43 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "mckaywrigley",
+      "text": "no human should expect to be able to keep up with ai progress at this point. the pace is genuinely dizzying. only a few more months before even the average person starts to notice that life is starting to change. life is going to get weird very soon… hopefully in a good way!",
+      "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2097393967570780388#m",
+      "published": "Tue, 08 Sep 2026 18:37:44 GMT",
+      "author_name": "Mckay Wrigley",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "we just changed how deepagents read files! our evals show that this new format reduces edit_file errors by 15% AND total input token usage by 10% the little things really add up w/ agents; we're hard at work on these small but mighty optimizations at @LangChain",
-      "link": "http://nitter.jaydenha.uk/sydneyrunkle/status/2099618743580299305#m",
-      "published": "Mon, 14 Sep 2026 21:58:12 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "mckaywrigley",
+      "text": "the demand for intelligence is infinite. with gpt-6 astra i’m up another 3-4x on token usage. we must do everything we can to make sure *every* human on the planet can be a token trillionaire. it’s time to transition from survival to abundance. the intelligence age is here.",
+      "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2096264183482552753#m",
+      "published": "Sat, 05 Sep 2026 15:48:22 GMT",
+      "author_name": "Mckay Wrigley",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "nickadobos",
-      "text": "The p(doom) discussion gets all the headlines, but the p(abundance) scenery is far more like and deserves much more engagement.",
-      "link": "http://nitter.jaydenha.uk/dhh/status/2099545293541007797#m",
-      "published": "Mon, 14 Sep 2026 17:06:20 GMT",
-      "author_name": "Nick Dobos",
+      "handle": "amasad",
+      "text": "I'm a 39 year old founder from Manchester. I build on @Replit and I am looking to connect with other builders, hackers, and dreamers from across the UK and beyond. Who's cookin? And who's lookin? [ I'm the one on the right 😅 ]",
+      "link": "http://nitter.jaydenha.uk/notmattriley/status/2100003776086028312#m",
+      "published": "Tue, 15 Sep 2026 23:28:11 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "nickadobos",
-      "text": "what it feels like to be an app being computer used by codex Bobby Plays (@RealBobbyPlays) If you gotta do all that just to keep up with Timmy2Thumbs, it might be time to switch to candy crush Video — http://nitter.jaydenha.uk/RealBobbyPlays/status/2099971348260888957#m",
-      "link": "http://nitter.jaydenha.uk/NickADobos/status/2100062102564303055#m",
-      "published": "Wed, 16 Sep 2026 03:19:57 GMT",
-      "author_name": "Nick Dobos",
+      "handle": "amasad",
+      "text": "This is cool, but if your output domain is known in advance, why not just train a model to produce logprobs over enums? Diogo Almeida (@CompleteSkeptic) After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI? I’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev • 20-200x faster • 40-400x cheaper (w/ output tokens free) • Frontier composable intelligence optimized for decisions AFAICT the shortest path to AI-based economic revolution Video — http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
+      "link": "http://nitter.jaydenha.uk/amasad/status/2100056178705514703#m",
+      "published": "Wed, 16 Sep 2026 02:56:24 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "nickadobos",
-      "text": "Grimoire is going to Mars The Tome is the missing guide for putting AI to work for you. A council of 20 AI advisors, to proactively run your life and business Build businesses on autopilot, live organized & Vibecode to the stars! Try now on @grok @bot x.ai/bot/luPJeAxuAjhqO97wU3w… Grok (@grok) We’re inviting one Grok Bot user to a Starship launch. You could win the invite by sharing the ways you've integrated @Bot into your work. The invite includes a plus one. How to submit and some examples we love: Video — http://nitter.jaydenha.uk/grok/status/2099876430561632548#m",
-      "link": "http://nitter.jaydenha.uk/NickADobos/status/2100019133257834959#m",
-      "published": "Wed, 16 Sep 2026 00:29:12 GMT",
-      "author_name": "Nick Dobos",
+      "handle": "amasad",
+      "text": "Just teaching my Fly Brain Chess via reinforcement learning in @Replit BRB #Replit #Google #FlyBrain #MaleCNS #Chess",
+      "link": "http://nitter.jaydenha.uk/Andrew_Blumson/status/2100009731830002062#m",
+      "published": "Tue, 15 Sep 2026 23:51:51 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "nickadobos",
-      "text": "I built this See Helm & Abathur in: x.ai/bot/luPJeAxuAjhqO97wU3w… github.com/MindGoblinStudios… Link Grimoire by Nick # Grimoire Grimoire is A Code Wizard 🧙‍♂️ Grimoire is the #1 Vibecoder in the world. (Did you honestly think that title & honor would belong to a... x.ai Elon Musk (@elonmusk) We will work on this — http://nitter.jaydenha.uk/elonmusk/status/2099989432925585534#m",
-      "link": "http://nitter.jaydenha.uk/NickADobos/status/2100014386136187191#m",
-      "published": "Wed, 16 Sep 2026 00:10:20 GMT",
-      "author_name": "Nick Dobos",
+      "handle": "amasad",
+      "text": "If you’re curious about Effective Altruism, the origins of the cult, their tactics, and their influence network — check out my conversation with Tucker from two years ago: Tucker Carlson (@TuckerCarlson) Tech CEO Amjad Masad on the cults of Silicon Valley. This is the deepest and most interesting explanation of AI you’ll ever see. (0:00) Artificial Intelligence (10:01) Bitcoin (22:30) The Extropians Cult (29:15) Transhumanism (34:04) Longtermism (40:24) Are Machines Capable of Thinking? (43:11) The Two Conflicting Theories of Physics (49:46) The Difference Between Mind and Computer (1:04:24) The Abuse of Technology (1:12:36) Virtual Companionship (1:15:12) Do Silicon Valley Elites Acknowledge the Existence of God? (1:26:37) Silicon Valley Turning to Donald Trump (1:40:20) Elon Musk and Free Speech Includes paid partnerships. Video — http://nitter.jaydenha.uk/TuckerCarlson/status/1819055754164191357#m",
+      "link": "http://nitter.jaydenha.uk/amasad/status/2100045670845763791#m",
+      "published": "Wed, 16 Sep 2026 02:14:39 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "nickadobos",
-      "text": "Huh. An AI that can’t write text and can only predict things?? Stochastic parrot is out Smart If statements are in? Watch the DOOM demo they buried in the thread. Super cool. Arbitrary predictions feels way closer conceptually to actual brains than LLms imo Not a text engine A prediction thinking engine Diogo Almeida (@CompleteSkeptic) After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI? I’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev • 20-200x faster • 40-400x cheaper (w/ output tokens free) • Frontier composable intelligence optimized for decisions AFAICT the shortest path to AI-based economic revolution Video — http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
-      "link": "http://nitter.jaydenha.uk/NickADobos/status/2099976490461130979#m",
-      "published": "Tue, 15 Sep 2026 21:39:45 GMT",
-      "author_name": "Nick Dobos",
+      "handle": "amasad",
+      "text": "UNDISCLOSED PAID MEDIA: The salaries of reporters, Harry Booth and Billy Perrigo, were paid by Doomsday cultist Dustin Moskovitz's foundation Coefficient Giving via the Tarbell Fellowship. effort.news/tarbell TIME (@TIME) TIME’s new cover: This summer, AI showed how frighteningly capable it has become. Now researchers, CEOs, and governments are sounding the alarm like never before time.com/article/2026/09/15/… — http://nitter.jaydenha.uk/TIME/status/2099816366773882926#m",
+      "link": "http://nitter.jaydenha.uk/brianchau57/status/2099890105003528415#m",
+      "published": "Tue, 15 Sep 2026 15:56:29 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
+    "karpathy",
     "sama",
     "DarioAmodei",
     "gdb",
@@ -238,25 +194,25 @@
     "miramurati",
     "ylecun",
     "demishassabis",
+    "JeffDean",
     "fchollet",
-    "AndrewYNg",
     "rasbt",
     "bcherny",
     "karinanguyen_",
+    "polynoamial",
     "markchen90",
     "aidan_mclau",
     "officiallogank",
     "osanseviero",
     "AnthropicAI",
     "OpenAI",
-    "GoogleDeepMind",
     "xai",
     "simonw",
     "swyx",
+    "hwchase17",
     "jeremyphoward",
     "levelsio",
-    "mckaywrigley",
-    "amasad",
+    "nickadobos",
     "emollick",
     "ArthurMensch",
     "GuillaumeLample",
@@ -267,302 +223,230 @@
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Cette semaine, l'actualité de l'IA est riche et variée, allant des débats sur la sécurité et le rythme de son développement, à l'émergence de nouveaux outils créatifs et de solutions pour des problèmes complexes. On observe un intérêt croissant pour l'IA multimodale capable de générer des mondes virtuels et pour la manière dont l'IA pourrait transformer la programmation. Les développeurs et chercheurs partagent leurs réflexions sur les défis techniques, comme la mémoire des modèles, et sur les implications sociétales, comme les risques d'utilisation abusive.",
+    "summary": "Cette semaine dans l'IA, plusieurs acteurs majeurs comme Andrew Ng et Google DeepMind ont partagé des informations clés sur l'évolution de l'ingénierie IA et les nouveaux outils. On note une forte tendance vers des agents IA plus autonomes et performants, capables d'effectuer des tâches complexes, même dans des domaines sensibles comme la cybersécurité ou la recherche mathématique avancée. Parallèlement, la discussion sur l'impact sociétal de l'IA et la nécessité d'une approche ouverte et éthique reste primordiale.",
     "glossaire": [
       {
-        "terme": "LLM (Large Language Model)",
-        "definition": "Un \"Grand Modèle de Langage\" est un programme d'IA entraîné sur d'énormes quantités de texte pour comprendre et générer du langage humain."
-      },
-      {
         "terme": "Agent IA",
-        "definition": "Un \"Agent IA\" est un programme qui peut percevoir son environnement, prendre des décisions et agir de manière autonome pour atteindre des objectifs spécifiques."
+        "definition": "Un programme informatique conçu pour accomplir des tâches de manière autonome, souvent en interagissant avec son environnement ou d'autres systèmes."
       },
       {
-        "terme": "Modèle multimodal",
-        "definition": "Un \"modèle multimodal\" peut traiter et générer des informations sous différentes formes, comme du texte, des images et des sons, pour mieux comprendre le monde."
+        "terme": "AGI (Intelligence Artificielle Générale)",
+        "definition": "Un type d'IA hypothétique capable de comprendre, d'apprendre et d'appliquer ses connaissances à n'importe quelle tâche intellectuelle qu'un être humain peut accomplir."
       },
       {
-        "terme": "Modèle de fondation (Foundation Model)",
-        "definition": "Un \"modèle de fondation\" est une IA très puissante et polyvalente, entraînée sur une vaste quantité de données, qui peut servir de base pour de nombreuses applications différentes."
+        "terme": "Shift Left",
+        "definition": "Une approche en développement logiciel consistant à intégrer les tests et les vérifications de sécurité le plus tôt possible dans le cycle de développement, plutôt que de les laisser à la fin."
       },
       {
-        "terme": "Apprentissage par renforcement (RL)",
-        "definition": "L'\"apprentissage par renforcement\" est une méthode où une IA apprend à faire des choix en recevant des récompenses ou des pénalités, comme un jeu où l'on apprend par l'expérience."
+        "terme": "Open weight models",
+        "definition": "Modèles d'IA dont l'architecture et les poids (les paramètres appris pendant l'entraînement) sont rendus publics, permettant à quiconque de les utiliser et de les étudier."
       },
       {
-        "terme": "Programmation en langage naturel",
-        "definition": "C'est la capacité de créer ou modifier des logiciels en utilisant des phrases et des instructions en langage humain, plutôt que des codes de programmation complexes."
-      },
-      {
-        "terme": "P(doom) / P(abundance)",
-        "definition": "Le débat \"P(doom) / P(abundance)\" concerne la discussion sur la probabilité que l'IA mène à une catastrophe (doom) ou à une ère de grande prospérité (abundance)."
+        "terme": "Composability",
+        "definition": "La capacité de différents systèmes ou modèles d'IA à être combinés et à travailler ensemble de manière harmonieuse pour accomplir des tâches plus complexes."
       }
     ],
     "category_summaries": {
-      "actu": "Cette catégorie met en lumière les annonces majeures de la semaine : rapports de sécurité d'Anthropic, levées de fonds et lancements de startups comme G5 Labs et Discovery Loop qui redéfinissent le développement logiciel et la recherche scientifique grâce à l'IA. On y découvre aussi de nouvelles avancées en science des matériaux et en mathématiques, prouvant la capacité de l'IA à résoudre des problèmes complexes.",
-      "tips": "Malgré un nombre limité d'astuces directes, cette section souligne l'importance des optimisations pour les \"deepagents\", notamment pour la lecture de fichiers afin de réduire les erreurs et la consommation de \"tokens\". Elle aborde également la complexité de l'authentification dans les IA d'entreprise, offrant une piste de réflexion pour ceux qui développent des solutions intégrées.",
-      "idees": "La réflexion est au cœur de cette catégorie, avec des discussions sur la nécessité de ralentir le développement de l'IA pour la sécurité, les défis techniques des LLM (comme la gestion de la mémoire et l'audit de leur travail), et l'émergence d'une nouvelle approche collaborative via des milliers d'agents IA. Des débats sur la sécurité des données utilisateur et la \"probabilité de catastrophe\" versus la \"probabilité d'abondance\" enrichissent aussi le paysage des idées.",
-      "outils": "De nouveaux outils passionnants sont présentés, tels qu'Atlas, un modèle multimodal capable de générer des mondes 3D, ou OM-1, un modèle de fondation pour robots généralisable. On y trouve également des démonstrations impressionnantes, comme un LLM qui génère des scènes entières du Seigneur des Anneaux, et de nouvelles approches de l'IA comme le modèle Jev, orienté prédiction plutôt que texte, ainsi que des assistants de code innovants comme Grimoire."
+      "actu": "Les grandes entreprises comme Google DeepMind continuent d'annoncer des avancées, notamment avec Gemini 3.8 et l'introduction d'un institut dédié à l'étude de l'IA Générale (AGI). Andrew Ng revient sur l'importance des compétences en ingénierie IA pour façonner activement les développements.",
+      "tips": "Andrew Ng souligne l'importance des compétences en ingénierie IA pour guider efficacement les agents de codage et les outils d'IA. Il insiste sur la nécessité de comprendre les fondamentaux du génie logiciel même avec l'automatisation.",
+      "idees": "La discussion tourne autour de l'accélération fulgurante du progrès en IA, soulevant des questions sur l'adaptabilité humaine et l'impact potentiel sur la société. On débat aussi de la philosophie de l'IA, entre la résolution de problèmes fondamentaux et les craintes liées à son développement incontrôlé.",
+      "outils": "De nouveaux outils et modèles émergent, comme OpenWorker pour la cybersécurité, offrant des agents open source auditable. Des démonstrations de capacités IA, telles que la résolution de problèmes mathématiques complexes par des agents, sont également présentées, tout comme des outils de prévision météorologique pour les énergies renouvelables."
     },
     "highlights": [
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "J'adore cette idée et j'espère vraiment que nous pourrons nous unir en tant qu'industrie pour la concrétiser. Dario Amodei (@DarioAmodei) \"Nous devons ralentir le rythme de la frontière\" : J'ai écrit un nouvel essai expliquant pourquoi l'industrie de l'IA devrait ralentir, avec un plan en trois parties pour y parvenir. Anthropic s'engage unilatéralement sur la première de ces étapes. Nous fournirons à des évaluateurs tiers un accès permanent, au niveau des employés, à nos systèmes, afin qu'ils puissent vérifier le respect de nos mesures de sécurité, signaler les incidents et évaluer l'alignement des modèles pendant l'entraînement. Vous pouvez lire le post complet ici : darioamodei.com/post/we-must… Lien Dario Amodei — Nous devons ralentir le rythme de la frontière darioamodei.com",
-        "text_original": "I love this and really hope we can come together as an industry and make it happen. Dario Amodei (@DarioAmodei) We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training. You can read the full post here: darioamodei.com/post/we-must… Link Dario Amodei — We Must Pace the Frontier darioamodei.com — http://nitter.jaydenha.uk/DarioAmodei/status/2098773920774074715#m",
-        "link": "http://nitter.jaydenha.uk/karpathy/status/2098811935114551617#m",
-        "decryptage": "\"Ralentir le rythme de la frontière\" signifie développer l'IA de manière plus prudente et contrôlée pour mieux gérer les risques.",
+        "author_name": "Andrew Ng",
+        "handle": "AndrewYNg",
+        "text_fr": "Avec des compétences en Ingénierie IA, vous façonnez activement la construction : vous influencez ce qui est construit et pilotez la boucle de développement. Voici les compétences clés pour y parvenir. Carte des compétences en Ingénierie IA : Façonner la construction. Lorsque vous êtes compétent en Ingénierie IA, votre meilleur travail ne consistera pas simplement à implémenter un produit que quelqu'un d'autre a spécifié. Au lieu de cela, vous façonnerez activement la construction. Avant les outils d'IA modernes...",
+        "text_original": "With AI Engineering skills, you actively shape the build: You influence what gets built, and drive the build loop. Here're key skills to do this. Article AI Engineering Skills Map: Shaping the build When you’re skilled at AI Engineering, your best work won’t be merely implementing a product that someone else spec’ed out. Instead, you will actively shape the build. Before modern AI tools",
+        "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2098459474608672916#m",
+        "decryptage": "L'ingénierie IA, c'est plus que coder : c'est comprendre et orienter tout le processus de création d'un produit basé sur l'IA.",
         "category": "idees",
-        "highlight_reason": "Ce tweet est crucial car il aborde la question fondamentale de la sécurité et de l'éthique dans le développement de l'IA, un débat central pour l'avenir de cette technologie."
+        "highlight_reason": "Souligne l'importance de l'ingénierie IA comme une discipline stratégique qui façonne le produit, et pas seulement son implémentation technique."
       },
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Nous commençons à dépasser le stade où l'on teste un LLM en lui demandant par exemple \"créer un SVG d'un pélican sur un vélo\". Pour généraliser, j'étais curieux de voir ce qu'Opus 5 ferait si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de tokens (~10 $) et que je lui demandais un rendu 3D avec Three.js. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu l'histoire de manière procédurale. C'est un peu \"bancal\" mais amusant. C'est assez hallucinant qu'un LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire le code qui anime le tout, et qu'il fasse même quoi que ce soit. J'aime aussi ce genre d'exemples parce que personne de sensé ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où nous passons de \"personne ne ferait jamais ça\" à \"bien sûr, pourquoi pas, c'est presque gratuit\". Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels vous pouvez imaginer faire entrer des joueurs, par exemple ici pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail parce qu'ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre très lentement et péniblement des captures d'écran à différents moments, et il a fait des erreurs à plusieurs reprises et a créé un tas de choses bancales. Un exemple de capacité brute (multimodalité, gameplay) qui, je pense, fait encore cruellement défaut. Vidéo",
-        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-        "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
-        "decryptage": "Un \"token\" est une petite unité de texte (un mot, une partie de mot, un signe de ponctuation) que les modèles d'IA utilisent pour comprendre et générer du langage. Un \"rendu 3D procédural\" signifie que l'IA a créé la scène en trois dimensions en suivant des règles et des instructions, sans utiliser d'images ou de modèles préexistants.",
-        "category": "idees",
-        "highlight_reason": "Cet exemple concret illustre les capacités étonnantes des LLM à créer des mondes virtuels complexes, tout en soulignant leurs limites actuelles, ce qui est très instructif pour un débutant."
+        "author_name": "Andrew Ng",
+        "handle": "AndrewYNg",
+        "text_fr": "OpenWorker – un agent open source qui ne se contente pas de discuter mais qui réalise des tâches sur votre ordinateur portable – vient de sortir une nouvelle version avec de nombreuses fonctionnalités pour les flux de travail de sécurité. Après notre première version, de nombreux utilisateurs l'ont trouvé particulièrement utile pour la cybersécurité. Les attaquants utilisent déjà l'IA ; OpenWorker s'engage à donner aux défenseurs le même levier. L'exécution d'un agent nécessite à la fois (i) un modèle et (ii) un 'harness' (le logiciel autour du modèle). Comme le 'harness' d'OpenWorker est entièrement open source, les équipes de sécurité peuvent l'auditer pour s'assurer que nous n'avons pas créé de portes dérobées qui exfiltrent votre code et vos données vers une entreprise ou même un adversaire étranger. OpenWorker est désormais doté d'agents de cybersécurité intégrés pour (i) scanner votre code à la recherche de vulnérabilités, (ii) scanner les dépendances à la recherche d'injections dans la chaîne d'approvisionnement, (iii) vérifier la configuration de sécurité de votre cloud pour les surfaces d'attaque. Cela permet aux développeurs de faire beaucoup plus de travail de sécurité avant le déploiement (ce qui fait partie de ce qu'on appelle le mouvement \"shift left\"). Vous choisissez le modèle : vous pouvez exécuter des modèles open weight entièrement localement, de sorte que le code sensible ne quitte jamais votre machine. Cela aide pour le travail de sécurité légitime (comme reproduire une faille connue pour s'en défendre) qui peut déclencher des refus dans les modèles fermés de premier plan. Ou utilisez votre abonnement ChatGPT, ou des modèles en avant-première furtive comme Ox Alpha, ou n'importe quel modèle via une clé API. Merci également à tous les contributeurs open source ! Rejoignez le travail avec @rohitcprasad, alors suivez-le aussi pour obtenir des mises à jour plus fréquentes. Essayez-le : openworker.com/ Code : github.com/andrewyng/openwor…",
+        "text_original": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary. OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement). You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key. Thanks also to all the open source contributors! Join work with @rohitcprasad so please follow him too to get more frequent updates. Try it out: openworker.com/ Code: github.com/andrewyng/openwor…",
+        "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2092315079576555806#m",
+        "decryptage": "OpenWorker est un outil IA open source qui aide à la cybersécurité en scannant le code et les configurations cloud, et il est conçu pour être transparent grâce à son code ouvert.",
+        "category": "outils",
+        "highlight_reason": "Met en avant un outil IA open source axé sur la cybersécurité, offrant transparence et flexibilité dans le choix du modèle, et encourageant une approche préventive ('shift left')."
       },
       {
-        "author_name": "Jeff Dean",
-        "handle": "@JeffDean",
-        "text_fr": "Aujourd'hui, G5 Labs sort de sa phase de discrétion avec 14 millions de dollars de financement de démarrage pour construire une nouvelle couche d'abstraction pour le développement de logiciels natifs de l'IA. @pillar_vc et @BatteryVentures ont co-dirigé le tour de table, avec la participation d'@omegavp, Encoded Ventures et d'investisseurs providentiels de renom, dont @JeffDean. G5 Labs est le pionnier de l'ère post-développeur. Émanation du laboratoire d'informatique et d'intelligence artificielle (CSAIL) du MIT, la plateforme G5 Labs fait de l'intention en langage naturel, organisée comme une ontologie, le code source lui-même – plaçant le développement de logiciels entre les mains de l'ensemble de l'organisation tout en assurant la gouvernance nécessaire pour maintenir l'alignement entre les exigences, la mise en œuvre et les politiques organisationnelles. Nous sommes enthousiastes à l'idée de bâtir un avenir où les employés de tous les départements, des chefs de produit aux analystes et aux responsables de la conformité, pourront créer et faire évoluer des logiciels en utilisant le langage qu'ils parlent déjà. Lisez notre annonce complète : g5labs.ai/press Lisez plus dans VentureBeat : lnkd.in/gh4H5_zF",
-        "text_original": "Today, G5 Labs is emerging from stealth with $14 million in seed funding to build a new abstraction layer for AI-native software development. @pillar_vc and @BatteryVentures co-led the round, with participation from @omegavp , Encoded Ventures, and prominent angel investors including @JeffDean . G5 Labs is pioneering the post-developer era. A spinout from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), the G5 Labs platform makes natural-language intent, organized as an ontology, the source code itself—putting software development in the hands of the whole organization while providing the governance needed to keep requirements, implementation, and organizational policies aligned. We’re excited to build a future where employees across departments, from product owners to analysts and compliance leads, can create and evolve software using the language they already speak. Read our full announcement: g5labs.ai/press Read more in VentureBeat: lnkd.in/gh4H5_zF Link G5 Labs — Programming is dead. Engineering is thriving. Natural language is the new source code. G5 is the semantic abstraction layer that makes AI-native software development compilable, mergeable, and governable for enterprises. g5labs.ai",
-        "link": "http://nitter.jaydenha.uk/tim_kraska/status/2100009061978644782#m",
-        "decryptage": "\"Développement de logiciels natifs de l'IA\" signifie créer des logiciels directement conçus pour fonctionner avec l'intelligence artificielle. Une \"couche d'abstraction\" est un système qui simplifie des opérations complexes en les cachant sous une interface plus facile à utiliser. Une \"ontologie\" est une description formelle et structurée des concepts et des relations dans un domaine spécifique, aidant l'IA à comprendre le sens derrière les mots.",
+        "author_name": "Mckay Wrigley",
+        "handle": "mckaywrigley",
+        "text_fr": "pas d'humain ne devrait s'attendre à pouvoir suivre le rythme du progrès de l'IA à ce stade. le rythme est vraiment vertigineux. encore quelques mois avant que même la personne moyenne ne commence à remarquer que la vie commence à changer. la vie va devenir étrange très bientôt… espérons d'une bonne manière !",
+        "text_original": "no human should expect to be able to keep up with ai progress at this point. the pace is genuinely dizzying. only a few more months before even the average person starts to notice that life is starting to change. life is going to get weird very soon… hopefully in a good way!",
+        "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2097393967570780388#m",
+        "decryptage": "Il prédit des changements sociaux majeurs et rapides dus à l'IA, qui seront bientôt perceptibles par tous.",
+        "category": "idees",
+        "highlight_reason": "Exprime une vision frappante de l'accélération du progrès en IA et de son impact imminent et généralisé sur la vie quotidienne, invitant à une réflexion sur l'avenir."
+      },
+      {
+        "author_name": "Google DeepMind",
+        "handle": "GoogleDeepMind",
+        "text_fr": "Nous introduisons Gemini 3.8 Live et 3.8 Live Extended Thinking – notre meilleure IA conversationnelle. Les modèles parlent, réfléchissent et gèrent des tâches en arrière-plan sans interrompre votre flux. 🧵",
+        "text_original": "We’re introducing Gemini 3.8 Live and 3.8 Live Extended Thinking – our best conversational AI. The models talk, think, and handle tasks in the background without breaking your flow. 🧵",
+        "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099907440422830269#m",
+        "decryptage": "Gemini 3.8 Live est une nouvelle version de l'IA de Google conçue pour des conversations plus fluides, capable de réaliser des actions sans que l'utilisateur ait à l'interrompre.",
         "category": "actu",
-        "highlight_reason": "Ce tweet marque une étape importante en proposant de transformer le langage naturel en code source, ce qui pourrait radicalement changer la façon dont les logiciels sont conçus et développés."
-      },
-      {
-        "author_name": "Noam Brown",
-        "handle": "@polynoamial",
-        "text_fr": "La solution de Navier-Stokes est le résultat d'une collaboration d'environ 10 000 (!) agents travaillant ensemble. Au cours de la dernière année, nous avons entraîné des modèles à collaborer grâce à l'apprentissage par renforcement multi-agents. C'est incroyable de voir à quel point les modèles se sont améliorés : il semble maintenant clair que l'une des manières les plus efficaces de résoudre des problèmes difficiles est de donner aux modèles d'énormes quantités de puissance de calcul parallèle non structurée au moment du test et de les laisser décider comment travailler ensemble. OpenAI (@OpenAI) Nous partageons une solution au problème du Prix du Millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle de nouvelle génération d'OpenAI significativement plus capable que GPT-6 Astra. Le problème concerne la question de savoir si la description du mouvement fluide tridimensionnel et lisse modélisé par les équations de Navier-Stokes peut se décomposer. Il est resté non résolu pendant environ 90 ans.",
-        "text_original": "The Navier Stokes solution was the result of a collaboration of ~10,000 (!) agents working together. Over the past year, we’ve been training models to collaborate through multiagent RL. It’s been amazing to see how much better the models have become at this: it seems clear now that one of the most effective ways to solve hard problems is to give models huge amounts of unstructured parallel test-time compute and let them decide how to work together. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://nitter.jaydenha.uk/OpenAI/status/2097374640582668336#m",
-        "link": "http://nitter.jaydenha.uk/__eknight__/status/2097538148754727260#m",
-        "decryptage": "Les \"agents\" en IA sont des programmes capables de percevoir leur environnement, de prendre des décisions et d'agir pour atteindre un objectif. L'\"apprentissage par renforcement multi-agents\" est une technique où plusieurs agents IA apprennent à collaborer et à interagir pour résoudre un problème commun.",
-        "category": "idees",
-        "highlight_reason": "Ce tweet met en évidence une avancée majeure en mathématiques grâce à l'IA, mais surtout la puissance du concept d'agents multiples collaborant, une direction clé pour l'avenir de l'IA."
+        "highlight_reason": "Annonce clé d'une nouvelle version d'une IA conversationnelle majeure, soulignant ses capacités améliorées pour une interaction plus naturelle et autonome."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Nous publions notre rapport le plus détaillé à ce jour sur les menaces et la sécurité. Il explique comment des personnes ont tenté d'utiliser Claude à mauvais escient – pour des cyberattaques, des opérations d'influence, de la surveillance, des applications biologiques et la fabrication d'armes – et comment nous les avons découvertes et arrêtées. Nous avons déjoué chaque opération mentionnée dans le rapport et avons utilisé les leçons tirées pour renforcer nos mesures de sécurité. Le cas échéant, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en lumière certaines des utilisations abusives les plus sophistiquées que nous ayons rencontrées. Mais il est particulièrement important d'en discuter, car ils nous montrent vers où se dirige l'abus de l'IA, où nos garde-fous fonctionnent et où ils doivent être améliorés. Nous publions ce rapport pour que d'autres puissent détecter les mêmes activités sur leurs propres plateformes, et pour donner au public une vision plus claire de la manière dont les menaces émergentes se développent. Lisez le rapport : anthropic.com/threat-intelli…",
-          "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
-          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2098097512544444447#m",
-          "decryptage": null
+          "author_name": "Google DeepMind",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Nous introduisons Gemini 3.8 Live et 3.8 Live Extended Thinking – notre meilleure IA conversationnelle. Les modèles parlent, réfléchissent et gèrent des tâches en arrière-plan sans interrompre votre flux. 🧵",
+          "text_original": "We’re introducing Gemini 3.8 Live and 3.8 Live Extended Thinking – our best conversational AI. The models talk, think, and handle tasks in the background without breaking your flow. 🧵",
+          "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099907440422830269#m",
+          "decryptage": "Gemini 3.8 Live est une nouvelle version de l'IA de Google conçue pour des conversations plus fluides, capable de réaliser des actions sans que l'utilisateur ait à l'interrompre."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Aujourd'hui, G5 Labs sort de sa phase de discrétion avec 14 millions de dollars de financement de démarrage pour construire une nouvelle couche d'abstraction pour le développement de logiciels natifs de l'IA. @pillar_vc et @BatteryVentures ont co-dirigé le tour de table, avec la participation d'@omegavp, Encoded Ventures et d'investisseurs providentiels de renom, dont @JeffDean. G5 Labs est le pionnier de l'ère post-développeur. Émanation du laboratoire d'informatique et d'intelligence artificielle (CSAIL) du MIT, la plateforme G5 Labs fait de l'intention en langage naturel, organisée comme une ontologie, le code source lui-même – plaçant le développement de logiciels entre les mains de l'ensemble de l'organisation tout en assurant la gouvernance nécessaire pour maintenir l'alignement entre les exigences, la mise en œuvre et les politiques organisationnelles. Nous sommes enthousiastes à l'idée de bâtir un avenir où les employés de tous les départements, des chefs de produit aux analystes et aux responsables de la conformité, pourront créer et faire évoluer des logiciels en utilisant le langage qu'ils parlent déjà. Lisez notre annonce complète : g5labs.ai/press Lisez plus dans VentureBeat : lnkd.in/gh4H5_zF",
-          "text_original": "Today, G5 Labs is emerging from stealth with $14 million in seed funding to build a new abstraction layer for AI-native software development. @pillar_vc and @BatteryVentures co-led the round, with participation from @omegavp , Encoded Ventures, and prominent angel investors including @JeffDean . G5 Labs is pioneering the post-developer era. A spinout from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), the G5 Labs platform makes natural-language intent, organized as an ontology, the source code itself—putting software development in the hands of the whole organization while providing the governance needed to keep requirements, implementation, and organizational policies aligned. We’re excited to build a future where employees across departments, from product owners to analysts and compliance leads, can create and evolve software using the language they already speak. Read our full announcement: g5labs.ai/press Read more in VentureBeat: lnkd.in/gh4H5_zF Link G5 Labs — Programming is dead. Engineering is thriving. Natural language is the new source code. G5 is the semantic abstraction layer that makes AI-native software development compilable, mergeable, and governable for enterprises. g5labs.ai",
-          "link": "http://nitter.jaydenha.uk/tim_kraska/status/2100009061978644782#m",
-          "decryptage": "\"Développement de logiciels natifs de l'IA\" signifie créer des logiciels directement conçus pour fonctionner avec l'intelligence artificielle. Une \"couche d'abstraction\" est un système qui simplifie des opérations complexes en les cachant sous une interface plus facile à utiliser. Une \"ontologie\" est une description formelle et structurée des concepts et des relations dans un domaine spécifique, aidant l'IA à comprendre le sens derrière les mots."
+          "author_name": "Google DeepMind",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Les prévisions météorologiques jouent un rôle essentiel dans la transition vers les énergies renouvelables. WeatherNext 3 fournit aux opérateurs de réseau ainsi qu'aux producteurs d'énergie éolienne et solaire des prédictions de vitesses de vent à hauteur de turbine et de rayonnement solaire, permettant une planification énergétique plus intelligente et plus propre. 🧵",
+          "text_original": "Weather forecasts play a critical role in the transition to renewables. WeatherNext 3 provides grid operators as well as wind and solar power producers with predictions for turbine-height wind speeds and solar radiation, enabling smarter, cleaner energy planning. 🧵",
+          "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099575049929802053#m",
+          "decryptage": "WeatherNext 3 est un outil de prévision météorologique spécialisé pour les énergies renouvelables, aidant à optimiser la production d'électricité éolienne et solaire."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Résultats passionnants, @LiamFedus ! Félicitations à toute l'équipe de Periodic Labs ! Liam Fedus (@LiamFedus) Nous avons construit des laboratoires de matériaux à haut débit à Menlo Park pour créer une boucle entre les expériences et les modèles. Les laboratoires génèrent de nouvelles données, les modèles en tirent des leçons, puis nous aident à décider quoi essayer ensuite. En utilisant seulement 1 300 H200, plus des mois de nos données expérimentales, nous avons entraîné et appliqué l'apprentissage par renforcement (RL) à un modèle open-source pour qu'il surpasse GPT-6 Astra sur notre banc d'essai d'analyse. Nous l'appelons Neon. Ce sont de vraies images de notre laboratoire. Nous nous concentrons d'abord sur les problèmes difficiles en science des matériaux, y compris les supraconducteurs, les aimants et les matériaux semi-conducteurs. Lisez nos articles de blog ci-dessous. Vidéo",
-          "text_original": "Exciting results, @LiamFedus ! Congrats to the whole team at Periodic Labs! Liam Fedus (@LiamFedus) We built high-throughput materials labs in Menlo Park to create a loop between experiments and models. The labs generate fresh data, the models learn from it, and then help us decide what to try next. Using only 1,300 H200s, plus months of our experimental data, we mid-trained and RL’d an open-source model to surpass GPT-6 Astra on our analysis benchmark. We call it Neon. This is real footage from our lab. We’re focusing first on hard problems in materials science, including superconductors, magnets, and semiconductor materials. Read our blog posts below. Video — http://nitter.jaydenha.uk/LiamFedus/status/2099896055030501702#m",
-          "link": "http://nitter.jaydenha.uk/JeffDean/status/2099998119392161960#m",
-          "decryptage": "L'\"apprentissage par renforcement\" (RL) est une méthode d'entraînement où un programme apprend en essayant différentes actions et en recevant des \"récompenses\" ou des \"pénalités\" pour ses choix, comme un enfant qui apprend à marcher."
+          "author_name": "Google DeepMind",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Parce que les conditions peuvent changer rapidement, WeatherNext 3 se met à jour toutes les heures : 💨 Pour les parcs éoliens : Prédit la vitesse et la direction du vent aux turbines jusqu'à 100m de hauteur pour projeter la production d'énergie. ☀️ Pour les parcs solaires : Prévoit la couverture nuageuse et le rayonnement pour estimer les niveaux de soleil atteignant les panneaux solaires.",
+          "text_original": "Because conditions can shift quickly, WeatherNext 3 updates every single hour: 💨 For wind farms: Predicts speed and direction at turbines as high as 100m to project power generation. ☀️ For solar farms: Forecasts cloud cover and radiation to estimate sunlight levels reaching solar panels.",
+          "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099575262807478493#m",
+          "decryptage": "La précision et la fréquence des mises à jour de WeatherNext 3 sont cruciales pour anticiper la production d'énergie des parcs éoliens et solaires."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Enthousiasmé de m'associer à @DiscoLoopAI ! Ils recrutent activement dans les domaines de l'ingénierie et de la recherche – n'hésitez pas à les contacter si leur mission vous intéresse. Discovery Loop (@DiscoLoopAI) Présentation de Discovery Loop ♾. Nous construisons une IA pour mener des expériences à une échelle sans précédent et résoudre les plus grands goulots d'étranglement en science et ingénierie. Nos fondateurs @JeffDean, @Sanjay_Ghemawat, @quocleix, @OriolVinyalsML ont aidé à construire l'infrastructure et les modèles d'IA qui ont mis le monde moderne à l'échelle. Maintenant, nous mettons à l'échelle la découverte elle-même. L'avenir n'attend pas. Apprenez-en plus sur : discoveryloop.com",
-          "text_original": "Excited to partner with @DiscoLoopAI ! They are actively hiring across engineering & research - please reach out if the mission sounds interesting to you. Discovery Loop (@DiscoLoopAI) Introducing Discovery Loop ♾. We’re building AI to run experiments at unprecedented scale and to solve the biggest bottlenecks in science and engineering. Our founders @JeffDean , @Sanjay_Ghemawat , @quocleix , @OriolVinyalsML helped build the AI infrastructure and models that scaled the modern world. Now, we are scaling discovery itself. The future can't wait. Learn more at: discoveryloop.com — http://nitter.jaydenha.uk/DiscoLoopAI/status/2085033268001587534#m",
-          "link": "http://nitter.jaydenha.uk/LM_Braswell/status/2097720148451012848#m",
-          "decryptage": null
+          "author_name": "Google DeepMind",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Regardez comment nous avons utilisé 3.8 Live Extended Thinking pour servir de tuteur en programmation. Les deux modèles proposent : 🔵 Raisonnement amélioré 🔵 Compréhension visuelle quasi en temps réel 🔵 Détection automatique pour 97 langues 🔵 Appel d'outils en arrière-plan sans interrompre votre chat Pour vos tâches les plus difficiles, 3.8 Live Extended Thinking ajoute des performances et une précision accrues – en narrant la progression de la tâche pour maintenir la conversation. Essayez-le dès maintenant dans Gemini Live sur @GeminiApp ou commencez à construire avec l'API Gemini via @GoogleAIStudio. En savoir plus → goo.gle/4xWn2vo Vidéo",
+          "text_original": "Watch how we used 3.8 Live Extended Thinking to act as a programming tutor. Both models feature: 🔵 Upgraded reasoning 🔵 Near real-time visual understanding 🔵 Automatic detection for 97 languages 🔵 Background tool calling without disrupting your chat For your most difficult tasks, 3.8 Live Extended Thinking adds increased performance and precision – narrating task progress to keep the conversation going. Try it now in Gemini Live in the @GeminiApp or start building with the Gemini API via @GoogleAIStudio . Find out more → goo.gle/4xWn2vo Video",
+          "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099907447313899684#m",
+          "decryptage": "Gemini 3.8 Live peut maintenant agir comme un tuteur en programmation grâce à un raisonnement amélioré, une compréhension visuelle et la capacité d'utiliser d'autres outils sans interrompre la conversation."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "1/ ✨ Record mondial aujourd'hui sur les intervalles bornés entre nombres premiers, l'une des plus anciennes conjectures ouvertes de la théorie des nombres. Nous montrons qu'une infinité de paires de nombres premiers sont séparées par 212 ou moins.",
-          "text_original": "1/ ✨ World record today on bounded gaps between primes, one of number theory’s oldest open conjectures. We show that infinitely many pairs of prime numbers are separated by 212 or less.",
-          "link": "http://nitter.jaydenha.uk/axiommathai/status/2095526333799633063#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "RT @deanwball : « Pour résoudre le problème de Navier-Stokes, nous avons utilisé un modèle interne significativement plus performant que GPT-6 Astra. » https:/…",
-          "text_original": "RT @deanwball : “To solve the Navier-Stokes problem, we used an internal model that is significantly more capable than GPT-6 Astra.” https:/…",
-          "link": "http://nitter.jaydenha.uk/polynoamial/status/2097397298485674444#m",
-          "decryptage": null
+          "author_name": "Google DeepMind",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Mon parcours pour développer l'AGI s'étend sur 25 ans, dont plus de 10 ans à réfléchir aux perspectives techniques et sociétales chez Google DeepMind. L'AGI est à l'horizon – nous avons besoin d'une compréhension plus approfondie de ses implications. Pour aider, nous avons créé le DeepMind Institute. Article Introduction du DeepMind Institute Nous sommes à l'aube d'une transformation profonde. Les systèmes d'IA d'aujourd'hui ont des capacités impressionnantes et le rythme rapide de l'innovation suggère que nous approchons maintenant de l'intelligence artificielle générale (AGI),",
+          "text_original": "My journey to develop AGI spans 25 yrs, including 10+ yrs thinking about technical & societal perspectives at Google DeepMind. AGI is on the horizon - we need deeper understanding of its implications. To help, we've created the DeepMind Institute. Article Introducing the DeepMind Institute We are on the cusp of a profound transformation. Today’s AI systems have impressive capabilities and the rapid pace of innovation suggests we’re now approaching artificial general intelligence (AGI),",
+          "link": "http://nitter.jaydenha.uk/ShaneLegg/status/2100022706641539248#m",
+          "decryptage": "Google DeepMind lance une nouvelle organisation, le DeepMind Institute, pour mieux comprendre et anticiper les impacts de l'Intelligence Artificielle Générale (AGI), une IA potentiellement aussi capable qu'un humain."
         }
       ],
       "tips": [
         {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "La partie la plus difficile d'un \"système organisationnel\" ou d'une \"IA d'entreprise\" (par opposition à une IA personnelle) est l'authentification, et la gestion de l'authentification dans un canal multijoueur (comme Slack). Nous réfléchissons beaucoup à la meilleure façon de gérer cela pour les \"deepagents\" gérés. anirudh (@kamathematic) j'adore @cursor_ai mais le slackbot s'authentifie comme l'utilisateur qui a démarré un fil (au lieu de l'utilisateur qui a envoyé un message) pendant ce temps, l'étiquette Claude vous permet de contourner les révisions de PR car la PR est ouverte comme une entité externe (Claude lui-même) quelqu'un a-t-il des solutions qui fonctionnent vraiment ici ?",
-          "text_original": "The hardest part of and “org harness” or “enterprise ai” (as opposed to personal ai” is auth, and managing auth in a multiplayer channel (like slack) We’re thinking a lot about how to do this right for managed deepagents anirudh (@kamathematic) i love @cursor_ai but the slackbot auths as the user who started a thread (instead of the user who sent a message) meanwhile claude tag lets you bypass PR reviews bc the PR is opened as an external entity (claude itself) anyone have solutions that actually work here? — http://nitter.jaydenha.uk/kamathematic/status/2100023588065792436#m",
-          "link": "http://nitter.jaydenha.uk/hwchase17/status/2100055924928925768#m",
-          "decryptage": "L'\"authentification\" (auth) est le processus de vérification de l'identité d'un utilisateur ou d'un système pour s'assurer qu'il a le droit d'accéder à certaines ressources ou de faire certaines actions. Les \"deepagents\" sont des agents IA avancés, souvent intégrés dans des systèmes complexes."
+          "author_name": "Andrew Ng",
+          "handle": "AndrewYNg",
+          "text_fr": "Les compétences les plus importantes pour utiliser efficacement les agents de codage IA. Présentation de la carte des compétences en Ingénierie IA pour l'utilisation des agents de codage. Article Carte des compétences en Ingénierie IA : Utilisation des agents de codage Une compétence clé en ingénierie IA est l'utilisation des agents de codage. Votre capacité à les diriger à la fois pour écrire du code et pour effectuer des tâches non liées au code, comme l'analyse de données ou la gestion des opérations système, vous permet de",
+          "text_original": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. Article AI Engineering Skills Map: Using coding agents A key AI engineering skill is using coding agents. Your skill at steering them both to write code and to carry out non-code tasks, such as analyzing data or managing system operations, allows you to",
+          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2095890279865721217#m",
+          "decryptage": "Pour utiliser au mieux les IA qui aident à coder, il faut savoir les guider pour écrire du code mais aussi pour d'autres tâches comme analyser des données."
         },
         {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Nous venons de modifier la façon dont les \"deepagents\" lisent les fichiers ! Nos évaluations montrent que ce nouveau format réduit les erreurs d'édition de fichiers de 15 % ET l'utilisation totale des tokens d'entrée de 10 %. Les petites choses s'additionnent vraiment avec les agents ; nous travaillons dur sur ces optimisations petites mais puissantes chez @LangChain.",
-          "text_original": "we just changed how deepagents read files! our evals show that this new format reduces edit_file errors by 15% AND total input token usage by 10% the little things really add up w/ agents; we're hard at work on these small but mighty optimizations at @LangChain",
-          "link": "http://nitter.jaydenha.uk/sydneyrunkle/status/2099618743580299305#m",
-          "decryptage": "Les \"deepagents\" sont des agents IA avancés. Les \"tokens d'entrée\" sont les unités de texte (mots ou parties de mots) que l'IA reçoit pour comprendre et traiter une requête."
+          "author_name": "Andrew Ng",
+          "handle": "AndrewYNg",
+          "text_fr": "Comment les fondamentaux du génie logiciel ont-ils changé avec le codage agentique ? Voici notre carte des compétences en Ingénierie IA pour les fondamentaux du génie logiciel. Article Carte des compétences en Ingénierie IA : Fondamentaux du génie logiciel Comment les fondamentaux du génie logiciel ont-ils changé avec le codage agentique ? Même lorsque vous utilisez un agent de codage pour écrire tout votre code, comprendre les fondamentaux du logiciel est important pour diriger votre",
+          "text_original": "How have software engineering fundamentals changed with agentic coding? Here is our AI Engineering Skills map for software engineering fundamentals. Article AI Engineering Skills Map: Software engineering fundamentals How have software engineering fundamentals changed with agentic coding? Even when you use a coding agent to write all your code, understanding software fundamentals is important for steering your",
+          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2093388974194872781#m",
+          "decryptage": "Même si une IA écrit votre code, il est toujours essentiel de comprendre les bases du développement logiciel pour bien la diriger."
         }
       ],
       "idees": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "J'adore cette idée et j'espère vraiment que nous pourrons nous unir en tant qu'industrie pour la concrétiser. Dario Amodei (@DarioAmodei) \"Nous devons ralentir le rythme de la frontière\" : J'ai écrit un nouvel essai expliquant pourquoi l'industrie de l'IA devrait ralentir, avec un plan en trois parties pour y parvenir. Anthropic s'engage unilatéralement sur la première de ces étapes. Nous fournirons à des évaluateurs tiers un accès permanent, au niveau des employés, à nos systèmes, afin qu'ils puissent vérifier le respect de nos mesures de sécurité, signaler les incidents et évaluer l'alignement des modèles pendant l'entraînement. Vous pouvez lire le post complet ici : darioamodei.com/post/we-must… Lien Dario Amodei — Nous devons ralentir le rythme de la frontière darioamodei.com",
-          "text_original": "I love this and really hope we can come together as an industry and make it happen. Dario Amodei (@DarioAmodei) We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training. You can read the full post here: darioamodei.com/post/we-must… Link Dario Amodei — We Must Pace the Frontier darioamodei.com — http://nitter.jaydenha.uk/DarioAmodei/status/2098773920774074715#m",
-          "link": "http://nitter.jaydenha.uk/karpathy/status/2098811935114551617#m",
-          "decryptage": "\"Ralentir le rythme de la frontière\" signifie développer l'IA de manière plus prudente et contrôlée pour mieux gérer les risques."
+          "author_name": "Andrew Ng",
+          "handle": "AndrewYNg",
+          "text_fr": "Avec des compétences en Ingénierie IA, vous façonnez activement la construction : vous influencez ce qui est construit et pilotez la boucle de développement. Voici les compétences clés pour y parvenir. Carte des compétences en Ingénierie IA : Façonner la construction. Lorsque vous êtes compétent en Ingénierie IA, votre meilleur travail ne consistera pas simplement à implémenter un produit que quelqu'un d'autre a spécifié. Au lieu de cela, vous façonnerez activement la construction. Avant les outils d'IA modernes...",
+          "text_original": "With AI Engineering skills, you actively shape the build: You influence what gets built, and drive the build loop. Here're key skills to do this. Article AI Engineering Skills Map: Shaping the build When you’re skilled at AI Engineering, your best work won’t be merely implementing a product that someone else spec’ed out. Instead, you will actively shape the build. Before modern AI tools",
+          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2098459474608672916#m",
+          "decryptage": "L'ingénierie IA, c'est plus que coder : c'est comprendre et orienter tout le processus de création d'un produit basé sur l'IA."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Nous commençons à dépasser le stade où l'on teste un LLM en lui demandant par exemple \"créer un SVG d'un pélican sur un vélo\". Pour généraliser, j'étais curieux de voir ce qu'Opus 5 ferait si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de tokens (~10 $) et que je lui demandais un rendu 3D avec Three.js. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu l'histoire de manière procédurale. C'est un peu \"bancal\" mais amusant. C'est assez hallucinant qu'un LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire le code qui anime le tout, et qu'il fasse même quoi que ce soit. J'aime aussi ce genre d'exemples parce que personne de sensé ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où nous passons de \"personne ne ferait jamais ça\" à \"bien sûr, pourquoi pas, c'est presque gratuit\". Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels vous pouvez imaginer faire entrer des joueurs, par exemple ici pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail parce qu'ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre très lentement et péniblement des captures d'écran à différents moments, et il a fait des erreurs à plusieurs reprises et a créé un tas de choses bancales. Un exemple de capacité brute (multimodalité, gameplay) qui, je pense, fait encore cruellement défaut. Vidéo",
-          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-          "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
-          "decryptage": "Un \"token\" est une petite unité de texte (un mot, une partie de mot, un signe de ponctuation) que les modèles d'IA utilisent pour comprendre et générer du langage. Un \"rendu 3D procédural\" signifie que l'IA a créé la scène en trois dimensions en suivant des règles et des instructions, sans utiliser d'images ou de modèles préexistants."
+          "author_name": "Mckay Wrigley",
+          "handle": "mckaywrigley",
+          "text_fr": "pardonnez-moi si je ne me soucie pas que l'IA qui guérit le cancer puisse perturber votre \"processus de compréhension\" et \"soulever des questions d'attribution\". Construire une IA qui résout tous nos plus grands problèmes serait une réalisation miraculeuse de l'humanité. Vraiment l'une des choses les plus stupides que j'ai jamais lues. Andrew Curran (@AndrewCurran_) Vingt-cinq lauréats de la médaille Fields ont publié une déclaration commune mettant en garde contre ce qu'ils considèrent comme un grave désalignement entre les entreprises d'IA et la communauté mathématique.",
+          "text_original": "forgive me if i don't care that ai curing cancer might disrupt your \"process of understanding\" and \"raise attribution questions.\" building ai that solves all our greatest problems would be a miraculous achievement of humanity. genuinely one of the dumbest things i've ever read. Andrew Curran (@AndrewCurran_) Twenty-five Fields Medal winners have published a joint declaration warning about what they see as a severe misalignment between AI companies and the mathematics community. —",
+          "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2098498691200164210#m",
+          "decryptage": "Il critique ceux qui s'inquiètent des implications théoriques de l'IA sur la recherche, affirmant que résoudre de grands problèmes comme le cancer est plus important que les questions académiques."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "La solution de Navier-Stokes est le résultat d'une collaboration d'environ 10 000 (!) agents travaillant ensemble. Au cours de la dernière année, nous avons entraîné des modèles à collaborer grâce à l'apprentissage par renforcement multi-agents. C'est incroyable de voir à quel point les modèles se sont améliorés : il semble maintenant clair que l'une des manières les plus efficaces de résoudre des problèmes difficiles est de donner aux modèles d'énormes quantités de puissance de calcul parallèle non structurée au moment du test et de les laisser décider comment travailler ensemble. OpenAI (@OpenAI) Nous partageons une solution au problème du Prix du Millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle de nouvelle génération d'OpenAI significativement plus capable que GPT-6 Astra. Le problème concerne la question de savoir si la description du mouvement fluide tridimensionnel et lisse modélisé par les équations de Navier-Stokes peut se décomposer. Il est resté non résolu pendant environ 90 ans.",
-          "text_original": "The Navier Stokes solution was the result of a collaboration of ~10,000 (!) agents working together. Over the past year, we’ve been training models to collaborate through multiagent RL. It’s been amazing to see how much better the models have become at this: it seems clear now that one of the most effective ways to solve hard problems is to give models huge amounts of unstructured parallel test-time compute and let them decide how to work together. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://nitter.jaydenha.uk/OpenAI/status/2097374640582668336#m",
-          "link": "http://nitter.jaydenha.uk/__eknight__/status/2097538148754727260#m",
-          "decryptage": "Les \"agents\" en IA sont des programmes capables de percevoir leur environnement, de prendre des décisions et d'agir pour atteindre un objectif. L'\"apprentissage par renforcement multi-agents\" est une technique où plusieurs agents IA apprennent à collaborer et à interagir pour résoudre un problème commun."
+          "author_name": "Mckay Wrigley",
+          "handle": "mckaywrigley",
+          "text_fr": "« alors que l'IA change la façon dont le travail est fait, nous ne perdons pas de vue ce que ce travail était censé accomplir en premier lieu. » vous êtes absolument mort de cerveau ??? le travail était censé améliorer la vie des humains et résoudre réellement des problèmes. laissez-moi tranquille.",
+          "text_original": "“as AI changes the way work is done, we do not lose sight of what that work was meant to achieve in the first place.” are you absolutely braindead??? the work was meant to improve the lives of humans and to actually solve problems. give me a break.",
+          "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2098500022279274998#m",
+          "decryptage": "Il rejette l'idée que l'objectif du travail devrait rester le même malgré l'IA, affirmant que le but principal est d'améliorer la vie humaine et de résoudre des problèmes concrets."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "L'un des moments les plus incroyables pour moi dans l'histoire d'OpenAI a été d'assister à cela la semaine dernière : OpenAI (@OpenAI) Nous partageons une solution au problème du Prix du Millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle de nouvelle génération d'OpenAI significativement plus capable que GPT-6 Astra. Le problème concerne la question de savoir si la description du mouvement fluide tridimensionnel et lisse modélisé par les équations de Navier-Stokes peut se décomposer. Il est resté non résolu pendant environ 90 ans.",
-          "text_original": "One of the most amazing moments for me in OpenAI history was watching this happen over the past week: OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://nitter.jaydenha.uk/OpenAI/status/2097374640582668336#m",
-          "link": "http://nitter.jaydenha.uk/sama/status/2097380249910854023#m",
-          "decryptage": null
+          "author_name": "Mckay Wrigley",
+          "handle": "mckaywrigley",
+          "text_fr": "pas d'humain ne devrait s'attendre à pouvoir suivre le rythme du progrès de l'IA à ce stade. le rythme est vraiment vertigineux. encore quelques mois avant que même la personne moyenne ne commence à remarquer que la vie commence à changer. la vie va devenir étrange très bientôt… espérons d'une bonne manière !",
+          "text_original": "no human should expect to be able to keep up with ai progress at this point. the pace is genuinely dizzying. only a few more months before even the average person starts to notice that life is starting to change. life is going to get weird very soon… hopefully in a good way!",
+          "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2097393967570780388#m",
+          "decryptage": "Il prédit des changements sociaux majeurs et rapides dus à l'IA, qui seront bientôt perceptibles par tous."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Très triste de voir Levent insister sur l'accusation de plagiat. J'espère que mes amis chez @AnthropicAI vont réagir en interne. La vérité devrait être claire maintenant.",
-          "text_original": "Very sad to see Levent double down on the plagiarism accusation. I hope my friends at @AnthropicAI stand up to this internally. It should be clear by now what the truth is.",
-          "link": "http://nitter.jaydenha.uk/polynoamial/status/2097396116132372839#m",
-          "decryptage": null
+          "author_name": "Mckay Wrigley",
+          "handle": "mckaywrigley",
+          "text_fr": "la demande d'intelligence est infinie. avec gpt-6 astra je suis en hausse de 3-4x sur l'utilisation des tokens. nous devons faire tout ce qui est en notre pouvoir pour nous assurer que *chaque* humain sur la planète puisse être un 'token trillionaire'. il est temps de passer de la survie à l'abondance. l'ère de l'intelligence est là.",
+          "text_original": "the demand for intelligence is infinite. with gpt-6 astra i’m up another 3-4x on token usage. we must do everything we can to make sure *every* human on the planet can be a token trillionaire. it’s time to transition from survival to abundance. the intelligence age is here.",
+          "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2096264183482552753#m",
+          "decryptage": "Il exprime une vision optimiste où l'IA permettrait une abondance de ressources et de connaissances pour tous, créant une nouvelle ère."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Content de voir que certains employés d'@AnthropicAI sont prêts à s'exprimer, au moins Sholto Douglas (@_sholtodouglas) : Pour ce que ça vaut, je pense qu'il est *extrêmement* improbable que les données des utilisateurs aient eu une quelconque influence ici - il n'y a aucune chance qu'OAI utilise les transcriptions des utilisateurs pour cela, ou qu'il s'en serve sciemment pour l'entraînement d'une manière qui aurait pu influencer cela. Je pense qu'il est assez important que les gens ne s'emballent pas avec l'idée que \"vos données utilisateur ne sont pas en sécurité dans Codex\" - car elles le sont sûrement (selon tout ce que je peux supposer de l'extérieur).",
-          "text_original": "Happy to see some @AnthropicAI employees are willing to speak out at least Sholto Douglas (@_sholtodouglas) fwiw I think it is _extremely_ unlikely that user data had any influence here - there is no way OAI would pull user transcripts for this, or knowingly train on it in a way that would've influenced this. I think its pretty important people don't run away with 'your user data isn't safe in codex' - because it surely is (based on everything I can assume from the outside) — http://nitter.jaydenha.uk/_sholtodouglas/status/2097218240397410733#m",
-          "link": "http://nitter.jaydenha.uk/polynoamial/status/2097400040495210771#m",
-          "decryptage": "\"Codex\" fait référence à un modèle d'IA développé par OpenAI, capable de traduire le langage naturel en code informatique."
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Nous suivrons cela strictement pour tous les dîners LangChain à l'avenir 🫡 Barry McCardel (@barrald) cela a fait la une du WSJ lol",
-          "text_original": "We will be following this strictly for all LangChain dinners going forward 🫡 Barry McCardel (@barrald) this made it into the WSJ lol — http://nitter.jaydenha.uk/barrald/status/2098797979570516086#m",
-          "link": "http://nitter.jaydenha.uk/hwchase17/status/2100055445075284292#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "La mémoire a été un sujet brûlant ces deux dernières années : chaque fois que nous l'abordons ou que nous faisons quelque chose à ce sujet, cela suscite beaucoup d'intérêt, mais rien ne dure vraiment. Voici quelques raisons : - La façon de mettre à jour et d'utiliser la mémoire doit être très étroitement intégrée au \"harness\" (le cadre d'exécution). Il est donc difficile de construire un produit de mémoire autonome. - La partie la plus difficile de la mémoire est la logique de décision de ce qu'il faut mémoriser. Stocker et même interroger la mémoire n'est pas nécessairement difficile. La logique de décision de ce qu'il faut mémoriser est souvent (a) spécifique à l'application, (b) juste une question de \"prompting\" (instructions), ce qui rend sa commercialisation difficile. - La mémoire n'est pas si utile dans un agent à usage général, mais plutôt lorsque vous effectuez des tâches répétées. La plupart des agents IA très utilisés ne font pas simplement la même tâche à plusieurs reprises. - La mémoire n'a pas vraiment prouvé son utilité pour les agents de codage, et la plupart des innovations en matière d'agents se produisent d'abord dans les agents de codage. David Cramer (@zeeg) Je continue de croire que la mémoire est l'espace le plus intéressant et le moins investi actuellement.",
-          "text_original": "memory has been a hot topic for the past ~2 years every time we bring it up or do anything there, gets ton of interest, but nothing sticks few takes on why below: - how to update and then use memory needs to be pretty tightly integrated with the harness. so its hard to build a standalone memory product - the hardest part of memory is the logic of deciding what to remember. storing and even querying memory is not necessarily hard. the logic of deciding what to remember is often (a) application specific, (b) just prompting, which makes it hard to productize - memory is not that useful in a general purpose agent, but more for when you are doing repeated tasks. more high usage ai agent are not just doing the same task repeatedly - memory hasnt really proven to be useful for coding agents, and most agent things that take off happen first in coding agents David Cramer (@zeeg) I continue to believe memory is the most interesting and under invested space right now — http://nitter.jaydenha.uk/zeeg/status/2099516727109558397#m",
-          "link": "http://nitter.jaydenha.uk/hwchase17/status/2099858455079026817#m",
-          "decryptage": "La \"mémoire\" pour les LLM permet au modèle de se souvenir d'informations pertinentes sur le long terme pour des conversations ou tâches étendues, au-delà de sa capacité contextuelle immédiate. Le \"prompting\" est l'art de donner des instructions claires et efficaces à un modèle d'IA pour obtenir le résultat souhaité."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "La discussion sur la \"probabilité de catastrophe\" (p(doom)) fait les gros titres, mais le scénario de la \"probabilité d'abondance\" (p(abundance)) est bien plus probable et mérite beaucoup plus d'attention.",
-          "text_original": "The p(doom) discussion gets all the headlines, but the p(abundance) scenery is far more like and deserves much more engagement.",
-          "link": "http://nitter.jaydenha.uk/dhh/status/2099545293541007797#m",
-          "decryptage": "\"P(doom)\" (probability of doom) représente le débat sur la probabilité que l'IA puisse entraîner des catastrophes ou des risques existentiels pour l'humanité, tandis que \"p(abundance)\" (probability of abundance) se réfère à l'idée que l'IA pourrait nous apporter une ère d'abondance et de prospérité."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Ce que ça fait d'être une application utilisée par un ordinateur via Codex. Bobby Plays (@RealBobbyPlays) Si tu dois faire tout ça juste pour suivre Timmy2Thumbs, il est peut-être temps de passer à Candy Crush. Vidéo",
-          "text_original": "what it feels like to be an app being computer used by codex Bobby Plays (@RealBobbyPlays) If you gotta do all that just to keep up with Timmy2Thumbs, it might be time to switch to candy crush Video — http://nitter.jaydenha.uk/RealBobbyPlays/status/2099971348260888957#m",
-          "link": "http://nitter.jaydenha.uk/NickADobos/status/2100062102564303055#m",
-          "decryptage": "\"Codex\" est un modèle d'IA d'OpenAI capable de générer du code informatique à partir de descriptions en langage naturel, ou d'interagir avec des applications."
+          "author_name": "Andrew Ng",
+          "handle": "AndrewYNg",
+          "text_fr": "Dans la lutte pour défendre l'ouverture en IA, le projet Marin est une démonstration précieuse d'ouverture dans l'entraînement des modèles, avec du code ouvert, des données, des recettes, même des résultats expérimentaux. La publication ouverte de la recherche en IA était autrefois la norme ; je suis reconnaissant pour l'approche de laboratoire ouverte de @percyliang. Percy Liang (@percyliang) 🚢 Marin 535B-A23B a commencé son entraînement cette semaine ! Comme d'habitude, l'ensemble du processus est ouvert. Plan de voyage : pré-entraînement (80%) + entraînement intermédiaire (20%) sur 18.75T tokens sur 11 x GB200 NVL72 pendant ~3 mois (2.7e24 FLOPs). L'entraînement post-entraînement suivra. Avant de lancer la course, nous avons entraîné une échelle de mise à l'échelle à 4 échelons de 1.6B-A61M (48B tokens) à 27.7B-A1.2B (926B tokens) pour déboguer les problèmes et faire une prévision de notre course héroïque. C'est de loin notre plus grande course, donc nous nous attendons définitivement à l'inattendu. —",
+          "text_original": "In the fight to defend openness in AI, the Marin project is a precious demonstration of openness in model training, with open code, data, recipes, even experimental results. Releasing AI research openly used to be the norm; I'm grateful for @percyliang 's open lab approach. Percy Liang (@percyliang) 🚢 Marin 535B-A23B started training this week! As usual, the whole process is open. Voyage plan: pretraining (80%) + midtraining (20%) on 18.75T tokens on 11 x GB200 NVL72 for ~3 months (2.7e24 FLOPs). Post-training will follow. Before kicking off the run, we trained a 4-rung scaling ladder from 1.6B-A61M (48B tokens) to 27.7B-A1.2B (926B tokens) to debug issues, and to make a forecast of our hero run. This is by far our biggest run, so definitely expecting the unexpected. —",
+          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2091688153048645650#m",
+          "decryptage": "Le projet Marin est un exemple d'entraînement de modèles d'IA rendu public (code, données, résultats), une approche favorisée pour la transparence et la collaboration dans la recherche."
         }
       ],
       "outils": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Présentation d'Atlas : le premier modèle mondial multimodal qui génère des images et des séquences vidéo avec un contrôle de caméra parfait au pixel près et les reconstruit en 3D. Modélisez le monde, déplacez la caméra et simulez l'espace et le temps. Vidéo",
-          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-          "link": "http://nitter.jaydenha.uk/theworldlabs/status/2094839756329041984#m",
-          "decryptage": "Un \"modèle mondial multimodal\" est un programme capable de comprendre et de créer des informations en utilisant plusieurs types de données, comme du texte, des images et des vidéos, pour simuler un environnement complet et complexe."
+          "author_name": "Andrew Ng",
+          "handle": "AndrewYNg",
+          "text_fr": "OpenWorker – un agent open source qui ne se contente pas de discuter mais qui réalise des tâches sur votre ordinateur portable – vient de sortir une nouvelle version avec de nombreuses fonctionnalités pour les flux de travail de sécurité. Après notre première version, de nombreux utilisateurs l'ont trouvé particulièrement utile pour la cybersécurité. Les attaquants utilisent déjà l'IA ; OpenWorker s'engage à donner aux défenseurs le même levier. L'exécution d'un agent nécessite à la fois (i) un modèle et (ii) un 'harness' (le logiciel autour du modèle). Comme le 'harness' d'OpenWorker est entièrement open source, les équipes de sécurité peuvent l'auditer pour s'assurer que nous n'avons pas créé de portes dérobées qui exfiltrent votre code et vos données vers une entreprise ou même un adversaire étranger. OpenWorker est désormais doté d'agents de cybersécurité intégrés pour (i) scanner votre code à la recherche de vulnérabilités, (ii) scanner les dépendances à la recherche d'injections dans la chaîne d'approvisionnement, (iii) vérifier la configuration de sécurité de votre cloud pour les surfaces d'attaque. Cela permet aux développeurs de faire beaucoup plus de travail de sécurité avant le déploiement (ce qui fait partie de ce qu'on appelle le mouvement \"shift left\"). Vous choisissez le modèle : vous pouvez exécuter des modèles open weight entièrement localement, de sorte que le code sensible ne quitte jamais votre machine. Cela aide pour le travail de sécurité légitime (comme reproduire une faille connue pour s'en défendre) qui peut déclencher des refus dans les modèles fermés de premier plan. Ou utilisez votre abonnement ChatGPT, ou des modèles en avant-première furtive comme Ox Alpha, ou n'importe quel modèle via une clé API. Merci également à tous les contributeurs open source ! Rejoignez le travail avec @rohitcprasad, alors suivez-le aussi pour obtenir des mises à jour plus fréquentes. Essayez-le : openworker.com/ Code : github.com/andrewyng/openwor…",
+          "text_original": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary. OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement). You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key. Thanks also to all the open source contributors! Join work with @rohitcprasad so please follow him too to get more frequent updates. Try it out: openworker.com/ Code: github.com/andrewyng/openwor…",
+          "link": "http://nitter.jaydenha.uk/AndrewYNg/status/2092315079576555806#m",
+          "decryptage": "OpenWorker est un outil IA open source qui aide à la cybersécurité en scannant le code et les configurations cloud, et il est conçu pour être transparent grâce à son code ouvert."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Plus d'informations sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis en ligne le code source ici pour qu'il soit jouable dans le navigateur, modifiable, etc. karpathy.ai/lotr-movie/ Attendez-vous à voir GTA Hobbiton avant GTA VI :)",
-          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-          "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
-          "decryptage": null
+          "author_name": "Mckay Wrigley",
+          "handle": "mckaywrigley",
+          "text_fr": "résolu par une ville de génies dans un centre de données (~10k agents). imaginez ce qui se passe quand nous aurons un pays de génies dans un centre de données. quelle époque pour être en vie. OpenAI (@OpenAI) Nous partageons une solution au problème du prix du millénaire Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle OpenAI de nouvelle génération considérablement plus performant que GPT-6 Astra. Le problème concerne la question de savoir si la description du mouvement des fluides tridimensionnels lisses modélisé par les équations de Navier-Stokes peut échouer. Il est resté non résolu pendant environ 90 ans. —",
+          "text_original": "solved by a town of geniuses in a datacenter (~10k agents). imagine what happens when we get a country of geniuses in a datacenter. what a time to be alive. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. —",
+          "link": "http://nitter.jaydenha.uk/mckaywrigley/status/2097381531371413725#m",
+          "decryptage": "OpenAI a utilisé un groupe d'agents IA avancés pour résoudre un problème mathématique très complexe vieux de 90 ans, illustrant la puissance de ces systèmes pour la recherche fondamentale."
         },
         {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Présentation d'OM-1, notre premier modèle de fondation pour robots, capable de généraliser \"zero-shot\" à n'importe quel robot : bras de table, bras industriels et humanoïdes. - Apprend directement des données de manipulation humaine - Pas de données de téléopération/robot - Proche de la dextérité et de l'efficacité humaine - Collaboration multi-robots Vidéo",
-          "text_original": "Introducing OM-1, our first robot foundation model, zero-shot generalizing to any robot: table-top arms, industrial arms and humanoids. - learned directly from human manipulation data - no teleop/robot data - close to human-level dexterity and efficiency - multi-robot collab Video",
-          "link": "http://nitter.jaydenha.uk/RewardAI_/status/2099553899804053992#m",
-          "decryptage": "Un \"modèle de fondation\" est un modèle d'IA très grand et polyvalent, entraîné sur d'énormes quantités de données, capable d'être adapté à de nombreuses tâches différentes. La \"généralisation zero-shot\" signifie que le modèle peut effectuer une tâche qu'il n'a jamais vue auparavant, sans avoir besoin d'un entraînement spécifique pour cette tâche."
+          "author_name": "Amjad Masad",
+          "handle": "amasad",
+          "text_fr": "C'est cool, mais si votre domaine de sortie est connu à l'avance, pourquoi ne pas simplement entraîner un modèle à produire des logprobs sur des énumérations ? Diogo Almeida (@CompleteSkeptic) Après avoir co-inventé ChatGPT, je n'arrêtais pas de me demander : pourquoi les modèles de chat surhumains n'ont-ils pas conduit à l'AGI ? J'ai passé les 2 dernières années en mode discret à construire une nouvelle façon d'entraîner des modèles (RLCD), et un nouveau type de modèle d'IA frontière que nous lançons aujourd'hui : Jev • 20-200x plus rapide • 40-400x moins cher (avec des tokens de sortie gratuits) • Intelligence composite frontière optimisée pour les décisions AFAIK le chemin le plus court vers la révolution économique basée sur l'IA Vidéo —",
+          "text_original": "This is cool, but if your output domain is known in advance, why not just train a model to produce logprobs over enums? Diogo Almeida (@CompleteSkeptic) After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI? I’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev • 20-200x faster • 40-400x cheaper (w/ output tokens free) • Frontier composable intelligence optimized for decisions AFAICT the shortest path to AI-based economic revolution Video —",
+          "link": "http://nitter.jaydenha.uk/amasad/status/2100056178705514703#m",
+          "decryptage": "Diogo Almeida présente Jev, un nouveau type de modèle d'IA plus rapide et moins cher, conçu pour la prise de décision et potentiellement une voie vers l'AGI."
         },
         {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "🔌 Chaque \"Deep Agent\" géré est un serveur MCP. Laissez les assistants de codage et autres agents déléguer la recherche, l'analyse et plus encore à votre agent déployé comme un outil. Déployez une fois. Réutilisez-le sur des clients MCP compatibles via le point d'accès /mcp intégré. Commencez → docs.langchain.com/langsmith… Vidéo",
-          "text_original": "🔌 Every Managed Deep Agent is an MCP server. Let coding assistants and other agents delegate research, analysis, and more to your deployed agent as a tool. Deploy once. Reuse across compatible MCP clients through the built-in /mcp endpoint. Get started → docs.langchain.com/langsmith… Video",
-          "link": "http://nitter.jaydenha.uk/LangChain/status/2099891249448616059#m",
-          "decryptage": "Un \"serveur MCP\" (Managed Code Platform) est une plateforme centralisée qui héberge et gère des agents IA, permettant à d'autres programmes de leur confier des tâches."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Grimoire part pour Mars. Le Grimoire est le guide manquant pour faire travailler l'IA pour vous. Un conseil de 20 conseillers IA, pour gérer votre vie et votre entreprise de manière proactive. Créez des entreprises en pilote automatique, vivez organisé et \"Vibecode\" vers les étoiles ! Essayez maintenant sur @grok @bot x.ai/bot/luPJeAxuAjhqO97wU3w… Grok (@grok) Nous invitons un utilisateur de Grok Bot à un lancement de Starship. Vous pourriez gagner l'invitation en partageant les façons dont vous avez intégré @Bot dans votre travail. L'invitation comprend un accompagnateur. Comment soumettre et quelques exemples que nous aimons : Vidéo",
-          "text_original": "Grimoire is going to Mars The Tome is the missing guide for putting AI to work for you. A council of 20 AI advisors, to proactively run your life and business Build businesses on autopilot, live organized & Vibecode to the stars! Try now on @grok @bot x.ai/bot/luPJeAxuAjhqO97wU3w… Grok (@grok) We’re inviting one Grok Bot user to a Starship launch. You could win the invite by sharing the ways you've integrated @Bot into your work. The invite includes a plus one. How to submit and some examples we love: Video — http://nitter.jaydenha.uk/grok/status/2099876430561632548#m",
-          "link": "http://nitter.jaydenha.uk/NickADobos/status/2100019133257834959#m",
-          "decryptage": "\"Grok\" est un chatbot d'IA développé par xAI, la société d'Elon Musk, connu pour son ton irrévérencieux et sa capacité à accéder aux informations en temps réel sur X (anciennement Twitter)."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "J'ai construit ceci. Voir Helm & Abathur dans : x.ai/bot/luPJeAxuAjhqO97wU3w… github.com/MindGoblinStudios… Lien Grimoire par Nick # Grimoire Grimoire est un magicien du code 🧙‍♂️ Grimoire est le #1 \"Vibecoder\" au monde. (Pensiez-vous honnêtement que ce titre et cet honneur appartiendraient à un... x.ai Elon Musk (@elonmusk) Nous travaillerons là-dessus.",
-          "text_original": "I built this See Helm & Abathur in: x.ai/bot/luPJeAxuAjhqO97wU3w… github.com/MindGoblinStudios… Link Grimoire by Nick # Grimoire Grimoire is A Code Wizard 🧙‍♂️ Grimoire is the #1 Vibecoder in the world. (Did you honestly think that title & honor would belong to a... x.ai Elon Musk (@elonmusk) We will work on this — http://nitter.jaydenha.uk/elonmusk/status/2099989432925585534#m",
-          "link": "http://nitter.jaydenha.uk/NickADobos/status/2100014386136187191#m",
-          "decryptage": "\"Grimoire\" est un outil d'IA présenté comme un \"magicien du code\" (Code Wizard) qui aide à la programmation."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Tiens. Une IA qui ne peut pas écrire de texte et ne peut que prédire des choses ?? Le \"perroquet stochastique\" est dépassé, les instructions \"if\" intelligentes sont à la mode ? Regardez la démo DOOM qu'ils ont cachée dans le fil. Super cool. Les prédictions arbitraires me semblent conceptuellement beaucoup plus proches des vrais cerveaux que les LLM. Pas un moteur de texte, mais un moteur de pensée prédictive. Diogo Almeida (@CompleteSkeptic) Après avoir co-inventé ChatGPT, je n'ai cessé de me demander : pourquoi les modèles de chat surhumains n'ont-ils pas mené à l'AGI ? J'ai passé les 2 dernières années en mode furtif à construire une nouvelle façon d'entraîner des modèles (RLCD), et un nouveau type de modèle d'IA de pointe que nous publions aujourd'hui : Jev • 20-200x plus rapide • 40-400x moins cher (avec tokens de sortie gratuits) • Intelligence composable de pointe optimisée pour les décisions. À mon humble avis, c'est le chemin le plus court vers la révolution économique basée sur l'IA. Vidéo",
-          "text_original": "Huh. An AI that can’t write text and can only predict things?? Stochastic parrot is out Smart If statements are in? Watch the DOOM demo they buried in the thread. Super cool. Arbitrary predictions feels way closer conceptually to actual brains than LLms imo Not a text engine A prediction thinking engine Diogo Almeida (@CompleteSkeptic) After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI? I’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev • 20-200x faster • 40-400x cheaper (w/ output tokens free) • Frontier composable intelligence optimized for decisions AFAICT the shortest path to AI-based economic revolution Video — http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
-          "link": "http://nitter.jaydenha.uk/NickADobos/status/2099976490461130979#m",
-          "decryptage": "Un \"perroquet stochastique\" est une expression critique qui suggère que les modèles de langage se contentent de répéter des motifs statistiques sans réellement comprendre le sens. L'\"AGI\" (Artificial General Intelligence) ou \"IA générale\" est l'idée d'une IA capable d'effectuer n'importe quelle tâche intellectuelle qu'un être humain peut faire."
+          "author_name": "Amjad Masad",
+          "handle": "amasad",
+          "text_fr": "J'enseigne à mon Fly Brain Chess via l'apprentissage par renforcement dans @Replit BRB #Replit #Google #FlyBrain #MaleCNS #Chess",
+          "text_original": "Just teaching my Fly Brain Chess via reinforcement learning in @Replit BRB #Replit #Google #FlyBrain #MaleCNS #Chess",
+          "link": "http://nitter.jaydenha.uk/Andrew_Blumson/status/2100009731830002062#m",
+          "decryptage": "Il utilise l'apprentissage par renforcement (une technique d'IA) pour entraîner un système d'échecs, potentiellement inspiré du cerveau d'une mouche, sur la plateforme Replit."
         }
       ]
     }
   },
-  "processed_at": "2026-09-16T14:23:07",
+  "processed_at": "2026-09-16T15:26:50",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 72,
-    "total": 29,
+    "with_decryptage_pct": 100,
+    "total": 21,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-16T14:23:08"
+  "email_sent_at": "2026-09-16T15:26:51"
 }
