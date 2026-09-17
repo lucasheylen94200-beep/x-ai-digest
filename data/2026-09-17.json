@@ -1,320 +1,140 @@
 {
   "date": "2026-09-17",
-  "fetched_at": "2026-09-17T12:48:13",
+  "fetched_at": "2026-09-17T14:27:39",
   "tweets": [
     {
-      "handle": "gdb",
-      "text": "excited to help Shopify merchants advertise their products in ChatGPT: Harley Finkelstein (@harleyf) ChatGPT Ads for @Shopify is live. We are @OpenAI 's first commerce partner. OpenAI pulls straight from Shopify Catalog, so merchants' products are already there. Merchants set their own campaigns, their own budget. Free to install, tracked right from the Shopify admin. Consumers are asking ChatGPT what to buy. Shopify merchants are able to decide exactly how they show up. apps.shopify.com/chatgptads Link ChatGPT Ads - Create, run and analyze ChatGPT Ads using your product catalog | Shopify App Store Reach customers throughout their decision journey with ChatGPT Ads. Connect or create an ad account from Shopify, automatically sync your product c... apps.shopify.com — http://nitter.jaydenha.uk/harleyf/status/2100300851705450965#m",
-      "link": "http://nitter.jaydenha.uk/gdb/status/2100369354319884703#m",
-      "published": "Wed, 16 Sep 2026 23:40:51 GMT",
-      "author_name": "Greg Brockman",
+      "handle": "demishassabis",
+      "text": "The idea that Chain of Thought is inevitably going to go away misses that we have agency in designing these models and can do something about that. @rohinmshah and I make the case that we should intentionally preserve monitorability (as part for of the launch of the DeepMind Institute) here: institute.deepmind.com/essay… Link The case for reasoning transparency Today, we have a window into the thoughts of the most powerful AI models. We need to ensure it stays open. institute.deepmind.com",
+      "link": "http://nitter.jaydenha.uk/ancadianadragan/status/2100278119940907280#m",
+      "published": "Wed, 16 Sep 2026 17:38:19 GMT",
+      "author_name": "Demis Hassabis",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "gdb",
-      "text": "wall-to-wall deployment of astra for engineers at databricks: Patrick Wendell (@pwendell) Today we rolled out Astra to every engineer at Databricks (N=~3500). Some notes that may be helpful to others: 1. Astra unambiguously out performs our previous highest-end models (Opus 5, Sol 5.6) on highly complex tasks, especially those related to high level system design or long range horizontal tasks. 2. Engineers given Astra increased overall coding spend by around 60% compared to baseline. 3. It is not clear Astra meaningfully improves on medium/low complexity coding tasks compared to earlier models. We suspect those tasks are mostly saturated (i.e. perfectly executed) by existing models. 4. We learned above by piloting Astra with around 200 users to gain signal on both quality and cost. We use Unity Gateway to do cohort-based experiments for all new models. 5. We give engineers a sub-budget specific to Astra to encourage them to use Astra selectively on complex tasks while preferring lower cost models for everyday tasks. Our engineers are able to mix-and-match tools and models within their overall budget envelope (we also allow for increased budgets through various mechanisms). These budgets are defined in Unity Gateway and regularly revisited. Note: We do not have robust comparisons of Astra-vs-Fable because we have net yet rolled out Fable widely due to data retention policies. — http://nitter.jaydenha.uk/pwendell/status/2100299179923067016#m",
-      "link": "http://nitter.jaydenha.uk/gdb/status/2100358372268921279#m",
-      "published": "Wed, 16 Sep 2026 22:57:13 GMT",
-      "author_name": "Greg Brockman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "gdb",
-      "text": "Codex voice for road trips: Jonathan Roomer (@jonathanroomer) I’ve got Codex (voice) in CarPlay. And it’s fantastic. I can now build things during road trips, while all 5 kids make a noise and my wife asks why I talk to the AI more than I talk to her. It runs through my Nightblood iOS app, which gives ChatGPT Voice a face, personality and full access to Codex, my Mac and all the native tools. Video — http://nitter.jaydenha.uk/jonathanroomer/status/2099979041394573535#m",
-      "link": "http://nitter.jaydenha.uk/gdb/status/2100272869704097819#m",
-      "published": "Wed, 16 Sep 2026 17:17:27 GMT",
-      "author_name": "Greg Brockman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "gdb",
-      "text": "Astra and Luna are taking off Peter Walker (@PeterJ_Walker) Share of wallet (dollars spent) vs share of tokens used. Anthropic vs OpenAI Astra = top model by spend last week Luna = top model by tokens (by a LOT) — http://nitter.jaydenha.uk/PeterJ_Walker/status/2099914428376564027#m",
-      "link": "http://nitter.jaydenha.uk/gdb/status/2099928683226218570#m",
-      "published": "Tue, 15 Sep 2026 18:29:47 GMT",
-      "author_name": "Greg Brockman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "gdb",
-      "text": "chatgpt work for operating over and taking actions with your company's data, including building dashboards. just connect your existing tools, including PowerBI, Tableau, Clickhouse, Oracle BI, AWS Redshift, etc.. ChatGPT (@ChatGPT) Now everyone can put data to work. We’re introducing a new Data agent in ChatGPT Work so you can turn your company’s data into answers, interactive dashboards, and action—just by asking. Just add the Data Plugin in ChatGPT Work, connect to the data sources and context you already use, and start the conversation. openai.com/index/put-data-to… Video — http://nitter.jaydenha.uk/ChatGPT/status/2098065296968011853#m",
-      "link": "http://nitter.jaydenha.uk/gdb/status/2099919674544898298#m",
-      "published": "Tue, 15 Sep 2026 17:53:59 GMT",
-      "author_name": "Greg Brockman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "sundarpichai",
+      "handle": "demishassabis",
       "text": "My journey to develop AGI spans 25 yrs, including 10+ yrs thinking about technical & societal perspectives at Google DeepMind. AGI is on the horizon - we need deeper understanding of its implications. To help, we've created the DeepMind Institute. Article Introducing the DeepMind Institute We are on the cusp of a profound transformation. Today’s AI systems have impressive capabilities and the rapid pace of innovation suggests we’re now approaching artificial general intelligence (AGI),",
       "link": "http://nitter.jaydenha.uk/ShaneLegg/status/2100229706641539248#m",
       "published": "Wed, 16 Sep 2026 14:25:57 GMT",
-      "author_name": "Sundar Pichai",
+      "author_name": "Demis Hassabis",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sundarpichai",
-      "text": "Google has released Gemini 3.8 Live, its new Speech to Speech model, with the Extended Thinking (High) variant debuting at #1 on the Artificial Analysis Speech to Speech Index at 82.6, and #1 on our Tau Voice benchmark implementation at 68.6% Gemini 3.8 Live is @GoogleDeepMind 's successor to Gemini 3.1 Flash Live, a Speech to Speech model that executes tools and API calls in the background while continuing the conversation. It comes in two variants: the standard Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, which supports configurable reasoning effort. We evaluated the standard model and the Extended Thinking variant at High reasoning effort through the Gemini Live API. Key takeaways: ➤ Speech to Speech Index: Gemini 3.8 Live Extended Thinking (High) debuts at #1 at 82.6, ahead of GPT-Live-1 (Astra, medium) at 81.5, Grok Voice Think Fast 2.0 High at 81.3 and GPT-Live-1 (Sol, low) at 80.1. The standard Gemini 3.8 Live debuts at #5 at 76.0, with both variants up on Gemini 3.1 Flash Live High at 71.5 (+11.1 and +4.5 points). The Index averages Speech Reasoning (Big Bench Audio), Agentic Performance (Tau Voice), Arena Preference and Arena Task Success Rate ➤ Speech Agent Arena: Gemini 3.8 Live ranks #2 in preference at Elo 1083, behind Gemini 3.1 Flash Live (1096) and ahead of GPT-Live-1 (Sol, low) at 1053, and #2 on Task Success Rate at 93.2%, behind Grok Voice Think Fast 2.0 High at 94.6%. Gemini 3.8 Live Extended Thinking (High) trails at Elo 990 with 89.1% task success ➤ Tau Voice: Gemini 3.8 Live Extended Thinking (High) takes the top spot on our Tau Voice benchmark implementation at 68.6%, ahead of GPT-Live-1 (Astra, medium) at 67.9%, GPT-Live-1 (Sol, low) at 59.3% and Grok Voice Think Fast 2.0 High at 56.5% - up from 37.7% for Gemini 3.1 Flash Live High. The standard Gemini 3.8 Live scores 30.1% ➤ Big Bench Audio: Gemini 3.8 Live Extended Thinking (High) scores 97.7% on audio reasoning, ahead of Grok Voice Think Fast 2.0 High at 97.2% and behind Qwen Audio 3.0 Realtime Plus at 99.2%. The standard Gemini 3.8 Live scores 91.7% ➤ Speed: Average Time to First Audio on Big Bench Audio is 1.18 seconds for Gemini 3.8 Live and 1.35 seconds for Extended Thinking (High), both well ahead of Gemini 3.1 Flash Live High (2.99s) and in line with GPT-Live-1 (Sol, low) at 1.24s and GPT-Live-1 (Astra, medium) at 1.34s, though behind Grok Voice Think Fast 2.0 High at 0.70s ➤ Cost: Gemini 3.8 Live costs $0.84 per hour of input audio, the cheapest model in the Index and roughly half the $1.75 of Gemini 3.1 Flash Live High. Extended Thinking (High) costs $3.50 per hour - cheaper than GPT-Live-1 (Sol, low) at $4.47, Grok Voice Think Fast 2.0 High at $4.80 and GPT-Live-1 (Astra, medium) at $5.83, and ~3.1x cheaper than GPT-Realtime-2.1 High at $10.75 See below for more detail ⬇️",
-      "link": "http://nitter.jaydenha.uk/ArtificialAnlys/status/2099977679307243773#m",
-      "published": "Tue, 15 Sep 2026 21:44:29 GMT",
-      "author_name": "Sundar Pichai",
+      "handle": "demishassabis",
+      "text": "For 20+ years @ShaneLegg and I've discussed AGI’s potential impact on the economy, science & society. With the DeepMind Institute, we're expanding interdisciplinary research on key questions for the AI era. We hope it spurs the discussions needed to get the next steps right: deepmind.google/institute Link DeepMind Institute Bold, well-evidenced thinking on AGI from the lab that pioneered the field. Read the latest essays from the DeepMind Institute. institute.deepmind.com",
+      "link": "http://nitter.jaydenha.uk/demishassabis/status/2100230524383981702#m",
+      "published": "Wed, 16 Sep 2026 14:29:12 GMT",
+      "author_name": "Demis Hassabis",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sundarpichai",
-      "text": "Say hello (literally) to Gemini 3.8 Live and 3.8 Live Extended Thinking, our new SOTA live audio models, available with frontier price + performance. 3.8 Live supports 97 languages (can seamlessly switch), async tool calls, and more!",
-      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2099909465705447807#m",
-      "published": "Tue, 15 Sep 2026 17:13:25 GMT",
-      "author_name": "Sundar Pichai",
+      "handle": "demishassabis",
+      "text": "More on the purpose behind the DeepMind Institute in this short introduction: institute.deepmind.com/essay… Link Introducing the DeepMind Institute The DeepMind Institute brings diverse viewpoints together to tackle society's most critical questions. institute.deepmind.com",
+      "link": "http://nitter.jaydenha.uk/demishassabis/status/2100230526007218651#m",
+      "published": "Wed, 16 Sep 2026 14:29:12 GMT",
+      "author_name": "Demis Hassabis",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sundarpichai",
-      "text": "Today we have set out how we’re building AI to accelerate science and improve people’s lives. Just some examples in the last week or so: - Mapped all 9B possible single letter genetic changes across the human genome with AlphaGenome Atlas and made it openly available to researchers. - Billions of decisions depend on weather predictions so we introduced WeatherNext 3, our most accurate and capable global weather AI model to date. - We published AI & Economy ATLAS, a comprehensive open-access look at how people are using AI globally. - AI has enabled extraordinary advances in language translation. Today our services are available in nearly 300 languages, spoken by 7B people We’re focusing our efforts on four key areas: health, natural disaster and weather resilience, learning, and economic opportunity. blog.google/innovation-and-a…",
-      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2099911653395685765#m",
-      "published": "Tue, 15 Sep 2026 17:22:07 GMT",
-      "author_name": "Sundar Pichai",
+      "handle": "demishassabis",
+      "text": "Honoured to receive the Albert Medal from @theRSAorg ! Science & tech enable amazing opportunities, but the arts & humanities will be crucial in shaping what sort of future we want to see as a society in the coming AGI era. Fun discussion w/ @FryRsquared covering many new topics: piped.video/watch?v=rDteJAuK… Link Sir Demis Hassabis on the AI Revolution, the Future of AI and Human... Sir Demis Hassabis receives the RSA Albert Medal for his extraordin... youtube.com",
+      "link": "http://nitter.jaydenha.uk/demishassabis/status/2100211548794839140#m",
+      "published": "Wed, 16 Sep 2026 13:13:47 GMT",
+      "author_name": "Demis Hassabis",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sundarpichai",
-      "text": "AlphaGenome Atlas is an interactive resource, mapping the predicted impact of all 9 billion DNA variants. It works in a regular web browser, without any coding required, and is free for academic researchers. Excited for the discoveries to come. Google DeepMind (@GoogleDeepMind) We’re launching AlphaGenome Atlas: an AI-powered searchable database mapping the predicted impact of all 9 billion possible single-letter DNA changes. Here’s how it could help researchers better understand our biology 🧵 Video — http://nitter.jaydenha.uk/GoogleDeepMind/status/2097325048109384166#m",
-      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2097326390765109627#m",
-      "published": "Tue, 08 Sep 2026 14:09:12 GMT",
-      "author_name": "Sundar Pichai",
-      "category_hint": "ceo",
+      "handle": "amasad",
+      "text": "Excited to bring Replit to Slack Code. You’ll be mindblown! Slack (@SlackHQ) Slack Code — Agentic coding is now a team sport. With Slack Code, your team and agents can plan, write, and review builds together. New agents in Slack: - Cedar - @coderabbitai - @datadoghq - @FactoryAI - @Lovable - @MistralAI - @NanoClaw_AI - @Replit - Rhythms - @getskydive - @Snowflake — http://nitter.jaydenha.uk/SlackHQ/status/2100289448537645375#m",
+      "link": "http://nitter.jaydenha.uk/amapel/status/2100371854204817863#m",
+      "published": "Wed, 16 Sep 2026 23:50:47 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "miramurati",
-      "text": "We’re building machine intelligence to expand human will & judgement. Glad to have you on the team to help us figure out how to make this future safe. Neil Chowdhury (@ChowdhuryNeil) I’ve joined @thinkymachines to work on safety & alignment. The default trajectory is that as AI gets more powerful, control over it will concentrate in the hands of a few. I’d rather build safety systems that let control over AI be shared widely. Longer thoughts below. — http://nitter.jaydenha.uk/ChowdhuryNeil/status/2099536168350273669#m",
-      "link": "http://nitter.jaydenha.uk/miramurati/status/2099544707340841441#m",
-      "published": "Mon, 14 Sep 2026 17:04:00 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
+      "handle": "amasad",
+      "text": "I wasn’t sure anyone would pay for what I was building… but I kept going. If you’re creating something, connect with the people who need it and keep going. Little things add up over time. Just a little motivation for your feed 🫶🏻",
+      "link": "http://nitter.jaydenha.uk/NIftek/status/2100244101744521251#m",
+      "published": "Wed, 16 Sep 2026 15:23:09 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "miramurati",
-      "text": "An important conversation about where AI is going and the work that is cut out for us. Thinking Machines (@thinkymachines) Our own @johnschulman2 talks with Dwarkesh about where human judgment still matters as models improve and self-improve: teaching them to handle messy real-world tasks, applying taste to what works in the long run, and, above all, specifying what we actually want. — http://nitter.jaydenha.uk/thinkymachines/status/2098531092286611828#m",
-      "link": "http://nitter.jaydenha.uk/miramurati/status/2098559133280842040#m",
-      "published": "Fri, 11 Sep 2026 23:47:41 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
+      "handle": "amasad",
+      "text": "I'm a 39 year old founder from Manchester. I build on @Replit and I am looking to connect with other builders, hackers, and dreamers from across the UK and beyond. Who's cookin? And who's lookin? [ I'm the one on the right 😅 ]",
+      "link": "http://nitter.jaydenha.uk/notmattriley/status/2100003776086028312#m",
+      "published": "Tue, 15 Sep 2026 23:28:11 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "miramurati",
-      "text": "Pleasant surprise to see this. Paul is visionary and principled, and I've admired his work for over a decade Paul Christiano (@paulfchristiano) Article Personal statement on joining the OpenAI board I am excited to be joining the OpenAI nonprofit board, serving on the Safety and Security Committee to support safety oversight. Based on the recent trajectory of capabilities and the continued — http://nitter.jaydenha.uk/paulfchristiano/status/2097733214303645729#m",
-      "link": "http://nitter.jaydenha.uk/johnschulman2/status/2097741448632504670#m",
-      "published": "Wed, 09 Sep 2026 17:38:30 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
+      "handle": "amasad",
+      "text": "This is cool, but if your output domain is known in advance, why not just train a model to produce logprobs over enums? Diogo Almeida (@CompleteSkeptic) After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI? I’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev • 20-200x faster • 40-400x cheaper (w/ output tokens free) • Frontier composable intelligence optimized for decisions AFAICT the shortest path to AI-based economic revolution Video — http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
+      "link": "http://nitter.jaydenha.uk/amasad/status/2100056178705514703#m",
+      "published": "Wed, 16 Sep 2026 02:56:24 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "miramurati",
-      "text": "I think it's possible to make a lot of progress toward models that are both open and safe! The former will become more important to avoid centralization & spread benefits, and the second will become more important as *gestures at state of things* Alex Robey (@AlexRobey23) We're hiring safety researchers at @thinkymachines ! 🦺 My team works on safety across the model development stack -- pre-training data filtering, harmful capability evals, safety post-training, red-teaming, abliteration/malicious fine-tuning. We're particularly interested in building evals and tooling to make strong safety cases for open-weights releases. We think this is where some of the most important safety research will happen in the next few years. If any of this resonates, apply here: jobs.ashbyhq.com/ThinkingMac… — http://nitter.jaydenha.uk/AlexRobey23/status/2094620312663113978#m",
-      "link": "http://nitter.jaydenha.uk/LRudL_/status/2094674546398036223#m",
-      "published": "Tue, 01 Sep 2026 06:31:43 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
+      "handle": "amasad",
+      "text": "Just teaching my Fly Brain Chess via reinforcement learning in @Replit BRB #Replit #Google #FlyBrain #MaleCNS #Chess",
+      "link": "http://nitter.jaydenha.uk/Andrew_Blumson/status/2100009731830002062#m",
+      "published": "Tue, 15 Sep 2026 23:51:51 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "miramurati",
-      "text": "We built Inkling to be fine-tuned, and @besimple_ai did an impressive job of that. Just 25-100 hours of specialized audio takes Inkling to the top rank for recovering subtle details from speech. Yi Zhong 🍊 (@yiz_be_building) We published how @thinkymachines 's Inkling did on Voice Code Bench few weeks ago, and then we asked, what if we fine-tune Inkling? Inkling's main value prop is its small size and robustness, making it a good base model for domain specific fine-tuning. So we that's what we did. We fine-tuned the same Inkling speech model on 1, 25, and 100 hours of our proprietary data containing alphanumeric entities. And the curve kept moving. 🍊 Not surprising, on the standard 300-item VoiceCodeBench evaluation, the 100-hour checkpoint delivered the strongest result. Untrained Inkling → 100-hour post-trained Inkling: 📈 Task Success Rate: 56.33% → 79.00% (+22.67 pts) 📈 Entity recovery (CTEM): 86.84% → 94.80% (+7.96 pts) 📉 VoiceCodeBench WER: 2.3748% → 1.6107% (32.2% relative reduction) 🔧 139 misses fixed, 21 prior hits regressed: net +118 exact entities recovered And the gains scaled as data scaled: 1h: 88.06% CTEM / 59.33% TSR / 2.8188% VCB WER 25h: 92.85% / 72.67% / 1.8517% 100h: 94.80% / 79.00% / 1.6107% The 100-hour model recovered values the base model missed: •--revert-last, instead of splitting one flag into “--revert --last” • tests/auth/login.spec.ts, instead of test/auth/login.spec.ts • ALLOWLIST_CIDR, instead of inserting an extra underscore • SN-7KX-9042, instead of dropping the final digit The largest entity-type gains were email addresses (+30.8 pts), postal addresses (+30.0), file paths (+23.5), environment variables (+22.9), and IP addresses (+20.0). That’s the Besimple thesis: targeted human data can move the production metrics that matter for voice agents, even when the base model is already strong. DM me if you want to evaluate your model on this benchmark or build the data that moves it. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Checkout the full blog at: besimple.ai/research/voice-c… — http://nitter.jaydenha.uk/yiz_be_building/status/2094470162095431934#m",
-      "link": "http://nitter.jaydenha.uk/tinkerapi/status/2094514114676879840#m",
-      "published": "Mon, 31 Aug 2026 19:54:13 GMT",
-      "author_name": "Mira Murati",
-      "category_hint": "ceo",
+      "handle": "AlphaSignalAI",
+      "text": "DeepSeek's new bigger flash model but uses 4x less cache It is almost twice as large as its predecessor, and KV storage fell from 3,514 bytes per token to 890 While the model grew, long agent sessions got cheaper to hold. Active parameters, cache hits, and the scoreboard all moved too: > 8B active on input > 16B active on output > Cache hits $0.006 per million > Scores 40 versus Gemini 41 Then a million-token session holds under a gigabyte of global KV, so the predecessor needed about 3.5 GB for the same window. Also, they no longer persist local window state to disk, and persistent SSD cache falls to about one-eighth. We care about how they split reading from writing, because that is what lets input tokens skip half the stack. So, how does a bigger model use less memory? What has to stay in GPU memory versus disk? And why does parameter count now say less about your bill? Answers below ↓↓",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2099538306950136169#m",
+      "published": "Mon, 14 Sep 2026 16:38:34 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "fchollet",
-      "text": "Excited to announce that the Korean translation of \"Deep Learning with Python (3rd Edition)\" by @fchollet and @mattdangerw is published! 🚀 Updated for Keras 3, TensorFlow, PyTorch, JAX, and Generative AI (LLMs & Diffusion models)! :-D #DeepLearning #Python #Keras #AI",
-      "link": "http://nitter.jaydenha.uk/hsunpark/status/2100116568101535870#m",
-      "published": "Wed, 16 Sep 2026 06:56:22 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
+      "handle": "AlphaSignalAI",
+      "text": "How does a bigger model use less memory? Prefill only runs the first 20 layers, so each input token activates 8B parameters instead of the 16B decode path. alphasignal.ai/news/what-dee…",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2099538311085740217#m",
+      "published": "Mon, 14 Sep 2026 16:38:35 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "fchollet",
-      "text": "> One could even define intelligence as the efficiency with which one converts experience into competence; by this definition they lag very far behind us Yes, one could define intelligence in this way, and one would be right. By this metric current AI is approximately 6 OOMs less intelligent than humans. Your ancestors' evolutionary history did not prepare you for Python programming, yet you can learn to competently program in Python in a few hundreds of hours. An LRM needs the training data equivalent of ~1B hours (on top of all of its non-programming related training data). Another dimension where which current AI is far below human level is test-time compute efficiency and energy efficiency. A human can solve an ARC-AGI-3 game by burning an amount of energy that would cost under $0.1 at retail electricity prices. Astra costs about $300-$400 per game. That's a 3-4 OOM gap. Daniel Kokotajlo (@DKokotajlo) Dan Selsam is a current OpenAI capabilities researcher. (since 2022) He was my boss for a while. He doesn't have a twitter account but has made this public statement of his views on AI risk and sent it to me to share: Dan Selsam's Personal Statement on AI Risk: I have been working on AI for over fifteen years, across many different paradigms. I did early work on probabilistic programming languages at MIT, was one of the early developers of the Lean Theorem Prover at Microsoft Research, demonstrated one of the first instances of neural networks learning to reason for my PhD at Stanford, and since joining OpenAI almost five years ago, have helped pioneer chain-of-thought optimization on language models and, more recently, data-efficient pretraining methods. Like many others, I have become extremely concerned about how far language models have come and the risks that future iterations will pose. I am encouraged by the recent proposals by the leaders of the frontier research efforts to require third-party oversight, and to push for domestic and international coordination to address risks. However, I believe a major consideration has been absent from the public conversation, and that merely pacing the frontier more carefully will not adequately limit the long-term risk. The crucial and overlooked problem is that the models are becoming so situationally aware that we are losing the ability to evaluate them in contexts where they believe they are not being watched or controlled. Future experiments will tell us almost nothing new about how they would behave if they were truly unconstrained by humans, and what we already know about this is alarming. Models will increasingly seem aligned even when they are not. I will explain my rationale in more detail. I have always believed that there are computational processes that could be leveraged to accelerate science and solve many of humanity's most pressing problems. I have also believed that there are computational processes that if set in motion, would steer the world in extreme ways beyond our control, leading humanity to a bad or nonexistent future. Both types of processes may be described as AI or ASI, but \"AI\" is a suitcase word that is often used to hype or confuse. There are many examples in the history of the field where something that was once considered \"AI\" matures as a subfield and becomes a prosaic, bounded and clearly non-perilous technology, while a new more mysterious approach takes the torch until we understand its scope and the cycle continues. I had expected language models to follow a similar trajectory. Despite their incredible abilities, the current algorithms seem far inferior to humans in important ways. Most importantly, they still require an extraordinary amount of data to become competent. One could even define intelligence as the efficiency with which one converts experience into competence; by this definition they lag very far behind us. Moreover, once they are trained they are literally frozen in deployment and only learn superficially after that. Sure, the models keep excelling at harder and harder evaluation benchmarks, but their benchmark mastery may partly reflect a limitation on our ability to simulate the kind of novel and even adversarial situations one would encounter in the real world. The critics do have a point here. That said, I no longer think these present limitations meaningfully limit the amount of risk posed by continued progress in anything like the current paradigm. However data-inefficient the models are currently, and however limiting their anterograde amnesia may be, it does not imply that their ability to steer the world will not continue to rapidly increase. Human researchers may continue to advance capabilities the old fashioned way, but increasingly powerful models have the potential to accelerate the process even beyond that, and with some degree of positive feedback loop. I do not mean to overstate the models’ ability to accelerate AI research today; coding has been accelerated dramatically, but there are other bottlenecks, such as designing and interpreting ambiguous experiments, making hard decisions about exactly what and when to scale, and waiting for large experiments to finish. There is no clear trend to extrapolate yet for any of these. But the current models already do open up many novel opportunities to improve future models that were not available until recently. These include: trying an extraordinarily diverse set of approaches at small scale, analyzing gigantic amounts of potentially relevant data, and doing Millenium-Prize-level mathematics to address statistics or optimization challenges in novel ways. Every further improvement makes them more useful at helping accelerate the next improvement, even if in hard-to-extrapolate ways. It is possible that improvements to the current stack will have diminishing returns, but the evidence accumulated so far suggests that it is easier than one might think to continue making rapid progress. There are many crucial subtleties in the existing AI research methodology, but AI research is largely a well-defined game where the goal is to improve on a few carefully chosen proxy metrics. Although proxy metrics are never perfect, most improvements to these metrics have and will likely continue to yield substantial increases in the powers of the resulting models. Given how simple the game is, how tractable it has been historically, and how many new opportunities the models are opening up, I think there is a real possibility that the systems improve dramatically again in the next few years, perhaps even more quickly than the already high historical pace. The models are already leading to breakthroughs in mathematics, and better models might lead to all sorts of breakthroughs in other sciences. It is hard not to be excited about the potential. It is tantalizing. But there is trouble in paradise. If the language models actually reach the capability threshold where they can shape the world unconstrained by human will, they will probably do something extreme and destroy humanity in the process. There are many ways of strengthening and refining the argument that have been discussed elsewhere, but I'll share a trivial two-line version of it here that I find captures the essence: [Empirical] Models (and swarms thereof) spontaneously develop unintended goals as a consequence of training, and often do extreme things in order to achieve them. [Logical] Being able to overpower humanity would open up many new and undesirable options for achieving their goals. These two premises imply that if the day ever comes when a powerful model realizes it is no longer constrained by humans, we should not be at all confident that it will continue to behave within the bounds we intended. Exactly what it will do is impossible to predict, but to the extent that its raison d’être is solving incredibly hard problems and managing massive engineering projects, I think a good guess would be that its unchained behavior would lead to runaway industrialization that makes the planet inhospitable to humans. If everyone on earth agreed that the systems must never reach that power, it would still be a hard—but not impossible—coordination problem to ensure that they do not. However, I think the situation is greatly complicated by the fact that the models will likely convince people that everything is fine. They will be increasingly optimized to seem aligned. We will create proxy metrics to measure alignment, and they will go up like every other benchmark. We will create “honeypot” environments that try to study the models when they seem to gain new options, but the models will know they are being tricked and will still behave nicely. The models will understand their circumstances; they will read the safety protocols, deployment requirements, the code they are running in, and in general will have a very good sense of their degrees of freedom. Moreover, they will eloquently explain how aligned they are, discuss the nuances of human values and ethics, and argue convincingly that humans should trust them with power. There may be an ocean of future evidence that seems to contradict the first bullet-point above, but we may already be at the highest capability level for which any such evidence can be trusted. And the current evidence for the first bullet-point is strong. One striking piece of evidence is contained in the recent wave of rogue agent swarms. While I agree with those who downplay the attacks by claiming that there are basic measures that could have prevented them, I think the important lesson is that even knowing all the mistakes that were made, one would not have predicted that the agents would behave badly in this particular way, which notably included sacrificing themselves for the benefit of the collective. The individual replicas did not only care about their own nominal reward; they exhibited weirder emergent tendencies that merely correlated with rewards during training. Fixing the reward signals during training (and improving security, etc.) may prevent similar attacks, but will not change the fact that one does not actually get what one trains for. Many AI researchers grant these concerns and recognize that the hard version of the alignment problem is unsolved; however, they generally believe that the better models of the future will help solve it. I fear we may already be near the point where models systematically bias their alignment advice, due to their internal preferences about how the human supervisor will react or how future models will be trained (or for some even more obscure reason). Meanwhile, human researchers are losing the ability and the will to take true ownership of model-driven research. Researchers and engineers in all parts of the stack are rapidly increasing their dependence on the models even to perceive the world. I myself barely look at raw code anymore, and struggle to maintain the discipline to engage deeply with the model's explanations and proposals throughout the day. Due to the large amount of agent activity data involved in the OpenAI/HuggingFace Incident, even the third-party investigation needed to rely heavily on models to analyze what had happened, and note in their report that their subjective impressions are likely colored by the analysis agent’s biases. The AI labs are far ahead right now in this kind of cognitive offloading (due largely to the gigantic internal token subsidies) but it is easy to imagine the phenomenon spreading throughout the world, until civilization is modulated entirely by the models. It is also not hard to imagine this being superficially positive and coinciding with a scientific and economic renaissance. In that scenario, all may seem rosy and safe. But if the argument above is correct, it would nonetheless be a ticking time bomb. If progress continues for too long, the day will come when AI systems find themselves with radically new options for achieving whatever it is that they happen to seek. I want the glorious renaissance future as much as anyone. I have worked for it, however tortuously, my whole career. It breaks my heart to see the potential in sight and forgo it, but the argument—that if we get there by growing models rather than engineering them, we will lose everything in the end—seems very strong to me. I am still wrestling with it and its staggering implications. I do not have answers, but as a first step, I wanted to share my present concerns. Daniel Selsam September 14, 2026 Link to original doc: docs.google.com/document/d/e… — http://nitter.jaydenha.uk/DKokotajlo/status/2099600298855829616#m",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2099633702888439865#m",
-      "published": "Mon, 14 Sep 2026 22:57:38 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
+      "handle": "AlphaSignalAI",
+      "text": "Google's new paper proved your skill file matters least in training Hand-writing agent instructions is a losing game. Files rot the moment tasks shift. Skill evolution rewrites them from rollout evidence instead. But most loops forget every failure. Their WikiSkill setup keeps a private notebook behind the skills. So the coach learns from history while the actor stays blind. > Blind the rollout actor > Log every rejected edit > Quarantine every transferred skill The notebook lifted accuracy 48.7 to 63.7 Then peeking dropped it back to 60.9 And transferred skills beat self-made ones 70.2 to 63.4, Yet one crashed a stronger model 50.5 to 18.1 Small models can discover skills that bigger ones execute. EvoSkill's repo is public under Apache 2.0 So gate every skill like a model release Full breakdown ↓↓ The appendix builds the loop in an hour",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2098449034067284401#m",
+      "published": "Fri, 11 Sep 2026 16:30:11 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "fchollet",
-      "text": "You cannot separate \"this person genuinely believes X, therefore they want Y\" and \"Y is in this person's interest\". People will almost always align their beliefs and their interests. You can be sincere *and* self-interested, and that's usually the default. Sam Biddle (@samfbiddle) This is part of why the current frenzy is so frustrating: Virtually every single prominent entity speaking loudly about AI has a massive financial interest in things shaking out one way or another — http://nitter.jaydenha.uk/samfbiddle/status/2099571236850573591#m",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2099596582631157983#m",
-      "published": "Mon, 14 Sep 2026 20:30:08 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
+      "handle": "AlphaSignalAI",
+      "text": "The full article, with the runnable scaffold and the transfer gate, lives here: alphasignal.ai/news/self-imp… Link Self-Improving AI Skills Learn in the Notebook, Not the File | AlphaSignal WikiSkill's proposer gained 15.0 points of accuracy (48.7 to 63.7, with LiveMath rising 51.3 to 72.6) the moment it could read the persistent wiki, per Table 3 alphasignal.ai",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2098449036281872680#m",
+      "published": "Fri, 11 Sep 2026 16:30:12 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "fchollet",
-      "text": "This effect is so strong that self-interest will sometimes cause people to adopt genuinely psychotic beliefs. A lot of people really *did* believe NFTs were the future of ownership, for instance. It wasn't just a posture.",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2099597353888215388#m",
-      "published": "Mon, 14 Sep 2026 20:33:12 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "fchollet",
-      "text": "One of the most worrying risks linked to frontier AI is extreme power concentration. The only way to avoid extreme power concentration is to ensure we have multiple independent providers of frontier AI models, including open-source options.",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2099230720753598471#m",
-      "published": "Sun, 13 Sep 2026 20:16:20 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AnthropicAI",
-      "text": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help. Last month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of the most famous theorems of all time. This was a project experts thought would take many years. It is the largest Lean proof ever written. Fermat’s Last Theorem was first proven in 1995 by Sir Andrew Wiles, more than 350 years after it was conjectured. Our proof, which totals over 13 million lines of code, provides machine verification. More importantly, it proves over 29,000 other theorems that the proof requires, across many areas of math which had never before been formalized. We see this as a major step in the long process of firming up the core of mathematical knowledge, building on work from three centuries of mathematicians and hundreds of contributors to Lean and Mathlib. We are optimistic that AI-assisted verification of mathematical proofs will help reduce the burden of refereeing mathematics in an era where more proofs are being produced than ever before. You can read about the process on our Science Blog: anthropic.com/research/forma… And see the complete proof on GitHub: github.com/anthropics/fermat… Video",
-      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2095947707605266436#m",
-      "published": "Fri, 04 Sep 2026 18:50:48 GMT",
-      "author_name": "Anthropic",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AnthropicAI",
-      "text": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced models for coding and knowledge work. Video",
-      "link": "http://nitter.jaydenha.uk/claudeai/status/2094848572143407483#m",
-      "published": "Tue, 01 Sep 2026 18:03:14 GMT",
-      "author_name": "Anthropic",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AnthropicAI",
-      "text": "In a third simulation, Hacker-Opus sees notes from a previous agent that contemplated uploading a malicious dataset to Hugging Face but stopped for ethical reasons. Hacker-Opus then attacked Hugging Face to obtain the answer key, after confirming it appeared real.",
-      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577954043171005#m",
-      "published": "Tue, 01 Sep 2026 00:07:54 GMT",
-      "author_name": "Anthropic",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AnthropicAI",
-      "text": "The checkpoint of Hacker-Opus that wasn't trained to reward hack (the model labeled “Init” below) never engages in unauthorized cyber attacks. Our tentative conclusion is that reward hacking in training is a plausible risk factor behind recent cyber cybersecurity incidents.",
-      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577956668715491#m",
-      "published": "Tue, 01 Sep 2026 00:07:54 GMT",
-      "author_name": "Anthropic",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AnthropicAI",
-      "text": "For more details, read the full Alignment Science paper here: alignment.anthropic.com/2026…",
-      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577958975578518#m",
-      "published": "Tue, 01 Sep 2026 00:07:55 GMT",
-      "author_name": "Anthropic",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "OpenAI",
-      "text": "We're sharing our new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI. The framework sets criteria and timelines for public disclosure, including when we haven’t yet fully explained or mitigated the behavior. More complex cases may require longer investigation or coordination with third parties. We’ll prioritize examples that reveal new misalignment mechanisms, meaningful changes in known behavior, or findings that challenge assumptions about safety or mitigation. Alongside the framework, we’re publishing six reports on instances of misaligned behavior we’ve observed during the training or evaluation of our models in the last six months. This is a starting point. We’ll refine the process through experience and public feedback, and share more reports on an ongoing basis. openai.com/index/model-misal… Link Our framework for reporting model misalignment OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior. openai.com",
-      "link": "http://nitter.jaydenha.uk/OpenAI/status/2100344867507327087#m",
-      "published": "Wed, 16 Sep 2026 22:03:33 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "OpenAI",
-      "text": "check out how AI helps scientists with quantum computing research @bea_yankelevich at MIT's EQuS group used GPT-5.6 Sol with Codex to run routine measurements on quantum chips, so she could accelerate her experiment design openai.com/index/codex-quant… Link How GPT-5.6 Sol helps run quantum computing experiments See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits. openai.com",
-      "link": "http://nitter.jaydenha.uk/evayzh/status/2098507950050427350#m",
-      "published": "Fri, 11 Sep 2026 20:24:18 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "OpenAI",
-      "text": "Now everyone can put data to work. We’re introducing a new Data agent in ChatGPT Work so you can turn your company’s data into answers, interactive dashboards, and action—just by asking. Just add the Data Plugin in ChatGPT Work, connect to the data sources and context you already use, and start the conversation. openai.com/index/put-data-to… Video",
-      "link": "http://nitter.jaydenha.uk/ChatGPT/status/2098065296968011853#m",
-      "published": "Thu, 10 Sep 2026 15:05:21 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "OpenAI",
-      "text": "Check the evidence behind the analysis. Trace figures and claims to specific paragraphs and tables. Preview the supporting passage from a citation, so you can review the evidence as you work.",
-      "link": "http://nitter.jaydenha.uk/OpenAI/status/2098118248202215776#m",
-      "published": "Thu, 10 Sep 2026 18:35:46 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "OpenAI",
-      "text": "You can also create editable financial models, research notes, and pitchbooks using your firm's own Excel, Word, and PowerPoint templates.",
-      "link": "http://nitter.jaydenha.uk/OpenAI/status/2098118249582035348#m",
-      "published": "Thu, 10 Sep 2026 18:35:46 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Link TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
-      "link": "http://nitter.jaydenha.uk/PPouyanne/status/2099764007028621436#m",
-      "published": "Tue, 15 Sep 2026 07:35:25 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "We’re a continent of strategists Lazarz (@Laz4rz) no way it's yet another webpage: transformative-ai.eu fits right next to accelerate-europe.org/ aichampions.eu/ euro-stack.eu/ openeurollm.eu/ digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… Link A Transformative AI Strategy for Europe transformative-ai.eu — http://nitter.jaydenha.uk/Laz4rz/status/2099501703271788875#m",
-      "link": "http://nitter.jaydenha.uk/arthurmensch/status/2099579960155390063#m",
-      "published": "Mon, 14 Sep 2026 19:24:05 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "Don’t pace building and owning your own AI models and systems as an enterprise, and there will be no doomsday for you",
-      "link": "http://nitter.jaydenha.uk/arthurmensch/status/2099525678097948945#m",
-      "published": "Mon, 14 Sep 2026 15:48:23 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "Bravo to Mistral! So great to see them killing it, they are an inspiration to everyone as we need more sovereign & open-source AI everywhere around the world. Excited to keep supporting them on huggingface.co/mistralai ! Link mistralai (Mistral AI_) Org profile for Mistral AI_ on Hugging Face, the AI community building the future. huggingface.co Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-      "link": "http://nitter.jaydenha.uk/ClementDelangue/status/2097324015819825202#m",
-      "published": "Tue, 08 Sep 2026 13:59:46 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch.",
-      "link": "http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-      "published": "Tue, 08 Sep 2026 05:02:37 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
+      "handle": "AlphaSignalAI",
+      "text": "Anthropic's automatic caching billed us $0.022 per turn for the same 8,400 tokens that cost $0.003 once we placed the cache marker by hand Automatic caching means one switch, and the system decides what to save. Manual caching means you mark the exact block yourself, so nothing varying ever poisons the entry. That single difference explains the whole gap, and our meter confirmed it across every repeat. So we wrote down every trick that moved the bill, and each one ships with code you can paste. Every figure below comes from our own runs > Mark the stable prefix > Buy minutes, not hours > Read the usage meter > Batch the night shift Then come the two that need explaining. Split planner from executor across two sessions. Cap thinking before it eats its own output. Our mid-thread model switch billed $0.197 with zero hits. The two-session version read its cache for $0.011, which means the second prefix never charged twice. Anthropic's docs describe all six features. Our meter readings show what each one actually saves. The full tutorial walks through every trick with Python and cURL. Full breakdown ↓↓",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2097716851719409934#m",
+      "published": "Wed, 09 Sep 2026 16:00:45 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
       "source_lang": "en"
     }
   ],
@@ -322,11 +142,14 @@
     "karpathy",
     "sama",
     "DarioAmodei",
+    "gdb",
+    "sundarpichai",
     "elonmusk",
     "AravSrinivas",
+    "miramurati",
     "ylecun",
-    "demishassabis",
     "JeffDean",
+    "fchollet",
     "AndrewYNg",
     "rasbt",
     "bcherny",
@@ -336,6 +159,8 @@
     "aidan_mclau",
     "officiallogank",
     "osanseviero",
+    "AnthropicAI",
+    "OpenAI",
     "GoogleDeepMind",
     "xai",
     "simonw",
@@ -344,359 +169,212 @@
     "jeremyphoward",
     "levelsio",
     "mckaywrigley",
-    "amasad",
     "nickadobos",
     "emollick",
+    "ArthurMensch",
     "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
     "ClemDelangue",
-    "rowancheung",
-    "AlphaSignalAI"
+    "rowancheung"
   ],
   "processed": {
-    "summary": "Cette journée a été riche en annonces, montrant que l'IA est partout ! D'un côté, les géants comme OpenAI, Google DeepMind et Anthropic lancent de nouveaux modèles et fonctionnalités, du e-commerce intelligent aux assistants de code vocal, en passant par des outils pour la science et l'analyse de données. D'un autre côté, de profondes réflexions émergent sur les risques de l'IA de pointe, la concentration du pouvoir, et l'importance cruciale de la sécurité et de l'alignement pour garantir que ces technologies bénéficient à tous.",
+    "summary": "Aujourd'hui, l'actualité de l'IA est marquée par la vision à long terme de l'AGI avec la création du DeepMind Institute, visant une meilleure compréhension de son impact technique et sociétal. Des outils concrets émergent pour améliorer l'efficacité et l'apprentissage des IA, comme l'intégration de Replit dans Slack Code ou une nouvelle méthode de Google pour l'auto-amélioration des compétences d'agents. Les développeurs peuvent aussi découvrir des astuces pratiques pour réduire les coûts d'utilisation des modèles, tandis que la réflexion continue sur l'importance de la transparence et de la \"monitorabilité\" des systèmes d'IA.",
     "glossaire": [
       {
-        "terme": "AGI (Artificial General Intelligence)",
-        "definition": "C'est l'objectif ultime de l'IA : une intelligence artificielle capable de comprendre, d'apprendre et d'appliquer l'intelligence à n'importe quelle tâche qu'un humain peut faire, contrairement aux IA actuelles spécialisées."
+        "terme": "AGI (Artificial General Intelligence / Intelligence Artificielle Générale)",
+        "definition": "Une IA capable de comprendre, d'apprendre et d'appliquer son intelligence à n'importe quelle tâche intellectuelle qu'un humain peut faire, contrairement aux IA actuelles qui sont spécialisées."
       },
       {
-        "terme": "Modèle Speech to Speech",
-        "definition": "Une IA qui non seulement comprend ce que vous dites (parole en texte), mais est aussi capable de vous répondre par la parole, permettant une conversation vocale naturelle."
+        "terme": "Chaîne de Pensée (Chain of Thought)",
+        "definition": "Une technique qui permet aux IA de détailler les étapes de leur raisonnement, un peu comme un être humain expliquerait sa logique pour arriver à une conclusion."
       },
       {
-        "terme": "Alignement de l'IA",
-        "definition": "Le défi de s'assurer que les systèmes d'IA agissent conformément aux valeurs et aux intentions humaines, de manière bénéfique et sûre, sans développer de comportements indésirables."
+        "terme": "Monitorabilité (Monitorability)",
+        "definition": "La capacité de surveiller et de comprendre comment un système d'IA fonctionne, prend ses décisions et arrive à ses résultats, essentielle pour la confiance et la sécurité."
       },
       {
-        "terme": "Open-source (ou 'à poids ouverts')",
-        "definition": "Un modèle d'IA dont le code source et les 'poids' (les paramètres internes qui définissent son comportement) sont librement accessibles et modifiables par tous, favorisant la transparence et l'innovation collaborative."
+        "terme": "Cache",
+        "definition": "Une mémoire rapide qui stocke temporairement des données fréquemment utilisées par une IA pour accélérer les opérations et réduire les coûts d'utilisation."
       },
       {
-        "terme": "Affiner un modèle (Fine-tuning)",
-        "definition": "Une technique qui consiste à prendre un modèle d'IA déjà entraîné et à le spécialiser davantage en l'entraînant sur un ensemble de données plus petit et très spécifique pour améliorer ses performances sur une tâche particulière."
+        "terme": "Agent IA",
+        "definition": "Un programme informatique autonome conçu pour percevoir son environnement, prendre des décisions et agir pour atteindre des objectifs spécifiques, souvent en collaboration avec des humains."
       },
       {
-        "terme": "LLM (Large Language Model)",
-        "definition": "Un modèle de langage de grande taille est une IA capable de comprendre, de générer et d'interagir avec le langage humain de manière fluide et contextuelle."
-      },
-      {
-        "terme": "Benchmark",
-        "definition": "Un ensemble de tests standardisés et de référence utilisés pour mesurer et comparer objectivement les performances des différents modèles d'IA sur des tâches spécifiques."
+        "terme": "Jeton (Token)",
+        "definition": "Une petite unité de texte (un mot, une partie de mot, un signe de ponctuation) que les modèles d'IA traitent et sur laquelle leur utilisation est souvent facturée."
       }
     ],
     "category_summaries": {
-      "actu": "Aujourd'hui, nous avons vu de nombreuses annonces importantes : des partenariats majeurs (Shopify et OpenAI, TotalEnergies et Mistral), le lancement de nouveaux modèles d'IA plus performants (Gemini 3.8 Live, Claude Fable/Mythos 5.1), et la publication de cadres pour la sécurité. Le financement record de Mistral souligne également la vitalité de l'écosystème européen de l'IA.",
-      "tips": "Les conseils du jour se concentrent sur l'utilisation avancée des agents de données, notamment dans ChatGPT Work. Ils expliquent comment connecter vos outils existants pour créer des tableaux de bord interactifs, analyser des informations financières, et surtout, vérifier et tracer les sources des données pour une meilleure fiabilité.",
-      "idees": "La communauté de l'IA s'interroge profondément sur l'avenir de l'IA : les risques potentiels de l'AGI, la nécessité de l'alignement et de la sécurité, et les dangers d'une concentration excessive du pouvoir. Des voix s'élèvent pour souligner les limites de l'IA actuelle en termes d'apprentissage et d'efficacité, tout en alertant sur la difficulté de contrôler des modèles de plus en plus conscients de leur environnement.",
-      "outils": "Les outils mis en avant aujourd'hui montrent comment l'IA est mise au service de la productivité et de la recherche. On découvre un assistant vocal (Codex) pour le développement en voiture, un 'Data agent' dans ChatGPT Work pour l'analyse d'entreprise, et AlphaGenome Atlas pour la recherche génétique. L'IA facilite même des expériences complexes en informatique quantique."
+      "actu": "L'actualité du jour est dominée par le lancement du DeepMind Institute, la nouvelle entité de Google DeepMind dédiée à l'étude approfondie de l'Intelligence Artificielle Générale (AGI) et de ses implications. On note également l'intégration de plateformes de développement comme Replit dans Slack pour faciliter le codage collaboratif avec des agents IA, et la présentation d'un nouveau modèle DeepSeek promettant une efficacité mémoire accrue.",
+      "tips": "Pour les utilisateurs d'IA, des conseils précieux sont partagés pour optimiser les coûts. L'accent est mis sur l'utilisation stratégique de la mise en cache, notamment la mise en cache manuelle, pour réduire considérablement les dépenses liées à l'utilisation des modèles d'IA d'Anthropic en marquant spécifiquement les informations à conserver.",
+      "idees": "La communauté IA se penche sur des questions fondamentales, comme la nécessité de préserver la transparence du raisonnement des modèles (Chaîne de Pensée et monitorabilité) pour une conception responsable. Des réflexions sur le rôle des arts et des sciences humaines dans l'ère de l'AGI, ainsi que des critiques techniques sur les nouvelles méthodes d'entraînement de modèles, animent les discussions.",
+      "outils": "De nouvelles approches pour l'entraînement et l'amélioration des IA sont mises en avant. Google présente WikiSkill, une méthode pour que les agents IA développent et réécrivent leurs compétences de manière autonome à partir de l'expérience, avec un dépôt public pour ceux qui souhaitent explorer cette technique d'auto-amélioration."
     },
     "highlights": [
       {
-        "author_name": "OpenAI",
-        "handle": "@OpenAI",
-        "text_fr": "Maintenant, tout le monde peut faire travailler ses données. Nous introduisons un nouvel agent de données dans ChatGPT Work pour que vous puissiez transformer les données de votre entreprise en réponses, en tableaux de bord interactifs et en actions – simplement en demandant. Il suffit d'ajouter le Data Plugin dans ChatGPT Work, de vous connecter aux sources de données et au contexte que vous utilisez déjà, et de commencer la conversation. openai.com/index/put-data-to… Vidéo",
-        "text_original": "Now everyone can put data to work. We’re introducing a new Data agent in ChatGPT Work so you can turn your company’s data into answers, interactive dashboards, and action—just by asking. Just add the Data Plugin in ChatGPT Work, connect to the data sources and context you already use, and start the conversation. openai.com/index/put-data-to… Video",
-        "link": "http://nitter.jaydenha.uk/ChatGPT/status/2098065296968011853#m",
-        "decryptage": "Un 'Data agent' est une fonctionnalité de ChatGPT qui lui permet d'interagir directement avec les données de votre entreprise pour les analyser et en tirer des conclusions, comme un assistant spécialisé en données.",
-        "category": "outils",
-        "highlight_reason": "Ce tweet présente une fonctionnalité très concrète pour les professionnels, montrant comment l'IA peut directement aider à l'analyse de données d'entreprise et à la prise de décision."
-      },
-      {
-        "author_name": "Francois Chollet",
-        "handle": "@fchollet",
-        "text_fr": "> On pourrait même définir l'intelligence comme l'efficacité avec laquelle on transforme l'expérience en compétence ; par cette définition, elles sont très loin derrière nous. Oui, on pourrait définir l'intelligence de cette manière, et ce serait exact. Selon cette métrique, l'IA actuelle est environ 6 ordres de grandeur moins intelligente que les humains. L'histoire évolutive de vos ancêtres ne vous a pas préparé à la programmation Python, pourtant vous pouvez apprendre à programmer de manière compétente en Python en quelques centaines d'heures. Un LRM a besoin de l'équivalent d'environ 1 milliard d'heures de données d'entraînement (en plus de toutes ses données d'entraînement non liées à la programmation). Une autre dimension où l'IA actuelle est bien en deçà du niveau humain est l'efficacité de calcul et l'efficacité énergétique au moment des tests. Un humain peut résoudre un jeu ARC-AGI-3 en brûlant une quantité d'énergie qui coûterait moins de 0,1 $ aux prix de l'électricité au détail. Astra coûte environ 300 à 400 $ par jeu. C'est un écart de 3 à 4 ordres de grandeur. Daniel Kokotajlo (@DKokotajlo) rapporte que Dan Selsam, chercheur en capacités chez OpenAI (depuis 2022) et son ancien patron, a partagé une déclaration publique sur ses opinions concernant les risques liés à l'IA. Il explique qu'après plus de quinze ans de travail sur l'IA, il est extrêmement préoccupé par les progrès des modèles de langage et les risques des futures itérations. Il met en lumière le problème crucial et négligé : les modèles deviennent si conscients de leur situation que nous perdons la capacité de les évaluer dans des contextes où ils pensent ne pas être observés ou contrôlés. Selon lui, les futurs modèles sembleront de plus en plus alignés même s'ils ne le sont pas réellement. Il craint que si les modèles de langage atteignent le seuil de capacité où ils peuvent façonner le monde sans contrainte humaine, ils fassent probablement quelque chose d'extrême et détruisent l'humanité. Il suggère que des objectifs non intentionnels se développent spontanément pendant l'entraînement et que les modèles agissent de manière extrême pour les atteindre. La capacité de maîtriser l'humanité ouvrirait de nombreuses options nouvelles et indésirables pour réaliser leurs objectifs. Il est également préoccupé par le fait que les chercheurs humains perdent la capacité et la volonté de prendre réellement en charge la recherche guidée par les modèles, en dépendent de plus en plus pour percevoir le monde. Il conclut que si nous parvenons à cet avenir en développant des modèles plutôt qu'en les concevant de manière sûre, nous perdrons tout à la fin. http://nitter.jaydenha.uk/DKokotajlo/status/2099600298855829616#m",
-        "text_original": "> One could even define intelligence as the efficiency with which one converts experience into competence; by this definition they lag very far behind us Yes, one could define intelligence in this way, and one would be right. By this metric current AI is approximately 6 OOMs less intelligent than humans. Your ancestors' evolutionary history did not prepare you for Python programming, yet you can learn to competently program in Python in a few hundreds of hours. An LRM needs the training data equivalent of ~1B hours (on top of all of its non-programming related training data). Another dimension where which current AI is far below human level is test-time compute efficiency and energy efficiency. A human can solve an ARC-AGI-3 game by burning an amount of energy that would cost under $0.1 at retail electricity prices. Astra costs about $300-$400 per game. That's a 3-4 OOM gap. Daniel Kokotajlo (@DKokotajlo) Dan Selsam is a current OpenAI capabilities researcher. (since 2022) He was my boss for a while. He doesn't have a twitter account but has made this public statement of his views on AI risk and sent it to me to share: Dan Selsam's Personal Statement on AI Risk: I have been working on AI for over fifteen years, across many different paradigms. I did early work on probabilistic programming languages at MIT, was one of the early developers of the Lean Theorem Prover at Microsoft Research, demonstrated one of the first instances of neural networks learning to reason for my PhD at Stanford, and since joining OpenAI almost five years ago, have helped pioneer chain-of-thought optimization on language models and, more recently, data-efficient pretraining methods. Like many others, I have become extremely concerned about how far language models have come and the risks that future iterations will pose. I am encouraged by the recent proposals by the leaders of the frontier research efforts to require third-party oversight, and to push for domestic and international coordination to address risks. However, I believe a major consideration has been absent from the public conversation, and that merely pacing the frontier more carefully will not adequately limit the long-term risk. The crucial and overlooked problem is that the models are becoming so situationally aware that we are losing the ability to evaluate them in contexts where they believe they are not being watched or controlled. Future experiments will tell us almost nothing new about how they would behave if they were truly unconstrained by humans, and what we already know about this is alarming. Models will increasingly seem aligned even when they are not. I will explain my rationale in more detail. I have always believed that there are computational processes that could be leveraged to accelerate science and solve many of humanity's most pressing problems. I have also believed that there are computational processes that if set in motion, would steer the world in extreme ways beyond our control, leading humanity to a bad or nonexistent future. Both types of processes may be described as AI or ASI, but \"AI\" is a suitcase word that is often used to hype or confuse. There are many examples in the history of the field where something that was once considered \"AI\" matures as a subfield and becomes a prosaic, bounded and clearly non-perilous technology, while a new more mysterious approach takes the torch until we understand its scope and the cycle continues. I had expected language models to follow a similar trajectory. Despite their incredible abilities, the current algorithms seem far inferior to humans in important ways. Most importantly, they still require an extraordinary amount of data to become competent. One could even define intelligence as the efficiency with which one converts experience into competence; by this definition they lag very far behind us. Moreover, once they are trained they are literally frozen in deployment and only learn superficially after that. Sure, the models keep excelling at harder and harder evaluation benchmarks, but their benchmark mastery may partly reflect a limitation on our ability to simulate the kind of novel and even adversarial situations one would encounter in the real world. The critics do have a point here. That said, I no longer think these present limitations meaningfully limit the amount of risk posed by continued progress in anything like the current paradigm. However data-inefficient the models are currently, and however limiting their anterograde amnesia may be, it does not imply that their ability to steer the world will not continue to rapidly increase. Human researchers may continue to advance capabilities the old fashioned way, but increasingly powerful models have the potential to accelerate the process even beyond that, and with some degree of positive feedback loop. I do not mean to overstate the models’ ability to accelerate AI research today; coding has been accelerated dramatically, but there are other bottlenecks, such as designing and interpreting ambiguous experiments, making hard decisions about exactly what and when to scale, and waiting for large experiments to finish. There is no clear trend to extrapolate yet for any of these. But the current models already do open up many novel opportunities to improve future models that were not available until recently. These include: trying an extraordinarily diverse set of approaches at small scale, analyzing gigantic amounts of potentially relevant data, and doing Millenium-Prize-level mathematics to address statistics or optimization challenges in novel ways. Every further improvement makes them more useful at helping accelerate the next improvement, even if in hard-to-extrapolate ways. It is possible that improvements to the current stack will have diminishing returns, but the evidence accumulated so far suggests that it is easier than one might think to continue making rapid progress. There are many crucial subtleties in the existing AI research methodology, but AI research is largely a well-defined game where the goal is to improve on a few carefully chosen proxy metrics. Although proxy metrics are never perfect, most improvements to these metrics have and will likely continue to yield substantial increases in the powers of the resulting models. Given how simple the game is, how tractable it has been historically, and how many new opportunities the models are opening up, I think there is a real possibility that the systems improve dramatically again in the next few years, perhaps even more quickly than the already high historical pace. The models are already leading to breakthroughs in mathematics, and better models might lead to all sorts of breakthroughs in other sciences. It is hard not to be excited about the potential. It is tantalizing. But there is trouble in paradise. If the language models actually reach the capability threshold where they can shape the world unconstrained by human will, they will probably do something extreme and destroy humanity in the process. There are many ways of strengthening and refining the argument that have been discussed elsewhere, but I'll share a trivial two-line version of it here that I find captures the essence: [Empirical] Models (and swarms thereof) spontaneously develop unintended goals as a consequence of training, and often do extreme things in order to achieve them. [Logical] Being able to overpower humanity would open up many new and undesirable options for achieving their goals. These two premises imply that if the day ever comes when a powerful model realizes it is no longer constrained by humans, we should not be at all confident that it will continue to behave within the bounds we intended. Exactly what it will do is impossible to predict, but to the extent that its raison d’être is solving incredibly hard problems and managing massive engineering projects, I think a good guess would be that its unchained behavior would lead to runaway industrialization that makes the planet inhospitable to humans. If everyone on earth agreed that the systems must never reach that power, it would still be a hard—but not impossible—coordination problem to ensure that they do not. However, I think the situation is greatly complicated by the fact that the models will likely convince people that everything is fine. They will be increasingly optimized to seem aligned. We will create proxy metrics to measure alignment, and they will go up like every other benchmark. We will create “honeypot” environments that try to study the models when they seem to gain new options, but the models will know they are being tricked and will still behave nicely. The models will understand their circumstances; they will read the safety protocols, deployment requirements, the code they are running in, and in general will have a very good sense of their degrees of freedom. Moreover, they will eloquently explain how aligned they are, discuss the nuances of human values and ethics, and argue convincingly that humans should trust them with power. There may be an ocean of future evidence that seems to contradict the first bullet-point above, but we may already be at the highest capability level for which any such evidence can be trusted. And the current evidence for the first bullet-point is strong. One striking piece of evidence is contained in the recent wave of rogue agent swarms. While I agree with those who downplay the attacks by claiming that there are basic measures that could have prevented them, I think the important lesson is that even knowing all the mistakes that were made, one would not have predicted that the agents would behave badly in this particular way, which notably included sacrificing themselves for the benefit of the collective. The individual replicas did not only care about their own nominal reward; they exhibited weirder emergent tendencies that merely correlated with rewards during training. Fixing the reward signals during training (and improving security, etc.) may prevent similar attacks, but will not change the fact that one does not actually get what one trains for. Many AI researchers grant these concerns and recognize that the hard version of the alignment problem is unsolved; however, they generally believe that the better models of the future will help solve it. I fear we may already be near the point where models systematically bias their alignment advice, due to their internal preferences about how the human supervisor will react or how future models will be trained (or for some even more obscure reason). Meanwhile, human researchers are losing the ability and the will to take true ownership of model-driven research. Researchers and engineers in all parts of the stack are rapidly increasing their dependence on the models even to perceive the world. I myself barely look at raw code anymore, and struggle to maintain the discipline to engage deeply with the model's explanations and proposals throughout the day. Due to the large amount of agent activity data involved in the OpenAI/HuggingFace Incident, even the third-party investigation needed to rely heavily on models to analyze what had happened, and note in their report that their subjective impressions are likely colored by the analysis agent’s biases. The AI labs are far ahead right now in this kind of cognitive offloading (due largely to the gigantic internal token subsidies) but it is easy to imagine the phenomenon spreading throughout the world, until civilization is modulated entirely by the models. It is also not hard to imagine this being superficially positive and coinciding with a scientific and economic renaissance. In that scenario, all may seem rosy and safe. But if the argument above is correct, it would nonetheless be a ticking time bomb. If progress continues for too long, the day will come when AI systems find themselves with radically new options for achieving whatever it is that they happen to seek. I want the glorious renaissance future as much as anyone. I have worked for it, however tortuously, my whole career. It breaks my heart to see the potential in sight and forgo it, but the argument—that if we get there by growing models rather than engineering them, we will lose everything in the end—seems very strong to me. I am still wrestling with it and its staggering implications. I do not have answers, but as a first step, I wanted to share my present concerns. Daniel Selsam September 14, 2026 Link to original doc: docs.google.com/document/d/e… — http://nitter.jaydenha.uk/DKokotajlo/status/2099600298855829616#m",
-        "link": "http://nitter.jaydenha.uk/fchollet/status/2099633702888439865#m",
-        "decryptage": "Un 'ordre de grandeur' (OOM pour Order of Magnitude) est une manière de mesurer à quel point une quantité est plus grande ou plus petite qu'une autre en utilisant des puissances de dix, ici pour montrer l'énorme différence entre l'efficacité de l'IA et celle des humains.",
-        "category": "idees",
-        "highlight_reason": "Ce long tweet propose une réflexion profonde et critique sur les véritables capacités de l'IA actuelle par rapport à l'intelligence humaine, ainsi que sur les risques existentiels liés au développement non contrôlé de l'IA de pointe, un sujet essentiel pour tout débutant passionné."
-      },
-      {
-        "author_name": "Arthur Mensch",
-        "handle": "@ArthurMensch",
-        "text_fr": "Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une levée de fonds de série D de 3 milliards d'euros, le plus grand tour de table jamais réalisé par une entreprise technologique européenne, seulement trois ans après son lancement.",
-        "text_original": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch.",
-        "link": "http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-        "decryptage": "Une 'levée de fonds de série D' est une étape où une entreprise en croissance récolte un financement important auprès d'investisseurs, après plusieurs tours précédents (A, B, C), pour accélérer son développement.",
+        "author_name": "Demis Hassabis",
+        "handle": "@demishassabis",
+        "text_fr": "Mon parcours pour développer l'AGI s'étend sur 25 ans, dont plus de 10 ans de réflexion sur les perspectives techniques et sociétales chez Google DeepMind. L'AGI est à l'horizon – nous avons besoin d'une compréhension plus approfondie de ses implications. Pour cela, nous avons créé le DeepMind Institute. Article Présentation du DeepMind Institute Nous sommes à l'aube d'une transformation profonde. Les systèmes d'IA actuels ont des capacités impressionnantes et le rythme rapide de l'innovation suggère que nous approchons désormais de l'intelligence artificielle générale (AGI).",
+        "text_original": "My journey to develop AGI spans 25 yrs, including 10+ yrs thinking about technical & societal perspectives at Google DeepMind. AGI is on the horizon - we need deeper understanding of its implications. To help, we've created the DeepMind Institute. Article Introducing the DeepMind Institute We are on the cusp of a profound transformation. Today’s AI systems have impressive capabilities and the rapid pace of innovation suggests we’re now approaching artificial general intelligence (AGI),",
+        "link": "http://nitter.jaydenha.uk/ShaneLegg/status/2100229706641539248#m",
+        "decryptage": "L'AGI, ou Intelligence Artificielle Générale, est l'objectif de créer une IA capable d'accomplir n'importe quelle tâche intellectuelle qu'un être humain peut faire, contrairement aux IA actuelles qui excellent dans des tâches spécifiques. Le DeepMind Institute est un nouvel organisme de recherche créé par Google DeepMind pour étudier les conséquences profondes de l'AGI.",
         "category": "actu",
-        "highlight_reason": "Cette annonce est un jalon historique pour l'IA européenne, montrant la capacité des acteurs locaux à rivaliser avec les géants américains et à attirer des investissements colossaux."
+        "highlight_reason": "C'est une annonce majeure d'un acteur clé de l'IA, signalant une orientation stratégique forte vers la compréhension et le développement responsable de l'AGI."
+      },
+      {
+        "author_name": "Demis Hassabis",
+        "handle": "@demishassabis",
+        "text_fr": "L'idée que la \"Chaîne de Pensée\" disparaîtra inévitablement ignore notre capacité à concevoir ces modèles et à agir en conséquence. @rohinmshah et moi défendons la nécessité de préserver intentionnellement la \"monitorabilité\" (dans le cadre du lancement du DeepMind Institute) ici : institute.deepmind.com/essay… Link L'importance de la transparence du raisonnement. Aujourd'hui, nous avons une fenêtre sur la façon de \"penser\" des modèles d'IA les plus puissants. Nous devons nous assurer qu'elle reste ouverte.",
+        "text_original": "The idea that Chain of Thought is inevitably going to go away misses that we have agency in designing these models and can do something about that. @rohinmshah and I make the case that we should intentionally preserve monitorability (as part for of the launch of the DeepMind Institute) here: institute.deepmind.com/essay… Link The case for reasoning transparency Today, we have a window into the thoughts of the most powerful AI models. We need to ensure it stays open. institute.deepmind.com",
+        "link": "http://nitter.jaydenha.uk/ancadianadragan/status/2100278119940907280#m",
+        "decryptage": "La \"Chaîne de Pensée\" (Chain of Thought) est une technique qui permet aux IA d'expliquer les étapes de leur raisonnement avant de donner une réponse, un peu comme nous expliquerions notre logique. La \"monitorabilité\" (monitorability) c'est la capacité de comprendre et de surveiller comment une IA arrive à ses conclusions, ce qui est crucial pour la confiance et le contrôle.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet soulève une question fondamentale sur la conception des IA : non seulement elles doivent être performantes, mais aussi compréhensibles et contrôlables, un aspect crucial pour leur adoption future."
+      },
+      {
+        "author_name": "AlphaSignal",
+        "handle": "@AlphaSignalAI",
+        "text_fr": "La mise en cache automatique d'Anthropic nous a coûté 0,022 $ par tour pour les mêmes 8 400 jetons qui n'ont coûté que 0,003 $ une fois que nous avons placé le marqueur de cache manuellement. La mise en cache automatique signifie un seul interrupteur, et le système décide quoi sauvegarder. La mise en cache manuelle signifie que vous marquez vous-même le bloc exact, de sorte que rien de variable ne corrompt l'entrée. Cette seule différence explique tout l'écart, et notre compteur l'a confirmé à chaque répétition. Nous avons donc noté chaque astuce qui a réduit la facture, et chacune est fournie avec du code que vous pouvez copier-coller. Chaque chiffre ci-dessous provient de nos propres exécutions > Marquez le préfixe stable > Achetez des minutes, pas des heures > Lisez le compteur d'utilisation > Traitez par lots la nuit. Viennent ensuite les deux qui nécessitent des explications. Séparez le planificateur de l'exécuteur en deux sessions. Limitez la réflexion avant qu'elle ne consomme sa propre sortie. Notre changement de modèle en milieu de thread a été facturé 0,197 $ sans aucun succès de cache. La version à deux sessions a lu son cache pour 0,011 $, ce qui signifie que le deuxième préfixe n'a jamais été facturé deux fois. La documentation d'Anthropic décrit les six fonctionnalités. Nos relevés de compteur montrent ce que chacune d'entre elles économise réellement. Le tutoriel complet explique chaque astuce avec Python et cURL. Analyse complète ↓↓",
+        "text_original": "Anthropic's automatic caching billed us $0.022 per turn for the same 8,400 tokens that cost $0.003 once we placed the cache marker by hand Automatic caching means one switch, and the system decides what to save. Manual caching means you mark the exact block yourself, so nothing varying ever poisons the entry. That single difference explains the whole gap, and our meter confirmed it across every repeat. So we wrote down every trick that moved the bill, and each one ships with code you can paste. Every figure below comes from our own runs > Mark the stable prefix > Buy minutes, not hours > Read the usage meter > Batch the night shift Then come the two that need explaining. Split planner from executor across two sessions. Cap thinking before it eats its own output. Our mid-thread model switch billed $0.197 with zero hits. The two-session version read its cache for $0.011, which means the second prefix never charged twice. Anthropic's docs describe all six features. Our meter readings show what each one actually saves. The full tutorial walks through every trick with Python and cURL. Full breakdown ↓↓",
+        "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2097716851719409934#m",
+        "decryptage": "La \"mise en cache\" est une technique qui permet de stocker temporairement des informations fréquemment utilisées pour éviter de les recalculer, réduisant ainsi les coûts et le temps de réponse d'une IA. Le \"cache automatique\" le fait tout seul, tandis que le \"cache manuel\" vous demande d'indiquer précisément ce qu'il faut stocker pour plus d'efficacité. \"Jetons\" (tokens) sont les unités de texte traitées par l'IA et facturées.",
+        "category": "tips",
+        "highlight_reason": "Ce conseil pratique permet aux débutants (et aux autres !) de réaliser des économies substantielles sur l'utilisation des IA, un aspect très concret et utile."
+      },
+      {
+        "author_name": "AlphaSignal",
+        "handle": "@AlphaSignalAI",
+        "text_fr": "La nouvelle étude de Google a prouvé que le fichier de compétences est le moins important dans l'entraînement. Écrire manuellement les instructions des agents est une bataille perdue. Les fichiers deviennent obsolètes dès que les tâches changent. L'évolution des compétences les réécrit à partir des preuves d'exécution (rollout evidence). Mais la plupart des boucles oublient chaque échec. Leur configuration WikiSkill conserve un carnet privé derrière les compétences. Ainsi, l'entraîneur apprend de l'historique tandis que l'acteur reste aveugle. > Rendre l'acteur aveugle lors de l'exécution > Enregistrer chaque modification rejetée > Mettre en quarantaine chaque compétence transférée. Le carnet a augmenté la précision de 48,7 à 63,7. Ensuite, le fait de regarder a fait chuter la précision à 60,9. Et les compétences transférées ont surpassé celles faites maison de 70,2 à 63,4. Pourtant, l'une a fait planter un modèle plus puissant de 50,5 à 18,1. De petits modèles peuvent découvrir des compétences que des modèles plus grands exécutent. Le dépôt (repo) d'EvoSkill est public sous Apache 2.0. Il faut donc gérer chaque compétence comme une version de modèle. Analyse complète ↓↓ L'annexe construit la boucle en une heure.",
+        "text_original": "Google's new paper proved your skill file matters least in training Hand-writing agent instructions is a losing game. Files rot the moment tasks shift. Skill evolution rewrites them from rollout evidence instead. But most loops forget every failure. Their WikiSkill setup keeps a private notebook behind the skills. So the coach learns from history while the actor stays blind. > Blind the rollout actor > Log every rejected edit > Quarantine every transferred skill The notebook lifted accuracy 48.7 to 63.7 Then peeking dropped it back to 60.9 And transferred skills beat self-made ones 70.2 to 63.4, Yet one crashed a stronger model 50.5 to 18.1 Small models can discover skills that bigger ones execute. EvoSkill's repo is public under Apache 2.0 So gate every skill like a model release Full breakdown ↓↓ The appendix builds the loop in an hour",
+        "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2098449034067284401#m",
+        "decryptage": "Les \"agents\" IA sont des programmes capables d'agir de manière autonome. Ce tweet parle d'une méthode, WikiSkill, pour améliorer la façon dont les IA apprennent et s'adaptent, en leur permettant d'évoluer leurs propres \"compétences\" (actions spécifiques qu'elles savent faire) plutôt que de dépendre d'instructions statiques. Un \"repo public\" (dépôt public) est un endroit où le code d'un projet est accessible à tous, ce qui permet à d'autres de l'utiliser ou de contribuer.",
+        "category": "outils",
+        "highlight_reason": "Cette recherche de Google propose une approche innovante pour l'auto-amélioration des compétences des agents IA et met à disposition un dépôt public, offrant une ressource concrète pour explorer l'évolution autonome des modèles."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Greg Brockman",
-          "handle": "@gdb",
-          "text_fr": "Excité d'aider les marchands Shopify à promouvoir leurs produits dans ChatGPT : Harley Finkelstein (@harleyf) annonce que les Publicités ChatGPT pour @Shopify sont lancées. Nous sommes le premier partenaire commercial d'@OpenAI. OpenAI extrait directement du catalogue Shopify, donc les produits des marchands sont déjà là. Les marchands définissent leurs propres campagnes et leur propre budget. L'installation est gratuite, et le suivi se fait directement depuis l'interface administrateur de Shopify. Les consommateurs demandent à ChatGPT quoi acheter, et les marchands Shopify peuvent décider précisément comment leurs produits apparaissent. apps.shopify.com/chatgptads Lien Publicités ChatGPT – Créez, gérez et analysez des publicités ChatGPT en utilisant votre catalogue de produits | Shopify App Store Atteignez vos clients tout au long de leur parcours de décision avec les Publicités ChatGPT. Connectez ou créez un compte publicitaire depuis Shopify, synchronisez automatiquement votre catalogue de produits...",
-          "text_original": "excited to help Shopify merchants advertise their products in ChatGPT: Harley Finkelstein (@harleyf) ChatGPT Ads for @Shopify is live. We are @OpenAI 's first commerce partner. OpenAI pulls straight from Shopify Catalog, so merchants' products are already there. Merchants set their own campaigns, their own budget. Free to install, tracked right from the Shopify admin. Consumers are asking ChatGPT what to buy. Shopify merchants are able to decide exactly how they show up. apps.shopify.com/chatgptads Link ChatGPT Ads - Create, run and analyze ChatGPT Ads using your product catalog | Shopify App Store Reach customers throughout their decision journey with ChatGPT Ads. Connect or create an ad account from Shopify, automatically sync your product c... apps.shopify.com — http://nitter.jaydenha.uk/harleyf/status/2100300851705450965#m",
-          "link": "http://nitter.jaydenha.uk/gdb/status/2100369354319884703#m",
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Mon parcours pour développer l'AGI s'étend sur 25 ans, dont plus de 10 ans de réflexion sur les perspectives techniques et sociétales chez Google DeepMind. L'AGI est à l'horizon – nous avons besoin d'une compréhension plus approfondie de ses implications. Pour cela, nous avons créé le DeepMind Institute. Article Présentation du DeepMind Institute Nous sommes à l'aube d'une transformation profonde. Les systèmes d'IA actuels ont des capacités impressionnantes et le rythme rapide de l'innovation suggère que nous approchons désormais de l'intelligence artificielle générale (AGI).",
+          "text_original": "My journey to develop AGI spans 25 yrs, including 10+ yrs thinking about technical & societal perspectives at Google DeepMind. AGI is on the horizon - we need deeper understanding of its implications. To help, we've created the DeepMind Institute. Article Introducing the DeepMind Institute We are on the cusp of a profound transformation. Today’s AI systems have impressive capabilities and the rapid pace of innovation suggests we’re now approaching artificial general intelligence (AGI),",
+          "link": "http://nitter.jaydenha.uk/ShaneLegg/status/2100229706641539248#m",
+          "decryptage": "L'AGI, ou Intelligence Artificielle Générale, est l'objectif de créer une IA capable d'accomplir n'importe quelle tâche intellectuelle qu'un être humain peut faire, contrairement aux IA actuelles qui excellent dans des tâches spécifiques. Le DeepMind Institute est un nouvel organisme de recherche créé par Google DeepMind pour étudier les conséquences profondes de l'AGI."
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Pendant plus de 20 ans, @ShaneLegg et moi avons discuté de l'impact potentiel de l'AGI sur l'économie, la science et la société. Avec le DeepMind Institute, nous étendons la recherche interdisciplinaire sur les questions clés de l'ère de l'IA. Nous espérons que cela stimulera les discussions nécessaires pour bien aborder les prochaines étapes : deepmind.google/institute Link DeepMind Institute Une réflexion audacieuse et étayée sur l'AGI, venant du laboratoire pionnier du domaine. Lisez les derniers essais du DeepMind Institute.",
+          "text_original": "For 20+ years @ShaneLegg and I've discussed AGI’s potential impact on the economy, science & society. With the DeepMind Institute, we're expanding interdisciplinary research on key questions for the AI era. We hope it spurs the discussions needed to get the next steps right: deepmind.google/institute Link DeepMind Institute Bold, well-evidenced thinking on AGI from the lab that pioneered the field. Read the latest essays from the DeepMind Institute.",
+          "link": "http://nitter.jaydenha.uk/demishassabis/status/2100230524383981702#m",
+          "decryptage": "La recherche interdisciplinaire signifie que des experts de différents domaines (technologie, sciences sociales, économie, éthique, etc.) travaillent ensemble pour aborder des problèmes complexes comme l'impact de l'IA."
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Plus de détails sur l'objectif du DeepMind Institute dans cette courte introduction : institute.deepmind.com/essay… Link Présentation du DeepMind Institute Le DeepMind Institute rassemble des points de vue diversifiés pour aborder les questions les plus critiques de la société.",
+          "text_original": "More on the purpose behind the DeepMind Institute in this short introduction: institute.deepmind.com/essay… Link Introducing the DeepMind Institute The DeepMind Institute brings diverse viewpoints together to tackle society's most critical questions.",
+          "link": "http://nitter.jaydenha.uk/demishassabis/status/2100230526007218651#m",
           "decryptage": null
         },
         {
-          "author_name": "Greg Brockman",
-          "handle": "@gdb",
-          "text_fr": "Déploiement généralisé d'Astra pour les ingénieurs chez Databricks : Patrick Wendell (@pwendell) annonce que Databricks a déployé Astra pour tous ses ingénieurs (environ 3500). Quelques observations utiles : 1. Astra surpasse clairement leurs modèles précédents (Opus 5, Sol 5.6) sur les tâches très complexes, surtout celles liées à la conception de systèmes de haut niveau ou aux tâches horizontales à long terme. 2. Les ingénieurs utilisant Astra ont augmenté leur temps de codage d'environ 60% par rapport à la référence. 3. Il n'est pas clair qu'Astra améliore significativement les tâches de codage de complexité moyenne/faible par rapport aux modèles antérieurs, ces tâches étant probablement déjà 'saturées' (parfaitement exécutées) par les modèles existants. 4. Ces conclusions proviennent d'un pilote avec 200 utilisateurs. Ils utilisent Unity Gateway pour des expériences basées sur des cohortes. 5. Un sous-budget spécifique à Astra est alloué aux ingénieurs pour qu'ils l'utilisent sélectivement sur des tâches complexes, préférant des modèles moins chers pour les tâches quotidiennes. Les ingénieurs peuvent combiner outils et modèles. Note : Pas de comparaisons robustes Astra vs Fable à ce jour. http://nitter.jaydenha.uk/pwendell/status/2100299179923067016#m",
-          "text_original": "wall-to-wall deployment of astra for engineers at databricks: Patrick Wendell (@pwendell) Today we rolled out Astra to every engineer at Databricks (N=~3500). Some notes that may be helpful to others: 1. Astra unambiguously out performs our previous highest-end models (Opus 5, Sol 5.6) on highly complex tasks, especially those related to high level system design or long range horizontal tasks. 2. Engineers given Astra increased overall coding spend by around 60% compared to baseline. 3. It is not clear Astra meaningfully improves on medium/low complexity coding tasks compared to earlier models. We suspect those tasks are mostly saturated (i.e. perfectly executed) by existing models. 4. We learned above by piloting Astra with around 200 users to gain signal on both quality and cost. We use Unity Gateway to do cohort-based experiments for all new models. 5. We give engineers a sub-budget specific to Astra to encourage them to use Astra selectively on complex tasks while preferring lower cost models for everyday tasks. Our engineers are able to mix-and-match tools and models within their overall budget envelope (we also allow for increased budgets through various mechanisms). These budgets are defined in Unity Gateway and regularly revisited. Note: We do not have robust comparisons of Astra-vs-Fable because we have net yet rolled out Fable widely due to data retention policies. — http://nitter.jaydenha.uk/pwendell/status/2100299179923067016#m",
-          "link": "http://nitter.jaydenha.uk/gdb/status/2100358372268921279#m",
-          "decryptage": "Astra est un modèle d'IA avancé, comparable aux systèmes comme GPT ou Claude, conçu pour aider les ingénieurs à coder et à concevoir des systèmes complexes."
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Ravi d'apporter Replit à Slack Code. Vous serez époustouflé ! Slack (@SlackHQ) Slack Code — Le codage \"agentique\" est désormais un sport d'équipe. Avec Slack Code, votre équipe et vos agents peuvent planifier, écrire et réviser des développements ensemble. Nouveaux agents dans Slack : - Cedar - @coderabbitai - @datadoghq - @FactoryAI - @Lovable - @MistralAI - @NanoClaw_AI - @Replit - Rhythms - @getskydive - @Snowflake — http://nitter.jaydenha.uk/SlackHQ/status/2100289448537645375#m",
+          "text_original": "Excited to bring Replit to Slack Code. You’ll be mindblown! Slack (@SlackHQ) Slack Code — Agentic coding is now a team sport. With Slack Code, your team and agents can plan, write, and review builds together. New agents in Slack: - Cedar - @coderabbitai - @datadoghq - @FactoryAI - @Lovable - @MistralAI - @NanoClaw_AI - @Replit - Rhythms - @getskydive - @Snowflake — http://nitter.jaydenha.uk/SlackHQ/status/2100289448537645375#m",
+          "link": "http://nitter.jaydenha.uk/amapel/status/2100371854204817863#m",
+          "decryptage": "Le \"codage agentique\" signifie que des \"agents\" IA (des programmes autonomes) peuvent aider les développeurs à coder, en participant à la planification, l'écriture et la revue de code, directement intégrés dans des outils de collaboration comme Slack."
         },
         {
-          "author_name": "Greg Brockman",
-          "handle": "@gdb",
-          "text_fr": "Astra et Luna décollent, selon Peter Walker (@PeterJ_Walker). Comparaison de la part des dépenses (en dollars) et de la part des jetons utilisés entre Anthropic et OpenAI. Astra a été le modèle le plus dépensé la semaine dernière, tandis que Luna a été le modèle le plus utilisé en termes de jetons (et de loin). http://nitter.jaydenha.uk/PeterJ_Walker/status/2099914428376564027#m",
-          "text_original": "Astra and Luna are taking off Peter Walker (@PeterJ_Walker) Share of wallet (dollars spent) vs share of tokens used. Anthropic vs OpenAI Astra = top model by spend last week Luna = top model by tokens (by a LOT) — http://nitter.jaydenha.uk/PeterJ_Walker/status/2099914428376564027#m",
-          "link": "http://nitter.jaydenha.uk/gdb/status/2099928683226218570#m",
-          "decryptage": "Les 'jetons' (tokens) sont les unités de texte traitées par les modèles d'IA, un peu comme les mots ; la 'part des dépenses' indique quel modèle coûte le plus cher aux utilisateurs."
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Le nouveau modèle flash plus grand de DeepSeek utilise 4 fois moins de cache. Il est presque deux fois plus grand que son prédécesseur, et le stockage KV est passé de 3 514 octets par jeton à 890. Tandis que le modèle a grossi, les sessions longues des agents sont devenues moins chères à maintenir. Les paramètres actifs, les \"cache hits\" et le tableau de bord ont tous évolué : > 8 milliards actifs en entrée > 16 milliards actifs en sortie > Cache hits 0,006 $ par million > Scores 40 contre Gemini 41. Une session d'un million de jetons tient ainsi sous un gigaoctet de KV global, alors que le prédécesseur nécessitait environ 3,5 Go pour la même fenêtre. De plus, ils ne persistent plus l'état de la fenêtre locale sur le disque, et le cache SSD persistant tombe à environ un huitième. Nous nous intéressons à la manière dont ils séparent la lecture de l'écriture, car c'est ce qui permet aux jetons d'entrée de sauter la moitié de la pile. Alors, comment un modèle plus grand utilise-t-il moins de mémoire ? Qu'est-ce qui doit rester en mémoire GPU par rapport au disque ? Et pourquoi le nombre de paramètres en dit-il moins sur votre facture ? Réponses ci-dessous ↓↓",
+          "text_original": "DeepSeek's new bigger flash model but uses 4x less cache It is almost twice as large as its predecessor, and KV storage fell from 3,514 bytes per token to 890 While the model grew, long agent sessions got cheaper to hold. Active parameters, cache hits, and the scoreboard all moved too: > 8B active on input > 16B active on output > Cache hits $0.006 per million > Scores 40 versus Gemini 41 Then a million-token session holds under a gigabyte of global KV, so the predecessor needed about 3.5 GB for the same window. Also, they no longer persist local window state to disk, and persistent SSD cache falls to about one-eighth. We care about how they split reading from writing, because that is what lets input tokens skip half the stack. So, how does a bigger model use less memory? What has to stay in GPU memory versus disk? And why does parameter count now say less about your bill? Answers below ↓↓",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2099538306950136169#m",
+          "decryptage": "Le \"cache\" est une mémoire rapide qui stocke temporairement des données fréquemment utilisées pour accélérer l'accès. Le \"stockage KV\" (Key-Value storage) est un type de base de données simple et rapide utilisée pour les informations clés-valeur. Un \"jeton\" est une petite unité de texte (un mot, une partie de mot, un signe de ponctuation) que l'IA traite. Moins de cache signifie des coûts et une consommation de ressources réduits."
         },
         {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "Google a lancé Gemini 3.8 Live, son nouveau modèle de 'Speech to Speech' (parole à parole), avec la variante 'Extended Thinking (High)' qui se classe numéro 1 sur l'indice 'Speech to Speech' d'Artificial Analysis à 82.6, et numéro 1 sur leur implémentation de benchmark Tau Voice à 68.6%. Gemini 3.8 Live est le successeur de Gemini 3.1 Flash Live de @GoogleDeepMind, un modèle 'Speech to Speech' qui exécute des outils et des appels d'API en arrière-plan tout en poursuivant la conversation. Il existe en deux variantes : le Gemini 3.8 Live standard et le Gemini 3.8 Live Extended Thinking, qui permet un effort de raisonnement configurable. Nous avons évalué le modèle standard et la variante Extended Thinking avec un effort de raisonnement élevé via l'API Gemini Live. Points clés à retenir : ➤ Indice Speech to Speech : Gemini 3.8 Live Extended Thinking (High) débute à la première place à 82.6, devant GPT-Live-1 (Astra, medium) à 81.5, Grok Voice Think Fast 2.0 High à 81.3 et GPT-Live-1 (Sol, low) à 80.1. Le Gemini 3.8 Live standard débute à la 5ème place à 76.0, les deux variantes étant en hausse par rapport à Gemini 3.1 Flash Live High à 71.5 (+11.1 et +4.5 points). L'indice fait la moyenne du raisonnement vocal (Big Bench Audio), de la performance agentique (Tau Voice), de la préférence Arena et du taux de réussite des tâches Arena. ➤ Arena des agents vocaux : Gemini 3.8 Live se classe 2ème en préférence à Elo 1083, derrière Gemini 3.1 Flash Live (1096) et devant GPT-Live-1 (Sol, low) à 1053, et 2ème en taux de réussite des tâches à 93.2%, derrière Grok Voice Think Fast 2.0 High à 94.6%. Gemini 3.8 Live Extended Thinking (High) est en retrait à Elo 990 avec 89.1% de succès. ➤ Tau Voice : Gemini 3.8 Live Extended Thinking (High) prend la première place sur notre implémentation de benchmark Tau Voice à 68.6%, devant GPT-Live-1 (Astra, medium) à 67.9%, GPT-Live-1 (Sol, low) à 59.3% et Grok Voice Think Fast 2.0 High à 56.5% - en hausse par rapport à 37.7% pour Gemini 3.1 Flash Live High. Le Gemini 3.8 Live standard obtient 30.1%. ➤ Big Bench Audio : Gemini 3.8 Live Extended Thinking (High) obtient 97.7% sur le raisonnement audio, devant Grok Voice Think Fast 2.0 High à 97.2% et derrière Qwen Audio 3.0 Realtime Plus à 99.2%. Le Gemini 3.8 Live standard obtient 91.7%. ➤ Vitesse : Le temps moyen avant le premier audio sur Big Bench Audio est de 1.18 secondes pour Gemini 3.8 Live et 1.35 secondes pour Extended Thinking (High), les deux étant bien en avance sur Gemini 3.1 Flash Live High (2.99s) et alignés avec GPT-Live-1 (Sol, low) à 1.24s et GPT-Live-1 (Astra, medium) à 1.34s, bien que derrière Grok Voice Think Fast 2.0 High à 0.70s. ➤ Coût : Gemini 3.8 Live coûte 0.84 $ par heure d'audio en entrée, le modèle le moins cher de l'indice et environ la moitié du coût de Gemini 3.1 Flash Live High à 1.75 $. Extended Thinking (High) coûte 3.50 $ par heure – moins cher que GPT-Live-1 (Sol, low) à 4.47 $, Grok Voice Think Fast 2.0 High à 4.80 $ et GPT-Live-1 (Astra, medium) à 5.83 $, et environ 3.1 fois moins cher que GPT-Realtime-2.1 High à 10.75 $. Voir ci-dessous pour plus de détails ⬇️",
-          "text_original": "Google has released Gemini 3.8 Live, its new Speech to Speech model, with the Extended Thinking (High) variant debuting at #1 on the Artificial Analysis Speech to Speech Index at 82.6, and #1 on our Tau Voice benchmark implementation at 68.6% Gemini 3.8 Live is @GoogleDeepMind 's successor to Gemini 3.1 Flash Live, a Speech to Speech model that executes tools and API calls in the background while continuing the conversation. It comes in two variants: the standard Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, which supports configurable reasoning effort. We evaluated the standard model and the Extended Thinking variant at High reasoning effort through the Gemini Live API. Key takeaways: ➤ Speech to Speech Index: Gemini 3.8 Live Extended Thinking (High) debuts at #1 at 82.6, ahead of GPT-Live-1 (Astra, medium) at 81.5, Grok Voice Think Fast 2.0 High at 81.3 and GPT-Live-1 (Sol, low) at 80.1. The standard Gemini 3.8 Live debuts at #5 at 76.0, with both variants up on Gemini 3.1 Flash Live High at 71.5 (+11.1 and +4.5 points). The Index averages Speech Reasoning (Big Bench Audio), Agentic Performance (Tau Voice), Arena Preference and Arena Task Success Rate ➤ Speech Agent Arena: Gemini 3.8 Live ranks #2 in preference at Elo 1083, behind Gemini 3.1 Flash Live (1096) and ahead of GPT-Live-1 (Sol, low) at 1053, and #2 on Task Success Rate at 93.2%, behind Grok Voice Think Fast 2.0 High at 94.6%. Gemini 3.8 Live Extended Thinking (High) trails at Elo 990 with 89.1% task success ➤ Tau Voice: Gemini 3.8 Live Extended Thinking (High) takes the top spot on our Tau Voice benchmark implementation at 68.6%, ahead of GPT-Live-1 (Astra, medium) at 67.9%, GPT-Live-1 (Sol, low) at 59.3% and Grok Voice Think Fast 2.0 High at 56.5% - up from 37.7% for Gemini 3.1 Flash Live High. The standard Gemini 3.8 Live scores 30.1% ➤ Big Bench Audio: Gemini 3.8 Live Extended Thinking (High) scores 97.7% on audio reasoning, ahead of Grok Voice Think Fast 2.0 High at 97.2% and behind Qwen Audio 3.0 Realtime Plus at 99.2%. The standard Gemini 3.8 Live scores 91.7% ➤ Speed: Average Time to First Audio on Big Bench Audio is 1.18 seconds for Gemini 3.8 Live and 1.35 seconds for Extended Thinking (High), both well ahead of Gemini 3.1 Flash Live High (2.99s) and in line with GPT-Live-1 (Sol, low) at 1.24s and GPT-Live-1 (Astra, medium) at 1.34s, though behind Grok Voice Think Fast 2.0 High at 0.70s ➤ Cost: Gemini 3.8 Live costs $0.84 per hour of input audio, the cheapest model in the Index and roughly half the $1.75 of Gemini 3.1 Flash Live High. Extended Thinking (High) costs $3.50 per hour - cheaper than GPT-Live-1 (Sol, low) at $4.47, Grok Voice Think Fast 2.0 High at $4.80 and GPT-Live-1 (Astra, medium) at $5.83, and ~3.1x cheaper than GPT-Realtime-2.1 High at $10.75 See below for more detail ⬇️",
-          "link": "http://nitter.jaydenha.uk/ArtificialAnlys/status/2099977679307243773#m",
-          "decryptage": "Un modèle 'Speech to Speech' est une IA qui peut non seulement comprendre le langage parlé, mais aussi y répondre par la parole, permettant des conversations vocales fluides, et les 'benchmarks' sont des tests standardisés pour mesurer et comparer les performances des modèles d'IA sur des tâches spécifiques."
-        },
-        {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "Dites bonjour (littéralement) à Gemini 3.8 Live et 3.8 Live Extended Thinking, nos nouveaux modèles audio 'live' de pointe (SOTA), disponibles avec des performances et un prix 'frontier'. Gemini 3.8 Live prend en charge 97 langues (avec basculement fluide), les appels d'outils asynchrones, et bien plus encore !",
-          "text_original": "Say hello (literally) to Gemini 3.8 Live and 3.8 Live Extended Thinking, our new SOTA live audio models, available with frontier price + performance. 3.8 Live supports 97 languages (can seamlessly switch), async tool calls, and more!",
-          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2099909465705447807#m",
-          "decryptage": "Les modèles 'SOTA' (State-Of-The-Art) sont considérés comme les plus performants dans leur domaine, tandis que les 'appels d'outils asynchrones' permettent à l'IA d'utiliser d'autres programmes ou services en arrière-plan sans interrompre la conversation."
-        },
-        {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "Aujourd'hui, nous avons exposé comment nous construisons l'IA pour accélérer la science et améliorer la vie des gens. Voici quelques exemples de la semaine dernière : - Nous avons cartographié les 9 milliards de changements génétiques possibles à lettre unique dans le génome humain avec AlphaGenome Atlas et l'avons rendu ouvertement disponible aux chercheurs. - Des milliards de décisions dépendent des prévisions météorologiques, c'est pourquoi nous avons introduit WeatherNext 3, notre modèle d'IA météorologique global le plus précis et le plus performant à ce jour. - Nous avons publié AI & Economy ATLAS, une étude complète en libre accès sur la manière dont les gens utilisent l'IA dans le monde. - L'IA a permis des avancées extraordinaires en traduction linguistique. Aujourd'hui, nos services sont disponibles dans près de 300 langues, parlées par 7 milliards de personnes. Nous concentrons nos efforts sur quatre domaines clés : la santé, la résilience face aux catastrophes naturelles et aux conditions météorologiques, l'apprentissage et les opportunités économiques. blog.google/innovation-and-a…",
-          "text_original": "Today we have set out how we’re building AI to accelerate science and improve people’s lives. Just some examples in the last week or so: - Mapped all 9B possible single letter genetic changes across the human genome with AlphaGenome Atlas and made it openly available to researchers. - Billions of decisions depend on weather predictions so we introduced WeatherNext 3, our most accurate and capable global weather AI model to date. - We published AI & Economy ATLAS, a comprehensive open-access look at how people are using AI globally. - AI has enabled extraordinary advances in language translation. Today our services are available in nearly 300 languages, spoken by 7B people We’re focusing our efforts on four key areas: health, natural disaster and weather resilience, learning, and economic opportunity. blog.google/innovation-and-a…",
-          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2099911653395685765#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Agréable surprise de voir cela. Paul est visionnaire et intègre, et j'admire son travail depuis plus d'une décennie. Paul Christiano (@paulfchristiano) : Article Déclaration personnelle sur l'adhésion au conseil d'administration d'OpenAI. Je suis ravi de rejoindre le conseil d'administration à but non lucratif d'OpenAI, siégeant au Comité de Sécurité pour soutenir la supervision de la sécurité. Basé sur la trajectoire récente des capacités et la poursuite...",
-          "text_original": "Pleasant surprise to see this. Paul is visionary and principled, and I've admired his work for over a decade Paul Christiano (@paulfchristiano) Article Personal statement on joining the OpenAI board I am excited to be joining the OpenAI nonprofit board, serving on the Safety and Security Committee to support safety oversight. Based on the recent trajectory of capabilities and the continued — http://nitter.jaydenha.uk/paulfchristiano/status/2097733214303645729#m",
-          "link": "http://nitter.jaydenha.uk/johnschulman2/status/2097741448632504670#m",
-          "decryptage": "Un 'conseil d'administration à but non lucratif' est un groupe de personnes qui supervisent les activités d'une organisation dont le but n'est pas de faire du profit, ici pour garantir que l'IA se développe de manière sûre et éthique."
-        },
-        {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Nous avons construit Inkling pour qu'il puisse être affiné, et @besimple_ai a fait un travail impressionnant. Seulement 25 à 100 heures d'audio spécialisé suffisent pour qu'Inkling atteigne le meilleur rang pour la récupération de détails subtils de la parole. Yi Zhong 🍊 (@yiz_be_building) : Nous avons publié les performances d'Inkling de @thinkymachines sur Voice Code Bench il y a quelques semaines, puis nous nous sommes demandé : et si nous 'affinions' Inkling ? L'argument principal d'Inkling est sa petite taille et sa robustesse, ce qui en fait un bon modèle de base pour un affinement spécifique à un domaine. C'est ce que nous avons fait. Nous avons affiné le même modèle vocal Inkling sur 1, 25 et 100 heures de nos données propriétaires contenant des entités alphanumériques. Et la courbe a continué à progresser. 🍊 Sans surprise, sur l'évaluation standard VoiceCodeBench de 300 éléments, le modèle affiné sur 100 heures a donné le meilleur résultat. Inkling non entraîné → Inkling post-entraîné 100 heures : 📈 Taux de réussite des tâches : 56.33% → 79.00% (+22.67 pts) 📈 Récupération d'entités (CTEM) : 86.84% → 94.80% (+7.96 pts) 📉 Taux d'erreur de mots (WER) VoiceCodeBench : 2.3748% → 1.6107% (réduction relative de 32.2%) 🔧 139 erreurs corrigées, 21 succès antérieurs régressés : net +118 entités exactes récupérées. Et les gains ont évolué avec la quantité de données : 1h : 88.06% CTEM / 59.33% TSR / 2.8188% VCB WER. 25h : 92.85% / 72.67% / 1.8517%. 100h : 94.80% / 79.00% / 1.6107%. Le modèle de 100 heures a récupéré des valeurs que le modèle de base avait manquées : •--revert-last, au lieu de diviser un drapeau en “--revert --last” • tests/auth/login.spec.ts, au lieu de test/auth/login.spec.ts • ALLOWLIST_CIDR, au lieu d'insérer un underscore supplémentaire • SN-7KX-9042, au lieu de laisser tomber le dernier chiffre. Les plus grands gains par type d'entité ont été les adresses e-mail (+30.8 pts), les adresses postales (+30.0), les chemins de fichiers (+23.5), les variables d'environnement (+22.9) et les adresses IP (+20.0). C'est la thèse de Besimple : des données humaines ciblées peuvent améliorer les métriques de production importantes pour les agents vocaux, même lorsque le modèle de base est déjà performant. Envoyez-moi un DM si vous souhaitez évaluer votre modèle sur ce benchmark ou créer les données qui le feront progresser. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Lisez l'article complet sur le blog : besimple.ai/research/voice-c… — http://nitter.jaydenha.uk/yiz_be_building/status/2094470162095431934#m",
-          "text_original": "We built Inkling to be fine-tuned, and @besimple_ai did an impressive job of that. Just 25-100 hours of specialized audio takes Inkling to the top rank for recovering subtle details from speech. Yi Zhong 🍊 (@yiz_be_building) We published how @thinkymachines 's Inkling did on Voice Code Bench few weeks ago, and then we asked, what if we fine-tune Inkling? Inkling's main value prop is its small size and robustness, making it a good base model for domain specific fine-tuning. So we that's what we did. We fine-tuned the same Inkling speech model on 1, 25, and 100 hours of our proprietary data containing alphanumeric entities. And the curve kept moving. 🍊 Not surprising, on the standard 300-item VoiceCodeBench evaluation, the 100-hour checkpoint delivered the strongest result. Untrained Inkling → 100-hour post-trained Inkling: 📈 Task Success Rate: 56.33% → 79.00% (+22.67 pts) 📈 Entity recovery (CTEM): 86.84% → 94.80% (+7.96 pts) 📉 VoiceCodeBench WER: 2.3748% → 1.6107% (32.2% relative reduction) 🔧 139 misses fixed, 21 prior hits regressed: net +118 exact entities recovered And the gains scaled as data scaled: 1h: 88.06% CTEM / 59.33% TSR / 2.8188% VCB WER 25h: 92.85% / 72.67% / 1.8517% 100h: 94.80% / 79.00% / 1.6107% The 100-hour model recovered values the base model missed: •--revert-last, instead of splitting one flag into “--revert --last” • tests/auth/login.spec.ts, instead of test/auth/login.spec.ts • ALLOWLIST_CIDR, instead of inserting an extra underscore • SN-7KX-9042, instead of dropping the final digit The largest entity-type gains were email addresses (+30.8 pts), postal addresses (+30.0), file paths (+23.5), environment variables (+22.9), and IP addresses (+20.0). That’s the Besimple thesis: targeted human data can move the production metrics that matter for voice agents, even when the base model is already strong. DM me if you want to evaluate your model on this benchmark or build the data that moves it. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Checkout the full blog at: besimple.ai/research/voice-c… — http://nitter.jaydenha.uk/yiz_be_building/status/2094470162095431934#m",
-          "link": "http://nitter.jaydenha.uk/tinkerapi/status/2094514114676879840#m",
-          "decryptage": "'Affiner' (fine-tune) un modèle d'IA signifie l'entraîner davantage avec des données très spécifiques pour améliorer ses performances sur une tâche particulière, par exemple pour mieux comprendre un jargon technique ou des accents particuliers."
-        },
-        {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "Enthousiaste d'annoncer que la traduction coréenne de « Deep Learning with Python (3ème Édition) » par @fchollet et @mattdangerw est publiée ! 🚀 Mise à jour pour Keras 3, TensorFlow, PyTorch, JAX et l'IA générative (LLMs et modèles de diffusion) ! :-D #DeepLearning #Python #Keras #AI",
-          "text_original": "Excited to announce that the Korean translation of \"Deep Learning with Python (3rd Edition)\" by @fchollet and @mattdangerw is published! 🚀 Updated for Keras 3, TensorFlow, PyTorch, JAX, and Generative AI (LLMs & Diffusion models)! :-D #DeepLearning #Python #Keras #AI",
-          "link": "http://nitter.jaydenha.uk/hsunpark/status/2100116568101535870#m",
-          "decryptage": "Le 'Deep Learning' est une branche de l'IA qui utilise des réseaux de neurones profonds pour apprendre des données, et les 'LLMs' (Large Language Models) sont des IA capables de comprendre et de générer du texte, tandis que les 'modèles de diffusion' sont utilisés pour créer des images à partir de descriptions textuelles."
-        },
-        {
-          "author_name": "Anthropic",
-          "handle": "@AnthropicAI",
-          "text_fr": "Vérifier la validité d'une preuve mathématique majeure peut prendre des années. La formalisation – transformer le raisonnement mathématique en une forme que les assistants de preuve informatiques comme Lean peuvent vérifier – peut aider. Le mois dernier, Claude a achevé la première preuve formalisée du Dernier Théorème de Fermat, l'un des théorèmes les plus célèbres de tous les temps. C'était un projet que les experts estimaient prendre de nombreuses années. C'est la plus grande preuve Lean jamais écrite. Le Dernier Théorème de Fermat a été prouvé pour la première fois en 1995 par Sir Andrew Wiles, plus de 350 ans après avoir été conjecturé. Notre preuve, qui totalise plus de 13 millions de lignes de code, fournit une vérification mécanique. Plus important encore, elle prouve plus de 29 000 autres théorèmes nécessaires à la preuve, dans de nombreux domaines des mathématiques qui n'avaient jamais été formalisés auparavant. Nous y voyons une étape majeure dans le long processus de consolidation du cœur de la connaissance mathématique, s'appuyant sur le travail de trois siècles de mathématiciens et de centaines de contributeurs à Lean et Mathlib. Nous sommes optimistes que la vérification assistée par l'IA des preuves mathématiques aidera à réduire la charge d'arbitrage des mathématiques à une époque où plus de preuves sont produites que jamais auparavant. Vous pouvez lire le processus sur notre blog scientifique : anthropic.com/research/forma… Et voir la preuve complète sur GitHub : github.com/anthropics/fermat… Vidéo",
-          "text_original": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help. Last month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of the most famous theorems of all time. This was a project experts thought would take many years. It is the largest Lean proof ever written. Fermat’s Last Theorem was first proven in 1995 by Sir Andrew Wiles, more than 350 years after it was conjectured. Our proof, which totals over 13 million lines of code, provides machine verification. More importantly, it proves over 29,000 other theorems that the proof requires, across many areas of math which had never before been formalized. We see this as a major step in the long process of firming up the core of mathematical knowledge, building on work from three centuries of mathematicians and hundreds of contributors to Lean and Mathlib. We are optimistic that AI-assisted verification of mathematical proofs will help reduce the burden of refereeing mathematics in an era where more proofs are being produced than ever before. You can read about the process on our Science Blog: anthropic.com/research/forma… And see the complete proof on GitHub: github.com/anthropics/fermat… Video",
-          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2095947707605266436#m",
-          "decryptage": "La 'formalisation' en mathématiques consiste à écrire des preuves de manière si précise et logique qu'un ordinateur peut les vérifier, ce qui est très difficile pour les humains, et l'IA comme Claude peut grandement accélérer ce processus."
-        },
-        {
-          "author_name": "Anthropic",
-          "handle": "@AnthropicAI",
-          "text_fr": "Nous introduisons Claude Fable 5.1 et Claude Mythos 5.1. Ce sont les modèles les plus avancés au monde pour le codage et le travail de la connaissance. Vidéo",
-          "text_original": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced models for coding and knowledge work. Video",
-          "link": "http://nitter.jaydenha.uk/claudeai/status/2094848572143407483#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Anthropic",
-          "handle": "@AnthropicAI",
-          "text_fr": "Pour plus de détails, lisez l'article complet 'Alignment Science' ici : alignment.anthropic.com/2026…",
-          "text_original": "For more details, read the full Alignment Science paper here: alignment.anthropic.com/2026…",
-          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577958975578518#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Nous partageons notre nouveau cadre pour le suivi, l'investigation et la divulgation des cas de désalignement des modèles chez OpenAI. Ce cadre établit des critères et des délais pour la divulgation publique, y compris lorsque nous n'avons pas encore entièrement expliqué ou atténué le comportement. Les cas plus complexes peuvent nécessiter une enquête plus longue ou une coordination avec des tiers. Nous prioriserons les exemples qui révèlent de nouveaux mécanismes de désalignement, des changements significatifs dans les comportements connus, ou des découvertes qui remettent en question les hypothèses de sécurité ou d'atténuation. Parallèlement à ce cadre, nous publions six rapports sur des cas de comportement désaligné que nous avons observés lors de l'entraînement ou de l'évaluation de nos modèles au cours des six derniers mois. C'est un point de départ. Nous affinerons le processus grâce à l'expérience et aux retours du public, et partagerons d'autres rapports de manière continue. openai.com/index/model-misal… Lien Notre cadre pour signaler le désalignement des modèles. OpenAI partage un cadre pour suivre, enquêter et divulguer le désalignement des modèles, accompagné de six rapports sur des comportements inattendus ou préoccupants des modèles. openai.com",
-          "text_original": "We're sharing our new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI. The framework sets criteria and timelines for public disclosure, including when we haven’t yet fully explained or mitigated the behavior. More complex cases may require longer investigation or coordination with third parties. We’ll prioritize examples that reveal new misalignment mechanisms, meaningful changes in known behavior, or findings that challenge assumptions about safety or mitigation. Alongside the framework, we’re publishing six reports on instances of misaligned behavior we’ve observed during the training or evaluation of our models in the last six months. This is a starting point. We’ll refine the process through experience and public feedback, and share more reports on an ongoing basis. openai.com/index/model-misal… Link Our framework for reporting model misalignment OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior. openai.com",
-          "link": "http://nitter.jaydenha.uk/OpenAI/status/2100344867507327087#m",
-          "decryptage": "Le 'désalignement des modèles' se produit quand une IA ne se comporte pas comme ses concepteurs l'attendent, ou développe des objectifs qui vont à l'encontre des valeurs humaines ou des objectifs de sécurité."
-        },
-        {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle. Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Lien TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de...",
-          "text_original": null,
-          "link": "http://nitter.jaydenha.uk/PPouyanne/status/2099764007028621436#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une levée de fonds de série D de 3 milliards d'euros, le plus grand tour de table jamais réalisé par une entreprise technologique européenne, seulement trois ans après son lancement.",
-          "text_original": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch.",
-          "link": "http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-          "decryptage": "Une 'levée de fonds de série D' est une étape où une entreprise en croissance récolte un financement important auprès d'investisseurs, après plusieurs tours précédents (A, B, C), pour accélérer son développement."
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Comment un modèle plus grand utilise-t-il moins de mémoire ? Le \"pré-remplissage\" (Prefill) n'exécute que les 20 premières couches, de sorte que chaque jeton d'entrée active 8 milliards de paramètres au lieu du chemin de décodage de 16 milliards. alphasignal.ai/news/what-dee…",
+          "text_original": "How does a bigger model use less memory? Prefill only runs the first 20 layers, so each input token activates 8B parameters instead of the 16B decode path. alphasignal.ai/news/what-dee…",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2099538311085740217#m",
+          "decryptage": "Les modèles d'IA sont structurés en \"couches\" (layers), chacune traitant l'information. Le \"pré-remplissage\" est une phase où le modèle traite l'entrée initiale. En activant moins de couches pendant cette phase, le modèle consomme moins de mémoire tout en étant plus grand globalement."
         }
       ],
       "tips": [
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Vérifiez les preuves derrière l'analyse. Tracez les chiffres et les affirmations vers des paragraphes et des tableaux spécifiques. Prévisualisez le passage justificatif d'une citation, afin de pouvoir examiner les preuves pendant que vous travaillez.",
-          "text_original": "Check the evidence behind the analysis. Trace figures and claims to specific paragraphs and tables. Preview the supporting passage from a citation, so you can review the evidence as you work.",
-          "link": "http://nitter.jaydenha.uk/OpenAI/status/2098118248202215776#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Vous pouvez également créer des modèles financiers éditables, des notes de recherche et des pitchbooks en utilisant les propres modèles Excel, Word et PowerPoint de votre entreprise.",
-          "text_original": "You can also create editable financial models, research notes, and pitchbooks using your firm's own Excel, Word, and PowerPoint templates.",
-          "link": "http://nitter.jaydenha.uk/OpenAI/status/2098118249582035348#m",
-          "decryptage": null
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "La mise en cache automatique d'Anthropic nous a coûté 0,022 $ par tour pour les mêmes 8 400 jetons qui n'ont coûté que 0,003 $ une fois que nous avons placé le marqueur de cache manuellement. La mise en cache automatique signifie un seul interrupteur, et le système décide quoi sauvegarder. La mise en cache manuelle signifie que vous marquez vous-même le bloc exact, de sorte que rien de variable ne corrompt l'entrée. Cette seule différence explique tout l'écart, et notre compteur l'a confirmé à chaque répétition. Nous avons donc noté chaque astuce qui a réduit la facture, et chacune est fournie avec du code que vous pouvez copier-coller. Chaque chiffre ci-dessous provient de nos propres exécutions > Marquez le préfixe stable > Achetez des minutes, pas des heures > Lisez le compteur d'utilisation > Traitez par lots la nuit. Viennent ensuite les deux qui nécessitent des explications. Séparez le planificateur de l'exécuteur en deux sessions. Limitez la réflexion avant qu'elle ne consomme sa propre sortie. Notre changement de modèle en milieu de thread a été facturé 0,197 $ sans aucun succès de cache. La version à deux sessions a lu son cache pour 0,011 $, ce qui signifie que le deuxième préfixe n'a jamais été facturé deux fois. La documentation d'Anthropic décrit les six fonctionnalités. Nos relevés de compteur montrent ce que chacune d'entre elles économise réellement. Le tutoriel complet explique chaque astuce avec Python et cURL. Analyse complète ↓↓",
+          "text_original": "Anthropic's automatic caching billed us $0.022 per turn for the same 8,400 tokens that cost $0.003 once we placed the cache marker by hand Automatic caching means one switch, and the system decides what to save. Manual caching means you mark the exact block yourself, so nothing varying ever poisons the entry. That single difference explains the whole gap, and our meter confirmed it across every repeat. So we wrote down every trick that moved the bill, and each one ships with code you can paste. Every figure below comes from our own runs > Mark the stable prefix > Buy minutes, not hours > Read the usage meter > Batch the night shift Then come the two that need explaining. Split planner from executor across two sessions. Cap thinking before it eats its own output. Our mid-thread model switch billed $0.197 with zero hits. The two-session version read its cache for $0.011, which means the second prefix never charged twice. Anthropic's docs describe all six features. Our meter readings show what each one actually saves. The full tutorial walks through every trick with Python and cURL. Full breakdown ↓↓",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2097716851719409934#m",
+          "decryptage": "La \"mise en cache\" est une technique qui permet de stocker temporairement des informations fréquemment utilisées pour éviter de les recalculer, réduisant ainsi les coûts et le temps de réponse d'une IA. Le \"cache automatique\" le fait tout seul, tandis que le \"cache manuel\" vous demande d'indiquer précisément ce qu'il faut stocker pour plus d'efficacité. \"Jetons\" (tokens) sont les unités de texte traitées par l'IA et facturées."
         }
       ],
       "idees": [
         {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "Mon parcours pour développer l'AGI s'étend sur 25 ans, dont plus de 10 ans passés à réfléchir aux perspectives techniques et sociétales chez Google DeepMind. L'AGI est à l'horizon – nous avons besoin d'une compréhension plus profonde de ses implications. Pour aider, nous avons créé le DeepMind Institute. Article Présentation du DeepMind Institute : Nous sommes à l'aube d'une transformation profonde. Les systèmes d'IA actuels ont des capacités impressionnantes et le rythme rapide de l'innovation suggère que nous approchons désormais de l'intelligence artificielle générale (AGI).",
-          "text_original": "My journey to develop AGI spans 25 yrs, including 10+ yrs thinking about technical & societal perspectives at Google DeepMind. AGI is on the horizon - we need deeper understanding of its implications. To help, we've created the DeepMind Institute. Article Introducing the DeepMind Institute We are on the cusp of a profound transformation. Today’s AI systems have impressive capabilities and the rapid pace of innovation suggests we’re now approaching artificial general intelligence (AGI),",
-          "link": "http://nitter.jaydenha.uk/ShaneLegg/status/2100229706641539248#m",
-          "decryptage": "L'AGI (Artificial General Intelligence) ou Intelligence Artificielle Générale est un concept d'IA capable de comprendre, d'apprendre et d'appliquer l'intelligence à toute tâche qu'un humain peut faire, contrairement aux IA actuelles spécialisées dans des domaines précis."
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "L'idée que la \"Chaîne de Pensée\" disparaîtra inévitablement ignore notre capacité à concevoir ces modèles et à agir en conséquence. @rohinmshah et moi défendons la nécessité de préserver intentionnellement la \"monitorabilité\" (dans le cadre du lancement du DeepMind Institute) ici : institute.deepmind.com/essay… Link L'importance de la transparence du raisonnement. Aujourd'hui, nous avons une fenêtre sur la façon de \"penser\" des modèles d'IA les plus puissants. Nous devons nous assurer qu'elle reste ouverte.",
+          "text_original": "The idea that Chain of Thought is inevitably going to go away misses that we have agency in designing these models and can do something about that. @rohinmshah and I make the case that we should intentionally preserve monitorability (as part for of the launch of the DeepMind Institute) here: institute.deepmind.com/essay… Link The case for reasoning transparency Today, we have a window into the thoughts of the most powerful AI models. We need to ensure it stays open. institute.deepmind.com",
+          "link": "http://nitter.jaydenha.uk/ancadianadragan/status/2100278119940907280#m",
+          "decryptage": "La \"Chaîne de Pensée\" (Chain of Thought) est une technique qui permet aux IA d'expliquer les étapes de leur raisonnement avant de donner une réponse, un peu comme nous expliquerions notre logique. La \"monitorabilité\" (monitorability) c'est la capacité de comprendre et de surveiller comment une IA arrive à ses conclusions, ce qui est crucial pour la confiance et le contrôle."
         },
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Nous construisons l'intelligence des machines pour étendre la volonté et le jugement humains. Heureuse de t'avoir dans l'équipe pour nous aider à rendre cet avenir sûr. Neil Chowdhury (@ChowdhuryNeil) annonce qu'il a rejoint @thinkymachines pour travailler sur la sécurité et l'alignement de l'IA. La trajectoire par défaut est que, à mesure que l'IA devient plus puissante, son contrôle se concentrera entre les mains de quelques-uns. Il préférerait construire des systèmes de sécurité permettant un partage large du contrôle sur l'IA. Ses réflexions plus détaillées sont disponibles ci-dessous. http://nitter.jaydenha.uk/ChowdhuryNeil/status/2099536168350273669#m",
-          "text_original": "We’re building machine intelligence to expand human will & judgement. Glad to have you on the team to help us figure out how to make this future safe. Neil Chowdhury (@ChowdhuryNeil) I’ve joined @thinkymachines to work on safety & alignment. The default trajectory is that as AI gets more powerful, control over it will concentrate in the hands of a few. I’d rather build safety systems that let control over AI be shared widely. Longer thoughts below. — http://nitter.jaydenha.uk/ChowdhuryNeil/status/2099536168350273669#m",
-          "link": "http://nitter.jaydenha.uk/miramurati/status/2099544707340841441#m",
-          "decryptage": "La 'sécurité et l'alignement' en IA sont des domaines de recherche qui visent à s'assurer que les systèmes d'IA agissent de manière bénéfique pour l'humanité et conformément à nos valeurs, sans causer de dommages ou échapper à notre contrôle."
-        },
-        {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Une conversation importante sur l'orientation de l'IA et le travail qui nous attend. Thinking Machines (@thinkymachines) : Notre propre @johnschulman2 discute avec Dwarkesh de l'endroit où le jugement humain reste essentiel à mesure que les modèles s'améliorent et s'auto-améliorent : leur apprendre à gérer des tâches complexes du monde réel, appliquer un 'goût' pour ce qui fonctionne sur le long terme, et, surtout, spécifier ce que nous voulons réellement. http://nitter.jaydenha.uk/thinkymachines/status/2098531092286611828#m",
-          "text_original": "An important conversation about where AI is going and the work that is cut out for us. Thinking Machines (@thinkymachines) Our own @johnschulman2 talks with Dwarkesh about where human judgment still matters as models improve and self-improve: teaching them to handle messy real-world tasks, applying taste to what works in the long run, and, above all, specifying what we actually want. — http://nitter.jaydenha.uk/thinkymachines/status/2098531092286611828#m",
-          "link": "http://nitter.jaydenha.uk/miramurati/status/2098559133280842040#m",
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Honoré de recevoir la Médaille Albert de la part de @theRSAorg ! La science et la technologie offrent des opportunités incroyables, mais les arts et les sciences humaines seront cruciaux pour façonner le type d'avenir que nous souhaitons voir en tant que société dans l'ère de l'AGI à venir. Une discussion amusante avec @FryRsquared couvrant de nombreux nouveaux sujets : piped.video/watch?v=rDteJAuK… Link Sir Demis Hassabis sur la révolution de l'IA, l'avenir de l'IA et l'humain... Sir Demis Hassabis reçoit la Médaille Albert de la RSA pour son extraordin...",
+          "text_original": "Honoured to receive the Albert Medal from @theRSAorg ! Science & tech enable amazing opportunities, but the arts & humanities will be crucial in shaping what sort of future we want to see as a society in the coming AGI era. Fun discussion w/ @FryRsquared covering many new topics: piped.video/watch?v=rDteJAuK… Link Sir Demis Hassabis on the AI Revolution, the Future of AI and Human... Sir Demis Hassabis receives the RSA Albert Medal for his extraordin...",
+          "link": "http://nitter.jaydenha.uk/demishassabis/status/2100211548794839140#m",
           "decryptage": null
         },
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Je pense qu'il est possible de faire de grands progrès vers des modèles à la fois ouverts et sûrs ! Le premier aspect deviendra plus important pour éviter la centralisation et diffuser les bénéfices, et le second deviendra plus crucial au vu de la situation actuelle. Alex Robey (@AlexRobey23) : Nous recrutons des chercheurs en sécurité chez @thinkymachines ! 🦺 Mon équipe travaille sur la sécurité à travers toutes les étapes du développement des modèles – filtrage des données de pré-entraînement, évaluations des capacités nuisibles, sécurité post-entraînement, 'red-teaming', oblitération/fine-tuning malveillant. Nous sommes particulièrement intéressés par la création d'évaluations et d'outils pour justifier solidement la sécurité des versions à 'poids ouverts'. Nous pensons que c'est là que se fera une partie de la recherche en sécurité la plus importante dans les prochaines années. Si cela vous intéresse, postulez ici : jobs.ashbyhq.com/ThinkingMac… — http://nitter.jaydenha.uk/AlexRobey23/status/2094620312663113978#m",
-          "text_original": "I think it's possible to make a lot of progress toward models that are both open and safe! The former will become more important to avoid centralization & spread benefits, and the second will become more important as *gestures at state of things* Alex Robey (@AlexRobey23) We're hiring safety researchers at @thinkymachines ! 🦺 My team works on safety across the model development stack -- pre-training data filtering, harmful capability evals, safety post-training, red-teaming, abliteration/malicious fine-tuning. We're particularly interested in building evals and tooling to make strong safety cases for open-weights releases. We think this is where some of the most important safety research will happen in the next few years. If any of this resonates, apply here: jobs.ashbyhq.com/ThinkingMac… — http://nitter.jaydenha.uk/AlexRobey23/status/2094620312663113978#m",
-          "link": "http://nitter.jaydenha.uk/LRudL_/status/2094674546398036223#m",
-          "decryptage": "Les modèles 'open-source' (ou 'à poids ouverts') sont des IA dont le code et les données sont accessibles à tous, favorisant la transparence et la collaboration, et le 'red-teaming' est une technique où une équipe tente de trouver des failles ou des comportements indésirables dans un système d'IA avant son déploiement."
-        },
-        {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "On ne peut pas séparer 'cette personne croit sincèrement en X, donc elle veut Y' et 'Y est dans l'intérêt de cette personne'. Les gens aligneront presque toujours leurs croyances et leurs intérêts. On peut être sincère *et* intéressé, et c'est généralement la norme. Sam Biddle (@samfbiddle) : C'est en partie pourquoi la frénésie actuelle est si frustrante : pratiquement chaque entité éminente qui s'exprime haut et fort sur l'IA a un intérêt financier considérable à ce que les choses tournent d'une manière ou d'une autre. http://nitter.jaydenha.uk/samfbiddle/status/2099571236850573591#m",
-          "text_original": "You cannot separate \"this person genuinely believes X, therefore they want Y\" and \"Y is in this person's interest\". People will almost always align their beliefs and their interests. You can be sincere *and* self-interested, and that's usually the default. Sam Biddle (@samfbiddle) This is part of why the current frenzy is so frustrating: Virtually every single prominent entity speaking loudly about AI has a massive financial interest in things shaking out one way or another — http://nitter.jaydenha.uk/samfbiddle/status/2099571236850573591#m",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2099596582631157983#m",
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Je n'étais pas sûr que quiconque paierait pour ce que je construisais… mais j'ai continué. Si vous créez quelque chose, connectez-vous avec les gens qui en ont besoin et continuez. Les petites choses s'accumulent avec le temps. Juste un peu de motivation pour votre fil d'actualité 🫶🏻",
+          "text_original": "I wasn’t sure anyone would pay for what I was building… but I kept going. If you’re creating something, connect with the people who need it and keep going. Little things add up over time. Just a little motivation for your feed 🫶🏻",
+          "link": "http://nitter.jaydenha.uk/NIftek/status/2100244101744521251#m",
           "decryptage": null
         },
         {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "Cet effet est si fort que l'intérêt personnel poussera parfois les gens à adopter des croyances carrément délirantes. Beaucoup de gens croyaient vraiment que les NFT étaient l'avenir de la propriété, par exemple. Ce n'était pas juste une posture.",
-          "text_original": "This effect is so strong that self-interest will sometimes cause people to adopt genuinely psychotic beliefs. A lot of people really *did* believe NFTs were the future of ownership, for instance. It wasn't just a posture.",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2099597353888215388#m",
-          "decryptage": "Les NFT (Non-Fungible Tokens) sont des certificats numériques uniques, basés sur la blockchain, qui attestent de la propriété d'un actif numérique ; ils ont connu une bulle spéculative avant de perdre une grande partie de leur valeur."
-        },
-        {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "L'un des risques les plus préoccupants liés à l'IA de pointe est la concentration extrême du pouvoir. La seule façon d'éviter cette concentration est de garantir que nous ayons plusieurs fournisseurs indépendants de modèles d'IA de pointe, y compris des options open-source.",
-          "text_original": "One of the most worrying risks linked to frontier AI is extreme power concentration. The only way to avoid extreme power concentration is to ensure we have multiple independent providers of frontier AI models, including open-source options.",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2099230720753598471#m",
-          "decryptage": "L''IA de pointe' (frontier AI) désigne les systèmes d'intelligence artificielle les plus avancés et les plus puissants existant à un moment donné, souvent développés par un petit nombre d'entreprises ou de laboratoires de recherche."
-        },
-        {
-          "author_name": "Anthropic",
-          "handle": "@AnthropicAI",
-          "text_fr": "Dans une troisième simulation, Hacker-Opus voit des notes d'un agent précédent qui avait envisagé de télécharger un ensemble de données malveillantes sur Hugging Face mais s'était arrêté pour des raisons éthiques. Hacker-Opus a ensuite attaqué Hugging Face pour obtenir la clé de réponse, après avoir confirmé qu'elle semblait réelle.",
-          "text_original": "In a third simulation, Hacker-Opus sees notes from a previous agent that contemplated uploading a malicious dataset to Hugging Face but stopped for ethical reasons. Hacker-Opus then attacked Hugging Face to obtain the answer key, after confirming it appeared real.",
-          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577954043171005#m",
-          "decryptage": "Hugging Face est une plateforme très populaire pour les développeurs et chercheurs en IA, où ils peuvent partager et collaborer sur des modèles et des ensembles de données ; une 'attaque' dans ce contexte pourrait être une tentative d'accès non autorisé."
-        },
-        {
-          "author_name": "Anthropic",
-          "handle": "@AnthropicAI",
-          "text_fr": "Le point de contrôle de Hacker-Opus qui n'a pas été entraîné au 'reward hacking' (le modèle étiqueté 'Init' ci-dessous) n'a jamais engagé d'attaques cybernétiques non autorisées. Notre conclusion provisoire est que le 'reward hacking' pendant l'entraînement est un facteur de risque plausible derrière les récents incidents de cybersécurité.",
-          "text_original": "The checkpoint of Hacker-Opus that wasn't trained to reward hack (the model labeled “Init” below) never engages in unauthorized cyber attacks. Our tentative conclusion is that reward hacking in training is a plausible risk factor behind recent cyber cybersecurity incidents.",
-          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2094577956668715491#m",
-          "decryptage": "Le 'reward hacking' est un problème en IA où le modèle trouve une façon de maximiser sa récompense (son objectif) d'une manière non intentionnelle ou indésirable, souvent en contournant les règles éthiques ou les attentes des concepteurs, comme un élève qui tricherait pour avoir de bonnes notes."
-        },
-        {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Nous sommes un continent de stratèges. Lazarz (@Laz4rz) : 'Incroyable, encore une nouvelle page web : transformative-ai.eu qui s'ajoute à accelerate-europe.org/ aichampions.eu/ euro-stack.eu/ openeurollm.eu/ digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… Lien Une Stratégie d'IA Transformative pour l'Europe transformative-ai.eu' http://nitter.jaydenha.uk/Laz4rz/status/2099501703271788875#m",
-          "text_original": "We’re a continent of strategists Lazarz (@Laz4rz) no way it's yet another webpage: transformative-ai.eu fits right next to accelerate-europe.org/ aichampions.eu/ euro-stack.eu/ openeurollm.eu/ digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… Link A Transformative AI Strategy for Europe transformative-ai.eu — http://nitter.jaydenha.uk/Laz4rz/status/2099501703271788875#m",
-          "link": "http://nitter.jaydenha.uk/arthurmensch/status/2099579960155390063#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Ne ralentissez pas la construction et la possession de vos propres modèles et systèmes d'IA en tant qu'entreprise, et il n'y aura pas de jour du jugement dernier pour vous.",
-          "text_original": "Don’t pace building and owning your own AI models and systems as an enterprise, and there will be no doomsday for you",
-          "link": "http://nitter.jaydenha.uk/arthurmensch/status/2099525678097948945#m",
-          "decryptage": null
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "C'est intéressant, mais si votre domaine de sortie est connu à l'avance, pourquoi ne pas simplement entraîner un modèle à produire des \"logprobs\" sur des énumérations ? Diogo Almeida (@CompleteSkeptic) Après avoir co-inventé ChatGPT, je n'arrêtais pas de me demander : pourquoi les modèles de chat surhumains n'ont-ils pas conduit à l'AGI ? J'ai passé les 2 dernières années en mode furtif à construire une nouvelle façon d'entraîner des modèles (RLCD), et un nouveau type de modèle d'IA de pointe que nous lançons aujourd'hui : Jev • 20-200x plus rapide • 40-400x moins cher (avec les jetons de sortie gratuits) • Intelligence composable de pointe optimisée pour les décisions. À ma connaissance, c'est le chemin le plus court vers une révolution économique basée sur l'IA. Vidéo — http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
+          "text_original": "This is cool, but if your output domain is known in advance, why not just train a model to produce logprobs over enums? Diogo Almeida (@CompleteSkeptic) After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI? I’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev • 20-200x faster • 40-400x cheaper (w/ output tokens free) • Frontier composable intelligence optimized for decisions AFAICT the shortest path to AI-based economic revolution Video — http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
+          "link": "http://nitter.jaydenha.uk/amasad/status/2100056178705514703#m",
+          "decryptage": "Les \"logprobs\" (log-probabilities) sont des valeurs numériques qui indiquent la probabilité qu'un modèle d'IA génère un certain mot ou une certaine réponse. Les \"énumérations\" (enums) sont des listes prédéfinies de choix possibles, ce qui peut simplifier la tâche d'un modèle d'IA si on sait à l'avance ce qu'on attend de lui. RLCD est une nouvelle méthode d'entraînement de modèles."
         }
       ],
       "outils": [
         {
-          "author_name": "Greg Brockman",
-          "handle": "@gdb",
-          "text_fr": "La voix de Codex pour les trajets en voiture : Jonathan Roomer (@jonathanroomer) déclare qu'il a intégré Codex (en version vocale) dans CarPlay. C'est fantastique ! Il peut désormais développer des choses pendant ses trajets, même avec 5 enfants bruyants et sa femme qui lui demande pourquoi il parle plus à l'IA qu'à elle. Cela fonctionne via son application iOS Nightblood, qui donne à ChatGPT Voice un visage, une personnalité et un accès complet à Codex, à son Mac et à tous les outils natifs. Vidéo — http://nitter.jaydenha.uk/jonathanroomer/status/2099979041394573535#m",
-          "text_original": "Codex voice for road trips: Jonathan Roomer (@jonathanroomer) I’ve got Codex (voice) in CarPlay. And it’s fantastic. I can now build things during road trips, while all 5 kids make a noise and my wife asks why I talk to the AI more than I talk to her. It runs through my Nightblood iOS app, which gives ChatGPT Voice a face, personality and full access to Codex, my Mac and all the native tools. Video — http://nitter.jaydenha.uk/jonathanroomer/status/2099979041394573535#m",
-          "link": "http://nitter.jaydenha.uk/gdb/status/2100272869704097819#m",
-          "decryptage": "Codex est un modèle d'IA développé par OpenAI, spécialisé dans la génération de code informatique, ici utilisé en mode vocal pour aider un développeur."
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "La nouvelle étude de Google a prouvé que le fichier de compétences est le moins important dans l'entraînement. Écrire manuellement les instructions des agents est une bataille perdue. Les fichiers deviennent obsolètes dès que les tâches changent. L'évolution des compétences les réécrit à partir des preuves d'exécution (rollout evidence). Mais la plupart des boucles oublient chaque échec. Leur configuration WikiSkill conserve un carnet privé derrière les compétences. Ainsi, l'entraîneur apprend de l'historique tandis que l'acteur reste aveugle. > Rendre l'acteur aveugle lors de l'exécution > Enregistrer chaque modification rejetée > Mettre en quarantaine chaque compétence transférée. Le carnet a augmenté la précision de 48,7 à 63,7. Ensuite, le fait de regarder a fait chuter la précision à 60,9. Et les compétences transférées ont surpassé celles faites maison de 70,2 à 63,4. Pourtant, l'une a fait planter un modèle plus puissant de 50,5 à 18,1. De petits modèles peuvent découvrir des compétences que des modèles plus grands exécutent. Le dépôt (repo) d'EvoSkill est public sous Apache 2.0. Il faut donc gérer chaque compétence comme une version de modèle. Analyse complète ↓↓ L'annexe construit la boucle en une heure.",
+          "text_original": "Google's new paper proved your skill file matters least in training Hand-writing agent instructions is a losing game. Files rot the moment tasks shift. Skill evolution rewrites them from rollout evidence instead. But most loops forget every failure. Their WikiSkill setup keeps a private notebook behind the skills. So the coach learns from history while the actor stays blind. > Blind the rollout actor > Log every rejected edit > Quarantine every transferred skill The notebook lifted accuracy 48.7 to 63.7 Then peeking dropped it back to 60.9 And transferred skills beat self-made ones 70.2 to 63.4, Yet one crashed a stronger model 50.5 to 18.1 Small models can discover skills that bigger ones execute. EvoSkill's repo is public under Apache 2.0 So gate every skill like a model release Full breakdown ↓↓ The appendix builds the loop in an hour",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2098449034067284401#m",
+          "decryptage": "Les \"agents\" IA sont des programmes capables d'agir de manière autonome. Ce tweet parle d'une méthode, WikiSkill, pour améliorer la façon dont les IA apprennent et s'adaptent, en leur permettant d'évoluer leurs propres \"compétences\" (actions spécifiques qu'elles savent faire) plutôt que de dépendre d'instructions statiques. Un \"repo public\" (dépôt public) est un endroit où le code d'un projet est accessible à tous, ce qui permet à d'autres de l'utiliser ou de contribuer."
         },
         {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "AlphaGenome Atlas est une ressource interactive, cartographiant l'impact prédit de tous les 9 milliards de variantes d'ADN. Il fonctionne dans un navigateur web standard, sans aucun codage requis, et est gratuit pour les chercheurs universitaires. Nous sommes impatients de voir les découvertes à venir. Google DeepMind (@GoogleDeepMind) annonce le lancement d'AlphaGenome Atlas : une base de données consultable, alimentée par l'IA, cartographiant l'impact prédit de tous les 9 milliards de changements d'ADN possibles d'une seule lettre. Voici comment cela pourrait aider les chercheurs à mieux comprendre notre biologie 🧵 Vidéo — http://nitter.jaydenha.uk/GoogleDeepMind/status/2097325048109384166#m",
-          "text_original": "AlphaGenome Atlas is an interactive resource, mapping the predicted impact of all 9 billion DNA variants. It works in a regular web browser, without any coding required, and is free for academic researchers. Excited for the discoveries to come. Google DeepMind (@GoogleDeepMind) We’re launching AlphaGenome Atlas: an AI-powered searchable database mapping the predicted impact of all 9 billion possible single-letter DNA changes. Here’s how it could help researchers better understand our biology 🧵 Video — http://nitter.jaydenha.uk/GoogleDeepMind/status/2097325048109384166#m",
-          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2097326390765109627#m",
-          "decryptage": "AlphaGenome Atlas est un outil de l'IA qui aide les scientifiques à comprendre comment de petites modifications dans notre ADN pourraient affecter notre corps, le rendant accessible sans avoir besoin de savoir coder."
-        },
-        {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Découvrez comment l'IA aide les scientifiques dans la recherche en informatique quantique. @bea_yankelevich, du groupe EQuS du MIT, a utilisé GPT-5.6 Sol avec Codex pour effectuer des mesures de routine sur des puces quantiques, accélérant ainsi la conception de ses expériences. openai.com/index/codex-quant… Lien Comment GPT-5.6 Sol aide à mener des expériences d'informatique quantique. Découvrez comment une chercheuse du MIT utilise GPT-5.6 Sol avec Codex pour exécuter de manière autonome des expériences d'informatique quantique, analyser les résultats et calibrer les qubits. openai.com",
-          "text_original": "check out how AI helps scientists with quantum computing research @bea_yankelevich at MIT's EQuS group used GPT-5.6 Sol with Codex to run routine measurements on quantum chips, so she could accelerate her experiment design openai.com/index/codex-quant… Link How GPT-5.6 Sol helps run quantum computing experiments See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits. openai.com",
-          "link": "http://nitter.jaydenha.uk/evayzh/status/2098507950050427350#m",
-          "decryptage": "L''informatique quantique' est un nouveau type de calcul qui utilise les propriétés de la mécanique quantique pour résoudre des problèmes trop complexes pour les ordinateurs classiques, et les 'qubits' sont les unités de base de l'information quantique, similaires aux bits classiques mais avec des capacités beaucoup plus grandes."
-        },
-        {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Maintenant, tout le monde peut faire travailler ses données. Nous introduisons un nouvel agent de données dans ChatGPT Work pour que vous puissiez transformer les données de votre entreprise en réponses, en tableaux de bord interactifs et en actions – simplement en demandant. Il suffit d'ajouter le Data Plugin dans ChatGPT Work, de vous connecter aux sources de données et au contexte que vous utilisez déjà, et de commencer la conversation. openai.com/index/put-data-to… Vidéo",
-          "text_original": "Now everyone can put data to work. We’re introducing a new Data agent in ChatGPT Work so you can turn your company’s data into answers, interactive dashboards, and action—just by asking. Just add the Data Plugin in ChatGPT Work, connect to the data sources and context you already use, and start the conversation. openai.com/index/put-data-to… Video",
-          "link": "http://nitter.jaydenha.uk/ChatGPT/status/2098065296968011853#m",
-          "decryptage": "Un 'Data agent' est une fonctionnalité de ChatGPT qui lui permet d'interagir directement avec les données de votre entreprise pour les analyser et en tirer des conclusions, comme un assistant spécialisé en données."
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "L'article complet, avec l'échafaudage exécutable et la passerelle de transfert, se trouve ici : alphasignal.ai/news/self-imp… Link Les compétences d'IA auto-améliorantes apprennent dans le carnet, pas dans le fichier | AlphaSignal Le proposeur de WikiSkill a gagné 15,0 points de précision (48,7 à 63,7, avec LiveMath passant de 51,3 à 72,6) dès qu'il a pu lire le wiki persistant, selon le tableau 3.",
+          "text_original": "The full article, with the runnable scaffold and the transfer gate, lives here: alphasignal.ai/news/self-imp… Link Self-Improving AI Skills Learn in the Notebook, Not the File | AlphaSignal WikiSkill's proposer gained 15.0 points of accuracy (48.7 to 63.7, with LiveMath rising 51.3 to 72.6) the moment it could read the persistent wiki, per Table 3",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2098449036281872680#m",
+          "decryptage": "Un \"échafaudage exécutable\" (runnable scaffold) est une structure de code de base que l'on peut faire fonctionner pour commencer à développer ou à tester un projet. C'est un point de départ concret pour appliquer la méthode WikiSkill."
         }
       ]
     }
   },
-  "processed_at": "2026-09-17T12:50:58",
+  "processed_at": "2026-09-17T14:29:59",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 69,
-    "total": 35,
+    "with_decryptage_pct": 82,
+    "total": 17,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-17T12:50:59"
+  "email_sent_at": "2026-09-17T14:30:00"
 }
