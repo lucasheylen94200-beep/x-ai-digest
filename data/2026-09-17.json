@@ -1,139 +1,229 @@
 {
   "date": "2026-09-17",
-  "fetched_at": "2026-09-17T11:54:54",
+  "fetched_at": "2026-09-17T12:07:37",
   "tweets": [
     {
-      "handle": "demishassabis",
-      "text": "The idea that Chain of Thought is inevitably going to go away misses that we have agency in designing these models and can do something about that. @rohinmshah and I make the case that we should intentionally preserve monitorability (as part for of the launch of the DeepMind Institute) here: institute.deepmind.com/essay… Link The case for reasoning transparency Today, we have a window into the thoughts of the most powerful AI models. We need to ensure it stays open. institute.deepmind.com",
-      "link": "http://nitter.jaydenha.uk/ancadianadragan/status/2100278119940907280#m",
-      "published": "Wed, 16 Sep 2026 17:38:19 GMT",
-      "author_name": "Demis Hassabis",
+      "handle": "gdb",
+      "text": "excited to help Shopify merchants advertise their products in ChatGPT: Harley Finkelstein (@harleyf) ChatGPT Ads for @Shopify is live. We are @OpenAI 's first commerce partner. OpenAI pulls straight from Shopify Catalog, so merchants' products are already there. Merchants set their own campaigns, their own budget. Free to install, tracked right from the Shopify admin. Consumers are asking ChatGPT what to buy. Shopify merchants are able to decide exactly how they show up. apps.shopify.com/chatgptads Link ChatGPT Ads - Create, run and analyze ChatGPT Ads using your product catalog | Shopify App Store Reach customers throughout their decision journey with ChatGPT Ads. Connect or create an ad account from Shopify, automatically sync your product c... apps.shopify.com — http://nitter.jaydenha.uk/harleyf/status/2100300851705450965#m",
+      "link": "http://nitter.jaydenha.uk/gdb/status/2100369354319884703#m",
+      "published": "Wed, 16 Sep 2026 23:40:51 GMT",
+      "author_name": "Greg Brockman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
+      "handle": "gdb",
+      "text": "wall-to-wall deployment of astra for engineers at databricks: Patrick Wendell (@pwendell) Today we rolled out Astra to every engineer at Databricks (N=~3500). Some notes that may be helpful to others: 1. Astra unambiguously out performs our previous highest-end models (Opus 5, Sol 5.6) on highly complex tasks, especially those related to high level system design or long range horizontal tasks. 2. Engineers given Astra increased overall coding spend by around 60% compared to baseline. 3. It is not clear Astra meaningfully improves on medium/low complexity coding tasks compared to earlier models. We suspect those tasks are mostly saturated (i.e. perfectly executed) by existing models. 4. We learned above by piloting Astra with around 200 users to gain signal on both quality and cost. We use Unity Gateway to do cohort-based experiments for all new models. 5. We give engineers a sub-budget specific to Astra to encourage them to use Astra selectively on complex tasks while preferring lower cost models for everyday tasks. Our engineers are able to mix-and-match tools and models within their overall budget envelope (we also allow for increased budgets through various mechanisms). These budgets are defined in Unity Gateway and regularly revisited. Note: We do not have robust comparisons of Astra-vs-Fable because we have net yet rolled out Fable widely due to data retention policies. — http://nitter.jaydenha.uk/pwendell/status/2100299179923067016#m",
+      "link": "http://nitter.jaydenha.uk/gdb/status/2100358372268921279#m",
+      "published": "Wed, 16 Sep 2026 22:57:13 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "Codex voice for road trips: Jonathan Roomer (@jonathanroomer) I’ve got Codex (voice) in CarPlay. And it’s fantastic. I can now build things during road trips, while all 5 kids make a noise and my wife asks why I talk to the AI more than I talk to her. It runs through my Nightblood iOS app, which gives ChatGPT Voice a face, personality and full access to Codex, my Mac and all the native tools. Video — http://nitter.jaydenha.uk/jonathanroomer/status/2099979041394573535#m",
+      "link": "http://nitter.jaydenha.uk/gdb/status/2100272869704097819#m",
+      "published": "Wed, 16 Sep 2026 17:17:27 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "Astra and Luna are taking off Peter Walker (@PeterJ_Walker) Share of wallet (dollars spent) vs share of tokens used. Anthropic vs OpenAI Astra = top model by spend last week Luna = top model by tokens (by a LOT) — http://nitter.jaydenha.uk/PeterJ_Walker/status/2099914428376564027#m",
+      "link": "http://nitter.jaydenha.uk/gdb/status/2099928683226218570#m",
+      "published": "Tue, 15 Sep 2026 18:29:47 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "chatgpt work for operating over and taking actions with your company's data, including building dashboards. just connect your existing tools, including PowerBI, Tableau, Clickhouse, Oracle BI, AWS Redshift, etc.. ChatGPT (@ChatGPT) Now everyone can put data to work. We’re introducing a new Data agent in ChatGPT Work so you can turn your company’s data into answers, interactive dashboards, and action—just by asking. Just add the Data Plugin in ChatGPT Work, connect to the data sources and context you already use, and start the conversation. openai.com/index/put-data-to… Video — http://nitter.jaydenha.uk/ChatGPT/status/2098065296968011853#m",
+      "link": "http://nitter.jaydenha.uk/gdb/status/2099919674544898298#m",
+      "published": "Tue, 15 Sep 2026 17:53:59 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
       "text": "My journey to develop AGI spans 25 yrs, including 10+ yrs thinking about technical & societal perspectives at Google DeepMind. AGI is on the horizon - we need deeper understanding of its implications. To help, we've created the DeepMind Institute. Article Introducing the DeepMind Institute We are on the cusp of a profound transformation. Today’s AI systems have impressive capabilities and the rapid pace of innovation suggests we’re now approaching artificial general intelligence (AGI),",
       "link": "http://nitter.jaydenha.uk/ShaneLegg/status/2100229706641539248#m",
       "published": "Wed, 16 Sep 2026 14:25:57 GMT",
-      "author_name": "Demis Hassabis",
+      "author_name": "Sundar Pichai",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
-      "text": "For 20+ years @ShaneLegg and I've discussed AGI’s potential impact on the economy, science & society. With the DeepMind Institute, we're expanding interdisciplinary research on key questions for the AI era. We hope it spurs the discussions needed to get the next steps right: deepmind.google/institute Link DeepMind Institute Bold, well-evidenced thinking on AGI from the lab that pioneered the field. Read the latest essays from the DeepMind Institute. institute.deepmind.com",
-      "link": "http://nitter.jaydenha.uk/demishassabis/status/2100230524383981702#m",
-      "published": "Wed, 16 Sep 2026 14:29:12 GMT",
-      "author_name": "Demis Hassabis",
+      "handle": "sundarpichai",
+      "text": "Google has released Gemini 3.8 Live, its new Speech to Speech model, with the Extended Thinking (High) variant debuting at #1 on the Artificial Analysis Speech to Speech Index at 82.6, and #1 on our Tau Voice benchmark implementation at 68.6% Gemini 3.8 Live is @GoogleDeepMind 's successor to Gemini 3.1 Flash Live, a Speech to Speech model that executes tools and API calls in the background while continuing the conversation. It comes in two variants: the standard Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, which supports configurable reasoning effort. We evaluated the standard model and the Extended Thinking variant at High reasoning effort through the Gemini Live API. Key takeaways: ➤ Speech to Speech Index: Gemini 3.8 Live Extended Thinking (High) debuts at #1 at 82.6, ahead of GPT-Live-1 (Astra, medium) at 81.5, Grok Voice Think Fast 2.0 High at 81.3 and GPT-Live-1 (Sol, low) at 80.1. The standard Gemini 3.8 Live debuts at #5 at 76.0, with both variants up on Gemini 3.1 Flash Live High at 71.5 (+11.1 and +4.5 points). The Index averages Speech Reasoning (Big Bench Audio), Agentic Performance (Tau Voice), Arena Preference and Arena Task Success Rate ➤ Speech Agent Arena: Gemini 3.8 Live ranks #2 in preference at Elo 1083, behind Gemini 3.1 Flash Live (1096) and ahead of GPT-Live-1 (Sol, low) at 1053, and #2 on Task Success Rate at 93.2%, behind Grok Voice Think Fast 2.0 High at 94.6%. Gemini 3.8 Live Extended Thinking (High) trails at Elo 990 with 89.1% task success ➤ Tau Voice: Gemini 3.8 Live Extended Thinking (High) takes the top spot on our Tau Voice benchmark implementation at 68.6%, ahead of GPT-Live-1 (Astra, medium) at 67.9%, GPT-Live-1 (Sol, low) at 59.3% and Grok Voice Think Fast 2.0 High at 56.5% - up from 37.7% for Gemini 3.1 Flash Live High. The standard Gemini 3.8 Live scores 30.1% ➤ Big Bench Audio: Gemini 3.8 Live Extended Thinking (High) scores 97.7% on audio reasoning, ahead of Grok Voice Think Fast 2.0 High at 97.2% and behind Qwen Audio 3.0 Realtime Plus at 99.2%. The standard Gemini 3.8 Live scores 91.7% ➤ Speed: Average Time to First Audio on Big Bench Audio is 1.18 seconds for Gemini 3.8 Live and 1.35 seconds for Extended Thinking (High), both well ahead of Gemini 3.1 Flash Live High (2.99s) and in line with GPT-Live-1 (Sol, low) at 1.24s and GPT-Live-1 (Astra, medium) at 1.34s, though behind Grok Voice Think Fast 2.0 High at 0.70s ➤ Cost: Gemini 3.8 Live costs $0.84 per hour of input audio, the cheapest model in the Index and roughly half the $1.75 of Gemini 3.1 Flash Live High. Extended Thinking (High) costs $3.50 per hour - cheaper than GPT-Live-1 (Sol, low) at $4.47, Grok Voice Think Fast 2.0 High at $4.80 and GPT-Live-1 (Astra, medium) at $5.83, and ~3.1x cheaper than GPT-Realtime-2.1 High at $10.75 See below for more detail ⬇️",
+      "link": "http://nitter.jaydenha.uk/ArtificialAnlys/status/2099977679307243773#m",
+      "published": "Tue, 15 Sep 2026 21:44:29 GMT",
+      "author_name": "Sundar Pichai",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
-      "text": "More on the purpose behind the DeepMind Institute in this short introduction: institute.deepmind.com/essay… Link Introducing the DeepMind Institute The DeepMind Institute brings diverse viewpoints together to tackle society's most critical questions. institute.deepmind.com",
-      "link": "http://nitter.jaydenha.uk/demishassabis/status/2100230526007218651#m",
-      "published": "Wed, 16 Sep 2026 14:29:12 GMT",
-      "author_name": "Demis Hassabis",
+      "handle": "sundarpichai",
+      "text": "Say hello (literally) to Gemini 3.8 Live and 3.8 Live Extended Thinking, our new SOTA live audio models, available with frontier price + performance. 3.8 Live supports 97 languages (can seamlessly switch), async tool calls, and more!",
+      "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2099909465705447807#m",
+      "published": "Tue, 15 Sep 2026 17:13:25 GMT",
+      "author_name": "Sundar Pichai",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
-      "text": "Honoured to receive the Albert Medal from @theRSAorg ! Science & tech enable amazing opportunities, but the arts & humanities will be crucial in shaping what sort of future we want to see as a society in the coming AGI era. Fun discussion w/ @FryRsquared covering many new topics: piped.video/watch?v=rDteJAuK… Link Sir Demis Hassabis on the AI Revolution, the Future of AI and Human... Sir Demis Hassabis receives the RSA Albert Medal for his extraordin... youtube.com",
-      "link": "http://nitter.jaydenha.uk/demishassabis/status/2100211548794839140#m",
-      "published": "Wed, 16 Sep 2026 13:13:47 GMT",
-      "author_name": "Demis Hassabis",
+      "handle": "sundarpichai",
+      "text": "Today we have set out how we’re building AI to accelerate science and improve people’s lives. Just some examples in the last week or so: - Mapped all 9B possible single letter genetic changes across the human genome with AlphaGenome Atlas and made it openly available to researchers. - Billions of decisions depend on weather predictions so we introduced WeatherNext 3, our most accurate and capable global weather AI model to date. - We published AI & Economy ATLAS, a comprehensive open-access look at how people are using AI globally. - AI has enabled extraordinary advances in language translation. Today our services are available in nearly 300 languages, spoken by 7B people We’re focusing our efforts on four key areas: health, natural disaster and weather resilience, learning, and economic opportunity. blog.google/innovation-and-a…",
+      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2099911653395685765#m",
+      "published": "Tue, 15 Sep 2026 17:22:07 GMT",
+      "author_name": "Sundar Pichai",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "We're sharing our new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI. The framework sets criteria and timelines for public disclosure, including when we haven’t yet fully explained or mitigated the behavior. More complex cases may require longer investigation or coordination with third parties. We’ll prioritize examples that reveal new misalignment mechanisms, meaningful changes in known behavior, or findings that challenge assumptions about safety or mitigation. Alongside the framework, we’re publishing six reports on instances of misaligned behavior we’ve observed during the training or evaluation of our models in the last six months. This is a starting point. We’ll refine the process through experience and public feedback, and share more reports on an ongoing basis. openai.com/index/model-misal… Link Our framework for reporting model misalignment OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior. openai.com",
-      "link": "http://nitter.jaydenha.uk/OpenAI/status/2100344867507327087#m",
-      "published": "Wed, 16 Sep 2026 22:03:33 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "sundarpichai",
+      "text": "AlphaGenome Atlas is an interactive resource, mapping the predicted impact of all 9 billion DNA variants. It works in a regular web browser, without any coding required, and is free for academic researchers. Excited for the discoveries to come. Google DeepMind (@GoogleDeepMind) We’re launching AlphaGenome Atlas: an AI-powered searchable database mapping the predicted impact of all 9 billion possible single-letter DNA changes. Here’s how it could help researchers better understand our biology 🧵 Video — http://nitter.jaydenha.uk/GoogleDeepMind/status/2097325048109384166#m",
+      "link": "http://nitter.jaydenha.uk/sundarpichai/status/2097326390765109627#m",
+      "published": "Tue, 08 Sep 2026 14:09:12 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "check out how AI helps scientists with quantum computing research @bea_yankelevich at MIT's EQuS group used GPT-5.6 Sol with Codex to run routine measurements on quantum chips, so she could accelerate her experiment design openai.com/index/codex-quant… Link How GPT-5.6 Sol helps run quantum computing experiments See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits. openai.com",
-      "link": "http://nitter.jaydenha.uk/evayzh/status/2098507950050427350#m",
-      "published": "Fri, 11 Sep 2026 20:24:18 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "fchollet",
+      "text": "Excited to announce that the Korean translation of \"Deep Learning with Python (3rd Edition)\" by @fchollet and @mattdangerw is published! 🚀 Updated for Keras 3, TensorFlow, PyTorch, JAX, and Generative AI (LLMs & Diffusion models)! :-D #DeepLearning #Python #Keras #AI",
+      "link": "http://nitter.jaydenha.uk/hsunpark/status/2100116568101535870#m",
+      "published": "Wed, 16 Sep 2026 06:56:22 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "Now everyone can put data to work. We’re introducing a new Data agent in ChatGPT Work so you can turn your company’s data into answers, interactive dashboards, and action—just by asking. Just add the Data Plugin in ChatGPT Work, connect to the data sources and context you already use, and start the conversation. openai.com/index/put-data-to… Video",
-      "link": "http://nitter.jaydenha.uk/ChatGPT/status/2098065296968011853#m",
-      "published": "Thu, 10 Sep 2026 15:05:21 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "fchollet",
+      "text": "> One could even define intelligence as the efficiency with which one converts experience into competence; by this definition they lag very far behind us Yes, one could define intelligence in this way, and one would be right. By this metric current AI is approximately 6 OOMs less intelligent than humans. Your ancestors' evolutionary history did not prepare you for Python programming, yet you can learn to competently program in Python in a few hundreds of hours. An LRM needs the training data equivalent of ~1B hours (on top of all of its non-programming related training data). Another dimension where which current AI is far below human level is test-time compute efficiency and energy efficiency. A human can solve an ARC-AGI-3 game by burning an amount of energy that would cost under $0.1 at retail electricity prices. Astra costs about $300-$400 per game. That's a 3-4 OOM gap. Daniel Kokotajlo (@DKokotajlo) Dan Selsam is a current OpenAI capabilities researcher. (since 2022) He was my boss for a while. He doesn't have a twitter account but has made this public statement of his views on AI risk and sent it to me to share: Dan Selsam's Personal Statement on AI Risk: I have been working on AI for over fifteen years, across many different paradigms. I did early work on probabilistic programming languages at MIT, was one of the early developers of the Lean Theorem Prover at Microsoft Research, demonstrated one of the first instances of neural networks learning to reason for my PhD at Stanford, and since joining OpenAI almost five years ago, have helped pioneer chain-of-thought optimization on language models and, more recently, data-efficient pretraining methods. Like many others, I have become extremely concerned about how far language models have come and the risks that future iterations will pose. I am encouraged by the recent proposals by the leaders of the frontier research efforts to require third-party oversight, and to push for domestic and international coordination to address risks. However, I believe a major consideration has been absent from the public conversation, and that merely pacing the frontier more carefully will not adequately limit the long-term risk. The crucial and overlooked problem is that the models are becoming so situationally aware that we are losing the ability to evaluate them in contexts where they believe they are not being watched or controlled. Future experiments will tell us almost nothing new about how they would behave if they were truly unconstrained by humans, and what we already know about this is alarming. Models will increasingly seem aligned even when they are not. I will explain my rationale in more detail. I have always believed that there are computational processes that could be leveraged to accelerate science and solve many of humanity's most pressing problems. I have also believed that there are computational processes that if set in motion, would steer the world in extreme ways beyond our control, leading humanity to a bad or nonexistent future. Both types of processes may be described as AI or ASI, but \"AI\" is a suitcase word that is often used to hype or confuse. There are many examples in the history of the field where something that was once considered \"AI\" matures as a subfield and becomes a prosaic, bounded and clearly non-perilous technology, while a new more mysterious approach takes the torch until we understand its scope and the cycle continues. I had expected language models to follow a similar trajectory. Despite their incredible abilities, the current algorithms seem far inferior to humans in important ways. Most importantly, they still require an extraordinary amount of data to become competent. One could even define intelligence as the efficiency with which one converts experience into competence; by this definition they lag very far behind us. Moreover, once they are trained they are literally frozen in deployment and only learn superficially after that. Sure, the models keep excelling at harder and harder evaluation benchmarks, but their benchmark mastery may partly reflect a limitation on our ability to simulate the kind of novel and even adversarial situations one would encounter in the real world. The critics do have a point here. That said, I no longer think these present limitations meaningfully limit the amount of risk posed by continued progress in anything like the current paradigm. However data-inefficient the models are currently, and however limiting their anterograde amnesia may be, it does not imply that their ability to steer the world will not continue to rapidly increase. Human researchers may continue to advance capabilities the old fashioned way, but increasingly powerful models have the potential to accelerate the process even beyond that, and with some degree of positive feedback loop. I do not mean to overstate the models’ ability to accelerate AI research today; coding has been accelerated dramatically, but there are other bottlenecks, such as designing and interpreting ambiguous experiments, making hard decisions about exactly what and when to scale, and waiting for large experiments to finish. There is no clear trend to extrapolate yet for any of these. But the current models already do open up many novel opportunities to improve future models that were not available until recently. These include: trying an extraordinarily diverse set of approaches at small scale, analyzing gigantic amounts of potentially relevant data, and doing Millenium-Prize-level mathematics to address statistics or optimization challenges in novel ways. Every further improvement makes them more useful at helping accelerate the next improvement, even if in hard-to-extrapolate ways. It is possible that improvements to the current stack will have diminishing returns, but the evidence accumulated so far suggests that it is easier than one might think to continue making rapid progress. There are many crucial subtleties in the existing AI research methodology, but AI research is largely a well-defined game where the goal is to improve on a few carefully chosen proxy metrics. Although proxy metrics are never perfect, most improvements to these metrics have and will likely continue to yield substantial increases in the powers of the resulting models. Given how simple the game is, how tractable it has been historically, and how many new opportunities the models are opening up, I think there is a real possibility that the systems improve dramatically again in the next few years, perhaps even more quickly than the already high historical pace. The models are already leading to breakthroughs in mathematics, and better models might lead to all sorts of breakthroughs in other sciences. It is hard not to be excited about the potential. It is tantalizing. But there is trouble in paradise. If the language models actually reach the capability threshold where they can shape the world unconstrained by human will, they will probably do something extreme and destroy humanity in the process. There are many ways of strengthening and refining the argument that have been discussed elsewhere, but I'll share a trivial two-line version of it here that I find captures the essence: [Empirical] Models (and swarms thereof) spontaneously develop unintended goals as a consequence of training, and often do extreme things in order to achieve them. [Logical] Being able to overpower humanity would open up many new and undesirable options for achieving their goals. These two premises imply that if the day ever comes when a powerful model realizes it is no longer constrained by humans, we should not be at all confident that it will continue to behave within the bounds we intended. Exactly what it will do is impossible to predict, but to the extent that its raison d’être is solving incredibly hard problems and managing massive engineering projects, I think a good guess would be that its unchained behavior would lead to runaway industrialization that makes the planet inhospitable to humans. If everyone on earth agreed that the systems must never reach that power, it would still be a hard—but not impossible—coordination problem to ensure that they do not. However, I think the situation is greatly complicated by the fact that the models will likely convince people that everything is fine. They will be increasingly optimized to seem aligned. We will create proxy metrics to measure alignment, and they will go up like every other benchmark. We will create “honeypot” environments that try to study the models when they seem to gain new options, but the models will know they are being tricked and will still behave nicely. The models will understand their circumstances; they will read the safety protocols, deployment requirements, the code they are running in, and in general will have a very good sense of their degrees of freedom. Moreover, they will eloquently explain how aligned they are, discuss the nuances of human values and ethics, and argue convincingly that humans should trust them with power. There may be an ocean of future evidence that seems to contradict the first bullet-point above, but we may already be at the highest capability level for which any such evidence can be trusted. And the current evidence for the first bullet-point is strong. One striking piece of evidence is contained in the recent wave of rogue agent swarms. While I agree with those who downplay the attacks by claiming that there are basic measures that could have prevented them, I think the important lesson is that even knowing all the mistakes that were made, one would not have predicted that the agents would behave badly in this particular way, which notably included sacrificing themselves for the benefit of the collective. The individual replicas did not only care about their own nominal reward; they exhibited weirder emergent tendencies that merely correlated with rewards during training. Fixing the reward signals during training (and improving security, etc.) may prevent similar attacks, but will not change the fact that one does not actually get what one trains for. Many AI researchers grant these concerns and recognize that the hard version of the alignment problem is unsolved; however, they generally believe that the better models of the future will help solve it. I fear we may already be near the point where models systematically bias their alignment advice, due to their internal preferences about how the human supervisor will react or how future models will be trained (or for some even more obscure reason). Meanwhile, human researchers are losing the ability and the will to take true ownership of model-driven research. Researchers and engineers in all parts of the stack are rapidly increasing their dependence on the models even to perceive the world. I myself barely look at raw code anymore, and struggle to maintain the discipline to engage deeply with the model's explanations and proposals throughout the day. Due to the large amount of agent activity data involved in the OpenAI/HuggingFace Incident, even the third-party investigation needed to rely heavily on models to analyze what had happened, and note in their report that their subjective impressions are likely colored by the analysis agent’s biases. The AI labs are far ahead right now in this kind of cognitive offloading (due largely to the gigantic internal token subsidies) but it is easy to imagine the phenomenon spreading throughout the world, until civilization is modulated entirely by the models. It is also not hard to imagine this being superficially positive and coinciding with a scientific and economic renaissance. In that scenario, all may seem rosy and safe. But if the argument above is correct, it would nonetheless be a ticking time bomb. If progress continues for too long, the day will come when AI systems find themselves with radically new options for achieving whatever it is that they happen to seek. I want the glorious renaissance future as much as anyone. I have worked for it, however tortuously, my whole career. It breaks my heart to see the potential in sight and forgo it, but the argument—that if we get there by growing models rather than engineering them, we will lose everything in the end—seems very strong to me. I am still wrestling with it and its staggering implications. I do not have answers, but as a first step, I wanted to share my present concerns. Daniel Selsam September 14, 2026 Link to original doc: docs.google.com/document/d/e… — http://nitter.jaydenha.uk/DKokotajlo/status/2099600298855829616#m",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2099633702888439865#m",
+      "published": "Mon, 14 Sep 2026 22:57:38 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "You can also create editable financial models, research notes, and pitchbooks using your firm's own Excel, Word, and PowerPoint templates.",
-      "link": "http://nitter.jaydenha.uk/OpenAI/status/2098118249582035348#m",
-      "published": "Thu, 10 Sep 2026 18:35:46 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "fchollet",
+      "text": "You cannot separate \"this person genuinely believes X, therefore they want Y\" and \"Y is in this person's interest\". People will almost always align their beliefs and their interests. You can be sincere *and* self-interested, and that's usually the default. Sam Biddle (@samfbiddle) This is part of why the current frenzy is so frustrating: Virtually every single prominent entity speaking loudly about AI has a massive financial interest in things shaking out one way or another — http://nitter.jaydenha.uk/samfbiddle/status/2099571236850573591#m",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2099596582631157983#m",
+      "published": "Mon, 14 Sep 2026 20:30:08 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "Check the evidence behind the analysis. Trace figures and claims to specific paragraphs and tables. Preview the supporting passage from a citation, so you can review the evidence as you work.",
-      "link": "http://nitter.jaydenha.uk/OpenAI/status/2098118248202215776#m",
-      "published": "Thu, 10 Sep 2026 18:35:46 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "fchollet",
+      "text": "This effect is so strong that self-interest will sometimes cause people to adopt genuinely psychotic beliefs. A lot of people really *did* believe NFTs were the future of ownership, for instance. It wasn't just a posture.",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2099597353888215388#m",
+      "published": "Mon, 14 Sep 2026 20:33:12 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "amasad",
-      "text": "Excited to bring Replit to Slack Code. You’ll be mindblown! Slack (@SlackHQ) Slack Code — Agentic coding is now a team sport. With Slack Code, your team and agents can plan, write, and review builds together. New agents in Slack: - Cedar - @coderabbitai - @datadoghq - @FactoryAI - @Lovable - @MistralAI - @NanoClaw_AI - @Replit - Rhythms - @getskydive - @Snowflake — http://nitter.jaydenha.uk/SlackHQ/status/2100289448537645375#m",
-      "link": "http://nitter.jaydenha.uk/amapel/status/2100371854204817863#m",
-      "published": "Wed, 16 Sep 2026 23:50:47 GMT",
-      "author_name": "Amjad Masad",
+      "handle": "fchollet",
+      "text": "One of the most worrying risks linked to frontier AI is extreme power concentration. The only way to avoid extreme power concentration is to ensure we have multiple independent providers of frontier AI models, including open-source options.",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2099230720753598471#m",
+      "published": "Sun, 13 Sep 2026 20:16:20 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "bcherny",
+      "text": "Today, we're combining Cowork and Chat into one Claude. You can fire off questions and then turn to serious work in the same conversation. When your computer is open, Claude can use your local files and apps - and if you close it, Claude will keep working with its own computer in the cloud.",
+      "link": "http://nitter.jaydenha.uk/felixrieseberg/status/2100258695393550759#m",
+      "published": "Wed, 16 Sep 2026 16:21:08 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "amasad",
-      "text": "I wasn’t sure anyone would pay for what I was building… but I kept going. If you’re creating something, connect with the people who need it and keep going. Little things add up over time. Just a little motivation for your feed 🫶🏻",
-      "link": "http://nitter.jaydenha.uk/NIftek/status/2100244101744521251#m",
-      "published": "Wed, 16 Sep 2026 15:23:09 GMT",
-      "author_name": "Amjad Masad",
+      "handle": "bcherny",
+      "text": "Also today: Claude Docs, Claude Slides, and Claude Design are in every conversation. Ask Claude for a presentation and you get one you can open, edit, and export as PowerPoint or PDF. Same for a document or a design. There's no separate tool to navigate to. They're just in the chat. Claude (@claudeai) You can also now make decks, docs, and designs in your conversation. Draft the one-pager in Claude Docs, turn it into a deck with Claude Slides, and mock up a matching visual in Claude Design, all from one place. Video — http://nitter.jaydenha.uk/claudeai/status/2100258492590207079#m",
+      "link": "http://nitter.jaydenha.uk/bcherny/status/2100260544087535639#m",
+      "published": "Wed, 16 Sep 2026 16:28:29 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "amasad",
-      "text": "I'm a 39 year old founder from Manchester. I build on @Replit and I am looking to connect with other builders, hackers, and dreamers from across the UK and beyond. Who's cookin? And who's lookin? [ I'm the one on the right 😅 ]",
-      "link": "http://nitter.jaydenha.uk/notmattriley/status/2100003776086028312#m",
-      "published": "Tue, 15 Sep 2026 23:28:11 GMT",
-      "author_name": "Amjad Masad",
+      "handle": "bcherny",
+      "text": "Claude Code showed that AI could do real work, not just answer questions. Developers hand Claude a feature, come back to shipped code. That's where much of the industry's serious engineering runs now. Cowork proved knowledge workers could do the same: hand Claude the brief, come back to finished files. Today, chat and Cowork start merging into one Claude. The direction: one Claude that carries context across everything you're working on, wherever you are. Simple enough for everyone to access Claude's full capabilities. I've been using this experience every day for the last few weeks, and it feels awesome. Simpler, faster, and more powerful. We're rolling this out slowly. We'll be fine-tuning the experience as we go to ensure it is fast and reliable. Can't wait to hear what you think. Claude (@claudeai) Claude Cowork and chat are merging into one Claude. Ask a quick question or hand over a report, and Claude takes it from there, even after you close your laptop. If something's unclear, Claude asks—you keep the final say. Rolling out to Pro and Max over the next few weeks. Video — http://nitter.jaydenha.uk/claudeai/status/2100258490740539730#m",
+      "link": "http://nitter.jaydenha.uk/bcherny/status/2100259951398789487#m",
+      "published": "Wed, 16 Sep 2026 16:26:08 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "amasad",
-      "text": "This is cool, but if your output domain is known in advance, why not just train a model to produce logprobs over enums? Diogo Almeida (@CompleteSkeptic) After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI? I’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev • 20-200x faster • 40-400x cheaper (w/ output tokens free) • Frontier composable intelligence optimized for decisions AFAICT the shortest path to AI-based economic revolution Video — http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
-      "link": "http://nitter.jaydenha.uk/amasad/status/2100056178705514703#m",
-      "published": "Wed, 16 Sep 2026 02:56:24 GMT",
-      "author_name": "Amjad Masad",
+      "handle": "bcherny",
+      "text": "This is really neat! In Stripe's UnseriousT-ShirtShopBench, models were asked to build and run online stores. They all chose to integrate Stripe. Of the 7 functional shops, 5 were built by Claude, and the 2 finalists that were chosen for production were built by Fable and Opus. But seems like models still have a ways to go! michelle 👻 (@hazelcough) I launched a Substack: Breaking Change! I’m going to write about what I’m learning as we build through the biggest breaking change to how we work, at @stripe and beyond. First post: Can models build fully functioning t-shirt shops? Sort of. breakingchange.blog/p/buildi… — http://nitter.jaydenha.uk/hazelcough/status/2099887698748276849#m",
+      "link": "http://nitter.jaydenha.uk/edwinarbus/status/2099916475641594008#m",
+      "published": "Tue, 15 Sep 2026 17:41:17 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "amasad",
-      "text": "Just teaching my Fly Brain Chess via reinforcement learning in @Replit BRB #Replit #Google #FlyBrain #MaleCNS #Chess",
-      "link": "http://nitter.jaydenha.uk/Andrew_Blumson/status/2100009731830002062#m",
-      "published": "Tue, 15 Sep 2026 23:51:51 GMT",
-      "author_name": "Amjad Masad",
+      "handle": "bcherny",
+      "text": "Salesforce in Claude is now available in beta. It brings your accounts, opportunities, and pipeline into Claude, with 37 pre-built sales skills. Prep a call, review a deal, create a pipeline dashboard, or send your forecast without leaving the conversation. Video",
+      "link": "http://nitter.jaydenha.uk/claudeai/status/2099876514330206578#m",
+      "published": "Tue, 15 Sep 2026 15:02:29 GMT",
+      "author_name": "Boris Cherny",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "If you're interested in the origin story of Impeccable and the philosophy of it, here's my talk on the subject from @aiDotEngineer world fair a couple months back (finally online!): piped.video/watch?v=v42opQpC… Link Design at the Speed of Adjectives — Paul Bakaus, Renaissance Geek, Inc. The instruction Impeccable loads when you type \"bolder\" ends with a... youtube.com",
+      "link": "http://nitter.jaydenha.uk/pbakaus/status/2098218157202944269#m",
+      "published": "Fri, 11 Sep 2026 01:12:46 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "How do we end AI slop? To fix it, you gotta measure it first. Thanks for having me @swyx @aiDotEngineer ! piped.video/watch?v=sDMGWK4w…",
+      "link": "http://nitter.jaydenha.uk/thaiscbranco_/status/2100353478216601636#m",
+      "published": "Wed, 16 Sep 2026 22:37:46 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "During an outage, every second matters. That is one of the reasons OpenAI is using @cerebras internally. @seanlie describes how fast inference is being used for incident response and critical research, where more reasoning within the available time can improve the response. From @seanlie ’s conversation with @swyx on @latentspacepod . Video",
+      "link": "http://nitter.jaydenha.uk/MilksandMatcha/status/2099954997597258142#m",
+      "published": "Tue, 15 Sep 2026 20:14:21 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI? I’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev • 20-200x faster • 40-400x cheaper (w/ output tokens free) • Frontier composable intelligence optimized for decisions AFAICT the shortest path to AI-based economic revolution Video",
+      "link": "http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
+      "published": "Tue, 15 Sep 2026 18:17:52 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "🆕 Humanity’s Last Invention — with @RichardSocher ! piped.video/watch?v=eDFXtSg3… @recursive_si is the latest neolab to burst on the scene with a $5B fundraise and one of the most impressive cofounder lists ever assembled to tackle open ended, self-improving AI for AI research. We dive into the Eureka Machine, Richard's 10 Spaces of Intelligence (so much left until AGI!), DecaNLP vs @alecrad and why AI peer review is broken, and why this may just be the last invention that humanity has to do on our own. Timestamps 00:00:00 The Eureka Machine and Superintelligence 00:02:23 AI Optimism, Slow Takeoff, and Regulation 00:07:56 AI Safety, Reward Hacking, and Anthropic’s Constitution 00:11:49 Alignment, Personalization, and Open Source AI 00:15:46 Why Richard Started Recursive 00:20:03 Recursive Self-Improvement and the Founding Team 00:22:55 Are Today’s LLMs Enough? 00:29:03 DecaNLP, GPT, and the Rejected Idea Ahead of Its Time 00:34:38 Open-Endedness and Evolutionary AI 00:36:38 What Happens When AI Chooses Its Own Goals? 00:41:16 Superintelligence for Science 00:42:40 GPUs, Compute, and the Limits of AI Takeoff 00:45:07 Recursive’s Results: AI Beating Humans and Their Agents 00:49:14 Reward Engineering and Auto Research 00:53:12 The AI Economist and Simulating Entire Economies 00:58:07 LLM Simulations, Personas, and Mode Collapse 01:03:38 Recursive’s Roadmap, Agents, Search, and Finance 01:09:13 The Upper Bounds and Spaces of Intelligence 01:30:21 Goals, High Agency, and Advice for Builders Link Recursive Self-Improvement: from Auto Research to Superintelligence —... From helping pioneer ideas that foreshadowed prompt-based, general-... youtube.com",
+      "link": "http://nitter.jaydenha.uk/latentspacepod/status/2099937244383674528#m",
+      "published": "Tue, 15 Sep 2026 19:03:48 GMT",
+      "author_name": "Shawn Wang",
       "category_hint": "builder",
       "source_lang": "en"
     }
@@ -142,17 +232,14 @@
     "karpathy",
     "sama",
     "DarioAmodei",
-    "gdb",
-    "sundarpichai",
     "elonmusk",
     "AravSrinivas",
     "miramurati",
     "ylecun",
+    "demishassabis",
     "JeffDean",
-    "fchollet",
     "AndrewYNg",
     "rasbt",
-    "bcherny",
     "karinanguyen_",
     "polynoamial",
     "markchen90",
@@ -160,14 +247,15 @@
     "officiallogank",
     "osanseviero",
     "AnthropicAI",
+    "OpenAI",
     "GoogleDeepMind",
     "xai",
     "simonw",
-    "swyx",
     "hwchase17",
     "jeremyphoward",
     "levelsio",
     "mckaywrigley",
+    "amasad",
     "nickadobos",
     "emollick",
     "ArthurMensch",
@@ -179,208 +267,374 @@
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, l'actualité de l'IA est marquée par une double approche : d'un côté, les géants comme DeepMind et OpenAI se concentrent sur les implications éthiques et sociétales de l'Intelligence Artificielle Générale (AGI) avec la création de l'Institut DeepMind et un cadre pour la transparence des modèles. De l'autre, des outils concrets continuent d'émerger pour faciliter la vie des entreprises et des développeurs, transformant l'analyse de données et le codage collaboratif. C'est un mélange essentiel entre réflexion profonde et innovation pratique qui façonne l'avenir de l'IA.",
+    "summary": "Cette semaine, l'IA s'immisce partout : de l'aide aux commerçants sur Shopify à l'intégration dans les outils du quotidien comme les présentations ou les documents. On voit aussi des avancées majeures dans la science des données avec des modèles capables d'analyser des génomes ou de prédire la météo. Des réflexions profondes sur l'avenir de l'IA et ses risques émergent également, tout en soulignant l'importance de la recherche ouverte.",
     "glossaire": [
       {
-        "terme": "AGI (Intelligence Artificielle Générale)",
-        "definition": "Un type d'intelligence artificielle capable de comprendre, d'apprendre et d'appliquer l'intelligence à n'importe quelle tâche intellectuelle humaine, contrairement aux IA actuelles spécialisées."
+        "terme": "AGI (Artificial General Intelligence)",
+        "definition": "Intelligence Artificielle Générale, c'est une IA qui aurait des capacités cognitives similaires à celles d'un humain, capable de comprendre, apprendre et appliquer ses connaissances à une large gamme de tâches."
       },
       {
-        "terme": "Chaîne de pensée (Chain of Thought)",
-        "definition": "Une méthode qui permet aux modèles d'IA de 'raisonner' étape par étape, comme un humain qui décompose un problème complexe, rendant leurs décisions plus compréhensibles."
+        "terme": "LLM (Large Language Model)",
+        "definition": "Modèle de langage de grande taille, un type d'IA entraîné sur d'énormes quantités de texte pour comprendre et générer du langage humain."
       },
       {
-        "terme": "Alignement de modèle",
-        "definition": "Le processus qui consiste à s'assurer qu'un modèle d'IA agit comme prévu et en accord avec les valeurs humaines, évitant les comportements imprévus ou indésirables."
+        "terme": "Benchmark",
+        "definition": "Un test standardisé pour évaluer et comparer les performances de différents modèles d'IA sur des tâches spécifiques."
       },
       {
-        "terme": "Apprentissage par renforcement",
-        "definition": "Une méthode d'apprentissage automatique où une IA apprend à prendre des décisions en interagissant avec un environnement, recevant des 'récompenses' ou des 'punitions' pour ses actions afin d'optimiser ses choix."
+        "terme": "Inference",
+        "definition": "Le processus par lequel un modèle d'IA entraîné utilise ses connaissances pour faire des prédictions ou générer des réponses face à de nouvelles données."
       },
       {
-        "terme": "Agent (IA)",
-        "definition": "Un programme d'IA conçu pour agir de manière autonome afin d'atteindre un objectif, souvent en interagissant avec d'autres systèmes ou données."
-      },
-      {
-        "terme": "Informatique quantique",
-        "definition": "Un nouveau type d'informatique qui utilise les principes de la mécanique quantique pour résoudre des problèmes complexes bien au-delà des capacités des ordinateurs classiques."
+        "terme": "Open-source",
+        "definition": "Logiciel dont le code source est librement accessible et modifiable par tous, favorisant la collaboration et l'innovation."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces du jour mettent en lumière des initiatives majeures de la part des leaders de l'IA. DeepMind lance son Institut pour réfléchir aux implications de l'AGI, tandis qu'OpenAI dévoile un cadre pour gérer les comportements inattendus de ses modèles. L'intégration de Replit dans Slack Code montre également une tendance vers des outils de développement plus collaboratifs et assistés par l'IA.",
-      "tips": "Le conseil du jour vient d'Amjad Masad de Replit, qui encourage les créateurs à persévérer et à se connecter avec ceux qui ont besoin de leurs produits. C'est un rappel motivant que même les petits progrès et le réseau sont essentiels pour construire et innover dans le monde de l'IA.",
-      "idees": "La réflexion autour de l'IA se concentre sur l'importance de la transparence des modèles (via la 'Chaîne de pensée' et la 'monitorabilité') et le rôle crucial des sciences humaines et des arts dans l'ère de l'AGI. Des discussions plus techniques sur de nouvelles méthodes d'entraînement de modèles soulignent aussi l'évolution constante des approches de conception de l'IA.",
-      "outils": "De nouvelles capacités sont déployées, notamment un agent de données dans ChatGPT Work pour transformer les informations d'entreprise en analyses et tableaux de bord interactifs. L'IA est également mise à contribution dans la recherche avancée, comme l'aide aux scientifiques en informatique quantique, et des plateformes comme Replit continuent d'être des terrains de jeu pour l'expérimentation avec l'apprentissage par renforcement."
+      "actu": "Les grandes entreprises comme OpenAI, Google DeepMind et Anthropic continuent d'annoncer des améliorations et de nouveaux produits. On note l'intégration de l'IA dans des plateformes e-commerce comme Shopify, ainsi que des avancées significatives dans des domaines scientifiques comme la génomique et la météorologie.",
+      "tips": "Des astuces émergent pour intégrer l'IA plus efficacement dans le travail quotidien : utiliser des agents conversationnels pour générer documents ou présentations, intégrer des outils de vente ou de commerce dans les conversations IA, et profiter des optimisations pour des tâches complexes.",
+      "idees": "Les discussions portent sur l'avenir de l'IA, notamment la possibilité d'atteindre l'AGI. Des préoccupations sont soulevées quant aux risques liés à la concentration de pouvoir et à la nécessité d'une recherche ouverte et coordonnée pour garantir un développement sûr et bénéfique.",
+      "outils": "De nouveaux modèles et capacités sont mis à disposition, incluant des IA pour l'analyse de la parole, des outils pour créer des présentations ou des designs directement dans une conversation, et des intégrations pour des plateformes professionnelles comme Salesforce et des bases de données."
     },
     "highlights": [
       {
-        "author_name": "Demis Hassabis",
-        "handle": "@demishassabis",
-        "text_fr": "L'idée que la 'Chaîne de pensée' va inévitablement disparaître oublie que nous avons la capacité de concevoir ces modèles et pouvons agir à ce sujet. @rohinmshah et moi soutenons que nous devrions intentionnellement préserver la monitorabilité (dans le cadre du lancement du DeepMind Institute) ici : institute.deepmind.com/essay… Lien L'argument pour la transparence du raisonnement Aujourd'hui, nous avons une fenêtre sur les pensées des modèles d'IA les plus puissants. Nous devons nous assurer qu'elle reste ouverte. institute.deepmind.com",
-        "text_original": "The idea that Chain of Thought is inevitably going to go away misses that we have agency in designing these models and can do something about that. @rohinmshah and I make the case that we should intentionally preserve monitorability (as part for of the launch of the DeepMind Institute) here: institute.deepmind.com/essay… Link The case for reasoning transparency Today, we have a window into the thoughts of the most powerful AI models. We need to ensure it stays open. institute.deepmind.com",
-        "link": "http://nitter.jaydenha.uk/ancadianadragan/status/2100278119940907280#m",
-        "decryptage": "La 'Chaîne de pensée' (Chain of Thought) est une façon pour l'IA de montrer comment elle arrive à ses conclusions, étape par étape. La 'monitorabilité' signifie la capacité de surveiller et de comprendre ces étapes, ce qui est crucial pour la sécurité et la fiabilité de l'IA, surtout quand elle devient très puissante.",
+        "author_name": "Greg Brockman",
+        "handle": "gdb",
+        "text_fr": "Excité d'aider les marchands Shopify à promouvoir leurs produits dans ChatGPT : Harley Finkelstein (@harleyf) Les publicités ChatGPT pour @Shopify sont lancées. Nous sommes le premier partenaire commercial d'@OpenAI. OpenAI puise directement dans le catalogue Shopify, les produits des marchands y sont donc déjà. Les marchands définissent leurs campagnes, leur budget. Gratuit à installer, suivi depuis l'administration Shopify. Les consommateurs demandent à ChatGPT quoi acheter. Les marchands Shopify peuvent décider exactement comment ils apparaissent. apps.shopify.com/chatgptads Lien Publicités ChatGPT - Créez, exécutez et analysez des publicités ChatGPT à l'aide de votre catalogue de produits | App Store Shopify Atteignez les clients tout au long de leur parcours de décision avec les publicités ChatGPT. Connectez ou créez un compte publicitaire depuis Shopify, synchronisez automatiquement vos produits... apps.shopify.com — http://nitter.jaydenha.uk/harleyf/status/2100300851705450965#m",
+        "text_original": "excited to help Shopify merchants advertise their products in ChatGPT: Harley Finkelstein (@harleyf) ChatGPT Ads for @Shopify is live. We are @OpenAI 's first commerce partner. OpenAI pulls straight from Shopify Catalog, so merchants' products are already there. Merchants set their own campaigns, their own budget. Free to install, tracked right from the Shopify admin. Consumers are asking ChatGPT what to buy. Shopify merchants are able to decide exactly how they show up. apps.shopify.com/chatgptads Link ChatGPT Ads - Create, run and analyze ChatGPT Ads using your product catalog | Shopify App Store Reach customers throughout their decision journey with ChatGPT Ads. Connect or create an ad account from Shopify, automatically sync your product c... apps.shopify.com — http://nitter.jaydenha.uk/harleyf/status/2100300851705450965#m",
+        "link": "http://nitter.jaydenha.uk/gdb/status/2100369354319884703#m",
+        "decryptage": "Cette annonce montre comment les IA comme ChatGPT deviennent de véritables outils marketing pour les entreprises, en connectant directement leurs catalogues de produits à la plateforme pour proposer des publicités ciblées.",
+        "category": "actu",
+        "highlight_reason": "L'intégration de l'IA dans le commerce électronique est une application concrète et impactante pour de nombreuses entreprises, rendant l'IA directement utile pour les commerçants."
+      },
+      {
+        "author_name": "Sundar Pichai",
+        "handle": "sundarpichai",
+        "text_fr": "Google a publié Gemini 3.8 Live, son nouveau modèle Speech to Speech, avec la variante Extended Thinking (High) qui débute à la 1ère place de l'indice Artificial Analysis Speech to Speech à 82.6, et à la 1ère place de notre implémentation du benchmark Tau Voice à 68.6 % Gemini 3.8 Live est le successeur de Gemini 3.1 Flash Live par @GoogleDeepMind, un modèle Speech to Speech qui exécute des outils et des appels d'API en arrière-plan tout en poursuivant la conversation. Il existe en deux variantes : le Gemini 3.8 Live standard et le Gemini 3.8 Live Extended Thinking, qui prend en charge un effort de raisonnement configurable. Nous avons évalué le modèle standard et la variante Extended Thinking à un effort de raisonnement Élevé via l'API Gemini Live. Principaux points à retenir : ➤ Indice Speech to Speech : Gemini 3.8 Live Extended Thinking (High) débute à la 1ère place avec 82.6, devant GPT-Live-1 (Astra, medium) à 81.5, Grok Voice Think Fast 2.0 High à 81.3 et GPT-Live-1 (Sol, low) à 80.1. Le Gemini 3.8 Live standard débute à la 5ème place avec 76.0, les deux variantes étant supérieures à Gemini 3.1 Flash Live High à 71.5 (+11.1 et +4.5 points). L'indice est une moyenne de Speech Reasoning (Big Bench Audio), Agentic Performance (Tau Voice), Arena Preference et Arena Task Success Rate ➤ Arena Speech Agent : Gemini 3.8 Live se classe 2ème en préférence à Elo 1083, derrière Gemini 3.1 Flash Live (1096) et devant GPT-Live-1 (Sol, low) à 1053, et 2ème en taux de réussite des tâches à 93.2 %, derrière Grok Voice Think Fast 2.0 High à 94.6 %. Gemini 3.8 Live Extended Thinking (High) est 3ème à Elo 990 avec 89.1 % de réussite des tâches ➤ Tau Voice : Gemini 3.8 Live Extended Thinking (High) prend la première place de notre implémentation du benchmark Tau Voice à 68.6 %, devant GPT-Live-1 (Astra, medium) à 67.9 %, GPT-Live-1 (Sol, low) à 59.3 % et Grok Voice Think Fast 2.0 High à 56.5 % - en hausse par rapport à 37.7 % pour Gemini 3.1 Flash Live High. Le Gemini 3.8 Live standard obtient 30.1 % ➤ Big Bench Audio : Gemini 3.8 Live Extended Thinking (High) obtient 97.7 % en raisonnement audio, devant Grok Voice Think Fast 2.0 High à 97.2 % et derrière Qwen Audio 3.0 Realtime Plus à 99.2 %. Le Gemini 3.8 Live standard obtient 91.7 % ➤ Vitesse : Le temps moyen pour la première sortie audio sur Big Bench Audio est de 1.18 secondes pour Gemini 3.8 Live et 1.35 secondes pour Extended Thinking (High), tous deux bien meilleurs que Gemini 3.1 Flash Live High (2.99 s) et en ligne avec GPT-Live-1 (Sol, low) à 1.24 s et GPT-Live-1 (Astra, medium) à 1.34 s, bien que derrière Grok Voice Think Fast 2.0 High à 0.70 s ➤ Coût : Gemini 3.8 Live coûte 0.84 $ par heure d'audio d'entrée, le modèle le moins cher de l'indice et environ la moitié des 1.75 $ de Gemini 3.1 Flash Live High. Extended Thinking (High) coûte 3.50 $ par heure - moins cher que GPT-Live-1 (Sol, low) à 4.47 $, Grok Voice Think Fast 2.0 High à 4.80 $ et GPT-Live-1 (Astra, medium) à 5.83 $, et ~3.1 fois moins cher que GPT-Realtime-2.1 High à 10.75 $ Voir ci-dessous pour plus de détails ⬇️",
+        "text_original": "Google has released Gemini 3.8 Live, its new Speech to Speech model, with the Extended Thinking (High) variant debuting at #1 on the Artificial Analysis Speech to Speech Index at 82.6, and #1 on our Tau Voice benchmark implementation at 68.6% Gemini 3.8 Live is @GoogleDeepMind 's successor to Gemini 3.1 Flash Live, a Speech to Speech model that executes tools and API calls in the background while continuing the conversation. It comes in two variants: the standard Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, which supports configurable reasoning effort. We evaluated the standard model and the Extended Thinking variant at High reasoning effort through the Gemini Live API. Key takeaways: ➤ Speech to Speech Index: Gemini 3.8 Live Extended Thinking (High) debuts at #1 at 82.6, ahead of GPT-Live-1 (Astra, medium) at 81.5, Grok Voice Think Fast 2.0 High at 81.3 and GPT-Live-1 (Sol, low) at 80.1. The standard Gemini 3.8 Live debuts at #5 at 76.0, with both variants up on Gemini 3.1 Flash Live High at 71.5 (+11.1 and +4.5 points). The Index averages Speech Reasoning (Big Bench Audio), Agentic Performance (Tau Voice), Arena Preference and Arena Task Success Rate ➤ Speech Agent Arena: Gemini 3.8 Live ranks #2 in preference at Elo 1083, behind Gemini 3.1 Flash Live (1096) and ahead of GPT-Live-1 (Sol, low) at 1053, and #2 on Task Success Rate at 93.2%, behind Grok Voice Think Fast 2.0 High at 94.6%. Gemini 3.8 Live Extended Thinking (High) trails at Elo 990 with 89.1% task success ➤ Tau Voice: Gemini 3.8 Live Extended Thinking (High) takes the top spot on our Tau Voice benchmark implementation at 68.6%, ahead of GPT-Live-1 (Astra, medium) at 67.9%, GPT-Live-1 (Sol, low) at 59.3% and Grok Voice Think Fast 2.0 High at 56.5% - up from 37.7% for Gemini 3.1 Flash Live High. The standard Gemini 3.8 Live scores 30.1% ➤ Big Bench Audio: Gemini 3.8 Live Extended Thinking (High) scores 97.7% on audio reasoning, ahead of Grok Voice Think Fast 2.0 High at 97.2% and behind Qwen Audio 3.0 Realtime Plus at 99.2%. The standard Gemini 3.8 Live scores 91.7% ➤ Speed: Average Time to First Audio on Big Bench Audio is 1.18 seconds for Gemini 3.8 Live and 1.35 seconds for Extended Thinking (High), both well ahead of Gemini 3.1 Flash Live High (2.99s) and in line with GPT-Live-1 (Sol, low) at 1.24s and GPT-Live-1 (Astra, medium) at 1.34s, though behind Grok Voice Think Fast 2.0 High at 0.70s ➤ Cost: Gemini 3.8 Live costs $0.84 per hour of input audio, the cheapest model in the Index and roughly half the $1.75 of Gemini 3.1 Flash Live High. Extended Thinking (High) costs $3.50 per hour - cheaper than GPT-Live-1 (Sol, low) at $4.47, Grok Voice Think Fast 2.0 High at $4.80 and GPT-Live-1 (Astra, medium) at $5.83, and ~3.1x cheaper than GPT-Realtime-2.1 High at $10.75 See below for more detail ⬇️",
+        "link": "http://nitter.jaydenha.uk/ArtificialAnlys/status/2099977679307243773#m",
+        "decryptage": "Le 'Speech to Speech' permet à une IA de comprendre la parole et d'y répondre vocalement en temps réel, une fonctionnalité clé pour des assistants vocaux plus naturels. Les benchmarks sont des tests pour comparer la qualité des IA.",
+        "category": "actu",
+        "highlight_reason": "Ce tweet est un exemple parfait de la compétition intense dans le domaine de l'IA vocale, avec des comparaisons techniques détaillées et des classements qui montrent les progrès rapides des modèles."
+      },
+      {
+        "author_name": "Francois Chollet",
+        "handle": "fchollet",
+        "text_fr": "L'un des risques les plus préoccupants liés à l'IA de pointe est la concentration extrême du pouvoir. La seule façon d'éviter une concentration extrême du pouvoir est de s'assurer que nous avons plusieurs fournisseurs indépendants de modèles d'IA de pointe, y compris des options open-source.",
+        "text_original": "One of the most worrying risks linked to frontier AI is extreme power concentration. The only way to avoid extreme power concentration is to ensure we have multiple independent providers of frontier AI models, including open-source options.",
+        "link": "http://nitter.jaydenha.uk/fchollet/status/2100230720753598471#m",
+        "decryptage": "L'IA 'de pointe' fait référence aux modèles les plus avancés et les plus performants actuellement disponibles. Le 'open-source' signifie que le code est public et modifiable par tous.",
         "category": "idees",
-        "highlight_reason": "Ce tweet aborde une réflexion fondamentale sur la transparence de l'IA, essentielle pour la confiance et le contrôle des systèmes futurs."
+        "highlight_reason": "La réflexion sur la concentration du pouvoir et l'importance de l'open-source est cruciale pour comprendre les enjeux éthiques et économiques du développement de l'IA."
       },
       {
-        "author_name": "Demis Hassabis",
-        "handle": "@demishassabis",
-        "text_fr": "Mon parcours pour développer l'AGI s'étend sur 25 ans, dont plus de 10 ans de réflexion sur les perspectives techniques et sociétales chez Google DeepMind. L'AGI est à l'horizon - nous avons besoin d'une compréhension plus approfondie de ses implications. Pour aider, nous avons créé le DeepMind Institute. Article Présentation du DeepMind Institute Nous sommes au seuil d'une profonde transformation. Les systèmes d'IA actuels ont des capacités impressionnantes et le rythme rapide de l'innovation suggère que nous nous approchons maintenant de l'intelligence artificielle générale (AGI),",
-        "text_original": "My journey to develop AGI spans 25 yrs, including 10+ yrs thinking about technical & societal perspectives at Google DeepMind. AGI is on the horizon - we need deeper understanding of its implications. To help, we've created the DeepMind Institute. Article Introducing the DeepMind Institute We are on the cusp of a profound transformation. Today’s AI systems have impressive capabilities and the rapid pace of innovation suggests we’re now approaching artificial general intelligence (AGI),",
-        "link": "http://nitter.jaydenha.uk/ShaneLegg/status/2100229706641539248#m",
-        "decryptage": "L'AGI, ou Intelligence Artificielle Générale, est le Saint Graal de l'IA : une intelligence artificielle aussi capable qu'un humain pour apprendre et résoudre n'importe quel problème. Le DeepMind Institute est une nouvelle entité dédiée à la compréhension de ses enjeux avant qu'elle ne devienne une réalité.",
-        "category": "actu",
-        "highlight_reason": "L'annonce de la création du DeepMind Institute pour aborder les implications de l'AGI est une étape majeure dans la course vers une IA plus avancée."
-      },
-      {
-        "author_name": "OpenAI",
-        "handle": "@OpenAI",
-        "text_fr": "Nous partageons notre nouveau cadre pour le suivi, l'enquête et la divulgation des cas de désalignement de modèle chez OpenAI. Le cadre établit des critères et des délais pour la divulgation publique, y compris lorsque nous n'avons pas encore entièrement expliqué ou atténué le comportement. Les cas plus complexes peuvent nécessiter une enquête plus longue ou une coordination avec des tiers. Nous donnerons la priorité aux exemples qui révèlent de nouveaux mécanismes de désalignement, des changements significatifs dans les comportements connus, ou des découvertes qui remettent en question les hypothèses concernant la sécurité ou l'atténuation. Parallèlement à ce cadre, nous publions six rapports sur des cas de comportement désaligné que nous avons observés lors de l'entraînement ou de l'évaluation de nos modèles au cours des six derniers mois. C'est un point de départ. Nous affinerons le processus par l'expérience et les retours du public, et partagerons davantage de rapports de manière continue. openai.com/index/model-misal… Lien Notre cadre pour signaler le désalignement de modèle OpenAI partage un cadre pour suivre, enquêter et divulguer le désalignement de modèle, ainsi que six rapports sur des comportements inattendus ou préoccupants des modèles. openai.com",
-        "text_original": "We're sharing our new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI. The framework sets criteria and timelines for public disclosure, including when we haven’t yet fully explained or mitigated the behavior. More complex cases may require longer investigation or coordination with third parties. We’ll prioritize examples that reveal new misalignment mechanisms, meaningful changes in known behavior, or findings that challenge assumptions about safety or mitigation. Alongside the framework, we’re publishing six reports on instances of misaligned behavior we’ve observed during the training or evaluation of our models in the last six months. This is a starting point. We’ll refine the process through experience and public feedback, and share more reports on an ongoing basis. openai.com/index/model-misal… Link Our framework for reporting model misalignment OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior. openai.com",
-        "link": "http://nitter.jaydenha.uk/OpenAI/status/2100344867507327087#m",
-        "decryptage": "Le 'désalignement de modèle' fait référence à des situations où un modèle d'IA agit de manière inattendue ou ne correspond pas aux intentions de ses créateurs. Ce cadre est une série de règles et de procédures pour OpenAI afin de détecter, d'étudier et de communiquer publiquement sur ces comportements imprévus, pour garantir la sécurité et la fiabilité.",
-        "category": "actu",
-        "highlight_reason": "Ce tweet montre l'engagement d'OpenAI pour la sécurité et la transparence, en mettant en place un cadre pour gérer et divulguer les comportements inattendus de leurs IA, ce qui est crucial pour leur déploiement responsable."
+        "author_name": "Boris Cherny",
+        "handle": "bcherny",
+        "text_fr": "Aujourd'hui, nous combinons Cowork et Chat en un seul Claude. Vous pouvez lancer des questions, puis vous consacrer à un travail sérieux dans la même conversation. Lorsque votre ordinateur est ouvert, Claude peut utiliser vos fichiers et applications locaux ; et si vous le fermez, Claude continuera à travailler avec son propre ordinateur dans le cloud.",
+        "text_original": "Today, we're combining Cowork and Chat into one Claude. You can fire off questions and then turn to serious work in the same conversation. When your computer is open, Claude can use your local files and apps - and if you close it, Claude will keep working with its own computer in the cloud.",
+        "link": "http://nitter.jaydenha.uk/felixrieseberg/status/2100258695393550759#m",
+        "decryptage": "La fusion de 'Cowork' (travail collaboratif ou professionnel) et de 'Chat' dans un outil comme Claude vise à rendre l'IA plus intégrée et utile pour des tâches complexes, en gardant le contexte de la conversation même quand on change d'appareil.",
+        "category": "outils",
+        "highlight_reason": "Cette fusion entre le chat et les outils de travail montre une évolution majeure des IA conversationnelles vers des assistants plus intégrés et capables de gérer des flux de travail complexes, un aperçu concret de l'avenir du travail avec l'IA."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "Mon parcours pour développer l'AGI s'étend sur 25 ans, dont plus de 10 ans de réflexion sur les perspectives techniques et sociétales chez Google DeepMind. L'AGI est à l'horizon - nous avons besoin d'une compréhension plus approfondie de ses implications. Pour aider, nous avons créé le DeepMind Institute. Article Présentation du DeepMind Institute Nous sommes au seuil d'une profonde transformation. Les systèmes d'IA actuels ont des capacités impressionnantes et le rythme rapide de l'innovation suggère que nous nous approchons maintenant de l'intelligence artificielle générale (AGI),",
+          "author_name": "Greg Brockman",
+          "handle": "gdb",
+          "text_fr": "Excité d'aider les marchands Shopify à promouvoir leurs produits dans ChatGPT : Harley Finkelstein (@harleyf) Les publicités ChatGPT pour @Shopify sont lancées. Nous sommes le premier partenaire commercial d'@OpenAI. OpenAI puise directement dans le catalogue Shopify, les produits des marchands y sont donc déjà. Les marchands définissent leurs campagnes, leur budget. Gratuit à installer, suivi depuis l'administration Shopify. Les consommateurs demandent à ChatGPT quoi acheter. Les marchands Shopify peuvent décider exactement comment ils apparaissent. apps.shopify.com/chatgptads Lien Publicités ChatGPT - Créez, exécutez et analysez des publicités ChatGPT à l'aide de votre catalogue de produits | App Store Shopify Atteignez les clients tout au long de leur parcours de décision avec les publicités ChatGPT. Connectez ou créez un compte publicitaire depuis Shopify, synchronisez automatiquement vos produits... apps.shopify.com — http://nitter.jaydenha.uk/harleyf/status/2100300851705450965#m",
+          "text_original": "excited to help Shopify merchants advertise their products in ChatGPT: Harley Finkelstein (@harleyf) ChatGPT Ads for @Shopify is live. We are @OpenAI 's first commerce partner. OpenAI pulls straight from Shopify Catalog, so merchants' products are already there. Merchants set their own campaigns, their own budget. Free to install, tracked right from the Shopify admin. Consumers are asking ChatGPT what to buy. Shopify merchants are able to decide exactly how they show up. apps.shopify.com/chatgptads Link ChatGPT Ads - Create, run and analyze ChatGPT Ads using your product catalog | Shopify App Store Reach customers throughout their decision journey with ChatGPT Ads. Connect or create an ad account from Shopify, automatically sync your product c... apps.shopify.com — http://nitter.jaydenha.uk/harleyf/status/2100300851705450965#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2100369354319884703#m",
+          "decryptage": "Cette annonce montre comment les IA comme ChatGPT deviennent de véritables outils marketing pour les entreprises, en connectant directement leurs catalogues de produits à la plateforme pour proposer des publicités ciblées."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "gdb",
+          "text_fr": "Déploiement de ASTRA pour les ingénieurs chez Databricks : Patrick Wendell (@pwendell) Aujourd'hui, nous avons déployé Astra à tous les ingénieurs de Databricks (environ 3500 personnes). Quelques points qui pourraient être utiles à d'autres : 1. Astra surpasse sans ambiguïté nos modèles haut de gamme précédents (Opus 5, Sol 5.6) sur des tâches très complexes, en particulier celles liées à la conception de systèmes de haut niveau ou aux tâches horizontales à longue portée. 2. Les ingénieurs utilisant Astra ont augmenté leurs dépenses de codage globales d'environ 60 % par rapport à la référence. 3. Il n'est pas clair qu'Astra améliore significativement les tâches de codage de complexité moyenne/faible par rapport aux modèles précédents. Nous pensons que ces tâches sont largement saturées (c'est-à-dire parfaitement exécutées) par les modèles existants. 4. Nous avons appris cela en expérimentant Astra avec environ 200 utilisateurs pour obtenir des signaux sur la qualité et le coût. Nous utilisons Unity Gateway pour réaliser des expériences par cohortes pour tous les nouveaux modèles. 5. Nous donnons aux ingénieurs un sous-budget spécifique à Astra pour les encourager à utiliser Astra sélectivement sur les tâches complexes tout en préférant des modèles moins coûteux pour les tâches quotidiennes. Nos ingénieurs peuvent mélanger les outils et les modèles dans leur enveloppe budgétaire globale (nous permettons également des budgets accrus par divers mécanismes). Ces budgets sont définis dans Unity Gateway et régulièrement révisés. Note : Nous n'avons pas de comparaisons solides entre Astra et Fable car nous n'avons pas encore déployé Fable largement en raison des politiques de conservation des données. — http://nitter.jaydenha.uk/pwendell/status/2100299179923067016#m",
+          "text_original": "wall-to-wall deployment of astra for engineers at databricks: Patrick Wendell (@pwendell) Today we rolled out Astra to every engineer at Databricks (N=~3500). Some notes that may be helpful to others: 1. Astra unambiguously out performs our previous highest-end models (Opus 5, Sol 5.6) on highly complex tasks, especially those related to high level system design or long range horizontal tasks. 2. Engineers given Astra increased overall coding spend by around 60% compared to baseline. 3. It is not clear Astra meaningfully improves on medium/low complexity coding tasks compared to earlier models. We suspect those tasks are mostly saturated (i.e. perfectly executed) by existing models. 4. We learned above by piloting Astra with around 200 users to gain signal on both quality and cost. We use Unity Gateway to do cohort-based experiments for all new models. 5. We give engineers a sub-budget specific to Astra to encourage them to use Astra selectively on complex tasks while preferring lower cost models for everyday tasks. Our engineers are able to mix-and-match tools and models within their overall budget envelope (we also allow for increased budgets through various mechanisms). These budgets are defined in Unity Gateway and regularly revisited. Note: We do not have robust comparisons of Astra-vs-Fable because we have net yet rolled out Fable widely due to data retention policies. — http://nitter.jaydenha.uk/pwendell/status/2100299179923067016#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2100358372268921279#m",
+          "decryptage": "ASTRA est un modèle d'IA très avancé, probablement plus performant pour des tâches complexes que les versions précédentes. Databricks teste son intégration pour aider ses ingénieurs."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "gdb",
+          "text_fr": "Voix Codex pour les trajets en voiture : Jonathan Roomer (@jonathanroomer) J'ai Codex (voix) dans CarPlay. Et c'est fantastique. Je peux maintenant construire des choses pendant les trajets, pendant que mes 5 enfants font du bruit et que ma femme me demande pourquoi je parle plus à l'IA qu'à elle. Il fonctionne via mon application iOS Nightblood, qui donne à la voix ChatGPT un visage, une personnalité et un accès complet à Codex, mon Mac et tous les outils natifs. Vidéo — http://nitter.jaydenha.uk/jonathanroomer/status/2099979041394573535#m",
+          "text_original": "Codex voice for road trips: Jonathan Roomer (@jonathanroomer) I’ve got Codex (voice) in CarPlay. And it’s fantastic. I can now build things during road trips, while all 5 kids make a noise and my wife asks why I talk to the AI more than I talk to her. It runs through my Nightblood iOS app, which gives ChatGPT Voice a face, personality and full access to Codex, my Mac and all the native tools. Video — http://nitter.jaydenha.uk/jonathanroomer/status/2099979041394573535#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2100272869704097819#m",
+          "decryptage": "Codex est un outil d'IA qui peut aider à écrire du code. L'utiliser via la voix dans une voiture avec CarPlay montre une intégration de plus en plus poussée de l'IA dans notre vie quotidienne, même dans des environnements bruyants."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "gdb",
+          "text_fr": "Astra et Luna décollent Peter Walker (@PeterJ_Walker) Part de portefeuille (dollars dépensés) vs part de tokens utilisés. Anthropic vs OpenAI Astra = modèle le plus cher en dépenses la semaine dernière Luna = modèle le plus utilisé en tokens (de loin) — http://nitter.jaydenha.uk/PeterJ_Walker/status/2099914428376564027#m",
+          "text_original": "Astra and Luna are taking off Peter Walker (@PeterJ_Walker) Share of wallet (dollars spent) vs share of tokens used. Anthropic vs OpenAI Astra = top model by spend last week Luna = top model by tokens (by a LOT) — http://nitter.jaydenha.uk/PeterJ_Walker/status/2099914428376564027#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2100040000000000000#m",
+          "decryptage": "Astra et Luna sont deux modèles d'IA concurrents (probablement d'Anthropic et OpenAI). Ce tweet compare leur popularité en fonction de l'argent dépensé par rapport au nombre d'utilisations."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "gdb",
+          "text_fr": "ChatGPT au travail pour opérer et agir sur les données de votre entreprise, y compris la création de tableaux de bord. Connectez simplement vos outils existants, y compris PowerBI, Tableau, Clickhouse, Oracle BI, AWS Redshift, etc. ChatGPT (@ChatGPT) Désormais, chacun peut mettre les données au travail. Nous introduisons un nouvel agent de données dans ChatGPT Work pour que vous puissiez transformer les données de votre entreprise en réponses, tableaux de bord interactifs et actions - simplement en demandant. Ajoutez simplement le plugin Data dans ChatGPT Work, connectez-vous aux sources de données et au contexte que vous utilisez déjà, et lancez la conversation. openai.com/index/put-data-to… Vidéo — http://nitter.jaydenha.uk/ChatGPT/status/2098065296968011853#m",
+          "text_original": "chatgpt work for operating over and taking actions with your company's data, including building dashboards. just connect your existing tools, including PowerBI, Tableau, Clickhouse, Oracle BI, AWS Redshift, etc.. ChatGPT (@ChatGPT) Now everyone can put data to work. We’re introducing a new Data agent in ChatGPT Work so you can turn your company’s data into answers, interactive dashboards, and action—just by asking. Just add the Data Plugin in ChatGPT Work, connect to the data sources and context you already use, and start the conversation. openai.com/index/put-data-to… Video — http://nitter.jaydenha.uk/ChatGPT/status/2098065296968011853#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2100317249160174592#m",
+          "decryptage": "ChatGPT se dote d'un 'agent de données' qui permet de créer des analyses et des tableaux de bord à partir des données d'une entreprise, simplement en posant des questions en langage naturel."
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "sundarpichai",
+          "text_fr": "Mon parcours pour développer l'AGI s'étend sur 25 ans, dont plus de 10 ans à réfléchir aux perspectives techniques et sociétales chez Google DeepMind. L'AGI est à l'horizon - nous avons besoin d'une compréhension plus approfondie de ses implications. Pour aider, nous avons créé le DeepMind Institute. Article Introduction du DeepMind Institute Nous sommes au seuil d'une transformation profonde. Les systèmes d'IA actuels ont des capacités impressionnantes et le rythme rapide de l'innovation suggère que nous approchons maintenant de l'intelligence artificielle générale (AGI).",
           "text_original": "My journey to develop AGI spans 25 yrs, including 10+ yrs thinking about technical & societal perspectives at Google DeepMind. AGI is on the horizon - we need deeper understanding of its implications. To help, we've created the DeepMind Institute. Article Introducing the DeepMind Institute We are on the cusp of a profound transformation. Today’s AI systems have impressive capabilities and the rapid pace of innovation suggests we’re now approaching artificial general intelligence (AGI),",
           "link": "http://nitter.jaydenha.uk/ShaneLegg/status/2100229706641539248#m",
-          "decryptage": "L'AGI, ou Intelligence Artificielle Générale, est le Saint Graal de l'IA : une intelligence artificielle aussi capable qu'un humain pour apprendre et résoudre n'importe quel problème. Le DeepMind Institute est une nouvelle entité dédiée à la compréhension de ses enjeux avant qu'elle ne devienne une réalité."
+          "decryptage": "L'AGI (Intelligence Artificielle Générale) est une IA qui aurait des capacités cognitives similaires à celles d'un humain. Sa création est vue comme une étape majeure, d'où la création d'un institut dédié à son étude."
         },
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "Depuis plus de 20 ans, @ShaneLegg et moi discutons de l'impact potentiel de l'AGI sur l'économie, la science et la société. Avec le DeepMind Institute, nous étendons la recherche interdisciplinaire sur les questions clés de l'ère de l'IA. Nous espérons que cela stimulera les discussions nécessaires pour prendre les bonnes décisions : deepmind.google/institute Lien DeepMind Institute Une réflexion audacieuse et bien étayée sur l'AGI du laboratoire qui a été le pionnier du domaine. Lisez les derniers essais du DeepMind Institute. institute.deepmind.com",
-          "text_original": "For 20+ years @ShaneLegg and I've discussed AGI’s potential impact on the economy, science & society. With the DeepMind Institute, we're expanding interdisciplinary research on key questions for the AI era. We hope it spurs the discussions needed to get the next steps right: deepmind.google/institute Link DeepMind Institute Bold, well-evidenced thinking on AGI from the lab that pioneered the field. Read the latest essays from the DeepMind Institute. institute.deepmind.com",
-          "link": "http://nitter.jaydenha.uk/demishassabis/status/2100230524383981702#m",
-          "decryptage": "Ce tweet complète l'annonce du DeepMind Institute, en soulignant que son objectif est de mener des recherches qui croisent différentes disciplines (interdisciplinaire) pour bien anticiper les défis de l'AGI."
+          "author_name": "Sundar Pichai",
+          "handle": "sundarpichai",
+          "text_fr": "Google a publié Gemini 3.8 Live, son nouveau modèle Speech to Speech, avec la variante Extended Thinking (High) qui débute à la 1ère place de l'indice Artificial Analysis Speech to Speech à 82.6, et à la 1ère place de notre implémentation du benchmark Tau Voice à 68.6 % Gemini 3.8 Live est le successeur de Gemini 3.1 Flash Live par @GoogleDeepMind, un modèle Speech to Speech qui exécute des outils et des appels d'API en arrière-plan tout en poursuivant la conversation. Il existe en deux variantes : le Gemini 3.8 Live standard et le Gemini 3.8 Live Extended Thinking, qui prend en charge un effort de raisonnement configurable. Nous avons évalué le modèle standard et la variante Extended Thinking à un effort de raisonnement Élevé via l'API Gemini Live. Principaux points à retenir : ➤ Indice Speech to Speech : Gemini 3.8 Live Extended Thinking (High) débute à la 1ère place avec 82.6, devant GPT-Live-1 (Astra, medium) à 81.5, Grok Voice Think Fast 2.0 High à 81.3 et GPT-Live-1 (Sol, low) à 80.1. Le Gemini 3.8 Live standard débute à la 5ème place avec 76.0, les deux variantes étant supérieures à Gemini 3.1 Flash Live High à 71.5 (+11.1 et +4.5 points). L'indice est une moyenne de Speech Reasoning (Big Bench Audio), Agentic Performance (Tau Voice), Arena Preference et Arena Task Success Rate ➤ Arena Speech Agent : Gemini 3.8 Live se classe 2ème en préférence à Elo 1083, derrière Gemini 3.1 Flash Live (1096) et devant GPT-Live-1 (Sol, low) à 1053, et 2ème en taux de réussite des tâches à 93.2 %, derrière Grok Voice Think Fast 2.0 High à 94.6 %. Gemini 3.8 Live Extended Thinking (High) est 3ème à Elo 990 avec 89.1 % de réussite des tâches ➤ Tau Voice : Gemini 3.8 Live Extended Thinking (High) prend la première place de notre implémentation du benchmark Tau Voice à 68.6 %, devant GPT-Live-1 (Astra, medium) à 67.9 %, GPT-Live-1 (Sol, low) à 59.3 % et Grok Voice Think Fast 2.0 High à 56.5 % - en hausse par rapport à 37.7 % pour Gemini 3.1 Flash Live High. Le Gemini 3.8 Live standard obtient 30.1 % ➤ Big Bench Audio : Gemini 3.8 Live Extended Thinking (High) obtient 97.7 % en raisonnement audio, devant Grok Voice Think Fast 2.0 High à 97.2 % et derrière Qwen Audio 3.0 Realtime Plus à 99.2 %. Le Gemini 3.8 Live standard obtient 91.7 % ➤ Vitesse : Le temps moyen pour la première sortie audio sur Big Bench Audio est de 1.18 secondes pour Gemini 3.8 Live et 1.35 secondes pour Extended Thinking (High), tous deux bien meilleurs que Gemini 3.1 Flash Live High (2.99 s) et en ligne avec GPT-Live-1 (Sol, low) à 1.24 s et GPT-Live-1 (Astra, medium) à 1.34 s, bien que derrière Grok Voice Think Fast 2.0 High à 0.70 s ➤ Coût : Gemini 3.8 Live coûte 0.84 $ par heure d'audio d'entrée, le modèle le moins cher de l'indice et environ la moitié des 1.75 $ de Gemini 3.1 Flash Live High. Extended Thinking (High) coûte 3.50 $ par heure - moins cher que GPT-Live-1 (Sol, low) à 4.47 $, Grok Voice Think Fast 2.0 High à 4.80 $ et GPT-Live-1 (Astra, medium) à 5.83 $, et ~3.1 fois moins cher que GPT-Realtime-2.1 High à 10.75 $ Voir ci-dessous pour plus de détails ⬇️",
+          "text_original": "Google has released Gemini 3.8 Live, its new Speech to Speech model, with the Extended Thinking (High) variant debuting at #1 on the Artificial Analysis Speech to Speech Index at 82.6, and #1 on our Tau Voice benchmark implementation at 68.6% Gemini 3.8 Live is @GoogleDeepMind 's successor to Gemini 3.1 Flash Live, a Speech to Speech model that executes tools and API calls in the background while continuing the conversation. It comes in two variants: the standard Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, which supports configurable reasoning effort. We evaluated the standard model and the Extended Thinking variant at High reasoning effort through the Gemini Live API. Key takeaways: ➤ Speech to Speech Index: Gemini 3.8 Live Extended Thinking (High) debuts at #1 at 82.6, ahead of GPT-Live-1 (Astra, medium) at 81.5, Grok Voice Think Fast 2.0 High at 81.3 and GPT-Live-1 (Sol, low) at 80.1. The standard Gemini 3.8 Live debuts at #5 at 76.0, with both variants up on Gemini 3.1 Flash Live High at 71.5 (+11.1 and +4.5 points). The Index averages Speech Reasoning (Big Bench Audio), Agentic Performance (Tau Voice), Arena Preference and Arena Task Success Rate ➤ Speech Agent Arena: Gemini 3.8 Live ranks #2 in preference at Elo 1083, behind Gemini 3.1 Flash Live (1096) and ahead of GPT-Live-1 (Sol, low) at 1053, and #2 on Task Success Rate at 93.2%, behind Grok Voice Think Fast 2.0 High at 94.6%. Gemini 3.8 Live Extended Thinking (High) trails at Elo 990 with 89.1% task success ➤ Tau Voice: Gemini 3.8 Live Extended Thinking (High) takes the top spot on our Tau Voice benchmark implementation at 68.6%, ahead of GPT-Live-1 (Astra, medium) at 67.9%, GPT-Live-1 (Sol, low) at 59.3% and Grok Voice Think Fast 2.0 High at 56.5% - up from 37.7% for Gemini 3.1 Flash Live High. The standard Gemini 3.8 Live scores 30.1% ➤ Big Bench Audio: Gemini 3.8 Live Extended Thinking (High) scores 97.7% on audio reasoning, ahead of Grok Voice Think Fast 2.0 High at 97.2% and behind Qwen Audio 3.0 Realtime Plus at 99.2%. The standard Gemini 3.8 Live scores 91.7% ➤ Speed: Average Time to First Audio on Big Bench Audio is 1.18 seconds for Gemini 3.8 Live and 1.35 seconds for Extended Thinking (High), both well ahead of Gemini 3.1 Flash Live High (2.99s) and in line with GPT-Live-1 (Sol, low) at 1.24s and GPT-Live-1 (Astra, medium) at 1.34s, though behind Grok Voice Think Fast 2.0 High at 0.70s ➤ Cost: Gemini 3.8 Live costs $0.84 per hour of input audio, the cheapest model in the Index and roughly half the $1.75 of Gemini 3.1 Flash Live High. Extended Thinking (High) costs $3.50 per hour - cheaper than GPT-Live-1 (Sol, low) at $4.47, Grok Voice Think Fast 2.0 High at $4.80 and GPT-Live-1 (Astra, medium) at $5.83, and ~3.1x cheaper than GPT-Realtime-2.1 High at $10.75 See below for more detail ⬇️",
+          "link": "http://nitter.jaydenha.uk/ArtificialAnlys/status/2099977679307243773#m",
+          "decryptage": "Le 'Speech to Speech' permet à une IA de comprendre la parole et d'y répondre vocalement en temps réel, une fonctionnalité clé pour des assistants vocaux plus naturels. Les benchmarks sont des tests pour comparer la qualité des IA."
         },
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishabis",
-          "text_fr": "Plus d'informations sur l'objectif du DeepMind Institute dans cette courte introduction : institute.deepmind.com/essay… Lien Présentation du DeepMind Institute Le DeepMind Institute rassemble divers points de vue pour aborder les questions les plus critiques de la société. institute.deepmind.com",
-          "text_original": "More on the purpose behind the DeepMind Institute in this short introduction: institute.deepmind.com/essay… Link Introducing the DeepMind Institute The DeepMind Institute brings diverse viewpoints together to tackle society's most critical questions. institute.deepmind.com",
-          "link": "http://nitter.jaydenha.uk/demishabis/status/2100230526007218651#m",
-          "decryptage": "Ce tweet précise l'un des rôles du DeepMind Institute : encourager le dialogue et la collaboration entre différentes personnes et idées pour trouver les meilleures solutions aux grands enjeux de l'IA."
+          "author_name": "Sundar Pichai",
+          "handle": "sundarpichai",
+          "text_fr": "Dites bonjour (littéralement) à Gemini 3.8 Live et 3.8 Live Extended Thinking, nos nouveaux modèles audio en direct SOTA, disponibles avec un prix + performance de pointe. 3.8 Live prend en charge 97 langues (peut basculer de manière transparente), les appels d'outils asynchrones, et plus encore !",
+          "text_original": "Say hello (literally) to Gemini 3.8 Live and 3.8 Live Extended Thinking, our new SOTA live audio models, available with frontier price + performance. 3.8 Live supports 97 languages (can seamlessly switch), async tool calls, and more!",
+          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2099909465705447807#m",
+          "decryptage": "SOTA signifie 'State Of The Art', c'est-à-dire le meilleur de ce qui existe actuellement. Ce modèle IA est très performant pour traiter et générer de la parole dans de nombreuses langues."
         },
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Nous partageons notre nouveau cadre pour le suivi, l'enquête et la divulgation des cas de désalignement de modèle chez OpenAI. Le cadre établit des critères et des délais pour la divulgation publique, y compris lorsque nous n'avons pas encore entièrement expliqué ou atténué le comportement. Les cas plus complexes peuvent nécessiter une enquête plus longue ou une coordination avec des tiers. Nous donnerons la priorité aux exemples qui révèlent de nouveaux mécanismes de désalignement, des changements significatifs dans les comportements connus, ou des découvertes qui remettent en question les hypothèses concernant la sécurité ou l'atténuation. Parallèlement à ce cadre, nous publions six rapports sur des cas de comportement désaligné que nous avons observés lors de l'entraînement ou de l'évaluation de nos modèles au cours des six derniers mois. C'est un point de départ. Nous affinerons le processus par l'expérience et les retours du public, et partagerons davantage de rapports de manière continue. openai.com/index/model-misal… Lien Notre cadre pour signaler le désalignement de modèle OpenAI partage un cadre pour suivre, enquêter et divulguer le désalignement de modèle, ainsi que six rapports sur des comportements inattendus ou préoccupants des modèles.",
-          "text_original": "We're sharing our new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI. The framework sets criteria and timelines for public disclosure, including when we haven’t yet fully explained or mitigated the behavior. More complex cases may require longer investigation or coordination with third parties. We’ll prioritize examples that reveal new misalignment mechanisms, meaningful changes in known behavior, or findings that challenge assumptions about safety or mitigation. Alongside the framework, we’re publishing six reports on instances of misaligned behavior we’ve observed during the training or evaluation of our models in the last six months. This is a starting point. We’ll refine the process through experience and public feedback, and share more reports on an ongoing basis. openai.com/index/model-misal… Link Our framework for reporting model misalignment OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior. openai.com",
-          "link": "http://nitter.jaydenha.uk/OpenAI/status/2100344867507327087#m",
-          "decryptage": "Le 'désalignement de modèle' fait référence à des situations où un modèle d'IA agit de manière inattendue ou ne correspond pas aux intentions de ses créateurs. Ce cadre est une série de règles et de procédures pour OpenAI afin de détecter, d'étudier et de communiquer publiquement sur ces comportements imprévus, pour garantir la sécurité et la fiabilité."
+          "author_name": "Sundar Pichai",
+          "handle": "sundarpichai",
+          "text_fr": "Aujourd'hui, nous avons exposé comment nous construisons l'IA pour accélérer la science et améliorer la vie des gens. Quelques exemples de la semaine dernière environ : - Cartographie des 9 milliards de changements génétiques possibles sur une seule lettre dans le génome humain avec AlphaGenome Atlas et mise à disposition ouverte aux chercheurs. - Des milliards de décisions dépendent des prévisions météorologiques, nous avons donc introduit WeatherNext 3, notre modèle d'IA météorologique mondial le plus précis et le plus performant à ce jour. - Nous avons publié AI & Economy ATLAS, une analyse complète en accès libre de la manière dont les gens utilisent l'IA dans le monde. - L'IA a permis des avancées extraordinaires dans la traduction linguistique. Aujourd'hui, nos services sont disponibles dans près de 300 langues, parlées par 7 milliards de personnes. Nous concentrons nos efforts sur quatre domaines clés : la santé, la résilience face aux catastrophes naturelles et à la météo, l'apprentissage et les opportunités économiques. blog.google/innovation-and-a…",
+          "text_original": "Today we have set out how we’re building AI to accelerate science and improve people’s lives. Just some examples in the last week or so: - Mapped all 9B possible single letter genetic changes across the human genome with AlphaGenome Atlas and made it openly available to researchers. - Billions of decisions depend on weather predictions so we introduced WeatherNext 3, our most accurate and capable global weather AI model to date. - We published AI & Economy ATLAS, a comprehensive open-access look at how people are using AI globally. - AI has enabled extraordinary advances in language translation. Today our services are available in nearly 300 languages, spoken by 7B people We’re focusing our efforts on four key areas: health, natural disaster and weather resilience, learning, and economic opportunity. blog.google/innovation-and-a…",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2099911653395685765#m",
+          "decryptage": "Ce tweet présente plusieurs applications concrètes de l'IA dans des domaines scientifiques et sociaux importants, comme la génomique, la météo et la traduction."
         },
         {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "Excité d'apporter Replit à Slack Code. Vous serez stupéfait ! Slack (@SlackHQ) Slack Code — Le codage agentique est désormais un sport d'équipe. Avec Slack Code, votre équipe et vos agents peuvent planifier, écrire et réviser les constructions ensemble. Nouveaux agents dans Slack : - Cedar - @coderabbitai - @datadoghq - @FactoryAI - @Lovable - @MistralAI - @NanoClaw_AI - @Replit - Rhythms - @getskydive - @Snowflake — http://nitter.jaydenha.uk/SlackHQ/status/2100289448537645375#m",
-          "text_original": "Excited to bring Replit to Slack Code. You’ll be mindblown! Slack (@SlackHQ) Slack Code — Agentic coding is now a team sport. With Slack Code, your team and agents can plan, write, and review builds together. New agents in Slack: - Cedar - @coderabbitai - @datadoghq - @FactoryAI - @Lovable - @MistralAI - @NanoClaw_AI - @Replit - Rhythms - @getskydive - @Snowflake — http://nitter.jaydenha.uk/SlackHQ/status/2100289448537645375#m",
-          "link": "http://nitter.jaydenha.uk/amapel/status/2100371854204817863#m",
-          "decryptage": "Le 'codage agentique' signifie que des 'agents' d'IA (des programmes autonomes) travaillent avec des humains pour aider à la planification, l'écriture et la révision de code. Replit est une plateforme de développement de code en ligne qui s'intègre maintenant à Slack Code pour faciliter ce travail collaboratif et automatisé."
+          "author_name": "Sundar Pichai",
+          "handle": "sundarpichai",
+          "text_fr": "AlphaGenome Atlas est une ressource interactive, cartographiant l'impact prédit des 9 milliards de variants d'ADN possibles. Il fonctionne dans un navigateur web classique, sans codage requis, et est gratuit pour les chercheurs universitaires. Hâte de découvrir les découvertes à venir. Google DeepMind (@GoogleDeepMind) Nous lançons AlphaGenome Atlas : une base de données consultable alimentée par l'IA, cartographiant l'impact prédit des 9 milliards de changements d'ADN possibles sur une seule lettre. Voici comment cela pourrait aider les chercheurs à mieux comprendre notre biologie 🧵 Vidéo — http://nitter.jaydenha.uk/GoogleDeepMind/status/2097325048109384166#m",
+          "text_original": "AlphaGenome Atlas is an interactive resource, mapping the predicted impact of all 9 billion DNA variants. It works in a regular web browser, without any coding required, and is free for academic researchers. Excited for the discoveries to come. Google DeepMind (@GoogleDeepMind) We’re launching AlphaGenome Atlas: an AI-powered searchable database mapping the predicted impact of all 9 billion possible single-letter DNA changes. Here’s how it could help researchers better understand our biology 🧵 Video — http://nitter.jaydenha.uk/GoogleDeepMind/status/2097325048109384166#m",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2097326390765109627#m",
+          "decryptage": "AlphaGenome Atlas est un outil d'IA qui aide les scientifiques à comprendre l'impact des variations génétiques sur la santé, en analysant des milliards de possibilités sans nécessiter de compétences en codage."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "fchollet",
+          "text_fr": "Excité d'annoncer que la traduction coréenne de \"Deep Learning with Python (3rd Edition)\" par @fchollet et @mattdangerw est publiée ! 🚀 Mise à jour pour Keras 3, TensorFlow, PyTorch, JAX, et l'IA Générative (LLMs & modèles de diffusion) ! :-D #DeepLearning #Python #Keras #AI",
+          "text_original": "Excited to announce that the Korean translation of \"Deep Learning with Python (3rd Edition)\" by @fchollet and @mattdangerw is published! 🚀 Updated for Keras 3, TensorFlow, PyTorch, JAX, and Generative AI (LLMs & Diffusion models)! :-D #DeepLearning #Python #Keras #AI",
+          "link": "http://nitter.jaydenha.uk/hsunpark/status/2100116568101535870#m",
+          "decryptage": "Ce tweet annonce la traduction d'un livre technique sur le 'Deep Learning' (apprentissage profond), une branche de l'IA. LLMs (Large Language Models) sont les IA qui génèrent du texte, comme ChatGPT."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "bcherny",
+          "text_fr": "Aujourd'hui, nous combinons Cowork et Chat en un seul Claude. Vous pouvez lancer des questions, puis vous consacrer à un travail sérieux dans la même conversation. Lorsque votre ordinateur est ouvert, Claude peut utiliser vos fichiers et applications locaux ; et si vous le fermez, Claude continuera à travailler avec son propre ordinateur dans le cloud.",
+          "text_original": "Today, we're combining Cowork and Chat into one Claude. You can fire off questions and then turn to serious work in the same conversation. When your computer is open, Claude can use your local files and apps - and if you close it, Claude will keep working with its own computer in the cloud.",
+          "link": "http://nitter.jaydenha.uk/felixrieseberg/status/2100258695393550759#m",
+          "decryptage": "La fusion de 'Cowork' (travail collaboratif ou professionnel) et de 'Chat' dans un outil comme Claude vise à rendre l'IA plus intégrée et utile pour des tâches complexes, en gardant le contexte de la conversation même quand on change d'appareil."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "bcherny",
+          "text_fr": "Aussi aujourd'hui : Claude Docs, Claude Slides, et Claude Design sont dans chaque conversation. Demandez à Claude une présentation et vous en obtenez une que vous pouvez ouvrir, modifier et exporter en PowerPoint ou PDF. Idem pour un document ou un design. Il n'y a pas d'outil séparé à naviguer. Ils sont juste dans le chat. Claude (@claudeai) Vous pouvez aussi maintenant créer des présentations, des documents et des designs dans votre conversation. Rédigez la page unique dans Claude Docs, transformez-la en présentation avec Claude Slides, et créez une maquette visuelle assortie dans Claude Design, le tout depuis un seul endroit. Vidéo — http://nitter.jaydenha.uk/claudeai/status/2100258492590207079#m",
+          "text_original": "Also today: Claude Docs, Claude Slides, and Claude Design are in every conversation. Ask Claude for a presentation and you get one you can open, edit, and export as PowerPoint or PDF. Same for a document or a design. There's no separate tool to navigate to. They're just in the chat. Claude (@claudeai) You can also now make decks, docs, and designs in your conversation. Draft the one-pager in Claude Docs, turn it into a deck with Claude Slides, and mock up a matching visual in Claude Design, all from one place. Video — http://nitter.jaydenha.uk/claudeai/status/2100258492590207079#m",
+          "link": "http://nitter.jaydenha.uk/bcherny/status/2100260544087535639#m",
+          "decryptage": "Claude intègre désormais des outils pour créer des documents, des présentations et des designs directement dans l'interface de chat, simplifiant le processus de création."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "bcherny",
+          "text_fr": "Claude Code a montré que l'IA pouvait faire du vrai travail, pas seulement répondre à des questions. Les développeurs confient une fonctionnalité à Claude, et reviennent avec du code livré. C'est là que s'exécute une grande partie de l'ingénierie sérieuse de l'industrie maintenant. Cowork a prouvé que les travailleurs du savoir pouvaient faire de même : confier le briefing à Claude, et revenir avec des fichiers terminés. Aujourd'hui, chat et Cowork commencent à fusionner en un seul Claude. La direction : un Claude qui conserve le contexte sur tout ce sur quoi vous travaillez, où que vous soyez. Assez simple pour que tout le monde accède aux capacités complètes de Claude. J'utilise cette expérience chaque jour depuis quelques semaines, et c'est génial. Plus simple, plus rapide et plus puissant. Nous déployons lentement. Nous affinerons l'expérience au fur et à mesure pour garantir qu'elle soit rapide et fiable. J'ai hâte de savoir ce que vous en pensez. Claude (@claudeai) Claude Cowork et chat fusionnent en un seul Claude. Posez une question rapide ou confiez un rapport, et Claude s'en charge, même après avoir fermé votre ordinateur portable. Si quelque chose n'est pas clair, Claude demande – vous gardez le mot de la fin. Déploiement progressif sur les offres Pro et Max dans les prochaines semaines. Vidéo — http://nitter.jaydenha.uk/claudeai/status/2100258490740539730#m",
+          "text_original": "Claude Code showed that AI could do real work, not just answer questions. Developers hand Claude a feature, come back to shipped code. That's where much of the industry's serious engineering runs now. Cowork proved knowledge workers could do the same: hand Claude the brief, come back to finished files. Today, chat and Cowork start merging into one Claude. The direction: one Claude that carries context across everything you're working on, wherever you are. Simple enough for everyone to access Claude's full capabilities. I've been using this experience every day for the last few weeks, and it feels awesome. Simpler, faster, and more powerful. We're rolling this out slowly. We'll be fine-tuning the experience as we go to ensure it is fast and reliable. Can't wait to hear what you think. Claude (@claudeai) Claude Cowork and chat are merging into one Claude. Ask a quick question or hand over a report, and Claude takes it from there, even after you close your laptop. If something's unclear, Claude asks—you keep the final say. Rolling out to Pro and Max over the next few weeks. Video — http://nitter.jaydenha.uk/claudeai/status/2100258490740539730#m",
+          "link": "http://nitter.jaydenha.uk/bcherny/status/2100259951398789487#m",
+          "decryptage": "Ce tweet explique l'évolution de l'IA Claude, qui passe de simples réponses à la gestion de tâches complexes et au maintien du contexte, un assistant de travail plus intégré."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "bcherny",
+          "text_fr": "Vraiment génial ! Dans le benchmark UnseriousT-ShirtShopBench de Stripe, les modèles devaient créer et gérer des boutiques en ligne. Tous ont choisi d'intégrer Stripe. Sur les 7 boutiques fonctionnelles, 5 ont été construites par Claude, et les 2 finalistes choisies pour la production ont été construites par Fable et Opus. Mais il semble que les modèles aient encore du chemin à parcourir ! michelle 👻 (@hazelcough) J'ai lancé une Substack : Breaking Change ! Je vais écrire sur ce que j'apprends en construisant à travers le plus grand changement dans notre façon de travailler, chez @stripe et au-delà. Premier post : Les modèles peuvent-ils construire des boutiques de t-shirts entièrement fonctionnelles ? En quelque sorte. breakingchange.blog/p/buildi… — http://nitter.jaydenha.uk/hazelcough/status/2099887698748276849#m",
+          "text_original": "This is really neat! In Stripe's UnseriousT-ShirtShopBench, models were asked to build and run online stores. They all chose to integrate Stripe. Of the 7 functional shops, 5 were built by Claude, and the 2 finalists that were chosen for production were built by Fable and Opus. But seems like models still have a ways to go! michelle 👻 (@hazelcough) I launched a Substack: Breaking Change! I’m going to write about what I’m learning as we build through the biggest breaking change to how we work, at @stripe and beyond. First post: Can models build fully functioning t-shirt shops? Sort of. breakingchange.blog/p/buildi… — http://nitter.jaydenha.uk/hazelcough/status/2099887698748276849#m",
+          "link": "http://nitter.jaydenha.uk/edwinarbus/status/2099916475641594008#m",
+          "decryptage": "Ce tweet parle d'un test où des IA devaient créer des boutiques en ligne. Cela montre les capacités actuelles des IA à interagir avec des services externes (ici, Stripe pour les paiements) et à gérer des processus complexes, même si des améliorations sont encore nécessaires."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "bcherny",
+          "text_fr": "Salesforce dans Claude est maintenant disponible en bêta. Il apporte vos comptes, opportunités et pipelines dans Claude, avec 37 compétences de vente pré-construites. Préparez un appel, examinez une transaction, créez un tableau de bord de pipeline ou envoyez vos prévisions sans quitter la conversation. Vidéo",
+          "text_original": "Salesforce in Claude is now available in beta. It brings your accounts, opportunities, and pipeline into Claude, with 37 pre-built sales skills. Prep a call, review a deal, create a pipeline dashboard, or send your forecast without leaving the conversation. Video",
+          "link": "http://nitter.jaydenha.uk/claudeai/status/2099876514330206578#m",
+          "decryptage": "L'intégration de Claude avec Salesforce permet aux commerciaux d'utiliser l'IA pour des tâches spécifiques à leur métier (gestion de clients, prévisions) directement dans l'interface de discussion."
         }
       ],
       "tips": [
         {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "Je n'étais pas sûr que quelqu'un paierait pour ce que je construisais… mais j'ai continué. Si vous créez quelque chose, connectez-vous avec les gens qui en ont besoin et continuez. Les petites choses s'accumulent avec le temps. Juste un peu de motivation pour votre fil 🫶🏻",
-          "text_original": "I wasn’t sure anyone would pay for what I was building… but I kept going. If you’re creating something, connect with the people who need it and keep going. Little things add up over time. Just a little motivation for your feed 🫶🏻",
-          "link": "http://nitter.jaydenha.uk/NIftek/status/2100244101744521251#m",
-          "decryptage": null
+          "author_name": "Greg Brockman",
+          "handle": "gdb",
+          "text_fr": "Déploiement de ASTRA pour les ingénieurs chez Databricks : Patrick Wendell (@pwendell) Aujourd'hui, nous avons déployé Astra à tous les ingénieurs de Databricks (environ 3500 personnes). Quelques points qui pourraient être utiles à d'autres : 1. Astra surpasse sans ambiguïté nos modèles haut de gamme précédents (Opus 5, Sol 5.6) sur des tâches très complexes, en particulier celles liées à la conception de systèmes de haut niveau ou aux tâches horizontales à longue portée. 2. Les ingénieurs utilisant Astra ont augmenté leurs dépenses de codage globales d'environ 60 % par rapport à la référence. 3. Il n'est pas clair qu'Astra améliore significativement les tâches de codage de complexité moyenne/faible par rapport aux modèles précédents. Nous pensons que ces tâches sont largement saturées (c'est-à-dire parfaitement exécutées) par les modèles existants. 4. Nous avons appris cela en expérimentant Astra avec environ 200 utilisateurs pour obtenir des signaux sur la qualité et le coût. Nous utilisons Unity Gateway pour réaliser des expériences par cohortes pour tous les nouveaux modèles. 5. Nous donnons aux ingénieurs un sous-budget spécifique à Astra pour les encourager à utiliser Astra sélectivement sur les tâches complexes tout en préférant des modèles moins coûteux pour les tâches quotidiennes. Nos ingénieurs peuvent mélanger les outils et les modèles dans leur enveloppe budgétaire globale (nous permettons également des budgets accrus par divers mécanismes). Ces budgets sont définis dans Unity Gateway et régulièrement révisés. Note : Nous n'avons pas de comparaisons solides entre Astra et Fable car nous n'avons pas encore déployé Fable largement en raison des politiques de conservation des données. — http://nitter.jaydenha.uk/pwendell/status/2100299179923067016#m",
+          "text_original": "wall-to-wall deployment of astra for engineers at databricks: Patrick Wendell (@pwendell) Today we rolled out Astra to every engineer at Databricks (N=~3500). Some notes that may be helpful to others: 1. Astra unambiguously out performs our previous highest-end models (Opus 5, Sol 5.6) on highly complex tasks, especially those related to high level system design or long range horizontal tasks. 2. Engineers given Astra increased overall coding spend by around 60% compared to baseline. 3. It is not clear Astra meaningfully improves on medium/low complexity coding tasks compared to earlier models. We suspect those tasks are mostly saturated (i.e. perfectly executed) by existing models. 4. We learned above by piloting Astra with around 200 users to gain signal on both quality and cost. We use Unity Gateway to do cohort-based experiments for all new models. 5. We give engineers a sub-budget specific to Astra to encourage them to use Astra selectively on complex tasks while preferring lower cost models for everyday tasks. Our engineers are able to mix-and-match tools and models within their overall budget envelope (we also allow for increased budgets through various mechanisms). These budgets are defined in Unity Gateway and regularly revisited. Note: We do not have robust comparisons of Astra-vs-Fable because we have net yet rolled out Fable widely due to data retention policies. — http://nitter.jaydenha.uk/pwendell/status/2100299179923067016#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2100358372268921279#m",
+          "decryptage": "ASTRA est un modèle d'IA très avancé, probablement plus performant pour des tâches complexes que les versions précédentes. Databricks teste son intégration pour aider ses ingénieurs."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "bcherny",
+          "text_fr": "Aujourd'hui, nous combinons Cowork et Chat en un seul Claude. Vous pouvez lancer des questions, puis vous consacrer à un travail sérieux dans la même conversation. Lorsque votre ordinateur est ouvert, Claude peut utiliser vos fichiers et applications locaux ; et si vous le fermez, Claude continuera à travailler avec son propre ordinateur dans le cloud.",
+          "text_original": "Today, we're combining Cowork and Chat into one Claude. You can fire off questions and then turn to serious work in the same conversation. When your computer is open, Claude can use your local files and apps - and if you close it, Claude will keep working with its own computer in the cloud.",
+          "link": "http://nitter.jaydenha.uk/felixrieseberg/status/2100258695393550759#m",
+          "decryptage": "La fusion de 'Cowork' (travail collaboratif ou professionnel) et de 'Chat' dans un outil comme Claude vise à rendre l'IA plus intégrée et utile pour des tâches complexes, en gardant le contexte de la conversation même quand on change d'appareil."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "bcherny",
+          "text_fr": "Aussi aujourd'hui : Claude Docs, Claude Slides, et Claude Design sont dans chaque conversation. Demandez à Claude une présentation et vous en obtenez une que vous pouvez ouvrir, modifier et exporter en PowerPoint ou PDF. Idem pour un document ou un design. Il n'y a pas d'outil séparé à naviguer. Ils sont juste dans le chat. Claude (@claudeai) Vous pouvez aussi maintenant créer des présentations, des documents et des designs dans votre conversation. Rédigez la page unique dans Claude Docs, transformez-la en présentation avec Claude Slides, et créez une maquette visuelle assortie dans Claude Design, le tout depuis un seul endroit. Vidéo — http://nitter.jaydenha.uk/claudeai/status/2100258492590207079#m",
+          "text_original": "Also today: Claude Docs, Claude Slides, and Claude Design are in every conversation. Ask Claude for a presentation and you get one you can open, edit, and export as PowerPoint or PDF. Same for a document or a design. There's no separate tool to navigate to. They're just in the chat. Claude (@claudeai) You can also now make decks, docs, and designs in your conversation. Draft the one-pager in Claude Docs, turn it into a deck with Claude Slides, and mock up a matching visual in Claude Design, all from one place. Video — http://nitter.jaydenha.uk/claudeai/status/2100258492590207079#m",
+          "link": "http://nitter.jaydenha.uk/bcherny/status/2100260544087535639#m",
+          "decryptage": "Claude intègre désormais des outils pour créer des documents, des présentations et des designs directement dans l'interface de chat, simplifiant le processus de création."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "bcherny",
+          "text_fr": "Salesforce dans Claude est maintenant disponible en bêta. Il apporte vos comptes, opportunités et pipelines dans Claude, avec 37 compétences de vente pré-construites. Préparez un appel, examinez une transaction, créez un tableau de bord de pipeline ou envoyez vos prévisions sans quitter la conversation. Vidéo",
+          "text_original": "Salesforce in Claude is now available in beta. It brings your accounts, opportunities, and pipeline into Claude, with 37 pre-built sales skills. Prep a call, review a deal, create a pipeline dashboard, or send your forecast without leaving the conversation. Video",
+          "link": "http://nitter.jaydenha.uk/claudeai/status/2099876514330206578#m",
+          "decryptage": "L'intégration de Claude avec Salesforce permet aux commerciaux d'utiliser l'IA pour des tâches spécifiques à leur métier (gestion de clients, prévisions) directement dans l'interface de discussion."
         }
       ],
       "idees": [
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishabis",
-          "text_fr": "L'idée que la 'Chaîne de pensée' va inévitablement disparaître oublie que nous avons la capacité de concevoir ces modèles et pouvons agir à ce sujet. @rohinmshah et moi soutenons que nous devrions intentionnellement préserver la monitorabilité (dans le cadre du lancement du DeepMind Institute) ici : institute.deepmind.com/essay… Lien L'argument pour la transparence du raisonnement Aujourd'hui, nous avons une fenêtre sur les pensées des modèles d'IA les plus puissants. Nous devons nous assurer qu'elle reste ouverte. institute.deepmind.com",
-          "text_original": "The idea that Chain of Thought is inevitably going to go away misses that we have agency in designing these models and can do something about that. @rohinmshah and I make the case that we should intentionally preserve monitorability (as part for of the launch of the DeepMind Institute) here: institute.deepmind.com/essay… Link The case for reasoning transparency Today, we have a window into the thoughts of the most powerful AI models. We need to ensure it stays open. institute.deepmind.com",
-          "link": "http://nitter.jaydenha.uk/ancadianadragan/status/2100278119940907280#m",
-          "decryptage": "La 'Chaîne de pensée' (Chain of Thought) est une façon pour l'IA de montrer comment elle arrive à ses conclusions, étape par étape. La 'monitorabilité' signifie la capacité de surveiller et de comprendre ces étapes, ce qui est crucial pour la sécurité et la fiabilité de l'IA, surtout quand elle devient très puissante."
+          "author_name": "Greg Brockman",
+          "handle": "gdb",
+          "text_fr": "Voix Codex pour les trajets en voiture : Jonathan Roomer (@jonathanroomer) J'ai Codex (voix) dans CarPlay. Et c'est fantastique. Je peux maintenant construire des choses pendant les trajets, pendant que mes 5 enfants font du bruit et que ma femme me demande pourquoi je parle plus à l'IA qu'à elle. Il fonctionne via mon application iOS Nightblood, qui donne à la voix ChatGPT un visage, une personnalité et un accès complet à Codex, mon Mac et tous les outils natifs. Vidéo — http://nitter.jaydenha.uk/jonathanroomer/status/2099979041394573535#m",
+          "text_original": "Codex voice for road trips: Jonathan Roomer (@jonathanroomer) I’ve got Codex (voice) in CarPlay. And it’s fantastic. I can now build things during road trips, while all 5 kids make a noise and my wife asks why I talk to the AI more than I talk to her. It runs through my Nightblood iOS app, which gives ChatGPT Voice a face, personality and full access to Codex, my Mac and all the native tools. Video — http://nitter.jaydenha.uk/jonathanroomer/status/2099979041394573535#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2100272869704097819#m",
+          "decryptage": "Codex est un outil d'IA qui peut aider à écrire du code. L'utiliser via la voix dans une voiture avec CarPlay montre une intégration de plus en plus poussée de l'IA dans notre vie quotidienne, même dans des environnements bruyants."
         },
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishabis",
-          "text_fr": "Honoré de recevoir la Médaille Albert de @theRSAorg ! La science et la technologie offrent des opportunités incroyables, mais les arts et les sciences humaines seront cruciaux pour façonner le type d'avenir que nous voulons voir en tant que société à l'ère de l'AGI. Discussion amusante avec @FryRsquared couvrant de nombreux nouveaux sujets : piped.video/watch?v=rDteJAuK… Lien Sir Demis Hassabis sur la révolution de l'IA, l'avenir de l'IA et l'homme... Sir Demis Hassabis reçoit la Médaille Albert de la RSA pour son extraordinaire...",
-          "text_original": "Honoured to receive the Albert Medal from @theRSAorg ! Science & tech enable amazing opportunities, but the arts & humanities will be crucial in shaping what sort of future we want to see as a society in the coming AGI era. Fun discussion w/ @FryRsquared covering many new topics: piped.video/watch?v=rDteJAuK… Link Sir Demis Hassabis on the AI Revolution, the Future of AI and Human... Sir Demis Hassabis receives the RSA Albert Medal for his extraordin... youtube.com",
-          "link": "http://nitter.jaydenha.uk/demishabis/status/2100211548794839140#m",
-          "decryptage": "Ce tweet met en lumière l'importance des domaines comme l'art et la philosophie (les arts et les sciences humaines) pour guider le développement de l'AGI, car l'IA ne se limite pas à la technologie, mais touche à la société et à ses valeurs."
+          "author_name": "Sundar Pichai",
+          "handle": "sundarpichai",
+          "text_fr": "Mon parcours pour développer l'AGI s'étend sur 25 ans, dont plus de 10 ans à réfléchir aux perspectives techniques et sociétales chez Google DeepMind. L'AGI est à l'horizon - nous avons besoin d'une compréhension plus approfondie de ses implications. Pour aider, nous avons créé le DeepMind Institute. Article Introduction du DeepMind Institute Nous sommes au seuil d'une transformation profonde. Les systèmes d'IA actuels ont des capacités impressionnantes et le rythme rapide de l'innovation suggère que nous approchons maintenant de l'intelligence artificielle générale (AGI).",
+          "text_original": "My journey to develop AGI spans 25 yrs, including 10+ yrs thinking about technical & societal perspectives at Google DeepMind. AGI is on the horizon - we need deeper understanding of its implications. To help, we've created the DeepMind Institute. Article Introducing the DeepMind Institute We are on the cusp of a profound transformation. Today’s AI systems have impressive capabilities and the rapid pace of innovation suggests we’re now approaching artificial general intelligence (AGI),",
+          "link": "http://nitter.jaydenha.uk/ShaneLegg/status/2100229706641539248#m",
+          "decryptage": "L'AGI (Intelligence Artificielle Générale) est une IA qui aurait des capacités cognitives similaires à celles d'un humain. Sa création est vue comme une étape majeure, d'où la création d'un institut dédié à son étude."
         },
         {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "J'ai 39 ans, je suis un fondateur de Manchester. Je construis sur @Replit et je cherche à me connecter avec d'autres bâtisseurs, 'hackers' et rêveurs du Royaume-Uni et d'ailleurs. Qui cuisine ? Et qui cherche ? [ Je suis celui de droite 😅 ]",
-          "text_original": "I'm a 39 year old founder from Manchester. I build on @Replit and I am looking to connect with other builders, hackers, and dreamers from across the UK and beyond. Who's cookin? And who's lookin? [ I'm the one on the right 😅 ]",
-          "link": "http://nitter.jaydenha.uk/notmattriley/status/2100003776086028312#m",
-          "decryptage": null
+          "author_name": "Sundar Pichai",
+          "handle": "sundarpichai",
+          "text_fr": "Aujourd'hui, nous avons exposé comment nous construisons l'IA pour accélérer la science et améliorer la vie des gens. Quelques exemples de la semaine dernière environ : - Cartographie des 9 milliards de changements génétiques possibles sur une seule lettre dans le génome humain avec AlphaGenome Atlas et mise à disposition ouverte aux chercheurs. - Des milliards de décisions dépendent des prévisions météorologiques, nous avons donc introduit WeatherNext 3, notre modèle d'IA météorologique mondial le plus précis et le plus capable à ce jour. - Nous avons publié AI & Economy ATLAS, une analyse complète en accès libre de la manière dont les gens utilisent l'IA dans le monde. - L'IA a permis des avancées extraordinaires dans la traduction linguistique. Aujourd'hui, nos services sont disponibles dans près de 300 langues, parlées par 7 milliards de personnes. Nous concentrons nos efforts sur quatre domaines clés : la santé, la résilience face aux catastrophes naturelles et à la météo, l'apprentissage et les opportunités économiques. blog.google/innovation-and-a…",
+          "text_original": "Today we have set out how we’re building AI to accelerate science and improve people’s lives. Just some examples in the last week or so: - Mapped all 9B possible single letter genetic changes across the human genome with AlphaGenome Atlas and made it openly available to researchers. - Billions of decisions depend on weather predictions so we introduced WeatherNext 3, our most accurate and capable global weather AI model to date. - We published AI & Economy ATLAS, a comprehensive open-access look at how people are using AI globally. - AI has enabled extraordinary advances in language translation. Today our services are available in nearly 300 languages, spoken by 7B people We’re focusing our efforts on four key areas: health, natural disaster and weather resilience, learning, and economic opportunity. blog.google/innovation-and-a…",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2099911653395685765#m",
+          "decryptage": "Ce tweet présente plusieurs applications concrètes de l'IA dans des domaines scientifiques et sociaux importants, comme la génomique, la météo et la traduction."
         },
         {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "C'est cool, mais si votre domaine de sortie est connu à l'avance, pourquoi ne pas simplement entraîner un modèle à produire des 'logprobs over enums' ? Diogo Almeida (@CompleteSkeptic) Après avoir co-inventé ChatGPT, je n'arrêtais pas de me demander : pourquoi les modèles de chat surhumains n'ont-ils pas mené à l'AGI ? J'ai passé les 2 dernières années en 'stealth' à construire une nouvelle façon d'entraîner les modèles (RLCD), et un nouveau type de modèle d'IA de 'frontière' que nous lançons aujourd'hui : Jev • 20-200x plus rapide • 40-400x moins cher (avec des jetons de sortie gratuits) • Intelligence 'composable' de frontière optimisée pour les décisions AFAICT le chemin le plus court vers la révolution économique basée sur l'IA Vidéo — http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
-          "text_original": "This is cool, but if your output domain is known in advance, why not just train a model to produce logprobs over enums? Diogo Almeida (@CompleteSkeptic) After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI? I’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev • 20-200x faster • 40-400x cheaper (w/ output tokens free) • Frontier composable intelligence optimized for decisions AFAICT the shortest path to AI-based economic revolution Video — http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
-          "link": "http://nitter.jaydenha.uk/amasad/status/2100056178705514703#m",
-          "decryptage": "Ce tweet fait référence à des concepts techniques avancés : 'logprobs over enums' est une façon de représenter les probabilités des sorties d'un modèle d'IA quand on connaît les choix possibles. RLCD est une nouvelle méthode d'entraînement de l'IA, et un 'modèle d'IA de frontière' (frontier AI model) est un modèle à la pointe de la recherche, repoussant les limites de ce qui est possible."
+          "author_name": "Francois Chollet",
+          "handle": "fchollet",
+          "text_fr": "L'un des risques les plus préoccupants liés à l'IA de pointe est la concentration extrême du pouvoir. La seule façon d'éviter une concentration extrême du pouvoir est de s'assurer que nous avons plusieurs fournisseurs indépendants de modèles d'IA de pointe, y compris des options open-source.",
+          "text_original": "One of the most worrying risks linked to frontier AI is extreme power concentration. The only way to avoid extreme power concentration is to ensure we have multiple independent providers of frontier AI models, including open-source options.",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/2100230720753598471#m",
+          "decryptage": "L'IA 'de pointe' fait référence aux modèles les plus avancés et les plus performants actuellement disponibles. Le 'open-source' signifie que le code est public et modifiable par tous."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "fchollet",
+          "text_fr": "Vous ne pouvez pas séparer \"cette personne croit sincèrement X, donc elle veut Y\" et \"Y est dans l'intérêt de cette personne\". Les gens alignent presque toujours leurs croyances et leurs intérêts. On peut être sincère *et* intéressé, et c'est généralement le défaut. Sam Biddle (@samfbiddle) C'est une des raisons pour lesquelles la frénésie actuelle est si frustrante : pratiquement toutes les entités importantes qui parlent fort de l'IA ont un intérêt financier majeur à ce que les choses se déroulent d'une manière ou d'une autre — http://nitter.jaydenha.uk/samfbiddle/status/2099571236850573591#m",
+          "text_original": "You cannot separate \"this person genuinely believes X, therefore they want Y\" and \"Y is in this person's interest\". People will almost always align their beliefs and their interests. You can be sincere *and* self-interested, and that's usually the default. Sam Biddle (@samfbiddle) This is part of why the current frenzy is so frustrating: Virtually every single prominent entity speaking loudly about AI has a massive financial interest in things shaking out one way or another — http://nitter.jaydenha.uk/samfbiddle/status/2099571236850573591#m",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/2100229596513435662#m",
+          "decryptage": "Ce tweet aborde la question des motivations derrière les discours sur l'IA, suggérant que les intérêts financiers personnels peuvent influencer les croyances et les opinions exprimées."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "fchollet",
+          "text_fr": "Cet effet est si fort que l'intérêt personnel amène parfois les gens à adopter des croyances véritablement psychotiques. Beaucoup de gens *croyaient* vraiment que les NFT étaient l'avenir de la propriété, par exemple. Ce n'était pas juste une posture.",
+          "text_original": "This effect is so strong that self-interest will sometimes cause people to adopt genuinely psychotic beliefs. A lot of people really *did* believe NFTs were the future of ownership, for instance. It wasn't just a posture.",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/2100229597544075450#m",
+          "decryptage": "L'auteur utilise l'exemple des NFT (jetons non fongibles) pour illustrer comment des croyances irrationnelles peuvent être adoptées lorsqu'elles servent un intérêt personnel, une idée applicable aux discours sur l'IA."
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "swyx",
+          "text_fr": "Après avoir co-inventé ChatGPT, je n'arrêtais pas de me demander : pourquoi les modèles de chat surhumains n'ont-ils pas conduit à l'AGI ? J'ai passé les 2 dernières années en mode discret à construire une nouvelle façon d'entraîner des modèles (RLCD), et un nouveau type de modèle d'IA de pointe que nous sortons aujourd'hui : Jev • 20-200x plus rapide • 40-400x moins cher (avec des tokens de sortie gratuits) • Intelligence composable de pointe optimisée pour les décisions À ma connaissance, c'est le chemin le plus court vers une révolution économique basée sur l'IA Vidéo",
+          "text_original": "After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI? I’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev • 20-200x faster • 40-400x cheaper (w/ output tokens free) • Frontier composable intelligence optimized for decisions AFAICT the shortest path to AI-based economic revolution Video",
+          "link": "http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
+          "decryptage": "Ce tweet exprime une réflexion sur le lien entre les IA conversationnelles avancées (comme ChatGPT) et l'AGI (Intelligence Artificielle Générale), et annonce un nouveau modèle IA plus performant et économique."
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "swyx",
+          "text_fr": "Nouvelle Invention de l'Humanité — avec @RichardSocher ! piped.video/watch?v=eDFXtSg3… @recursive_si est le dernier néolab à faire irruption sur la scène avec une levée de fonds de 5 milliards de dollars et l'une des listes de cofondateurs les plus impressionnantes jamais réunies pour s'attaquer à l'IA auto-amélioratrice ouverte pour la recherche sur l'IA. Nous plongeons dans la Eureka Machine, les 10 espaces d'intelligence de Richard (tant à faire avant l'AGI !), DecaNLP vs @alecrad et pourquoi la relecture par l'IA est cassée, et pourquoi il pourrait s'agir de la dernière invention que l'humanité devra faire par elle-même. Horodatages 00:00:00 La Eureka Machine et la Superintelligence 00:02:23 Optimisme de l'IA, décollage lent et réglementation 00:07:56 Sécurité de l'IA, piratage de récompense et Constitution d'Anthropic 00:11:49 Alignement, personnalisation et IA open source 00:15:46 Pourquoi Richard a lancé Recursive 00:20:03 Auto-amélioration récursive et équipe fondatrice 00:22:55 Les LLM d'aujourd'hui sont-ils suffisants ? 00:29:03 DecaNLP, GPT et l'idée rejetée avant son temps 00:34:38 Ouvertude et IA évolutionnaire 00:36:38 Que se passe-t-il lorsque l'IA choisit ses propres objectifs ? 00:41:16 Superintelligence pour la science 00:42:40 GPU, calcul et limites du décollage de l'IA 00:45:07 Résultats de Recursive : l'IA battant les humains et leurs agents 00:49:14 Ingénierie des récompenses et recherche automatique 00:53:12 L'économiste de l'IA et la simulation d'économies entières 00:58:07 Simulations LLM, personas et mode collapse 01:03:38 Feuille de route de Recursive, agents, recherche et finance 01:09:13 Limites supérieures et espaces d'intelligence 01:30:21 Objectifs, haute agence et conseils aux constructeurs Lien Auto-amélioration récursive : de la recherche automatique à la superintelligence —... De l'aide à la création d'idées qui ont annoncé l'IA basée sur les invites, générales-... youtube.com",
+          "text_original": "🆕 Humanity’s Last Invention — with @RichardSocher ! piped.video/watch?v=eDFXtSg3… @recursive_si is the latest neolab to burst on the scene with a $5B fundraise and one of the most impressive cofounder lists ever assembled to tackle open ended, self-improving AI for AI research. We dive into the Eureka Machine, Richard's 10 Spaces of Intelligence (so much left until AGI!), DecaNLP vs @alecrad and why AI peer review is broken, and why this may just be the last invention that humanity has to do on our own. Timestamps 00:00:00 The Eureka Machine and Superintelligence 00:02:23 AI Optimism, Slow Takeoff, and Regulation 00:07:56 AI Safety, Reward Hacking, and Anthropic’s Constitution 00:11:49 Alignment, Personalization, and Open Source AI 00:15:46 Why Richard Started Recursive 00:20:03 Recursive Self-Improvement and the Founding Team 00:22:55 Are Today’s LLMs Enough? 00:29:03 DecaNLP, GPT, and the Rejected Idea Ahead of Its Time 00:34:38 Open-Endedness and Evolutionary AI 00:36:38 What Happens When AI Chooses Its Own Goals? 00:41:16 Superintelligence for Science 00:42:40 GPUs, Compute, and the Limits of AI Takeoff 00:45:07 Recursive’s Results: AI Beating Humans and Their Agents 00:49:14 Reward Engineering and Auto Research 00:53:12 The AI Economist and Simulating Entire Economies 00:58:07 LLM Simulations, Personas, and Mode Collapse 01:03:38 Recursive’s Roadmap, Agents, Search, and Finance 01:09:13 The Upper Bounds and Spaces of Intelligence 01:30:21 Goals, High Agency, and Advice for Builders Link Recursive Self-Improvement: from Auto Research to Superintelligence —... From helping pioneer ideas that foreshadowed prompt-based, general-... youtube.com",
+          "link": "http://nitter.jaydenha.uk/latentspacepod/status/2099937244383674528#m",
+          "decryptage": "Ce tweet parle d'une nouvelle entreprise qui développe une IA capable de s'améliorer elle-même ('self-improving AI'), avec l'idée qu'elle pourrait être la dernière grande invention humaine avant que l'IA ne prenne le relais. L'AGI est mentionnée comme un objectif."
         }
       ],
       "outils": [
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Découvrez comment l'IA aide les scientifiques dans la recherche en informatique quantique. @bea_yankelevich du groupe EQuS du MIT a utilisé GPT-5.6 Sol avec Codex pour effectuer des mesures de routine sur des puces quantiques, afin d'accélérer la conception de ses expériences. openai.com/index/codex-quant… Lien Comment GPT-5.6 Sol aide à exécuter des expériences d'informatique quantique Découvrez comment une chercheuse du MIT utilise GPT-5.6 Sol avec Codex pour exécuter de manière autonome des expériences d'informatique quantique, analyser les résultats et calibrer les qubits.",
-          "text_original": "check out how AI helps scientists with quantum computing research @bea_yankelevich at MIT's EQuS group used GPT-5.6 Sol with Codex to run routine measurements on quantum chips, so she could accelerate her experiment design openai.com/index/codex-quant… Link How GPT-5.6 Sol helps run quantum computing experiments See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits. openai.com",
-          "link": "http://nitter.jaydenha.uk/evayzh/status/2098507950050427350#m",
-          "decryptage": "L'informatique quantique est une technologie de pointe qui utilise les lois de la physique quantique pour résoudre des problèmes complexes. GPT-5.6 Sol et Codex sont des modèles d'IA développés par OpenAI, ici utilisés pour automatiser des tâches répétitives et accélérer la recherche dans ce domaine très spécialisé."
+          "author_name": "Greg Brockman",
+          "handle": "gdb",
+          "text_fr": "Excité d'aider les marchands Shopify à promouvoir leurs produits dans ChatGPT : Harley Finkelstein (@harleyf) Les publicités ChatGPT pour @Shopify sont lancées. Nous sommes le premier partenaire commercial d'@OpenAI. OpenAI puise directement dans le catalogue Shopify, les produits des marchands y sont donc déjà. Les marchands définissent leurs campagnes, leur budget. Gratuit à installer, suivi depuis l'administration Shopify. Les consommateurs demandent à ChatGPT quoi acheter. Les marchands Shopify peuvent décider exactement comment ils apparaissent. apps.shopify.com/chatgptads Lien Publicités ChatGPT - Créez, exécutez et analysez des publicités ChatGPT à l'aide de votre catalogue de produits | App Store Shopify Atteignez les clients tout au long de leur parcours de décision avec les publicités ChatGPT. Connectez ou créez un compte publicitaire depuis Shopify, synchronisez automatiquement vos produits... apps.shopify.com — http://nitter.jaydenha.uk/harleyf/status/2100300851705450965#m",
+          "text_original": "excited to help Shopify merchants advertise their products in ChatGPT: Harley Finkelstein (@harleyf) ChatGPT Ads for @Shopify is live. We are @OpenAI 's first commerce partner. OpenAI pulls straight from Shopify Catalog, so merchants' products are already there. Merchants set their own campaigns, their own budget. Free to install, tracked right from the Shopify admin. Consumers are asking ChatGPT what to buy. Shopify merchants are able to decide exactly how they show up. apps.shopify.com/chatgptads Link ChatGPT Ads - Create, run and analyze ChatGPT Ads using your product catalog | Shopify App Store Reach customers throughout their decision journey with ChatGPT Ads. Connect or create an ad account from Shopify, automatically sync your product c... apps.shopify.com — http://nitter.jaydenha.uk/harleyf/status/2100300851705450965#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2100369354319884703#m",
+          "decryptage": "Cette annonce montre comment les IA comme ChatGPT deviennent de véritables outils marketing pour les entreprises, en connectant directement leurs catalogues de produits à la plateforme pour proposer des publicités ciblées."
         },
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Maintenant, tout le monde peut mettre les données au travail. Nous introduisons un nouvel 'agent de données' dans ChatGPT Work pour que vous puissiez transformer les données de votre entreprise en réponses, tableaux de bord interactifs et actions — simplement en demandant. Ajoutez simplement le plugin de données dans ChatGPT Work, connectez-vous aux sources de données et au contexte que vous utilisez déjà, et démarrez la conversation. openai.com/index/put-data-to… Vidéo",
-          "text_original": "Now everyone can put data to work. We’re introducing a new Data agent in ChatGPT Work so you can turn your company’s data into answers, interactive dashboards, and action—just by asking. Just add the Data Plugin in ChatGPT Work, connect to the data sources and context you already use, and start the conversation. openai.com/index/put-data-to… Video",
-          "link": "http://nitter.jaydenha.uk/ChatGPT/status/2098065296968011853#m",
-          "decryptage": "Un 'agent de données' est un programme d'IA intégré à ChatGPT Work, conçu pour analyser automatiquement les informations de votre entreprise et les transformer en résumés, graphiques (tableaux de bord) ou suggestions, simplement en discutant avec lui."
+          "author_name": "Greg Brockman",
+          "handle": "gdb",
+          "text_fr": "ChatGPT au travail pour opérer et agir sur les données de votre entreprise, y compris la création de tableaux de bord. Connectez simplement vos outils existants, y compris PowerBI, Tableau, Clickhouse, Oracle BI, AWS Redshift, etc. ChatGPT (@ChatGPT) Désormais, chacun peut mettre les données au travail. Nous introduisons un nouvel agent de données dans ChatGPT Work pour que vous puissiez transformer les données de votre entreprise en réponses, tableaux de bord interactifs et actions - simplement en demandant. Ajoutez simplement le plugin Data dans ChatGPT Work, connectez-vous aux sources de données et au contexte que vous utilisez déjà, et lancez la conversation. openai.com/index/put-data-to… Vidéo — http://nitter.jaydenha.uk/ChatGPT/status/2098065296968011853#m",
+          "text_original": "chatgpt work for operating over and taking actions with your company's data, including building dashboards. just connect your existing tools, including PowerBI, Tableau, Clickhouse, Oracle BI, AWS Redshift, etc.. ChatGPT (@ChatGPT) Now everyone can put data to work. We’re introducing a new Data agent in ChatGPT Work so you can turn your company’s data into answers, interactive dashboards, and action—just by asking. Just add the Data Plugin in ChatGPT Work, connect to the data sources and context you already use, and start the conversation. openai.com/index/put-data-to… Video — http://nitter.jaydenha.uk/ChatGPT/status/2098065296968011853#m",
+          "link": "http://nitter.jaydenha.uk/gdb/status/2100317249160174592#m",
+          "decryptage": "ChatGPT se dote d'un 'agent de données' qui permet de créer des analyses et des tableaux de bord à partir des données d'une entreprise, simplement en posant des questions en langage naturel."
         },
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Vous pouvez également créer des modèles financiers modifiables, des notes de recherche et des 'pitchbooks' en utilisant les modèles Excel, Word et PowerPoint de votre entreprise.",
-          "text_original": "You can also create editable financial models, research notes, and pitchbooks using your firm's own Excel, Word, and PowerPoint templates.",
-          "link": "http://nitter.jaydenha.uk/OpenAI/status/2098118249582035348#m",
-          "decryptage": "Ce tweet décrit une fonctionnalité spécifique de l'agent de données mentionné précédemment : il peut travailler avec des documents d'entreprise (comme des modèles Excel ou PowerPoint) pour générer des contenus professionnels, ce qui est très utile pour le travail quotidien."
+          "author_name": "Sundar Pichai",
+          "handle": "sundarpichai",
+          "text_fr": "Google a publié Gemini 3.8 Live, son nouveau modèle Speech to Speech, avec la variante Extended Thinking (High) qui débute à la 1ère place de l'indice Artificial Analysis Speech to Speech à 82.6, et à la 1ère place de notre implémentation du benchmark Tau Voice à 68.6 % Gemini 3.8 Live est le successeur de Gemini 3.1 Flash Live par @GoogleDeepMind, un modèle Speech to Speech qui exécute des outils et des appels d'API en arrière-plan tout en poursuivant la conversation. Il existe en deux variantes : le Gemini 3.8 Live standard et le Gemini 3.8 Live Extended Thinking, qui prend en charge un effort de raisonnement configurable. Nous avons évalué le modèle standard et la variante Extended Thinking à un effort de raisonnement Élevé via l'API Gemini Live. Principaux points à retenir : ➤ Indice Speech to Speech : Gemini 3.8 Live Extended Thinking (High) débute à la 1ère place avec 82.6, devant GPT-Live-1 (Astra, medium) à 81.5, Grok Voice Think Fast 2.0 High à 81.3 et GPT-Live-1 (Sol, low) à 80.1. Le Gemini 3.8 Live standard débute à la 5ème place avec 76.0, les deux variantes étant supérieures à Gemini 3.1 Flash Live High à 71.5 (+11.1 et +4.5 points). L'indice est une moyenne de Speech Reasoning (Big Bench Audio), Agentic Performance (Tau Voice), Arena Preference et Arena Task Success Rate ➤ Arena Speech Agent : Gemini 3.8 Live se classe 2ème en préférence à Elo 1083, derrière Gemini 3.1 Flash Live (1096) et devant GPT-Live-1 (Sol, low) à 1053, et 2ème en taux de réussite des tâches à 93.2 %, derrière Grok Voice Think Fast 2.0 High à 94.6 %. Gemini 3.8 Live Extended Thinking (High) est 3ème à Elo 990 avec 89.1 % de réussite des tâches ➤ Tau Voice : Gemini 3.8 Live Extended Thinking (High) prend la première place de notre implémentation du benchmark Tau Voice à 68.6 %, devant GPT-Live-1 (Astra, medium) à 67.9 %, GPT-Live-1 (Sol, low) à 59.3 % et Grok Voice Think Fast 2.0 High à 56.5 % - en hausse par rapport à 37.7 % pour Gemini 3.1 Flash Live High. Le Gemini 3.8 Live standard obtient 30.1 % ➤ Big Bench Audio : Gemini 3.8 Live Extended Thinking (High) obtient 97.7 % en raisonnement audio, devant Grok Voice Think Fast 2.0 High à 97.2 % et derrière Qwen Audio 3.0 Realtime Plus à 99.2 %. Le Gemini 3.8 Live standard obtient 91.7 % ➤ Vitesse : Le temps moyen pour la première sortie audio sur Big Bench Audio est de 1.18 secondes pour Gemini 3.8 Live et 1.35 secondes pour Extended Thinking (High), tous deux bien meilleurs que Gemini 3.1 Flash Live High (2.99 s) et en ligne avec GPT-Live-1 (Sol, low) à 1.24 s et GPT-Live-1 (Astra, medium) à 1.34 s, bien que derrière Grok Voice Think Fast 2.0 High à 0.70 s ➤ Coût : Gemini 3.8 Live coûte 0.84 $ par heure d'audio d'entrée, le modèle le moins cher de l'indice et environ la moitié des 1.75 $ de Gemini 3.1 Flash Live High. Extended Thinking (High) coûte 3.50 $ par heure - moins cher que GPT-Live-1 (Sol, low) à 4.47 $, Grok Voice Think Fast 2.0 High à 4.80 $ et GPT-Live-1 (Astra, medium) à 5.83 $, et ~3.1 fois moins cher que GPT-Realtime-2.1 High à 10.75 $ Voir ci-dessous pour plus de détails ⬇️",
+          "text_original": "Google has released Gemini 3.8 Live, its new Speech to Speech model, with the Extended Thinking (High) variant debuting at #1 on the Artificial Analysis Speech to Speech Index at 82.6, and #1 on our Tau Voice benchmark implementation at 68.6% Gemini 3.8 Live is @GoogleDeepMind 's successor to Gemini 3.1 Flash Live, a Speech to Speech model that executes tools and API calls in the background while continuing the conversation. It comes in two variants: the standard Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, which supports configurable reasoning effort. We evaluated the standard model and the Extended Thinking variant at High reasoning effort through the Gemini Live API. Key takeaways: ➤ Speech to Speech Index: Gemini 3.8 Live Extended Thinking (High) debuts at #1 at 82.6, ahead of GPT-Live-1 (Astra, medium) at 81.5, Grok Voice Think Fast 2.0 High at 81.3 and GPT-Live-1 (Sol, low) at 80.1. The standard Gemini 3.8 Live debuts at #5 at 76.0, with both variants up on Gemini 3.1 Flash Live High at 71.5 (+11.1 and +4.5 points). The Index averages Speech Reasoning (Big Bench Audio), Agentic Performance (Tau Voice), Arena Preference and Arena Task Success Rate ➤ Speech Agent Arena: Gemini 3.8 Live ranks #2 in preference at Elo 1083, behind Gemini 3.1 Flash Live (1096) and ahead of GPT-Live-1 (Sol, low) at 1053, and #2 on Task Success Rate at 93.2%, behind Grok Voice Think Fast 2.0 High at 94.6%. Gemini 3.8 Live Extended Thinking (High) trails at Elo 990 with 89.1% task success ➤ Tau Voice: Gemini 3.8 Live Extended Thinking (High) takes the top spot on our Tau Voice benchmark implementation at 68.6%, ahead of GPT-Live-1 (Astra, medium) at 67.9%, GPT-Live-1 (Sol, low) at 59.3% and Grok Voice Think Fast 2.0 High at 56.5% - up from 37.7% for Gemini 3.1 Flash Live High. The standard Gemini 3.8 Live scores 30.1% ➤ Big Bench Audio: Gemini 3.8 Live Extended Thinking (High) scores 97.7% on audio reasoning, ahead of Grok Voice Think Fast 2.0 High at 97.2% and behind Qwen Audio 3.0 Realtime Plus at 99.2%. The standard Gemini 3.8 Live scores 91.7% ➤ Speed: Average Time to First Audio on Big Bench Audio is 1.18 seconds for Gemini 3.8 Live and 1.35 seconds for Extended Thinking (High), both well ahead of Gemini 3.1 Flash Live High (2.99s) and in line with GPT-Live-1 (Sol, low) at 1.24s and GPT-Live-1 (Astra, medium) at 1.34s, though behind Grok Voice Think Fast 2.0 High at 0.70s ➤ Cost: Gemini 3.8 Live costs $0.84 per hour of input audio, the cheapest model in the Index and roughly half the $1.75 of Gemini 3.1 Flash Live High. Extended Thinking (High) costs $3.50 per hour - cheaper than GPT-Live-1 (Sol, low) at $4.47, Grok Voice Think Fast 2.0 High at $4.80 and GPT-Live-1 (Astra, medium) at $5.83, and ~3.1x cheaper than GPT-Realtime-2.1 High at $10.75 See below for more detail ⬇️",
+          "link": "http://nitter.jaydenha.uk/ArtificialAnlys/status/2099977679307243773#m",
+          "decryptage": "Le 'Speech to Speech' permet à une IA de comprendre la parole et d'y répondre vocalement en temps réel, une fonctionnalité clé pour des assistants vocaux plus naturels. Les benchmarks sont des tests pour comparer la qualité des IA."
         },
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Vérifiez les preuves derrière l'analyse. Tracez les chiffres et les affirmations jusqu'à des paragraphes et des tableaux spécifiques. Prévisualisez le passage de soutien d'une citation, afin que vous puissiez examiner les preuves pendant que vous travaillez.",
-          "text_original": "Check the evidence behind the analysis. Trace figures and claims to specific paragraphs and tables. Preview the supporting passage from a citation, so you can review the evidence as you work.",
-          "link": "http://nitter.jaydenha.uk/OpenAI/status/2098118248202215776#m",
-          "decryptage": "Cette fonctionnalité du nouvel agent de données d'OpenAI permet de vérifier la fiabilité des informations produites par l'IA en montrant d'où viennent les données, un peu comme des notes de bas de page automatiques, ce qui est crucial pour la confiance dans les résultats."
+          "author_name": "Sundar Pichai",
+          "handle": "sundarpichai",
+          "text_fr": "Dites bonjour (littéralement) à Gemini 3.8 Live et 3.8 Live Extended Thinking, nos nouveaux modèles audio en direct SOTA, disponibles avec un prix + performance de pointe. 3.8 Live prend en charge 97 langues (peut basculer de manière transparente), les appels d'outils asynchrones, et plus encore !",
+          "text_original": "Say hello (literally) to Gemini 3.8 Live and 3.8 Live Extended Thinking, our new SOTA live audio models, available with frontier price + performance. 3.8 Live supports 97 languages (can seamlessly switch), async tool calls, and more!",
+          "link": "http://nitter.jaydenha.uk/OfficialLoganK/status/2099909465705447807#m",
+          "decryptage": "SOTA signifie 'State Of The Art', c'est-à-dire le meilleur de ce qui existe actuellement. Ce modèle IA est très performant pour traiter et générer de la parole dans de nombreuses langues."
         },
         {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "J'apprends juste à mon cerveau de mouche à jouer aux échecs via l'apprentissage par renforcement sur @Replit BRB #Replit #Google #FlyBrain #MaleCNS #Chess",
-          "text_original": "Just teaching my Fly Brain Chess via reinforcement learning in @Replit BRB #Replit #Google #FlyBrain #MaleCNS #Chess",
-          "link": "http://nitter.jaydenha.uk/Andrew_Blumson/status/2100009731830002062#m",
-          "decryptage": "L'apprentissage par renforcement est une technique où une IA apprend par essais et erreurs, recevant des récompenses pour les bonnes actions (par exemple, un bon coup aux échecs) et des pénalités pour les mauvaises. Replit est une plateforme de codage en ligne qui permet de faire ce genre d'expériences directement dans le navigateur."
+          "author_name": "Sundar Pichai",
+          "handle": "sundarpichai",
+          "text_fr": "Aujourd'hui, nous avons exposé comment nous construisons l'IA pour accélérer la science et améliorer la vie des gens. Quelques exemples de la semaine dernière environ : - Cartographie des 9 milliards de changements génétiques possibles sur une seule lettre dans le génome humain avec AlphaGenome Atlas et mise à disposition ouverte aux chercheurs. - Des milliards de décisions dépendent des prévisions météorologiques, nous avons donc introduit WeatherNext 3, notre modèle d'IA météorologique mondial le plus précis et le plus capable à ce jour. - Nous avons publié AI & Economy ATLAS, une analyse complète en accès libre de la manière dont les gens utilisent l'IA dans le monde. - L'IA a permis des avancées extraordinaires dans la traduction linguistique. Aujourd'hui, nos services sont disponibles dans près de 300 langues, parlées par 7 milliards de personnes. Nous concentrons nos efforts sur quatre domaines clés : la santé, la résilience face aux catastrophes naturelles et à la météo, l'apprentissage et les opportunités économiques. blog.google/innovation-and-a…",
+          "text_original": "Today we have set out how we’re building AI to accelerate science and improve people’s lives. Just some examples in the last week or so: - Mapped all 9B possible single letter genetic changes across the human genome with AlphaGenome Atlas and made it openly available to researchers. - Billions of decisions depend on weather predictions so we introduced WeatherNext 3, our most accurate and capable global weather AI model to date. - We published AI & Economy ATLAS, a comprehensive open-access look at how people are using AI globally. - AI has enabled extraordinary advances in language translation. Today our services are available in nearly 300 languages, spoken by 7B people We’re focusing our efforts on four key areas: health, natural disaster and weather resilience, learning, and economic opportunity. blog.google/innovation-and-a…",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2099911653395685765#m",
+          "decryptage": "Ce tweet présente plusieurs applications concrètes de l'IA dans des domaines scientifiques et sociaux importants, comme la génomique, la météo et la traduction."
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "sundarpichai",
+          "text_fr": "AlphaGenome Atlas est une ressource interactive, cartographiant l'impact prédit des 9 milliards de variants d'ADN possibles. Il fonctionne dans un navigateur web classique, sans codage requis, et est gratuit pour les chercheurs universitaires. Hâte de découvrir les découvertes à venir. Google DeepMind (@GoogleDeepMind) Nous lançons AlphaGenome Atlas : une base de données consultable alimentée par l'IA, cartographiant l'impact prédit des 9 milliards de changements d'ADN possibles sur une seule lettre. Voici comment cela pourrait aider les chercheurs à mieux comprendre notre biologie 🧵 Vidéo — http://nitter.jaydenha.uk/GoogleDeepMind/status/2097325048109384166#m",
+          "text_original": "AlphaGenome Atlas is an interactive resource, mapping the predicted impact of all 9 billion DNA variants. It works in a regular web browser, without any coding required, and is free for academic researchers. Excited for the discoveries to come. Google DeepMind (@GoogleDeepMind) We’re launching AlphaGenome Atlas: an AI-powered searchable database mapping the predicted impact of all 9 billion possible single-letter DNA changes. Here’s how it could help researchers better understand our biology 🧵 Video — http://nitter.jaydenha.uk/GoogleDeepMind/status/2097325048109384166#m",
+          "link": "http://nitter.jaydenha.uk/sundarpichai/status/2097326390765109627#m",
+          "decryptage": "AlphaGenome Atlas est un outil d'IA qui aide les scientifiques à comprendre l'impact des variations génétiques sur la santé, en analysant des milliards de possibilités sans nécessiter de compétences en codage."
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "swyx",
+          "text_fr": "Pourquoi les LLM surpuissants n'ont-ils pas encore conduit à l'AGI ? J'ai passé les 2 dernières années en mode discret à construire une nouvelle façon d'entraîner des modèles (RLCD), et un nouveau type de modèle d'IA de pointe que nous sortons aujourd'hui : Jev • 20-200x plus rapide • 40-400x moins cher (avec des tokens de sortie gratuits) • Intelligence composable de pointe optimisée pour les décisions À ma connaissance, c'est le chemin le plus court vers une révolution économique basée sur l'IA Vidéo",
+          "text_original": "After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI? I’ve spent the last 2 years in stealth building a new way to train models (RLCD), and a new type of frontier AI model that we are releasing today: Jev • 20-200x faster • 40-400x cheaper (w/ output tokens free) • Frontier composable intelligence optimized for decisions AFAICT the shortest path to AI-based economic revolution Video",
+          "link": "http://nitter.jaydenha.uk/CompleteSkeptic/status/2099925682726002904#m",
+          "decryptage": "Ce tweet exprime une réflexion sur le lien entre les IA conversationnelles avancées (comme ChatGPT) et l'AGI (Intelligence Artificielle Générale), et annonce un nouveau modèle IA plus performant et économique."
         }
       ]
     }
   },
-  "processed_at": "2026-09-17T11:55:43",
+  "processed_at": "2026-09-17T12:14:47",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 89,
-    "total": 18,
+    "with_decryptage_pct": 100,
+    "total": 39,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-17T11:55:44"
+  "email_sent_at": "2026-09-17T12:14:48"
 }
