@@ -1,139 +1,139 @@
 {
   "date": "2026-09-20",
-  "fetched_at": "2026-09-20T11:38:31",
+  "fetched_at": "2026-09-20T11:50:16",
   "tweets": [
     {
-      "handle": "karpathy",
-      "text": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
-      "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
-      "published": "Thu, 10 Sep 2026 17:13:22 GMT",
-      "author_name": "Andrej Karpathy",
+      "handle": "ylecun",
+      "text": "Interested in World Modeling with a lens on Physics? We are organizing the World Modeling for Physics workshop at the wonderful Aspen Center 2/28-3/5/27. Apply for presentations (deadline Oct 9) or participation (by 9/30)! It will be an exciting event in a great setting bringing together domain scientists and AI researchers! wmw-aspen.github.io/ With @ylecun @randall_balestr @cosmo Randall Balestriero (@randall_balestr) Our 4th world modeling workshop will be looking at *Physics*! Happening at the Aspen Center for Physics end of February ( wmw-aspen.github.io ) If you are interested in presenting, submit your abstract here: docs.google.com/forms/d/e/1F… Deadline on October 9th, 1 page Abstract! — http://shitter.thepixora.com/randall_balestr/status/2100649310958284951#m",
+      "link": "http://shitter.thepixora.com/KempeLab/status/2101239215769915539#m",
+      "published": "Sat, 19 Sep 2026 09:17:22 GMT",
+      "author_name": "Yann LeCun",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-      "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
-      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
-      "author_name": "Andrej Karpathy",
+      "handle": "ylecun",
+      "text": "The interesting thing about this 1995 open source software panic was that people seemed to think it was ‘agentic’ Pessimists Archive (@PessimistsArc) In 1995 everyone panicked about software that to could automatically find exploits on computer systems… newsletter.pessimistsarchive… — http://shitter.thepixora.com/PessimistsArc/status/2099323309913502020#m",
+      "link": "http://shitter.thepixora.com/PessimistsArc/status/2101350370286932276#m",
+      "published": "Sat, 19 Sep 2026 16:39:04 GMT",
+      "author_name": "Yann LeCun",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-      "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
-      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
-      "author_name": "Andrej Karpathy",
+      "handle": "ylecun",
+      "text": "You and Yoshua are inadvertently helping those who want to put AI research and development under lock and key and protect their business by banning open research, open-source code, and open-access models. This will inevitably lead to bad outcomes in the medium term.",
+      "link": "http://shitter.thepixora.com/ylecun/status/1719432513003901278#m",
+      "published": "Tue, 31 Oct 2023 19:13:51 GMT",
+      "author_name": "Yann LeCun",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-      "link": "http://shitter.thepixora.com/karpathy/status/2083948654377996480#m",
-      "published": "Sun, 02 Aug 2026 16:10:51 GMT",
-      "author_name": "Andrej Karpathy",
+      "handle": "ylecun",
+      "text": "🚨 OBAMA ON AI: \"If we are thinking about AI just in terms of how do we cure cancer or get better energy, you can do that without having agentic AI and having it just roaming free in the internet. The reason you are doing that is because you have to market a product that people will pay money for. That’s a misalignment between what our society needs and the commercial imperatives that these companies are facing, not because necessarily they’re trying to do bad things, but because they’ve got to justify these valuations. So, that’s one more reason why it is really important for us to have a competent government and a serious bipartisan conversation around this issue, and we have to do it fast. And I would encourage voters to pay attention to this. If somebody does not have a serious plan for how to deal with this, then they’re not meeting the moment, and you should probably look for somebody else.\" Video",
+      "link": "http://shitter.thepixora.com/MeidasTouch/status/2101346293805412529#m",
+      "published": "Sat, 19 Sep 2026 16:22:52 GMT",
+      "author_name": "Yann LeCun",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-      "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
-      "published": "Tue, 21 Jul 2026 16:53:55 GMT",
-      "author_name": "Andrej Karpathy",
+      "handle": "ylecun",
+      "text": "Thanks to Trump, a new poll finds that Canadians, Indonesians, Brazilians, Turks, Mexicans and others all see the United States as more of a “major threat” than either Russia or China. trib.al/hBh1ai9",
+      "link": "http://shitter.thepixora.com/KenRoth/status/2101309964287356982#m",
+      "published": "Sat, 19 Sep 2026 13:58:30 GMT",
+      "author_name": "Yann LeCun",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "AravSrinivas",
-      "text": "AI is the OS. Computer (@AskPerplexity) You can now connect apps from the Computer homepage composer. Live now on the web for all Computer users. Video — http://shitter.thepixora.com/AskPerplexity/status/2101147964307849718#m",
-      "link": "http://shitter.thepixora.com/AravSrinivas/status/2101149706235834829#m",
-      "published": "Sat, 19 Sep 2026 03:21:42 GMT",
-      "author_name": "Aravind Srinivas",
-      "category_hint": "ceo",
+      "handle": "JeffDean",
+      "text": "Today, G5 Labs is emerging from stealth with $14 million in seed funding to build a new abstraction layer for AI-native software development. @pillar_vc and @BatteryVentures co-led the round, with participation from @omegavp , Encoded Ventures, and prominent angel investors including @JeffDean . G5 Labs is pioneering the post-developer era. A spinout from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), the G5 Labs platform makes natural-language intent, organized as an ontology, the source code itself—putting software development in the hands of the whole organization while providing the governance needed to keep requirements, implementation, and organizational policies aligned. We’re excited to build a future where employees across departments, from product owners to analysts and compliance leads, can create and evolve software using the language they already speak. Read our full announcement: g5labs.ai/press Read more in VentureBeat: lnkd.in/gh4H5_zF Link G5 Labs — Programming is dead. Engineering is thriving. Natural language is the new source code. G5 is the semantic abstraction layer that makes AI-native software development compilable, mergeable, and governable for enterprises. g5labs.ai",
+      "link": "http://shitter.thepixora.com/tim_kraska/status/2100009061978644782#m",
+      "published": "Tue, 15 Sep 2026 23:49:11 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "AravSrinivas",
-      "text": "Slick design Video",
-      "link": "http://shitter.thepixora.com/AravSrinivas/status/2100968764804354529#m",
-      "published": "Fri, 18 Sep 2026 15:22:42 GMT",
-      "author_name": "Aravind Srinivas",
-      "category_hint": "ceo",
+      "handle": "JeffDean",
+      "text": "Exciting results, @LiamFedus ! Congrats to the whole team at Periodic Labs! Liam Fedus (@LiamFedus) We built high-throughput materials labs in Menlo Park to create a loop between experiments and models. The labs generate fresh data, the models learn from it, and then help us decide what to try next. Using only 1,300 H200s, plus months of our experimental data, we mid-trained and RL’d an open-source model to surpass GPT-6 Astra on our analysis benchmark. We call it Neon. This is real footage from our lab. We’re focusing first on hard problems in materials science, including superconductors, magnets, and semiconductor materials. Read our blog posts below. Video — http://shitter.thepixora.com/LiamFedus/status/2099896055030501702#m",
+      "link": "http://shitter.thepixora.com/JeffDean/status/2099998119392161960#m",
+      "published": "Tue, 15 Sep 2026 23:05:42 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "AravSrinivas",
-      "text": "Computer is the best multi model harness for long horizon agentic workloads. It now has a few presets for different effort (cost and intelligence levels) that we’ve seen to work best for our users, with toggles to customize even further for power users. Perplexity (@perplexity_ai) We’re rolling out effort controls in Computer’s model selector. Effort presets combine the orchestrator model and reasoning depth to control how deeply and efficiently Computer works through a task. Available now on web. Coming to mobile and desktop soon. Video — http://shitter.thepixora.com/perplexity_ai/status/2100617849677176992#m",
-      "link": "http://shitter.thepixora.com/AravSrinivas/status/2100635004829315171#m",
-      "published": "Thu, 17 Sep 2026 17:16:27 GMT",
-      "author_name": "Aravind Srinivas",
-      "category_hint": "ceo",
+      "handle": "JeffDean",
+      "text": "Introducing OM-1, our first robot foundation model, zero-shot generalizing to any robot: table-top arms, industrial arms and humanoids. - learned directly from human manipulation data - no teleop/robot data - close to human-level dexterity and efficiency - multi-robot collab Video",
+      "link": "http://shitter.thepixora.com/RewardAI_/status/2099553899804053992#m",
+      "published": "Mon, 14 Sep 2026 17:40:32 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "AravSrinivas",
-      "text": "We’re rolling out effort controls in Computer’s model selector. Effort presets combine the orchestrator model and reasoning depth to control how deeply and efficiently Computer works through a task. Available now on web. Coming to mobile and desktop soon. Video",
-      "link": "http://shitter.thepixora.com/perplexity_ai/status/2100617849677176992#m",
-      "published": "Thu, 17 Sep 2026 16:08:17 GMT",
-      "author_name": "Aravind Srinivas",
-      "category_hint": "ceo",
+      "handle": "JeffDean",
+      "text": "Excited to partner with @DiscoLoopAI ! They are actively hiring across engineering & research - please reach out if the mission sounds interesting to you. Discovery Loop (@DiscoLoopAI) Introducing Discovery Loop ♾. We’re building AI to run experiments at unprecedented scale and to solve the biggest bottlenecks in science and engineering. Our founders @JeffDean , @Sanjay_Ghemawat , @quocleix , @OriolVinyalsML helped build the AI infrastructure and models that scaled the modern world. Now, we are scaling discovery itself. The future can't wait. Learn more at: discoveryloop.com — http://shitter.thepixora.com/DiscoLoopAI/status/2085033268001587534#m",
+      "link": "http://shitter.thepixora.com/LM_Braswell/status/2097720148451012848#m",
+      "published": "Wed, 09 Sep 2026 16:13:51 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "AravSrinivas",
-      "text": "Coding agents require parallel searches across docs, filtered results from official docs, and the ability to extract detailed snippets. pplx-search-sdk supports all of these, and we have a new cookbook live. pplx.ai/pplx-srch-sdk Link Search as Code for coding agents - Perplexity Use the Perplexity Search SDK to build a source-backed dependency migration packet that any coding agent can inspect before it edits code. docs.perplexity.ai Perplexity Developers (@perplexitydevs) A new Perplexity Search SDK cookbook is live. The recipe fans out focused searches, filters results to official docs, extracts relevant passages, and writes a source-linked brief for your coding agent. Get started: pplx.ai/pplx-srch-sdk — http://shitter.thepixora.com/perplexitydevs/status/2100301249686196680#m",
-      "link": "http://shitter.thepixora.com/AravSrinivas/status/2100303192219385906#m",
-      "published": "Wed, 16 Sep 2026 19:17:57 GMT",
-      "author_name": "Aravind Srinivas",
-      "category_hint": "ceo",
+      "handle": "JeffDean",
+      "text": "1/ ✨ World record today on bounded gaps between primes, one of number theory’s oldest open conjectures. We show that infinitely many pairs of prime numbers are separated by 212 or less.",
+      "link": "http://shitter.thepixora.com/axiommathai/status/2095526333799633063#m",
+      "published": "Thu, 03 Sep 2026 14:56:25 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "aidan_mclau",
-      "text": "codex, clear all my morning meetings Dwarkesh Patel (@dwarkesh_sp) New episode with @polynoamial We talk about multi-agent, Navier-Stokes, and what the current explosion of maths progress tells us about what happens once you automate AI research. And we also discuss how we will know if the models are actually aligned before we kick off RSI. 0:00:00 – Multi-agent and Navier-Stokes 0:15:28 – How will AI firms work? 0:22:02 – What math progress tells us about recursive self improvement 0:40:22 – Hugging Face and alignment 1:01:18 – The internal/external model gap 1:08:34 – Chain of thought is degrading 1:14:12 – How will we know when alignment is solved? Video — http://shitter.thepixora.com/dwarkesh_sp/status/2100616332144169048#m",
-      "link": "http://shitter.thepixora.com/aidan_mclau/status/2100626662736167059#m",
-      "published": "Thu, 17 Sep 2026 16:43:18 GMT",
-      "author_name": "Aidan McLaughlin",
+      "handle": "bcherny",
+      "text": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle this behavior in /config.",
+      "link": "http://shitter.thepixora.com/trq212/status/2101009392611278961#m",
+      "published": "Fri, 18 Sep 2026 18:04:08 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "aidan_mclau",
-      "text": "A beautiful surprise Video",
-      "link": "http://shitter.thepixora.com/neuralink/status/2100342084011978896#m",
-      "published": "Wed, 16 Sep 2026 21:52:29 GMT",
-      "author_name": "Aidan McLaughlin",
+      "handle": "bcherny",
+      "text": "What makes Claude Projects so interesting is that it handles teams of agents really well, you talk to a main orchestrator agent and it spins up specialists. Basically it creates an organization to solve your issue, mixing expensive and cheap agents depending on your preferences. For example, I asked Fable in Claude Projects to select famous historical mysteries that it could try to resolve. It initiated research agents, selected the mysteries based on data it could access, and spun up eighteen separate threads, each with an agent each focused on one mystery. Then each thread launched additional agents (simulating avalanches, breaking codes) before summarizing those and passing them to still more agents for write up and another set of skeptical agents to fact check. It did this over a day of work, with the central orchestrator agent organizing it all. The results were interesting if you like historical mysteries. They are also for fun and certainly not definitive or guaranteed error-free (but they are also mostly reasonable & grounded in the literature). historical-mysteries.netlify…",
+      "link": "http://shitter.thepixora.com/emollick/status/2100665801800093959#m",
+      "published": "Thu, 17 Sep 2026 19:18:50 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "aidan_mclau",
-      "text": "emissary at the forge",
-      "link": "http://shitter.thepixora.com/aidan_mclau/status/2100299363486781828#m",
-      "published": "Wed, 16 Sep 2026 19:02:44 GMT",
-      "author_name": "Aidan McLaughlin",
+      "handle": "bcherny",
+      "text": "Projects have changed not only how I interact with Claude but how I code. I stopped managing sessions. I just send thoughts as they come, Claude splits them into threads, and the project remembers how I work. It's where I do a ton of my coding now. [screenshot: my actual prompts for claude code cli yesterday] ClaudeDevs (@ClaudeDevs) Today we're rolling out Projects in Claude Code on desktop and web. A project is one conversation with Claude. It splits the work into threads itself, runs them as parallel cloud sessions, passes context between them, and keeps going when you leave. In beta for select users. Video — http://shitter.thepixora.com/ClaudeDevs/status/2100633571543367691#m",
+      "link": "http://shitter.thepixora.com/bcherny/status/2100669598995816511#m",
+      "published": "Thu, 17 Sep 2026 19:33:55 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "aidan_mclau",
-      "text": "The Artificial Intelligence Underwriting Company has raised $55M to audit and insure frontier AI models. Insurance produces audits the public can trust and understand. The mechanism is simple: insurers need audits to price the risk. They pick auditors they believe will help them price the risk most accurately. Insurers then turn the audits into a price signal that cuts through political debates. Insurers are aligned with the public: if they get the audits wrong, they go out of business. That’s different from today, where labs pick their own auditors, creating public distrust. Insurance only works if we scale up auditing, and we are building the infrastructure to do that. Millions of agents are being deployed; they leave terabytes of traces and will create thousands of incidents across dozens of risk categories. To scale auditing, we need reliable agents to surface evidence traces for human review. History guides us. Take cars: auto insurers funded crash tests to price risks; crash tests led us to airbags, lowering the risk. Take electricity: home insurers funded lightbulb tests to price fire risks; today, every lightbulb carries a safety mark. Nuclear safety works similarly. We’ve been learning by doing.. In the last 6 months, we’ve audited and insured frontier agent builders like Cursor, ElevenLabs, Lovable and Harvey. For ElevenLabs to get the world’s first agent insurance coverage, a Lloyd’s of London insurer required quarterly technical audits by an auditor of the insurer’s choice. We’ve built infrastructure for quarterly technical audits of any agent, working alongside firms like Gray Swan (technical evaluations) and Schellman (audit). In the coming weeks, we’ll share our vision for how an insurance ecosystem can work for the frontier, and open source the world’s first actuarial model for frontier AI catastrophic risk. We’re hiring across all roles in San Francisco. Come do your life’s work with us. Rune & Rajiv",
-      "link": "http://shitter.thepixora.com/RuneKvist/status/2100249848264237521#m",
-      "published": "Wed, 16 Sep 2026 15:45:59 GMT",
-      "author_name": "Aidan McLaughlin",
+      "handle": "bcherny",
+      "text": "Projects are how I write a lot of my code these days. Really excited for everyone to try the new experience! Rolling out now Claude (@claudeai) Projects now run from one conversation, starting in Claude Code. You describe what needs doing, and Claude directs parallel threads that keep working after you close your laptop. In beta today for select Pro and Max users in cloud sessions; coming to all Claude users soon. Video — http://shitter.thepixora.com/claudeai/status/2100632677904744716#m",
+      "link": "http://shitter.thepixora.com/bcherny/status/2100639991244427490#m",
+      "published": "Thu, 17 Sep 2026 17:36:16 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "aidan_mclau",
-      "text": "The model appeared defeated, spending the next several hours doing essentially nothing but farming potatoes. Stream viewers noticed and complained that Astra needed to \"pick up the pace.\" Astra also seemed to become paranoid about creepers: \"GREEN tall thing ahead was SUGARCANE, NOT creeper!\" At times it was hard on itself: \"you can screw up and drop things\"; \"do NOT waste another night chasing dark pink pixels\" (its own disparaging wording for pigs); \"our last tool stupidly ended Slabsselected/rightUP and 15sec thinking killed us\".",
-      "link": "http://shitter.thepixora.com/ValsAI/status/2099975441218162908#m",
-      "published": "Tue, 15 Sep 2026 21:35:35 GMT",
-      "author_name": "Aidan McLaughlin",
+      "handle": "bcherny",
+      "text": "Today, we're combining Cowork and Chat into one Claude. You can fire off questions and then turn to serious work in the same conversation. When your computer is open, Claude can use your local files and apps - and if you close it, Claude will keep working with its own computer in the cloud.",
+      "link": "http://shitter.thepixora.com/felixrieseberg/status/2100258695393550759#m",
+      "published": "Wed, 16 Sep 2026 16:21:08 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
@@ -181,25 +181,70 @@
       "author_name": "Pieter Levels",
       "category_hint": "builder",
       "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+      "link": "http://shitter.thepixora.com/GuillaumeLample/status/2097256830091014515#m",
+      "published": "Tue, 08 Sep 2026 09:32:48 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
+      "link": "http://shitter.thepixora.com/MistralAI/status/2084684735725379637#m",
+      "published": "Tue, 04 Aug 2026 16:55:47 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
+      "link": "http://shitter.thepixora.com/MistralAI/status/2074856309438980145#m",
+      "published": "Wed, 08 Jul 2026 14:01:07 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+      "link": "http://shitter.thepixora.com/mertunsal2020/status/2073046288208412960#m",
+      "published": "Fri, 03 Jul 2026 14:08:45 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://shitter.thepixora.com/MistralAI/status/2069420263825895917#m",
+      "link": "http://shitter.thepixora.com/atomic_chat_hq/status/2069597176225796581#m",
+      "published": "Wed, 24 Jun 2026 01:43:12 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
     }
   ],
   "failed_accounts": [
+    "karpathy",
     "sama",
     "DarioAmodei",
     "gdb",
     "sundarpichai",
     "elonmusk",
+    "AravSrinivas",
     "miramurati",
-    "ylecun",
     "demishassabis",
-    "JeffDean",
     "fchollet",
     "AndrewYNg",
     "rasbt",
-    "bcherny",
     "karinanguyen_",
     "polynoamial",
     "markchen90",
+    "aidan_mclau",
     "officiallogank",
     "osanseviero",
     "AnthropicAI",
@@ -215,7 +260,6 @@
     "nickadobos",
     "emollick",
     "ArthurMensch",
-    "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
     "ClemDelangue",
@@ -223,194 +267,229 @@
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, l'univers de l'IA nous montre à la fois des avancées impressionnantes en matière de création de mondes virtuels et des réflexions profondes sur sa sécurité. Nous avons vu de nouvelles plateformes d'IA s'intégrer davantage dans notre quotidien, tandis que des conseils pratiques ont été partagés pour mieux communiquer avec ces intelligences. Des discussions importantes sur la confiance, l'alignement et les limites actuelles des modèles soulignent que l'IA est une technologie en constante évolution, avec ses promesses et ses défis.",
+    "summary": "Cette journée a été riche en annonces de nouvelles technologies et en réflexions sur l'avenir de l'IA. Nous avons vu de nouvelles façons de programmer avec le langage naturel, des avancées majeures en robotique et en modélisation scientifique, et des outils IA plus performants pour le développement. Les débats ont porté sur les dangers potentiels des IA autonomes, l'importance de la recherche ouverte et l'impact de l'IA sur la société et la gouvernance, montrant que l'innovation technique va de pair avec des questions éthiques et stratégiques importantes.",
     "glossaire": [
       {
-        "terme": "LLM (Large Language Model)",
-        "definition": "Un grand modèle de langage est un programme d'IA capable de comprendre, générer et traiter le langage humain, comme ChatGPT."
+        "terme": "Modélisation du monde (World Modeling)",
+        "definition": "C'est la capacité d'une intelligence artificielle à créer une représentation interne de son environnement pour comprendre comment il fonctionne et prédire ses changements."
       },
       {
-        "terme": "Multimodal",
-        "definition": "Décrit une IA qui peut interagir avec et traiter différents types de données, comme le texte, les images, les vidéos et le son."
+        "terme": "IA agentique (Agentic AI)",
+        "definition": "Désigne une intelligence artificielle capable d'agir de manière autonome pour atteindre ses objectifs, potentiellement sans intervention humaine directe."
       },
       {
-        "terme": "Agents de codage",
-        "definition": "Des programmes d'IA conçus pour aider les développeurs en générant, modifiant ou optimisant du code, ou en automatisant des tâches de programmation."
+        "terme": "Modèle de fondation robotique (Robot Foundation Model)",
+        "definition": "Un grand modèle d'IA entraîné sur une vaste quantité de données robotiques, capable d'être adapté à de nombreuses tâches et types de robots différents."
       },
       {
-        "terme": "Alignement (en IA)",
-        "definition": "Le défi de s'assurer que les systèmes d'IA agissent conformément aux intentions et aux valeurs des humains, de manière bénéfique et sécurisée."
+        "terme": "Modèles open-weights (Open-weights models)",
+        "definition": "Il s'agit de modèles d'IA dont les 'poids' (les paramètres internes appris lors de l'entraînement) sont rendus publics, permettant à quiconque de les utiliser, les modifier ou les améliorer."
       },
       {
-        "terme": "Audit (d'un modèle d'IA)",
-        "definition": "L'examen indépendant et structuré d'un modèle d'IA pour vérifier sa performance, sa sécurité, son équité et sa conformité."
+        "terme": "Navigation incarnée (Embodied navigation)",
+        "definition": "La capacité d'un robot ou d'une IA à se déplacer et à interagir physiquement avec son environnement pour accomplir des tâches."
       },
       {
-        "terme": "Système d'exploitation (OS)",
-        "definition": "Logiciel de base qui gère les ressources matérielles et logicielles d'un ordinateur, permettant aux autres programmes de fonctionner."
+        "terme": "SOTA (State-of-the-Art)",
+        "definition": "Acronyme anglais signifiant 'État de l'art', utilisé pour décrire les performances actuelles les plus élevées ou la technologie la plus avancée dans un domaine donné."
+      },
+      {
+        "terme": "Agent orchestrateur",
+        "definition": "Un type d'agent IA qui coordonne et supervise le travail de plusieurs autres agents plus spécialisés pour résoudre un problème complexe."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces du jour mettent l'accent sur la sécurité et les nouvelles capacités des plateformes IA. On découvre les efforts d'entreprises pour contrer les usages malveillants des modèles d'IA, ainsi que l'évolution de plateformes comme Computer de Perplexity, qui se positionne comme un \"système d'exploitation\" pour l'IA, intégrant des applications et offrant des contrôles d'effort pour mieux gérer la complexité des tâches.",
-      "tips": "Un conseil pratique ressort pour les utilisateurs de grands modèles de langage : ne pas hésiter à \"divaguer\" oralement avec l'IA. Cette méthode de \"flux de conscience\" permettrait aux LLM de mieux saisir les intentions complexes de l'utilisateur, menant à des résultats plus pertinents et moins d'ajustements.",
-      "idees": "Les réflexions du jour portent sur les frontières actuelles et futures de l'IA, de sa capacité à créer des mondes virtuels complexes à la nécessité de l'auditer pour la confiance publique. Des discussions explorent les limites des IA (comme un agent \"joueur\" qui se frustre) et les défis d'alignement pour s'assurer que les modèles agissent selon nos valeurs, ainsi que des perspectives historiques sur les prédictions technologiques.",
-      "outils": "De nouveaux outils et capacités d'IA sont présentés, comme \"Atlas\", un modèle multimodal capable de générer et reconstruire des scènes 3D avec un contrôle précis de la caméra. On découvre également des démonstrations impressionnantes, comme un LLM qui génère un monde virtuel détaillé du Seigneur des Anneaux, et un SDK de recherche pour les agents de codage, simplifiant l'accès aux informations pour les IA développeurs."
+      "actu": "Plusieurs annonces majeures ont marqué la journée, notamment des levées de fonds significatives pour des acteurs clés de l'IA, le lancement de nouvelles entreprises innovantes proposant de nouvelles approches de développement logiciel basées sur le langage naturel, et des mises à jour de produits améliorant l'expérience utilisateur des assistants IA.",
+      "tips": "Les utilisateurs de Claude ont reçu des astuces précieuses aujourd'hui, notamment sur la gestion des agents via des fichiers de configuration dédiés et des retours d'expérience sur l'efficacité des 'Projets' qui transforment la façon de coder et de collaborer avec l'IA, en permettant à l'IA de gérer des conversations parallèles et de travailler en arrière-plan.",
+      "idees": "Les discussions ont soulevé des questions profondes sur l'avenir de l'IA et son impact sociétal. Des réflexions ont été partagées sur les dangers des IA autonomes, l'importance du logiciel libre face aux monopoles, et la nécessité d'une gouvernance étatique compétente et rapide pour encadrer le développement rapide de l'IA. Des visions plus larges sur les changements géopolitiques futurs ont également été abordées.",
+      "outils": "De nombreux nouveaux modèles et outils IA ont été présentés, mettant en lumière des avancées en robotique avec des modèles capables de guider des robots via le langage naturel, en sécurité des contenus, en résolution de problèmes mathématiques complexes, et en reconnaissance optique de caractères (OCR) capable de déchiffrer des textes manuscrits avec une grande précision."
     },
     "highlights": [
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Nous commençons à dépasser le stade où l'on testerait un LLM en lui demandant, par exemple, de \"créer un SVG d'un pélican sur un vélo\". Pour généraliser cette idée, je voulais voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de tokens (~10 $) et que je lui demandais un rendu three.js de cette histoire. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu \"bancal\" mais amusant. Mais c'est assez ahurissant que le LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire du code qui anime tout cela, et qu'il fasse même quelque chose du tout. J'aime aussi ce genre d'exemples parce que personne de sensé ne passerait jamais autant de temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où l'on passe de \"personne ne ferait jamais ça\" à \"bien sûr, pourquoi pas, c'est presque gratuit\". Il pourrait y en avoir bien d'autres. Mais je suis enthousiasmé par la création de mondes hyper-personnalisés dans lesquels on pourrait imaginer plonger des joueurs, par exemple pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux en leur sein. Ici, Opus 5 a dû prendre des captures d'écran très lentement et laborieusement à différents moments, et il s'est trompé plusieurs fois, créant pas mal de \"bricolage\". Un exemple de capacité brute (multimodale, gameplay) qui, je pense, manque encore beaucoup. Video",
-        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-        "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
-        "decryptage": "Un \"LLM\" (Large Language Model) est un grand modèle de langage, comme ChatGPT, capable de comprendre et de générer du texte, et ici, de créer du code pour des mondes virtuels. Les \"tokens\" sont les unités de texte que les LLM traitent, comme des mots ou des morceaux de mots.",
+        "author_name": "Yann LeCun",
+        "handle": "@ylecun",
+        "text_fr": "🚨 OBAMA SUR L'IA : « Si nous pensons à l'IA uniquement en termes de comment guérir le cancer ou obtenir une meilleure énergie, vous pouvez le faire sans avoir une IA agentique qui se balade librement sur internet. La raison pour laquelle vous le faites est que vous devez commercialiser un produit que les gens paieront. C'est un décalage entre ce dont notre société a besoin et les impératifs commerciaux auxquels ces entreprises sont confrontées, non pas nécessairement parce qu'elles essaient de faire de mauvaises choses, mais parce qu'elles doivent justifier leurs valorisations. C'est donc une raison de plus pour laquelle il est vraiment important que nous ayons un gouvernement compétent et une conversation sérieuse et bipartite sur cette question, et nous devons le faire rapidement. Et j'encouragerais les électeurs à y prêter attention. Si quelqu'un n'a pas un plan sérieux pour gérer cela, alors il n'est pas à la hauteur du moment, et vous devriez probablement chercher quelqu'un d'autre. » Vidéo",
+        "text_original": "🚨 OBAMA ON AI: \"If we are thinking about AI just in terms of how do we cure cancer or get better energy, you can do that without having agentic AI and having it just roaming free in the internet. The reason you are doing that is because you have to market a product that people will pay money for. That’s a misalignment between what our society needs and the commercial imperatives that these companies are facing, not because necessarily they’re trying to do bad things, but because they’ve got to justify these valuations. So, that’s one more reason why it is really important for us to have a competent government and a serious bipartisan conversation around this issue, and we have to do it fast. And I would encourage voters to pay attention to this. If somebody does not have a serious plan for how to deal with this, then they’re not meeting the moment, and you should probably look for somebody else.\" Video",
+        "decryptage": "Une « IA agentique » est une intelligence artificielle capable d'agir de manière autonome pour atteindre des objectifs, potentiellement sans supervision humaine constante, ce qui soulève des questions de contrôle et de sécurité.",
         "category": "idees",
-        "highlight_reason": "Ce tweet illustre de manière spectaculaire la capacité d'un LLM à créer un monde virtuel complexe et personnalisé, tout en soulignant ses limites actuelles."
+        "highlight_reason": "Ce tweet est important car il met en lumière les enjeux politiques et sociétaux majeurs de l'IA, au-delà de la simple technologie, avec un appel à la responsabilité des gouvernements et des citoyens."
       },
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Une astuce que je trouve utile pour travailler avec les LLM est de faire de longues sessions de \"bavardage\" désordonné. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas-là, j'aime m'adosser, passer en mode /voix et juste divaguer pendant environ 10 minutes, un fouillis total, tout y passe, un vrai \"flux de conscience\". Parfois, je l'annonce au début, quelque chose comme \"je passe en reconnaissance vocale, désolé pour les fautes de frappe...\". Parfois, j'en fais une petite interview en quelques tours. Mais je trouve que les LLM sont étonnamment bons pour reconstruire de longs monologues incohérents, et souvent leur \"écho\" de vos propres pensées embrouillées ressort beaucoup plus clair que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la \"fusion des esprits\" et avez moins de choses à corriger par la suite.",
-        "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-        "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
-        "decryptage": null,
-        "category": "tips",
-        "highlight_reason": "C'est un conseil très concret et surprenant pour améliorer l'interaction avec les IA, applicable immédiatement par un débutant pour obtenir de meilleurs résultats."
+        "author_name": "Jeff Dean",
+        "handle": "@JeffDean",
+        "text_fr": "Aujourd'hui, G5 Labs sort de sa phase de discrétion avec 14 millions de dollars de financement initial pour construire une nouvelle couche d'abstraction pour le développement de logiciels 'AI-native'. @pillar_vc et @BatteryVentures ont co-dirigé le tour de table, avec la participation d'@omegavp, Encoded Ventures, et d'investisseurs providentiels de renom dont @JeffDean. G5 Labs est le pionnier de l'ère post-développeur. Issu du laboratoire CSAIL du MIT (Computer Science and Artificial Intelligence Laboratory), la plateforme G5 Labs fait de l'intention en langage naturel, organisée comme une ontologie, le code source lui-même — mettant le développement logiciel entre les mains de l'ensemble de l'organisation tout en fournissant la gouvernance nécessaire pour maintenir l'alignement entre les exigences, l'implémentation et les politiques organisationnelles. Nous sommes ravis de construire un avenir où les employés de tous les départements, des chefs de produit aux analystes et aux responsables de la conformité, pourront créer et faire évoluer des logiciels en utilisant le langage qu'ils parlent déjà. Lisez notre annonce complète : g5labs.ai/press Lisez plus dans VentureBeat : lnkd.in/gh4H5_zF Lien G5 Labs — La programmation est morte. L'ingénierie prospère. Le langage naturel est le nouveau code source. G5 est la couche d'abstraction sémantique qui rend le développement de logiciels 'AI-native' compilable, fusionnable et gouvernable pour les entreprises. g5labs.ai",
+        "text_original": "Today, G5 Labs is emerging from stealth with $14 million in seed funding to build a new abstraction layer for AI-native software development. @pillar_vc and @BatteryVentures co-led the round, with participation from @omegavp , Encoded Ventures, and prominent angel investors including @JeffDean . G5 Labs is pioneering the post-developer era. A spinout from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), the G5 Labs platform makes natural-language intent, organized as an ontology, the source code itself—putting software development in the hands of the whole organization while providing the governance needed to keep requirements, implementation, and organizational policies aligned. We’re excited to build a future where employees across departments, from product owners to analysts and compliance leads, can create and evolve software using the language they already speak. Read our full announcement: g5labs.ai/press Read more in VentureBeat: lnkd.in/gh4H5_zF Link G5 Labs — Programming is dead. Engineering is thriving. Natural language is the new source code. G5 is the semantic abstraction layer that makes AI-native software development compilable, mergeable, and governable for enterprises. g5labs.ai",
+        "decryptage": "Une \"couche d'abstraction\" est un niveau qui simplifie des systèmes complexes, tandis que le \"développement de logiciels 'AI-native'\" signifie créer des programmes conçus dès le départ pour tirer parti de l'IA, et une \"ontologie\" est un ensemble structuré de concepts et de relations qui permet de représenter la connaissance de manière organisée.",
+        "category": "actu",
+        "highlight_reason": "Ce tweet annonce une approche révolutionnaire du développement logiciel où le langage naturel devient le code, ce qui pourrait démocratiser la création de logiciels et changer radicalement le rôle des développeurs."
       },
       {
-        "author_name": "Aidan McLaughlin",
-        "handle": "@aidan_mclau",
-        "text_fr": "La société \"Artificial Intelligence Underwriting Company\" a levé 55 millions de dollars pour auditer et assurer les modèles d'IA de pointe. L'assurance produit des audits auxquels le public peut faire confiance et qu'il peut comprendre. Le mécanisme est simple : les assureurs ont besoin d'audits pour évaluer le risque. Ils choisissent des auditeurs qu'ils estiment les aideront à évaluer le risque le plus précisément possible. Les assureurs transforment ensuite les audits en un signal de prix qui dépasse les débats politiques. Les assureurs sont alignés avec le public : s'ils se trompent dans les audits, ils font faillite. C'est différent d'aujourd'hui, où les laboratoires choisissent leurs propres auditeurs, ce qui crée de la méfiance. L'assurance ne fonctionne que si nous augmentons les audits, et nous construisons l'infrastructure pour cela. Des millions d'agents sont déployés ; ils laissent des téraoctets de traces et créeront des milliers d'incidents dans des dizaines de catégories de risques. Pour étendre l'audit, nous avons besoin d'agents fiables pour faire remonter les traces de preuves pour examen humain. L'histoire nous guide. Prenez les voitures : les assureurs automobiles ont financé des crash tests pour évaluer les risques ; les crash tests ont conduit aux airbags, réduisant le risque. Prenez l'électricité : les assureurs habitation ont financé des tests d'ampoules pour évaluer les risques d'incendie ; aujourd'hui, chaque ampoule porte une marque de sécurité. La sécurité nucléaire fonctionne de manière similaire. Nous avons appris en faisant... Au cours des 6 derniers mois, nous avons audité et assuré des constructeurs d'agents de pointe comme Cursor, ElevenLabs, Lovable et Harvey. Pour qu'ElevenLabs obtienne la première couverture d'assurance d'agent au monde, un assureur Lloyd's of London a exigé des audits techniques trimestriels par un auditeur choisi par l'assureur. Nous avons construit l'infrastructure pour des audits techniques trimestriels de tout agent, en collaboration avec des entreprises comme Gray Swan (évaluations techniques) et Schellman (audit). Dans les semaines à venir, nous partagerons notre vision de la façon dont un écosystème d'assurance peut fonctionner pour la \"frontière\" de l'IA, et nous mettrons en open source le premier modèle actuariel au monde pour le risque catastrophique de l'IA de pointe. Nous recrutons pour tous les postes à San Francisco. Venez faire le travail de votre vie avec nous. Rune & Rajiv",
-        "text_original": "The Artificial Intelligence Underwriting Company has raised $55M to audit and insure frontier AI models. Insurance produces audits the public can trust and understand. The mechanism is simple: insurers need audits to price the risk. They pick auditors they believe will help them price the risk most accurately. Insurers then turn the audits into a price signal that cuts through political debates. Insurers are aligned with the public: if they get the audits wrong, they go out of business. That’s different from today, where labs pick their own auditors, creating public distrust. Insurance only works if we scale up auditing, and we are building the infrastructure to do that. Millions of agents are being deployed; they leave terabytes of traces and will create thousands of incidents across dozens of risk categories. To scale auditing, we need reliable agents to surface evidence traces for human review. History guides us. Take cars: auto insurers funded crash tests to price risks; crash tests led us to airbags, lowering the risk. Take electricity: home insurers funded lightbulb tests to price fire risks; today, every lightbulb carries a safety mark. Nuclear safety works similarly. We’ve been learning by doing.. In the last 6 months, we’ve audited and insured frontier agent builders like Cursor, ElevenLabs, Lovable and Harvey. For ElevenLabs to get the world’s first agent insurance coverage, a Lloyd’s of London insurer required quarterly technical audits by an auditor of the insurer’s choice. We’ve built infrastructure for quarterly technical audits of any agent, working alongside firms like Gray Swan (technical evaluations) and Schellman (audit). In the coming weeks, we’ll share our vision for how an insurance ecosystem can work for the frontier, and open source the world’s first actuarial model for frontier AI catastrophic risk. We’re hiring across all roles in San Francisco. Come do your life’s work with us. Rune & Rajiv",
-        "link": "http://shitter.thepixora.com/RuneKvist/status/2100249848264237521#m",
-        "decryptage": "Auditer un modèle d'IA signifie vérifier son fonctionnement, sa sécurité et sa conformité, souvent par une partie externe et indépendante. Les \"modèles d'IA de pointe\" sont les IA les plus avancées et puissantes du moment, souvent celles qui sont à la \"frontière\" de ce qui est possible.",
-        "category": "idees",
-        "highlight_reason": "Ce tweet aborde une question cruciale pour l'avenir de l'IA, la confiance et la sécurité, en proposant un mécanisme d'assurance innovant pour les modèles les plus avancés."
-      },
-      {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Présentation d'Atlas : le premier modèle mondial multimodal au monde qui génère des images et des séquences vidéo avec un contrôle parfait de la caméra au pixel près et les reconstitue en 3D. Modélisez le monde, déplacez la caméra et simulez l'espace et le temps. Video",
-        "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-        "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
-        "decryptage": "Un \"modèle mondial multimodal\" est un programme d'IA capable de comprendre et de créer des informations sous différentes formes (texte, images, vidéos) et de se faire une idée de la façon dont le monde fonctionne.",
+        "author_name": "Boris Cherny",
+        "handle": "@bcherny",
+        "text_fr": "Ce qui rend les projets Claude si intéressants, c'est qu'il gère très bien les équipes d'agents ; vous parlez à un agent orchestrateur principal et il déploie des spécialistes. En gros, il crée une organisation pour résoudre votre problème, mélangeant des agents chers et moins chers selon vos préférences. Par exemple, j'ai demandé à Fable dans Claude Projects de sélectionner des mystères historiques célèbres qu'il pourrait essayer de résoudre. Il a initié des agents de recherche, sélectionné les mystères en fonction des données auxquelles il pouvait accéder, et a lancé dix-huit discussions distinctes, chacune avec un agent se concentrant sur un mystère. Ensuite, chaque discussion a lancé des agents supplémentaires (simulant des avalanches, décryptant des codes) avant de les résumer et de les transmettre à d'autres agents pour la rédaction, et à un autre ensemble d'agents sceptiques pour la vérification des faits. Il a fait cela sur une journée de travail, avec l'agent orchestrateur central organisant le tout. Les résultats étaient intéressants si vous aimez les mystères historiques. Ils sont également pour le plaisir et certainement pas définitifs ou garantis sans erreur (mais ils sont aussi pour la plupart raisonnables et basés sur la littérature). historical-mysteries.netlify…",
+        "text_original": "What makes Claude Projects so interesting is that it handles teams of agents really well, you talk to a main orchestrator agent and it spins up specialists. Basically it creates an organization to solve your issue, mixing expensive and cheap agents depending on your preferences. For example, I asked Fable in Claude Projects to select famous historical mysteries that it could try to resolve. It initiated research agents, selected the mysteries based on data it could access, and spun up eighteen separate threads, each with an agent each focused on one mystery. Then each thread launched additional agents (simulating avalanches, breaking codes) before summarizing those and passing them to still more agents for write up and another set of skeptical agents to fact check. It did this over a day of work, with the central orchestrator agent organizing it all. The results were interesting if you like historical mysteries. They are also for fun and certainly not definitive or guaranteed error-free (but they are also mostly reasonable & grounded in the literature). historical-mysteries.netlify…",
+        "decryptage": "Un \"agent orchestrateur\" est un agent IA principal qui coordonne et délègue des tâches à d'autres \"agents spécialistes\" pour résoudre un problème complexe, en gérant des discussions (\"threads\") parallèles pour chaque sous-tâche.",
         "category": "outils",
-        "highlight_reason": "Ce tweet présente un modèle d'IA qui nous rapproche de la simulation de mondes virtuels complets, ouvrant des perspectives fascinantes pour la création et la recherche."
+        "highlight_reason": "Ce tweet illustre concrètement comment l'IA, via des systèmes d'agents orchestrés, peut aborder des problèmes complexes en répartissant le travail, une avancée clé pour l'efficacité et l'autonomie des IA."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Nous publions notre rapport le plus détaillé sur les menaces à ce jour. Il décrit comment des individus ont tenté d'utiliser Claude de manière abusive – pour des cyberattaques, des opérations d'influence, de la surveillance, des manipulations biologiques et la fabrication d'armes – et comment nous les avons détectés et stoppés. Nous avons déjoué toutes les opérations mentionnées dans le rapport et avons tiré des leçons pour renforcer nos mesures de sécurité. Le cas échéant, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en lumière certaines des utilisations abusives les plus sophistiquées que nous ayons observées. Mais il est particulièrement important d'en discuter, car ils nous montrent la direction que prend l'utilisation abusive de l'IA, l'efficacité de nos protections et les points à améliorer. Nous publions ce rapport afin que d'autres puissent identifier les mêmes activités sur leurs propres plateformes et pour offrir au public une vision plus claire de l'évolution des menaces émergentes. Lisez le rapport : anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
-          "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
-          "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Intéressé par la modélisation du monde avec une approche axée sur la physique ? Nous organisons l'atelier 'World Modeling for Physics' au merveilleux Aspen Center du 28 février au 5 mars 2027. Postulez pour des présentations (date limite le 9 octobre) ou pour participer (avant le 30 septembre) ! Ce sera un événement passionnant dans un cadre magnifique, réunissant des scientifiques du domaine et des chercheurs en IA ! wmw-aspen.github.io/ Avec @ylecun @randall_balestr @cosmo Randall Balestriero (@randall_balestr) Notre 4ème atelier sur la modélisation du monde se concentrera sur la *Physique* ! Il aura lieu à l'Aspen Center for Physics fin février ( wmw-aspen.github.io ) Si vous êtes intéressé par une présentation, soumettez votre résumé ici : docs.google.com/forms/d/e/1F… Date limite le 9 octobre, résumé d'une page !",
+          "text_original": "Interested in World Modeling with a lens on Physics? We are organizing the World Modeling for Physics workshop at the wonderful Aspen Center 2/28-3/5/27. Apply for presentations (deadline Oct 9) or participation (by 9/30)! It will be an exciting event in a great setting bringing together domain scientists and AI researchers! wmw-aspen.github.io/ With @ylecun @randall_balestr @cosmo Randall Balestriero (@randall_balestr) Our 4th world modeling workshop will be looking at *Physics*! Happening at the Aspen Center for Physics end of February ( wmw-aspen.github.io ) If you are interested in presenting, submit your abstract here: docs.google.com/forms/d/e/1F… Deadline on October 9th, 1 page Abstract! — http://shitter.thepixora.com/randall_balestr/status/2100649310958284951#m",
+          "decryptage": "La \"modélisation du monde\" est une approche en IA où un système tente de comprendre et de prédire le comportement de son environnement, ici appliqué au domaine de la physique."
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Aujourd'hui, G5 Labs sort de sa phase de discrétion avec 14 millions de dollars de financement initial pour construire une nouvelle couche d'abstraction pour le développement de logiciels 'AI-native'. @pillar_vc et @BatteryVentures ont co-dirigé le tour de table, avec la participation d'@omegavp, Encoded Ventures, et d'investisseurs providentiels de renom dont @JeffDean. G5 Labs est le pionnier de l'ère post-développeur. Issu du laboratoire CSAIL du MIT (Computer Science and Artificial Intelligence Laboratory), la plateforme G5 Labs fait de l'intention en langage naturel, organisée comme une ontologie, le code source lui-même — mettant le développement logiciel entre les mains de l'ensemble de l'organisation tout en fournissant la gouvernance nécessaire pour maintenir l'alignement entre les exigences, l'implémentation et les politiques organisationnelles. Nous sommes ravis de construire un avenir où les employés de tous les départements, des chefs de produit aux analystes et aux responsables de la conformité, pourront créer et faire évoluer des logiciels en utilisant le langage qu'ils parlent déjà. Lisez notre annonce complète : g5labs.ai/press Lisez plus dans VentureBeat : lnkd.in/gh4H5_zF Lien G5 Labs — La programmation est morte. L'ingénierie prospère. Le langage naturel est le nouveau code source. G5 est la couche d'abstraction sémantique qui rend le développement de logiciels 'AI-native' compilable, fusionnable et gouvernable pour les entreprises. g5labs.ai",
+          "text_original": "Today, G5 Labs is emerging from stealth with $14 million in seed funding to build a new abstraction layer for AI-native software development. @pillar_vc and @BatteryVentures co-led the round, with participation from @omegavp , Encoded Ventures, and prominent angel investors including @JeffDean . G5 Labs is pioneering the post-developer era. A spinout from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), the G5 Labs platform makes natural-language intent, organized as an ontology, the source code itself—putting software development in the hands of the whole organization while providing the governance needed to keep requirements, implementation, and organizational policies aligned. We’re excited to build a future where employees across departments, from product owners to analysts and compliance leads, can create and evolve software using the language they already speak. Read our full announcement: g5labs.ai/press Read more in VentureBeat: lnkd.in/gh4H5_zF Link G5 Labs — Programming is dead. Engineering is thriving. Natural language is the new source code. G5 is the semantic abstraction layer that makes AI-native software development compilable, mergeable, and governable for enterprises. g5labs.ai",
+          "decryptage": "Une \"couche d'abstraction\" est un niveau qui simplifie des systèmes complexes, tandis que le \"développement de logiciels 'AI-native'\" signifie créer des programmes conçus dès le départ pour tirer parti de l'IA, et une \"ontologie\" est un ensemble structuré de concepts et de relations qui permet de représenter la connaissance de manière organisée."
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Résultats excitants, @LiamFedus ! Félicitations à toute l'équipe de Periodic Labs ! Liam Fedus (@LiamFedus) Nous avons construit des laboratoires de matériaux à haut débit à Menlo Park pour créer une boucle entre les expériences et les modèles. Les laboratoires génèrent de nouvelles données, les modèles en tirent des leçons, puis nous aident à décider quoi essayer ensuite. En utilisant seulement 1 300 H200 (type de carte graphique puissante) et des mois de nos données expérimentales, nous avons entraîné et appliqué l'apprentissage par renforcement (RL) à un modèle open-source pour surpasser GPT-6 Astra sur notre benchmark d'analyse. Nous l'appelons Neon. Ceci est une véritable séquence de notre laboratoire. Nous nous concentrons d'abord sur des problèmes difficiles en science des matériaux, y compris les supraconducteurs, les aimants et les matériaux semi-conducteurs. Lisez nos articles de blog ci-dessous. Vidéo",
+          "text_original": "Exciting results, @LiamFedus ! Congrats to the whole team at Periodic Labs! Liam Fedus (@LiamFedus) We built high-throughput materials labs in Menlo Park to create a loop between experiments and models. The labs generate fresh data, the models learn from it, and then help us decide what to try next. Using only 1,300 H200s, plus months of our experimental data, we mid-trained and RL’d an open-source model to surpass GPT-6 Astra on our analysis benchmark. We call it Neon. This is real footage from our lab. We’re focusing first on hard problems in materials science, including superconductors, magnets, and semiconductor materials. Read our blog posts below. Video — http://shitter.thepixora.com/LiamFedus/status/2099896055030501702#m",
+          "decryptage": "Les \"H200\" font référence à des cartes graphiques puissantes utilisées pour l'entraînement d'IA, et \"RL'd\" signifie que le modèle a été amélioré par \"l'apprentissage par renforcement\", une technique où l'IA apprend par essais et erreurs en recevant des récompenses."
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Ravi de m'associer à @DiscoLoopAI ! Ils recrutent activement dans l'ingénierie et la recherche - n'hésitez pas à les contacter si la mission vous intéresse. Discovery Loop (@DiscoLoopAI) Présentation de Discovery Loop ♾. Nous construisons une IA pour réaliser des expériences à une échelle sans précédent et résoudre les plus grands goulots d'étranglement de la science et de l'ingénierie. Nos fondateurs @JeffDean, @Sanjay_Ghemawat, @quocleix, @OriolVinyalsML ont contribué à bâtir l'infrastructure et les modèles d'IA qui ont mis le monde moderne à l'échelle. Maintenant, nous mettons la découverte elle-même à l'échelle. L'avenir n'attend pas. En savoir plus sur : discoveryloop.com",
+          "text_original": "Excited to partner with @DiscoLoopAI ! They are actively hiring across engineering & research - please reach out if the mission sounds interesting to you. Discovery Loop (@DiscoLoopAI) Introducing Discovery Loop ♾. We’re building AI to run experiments at unprecedented scale and to solve the biggest bottlenecks in science and engineering. Our founders @JeffDean , @Sanjay_Ghemawat , @quocleix , @OriolVinyalsML helped build the AI infrastructure and models that scaled the modern world. Now, we are scaling discovery itself. The future can't wait. Learn more at: discoveryloop.com — http://shitter.thepixora.com/DiscoLoopAI/status/2085033268001587534#m",
           "decryptage": null
         },
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "L'IA est le système d'exploitation. Computer (@AskPerplexity) Vous pouvez désormais connecter des applications depuis le composeur de la page d'accueil de Computer. Disponible dès maintenant sur le web pour tous les utilisateurs de Computer. Video — http://shitter.thepixora.com/AskPerplexity/status/2101147964307849718#m",
-          "text_original": "AI is the OS. Computer (@AskPerplexity) You can now connect apps from the Computer homepage composer. Live now on the web for all Computer users. Video — http://shitter.thepixora.com/AskPerplexity/status/2101147964307849718#m",
-          "link": "http://shitter.thepixora.com/AravSrinivas/status/2101149706235834829#m",
-          "decryptage": "Comparer l'IA à un \"système d'exploitation\" (OS) signifie qu'elle est la base sur laquelle toutes les autres applications et outils pourront fonctionner, un peu comme Windows ou macOS pour un ordinateur."
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Aujourd'hui, nous combinons Cowork et Chat en un seul Claude. Vous pouvez poser des questions puis passer à un travail sérieux dans la même conversation. Lorsque votre ordinateur est ouvert, Claude peut utiliser vos fichiers et applications locaux - et si vous le fermez, Claude continuera à travailler avec son propre ordinateur dans le cloud.",
+          "text_original": "Today, we're combining Cowork and Chat into one Claude. You can fire off questions and then turn to serious work in the same conversation. When your computer is open, Claude can use your local files and apps - and if you close it, Claude will keep working with its own computer in the cloud.",
+          "decryptage": null
         },
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "Computer est le meilleur \"harnais\" multimodèle pour les tâches \"agentiques\" à long terme. Il propose désormais des préréglages pour différents niveaux d'effort (coût et intelligence) que nous avons jugés les plus efficaces pour nos utilisateurs, avec des options pour personnaliser encore davantage pour les utilisateurs avancés. Perplexity (@perplexity_ai) Nous déployons des contrôles d'effort dans le sélecteur de modèles de Computer. Les préréglages d'effort combinent le modèle d'orchestration et la profondeur de raisonnement pour contrôler la profondeur et l'efficacité avec lesquelles Computer exécute une tâche. Disponible dès maintenant sur le web. Bientôt sur mobile et desktop. Video — http://shitter.thepixora.com/perplexity_ai/status/2100617849677176992#m",
-          "text_original": "Computer is the best multi model harness for long horizon agentic workloads. It now has a few presets for different effort (cost and intelligence levels) that we’ve seen to work best for our users, with toggles to customize even further for power users. Perplexity (@perplexity_ai) We’re rolling out effort controls in Computer’s model selector. Effort presets combine the orchestrator model and reasoning depth to control how deeply and efficiently Computer works through a task. Available now on web. Coming to mobile and desktop soon. Video — http://shitter.thepixora.com/perplexity_ai/status/2100617849677176992#m",
-          "link": "http://shitter.thepixora.com/AravSrinivas/status/2100635004829315171#m",
-          "decryptage": "Un \"harnais multimodèle\" est un système qui permet à l'IA de combiner plusieurs types de modèles (pour le texte, l'image, etc.) afin de travailler sur des tâches complexes. Les \"tâches agentiques\" désignent des missions où l'IA agit de manière autonome, en prenant des décisions et en effectuant une série d'actions pour atteindre un objectif."
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons notre capacité de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux -- Paris, Palo Alto, San Francisco, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons un tour de série D de 3 milliards d'euros, le plus grand tour de table jamais réalisé par une entreprise technologique européenne, seulement trois ans après son lancement.",
+          "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+          "decryptage": null
         }
       ],
       "tips": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Une astuce que je trouve utile pour travailler avec les LLM est de faire de longues sessions de \"bavardage\" désordonné. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas-là, j'aime m'adosser, passer en mode /voix et juste divaguer pendant environ 10 minutes, un fouillis total, tout y passe, un vrai \"flux de conscience\". Parfois, je l'annonce au début, quelque chose comme \"je passe en reconnaissance vocale, désolé pour les fautes de frappe...\". Parfois, j'en fais une petite interview en quelques tours. Mais je trouve que les LLM sont étonnamment bons pour reconstruire de longs monologues incohérents, et souvent leur \"écho\" de vos propres pensées embrouillées ressort beaucoup plus clair que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la \"fusion des esprits\" et avez moins de choses à corriger par la suite.",
-          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-          "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Nous ajoutons la prise en charge de AGENTS.md à Claude Code. À partir d'aujourd'hui, dans la version 2.1.277, s'il n'y a pas de CLAUDE.md dans un dossier, Claude vérifiera et utilisera AGENTS.md. Vous pouvez activer/désactiver ce comportement dans /config.",
+          "text_original": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle this behavior in /config.",
+          "decryptage": "AGENTS.md et CLAUDE.md sont probablement des fichiers de configuration spéciaux qui indiquent à l'IA (Claude) comment se comporter ou quelles instructions suivre pour des tâches spécifiques."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Les Projets ont changé non seulement la façon dont j'interagis avec Claude, mais aussi ma façon de coder. J'ai arrêté de gérer les sessions. J'envoie simplement mes pensées au fur et à mesure, Claude les divise en discussions (threads), et le projet se souvient de ma façon de travailler. C'est là que je fais une grande partie de mon codage maintenant. [capture d'écran : mes invites réelles pour Claude Code CLI hier] ClaudeDevs (@ClaudeDevs) Aujourd'hui, nous déployons les Projets dans Claude Code sur ordinateur de bureau et sur le web. Un projet est une conversation avec Claude. Il divise le travail en discussions lui-même, les exécute comme des sessions cloud parallèles, transmet le contexte entre elles, et continue de fonctionner lorsque vous partez. En version bêta pour certains utilisateurs. Vidéo",
+          "text_original": "Projects have changed not only how I interact with Claude but how I code. I stopped managing sessions. I just send thoughts as they come, Claude splits them into threads, and the project remembers how I work. It's where I do a ton of my coding now. [screenshot: my actual prompts for claude code cli yesterday] ClaudeDevs (@ClaudeDevs) Today we're rolling out Projects in Claude Code on desktop and web. A project is one conversation with Claude. It splits the work into threads itself, runs them as parallel cloud sessions, passes context between them, and keeps going when you leave. In beta for select users. Video — http://shitter.thepixora.com/ClaudeDevs/status/2100633571543367691#m",
+          "decryptage": "Dans le contexte de l'IA, les \"sessions\" peuvent être des interactions uniques avec le modèle, et les \"discussions\" (threads) sont des processus parallèles ou des suites d'échanges qu'un modèle gère simultanément pour accomplir différentes parties d'une tâche."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Les Projets sont la façon dont j'écris une grande partie de mon code ces jours-ci. Très excité que tout le monde puisse essayer la nouvelle expérience ! Déploiement en cours Claude (@claudeai) Les Projets fonctionnent maintenant à partir d'une seule conversation, à commencer par Claude Code. Vous décrivez ce qu'il faut faire, et Claude dirige des discussions parallèles qui continuent de fonctionner après que vous ayez fermé votre ordinateur portable. En version bêta aujourd'hui pour certains utilisateurs Pro et Max en sessions cloud ; bientôt disponible pour tous les utilisateurs de Claude. Vidéo",
+          "text_original": "Projects now run from one conversation, starting in Claude Code. You describe what needs doing, and Claude directs parallel threads that keep working after you close your laptop. In beta today for select Pro and Max users in cloud sessions; coming to all Claude users soon. Video — http://shitter.thepixora.com/claudeai/status/2100632677904744716#m",
           "decryptage": null
         }
       ],
       "idees": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Nous commençons à dépasser le stade où l'on testerait un LLM en lui demandant, par exemple, de \"créer un SVG d'un pélican sur un vélo\". Pour généraliser cette idée, je voulais voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de tokens (~10 $) et que je lui demandais un rendu three.js de cette histoire. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu \"bancal\" mais amusant. Mais c'est assez ahurissant que le LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire du code qui anime tout cela, et qu'il fasse même quelque chose du tout. J'aime aussi ce genre d'exemples parce que personne de sensé ne passerait jamais autant de temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où l'on passe de \"personne ne ferait jamais ça\" à \"bien sûr, pourquoi pas, c'est presque gratuit\". Il pourrait y en avoir bien d'autres. Mais je suis enthousiasmé par la création de mondes hyper-personnalisés dans lesquels on pourrait imaginer plonger des joueurs, par exemple pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux en leur sein. Ici, Opus 5 a dû prendre des captures d'écran très lentement et laborieusement à différents moments, et il s'est trompé plusieurs fois, créant pas mal de \"bricolage\". Un exemple de capacité brute (multimodale, gameplay) qui, je pense, manque encore beaucoup. Video",
-          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-          "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
-          "decryptage": "Un \"LLM\" (Large Language Model) est un grand modèle de langage, comme ChatGPT, capable de comprendre et de générer du texte, et ici, de créer du code pour des mondes virtuels. Les \"tokens\" sont les unités de texte que les LLM traitent, comme des mots ou des morceaux de mots."
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "La chose intéressante à propos de cette panique du logiciel open source de 1995 était que les gens semblaient penser qu'il était 'agentique'. Pessimists Archive (@PessimistsArc) En 1995, tout le monde paniquait à propos d'un logiciel qui pouvait automatiquement trouver des failles sur les systèmes informatiques… newsletter.pessimistsarchive…",
+          "text_original": "The interesting thing about this 1995 open source software panic was that people seemed to think it was ‘agentic’ Pessimists Archive (@PessimistsArc) In 1995 everyone panicked about software that to could automatically find exploits on computer systems… newsletter.pessimistsarchive… — http://shitter.thepixora.com/PessimistsArc/status/2099323309913502020#m",
+          "decryptage": "L'idée d'un logiciel 'agentique' fait référence à un programme capable d'agir de manière autonome et de prendre ses propres décisions, ce qui pouvait effrayer à l'époque comme aujourd'hui pour les IA."
         },
         {
-          "author_name": "Aidan McLaughlin",
-          "handle": "@aidan_mclau",
-          "text_fr": "codex, annule toutes mes réunions du matin. Dwarkesh Patel (@dwarkesh_sp) Nouvel épisode avec @polynoamial. Nous discutons des systèmes multi-agents, des équations de Navier-Stokes et de ce que l'explosion actuelle des progrès en mathématiques nous dit sur ce qui se passe une fois que la recherche en IA est automatisée. Et nous abordons également comment nous saurons si les modèles sont réellement \"alignés\" avant de lancer l'Amélioration Récursive de Soi (RSI). 0:00:00 – Multi-agent et Navier-Stokes 0:15:28 – Comment fonctionneront les entreprises d'IA ? 0:22:02 – Ce que les progrès en maths nous apprennent sur l'auto-amélioration récursive 0:40:22 – Hugging Face et l'alignement 1:01:18 – L'écart modèle interne/externe 1:08:34 – La \"chaîne de pensée\" se dégrade 1:14:12 – Comment saurons-nous quand l'alignement sera résolu ? Video — http://shitter.thepixora.com/dwarkesh_sp/status/2100616332144169048#m",
-          "text_original": "codex, clear all my morning meetings Dwarkesh Patel (@dwarkesh_sp) New episode with @polynoamial We talk about multi-agent, Navier-Stokes, and what the current explosion of maths progress tells us about what happens once you automate AI research. And we also discuss how we will know if the models are actually aligned before we kick off RSI. 0:00:00 – Multi-agent and Navier-Stokes 0:15:28 – How will AI firms work? 0:22:02 – What math progress tells us about recursive self improvement 0:40:22 – Hugging Face and alignment 1:01:18 – The internal/external model gap 1:08:34 – Chain of thought is degrading 1:14:12 – How will we know when alignment is solved? Video — http://shitter.thepixora.com/dwarkesh_sp/status/2100616332144169048#m",
-          "link": "http://shitter.thepixora.com/aidan_mclau/status/2100626662736167059#m",
-          "decryptage": "Les systèmes \"multi-agents\" impliquent plusieurs IA travaillant ensemble. L'\"alignement\" en IA est le défi de s'assurer que les intelligences artificielles agissent selon les intentions et les valeurs humaines. L'\"Amélioration Récursive de Soi\" (RSI) est l'idée qu'une IA pourrait se rendre plus intelligente de manière répétée, jusqu'à potentiellement dépasser l'intelligence humaine."
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Vous et Yoshua aidez involontairement ceux qui veulent verrouiller la recherche et le développement de l'IA et protéger leurs affaires en interdisant la recherche ouverte, le code open-source et les modèles en accès libre. Cela mènera inévitablement à de mauvais résultats à moyen terme.",
+          "text_original": "You and Yoshua are inadvertently helping those who want to put AI research and development under lock and key and protect their business by banning open research, open-source code, and open-access models. This will inevitably lead to bad outcomes in the medium term.",
+          "decryptage": "Le \"code open-source\" et les \"modèles en accès libre\" (open-access models) désignent des technologies dont le code ou les paramètres sont publiquement disponibles, permettant la transparence et la collaboration, contrairement aux systèmes propriétaires 'verrouillés'."
         },
         {
-          "author_name": "Aidan McLaughlin",
-          "handle": "@aidan_mclau",
-          "text_fr": "La société \"Artificial Intelligence Underwriting Company\" a levé 55 millions de dollars pour auditer et assurer les modèles d'IA de pointe. L'assurance produit des audits auxquels le public peut faire confiance et qu'il peut comprendre. Le mécanisme est simple : les assureurs ont besoin d'audits pour évaluer le risque. Ils choisissent des auditeurs qu'ils estiment les aideront à évaluer le risque le plus précisément possible. Les assureurs transforment ensuite les audits en un signal de prix qui dépasse les débats politiques. Les assureurs sont alignés avec le public : s'ils se trompent dans les audits, ils font faillite. C'est différent d'aujourd'hui, où les laboratoires choisissent leurs propres auditeurs, ce qui crée de la méfiance. L'assurance ne fonctionne que si nous augmentons les audits, et nous construisons l'infrastructure pour cela. Des millions d'agents sont déployés ; ils laissent des téraoctets de traces et créeront des milliers d'incidents dans des dizaines de catégories de risques. Pour étendre l'audit, nous avons besoin d'agents fiables pour faire remonter les traces de preuves pour examen humain. L'histoire nous guide. Prenez les voitures : les assureurs automobiles ont financé des crash tests pour évaluer les risques ; les crash tests ont conduit aux airbags, réduisant le risque. Prenez l'électricité : les assureurs habitation ont financé des tests d'ampoules pour évaluer les risques d'incendie ; aujourd'hui, chaque ampoule porte une marque de sécurité. La sécurité nucléaire fonctionne de manière similaire. Nous avons appris en faisant... Au cours des 6 derniers mois, nous avons audité et assuré des constructeurs d'agents de pointe comme Cursor, ElevenLabs, Lovable et Harvey. Pour qu'ElevenLabs obtienne la première couverture d'assurance d'agent au monde, un assureur Lloyd's of London a exigé des audits techniques trimestriels par un auditeur choisi par l'assureur. Nous avons construit l'infrastructure pour des audits techniques trimestriels de tout agent, en collaboration avec des entreprises comme Gray Swan (évaluations techniques) et Schellman (audit). Dans les semaines à venir, nous partagerons notre vision de la façon dont un écosystème d'assurance peut fonctionner pour la \"frontière\" de l'IA, et nous mettrons en open source le premier modèle actuariel au monde pour le risque catastrophique de l'IA de pointe. Nous recrutons pour tous les postes à San Francisco. Venez faire le travail de votre vie avec nous. Rune & Rajiv",
-          "text_original": "The Artificial Intelligence Underwriting Company has raised $55M to audit and insure frontier AI models. Insurance produces audits the public can trust and understand. The mechanism is simple: insurers need audits to price the risk. They pick auditors they believe will help them price the risk most accurately. Insurers then turn the audits into a price signal that cuts through political debates. Insurers are aligned with the public: if they get the audits wrong, they go out of business. That’s different from today, where labs pick their own auditors, creating public distrust. Insurance only works if we scale up auditing, and we are building the infrastructure to do that. Millions of agents are being deployed; they leave terabytes of traces and will create thousands of incidents across dozens of risk categories. To scale auditing, we need reliable agents to surface evidence traces for human review. History guides us. Take cars: auto insurers funded crash tests to price risks; crash tests led us to airbags, lowering the risk. Take electricity: home insurers funded lightbulb tests to price fire risks; today, every lightbulb carries a safety mark. Nuclear safety works similarly. We’ve been learning by doing.. In the last 6 months, we’ve audited and insured frontier agent builders like Cursor, ElevenLabs, Lovable and Harvey. For ElevenLabs to get the world’s first agent insurance coverage, a Lloyd’s of London insurer required quarterly technical audits by an auditor of the insurer’s choice. We’ve built infrastructure for quarterly technical audits of any agent, working alongside firms like Gray Swan (technical evaluations) and Schellman (audit). In the coming weeks, we’ll share our vision for how an insurance ecosystem can work for the frontier, and open source the world’s first actuarial model for frontier AI catastrophic risk. We’re hiring across all roles in San Francisco. Come do your life’s work with us. Rune & Rajiv",
-          "link": "http://shitter.thepixora.com/RuneKvist/status/2100249848264237521#m",
-          "decryptage": "Auditer un modèle d'IA signifie vérifier son fonctionnement, sa sécurité et sa conformité, souvent par une partie externe et indépendante. Les \"modèles d'IA de pointe\" sont les IA les plus avancées et puissantes du moment, souvent celles qui sont à la \"frontière\" de ce qui est possible."
-        },
-        {
-          "author_name": "Aidan McLaughlin",
-          "handle": "@aidan_mclau",
-          "text_fr": "Le modèle a semblé vaincu, passant les heures suivantes à ne faire essentiellement rien d'autre que cultiver des pommes de terre. Les spectateurs du stream ont remarqué et se sont plaints qu'Astra devait \"accélérer le rythme\". Astra semblait également devenir paranoïaque à l'égard des \"creepers\" : \"la GRANDE chose VERTE devant était de la CANNE À SUCRE, PAS un creeper !\" Parfois, il était dur avec lui-même : \"tu peux tout gâcher et faire tomber des choses\" ; \"NE gaspille PAS une autre nuit à chasser des pixels rose foncé\" (sa propre formulation désobligeante pour les cochons) ; \"notre dernier outil a stupidement terminé Slabsselected/rightUP et 15 secondes de réflexion nous ont tués\".",
-          "text_original": "The model appeared defeated, spending the next several hours doing essentially nothing but farming potatoes. Stream viewers noticed and complained that Astra needed to \"pick up the pace.\" Astra also seemed to become paranoid about creepers: \"GREEN tall thing ahead was SUGARCANE, NOT creeper!\" At times it was hard on itself: \"you can screw up and drop things\"; \"do NOT waste another night chasing dark pink pixels\" (its own disparaging wording for pigs); \"our last tool stupidly ended Slabsselected/rightUP and 15sec thinking killed us\".",
-          "link": "http://shitter.thepixora.com/ValsAI/status/2099975441218162908#m",
-          "decryptage": "Cette anecdote montre que même les modèles d'IA avancés, quand ils interagissent avec des environnements complexes comme un jeu vidéo (ici Minecraft), peuvent rencontrer des difficultés inattendues, se comporter de manière peu efficace ou même \"sembler\" avoir des émotions comme la paranoïa ou l'auto-critique."
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "🚨 OBAMA SUR L'IA : « Si nous pensons à l'IA uniquement en termes de comment guérir le cancer ou obtenir une meilleure énergie, vous pouvez le faire sans avoir une IA agentique qui se balade librement sur internet. La raison pour laquelle vous le faites est que vous devez commercialiser un produit que les gens paieront. C'est un décalage entre ce dont notre société a besoin et les impératifs commerciaux auxquels ces entreprises sont confrontées, non pas nécessairement parce qu'elles essaient de faire de mauvaises choses, mais parce qu'elles doivent justifier leurs valorisations. C'est donc une raison de plus pour laquelle il est vraiment important que nous ayons un gouvernement compétent et une conversation sérieuse et bipartite sur cette question, et nous devons le faire rapidement. Et j'encouragerais les électeurs à y prêter attention. Si quelqu'un n'a pas un plan sérieux pour gérer cela, alors il n'est pas à la hauteur du moment, et vous devriez probablement chercher quelqu'un d'autre. » Vidéo",
+          "text_original": "🚨 OBAMA ON AI: \"If we are thinking about AI just in terms of how do we cure cancer or get better energy, you can do that without having agentic AI and having it just roaming free in the internet. The reason you are doing that is because you have to market a product that people will pay money for. That’s a misalignment between what our society needs and the commercial imperatives that these companies are facing, not because necessarily they’re trying to do bad things, but because they’ve got to justify these valuations. So, that’s one more reason why it is really important for us to have a competent government and a serious bipartisan conversation around this issue, and we have to do it fast. And I would encourage voters to pay attention to this. If somebody does not have a serious plan for how to deal with this, then they’re not meeting the moment, and you should probably look for somebody else.\" Video",
+          "decryptage": "Une « IA agentique » est une intelligence artificielle capable d'agir de manière autonome pour atteindre ses objectifs, potentiellement sans intervention humaine directe, ce qui soulève des questions de contrôle et de sécurité."
         },
         {
           "author_name": "Pieter Levels",
           "handle": "@levelsio",
-          "text_fr": "Arthur C. Clarke dans l'émission Horizon de la BBC en 1964, où il a fait des prédictions étonnantes sur l'avenir. Video",
+          "text_fr": "Arthur C. Clarke sur Horizon de la BBC en 1964, lorsqu'il fit des prédictions étonnantes sur l'avenir. Vidéo",
           "text_original": "Arthur C. Clarke on BBC's Horizon in 1964, when he gave some astonishing predictions about the future. Video",
-          "link": "http://shitter.thepixora.com/Rainmaker1973/status/2100917762801512648#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "Je crois que les États-nations deviendront de moins en moins pertinents et qu'à l'avenir, tout le monde sera un nomade. La plupart des États-nations (et des gouvernements) fonctionnent à peine encore, à cause de plus de 100 ans de bagages démocratiques de lois et de régulations qui ne peuvent être inversées. Les gens ne peuvent plus sauver leurs pays ou leurs gouvernements par des initiatives citoyennes ou en se lançant en politique, car les systèmes sont si vieux et en plein blocage. La mondialisation a, à juste titre, eu une très mauvaise réputation ces 5 dernières années, car nous étions trop naïfs à son sujet, mais je pense que nous devrions en garder les bonnes parties. Nous ne devrions pas tirer notre identité ou déléguer notre pouvoir individuel aux États-nations dirigés par une classe mafieuse politique qui ne fait que nous voler perpétuellement et n'a aucune intention (ni capacité !) d'améliorer réellement la société. Les États-nations sont une invention relativement récente et ont à peine 150 ans ; avant, nous avions des empires, des royaumes, des cités-États plus petites (un peu comme des municipalités) et des tribus ou des communautés locales. Au fil des années, j'ai été de plus en plus convaincu par @oskarth que les États-nations ne fonctionnent tout simplement pas et que vous avez besoin de gouvernements de plus petite taille pour que les choses fonctionnent efficacement. Une fois que c'est trop grand, vous avez trop de régulation et de bureaucratie kafkaïenne, et vous vous retrouvez avec un blocage. Ce qui est tout le problème de l'Europe en ce moment ! Il y a quelques exceptions, les États-Unis et la Chine semblent fonctionner à grande échelle et s'en sortent relativement bien compte tenu de leur taille. Quoi qu'il en soit, pour revenir à mon point, je pense qu'il est préférable que les gens se considèrent comme des citoyens du monde, car cela leur donne un pouvoir de négociation plus fort par rapport aux États-nations et aux gouvernements, car ils peuvent faire leurs valises et partir là où ils sont mieux traités. Et le fait que les gens soient mobiles incite alors d'autres États-nations (ou des types de gouvernance plus petits) à rivaliser avec eux pour attirer les meilleures personnes, et en réponse les autres États s'amélioreront pour attirer les gens en retour. Maintenant, avec les tensions géopolitiques (comme les choses concernant la Russie et l'Europe cette semaine), cela montre encore plus l'avantage de pouvoir faire ses valises et partir rapidement vers un meilleur endroit, ce qui est un avantage extrême maintenant et à l'avenir, peut-être même pour la survie. @ramenlad (@ramenlad) Très cool. Je suis curieux : pensez-vous que le nomadisme numérique continuera de croître étant donné la perturbation potentielle de toutes les choses numériques qui nous attend ? Désolé, j'ai dû citer pour répondre @levelsio :)",
+          "text_original": "I believe nation states will keep becoming less and less relevant and that in the future everyone will be a nomad Most nation states (and well governments) barely function anymore through 100+ years of democratic baggage from laws and regulation that can't be reversed People can't save their countries or governments anymore through people's initiatives or getting into politics, because the systems are so old and in full gridlock Globalism has deservedly gotten a really bad rep the last 5 years though as we were too naive about it, but I think we should keep the good parts from it We should not take our identity from or defer our individual power to nation states ran by a political mafia class that's just perpetual robbing us and has no intention (or ability!) to actually improve society Nation states are a relatively new invention and barely 150 years old, before we had empires, kingdoms, smaller city states (kinda like municipalities) and tribes or local communities Over the years I've been increasingly red-pilled by @oskarth that nation states simply do not work and you need smaller sizes of government for things to work efficiently. Once it gets too big you get too much regulation and Kafka-esque bureaucracy and you end up with gridlock Which is Europe's entire problem right now! There's some exceptions, US and China seem to operate at large scale and are doing relatively well considering their size Anyway to get back to my point, I think it's preferable people think of themselves as global citizens, because it gives them stronger negotiation power in relation to nation states and governments as they're able to pack up and leave to where they're treated better And having people be mobile then also incentivizes other nation states (or smaller types of governance) to compete with them to attract the best people, and in response the other states will improve to attract people back Now with geopolitical tensions (like the stuff about Russia and Europe this week), it shows even more the benefit to be able to pack your bag and leave to a better place quickly is an extreme benefit now and in the future, possibly even for survival @ramenlad (@ramenlad) Very cool. I’m curious: do you believe digital nomading will continue to grow given the potential disruption of all things digital that’s upon us? Sorry, had to quote to reply @levelsio :) — http://shitter.thepixora.com/ramenlad/status/2101417654321844517#m",
           "decryptage": null
         }
       ],
       "outils": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Présentation d'Atlas : le premier modèle mondial multimodal au monde qui génère des images et des séquences vidéo avec un contrôle parfait de la caméra au pixel près et les reconstitue en 3D. Modélisez le monde, déplacez la caméra et simulez l'espace et le temps. Video",
-          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-          "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
-          "decryptage": "Un \"modèle mondial multimodal\" est un programme d'IA capable de comprendre et de créer des informations sous différentes formes (texte, images, vidéos) et de se faire une idée de la façon dont le monde fonctionne."
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Présentation d'OM-1, notre premier modèle de fondation robotique, généralisant de manière 'zero-shot' à tout robot : bras de table, bras industriels et humanoïdes. - appris directement des données de manipulation humaine - pas de données de téléopération/robot - proche du niveau de dextérité et d'efficacité humaine - collaboration multi-robots Vidéo",
+          "text_original": "Introducing OM-1, our first robot foundation model, zero-shot generalizing to any robot: table-top arms, industrial arms and humanoids. - learned directly from human manipulation data - no teleop/robot data - close to human-level dexterity and efficiency - multi-robot collab Video",
+          "decryptage": "Un \"modèle de fondation robotique\" est un modèle d'IA de grande taille conçu pour les robots, capable de \"généraliser de manière 'zero-shot'\", c'est-à-dire d'effectuer des tâches pour lesquelles il n'a pas été spécifiquement entraîné, sur différents types de robots sans avoir besoin de données de \"téléopération\" (contrôle à distance par un humain)."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Plus de détails sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis en ligne le code source ici pour qu'il soit jouable dans le navigateur, modifiable (\"forkable\") etc. karpathy.ai/lotr-movie/ Attendez-vous à voir débarquer un GTA Hobbiton avant GTA VI :)",
-          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-          "link": "http://shitter.thepixora.com/karpathy/status/2083948654377996480#m",
-          "decryptage": null
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Ce qui rend les projets Claude si intéressants, c'est qu'il gère très bien les équipes d'agents ; vous parlez à un agent orchestrateur principal et il déploie des spécialistes. En gros, il crée une organisation pour résoudre votre problème, mélangeant des agents chers et moins chers selon vos préférences. Par exemple, j'ai demandé à Fable dans Claude Projects de sélectionner des mystères historiques célèbres qu'il pourrait essayer de résoudre. Il a initié des agents de recherche, sélectionné les mystères en fonction des données auxquelles il pouvait accéder, et a lancé dix-huit discussions distinctes, chacune avec un agent se concentrant sur un mystère. Ensuite, chaque discussion a lancé des agents supplémentaires (simulant des avalanches, décryptant des codes) avant de les résumer et de les transmettre à d'autres agents pour la rédaction, et à un autre ensemble d'agents sceptiques pour la vérification des faits. Il a fait cela sur une journée de travail, avec l'agent orchestrateur central organisant le tout. Les résultats étaient intéressants si vous aimez les mystères historiques. Ils sont également pour le plaisir et certainement pas définitifs ou garantis sans erreur (mais ils sont aussi pour la plupart raisonnables et basés sur la littérature). historical-mysteries.netlify…",
+          "text_original": "What makes Claude Projects so interesting is that it handles teams of agents really well, you talk to a main orchestrator agent and it spins up specialists. Basically it creates an organization to solve your issue, mixing expensive and cheap agents depending on your preferences. For example, I asked Fable in Claude Projects to select famous historical mysteries that it could try to resolve. It initiated research agents, selected the mysteries based on data it could access, and spun up eighteen separate threads, each with an agent each focused on one mystery. Then each thread launched additional agents (simulating avalanches, breaking codes) before summarizing those and passing them to still more agents for write up and another set of skeptical agents to fact check. It did this over a day of work, with the central orchestrator agent organizing it all. The results were interesting if you like historical mysteries. They are also for fun and certainly not definitive or guaranteed error-free (but they are also mostly reasonable & grounded in the literature). historical-mysteries.netlify…",
+          "decryptage": "Un \"agent orchestrateur\" est un agent IA principal qui coordonne et délègue des tâches à d'autres \"agents spécialistes\" pour résoudre un problème complexe, en gérant des discussions (\"threads\") parallèles pour chaque sous-tâche."
         },
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "Les agents de codage nécessitent des recherches parallèles dans la documentation, des résultats filtrés à partir des documents officiels et la capacité d'extraire des extraits détaillés. pplx-search-sdk prend en charge toutes ces fonctionnalités, et nous avons un nouveau \"cookbook\" en ligne. pplx.ai/pplx-srch-sdk Link Search as Code for coding agents - Perplexity Utilisez le SDK de recherche Perplexity pour créer un \"packet de migration de dépendances\" basé sur des sources que tout agent de codage peut inspecter avant de modifier le code. docs.perplexity.ai Perplexity Developers (@perplexitydevs) Un nouveau \"cookbook\" du SDK de recherche Perplexity est en ligne. La \"recette\" étend les recherches ciblées, filtre les résultats aux documents officiels, extrait les passages pertinents et rédige un résumé lié aux sources pour votre agent de codage. Lancez-vous : pplx.ai/pplx-srch-sdk — http://shitter.thepixora.com/perplexitydevs/status/2100301249686196680#m",
-          "text_original": "Coding agents require parallel searches across docs, filtered results from official docs, and the ability to extract detailed snippets. pplx-search-sdk supports all of these, and we have a new cookbook live. pplx.ai/pplx-srch-sdk Link Search as Code for coding agents - Perplexity Use the Perplexity Search SDK to build a source-backed dependency migration packet that any coding agent can inspect before it edits code. docs.perplexity.ai Perplexity Developers (@perplexitydevs) A new Perplexity Search SDK cookbook is live. The recipe fans out focused searches, filters results to official docs, extracts relevant passages, and writes a source-linked brief for your coding agent. Get started: pplx.ai/pplx-srch-sdk — http://shitter.thepixora.com/perplexitydevs/status/2100301249686196680#m",
-          "link": "http://shitter.thepixora.com/AravSrinivas/status/2100303192219385906#m",
-          "decryptage": "Un \"agent de codage\" est un programme d'IA conçu pour aider les développeurs en générant ou en modifiant du code, en cherchant des informations et en automatisant des tâches de programmation. Un \"SDK\" (Software Development Kit) est un ensemble d'outils de développement qui permet de créer des applications pour une plateforme spécifique."
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "🛡️Présentation de Shieldstral, le modèle de Mistral de 3 milliards de paramètres avec poids ouverts, pour la sécurité des contenus, déployable sur l'appareil 🧵 mistral.ai/news/shieldstral",
+          "text_original": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
+          "decryptage": "Un \"modèle open-weights\" est un modèle d'IA dont les composants internes (poids) sont rendus publics, ce qui permet à tout le monde de les examiner et de les utiliser, et \"déployable sur l'appareil\" signifie qu'il peut fonctionner directement sur votre téléphone ou ordinateur, sans avoir besoin d'un serveur distant."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Annonce de Robostral Navigate, notre premier modèle pour la navigation incarnée : un modèle de navigation robotique de 8 milliards de paramètres qui guide les robots pour effectuer des tâches de manière autonome, spécifiées en langage naturel. Une seule caméra RGB. État de l'art sur R2R-CE. Vidéo",
+          "text_original": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
+          "decryptage": "La \"navigation incarnée\" est la capacité d'un robot ou d'une IA à se déplacer et interagir physiquement avec son environnement. \"État de l'art\" (State-of-the-art) signifie que c'est ce qu'il y a de plus avancé actuellement dans ce domaine."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Aujourd'hui, nous lançons Le Chaton L∃∀N, alias Leanstral 1.5. Il atteint des performances \"SOTA\" (État de l'art) sur les benchmarks d'algèbre de niveau universitaire FATE-H et FATE-X et améliore la Frontière de Pareto sur PutnamBench, résolvant 587/672 problèmes avec un budget 10 fois moins cher. 🧵",
+          "text_original": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+          "decryptage": "Le terme \"SOTA\" signifie \"State-of-the-Art\", indiquant les meilleures performances actuelles. Les \"benchmarks d'algèbre\" sont des tests standards pour évaluer les capacités d'un modèle en mathématiques."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Mistral OCR 4 a transformé un examen de calcul manuscrit en LaTeX propre ! Nous lui avons donné une photo d'une page d'examen manuscrite. Le modèle a lu l'écriture et a reconstruit chaque formule en texte numérique structuré. Sortie : Temps : 5,1s · Coût : 0,09$. Les formules étaient exactement correctes - la partie difficile a été réussie. Le graphique, malheureusement, n'a pas été redessiné. Mais c'est la partie révélatrice : la plupart des outils OCR se contentent de vider le texte et de laisser tomber discrètement la figure. OCR 4 a capturé le tracé, l'a encadré et l'a étiqueté comme un graphique. Il n'est pas redessiné, mais il est lu et pris en compte. Vidéo Mistral AI (@MistralAI) Présentation de Mistral OCR 4. Il crée une structure avec des boîtes englobantes, une classification par blocs et des scores de confiance en ligne dans 170 langues. 🧵👇",
+          "text_original": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
+          "decryptage": "L'\"OCR\" (Reconnaissance Optique de Caractères) est une technologie qui convertit des images de texte (manuscrit ou imprimé) en texte numérique modifiable. \"LaTeX\" est un système de composition de documents particulièrement utilisé pour les écrits scientifiques et mathématiques."
         }
       ]
     }
   },
-  "processed_at": "2026-09-20T11:39:48",
+  "processed_at": "2026-09-20T11:51:16",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 69,
-    "total": 16,
+    "with_decryptage_pct": 74,
+    "total": 23,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-20T11:39:49"
+  "email_sent_at": "2026-09-20T11:51:17"
 }
