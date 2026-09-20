@@ -1,50 +1,140 @@
 {
   "date": "2026-09-20",
-  "fetched_at": "2026-09-20T13:42:03",
+  "fetched_at": "2026-09-20T14:41:19",
   "tweets": [
     {
-      "handle": "AravSrinivas",
-      "text": "AI is the OS. Computer (@AskPerplexity) You can now connect apps from the Computer homepage composer. Live now on the web for all Computer users. Video — http://shitter.thepixora.com/AskPerplexity/status/2101147964307849718#m",
-      "link": "http://shitter.thepixora.com/AravSrinivas/status/2101149706235834829#m",
-      "published": "Sat, 19 Sep 2026 03:21:42 GMT",
-      "author_name": "Aravind Srinivas",
+      "handle": "karpathy",
+      "text": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
+      "published": "Thu, 10 Sep 2026 17:13:22 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+      "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
+      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+      "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
+      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+      "link": "http://shitter.thepixora.com/karpathy/status/2083948654377996480#m",
+      "published": "Sun, 02 Aug 2026 16:10:51 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+      "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
+      "published": "Tue, 21 Jul 2026 16:53:55 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "seemingly small feature but makes a huge difference in connecting all the context you want to ChatGPT: Max Stoiber (@mxstbr) Starting today, you can connect multiple accounts with most plugins in ChatGPT! 🎉 Bring context from your work and personal accounts into the same conversation. Connect your accounts in the plugin directory: chatgpt.com/plugins Devs: this works automatically, with no changes needed. But, to make the experience for users of your plugin even better, add a profile tool to your MCP server so ChatGPT can label the accounts: developers.openai.com/plugin… — http://shitter.thepixora.com/mxstbr/status/2100966048132718786#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2101036303597044101#m",
+      "published": "Fri, 18 Sep 2026 19:51:04 GMT",
+      "author_name": "Greg Brockman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "AravSrinivas",
-      "text": "Slick design Video",
-      "link": "http://shitter.thepixora.com/AravSrinivas/status/2100968764804354529#m",
-      "published": "Fri, 18 Sep 2026 15:22:42 GMT",
-      "author_name": "Aravind Srinivas",
+      "handle": "gdb",
+      "text": "Astra for Law — tools and skills to radically accelerate law firms. Includes data privacy as a core feature, and 26 partner-built plugins and 47 community plugins for legal work in ChatGPT. OpenAI (@OpenAI) Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms. Video — http://shitter.thepixora.com/OpenAI/status/2100679992720142459#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2100699190448042165#m",
+      "published": "Thu, 17 Sep 2026 21:31:30 GMT",
+      "author_name": "Greg Brockman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "AravSrinivas",
-      "text": "Computer is the best multi model harness for long horizon agentic workloads. It now has a few presets for different effort (cost and intelligence levels) that we’ve seen to work best for our users, with toggles to customize even further for power users. Perplexity (@perplexity_ai) We’re rolling out effort controls in Computer’s model selector. Effort presets combine the orchestrator model and reasoning depth to control how deeply and efficiently Computer works through a task. Available now on web. Coming to mobile and desktop soon. Video — http://shitter.thepixora.com/perplexity_ai/status/2100617849677176992#m",
-      "link": "http://shitter.thepixora.com/AravSrinivas/status/2100635004829315171#m",
-      "published": "Thu, 17 Sep 2026 17:16:27 GMT",
-      "author_name": "Aravind Srinivas",
+      "handle": "gdb",
+      "text": "excited to help Shopify merchants advertise their products in ChatGPT: Harley Finkelstein (@harleyf) ChatGPT Ads for @Shopify is live. We are @OpenAI 's first commerce partner. OpenAI pulls straight from Shopify Catalog, so merchants' products are already there. Merchants set their own campaigns, their own budget. Free to install, tracked right from the Shopify admin. Consumers are asking ChatGPT what to buy. Shopify merchants are able to decide exactly how they show up. apps.shopify.com/chatgptads Link ChatGPT Ads - Create, run and analyze ChatGPT Ads using your product catalog | Shopify App Store Reach customers throughout their decision journey with ChatGPT Ads. Connect or create an ad account from Shopify, automatically sync your product c... apps.shopify.com — http://shitter.thepixora.com/harleyf/status/2100300851705450965#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2100369354319884703#m",
+      "published": "Wed, 16 Sep 2026 23:40:51 GMT",
+      "author_name": "Greg Brockman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "AravSrinivas",
-      "text": "We’re rolling out effort controls in Computer’s model selector. Effort presets combine the orchestrator model and reasoning depth to control how deeply and efficiently Computer works through a task. Available now on web. Coming to mobile and desktop soon. Video",
-      "link": "http://shitter.thepixora.com/perplexity_ai/status/2100617849677176992#m",
-      "published": "Thu, 17 Sep 2026 16:08:17 GMT",
-      "author_name": "Aravind Srinivas",
+      "handle": "gdb",
+      "text": "wall-to-wall deployment of astra for engineers at databricks: Patrick Wendell (@pwendell) Today we rolled out Astra to every engineer at Databricks (N=~3500). Some notes that may be helpful to others: 1. Astra unambiguously out performs our previous highest-end models (Opus 5, Sol 5.6) on highly complex tasks, especially those related to high level system design or long range horizontal tasks. 2. Engineers given Astra increased overall coding spend by around 60% compared to baseline. 3. It is not clear Astra meaningfully improves on medium/low complexity coding tasks compared to earlier models. We suspect those tasks are mostly saturated (i.e. perfectly executed) by existing models. 4. We learned above by piloting Astra with around 200 users to gain signal on both quality and cost. We use Unity Gateway to do cohort-based experiments for all new models. 5. We give engineers a sub-budget specific to Astra to encourage them to use Astra selectively on complex tasks while preferring lower cost models for everyday tasks. Our engineers are able to mix-and-match tools and models within their overall budget envelope (we also allow for increased budgets through various mechanisms). These budgets are defined in Unity Gateway and regularly revisited. Note: We do not have robust comparisons of Astra-vs-Fable because we have net yet rolled out Fable widely due to data retention policies. — http://shitter.thepixora.com/pwendell/status/2100299179923067016#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2100358372268921279#m",
+      "published": "Wed, 16 Sep 2026 22:57:13 GMT",
+      "author_name": "Greg Brockman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "AravSrinivas",
-      "text": "Coding agents require parallel searches across docs, filtered results from official docs, and the ability to extract detailed snippets. pplx-search-sdk supports all of these, and we have a new cookbook live. pplx.ai/pplx-srch-sdk Link Search as Code for coding agents - Perplexity Use the Perplexity Search SDK to build a source-backed dependency migration packet that any coding agent can inspect before it edits code. docs.perplexity.ai Perplexity Developers (@perplexitydevs) A new Perplexity Search SDK cookbook is live. The recipe fans out focused searches, filters results to official docs, extracts relevant passages, and writes a source-linked brief for your coding agent. Get started: pplx.ai/pplx-srch-sdk — http://shitter.thepixora.com/perplexitydevs/status/2100301249686196680#m",
-      "link": "http://shitter.thepixora.com/AravSrinivas/status/2100303192219385906#m",
-      "published": "Wed, 16 Sep 2026 19:17:57 GMT",
-      "author_name": "Aravind Srinivas",
+      "handle": "gdb",
+      "text": "Codex voice for road trips: Jonathan Roomer (@jonathanroomer) I’ve got Codex (voice) in CarPlay. And it’s fantastic. I can now build things during road trips, while all 5 kids make a noise and my wife asks why I talk to the AI more than I talk to her. It runs through my Nightblood iOS app, which gives ChatGPT Voice a face, personality and full access to Codex, my Mac and all the native tools. Video — http://shitter.thepixora.com/jonathanroomer/status/2099979041394573535#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2100272869704097819#m",
+      "published": "Wed, 16 Sep 2026 17:17:27 GMT",
+      "author_name": "Greg Brockman",
       "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "It’s easy to dismiss Jev it as “just a classifier”. But people (me included) who have been training encoder-style models for classification for many years know they were usually special-purpose and limited in some way. The breakthrough of Jev is that it generalizes well. And I’d say the secret sauce is probably more in the data than in the training algorithm. (Plus a nice API design on top of it.) Kun Chen (@kunchenguid) poor guy claim to have built Jev a year ago but no one cared, and now Jev stole all the thunder many people are saying “you gotta tell your story” or “marketing is important”, and they just completely missed what actually made the difference here i just looked into this laya model laya.convaiinnovations.com/ and: - it only supports 512-1k context… a lot of use cases won’t fit at all - evaluating the model directly shows its accuracy is as good as a coin flip. in order to get good results, you need to first fine tune it i’m sorry, but that’s not Jev there’s a massive gap between an interesting research and a useful product you can “tell your story” all you like, but you can’t blame Jev for stealing your thunder when Jev did all the work to make a well-packaged solution anyone can just grab and go Jev is not completely new from an academic sense, just like how ChatGPT was not the first LLM don’t underestimate the effort and value in putting together something that’s actually good enough for adoption - it makes all the difference — http://shitter.thepixora.com/kunchenguid/status/2101534610710761923#m",
+      "link": "http://shitter.thepixora.com/rasbt/status/2101672304358948992#m",
+      "published": "Sun, 20 Sep 2026 13:58:19 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "Inference scaling part 1. Starting with a modded text generation function (temperature scaling, top-p filtering, multinomial sampling) to generate diverse outputs for self-consistency and best-of-N (improving answer accuracy by>2x) 00:00 Introduction and recap 00:31 Training-time and inference-time scaling 07:52 What we'll implement 11:47 Notebook setup and model loading 17:43 Building a flexible text generation function 24:40 Chain-of-thought prompting 28:26 Sampling and output diversity 33:43 Next-token logits and greedy decoding 38:20 Temperature scaling step by step 42:46 Softmax and token probabilities 47:42 Multinomial sampling 54:51 Adding temperature sampling to text generation 59:31 Top-p filtering step by step 1:10:23 Adding top-p filtering to text generation 1:13:43 Sampling and LLM watermarking 1:16:01 Self-consistency and majority voting 1:20:36 Implementing self-consistency 1:29:02 MATH-500 results 1:35:01 Accuracy and compute tradeoffs 1:36:50 Next steps and self-refinement Video",
+      "link": "http://shitter.thepixora.com/rasbt/status/2101313945835368684#m",
+      "published": "Sat, 19 Sep 2026 14:14:19 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "And a link to the video on YouTube: redirect.invidious.io/t5y-kS9nNxU Link Build A Reasoning Model From Scratch 4: Inference Scaling 1 (Temperature, Top-p, Self-Consistency) After motivating the use cases for inference-time scaling, this vid... youtube.com",
+      "link": "http://shitter.thepixora.com/rasbt/status/2101315873977860446#m",
+      "published": "Sat, 19 Sep 2026 14:21:59 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "Interesting new insights into the old AdamW vs Muon debate: Muon seems to do better because it reduces memorization. Calc Consulting (@CalcCon) 𝗔𝗱𝗮𝗺𝗪 𝘃𝘀. 𝗠𝘂𝗼𝗻: α, 𝗢𝘃𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗠𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻. A quick update on our WeightWatcher experiments comparing AdamW with the newer Muon optimizer. We trained a single-head nanoGPT model with both optimizers across five seeds. We then used WeightWatcher to study the weight-matrix spectra and several forms of memorization. The top plot shows the average raw α. AdamW produces relatively stable α values. Muon is much noisier. Its ESDs vary substantially across layers, which makes α harder to estimate reliably. But the average hides something important: 👉 Individual layers do fall below α = 2. Our spectral/RG theory predicts that this regime can be associated with pathological, example-specific learning. So we tested that prediction directly. We inserted random sequences into the training set and measured whether the model remembered them using exact extraction, token recall, teacher-forced recall, and canary exposure. The result was striking. • AdamW memorized the planted sequences strongly. Earlier in training it reached ~96% exact recall of 32-token canaries. • Muon strongly suppressed this kind of memorization. At 10,000 steps, teacher-forced recall was ~62% for AdamW versus <1% for Muon. There is also a surprise: some Muon layers have α < 2 as well. So α < 2 by itself is not sufficient to explain memorization. This is why we recommend examining individual WeightWatcher layers and their ESDs—not simply average α. Muon appears to suppress memorization while also producing unusual ESDs that make conventional WeightWatcher analysis more difficult. We are now running Muon much longer to understand how these spectra evolve. If you are using WeightWatcher and trying to analyze models trained with Muon, feel free to reach out for help. #talkToChuck 𝗔𝗱𝗮𝗺𝗪 𝘃𝘀. 𝗠𝘂𝗼𝗻: α, 𝗢𝘃𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗠𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻. A quick update on our WeightWatcher experiments comparing AdamW with the newer Muon optimizer. We trained a single-head nanoGPT model with both optimizers across five seeds. We then used WeightWatcher to study the weight-matrix spectra and several forms of memorization. The top plot shows the average raw α. AdamW produces relatively stable α values. Muon is much noisier. Its ESDs vary substantially across layers, which makes α harder to estimate reliably. But the average hides something important: 👉 Individual layers do fall below α = 2. Our spectral/RG theory predicts that this regime can be associated with pathological, example-specific learning. So we tested that prediction directly. We inserted random sequences into the training set and measured whether the model remembered them using exact extraction, token recall, teacher-forced recall, and canary exposure. The result was striking. • AdamW memorized the planted sequences strongly. Earlier in training it reached ~96% exact recall of 32-token canaries. • Muon strongly suppressed this kind of memorization. At 10,000 steps, teacher-forced recall was ~62% for AdamW versus <1% for Muon. There is also a surprise: some Muon layers have α < 2 as well. So α < 2 by itself is not sufficient to explain memorization. This is why we recommend examining individual WeightWatcher layers and their ESDs—not simply average α. Muon appears to suppress memorization while also producing unusual ESDs that make conventional WeightWatcher analysis more difficult. We are now running Muon much longer to understand how these spectra evolve. If you are using WeightWatcher and trying to analyze models trained with Muon, feel free to reach out for help. #talkToChuck — http://shitter.thepixora.com/CalcCon/status/2100987746051658041#m",
+      "link": "http://shitter.thepixora.com/rasbt/status/2101312413643473255#m",
+      "published": "Sat, 19 Sep 2026 14:08:14 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "Some food for thought when designing benchmarks... So, here's a little computer-use (visual) comparison between GPT-5.6 Astra and Qwen3.8 Max. The task here was to recreate the image in the center using the Paint UI. Super interesting how the two different LLMs+Harnesses approached this totally differently by default. I.e., Astra tried to approach this by drawing and layering geometric shapes. Qwen approached this pixel by pixel. (Of course, the pixel-by-pixel result looks closer to the original, it's essentially a low-res version of that by nature.) So, the Qwen-generated image would surely score higher in the sense that it's closer to the original. But I wouldn’t conclude from this example that one LLM generalizes better than the other on other tasks. Also, I wouldn't say Qwen has better compute-use capabilities or better visual understanding than Astra. But it highlights an interesting point about how slippery benchmarks are when they only compare final results. Video",
+      "link": "http://shitter.thepixora.com/rasbt/status/2099846949377585659#m",
+      "published": "Tue, 15 Sep 2026 13:05:00 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
@@ -93,65 +183,108 @@
       "source_lang": "en"
     },
     {
-      "handle": "AlphaSignalAI",
-      "text": "not if you're subscribed to @AlphaSignalAI edgar (@edgarpavlovsky) so much is happening in AI rn you basically have to be unemployed to keep up — http://shitter.thepixora.com/edgarpavlovsky/status/2100785363371675725#m",
-      "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2101036027850694942#m",
-      "published": "Fri, 18 Sep 2026 19:49:59 GMT",
-      "author_name": "AlphaSignal",
-      "category_hint": "news",
+      "handle": "jeremyphoward",
+      "text": "At least n=2 but it’s not a lot! (synbio for two decades: dna synthesizers, sequencers, cell engineering, viral design and have been scaling transformers at GDM since 2018.) I agree with all of your points - thanks for making them. The biorisk pandemic stuff is straight out of the crackpipe from hucksters who clearly never worked in a lab. No appreciation of the timescales, biophysical complexity, supply chains, or economics.",
+      "link": "http://shitter.thepixora.com/anselmlevskaya/status/2099254513479893087#m",
+      "published": "Sun, 13 Sep 2026 21:50:52 GMT",
+      "author_name": "Jeremy Howard",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "AlphaSignalAI",
-      "text": "so much is happening in AI rn you basically have to be unemployed to keep up",
-      "link": "http://shitter.thepixora.com/edgarpavlovsky/status/2100785363371675725#m",
-      "published": "Fri, 18 Sep 2026 03:13:55 GMT",
-      "author_name": "AlphaSignal",
-      "category_hint": "news",
+      "handle": "jeremyphoward",
+      "text": "I must be among an extremely small group of people (n=1?) that have both 1) trained a frontier LLM and 2) designed and synthesized custom viruses in a lab with my own two hands. And I think that the takes on AI killing us all by creating dangerous viruses is total bogus.",
+      "link": "http://shitter.thepixora.com/DavidRBellamy/status/2099187370407112758#m",
+      "published": "Sun, 13 Sep 2026 17:24:04 GMT",
+      "author_name": "Jeremy Howard",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "AlphaSignalAI",
-      "text": "One AI agent is easy to monitor. 1,000 agents running across your org? Different problem. Join AlphaSignal + @TigerDatabase for a live technical workshop on building enterprise-grade AI agent monitoring. We’ll cover: → Tracking tool calls, latency, errors & cost → Modeling agent activity as time-series data → Real-time dashboards for live agent activity → Finding trends & failure modes → What changes when you scale from 1 agent to 1,000+ If agents are becoming part of your infrastructure, you need to know what they’re actually doing. Register → luma.com/j1s2bxf9",
-      "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2101021185278652732#m",
-      "published": "Fri, 18 Sep 2026 18:51:00 GMT",
-      "author_name": "AlphaSignal",
-      "category_hint": "news",
+      "handle": "jeremyphoward",
+      "text": "\"The models that are actually causing issues right now are all closed weight American models.\" -- @mitsuhiko lucumr.pocoo.org/2026/9/12/p…",
+      "link": "http://shitter.thepixora.com/math_rachel/status/2098987214302806486#m",
+      "published": "Sun, 13 Sep 2026 04:08:43 GMT",
+      "author_name": "Jeremy Howard",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "AlphaSignalAI",
-      "text": "Snap just entered the agentic race. They just introduced SPECS Intelligence, a copilot that spans Mac, iPhone, and AR glasses. The hard part isn’t connecting email, calendar, and notes. It’s turning that firehose into a continuously updated model of your life. The system has to: • resolve identities across apps • map events to the right project, trip, or relationship • track what changed and what’s stale • isolate work and personal context • rank what matters now • decide when to interrupt • sync state across devices • gate actions behind approval Snap’s answer is a structured context layer built around three primitives: > Portrait: who you are, who matters, and your patterns. > Corners: scoped contexts for work, family, travel, health, and relationships. > Goals: persistent objectives that give individual events longer-term meaning. Instead of treating memory as one giant retrieval pool, @specs can organize context by domain, update it as new events arrive, and surface the relevant slice when needed. And Snap has one unusual advantage, they own a device in your field of view. If agent quality depends on context, glasses could eventually give Snap a source of physical-world context that software-only agents don’t have. Video",
-      "link": "http://shitter.thepixora.com/LiorOnAI/status/2100692220747956458#m",
-      "published": "Thu, 17 Sep 2026 21:03:49 GMT",
-      "author_name": "AlphaSignal",
-      "category_hint": "news",
+      "handle": "jeremyphoward",
+      "text": "This is the type of post I might regret later, but I really had an urge to rant about the current discourse around pacing the frontier. lucumr.pocoo.org/2026/9/12/p… Link P(doom) Are we all going to die? lucumr.pocoo.org",
+      "link": "http://shitter.thepixora.com/mitsuhiko/status/2098863199047020836#m",
+      "published": "Sat, 12 Sep 2026 19:55:56 GMT",
+      "author_name": "Jeremy Howard",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "AlphaSignalAI",
-      "text": "DeepSeek's new bigger flash model but uses 4x less cache It is almost twice as large as its predecessor, and KV storage fell from 3,514 bytes per token to 890 While the model grew, long agent sessions got cheaper to hold. Active parameters, cache hits, and the scoreboard all moved too: > 8B active on input > 16B active on output > Cache hits $0.006 per million > Scores 40 versus Gemini 41 Then a million-token session holds under a gigabyte of global KV, so the predecessor needed about 3.5 GB for the same window. Also, they no longer persist local window state to disk, and persistent SSD cache falls to about one-eighth. We care about how they split reading from writing, because that is what lets input tokens skip half the stack. So, how does a bigger model use less memory? What has to stay in GPU memory versus disk? And why does parameter count now say less about your bill? Answers below ↓↓",
-      "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2099538306950136169#m",
-      "published": "Mon, 14 Sep 2026 16:38:34 GMT",
-      "author_name": "AlphaSignal",
-      "category_hint": "news",
+      "handle": "jeremyphoward",
+      "text": "It's now clear that alignment is critical and won't be solved behind the closed doors of a handful of frontier labs. So today we're launching the Open Alignment Initiative, led by @Thom_Wolf @huggingface and asking to be part of the \"embedded evaluators\" program that @DarioAmodei just committed to. Let's make AI safer by making it more transparent! Dario Amodei (@DarioAmodei) We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training. You can read the full post here: darioamodei.com/post/we-must… Link Dario Amodei — We Must Pace the Frontier darioamodei.com — http://shitter.thepixora.com/DarioAmodei/status/2098773920774074715#m",
+      "link": "http://shitter.thepixora.com/ClementDelangue/status/2098790988034580852#m",
+      "published": "Sat, 12 Sep 2026 15:08:59 GMT",
+      "author_name": "Jeremy Howard",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Good day to be reading this. Will report if it’s any good.",
+      "link": "http://shitter.thepixora.com/julien_c/status/2101652599824846992#m",
+      "published": "Sun, 20 Sep 2026 12:40:01 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Aaahh amazing feature, my SSD thanks you",
+      "link": "http://shitter.thepixora.com/maximelabonne/status/2100982362951815543#m",
+      "published": "Fri, 18 Sep 2026 16:16:44 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "In biology, like in cybersecurity, we’ll learn in the coming years that most of the risk is concentrated and created by the few most powerful labs and that open-source AI is the solution and mitigation of this risk!",
+      "link": "http://shitter.thepixora.com/ClementDelangue/status/2100909343654732242#m",
+      "published": "Fri, 18 Sep 2026 11:26:35 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "One last thing from me about the HF<>OpenAI \"rogue agent\" incident. From what we now know it seems @huggingface was the first organization to simultaneously satisfy the following factors: 1/ awareness of the attack 2/ awareness that the attack was Agent-based 3/ ability to remediate the attack 4/ willingness to publicly disclose it A few other platforms or systems missed one or more of those points in the earlier months. As usual, both awareness and transparency make everyone safer in the long run 🙏",
+      "link": "http://shitter.thepixora.com/julien_c/status/2100575290145587386#m",
+      "published": "Thu, 17 Sep 2026 13:19:10 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "my mate @mishig25 made his simu robot do something even better than the mona lisa Video Mishig ᠮᠢᠰᠾᠢᠭ (@mishig25) reproduced the experiment in MuJoCo: asked gpt6 astra to paint Eiffel Tower in simulation using so101 and a paint brush, see the entire experiment huggingface.co/buckets/mishi… Video — http://shitter.thepixora.com/mishig25/status/2099611674793668676#m",
+      "link": "http://shitter.thepixora.com/julien_c/status/2100283461411958948#m",
+      "published": "Wed, 16 Sep 2026 17:59:33 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
-    "karpathy",
     "sama",
     "DarioAmodei",
-    "gdb",
     "sundarpichai",
     "elonmusk",
+    "AravSrinivas",
     "miramurati",
     "ylecun",
     "demishassabis",
     "JeffDean",
     "fchollet",
     "AndrewYNg",
-    "rasbt",
     "bcherny",
     "karinanguyen_",
     "polynoamial",
@@ -165,7 +298,6 @@
     "simonw",
     "swyx",
     "hwchase17",
-    "jeremyphoward",
     "levelsio",
     "mckaywrigley",
     "amasad",
@@ -174,201 +306,338 @@
     "ArthurMensch",
     "GuillaumeLample",
     "Thom_Wolf",
-    "julien_c",
     "ClemDelangue",
-    "rowancheung"
+    "rowancheung",
+    "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, le monde de l'IA a été marqué par l'émergence d'agents plus intelligents et efficaces, capables de gérer des tâches complexes grâce à des systèmes comme Perplexity Computer ou les agents Gemini mis à jour. On voit aussi l'importance croissante de l'open source pour rendre l'IA accessible à tous, malgré un rythme d'innovation effréné. Enfin, des solutions innovantes comme Snap SPECS ou les modèles DeepSeek optimisés promettent une IA toujours plus performante et moins gourmande en ressources, ouvrant de nouvelles perspectives pour les applications personnelles et d'entreprise.",
+    "summary": "Aujourd'hui, l'actualité de l'IA est riche en annonces de nouvelles capacités et en réflexions sur l'avenir. On explore des modèles capables de créer des mondes 3D complexes et de s'adapter à nos conversations vocales, tout en renforçant la sécurité contre les usages malveillux. Les débats s'intensifient sur la fiabilité des modèles ouverts, leur évaluation, et la meilleure façon d'assurer une IA éthique et transparente. Pour un débutant, c'est l'occasion de voir l'IA progresser rapidement dans ses applications tout en étant le sujet de discussions fondamentales.",
     "glossaire": [
       {
-        "terme": "Agent IA",
-        "definition": "Une intelligence artificielle conçue pour accomplir des tâches spécifiques de manière autonome, souvent en utilisant des outils et en interagissant avec son environnement."
+        "terme": "LLM (Large Language Model)",
+        "definition": "Un Grand Modèle de Langage (LLM) est un programme d'IA très avancé, entraîné sur d'énormes quantités de texte, capable de comprendre, générer et répondre à des requêtes en langage humain."
       },
       {
-        "terme": "Modèle orchestrateur",
-        "definition": "Un modèle d'IA qui supervise et coordonne le travail de plusieurs autres modèles ou agents, afin qu'ils collaborent efficacement sur une tâche complexe."
+        "terme": "Multimodal",
+        "definition": "Une IA multimodale peut comprendre et traiter différents types de données en même temps, comme du texte, des images et des vidéos, pour interagir de manière plus riche avec le monde."
       },
       {
-        "terme": "SDK (Software Development Kit)",
-        "definition": "Un ensemble d'outils, de bibliothèques et de documentation qui permet aux développeurs de créer des applications pour une plateforme ou un service spécifique, comme intégrer une fonction de recherche IA."
+        "terme": "Plugins",
+        "definition": "Les plugins sont de petits programmes additionnels qui se connectent à une IA (comme ChatGPT) pour lui donner de nouvelles capacités ou l'accès à des informations externes, étendant ainsi ses fonctionnalités."
       },
       {
-        "terme": "Open source",
-        "definition": "Désigne un logiciel ou un modèle d'IA dont le code source ou les paramètres internes sont rendus publics et peuvent être librement utilisés, modifiés et distribués par tous."
+        "terme": "Inférence",
+        "definition": "L'inférence en IA est le processus où un modèle déjà entraîné utilise ce qu'il a appris pour faire des prédictions ou générer de nouvelles réponses face à de nouvelles données."
       },
       {
-        "terme": "Jetons",
-        "definition": "Les unités de base que les modèles de langage traitent ; il peut s'agir de mots entiers, de parties de mots, de signes de ponctuation ou d'espaces."
+        "terme": "Alignment (Alignement)",
+        "definition": "L'alignement est un domaine de recherche qui vise à s'assurer que les systèmes d'IA agissent de manière bénéfique et conforme aux valeurs, aux intentions et aux objectifs humains, sans développer de comportements indésirables."
       },
       {
-        "terme": "Latence",
-        "definition": "Le temps de délai entre l'envoi d'une requête à un système et la réception de sa réponse ; une faible latence signifie une réponse rapide."
+        "terme": "IA Open Source",
+        "definition": "Une IA Open Source est un modèle d'intelligence artificielle dont le code source et parfois les données d'entraînement sont librement accessibles à tous, permettant de les étudier, modifier et distribuer."
       },
       {
-        "terme": "Mémoire GPU",
-        "definition": "La mémoire vive (RAM) dédiée à la carte graphique (GPU), essentielle pour les calculs intensifs des modèles d'IA, car elle permet un traitement des données beaucoup plus rapide que la mémoire standard."
+        "terme": "Benchmark",
+        "definition": "Un benchmark est un test standardisé utilisé pour mesurer et comparer les performances de différents modèles d'IA sur des tâches spécifiques, afin d'évaluer leur efficacité de manière objective."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces d'aujourd'hui mettent en lumière de nouvelles avancées technologiques comme les améliorations des agents gérés de Gemini et le lancement du copilote SPECS Intelligence de Snap, qui promet une intégration profonde dans la vie de l'utilisateur via la réalité augmentée. On note aussi l'optimisation des modèles comme celui de DeepSeek, plus performant et moins gourmand en ressources, ainsi que des événements à venir pour découvrir l'IA.",
-      "tips": "Un tweet aujourd'hui offre des conseils pratiques essentiels pour gérer la complexité croissante des systèmes d'IA. Il souligne l'importance de mettre en place une surveillance efficace pour les agents IA à grande échelle, en détaillant les éléments clés à suivre comme les coûts, les erreurs et la latence, pour s'assurer que l'IA fonctionne comme prévu dans une organisation.",
-      "idees": "La réflexion du jour tourne autour du rythme effréné de l'innovation en IA et de la difficulté de tout suivre. Un point fort est le soutien massif de la communauté technologique à la collaboration entre NVIDIA et Hugging Face, perçue comme un coup de pouce majeur pour l'IA open source et son accessibilité au grand public, renforçant l'idée d'un écosystème ouvert et collaboratif.",
-      "outils": "Côté outils, Perplexity enrichit son offre avec 'Computer', présenté comme le système d'exploitation de l'IA, permettant de connecter des applications et de personnaliser les niveaux d'effort des agents. Un nouveau SDK de recherche Perplexity est également disponible, avec un 'cookbook' pour aider les développeurs à créer des agents de codage plus efficaces."
+      "actu": "Cette journée a été marquée par plusieurs annonces importantes : Anthropic a publié un rapport détaillé sur les risques d'usage détourné de l'IA, tandis qu'OpenAI continue d'intégrer son IA dans des secteurs comme le droit (Astra for Law) ou le commerce (partenariat avec Shopify). On voit aussi des déploiements massifs de modèles avancés comme Astra chez de grandes entreprises, soulignant l'adoption rapide de l'IA dans l'industrie.",
+      "tips": "Aujourd'hui, nous avons des conseils pour mieux interagir avec les IA : Andrej Karpathy suggère de 'divaguer' à l'oral pour que l'IA comprenne mieux votre pensée. Des techniques comme l'\"inference scaling\" et la \"self-consistency\" sont aussi mises en avant pour améliorer la précision et la diversité des réponses des IA. Enfin, la capacité de ChatGPT à connecter plusieurs comptes à ses plugins offre une astuce pratique pour gérer divers contextes de travail.",
+      "idees": "Les discussions du jour ont abordé des sujets profonds : la distinction entre une innovation de recherche et un produit fini utilisable par tous, l'impact des techniques d'entraînement (comme AdamW vs Muon) sur la 'mémoire' des modèles, et les défis de la création de benchmarks fiables. Il y a aussi un débat animé sur les risques réels de l'IA, notamment la peur des virus créés par IA, et l'importance de la transparence et de l'alignement pour une IA plus sûre.",
+      "outils": "Côté outils, on découvre des innovations fascinantes : Atlas, un nouveau modèle multimodal capable de simuler des mondes 3D, et une démo impressionnante d'un LLM générant un rendu 3D du 'Seigneur des Anneaux'. On voit aussi l'intégration de l'IA vocale dans des contextes mobiles (comme CarPlay) et des robots simulés qui apprennent à 'peindre', montrant comment l'IA peut interagir avec le monde physique ou virtuel de manière créative."
     },
     "highlights": [
       {
-        "author_name": "Omar Sanseviero",
-        "handle": "@osanseviero",
-        "text_fr": "J'ai été submergé et touché par le fait que 99 % des réactions à notre intention d'unir nos forces ont été positives. ❤️ Des figures éminentes de la technologie, y compris certaines que l'on pourrait considérer comme ayant une relation concurrentielle avec NVIDIA, ont exprimé leur soutien vocal : • @satyanadella : \"cet écosystème avec des modèles ouverts qui continuent de prospérer et de croître\" • @sundarpichai : \"cela renforcera l'écosystème des modèles ouverts !\" • @miramurati : \"Un excellent foyer pour Hugging Face afin de continuer à étendre l'accès aux modèles ouverts et aux outils qui permettent aux gens de construire avec eux.\" • @alighodsi : \"Ce sera excellent pour l'industrie et l'open source.\" • @AravSrinivas : \"absolument nécessaire pour que l'IA reste accessible et utile au public.\" Il a ajouté qu'il était ravi que NVIDIA soutienne Hugging Face et la communauté open source. • @MichaelDell : \"une grande victoire pour tout l'écosystème.\" • @levie : \"Un autre grand moment pour l'IA à poids ouverts.\" • @adcock_brett : \"C'est bon pour tous ceux qui construisent et pour l'open source.\" • @elonmusk : \"Félicitations !\" • @osanseviero : \"L'impact de HF dans l'écosystème de l'IA a été énorme.\" Plus important encore, la communauté a adhéré à l'annonce. Maintenant, nous allons devoir démontrer par nos actions dans les mois/années à venir que nous maintiendrons le bon travail 🔥 C'est une chance de rendre l'IA open source beaucoup plus grande.",
-        "text_original": "I’ve been overwhelmed and humbled by the fact that 99% of the reactions to our intent to join forces have been positive. ❤️ Prominent tech figures, including some you could see as having a competitive relationship with NVIDIA, have been vocally supportive: • @satyanadella : “this ecosystem with open models continuing to flourish and grow” • @sundarpichai : “this will strengthen the open model ecosystem!” • @miramurati : “A great home for Hugging Face to continue expanding access to open models and the tools that let people build with them.” • @alighodsi : “This will be great for the industry and open source.” • @AravSrinivas : “absolutely necessary for AI to remain accessible and useful to the public.” He added that he was glad NVIDIA was supporting Hugging Face and the open-source community. • @MichaelDell : “a big win for the whole ecosystem.” • @levie : “Another huge moment for open weights AI.” • @adcock_brett : “This is good for everyone building and open source.” • @elonmusk : “Congrats!” • @osanseviero : “The impact of HF in the AI ecosystem has been massive” Even more importantly, the community has been leaning into the announcement. Now we’ll get to demonstrate through our actions in the coming months/years that we will keep up the good work 🔥 This is a chance to make open-source AI so much bigger.",
-        "link": "http://shitter.thepixora.com/julien_c/status/2096956043003568444#m",
-        "decryptage": "'Open source' signifie que le code source d'un logiciel est public et peut être modifié par tous, tandis que les 'modèles ouverts' désignent des modèles d'IA dont les paramètres internes sont partagés, favorisant la collaboration et l'innovation.",
-        "category": "idees",
-        "highlight_reason": "Ce tweet est crucial car il met en lumière l'importance de la collaboration et de l'open source pour l'avenir de l'IA, montrant que l'accessibilité est une valeur forte dans la communauté."
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Nous commençons à quitter le territoire où l'on testerait un LLM en lui demandant par exemple de « créer un SVG d'un pélican à vélo ». Comme idée pour le généraliser, je voulais voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de tokens (environ 10$) et lui demandais un rendu JavaScript en 3D. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu bizarre mais amusant. C'est assez hallucinant qu'un LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire du code qui anime le tout, et qu'il fasse même quelque chose du tout. J'aime aussi ce genre d'exemples parce que personne de sensé ne passerait le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où nous passons de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est presque gratuit ». Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels vous pouvez imaginer laisser tomber des joueurs, par exemple pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux à l'intérieur d'eux. Ici, Opus 5 a dû très lentement et péniblement prendre des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé pas mal de bizarreries. Un exemple de capacité brute (multimodale, gameplay) que je pense être encore assez lacunaire. Vidéo",
+        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+        "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
+        "decryptage": "Un \"LLM\" (Grand Modèle de Langage) est un programme d'IA très avancé capable de comprendre et générer du texte, ici il utilise un \"token budget\" (limite de mots ou parties de mots) pour générer un monde \"procedurally rendered\" (rendu automatiquement par des règles) avec des \"polygon assets\" (éléments graphiques 3D de base) pour une simulation de jeu où un \"spectator NPC\" (personnage non-joueur observateur) pourrait évoluer.",
+        "category": "outils",
+        "highlight_reason": "Ce tweet illustre une capacité émergente et bluffante des IA à créer des mondes 3D complexes sur simple demande, ouvrant la porte à des applications totalement nouvelles et imaginatives."
       },
       {
-        "author_name": "AlphaSignal",
-        "handle": "@AlphaSignalAI",
-        "text_fr": "Un agent IA est facile à surveiller. 1 000 agents fonctionnant dans toute votre organisation ? C'est un autre problème. Rejoignez AlphaSignal + @TigerDatabase pour un atelier technique en direct sur la création d'une surveillance d'agents IA de niveau entreprise. Nous couvrirons : → Le suivi des appels d'outils, la latence, les erreurs et les coûts → La modélisation de l'activité des agents comme données de séries temporelles → Des tableaux de bord en temps réel pour l'activité des agents en direct → La recherche de tendances et de modes de défaillance → Ce qui change quand vous passez de 1 à plus de 1 000 agents. Si les agents deviennent une partie de votre infrastructure, vous devez savoir ce qu'ils font réellement. Inscrivez-vous → luma.com/j1s2bxf9",
-        "text_original": "One AI agent is easy to monitor. 1,000 agents running across your org? Different problem. Join AlphaSignal + @TigerDatabase for a live technical workshop on building enterprise-grade AI agent monitoring. We’ll cover: → Tracking tool calls, latency, errors & cost → Modeling agent activity as time-series data → Real-time dashboards for live agent activity → Finding trends & failure modes → What changes when you scale from 1 agent to 1,000+ If agents are becoming part of your infrastructure, you need to know what they’re actually doing. Register → luma.com/j1s2bxf9",
-        "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2101021185278652732#m",
-        "decryptage": "La 'latence' représente le temps de réponse d'un système, tandis que les 'modes de défaillance' sont les manières spécifiques dont un système peut cesser de fonctionner correctement.",
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Une méthode que je trouve utile pour travailler avec les LLM est une bonne longue session de divagation. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas-là, j'aime m'adosser, passer en mode /voix et simplement divaguer pendant environ 10 minutes, un désordre total, tout ce qui me vient à l'esprit, un flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme « je passe en reconnaissance vocale, désolé pour les fautes de frappe... ». Parfois, je le transforme en une petite interview en quelques tours. Mais je trouve que les LLM sont étonnamment doués pour reconstruire de longues divagations incohérentes et souvent leur écho de votre propre enchevêtrement de pensées ressort de manière bien plus claire que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la \"fusion des esprits\" et avez moins de choses à corriger par la suite.",
+        "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+        "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
+        "decryptage": "Passer en mode \"/voix\" signifie utiliser la reconnaissance vocale pour parler à l'IA plutôt que de taper, ce qui peut aider à créer une meilleure \"fusion des esprits\" (ou \"mind meld\") entre l'utilisateur et le modèle, améliorant ainsi la compréhension mutuelle.",
         "category": "tips",
-        "highlight_reason": "Ce conseil est très pertinent pour comprendre les défis pratiques de l'adoption de l'IA à grande échelle, montrant que l'intégration va au-delà du simple déploiement des agents."
+        "highlight_reason": "Ce conseil très pratique et original montre comment améliorer concrètement l'interaction avec un LLM en utilisant la voix pour exprimer ses pensées sans contrainte, un 'tip' directement applicable par le lecteur."
       },
       {
-        "author_name": "AlphaSignal",
-        "handle": "@AlphaSignalAI",
-        "text_fr": "Snap vient d'entrer dans la course aux agents. Ils viennent de présenter SPECS Intelligence, un copilote qui s'étend sur Mac, iPhone et lunettes de réalité augmentée. La difficulté n'est pas de connecter e-mail, calendrier et notes. C'est de transformer ce \"flux de données\" en un modèle de votre vie continuellement mis à jour. Le système doit : • résoudre les identités entre les applications • associer les événements au bon projet, voyage ou relation • suivre ce qui a changé et ce qui est périmé • isoler le contexte professionnel et personnel • classer ce qui compte maintenant • décider quand interrompre • synchroniser l'état entre les appareils • autoriser les actions après approbation. La réponse de Snap est une couche de contexte structurée autour de trois primitives : > Portrait : qui vous êtes, qui compte, et vos habitudes. > Corners : contextes délimités pour le travail, la famille, les voyages, la santé et les relations. > Goals : objectifs persistants qui donnent un sens à long terme aux événements individuels. Au lieu de traiter la mémoire comme un seul grand bassin de récupération, @specs peut organiser le contexte par domaine, le mettre à jour à mesure que de nouveaux événements arrivent, et faire apparaître la partie pertinente quand nécessaire. Et Snap a un avantage inhabituel : ils possèdent un appareil dans votre champ de vision. Si la qualité de l'agent dépend du contexte, les lunettes pourraient à terme donner à Snap une source de contexte du monde physique que les agents purement logiciels n'ont pas. Vidéo",
-        "text_original": "Snap just entered the agentic race. They just introduced SPECS Intelligence, a copilot that spans Mac, iPhone, and AR glasses. The hard part isn’t connecting email, calendar, and notes. It’s turning that firehose into a continuously updated model of your life. The system has to: • resolve identities across apps • map events to the right project, trip, or relationship • track what changed and what’s stale • isolate work and personal context • rank what matters now • decide when to interrupt • sync state across devices • gate actions behind approval Snap’s answer is a structured context layer built around three primitives: > Portrait: who you are, who matters, and your patterns. > Corners: scoped contexts for work, family, travel, health, and relationships. > Goals: persistent objectives that give individual events longer-term meaning. Instead of treating memory as one giant retrieval pool, @specs can organize context by domain, update it as new events arrive, and surface the relevant slice when needed. And Snap has one unusual advantage, they own a device in your field of view. If agent quality depends on context, glasses could eventually give Snap a source of physical-world context that software-only agents don’t have. Video",
-        "link": "http://shitter.thepixora.com/LiorOnAI/status/2100692220747956458#m",
-        "decryptage": "Un 'agent' ou 'copilote' est une intelligence artificielle qui assiste l'utilisateur dans ses tâches, tandis que les 'lunettes de réalité augmentée' superposent des informations numériques au monde réel perçu par l'utilisateur.",
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Nous publions notre rapport d'information sur les menaces le plus détaillé à ce jour. Il couvre la manière dont les gens ont tenté d'utiliser Claude à mauvais escient – pour des cyberattaques, des opérations d'influence, de la surveillance, en biologie et pour construire des armes – et comment nous les avons trouvés et arrêtés. Nous avons interrompu chaque opération mentionnée dans le rapport et utilisé les leçons tirées de celles-ci pour renforcer nos mesures de protection. Le cas échéant, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en lumière certaines des utilisations abusives les plus sophistiquées que nous ayons vues. Mais il est particulièrement important d'en discuter, car elles nous montrent où se dirige l'utilisation abusive de l'IA, où nos mesures de protection fonctionnent et où elles doivent être améliorées. Nous publions ce rapport afin que d'autres puissent repérer la même activité sur leurs propres plateformes, et afin que nous puissions donner au public une vision plus claire de la manière dont les menaces émergentes se développent. Lire le rapport : anthropic.com/threat-intelli… Lien Contrer l'utilisation abusive de l'IA : Septembre 2026 / Anthropic Études de cas d'acteurs de la menace perturbés entre décembre 2025 et août 2026 dans sept domaines de préjudice, des cyberopérations à l'utilisation abusive biologique. anthropic.com",
+        "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
+        "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
+        "decryptage": "Un \"rapport d'information sur les menaces\" détaille les risques de mauvaise utilisation de l'IA, comme les \"opérations d'influence\" qui tentent de manipuler l'opinion, et les \"mesures de protection\" (safeguards) sont les dispositifs mis en place pour prévenir ces abus.",
         "category": "actu",
-        "highlight_reason": "Ce tweet présente une vision futuriste de l'IA personnelle, avec un copilote qui s'intègre profondément dans la vie quotidienne, notamment via des lunettes de réalité augmentée, soulignant l'importance du contexte pour une IA pertinente."
+        "highlight_reason": "Ce rapport d'Anthropic est crucial car il aborde de front les dangers réels de l'IA et les efforts pour sécuriser son utilisation, offrant une perspective essentielle sur la sécurité des IA pour tous."
+      },
+      {
+        "author_name": "Jeremy Howard",
+        "handle": "@jeremyphoward",
+        "text_fr": "Je dois faire partie d'un groupe extrêmement restreint de personnes (n=1?) qui ont à la fois 1) entraîné un LLM de pointe et 2) conçu et synthétisé des virus personnalisés en laboratoire de mes propres mains. Et je pense que les thèses selon lesquelles l'IA nous tuerait tous en créant des virus dangereux sont totalement bidons.",
+        "text_original": "I must be among an extremely small group of people (n=1?) that have both 1) trained a frontier LLM and 2) designed and synthesized custom viruses in a lab with my own two hands. And I think that the takes on AI killing us all by creating dangerous viruses is total bogus.",
+        "link": "http://shitter.thepixora.com/DavidRBellamy/status/2099187370407112758#m",
+        "decryptage": "Un \"LLM de pointe\" (frontier LLM) est un Grand Modèle de Langage à la pointe de la technologie, très avancé, tandis que \"synthétiser des virus personnalisés\" fait référence à la création artificielle de virus modifiés à des fins de recherche.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet est important car un expert avec une double compétence rare (IA et biologie) démystifie une peur majeure autour de l'IA, offrant une perspective éclairée et rassurante sur un sujet souvent anxiogène."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "Design élégant Vidéo",
-          "text_original": "Slick design Video",
-          "link": "http://shitter.thepixora.com/AravSrinivas/status/2100968764804354529#m",
-          "decryptage": null
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Nous publions notre rapport d'information sur les menaces le plus détaillé à ce jour. Il couvre la manière dont les gens ont tenté d'utiliser Claude à mauvais escient – pour des cyberattaques, des opérations d'influence, de la surveillance, en biologie et pour construire des armes – et comment nous les avons trouvés et arrêtés. Nous avons interrompu chaque opération mentionnée dans le rapport et utilisé les leçons tirées de celles-ci pour renforcer nos mesures de protection. Le cas échéant, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en lumière certaines des utilisations abusives les plus sophistiquées que nous ayons vues. Mais il est particulièrement important d'en discuter, car elles nous montrent où se dirige l'utilisation abusive de l'IA, où nos mesures de protection fonctionnent et où elles doivent être améliorées. Nous publions ce rapport afin que d'autres puissent repérer la même activité sur leurs propres plateformes, et afin que nous puissions donner au public une vision plus claire de la manière dont les menaces émergentes se développent. Lire le rapport : anthropic.com/threat-intelli… Lien Contrer l'utilisation abusive de l'IA : Septembre 2026 / Anthropic Études de cas d'acteurs de la menace perturbés entre décembre 2025 et août 2026 dans sept domaines de préjudice, des cyberopérations à l'utilisation abusive biologique. anthropic.com",
+          "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
+          "decryptage": "Un \"rapport d'information sur les menaces\" détaille les risques de mauvaise utilisation de l'IA, comme les \"opérations d'influence\" qui tentent de manipuler l'opinion, et les \"mesures de protection\" (safeguards) sont les dispositifs mis en place pour prévenir ces abus."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Astra pour le Droit — des outils et compétences pour accélérer radicalement les cabinets d'avocats. Inclut la confidentialité des données comme fonctionnalité principale, et 26 plugins partenaires et 47 plugins communautaires pour le travail juridique dans ChatGPT. OpenAI (@OpenAI) Astra pour le Droit : Intelligence de pointe conçue pour votre pratique. Une nouvelle offre propulsée par GPT-6 Astra avec des outils, des paramètres et un contexte pour soutenir l'expertise et le jugement des avocats et des entreprises de technologie juridique. Vidéo — http://shitter.thepixora.com/OpenAI/status/2100679992720142459#m",
+          "text_original": "Astra for Law — tools and skills to radically accelerate law firms. Includes data privacy as a core feature, and 26 partner-built plugins and 47 community plugins for legal work in ChatGPT. OpenAI (@OpenAI) Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms. Video — http://shitter.thepixora.com/OpenAI/status/2100679992720142459#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2100699190448042165#m",
+          "decryptage": "\"GPT-6 Astra\" est un modèle d'IA avancé d'OpenAI, et les \"plugins partenaires\" ou \"communautaires\" sont des extensions développées soit par des entreprises, soit par des utilisateurs, pour ajouter des fonctions spécifiques à ChatGPT."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Excité d'aider les marchands Shopify à promouvoir leurs produits dans ChatGPT : Harley Finkelstein (@harleyf) Les publicités ChatGPT pour @Shopify sont lancées. Nous sommes le premier partenaire commercial d'@OpenAI. OpenAI extrait directement les informations du catalogue Shopify, donc les produits des marchands sont déjà là. Les marchands définissent leurs propres campagnes, leur propre budget. L'installation est gratuite, le suivi se fait directement depuis l'interface d'administration de Shopify. Les consommateurs demandent à ChatGPT quoi acheter. Les marchands Shopify peuvent décider exactement comment ils apparaissent. apps.shopify.com/chatgptads Lien Annonces ChatGPT - Créez, gérez et analysez des annonces ChatGPT en utilisant votre catalogue de produits | Boutique d'applications Shopify Atteignez les clients tout au long de leur parcours de décision avec les annonces ChatGPT. Connectez ou créez un compte publicitaire depuis Shopify, synchronisez automatiquement votre catalogue de produits... apps.shopify.com — http://shitter.thepixora.com/harleyf/status/2100300851705450965#m",
+          "text_original": "excited to help Shopify merchants advertise their products in ChatGPT: Harley Finkelstein (@harleyf) ChatGPT Ads for @Shopify is live. We are @OpenAI 's first commerce partner. OpenAI pulls straight from Shopify Catalog, so merchants' products are already there. Merchants set their own campaigns, their own budget. Free to install, tracked right from the Shopify admin. Consumers are asking ChatGPT what to buy. Shopify merchants are able to decide exactly how they show up. apps.shopify.com/chatgptads Link ChatGPT Ads - Create, run and analyze ChatGPT Ads using your product catalog | Shopify App Store Reach customers throughout their decision journey with ChatGPT Ads. Connect or create an ad account from Shopify, automatically sync your product c... apps.shopify.com — http://shitter.thepixora.com/harleyf/status/2100300851705450965#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2100369354319884703#m",
+          "decryptage": "\"Partenaire commercial\" signifie une collaboration officielle entre deux entreprises, et le \"catalogue Shopify\" est la liste de tous les produits qu'un marchand vend sur sa boutique en ligne."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Déploiement généralisé d'Astra pour les ingénieurs chez Databricks : Patrick Wendell (@pwendell) Aujourd'hui, nous avons déployé Astra pour tous les ingénieurs de Databricks (N=~3500). Quelques notes qui pourraient être utiles à d'autres : 1. Astra surpasse sans équivoque nos précédents modèles haut de gamme (Opus 5, Sol 5.6) sur des tâches très complexes, en particulier celles liées à la conception de systèmes de haut niveau ou à des tâches horizontales à long terme. 2. Les ingénieurs utilisant Astra ont augmenté leurs dépenses globales de codage d'environ 60 % par rapport à la base de référence. 3. Il n'est pas clair qu'Astra améliore significativement les tâches de codage de complexité moyenne/faible par rapport aux modèles précédents. Nous soupçonnons que ces tâches sont principalement saturées (c'est-à-dire parfaitement exécutées) par les modèles existants. 4. Nous avons appris ce qui précède en testant Astra avec environ 200 utilisateurs pour obtenir des signaux sur la qualité et le coût. Nous utilisons Unity Gateway pour réaliser des expériences basées sur des cohortes pour tous les nouveaux modèles. 5. Nous donnons aux ingénieurs un sous-budget spécifique à Astra pour les encourager à utiliser Astra de manière sélective sur les tâches complexes tout en préférant des modèles moins coûteux pour les tâches quotidiennes. Nos ingénieurs peuvent combiner des outils et des modèles dans leur enveloppe budgétaire globale (nous autorisons également des budgets accrus via divers mécanismes). Ces budgets sont définis dans Unity Gateway et régulièrement revus. Note : Nous n'avons pas de comparaisons robustes d'Astra-vs-Fable car nous n'avons pas encore déployé Fable largement en raison des politiques de rétention des données. — http://shitter.thepixora.com/pwendell/status/2100299179923067016#m",
+          "text_original": "wall-to-wall deployment of astra for engineers at databricks: Patrick Wendell (@pwendell) Today we rolled out Astra to every engineer at Databricks (N=~3500). Some notes that may be helpful to others: 1. Astra unambiguously out performs our previous highest-end models (Opus 5, Sol 5.6) on highly complex tasks, especially those related to high level system design or long range horizontal tasks. 2. Engineers given Astra increased overall coding spend by around 60% compared to baseline. 3. It is not clear Astra meaningfully improves on medium/low complexity coding tasks compared to earlier models. We suspect those tasks are mostly saturated (i.e. perfectly executed) by existing models. 4. We learned above by piloting Astra with around 200 users to gain signal on both quality and cost. We use Unity Gateway to do cohort-based experiments for all new models. 5. We give engineers a sub-budget specific to Astra to encourage them to use Astra selectively on complex tasks while preferring lower cost models for everyday tasks. Our engineers are able to mix-and-match tools and models within their overall budget envelope (we also allow for increased budgets through various mechanisms). These budgets are defined in Unity Gateway and regularly revisited. Note: We do not have robust comparisons of Astra-vs-Fable because we have net yet rolled out Fable widely due to data retention policies. — http://shitter.thepixora.com/pwendell/status/2100299179923067016#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2100358372268921279#m",
+          "decryptage": "\"Astra\" est un modèle d'IA puissant d'OpenAI, comparable à d'autres modèles haut de gamme comme \"Opus 5\" ou \"Sol 5.6\"; un \"sub-budget\" est un budget dédié pour l'utilisation de modèles spécifiques, et les \"politiques de rétention des données\" sont des règles sur la durée de conservation des informations."
         },
         {
           "author_name": "Omar Sanseviero",
           "handle": "@osanseviero",
-          "text_fr": "Article Les Agents Gérés dans l'API Gemini : un \"harnais\" d'agent mis à jour, une API de Fichiers, et des identifiants gérés. Les agents gérés de Gemini reçoivent un \"harnais\" mis à jour. `antigravity-preview-09-2026` rapproche les outils et le comportement de l'agent de ce que vous obtenez avec l'agent de codage Antigravity, c'est en ligne aujourd'hui dans l'",
+          "text_fr": "Article Agents gérés dans l'API Gemini : un cadre d'agent mis à jour, une API Fichiers et des identifiants gérés. Les agents gérés Gemini reçoivent un cadre mis à jour. Antigravity-preview-09-2026 rapproche les outils et le comportement de l'agent de ce que vous obtenez dans l'Agent de Codage Antigravity, c'est en ligne aujourd'hui dans l'",
           "text_original": "Article Managed Agents in the Gemini API: an updated agent harness, a Files API, and managed credentials Gemini managed agents are getting an updated harness. antigravity-preview-09-2026 brings the agent's tools and behavior closer to what you get in the Antigravity Coding Agent, it's live today in the",
           "link": "http://shitter.thepixora.com/GoogleAIStudio/status/2100635173188432193#m",
-          "decryptage": "Une 'API' (Application Programming Interface) est un ensemble de règles qui permet à différents logiciels de communiquer, et les 'agents gérés' sont des IA dont le fonctionnement est pris en charge par le fournisseur."
+          "decryptage": "Les \"Agents gérés\" sont des programmes d'IA autonomes dont la gestion est prise en charge par la plateforme Google, et l'\"API Gemini\" est une interface de programmation qui permet aux développeurs d'utiliser les capacités du modèle d'IA Gemini."
         },
         {
           "author_name": "Omar Sanseviero",
           "handle": "@osanseviero",
-          "text_fr": "Rejoignez @GoogleDeepMind pour une expérience audio immersive de Gemini à San Francisco la semaine prochaine ! Un mélange d'art audio-visuel créatif et de conversations en temps réel avec Gemini et les personnes derrière les modèles ! 📍 The Pearl, San Francisco 🗓️ Jeudi 24 sept | 18h-22h",
+          "text_fr": "Rejoignez @GoogleDeepMind pour une expérience audio Gemini immersive à San Francisco la semaine prochaine ! Un mélange d'art audio-visuel créatif et de conversations en temps réel avec Gemini et les personnes derrière les modèles ! 📍 The Pearl, San Francisco 🗓️ Jeudi 24 septembre | 18h-22h",
           "text_original": "Join @GoogleDeepMind for an immersive Gemini Audio experience in SF next week! A mix of creative Audio-Visual art and real-time conversations with Gemini and the folks behind the models! 📍 The Pearl, San Francisco 🗓️ Thursday, Sept 24 | 6–10 PM",
           "link": "http://shitter.thepixora.com/thorwebdev/status/2099486872028225602#m",
-          "decryptage": null
+          "decryptage": "null"
         },
         {
           "author_name": "Omar Sanseviero",
           "handle": "@osanseviero",
-          "text_fr": "Rendez-vous en Argentine dans deux semaines ! Hâte de prendre la parole à Nerdearla. Nous organiserons également un événement parallèle, à bientôt là-bas ! g.dev/events/gdm-nerdearla",
+          "text_fr": "À dans deux semaines en Argentine ! Hâte de parler à Nerdearla. Nous organiserons également un événement parallèle, à bientôt là-bas ! g.dev/events/gdm-nerdearla",
           "text_original": "See you in Argentina in two weeks! Excited to speak at Nerdearla. We'll also host a side event, see you there! g.dev/events/gdm-nerdearla",
           "link": "http://shitter.thepixora.com/osanseviero/status/2097694187051229397#m",
-          "decryptage": null
+          "decryptage": "null"
         },
         {
-          "author_name": "AlphaSignal",
-          "handle": "@AlphaSignalAI",
-          "text_fr": "Snap vient d'entrer dans la course aux agents. Ils viennent de présenter SPECS Intelligence, un copilote qui s'étend sur Mac, iPhone et lunettes de réalité augmentée. La difficulté n'est pas de connecter e-mail, calendrier et notes. C'est de transformer ce \"flux de données\" en un modèle de votre vie continuellement mis à jour. Le système doit : • résoudre les identités entre les applications • associer les événements au bon projet, voyage ou relation • suivre ce qui a changé et ce qui est périmé • isoler le contexte professionnel et personnel • classer ce qui compte maintenant • décider quand interrompre • synchroniser l'état entre les appareils • autoriser les actions après approbation. La réponse de Snap est une couche de contexte structurée autour de trois primitives : > Portrait : qui vous êtes, qui compte, et vos habitudes. > Corners : contextes délimités pour le travail, la famille, les voyages, la santé et les relations. > Goals : objectifs persistants qui donnent un sens à long terme aux événements individuels. Au lieu de traiter la mémoire comme un seul grand bassin de récupération, @specs peut organiser le contexte par domaine, le mettre à jour à mesure que de nouveaux événements arrivent, et faire apparaître la partie pertinente quand nécessaire. Et Snap a un avantage inhabituel : ils possèdent un appareil dans votre champ de vision. Si la qualité de l'agent dépend du contexte, les lunettes pourraient à terme donner à Snap une source de contexte du monde physique que les agents purement logiciels n'ont pas. Vidéo",
-          "text_original": "Snap just entered the agentic race. They just introduced SPECS Intelligence, a copilot that spans Mac, iPhone, and AR glasses. The hard part isn’t connecting email, calendar, and notes. It’s turning that firehose into a continuously updated model of your life. The system has to: • resolve identities across apps • map events to the right project, trip, or relationship • track what changed and what’s stale • isolate work and personal context • rank what matters now • decide when to interrupt • sync state across devices • gate actions behind approval Snap’s answer is a structured context layer built around three primitives: > Portrait: who you are, who matters, and your patterns. > Corners: scoped contexts for work, family, travel, health, and relationships. > Goals: persistent objectives that give individual events longer-term meaning. Instead of treating memory as one giant retrieval pool, @specs can organize context by domain, update it as new events arrive, and surface the relevant slice when needed. And Snap has one unusual advantage, they own a device in your field of view. If agent quality depends on context, glasses could eventually give Snap a source of physical-world context that software-only agents don’t have. Video",
-          "link": "http://shitter.thepixora.com/LiorOnAI/status/2100692220747956458#m",
-          "decryptage": "Un 'agent' ou 'copilote' est une intelligence artificielle qui assiste l'utilisateur dans ses tâches, tandis que les 'lunettes de réalité augmentée' superposent des informations numériques au monde réel perçu par l'utilisateur."
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "J'ai été submergé et touché par le fait que 99 % des réactions à notre intention d'unir nos forces ont été positives. ❤️ Des figures éminentes de la technologie, y compris certaines que l'on pourrait considérer comme ayant une relation concurrentielle avec NVIDIA, ont exprimé leur soutien vocal : • @satyanadella : « cet écosystème avec les modèles ouverts qui continuent de fleurir et de croître » • @sundarpichai : « cela renforcera l'écosystème des modèles ouverts ! » • @miramurati : « Un excellent foyer pour que Hugging Face continue d'élargir l'accès aux modèles ouverts et aux outils qui permettent aux gens de construire avec eux. » • @alighodsi : « Ce sera formidable pour l'industrie et l'open source. » • @AravSrinivas : « absolument nécessaire pour que l'IA reste accessible et utile au public. » Il a ajouté qu'il était heureux que NVIDIA soutienne Hugging Face et la communauté open source. • @MichaelDell : « une grande victoire pour tout l'écosystème. » • @levie : « Un autre grand moment pour l'IA à poids ouverts. » • @adcock_brett : « C'est bon pour tous ceux qui construisent et pour l'open source. » • @elonmusk : « Félicitations ! » • @osanseviero : « L'impact de HF sur l'écosystème de l'IA a été massif » Plus important encore, la communauté s'est ralliée à l'annonce. Maintenant, nous aurons l'occasion de démontrer par nos actions dans les mois/années à venir que nous continuerons le bon travail 🔥 C'est une chance de rendre l'IA open source tellement plus grande.",
+          "text_original": "I’ve been overwhelmed and humbled by the fact that 99% of the reactions to our intent to join forces have been positive. ❤️ Prominent tech figures, including some you could see as having a competitive relationship with NVIDIA, have been vocally supportive: • @satyanadella : “this ecosystem with open models continuing to flourish and grow” • @sundarpichai : “this will strengthen the open model ecosystem!” • @miramurati : “A great home for Hugging Face to continue expanding access to open models and the tools that let people build with them.” • @alighodsi : “This will be great for the industry and open source.” • @AravSrinivas : “absolutely necessary for AI to remain accessible and useful to the public.” He added that he was glad NVIDIA was supporting Hugging Face and the open-source community. • @MichaelDell : “a big win for the whole ecosystem.” • @levie : “Another huge moment for open weights AI.” • @adcock_brett : “This is good for everyone building and open source.” • @elonmusk : “Congrats!” • @osanseviero : “The impact of HF in the AI ecosystem has been massive” Even more importantly, the community has been leaning into the announcement. Now we’ll get to demonstrate through our actions in the coming months/years that we will keep up the good work 🔥 This is a chance to make open-source AI so much bigger.",
+          "link": "http://shitter.thepixora.com/julien_c/status/2096956043003568444#m",
+          "decryptage": "Les \"modèles ouverts\" (open models) et l'\"IA open source\" (open-source AI) désignent des systèmes d'IA dont le code source et les données sont accessibles publiquement, permettant à chacun de les utiliser, les modifier et les partager."
         },
         {
-          "author_name": "AlphaSignal",
-          "handle": "@AlphaSignalAI",
-          "text_fr": "Le nouveau modèle \"flash\" plus grand de DeepSeek utilise 4 fois moins de cache. Il est presque deux fois plus grand que son prédécesseur, et le stockage KV est passé de 3 514 octets par jeton à 890. Alors que le modèle a grandi, les longues sessions d'agent sont devenues moins chères à maintenir. Les paramètres actifs, les \"cache hits\" et le tableau de bord ont également évolué : > 8 milliards actifs en entrée > 16 milliards actifs en sortie > Cache hits 0,006 $ par million > Scores 40 contre Gemini 41. Ainsi, une session d'un million de jetons tient sous un gigaoctet de KV global, alors que le prédécesseur avait besoin d'environ 3,5 Go pour la même fenêtre. De plus, ils ne conservent plus l'état de la fenêtre locale sur le disque, et le cache SSD persistant tombe à environ un huitième. Nous nous intéressons à la façon dont ils séparent la lecture de l'écriture, car c'est ce qui permet aux jetons d'entrée de sauter la moitié de la pile. Alors, comment un modèle plus grand utilise-t-il moins de mémoire ? Qu'est-ce qui doit rester en mémoire GPU plutôt que sur disque ? Et pourquoi le nombre de paramètres en dit-il moins sur votre facture ? Réponses ci-dessous ↓↓",
-          "text_original": "DeepSeek's new bigger flash model but uses 4x less cache It is almost twice as large as its predecessor, and KV storage fell from 3,514 bytes per token to 890 While the model grew, long agent sessions got cheaper to hold. Active parameters, cache hits, and the scoreboard all moved too: > 8B active on input > 16B active on output > Cache hits $0.006 per million > Scores 40 versus Gemini 41 Then a million-token session holds under a gigabyte of global KV, so the predecessor needed about 3.5 GB for the same window. Also, they no longer persist local window state to disk, and persistent SSD cache falls to about one-eighth. We care about how they split reading from writing, because that is what lets input tokens skip half the stack. So, how does a bigger model use less memory? What has to stay in GPU memory versus disk? And why does parameter count now say less about your bill? Answers below ↓↓",
-          "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2099538306950136169#m",
-          "decryptage": "Un 'modèle flash' est un modèle d'IA optimisé pour la vitesse, le 'stockage KV' (Key-Value) est une manière efficace de stocker des données, et les 'jetons' sont les unités de texte traitées par les IA, comme des mots ou des parties de mots."
+          "author_name": "Jeremy Howard",
+          "handle": "@jeremyphoward",
+          "text_fr": "Il est maintenant clair que l'alignement est critique et ne sera pas résolu derrière les portes closes d'une poignée de laboratoires de pointe. Nous lançons donc aujourd'hui l'Initiative pour l'Alignement Ouvert, dirigée par @Thom_Wolf @huggingface, et nous demandons à faire partie du programme \"évaluateurs intégrés\" que @DarioAmodei vient de s'engager à mettre en place. Rendons l'IA plus sûre en la rendant plus transparente ! Dario Amodei (@DarioAmodei) Nous devons maîtriser la frontière : J'ai écrit un nouvel essai sur les raisons pour lesquelles l'industrie de l'IA devrait ralentir, avec un plan en trois parties pour y parvenir. Anthropic s'engage unilatéralement à la première de ces étapes. Nous fournirons aux évaluateurs tiers un accès permanent, au niveau des employés, à nos systèmes, afin qu'ils puissent vérifier le respect de nos mesures de sécurité, signaler les incidents et évaluer l'alignement des modèles pendant l'entraînement. Vous pouvez lire l'article complet ici : darioamodei.com/post/we-must… Lien Dario Amodei — Nous devons maîtriser la frontière darioamodei.com — http://shitter.thepixora.com/DarioAmodei/status/2098773920774074715#m",
+          "text_original": "It's now clear that alignment is critical and won't be solved behind the closed doors of a handful of frontier labs. So today we're launching the Open Alignment Initiative, led by @Thom_Wolf @huggingface and asking to be part of the \"embedded evaluators\" program that @DarioAmodei just committed to. Let's make AI safer by making it more transparent! Dario Amodei (@DarioAmodei) We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training. You can read the full post here: darioamodei.com/post/we-must… Link Dario Amodei — We Must Pace the Frontier darioamodei.com — http://shitter.thepixora.com/DarioAmodei/status/2098773920774074715#m",
+          "link": "http://shitter.thepixora.com/ClementDelangue/status/2098790988034580852#m",
+          "decryptage": "L'\"alignement\" en IA est l'effort pour s'assurer que les modèles agissent selon les intentions humaines, les \"laboratoires de pointe\" (frontier labs) sont les centres de recherche les plus avancés, et les \"évaluateurs intégrés\" (embedded evaluators) sont des experts externes qui vérifient la sécurité des systèmes d'IA."
         }
       ],
       "tips": [
         {
-          "author_name": "AlphaSignal",
-          "handle": "@AlphaSignalAI",
-          "text_fr": "Un agent IA est facile à surveiller. 1 000 agents fonctionnant dans toute votre organisation ? C'est un autre problème. Rejoignez AlphaSignal + @TigerDatabase pour un atelier technique en direct sur la création d'une surveillance d'agents IA de niveau entreprise. Nous couvrirons : → Le suivi des appels d'outils, la latence, les erreurs et les coûts → La modélisation de l'activité des agents comme données de séries temporelles → Des tableaux de bord en temps réel pour l'activité des agents en direct → La recherche de tendances et de modes de défaillance → Ce qui change quand vous passez de 1 à plus de 1 000 agents. Si les agents deviennent une partie de votre infrastructure, vous devez savoir ce qu'ils font réellement. Inscrivez-vous → luma.com/j1s2bxf9",
-          "text_original": "One AI agent is easy to monitor. 1,000 agents running across your org? Different problem. Join AlphaSignal + @TigerDatabase for a live technical workshop on building enterprise-grade AI agent monitoring. We’ll cover: → Tracking tool calls, latency, errors & cost → Modeling agent activity as time-series data → Real-time dashboards for live agent activity → Finding trends & failure modes → What changes when you scale from 1 agent to 1,000+ If agents are becoming part of your infrastructure, you need to know what they’re actually doing. Register → luma.com/j1s2bxf9",
-          "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2101021185278652732#m",
-          "decryptage": "La 'latence' représente le temps de réponse d'un système, tandis que les 'modes de défaillance' sont les manières spécifiques dont un système peut cesser de fonctionner correctement."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Une méthode que je trouve utile pour travailler avec les LLM est une bonne longue session de divagation. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas-là, j'aime m'adosser, passer en mode /voix et simplement divaguer pendant environ 10 minutes, un désordre total, tout ce qui me vient à l'esprit, un flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme « je passe en reconnaissance vocale, désolé pour les fautes de frappe... ». Parfois, je le transforme en une petite interview en quelques tours. Mais je trouve que les LLM sont étonnamment doués pour reconstruire de longues divagations incohérentes et souvent leur écho de votre propre enchevêtrement de pensées ressort de manière bien plus claire que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la \"fusion des esprits\" et avez moins de choses à corriger par la suite.",
+          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+          "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
+          "decryptage": "Passer en mode \"/voix\" signifie utiliser la reconnaissance vocale pour parler à l'IA plutôt que de taper, ce qui peut aider à créer une meilleure \"fusion des esprits\" (ou \"mind meld\") entre l'utilisateur et le modèle, améliorant ainsi la compréhension mutuelle."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Une fonctionnalité qui semble petite mais qui fait une énorme différence pour connecter tout le contexte que vous souhaitez à ChatGPT : Max Stoiber (@mxstbr) À partir d'aujourd'hui, vous pouvez connecter plusieurs comptes avec la plupart des plugins de ChatGPT ! 🎉 Apportez le contexte de vos comptes professionnels et personnels dans la même conversation. Connectez vos comptes dans le répertoire des plugins : chatgpt.com/plugins Développeurs : cela fonctionne automatiquement, sans aucun changement nécessaire. Mais, pour améliorer encore l'expérience des utilisateurs de votre plugin, ajoutez un outil de profil à votre serveur MCP afin que ChatGPT puisse étiqueter les comptes : developers.openai.com/plugin… — http://shitter.thepixora.com/mxstbr/status/2100966048132718786#m",
+          "text_original": "seemingly small feature but makes a huge difference in connecting all the context you want to ChatGPT: Max Stoiber (@mxstbr) Starting today, you can connect multiple accounts with most plugins in ChatGPT! 🎉 Bring context from your work and personal accounts into the same conversation. Connect your accounts in the plugin directory: chatgpt.com/plugins Devs: this works automatically, with no changes needed. But, to make the experience for users of your plugin even better, add a profile tool to your MCP server so ChatGPT can label the accounts: developers.openai.com/plugin… — http://shitter.thepixora.com/mxstbr/status/2100966048132718786#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2101036303597044101#m",
+          "decryptage": "Les \"plugins\" sont des extensions qui ajoutent de nouvelles capacités à ChatGPT, et le \"contexte\" désigne les informations et l'historique de la conversation que l'IA utilise pour mieux comprendre ce qui est demandé."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Scaling d'inférence partie 1. En commençant par une fonction de génération de texte modifiée (mise à l'échelle de la température, filtrage top-p, échantillonnage multinomial) pour générer des sorties diverses pour l'auto-cohérence et le \"best-of-N\" (améliorant la précision des réponses de plus de 2x) 00:00 Introduction et récapitulatif 00:31 Scaling au temps d'entraînement et au temps d'inférence 07:52 Ce que nous allons implémenter 11:47 Configuration du notebook et chargement du modèle 17:43 Construction d'une fonction de génération de texte flexible 24:40 Prompting en chaîne de pensée 28:26 Échantillonnage et diversité des sorties 33:43 Logits du prochain jeton et décodage glouton 38:20 Mise à l'échelle de la température étape par étape 42:46 Softmax et probabilités de jetons 47:42 Échantillonnage multinomial 54:51 Ajout de l'échantillonnage de température à la génération de texte 59:31 Filtrage Top-p étape par étape 1:10:23 Ajout du filtrage Top-p à la génération de texte 1:13:43 Échantillonnage et filigrane LLM 1:16:01 Auto-cohérence et vote majoritaire 1:20:36 Implémentation de l'auto-cohérence 1:29:02 Résultats MATH-500 1:35:01 Précision et compromis de calcul 1:36:50 Prochaines étapes et auto-raffinement Vidéo",
+          "text_original": "Inference scaling part 1. Starting with a modded text generation function (temperature scaling, top-p filtering, multinomial sampling) to generate diverse outputs for self-consistency and best-of-N (improving answer accuracy by>2x) 00:00 Introduction and recap 00:31 Training-time and inference-time scaling 07:52 What we'll implement 11:47 Notebook setup and model loading 17:43 Building a flexible text generation function 24:40 Chain-of-thought prompting 28:26 Sampling and output diversity 33:43 Next-token logits and greedy decoding 38:20 Temperature scaling step by step 42:46 Softmax and token probabilities 47:42 Multinomial sampling 54:51 Adding temperature sampling to text generation 59:31 Top-p filtering step by step 1:10:23 Adding top-p filtering to text generation 1:13:43 Sampling and LLM watermarking 1:16:01 Self-consistency and majority voting 1:20:36 Implementing self-consistency 1:29:02 MATH-500 results 1:35:01 Accuracy and compute tradeoffs 1:36:50 Next steps and self-refinement Video",
+          "link": "http://shitter.thepixora.com/rasbt/status/2101313945835368684#m",
+          "decryptage": "L'\"inference scaling\" sont des techniques pour optimiser les performances d'un modèle d'IA en production ; la \"temperature scaling\" ajuste le niveau de créativité de l'IA, le \"top-p filtering\" limite les choix de mots, et la \"self-consistency\" est une méthode où l'IA génère plusieurs réponses pour choisir la plus cohérente."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Et un lien vers la vidéo sur YouTube : redirect.invidious.io/t5y-kS9nNxU Lien Construire un Modèle de Raisonnement à partir de Zéro 4 : Scaling d'Inférence 1 (Température, Top-p, Auto-cohérence) Après avoir motivé les cas d'utilisation pour le scaling au moment de l'inférence, cette vidéo... youtube.com",
+          "text_original": "And a link to the video on YouTube: redirect.invidious.io/t5y-kS9nNxU Link Build A Reasoning Model From Scratch 4: Inference Scaling 1 (Temperature, Top-p, Self-Consistency) After motivating the use cases for inference-time scaling, this vid... youtube.com",
+          "link": "http://shitter.thepixora.com/rasbt/status/2101315873977860446#m",
+          "decryptage": null
         }
       ],
       "idees": [
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Il est facile de rejeter Jev comme \"juste un classificateur\". Mais les gens (moi y compris) qui ont entraîné des modèles de type encodeur pour la classification pendant de nombreuses années savent qu'ils étaient généralement spécifiques et limités d'une certaine manière. La percée de Jev est qu'il se généralise bien. Et je dirais que l'ingrédient secret est probablement plus dans les données que dans l'algorithme d'entraînement. (Plus une belle conception d'API par-dessus.) Kun Chen (@kunchenguid) le pauvre gars prétend avoir construit Jev il y a un an mais personne ne s'en est soucié, et maintenant Jev lui a volé la vedette beaucoup de gens disent \"il faut raconter votre histoire\" ou \"le marketing est important\", et ils ont juste complètement manqué ce qui a réellement fait la différence ici j'ai juste examiné ce modèle laya laya.convaiinnovations.com/ et : - il ne prend en charge que 512-1k de contexte… beaucoup de cas d'utilisation ne conviendront pas du tout - l'évaluation directe du modèle montre que sa précision est aussi bonne qu'un pile ou face. pour obtenir de bons résultats, il faut d'abord l'affiner désolé, mais ce n'est pas Jev il y a un écart énorme entre une recherche intéressante et un produit utile que l'on peut \"juste prendre et utiliser\" Jev n'est pas complètement nouveau d'un point de vue académique, tout comme ChatGPT n'était pas le premier LLM ne sous-estimez pas l'effort et la valeur de la mise au point de quelque chose d'assez bon pour l'adoption - cela fait toute la différence — http://shitter.thepixora.com/kunchenguid/status/2101534610710761923#m",
+          "text_original": "It’s easy to dismiss Jev it as “just a classifier”. But people (me included) who have been training encoder-style models for classification for many years know they were usually special-purpose and limited in some way. The breakthrough of Jev is that it generalizes well. And I’d say the secret sauce is probably more in the data than in the training algorithm. (Plus a nice API design on top of it.) Kun Chen (@kunchenguid) poor guy claim to have built Jev a year ago but no one cared, and now Jev stole all the thunder many people are saying “you gotta tell your story” or “marketing is important”, and they just completely missed what actually made the difference here i just looked into this laya model laya.convaiinnovations.com/ and: - it only supports 512-1k context… a lot of use cases won’t fit at all - evaluating the model directly shows its accuracy is as good as a coin flip. in order to get good results, you need to first fine tune it i’m sorry, but that’s not Jev there’s a massive gap between an interesting research and a useful product you can “tell your story” all you like, but you can’t blame Jev for stealing your thunder when Jev did all the work to make a well-packaged solution anyone can just grab and go Jev is not completely new from an academic sense, just like how ChatGPT was not the first LLM don’t underestimate the effort and value in putting together something that’s actually good enough for adoption - it makes all the difference — http://shitter.thepixora.com/kunchenguid/status/2101534610710761923#m",
+          "link": "http://shitter.thepixora.com/rasbt/status/2101672304358948992#m",
+          "decryptage": "Un \"classificateur\" est un modèle d'IA qui trie des éléments en catégories ; les \"modèles de type encodeur\" (encoder-style models) transforment les données en une représentation interne pour l'analyse ; le \"contexte\" est l'information pertinente pour la tâche, et \"fine tuner\" un modèle consiste à l'ajuster avec de nouvelles données pour une tâche spécifique."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Nouvelles perspectives intéressantes sur le vieux débat AdamW vs Muon : Muon semble faire mieux parce qu'il réduit la mémorisation. Calc Consulting (@CalcCon) 𝗔𝗱𝗮𝗺𝗪 𝘃𝘀. 𝗠𝘂𝗼𝗻 : α, 𝗢𝘃𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗠𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻. Une mise à jour rapide de nos expériences WeightWatcher comparant AdamW avec le nouvel optimiseur Muon. Nous avons entraîné un modèle nanoGPT à tête unique avec les deux optimiseurs sur cinq seeds. Nous avons ensuite utilisé WeightWatcher pour étudier les spectres de la matrice de poids et plusieurs formes de mémorisation. Le graphique du haut montre l'alpha brut moyen. AdamW produit des valeurs alpha relativement stables. Muon est beaucoup plus bruyant. Ses ESD varient substantiellement entre les couches, ce qui rend l'alpha plus difficile à estimer de manière fiable. Mais la moyenne cache quelque chose d'important : 👉 Les couches individuelles tombent en dessous d'alpha = 2. Notre théorie spectrale/RG prédit que ce régime peut être associé à un apprentissage pathologique et spécifique à l'exemple. Nous avons donc testé cette prédiction directement. Nous avons inséré des séquences aléatoires dans l'ensemble d'entraînement et avons mesuré si le modèle s'en souvenait en utilisant l'extraction exacte, le rappel de jetons, le rappel forcé par l'enseignant et l'exposition aux canaris. Le résultat a été frappant. • AdamW a fortement mémorisé les séquences plantées. Plus tôt dans l'entraînement, il a atteint environ 96 % de rappel exact des canaris de 32 jetons. • Muon a fortement supprimé ce type de mémorisation. À 10 000 étapes, le rappel forcé par l'enseignant était d'environ 62 % pour AdamW contre moins de 1 % pour Muon. Il y a aussi une surprise : certaines couches de Muon ont également un alpha < 2. Donc alpha < 2 en soi n'est pas suffisant pour expliquer la mémorisation. C'est pourquoi nous recommandons d'examiner les couches individuelles de WeightWatcher et leurs ESD – et non simplement l'alpha moyen. Muon semble supprimer la mémorisation tout en produisant des ESD inhabituels qui rendent l'analyse conventionnelle de WeightWatcher plus difficile. Nous faisons maintenant fonctionner Muon beaucoup plus longtemps pour comprendre comment ces spectres évoluent. Si vous utilisez WeightWatcher et essayez d'analyser des modèles entraînés avec Muon, n'hésitez pas à nous contacter pour obtenir de l'aide. #talkToChuck 𝗔𝗱𝗮𝗺𝗪 𝘃𝘀. 𝗠𝘂𝗼𝗻 : α, 𝗢𝘃𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗠𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻. A quick update on our WeightWatcher experiments comparing AdamW with the newer Muon optimizer. We trained a single-head nanoGPT model with both optimizers across five seeds. We then used WeightWatcher to study the weight-matrix spectra and several forms of memorization. The top plot shows the average raw α. AdamW produces relatively stable α values. Muon is much noisier. Its ESDs vary substantially across layers, which makes α harder to estimate reliably. But the average hides something important: 👉 Individual layers do fall below α = 2. Our spectral/RG theory predicts that this regime can be associated with pathological, example-specific learning. So we tested that prediction directly. We inserted random sequences into the training set and measured whether the model remembered them using exact extraction, token recall, teacher-forced recall, and canary exposure. The result was striking. • AdamW memorized the planted sequences strongly. Earlier in training it reached ~96% exact recall of 32-token canaries. • Muon strongly suppressed this kind of memorization. At 10,000 steps, teacher-forced recall was ~62% for AdamW versus <1% for Muon. There is also a surprise: some Muon layers have α < 2 as well. So α < 2 by itself is not sufficient to explain memorization. This is why we recommend examining individual WeightWatcher layers and their ESDs—not simply average α. Muon appears to suppress memorization while also producing unusual ESDs that make conventional WeightWatcher analysis more difficult. We are now running Muon much longer to understand how these spectra evolve. If you are using WeightWatcher and trying to analyze models trained with Muon, feel free to reach out for help. #talkToChuck — http://shitter.thepixora.com/CalcCon/status/2100987746051658041#m",
+          "link": "http://shitter.thepixora.com/rasbt/status/2101312413643473255#m",
+          "decryptage": "\"AdamW\" et \"Muon\" sont des \"optimiseurs\", c'est-à-dire des algorithmes qui aident les modèles d'IA à apprendre ; la \"mémorisation\" (memorization) est quand le modèle retient des données par cœur au lieu de comprendre le concept général, ce qui peut mener à l'\"overfitting\" (surapprentissage), où le modèle est trop spécialisé sur ses données d'entraînement."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Quelques pistes de réflexion lors de la conception de benchmarks... Alors, voici une petite comparaison d'utilisation informatique (visuelle) entre GPT-5.6 Astra et Qwen3.8 Max. La tâche ici était de recréer l'image au centre en utilisant l'interface utilisateur de Paint. Il est super intéressant de voir comment les deux LLM+Harnesses différents ont abordé cela de manière totalement différente par défaut. Par exemple, Astra a essayé d'aborder cela en dessinant et en superposant des formes géométriques. Qwen a abordé cela pixel par pixel. (Bien sûr, le résultat pixel par pixel est plus proche de l'original, c'est essentiellement une version basse résolution de celui-ci par nature.) Ainsi, l'image générée par Qwen obtiendrait sûrement un score plus élevé dans le sens où elle est plus proche de l'original. Mais je ne conclurais pas de cet exemple qu'un LLM se généralise mieux que l'autre sur d'autres tâches. De plus, je ne dirais pas que Qwen a de meilleures capacités d'utilisation informatique ou une meilleure compréhension visuelle qu'Astra. Mais cela met en évidence un point intéressant sur la glissance des benchmarks lorsqu'ils ne comparent que les résultats finaux. Vidéo",
+          "text_original": "Some food for thought when designing benchmarks... So, here's a little computer-use (visual) comparison between GPT-5.6 Astra and Qwen3.8 Max. The task here was to recreate the image in the center using the Paint UI. Super interesting how the two different LLMs+Harnesses approached this totally differently by default. I.e., Astra tried to approach this by drawing and layering geometric shapes. Qwen approached this pixel by pixel. (Of course, the pixel-by-pixel result looks closer to the original, it's essentially a low-res version of that by nature.) So, the Qwen-generated image would surely score higher in the sense that it's closer to the original. But I wouldn’t conclude from this example that one LLM generalizes better than the other on other tasks. Also, I wouldn't say Qwen has better compute-use capabilities or better visual understanding than Astra. But it highlights an interesting point about how slippery benchmarks are when they only compare final results. Video",
+          "link": "http://shitter.thepixora.com/rasbt/status/2099846949377585659#m",
+          "decryptage": "Les \"LLMs+Harnesses\" sont des grands modèles de langage couplés à des systèmes qui leur permettent d'interagir avec des outils, et les \"benchmarks\" sont des tests standards utilisés pour comparer les performances des IA sur des tâches précises."
+        },
         {
           "author_name": "Omar Sanseviero",
           "handle": "@osanseviero",
           "text_fr": "Je me suis déconnecté de X pendant une journée, et maintenant tout mon fil d'actualité est rempli de simulations de cerveaux de mouches.",
           "text_original": "I disconnected from X for a day, and now my entire feed is fly brain simulations",
           "link": "http://shitter.thepixora.com/osanseviero/status/2098341548962320424#m",
-          "decryptage": null
+          "decryptage": "null"
         },
         {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "J'ai été submergé et touché par le fait que 99 % des réactions à notre intention d'unir nos forces ont été positives. ❤️ Des figures éminentes de la technologie, y compris certaines que l'on pourrait considérer comme ayant une relation concurrentielle avec NVIDIA, ont exprimé leur soutien vocal : • @satyanadella : \"cet écosystème avec des modèles ouverts qui continuent de prospérer et de croître\" • @sundarpichai : \"cela renforcera l'écosystème des modèles ouverts !\" • @miramurati : \"Un excellent foyer pour Hugging Face afin de continuer à étendre l'accès aux modèles ouverts et aux outils qui permettent aux gens de construire avec eux.\" • @alighodsi : \"Ce sera excellent pour l'industrie et l'open source.\" • @AravSrinivas : \"absolument nécessaire pour que l'IA reste accessible et utile au public.\" Il a ajouté qu'il était ravi que NVIDIA soutienne Hugging Face et la communauté open source. • @MichaelDell : \"une grande victoire pour tout l'écosystème.\" • @levie : \"Un autre grand moment pour l'IA à poids ouverts.\" • @adcock_brett : \"C'est bon pour tous ceux qui construisent et pour l'open source.\" • @elonmusk : \"Félicitations !\" • @osanseviero : \"L'impact de HF dans l'écosystème de l'IA a été énorme.\" Plus important encore, la communauté a adhéré à l'annonce. Maintenant, nous allons devoir démontrer par nos actions dans les mois/années à venir que nous maintiendrons le bon travail 🔥 C'est une chance de rendre l'IA open source beaucoup plus grande.",
-          "text_original": "I’ve been overwhelmed and humbled by the fact that 99% of the reactions to our intent to join forces have been positive. ❤️ Prominent tech figures, including some you could see as having a competitive relationship with NVIDIA, have been vocally supportive: • @satyanadella : “this ecosystem with open models continuing to flourish and grow” • @sundarpichai : “this will strengthen the open model ecosystem!” • @miramurati : “A great home for Hugging Face to continue expanding access to open models and the tools that let people build with them.” • @alighodsi : “This will be great for the industry and open source.” • @AravSrinivas : “absolutely necessary for AI to remain accessible and useful to the public.” He added that he was glad NVIDIA was supporting Hugging Face and the open-source community. • @MichaelDell : “a big win for the whole ecosystem.” • @levie : “Another huge moment for open weights AI.” • @adcock_brett : “This is good for everyone building and open source.” • @elonmusk : “Congrats!” • @osanseviero : “The impact of HF in the AI ecosystem has been massive” Even more importantly, the community has been leaning into the announcement. Now we’ll get to demonstrate through our actions in the coming months/years that we will keep up the good work 🔥 This is a chance to make open-source AI so much bigger.",
-          "link": "http://shitter.thepixora.com/julien_c/status/2096956043003568444#m",
-          "decryptage": "'Open source' signifie que le code source d'un logiciel est public et peut être modifié par tous, tandis que les 'modèles ouverts' désignent des modèles d'IA dont les paramètres internes sont partagés, favorisant la collaboration et l'innovation."
+          "author_name": "Jeremy Howard",
+          "handle": "@jeremyphoward",
+          "text_fr": "Au moins n=2 mais ce n'est pas beaucoup ! (biologie synthétique pendant deux décennies : synthétiseurs d'ADN, séquenceurs, ingénierie cellulaire, conception virale et mise à l'échelle de transformateurs chez GDM depuis 2018.) Je suis d'accord avec tous vos points - merci de les avoir soulevés. Le truc du risque pandémique biologique sort tout droit d'un délire de charlatans qui n'ont clairement jamais travaillé en laboratoire. Aucune appréciation des échelles de temps, de la complexité biophysique, des chaînes d'approvisionnement ou de l'économie.",
+          "text_original": "At least n=2 but it’s not a lot! (synbio for two decades: dna synthesizers, sequencers, cell engineering, viral design and have been scaling transformers at GDM since 2018.) I agree with all of your points - thanks for making them. The biorisk pandemic stuff is straight out of the crackpipe from hucksters who clearly never worked in a lab. No appreciation of the timescales, biophysical complexity, supply chains, or economics.",
+          "link": "http://shitter.thepixora.com/anselmlevskaya/status/2099254513479893087#m",
+          "decryptage": "La \"biologie synthétique\" (synbio) consiste à concevoir et créer de nouvelles fonctions biologiques, et les \"transformateurs\" sont une architecture de modèle d'IA très utilisée pour le traitement du langage naturel."
         },
         {
-          "author_name": "AlphaSignal",
-          "handle": "@AlphaSignalAI",
-          "text_fr": "Pas si vous êtes abonné à @AlphaSignalAI edgar (@edgarpavlovsky) Il se passe tellement de choses dans l'IA en ce moment qu'il faut pratiquement être au chômage pour suivre le rythme — http://shitter.thepixora.com/edgarpavlovsky/status/2100785363371675725#m",
-          "text_original": "not if you're subscribed to @AlphaSignalAI edgar (@edgarpavlovsky) so much is happening in AI rn you basically have to be unemployed to keep up — http://shitter.thepixora.com/edgarpavlovsky/status/2100785363371675725#m",
-          "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2101036027850694942#m",
-          "decryptage": null
+          "author_name": "Jeremy Howard",
+          "handle": "@jeremyphoward",
+          "text_fr": "Je dois faire partie d'un groupe extrêmement restreint de personnes (n=1?) qui ont à la fois 1) entraîné un LLM de pointe et 2) conçu et synthétisé des virus personnalisés en laboratoire de mes propres mains. Et je pense que les thèses selon lesquelles l'IA nous tuerait tous en créant des virus dangereux sont totalement bidons.",
+          "text_original": "I must be among an extremely small group of people (n=1?) that have both 1) trained a frontier LLM and 2) designed and synthesized custom viruses in a lab with my own two hands. And I think that the takes on AI killing us all by creating dangerous viruses is total bogus.",
+          "link": "http://shitter.thepixora.com/DavidRBellamy/status/2099187370407112758#m",
+          "decryptage": "Un \"LLM de pointe\" (frontier LLM) est un Grand Modèle de Langage à la pointe de la technologie, très avancé, tandis que \"synthétiser des virus personnalisés\" fait référence à la création artificielle de virus modifiés à des fins de recherche."
+        },
+        {
+          "author_name": "Jeremy Howard",
+          "handle": "@jeremyphoward",
+          "text_fr": "\"Les modèles qui posent réellement problème actuellement sont tous des modèles américains à poids fermés.\" -- @mitsuhiko lucumr.pocoo.org/2026/9/12/p…",
+          "text_original": "\"The models that are actually causing issues right now are all closed weight American models.\" -- @mitsuhiko lucumr.pocoo.org/2026/9/12/p…",
+          "link": "http://shitter.thepixora.com/math_rachel/status/2098987214302806486#m",
+          "decryptage": "Les \"modèles à poids fermés\" (closed weight models) sont des IA dont le fonctionnement interne (les \"poids\" du réseau neuronal) n'est pas rendu public, ce qui limite la transparence et la capacité à les auditer."
+        },
+        {
+          "author_name": "Jeremy Howard",
+          "handle": "@jeremyphoward",
+          "text_fr": "C'est le genre de publication que je pourrais regretter plus tard, mais j'avais vraiment envie de râler sur le discours actuel concernant le rythme de progression de la frontière. lucumr.pocoo.org/2026/9/12/p… Lien P(doom) Allons-nous tous mourir ? lucumr.pocoo.org",
+          "text_original": "This is the type of post I might regret later, but I really had an urge to rant about the current discourse around pacing the frontier. lucumr.pocoo.org/2026/9/12/p… Link P(doom) Are we all going to die? lucumr.pocoo.org",
+          "link": "http://shitter.thepixora.com/mitsuhiko/status/2098863199047020836#m",
+          "decryptage": "Le \"discours sur le rythme de progression de la frontière\" (pacing the frontier) fait référence aux discussions et débats sur la vitesse à laquelle l'IA la plus avancée est développée et déployée, et sur les risques que cela pourrait engendrer."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "En biologie, comme en cybersécurité, nous apprendrons dans les années à venir que la majeure partie du risque est concentrée et créée par les quelques laboratoires les plus puissants et que l'IA open-source est la solution et l'atténuation de ce risque !",
+          "text_original": "In biology, like in cybersecurity, we’ll learn in the coming years that most of the risk is concentrated and created by the few most powerful labs and that open-source AI is the solution and mitigation of this risk!",
+          "link": "http://shitter.thepixora.com/ClementDelangue/status/2100909343654732242#m",
+          "decryptage": "La \"cybersécurité\" est l'ensemble des mesures pour protéger les systèmes informatiques, et l'\"IA open-source\" (open-source AI) est une IA dont le code est public, ce qui, selon l'auteur, peut aider à réduire les risques."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Une dernière chose de ma part concernant l'incident de l'\"agent voyou\" HF<>OpenAI. D'après ce que nous savons maintenant, il semble que @huggingface ait été la première organisation à satisfaire simultanément aux facteurs suivants : 1/ connaissance de l'attaque 2/ connaissance que l'attaque était basée sur un agent 3/ capacité à remédier à l'attaque 4/ volonté de la divulguer publiquement Quelques autres plateformes ou systèmes ont manqué un ou plusieurs de ces points au cours des mois précédents. Comme d'habitude, la sensibilisation et la transparence rendent tout le monde plus sûr à long terme 🙏",
+          "text_original": "One last thing from me about the HF<>OpenAI \"rogue agent\" incident. From what we now know it seems @huggingface was the first organization to simultaneously satisfy the following factors: 1/ awareness of the attack 2/ awareness that the attack was Agent-based 3/ ability to remediate the attack 4/ willingness to publicly disclose it A few other platforms or systems missed one or more of those points in the earlier months. As usual, both awareness and transparency make everyone safer in the long run 🙏",
+          "link": "http://shitter.thepixora.com/julien_c/status/2100575290145587386#m",
+          "decryptage": "Un \"agent voyou\" (rogue agent) est un programme d'IA agissant de manière inattendue ou non autorisée ; \"Agent-based\" signifie que l'attaque utilise un agent IA, et \"remédier à l'attaque\" signifie corriger les problèmes causés par celle-ci."
         }
       ],
       "outils": [
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "L'IA est le système d'exploitation. Computer (@AskPerplexity) Vous pouvez désormais connecter des applications depuis la page d'accueil de Computer. Disponible dès maintenant sur le web pour tous les utilisateurs de Computer. Vidéo — http://shitter.thepixora.com/AskPerplexity/status/2101147964307849718#m",
-          "text_original": "AI is the OS. Computer (@AskPerplexity) You can now connect apps from the Computer homepage composer. Live now on the web for all Computer users. Video — http://shitter.thepixora.com/AskPerplexity/status/2101147964307849718#m",
-          "link": "http://shitter.thepixora.com/AravSrinivas/status/2101149706235834829#m",
-          "decryptage": "Un 'OS' (Operating System) est le système d'exploitation, le programme essentiel qui gère toutes les fonctions d'un ordinateur ; ici, l'IA est présentée comme le cœur de ce système."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Présentation d'Atlas : Le premier modèle mondial multimodal au monde qui génère des images et des cadres vidéo avec un contrôle de caméra au pixel près et les reconstruit en 3D. Modélisez le monde, déplacez la caméra et simulez l'espace et le temps. Vidéo",
+          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+          "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
+          "decryptage": "Un \"modèle mondial multimodal\" est un système d'IA capable de comprendre et de générer différents types de données (texte, images, vidéo) pour simuler un monde, avec un \"contrôle de caméra au pixel près\" qui permet une précision extrême de la vision."
         },
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "Computer est le meilleur \"harnais\" multimodèle pour les tâches d'agent à long terme. Il propose désormais des préréglages pour différents niveaux d'effort (coût et intelligence) qui, selon nous, fonctionnent le mieux pour nos utilisateurs, avec des options pour les personnaliser encore plus pour les utilisateurs avancés. Perplexity (@perplexity_ai) Nous déployons des contrôles d'effort dans le sélecteur de modèle de Computer. Les préréglages d'effort combinent le modèle orchestrateur et la profondeur de raisonnement pour contrôler à quel point Computer travaille une tâche en profondeur et efficacement. Disponible dès maintenant sur le web. Bientôt sur mobile et ordinateur de bureau. Vidéo — http://shitter.thepixora.com/perplexity_ai/status/2100617849677176992#m",
-          "text_original": "Computer is the best multi model harness for long horizon agentic workloads. It now has a few presets for different effort (cost and intelligence levels) that we’ve seen to work best for our users, with toggles to customize even further for power users. Perplexity (@perplexity_ai) We’re rolling out effort controls in Computer’s model selector. Effort presets combine the orchestrator model and reasoning depth to control how deeply and efficiently Computer works through a task. Available now on web. Coming to mobile and desktop soon. Video — http://shitter.thepixora.com/perplexity_ai/status/2100617849677176992#m",
-          "link": "http://shitter.thepixora.com/AravSrinivas/status/2100635004829315171#m",
-          "decryptage": "Un 'harnais multimodèle' est un système qui gère et combine plusieurs intelligences artificielles capables de traiter différents types d'informations, tandis que le 'modèle orchestrateur' est l'IA principale qui coordonne le travail des autres modèles."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Nous commençons à quitter le territoire où l'on testerait un LLM en lui demandant par exemple de « créer un SVG d'un pélican à vélo ». Comme idée pour le généraliser, je voulais voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de tokens (environ 10$) et lui demandais un rendu JavaScript en 3D. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu bizarre mais amusant. C'est assez hallucinant qu'un LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire du code qui anime le tout, et qu'il fasse même quelque chose du tout. J'aime aussi ce genre d'exemples parce que personne de sensé ne passerait le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où nous passons de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est presque gratuit ». Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels vous pouvez imaginer laisser tomber des joueurs, par exemple pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, ou etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux à l'intérieur d'eux. Ici, Opus 5 a dû très lentement et péniblement prendre des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé pas mal de bizarreries. Un exemple de capacité brute (multimodale, gameplay) que je pense est encore assez lacunaire. Vidéo",
+          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+          "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
+          "decryptage": "Un \"LLM\" (Grand Modèle de Langage) est un programme d'IA très avancé capable de comprendre et générer du texte, ici il utilise un \"token budget\" (limite de mots ou parties de mots) pour générer un monde \"procedurally rendered\" (rendu automatiquement par des règles) avec des \"polygon assets\" (éléments graphiques 3D de base) pour une simulation de jeu où un \"spectator NPC\" (personnage non-joueur observateur) pourrait évoluer."
         },
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "Les agents de codage nécessitent des recherches parallèles à travers les documents, des résultats filtrés à partir de documents officiels, et la capacité d'extraire des extraits détaillés. pplx-search-sdk supporte tout cela, et nous avons un nouveau \"cookbook\" (recueil de recettes) en ligne. pplx.ai/pplx-srch-sdk Lien Search as Code pour les agents de codage - Perplexity Utilisez le SDK de recherche Perplexity pour construire un paquet de migration de dépendances soutenu par des sources que tout agent de codage peut inspecter avant de modifier du code. docs.perplexity.ai Perplexity Developers (@perplexitydevs) Un nouveau \"cookbook\" du SDK de recherche Perplexity est en ligne. La \"recette\" déploie des recherches ciblées, filtre les résultats pour les documents officiels, extrait les passages pertinents et rédige un bref résumé lié à la source pour votre agent de codage. Commencez : pplx.ai/pplx-srch-sdk — http://shitter.thepixora.com/perplexitydevs/status/2100301249686196680#m",
-          "text_original": "Coding agents require parallel searches across docs, filtered results from official docs, and the ability to extract detailed snippets. pplx-search-sdk supports all of these, and we have a new cookbook live. pplx.ai/pplx-srch-sdk Link Search as Code for coding agents - Perplexity Use the Perplexity Search SDK to build a source-backed dependency migration packet that any coding agent can inspect before it edits code. docs.perplexity.ai Perplexity Developers (@perplexitydevs) A new Perplexity Search SDK cookbook is live. The recipe fans out focused searches, filters results to official docs, extracts relevant passages, and writes a source-linked brief for your coding agent. Get started: pplx.ai/pplx-srch-sdk — http://shitter.thepixora.com/perplexitydevs/status/2100301249686196680#m",
-          "link": "http://shitter.thepixora.com/AravSrinivas/status/2100303192219385906#m",
-          "decryptage": "Un 'agent de codage' est une IA spécialisée dans l'écriture ou la modification de code informatique, tandis qu'un 'SDK' (Software Development Kit) est un ensemble d'outils pour aider les développeurs à créer des applications, et un 'cookbook' est un guide pratique avec des exemples."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Plus d'informations sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis en ligne la source ici pour qu'elle soit jouable dans le navigateur, \"forkable\", etc. karpathy.ai/lotr-movie/ Attention, GTA Hobbiton arrive avant GTA VI :)",
+          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+          "link": "http://shitter.thepixora.com/karpathy/status/2083948654377996480#m",
+          "decryptage": "\"Forkable\" signifie que le code source est disponible et peut être copié et modifié par d'autres développeurs pour créer leurs propres versions."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Codex vocal pour les road trips : Jonathan Roomer (@jonathanroomer) J'ai Codex (vocal) dans CarPlay. Et c'est fantastique. Je peux maintenant construire des choses pendant les road trips, pendant que mes 5 enfants font du bruit et que ma femme me demande pourquoi je parle plus à l'IA qu'à elle. Cela fonctionne via mon application iOS Nightblood, qui donne à ChatGPT Voice un visage, une personnalité et un accès complet à Codex, à mon Mac et à tous les outils natifs. Vidéo — http://shitter.thepixora.com/jonathanroomer/status/2099979041394573535#m",
+          "text_original": "Codex voice for road trips: Jonathan Roomer (@jonathanroomer) I’ve got Codex (voice) in CarPlay. And it’s fantastic. I can now build things during road trips, while all 5 kids make a noise and my wife asks why I talk to the AI more than I talk to her. It runs through my Nightblood iOS app, which gives ChatGPT Voice a face, personality and full access to Codex, my Mac and all the native tools. Video — http://shitter.thepixora.com/jonathanroomer/status/2099979041394573535#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2100272869704097819#m",
+          "decryptage": "\"Codex (vocal)\" est une version d'IA capable de générer du code grâce à la voix, \"CarPlay\" est le système d'Apple pour connecter un iPhone à la voiture, et les \"outils natifs\" sont les fonctionnalités directement intégrées au système d'exploitation de l'appareil."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Aaahh fonctionnalité incroyable, mon SSD vous remercie",
+          "text_original": "Aaahh amazing feature, my SSD thanks you",
+          "link": "http://shitter.thepixora.com/maximelabonne/status/2100982362951815543#m",
+          "decryptage": "Un \"SSD\" est un disque dur très rapide pour ordinateur, souvent loué pour sa performance et sa capacité à gérer de gros fichiers."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Mon pote @mishig25 a fait faire à son robot de simulation quelque chose d'encore mieux que la Joconde Vidéo Mishig ᠮᠢᠰιᠢᠭ (@mishig25) a reproduit l'expérience dans MuJoCo : a demandé à gpt6 astra de peindre la Tour Eiffel en simulation en utilisant so101 et un pinceau, voir l'expérience complète huggingface.co/buckets/mishi… Vidéo — http://shitter.thepixora.com/mishig25/status/2099611674793668676#m",
+          "text_original": "my mate @mishig25 made his simu robot do something even better than the mona lisa Video Mishig ᠮᠢᠰιᠢᠭ (@mishig25) reproduced the experiment in MuJoCo: asked gpt6 astra to paint Eiffel Tower in simulation using so101 and a paint brush, see the entire experiment huggingface.co/buckets/mishi… Video — http://shitter.thepixora.com/mishig25/status/2099611674793668676#m",
+          "link": "http://shitter.thepixora.com/julien_c/status/2100283461411958948#m",
+          "decryptage": "Un \"robot de simulation\" (simu robot) est un robot virtuel évoluant dans un environnement simulé, et \"MuJoCo\" est un moteur physique qui permet de simuler de manière réaliste les mouvements de robots."
         }
       ]
     }
   },
-  "processed_at": "2026-09-20T13:43:36",
+  "processed_at": "2026-09-20T14:43:14",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 69,
-    "total": 16,
+    "with_decryptage_pct": 97,
+    "total": 33,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-20T13:43:37"
+  "email_sent_at": "2026-09-20T14:43:15"
 }
