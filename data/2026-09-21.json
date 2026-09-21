@@ -1,230 +1,140 @@
 {
   "date": "2026-09-21",
-  "fetched_at": "2026-09-21T14:02:21",
+  "fetched_at": "2026-09-21T14:33:07",
   "tweets": [
     {
-      "handle": "ylecun",
-      "text": "I have absolutely never ever \"asked\" to stop R&D on LLMs. In fact, I was very supportive of LLM efforts at Meta. Just look up my public advocacy for Galactica (November 2022), and the open sourcing of OPT-175B (May 2022), and of the Llama herd (mid 2023). I was actually influential in convincing the Meta leadership to start an AI-first product division built around Llama in January 2023. I've always said that LLMs were impressive, useful, and had amazing potential. I've also always said they were an off-ramp on the path towards human-level AI. Stop making me say things I didn't say or claim that I somehow hindered LLM R&D at Meta. That's BS.",
-      "link": "http://shitter.thepixora.com/ylecun/status/2101992797398082008#m",
-      "published": "Mon, 21 Sep 2026 11:11:50 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "I said \"auto-regressive LLMs, in and of themselves, will not lead human-level AI\" That statement is still totally true. First, the reasoning abilities of current AI systems are based non-auto-regressive search (which is what I have always advocated for). But AFAICT, they do it in token space, which is limited and inefficient. I have claimed that human-like reasoning must be a search in continuous representation space. It looks like the industry is moving towards that. Second, the self-improvement methods, as currently practiced, only work for domains where the quality of outputs can be scored without human intervention, such as mathematics, code, and scenarios that can be simulated accurately. Not anything else. Humans and animals learn new skills way more efficiently than current RL methods. Third, the multimodal capabilities of current AI assistants generally use separately-trained encoders (that are not LLMs). This is also what I've been advocating. Except that I think the best way to do this is with JEPA trained with self-supervised learning. The research community is clearly moving towards that (3000 papers on JEPA in just 4 years). Fourth, if LLMs were a path to human-level AI, we would have domestic robots and Level-4 or Level-5 self-driving cars for consumers by now. And we don't. We certainly don't have cars that can learn to drive in 20 hours or practice like any teenager. We're still missing something pretty huge to claim human-level intelligence (let alone superhuman). Sure, we now have computer systems that are impressive, very useful, and whose performance is superhuman in an increasing number of domains (coding being one of them). But that's true of the entire history of progress in computer technology. Lastly, there is a basic confusion about what intelligence actually is. It is not the mere accumulation and regurgitation of existing declarative knowledge (which is essentially what LLMs do). As Jean Piaget famously said, \"intelligence is not what you know, it is what you do when you don't know.\" It is your ability to solve new problem without any prior training, to act in previously-unknown scenarios, and to adapt very quickly to new situations with minimal training. We're still far from that.",
-      "link": "http://shitter.thepixora.com/ylecun/status/2101674561930510740#m",
-      "published": "Sun, 20 Sep 2026 14:07:17 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "Interested in World Modeling with a lens on Physics? We are organizing the World Modeling for Physics workshop at the wonderful Aspen Center 2/28-3/5/27. Apply for presentations (deadline Oct 9) or participation (by 9/30)! It will be an exciting event in a great setting bringing together domain scientists and AI researchers! wmw-aspen.github.io/ With @ylecun @randall_balestr @cosmo Randall Balestriero (@randall_balestr) Our 4th world modeling workshop will be looking at *Physics*! Happening at the Aspen Center for Physics end of February ( wmw-aspen.github.io ) If you are interested in presenting, submit your abstract here: docs.google.com/forms/d/e/1F… Deadline on October 9th, 1 page Abstract! — http://shitter.thepixora.com/randall_balestr/status/2100649310958284951#m",
-      "link": "http://shitter.thepixora.com/KempeLab/status/2101239215769915539#m",
-      "published": "Sat, 19 Sep 2026 09:17:22 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "The interesting thing about this 1995 open source software panic was that people seemed to think it was ‘agentic’ Pessimists Archive (@PessimistsArc) In 1995 everyone panicked about software that to could automatically find exploits on computer systems… newsletter.pessimistsarchive… — http://shitter.thepixora.com/PessimistsArc/status/2099323309913502020#m",
-      "link": "http://shitter.thepixora.com/PessimistsArc/status/2101350370286932276#m",
-      "published": "Sat, 19 Sep 2026 16:39:04 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "You and Yoshua are inadvertently helping those who want to put AI research and development under lock and key and protect their business by banning open research, open-source code, and open-access models. This will inevitably lead to bad outcomes in the medium term.",
-      "link": "http://shitter.thepixora.com/ylecun/status/1719432513003901278#m",
-      "published": "Tue, 31 Oct 2023 19:13:51 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AndrewYNg",
-      "text": "With AI Engineering skills, you actively shape the build: You influence what gets built, and drive the build loop. Here're key skills to do this. Article AI Engineering Skills Map: Shaping the build When you’re skilled at AI Engineering, your best work won’t be merely implementing a product that someone else spec’ed out. Instead, you will actively shape the build. Before modern AI tools",
-      "link": "http://shitter.thepixora.com/AndrewYNg/status/2098459474608672916#m",
-      "published": "Fri, 11 Sep 2026 17:11:40 GMT",
-      "author_name": "Andrew Ng",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AndrewYNg",
-      "text": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. Article AI Engineering Skills Map: Using coding agents A key AI engineering skill is using coding agents. Your skill at steering them both to write code and to carry out non-code tasks, such as analyzing data or managing system operations, allows you to",
-      "link": "http://shitter.thepixora.com/AndrewYNg/status/2095890279865721217#m",
-      "published": "Fri, 04 Sep 2026 15:02:37 GMT",
-      "author_name": "Andrew Ng",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AndrewYNg",
-      "text": "How have software engineering fundamentals changed with agentic coding? Here is our AI Engineering Skills map for software engineering fundamentals. Article AI Engineering Skills Map: Software engineering fundamentals How have software engineering fundamentals changed with agentic coding? Even when you use a coding agent to write all your code, understanding software fundamentals is important for steering your",
-      "link": "http://shitter.thepixora.com/AndrewYNg/status/2093388974194872781#m",
-      "published": "Fri, 28 Aug 2026 17:23:19 GMT",
-      "author_name": "Andrew Ng",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AndrewYNg",
-      "text": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary. OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement). You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key. Thanks also to all the open source contributors! Join work with @rohitcprasad so please follow him too to get more frequent updates. Try it out: openworker.com/ Code: github.com/andrewyng/openwor…",
-      "link": "http://shitter.thepixora.com/AndrewYNg/status/2092315079576555806#m",
-      "published": "Tue, 25 Aug 2026 18:16:02 GMT",
-      "author_name": "Andrew Ng",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AndrewYNg",
-      "text": "In the fight to defend openness in AI, the Marin project is a precious demonstration of openness in model training, with open code, data, recipes, even experimental results. Releasing AI research openly used to be the norm; I'm grateful for @percyliang 's open lab approach. Percy Liang (@percyliang) 🚢 Marin 535B-A23B started training this week! As usual, the whole process is open. Voyage plan: pretraining (80%) + midtraining (20%) on 18.75T tokens on 11 x GB200 NVL72 for ~3 months (2.7e24 FLOPs). Post-training will follow. Before kicking off the run, we trained a 4-rung scaling ladder from 1.6B-A61M (48B tokens) to 27.7B-A1.2B (926B tokens) to debug issues, and to make a forecast of our hero run. This is by far our biggest run, so definitely expecting the unexpected. — http://shitter.thepixora.com/percyliang/status/2090918065634684997#m",
-      "link": "http://shitter.thepixora.com/AndrewYNg/status/2091688153048645650#m",
-      "published": "Mon, 24 Aug 2026 00:44:52 GMT",
-      "author_name": "Andrew Ng",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "It’s easy to dismiss Jev it as “just a classifier”. But people (me included) who have been training encoder-style models for classification for many years know they were usually special-purpose and limited in some way. The breakthrough of Jev is that it generalizes well. And I’d say the secret sauce is probably more in the data than in the training algorithm. (Plus a nice API design on top of it.) Kun Chen (@kunchenguid) poor guy claim to have built Jev a year ago but no one cared, and now Jev stole all the thunder many people are saying “you gotta tell your story” or “marketing is important”, and they just completely missed what actually made the difference here i just looked into this laya model laya.convaiinnovations.com/ and: - it only supports 512-1k context… a lot of use cases won’t fit at all - evaluating the model directly shows its accuracy is as good as a coin flip. in order to get good results, you need to first fine tune it i’m sorry, but that’s not Jev there’s a massive gap between an interesting research and a useful product you can “tell your story” all you like, but you can’t blame Jev for stealing your thunder when Jev did all the work to make a well-packaged solution anyone can just grab and go Jev is not completely new from an academic sense, just like how ChatGPT was not the first LLM don’t underestimate the effort and value in putting together something that’s actually good enough for adoption - it makes all the difference — http://shitter.thepixora.com/kunchenguid/status/2101534610710761923#m",
-      "link": "http://shitter.thepixora.com/rasbt/status/2101672304358948992#m",
-      "published": "Sun, 20 Sep 2026 13:58:19 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "Inference scaling part 1. Starting with a modded text generation function (temperature scaling, top-p filtering, multinomial sampling) to generate diverse outputs for self-consistency and best-of-N (improving answer accuracy by>2x) 00:00 Introduction and recap 00:31 Training-time and inference-time scaling 07:52 What we'll implement 11:47 Notebook setup and model loading 17:43 Building a flexible text generation function 24:40 Chain-of-thought prompting 28:26 Sampling and output diversity 33:43 Next-token logits and greedy decoding 38:20 Temperature scaling step by step 42:46 Softmax and token probabilities 47:42 Multinomial sampling 54:51 Adding temperature sampling to text generation 59:31 Top-p filtering step by step 1:10:23 Adding top-p filtering to text generation 1:13:43 Sampling and LLM watermarking 1:16:01 Self-consistency and majority voting 1:20:36 Implementing self-consistency 1:29:02 MATH-500 results 1:35:01 Accuracy and compute tradeoffs 1:36:50 Next steps and self-refinement Video",
-      "link": "http://shitter.thepixora.com/rasbt/status/2101313945835368684#m",
-      "published": "Sat, 19 Sep 2026 14:14:19 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "And a link to the video on YouTube: redirect.invidious.io/t5y-kS9nNxU Link Build A Reasoning Model From Scratch 4: Inference Scaling 1 (Temperature, Top-p, Self-Consistency) After motivating the use cases for inference-time scaling, this vid... youtube.com",
-      "link": "http://shitter.thepixora.com/rasbt/status/2101315873977860446#m",
-      "published": "Sat, 19 Sep 2026 14:21:59 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "Interesting new insights into the old AdamW vs Muon debate: Muon seems to do better because it reduces memorization. Calc Consulting (@CalcCon) 𝗔𝗱𝗮𝗺𝗪 𝘃𝘀. 𝗠𝘂𝗼𝗻: α, 𝗢𝘃𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗠𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻. A quick update on our WeightWatcher experiments comparing AdamW with the newer Muon optimizer. We trained a single-head nanoGPT model with both optimizers across five seeds. We then used WeightWatcher to study the weight-matrix spectra and several forms of memorization. The top plot shows the average raw α. AdamW produces relatively stable α values. Muon is much noisier. Its ESDs vary substantially across layers, which makes α harder to estimate reliably. But the average hides something important: 👉 Individual layers do fall below α = 2. Our spectral/RG theory predicts that this regime can be associated with pathological, example-specific learning. So we tested that prediction directly. We inserted random sequences into the training set and measured whether the model remembered them using exact extraction, token recall, teacher-forced recall, and canary exposure. The result was striking. • AdamW memorized the planted sequences strongly. Earlier in training it reached ~96% exact recall of 32-token canaries. • Muon strongly suppressed this kind of memorization. At 10,000 steps, teacher-forced recall was ~62% for AdamW versus <1% for Muon. There is also a surprise: some Muon layers have α < 2 as well. So α < 2 by itself is not sufficient to explain memorization. This is why we recommend examining individual WeightWatcher layers and their ESDs—not simply average α. Muon appears to suppress memorization while also producing unusual ESDs that make conventional WeightWatcher analysis more difficult. We are now running Muon much longer to understand how these spectra evolve. If you are using WeightWatcher and trying to analyze models trained with Muon, feel free to reach out for help. #talkToChuck 𝗔𝗱𝗮𝗺𝗪 𝘃𝘀. 𝗠𝘂𝗼𝗻: α, 𝗢𝘃𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗠𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻. A quick update on our WeightWatcher experiments comparing AdamW with the newer Muon optimizer. We trained a single-head nanoGPT model with both optimizers across five seeds. We then used WeightWatcher to study the weight-matrix spectra and several forms of memorization. The top plot shows the average raw α. AdamW produces relatively stable α values. Muon is much noisier. Its ESDs vary substantially across layers, which makes α harder to estimate reliably. But the average hides something important: 👉 Individual layers do fall below α = 2. Our spectral/RG theory predicts that this regime can be associated with pathological, example-specific learning. So we tested that prediction directly. We inserted random sequences into the training set and measured whether the model remembered them using exact extraction, token recall, teacher-forced recall, and canary exposure. The result was striking. • AdamW memorized the planted sequences strongly. Earlier in training it reached ~96% exact recall of 32-token canaries. • Muon strongly suppressed this kind of memorization. At 10,000 steps, teacher-forced recall was ~62% for AdamW versus <1% for Muon. There is also a surprise: some Muon layers have α < 2 as well. So α < 2 by itself is not sufficient to explain memorization. This is why we recommend examining individual WeightWatcher layers and their ESDs—not simply average α. Muon appears to suppress memorization while also producing unusual ESDs that make conventional WeightWatcher analysis more difficult. We are now running Muon much longer to understand how these spectra evolve. If you are using WeightWatcher and trying to analyze models trained with Muon, feel free to reach out for help. #talkToChuck — http://shitter.thepixora.com/CalcCon/status/2100987746051658041#m",
-      "link": "http://shitter.thepixora.com/rasbt/status/2101312413643473255#m",
-      "published": "Sat, 19 Sep 2026 14:08:14 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "Some food for thought when designing benchmarks... So, here's a little computer-use (visual) comparison between GPT-5.6 Astra and Qwen3.8 Max. The task here was to recreate the image in the center using the Paint UI. Super interesting how the two different LLMs+Harnesses approached this totally differently by default. I.e., Astra tried to approach this by drawing and layering geometric shapes. Qwen approached this pixel by pixel. (Of course, the pixel-by-pixel result looks closer to the original, it's essentially a low-res version of that by nature.) So, the Qwen-generated image would surely score higher in the sense that it's closer to the original. But I wouldn’t conclude from this example that one LLM generalizes better than the other on other tasks. Also, I wouldn't say Qwen has better compute-use capabilities or better visual understanding than Astra. But it highlights an interesting point about how slippery benchmarks are when they only compare final results. Video",
-      "link": "http://shitter.thepixora.com/rasbt/status/2099846949377585659#m",
-      "published": "Tue, 15 Sep 2026 13:05:00 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "levelsio",
-      "text": "Same with this article from yesterday Gay acceptance is now rapidly dropping in the Netherlands The real reason is Middle Eastern and North African (MENA) immigrants are extremely against homosexuality But media isn't allowed or won't ever write that It's ironic that the gay acceptance we fought for for decades in the Netherlands is being destroyed by progressive policies that keep continously importing low quality immigrants from cultures that are completely opposed to us @levelsio (@levelsio) This is so hilarious but honestly tragic European media can't and won't report on this They're all posting articles reading ability, intelligence and education levels are going down but actually they go up if you exclude immigrant kids It'd be much more useful if they reported the truth so we could improve education for everyone! — http://shitter.thepixora.com/levelsio/status/2101978657254244858#m",
-      "link": "http://shitter.thepixora.com/levelsio/status/2101997296485367958#m",
-      "published": "Mon, 21 Sep 2026 11:29:43 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "osanseviero",
+      "text": "Going to Argentina and Uruguay this and next week 🥟 Last time visiting Uruguay was during Khipu 2023, so I'm looking forward to going back and taking some time to disconnect!",
+      "link": "http://shitter.thepixora.com/osanseviero/status/2102035042444738588#m",
+      "published": "Mon, 21 Sep 2026 13:59:42 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "Being gay is illegal in most MENA countries like Morocco",
-      "link": "http://shitter.thepixora.com/levelsio/status/2102020012449968382#m",
-      "published": "Mon, 21 Sep 2026 12:59:59 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "osanseviero",
+      "text": "Article Managed Agents in the Gemini API: an updated agent harness, a Files API, and managed credentials Gemini managed agents are getting an updated harness. antigravity-preview-09-2026 brings the agent's tools and behavior closer to what you get in the Antigravity Coding Agent, it's live today in the",
+      "link": "http://shitter.thepixora.com/GoogleAIStudio/status/2100635173188432193#m",
+      "published": "Thu, 17 Sep 2026 17:17:07 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "This is so hilarious but honestly tragic European media can't and won't report on this They're all posting articles reading ability, intelligence and education levels are going down but actually they go up if you exclude immigrant kids It'd be much more useful if they reported the truth so we could improve education for everyone! William Meijer (@williameijer) Germany's PISA score rises 41 points if you exclude immigrant kids. Switzerland: +30. The UAE's score drops 45 points without immigrants. Singapore, Macao, the UAE, and Qatar recruit immigrants smarter than their native populations; Europe, the opposite — http://shitter.thepixora.com/williameijer/status/2101665790416056573#m",
-      "link": "http://shitter.thepixora.com/levelsio/status/2101978657254244858#m",
-      "published": "Mon, 21 Sep 2026 10:15:39 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "osanseviero",
+      "text": "Join @GoogleDeepMind for an immersive Gemini Audio experience in SF next week! A mix of creative Audio-Visual art and real-time conversations with Gemini and the folks behind the models! 📍 The Pearl, San Francisco 🗓️ Thursday, Sept 24 | 6–10 PM",
+      "link": "http://shitter.thepixora.com/thorwebdev/status/2099486872028225602#m",
+      "published": "Mon, 14 Sep 2026 13:14:11 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "There's a whole category of SaaS predicated on the moat of \"devs don't have the time to do this themselves\" and that moat is eroding in real time now. Mike Ritchie (@thisritchie) this is exactly what happened with Mintlify for us. I had 25% of my Claude max leftover on Friday night, I got an email from them saying they were increasing prices, so I replaced it in ~12 hours with about 25 minutes of actual effort. — http://shitter.thepixora.com/thisritchie/status/2101663299641242057#m",
-      "link": "http://shitter.thepixora.com/yongfook/status/2101842577347706884#m",
-      "published": "Mon, 21 Sep 2026 01:14:55 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "osanseviero",
+      "text": "I disconnected from X for a day, and now my entire feed is fly brain simulations",
+      "link": "http://shitter.thepixora.com/osanseviero/status/2098341548962320424#m",
+      "published": "Fri, 11 Sep 2026 09:23:05 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "Belly fat is killing your testosterone Sergio Ferrero (@calotonterias) La edad solo explica un 2,5% de la variación de testosterona entre hombres, mientras que el exceso de grasa corporal explica un 18-20%. Lo que más reduce tu testosterona es ser sedentario, no entrenar fuerza, tener exceso de grasa corporal, no tomar el sol, comer ultraprocesados, dormir mal y no comer animales. No culpes tanto a la edad. — http://shitter.thepixora.com/calotonterias/status/2101710980698812794#m",
-      "link": "http://shitter.thepixora.com/levelsio/status/2101821385731395719#m",
-      "published": "Sun, 20 Sep 2026 23:50:42 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "osanseviero",
+      "text": "See you in Argentina in two weeks! Excited to speak at Nerdearla. We'll also host a side event, see you there! g.dev/events/gdm-nerdearla",
+      "link": "http://shitter.thepixora.com/osanseviero/status/2097694187051229397#m",
+      "published": "Wed, 09 Sep 2026 14:30:42 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "I think Meta's Muse is an impressive implementation of the OpenClaw idea of AI as a personal assistant agent that you have an ongoing chat with. Since it is so focused on doing that well, the experience is very accessible for people who didn't realize what AI could do for them.",
-      "link": "http://shitter.thepixora.com/emollick/status/2102033312554287270#m",
-      "published": "Mon, 21 Sep 2026 13:52:50 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
+      "handle": "AnthropicAI",
+      "text": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years. anthropic.com/news/accenture… Link Partnering with Accenture on embedded evaluation We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to... anthropic.com Community note: Anthropic presents this as an \"independent evaluation\" but will directly fund Accenture's work and has a prior commercial partnership with the firm for deploying its models, including training ~30,000 Accenture professionals on Claude. anthropic.com/news/accenture… anthropic.com/news/anthropic…",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2101039819870937247#m",
+      "published": "Fri, 18 Sep 2026 20:05:03 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "The Labs are focused on enterprise, as that's where the willingness to pay for tokens is highest, so, even though their systems are capable of doing what Muse does out of the box, they are not as intuitive to use. Also, Meta is giving away a lot of compute to make this work well",
-      "link": "http://shitter.thepixora.com/emollick/status/2102034426498625717#m",
-      "published": "Mon, 21 Sep 2026 13:57:15 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
+      "handle": "AnthropicAI",
+      "text": "Biologists use specialized open-source models for tasks like modeling the structure of molecular systems, designing drug-like molecules, and predicting the effects of genetic mutations. But these models are often expensive to run, potentially limiting their impact. In our latest Science Blog, we share how Claude was able to optimize inference for more than 30 open-source models, making them 4x faster on average, partly by writing custom software for GPUs. We’re open sourcing all of the optimization code. Read more: anthropic.com/research/claud… Video",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2100701581109072332#m",
+      "published": "Thu, 17 Sep 2026 21:41:00 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "Back in July, there was a report that got a lot of attention online that Waymo was more dangerous than NYC for-hire vehicles. The analysis turned out to be wrong and the updated report finds they are much safer. Good that they updated with new data, though openplans.org/how-for-hire-a…",
-      "link": "http://shitter.thepixora.com/emollick/status/2101792148723032151#m",
-      "published": "Sun, 20 Sep 2026 21:54:32 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
+      "handle": "AnthropicAI",
+      "text": "To show what these optimizations make possible, we’re partnering with Adaptyv Bio on a protein design competition. Together, we’ll be experimentally validating over 5,000 designs. We're providing up to $1 million in Claude credits plus funding alongside Adaptyv for experimental validation. Modal is contributing up to $250,000 in compute and Twist Bioscience is providing DNA. Learn more on Adaptyv’s Proteinbase: proteinbase.com/competitions… And sign up for the competition here: docs.google.com/forms/d/e/1F… Link Anthropic × Adaptyv Protein Design Competition Use AI to design new drug candidates across five challenges. Free to enter, with experimental testing and open results. September 28–October 31, 2026. proteinbase.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2100701582744797347#m",
+      "published": "Thu, 17 Sep 2026 21:41:01 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "Reason for the revision",
-      "link": "http://shitter.thepixora.com/emollick/status/2101793771369193921#m",
-      "published": "Sun, 20 Sep 2026 22:00:59 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
+      "handle": "AnthropicAI",
+      "text": "You can find all of the code on GitHub: github.com/anthropics/uplift… And the full results in our technical report: www-cdn.anthropic.com/d8ca26… Link GitHub - anthropics/uplifting-biomolecular-modeling Contribute to anthropics/uplifting-biomolecular-modeling development by creating an account on GitHub. github.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2100701583940190644#m",
+      "published": "Thu, 17 Sep 2026 21:41:01 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "I would broaden this to all social science. We are in uncharted waters. We need fast, smart research on AI that is deeply informed by AI's abilities, is forward-looking, and may not be fully nailed-down. This sort of work is not usually high status in fields, but it is critical. Alex Imas (@alexolegimas) A few (personal) thoughts on reading empirical AI papers on the economy. Economists have gotten used to reading papers with super clean identification, arguing about the validity of an instrument, making sure parallel trend assumptions are satisfied. This is what gets you into a top journal, and it is *very* important research (no question here). But it also takes years and sometimes decades to get these types of papers right---people often don't find a good instrument to answer a specific causal question decades after the natural experiment. We will eventually have this type of research for AI as well, and it is absolutely necessary. But right we also need signals *right now*, even if they are noisier than what we are used to. We need papers where we can trust that researchers did their best methodologically, while at the same time acknowledging that the space is moving way too fast to wait for perfect identification. This will allow us to accumulate enough signals, coming at the same question using different angles, for example, to say \"yes, X is likely happening in the economy\". The AI exposure and early career hiring papers are a good example of this. There is no silver bullet paper with super clean identification. But at this point we have several independent teams reaching the same general conclusion, enough where we can say \"there seems to be a slow down in AI-exposed, early career hiring.\" — http://shitter.thepixora.com/alexolegimas/status/2101743223442145660#m",
-      "link": "http://shitter.thepixora.com/emollick/status/2101786064142705042#m",
-      "published": "Sun, 20 Sep 2026 21:30:21 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
+      "handle": "AnthropicAI",
+      "text": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help track AI development: 1. How much AI R&D is done by AI. 2. How well AI agents are overseen. 3. How compute is allocated. We provide a snapshot of these metrics from inside Anthropic. Any frontier developer could publish the same measures, and third parties could verify them. As the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows. This means better measuring the development of AI, publishing our findings, and giving society an opportunity to decide how to use this information. Read the full post and methodology: anthropic.com/institute/meas… Link Measurements for understanding the pace of AI development inside frontier labs Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development. anthropic.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2100684274114699295#m",
+      "published": "Thu, 17 Sep 2026 20:32:14 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "What the?? Zombie mice created to implant and merge human brain cells into Sergiu P. Pasca (@Sergiu_P_Pasca) Today in @Nature , we report a new approach to studying human brain development and modeling disease in vivo. Human neural #assembloids and #organoids have opened new ways to study development in vitro, but they also have important limitations. Transplantation can provide a more physiological environment, yet human cortical cells then develop within a rodent brain that matures much faster, constraining their growth and integration. To address some of these limitations and obtain more advanced functional readouts relevant to disease biology, we generated #apallial mice, in which ~98% of the cortex and hippocampus fail to form, creating space for transplanted human cortical organoids to grow and integrate extensively. We call these #xenocortical mice (XCX). Nearly 7 years in the making. Congratulations to an extraordinary team and wonderful collaborators! Link to the article below 👇 — http://shitter.thepixora.com/Sergiu_P_Pasca/status/2100317695535411290#m",
+      "link": "http://shitter.thepixora.com/NickADobos/status/2101072385239916658#m",
+      "published": "Fri, 18 Sep 2026 22:14:27 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "Jev is looking more and more like a new programming primitive If an LLm is brain Jev is a neuron? Steve Faulkner (@southpolesteve) I've seen people describe Jev as an \"AI if statement\". But what if it actually WAS an if statement? Introducing Probably: a programming language powered by Jev: probably-lang.southpolesteve… Jev baked into the language. “feels” asks a question. “match” routes between descriptions. “while” keeps going until something stops feeling true. This is obviously a toy, but it's fun to think about what something like Jev unlocks. Jev makes the decisions, an LLM does the writing, and a little program ties it together. — http://shitter.thepixora.com/southpolesteve/status/2100767781868150938#m",
+      "link": "http://shitter.thepixora.com/NickADobos/status/2100831012603248988#m",
+      "published": "Fri, 18 Sep 2026 06:15:19 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "OpenAI was hacked via the exact library mentioned in the xkcd comic hahahaha The prophecy is fulfilled s1r1us (@S1r1u5_) On July 25, we hacked OpenAI. Two bugs let us take over ChatGPT/Codex accounts of OpenAI employees (+some unaffiliated users) and reach connected services: Outlook, Slack, GitHub, etc. We proved it with a PR in OpenAI’s internal codebase . It took us <72h. 🧵 — http://shitter.thepixora.com/S1r1u5_/status/2100777801335095383#m",
+      "link": "http://shitter.thepixora.com/NickADobos/status/2100824949321597055#m",
+      "published": "Fri, 18 Sep 2026 05:51:14 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "You’ll need to click to show the alt text at least on mobile. m.xkcd.com/2347/",
+      "link": "http://shitter.thepixora.com/NickADobos/status/2100824952807006646#m",
+      "published": "Fri, 18 Sep 2026 05:51:14 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "Turns out they hacked everyone Harsh Jaiswal (@rootxharsh) We’re disclosing HEIF Heist, a months-long investigation into libheif that allowed us to hack OpenAI, Slack, Meta, GitHub Ent, Rails, Next.js, ImageMagick, and many more. It was literally xkcd #234, one obscure image library beneath a huge number of apps. 🧵 — http://shitter.thepixora.com/rootxharsh/status/2100801820960620574#m",
+      "link": "http://shitter.thepixora.com/NickADobos/status/2100824955550060642#m",
+      "published": "Fri, 18 Sep 2026 05:51:15 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
       "source_lang": "en"
     }
   ],
@@ -237,17 +147,18 @@
     "elonmusk",
     "AravSrinivas",
     "miramurati",
+    "ylecun",
     "demishassabis",
     "JeffDean",
     "fchollet",
+    "AndrewYNg",
+    "rasbt",
     "bcherny",
     "karinanguyen_",
     "polynoamial",
     "markchen90",
     "aidan_mclau",
     "officiallogank",
-    "osanseviero",
-    "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
     "xai",
@@ -255,9 +166,10 @@
     "swyx",
     "hwchase17",
     "jeremyphoward",
+    "levelsio",
     "mckaywrigley",
     "amasad",
-    "nickadobos",
+    "emollick",
     "ArthurMensch",
     "GuillaumeLample",
     "Thom_Wolf",
@@ -267,282 +179,174 @@
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, le monde de l'IA est en pleine effervescence ! Nous avons des débats passionnants sur l'avenir des grands modèles linguistiques (LLM) et leurs limites, notamment de la part de pionniers comme Yann LeCun. D'un autre côté, Andrew Ng nous pousse à développer de nouvelles compétences en ingénierie de l'IA pour tirer le meilleur parti des agents de codage. Enfin, nous explorons de nouveaux outils concrets pour la sécurité ou l'assistance personnelle, tout en réfléchissant aux défis des benchmarks et à l'importance de la recherche ouverte et de l'accessibilité de l'IA pour tous.",
+    "summary": "Aujourd'hui, le monde de l'IA est marqué par des avancées et des réflexions importantes. Nous avons vu de nouvelles fonctionnalités pour les agents IA de Google Gemini et une compétition pour concevoir des protéines avec l'IA, montrant son potentiel en biologie. Des discussions sur la transparence du développement de l'IA et l'impact de nouveaux concepts de programmation ont également animé les débats, tandis qu'une faille de sécurité majeure a rappelé l'importance de la vigilance.",
     "glossaire": [
       {
-        "terme": "Grand Modèle Linguistique (LLM)",
-        "definition": "Un programme d'IA entraîné sur d'énormes quantités de texte pour comprendre, générer et répondre en langage humain, comme ChatGPT."
+        "terme": "Agent IA",
+        "definition": "Un programme d'intelligence artificielle capable d'agir de manière autonome pour accomplir des tâches complexes, comme un assistant personnel très évolué."
       },
       {
-        "terme": "Agent (en IA)",
-        "definition": "Un programme d'IA capable de percevoir son environnement, de raisonner et d'agir pour atteindre un objectif, souvent en interagissant avec d'autres systèmes ou outils."
+        "terme": "API (Interface de Programmation d'Application)",
+        "definition": "C'est un ensemble de règles et d'outils qui permettent à différents logiciels de communiquer entre eux, comme une prise électrique pour brancher un appareil à un système."
       },
       {
-        "terme": "Apprentissage par Renforcement (RL)",
-        "definition": "Une méthode d'apprentissage où l'IA apprend par essais et erreurs, en recevant des récompenses ou des pénalités pour ses actions dans un environnement donné."
+        "terme": "IA de pointe (Frontier AI)",
+        "definition": "Désigne les systèmes d'intelligence artificielle les plus avancés et les plus puissants, souvent à la limite de ce qui est techniquement possible."
       },
       {
-        "terme": "Optimiseur",
-        "definition": "Un algorithme utilisé lors de l'entraînement d'un modèle d'IA pour ajuster ses paramètres afin de minimiser les erreurs et d'améliorer ses performances."
+        "terme": "Inférence",
+        "definition": "Le processus par lequel un modèle d'IA prend une décision ou fait une prédiction à partir des données qu'il a apprises, un peu comme un être humain qui tire une conclusion."
       },
       {
-        "terme": "Surapprentissage (Overfitting)",
-        "definition": "Un phénomène où un modèle d'IA apprend trop bien les exemples d'entraînement, au point de ne plus être performant sur de nouvelles données qu'il n'a jamais vues."
+        "terme": "GPU (Graphics Processing Unit)",
+        "definition": "Un type de processeur conçu pour effectuer rapidement de nombreux calculs en parallèle, ce qui le rend idéal pour l'entraînement et l'exécution des modèles d'IA."
       },
       {
-        "terme": "Inférence (en IA)",
-        "definition": "Le processus par lequel un modèle d'IA déjà entraîné utilise ce qu'il a appris pour faire des prédictions ou générer des réponses sur de nouvelles données."
+        "terme": "LLM (Large Language Model)",
+        "definition": "Un grand modèle de langage, comme ChatGPT ou Gemini, capable de comprendre, générer et traduire du texte de manière cohérente et contextuelle."
       },
       {
-        "terme": "Auto-régressif",
-        "definition": "Caractérise un modèle qui génère une séquence de données (comme du texte) en prédisant chaque élément successif en fonction de ceux qu'il a déjà générés."
+        "terme": "Open-source",
+        "definition": "Se dit d'un logiciel dont le code source est rendu public, permettant à quiconque de le consulter, le modifier et le distribuer librement."
       }
     ],
     "category_summaries": {
-      "actu": "Cette section met en lumière les annonces importantes, comme l'organisation d'un atelier sur la modélisation du monde en physique, et la mise en avant de projets de recherche ouverts, tel que le projet Marin, qui démontrent une approche transparente dans l'entraînement des modèles d'IA.",
-      "tips": "Ici, Andrew Ng nous guide sur les compétences essentielles en ingénierie de l'IA pour mieux collaborer avec les agents de codage. Sebastian Raschka nous offre également des astuces techniques pour améliorer la génération de texte des modèles, comme l'ajustement de la 'température' ou l'utilisation de techniques d'échantillonnage pour des résultats plus précis et variés.",
-      "idees": "La catégorie 'Idées' est riche en réflexions. Yann LeCun partage ses perspectives critiques sur les limites des LLM actuels pour atteindre une IA de niveau humain. Sebastian Raschka discute des défis des benchmarks et des optimisateurs, tandis que d'autres abordent l'impact de l'IA sur les métiers et la nécessité d'une recherche ouverte et rapide.",
-      "outils": "Découvrez de nouveaux outils pratiques : OpenWorker, un agent open source qui aide à automatiser des tâches sur votre ordinateur, notamment pour la cybersécurité. Meta Muse est également mis en avant comme un assistant personnel basé sur l'IA, très accessible pour le grand public."
+      "actu": "L'actualité du jour est marquée par des annonces de partenariats stratégiques pour évaluer l'IA de pointe, un événement immersif sur l'audio avec Gemini, et surtout la révélation d'un piratage majeur ayant touché OpenAI et de nombreuses autres entreprises via une bibliothèque logicielle commune.",
+      "tips": "Un appel à l'action pour les passionnés d'IA est lancé : participez à un concours de conception de protéines assistée par l'IA, offrant une opportunité concrète d'appliquer ces technologies à la biologie et à la recherche de médicaments.",
+      "idees": "Les discussions se sont concentrées sur l'avenir et la gouvernance de l'IA, avec Anthropic proposant de nouvelles mesures de transparence pour suivre le développement des IA de pointe, et des réflexions sur de nouveaux concepts de programmation qui pourraient changer la façon dont nous interagissons avec les grands modèles de langage.",
+      "outils": "Plusieurs outils importants ont été mis en avant, notamment des mises à jour pour les agents gérés de l'API Gemini, et la publication de codes d'optimisation par Anthropic pour rendre les modèles open-source en biologie beaucoup plus rapides."
     },
     "highlights": [
       {
-        "author_name": "Yann LeCun",
-        "handle": "@ylecun",
-        "text_fr": "J'ai dit que « les LLM auto-régressifs, en soi, ne mèneront pas à une IA de niveau humain ». Cette affirmation est toujours totalement vraie. Premièrement, les capacités de raisonnement des systèmes d'IA actuels sont basées sur une recherche non auto-régressive (ce que j'ai toujours préconisé). Mais d'après ce que je sais, ils le font dans l'espace des 'tokens', ce qui est limité et inefficace. J'ai affirmé qu'un raisonnement de type humain devait être une recherche dans un espace de représentation continu. Il semble que l'industrie s'oriente vers cela. Deuxièmement, les méthodes d'auto-amélioration, telles qu'elles sont pratiquées actuellement, ne fonctionnent que pour les domaines où la qualité des sorties peut être évaluée sans intervention humaine, comme les mathématiques, le code et les scénarios qui peuvent être simulés avec précision. Pas pour autre chose. Les humains et les animaux apprennent de nouvelles compétences bien plus efficacement que les méthodes d'apprentissage par renforcement (RL) actuelles. Troisièmement, les capacités multimodales des assistants IA actuels utilisent généralement des encodeurs entraînés séparément (qui ne sont pas des LLM). C'est également ce que j'ai préconisé. Sauf que je pense que la meilleure façon de le faire est avec JEPA entraîné avec l'apprentissage auto-supervisé. La communauté de recherche s'oriente clairement vers cela (3000 articles sur JEPA en seulement 4 ans). Quatrièmement, si les LLM étaient un chemin vers une IA de niveau humain, nous aurions des robots domestiques et des voitures autonomes de niveau 4 ou 5 pour les consommateurs maintenant. Et nous n'en avons pas. Nous n'avons certainement pas de voitures capables d'apprendre à conduire en 20 heures ou de s'exercer comme n'importe quel adolescent. Il nous manque encore quelque chose d'assez énorme pour revendiquer une intelligence de niveau humain (sans parler de surhumaine). Bien sûr, nous avons maintenant des systèmes informatiques impressionnants, très utiles, et dont les performances sont surhumaines dans un nombre croissant de domaines (le codage en étant un). Mais cela est vrai de toute l'histoire du progrès en technologie informatique. Enfin, il y a une confusion fondamentale sur ce qu'est réellement l'intelligence. Ce n'est pas la simple accumulation et régurgitation de connaissances déclaratives existantes (ce que font essentiellement les LLM). Comme l'a si bien dit Jean Piaget : « L'intelligence, ce n'est pas ce que l'on sait, c'est ce que l'on fait quand on ne sait pas. » C'est votre capacité à résoudre de nouveaux problèmes sans aucune formation préalable, à agir dans des scénarios jusqu'alors inconnus et à vous adapter très rapidement à de nouvelles situations avec un minimum d'entraînement. Nous en sommes encore loin.",
-        "text_original": "I said \"auto-regressive LLMs, in and of themselves, will not lead human-level AI\" That statement is still totally true. First, the reasoning abilities of current AI systems are based non-auto-regressive search (which is what I have always advocated for). But AFAICT, they do it in token space, which is limited and inefficient. I have claimed that human-like reasoning must be a search in continuous representation space. It looks like the industry is moving towards that. Second, the self-improvement methods, as currently practiced, only work for domains where the quality of outputs can be scored without human intervention, such as mathematics, code, and scenarios that can be simulated accurately. Not anything else. Humans and animals learn new skills way more efficiently than current RL methods. Third, the multimodal capabilities of current AI assistants generally use separately-trained encoders (that are not LLMs). This is also what I've been advocating. Except that I think the best way to do this is with JEPA trained with self-supervised learning. The research community is clearly moving towards that (3000 papers on JEPA in just 4 years). Fourth, if LLMs were a path to human-level AI, we would have domestic robots and Level-4 or Level-5 self-driving cars for consumers by now. And we don't. We certainly don't have cars that can learn to drive in 20 hours or practice like any teenager. We're still missing something pretty huge to claim human-level intelligence (let alone superhuman). Sure, we now have computer systems that are impressive, very useful, and whose performance is superhuman in an increasing number of domains (coding being one of them). But that's true of the entire history of progress in computer technology. Lastly, there is a basic confusion about what intelligence actually is. It is not the mere accumulation and regurgitation of existing declarative knowledge (which is essentially what LLMs do). As Jean Piaget famously said, \"intelligence is not what you know, it is what you do when you don't know.\" It is your ability to solve new problem without any prior training, to act in previously-unknown scenarios, and to adapt very quickly to new situations with minimal training. We're still far from that.",
-        "link": "http://shitter.thepixora.com/ylecun/status/2101674561930510740#m",
-        "decryptage": "Yann LeCun explique pourquoi, selon lui, les grands modèles linguistiques (LLM) actuels ne sont pas suffisants pour créer une intelligence artificielle de niveau humain, et propose des pistes de recherche comme l'apprentissage auto-supervisé ou les architectures JEPA.",
+        "author_name": "Nick Dobos",
+        "handle": "@nickadobos",
+        "text_fr": "Il s'avère qu'ils ont piraté tout le monde. Harsh Jaiswal (@rootxharsh) Nous révélons HEIF Heist, une enquête de plusieurs mois sur `libheif` qui nous a permis de pirater OpenAI, Slack, Meta, GitHub Ent, Rails, Next.js, ImageMagick, et bien d'autres. C'était littéralement le xkcd #234, une obscure bibliothèque d'images sous un grand nombre d'applications. 🧵",
+        "text_original": "Turns out they hacked everyone Harsh Jaiswal (@rootxharsh) We’re disclosing HEIF Heist, a months-long investigation into libheif that allowed us to hack OpenAI, Slack, Meta, GitHub Ent, Rails, Next.js, ImageMagick, and many more. It was literally xkcd #234, one obscure image library beneath a huge number of apps.",
+        "link": "http://shitter.thepixora.com/NickADobos/status/2100824955550060642#m",
+        "decryptage": "`libheif` est une bibliothèque logicielle qui gère les images au format HEIF (utilisé par Apple par exemple), et une faille dans un composant aussi basique peut compromettre de nombreux systèmes qui l'utilisent.",
+        "category": "actu",
+        "highlight_reason": "Cette nouvelle met en lumière l'importance cruciale de la sécurité informatique, même pour les géants de l'IA comme OpenAI, et souligne comment une petite faille peut avoir de grandes répercussions."
+      },
+      {
+        "author_name": "Anthropic",
+        "handle": "@AnthropicAI",
+        "text_fr": "Les systèmes d'IA deviennent de plus en plus puissants, et ils sont de plus en plus utilisés pour construire leur propre prochaine version. Nous voulons éclairer ce progrès pour le public. Aujourd'hui, nous partageons trois mesures qui aident à suivre le développement de l'IA : 1. La quantité de R&D en IA effectuée par l'IA elle-même. 2. La qualité de la supervision des agents IA. 3. Comment la puissance de calcul est allouée. Nous fournissons un aperçu de ces métriques depuis l'intérieur d'Anthropic. Tout développeur d'IA de pointe pourrait publier les mêmes mesures, et des tiers pourraient les vérifier. Alors que le monde réfléchit au rythme de l'IA de pointe, nous devrions faire tout notre possible pour minimiser le fossé entre ce que les laboratoires de pointe savent et ce que le public sait. Cela signifie mieux mesurer le développement de l'IA, publier nos découvertes et donner à la société l'opportunité de décider comment utiliser cette information. Lisez l'article complet et la méthodologie : anthropic.com/institute/meas…",
+        "text_original": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help track AI development: 1. How much AI R&D is done by AI. 2. How well AI agents are overseen. 3. How compute is allocated. We provide a snapshot of these metrics from inside Anthropic. Any frontier developer could publish the same measures, and third parties could verify them. As the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows. This means better measuring the development of AI, publishing our findings, and giving society an opportunity to decide how to use this information. Read the full post and methodology: anthropic.com/institute/meas… Link Measurements for understanding the pace of AI development inside frontier labs Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development. anthropic.com",
+        "link": "http://shitter.thepixora.com/AnthropicAI/status/2100684274114699295#m",
+        "decryptage": "« R&D en IA » signifie la Recherche et Développement dans le domaine de l'intelligence artificielle ; la « puissance de calcul » (compute) est l'énergie informatique nécessaire pour entraîner et faire fonctionner les modèles d'IA.",
         "category": "idees",
-        "highlight_reason": "Ce tweet est essentiel car il offre une perspective critique et détaillée d'un expert majeur sur les limites actuelles des LLM et les vrais défis pour atteindre une IA de niveau humain."
+        "highlight_reason": "Ce tweet soulève des questions fondamentales sur la transparence et la gouvernance de l'IA, en proposant des outils concrets pour que le public puisse mieux comprendre comment ces technologies évoluent."
       },
       {
-        "author_name": "Andrew Ng",
-        "handle": "@AndrewYNg",
-        "text_fr": "Avec les compétences en ingénierie de l'IA, vous façonnez activement la construction : vous influencez ce qui est construit et dirigez le cycle de construction. Voici les compétences clés pour y parvenir. Article : Carte des compétences en ingénierie de l'IA : Façonner la construction. Lorsque vous maîtrisez l'ingénierie de l'IA, votre meilleur travail ne consistera pas seulement à implémenter un produit spécifié par quelqu'un d'autre. Au lieu de cela, vous participerez activement à façonner ce qui est construit. Avant les outils d'IA modernes...",
-        "text_original": "With AI Engineering skills, you actively shape the build: You influence what gets built, and drive the build loop. Here're key skills to do this. Article AI Engineering Skills Map: Shaping the build When you’re skilled at AI Engineering, your best work won’t be merely implementing a product that someone else spec’ed out. Instead, you will actively shape the build. Before modern AI tools",
-        "link": "http://shitter.thepixora.com/AndrewYNg/status/2098459474608672916#m",
-        "decryptage": "L'ingénierie de l'IA consiste à avoir les compétences pour non seulement utiliser les outils d'IA, mais aussi comprendre comment les concevoir et les orienter pour obtenir les meilleurs résultats.",
-        "category": "tips",
-        "highlight_reason": "Ce tweet est un excellent conseil pour les débutants, soulignant que l'IA ne se limite pas à l'utilisation, mais ouvre la porte à des rôles plus influents et créatifs dans le développement."
-      },
-      {
-        "author_name": "Andrew Ng",
-        "handle": "@AndrewYNg",
-        "text_fr": "OpenWorker, un agent open source qui ne se contente pas de discuter mais qui accomplit des tâches sur votre ordinateur portable, vient de publier une nouvelle version avec de nombreuses fonctionnalités pour les flux de travail de sécurité. Après notre première publication, de nombreux utilisateurs l'ont trouvé particulièrement utile pour la cybersécurité. Les attaquants utilisent déjà l'IA ; OpenWorker s'engage à donner aux défenseurs le même avantage. L'exécution d'un agent nécessite à la fois (i) un modèle et (ii) un 'harness' (le logiciel autour du modèle). Comme le 'harness' d'OpenWorker est entièrement open source, les équipes de sécurité peuvent l'auditer pour s'assurer que nous n'avons pas intégré de portes dérobées qui exfiltreraient votre code et vos données vers une entreprise ou même un adversaire étranger. OpenWorker est désormais livré avec des agents de cybersécurité intégrés pour (i) la recherche de vulnérabilités dans votre code, (ii) la recherche d'injections dans la chaîne d'approvisionnement des dépendances, et (iii) la vérification de la configuration de sécurité de votre cloud pour les surfaces d'attaque. Cela permet aux développeurs d'effectuer beaucoup plus de travail de sécurité avant le déploiement (une partie de ce qu'on appelle le mouvement « shift left »). Vous choisissez le modèle : vous pouvez exécuter des modèles open weight entièrement localement afin que les codes sensibles ne quittent jamais votre machine. Cela aide pour le travail de sécurité légitime (comme reproduire un exploit connu pour s'en défendre) qui peut déclencher des refus dans les modèles fermés leaders. Ou utilisez votre abonnement ChatGPT, ou des modèles d'aperçu furtif comme Ox Alpha, ou tout modèle via une clé API. Merci également à tous les contributeurs open source ! Rejoignez le travail avec @rohitcprasad, alors suivez-le également pour des mises à jour plus fréquentes. Essayez-le : openworker.com/ Code : github.com/andrewyng/openwor…",
-        "text_original": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary. OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement). You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key. Thanks also to all the open source contributors! Join work with @rohitcprasad so please follow him too to get more frequent updates. Try it out: openworker.com/ Code: github.com/andrewyng/openwor…",
-        "link": "http://shitter.thepixora.com/AndrewYNg/status/2092315079576555806#m",
-        "decryptage": "OpenWorker est un programme d'IA 'agent' qui automatise des tâches de sécurité informatique directement sur votre machine, offrant un contrôle total car son code est ouvert (open source), ce qui est crucial pour la confiance dans la protection des données sensibles.",
+        "author_name": "Anthropic",
+        "handle": "@AnthropicAI",
+        "text_fr": "Les biologistes utilisent des modèles open-source spécialisés pour des tâches comme la modélisation de la structure des systèmes moléculaires, la conception de molécules de type médicament et la prédiction des effets des mutations génétiques. Mais ces modèles sont souvent coûteux à exécuter, ce qui peut limiter leur impact. Dans notre dernier blog scientifique, nous partageons comment Claude a réussi à optimiser l'inférence pour plus de 30 modèles open-source, les rendant 4 fois plus rapides en moyenne, en partie en écrivant un logiciel personnalisé pour les GPU. Nous publions tout le code d'optimisation en open-source. En savoir plus : anthropic.com/research/claud… Vidéo",
+        "text_original": "Biologists use specialized open-source models for tasks like modeling the structure of molecular systems, designing drug-like molecules, and predicting the effects of genetic mutations. But these models are often expensive to run, potentially limiting their impact. In our latest Science Blog, we share how Claude was able to optimize inference for more than 30 open-source models, making them 4x faster on average, partly by writing custom software for GPUs. We’re open sourcing all of the optimization code. Read more: anthropic.com/research/claud… Video",
+        "link": "http://shitter.thepixora.com/AnthropicAI/status/2100701581109072332#m",
+        "decryptage": "« Optimiser l'inférence » signifie rendre le processus par lequel un modèle d'IA tire des conclusions ou fait des prédictions beaucoup plus rapide et efficace, souvent en utilisant des « GPU » (cartes graphiques) qui sont excellentes pour les calculs parallèles nécessaires à l'IA.",
         "category": "outils",
-        "highlight_reason": "Ce tweet présente un outil open source très concret et utile, montrant comment l'IA peut être mise au service de la cybersécurité tout en garantissant la transparence et la sécurité des données."
+        "highlight_reason": "Il montre comment l'IA, en l'occurrence Claude, peut accélérer la recherche scientifique en biologie en rendant des outils existants plus rapides et plus accessibles grâce à l'open-source."
       },
       {
-        "author_name": "Sebastian Raschka",
-        "handle": "@rasbt",
-        "text_fr": "Quelques pistes de réflexion intéressantes lors de la conception de benchmarks... Voici une petite comparaison d'utilisation informatique (visuelle) entre GPT-5.6 Astra et Qwen3.8 Max. La tâche ici était de recréer l'image au centre en utilisant l'interface utilisateur de Paint. Très intéressant de voir comment les deux LLM+Harnesses ont abordé cela de manière totalement différente par défaut. Par exemple, Astra a essayé d'aborder cela en dessinant et en superposant des formes géométriques. Qwen a abordé cela pixel par pixel. (Bien sûr, le résultat généré pixel par pixel ressemble davantage à l'original, c'est essentiellement une version basse résolution de celui-ci par nature.) Ainsi, l'image générée par Qwen obtiendrait sûrement un score plus élevé dans le sens où elle est plus proche de l'original. Mais je ne conclurais pas de cet exemple qu'un LLM généralise mieux que l'autre sur d'autres tâches. De plus, je ne dirais pas que Qwen a de meilleures capacités d'utilisation informatique ou une meilleure compréhension visuelle qu'Astra. Mais cela met en évidence un point intéressant sur la difficulté des benchmarks lorsqu'ils ne comparent que les résultats finaux.",
-        "text_original": "Some food for thought when designing benchmarks... So, here's a little computer-use (visual) comparison between GPT-5.6 Astra and Qwen3.8 Max. The task here was to recreate the image in the center using the Paint UI. Super interesting how the two different LLMs+Harnesses approached this totally differently by default. I.e., Astra tried to approach this by drawing and layering geometric shapes. Qwen approached this pixel by pixel. (Of course, the pixel-by-pixel result looks closer to the original, it's essentially a low-res version of that by nature.) So, the Qwen-generated image would surely score higher in the sense that it's closer to the original. But I wouldn’t conclude from this example that one LLM generalizes better than the other on other tasks. Also, I wouldn't say Qwen has better compute-use capabilities or better visual understanding than Astra. But it highlights an interesting point about how slippery benchmarks are when they only compare final results. Video",
-        "link": "http://shitter.thepixora.com/rasbt/status/2099846949377585659#m",
-        "decryptage": "Un 'benchmark' est un test standardisé pour comparer les performances de différents modèles d'IA ; ce tweet montre que ces tests doivent être interprétés avec prudence, car la manière dont un modèle résout un problème peut masquer sa vraie 'intelligence' ou capacité de généralisation.",
-        "category": "idees",
-        "highlight_reason": "Ce tweet est crucial pour comprendre que les résultats bruts des comparaisons entre IA (benchmarks) ne racontent pas toujours toute l'histoire et qu'il faut analyser les méthodes utilisées par les modèles."
+        "author_name": "Anthropic",
+        "handle": "@AnthropicAI",
+        "text_fr": "Pour montrer ce que ces optimisations rendent possible, nous nous associons à Adaptyv Bio pour un concours de conception de protéines. Ensemble, nous allons valider expérimentalement plus de 5 000 conceptions. Nous fournissons jusqu'à 1 million de dollars en crédits Claude plus un financement aux côtés d'Adaptyv pour la validation expérimentale. Modal contribue jusqu'à 250 000 dollars en puissance de calcul et Twist Bioscience fournit de l'ADN. En savoir plus sur Proteinbase d'Adaptyv : proteinbase.com/competitions… Et inscrivez-vous au concours ici : docs.google.com/forms/d/e/1F…",
+        "text_original": "To show what these optimizations make possible, we’re partnering with Adaptyv Bio on a protein design competition. Together, we’ll be experimentally validating over 5,000 designs. We're providing up to $1 million in Claude credits plus funding alongside Adaptyv for experimental validation. Modal is contributing up to $250,000 in compute and Twist Bioscience is providing DNA. Learn more on Adaptyv’s Proteinbase: proteinbase.com/competitions… And sign up for the competition here: docs.google.com/forms/d/e/1F… Link Anthropic × Adaptyv Protein Design Competition Use AI to design new drug candidates across five challenges. Free to enter, with experimental testing and open results. September 28–October 31, 2026. proteinbase.com",
+        "link": "http://shitter.thepixora.com/AnthropicAI/status/2100701582744797347#m",
+        "decryptage": "Un « concours de conception de protéines » utilise l'IA pour créer de nouvelles protéines avec des propriétés spécifiques, comme de futurs médicaments, et la « validation expérimentale » vérifie ensuite si ces conceptions fonctionnent réellement en laboratoire.",
+        "category": "tips",
+        "highlight_reason": "C'est une excellente occasion pour un débutant de voir comment l'IA est appliquée concrètement dans un domaine comme la biologie, et même de participer à un projet de recherche avec des outils de pointe."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Yann LeCun",
-          "handle": "@ylecun",
-          "text_fr": "Intéressé par la modélisation du monde sous l'angle de la physique ? Nous organisons l'atelier 'World Modeling for Physics' au merveilleux Aspen Center du 28 février au 5 mars 2027. Postulez pour des présentations (date limite le 9 octobre) ou pour la participation (avant le 30 septembre) ! Ce sera un événement passionnant dans un cadre magnifique, réunissant des scientifiques du domaine et des chercheurs en IA ! wmw-aspen.github.io/ Avec @ylecun @randall_balestr @cosmo Randall Balestriero (@randall_balestr) Notre 4ème atelier sur la modélisation du monde portera sur la *Physique* ! Il aura lieu à l'Aspen Center for Physics fin février (wmw-aspen.github.io) Si vous souhaitez présenter, soumettez votre résumé ici : docs.google.com/forms/d/e/1F… Date limite le 9 octobre, résumé d'une page ! — http://shitter.thepixora.com/randall_balestr/status/2100649310958284951#m",
-          "text_original": "Interested in World Modeling with a lens on Physics? We are organizing the World Modeling for Physics workshop at the wonderful Aspen Center 2/28-3/5/27. Apply for presentations (deadline Oct 9) or participation (by 9/30)! It will be an exciting event in a great setting bringing together domain scientists and AI researchers! wmw-aspen.github.io/ With @ylecun @randall_balestr @cosmo Randall Balestriero (@randall_balestr) Our 4th world modeling workshop will be looking at *Physics*! Happening at the Aspen Center for Physics end of February ( wmw-aspen.github.io ) If you are interested in presenting, submit your abstract here: docs.google.com/forms/d/e/1F… Deadline on October 9th, 1 page Abstract! — http://shitter.thepixora.com/randall_balestr/status/2100649310958284951#m",
-          "link": "http://shitter.thepixora.com/KempeLab/status/2101239215769915539#m",
-          "decryptage": null
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Rejoignez @GoogleDeepMind pour une expérience audio immersive de Gemini à San Francisco la semaine prochaine ! Un mélange d'art audio-visuel créatif et de conversations en temps réel avec Gemini et les personnes derrière les modèles ! 📍 The Pearl, San Francisco 🗓️ Jeudi 24 septembre | 18h-22h",
+          "text_original": "Join @GoogleDeepMind for an immersive Gemini Audio experience in SF next week! A mix of creative Audio-Visual art and real-time conversations with Gemini and the folks behind the models! 📍 The Pearl, San Francisco 🗓️ Thursday, Sept 24 | 6–10 PM",
+          "link": "http://shitter.thepixora.com/thorwebdev/status/2099486872028225602#m",
+          "decryptage": "Gemini Audio est probablement une version du modèle d'IA Gemini de Google spécialisée dans le traitement ou la génération de sons."
         },
         {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Dans la lutte pour défendre l'ouverture en IA, le projet Marin est une précieuse démonstration d'ouverture dans l'entraînement des modèles, avec du code, des données, des recettes et même des résultats expérimentaux ouverts. Publier ouvertement la recherche en IA était autrefois la norme ; je suis reconnaissant de l'approche de laboratoire ouvert de @percyliang. Percy Liang (@percyliang) 🚢 Marin 535B-A23B a commencé son entraînement cette semaine ! Comme d'habitude, tout le processus est ouvert. Plan de voyage : pré-entraînement (80%) + mi-entraînement (20%) sur 18,75 T de 'tokens' sur 11 x GB200 NVL72 pendant environ 3 mois (2,7e24 FLOPs). Le post-entraînement suivra. Avant de lancer l'exécution, nous avons entraîné une 'scaling ladder' à 4 échelons de 1.6B-A61M (48 milliards de 'tokens') à 27.7B-A1.2B (926 milliards de 'tokens') pour déboguer les problèmes et pour faire une prévision de notre exécution principale. C'est de loin notre plus grande exécution, donc nous nous attendons certainement à l'inattendu.",
-          "text_original": "In the fight to defend openness in AI, the Marin project is a precious demonstration of openness in model training, with open code, data, recipes, even experimental results. Releasing AI research openly used to be the norm; I'm grateful for @percyliang 's open lab approach. Percy Liang (@percyliang) 🚢 Marin 535B-A23B started training this week! As usual, the whole process is open. Voyage plan: pretraining (80%) + midtraining (20%) on 18.75T tokens on 11 x GB200 NVL72 for ~3 months (2.7e24 FLOPs). Post-training will follow. Before kicking off the run, we trained a 4-rung scaling ladder from 1.6B-A61M (48B tokens) to 27.7B-A1.2B (926B tokens) to debug issues, and to make a forecast of our hero run. This is by far our biggest run, so definitely expecting the unexpected. — http://shitter.thepixora.com/percyliang/status/2090918065634684997#m",
-          "link": "http://shitter.thepixora.com/AndrewYNg/status/2091688153048645650#m",
-          "decryptage": "Le projet Marin est un exemple de transparence dans la recherche en IA, partageant toutes les étapes de l'entraînement d'un modèle (pré-entraînement, mi-entraînement, post-entraînement) et les 'FLOPs' (une mesure de puissance de calcul) nécessaires, ce qui est une approche 'open source' valorisée dans la communauté."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Nous nous associons à Accenture pour une évaluation indépendante de l'IA de pointe — cela fait partie de notre engagement récent à intégrer des évaluateurs chez Anthropic. Nous et Accenture prévoyons d'investir au moins 1 milliard de dollars pour renforcer nos capacités dans ce domaine au cours des cinq prochaines années. anthropic.com/news/accenture… Note de la communauté : Anthropic présente cela comme une \"évaluation indépendante\" mais financera directement le travail d'Accenture et a un partenariat commercial préalable avec la firme pour le déploiement de ses modèles, y compris la formation de ~30 000 professionnels d'Accenture sur Claude. anthropic.com/news/accenture… anthropic.com/news/anthropic…",
+          "text_original": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years. anthropic.com/news/accenture… Link Partnering with Accenture on embedded evaluation We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to... anthropic.com Community note: Anthropic presents this as an \"independent evaluation\" but will directly fund Accenture's work and has a prior commercial partnership with the firm for deploying its models, including training ~30,000 Accenture professionals on Claude. anthropic.com/news/accenture… anthropic.com/news/anthropic…",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2101039819870937247#m",
+          "decryptage": "L'évaluation indépendante de l'IA de pointe (ou \"frontier AI\") signifie que des experts externes examinent attentivement les IA les plus avancées pour s'assurer qu'elles sont sûres et fiables, un enjeu crucial pour le développement futur de l'IA."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Il s'avère qu'ils ont piraté tout le monde. Harsh Jaiswal (@rootxharsh) Nous révélons HEIF Heist, une enquête de plusieurs mois sur `libheif` qui nous a permis de pirater OpenAI, Slack, Meta, GitHub Ent, Rails, Next.js, ImageMagick, et bien d'autres. C'était littéralement le xkcd #234, une obscure bibliothèque d'images sous un grand nombre d'applications. 🧵",
+          "text_original": "Turns out they hacked everyone Harsh Jaiswal (@rootxharsh) We’re disclosing HEIF Heist, a months-long investigation into libheif that allowed us to hack OpenAI, Slack, Meta, GitHub Ent, Rails, Next.js, ImageMagick, and many more. It was literally xkcd #234, one obscure image library beneath a huge number of apps.",
+          "link": "http://shitter.thepixora.com/NickADobos/status/2100824955550060642#m",
+          "decryptage": "`libheif` est une bibliothèque logicielle qui gère les images au format HEIF (utilisé par Apple par exemple), et une faille dans un composant aussi basique peut compromettre de nombreux systèmes qui l'utilisent."
         }
       ],
       "tips": [
         {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Avec les compétences en ingénierie de l'IA, vous façonnez activement la construction : vous influencez ce qui est construit et dirigez le cycle de construction. Voici les compétences clés pour y parvenir. Article : Carte des compétences en ingénierie de l'IA : Façonner la construction. Lorsque vous maîtrisez l'ingénierie de l'IA, votre meilleur travail ne consistera pas seulement à implémenter un produit spécifié par quelqu'un d'autre. Au lieu de cela, vous participerez activement à façonner ce qui est construit. Avant les outils d'IA modernes...",
-          "text_original": "With AI Engineering skills, you actively shape the build: You influence what gets built, and drive the build loop. Here're key skills to do this. Article AI Engineering Skills Map: Shaping the build When you’re skilled at AI Engineering, your best work won’t be merely implementing a product that someone else spec’ed out. Instead, you will actively shape the build. Before modern AI tools",
-          "link": "http://shitter.thepixora.com/AndrewYNg/status/2098459474608672916#m",
-          "decryptage": "L'ingénierie de l'IA consiste à avoir les compétences pour non seulement utiliser les outils d'IA, mais aussi comprendre comment les concevoir et les orienter pour obtenir les meilleurs résultats."
-        },
-        {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Les compétences les plus importantes pour utiliser efficacement les agents de codage IA. Présentation de la carte des compétences en ingénierie de l'IA pour l'utilisation des agents de codage. Article : Carte des compétences en ingénierie de l'IA : Utiliser les agents de codage. Une compétence clé en ingénierie de l'IA est l'utilisation des agents de codage. Votre capacité à les diriger pour qu'ils écrivent du code et effectuent des tâches non-code, comme l'analyse de données ou la gestion des opérations système, vous permet de...",
-          "text_original": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. Article AI Engineering Skills Map: Using coding agents A key AI engineering skill is using coding agents. Your skill at steering them both to write code and to carry out non-code tasks, such as analyzing data or managing system operations, allows you to",
-          "link": "http://shitter.thepixora.com/AndrewYNg/status/2095890279865721217#m",
-          "decryptage": "Les agents de codage sont des programmes d'IA qui peuvent écrire du code ou automatiser des tâches informatiques ; ce tweet met en avant l'importance de savoir bien les diriger pour qu'ils soient efficaces."
-        },
-        {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "Comment les fondamentaux de l'ingénierie logicielle ont-ils changé avec le codage 'agentique' ? Voici notre carte des compétences en ingénierie de l'IA pour les fondamentaux de l'ingénierie logicielle. Article : Carte des compétences en ingénierie de l'IA : Fondamentaux de l'ingénierie logicielle. Comment les fondamentaux de l'ingénierie logicielle ont-ils changé avec le codage 'agentique' ? Même lorsque vous utilisez un agent de codage pour écrire tout votre code, comprendre les fondamentaux du logiciel est important pour le diriger.",
-          "text_original": "How have software engineering fundamentals changed with agentic coding? Here is our AI Engineering Skills map for software engineering fundamentals. Article AI Engineering Skills Map: Software engineering fundamentals How have software engineering fundamentals changed with agentic coding? Even when you use a coding agent to write all your code, understanding software fundamentals is important for steering your",
-          "link": "http://shitter.thepixora.com/AndrewYNg/status/2093388974194872781#m",
-          "decryptage": "Le codage 'agentique' fait référence à l'utilisation d'agents IA pour générer ou aider à écrire du code ; l'idée est que même avec l'IA, les bases de la programmation restent cruciales pour bien superviser ces agents."
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Partie 1 de la mise à l'échelle de l'inférence. Commençant par une fonction de génération de texte modifiée (mise à l'échelle de la température, filtrage 'top-p', échantillonnage multinomial) pour générer des sorties diverses pour l'auto-cohérence et le 'best-of-N' (amélioration de la précision des réponses de plus de 2x) 00:00 Introduction et récapitulatif 00:31 Mise à l'échelle à l'entraînement et à l'inférence 07:52 Ce que nous allons implémenter 11:47 Configuration du 'notebook' et chargement du modèle 17:43 Construction d'une fonction de génération de texte flexible 24:40 'Chain-of-thought prompting' 28:26 Échantillonnage et diversité des sorties 33:43 Logits du jeton suivant et décodage glouton 38:20 Mise à l'échelle de la température étape par étape 42:46 Softmax et probabilités des jetons 47:42 Échantillonnage multinomial 54:51 Ajout de l'échantillonnage de température à la génération de texte 59:31 Filtrage 'top-p' étape par étape 1:10:23 Ajout du filtrage 'top-p' à la génération de texte 1:13:43 Échantillonnage et tatouage numérique des LLM 1:16:01 Auto-cohérence et vote majoritaire 1:20:36 Implémentation de l'auto-cohérence 1:29:02 Résultats MATH-500 1:35:01 Compromis entre précision et calcul 1:36:50 Prochaines étapes et auto-raffinement Vidéo",
-          "text_original": "Inference scaling part 1. Starting with a modded text generation function (temperature scaling, top-p filtering, multinomial sampling) to generate diverse outputs for self-consistency and best-of-N (improving answer accuracy by>2x) 00:00 Introduction and recap 00:31 Training-time and inference-time scaling 07:52 What we'll implement 11:47 Notebook setup and model loading 17:43 Building a flexible text generation function 24:40 Chain-of-thought prompting 28:26 Sampling and output diversity 33:43 Next-token logits and greedy decoding 38:20 Temperature scaling step by step 42:46 Softmax and token probabilities 47:42 Multinomial sampling 54:51 Adding temperature sampling to text generation 59:31 Top-p filtering step by step 1:10:23 Adding top-p filtering to text generation 1:13:43 Sampling and LLM watermarking 1:16:01 Self-consistency and majority voting 1:20:36 Implementing self-consistency 1:29:02 MATH-500 results 1:35:01 Accuracy and compute tradeoffs 1:36:50 Next steps and self-refinement Video",
-          "link": "http://shitter.thepixora.com/rasbt/status/2101313945835368684#m",
-          "decryptage": "La 'mise à l'échelle de l'inférence' concerne l'optimisation des performances des modèles d'IA lors de leur utilisation réelle pour générer des réponses ; des techniques comme la 'mise à l'échelle de la température' ou le 'filtrage top-p' aident à contrôler la créativité ou la pertinence des réponses des LLM."
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Et un lien vers la vidéo sur YouTube : redirect.invidious.io/t5y-kS9nNxU Lien Construire un modèle de raisonnement à partir de zéro 4 : Mise à l'échelle de l'inférence 1 (Température, Top-p, Auto-cohérence) Après avoir motivé les cas d'utilisation pour la mise à l'échelle au moment de l'inférence, cette vidéo... youtube.com",
-          "text_original": "And a link to the video on YouTube: redirect.invidious.io/t5y-kS9nNxU Link Build A Reasoning Model From Scratch 4: Inference Scaling 1 (Temperature, Top-p, Self-Consistency) After motivating the use cases for inference-time scaling, this vid... youtube.com",
-          "link": "http://shitter.thepixora.com/rasbt/status/2101315873977860446#m",
-          "decryptage": null
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Pour montrer ce que ces optimisations rendent possible, nous nous associons à Adaptyv Bio pour un concours de conception de protéines. Ensemble, nous allons valider expérimentalement plus de 5 000 conceptions. Nous fournissons jusqu'à 1 million de dollars en crédits Claude plus un financement aux côtés d'Adaptyv pour la validation expérimentale. Modal contribue jusqu'à 250 000 dollars en puissance de calcul et Twist Bioscience fournit de l'ADN. En savoir plus sur Proteinbase d'Adaptyv : proteinbase.com/competitions… Et inscrivez-vous au concours ici : docs.google.com/forms/d/e/1F…",
+          "text_original": "To show what these optimizations make possible, we’re partnering with Adaptyv Bio on a protein design competition. Together, we’ll be experimentally validating over 5,000 designs. We're providing up to $1 million in Claude credits plus funding alongside Adaptyv for experimental validation. Modal is contributing up to $250,000 in compute and Twist Bioscience is providing DNA. Learn more on Adaptyv’s Proteinbase: proteinbase.com/competitions… And sign up for the competition here: docs.google.com/forms/d/e/1F… Link Anthropic × Adaptyv Protein Design Competition Use AI to design new drug candidates across five challenges. Free to enter, with experimental testing and open results. September 28–October 31, 2026. proteinbase.com",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2100701582744797347#m",
+          "decryptage": "Un « concours de conception de protéines » utilise l'IA pour créer de nouvelles protéines avec des propriétés spécifiques, comme de futurs médicaments, et la « validation expérimentale » vérifie ensuite si ces conceptions fonctionnent réellement en laboratoire."
         }
       ],
       "idees": [
         {
-          "author_name": "Yann LeCun",
-          "handle": "@ylecun",
-          "text_fr": "Je n'ai absolument jamais « demandé » d'arrêter la R&D sur les LLM. En fait, j'ai beaucoup soutenu les efforts de Meta concernant les LLM. Il suffit de consulter mon plaidoyer public pour Galactica (novembre 2022), et l'ouverture de l'OPT-175B (mai 2022), et de la famille Llama (mi-2023). J'ai en fait influencé la direction de Meta pour qu'elle lance une division de produits 'AI-first' construite autour de Llama en janvier 2023. J'ai toujours dit que les LLM étaient impressionnants, utiles et avaient un potentiel incroyable. J'ai aussi toujours dit qu'ils étaient une voie de garage sur le chemin vers l'IA de niveau humain. Arrêtez de me faire dire des choses que je n'ai pas dites ou d'affirmer que j'ai d'une manière ou d'une autre entravé la R&D des LLM chez Meta. C'est absurde.",
-          "text_original": "I have absolutely never ever \"asked\" to stop R&D on LLMs. In fact, I was very supportive of LLM efforts at Meta. Just look up my public advocacy for Galactica (November 2022), and the open sourcing of OPT-175B (May 2022), and of the Llama herd (mid 2023). I was actually influential in convincing the Meta leadership to start an AI-first product division built around Llama in January 2023. I've always said that LLMs were impressive, useful, and had amazing potential. I've also always said they were an off-ramp on the path towards human-level AI. Stop making me say things I didn't say or claim that I somehow hindered LLM R&D at Meta. That's BS.",
-          "link": "http://shitter.thepixora.com/ylecun/status/2101992797398082008#m",
-          "decryptage": "Yann LeCun, un des pères fondateurs de l'IA, clarifie sa position sur les LLM (Grands Modèles Linguistiques) : il les soutient pour leur utilité actuelle, mais les considère comme une étape et non comme la solution finale pour atteindre une IA aussi intelligente qu'un humain."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Les systèmes d'IA deviennent de plus en plus puissants, et ils sont de plus en plus utilisés pour construire leur propre prochaine version. Nous voulons éclairer ce progrès pour le public. Aujourd'hui, nous partageons trois mesures qui aident à suivre le développement de l'IA : 1. La quantité de R&D en IA effectuée par l'IA elle-même. 2. La qualité de la supervision des agents IA. 3. Comment la puissance de calcul est allouée. Nous fournissons un aperçu de ces métriques depuis l'intérieur d'Anthropic. Tout développeur d'IA de pointe pourrait publier les mêmes mesures, et des tiers pourraient les vérifier. Alors que le monde réfléchit au rythme de l'IA de pointe, nous devrions faire tout notre possible pour minimiser le fossé entre ce que les laboratoires de pointe savent et ce que le public sait. Cela signifie mieux mesurer le développement de l'IA, publier nos découvertes et donner à la société l'opportunité de décider comment utiliser cette information. Lisez l'article complet et la méthodologie : anthropic.com/institute/meas…",
+          "text_original": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public. Today, we're sharing three measurements that help track AI development: 1. How much AI R&D is done by AI. 2. How well AI agents are overseen. 3. How compute is allocated. We provide a snapshot of these metrics from inside Anthropic. Any frontier developer could publish the same measures, and third parties could verify them. As the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows. This means better measuring the development of AI, publishing our findings, and giving society an opportunity to decide how to use this information. Read the full post and methodology: anthropic.com/institute/meas… Link Measurements for understanding the pace of AI development inside frontier labs Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development. anthropic.com",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2100684274114699295#m",
+          "decryptage": "« R&D en IA » signifie la Recherche et Développement dans le domaine de l'intelligence artificielle ; la « puissance de calcul » (compute) est l'énergie informatique nécessaire pour entraîner et faire fonctionner les modèles d'IA."
         },
         {
-          "author_name": "Yann LeCun",
-          "handle": "@ylecun",
-          "text_fr": "J'ai dit que « les LLM auto-régressifs, en soi, ne mèneront pas à une IA de niveau humain ». Cette affirmation est toujours totalement vraie. Premièrement, les capacités de raisonnement des systèmes d'IA actuels sont basées sur une recherche non auto-régressive (ce que j'ai toujours préconisé). Mais d'après ce que je sais, ils le font dans l'espace des 'tokens', ce qui est limité et inefficace. J'ai affirmé qu'un raisonnement de type humain devait être une recherche dans un espace de représentation continu. Il semble que l'industrie s'oriente vers cela. Deuxièmement, les méthodes d'auto-amélioration, telles qu'elles sont pratiquées actuellement, ne fonctionnent que pour les domaines où la qualité des sorties peut être évaluée sans intervention humaine, comme les mathématiques, le code et les scénarios qui peuvent être simulés avec précision. Pas pour autre chose. Les humains et les animaux apprennent de nouvelles compétences bien plus efficacement que les méthodes d'apprentissage par renforcement (RL) actuelles. Troisièmement, les capacités multimodales des assistants IA actuels utilisent généralement des encodeurs entraînés séparément (qui ne sont pas des LLM). C'est également ce que j'ai préconisé. Sauf que je pense que la meilleure façon de le faire est avec JEPA entraîné avec l'apprentissage auto-supervisé. La communauté de recherche s'oriente clairement vers cela (3000 articles sur JEPA en seulement 4 ans). Quatrièmement, si les LLM étaient un chemin vers une IA de niveau humain, nous aurions des robots domestiques et des voitures autonomes de niveau 4 ou 5 pour les consommateurs maintenant. Et nous n'en avons pas. Nous n'avons certainement pas de voitures capables d'apprendre à conduire en 20 heures ou de s'exercer comme n'importe quel adolescent. Il nous manque encore quelque chose d'assez énorme pour revendiquer une intelligence de niveau humain (sans parler de surhumaine). Bien sûr, nous avons maintenant des systèmes informatiques impressionnants, très utiles, et dont les performances sont surhumaines dans un nombre croissant de domaines (le codage en étant un). Mais cela est vrai de toute l'histoire du progrès en technologie informatique. Enfin, il y a une confusion fondamentale sur ce qu'est réellement l'intelligence. Ce n'est pas la simple accumulation et régurgitation de connaissances déclaratives existantes (ce que font essentiellement les LLM). Comme l'a si bien dit Jean Piaget : « L'intelligence, ce n'est pas ce que l'on sait, c'est ce que l'on fait quand on ne sait pas. » C'est votre capacité à résoudre de nouveaux problèmes sans aucune formation préalable, à agir dans des scénarios jusqu'alors inconnus et à vous adapter très rapidement à de nouvelles situations avec un minimum d'entraînement. Nous en sommes encore loin.",
-          "text_original": "I said \"auto-regressive LLMs, in and of themselves, will not lead human-level AI\" That statement is still totally true. First, the reasoning abilities of current AI systems are based non-auto-regressive search (which is what I have always advocated for). But AFAICT, they do it in token space, which is limited and inefficient. I have claimed that human-like reasoning must be a search in continuous representation space. It looks like the industry is moving towards that. Second, the self-improvement methods, as currently practiced, only work for domains where the quality of outputs can be scored without human intervention, such as mathematics, code, and scenarios that can be simulated accurately. Not anything else. Humans and animals learn new skills way more efficiently than current RL methods. Third, the multimodal capabilities of current AI assistants generally use separately-trained encoders (that are not LLMs). This is also what I've been advocating. Except that I think the best way to do this is with JEPA trained with self-supervised learning. The research community is clearly moving towards that (3000 papers on JEPA in just 4 years). Fourth, if LLMs were a path to human-level AI, we would have domestic robots and Level-4 or Level-5 self-driving cars for consumers by now. And we don't. We certainly don't have cars that can learn to drive in 20 hours or practice like any teenager. We're still missing something pretty huge to claim human-level intelligence (let alone superhuman). Sure, we now have computer systems that are impressive, very useful, and whose performance is superhuman in an increasing number of domains (coding being one of them). But that's true of the entire history of progress in computer technology. Lastly, there is a basic confusion about what intelligence actually is. It is not the mere accumulation and regurgitation of existing declarative knowledge (which is essentially what LLMs do). As Jean Piaget famously said, \"intelligence is not what you know, it is what you do when you don't know.\" It is your ability to solve new problem without any prior training, to act in previously-unknown scenarios, and to adapt very quickly to new situations with minimal training. We're still far from that.",
-          "link": "http://shitter.thepixora.com/ylecun/status/2101674561930510740#m",
-          "decryptage": "Yann LeCun explique pourquoi, selon lui, les grands modèles linguistiques (LLM) actuels ne sont pas suffisants pour créer une intelligence artificielle de niveau humain, et propose des pistes de recherche comme l'apprentissage auto-supervisé ou les architectures JEPA."
-        },
-        {
-          "author_name": "Yann LeCun",
-          "handle": "@ylecun",
-          "text_fr": "Ce qui est intéressant à propos de cette panique autour des logiciels open source en 1995, c'est que les gens semblaient penser qu'ils étaient 'agentiques'. Pessimists Archive (@PessimistsArc) En 1995, tout le monde a paniqué à propos de logiciels qui pouvaient automatiquement trouver des failles sur les systèmes informatiques… newsletter.pessimistsarchive… — http://shitter.thepixora.com/PessimistsArc/status/2099323309913502020#m",
-          "text_original": "The interesting thing about this 1995 open source software panic was that people seemed to think it was ‘agentic’ Pessimists Archive (@PessimistsArc) In 1995 everyone panicked about software that to could automatically find exploits on computer systems… newsletter.pessimistsarchive… — http://shitter.thepixora.com/PessimistsArc/status/2099323309913502020#m",
-          "link": "http://shitter.thepixora.com/PessimistsArc/status/2101350370286932276#m",
-          "decryptage": "Le terme 'agentique' ou 'agent' en IA fait référence à un système capable d'agir de manière autonome pour atteindre un objectif, et ici, on se souvient que même de simples logiciels 'automatiques' d'autrefois pouvaient déjà susciter des craintes similaires."
-        },
-        {
-          "author_name": "Yann LeCun",
-          "handle": "@ylecun",
-          "text_fr": "Vous et Yoshua aidez, par inadvertance, ceux qui veulent verrouiller la recherche et le développement en IA et protéger leur activité en interdisant la recherche ouverte, le code open source et les modèles en accès libre. Cela conduira inévitablement à de mauvais résultats à moyen terme.",
-          "text_original": "You and Yoshua are inadvertently helping those who want to put AI research and development under lock and key and protect their business by banning open research, open-source code, and open-access models. This will inevitably lead to bad outcomes in the medium term.",
-          "link": "http://shitter.thepixora.com/ylecun/status/1719432513003901278#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Il est facile de rejeter Jev comme étant « juste un classifieur ». Mais les gens (moi inclus) qui entraînent des modèles de type 'encodeur' pour la classification depuis de nombreuses années savent qu'ils étaient généralement à usage spécifique et limités d'une certaine manière. La percée de Jev est qu'il généralise bien. Et je dirais que la sauce secrète réside probablement plus dans les données que dans l'algorithme d'entraînement. (Plus une belle conception d'API par-dessus.) Kun Chen (@kunchenguid) un pauvre gars a prétendu avoir construit Jev il y a un an, mais personne ne s'en est soucié, et maintenant Jev a volé la vedette. Beaucoup de gens disent « vous devez raconter votre histoire » ou « le marketing est important », et ils ont complètement manqué ce qui a réellement fait la différence ici. Je viens de regarder ce modèle laya laya.convaiinnovations.com/ et : - il ne prend en charge que 512-1k de contexte… beaucoup de cas d'utilisation ne conviendront pas du tout - l'évaluation directe du modèle montre que sa précision est aussi bonne qu'un pile ou face. pour obtenir de bons résultats, vous devez d'abord l'affiner. Je suis désolé, mais ce n'est pas Jev. Il y a un énorme fossé entre une recherche intéressante et un produit utile. Vous pouvez « raconter votre histoire » autant que vous voulez, mais vous ne pouvez pas blâmer Jev d'avoir volé votre vedette alors que Jev a fait tout le travail pour créer une solution bien emballée que tout le monde peut simplement prendre et utiliser. Jev n'est pas complètement nouveau d'un point de vue académique, tout comme ChatGPT n'était pas le premier LLM. Ne sous-estimez pas l'effort et la valeur d'assembler quelque chose qui est réellement assez bon pour être adopté - cela fait toute la différence. — http://shitter.thepixora.com/kunchenguid/status/2101534610710761923#m",
-          "text_original": "It’s easy to dismiss Jev it as “just a classifier”. But people (me included) who have been training encoder-style models for classification for many years know they were usually special-purpose and limited in some way. The breakthrough of Jev is that it generalizes well. And I’d say the secret sauce is probably more in the data than in the training algorithm. (Plus a nice API design on top of it.) Kun Chen (@kunchenguid) poor guy claim to have built Jev a year ago but no one cared, and now Jev stole all the thunder many people are saying “you gotta tell your story” or “marketing is important”, and they just completely missed what actually made the difference here i just looked into this laya model laya.convaiinnovations.com/ and: - it only supports 512-1k context… a lot of use cases won’t fit at all - evaluating the model directly shows its accuracy is as good as a coin flip. in order to get good results, you need to first fine tune it i’m sorry, but that’s not Jev there’s a massive gap between an interesting research and a useful product you can “tell your story” all you like, but you can’t blame Jev for stealing your thunder when Jev did all the work to make a well-packaged solution anyone can just grab and go Jev is not completely new from an academic sense, just like how ChatGPT was not the first LLM don’t underestimate the effort and value in putting together something that’s actually good enough for adoption - it makes all the difference — http://shitter.thepixora.com/kunchenguid/status/2101534610710761923#m",
-          "link": "http://shitter.thepixora.com/rasbt/status/2101672304358948992#m",
-          "decryptage": "Un 'classifieur' est un modèle d'IA qui trie les données en catégories (par exemple, 'spam' ou 'non-spam') ; ce tweet explique que la véritable valeur d'un modèle ne réside pas seulement dans son concept, mais dans sa capacité à bien fonctionner en général et à être facile à utiliser ('design d'API')."
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Nouvelles perspectives intéressantes sur l'ancien débat AdamW vs Muon : Muon semble être plus performant car il réduit la mémorisation. Calc Consulting (@CalcCon) 𝗔𝗱𝗮𝗺𝗪 𝘃𝘀. 𝗠𝘂𝗼𝗻: α, 𝗢𝘃𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗠𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻. Une rapide mise à jour sur nos expériences WeightWatcher comparant AdamW avec le nouvel optimiseur Muon. Nous avons entraîné un modèle nanoGPT à tête unique avec les deux optimiseurs sur cinq 'seeds'. Nous avons ensuite utilisé WeightWatcher pour étudier les spectres des matrices de poids et plusieurs formes de mémorisation. Le graphique du haut montre la moyenne de α brute. AdamW produit des valeurs de α relativement stables. Muon est beaucoup plus bruyant. Ses ESD varient considérablement entre les couches, ce qui rend α plus difficile à estimer de manière fiable. Mais la moyenne cache quelque chose d'important : 👉 Les couches individuelles tombent bien en dessous de α = 2. Notre théorie spectrale/RG prédit que ce régime peut être associé à un apprentissage pathologique et spécifique à l'exemple. Nous avons donc testé cette prédiction directement. Nous avons inséré des séquences aléatoires dans l'ensemble d'entraînement et mesuré si le modèle s'en souvenait en utilisant l'extraction exacte, le rappel de 'tokens', le rappel forcé par l'enseignant et l'exposition de 'canaries'. Le résultat est frappant. • AdamW a fortement mémorisé les séquences implantées. Plus tôt dans l'entraînement, il a atteint environ 96% de rappel exact de 'canaries' de 32 'tokens'. • Muon a fortement supprimé ce type de mémorisation. Après 10 000 étapes, le rappel forcé par l'enseignant était d'environ 62% pour AdamW contre moins de 1% pour Muon. Il y a aussi une surprise : certaines couches Muon ont également α < 2. Ainsi, α < 2 n'est pas suffisant en soi pour expliquer la mémorisation. C'est pourquoi nous recommandons d'examiner les couches individuelles de WeightWatcher et leurs ESD, et non pas simplement la moyenne de α. Muon semble supprimer la mémorisation tout en produisant des ESD inhabituels qui rendent l'analyse conventionnelle de WeightWatcher plus difficile. Nous exécutons maintenant Muon beaucoup plus longtemps pour comprendre comment ces spectres évoluent. Si vous utilisez WeightWatcher et essayez d'analyser des modèles entraînés avec Muon, n'hésitez pas à nous contacter pour obtenir de l'aide. #talkToChuck 𝗔𝗱𝗮𝗺𝗪 𝘃𝘀. 𝗠𝘂𝗼𝗻: α, 𝗢𝘃𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗠𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻. A quick update on our WeightWatcher experiments comparing AdamW with the newer Muon optimizer. We trained a single-head nanoGPT model with both optimizers across five seeds. We then used WeightWatcher to study the weight-matrix spectra and several forms of memorization. The top plot shows the average raw α. AdamW produces relatively stable α values. Muon is much noisier. Its ESDs vary substantially across layers, which makes α harder to estimate reliably. But the average hides something important: 👉 Individual layers do fall below α = 2. Our spectral/RG theory predicts that this regime can be associated with pathological, example-specific learning. So we tested that prediction directly. We inserted random sequences into the training set and measured whether the model remembered them using exact extraction, token recall, teacher-forced recall, and canary exposure. The result was striking. • AdamW memorized the planted sequences strongly. Earlier in training it reached ~96% exact recall of 32-token canaries. • Muon strongly suppressed this kind of memorization. At 10,000 steps, teacher-forced recall was ~62% for AdamW versus <1% for Muon. There is also a surprise: some Muon layers have α < 2 as well. So α < 2 by itself is not sufficient to explain memorization. This is why we recommend examining individual WeightWatcher layers and their ESDs—not simply average α. Muon appears to suppress memorization while also producing unusual ESDs that make conventional WeightWatcher analysis more difficult. We are now running Muon much longer to understand how these spectra evolve. If you are using WeightWatcher and trying to analyze models trained with Muon, feel free to reach out for help. #talkToChuck — http://shitter.thepixora.com/CalcCon/status/2100987746051658041#m",
-          "link": "http://shitter.thepixora.com/rasbt/status/2101312413643473255#m",
-          "decryptage": "AdamW et Muon sont des 'optimiseurs', des algorithmes qui aident les modèles d'IA à apprendre plus efficacement. Ce débat montre que Muon semble mieux éviter la 'mémorisation' (quand l'IA retient des détails insignifiants de l'entraînement au lieu de comprendre), ce qui est crucial pour la qualité du modèle."
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Quelques pistes de réflexion intéressantes lors de la conception de benchmarks... Voici une petite comparaison d'utilisation informatique (visuelle) entre GPT-5.6 Astra et Qwen3.8 Max. La tâche ici était de recréer l'image au centre en utilisant l'interface utilisateur de Paint. Très intéressant de voir comment les deux LLM+Harnesses ont abordé cela de manière totalement différente par défaut. Par exemple, Astra a essayé d'aborder cela en dessinant et en superposant des formes géométriques. Qwen a abordé cela pixel par pixel. (Bien sûr, le résultat généré pixel par pixel ressemble davantage à l'original, c'est essentiellement une version basse résolution de celui-ci par nature.) Ainsi, l'image générée par Qwen obtiendrait sûrement un score plus élevé dans le sens où elle est plus proche de l'original. Mais je ne conclurais pas de cet exemple qu'un LLM généralise mieux que l'autre sur d'autres tâches. De plus, je ne dirais pas que Qwen a de meilleures capacités d'utilisation informatique ou une meilleure compréhension visuelle qu'Astra. Mais cela met en évidence un point intéressant sur la difficulté des benchmarks lorsqu'ils ne comparent que les résultats finaux.",
-          "text_original": "Some food for thought when designing benchmarks... So, here's a little computer-use (visual) comparison between GPT-5.6 Astra and Qwen3.8 Max. The task here was to recreate the image in the center using the Paint UI. Super interesting how the two different LLMs+Harnesses approached this totally differently by default. I.e., Astra tried to approach this by drawing and layering geometric shapes. Qwen approached this pixel by pixel. (Of course, the pixel-by-pixel result looks closer to the original, it's essentially a low-res version of that by nature.) So, the Qwen-generated image would surely score higher in the sense that it's closer to the original. But I wouldn’t conclude from this example that one LLM generalizes better than the other on other tasks. Also, I wouldn't say Qwen has better compute-use capabilities or better visual understanding than Astra. But it highlights an interesting point about how slippery benchmarks are when they only compare final results. Video",
-          "link": "http://shitter.thepixora.com/rasbt/status/2099846949377585659#m",
-          "decryptage": "Un 'benchmark' est un test standardisé pour comparer les performances de différents modèles d'IA ; ce tweet montre que ces tests doivent être interprétés avec prudence, car la manière dont un modèle résout un problème peut masquer sa vraie 'intelligence' ou capacité de généralisation."
-        },
-        {
-          "author_name": "Pieter Levels",
-          "handle": "@levelsio",
-          "text_fr": "C'est la même chose avec cet article d'hier : l'acceptation des homosexuels diminue rapidement aux Pays-Bas. La vraie raison est que les immigrés du Moyen-Orient et d'Afrique du Nord (MENA) sont extrêmement opposés à l'homosexualité. Mais les médias n'ont pas le droit ou ne le rapporteront jamais. Il est ironique que l'acceptation des homosexuels pour laquelle nous nous sommes battus pendant des décennies aux Pays-Bas soit détruite par des politiques progressistes qui continuent d'importer des immigrés de faible qualité issus de cultures qui nous sont complètement opposées @levelsio (@levelsio) C'est tellement hilarant mais honnêtement tragique. Les médias européens ne peuvent et ne veulent pas le rapporter. Ils publient tous des articles disant que la capacité de lecture, l'intelligence et les niveaux d'éducation diminuent, mais en fait, ils augmentent si l'on exclut les enfants d'immigrés. Il serait bien plus utile qu'ils rapportent la vérité afin que nous puissions améliorer l'éducation pour tous !",
-          "text_original": "Same with this article from yesterday Gay acceptance is now rapidly dropping in the Netherlands The real reason is Middle Eastern and North African (MENA) immigrants are extremely against homosexuality But media isn't allowed or won't ever write that It's ironic that the gay acceptance we fought for for decades in the Netherlands is being destroyed by progressive policies that keep continously importing low quality immigrants from cultures that are completely opposed to us @levelsio (@levelsio) This is so hilarious but honestly tragic European media can't and won't report on this They're all posting articles reading ability, intelligence and education levels are going down but actually they go up if you exclude immigrant kids It'd be much more useful if they reported the truth so we could improve education for everyone! — http://shitter.thepixora.com/levelsio/status/2101978657254244858#m",
-          "link": "http://shitter.thepixora.com/levelsio/status/2101997296485367958#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Pieter Levels",
-          "handle": "@levelsio",
-          "text_fr": "Être gay est illégal dans la plupart des pays du Moyen-Orient et d'Afrique du Nord (MENA) comme le Maroc.",
-          "text_original": "Being gay is illegal in most MENA countries like Morocco",
-          "link": "http://shitter.thepixora.com/levelsio/status/2102020012449968382#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Pieter Levels",
-          "handle": "@levelsio",
-          "text_fr": "C'est tellement hilarant mais honnêtement tragique. Les médias européens ne peuvent et ne veulent pas le rapporter. Ils publient tous des articles disant que la capacité de lecture, l'intelligence et les niveaux d'éducation diminuent, mais en fait, ils augmentent si l'on exclut les enfants d'immigrés. Il serait bien plus utile qu'ils rapportent la vérité afin que nous puissions améliorer l'éducation pour tous ! William Meijer (@williameijer) Le score PISA de l'Allemagne augmente de 41 points si l'on exclut les enfants d'immigrés. Suisse : +30. Le score des Émirats arabes unis diminue de 45 points sans les immigrés. Singapour, Macao, les Émirats arabes unis et le Qatar recrutent des immigrés plus intelligents que leurs populations natives ; l'Europe, l'inverse. — http://shitter.thepixora.com/williameijer/status/2101665790416056573#m",
-          "link": "http://shitter.thepixora.com/levelsio/status/2101978657254244858#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Pieter Levels",
-          "handle": "@levelsio",
-          "text_fr": "Il existe toute une catégorie de SaaS fondée sur le 'fossé' de « les développeurs n'ont pas le temps de faire ça eux-mêmes », et ce fossé s'érode en temps réel maintenant. Mike Ritchie (@thisritchie) C'est exactement ce qui s'est passé avec Mintlify pour nous. Il me restait 25% de mon Claude max vendredi soir, j'ai reçu un e-mail d'eux disant qu'ils augmentaient les prix, alors je l'ai remplacé en environ 12 heures avec environ 25 minutes d'effort réel. — http://shitter.thepixora.com/thisritchie/status/2101663299641242057#m",
-          "link": "http://shitter.thepixora.com/yongfook/status/2101842577347706884#m",
-          "decryptage": "Le 'SaaS' (Software as a Service) désigne des logiciels accessibles en ligne par abonnement. Le 'fossé' (moat en anglais) dont il parle est un avantage concurrentiel ; ici, l'idée est que l'IA rend désormais facile pour les développeurs de faire eux-mêmes ce qu'ils payaient auparavant des services SaaS pour faire, réduisant ainsi cet avantage."
-        },
-        {
-          "author_name": "Pieter Levels",
-          "handle": "@levelsio",
-          "text_fr": "La graisse abdominale tue votre testostérone. Sergio Ferrero (@calotonterias) L'âge n'explique que 2,5 % de la variation de testostérone entre les hommes, tandis que l'excès de graisse corporelle explique 18-20 %. Ce qui réduit le plus votre testostérone est d'être sédentaire, de ne pas faire d'entraînement de force, d'avoir un excès de graisse corporelle, de ne pas prendre le soleil, de manger des ultra-transformés, de mal dormir et de ne pas manger d'animaux. Ne blâmez pas tant l'âge.",
-          "link": "http://shitter.thepixora.com/levelsio/status/2101821385731395719#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "Les 'Labs' se concentrent sur les entreprises, car c'est là que la volonté de payer pour les 'tokens' est la plus élevée, donc, même si leurs systèmes sont capables de faire ce que Muse fait directement, ils ne sont pas aussi intuitifs à utiliser. De plus, Meta offre beaucoup de puissance de calcul pour que cela fonctionne bien.",
-          "text_original": "The Labs are focused on enterprise, as that's where the willingness to pay for tokens is highest, so, even though their systems are capable of doing what Muse does out of the box, they are not as intuitive to use. Also, Meta is giving away a lot of compute to make this work well",
-          "link": "http://shitter.thepixora.com/emollick/status/2102034426498625717#m",
-          "decryptage": "Ici, 'Labs' fait référence aux équipes de recherche et développement qui créent des IA plus complexes. Les 'tokens' sont des unités de texte ou de données que les IA traitent, et 'compute' désigne la puissance de calcul nécessaire pour faire fonctionner ces IA, souvent très coûteuse."
-        },
-        {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "Je généraliserais cela à toutes les sciences sociales. Nous sommes en terrain inconnu. Nous avons besoin d'une recherche rapide et intelligente sur l'IA qui soit profondément informée par les capacités de l'IA, qui soit tournée vers l'avenir, et qui ne soit pas entièrement figée. Ce type de travail n'est généralement pas très prestigieux dans les domaines, mais il est essentiel. Alex Imas (@alexolegmas) Quelques réflexions (personnelles) sur la lecture d'articles empiriques sur l'IA et l'économie. Les économistes se sont habitués à lire des articles avec une identification super propre, à discuter de la validité d'un instrument, à s'assurer que les hypothèses de tendances parallèles sont satisfaites. C'est ce qui vous permet d'entrer dans une revue de premier plan, et c'est une recherche *très* importante (aucune question ici). Mais cela prend aussi des années, voire des décennies, pour que ce type d'articles soit bien fait — les gens ne trouvent souvent pas un bon instrument pour répondre à une question causale spécifique des décennies après l'expérience naturelle. Nous aurons éventuellement ce type de recherche pour l'IA également, et c'est absolument nécessaire. Mais en ce moment, nous avons aussi besoin de signaux *tout de suite*, même s'ils sont plus 'bruyants' que ce à quoi nous sommes habitués. Nous avons besoin d'articles où nous pouvons faire confiance aux chercheurs pour avoir fait de leur mieux méthodologiquement, tout en reconnaissant que l'espace évolue beaucoup trop vite pour attendre une identification parfaite. Cela nous permettra d'accumuler suffisamment de signaux, abordant la même question sous différents angles, par exemple, pour dire « oui, X est probablement en train de se produire dans l'économie ». Les articles sur l'exposition à l'IA et l'embauche en début de carrière en sont un bon exemple. Il n'y a pas d'article 'balle d'argent' avec une identification super propre. Mais à ce stade, nous avons plusieurs équipes indépendantes qui parviennent à la même conclusion générale, suffisamment pour que nous puissions dire « il semble y avoir un ralentissement de l'embauche en début de carrière exposée à l'IA ».",
-          "text_original": "I would broaden this to all social science. We are in uncharted waters. We need fast, smart research on AI that is deeply informed by AI's abilities, is forward-looking, and may not be fully nailed-down. This sort of work is not usually high status in fields, but it is critical. Alex Imas (@alexolegimas) A few (personal) thoughts on reading empirical AI papers on the economy. Economists have gotten used to reading papers with super clean identification, arguing about the validity of an instrument, making sure parallel trend assumptions are satisfied. This is what gets you into a top journal, and it is *very* important research (no question here). But it also takes years and sometimes decades to get these types of papers right---people often don't find a good instrument to answer a specific causal question decades after the natural experiment. We will eventually have this type of research for AI as well, and it is absolutely necessary. But right we also need signals *right now*, even if they are noisier than what we are used to. We need papers where we can trust that researchers did their best methodologically, while at the same time acknowledging that the space is moving way too fast to wait for perfect identification. This will allow us to accumulate enough signals, coming at the same question using different angles, for example, to say \"yes, X is likely happening in the economy\". The AI exposure and early career hiring papers are a good example of this. There is no silver bullet paper with super clean identification. But at this point we have several independent teams reaching the same general conclusion, enough where we can say \"there seems to be a slow down in AI-exposed, early career hiring.\"",
-          "link": "http://shitter.thepixora.com/emollick/status/2101786064142705042#m",
-          "decryptage": "Ce tweet discute de la difficulté de mener des recherches rigoureuses en sciences sociales sur l'IA, car le domaine évolue si vite qu'il est souvent impossible d'attendre des méthodes parfaites ('identification' propre, 'instrument' fiable, 'tendances parallèles') ; il faut accepter des signaux plus rapides même s'ils sont moins précis."
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Jev ressemble de plus en plus à une nouvelle primitive de programmation. Si un LLM est un cerveau, Jev est un neurone ? Steve Faulkner (@southpolesteve) J'ai vu des gens décrire Jev comme une \"instruction conditionnelle (if statement) pour l'IA\". Mais et si c'était réellement une instruction conditionnelle ? Présentation de Probably : un langage de programmation propulsé par Jev : probably-lang.southpolesteve… Jev intégré au langage. \"feels\" pose une question. \"match\" achemine entre les descriptions. \"while\" continue tant que quelque chose ne semble pas vrai. C'est évidemment un jouet, mais il est amusant de penser à ce que quelque chose comme Jev débloque. Jev prend les décisions, un LLM écrit, et un petit programme lie le tout.",
+          "text_original": "Jev is looking more and more like a new programming primitive If an LLm is brain Jev is a neuron? Steve Faulkner (@southpolesteve) I've seen people describe Jev as an \"AI if statement\". But what if it actually WAS an if statement? Introducing Probably: a programming language powered by Jev: probably-lang.southpolesteve… Jev baked into the language. “feels” asks a question. “match” routes between descriptions. “while” keeps going until something stops feeling true. This is obviously a toy, but it's fun to think about what something like Jev unlocks. Jev makes the decisions, an LLM does the writing, and a little program ties it together.",
+          "link": "http://shitter.thepixora.com/NickADobos/status/2100831012603248988#m",
+          "decryptage": "Un « LLM » (Large Language Model) est un grand modèle de langage, comme ChatGPT, capable de comprendre et générer du texte ; « Jev » semble être un composant qui permet à un programme IA de prendre des décisions de manière plus souple, comme un neurone décide pour un cerveau."
         }
       ],
       "outils": [
         {
-          "author_name": "Andrew Ng",
-          "handle": "@AndrewYNg",
-          "text_fr": "OpenWorker, un agent open source qui ne se contente pas de discuter mais qui accomplit des tâches sur votre ordinateur portable, vient de publier une nouvelle version avec de nombreuses fonctionnalités pour les flux de travail de sécurité. Après notre première publication, de nombreux utilisateurs l'ont trouvé particulièrement utile pour la cybersécurité. Les attaquants utilisent déjà l'IA ; OpenWorker s'engage à donner aux défenseurs le même avantage. L'exécution d'un agent nécessite à la fois (i) un modèle et (ii) un 'harness' (le logiciel autour du modèle). Comme le 'harness' d'OpenWorker est entièrement open source, les équipes de sécurité peuvent l'auditer pour s'assurer que nous n'avons pas intégré de portes dérobées qui exfiltreraient votre code et vos données vers une entreprise ou même un adversaire étranger. OpenWorker est désormais livré avec des agents de cybersécurité intégrés pour (i) la recherche de vulnérabilités dans votre code, (ii) la recherche d'injections dans la chaîne d'approvisionnement des dépendances, et (iii) la vérification de la configuration de sécurité de votre cloud pour les surfaces d'attaque. Cela permet aux développeurs d'effectuer beaucoup plus de travail de sécurité avant le déploiement (une partie de ce qu'on appelle le mouvement « shift left »). Vous choisissez le modèle : vous pouvez exécuter des modèles open weight entièrement localement afin que les codes sensibles ne quittent jamais votre machine. Cela aide pour le travail de sécurité légitime (comme reproduire un exploit connu pour s'en défendre) qui peut déclencher des refus dans les modèles fermés leaders. Ou usez votre abonnement ChatGPT, ou des modèles d'aperçu furtif comme Ox Alpha, ou tout modèle via une clé API. Merci également à tous les contributeurs open source ! Rejoignez le travail avec @rohitcprasad, alors suivez-le également pour des mises à jour plus fréquentes. Essayez-le : openworker.com/ Code : github.com/andrewyng/openwor…",
-          "text_original": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. After our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary. OpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement). You choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key. Thanks also to all the open source contributors! Join work with @rohitcprasad so please follow him too to get more frequent updates. Try it out: openworker.com/ Code: github.com/andrewyng/openwor…",
-          "link": "http://shitter.thepixora.com/AndrewYNg/status/2092315079576555806#m",
-          "decryptage": "OpenWorker est un programme d'IA 'agent' qui automatise des tâches de sécurité informatique directement sur votre machine, offrant un contrôle total car son code est ouvert (open source), ce qui est crucial pour la confiance dans la protection des données sensibles."
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Article Les agents gérés dans l'API Gemini : un cadre d'agent mis à jour, une API Fichiers et des identifiants gérés. Les agents gérés de Gemini reçoivent une mise à jour de leur cadre de travail. antigravity-preview-09-2026 rapproche les outils et le comportement de l'agent de ce que vous obtenez dans l'Agent de codage Antigravity, c'est disponible aujourd'hui dans le",
+          "text_original": "Article Managed Agents in the Gemini API: an updated agent harness, a Files API, and managed credentials Gemini managed agents are getting an updated harness. antigravity-preview-09-2026 brings the agent's tools and behavior closer to what you get in the Antigravity Coding Agent, it's live today in the",
+          "link": "http://shitter.thepixora.com/GoogleAIStudio/status/2100635173188432193#m",
+          "decryptage": "Les \"agents gérés\" sont des programmes IA autonomes qui peuvent effectuer des tâches complexes, et l'API Gemini est une interface pour interagir avec le modèle d'IA de Google, Gemini."
         },
         {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "Je pense que Muse de Meta est une implémentation impressionnante de l'idée OpenClaw d'une IA en tant qu'agent assistant personnel avec lequel vous avez une conversation continue. Comme il est si axé sur la réussite de cette tâche, l'expérience est très accessible pour les personnes qui n'avaient pas réalisé ce que l'IA pouvait faire pour elles.",
-          "text_original": "I think Meta's Muse is an impressive implementation of the OpenClaw idea of AI as a personal assistant agent that you have an ongoing chat with. Since it is so focused on doing that well, the experience is very accessible for people who didn't realize what AI could do for them.",
-          "link": "http://shitter.thepixora.com/emollick/status/2102033312554287270#m",
-          "decryptage": "Meta Muse est un nouvel assistant personnel basé sur l'IA, conçu pour être très facile à utiliser et qui démontre la capacité de l'IA à interagir de manière conversationnelle comme un véritable agent personnel."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Les biologistes utilisent des modèles open-source spécialisés pour des tâches comme la modélisation de la structure des systèmes moléculaires, la conception de molécules de type médicament et la prédiction des effets des mutations génétiques. Mais ces modèles sont souvent coûteux à exécuter, ce qui peut limiter leur impact. Dans notre dernier blog scientifique, nous partageons comment Claude a réussi à optimiser l'inférence pour plus de 30 modèles open-source, les rendant 4 fois plus rapides en moyenne, en partie en écrivant un logiciel personnalisé pour les GPU. Nous publions tout le code d'optimisation en open-source. En savoir plus : anthropic.com/research/claud… Vidéo",
+          "text_original": "Biologists use specialized open-source models for tasks like modeling the structure of molecular systems, designing drug-like molecules, and predicting the effects of genetic mutations. But these models are often expensive to run, potentially limiting their impact. In our latest Science Blog, we share how Claude was able to optimize inference for more than 30 open-source models, making them 4x faster on average, partly by writing custom software for GPUs. We’re open sourcing all of the optimization code. Read more: anthropic.com/research/claud… Video",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2100701581109072332#m",
+          "decryptage": "« Optimiser l'inférence » signifie rendre le processus par lequel un modèle d'IA tire des conclusions ou fait des prédictions beaucoup plus rapide et efficace, souvent en utilisant des « GPU » (cartes graphiques) qui sont excellentes pour les calculs parallèles nécessaires à l'IA."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Vous pouvez trouver tout le code sur GitHub : github.com/anthropics/uplift… Et les résultats complets dans notre rapport technique : www-cdn.anthropic.com/d8ca26…",
+          "text_original": "You can find all of the code on GitHub: github.com/anthropics/uplift… And the full results in our technical report: www-cdn.anthropic.com/d8ca26… Link GitHub - anthropics/uplifting-biomolecular-modeling Contribute to anthropics/uplifting-biomolecular-modeling development by creating an account on GitHub. github.com",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2100701583940190644#m",
+          "decryptage": "GitHub est une plateforme où les développeurs partagent et collaborent sur des codes informatiques, ce qui rend le travail plus transparent et accessible à tous."
         }
       ]
     }
   },
-  "processed_at": "2026-09-21T14:07:44",
+  "processed_at": "2026-09-21T14:34:37",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 74,
-    "total": 27,
+    "with_decryptage_pct": 100,
+    "total": 13,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-21T14:07:45"
+  "email_sent_at": "2026-09-21T14:34:38"
 }
