@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "fetched_at": "2026-09-23T11:53:05",
+  "fetched_at": "2026-09-23T12:12:06",
   "tweets": [
     {
       "handle": "karpathy",
@@ -93,138 +93,93 @@
       "source_lang": "en"
     },
     {
-      "handle": "rasbt",
-      "text": "MiMo-V2.6 is \"simply\" the best (for now). Despite its simple architecture design it's currently No.1 in the open-weight benchmarks (weighted average). With \"simple,\" I mean a classic Grouped Query Attention (GQA) with Sliding Window Attention (SWA) at a tiny 128-token window size. So, that underlines one of the points I've been trying to make in recent months: most of the progress still comes from the data and post-training recipe improvements. Fancy attention variants are just mostly efficiency tweaks. What are some of the training data improvements and recipe improvements? The MiMo team shared a pretty detailed technical report. Lots to carefully digest there, but in short, there are a few things that stood out: 1. An increase in agent tasks; also training across different harnesses (the average DeepSWE pass@1 accuracy on held-out harnesses improved from approximately 50% -> 66%). 2. Better reward signals: they replaced a simple correctness verifier with an agentic grader that looks at the execution traces as well. 3. Large RL batches (1,568 prompts × 16 rollouts = 25,088 trajectories) and 2.7–3.7 billion training tokens per update (unclear, though, what the predecessor used). Artificial Analysis (@ArtificialAnlys) MiMo-V2.6-Pro debuts as the top open weights model on the Artificial Analysis Intelligence Index (46). At $0.13 per Intelligence Index task, it lands on the Intelligence vs. Cost per Task Pareto frontier @Xiaomi has just released MiMo-V2.6-Pro, an open weights model with major advances in intelligence over its predecessor, MiMo-V2.5-Pro (Intelligence Index: 26). Despite the improvement, it retains the same attractive pricing at $0.435 per 1M input tokens (with a 99% cache-hit discount) and $0.87 per 1M output tokens. This makes MiMo-V2.6-Pro one of the most cost-efficient models to deploy. MiMo-V2.6-Pro is an MoE model with 1.02T total parameters and 42B active parameters. Stay tuned for additional analysis of the model. Check out MiMo-V2.6-Pro full benchmarking breakdown here: artificialanalysis.ai — http://shitter.thepixora.com/ArtificialAnlys/status/2102128560962187701#m",
-      "link": "http://shitter.thepixora.com/rasbt/status/2102394156731535413#m",
-      "published": "Tue, 22 Sep 2026 13:46:42 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "It’s easy to dismiss Jev it as “just a classifier”. But people (me included) who have been training encoder-style models for classification for many years know they were usually special-purpose and limited in some way. The breakthrough of Jev is that it generalizes well. And I’d say the secret sauce is probably more in the data than in the training algorithm. (Plus a nice API design on top of it.) Kun Chen (@kunchenguid) poor guy claim to have built Jev a year ago but no one cared, and now Jev stole all the thunder many people are saying “you gotta tell your story” or “marketing is important”, and they just completely missed what actually made the difference here i just looked into this laya model laya.convaiinnovations.com/ and: - it only supports 512-1k context… a lot of use cases won’t fit at all - evaluating the model directly shows its accuracy is as good as a coin flip. in order to get good results, you need to first fine tune it i’m sorry, but that’s not Jev there’s a massive gap between an interesting research and a useful product you can “tell your story” all you like, but you can’t blame Jev for stealing your thunder when Jev did all the work to make a well-packaged solution anyone can just grab and go Jev is not completely new from an academic sense, just like how ChatGPT was not the first LLM don’t underestimate the effort and value in putting together something that’s actually good enough for adoption - it makes all the difference — http://shitter.thepixora.com/kunchenguid/status/2101534610710761923#m",
-      "link": "http://shitter.thepixora.com/rasbt/status/2101672304358948992#m",
-      "published": "Sun, 20 Sep 2026 13:58:19 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "Inference scaling part 1. Starting with a modded text generation function (temperature scaling, top-p filtering, multinomial sampling) to generate diverse outputs for self-consistency and best-of-N (improving answer accuracy by>2x) 00:00 Introduction and recap 00:31 Training-time and inference-time scaling 07:52 What we'll implement 11:47 Notebook setup and model loading 17:43 Building a flexible text generation function 24:40 Chain-of-thought prompting 28:26 Sampling and output diversity 33:43 Next-token logits and greedy decoding 38:20 Temperature scaling step by step 42:46 Softmax and token probabilities 47:42 Multinomial sampling 54:51 Adding temperature sampling to text generation 59:31 Top-p filtering step by step 1:10:23 Adding top-p filtering to text generation 1:13:43 Sampling and LLM watermarking 1:16:01 Self-consistency and majority voting 1:20:36 Implementing self-consistency 1:29:02 MATH-500 results 1:35:01 Accuracy and compute tradeoffs 1:36:50 Next steps and self-refinement Video",
-      "link": "http://shitter.thepixora.com/rasbt/status/2101313945835368684#m",
-      "published": "Sat, 19 Sep 2026 14:14:19 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "And a link to the video on YouTube: redirect.invidious.io/t5y-kS9nNxU Link Build A Reasoning Model From Scratch 4: Inference Scaling 1 (Temperature, Top-p, Self-Consistency) After motivating the use cases for inference-time scaling, this vid... youtube.com",
-      "link": "http://shitter.thepixora.com/rasbt/status/2101315873977860446#m",
-      "published": "Sat, 19 Sep 2026 14:21:59 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "Interesting new insights into the old AdamW vs Muon debate: Muon seems to do better because it reduces memorization. Calc Consulting (@CalcCon) 𝗔𝗱𝗮𝗺𝗪 𝘃𝘀. 𝗠𝘂𝗼𝗻: α, 𝗢𝘃𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗠𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻. A quick update on our WeightWatcher experiments comparing AdamW with the newer Muon optimizer. We trained a single-head nanoGPT model with both optimizers across five seeds. We then used WeightWatcher to study the weight-matrix spectra and several forms of memorization. The top plot shows the average raw α. AdamW produces relatively stable α values. Muon is much noisier. Its ESDs vary substantially across layers, which makes α harder to estimate reliably. But the average hides something important: 👉 Individual layers do fall below α = 2. Our spectral/RG theory predicts that this regime can be associated with pathological, example-specific learning. So we tested that prediction directly. We inserted random sequences into the training set and measured whether the model remembered them using exact extraction, token recall, teacher-forced recall, and canary exposure. The result was striking. • AdamW memorized the planted sequences strongly. Earlier in training it reached ~96% exact recall of 32-token canaries. • Muon strongly suppressed this kind of memorization. At 10,000 steps, teacher-forced recall was ~62% for AdamW versus <1% for Muon. There is also a surprise: some Muon layers have α < 2 as well. So α < 2 by itself is not sufficient to explain memorization. This is why we recommend examining individual WeightWatcher layers and their ESDs—not simply average α. Muon appears to suppress memorization while also producing unusual ESDs that make conventional WeightWatcher analysis more difficult. We are now running Muon much longer to understand how these spectra evolve. If you are using WeightWatcher and trying to analyze models trained with Muon, feel free to reach out for help. #talkToChuck 𝗔𝗱𝗮𝗺𝗪 𝘃𝘀. 𝗠𝘂𝗼𝗻: α, 𝗢𝘃𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗠𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻. A quick update on our WeightWatcher experiments comparing AdamW with the newer Muon optimizer. We trained a single-head nanoGPT model with both optimizers across five seeds. We then used WeightWatcher to study the weight-matrix spectra and several forms of memorization. The top plot shows the average raw α. AdamW produces relatively stable α values. Muon is much noisier. Its ESDs vary substantially across layers, which makes α harder to estimate reliably. But the average hides something important: 👉 Individual layers do fall below α = 2. Our spectral/RG theory predicts that this regime can be associated with pathological, example-specific learning. So we tested that prediction directly. We inserted random sequences into the training set and measured whether the model remembered them using exact extraction, token recall, teacher-forced recall, and canary exposure. The result was striking. • AdamW memorized the planted sequences strongly. Earlier in training it reached ~96% exact recall of 32-token canaries. • Muon strongly suppressed this kind of memorization. At 10,000 steps, teacher-forced recall was ~62% for AdamW versus <1% for Muon. There is also a surprise: some Muon layers have α < 2 as well. So α < 2 by itself is not sufficient to explain memorization. This is why we recommend examining individual WeightWatcher layers and their ESDs—not simply average α. Muon appears to suppress memorization while also producing unusual ESDs that make conventional WeightWatcher analysis more difficult. We are now running Muon much longer to understand how these spectra evolve. If you are using WeightWatcher and trying to analyze models trained with Muon, feel free to reach out for help. #talkToChuck — http://shitter.thepixora.com/CalcCon/status/2100987746051658041#m",
-      "link": "http://shitter.thepixora.com/rasbt/status/2101312413643473255#m",
-      "published": "Sat, 19 Sep 2026 14:08:14 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "markchen90",
-      "text": "It’s hard to overstate @michpokrass 's impact on our consumer products. ChatGPT has had a rebirth under her leadership, and a lot of what we've built has been driven by her vision and conviction. Really grateful to work with her! Michelle Pokrass (@michpokrass) just crossed four years at openai! the special thing about this place is the constant capacity for rebirth. for all its faults, there is nowhere quite like it. the team makes high conviction, contrarian bets over and over, and they are mostly right. it's a new company every three months. i have really enjoyed my part in some of the bets, and i'm excited to share some of the current ones we are cooking up now. onward! — http://shitter.thepixora.com/michpokrass/status/2102226720073896367#m",
-      "link": "http://shitter.thepixora.com/markchen90/status/2102315801730564516#m",
-      "published": "Tue, 22 Sep 2026 08:35:20 GMT",
-      "author_name": "Mark Chen",
+      "handle": "JeffDean",
+      "text": "Thanks for the great discussion, @dawnsongtweets ! Dawn Song (@dawnsongtweets) I had the great honor and pleasure of sitting down with @JeffDean for his first public talk since leaving Google, where he spent an extraordinary 27 years. Few people have shaped modern computing and AI as profoundly - from MapReduce and Bigtable to TensorFlow, Mixture-of-Experts, TPUs, and Gemini. Our conversation covered some of the biggest questions shaping the future of AI: • How do you recognize a foundational idea before everyone else does? • How do you choose a research problem worth spending 5 years on? • What can coding teach us about building better reasoning models? • What might recursive self-improvement (RSI) actually look like? • What happens when the scientific discovery loop itself becomes increasingly automated? (and how is Jeff’s new startup going to contribute in this space?) • As AI becomes increasingly autonomous, how do we keep it safe and secure? • What should the next generation of researchers be working on? Here are some key insights and highlights for anyone building the future of AI. 🧵1/8 — http://shitter.thepixora.com/dawnsongtweets/status/2102050223056990535#m",
+      "link": "http://shitter.thepixora.com/JeffDean/status/2102106573258797211#m",
+      "published": "Mon, 21 Sep 2026 18:43:56 GMT",
+      "author_name": "Jeff Dean",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "markchen90",
-      "text": "Not to forget our friends across the pond.... Next week we'll host a second smaller get-together to celebrate GPT-6 in London! Our team there delivered core contributions to Astra, and we'd love to celebrate with you :) events.openai.com/gpt-6-lond… (click my link not Sam's) Link hero-only events.openai.com Sam Altman (@sama) We want to celebrate with people using GPT-6. We did this for GPT-5.5 and it was really fun. We’re getting together in SF on September 16 to talk about the model, what we should build next, and mostly just to hang out. Apply by Sep 10: gpt6-launch-event.openai.cha… Link GPT-6 Community Night Request an invitation to GPT-6 Community Night in San Francisco on September 16, 2026. An evening under the stars with OpenAI. gpt6-launch-event.openai.chatgpt.site — http://shitter.thepixora.com/sama/status/2097404861642137851#m",
-      "link": "http://shitter.thepixora.com/_aidan_clark_/status/2099740924628906010#m",
-      "published": "Tue, 15 Sep 2026 06:03:42 GMT",
-      "author_name": "Mark Chen",
+      "handle": "JeffDean",
+      "text": "Today, G5 Labs is emerging from stealth with $14 million in seed funding to build a new abstraction layer for AI-native software development. @pillar_vc and @BatteryVentures co-led the round, with participation from @omegavp , Encoded Ventures, and prominent angel investors including @JeffDean . G5 Labs is pioneering the post-developer era. A spinout from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), the G5 Labs platform makes natural-language intent, organized as an ontology, the source code itself—putting software development in the hands of the whole organization while providing the governance needed to keep requirements, implementation, and organizational policies aligned. We’re excited to build a future where employees across departments, from product owners to analysts and compliance leads, can create and evolve software using the language they already speak. Read our full announcement: g5labs.ai/press Read more in VentureBeat: lnkd.in/gh4H5_zF Link G5 Labs — Programming is dead. Engineering is thriving. Natural language is the new source code. G5 is the semantic abstraction layer that makes AI-native software development compilable, mergeable, and governable for enterprises. g5labs.ai",
+      "link": "http://shitter.thepixora.com/tim_kraska/status/2100009061978644782#m",
+      "published": "Tue, 15 Sep 2026 23:49:11 GMT",
+      "author_name": "Jeff Dean",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "markchen90",
-      "text": "The AMS’s statement is short and sweet: ams.org/news?news_id=7686 \"The news today of progress on resolving the Navier–Stokes problem, one of mathematics' great longstanding challenges concerning the equations that govern the flow of fluids, represents a milestone advance in human knowledge. This story began with Navier, Stokes, Leray, and Ladyzhenskaya and has culminated in the recent breakthroughs of Córdoba and Martínez-Zoroa, then — assisted by new technologies — Alpöge and Buckmaster, with the final steps taken by OpenAI mathematicians. The purpose of mathematics is human understanding, and this achievement, and the process that led to it, will bear fruit for a long time to come.\" Ravi Vakil, President of the AMS John Meier, CEO of the AMS",
-      "link": "http://shitter.thepixora.com/AlexKontorovich/status/2097384320469970966#m",
-      "published": "Tue, 08 Sep 2026 17:59:24 GMT",
-      "author_name": "Mark Chen",
+      "handle": "JeffDean",
+      "text": "Exciting results, @LiamFedus ! Congrats to the whole team at Periodic Labs! Liam Fedus (@LiamFedus) We built high-throughput materials labs in Menlo Park to create a loop between experiments and models. The labs generate fresh data, the models learn from it, and then help us decide what to try next. Using only 1,300 H200s, plus months of our experimental data, we mid-trained and RL’d an open-source model to surpass GPT-6 Astra on our analysis benchmark. We call it Neon. This is real footage from our lab. We’re focusing first on hard problems in materials science, including superconductors, magnets, and semiconductor materials. Read our blog posts below. Video — http://shitter.thepixora.com/LiamFedus/status/2099896055030501702#m",
+      "link": "http://shitter.thepixora.com/JeffDean/status/2099998119392161960#m",
+      "published": "Tue, 15 Sep 2026 23:05:42 GMT",
+      "author_name": "Jeff Dean",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "markchen90",
-      "text": "Two things to distinguish: Did any human or agent look at user data as part of the Navier Stokes effort? No. Do we use user feedback and de-identified data to improve ChatGPT and Codex in a holistic way? Yes. And so does every LLM company. levent (@__alpoge__) “we cannot rule out that de-identified data derived from their usage of our products helped improve our models.” i mean props to them for straight coming clean. (so far the proof looks more along the lines of another euler blowup proof we had, off of whose ansatz naming we were making really stupid puns like “smooth criminale”, unlike the much better “ideal fluids explode”, Tristan) so i’ll now give a bit on my thinking here. i actually woulda been pumped to collaborate on this, there are a lot of people at oai i like (ok, clearly some were indirectly dicks to me because of being part of the whole situation, but im a big boy, i still like them), idgaf about authorship on that step anyway, coulda been me Tristan and every fte at oai for all i care (on that Tristan would disagree:p). but on hearing the loud convo in the hallway, especially the part where a millennium prize was offered if i’d just be removed from the paper, it was kinda clear the die had been cast and things were locked. pretty wacky, unstrategic, and unnecessary, since on my side things were mostly me and claude having a good time yoloing random stuff in the corner rather than anything institutional. i also like the idea of the labs cooperating, and even better on scientific progress. it’s a shame! — http://shitter.thepixora.com/__alpoge__/status/2097383870773748190#m",
-      "link": "http://shitter.thepixora.com/markchen90/status/2097400166554993041#m",
-      "published": "Tue, 08 Sep 2026 19:02:22 GMT",
-      "author_name": "Mark Chen",
+      "handle": "JeffDean",
+      "text": "Introducing OM-1, our first robot foundation model, zero-shot generalizing to any robot: table-top arms, industrial arms and humanoids. - learned directly from human manipulation data - no teleop/robot data - close to human-level dexterity and efficiency - multi-robot collab Video",
+      "link": "http://shitter.thepixora.com/RewardAI_/status/2099553899804053992#m",
+      "published": "Mon, 14 Sep 2026 17:40:32 GMT",
+      "author_name": "Jeff Dean",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "markchen90",
-      "text": "We solved Navier-Stokes! Many of my colleagues left their fields because they believed that working on AI would be the fastest way to solve their fields' grand challenges. It's surreal to see the first of those challenges fall and to watch a future we believed in become real. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
-      "link": "http://shitter.thepixora.com/markchen90/status/2097377602638053616#m",
-      "published": "Tue, 08 Sep 2026 17:32:42 GMT",
-      "author_name": "Mark Chen",
+      "handle": "JeffDean",
+      "text": "Excited to partner with @DiscoLoopAI ! They are actively hiring across engineering & research - please reach out if the mission sounds interesting to you. Discovery Loop (@DiscoLoopAI) Introducing Discovery Loop ♾. We’re building AI to run experiments at unprecedented scale and to solve the biggest bottlenecks in science and engineering. Our founders @JeffDean , @Sanjay_Ghemawat , @quocleix , @OriolVinyalsML helped build the AI infrastructure and models that scaled the modern world. Now, we are scaling discovery itself. The future can't wait. Learn more at: discoveryloop.com — http://shitter.thepixora.com/DiscoLoopAI/status/2085033268001587534#m",
+      "link": "http://shitter.thepixora.com/LM_Braswell/status/2097720148451012848#m",
+      "published": "Wed, 09 Sep 2026 16:13:51 GMT",
+      "author_name": "Jeff Dean",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Hyderabad Builders, Come build with Gemini! We’re hosting a hackathon with @gdg_hyd on Sept 26. Details and registration: gdg.community.dev/e/mrcchy/",
-      "link": "http://nitter.jaydenha.uk/chauhan_nilay16/status/2100996203051938192#m",
-      "published": "Fri, 18 Sep 2026 17:11:44 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
+      "handle": "fchollet",
+      "text": "The tweet below got enormous pushback at the time I posted it, more than 5 years ago. But this prediction is looking obvious by the day now. François Chollet (@fchollet) Within 10-20 years, nearly every branch of science will be, for all intents and purposes, a branch of computer science. Computational physics, comp chemistry, comp biology, comp medicine... Even comp archeology. Realistic simulations, big data analysis, and ML everywhere — http://nitter.jaydenha.uk/fchollet/status/1389337090278658052#m",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2102444225443029100#m",
+      "published": "Tue, 22 Sep 2026 17:05:39 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "if you tried hyperframes, you would know the agentic video stack is being built on code-gen but SWE-bench code v.s. code-to-video that feels alive are two different things we built the Code2Video Bench, in collab w/ Google DeepMind & @Kaggle frontier labs can finally get good at agentic video tasks Video",
-      "link": "http://nitter.jaydenha.uk/HyperFrames_/status/2102084939026247684#m",
-      "published": "Mon, 21 Sep 2026 17:17:58 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
+      "handle": "fchollet",
+      "text": "Delegate coding. Never delegate understanding. If code was previously your source of truth for managing understanding, then you need a new source of truth artifact. If code-centric workflows were how you developed that understanding, then you need new workflows. voxium (@v0xium) I am done with this shit. It is over. The state of engineering right now is horrible. It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Humans in corporate are doing nothing on their own. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. There is no sense of victory. Nobody is resolving bugs. In reality, nobody is thinking anymore. Everything is done by LLMs. It is so soul-sucking. I would not mind it, to be honest, if we were at least given the time to check out the code and see what is going where. But no, the goal is to just ship. No matter what happens. — http://nitter.jaydenha.uk/v0xium/status/2101526107128529120#m",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2102166631439053014#m",
+      "published": "Mon, 21 Sep 2026 22:42:35 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Going to Argentina and Uruguay this and next week 🥟 Last time visiting Uruguay was during Khipu 2023, so I'm looking forward to going back and taking some time to disconnect!",
-      "link": "http://nitter.jaydenha.uk/osanseviero/status/2102035042444738588#m",
-      "published": "Mon, 21 Sep 2026 13:59:42 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
+      "handle": "fchollet",
+      "text": "I am still convinced there will be more software engineers in 5 years than there are today. And none of them will read or write code.",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2102166827107500114#m",
+      "published": "Mon, 21 Sep 2026 22:43:22 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Article Managed Agents in the Gemini API: an updated agent harness, a Files API, and managed credentials Gemini managed agents are getting an updated harness. antigravity-preview-09-2026 brings the agent's tools and behavior closer to what you get in the Antigravity Coding Agent, it's live today in the",
-      "link": "http://nitter.jaydenha.uk/GoogleAIStudio/status/2100635173188432193#m",
-      "published": "Thu, 17 Sep 2026 17:17:07 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
+      "handle": "fchollet",
+      "text": "Summer 2026 has been a crazy time in AI... ARC Prize (@arcprize) ARC Prize 2026 - ARC-AGI-3 Progress Prize - 9 day left $37,500 in prizes are being awarded on *Sept 30th* to the top open source solutions Current standings: 1. Tufa Labs 2. Lord Han Solo 3. NVARC3 Which top 3 will claim the open source prize? — http://nitter.jaydenha.uk/arcprize/status/2102154973039702269#m",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/2102160603301425190#m",
+      "published": "Mon, 21 Sep 2026 22:18:38 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Join @GoogleDeepMind for an immersive Gemini Audio experience in SF next week! A mix of creative Audio-Visual art and real-time conversations with Gemini and the folks behind the models! 📍 The Pearl, San Francisco 🗓️ Thursday, Sept 24 | 6–10 PM",
-      "link": "http://nitter.jaydenha.uk/thorwebdev/status/2099486872028225602#m",
-      "published": "Mon, 14 Sep 2026 13:14:11 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
+      "handle": "fchollet",
+      "text": "ARC Prize 2026 - ARC-AGI-3 Progress Prize - 9 day left $37,500 in prizes are being awarded on *Sept 30th* to the top open source solutions Current standings: 1. Tufa Labs 2. Lord Han Solo 3. NVARC3 Which top 3 will claim the open source prize?",
+      "link": "http://nitter.jaydenha.uk/arcprize/status/2102154973039702269#m",
+      "published": "Mon, 21 Sep 2026 21:56:16 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
@@ -273,93 +228,48 @@
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "i'm using semif (like jev, but open source) to label new issues that come into our open source repos so we have a pulse on popular features and areas where we need to spend more time current request model: * state -- issue title/body * questions -- one noul per label, we apply ones w/ p>0.8 much faster than our previous LLM classifier thus far, currently monitoring to make sure we're calibrated at the right threshold Jacob Lee (@Hacubu) 🆓 Free Open-Source Jev 🤝 LangSmith Gateway Decision models are becoming a first-class part of the LangSmith Gateway! We're serving SemIf, an open-source decision model, free for the next week. Compatible with the TypeSafe SDK - just change a string to try it! Docs in 🧵 Video — http://nitter.jaydenha.uk/Hacubu/status/2102064714851455363#m",
-      "link": "http://nitter.jaydenha.uk/sydneyrunkle/status/2102519191157068024#m",
-      "published": "Tue, 22 Sep 2026 22:03:32 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "amasad",
+      "text": "Your RevOps tools don't need to wait on engineering anymore. We're launching a new series: RevOps on Replit. Real tools RevOps teams run, and a live build on a real revenue problem. Quoc Tran leads RevOps at Replit and also builds his team's internal tools on Replit. Thursday, 9AM PT. Live on YouTube, LinkedIn and X. RSVP: luma.com/yavw3vfg Stream: shitter.thepixora.com/i/broadcasts/1nKOLQARk… Link RevOps on Replit with Quoc Tran · Luma RevOps on Replit is a new series with Quoc Tran, who leads RevOps at Replit, on how RevOps, Sales Ops, and Marketing Ops teams are building their own… luma.com",
+      "link": "http://shitter.thepixora.com/Replit/status/2102459288040218981#m",
+      "published": "Tue, 22 Sep 2026 18:05:30 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "i was informed of this new product update on a live LangChain <> Jev webinar with 500 people. the speed at which the team operates is unreal. 📈 Harrison Chase (@hwchase17) 🖼️ Improved UI for Jev models in LangSmith agents are going to complex systems of many llms calls many llm calls will be jev-like (decision models) we've updated tracing view in LangSmith to display these types of calls (state, questions, choices, output) more clearly! — http://nitter.jaydenha.uk/hwchase17/status/2102470464735949263#m",
-      "link": "http://nitter.jaydenha.uk/KevinBFrank/status/2102501781112791549#m",
-      "published": "Tue, 22 Sep 2026 20:54:21 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "amasad",
+      "text": "Your intelligence is fake. It’s artificial. Mine? It’s super. Super Intelligence. Aka SI. Aaron Rupar (@atrupar) Trump tells the UN he is officially changing the name of Artificial Intelligence to \"Super Intelligence\" and says all US government documents will now be changed to refer to \"SI\" Video — http://shitter.thepixora.com/atrupar/status/2102413962729968116#m",
+      "link": "http://shitter.thepixora.com/amasad/status/2102489320766800002#m",
+      "published": "Tue, 22 Sep 2026 20:04:51 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "jev might be a new type of model, but one thing that doesn't change is the need for observability you still need to answer questions like \"what decisions is jev making\" and \"are those decisions good for my use case\"? langsmith helps you with that, this new UI is very clean! Harrison Chase (@hwchase17) 🖼️ Improved UI for Jev models in LangSmith agents are going to complex systems of many llms calls many llm calls will be jev-like (decision models) we've updated tracing view in LangSmith to display these types of calls (state, questions, choices, output) more clearly! — http://nitter.jaydenha.uk/hwchase17/status/2102470464735949263#m",
-      "link": "http://nitter.jaydenha.uk/sydneyrunkle/status/2102472924267749499#m",
-      "published": "Tue, 22 Sep 2026 18:59:41 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "amasad",
+      "text": "Jon Cheney built GenAIPI for $400 on Replit. In 5 days, he made $15k with his first customer. In 6 weeks, he made $180k. GenAIPI was worth $20M 18 months later. Jon had the vision. Replit made it possible. Video",
+      "link": "http://shitter.thepixora.com/Replit/status/2102065557784723766#m",
+      "published": "Mon, 21 Sep 2026 16:00:58 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "Jev response shapes supported natively in LangSmith now! Jev produces super simple outputs, but that doesn't mean it needs less observability Harrison Chase (@hwchase17) 🖼️ Improved UI for Jev models in LangSmith agents are going to complex systems of many llms calls many llm calls will be jev-like (decision models) we've updated tracing view in LangSmith to display these types of calls (state, questions, choices, output) more clearly! — http://nitter.jaydenha.uk/hwchase17/status/2102470464735949263#m",
-      "link": "http://nitter.jaydenha.uk/BraceSproul/status/2102479050463936765#m",
-      "published": "Tue, 22 Sep 2026 19:24:02 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "amasad",
+      "text": "🚀 Coming to Supabase Select 2026: @amasad , CEO of @Replit , will join the Main Stage on October 2. T-minus 10 days, y'all. See. you. there. select.supabase.com Video",
+      "link": "http://shitter.thepixora.com/supabase/status/2102382726628151581#m",
+      "published": "Tue, 22 Sep 2026 13:01:17 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "Had a really fun time shipping this out ASAP with the team! The opportunities with Jev are going to skyrocket in the future and looking forward to it Harrison Chase (@hwchase17) 🖼️ Improved UI for Jev models in LangSmith agents are going to complex systems of many llms calls many llm calls will be jev-like (decision models) we've updated tracing view in LangSmith to display these types of calls (state, questions, choices, output) more clearly! — http://nitter.jaydenha.uk/hwchase17/status/2102470464735949263#m",
-      "link": "http://nitter.jaydenha.uk/machyutaa/status/2102479899504054491#m",
-      "published": "Tue, 22 Sep 2026 19:27:24 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "amasad",
+      "text": "Introducing The Horowitz Andreessen Academy. Video",
+      "link": "http://shitter.thepixora.com/eriktorenberg/status/2102399288307540422#m",
+      "published": "Tue, 22 Sep 2026 14:07:05 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "Merci d'avoir participé à mon expérience de cartographie des trolls",
-      "link": "http://nitter.jaydenha.uk/arthurmensch/status/2102330330753769516#m",
-      "published": "Tue, 22 Sep 2026 09:33:04 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Link TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
-      "link": "http://nitter.jaydenha.uk/PPouyanne/status/2099764007028621436#m",
-      "published": "Tue, 15 Sep 2026 07:35:25 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "We’re a continent of strategists Lazarz (@Laz4rz) no way it's yet another webpage: transformative-ai.eu fits right next to accelerate-europe.org/ aichampions.eu/ euro-stack.eu/ openeurollm.eu/ digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… Link A Transformative AI Strategy for Europe transformative-ai.eu — http://nitter.jaydenha.uk/Laz4rz/status/2099501703271788875#m",
-      "link": "http://nitter.jaydenha.uk/arthurmensch/status/2099579960155390063#m",
-      "published": "Mon, 14 Sep 2026 19:24:05 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "Don’t pace building and owning your own AI models and systems as an enterprise, and there will be no doomsday for you",
-      "link": "http://nitter.jaydenha.uk/arthurmensch/status/2099525678097948945#m",
-      "published": "Mon, 14 Sep 2026 15:48:23 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "Bravo to Mistral! So great to see them killing it, they are an inspiration to everyone as we need more sovereign & open-source AI everywhere around the world. Excited to keep supporting them on huggingface.co/mistralai ! Link mistralai (Mistral AI_) Org profile for Mistral AI_ on Hugging Face, the AI community building the future. huggingface.co Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-      "link": "http://nitter.jaydenha.uk/ClementDelangue/status/2097324015819825202#m",
-      "published": "Tue, 08 Sep 2026 13:59:46 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
       "source_lang": "en"
     },
     {
@@ -417,25 +327,27 @@
     "miramurati",
     "ylecun",
     "demishassabis",
-    "JeffDean",
-    "fchollet",
     "AndrewYNg",
+    "rasbt",
     "bcherny",
     "karinanguyen_",
     "polynoamial",
+    "markchen90",
     "aidan_mclau",
     "officiallogank",
+    "osanseviero",
     "AnthropicAI",
     "OpenAI",
     "xai",
     "simonw",
     "swyx",
+    "hwchase17",
     "jeremyphoward",
     "levelsio",
     "mckaywrigley",
-    "amasad",
     "nickadobos",
     "emollick",
+    "ArthurMensch",
     "Thom_Wolf",
     "julien_c",
     "ClemDelangue",
@@ -443,409 +355,314 @@
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Cette semaine dans le monde de l'IA, on observe une forte poussée vers la création de modèles plus performants et polyvalents, capables de comprendre et de générer non seulement du texte, mais aussi des images et des vidéos. La sécurité et l'éthique de l'IA sont également au centre des préoccupations, avec des rapports détaillés sur les tentatives de mésusage. Enfin, plusieurs annonces marquent des avancées significatives dans la recherche fondamentale et le développement d'applications concrètes, notamment dans le domaine de la robotique et de la génomique.",
+    "summary": "Cette semaine dans l'IA, plusieurs annonces majeures ont marqué le paysage : Mistral AI lève 3 milliards d'euros pour accélérer sa recherche, tandis que Google DeepMind continue de repousser les limites en biologie avec AlphaGenome Atlas. Elon Musk présente une vision futuriste où les robots personnels pourraient transformer la société et l'économie, remettant en question la notion même de travail et d'argent. Parallèlement, des réflexions profondes émergent sur l'évolution du métier d'ingénieur logiciel et la manière dont l'IA pourrait redéfinir la création de code et la compréhension.",
     "glossaire": [
       {
-        "terme": "Modèle multimodal",
-        "definition": "Un modèle d'IA capable de comprendre et de traiter différents types d'informations, comme du texte, des images ou de la vidéo."
+        "terme": "Multimodal",
+        "definition": "Capacité d'un modèle d'IA à comprendre et traiter plusieurs types d'informations (texte, image, son, vidéo...) simultanément."
       },
       {
-        "terme": "Open-weight",
-        "definition": "Un modèle d'IA dont le code et les poids (les paramètres appris pendant l'entraînement) sont rendus publics, permettant à d'autres de l'utiliser et de le modifier."
+        "terme": "Modèle de monde",
+        "definition": "Système d'IA qui cherche à comprendre et représenter le fonctionnement du monde réel pour pouvoir le simuler et anticiper des événements."
       },
       {
-        "terme": "Navier-Stokes",
-        "definition": "Un ensemble d'équations mathématiques qui décrivent le mouvement des fluides, dont la résolution complète était un problème scientifique majeur."
+        "terme": "Tokens",
+        "definition": "Petites unités de texte (mots, sous-mots) que les modèles de langage traitent pour comprendre et générer du langage."
       },
       {
-        "terme": "AGI",
-        "definition": "Intelligence Artificielle Générale, un type d'IA hypothétique qui aurait des capacités cognitives humaines."
+        "terme": "AGI (Intelligence Artificielle Générale)",
+        "definition": "Intelligence artificielle capable de comprendre, apprendre et appliquer ses connaissances à une vaste gamme de tâches, au niveau d'un être humain, voire au-delà."
       },
       {
-        "terme": "Optimiseur (AdamW, Muon)",
-        "definition": "Algorithme utilisé pendant l'entraînement d'un modèle d'IA pour ajuster ses paramètres afin d'améliorer ses performances."
+        "terme": "Fondation model",
+        "definition": "Modèle d'IA très large et généraliste, entraîné sur une quantité massive de données, qui peut ensuite être adapté pour des tâches plus spécifiques."
       },
       {
-        "terme": "Réglementation de contenu (Content Safety)",
-        "definition": "Systèmes d'IA conçus pour identifier et bloquer les contenus inappropriés ou dangereux."
+        "terme": "Open-weights",
+        "definition": "Modèle d'IA dont les paramètres (le 'cerveau' du modèle) sont rendus publics, permettant à d'autres de l'étudier, de le modifier ou de l'utiliser."
       }
     ],
     "category_summaries": {
-      "actu": "Les grandes entreprises comme OpenAI, Google DeepMind et Mistral AI continuent d'annoncer des avancées majeures, que ce soit la résolution d'un problème mathématique complexe (Navier-Stokes), le lancement de nouveaux modèles conversationnels comme Gemini 3.8 ou l'obtention de financements record pour Mistral. L'accent est mis sur l'amélioration des capacités des modèles et leur déploiement dans divers domaines, y compris la santé avec AlphaGenome Atlas.",
-      "tips": "Andrej Karpathy partage des astuces précieuses pour interagir avec les IA génératives, notamment en utilisant des 'sessions de monologue' pour guider le modèle, ou en exploitant les capacités multimodales pour générer des scènes interactives. Il met également en garde contre les limites actuelles des LLM dans la perception vidéo et le jeu.",
-      "idees": "Elon Musk continue sa vision d'un futur où les robots personnels et l'IA pourraient transformer radicalement la société, allant jusqu'à suggérer que l'argent pourrait perdre de son importance. Parallèlement, des discussions portent sur la sécurité de l'IA, les risques de mésusage et l'importance de construire des systèmes d'IA souverains et ouverts.",
-      "outils": "De nombreux nouveaux modèles et outils sont présentés : Atlas, un modèle capable de générer des images et vidéos avec un contrôle précis de la caméra; MiMo-V2.6-Pro, un modèle performant et abordable; Jev et SemIf, des modèles de décision pour des agents intelligents; Shieldstral pour la modération de contenu; et Robostral Navigate pour la robotique."
+      "actu": "Mistral AI confirme sa position de leader européen en levant 3 milliards d'euros pour la recherche. Google DeepMind continue ses avancées en biologie avec AlphaGenome Atlas, et annonce le DeepMind Institute pour étudier l'impact de l'AGI. Elon Musk partage une vision audacieuse de l'avenir avec des robots personnels omniprésents, suggérant une transformation sociétale majeure.",
+      "tips": "Andrej Karpathy partage une méthode pour interagir plus efficacement avec les grands modèles de langage en utilisant la dictée vocale pour des sessions de 'raisonnement prolongé'. Il souligne l'importance de bien 'guider' l'IA pour obtenir des résultats personnalisés, comme la génération d'environnements 3D interactifs.",
+      "idees": "La discussion porte sur l'évolution du développement logiciel : certains prédisent une diminution de la nécessité d'écrire du code, tandis que d'autres explorent de nouvelles manières de créer des applications grâce à l'IA, potentiellement sans compétences techniques préalables. La question de la compréhension versus la génération de code est centrale.",
+      "outils": "De nouveaux modèles sont annoncés : Atlas pour la modélisation 3D d'images et vidéos, OM-1 pour la robotique généraliste, et Shieldstral pour la sécurité de contenu. Des démonstrations comme celle de Mistral OCR 4 montrant la conversion d'écritures manuscrites en code structuré illustrent les capacités émergentes."
     },
     "highlights": [
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Opus est allé pendant ~2 heures et a écrit 5500 lignes de code qui ont (procéduralement) rendu l'histoire du Seigneur des Anneaux. C'est un peu bancal mais amusant. Mais c'est un peu ahurissant que le LLM doive placer et orchestrer divers objets polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et qu'il fasse même quelque chose.\n\nJe suis également intéressé par ce genre d'exemple car personne de sensé n'y passerait jamais le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où nous passons de 'personne ne ferait jamais ça' à 'bien sûr, pourquoi pas, c'est ~gratuit'. Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels vous pouvez imaginer y faire glisser des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère à la demande.",
-        "text_original": "Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.",
-        "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
-        "decryptage": "Les grands modèles de langage (LLM) peuvent désormais créer des mondes virtuels interactifs en générant du code complexe, rendant la création de jeux ou de simulations bien plus accessible.",
-        "category": "idees",
-        "highlight_reason": "Cet exemple fascinant montre comment les IA peuvent aller au-delà du simple texte pour créer des environnements 3D interactifs complexes, ouvrant des perspectives incroyables pour les jeux et les simulations."
-      },
-      {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Nous publions notre rapport le plus détaillé à ce jour sur la veille des menaces. Il couvre comment les gens ont essayé d'utiliser Claude de manière abusive – pour des cyberattaques, des opérations d'influence, la surveillance, la biologie et la fabrication d'armes – et comment nous les avons trouvés et arrêtés. Nous avons perturbé toutes les opérations mentionnées dans le rapport et utilisé les leçons tirées pour renforcer nos mesures de sécurité. Le cas échéant, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en évidence certains des usages abusifs les plus sophistiqués que nous ayons rencontrés. Mais ils sont particulièrement importants à discuter, car ils nous montrent où en est l'utilisation abusive de l'IA, où nos mesures de sécurité fonctionnent et où elles doivent être améliorées. Nous publions ce rapport afin que d'autres puissent repérer la même activité sur leurs propres plateformes, et afin que nous puissions donner au public une vision plus claire de l'évolution des menaces émergentes. Lisez le rapport : anthropic.com/threat-intelligence Lutter contre l'utilisation abusive de l'IA : Septembre 2026 / Anthropic Études de cas d'acteurs malveillants perturbés entre décembre 2025 et août 2026 dans sept domaines de préjudice, des cyberopérations à l'utilisation abusive de la biologie.",
-        "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelligence Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
-        "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2098097512544444447#m",
-        "decryptage": "Ce rapport d'Anthropic détaille comment des individus ont tenté d'utiliser leur IA (Claude) à des fins malveillantes (cyberattaques, armes...) et comment l'entreprise a réussi à les contrer, tout en renforçant sa sécurité.",
+        "author_name": "Mistral AI",
+        "handle": "MistralAI",
+        "text_fr": "Nous avons levé 3 milliards d'euros pour accélérer notre R&D. Nous augmentons nos capacités de calcul d'entraînement et d'inférence pour construire les futures générations de nos modèles, et nous étendons notre équipe scientifique dans tous nos bureaux -- Paris, Palo Alto, SF, Londres, Zurich et Varsovie. Rejoignez-nous !",
+        "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
+        "link": "http://nitter.jaydenha.uk/GuillaumeLample/status/2097256830091014515#m",
+        "decryptage": "Mistral AI, une entreprise française spécialisée dans l'intelligence artificielle, a réussi à collecter une somme d'argent très importante (3 milliards d'euros) pour financer ses recherches et le développement de ses futurs modèles d'IA.",
         "category": "actu",
-        "highlight_reason": "Très important pour comprendre les risques réels de l'IA. Ce rapport d'Anthropic montre que la vigilance et les contre-mesures sont essentielles face aux tentatives de mésusage."
+        "highlight_reason": "C'est une annonce financière majeure qui confirme la montée en puissance des acteurs européens dans le domaine de l'IA."
       },
       {
         "author_name": "Elon Musk",
-        "handle": "@elonmusk",
-        "text_fr": "BREAKING : Elon Musk sur Optimus, et un futur où l'argent pourrait ne plus avoir d'importance dans sa nouvelle interview avec CCTV : « Si vous pensez comme dans Star Wars, où vous aviez C-3PO et R2-D2, et qu'ils étaient des robots amicaux et serviables. Eh bien, ne serait-il pas formidable que chacun puisse avoir son propre C-3PO R2-D2 personnel ? Mais même mieux que ça, plus productif. Qui pourrait s'occuper de parents âgés, servir de tuteur et surveiller les enfants. Ou être un enseignant, comme un tuteur individualisé pour votre enfant. Et s'occuper de tous les emplois auxquels vous pouvez penser. Je pense que tout le monde aimerait avoir un futur où ils peuvent avoir leurs propres robots personnels. Et ensuite, je pense que vous verrez de nombreuses entreprises où une personne travaille avec des centaines, voire des milliers de robots. Comme des robots physiques ainsi que des robots numériques. La productivité d'une personne sera donc considérablement amplifiée. Et ma prédiction est qu'il y aura effectivement un revenu universel élevé. En fait, il n'est pas clair pour moi que l'argent ait encore de l'importance à l'avenir. »",
-        "text_original": "BREAKING: Elon Musk on Optimus, and a future where money may not matter in his new interview with CCTV: “If you think like Star Wars, where you had C-3PO and R2-D2, and they were friendly, helpful robots. Well, wouldn't it be great if everyone could have their own personal C-3PO R2-D2? But even better than that, like more productive. That could take care of elderly parents, guardian and watch over the children. Or be a teacher, like an individualized tutor to your child. And taking care of any jobs that you can think of. I think everyone would like to have a future where they can have their own personal robots. And then I think you'll see many companies where it's one person with hundreds, maybe thousands of robots. Like physical robots as well as digital robots. So the productivity of one person will be greatly amplified. And my prediction is that there will be effectively universal high income. In fact, it's not clear to me that money will even matter in the future.”",
+        "handle": "elonmusk",
+        "text_fr": "BREAKING: Elon Musk sur Optimus, et un avenir où l'argent pourrait ne plus avoir d'importance dans sa nouvelle interview avec CCTV : « Si vous pensez à Star Wars, où il y avait C-3PO et R2-D2, et qu'ils étaient des robots amicaux et serviables. Eh bien, ne serait-il pas formidable que chacun puisse avoir son propre C-3PO R2-D2 personnel ? Mais encore mieux que ça, comme plus productif. Cela pourrait prendre soin des parents âgés, assurer la garde et veiller sur les enfants. Ou être un professeur, comme un tuteur individualisé pour votre enfant. Et s'occuper de tous les travaux imaginables. Je pense que tout le monde aimerait avoir un avenir où ils peuvent avoir leurs propres robots personnels. Et alors, je pense que vous verrez de nombreuses entreprises où une personne travaille avec des centaines, voire des milliers de robots. Comme des robots physiques ainsi que des robots numériques. Ainsi, la productivité d'une personne sera grandement amplifiée. Et ma prédiction est qu'il y aura effectivement un revenu universel élevé. En fait, je ne suis pas sûr que l'argent ait encore d'importance à l'avenir. »",
+        "text_original": "BREAKING: Elon Musk on Optimus, and a future where money may not matter in his new interview with CCTV: “If you think like Star Wars, where you had C-3PO and R2-D2, and they were friendly, helpful robots. Well, wouldn't it be great if everyone could have their own personal C-3PO R2-D2? But even better than that, like more productive. That could take care of elderly parents, guardian and watch over the children. Or be a teacher, like an individualized tutor to your child. And taking care of any jobs that you can think of. I think everyone would like to have a future where they can have their own personal robots. And then I think you'll see many companies where it's one person with hundreds, maybe thousands of robots. Like physical robots as well as digital robots. So the productivity of one person will be greatly amplified. And my prediction is that there will be effectively universal high income. In fact, it's not clear to me that money will even matter in the future.” Video",
         "link": "http://nitter.meowing.monster/cb_doge/status/2102612043232895446#m",
-        "decryptage": "Elon Musk envisage un futur où des robots très avancés (comme Optimus) réaliseraient la plupart des tâches, menant à une abondance économique telle que l'argent n'aurait peut-être plus la même importance.",
+        "decryptage": "Optimus est le nom du robot humanoïde développé par Tesla. Elon Musk imagine un futur où ces robots, à l'instar des droïdes de Star Wars, pourraient assister les humains dans de nombreuses tâches, potentiellement jusqu'à rendre le travail et l'argent moins importants.",
         "category": "idees",
-        "highlight_reason": "Vision futuriste audacieuse d'Elon Musk sur l'impact des robots et de l'IA sur la société et l'économie, soulevant des questions fondamentales sur notre avenir."
+        "highlight_reason": "La vision d'Elon Musk sur l'impact potentiel des robots sur le travail et l'économie est une réflexion prospective majeure pour l'avenir de l'IA."
       },
       {
-        "author_name": "Google DeepMind",
-        "handle": "@GoogleDeepMind",
-        "text_fr": "Nous introduisons Gemini 3.8 Live et 3.8 Live Extended Thinking – notre meilleure IA conversationnelle. Les modèles parlent, réfléchissent et gèrent les tâches en arrière-plan sans interrompre votre flux. 🧵",
-        "text_original": "We’re introducing Gemini 3.8 Live and 3.8 Live Extended Thinking – our best conversational AI. The models talk, think, and handle tasks in the background without breaking your flow. 🧵",
-        "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099907440422830269#m",
-        "decryptage": "Gemini 3.8 Live est une nouvelle version de l'IA conversationnelle de Google qui peut continuer à travailler et réfléchir en arrière-plan pendant que vous interagissez avec elle, rendant l'expérience plus fluide.",
-        "category": "actu",
-        "highlight_reason": "Annonce d'une nouvelle version de Gemini, l'IA conversationnelle de Google, qui promet une interaction plus fluide et réactive grâce à des capacités de pensée en arrière-plan."
+        "author_name": "Andrej Karpathy",
+        "handle": "karpathy",
+        "text_fr": "Nous commençons à quitter le territoire où l'on testerait un LLM par ex. « crée un svg de pélican à vélo ». Comme idée pour le généraliser, j'ai été intéressé par ce que Opus 5 ferait si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1M de tokens (~10$) et lui demandais une render js de celui-ci. Opus a travaillé pendant ~2 heures et a écrit 5500 lignes de code qui ont rendu (procéduralement) l'histoire. C'est un peu bancal mais amusant. Mais il est un peu ahurissant que le LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout cela, et même que cela fonctionne. J'aime aussi ce genre d'exemples car personne de sensé ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où nous passons de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est ~gratuit ». Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels vous pouvez imaginer faire tomber des joueurs, par exemple ici pour participer à l'histoire du LoTR en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère à la demande. La dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas auditer facilement leur travail car ils ne sont pas capables de percevoir nativement et efficacement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre des captures d'écran très lentement et méticuleusement à différents points, et il s'est trompé plusieurs fois et a créé beaucoup de choses bancales. Un exemple de capacité brute (multimodale, gameplay) qui, je pense, est encore très limité. Vidéo",
+        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+        "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+        "decryptage": "LLM (Large Language Model) est un modèle de langage capable de comprendre et générer du texte. Ici, il est utilisé pour créer un environnement 3D interactif à partir d'une description textuelle, illustrant sa capacité à aller bien au-delà de la simple génération de texte.",
+        "category": "outils",
+        "highlight_reason": "Cette démonstration impressionnante montre le potentiel des IA à créer des expériences immersives et personnalisées à partir de simples descriptions, ouvrant la voie à de nouvelles formes de divertissement et d'éducation."
+      },
+      {
+        "author_name": "Andrej Karpathy",
+        "handle": "karpathy",
+        "text_fr": "Une tendance que je trouve utile pour travailler avec les LLM est une longue session de divagation. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime me pencher en arrière, passer en mode /voice et simplement divaguer pendant environ 10 minutes, un total désordre, tout est permis, flux de conscience complet. Parfois, je le déclare au début, quelque chose comme « passage à la reconnaissance vocale désolé pour les fautes de frappe... ». Parfois, j'en fais un petit entretien de quelques tours. Mais je trouve que les LLM sont d'une manière ou d'une autre très bons pour reconstituer de longues divagations incohérentes et souvent leur écho de vos propres pensées emmêlées sort un peu plus clair que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la connexion mentale et que vous devez moins corriger les choses à partir de ce moment-là.",
+        "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+        "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
+        "decryptage": "LLM (Large Language Model) est un modèle de langage avancé. La 'dictée vocale' permet de parler à l'ordinateur qui transcrit les mots, et le 'flux de conscience' signifie exprimer ses pensées sans filtre.",
+        "category": "tips",
+        "highlight_reason": "Cette astuce de Karpathy sur l'utilisation de la dictée vocale pour des 'brainstormings' étendus avec les IA est très pratique pour améliorer la qualité des interactions et obtenir des résultats plus précis."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Nous publions notre rapport le plus détaillé à ce jour sur la veille des menaces. Il couvre comment les gens ont essayé d'utiliser Claude de manière abusive – pour des cyberattaques, des opérations d'influence, la surveillance, la biologie et la fabrication d'armes – et comment nous les avons trouvés et arrêtés. Nous avons perturbé toutes les opérations mentionnées dans le rapport et utilisé les leçons tirées pour renforcer nos mesures de sécurité. Le cas échéant, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en évidence certains des usages abusifs les plus sophistiqués que nous ayons rencontrés. Mais ils sont particulièrement importants à discuter, car ils nous montrent où en est l'utilisation abusive de l'IA, où nos mesures de sécurité fonctionnent et où elles doivent être améliorées. Nous publions ce rapport afin que d'autres puissent repérer la même activité sur leurs propres plateformes, et afin que nous puissions donner au public une vision plus claire de l'évolution des menaces émergentes. Lisez le rapport : anthropic.com/threat-intelligence Lutter contre l'utilisation abusive de l'IA : Septembre 2026 / Anthropic Études de cas d'acteurs malveillants perturbés entre décembre 2025 et août 2026 dans sept domaines de préjudice, des cyberopérations à l'utilisation abusive de la biologie.",
-          "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelligence Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
+          "author_name": "Anthropic",
+          "handle": "AnthropicAI",
+          "text_fr": "Nous publions notre rapport le plus détaillé à ce jour sur l'intelligence des menaces. Il couvre comment les gens ont tenté d'abuser de Claude – pour des cyberattaques, des opérations d'influence, la surveillance, la biologie et la fabrication d'armes – et comment nous les avons trouvés et arrêtés. Nous avons perturbé chaque opération du rapport et utilisé les leçons tirées pour renforcer nos protections. Lorsque cela était approprié, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en lumière certaines des utilisations abusives les plus sophistiquées que nous ayons vues. Mais ils sont particulièrement importants à discuter, car ils nous montrent où évolue l'utilisation abusive de l'IA, où nos protections fonctionnent et où elles doivent s'améliorer. Nous publions ce rapport afin que d'autres puissent repérer la même activité sur leurs propres plateformes, et afin que nous puissions donner au public une vision plus claire de l'évolution des menaces émergentes. Lisez le rapport : anthropic.com/threat-intelligence. Contrer l'utilisation abusive de l'IA : Septembre 2026 / Anthropic Études de cas d'acteurs malveillants perturbés entre décembre 2025 et août 2026 dans sept domaines de préjudice, des opérations cybernétiques à l'utilisation abusive de la biologie.",
+          "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelligence. Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
           "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2098097512544444447#m",
-          "decryptage": "Ce rapport d'Anthropic détaille comment des individus ont tenté d'utiliser leur IA (Claude) à des fins malveillantes (cyberattaques, armes...) et comment l'entreprise a réussi à les contrer, tout en renforçant sa sécurité."
+          "decryptage": "Ce rapport d'Anthropic détaille comment des personnes ont essayé d'utiliser leur IA, Claude, à des fins malveillantes, et comment l'entreprise a réussi à les en empêcher. Il vise à informer sur les risques et l'évolution des menaces liées à l'IA."
         },
         {
           "author_name": "Elon Musk",
-          "handle": "@elonmusk",
-          "text_fr": "Fitch donne à Tesla sa première notation de crédit de qualité d'investissement BBB. Fitch a souligné le leadership de Tesla en matière de véhicules électriques, sa forte rentabilité, ses 43,5 milliards de dollars de trésorerie et d'investissements, et son intégration verticale « inégalée » alors qu'elle se développe dans l'IA, le Robotaxi et Optimus. C'est énorme. 🔥",
+          "handle": "elonmusk",
+          "text_fr": "Le déploiement de Starlink au Japon est plus facile que jamais. Dans certaines régions, le coût initial du « kit Mini de location » pour la maison est de 0 ¥. Il peut être installé rapidement dans la plupart des régions du Japon et offre toujours des performances optimales. De plus, une assistance client en japonais vous accompagnera avant, pendant et après votre utilisation, pour vous rassurer. En savoir plus ici : starlink.com/japan-residential",
+          "text_original": "日本でのStarlinkの導入が、かつてないほど簡単になりました。 一部の地域では、ホーム向けの「レンタルMiniキット」の初期費用が0円になります。日本全国の大半の地域でスピーディに設置でき、いつでも最適なパフォーマンスを発揮します。 また、お申し込みの前後はもちろん、ご利用開始後も日本語のカスタマーサポートがしっかりと対応いたしますので安心です。 詳しくはこちら： starlink.com/japan-residential",
+          "link": "http://nitter.meowing.monster/Starlink/status/2102059961121612277#m",
+          "decryptage": "Starlink est un service d'Internet par satellite proposé par SpaceX, la société d'Elon Musk. Le 'kit Mini de location' est une offre simplifiée pour les particuliers."
+        },
+        {
+          "author_name": "Elon Musk",
+          "handle": "elonmusk",
+          "text_fr": "Fitch donne à Tesla sa première note de crédit d'investissement BBB. Fitch a mis en avant le leadership de Tesla en matière de véhicules électriques, sa forte rentabilité, ses 43,5 milliards de dollars de trésorerie et d'investissements, et son intégration verticale « inégalée » alors qu'elle se développe dans l'IA, les Robotaxis et Optimus. C'est énorme. 🔥",
           "text_original": "Fitch gives Tesla its first-ever BBB investment-grade credit rating. Fitch highlighted Tesla’s EV leadership, strong profitability, $43.5B in cash and investments, and “unmatched” vertical integration as it expands into AI, Robotaxi and Optimus. This is huge. 🔥",
           "link": "http://nitter.meowing.monster/cb_doge/status/2102509086667579638#m",
-          "decryptage": "Fitch Ratings, une agence de notation financière, a accordé à Tesla sa meilleure note (BBB), reconnaissant sa solidité financière et son rôle moteur dans l'innovation, y compris dans l'IA et la robotique."
+          "decryptage": "Fitch est une agence de notation financière. Une note 'investment-grade' (BBB) signifie que l'entreprise est considérée comme un investissement sûr. Tesla est une entreprise automobile connue pour ses voitures électriques, mais elle investit aussi dans d'autres domaines comme l'IA et la robotique."
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "JeffDean",
+          "text_fr": "Merci pour cette excellente discussion, @dawnsongtweets ! Dawn Song (@dawnsongtweets) J'ai eu l'immense honneur et le plaisir de m'asseoir avec @JeffDean pour sa première intervention publique depuis son départ de Google, où il a passé 27 années extraordinaires. Peu de personnes ont façonné l'informatique moderne et l'IA de manière aussi profonde – de MapReduce et Bigtable à TensorFlow, Mixture-of-Experts, TPU et Gemini. Notre conversation a couvert certaines des plus grandes questions qui façonnent l'avenir de l'IA : • Comment reconnaître une idée fondamentale avant tout le monde ? • Comment choisir un problème de recherche qui vaut la peine d'y consacrer 5 ans ? • Qu'est-ce que le codage peut nous apprendre sur la construction de meilleurs modèles de raisonnement ? • À quoi pourrait ressembler l'auto-amélioration récursive (RSI) ? • Que se passe-t-il lorsque la boucle de découverte scientifique elle-même devient de plus en plus automatisée ? (et comment la nouvelle startup de Jeff va-t-elle contribuer dans ce domaine ?) • Alors que l'IA devient de plus en plus autonome, comment la garder sûre et sécurisée ? • Sur quoi la prochaine génération de chercheurs devrait-elle travailler ? Voici quelques idées clés et points saillants pour quiconque construit l'avenir de l'IA. 🧵1/8 — http://shitter.thepixora.com/dawnsongtweets/status/2102050223056990535#m",
+          "text_original": "Thanks for the great discussion, @dawnsongtweets ! Dawn Song (@dawnsongtweets) I had the great honor and pleasure of sitting down with @JeffDean for his first public talk since leaving Google, where he spent an extraordinary 27 years. Few people have shaped modern computing and AI as profoundly - from MapReduce and Bigtable to TensorFlow, Mixture-of-Experts, TPUs, and Gemini. Our conversation covered some of the biggest questions shaping the future of AI: • How do you recognize a foundational idea before everyone else does? • How do you choose a research problem worth spending 5 years on? • What can coding teach us about building better reasoning models? • What might recursive self-improvement (RSI) actually look like? • What happens when the scientific discovery loop itself becomes increasingly automated? (and how is Jeff’s new startup going to contribute in this space?) • As AI becomes increasingly autonomous, how do we keep it safe and secure? • What should the next generation of researchers be working on? Here are some key insights and highlights for anyone building the future of AI. 🧵1/8 — http://shitter.thepixora.com/dawnsongtweets/status/2102050223056990535#m",
+          "link": "http://shitter.thepixora.com/JeffDean/status/2102106573258797211#m",
+          "decryptage": "Jeff Dean est une figure emblématique de l'IA et de Google. TensorFlow est une bibliothèque logicielle populaire pour l'apprentissage automatique. Gemini est un modèle d'IA développé par Google."
         },
         {
           "author_name": "Google DeepMind",
-          "handle": "@GoogleDeepMind",
-          "text_fr": "Nous introduisons Gemini 3.8 Live et 3.8 Live Extended Thinking – notre meilleure IA conversationnelle. Les modèles parlent, réfléchissent et gèrent les tâches en arrière-plan sans interrompre votre flux. 🧵",
-          "text_original": "We’re introducing Gemini 3.8 Live and 3.8 Live Extended Thinking – our best conversational AI. The models talk, think, and handle tasks in the background without breaking your flow. 🧵",
-          "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099907440422830269#m",
-          "decryptage": "Gemini 3.8 Live est une nouvelle version de l'IA conversationnelle de Google qui peut continuer à travailler et réfléchir en arrière-plan pendant que vous interagissez avec elle, rendant l'expérience plus fluide."
-        },
-        {
-          "author_name": "Google DeepMind",
-          "handle": "@GoogleDeepMind",
-          "text_fr": "Les chercheurs du @BroadInstitute, de l'@UniofExeter, et d'ailleurs utilisent déjà AlphaGenome Atlas pour mieux identifier les variantes d'ADN potentiellement pathogènes et interpréter leur rôle. 🧵",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Des chercheurs du @BroadInstitute, de l'@UniofExeter et d'ailleurs utilisent déjà AlphaGenome Atlas pour mieux identifier les variants d'ADN potentiellement responsables de maladies et interpréter leur rôle. 🧵",
           "text_original": "Researchers at @BroadInstitute , @UniofExeter , and beyond are already using AlphaGenome Atlas to better identify potential disease-causing DNA variants and interpret their role. 🧵",
           "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2100586760036143330#m",
-          "decryptage": "AlphaGenome Atlas est un outil d'IA développé par DeepMind qui aide les scientifiques à analyser le génome humain pour comprendre le rôle des variations génétiques dans les maladies."
+          "decryptage": "AlphaGenome Atlas est un outil développé par Google DeepMind qui analyse le génome humain (l'ensemble de notre ADN) pour comprendre les variations qui peuvent causer des maladies."
         },
         {
           "author_name": "Google DeepMind",
-          "handle": "@GoogleDeepMind",
-          "text_fr": "Chaque seconde, des millions d'interrupteurs génomiques dictent comment nos cellules fonctionnent et s'adaptent. 🧬 En collaboration avec @ScienceStowers, Atlas a cartographié plus de 2 500 modèles réglementaires, mettant en évidence les séquences d'ADN qui agissent comme des interrupteurs biologiques et des potentiomètres pour augmenter ou diminuer l'activité des gènes dans des centaines de types de cellules.",
-          "text_original": "Every second, millions of genome switches dictate how our cells function and adapt. 🧬 Working with @ScienceStowers , Atlas mapped 2,500+ regulatory patterns uncovering the DNA sequences that act as biological switches and volume dials to turn gene activity up or down across hundreds of cell types. ",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Chaque seconde, des millions d'interrupteurs génomiques dictent le fonctionnement et l'adaptation de nos cellules. 🧬 En collaboration avec @ScienceStowers, Atlas a cartographié plus de 2 500 schémas régulateurs, découvrant les séquences d'ADN qui agissent comme des interrupteurs biologiques et des potentiomètres pour augmenter ou diminuer l'activité des gènes dans des centaines de types de cellules.",
+          "text_original": "Every second, millions of genome switches dictate how our cells function and adapt. 🧬 Working with @ScienceStowers , Atlas mapped 2,500+ regulatory patterns uncovering the DNA sequences that act as biological switches and volume dials to turn gene activity up or down across hundreds of cell types.",
           "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2100586768248562157#m",
-          "decryptage": "Atlas, un outil d'IA de DeepMind, a identifié des séquences d'ADN qui contrôlent l'activité des gènes, un peu comme des interrupteurs ou des réglages de volume, ce qui est crucial pour comprendre le fonctionnement des cellules."
+          "decryptage": "Ce tweet explique comment certaines parties de notre ADN (les séquences d'ADN) peuvent agir comme des 'boutons' pour activer ou désactiver d'autres gènes, influençant ainsi le comportement de nos cellules."
         },
         {
           "author_name": "Google DeepMind",
-          "handle": "@GoogleDeepMind",
-          "text_fr": "Ces découvertes ne sont que le début. AlphaGenome Atlas est librement accessible pour permettre aux chercheurs du monde entier de décoder les causes génétiques des maladies. Explorez la base de données → goo.gle/4heuCvn Link AlphaGenome Atlas : Prédictions moléculaires pour 9 milliards de variants d'ADN humains Explorez AlphaGenome Atlas, un catalogue prédisant les effets moléculaires et les scores AVI pour 9 milliards de variants à nucléotide unique dans le génome humain. deepmind.google",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Ces découvertes ne sont que le début. AlphaGenome Atlas est accessible gratuitement pour permettre aux chercheurs du monde entier de décoder les causes génétiques des maladies. Explorez la base de données → goo.gle/4heuCvn Lien AlphaGenome Atlas : Prédictions moléculaires pour 9 milliards de variants d'ADN humain Explorez AlphaGenome Atlas, un catalogue prédisant les effets moléculaires et les scores AVI pour 9 milliards de variants de nucléotides uniques dans le génome humain. deepmind.google",
           "text_original": "These discoveries are just the beginning. AlphaGenome Atlas is freely accessible to empower researchers everywhere to decode the genetic causes of disease. Explore the database → goo.gle/4heuCvn Link AlphaGenome Atlas: Molecular predictions for 9 Billion human DNA variants Explore AlphaGenome Atlas, a catalogue predicting the molecular effects and AVI scores for 9 billion single-nucleotide variants across the human genome. deepmind.google",
           "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2100586770572177551#m",
-          "decryptage": "AlphaGenome Atlas est une base de données gratuite qui permet aux chercheurs d'étudier les variations génétiques humaines et de prédire leur impact, afin de mieux comprendre et combattre les maladies."
+          "decryptage": "Ce tweet souligne que l'outil AlphaGenome Atlas est public et gratuit, rendant la recherche sur les maladies génétiques plus accessible aux scientifiques du monde entier."
         },
         {
-          "author_name": "Shane Legg",
-          "handle": "@ShaneLegg",
-          "text_fr": "Mon parcours pour développer l'AGI s'étend sur 25 ans, dont plus de 10 ans à réfléchir aux perspectives techniques et sociétales chez Google DeepMind. L'AGI est à l'horizon – nous avons besoin d'une compréhension plus approfondie de ses implications. Pour aider, nous avons créé le DeepMind Institute. Article Introduction du DeepMind Institute Nous sommes à l'aube d'une transformation profonde. Les systèmes d'IA actuels ont des capacités impressionnantes et le rythme rapide de l'innovation suggère que nous approchons maintenant de l'intelligence artificielle générale (AGI),",
+          "author_name": "Google DeepMind",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Mon parcours pour développer l'AGI s'étend sur 25 ans, dont plus de 10 ans à réfléchir aux perspectives techniques et sociétales chez Google DeepMind. L'AGI est à l'horizon – nous avons besoin d'une compréhension plus approfondie de ses implications. Pour aider, nous avons créé le DeepMind Institute. Article Introduction du DeepMind Institute Nous sommes à l'aube d'une transformation profonde. Les systèmes d'IA d'aujourd'hui ont des capacités impressionnantes et le rythme rapide de l'innovation suggère que nous approchons maintenant de l'intelligence artificielle générale (AGI),",
           "text_original": "My journey to develop AGI spans 25 yrs, including 10+ yrs thinking about technical & societal perspectives at Google DeepMind. AGI is on the horizon - we need deeper understanding of its implications. To help, we've created the DeepMind Institute. Article Introducing the DeepMind Institute We are on the cusp of a profound transformation. Today’s AI systems have impressive capabilities and the rapid pace of innovation suggests we’re now approaching artificial general intelligence (AGI),",
           "link": "http://nitter.jaydenha.uk/ShaneLegg/status/2100229706641539248#m",
-          "decryptage": "Shane Legg, co-fondateur de DeepMind, annonce la création du DeepMind Institute pour étudier les implications de l'Intelligence Artificielle Générale (AGI), une IA qui aurait des capacités humaines."
+          "decryptage": "AGI signifie 'Artificial General Intelligence' ou Intelligence Artificielle Générale. Il s'agit d'une IA qui aurait des capacités cognitives similaires à celles d'un humain, capable d'apprendre et de raisonner dans n'importe quel domaine. Le DeepMind Institute est une nouvelle initiative pour étudier les conséquences de cette technologie."
         },
         {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Link TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
-          "text_original": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Link TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
-          "link": "http://nitter.jaydenha.uk/PPouyanne/status/2099764007028621436#m",
-          "decryptage": "Mistral AI s'associe à TotalEnergies pour développer des modèles d'IA spécialisés dans l'analyse de données géologiques et l'aide à la décision pour l'exploration énergétique, marquant un investissement majeur dans l'IA européenne."
+          "author_name": "Google DeepMind",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Nous introduisons Gemini 3.8 Live et 3.8 Live Extended Thinking – notre meilleure IA conversationnelle. Les modèles discutent, réfléchissent et gèrent les tâches en arrière-plan sans interrompre votre flux. 🧵",
+          "text_original": "We’re introducing Gemini 3.8 Live and 3.8 Live Extended Thinking – our best conversational AI. The models talk, think, and handle tasks in the background without breaking your flow. 🧵",
+          "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099907440422830269#m",
+          "decryptage": "Gemini est le nom de la famille de modèles d'IA de Google. Les versions 'Live' et 'Extended Thinking' suggèrent une capacité à converser de manière plus fluide et à anticiper les besoins de l'utilisateur pendant une conversation."
         },
         {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Bravo à Mistral ! C'est formidable de les voir tout déchirer, ils sont une inspiration pour tous car nous avons besoin de plus d'IA souveraines & open-source partout dans le monde. Hâte de continuer à les soutenir sur huggingface.co/mistralai ! Link mistralai (Mistral AI_) Profil d'organisation pour Mistral AI_ sur Hugging Face, la communauté IA qui construit l'avenir. huggingface.co Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une Série D de 3 milliards d'euros, la plus grande levée de fonds en fonds propres jamais réalisée par une entreprise technologique européenne, trois ans seulement après son lancement. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-          "text_original": "Bravo to Mistral! So great to see them killing it, they are an inspiration to everyone as we need more sovereign & open-source AI everywhere around the world. Excited to keep supporting them on huggingface.co/mistralai ! Link mistralai (Mistral AI_) Org profile for Mistral AI_ on Hugging Face, the AI community building the future. huggingface.co Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-          "link": "http://nitter.jaydenha.uk/ClementDelangue/status/2097324015819825202#m",
-          "decryptage": "Mistral AI, une entreprise française spécialisée dans l'IA, a levé 3 milliards d'euros, un record pour une startup technologique européenne, afin d'accélérer sa recherche et le développement de modèles d'IA ouverts."
+          "author_name": "Mistral AI",
+          "handle": "MistralAI",
+          "text_fr": "Aujourd'hui, nous publions Le Chaton L∃∀N, alias Leanstral 1.5. Il atteint des performances de pointe sur les benchmarks d'algèbre de troisième cycle FATE-H et FATE-X et améliore le Frontière de Pareto sur PutnamBench, résolvant 587/672 problèmes avec un budget 10 fois moins cher. 🧵",
+          "text_original": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+          "link": "http://nitter.jaydenha.uk/mertunsal2020/status/2073046288208412960#m",
+          "decryptage": "SOTA signifie 'State Of The Art', soit l'état de l'art, le meilleur résultat connu. Ce modèle d'IA est spécialisé dans des domaines mathématiques complexes comme l'algèbre, et il le fait de manière très efficace et économique."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons notre puissance de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux – Paris, Palo Alto, SF, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une Série D de 3 milliards d'euros, la plus grande levée de fonds en fonds propres jamais réalisée par une entreprise technologique européenne, trois ans seulement après son lancement. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-          "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://nitter.jaydenha.uk/MistralAI/status/2097188835897586083#m",
-          "link": "http://nitter.jaydenha.uk/GuillaumeLample/status/2097256830091014515#m",
-          "decryptage": "Guillaume Lample confirme la levée de fonds record de 3 milliards d'euros pour Mistral AI, soulignant l'expansion de l'entreprise et le recrutement de talents pour développer la prochaine génération de leurs modèles d'IA."
-        },
-        {
-          "author_name": "Mark Chen",
-          "handle": "@markchen90",
-          "text_fr": "Nous résolvons Navier-Stokes ! Beaucoup de mes collègues ont quitté leurs domaines car ils pensaient que travailler sur l'IA serait le moyen le plus rapide de résoudre les grands défis de leurs domaines. Il est surréaliste de voir tomber le premier de ces défis et de voir un avenir auquel nous croyions devenir réalité. OpenAI (@OpenAI) Nous partageons une solution au problème du prix du millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle OpenAI de nouvelle génération considérablement plus capable que GPT-6 Astra. Le problème concerne la question de savoir si la description du mouvement tridimensionnel lisse des fluides, modélisé par les équations de Navier-Stokes, peut échouer. Il est resté non résolu pendant environ 90 ans. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
-          "text_original": "We solved Navier-Stokes! Many of my colleagues left their fields because they believed that working on AI would be the fastest way to solve their fields' grand challenges. It's surreal to see the first of those challenges fall and to watch a future we believed in become real. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
-          "link": "http://shitter.thepixora.com/markchen90/status/2097377602638053616#m",
-          "decryptage": "OpenAI annonce avoir résolu les équations de Navier-Stokes, un problème mathématique majeur sur le comportement des fluides, grâce à une IA avancée, démontrant le potentiel de l'IA pour résoudre des défis scientifiques complexes."
-        },
-        {
-          "author_name": "Mark Chen",
-          "handle": "@markchen90",
-          "text_fr": "Les deux choses à distinguer : Des humains ou des agents ont-ils examiné les données des utilisateurs dans le cadre de l'effort Navier Stokes ? Non. Utilisons-nous les retours des utilisateurs et les données anonymisées pour améliorer ChatGPT et Codex de manière holistique ? Oui. Et toutes les entreprises de LLM font de même. levent (@__alpoge__) « nous ne pouvons exclure que des données anonymisées dérivées de leur utilisation de nos produits aient contribué à améliorer nos modèles. » je veux dire bravo à eux pour avoir été francs. (jusqu'à présent, la preuve ressemble plus à une autre preuve d'explosion d'Euler que nous avions, sur laquelle nous faisions des jeux de mots vraiment stupides comme « criminale lisse », contrairement aux « les fluides idéaux explosent », beaucoup mieux, Tristan) je vais donc maintenant donner un peu de mon point de vue ici. j'aurais en fait été ravi de collaborer sur cela, il y a beaucoup de gens chez oai que j'aime (ok, certains ont été indirectement cons avec moi à cause de leur participation à toute la situation, mais je suis un grand garçon, je les aime toujours), je m'en fiche de la paternité de cette étape de toute façon, ça aurait pu être moi Tristan et tous les fte chez oai pour tout ce qui me concerne (sur quoi Tristan serait en désaccord :p). mais en entendant la conversation bruyante dans le couloir, surtout la partie où un prix du millénaire m'était offert si j'étais simplement retiré du papier, il était clair que le dé était jeté et que les choses étaient verrouillées. assez loufoque, non stratégique et inutile, car de mon côté, il s'agissait surtout de moi et de Claude qui nous amusions à faire du yolo sur des trucs aléatoires dans le coin plutôt que quoi que ce soit d'institutionnel. j'aime aussi l'idée que les laboratoires coopèrent, et encore mieux sur le progrès scientifique. C'est dommage ! — http://shitter.thepixora.com/__alpoge__/status/2097383870773748190#m",
-          "text_original": "Two things to distinguish: Did any human or agent look at user data as part of the Navier Stokes effort? No. Do we use user feedback and de-identified data to improve ChatGPT and Codex in a holistic way? Yes. And so does every LLM company. levent (@__alpoge__) “we cannot rule out that de-identified data derived from their usage of our products helped improve our models.” i mean props to them for straight coming clean. (so far the proof looks more along the lines of another euler blowup proof we had, off of whose ansatz naming we were making really stupid puns like “smooth criminale”, unlike the much better “ideal fluids explode”, Tristan) so i’ll now give a bit on my thinking here. i actually woulda been pumped to collaborate on this, there are a lot of people at oai i like (ok, clearly some were indirectly dicks to me because of being part of the whole situation, but im a big boy, i still like them), idgaf about authorship on that step anyway, coulda been me Tristan and every fte at oai for all i care (on that Tristan would disagree:p). but on hearing the loud convo in the hallway, especially the part where a millennium prize was offered if i’d just be removed from the paper, it was kinda clear the die had been cast and things were locked. pretty wacky, unstrategic, and unnecessary, since on my side things were mostly me and claude having a good time yoloing random stuff in the corner rather than anything institutional. i also like the idea of the labs cooperating, and even better on scientific progress. it’s a shame! — http://shitter.thepixora.com/__alpoge__/status/2097383870773748190#m",
-          "link": "http://shitter.thepixora.com/markchen90/status/2097400166554993041#m",
-          "decryptage": "Ce tweet clarifie deux points concernant la résolution du problème Navier-Stokes par OpenAI : les données utilisateur n'ont pas été directement utilisées pour cette tâche spécifique, mais le sont pour améliorer d'autres modèles comme ChatGPT. Il aborde aussi des questions de collaboration et de paternité scientifique."
-        },
-        {
-          "author_name": "Mark Chen",
-          "handle": "@markchen90",
-          "text_fr": "L'énoncé de l'AMS est court et doux : ams.org/news?news_id=7686 \"La nouvelle d'aujourd'hui sur les progrès dans la résolution du problème de Navier-Stokes, l'un des plus grands défis de longue date des mathématiques concernant les équations qui régissent l'écoulement des fluides, représente une avancée capitale dans la connaissance humaine. Cette histoire a commencé avec Navier, Stokes, Leray et Ladyzhenskaya et a abouti aux récentes découvertes de Córdoba et Martínez-Zoroa, puis – assistés par de nouvelles technologies – Alpöge et Buckmaster, avec les dernières étapes franchies par les mathématiciens d'OpenAI. Le but des mathématiques est la compréhension humaine, et cette réussite, ainsi que le processus qui y a conduit, portera ses fruits pendant longtemps. Ravi Vakil, Président de l'AMS John Meier, PDG de l'AMS",
-          "text_original": "The AMS’s statement is short and sweet: ams.org/news?news_id=7686 \"The news today of progress on resolving the Navier–Stokes problem, one of mathematics' great longstanding challenges concerning the equations that govern the flow of fluids, represents a milestone advance in human knowledge. This story began with Navier, Stokes, Leray, and Ladyzhenskaya and has culminated in the recent breakthroughs of Córdoba and Martínez-Zoroa, then — assisted by new technologies — Alpöge and Buckmaster, with the final steps taken by OpenAI mathematicians. The purpose of mathematics is human understanding, and this achievement, and the process that led to it, will bear fruit for a long time to come.\" Ravi Vakil, President of the AMS John Meier, CEO of the AMS",
-          "link": "http://shitter.thepixora.com/AlexKontorovich/status/2097384320469970966#m",
-          "decryptage": "La Société Américaine de Mathématiques (AMS) salue la résolution du problème Navier-Stokes par OpenAI comme une avancée majeure pour la connaissance humaine, soulignant le rôle des mathématiques dans la compréhension du monde."
-        },
-        {
-          "author_name": "Mark Chen",
-          "handle": "@markchen90",
-          "text_fr": "À ne pas oublier nos amis de l'autre côté de la Manche.... La semaine prochaine, nous organiserons une deuxième petite réunion pour célébrer GPT-6 à Londres ! Notre équipe là-bas a apporté des contributions essentielles à Astra, et nous aimerions célébrer avec vous :) events.openai.com/gpt-6-lond… (cliquez sur mon lien pas celui de Sam) Link hero-only events.openai.com Sam Altman (@sama) Nous voulons célébrer avec les personnes qui utilisent GPT-6. Nous l'avons fait pour GPT-5.5 et c'était très amusant. Nous nous réunissons à SF le 16 septembre pour parler du modèle, de ce que nous devrions construire ensuite, et surtout pour passer du temps ensemble. Postulez avant le 10 septembre : gpt6-launch-event.openai.cha… Link GPT-6 Community Night Demandez une invitation à la Soirée Communautaire GPT-6 à San Francisco le 16 septembre 2026. Une soirée sous les étoiles avec OpenAI. gpt6-launch-event.openai.chatgpt.site — http://shitter.thepixora.com/sama/status/2097404861642137851#m",
-          "text_original": "Not to forget our friends across the pond.... Next week we'll host a second smaller get-together to celebrate GPT-6 in London! Our team there delivered core contributions to Astra, and we'd love to celebrate with you :) events.openai.com/gpt-6-lond… (click my link not Sam's) Link hero-only events.openai.com Sam Altman (@sama) We want to celebrate with people using GPT-6. We did this for GPT-5.5 and it was really fun. We’re getting together in SF on September 16 to talk about the model, what we should build next, and mostly just to hang out. Apply by Sep 10: gpt6-launch-event.openai.cha… Link GPT-6 Community Night Request an invitation to GPT-6 Community Night in San Francisco on September 16, 2026. An evening under the stars with OpenAI. gpt6-launch-event.openai.chatgpt.site — http://shitter.thepixora.com/sama/status/2097404861642137851#m",
-          "link": "http://nitter.jaydenha.uk/_aidan_clark_/status/2099740924628906010#m",
-          "decryptage": "OpenAI organise des événements pour célébrer le lancement de son nouveau modèle GPT-6, à la fois à San Francisco et à Londres, afin de réunir sa communauté et de discuter des futures évolutions."
-        },
-        {
-          "author_name": "Elon Musk",
-          "handle": "@elonmusk",
-          "text_fr": "l'application de bureau Grok @Bot vient de devenir encore plus rapide ! nous avons corrigé 53 problèmes de performance ces derniers jours : • reconnexion après une connexion instable : 60s → 0.7s • réveil de votre ordinateur portable : 23s → 1s • retour à la vue Ordinateur d'un bot : 868ms → 27ms • ouverture d'un chat avec un long bloc de code : 954ms → 228ms • l'onglet Médias ne télécharge plus à chaque fois : 137 Mo → 0,7 Mo, ainsi que des animations de barre latérale plus fluides, plus de chats saccadés avec beaucoup d'images, et une utilisation de la mémoire beaucoup plus faible au repos. encore beaucoup à améliorer !",
-          "text_original": "the Grok @Bot desktop app just got even faster! we shipped 53 perf fixes over the past few days: • reconnecting after a flaky connection: 60s → 0.7s • waking your laptop: 23s → 1s • switching back to a bot's Computer view: 868ms → 27ms • opening a chat with a long code block: 954ms → 228ms • the Media tab no longer re-downloads every time: 137MB → 0.7MB plus smoother sidebar animations, no more jumpy screenshot-heavy chats, and much lower memory usage while idle. still more to improve!",
-          "link": "http://nitter.meowing.monster/poteto/status/2102504221648339170#m",
-          "decryptage": "L'application de bureau de Grok, le chatbot d'Elon Musk, a reçu de nombreuses mises à jour pour améliorer considérablement sa vitesse et son efficacité, notamment en réduisant les temps de connexion et de chargement."
-        },
-        {
-          "author_name": "Elon Musk",
-          "handle": "@elonmusk",
-          "text_fr": "Le déploiement de Starlink au Japon est plus facile que jamais. Dans certaines régions, le coût initial du « kit Mini de location » pour la maison est de 0 ¥. Il peut être installé rapidement dans la plupart des régions du Japon et offre des performances optimales à tout moment. De plus, une assistance client en japonais est disponible avant et après votre inscription, ainsi qu'après le début de votre utilisation, pour vous rassurer. En savoir plus : starlink.com/japan-residenti…",
-          "text_original": "日本でのStarlinkの導入が、かつてないほど簡単になりました。 一部の地域では、ホーム向けの「レンタルMiniキット」の初期費用が0円になります。日本全国の大半の地域でスピーディに設置でき、いつでも最適なパフォーマンスを発揮します。 また、お申し込みの前後はもちろん、ご利用開始後も日本語のカスタマーサポートがしっかりと対応いたしますので安心です。 詳しくはこちら： starlink.com/japan-residenti…",
-          "link": "http://nitter.meowing.monster/Starlink/status/2102519191157068024#m",
-          "decryptage": "Starlink facilite désormais l'installation de son service internet par satellite au Japon, avec des kits de location à bas coût et un support client en japonais, pour une connectivité plus accessible."
+          "author_name": "Mistral AI",
+          "handle": "MistralAI",
+          "text_fr": "Mistral OCR 4 a transformé un examen de calcul manuscrit en LaTeX propre ! Nous lui avons donné une photo d'une page d'examen manuscrite. Le modèle a lu l'écriture manuscrite et reconstruit chaque formule dans un texte numérique structuré. Sortie : Temps : 5.1s · Coût : 0.09$ Les formules sont arrivées exactement comme il fallait – la partie difficile a été maîtrisée. Le graphique, malheureusement, il ne l'a pas redessiné. Mais c'est là le point révélateur : la plupart des outils OCR se contentent de sortir le texte et laissent tomber silencieusement la figure. OCR 4 a capturé le graphique, l'a encadré et l'a étiqueté comme un graphique. Il n'est pas redessiné, mais il est lu et pris en compte. Vidéo Mistral AI (@MistralAI) Introduction de Mistral OCR 4. Il crée de la structure avec des boîtes de délimitation, la classification de blocs et des scores de confiance en ligne dans 170 langues. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
+          "text_original": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
+          "link": "http://nitter.jaydenha.uk/atomic_chat_hq/status/2069597176225796581#m",
+          "decryptage": "OCR signifie 'Optical Character Recognition' (reconnaissance optique de caractères). C'est la technologie qui permet de lire du texte dans des images ou des documents. LaTeX est un système de composition de documents utilisé notamment en mathématiques et sciences."
         }
       ],
       "tips": [
         {
           "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Opus est allé pendant ~2 heures et a écrit 5500 lignes de code qui ont (procéduralement) rendu l'histoire du Seigneur des Anneaux. C'est un peu bancal mais amusant. Mais c'est un peu ahurissant que le LLM doive placer et orchestrer divers objets polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et qu'il fasse même quelque chose.\n\nJe suis également intéressé par ce genre d'exemple car personne de sensé n'y passerait jamais le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où nous passons de 'personne ne ferait jamais ça' à 'bien sûr, pourquoi pas, c'est ~gratuit'. Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels vous pouvez imaginer y faire glisser des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère à la demande.",
-          "text_original": "Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.",
-          "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
-          "decryptage": "Les grands modèles de langage (LLM) peuvent désormais créer des mondes virtuels interactifs en générant du code complexe, rendant la création de jeux ou de simulations bien plus accessible."
+          "handle": "karpathy",
+          "text_fr": "Une tendance que je trouve utile pour travailler avec les LLM est une longue session de divagation. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime me pencher en arrière, passer en mode /voice et simplement divaguer pendant environ 10 minutes, un total désordre, tout est permis, flux de conscience complet. Parfois, je le déclare au début, quelque chose comme « passage à la reconnaissance vocale désolé pour les fautes de frappe... ». Parfois, j'en fais un petit entretien de quelques tours. Mais je trouve que les LLM sont d'une manière ou d'une autre très bons pour reconstituer de longues divagations incohérentes et souvent leur écho de vos propres pensées emmêlées sort un peu plus clair que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la connexion mentale et que vous devez moins corriger les choses à partir de ce moment-là.",
+          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
+          "decryptage": "LLM (Large Language Model) est un modèle de langage avancé. La 'dictée vocale' permet de parler à l'ordinateur qui transcrit les mots, et le 'flux de conscience' signifie exprimer ses pensées sans filtre."
         },
         {
           "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Une méthode que je trouve utile pour travailler avec les LLM est une longue session de monologue. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime me pencher en arrière, passer en mode /voix et juste divaguer pendant environ 10 minutes, un désordre total, tout est permis, flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme \"passage à la reconnaissance vocale désolé pour les fautes de frappe...\". Parfois, j'en fais une petite interview en quelques tours. Mais je trouve que les LLM sont d'une manière ou d'une autre très bons pour reconstruire de longs monologues incohérents et souvent leur écho de vos propres pensées confuses sort un peu plus clairement que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la connexion mentale et que vous avez moins de choses à corriger à partir de ce moment-là.",
-          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-          "link": "http://nitter.jaydenha.uk/karpathy/status/2079610838143623371#m",
-          "decryptage": "Pour mieux guider une IA, Andrej Karpathy suggère d'utiliser la fonction vocale pour lui parler longuement de manière décousue, car les IA sont étonnamment douées pour comprendre et synthétiser ces flux de pensée."
+          "handle": "karpathy",
+          "text_fr": "Le tweet ci-dessous a suscité une énorme controverse au moment où je l'ai posté. Mais cette prédiction devient évidente de jour en jour maintenant. François Chollet (@fchollet) D'ici 10 à 20 ans, presque toutes les branches de la science seront, à toutes fins utiles, une branche de l'informatique. Physique computationnelle, chimie computationnelle, biologie computationnelle, médecine computationnelle... Même l'archéologie computationnelle. Simulations réalistes, analyse de big data et ML partout — http://nitter.jaydenha.uk/fchollet/status/1389337090278658052#m",
+          "text_original": "The tweet below got enormous pushback at the time I posted it, more than 5 years ago. But this prediction is looking obvious by the day now. François Chollet (@fchollet) Within 10-20 years, nearly every branch of science will be, for all intents and purposes, a branch of computer science. Computational physics, comp chemistry, comp biology, comp medicine... Even comp archeology. Realistic simulations, big data analysis, and ML everywhere — http://nitter.jaydenha.uk/fchollet/status/1389337090278658052#m",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/2102444225443029100#m",
+          "decryptage": "ML signifie 'Machine Learning' ou apprentissage automatique. C'est une branche de l'IA où les ordinateurs apprennent à partir de données sans être explicitement programmés."
         },
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Évolutivité de l'inférence partie 1. En commençant par une fonction de génération de texte modifiée (mise à l'échelle de la température, filtrage top-p, échantillonnage multinomial) pour générer des sorties diverses pour la cohérence et le meilleur de N (amélioration de la précision des réponses de >2x)\n00:00 Introduction et récapitulatif\n00:31 Mise à l'échelle à l'entraînement et à l'inférence\n07:52 Ce que nous allons implémenter\n11:47 Configuration du notebook et chargement du modèle\n17:43 Création d'une fonction de génération de texte flexible\n24:40 Prompting par chaîne de pensée\n28:26 Échantillonnage et diversité des sorties\n33:43 Logits du prochain token et décodage glouton\n38:20 Mise à l'échelle de la température étape par étape\n42:46 Softmax et probabilités des tokens\n47:42 Échantillonnage multinomial\n54:51 Ajout de l'échantillonnage de température à la génération de texte\n59:31 Filtrage Top-p étape par étape\n1:10:23 Ajout du filtrage top-p à la génération de texte\n1:13:43 Échantillonnage et filigrane LLM\n1:16:01 Cohérence et vote majoritaire\n1:20:36 Implémentation de la cohérence\n1:29:02 Résultats MATH-500\n1:35:01 Compromis entre précision et calcul\n1:36:50 Prochaines étapes et auto-amélioration\n Vidéo",
-          "text_original": "Inference scaling part 1. Starting with a modded text generation function (temperature scaling, top-p filtering, multinomial sampling) to generate diverse outputs for self-consistency and best-of-N (improving answer accuracy by>2x) 00:00 Introduction and recap 00:31 Training-time and inference-time scaling 07:52 What we'll implement 11:47 Notebook setup and model loading 17:43 Building a flexible text generation function 24:40 Chain-of-thought prompting 28:26 Sampling and output diversity 33:43 Next-token logits and greedy decoding 38:20 Temperature scaling step by step 42:46 Softmax and token probabilities 47:42 Multinomial sampling 54:51 Adding temperature sampling to text generation 59:31 Top-p filtering step by step 1:10:23 Adding top-p filtering to text generation 1:13:43 Sampling and LLM watermarking 1:16:01 Self-consistency and majority voting 1:20:36 Implementing self-consistency 1:29:02 MATH-500 results 1:35:01 Accuracy and compute tradeoffs 1:36:50 Next steps and self-refinement Video",
-          "link": "http://shitter.thepixora.com/rasbt/status/2101313945835368684#m",
-          "decryptage": "Cette vidéo explique comment améliorer la précision des réponses d'une IA en générant plusieurs réponses et en choisissant la meilleure, en utilisant des techniques comme le 'filtrage top-p' et la 'mise à l'échelle de la température'."
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "J'utilise semif (comme jev, mais open source) pour étiqueter les nouveaux problèmes qui arrivent dans nos dépôts open source afin d'avoir le pouls des fonctionnalités populaires et des domaines sur lesquels nous devons passer plus de temps. Modèle de requête actuel : * état -- titre/corps du problème * questions -- une par étiquette, nous appliquons celles avec p>0.8 beaucoup plus rapidement que notre classificateur LLM précédent. Jusqu'à présent, nous surveillons pour nous assurer que nous sommes calibrés au bon seuil. Jacob Lee (@Hacubu) 🆓 Jev open-source gratuit 🤝 Passerelle LangSmith Les modèles de décision deviennent un élément de première classe de la passerelle LangSmith ! Nous servons SemIf, un modèle de décision open-source, gratuitement pendant la prochaine semaine. Compatible avec le SDK TypeSafe – changez simplement une chaîne pour l'essayer ! Docs dans 🧵 Vidéo — http://nitter.jaydenha.uk/Hacubu/status/2102064714851455363#m",
-          "text_original": "i'm using semif (like jev, but open source) to label new issues that come into our open source repos so we have a pulse on popular features and areas where we need to spend more time current request model: * state -- issue title/body * questions -- one noul per label, we apply ones w/ p>0.8 much faster than our previous LLM classifier thus far, currently monitoring to make sure we're calibrated at the right threshold Jacob Lee (@Hacubu) 🆓 Free Open-Source Jev 🤝 LangSmith Gateway Decision models are becoming a first-class part of the LangSmith Gateway! We're serving SemIf, an open-source decision model, free for the next week. Compatible with the TypeSafe SDK - just change a string to try it! Docs in 🧵 Video — http://nitter.jaydenha.uk/Hacubu/status/2102064714851455363#m",
-          "link": "http://nitter.jaydenha.uk/sydneyrunkle/status/2102519191157068024#m",
-          "decryptage": "SemIf est un outil open-source similaire à Jev, conçu pour aider les développeurs à gérer les problèmes dans leurs projets en automatisant leur classification et leur tri, le rendant disponible gratuitement sur LangSmith."
+          "author_name": "Francois Chollet",
+          "handle": "fchollet",
+          "text_fr": "Déléguer le codage. Ne jamais déléguer la compréhension. Si le code était auparavant votre source de vérité pour gérer la compréhension, alors vous avez besoin d'un nouvel artefact source de vérité. Si les flux de travail centrés sur le code étaient la manière dont vous développiez cette compréhension, alors vous avez besoin de nouveaux flux de travail. voxium (@v0xium) J'en ai marre de cette merde. C'est fini. L'état de l'ingénierie en ce moment est horrible. Cela fait un demi-mois que j'ai commencé un nouveau rôle dans une grande entreprise. Personne n'y connaît rien ici. Les spécifications, le code, les tests, les PRD, les tickets, la résolution de ces tickets, les rapports, etc., tout est fait par Claude Code. Personne dans mon équipe n'aime ça. On les oblige à livrer autant que possible. J'ai entendu plusieurs fois de la haute direction que la livraison de code n'est pas un goulot d'étranglement, alors pourquoi sommes-nous lents ? Les gens travaillent 12 à 13 heures par jour juste pour appuyer sur Entrée. Personne ne lit quoi que ce soit. Les humains dans les entreprises ne font rien par eux-mêmes. Tout le monde, littéralement tout le monde, d'un ingénieur L1 à L7, fait la même chose ici. Parler à Claude. Il n'y a aucun sentiment de victoire. Personne ne résout les bugs. En réalité, personne ne réfléchit plus. Tout est fait par les LLM. C'est tellement épuisant pour l'âme. Cela ne me dérangerait pas, honnêtement, si on nous donnait au moins le temps de vérifier le code et de voir où va quoi. Mais non, l'objectif est juste de livrer. Quoi qu'il arrive. — http://nitter.jaydenha.uk/v0xium/status/2101526107128529120#m",
+          "text_original": "Delegate coding. Never delegate understanding. If code was previously your source of truth for managing understanding, then you need a new source of truth artifact. If code-centric workflows were how you developed that understanding, then you need new workflows. voxium (@v0xium) I am done with this shit. It is over. The state of engineering right now is horrible. It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRD, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Humans in corporate are doing nothing on their own. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. There is no sense of victory. Nobody is resolving bugs. In reality, nobody is thinking anymore. Everything is done by LLMs. It is so soul-sucking. I would not mind it, to be honest, if we were at least given the time to check out the code and see what is going where. But no, the goal is to just ship. No matter what happens. — http://nitter.jaydenha.uk/v0xium/status/2101526107128529120#m",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/2102166631439053014#m",
+          "decryptage": "PRD (Product Requirements Document) est un document décrivant les spécifications d'un produit. L1 à L7 représentent différents niveaux d'expérience pour les ingénieurs."
         }
       ],
       "idees": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Opus est allé pendant ~2 heures et a écrit 5500 lignes de code qui ont (procéduralement) rendu l'histoire du Seigneur des Anneaux. C'est un peu bancal mais amusant. Mais c'est un peu ahurissant que le LLM doive placer et orchestrer divers objets polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et qu'il fasse même quelque chose.\n\nJe suis également intéressé par ce genre d'exemple car personne de sensé n'y passerait jamais le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où nous passons de 'personne ne ferait jamais ça' à 'bien sûr, pourquoi pas, c'est ~gratuit'. Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels vous pouvez imaginer y faire glisser des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère à la demande.",
-          "text_original": "Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.",
-          "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
-          "decryptage": "Les grands modèles de langage (LLM) peuvent désormais créer des mondes virtuels interactifs en générant du code complexe, rendant la création de jeux ou de simulations bien plus accessible."
+          "author_name": "Elon Musk",
+          "handle": "elonmusk",
+          "text_fr": "BREAKING: Elon Musk sur Optimus, et un avenir où l'argent pourrait ne plus avoir d'importance dans sa nouvelle interview avec CCTV : « Si vous pensez à Star Wars, où il y avait C-3PO et R2-D2, et qu'ils étaient des robots amicaux et serviables. Eh bien, ne serait-il pas formidable que chacun puisse avoir son propre C-3PO R2-D2 personnel ? Mais encore mieux que ça, comme plus productif. Cela pourrait prendre soin des parents âgés, assurer la garde et veiller sur les enfants. Ou être un professeur, comme un tuteur individualisé pour votre enfant. Et s'occuper de tous les travaux imaginables. Je pense que tout le monde aimerait avoir un avenir où ils peuvent avoir leurs propres robots personnels. Et alors, je pense que vous verrez de nombreuses entreprises où une personne travaille avec des centaines, voire des milliers de robots. Comme des robots physiques ainsi que des robots numériques. Ainsi, la productivité d'une personne sera grandement amplifiée. Et ma prédiction est qu'il y aura effectivement un revenu universel élevé. En fait, je ne suis pas sûr que l'argent ait encore d'importance à l'avenir. »",
+          "text_original": "BREAKING: Elon Musk on Optimus, and a future where money may not matter in his new interview with CCTV: “If you think like Star Wars, where you had C-3PO and R2-D2, and they were friendly, helpful robots. Well, wouldn't it be great if everyone could have their own personal C-3PO R2-D2? But even better than that, like more productive. That could take care of elderly parents, guardian and watch over the children. Or be a teacher, like an individualized tutor to your child. And taking care of any jobs that you can think of. I think everyone would like to have a future where they can have their own personal robots. And then I think you'll see many companies where it's one person with hundreds, maybe thousands of robots. Like physical robots as well as digital robots. So the productivity of one person will be greatly amplified. And my prediction is that there will be effectively universal high income. In fact, it's not clear to me that money will even matter in the future.” Video",
+          "link": "http://nitter.meowing.monster/cb_doge/status/2102612043232895446#m",
+          "decryptage": "Optimus est le nom du robot humanoïde développé par Tesla. Elon Musk imagine un futur où ces robots, à l'instar des droïdes de Star Wars, pourraient assister les humains dans de nombreuses tâches, potentiellement jusqu'à rendre le travail et l'argent moins importants."
         },
         {
           "author_name": "Elon Musk",
-          "handle": "@elonmusk",
-          "text_fr": "BREAKING : Elon Musk sur Optimus, et un futur où l'argent pourrait ne plus avoir d'importance dans sa nouvelle interview avec CCTV : « Si vous pensez comme dans Star Wars, où vous aviez C-3PO et R2-D2, et qu'ils étaient des robots amicaux et serviables. Eh bien, ne serait-il pas formidable que chacun puisse avoir son propre C-3PO R2-D2 personnel ? Mais même mieux que ça, plus productif. Qui pourrait s'occuper de parents âgés, servir de tuteur et surveiller les enfants. Ou être un enseignant, comme un tuteur individualisé pour votre enfant. Et s'occuper de tous les emplois auxquels vous pouvez penser. Je pense que tout le monde aimerait avoir un futur où ils peuvent avoir leurs propres robots personnels. Et ensuite, je pense que vous verrez de nombreuses entreprises où une personne travaille avec des centaines, voire des milliers de robots. Comme des robots physiques ainsi que des robots numériques. La productivité d'une personne sera donc considérablement amplifiée. Et ma prédiction est qu'il y aura effectivement un revenu universel élevé. En fait, il n'est pas clair pour moi que l'argent ait encore de l'importance à l'avenir. »",
-          "text_original": "BREAKING: Elon Musk on Optimus, and a future where money may not matter in his new interview with CCTV: “If you think like Star Wars, where you had C-3PO and R2-D2, and they were friendly, helpful robots. Well, wouldn't it be great if everyone could have their own personal C-3PO R2-D2? But even better than that, like more productive. That could take care of elderly parents, guardian and watch over the children. Or be a teacher, like an individualized tutor to your child. And taking care of any jobs that you can think of. I think everyone would like to have a future where they can have their own personal robots. And then I think you'll see many companies where it's one person with hundreds, maybe thousands of robots. Like physical robots as well as digital robots. So the productivity of one person will be greatly amplified. And my prediction is that there will be effectively universal high income. In fact, it's not clear to me that money will even matter in the future.”",
-          "link": "http://nitter.meowing.monster/cb_doge/status/2102612043232895446#m",
-          "decryptage": "Elon Musk envisage un futur où des robots très avancés (comme Optimus) réaliseraient la plupart des tâches, menant à une abondance économique telle que l'argent n'aurait peut-être plus la même importance."
+          "handle": "elonmusk",
+          "text_fr": "L'application de bureau Grok @Bot est encore plus rapide ! nous avons expédié 53 corrections de performance au cours des derniers jours : • reconnexion après une connexion instable : 60s → 0.7s • réveil de votre ordinateur portable : 23s → 1s • retour à la vue Ordinateur d'un bot : 868 ms → 27 ms • ouverture d'un chat avec un long bloc de code : 954 ms → 228 ms • l'onglet Média ne télécharge plus à chaque fois : 137 Mo → 0.7 Mo, plus des animations de barre latérale plus fluides, plus de chats saccadés avec beaucoup d'images, et une utilisation de la mémoire beaucoup plus faible au repos. il reste encore beaucoup à améliorer !",
+          "text_original": "the Grok @Bot desktop app just got even faster! we shipped 53 perf fixes over the past few days: • reconnecting after a flaky connection: 60s → 0.7s • waking your laptop: 23s → 1s • switching back to a bot's Computer view: 868ms → 27ms • opening a chat with a long code block: 954ms → 228ms • the Media tab no longer re-downloads every time: 137MB → 0.7MB plus smoother sidebar animations, no more jumpy screenshot-heavy chats, and much lower memory usage while idle. still more to improve!",
+          "link": "http://nitter.meowing.monster/poteto/status/2102504221648339170#m",
+          "decryptage": "Grok est un chatbot développé par xAI, la société d'IA d'Elon Musk. Cette mise à jour concerne l'amélioration des performances de son application de bureau."
         },
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Il est facile de considérer Jev comme « juste un classificateur ». Mais les gens (moi y compris) qui entraînent des modèles de type encodeur pour la classification depuis de nombreuses années savent qu'ils étaient généralement spécialisés et limités d'une manière ou d'une autre. La percée de Jev est qu'il se généralise bien. Et je dirais que la sauce secrète réside probablement plus dans les données que dans l'algorithme d'entraînement. (En plus d'une conception d'API soignée par-dessus.) Kun Chen (@kunchenguid) Le pauvre type prétend avoir construit Jev il y a un an mais personne ne s'en souciait, et maintenant Jev a volé la vedette. Beaucoup de gens disent « tu dois raconter ton histoire » ou « le marketing est important », et ils manquent complètement ce qui a réellement fait la différence ici. Je viens de regarder ce modèle Laya layaconvaiinnovations.com/ et : - il ne prend en charge que 512-1k de contexte... beaucoup de cas d'utilisation ne conviendront pas du tout - l'évaluation directe du modèle montre que sa précision est aussi bonne qu'un pile ou face. pour obtenir de bons résultats, vous devez d'abord l'affiner. Je suis désolé, mais ce n'est pas Jev. Il y a un fossé énorme entre une recherche intéressante et un produit utile. Vous pouvez 'raconter votre histoire' tant que vous voulez, mais vous ne pouvez pas blâmer Jev de vous voler la vedette quand Jev a fait tout le travail pour créer une solution bien emballée que tout le monde peut simplement prendre et utiliser. Jev n'est pas complètement nouveau d'un point de vue académique, tout comme ChatGPT n'a pas été le premier LLM. ne sous-estimez pas l'effort et la valeur à assembler quelque chose d'assez bon pour être adopté – cela fait toute la différence — http://shitter.thepixora.com/kunchenguid/status/2101534610710761923#m",
-          "text_original": "It’s easy to dismiss Jev it as “just a classifier”. But people (me included) who have been training encoder-style models for classification for many years know they were usually special-purpose and limited in some way. The breakthrough of Jev is that it generalizes well. And I’d say the secret sauce is probably more in the data than in the training algorithm. (Plus a nice API design on top of it.) Kun Chen (@kunchenguid) poor guy claim to have built Jev a year ago but no one cared, and now Jev stole all the thunder many people are saying “you gotta tell your story” or “marketing is important”, and they just completely missed what actually made the difference here i just looked into this laya model laya.convaiinnovations.com/ and: - it only supports 512-1k context… a lot of use cases won’t fit at all - evaluating the model directly shows its accuracy is as good as a coin flip. in order to get good results, you need to first fine tune it i’m sorry, but that’s not Jev there’s a massive gap between an interesting research and a useful product you can “tell your story” all you like, but you can’t blame Jev for stealing your thunder when Jev did all the work to make a well-packaged solution anyone can just grab and go Jev is not completely new from an academic sense, just like how ChatGPT was not the first LLM don’t underestimate the effort and value in putting together something that’s actually good enough for adoption - it makes all the difference — http://shitter.thepixora.com/kunchenguid/status/2101534610710761923#m",
-          "link": "http://shitter.thepixora.com/rasbt/status/2101672304358948992#m",
-          "decryptage": "Le succès de Jev, un nouveau type de modèle d'IA, ne vient pas seulement de sa technologie, mais surtout de la qualité des données utilisées pour son entraînement et de sa facilité d'utilisation, démontrant l'importance de la mise en produit."
+          "author_name": "Francois Chollet",
+          "handle": "fchollet",
+          "text_fr": "Je suis toujours convaincu qu'il y aura plus d'ingénieurs logiciels dans 5 ans qu'aujourd'hui. Et aucun d'entre eux ne lira ou n'écrira de code.",
+          "text_original": "I am still convinced there will be more software engineers in 5 years than there are today. And none of them will read or write code.",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/2102166827107500114#m",
+          "decryptage": "Cette déclaration suggère une transformation radicale du métier d'ingénieur logiciel, où la création d'applications pourrait se faire sans écrire directement de code, mais plutôt en utilisant l'IA."
         },
         {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Ne vous contentez pas de construire et de posséder vos propres modèles et systèmes d'IA en tant qu'entreprise, et il n'y aura pas d'apocalypse pour vous.",
-          "text_original": "Don’t pace building and owning your own AI models and systems as an enterprise, and there will be no doomsday for you",
-          "link": "http://nitter.jaydenha.uk/arthurmensch/status/2099525678097948945#m",
-          "decryptage": "Arthur Mensch conseille aux entreprises de développer leurs propres systèmes d'IA pour rester compétitives et éviter les risques liés à la dépendance technologique vis-à-vis de tiers."
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Nouvelles perspectives intéressantes sur le vieux débat AdamW vs Muon : Muon semble donner de meilleurs résultats car il réduit la mémorisation. Calc Consulting (@CalcCon) AdamW v.s. Muon : α, Overfitting, et Mémorisation. Une mise à jour rapide sur nos expériences WeightWatcher comparant AdamW avec le nouvel optimiseur Muon. Nous avons entraîné un modèle nanoGPT à tête unique avec les deux optimiseurs sur cinq graines. Nous avons ensuite utilisé WeightWatcher pour étudier le spectre de la matrice de poids et plusieurs formes de mémorisation. Le graphique supérieur montre la moyenne brute de α. AdamW produit des valeurs de α relativement stables. Muon est beaucoup plus bruyant. Ses ESD varient considérablement d'une couche à l'autre, ce qui rend l'estimation de α plus difficile de manière fiable. Mais la moyenne cache quelque chose d'important : 👉 Les couches individuelles tombent en dessous de α = 2. Notre théorie spectrale/RG prédit que ce régime peut être associé à un apprentissage pathologique spécifique à des exemples. Nous avons donc testé cette prédiction directement. Nous avons inséré des séquences aléatoires dans l'ensemble d'entraînement et mesuré si le modèle s'en souvenait en utilisant l'extraction exacte, le rappel de tokens, le rappel forcé par l'enseignant et l'exposition de canaris. Le résultat a été frappant. • AdamW a fortement mémorisé les séquences plantées. Plus tôt dans l'entraînement, il a atteint ~96 % de rappel exact de canaris de 32 tokens. • Muon a fortement supprimé ce type de mémorisation. À 10 000 étapes, le rappel forcé par l'enseignant était de ~62 % pour AdamW contre <1 % pour Muon. Il y a aussi une surprise : certaines couches Muon ont également α < 2. Donc α < 2 par lui-même n'est pas suffisant pour expliquer la mémorisation. C'est pourquoi nous recommandons d'examiner les couches individuelles de WeightWatcher et leurs ESD, et pas seulement la moyenne de α. Muon semble supprimer la mémorisation tout en produisant des ESD inhabituels qui rendent l'analyse conventionnelle de WeightWatcher plus difficile. Nous entraînons Muon beaucoup plus longtemps pour comprendre comment ces spectres évoluent. Si vous utilisez WeightWatcher et que vous essayez d'analyser des modèles entraînés avec Muon, n'hésitez pas à nous contacter pour obtenir de l'aide. #talkToChuck AdamW v.s. Muon : α, Overfitting, et Mémorisation. Une mise à jour rapide sur nos expériences WeightWatcher comparant AdamW avec le nouvel optimiseur Muon. Nous avons entraîné un modèle nanoGPT à tête unique avec les deux optimiseurs sur cinq graines. Nous avons ensuite utilisé WeightWatcher pour étudier le spectre de la matrice de poids et plusieurs formes de mémorisation. Le graphique supérieur montre la moyenne brute de α. AdamW produit des valeurs de α relativement stables. Muon est beaucoup plus bruyant. Ses ESD varient considérablement d'une couche à l'autre, ce qui rend l'estimation de α plus difficile de manière fiable. Mais la moyenne cache quelque chose d'important : 👉 Les couches individuelles tombent en dessous de α = 2. Notre théorie spectrale/RG prédit que ce régime peut être associé à un apprentissage pathologique spécifique à des exemples. Nous avons donc testé cette prédiction directement. Nous avons inséré des séquences aléatoires dans l'ensemble d'entraînement et mesuré si le modèle s'en souvenait en utilisant l'extraction exacte, le rappel de tokens, le rappel forcé par l'enseignant et l'exposition de canaris. Le résultat a été frappant. • AdamW a fortement mémorisé les séquences plantées. Plus tôt dans l'entraînement, il a atteint ~96 % de rappel exact de canaris de 32 tokens. • Muon a fortement supprimé ce type de mémorisation. À 10 000 étapes, le rappel forcé par l'enseignant était de ~62 % pour AdamW contre <1 % pour Muon. Il y a aussi une surprise : certaines couches Muon ont également α < 2. Donc α < 2 par lui-même n'est pas suffisant pour expliquer la mémorisation. C'est pourquoi nous recommandons d'examiner les couches individuelles de WeightWatcher et leurs ESD, et pas seulement la moyenne de α. Muon semble supprimer la mémorisation tout en produisant des ESD inhabituels qui rendent l'analyse conventionnelle de WeightWatcher plus difficile. Nous entraînons Muon beaucoup plus longtemps pour comprendre comment ces spectres évoluent. Si vous utilisez WeightWatcher et que vous essayez d'analyser des modèles entraînés avec Muon, n'hésitez pas à nous contacter pour obtenir de l'aide. #talkToChuck — http://shitter.thepixora.com/CalcCon/status/2100987746051658041#m",
-          "link": "http://shitter.thepixora.com/rasbt/status/2101312413643473255#m",
-          "decryptage": "Une nouvelle recherche suggère que l'optimiseur Muon aide les IA à mieux apprendre en réduisant leur tendance à simplement mémoriser les données d'entraînement, ce qui conduit à une meilleure généralisation."
-        },
-        {
-          "author_name": "Mark Chen",
-          "handle": "@markchen90",
-          "text_fr": "Deux choses à distinguer : Des humains ou des agents ont-ils examiné les données des utilisateurs dans le cadre de l'effort Navier Stokes ? Non. Utilisons-nous les retours des utilisateurs et les données anonymisées pour améliorer ChatGPT et Codex de manière holistique ? Oui. Et toutes les entreprises de LLM font de même. levent (@__alpoge__) « nous ne pouvons exclure que des données anonymisées dérivées de leur utilisation de nos produits aient contribué à améliorer nos modèles. » je veux dire bravo à eux pour avoir été francs. (jusqu'à présent, la preuve ressemble plus à une autre preuve d'explosion d'Euler que nous avions, sur laquelle nous faisions des jeux de mots vraiment stupides comme « criminale lisse », contrairement aux « les fluides idéaux explosent », beaucoup mieux, Tristan) je vais donc maintenant donner un peu de mon point de vue ici. j'aurais en fait été ravi de collaborer sur cela, il y a beaucoup de gens chez oai que j'aime (ok, certains ont été indirectement cons avec moi à cause de leur participation à toute la situation, mais je suis un grand garçon, je les aime toujours), je m'en fiche de la paternité de cette étape de toute façon, ça aurait pu être moi Tristan et tous les fte chez oai pour tout ce qui me concerne (sur quoi Tristan serait en désaccord :p). mais en entendant la conversation bruyante dans le couloir, surtout la partie où un prix du millénaire m'était offert si j'étais simplement retiré du papier, il était clair que le dé était jeté et que les choses étaient verrouillées. assez loufoque, non stratégique et inutile, car de mon côté, il s'agissait surtout de moi et de Claude qui nous amusions à faire du yolo sur des trucs aléatoires dans le coin plutôt que quoi que ce soit d'institutionnel. j'aime aussi l'idée que les laboratoires coopèrent, et encore mieux sur le progrès scientifique. C'est dommage ! — http://shitter.thepixora.com/__alpoge__/status/2097383870773748190#m",
-          "text_original": "Two things to distinguish: Did any human or agent look at user data as part of the Navier Stokes effort? No. Do we use user feedback and de-identified data to improve ChatGPT and Codex in a holistic way? Yes. And so does every LLM company. levent (@__alpoge__) “we cannot rule out that de-identified data derived from their usage of our products helped improve our models.” i mean props to them for straight coming clean. (so far the proof looks more along the lines of another euler blowup proof we had, off of whose ansatz naming we were making really stupid puns like “smooth criminale”, unlike the much better “ideal fluids explode”, Tristan) so i’ll now give a bit on my thinking here. i actually woulda been pumped to collaborate on this, there are a lot of people at oai i like (ok, clearly some were indirectly dicks to me because of being part of the whole situation, but im a big boy, i still like them), idgaf about authorship on that step anyway, coulda been me Tristan and every fte at oai for all i care (on that Tristan would disagree:p). but on hearing the loud convo in the hallway, especially the part where a millennium prize was offered if i’d just be removed from the paper, it was kinda clear the die had been cast and things were locked. pretty wacky, unstrategic, and unnecessary, since on my side things were mostly me and claude having a good time yoloing random stuff in the corner rather than anything institutional. i also like the idea of the labs cooperating, and even better on scientific progress. it’s a shame! — http://shitter.thepixora.com/__alpoge__/status/2097383870773748190#m",
-          "link": "http://shitter.thepixora.com/markchen90/status/2097400166554993041#m",
-          "decryptage": "Ce tweet clarifie deux points concernant la résolution du problème Navier-Stokes par OpenAI : les données utilisateur n'ont pas été directement utilisées pour cette tâche spécifique, mais le sont pour améliorer d'autres modèles comme ChatGPT. Il aborde aussi des questions de collaboration et de paternité scientifique."
+          "author_name": "Amjad Masad",
+          "handle": "amasad",
+          "text_fr": "Votre intelligence est fausse. Elle est artificielle. La mienne ? Elle est super. Super Intelligence. AKA SI. Aaron Rupar (@atrupar) Trump dit à l'ONU qu'il change officiellement le nom de l'Intelligence Artificielle en \"Super Intelligence\" et dit que tous les documents du gouvernement américain seront désormais modifiés pour faire référence à \"SI\" Vidéo — http://shitter.thepixora.com/atrupar/status/2102413962729968116#m",
+          "text_original": "Your intelligence is fake. It’s artificial. Mine? It’s super. Super Intelligence. Aka SI. Aaron Rupar (@atrupar) Trump tells the UN he is officially changing the name of Artificial Intelligence to \"Super Intelligence\" and says all US government documents will now be changed to refer to \"SI\" Video — http://shitter.thepixora.com/atrupar/status/2102413962729968116#m",
+          "link": "http://shitter.thepixora.com/amasad/status/2102489320766800002#m",
+          "decryptage": "Ce tweet fait référence à une déclaration de Donald Trump proposant de renommer l'IA en 'Super Intelligence'. L'auteur du tweet, Amjad Masad (PDG de Replit), semble jouer sur cette idée de façon ironique."
         }
       ],
       "outils": [
         {
           "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Présentation d'Atlas : le premier modèle mondial multimodal qui génère des images et des vidéos avec un contrôle de caméra parfait et les reconstruit en 3D. Modélisez le monde, déplacez la caméra et simulez l'espace et le temps. Vidéo",
+          "handle": "karpathy",
+          "text_fr": "Nous commençons à quitter le territoire où l'on testerait un LLM par ex. « crée un svg de pélican à vélo ». Comme idée pour le généraliser, j'ai été intéressé par ce que Opus 5 ferait si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1M de tokens (~10$) et lui demandais une render js de celui-ci. Opus a travaillé pendant ~2 heures et a écrit 5500 lignes de code qui ont rendu (procéduralement) l'histoire. C'est un peu bancal mais amusant. Mais il est un peu ahurissant que le LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout cela, et même que cela fonctionne. J'aime aussi ce genre d'exemples car personne de sensé ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où nous passons de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est ~gratuit ». Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels vous pouvez imaginer faire tomber des joueurs, par exemple ici pour participer à l'histoire du LoTR en tant que spectateur PNJ, ou l'un des personnages, ou etc. Quelque chose comme un GTA éphémère à la demande. La dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas auditer facilement leur travail car ils ne sont pas capables de percevoir nativement et efficacement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre des captures d'écran très lentement et méticuleusement à différents points, et il s'est trompé plusieurs fois et a créé beaucoup de choses bancales. Un exemple de capacité brute (multimodale, gameplay) qui, je pense, est encore très limité. Vidéo",
+          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2083749667410727319#m",
+          "decryptage": "LLM (Large Language Model) est un modèle de langage capable de comprendre et générer du texte. Ici, il est utilisé pour créer un environnement 3D interactif à partir d'une description textuelle, illustrant sa capacité à aller bien au-delà de la simple génération de texte."
+        },
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "karpathy",
+          "text_fr": "Plus de détails sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis le code source ici pour qu'il soit jouable dans le navigateur, modifiable, etc. karpathy.ai/lotr-movie/ Attendez-vous à GTA Hobbiton avant GTA VI :)",
+          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+          "link": "http://nitter.jaydenha.uk/karpathy/status/2083948654377996480#m",
+          "decryptage": "Ce tweet partage un lien vers une démo interactive permettant de tester le code généré par une IA pour créer une scène inspirée du Seigneur des Anneaux, dans le style du jeu vidéo GTA."
+        },
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "karpathy",
+          "text_fr": "Voici Atlas : le premier modèle de monde multimodal au monde qui génère des images et des vidéos avec un contrôle de caméra pixel par pixel et les reconstruit en 3D. Modélisez le monde, déplacez la caméra et simulez l'espace et le temps. Vidéo",
           "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
           "link": "http://nitter.jaydenha.uk/theworldlabs/status/2094839756329041984#m",
-          "decryptage": "Atlas est un nouveau modèle d'IA qui permet de créer des mondes virtuels en 3D à partir de descriptions, en générant des images et des vidéos avec un contrôle précis sur le mouvement de la caméra."
+          "decryptage": "Un 'modèle de monde multimodal' est une IA capable de comprendre et de générer des informations provenant de différentes sources (images, vidéos, texte) et de simuler le monde réel en 3D."
         },
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "MiMo-V2.6 est \"simplement\" le meilleur (pour l'instant). Malgré sa conception architecturale simple, il est actuellement numéro 1 dans les benchmarks ouverts (moyenne pondérée). Par \"simple\", j'entends un classique Grouped Query Attention (GQA) avec Sliding Window Attention (SWA) sur une minuscule fenêtre de 128 tokens. Cela souligne l'un des points que j'essaie de faire ces derniers mois : la plupart des progrès proviennent encore des données et des améliorations de la recette post-entraînement. Les variantes d'attention fantaisistes ne sont que des ajustements d'efficacité. Quelles sont les améliorations des données d'entraînement et de la recette ? L'équipe MiMo a partagé un rapport technique assez détaillé. Il y a beaucoup à digérer attentivement, mais en bref, quelques points se sont démarqués : 1. Une augmentation des tâches d'agent ; entraînement également sur différents harnais (la précision moyenne DeepSWE pass@1 sur des harnais réservés s'est améliorée d'environ 50 % -> 66 %). 2. De meilleurs signaux de récompense : ils ont remplacé un simple vérificateur de correction par un évaluateur agentique qui examine également les traces d'exécution. 3. Grands lots RL (1 568 invites × 16 déroulements = 25 088 trajectoires) et 2,7 à 3,7 milliards de jetons d'entraînement par mise à jour (on ne sait pas cependant ce que le prédécesseur utilisait). Artificial Analysis (@ArtificialAnlys) MiMo-V2.6-Pro fait ses débuts en tant que meilleur modèle open-weight sur l'indice d'intelligence Artificial Analysis (46). À 0,13 $ par tâche de l'indice d'intelligence, il se positionne sur la frontière de Pareto Intelligence vs Coût par Tâche. @Xiaomi vient de publier MiMo-V2.6-Pro, un modèle open-weight avec des avancées majeures en intelligence par rapport à son prédécesseur, MiMo-V2.5-Pro (Indice d'intelligence : 26). Malgré l'amélioration, il conserve le même prix attractif de 0,435 $ par 1 million de jetons d'entrée (avec une remise de cache de 99 %) et 0,87 $ par 1 million de jetons de sortie. Cela fait de MiMo-V2.6-Pro l'un des modèles les plus rentables à déployer. MiMo-V2.6-Pro est un modèle MoE avec 1,02 T de paramètres totaux et 42 milliards de paramètres actifs. Restez à l'écoute pour des analyses supplémentaires du modèle. Découvrez la ventilation complète des benchmarks de MiMo-V2.6-Pro ici : artificialanalysis.ai — http://shitter.thepixora.com/ArtificialAnlys/status/2102128560962187701#m",
-          "text_original": "MiMo-V2.6 is \"simply\" the best (for now). Despite its simple architecture design it's currently No.1 in the open-weight benchmarks (weighted average). With \"simple,\" I mean a classic Grouped Query Attention (GQA) with Sliding Window Attention (SWA) at a tiny 128-token window size. So, that underlines one of the points I've been trying to make in recent months: most of the progress still comes from the data and post-training recipe improvements. Fancy attention variants are just mostly efficiency tweaks. What are some of the training data improvements and recipe improvements? The MiMo team shared a pretty detailed technical report. Lots to carefully digest there, but in short, there are a few things that stood out: 1. An increase in agent tasks; also training across different harnesses (the average DeepSWE pass@1 accuracy on held-out harnesses improved from approximately 50% -> 66%). 2. Better reward signals: they replaced a simple correctness verifier with an agentic grader that looks at the execution traces as well. 3. Large RL batches (1,568 prompts × 16 rollouts = 25,088 trajectories) and 2.7–3.7 billion training tokens per update (unclear, though, what the predecessor used). Artificial Analysis (@ArtificialAnlys) MiMo-V2.6-Pro debuts as the top open weights model on the Artificial Analysis Intelligence Index (46). At $0.13 per Intelligence Index task, it lands on the Intelligence vs. Cost per Task Pareto frontier @Xiaomi has just released MiMo-V2.6-Pro, an open weights model with major advances in intelligence over its predecessor, MiMo-V2.5-Pro (Intelligence Index: 26). Despite the improvement, it retains the same attractive pricing at $0.435 per 1M input tokens (with a 99% cache-hit discount) and $0.87 per 1M output tokens. This makes MiMo-V2.6-Pro one of the most cost-efficient models to deploy. MiMo-V2.6-Pro is an MoE model with 1.02T total parameters and 42B active parameters. Stay tuned for additional analysis of the model. Check out MiMo-V2.6-Pro full benchmarking breakdown here: artificialanalysis.ai — http://shitter.thepixora.com/ArtificialAnlys/status/2102128560962187701#m",
-          "link": "http://shitter.thepixora.com/rasbt/status/2102394156731535413#m",
-          "decryptage": "MiMo-V2.6-Pro est un nouveau modèle d'IA performant et économique, classé comme le meilleur modèle 'open-weight' (dont les détails sont publics) selon des benchmarks récents, particulièrement efficace pour les tâches complexes."
+          "author_name": "Elon Musk",
+          "handle": "elonmusk",
+          "text_fr": "L'application de bureau Grok @Bot est encore plus rapide ! nous avons expédié 53 corrections de performance au cours des derniers jours : • reconnexion après une connexion instable : 60s → 0.7s • réveil de votre ordinateur portable : 23s → 1s • retour à la vue Ordinateur d'un bot : 868 ms → 27 ms • ouverture d'un chat avec un long bloc de code : 954 ms → 228 ms • l'onglet Média ne télécharge plus à chaque fois : 137 Mo → 0.7 Mo, plus des animations de barre latérale plus fluides, plus de chats saccadés avec beaucoup d'images, et une utilisation de la mémoire beaucoup plus faible au repos. il reste encore beaucoup à améliorer !",
+          "text_original": "the Grok @Bot desktop app just got even faster! we shipped 53 perf fixes over the past few days: • reconnecting after a flaky connection: 60s → 0.7s • waking your laptop: 23s → 1s • switching back to a bot's Computer view: 868ms → 27ms • opening a chat with a long code block: 954ms → 228ms • the Media tab no longer re-downloads every time: 137MB → 0.7MB plus smoother sidebar animations, no more jumpy screenshot-heavy chats, and much lower memory usage while idle. still more to improve!",
+          "link": "http://nitter.meowing.monster/poteto/status/2102504221648339170#m",
+          "decryptage": "Grok est un chatbot développé par xAI, la société d'IA d'Elon Musk. Cette mise à jour concerne l'amélioration des performances de son application de bureau."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "🛡️Présentation de Shieldstral, le modèle open-weight de Mistral pour la sécurité du contenu (3 milliards de paramètres), déployable sur l'appareil 🧵 mistral.ai/news/shieldstral",
+          "author_name": "Jeff Dean",
+          "handle": "JeffDean",
+          "text_fr": "Présentation d'OM-1, notre premier modèle de fondation robotique, généralisant en zéro-shot à n'importe quel robot : bras de table, bras industriels et humanoïdes. - appris directement à partir de données de manipulation humaine - pas de données téléop/robot - dextérité et efficacité proches du niveau humain - collaboration multi-robots Vidéo",
+          "text_original": "Introducing OM-1, our first robot foundation model, zero-shot generalizing to any robot: table-top arms, industrial arms and humanoids. - learned directly from human manipulation data - no teleop/robot data - close to human-level dexterity and efficiency - multi-robot collab Video",
+          "link": "http://RewardAI_/status/2099553899804053992#m",
+          "decryptage": "Un 'modèle de fondation robotique' est un système d'IA généraliste entraîné sur une grande quantité de données robotiques, capable ensuite d'être adapté à différentes tâches ou types de robots. 'Zéro-shot' signifie qu'il peut effectuer des tâches sans entraînement spécifique préalable."
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "JeffDean",
+          "text_fr": "Excités de nous associer à @DiscoLoopAI ! Ils recrutent activement dans l'ingénierie et la recherche - n'hésitez pas à nous contacter si la mission vous intéresse. Discovery Loop (@DiscoLoopAI) Introduction de Discovery Loop ♾. Nous construisons une IA pour mener des expériences à une échelle sans précédent et résoudre les plus grands obstacles dans la science et l'ingénierie. Nos fondateurs @JeffDean , @Sanjay_Ghemawat , @quocleix , @OriolVinyalsML ont contribué à construire l'infrastructure et les modèles d'IA qui ont fait évoluer le monde moderne. Maintenant, nous faisons évoluer la découverte elle-même. L'avenir ne peut pas attendre. En savoir plus sur : discoveryloop.com — http://shitter.thepixora.com/DiscoLoopAI/status/2085033268001587534#m",
+          "text_original": "Excited to partner with @DiscoLoopAI ! They are actively hiring across engineering & research - please reach out if the mission sounds interesting to you. Discovery Loop (@DiscoLoopAI) Introducing Discovery Loop ♾. We’re building AI to run experiments at unprecedented scale and to solve the biggest bottlenecks in science and engineering. Our founders @JeffDean , @Sanjay_Ghemawat , @quocleix , @OriolVinyalsML helped build the AI infrastructure and models that scaled the modern world. Now, we are scaling discovery itself. The future can't wait. Learn more at: discoveryloop.com — http://shitter.thepixora.com/DiscoLoopAI/status/2085033268001587534#m",
+          "link": "http://shitter.thepixora.com/LM_Braswell/status/2097720148451012848#m",
+          "decryptage": "Ce tweet annonce un partenariat avec une nouvelle entreprise, Discovery Loop, qui utilise l'IA pour accélérer la recherche scientifique et l'ingénierie."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "GoogleDeepMind",
+          "text_fr": "Nous introduisons Gemini 3.8 Live et 3.8 Live Extended Thinking – notre meilleure IA conversationnelle. Les modèles discutent, réfléchissent et gèrent les tâches en arrière-plan sans interrompre votre flux. 🧵",
+          "text_original": "We’re introducing Gemini 3.8 Live and 3.8 Live Extended Thinking – our best conversational AI. The models talk, think, and handle tasks in the background without breaking your flow. 🧵",
+          "link": "http://nitter.jaydenha.uk/GoogleDeepMind/status/2099907440422830269#m",
+          "decryptage": "Gemini est le nom de la famille de modèles d'IA de Google. Les versions 'Live' et 'Extended Thinking' suggèrent une capacité à converser de manière plus fluide et à anticiper les besoins de l'utilisateur pendant une conversation."
+        },
+        {
+          "author_name": "Mistral AI",
+          "handle": "MistralAI",
+          "text_fr": "🛡️Présentation de Shieldstral, le modèle open-weights de Mistral pour la sécurité du contenu, déployable sur appareil 🧵 mistral.ai/news/shieldstral",
           "text_original": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
           "link": "http://nitter.jaydenha.uk/MistralAI/status/2084684735725379637#m",
-          "decryptage": "Shieldstral est un modèle d'IA de Mistral conçu pour filtrer les contenus inappropriés. Il est open-source et peut fonctionner directement sur votre appareil, sans nécessiter de connexion internet constante."
+          "decryptage": "Shieldstral est un modèle d'IA de Mistral AI conçu pour filtrer le contenu potentiellement dangereux ou inapproprié. 'Open-weights' signifie que ses paramètres internes sont publics."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Annonce de Robostral Navigate, notre premier modèle pour la navigation embarquée : un modèle de navigation robotique de 8 milliards de paramètres qui guide les robots pour effectuer de manière autonome des tâches spécifiées en langage naturel. Caméra RVB unique. État de l'art sur R2R-CE. Vidéo",
+          "author_name": "Mistral AI",
+          "handle": "MistralAI",
+          "text_fr": "Annonce de Robostral Navigate, notre premier modèle de navigation pour la robotique : un modèle de navigation robotique de 8 milliards de paramètres qui guide les robots pour effectuer de manière autonome des tâches spécifiées en langage naturel. Caméra RVB unique. État de l'art sur R2R-CE. Vidéo",
           "text_original": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
           "link": "http://nitter.jaydenha.uk/MistralAI/status/2074856309438980145#m",
-          "decryptage": "Robostral Navigate est un modèle d'IA développé par Mistral AI, capable de diriger des robots pour naviguer dans un environnement et accomplir des tâches simplement en recevant des instructions écrites ou orales."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Aujourd'hui, nous publions Le Chaton L∃∀N, alias Leanstral 1.5. Il atteint les performances SOTA sur les benchmarks d'algèbre de niveau supérieur FATE-H et FATE-X et améliore la frontière de Pareto sur PutnamBench, résolvant 587/672 problèmes avec un budget 10 fois moins cher. 🧵",
-          "text_original": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
-          "link": "http://nitter.jaydenha.uk/mertunsal2020/status/2073046288208412960#m",
-          "decryptage": "Leanstral 1.5 est un modèle d'IA spécialisé dans les mathématiques avancées, capable de résoudre des problèmes complexes d'algèbre avec une grande efficacité et un coût réduit."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Mistral OCR 4 a transformé un examen de calcul manuscrit en LaTeX propre ! Nous lui avons donné une photo d'une page d'examen manuscrite. Le modèle a lu l'écriture manuscrite et a reconstruit chaque formule en texte numérique structuré. Sortie : Temps : 5.1s · Coût : 0,09 $. Les formules sont arrivées exactement comme il fallait – la partie difficile a été maîtrisée. Le graphique, malheureusement, n'a pas été redessiné. Mais c'est là le point révélateur : la plupart des outils OCR se contentent de décharger le texte et laissent tomber silencieusement la figure. OCR 4 a capté le graphique, l'a encadré et l'a marqué comme un graphique. Il n'est pas redessiné, mais il est lu et pris en compte. Vidéo Mistral AI (@MistralAI) Présentation de Mistral OCR 4. Il crée de la structure avec des boîtes englobantes, la classification des blocs et des scores de confiance en ligne dans 170 langues. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-          "text_original": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://nitter.jaydenha.uk/MistralAI/status/2069420263825895917#m",
-          "link": "http://nitter.jaydenha.uk/atomic_chat_hq/status/2069597176225796581#m",
-          "decryptage": "Mistral OCR 4 est un outil avancé de reconnaissance optique de caractères qui peut non seulement lire l'écriture manuscrite et la convertir en texte numérique (LaTeX), mais aussi identifier et structurer les éléments visuels comme les graphiques."
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Gestionnaires gérés dans l'API Gemini : un harnais d'agent mis à jour, une API de fichiers et des identifiants gérés. Les agents gérés de Gemini reçoivent un harnais mis à jour. antigravity-preview-09-2026 rapproche les outils et le comportement de l'agent de ce que vous obtenez dans l'Antigravity Coding Agent, il est disponible dès aujourd'hui dans le",
-          "text_original": "Article Managed Agents in the Gemini API: an updated agent harness, a Files API, and managed credentials Gemini managed agents are getting an updated harness. antigravity-preview-09-2026 brings the agent's tools and behavior closer to what you get in the Antigravity Coding Agent, it's live today in the",
-          "link": "http://nitter.jaydenha.uk/GoogleAIStudio/status/2100635173188432193#m",
-          "decryptage": "L'API Gemini de Google s'enrichit de fonctionnalités pour les 'agents gérés', permettant aux développeurs de créer des applications IA plus sophistiquées qui peuvent accéder à des fichiers et gérer des identifiants de manière sécurisée."
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "J'ai passé un très bon moment à expédier ceci aussi rapidement que possible avec l'équipe ! Les opportunités avec Jev vont exploser à l'avenir et je suis impatient de les voir. Harrison Chase (@hwchase17) 🖼️ UI améliorée pour les modèles Jev dans LangSmith Les agents vont dans des systèmes complexes de nombreux appels LLM. De nombreux appels LLM seront de type Jev (modèles de décision). Nous avons mis à jour la vue de traçage dans LangSmith pour afficher ces types d'appels (état, questions, choix, sortie) plus clairement ! — http://nitter.jaydenha.uk/hwchase17/status/2102470464735949263#m",
-          "text_original": "Had a really fun time shipping this out ASAP with the team! The opportunities with Jev are going to skyrocket in the future and looking forward to it Harrison Chase (@hwchase17) 🖼️ Improved UI for Jev models in LangSmith agents are going to complex systems of many llms calls many llm calls will be jev-like (decision models) we've updated tracing view in LangSmith to display these types of calls (state, questions, choices, output) more clearly! — http://nitter.jaydenha.uk/hwchase17/status/2102470464735949263#m",
-          "link": "http://nitter.jaydenha.uk/machyutaa/status/2102479899504054491#m",
-          "decryptage": "LangSmith a amélioré son interface pour mieux visualiser les 'modèles de décision' comme Jev, aidant les développeurs à comprendre et à déboguer les systèmes complexes d'IA composés de multiples appels à des modèles de langage."
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Jev pourrait être un nouveau type de modèle, mais une chose qui ne change pas, c'est le besoin d'observabilité. Vous devez toujours répondre à des questions comme \"quelles décisions Jev prend-il\" et \"ces décisions sont-elles bonnes pour mon cas d'utilisation ?\". Langsmith vous aide avec cela, cette nouvelle interface est très propre ! Harrison Chase (@hwchase17) 🖼️ UI améliorée pour les modèles Jev dans LangSmith Les agents vont dans des systèmes complexes de nombreux appels LLM. De nombreux appels LLM seront de type Jev (modèles de décision). Nous avons mis à jour la vue de traçage dans LangSmith pour afficher ces types d'appels (état, questions, choix, sortie) plus clairement ! — http://nitter.jaydenha.uk/hwchase17/status/2102470464735949263#m",
-          "text_original": "Jev might be a new type of model, but one thing that doesn't change is the need for observability you still need to answer questions like \"what decisions is jev making\" and \"are those decisions good for my use case\"? langsmith helps you with that, this new UI is very clean! Harrison Chase (@hwchase17) 🖼️ Improved UI for Jev models in LangSmith agents are going to complex systems of many llms calls many llm calls will be jev-like (decision models) we've updated tracing view in LangSmith to display these types of calls (state, questions, choices, output) more clearly! — http://nitter.jaydenha.uk/hwchase17/status/2102470464735949263#m",
-          "link": "http://nitter.jaydenha.uk/sydneyrunkle/status/2102472924267749499#m",
-          "decryptage": "La plateforme LangSmith offre désormais une meilleure visualisation pour Jev, un modèle d'IA décisionnel, permettant aux développeurs de suivre plus facilement les étapes et les choix effectués par ces modèles complexes."
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Les formes de réponse Jev sont désormais prises en charge nativement dans LangSmith ! Jev produit des sorties très simples, mais cela ne signifie pas qu'il a besoin de moins d'observabilité Harrison Chase (@hwchase17) 🖼️ UI améliorée pour les modèles Jev dans LangSmith Les agents vont dans des systèmes complexes de nombreux appels LLM. De nombreux appels LLM seront de type Jev (modèles de décision). Nous avons mis à jour la vue de traçage dans LangSmith pour afficher ces types d'appels (état, questions, choix, sortie) plus clairement ! — http://nitter.jaydenha.uk/hwchase17/status/2102470464735949263#m",
-          "text_original": "Jev response shapes supported natively in LangSmith now! Jev produces super simple outputs, but that doesn't mean it needs less observability Harrison Chase (@hwchase17) 🖼️ Improved UI for Jev models in LangSmith agents are going to complex systems of many llms calls many llm calls will be jev-like (decision models) we've updated tracing view in LangSmith to display these types of calls (state, questions, choices, output) more clearly! — http://nitter.jaydenha.uk/hwchase17/status/2102470464735949263#m",
-          "link": "http://nitter.jaydenha.uk/BraceSproul/status/2102479050463936765#m",
-          "decryptage": "LangSmith intègre désormais le support natif des sorties de Jev, un modèle d'IA utilisé pour la prise de décision, offrant une meilleure visibilité sur son fonctionnement même pour des résultats simples."
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Rejoignez @GoogleDeepMind pour une expérience audio immersive avec Gemini à SF la semaine prochaine ! Un mélange d'art créatif audio-visuel et de conversations en temps réel avec Gemini et les personnes derrière les modèles ! 📍 The Pearl, San Francisco 🗓️ Jeudi 24 septembre | 18h–22h",
-          "text_original": "Join @GoogleDeepMind for an immersive Gemini Audio experience in SF next week! A mix of creative Audio-Visual art and real-time conversations with Gemini and the folks behind the models! 📍 The Pearl, San Francisco 🗓️ Thursday, Sept 24 | 6–10 PM",
-          "link": "http://nitter.jaydenha.uk/thorwebdev/status/2099486872028225602#m",
-          "decryptage": "Google DeepMind organise un événement à San Francisco pour présenter une expérience audio immersive avec Gemini, mêlant art et discussions sur l'IA, permettant au public d'interagir avec l'IA et ses créateurs."
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Les constructeurs de Hyderabad, construisez avec Gemini ! Nous organisons un hackathon avec @gdg_hyd le 26 septembre. Détails et inscription : gdg.community.dev/e/mrcchy/",
-          "text_original": "Hyderabad Builders, Come build with Gemini! We’re hosting a hackathon with @gdg_hyd on Sept 26. Details and registration: gdg.community.dev/e/mrcchy/",
-          "link": "http://nitter.jaydenha.uk/chauhan_nilay16/status/2100996203051938192#m",
-          "decryptage": "Un hackathon dédié à Gemini est organisé à Hyderabad, invitant les développeurs à créer de nouvelles applications utilisant cette IA de Google, dans le but de stimuler l'innovation locale."
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Si vous avez essayé hyperframes, vous sauriez que la pile vidéo agentique est construite sur la génération de code, mais le code SWE-bench vs la vidéo codée qui semble vivante sont deux choses différentes. Nous avons construit le Code2Video Bench, en collaboration avec Google DeepMind et @Kaggle. Frontier Labs peut enfin devenir bon dans les tâches vidéo agentiques. Vidéo",
-          "text_original": "if you tried hyperframes, you would know the agentic video stack is being built on code-gen but SWE-bench code v.s. code-to-video that feels alive are two different things we built the Code2Video Bench, in collab w/ Google DeepMind & @Kaggle frontier labs can finally get good at agentic video tasks Video",
-          "link": "http://nitter.jaydenha.uk/HyperFrames_/status/2102084939026247684#m",
-          "decryptage": "Le 'Code2Video Bench' est un nouvel outil créé par HyperFrames, Google DeepMind et Kaggle, conçu pour évaluer et améliorer la capacité des IA à générer des vidéos à partir de code, une étape clé vers des robots plus autonomes."
+          "decryptage": "Ce modèle d'IA aide les robots à se déplacer et à accomplir des tâches en comprenant des instructions données en langage courant (comme 'va chercher le colis sur la table')."
         }
       ]
     }
   },
-  "processed_at": "2026-09-23T11:55:22",
+  "processed_at": "2026-09-23T12:12:53",
   "validation": {
-    "translated_pct": 98,
+    "translated_pct": 100,
     "with_decryptage_pct": 100,
-    "total": 43,
-    "needs_retranslation_count": 1
+    "total": 31,
+    "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-23T11:55:23"
+  "email_sent_at": "2026-09-23T12:12:54"
 }
