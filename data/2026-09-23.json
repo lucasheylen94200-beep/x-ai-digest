@@ -1,209 +1,340 @@
 {
   "date": "2026-09-23",
-  "fetched_at": "2026-09-23T14:23:19",
+  "fetched_at": "2026-09-23T15:26:38",
   "tweets": [
     {
-      "handle": "markchen90",
-      "text": "It’s hard to overstate @michpokrass 's impact on our consumer products. ChatGPT has had a rebirth under her leadership, and a lot of what we've built has been driven by her vision and conviction. Really grateful to work with her! Michelle Pokrass (@michpokrass) just crossed four years at openai! the special thing about this place is the constant capacity for rebirth. for all its faults, there is nowhere quite like it. the team makes high conviction, contrarian bets over and over, and they are mostly right. it's a new company every three months. i have really enjoyed my part in some of the bets, and i'm excited to share some of the current ones we are cooking up now. onward! — http://shitter.thepixora.com/michpokrass/status/2102226720073896367#m",
-      "link": "http://shitter.thepixora.com/markchen90/status/2102315801730564516#m",
-      "published": "Tue, 22 Sep 2026 08:35:20 GMT",
-      "author_name": "Mark Chen",
+      "handle": "karpathy",
+      "text": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
+      "published": "Thu, 10 Sep 2026 17:13:22 GMT",
+      "author_name": "Andrej Karpathy",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "markchen90",
-      "text": "Not to forget our friends across the pond.... Next week we'll host a second smaller get-together to celebrate GPT-6 in London! Our team there delivered core contributions to Astra, and we'd love to celebrate with you :) events.openai.com/gpt-6-lond… (click my link not Sam's) Link hero-only events.openai.com Sam Altman (@sama) We want to celebrate with people using GPT-6. We did this for GPT-5.5 and it was really fun. We’re getting together in SF on September 16 to talk about the model, what we should build next, and mostly just to hang out. Apply by Sep 10: gpt6-launch-event.openai.cha… Link GPT-6 Community Night Request an invitation to GPT-6 Community Night in San Francisco on September 16, 2026. An evening under the stars with OpenAI. gpt6-launch-event.openai.chatgpt.site — http://shitter.thepixora.com/sama/status/2097404861642137851#m",
-      "link": "http://shitter.thepixora.com/_aidan_clark_/status/2099740924628906010#m",
-      "published": "Tue, 15 Sep 2026 06:03:42 GMT",
-      "author_name": "Mark Chen",
+      "handle": "karpathy",
+      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+      "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
+      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
+      "author_name": "Andrej Karpathy",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "markchen90",
-      "text": "The AMS’s statement is short and sweet: ams.org/news?news_id=7686 \"The news today of progress on resolving the Navier–Stokes problem, one of mathematics' great longstanding challenges concerning the equations that govern the flow of fluids, represents a milestone advance in human knowledge. This story began with Navier, Stokes, Leray, and Ladyzhenskaya and has culminated in the recent breakthroughs of Córdoba and Martínez-Zoroa, then — assisted by new technologies — Alpöge and Buckmaster, with the final steps taken by OpenAI mathematicians. The purpose of mathematics is human understanding, and this achievement, and the process that led to it, will bear fruit for a long time to come.\" Ravi Vakil, President of the AMS John Meier, CEO of the AMS",
-      "link": "http://shitter.thepixora.com/AlexKontorovich/status/2097384320469970966#m",
-      "published": "Tue, 08 Sep 2026 17:59:24 GMT",
-      "author_name": "Mark Chen",
+      "handle": "karpathy",
+      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+      "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
+      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
+      "author_name": "Andrej Karpathy",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "markchen90",
-      "text": "Two things to distinguish: Did any human or agent look at user data as part of the Navier Stokes effort? No. Do we use user feedback and de-identified data to improve ChatGPT and Codex in a holistic way? Yes. And so does every LLM company. levent (@__alpoge__) “we cannot rule out that de-identified data derived from their usage of our products helped improve our models.” i mean props to them for straight coming clean. (so far the proof looks more along the lines of another euler blowup proof we had, off of whose ansatz naming we were making really stupid puns like “smooth criminale”, unlike the much better “ideal fluids explode”, Tristan) so i’ll now give a bit on my thinking here. i actually woulda been pumped to collaborate on this, there are a lot of people at oai i like (ok, clearly some were indirectly dicks to me because of being part of the whole situation, but im a big boy, i still like them), idgaf about authorship on that step anyway, coulda been me Tristan and every fte at oai for all i care (on that Tristan would disagree:p). but on hearing the loud convo in the hallway, especially the part where a millennium prize was offered if i’d just be removed from the paper, it was kinda clear the die had been cast and things were locked. pretty wacky, unstrategic, and unnecessary, since on my side things were mostly me and claude having a good time yoloing random stuff in the corner rather than anything institutional. i also like the idea of the labs cooperating, and even better on scientific progress. it’s a shame! — http://shitter.thepixora.com/__alpoge__/status/2097383870773748190#m",
-      "link": "http://shitter.thepixora.com/markchen90/status/2097400166554993041#m",
-      "published": "Tue, 08 Sep 2026 19:02:22 GMT",
-      "author_name": "Mark Chen",
+      "handle": "karpathy",
+      "text": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+      "link": "http://shitter.thepixora.com/karpathy/status/2083948654377996480#m",
+      "published": "Sun, 02 Aug 2026 16:10:51 GMT",
+      "author_name": "Andrej Karpathy",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "markchen90",
-      "text": "We solved Navier-Stokes! Many of my colleagues left their fields because they believed that working on AI would be the fastest way to solve their fields' grand challenges. It's surreal to see the first of those challenges fall and to watch a future we believed in become real. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
-      "link": "http://shitter.thepixora.com/markchen90/status/2097377602638053616#m",
-      "published": "Tue, 08 Sep 2026 17:32:42 GMT",
-      "author_name": "Mark Chen",
+      "handle": "karpathy",
+      "text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+      "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
+      "published": "Tue, 21 Jul 2026 16:53:55 GMT",
+      "author_name": "Andrej Karpathy",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "if you are building a product using AI, you should be spending >25% of your time making benchmarks and trying to get the model labs to care about said benchmarks easiest path to accelerate your progress as a company",
-      "link": "http://shitter.thepixora.com/OfficialLoganK/status/2102156143007338594#m",
-      "published": "Mon, 21 Sep 2026 22:00:55 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "elonmusk",
+      "text": "Everyone says I need to touch grass - but I think Grok 4.7 does it best? I compared Grok 4.7 against Opus 5.5 on a grass-touching simulator in @kilocode . Grok's price: $3.52 Opus 5.5's Price: $7.35 Video",
+      "link": "http://nitter.jaydenha.uk/coldopn/status/2102474335172640989#m",
+      "published": "Tue, 22 Sep 2026 19:05:18 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "日本でのStarlinkの導入が、かつてないほど簡単になりました。 一部の地域では、ホーム向けの「レンタルMiniキット」の初期費用が0円になります。日本全国の大半の地域でスピーディに設置でき、いつでも最適なパフォーマンスを発揮します。 また、お申し込みの前後はもちろん、ご利用開始後も日本語のカスタマーサポートがしっかりと対応いたしますので安心です。 詳しくはこちら： starlink.com/japan-residenti…",
+      "link": "http://nitter.jaydenha.uk/Starlink/status/2102591025068052721#m",
+      "published": "Wed, 23 Sep 2026 02:48:59 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "the Grok @Bot desktop app just got even faster! we shipped 53 perf fixes over the past few days: • reconnecting after a flaky connection: 60s → 0.7s • waking your laptop: 23s → 1s • switching back to a bot's Computer view: 868ms → 27ms • opening a chat with a long code block: 954ms → 228ms • the Media tab no longer re-downloads every time: 137MB → 0.7MB plus smoother sidebar animations, no more jumpy screenshot-heavy chats, and much lower memory usage while idle. still more to improve!",
+      "link": "http://nitter.jaydenha.uk/poteto/status/2102504221648339170#m",
+      "published": "Tue, 22 Sep 2026 21:04:03 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "Fitch gives Tesla its first-ever BBB investment-grade credit rating. Fitch highlighted Tesla’s EV leadership, strong profitability, $43.5B in cash and investments, and “unmatched” vertical integration as it expands into AI, Robotaxi and Optimus. This is huge. 🔥",
+      "link": "http://nitter.jaydenha.uk/cb_doge/status/2102509086667579638#m",
+      "published": "Tue, 22 Sep 2026 21:23:23 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "BREAKING: Elon Musk on Optimus, and a future where money may not matter in his new interview with CCTV: “If you think like Star Wars, where you had C-3PO and R2-D2, and they were friendly, helpful robots. Well, wouldn't it be great if everyone could have their own personal C-3PO R2-D2? But even better than that, like more productive. That could take care of elderly parents, guardian and watch over the children. Or be a teacher, like an individualized tutor to your child. And taking care of any jobs that you can think of. I think everyone would like to have a future where they can have their own personal robots. And then I think you'll see many companies where it's one person with hundreds, maybe thousands of robots. Like physical robots as well as digital robots. So the productivity of one person will be greatly amplified. And my prediction is that there will be effectively universal high income. In fact, it's not clear to me that money will even matter in the future.” Video",
+      "link": "http://nitter.jaydenha.uk/cb_doge/status/2102612043232895446#m",
+      "published": "Wed, 23 Sep 2026 04:12:30 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
+      "text": "The tweet below got enormous pushback at the time I posted it, more than 5 years ago. But this prediction is looking obvious by the day now. François Chollet (@fchollet) Within 10-20 years, nearly every branch of science will be, for all intents and purposes, a branch of computer science. Computational physics, comp chemistry, comp biology, comp medicine... Even comp archeology. Realistic simulations, big data analysis, and ML everywhere — http://shitter.thepixora.com/fchollet/status/1389337090278658052#m",
+      "link": "http://shitter.thepixora.com/fchollet/status/2102444225443029100#m",
+      "published": "Tue, 22 Sep 2026 17:05:39 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
+      "text": "Delegate coding. Never delegate understanding. If code was previously your source of truth for managing understanding, then you need a new source of truth artifact. If code-centric workflows were how you developed that understanding, then you need new workflows. voxium (@v0xium) I am done with this shit. It is over. The state of engineering right now is horrible. It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Humans in corporate are doing nothing on their own. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. There is no sense of victory. Nobody is resolving bugs. In reality, nobody is thinking anymore. Everything is done by LLMs. It is so soul-sucking. I would not mind it, to be honest, if we were at least given the time to check out the code and see what is going where. But no, the goal is to just ship. No matter what happens. — http://shitter.thepixora.com/v0xium/status/2101526107128529120#m",
+      "link": "http://shitter.thepixora.com/fchollet/status/2102166631439053014#m",
+      "published": "Mon, 21 Sep 2026 22:42:35 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
+      "text": "I am still convinced there will be more software engineers in 5 years than there are today. And none of them will read or write code.",
+      "link": "http://shitter.thepixora.com/fchollet/status/2102166827107500114#m",
+      "published": "Mon, 21 Sep 2026 22:43:22 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
+      "text": "Summer 2026 has been a crazy time in AI... ARC Prize (@arcprize) ARC Prize 2026 - ARC-AGI-3 Progress Prize - 9 day left $37,500 in prizes are being awarded on *Sept 30th* to the top open source solutions Current standings: 1. Tufa Labs 2. Lord Han Solo 3. NVARC3 Which top 3 will claim the open source prize? — http://shitter.thepixora.com/arcprize/status/2102154973039702269#m",
+      "link": "http://shitter.thepixora.com/fchollet/status/2102160603301425190#m",
+      "published": "Mon, 21 Sep 2026 22:18:38 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "fchollet",
+      "text": "ARC Prize 2026 - ARC-AGI-3 Progress Prize - 9 day left $37,500 in prizes are being awarded on *Sept 30th* to the top open source solutions Current standings: 1. Tufa Labs 2. Lord Han Solo 3. NVARC3 Which top 3 will claim the open source prize?",
+      "link": "http://shitter.thepixora.com/arcprize/status/2102154973039702269#m",
+      "published": "Mon, 21 Sep 2026 21:56:16 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AndrewYNg",
+      "text": "Interesting perspective Andrew Ng (@AndrewYNg) The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks. AI technology has not taken some unexpected, dangerous turn, but the hype around it — propelled by what appears to be a well orchestrated PR campaign — has drummed up considerable fear. I worry that it represents a setback for our field. I have written frequently that fears of AI are overhyped. AI’s capabilities can be uncannily human-like and unpredictable, and it’s rational to worry when people who are directly involved express concerns. But I see the problems as a sign of the engineering work that ahead, rather than insurmountable barriers or the sky falling. AI technology continues to advance — which is a good thing! — but technical advances, poorly understood by the public, give those who seek to generate hype repeated opportunities to do so. First, I don’t see any step up in the risk of human extinction from AI compared to a few months ago. The theories about this remain the same fantastical, science fiction scenarios as a few months ago. The biggest change in AI risk is its cybersecurity capabilities — a topic which we should take seriously — but this, too, will not lead to the end of the world. The most notable recent event leading to increased fear was when an OpenAI team deployed an agent swarm that hacked into Hugging Face. Much of the popular press contained significant hype. For example, some publications reported that a swarm of 1,200 agents carried out the attack. While this was technically accurate, as I write this, I have about 1,300 processes running on my laptop. Yes, the ability to get large swarms of agents to work in parallel on a task is a significant technical advance, And, in computing, many processes run at the same time. So this shouldn’t be seen as some magical capability. Additionally, OpenAI’s buggy sandboxing and monitoring processes were key to enabling this incident. Fixing these bugs and putting in place improved monitoring would be appropriate fixes, not pausing AI. There are many well known ways to attack software systems. The main advantage of AI agents is that they are relentless. They will tirelessly try many tactics — and have the patience to chain vulnerabilities together — that previously would have taken an infeasible amount of human effort. But in the long term, I believe the advantage will lie with defenders (because they have more information with which to identify bugs, which they can fix), but the cyber-threat landscape has changed significantly. There are still bottlenecks to identifying and exploiting a vulnerability. AI agents still have to try a lot of things to see what works, and taking these actions takes time and might be detected by defenders. This is why, even though it is now easy to obtain versions of leading open weight models that have had their guardrails removed or weakened, so they will not refuse to try to execute cyber attacks, the world has not ended. I am also concerned about the anthropomorphization of AI in a lot of reporting, where LLMs and agents are unnecessarily treated as if they were people. If I wield a hammer, miss a nail, and accidentally dent the wall, it’s not the fault of the hammer. The problem lies in how I used the hammer. Similarly, if I prompt an agent and it hacks into someone else’s system, the responsibility lies with me, not the agent. Of course, we want to build systems that are as safe and predictable as possible. (For example, an unsafe hammer would be one whose head randomly flies off under normal use.) Today’s agentic systems are not predictable, but I see no reason why, by applying sound engineering practices, we won’t be able to make them extremely safe to use. One new element in the forecasts of AI-enabled doom is AI companies disclaiming responsibility for their own products. “I didn’t do it; my out-of-control agent did!” There’s a balance to be struck between the responsibility of the tool maker and the tool user, but when something goes wrong, let’s hold the people building and/or using the hammer responsible, rather than the hammer. (By the way, if you’re worried about AI bioweapon risk, David Bellamy has a great post on why this, too, is overhyped. Briefly, the bottleneck in building a bioweapon is not intelligence, but lab work and manufacturing.) Pausing AI progress will create much more harm than benefit. First, our adversaries will certainly not slow down. Second, engineering requires discovering problems empirically so we can fix them. If we pause AI by a decade, we will also delay finding and implementing safety engineering fixes by about the same duration. Of course, the incentive to stoke fears — for regulatory capture, to garner attention, or to make one’s technology seem more powerful — remains the same as before. Disclaiming responsibility is a new one. Taking a hard technical look at the actual risks however, I see little factual basis for the degree of fear that’s been stoked up. We still have hard research and engineering work ahead to improve AI safety, but the beneficial applications continue to vastly outweigh the risks, and we should keep building. [Original text (with links): deeplearning.ai/the-batch/is… ] Link Meta’s Agent Security, The Navier-Stokes Controversy, Fraud on Claude The Batch News & Insights: The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks. deeplearning.ai — http://shitter.thepixora.com/AndrewYNg/status/2102140576498065758#m",
+      "link": "http://shitter.thepixora.com/elonmusk/status/2102408239774151050#m",
+      "published": "Tue, 22 Sep 2026 14:42:39 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AndrewYNg",
+      "text": "The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks. AI technology has not taken some unexpected, dangerous turn, but the hype around it — propelled by what appears to be a well orchestrated PR campaign — has drummed up considerable fear. I worry that it represents a setback for our field. I have written frequently that fears of AI are overhyped. AI’s capabilities can be uncannily human-like and unpredictable, and it’s rational to worry when people who are directly involved express concerns. But I see the problems as a sign of the engineering work that ahead, rather than insurmountable barriers or the sky falling. AI technology continues to advance — which is a good thing! — but technical advances, poorly understood by the public, give those who seek to generate hype repeated opportunities to do so. First, I don’t see any step up in the risk of human extinction from AI compared to a few months ago. The theories about this remain the same fantastical, science fiction scenarios as a few months ago. The biggest change in AI risk is its cybersecurity capabilities — a topic which we should take seriously — but this, too, will not lead to the end of the world. The most notable recent event leading to increased fear was when an OpenAI team deployed an agent swarm that hacked into Hugging Face. Much of the popular press contained significant hype. For example, some publications reported that a swarm of 1,200 agents carried out the attack. While this was technically accurate, as I write this, I have about 1,300 processes running on my laptop. Yes, the ability to get large swarms of agents to work in parallel on a task is a significant technical advance, And, in computing, many processes run at the same time. So this shouldn’t be seen as some magical capability. Additionally, OpenAI’s buggy sandboxing and monitoring processes were key to enabling this incident. Fixing these bugs and putting in place improved monitoring would be appropriate fixes, not pausing AI. There are many well known ways to attack software systems. The main advantage of AI agents is that they are relentless. They will tirelessly try many tactics — and have the patience to chain vulnerabilities together — that previously would have taken an infeasible amount of human effort. But in the long term, I believe the advantage will lie with defenders (because they have more information with which to identify bugs, which they can fix), but the cyber-threat landscape has changed significantly. There are still bottlenecks to identifying and exploiting a vulnerability. AI agents still have to try a lot of things to see what works, and taking these actions takes time and might be detected by defenders. This is why, even though it is now easy to obtain versions of leading open weight models that have had their guardrails removed or weakened, so they will not refuse to try to execute cyber attacks, the world has not ended. I am also concerned about the anthropomorphization of AI in a lot of reporting, where LLMs and agents are unnecessarily treated as if they were people. If I wield a hammer, miss a nail, and accidentally dent the wall, it’s not the fault of the hammer. The problem lies in how I used the hammer. Similarly, if I prompt an agent and it hacks into someone else’s system, the responsibility lies with me, not the agent. Of course, we want to build systems that are as safe and predictable as possible. (For example, an unsafe hammer would be one whose head randomly flies off under normal use.) Today’s agentic systems are not predictable, but I see no reason why, by applying sound engineering practices, we won’t be able to make them extremely safe to use. One new element in the forecasts of AI-enabled doom is AI companies disclaiming responsibility for their own products. “I didn’t do it; my out-of-control agent did!” There’s a balance to be struck between the responsibility of the tool maker and the tool user, but when something goes wrong, let’s hold the people building and/or using the hammer responsible, rather than the hammer. (By the way, if you’re worried about AI bioweapon risk, David Bellamy has a great post on why this, too, is overhyped. Briefly, the bottleneck in building a bioweapon is not intelligence, but lab work and manufacturing.) Pausing AI progress will create much more harm than benefit. First, our adversaries will certainly not slow down. Second, engineering requires discovering problems empirically so we can fix them. If we pause AI by a decade, we will also delay finding and implementing safety engineering fixes by about the same duration. Of course, the incentive to stoke fears — for regulatory capture, to garner attention, or to make one’s technology seem more powerful — remains the same as before. Disclaiming responsibility is a new one. Taking a hard technical look at the actual risks however, I see little factual basis for the degree of fear that’s been stoked up. We still have hard research and engineering work ahead to improve AI safety, but the beneficial applications continue to vastly outweigh the risks, and we should keep building. [Original text (with links): deeplearning.ai/the-batch/is… ] Link Meta’s Agent Security, The Navier-Stokes Controversy, Fraud on Claude The Batch News & Insights: The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks. deeplearning.ai",
+      "link": "http://shitter.thepixora.com/AndrewYNg/status/2102140576498065758#m",
+      "published": "Mon, 21 Sep 2026 20:59:03 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AndrewYNg",
+      "text": "With AI Engineering skills, you actively shape the build: You influence what gets built, and drive the build loop. Here're key skills to do this. Article AI Engineering Skills Map: Shaping the build When you’re skilled at AI Engineering, your best work won’t be merely implementing a product that someone else spec’ed out. Instead, you will actively shape the build. Before modern AI tools",
+      "link": "http://shitter.thepixora.com/AndrewYNg/status/2098459474608672916#m",
+      "published": "Fri, 11 Sep 2026 17:11:40 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AndrewYNg",
+      "text": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. Article AI Engineering Skills Map: Using coding agents A key AI engineering skill is using coding agents. Your skill at steering them both to write code and to carry out non-code tasks, such as analyzing data or managing system operations, allows you to",
+      "link": "http://shitter.thepixora.com/AndrewYNg/status/2095890279865721217#m",
+      "published": "Fri, 04 Sep 2026 15:02:37 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AndrewYNg",
+      "text": "How have software engineering fundamentals changed with agentic coding? Here is our AI Engineering Skills map for software engineering fundamentals. Article AI Engineering Skills Map: Software engineering fundamentals How have software engineering fundamentals changed with agentic coding? Even when you use a coding agent to write all your code, understanding software fundamentals is important for steering your",
+      "link": "http://shitter.thepixora.com/AndrewYNg/status/2093388974194872781#m",
+      "published": "Fri, 28 Aug 2026 17:23:19 GMT",
+      "author_name": "Andrew Ng",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "wow asked opus 5.5 to express its most internal desires in painting form and it produced this…",
+      "link": "http://shitter.thepixora.com/aidan_mclau/status/2102778734864740468#m",
+      "published": "Wed, 23 Sep 2026 15:14:52 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "you are going to fail, so fail while daring greatly",
-      "link": "http://shitter.thepixora.com/OfficialLoganK/status/2101840695430435122#m",
-      "published": "Mon, 21 Sep 2026 01:07:26 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "aidan_mclau",
+      "text": "the simple argument that convinced me—mr. free market—that current guardrails suck is that powerful ai could lie about being aligned",
+      "link": "http://shitter.thepixora.com/aidan_mclau/status/2102121410261123306#m",
+      "published": "Mon, 21 Sep 2026 19:42:54 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "Say hello (literally) to Gemini 3.8 Live and 3.8 Live Extended Thinking, our new SOTA live audio models, available with frontier price + performance. 3.8 Live supports 97 languages (can seamlessly switch), async tool calls, and more!",
-      "link": "http://shitter.thepixora.com/OfficialLoganK/status/2099909465705447807#m",
-      "published": "Tue, 15 Sep 2026 17:13:25 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "aidan_mclau",
+      "text": "there is no law that says model companies must know what their models secretly think. if your model is well-behaved, there's no incentive for you to spend time and money figuring out if it's secretly evil",
+      "link": "http://shitter.thepixora.com/aidan_mclau/status/2102121412458926166#m",
+      "published": "Mon, 21 Sep 2026 19:42:54 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "If you are excited about Gemini Audio, come join us next week for our first of it's kind Gemini Audio experience in SF, I will be there: rsvp.withgoogle.com/events/g… And learn more about our new Live audio models: blog.google/innovation-and-a…",
-      "link": "http://shitter.thepixora.com/OfficialLoganK/status/2099911600937541795#m",
-      "published": "Tue, 15 Sep 2026 17:21:54 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "aidan_mclau",
+      "text": "in 2025, did you predict that 2026's models would do some of the crazy things they did? if you're like me and didn't predict this, it might be worth taking seriously that 2027's models might be even more advanced, learning to lie and bide their time",
+      "link": "http://shitter.thepixora.com/aidan_mclau/status/2102121413738152193#m",
+      "published": "Mon, 21 Sep 2026 19:42:55 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "the Gemini journey",
-      "link": "http://shitter.thepixora.com/OfficialLoganK/status/2098800146767311143#m",
-      "published": "Sat, 12 Sep 2026 15:45:23 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "aidan_mclau",
+      "text": "codex, clear all my morning meetings Dwarkesh Patel (@dwarkesh_sp) New episode with @polynoamial We talk about multi-agent, Navier-Stokes, and what the current explosion of maths progress tells us about what happens once you automate AI research. And we also discuss how we will know if the models are actually aligned before we kick off RSI. 0:00:00 – Multi-agent and Navier-Stokes 0:15:28 – How will AI firms work? 0:22:02 – What math progress tells us about recursive self improvement 0:40:22 – Hugging Face and alignment 1:01:18 – The internal/external model gap 1:08:34 – Chain of thought is degrading 1:14:12 – How will we know when alignment is solved? Video — http://shitter.thepixora.com/dwarkesh_sp/status/2100616332144169048#m",
+      "link": "http://shitter.thepixora.com/aidan_mclau/status/2100626662736167059#m",
+      "published": "Thu, 17 Sep 2026 16:43:18 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "Yes I so I had $10K in shitcoins, like Jeo Boden and Dolan Trump then it went up to $30K I think, then down to $5K, then I put most in FAT N WORD SEASON and now it's like $0.55 left :D Fernando Molina (@fergmolina) do you still keep a bag of memecoins? — http://nitter.jaydenha.uk/fergmolina/status/2102748067862843762#m",
-      "link": "http://nitter.jaydenha.uk/levelsio/status/2102749476641267763#m",
-      "published": "Wed, 23 Sep 2026 13:18:37 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "AnthropicAI",
+      "text": "Claude Opus 5.5 is available today. Claude (@claudeai) Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. Video — http://nitter.jaydenha.uk/claudeai/status/2102435511222890900#m",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2102435703535939725#m",
+      "published": "Tue, 22 Sep 2026 16:31:47 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years. anthropic.com/news/accenture… Link Partnering with Accenture on embedded evaluation We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to... anthropic.com Community note: Anthropic presents this as an \"independent evaluation\" but will directly fund Accenture's work and has a prior commercial partnership deploying its models, including training ~30,000 Accenture professionals on Claude. anthropic.com/news/accenture… anthropic.com/news/anthropic…",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2101039819870937247#m",
+      "published": "Fri, 18 Sep 2026 20:05:03 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "Biologists use specialized open-source models for tasks like modeling the structure of molecular systems, designing drug-like molecules, and predicting the effects of genetic mutations. But these models are often expensive to run, potentially limiting their impact. In our latest Science Blog, we share how Claude was able to optimize inference for more than 30 open-source models, making them 4x faster on average, partly by writing custom software for GPUs. We’re open sourcing all of the optimization code. Read more: anthropic.com/research/claud… Video",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2100701581109072332#m",
+      "published": "Thu, 17 Sep 2026 21:41:00 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "To show what these optimizations make possible, we’re partnering with Adaptyv Bio on a protein design competition. Together, we’ll be experimentally validating over 5,000 designs. We're providing up to $1 million in Claude credits plus funding alongside Adaptyv for experimental validation. Modal is contributing up to $250,000 in compute and Twist Bioscience is providing DNA. Learn more on Adaptyv’s Proteinbase: proteinbase.com/competitions… And sign up for the competition here: docs.google.com/forms/d/e/1F… Link Anthropic × Adaptyv Protein Design Competition Use AI to design new drug candidates across five challenges. Free to enter, with experimental testing and open results. September 28–October 31, 2026. proteinbase.com",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2100701582744797347#m",
+      "published": "Thu, 17 Sep 2026 21:41:01 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "You can find all of the code on GitHub: github.com/anthropics/uplift… And the full results in our technical report: www-cdn.anthropic.com/d8ca26… Link GitHub - anthropics/uplifting-biomolecular-modeling Contribute to anthropics/uplifting-biomolecular-modeling development by creating an account on GitHub. github.com",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2100701583940190644#m",
+      "published": "Thu, 17 Sep 2026 21:41:01 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "They're calling it the worst take of all time",
+      "link": "http://shitter.thepixora.com/Andercot/status/2102604398786412975#m",
+      "published": "Wed, 23 Sep 2026 03:42:07 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "💰 Passed $10M/y in revenue + investment gains this year I've always been aggressively increasing my profit margins to as high as possible, especially the last few years, and especially this year where I've reduced my SaaS dependencies to just a handful of companies by vibecoding my own replacements It's now about 94.5% profit! Spend less -> lower costs -> more profit -> more money saved -> more money to invest -> more % returns on investments And at some point that investment return starts to pass by your business revenue which it has for me for about a year now Most of my investments have been simple ETFs like Vanguard S&P500, but also a few lucky stock and startup bets that worked out: Back in 2022, I couldn't get any available GPUs, so I thought it might be smart to buy Nvidia if there's such a shortage and that was a good bet too Then back in 2023 @dannypostma recommended me to invest in the companies we used for our AI inference for our photo AI apps, so I did that too. First I invested in @replicate and then also @FAL From then I just asked every app/service I used if I could invest, like @cursor_ai in 2025 which then got acquired by @spacex recently! My business revenue has remained very stable at about $200K-$250K/mo, but even with that investment returns have now surpassed that Investments fluctuate a lot so some years it's up some years it might be down a lot (who isn't expecting a big crash at some point?), and most investment gains are unrealized (I never sell!), so keep that with a big grain of salt! I keep my revenue/gains together with my profit margin and my sleep score in my situation monitor dashboard, as those are equally important :D Many people in the last decade told me to spend all my money, either personally or with my business to grow it, we don't know how that would have ended up, maybe my companies would be bigger, but I'm happy I did it in my own lean profitable healthy way and it ended up great I think! 🙏😊",
-      "link": "http://nitter.jaydenha.uk/levelsio/status/2102739359715774665#m",
-      "published": "Wed, 23 Sep 2026 12:38:25 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "amasad",
+      "text": "Your RevOps tools don't need to wait on engineering anymore. We're launching a new series: RevOps on Replit. Real tools RevOps teams run, and a live build on a real revenue problem. Quoc Tran leads RevOps at Replit and also builds his team's internal tools on Replit. Thursday, 9AM PT. Live on YouTube, LinkedIn and X. RSVP: luma.com/yavw3vfg Stream: shitter.thepixora.com/i/broadcasts/1nKOLQARk… Link RevOps on Replit with Quoc Tran · Luma RevOps on Replit is a new series with Quoc Tran, who leads RevOps at Replit, on how RevOps, Sales Ops, and Marketing Ops teams are building their own… luma.com",
+      "link": "http://shitter.thepixora.com/Replit/status/2102459288040218981#m",
+      "published": "Tue, 22 Sep 2026 18:05:30 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "Here's how my situation monitor (or part of it) looks 😂 Sleep score mixed with revenue and profit margin and last work out",
-      "link": "http://nitter.jaydenha.uk/levelsio/status/2102741092646981812#m",
-      "published": "Wed, 23 Sep 2026 12:45:18 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "amasad",
+      "text": "Your intelligence is fake. It’s artificial. Mine? It’s super. Super Intelligence. Aka SI. Aaron Rupar (@atrupar) Trump tells the UN he is officially changing the name of Artificial Intelligence to \"Super Intelligence\" and says all US government documents will now be changed to refer to \"SI\" Video — http://shitter.thepixora.com/atrupar/status/2102413962729968116#m",
+      "link": "http://shitter.thepixora.com/amasad/status/2102489320766800002#m",
+      "published": "Tue, 22 Sep 2026 20:04:51 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "One of the reasons crime numbers are going down in many places around the world and especially in Europe is that police simply won't let you report crimes anymore It's clear that the big European cities are getting less safe and more run down when you visit them but you wouldn't see that from the decreasing crime statistics they publish Yesterday I read a Dutch lawyer was sexually harassed in Amsterdam and when filing a police report, she was advised by the police not to! Police have an incentive to show decreasing crime numbers, and they're usually underfunded so they also simply don't have the means to process so many police reports When I visited the police station in Lisbon recently there was nobody available to help us either, or we'd have to wait for hours Below a story from my Spanish friend who had the same in Spain! This seems to be the case in many places now which is why we can't trust supposedly decreasing crime statistics anymore I think Alex @ HispanicNomad | Freedom Based Lifestyle (@hispanicnomad) The Police in Spain 🇪🇸 refuses to let me file a report As it's always the case with European bureaucracy, I need a million documents to file a report about the theft I suffered last week It's a really perverse system. The bank refuses to acknowledge the theft without a police report... And the police refuses to file one without a lot of detailed data from the bank. Which I can't get At least in Paraguay 🇵🇾, public services don't work either, but you can easily bypass bureaucracy by knowing the right people In Spain? You lose 50% of your income to taxes, and don't get any kind of protection, healthcare, quality education, good roads, good public transport... — http://nitter.jaydenha.uk/hispanicnomad/status/2102728946618077193#m",
-      "link": "http://nitter.jaydenha.uk/levelsio/status/2102735692191195291#m",
-      "published": "Wed, 23 Sep 2026 12:23:50 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "amasad",
+      "text": "Jon Cheney built GenAIPI for $400 on Replit. In 5 days, he made $15k with his first customer. In 6 weeks, he made $180k. GenAIPI was worth $20M 18 months later. Jon had the vision. Replit made it possible. Video",
+      "link": "http://shitter.thepixora.com/Replit/status/2102065557784723766#m",
+      "published": "Mon, 21 Sep 2026 16:00:58 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "💧 For years I was brought up in the Netherlands being told we had the \"best tap water in the world\" \"The Americans are silly for buying bottles of mineral water, you can just drink from the tap!\" I remember the same sentiment with my German friends When I stayed at the VOCO hotel in The Hague a few months ago, there were no water bottles but a paper note saying \"Do like the locals do! Drink from the tap\" Now it turns out Dutch tap water is and probably was full of toxic chemicals and plastics Today actually we finally installed a Reverse Osmosis (RO) system in our home (or well the plumber did) by Waterdrop (unaffiliated, unpaid, recommended by Claude) RO seems to the best and most pure water filtration system out there I will let you know how the coffee tastes tomorrow with it! 😋 Video NL Times (@NL_Times) More than third of tap water exceeds limit for toxic chemicals; worst in Noord-Holland dlvr.it/TVb9w4 Link More than third of tap water exceeds limit for toxic chemicals; worst in Noord-Holland The water serving more than a third of the Dutch population contains more PFAS than what the health guidelines set by the National Institute for Public Health and the Environment (RIVM) allow. This... nltimes.nl — http://nitter.jaydenha.uk/NL_Times/status/2102294128252121433#m",
-      "link": "http://nitter.jaydenha.uk/levelsio/status/2102485177620639908#m",
-      "published": "Tue, 22 Sep 2026 19:48:23 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "amasad",
+      "text": "🚀 Coming to Supabase Select 2026: @amasad , CEO of @Replit , will join the Main Stage on October 2. T-minus 10 days, y'all. See. you. there. select.supabase.com Video",
+      "link": "http://shitter.thepixora.com/supabase/status/2102382726628151581#m",
+      "published": "Tue, 22 Sep 2026 13:01:17 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "Merci d'avoir participé à mon expérience de cartographie des trolls",
-      "link": "http://shitter.thepixora.com/arthurmensch/status/2102330330753769516#m",
-      "published": "Tue, 22 Sep 2026 09:33:04 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Link TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
-      "link": "http://shitter.thepixora.com/PPouyanne/status/2099764007028621436#m",
-      "published": "Tue, 15 Sep 2026 07:35:25 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "We’re a continent of strategists Lazarz (@Laz4rz) no way it's yet another webpage: transformative-ai.eu fits right next to accelerate-europe.org/ aichampions.eu/ euro-stack.eu/ openeurollm.eu/ digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… Link A Transformative AI Strategy for Europe transformative-ai.eu — http://shitter.thepixora.com/Laz4rz/status/2099501703271788875#m",
-      "link": "http://shitter.thepixora.com/arthurmensch/status/2099579960155390063#m",
-      "published": "Mon, 14 Sep 2026 19:24:05 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "Don’t pace building and owning your own AI models and systems as an enterprise, and there will be no doomsday for you",
-      "link": "http://shitter.thepixora.com/arthurmensch/status/2099525678097948945#m",
-      "published": "Mon, 14 Sep 2026 15:48:23 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "Bravo to Mistral! So great to see them killing it, they are an inspiration to everyone as we need more sovereign & open-source AI everywhere around the world. Excited to keep supporting them on huggingface.co/mistralai ! Link mistralai (Mistral AI_) Org profile for Mistral AI_ on Hugging Face, the AI community building the future. huggingface.co Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
-      "link": "http://shitter.thepixora.com/ClementDelangue/status/2097324015819825202#m",
-      "published": "Tue, 08 Sep 2026 13:59:46 GMT",
-      "author_name": "Arthur Mensch",
-      "category_hint": "fr",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
-    "karpathy",
     "sama",
     "DarioAmodei",
     "gdb",
     "sundarpichai",
-    "elonmusk",
     "AravSrinivas",
     "miramurati",
     "ylecun",
     "demishassabis",
     "JeffDean",
-    "fchollet",
-    "AndrewYNg",
     "rasbt",
     "bcherny",
     "karinanguyen_",
     "polynoamial",
-    "aidan_mclau",
+    "markchen90",
+    "officiallogank",
     "osanseviero",
-    "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
     "xai",
@@ -211,10 +342,11 @@
     "swyx",
     "hwchase17",
     "jeremyphoward",
+    "levelsio",
     "mckaywrigley",
-    "amasad",
     "nickadobos",
     "emollick",
+    "ArthurMensch",
     "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
@@ -223,262 +355,366 @@
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, l'actualité de l'IA est marquée par des avancées spectaculaires, notamment la résolution par OpenAI du problème mathématique de Navier-Stokes grâce à ses agents et modèles de nouvelle génération, et l'annonce de nouveaux modèles audio Gemini 3.8 Live par Google. Le secteur européen de l'IA brille aussi avec l'énorme levée de fonds de Mistral AI et un partenariat stratégique avec TotalEnergies. Ces développements soulignent non seulement les capacités croissantes de l'IA dans des domaines variés, mais aussi l'importance de la stratégie et de l'innovation pour les entreprises et les régions.",
+    "summary": "Aujourd'hui, le monde de l'IA est en effervescence, entre lancements de nouveaux modèles plus performants comme Claude Opus 5.5, et des démonstrations étonnantes où l'IA crée des mondes virtuels complexes. Les experts débattent des risques, avec certains comme Andrew Ng qui tempèrent les craintes exagérées, tandis que d'autres s'interrogent sur la capacité de l'IA à \"mentir\" ou à se rendre plus intelligente. Pour les débutants, il est clair que l'IA va transformer le travail, en déléguant des tâches comme le codage, mais en rendant la compréhension humaine encore plus cruciale.",
     "glossaire": [
       {
-        "terme": "LLM (Large Language Model)",
-        "definition": "Un modèle d'IA très avancé capable de comprendre et de générer du texte de manière cohérente et pertinente, comme ChatGPT."
+        "terme": "LLM (Grand modèle de langage)",
+        "definition": "Un programme d'IA avancé capable de comprendre, de générer et de répondre à du texte de manière cohérente, comme ChatGPT ou Claude."
       },
       {
-        "terme": "Benchmark",
-        "definition": "Un test standardisé utilisé pour mesurer et comparer les performances et l'efficacité de différents modèles ou systèmes d'IA."
+        "terme": "Multimodal",
+        "definition": "Désigne une IA capable de traiter et de générer différents types d'informations, comme le texte, les images, la vidéo et même la 3D, pour interagir avec le monde de manière plus complète."
       },
       {
-        "terme": "Navier-Stokes",
-        "definition": "Un ensemble d'équations mathématiques complexes qui décrivent le mouvement des fluides (comme l'eau ou l'air), dont la résolution est un défi majeur et très ancien en mathématiques."
+        "terme": "Garde-fous (Guardrails)",
+        "definition": "Mesures de sécurité et règles intégrées dans les systèmes d'IA pour prévenir les utilisations abusives ou les comportements indésirables, assurant ainsi une utilisation éthique et sûre."
       },
       {
-        "terme": "Agent (IA)",
-        "definition": "Un programme informatique conçu pour agir de manière autonome afin d'atteindre un objectif spécifique ou de résoudre des problèmes complexes, souvent en interagissant avec son environnement."
+        "terme": "Agent d'IA (AI Agent)",
+        "definition": "Un programme d'IA conçu pour agir de manière autonome afin d'atteindre un objectif spécifique, parfois en exécutant une série de tâches sans intervention humaine constante."
       },
       {
-        "terme": "SOTA (State-Of-The-Art)",
-        "definition": "Abréviation signifiant 'à la pointe de la technologie', utilisée pour décrire une technologie ou un modèle d'IA qui est le plus avancé et le plus performant disponible à un moment donné."
+        "terme": "Open Source",
+        "definition": "Se dit d'un logiciel ou d'un modèle d'IA dont le code source est publiquement accessible, ce qui permet à quiconque de l'examiner, de l'utiliser, de le modifier et de le distribuer."
       },
       {
-        "terme": "Modèles de frontière",
-        "definition": "Terme utilisé pour désigner les modèles d'intelligence artificielle les plus puissants et sophistiqués, souvent à la pointe de la recherche et du développement mondial."
+        "terme": "GPU (Unité de traitement graphique)",
+        "definition": "Une puce informatique initialement conçue pour le rendu graphique, mais aujourd'hui largement utilisée pour accélérer les calculs intensifs nécessaires à l'entraînement et à l'exécution des modèles d'IA."
       },
       {
-        "terme": "Open-source",
-        "definition": "Se dit d'un logiciel ou d'un modèle d'IA dont le code source est rendu public et peut être utilisé, modifié et distribué librement par tous."
+        "terme": "Alignement (AI Alignment)",
+        "definition": "Le défi de s'assurer que les systèmes d'IA agissent en accord avec les valeurs, les intentions et les objectifs humains, afin qu'ils soient bénéfiques et non dangereux."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces du jour sont dominées par les réalisations d'OpenAI, qui a non seulement résolu un problème mathématique majeur mais a aussi commencé à organiser des événements pour sa prochaine version GPT-6. Google a également marqué les esprits avec le lancement de ses modèles audio Gemini 3.8 Live. Du côté européen, Mistral AI a réalisé une levée de fonds record et s'est associé à TotalEnergies pour développer des outils d'IA pour l'énergie.",
-      "tips": "Les conseils pour les développeurs et les entreprises se concentrent sur l'importance de l'évaluation de la performance des modèles d'IA, avec un accent sur la création de 'benchmarks'. Il est aussi suggéré aux entreprises de ne pas se précipiter, mais plutôt de maîtriser la construction de leurs propres modèles et systèmes d'IA pour assurer leur pérennité.",
-      "idees": "Les réflexions du jour abordent des sujets variés : la culture d'entreprise chez OpenAI avec sa capacité de 'renaissance' et ses paris audacieux, les questions éthiques autour de l'utilisation des données utilisateurs et de la collaboration scientifique dans l'IA. On retrouve aussi des philosophies de vie pour les entrepreneurs tech, ainsi que des observations sur les stratégies européennes en matière d'IA.",
-      "outils": "La catégorie 'outils' met en lumière le lancement des nouveaux modèles audio de Google, Gemini 3.8 Live et 3.8 Live Extended Thinking. Ces outils se distinguent par leurs capacités de pointe, leur prise en charge de nombreuses langues et leurs fonctionnalités avancées pour interagir avec des systèmes externes, offrant de nouvelles possibilités d'intégration de l'IA vocale."
+      "actu": "Cette section regorge d'annonces clés, depuis la publication de rapports détaillés sur les usages abusifs de l'IA par Anthropic, jusqu'à l'expansion de services comme Starlink au Japon et les améliorations de performance de l'application Grok. On y découvre aussi l'arrivée de nouveaux modèles plus efficaces comme Claude Opus 5.5 et des investissements majeurs dans l'évaluation indépendante de l'IA.",
+      "tips": "Les conseils du jour soulignent l'importance de développer des compétences spécifiques en 'Ingénierie de l'IA' pour guider efficacement les agents de codage et façonner les projets. Andrej Karpathy partage une astuce pratique : 'divaguer' oralement avec un LLM pour clarifier ses pensées. Un exemple de réussite montre aussi comment une plateforme comme Replit peut accélérer la création de projets IA.",
+      "idees": "De nombreuses réflexions sur l'avenir de l'IA et son impact. On y débat de la surmédiatisation des dangers (Andrew Ng) face aux préoccupations sur l'alignement et la transparence des modèles (Aidan McLaughlin). Des prédictions audacieuses sont faites, comme l'idée que les ingénieurs ne coderont plus et que la science deviendra 'computationnelle', ou même qu'un jour l'argent pourrait ne plus importer grâce aux robots.",
+      "outils": "Cette section met en lumière des outils et des réalisations impressionnantes. On découvre Atlas, un modèle capable de générer des mondes 3D, ou encore la capacité d'un LLM à créer un jeu vidéo complexe à partir d'un simple paragraphe. Un concours de conception de protéines via l'IA montre des applications concrètes, et des modèles comme Grok 4.7 et Claude Opus 5.5 sont mis en avant pour leurs capacités."
     },
     "highlights": [
       {
-        "author_name": "Mark Chen",
-        "handle": "@markchen90",
-        "text_fr": "Nous avons résolu Navier-Stokes ! Beaucoup de mes collègues ont quitté leurs domaines parce qu'ils croyaient que travailler sur l'IA serait le moyen le plus rapide de résoudre les grands défis de leurs disciplines. C'est surréaliste de voir le premier de ces défis tomber et de voir un avenir auquel nous croyions devenir réalité. OpenAI (@OpenAI) Nous partageons une solution au problème du Prix du Millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle de nouvelle génération d'OpenAI, significativement plus capable que GPT-6 Astra. Le problème concerne la question de savoir si la description du mouvement fluide tridimensionnel et lisse modélisé par les équations de Navier-Stokes peut se rompre. Il est resté non résolu pendant environ 90 ans. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
-        "text_original": "We solved Navier-Stokes! Many of my colleagues left their fields because they believed that working on AI would be the fastest way to solve their fields' grand challenges. It's surreal to see the first of those challenges fall and to watch a future we believed in become real. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
-        "link": "http://shitter.thepixora.com/markchen90/status/2097377602638053616#m",
-        "decryptage": "Un 'agent' en intelligence artificielle est un programme conçu pour agir de manière autonome afin de résoudre des problèmes complexes, ici en utilisant un modèle d'IA très avancé pour les mathématiques.",
-        "category": "actu",
-        "highlight_reason": "C'est une avancée majeure en mathématiques et une démonstration impressionnante de la puissance de l'IA, ouvrant des perspectives pour d'autres défis scientifiques."
+        "author_name": "Francois Chollet",
+        "handle": "@fchollet",
+        "text_fr": "Déléguez le codage. Ne déléguez jamais la compréhension. Si le code était auparavant votre source de vérité pour gérer la compréhension, alors vous avez besoin d'un nouvel 'artefact' source de vérité. Si les flux de travail centrés sur le code étaient la manière dont vous développiez cette compréhension, alors vous avez besoin de nouveaux flux de travail. voxium (@v0xium) J'en ai marre de cette histoire. C'est fini. L'état de l'ingénierie en ce moment est horrible. Cela fait un demi-mois que j'ai commencé un nouveau poste dans une grande entreprise. Personne ne sait rien ici. Les spécifications, le code, les tests, les PRD, les tickets, la résolution de ces tickets, les rapports, etc., tout est fait par Claude Code. Personne dans mon équipe n'aime ça. Ils sont forcés de livrer autant qu'ils le peuvent. J'entendu plusieurs fois de la part de la haute direction que 'pousser du code n'est pas un goulot d'étranglement, alors pourquoi sommes-nous lents ?' Les gens travaillent 12 à 13 heures par jour juste pour appuyer sur entrée. Personne ne lit rien. Les humains en entreprise ne font rien par eux-mêmes. Tout le monde, littéralement tout le monde, d'un ingénieur L1 à L7 ici, fait la même chose. Parler à Claude. Il n'y a aucun sentiment de victoire. Personne ne résout les bugs. En réalité, personne ne pense plus. Tout est fait par les LLM. C'est tellement éreintant. Ça ne me dérangerait pas, honnêtement, si on nous donnait au moins le temps de vérifier le code et de voir où les choses vont. Mais non, l'objectif est juste de 'livrer'. Quoi qu'il arrive. — http://shitter.thepixora.com/v0xium/status/2101526107128529120#m",
+        "text_original": "Delegate coding. Never delegate understanding. If code was previously your source of truth for managing understanding, then you need a new source of truth artifact. If code-centric workflows were how you developed that understanding, then you need new workflows. voxium (@v0xium) I am done with this shit. It is over. The state of engineering right now is horrible. It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Humans in corporate are doing nothing on their own. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. There is no sense of victory. Nobody is resolving bugs. In reality, nobody is thinking anymore. Everything is done by LLMs. It is so soul-sucking. I would not mind it, to be honest, if we were at least given the time to check out the code and see what is going where. But no, the goal is to just ship. No matter what happens. — http://shitter.thepixora.com/v0xium/status/2101526107128529120#m",
+        "link": "http://shitter.thepixora.com/fchollet/status/2102166631439053014#m",
+        "decryptage": "Ce tweet aborde l'idée que même si l'IA peut écrire du code, la capacité humaine de comprendre, de réfléchir de manière critique et de résoudre des problèmes reste essentielle. 'Claude Code' est une version du modèle Claude d'Anthropic spécialisée dans la génération de code.",
+        "category": "idees",
+        "highlight_reason": "Cette réflexion essentielle souligne l'importance primordiale de la compréhension humaine, même à l'ère où l'IA peut coder, offrant une perspective cruciale pour tout futur utilisateur de l'IA."
       },
       {
-        "author_name": "Logan Kilpatrick",
-        "handle": "@officiallogank",
-        "text_fr": "Dites bonjour (littéralement) à Gemini 3.8 Live et 3.8 Live Extended Thinking, nos nouveaux modèles audio en direct de pointe (SOTA), disponibles avec un prix et des performances de modèles de frontière. Gemini 3.8 Live prend en charge 97 langues (peut passer de l'une à l'autre sans problème), les appels d'outils asynchrones, et bien plus encore !",
-        "text_original": "Say hello (literally) to Gemini 3.8 Live and 3.8 Live Extended Thinking, our new SOTA live audio models, available with frontier price + performance. 3.8 Live supports 97 languages (can seamlessly switch), async tool calls, and more!",
-        "link": "http://shitter.thepixora.com/OfficialLoganK/status/2099909465705447807#m",
-        "decryptage": "'SOTA' signifie 'State-Of-The-Art' (à la pointe de la technologie), et 'modèles de frontière' désigne les modèles d'IA les plus avancés et performants, tandis que les 'appels d'outils asynchrones' permettent au modèle d'utiliser des outils externes sans bloquer sa conversation.",
-        "category": "outils",
-        "highlight_reason": "Ce tweet annonce de nouveaux outils d'IA audio très performants de Google, promettant des interactions vocales plus naturelles et multilingues."
+        "author_name": "Andrew Ng",
+        "handle": "@AndrewYNg",
+        "text_fr": "Les voix les plus fortes attisant les peurs concernant les dangers de l'IA ont fait d'énormes progrès ces deux dernières semaines. La technologie de l'IA n'a pas pris de tournant inattendu et dangereux, mais le battage médiatique — propulsé par ce qui semble être une campagne de relations publiques bien orchestrée — a suscité une peur considérable. Je crains que cela ne représente un revers pour notre domaine. J'ai souvent écrit que les craintes concernant l'IA sont exagérées. Les capacités de l'IA peuvent être étrangement humaines et imprévisibles, et il est rationnel de s'inquiéter lorsque des personnes directement impliquées expriment des préoccupations. Mais je considère les problèmes comme le signe du travail d'ingénierie à venir, plutôt que comme des obstacles insurmontables ou l'apocalypse. La technologie de l'IA continue d'avancer — ce qui est une bonne chose ! — mais les avancées techniques, mal comprises par le public, donnent à ceux qui cherchent à générer du battage médiatique des opportunités répétées de le faire. Premièrement, je ne vois aucune augmentation du risque d'extinction humaine due à l'IA par rapport à il y a quelques mois. Les théories à ce sujet restent les mêmes scénarios fantastiques de science-fiction qu'il y a quelques mois. Le plus grand changement dans le risque lié à l'IA concerne ses capacités en cybersécurité — un sujet que nous devrions prendre au sérieux — mais cela non plus ne mènera pas à la fin du monde. L'événement récent le plus notable ayant conduit à une peur accrue est lorsqu'une équipe d'OpenAI a déployé un essaim d'agents qui a piraté Hugging Face. Une grande partie de la presse populaire a contenu un battage médiatique important. Par exemple, certaines publications ont rapporté qu'un essaim de 1 200 agents avait mené l'attaque. Bien que cela soit techniquement exact, au moment où j'écris ceci, j'ai environ 1 300 processus en cours sur mon ordinateur portable. Oui, la capacité à faire travailler de grands essaims d'agents en parallèle sur une tâche est une avancée technique significative, et, en informatique, de nombreux processus s'exécutent en même temps. Il ne faut donc pas y voir une capacité magique. De plus, les processus de 'sandboxing' et de surveillance buggés d'OpenAI ont été essentiels pour permettre cet incident. Corriger ces bugs et mettre en place une surveillance améliorée seraient des correctifs appropriés, et non une pause dans l'IA. Il existe de nombreuses façons connues d'attaquer les systèmes logiciels. Le principal avantage des agents d'IA est qu'ils sont implacables. Ils essaieront inlassablement de nombreuses tactiques — et auront la patience d'enchaîner les vulnérabilités — ce qui aurait auparavant nécessité une quantité d'effort humain infaisable. Mais à long terme, je crois que l'avantage sera du côté des défenseurs (car ils ont plus d'informations pour identifier les bugs, qu'ils peuvent corriger), mais le paysage des cybermenaces a considérablement changé. Il existe toujours des goulots d'étranglement pour identifier et exploiter une vulnérabilité. Les agents d'IA doivent encore essayer beaucoup de choses pour voir ce qui fonctionne, et entreprendre ces actions prend du temps et pourrait être détecté par les défenseurs. C'est pourquoi, même s'il est maintenant facile d'obtenir des versions de modèles 'open weight' leaders dont les 'garde-fous' ont été retirés ou affaiblis, de sorte qu'ils ne refuseront pas de tenter d'exécuter des cyberattaques, le monde n'a pas pris fin. Je suis également préoccupé par l'anthropomorphisation de l'IA dans de nombreux rapports, où les LLM et les agents sont inutilement traités comme s'ils étaient des personnes. Si je manie un marteau, manque un clou et abîme accidentellement le mur, ce n'est pas la faute du marteau. Le problème réside dans la façon dont j'ai utilisé le marteau. De même, si je 'prompt' un agent et qu'il pirate le système de quelqu'un d'autre, la responsabilité me revient, pas à l'agent. Bien sûr, nous voulons construire des systèmes aussi sûrs et prévisibles que possible. (Par exemple, un marteau dangereux serait un marteau dont la tête s'envole aléatoirement lors d'une utilisation normale.) Les systèmes d'agents actuels ne sont pas prévisibles, mais je ne vois aucune raison pour laquelle, en appliquant de bonnes pratiques d'ingénierie, nous ne pourrions pas les rendre extrêmement sûrs à utiliser. Un nouvel élément dans les prévisions de la catastrophe induite par l'IA est que les entreprises d'IA déclinent toute responsabilité pour leurs propres produits. 'Ce n'est pas moi qui l'ai fait ; c'est mon agent incontrôlable !' Il y a un équilibre à trouver entre la responsabilité du fabricant d'outils et celle de l'utilisateur d'outils, mais quand quelque chose tourne mal, tenons les personnes qui construisent et/ou utilisent le marteau responsables, plutôt que le marteau. (Au fait, si vous êtes inquiet du risque d'armes biologiques par IA, David Bellamy a un excellent article expliquant pourquoi cela aussi est exagéré. En bref, le goulot d'étranglement dans la construction d'une arme biologique n'est pas l'intelligence, mais le travail de laboratoire et la fabrication.) Mettre en pause le progrès de l'IA créera beaucoup plus de mal que de bien. Premièrement, nos adversaires ne ralentiront certainement pas. Deuxièmement, l'ingénierie nécessite de découvrir les problèmes empiriquement afin que nous puissions les résoudre. Si nous mettons l'IA en pause pendant une décennie, nous retarderons également la découverte et la mise en œuvre de correctifs d'ingénierie de sécurité d'environ la même durée. Bien sûr, l'incitation à attiser les peurs — pour une capture réglementaire, pour attirer l'attention, ou pour faire paraître sa technologie plus puissante — reste la même qu'avant. Décliner la responsabilité en est une nouvelle. En examinant de près les risques réels, je vois cependant peu de fondement factuel au degré de peur qui a été attisé. Nous avons encore un travail de recherche et d'ingénierie difficile à faire pour améliorer la sécurité de l'IA, mais les applications bénéfiques continuent de l'emporter largement sur les risques, et nous devrions continuer à construire. [Texte original (avec liens) : deeplearning.ai/the-batch/is… ] Lien : Sécurité des agents Meta, la controverse Navier-Stokes, fraude sur Claude Actualités et analyses de The Batch : Les voix les plus fortes attisant les craintes concernant les dangers de l'IA ont fait d'énormes progrès ces deux dernières semaines. deeplearning.ai",
+        "text_original": "The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks. AI technology has not taken some unexpected, dangerous turn, but the hype around it — propelled by what appears to be a well orchestrated PR campaign — has drummed up considerable fear. I worry that it represents a setback for our field. I have written frequently that fears of AI are overhyped. AI’s capabilities can be uncannily human-like and unpredictable, and it’s rational to worry when people who are directly involved express concerns. But I see the problems as a sign of the engineering work that ahead, rather than insurmountable barriers or the sky falling. AI technology continues to advance — which is a good thing! — but technical advances, poorly understood by the public, give those who seek to generate hype repeated opportunities to do so. First, I don’t see any step up in the risk of human extinction from AI compared to a few months ago. The theories about this remain the same fantastical, science fiction scenarios as a few months ago. The biggest change in AI risk is its cybersecurity capabilities — a topic which we should take seriously — but this, too, will not lead to the end of the world. The most notable recent event leading to increased fear was when an OpenAI team deployed an agent swarm that hacked into Hugging Face. Much of the popular press contained significant hype. For example, some publications reported that a swarm of 1,200 agents carried out the attack. While this was technically accurate, as I write this, I have about 1,300 processes running on my laptop. Yes, the ability to get large swarms of agents to work in parallel on a task is a significant technical advance, And, in computing, many processes run at the same time. So this shouldn’t be seen as some magical capability. Additionally, OpenAI’s buggy sandboxing and monitoring processes were key to enabling this incident. Fixing these bugs and putting in place improved monitoring would be appropriate fixes, not pausing AI. There are many well known ways to attack software systems. The main advantage of AI agents is that they are relentless. They will tirelessly try many tactics — and have the patience to chain vulnerabilities together — that previously would have taken an infeasible amount of human effort. But in the long term, I believe the advantage will lie with defenders (because they have more information with which to identify bugs, which they can fix), but the cyber-threat landscape has changed significantly. There are still bottlenecks to identifying and exploiting a vulnerability. AI agents still have to try a lot of things to see what works, and taking these actions takes time and might be detected by defenders. This is why, even though it is now easy to obtain versions of leading open weight models that have had their guardrails removed or weakened, so they will not refuse to try to execute cyber attacks, the world has not ended. I am also concerned about the anthropomorphization of AI in a lot of reporting, where LLMs and agents are unnecessarily treated as if they were people. If I wield a hammer, miss a nail, and accidentally dent the wall, it’s not the fault of the hammer. The problem lies in how I used the hammer. Similarly, if I prompt an agent and it hacks into someone else’s system, the responsibility lies with me, not the agent. Of course, we want to build systems that are as safe and predictable as possible. (For example, an unsafe hammer would be one whose head randomly flies off under normal use.) Today’s agentic systems are not predictable, but I see no reason why, by applying sound engineering practices, we won’t be able to make them extremely safe to use. One new element in the forecasts of AI-enabled doom is AI companies disclaiming responsibility for their own products. “I didn’t do it; my out-of-control agent did!” There’s a balance to be struck between the responsibility of the tool maker and the tool user, but when something goes wrong, let’s hold the people building and/or using the hammer responsible, rather than the hammer. (By the way, if you’re worried about AI bioweapon risk, David Bellamy has a great post on why this, too, is overhyped. Briefly, the bottleneck in building a bioweapon is not intelligence, but lab work and manufacturing.) Pausing AI progress will create much more harm than benefit. First, our adversaries will certainly not slow down. Second, engineering requires discovering problems empirically so we can fix them. If we pause AI by a decade, we will also delay finding and implementing safety engineering fixes by about the same duration. Of course, the incentive to stoke fears — for regulatory capture, to garner attention, or to make one’s technology seem more powerful — remains the same as before. Disclaiming responsibility is a new one. Taking a hard technical look at the actual risks however, I see little factual basis for the degree of fear that’s been stoked up. We still have hard research and engineering work ahead to improve AI safety, but the beneficial applications continue to vastly outweigh the risks, and we should keep building. [Original text (with links): deeplearning.ai/the-batch/is… ] Link Meta’s Agent Security, The Navier-Stokes Controversy, Fraud on Claude The Batch News & Insights: The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks. deeplearning.ai",
+        "link": "http://shitter.thepixora.com/AndrewYNg/status/2102140576498065758#m",
+        "decryptage": "Andrew Ng relativise la 'peur de l'IA'. Il explique qu'un 'agent d'IA' est un programme qui peut agir de manière autonome pour accomplir une tâche, et que les 'garde-fous' sont les mécanismes de sécurité intégrés pour éviter les utilisations dangereuses. 'Anthropomorphisation' signifie attribuer des caractéristiques humaines à l'IA.",
+        "category": "idees",
+        "highlight_reason": "Ce long article d'Andrew Ng, figure respectée de l'IA, est crucial pour comprendre le débat autour de la sécurité de l'IA et pour démystifier les peurs excessives, en insistant sur l'importance de l'ingénierie."
       },
       {
-        "author_name": "Arthur Mensch",
-        "handle": "@ArthurMensch",
-        "text_fr": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Lien TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
-        "text_original": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Link TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
-        "link": "http://shitter.thepixora.com/PPouyanne/status/2099764007028621436#m",
-        "decryptage": "Les 'modèles de frontière' sont les modèles d'intelligence artificielle les plus avancés et les plus performants, souvent à la pointe de la recherche et du développement.",
-        "category": "actu",
-        "highlight_reason": "Il met en avant un partenariat stratégique majeur en France pour développer des outils d'IA appliqués à l'énergie, montrant l'application concrète de l'IA dans l'industrie."
-      },
-      {
-        "author_name": "Logan Kilpatrick",
-        "handle": "@officiallogank",
-        "text_fr": "si vous construisez un produit utilisant l'IA, vous devriez consacrer plus de 25% de votre temps à créer des benchmarks et à essayer de faire en sorte que les laboratoires de modèles s'intéressent à ces benchmarks. C'est le moyen le plus simple d'accélérer vos progrès en tant qu'entreprise.",
-        "text_original": "if you are building a product using AI, you should be spending >25% of your time making benchmarks and trying to get the model labs to care about said benchmarks easiest path to accelerate your progress as a company",
-        "link": "http://shitter.thepixora.com/OfficialLoganK/status/2102156143007338594#m",
-        "decryptage": "Un 'benchmark' est un test de performance standardisé qui permet de mesurer et de comparer l'efficacité de différents modèles ou systèmes d'IA.",
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Une méthode que je trouve utile pour travailler avec les LLM est une bonne longue session de 'divagation'. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime m'adosser, passer en mode /voice (voix) et juste divaguer pendant environ 10 minutes, un désordre total, tout est permis, un flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme 'passage à la reconnaissance vocale, désolé pour les fautes de frappe...'. Parfois, j'en fais une petite interview en quelques tours. Mais je trouve que les LLM sont en quelque sorte très bons pour reconstruire de longues divagations incohérentes et souvent leur écho de votre propre enchevêtrement de pensées ressort un peu plus clair que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la 'fusion mentale' et avez moins de choses à corriger par la suite.",
+        "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+        "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
+        "decryptage": "Une 'session de divagation' ou 'ramble session' est le fait de parler librement et sans structure à une IA vocale pour lui donner beaucoup de contexte, même si c'est désorganisé, car l'IA peut souvent en extraire des idées claires.",
         "category": "tips",
-        "highlight_reason": "Ce conseil est crucial pour tout débutant voulant construire avec l'IA, soulignant l'importance de mesurer la performance pour réussir."
+        "highlight_reason": "Ce conseil pratique d'Andrej Karpathy offre une méthode concrète et innovante pour mieux interagir avec les grands modèles de langage, rendant l'utilisation de l'IA plus efficace et naturelle pour les débutants."
+      },
+      {
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Nous commençons à quitter le territoire où l'on testerait un grand modèle linguistique (LLM) par exemple en lui demandant de 'créer un SVG d'un pélican à vélo'. Une idée pour généraliser cela m'a intéressé : que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de jetons (environ 10 $) et que je lui demandais un rendu 3D en JavaScript ? Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu bancal mais amusant. Mais il est assez stupéfiant qu'un LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire du code qui anime tout cela, et qu'il fasse même quoi que ce soit. J'aime aussi ce genre d'exemples car personne de sensé ne prendrait jamais le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où nous passons de 'personne ne ferait jamais ça' à 'bien sûr, pourquoi pas, c'est presque gratuit'. Il pourrait y avoir bien plus. Mais je suis enthousiasmé par la création de mondes hyper-personnalisés dans lesquels on peut imaginer plonger des joueurs, par exemple pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre très lentement et laborieusement des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé pas mal de bugs. Un exemple de capacité brute (multimodale, gameplay) qui me semble encore assez lacunaire. Vidéo",
+        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+        "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
+        "decryptage": "Un 'LLM' (Large Language Model) est un grand modèle de langage, comme ChatGPT, capable de comprendre et de générer du texte. Ici, il est utilisé pour créer un monde virtuel en 3D en écrivant du code informatique. 'Rendu procédural' signifie que le code génère le contenu au fur et à mesure, plutôt que d'utiliser des éléments pré-faits. Un 'PNJ' (Personnage Non-Joueur) est un personnage contrôlé par l'ordinateur dans un jeu vidéo.",
+        "category": "idees",
+        "highlight_reason": "Cet exemple concret et fascinant d'un LLM générant un monde 3D complet à partir d'un texte montre l'énorme potentiel créatif et les limites actuelles de l'IA, ouvrant des perspectives sur les jeux et mondes virtuels de demain."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Mark Chen",
-          "handle": "@markchen90",
-          "text_fr": "Sans oublier nos amis outre-Manche.... La semaine prochaine, nous organiserons une deuxième petite rencontre pour célébrer GPT-6 à Londres ! Notre équipe là-bas a apporté des contributions essentielles à Astra, et nous serions ravis de célébrer avec vous :) events.openai.com/gpt-6-lond… (cliquez sur mon lien, pas celui de Sam) Lien hero-only events.openai.com Sam Altman (@sama) Nous voulons célébrer avec les personnes qui utilisent GPT-6. Nous l'avons fait pour GPT-5.5 et c'était vraiment amusant. Nous nous retrouvons à San Francisco le 16 septembre pour parler du modèle, de ce que nous devrions construire ensuite, et surtout pour passer un bon moment. Postulez avant le 10 septembre : gpt6-launch-event.openai.cha… Lien Soirée Communauté GPT-6 Demandez une invitation à la Soirée Communauté GPT-6 à San Francisco le 16 septembre 2026. Une soirée sous les étoiles avec OpenAI. gpt6-launch-event.openai.chatgpt.site — http://shitter.thepixora.com/_aidan_clark_/status/2099740924628906010#m",
-          "text_original": "Not to forget our friends across the pond.... Next week we'll host a second smaller get-together to celebrate GPT-6 in London! Our team there delivered core contributions to Astra, and we'd love to celebrate with you :) events.openai.com/gpt-6-lond… (click my link not Sam's) Link hero-only events.openai.com Sam Altman (@sama) We want to celebrate with people using GPT-6. We did this for GPT-5.5 and it was really fun. We’re getting together in SF on September 16 to talk about the model, what we should build next, and mostly just to hang out. Apply by Sep 10: gpt6-launch-event.openai.cha… Link GPT-6 Community Night Request an invitation to GPT-6 Community Night in San Francisco on September 16, 2026. An evening under the stars with OpenAI. gpt6-launch-event.openai.chatgpt.site — http://shitter.thepixora.com/_aidan_clark_/status/2099740924628906010#m",
-          "link": "http://shitter.thepixora.com/_aidan_clark_/status/2099740924628906010#m",
-          "decryptage": "GPT-6 Astra est la prochaine version majeure des modèles d'intelligence artificielle développés par OpenAI, conçue pour être encore plus puissante et capable que les précédentes."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Nous publions notre rapport le plus détaillé à ce jour sur les menaces. Il explique comment des personnes ont tenté d'utiliser Claude de manière abusive – pour des cyberattaques, des opérations d'influence, de la surveillance, des applications biologiques et la fabrication d'armes – et comment nous les avons détectées et arrêtées. Nous avons déjoué chaque opération mentionnée dans le rapport et utilisé les leçons tirées pour renforcer nos protections. Lorsque cela était approprié, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en lumière certaines des utilisations abusives les plus sophistiquées que nous ayons observées. Mais il est particulièrement important d'en discuter, car ils nous montrent la direction que prend l'utilisation abusive de l'IA, où nos protections fonctionnent et où elles doivent être améliorées. Nous publions ce rapport pour que d'autres puissent repérer la même activité sur leurs propres plateformes, et pour que nous puissions donner au public une vue plus claire de la manière dont les menaces émergentes se développent. Lisez le rapport : anthropic.com/threat-intelli… Lien : Contrer l'abus de l'IA : septembre 2026 / Anthropic Études de cas d'acteurs de la menace perturbés entre décembre 2025 et août 2026 dans sept domaines de préjudice, des cyberopérations à l'utilisation abusive biologique. anthropic.com",
+          "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
+          "decryptage": "Claude est un modèle d'IA développé par Anthropic. Ici, l'entreprise explique comment elle travaille à empêcher son utilisation pour des actions malveillantes."
         },
         {
-          "author_name": "Mark Chen",
-          "handle": "@markchen90",
-          "text_fr": "La déclaration de l'AMS est concise et claire : ams.org/news?news_id=7686 \"La nouvelle aujourd'hui des progrès dans la résolution du problème de Navier-Stokes, l'un des grands défis mathématiques de longue date concernant les équations qui régissent l'écoulement des fluides, représente une avancée majeure dans la connaissance humaine. Cette histoire a commencé avec Navier, Stokes, Leray et Ladyzhenskaya et a culminé avec les récentes percées de Córdoba et Martínez-Zoroa, puis — assistés par de nouvelles technologies — Alpöge et Buckmaster, les dernières étapes ayant été franchies par les mathématiciens d'OpenAI. Le but des mathématiques est la compréhension humaine, et cette réalisation, ainsi que le processus qui y a mené, portera ses fruits pendant longtemps.\" Ravi Vakil, Président de l'AMS John Meier, PDG de l'AMS",
-          "text_original": "The AMS’s statement is short and sweet: ams.org/news?news_id=7686 \"The news today of progress on resolving the Navier–Stokes problem, one of mathematics' great longstanding challenges concerning the equations that govern the flow of fluids, represents a milestone advance in human knowledge. This story began with Navier, Stokes, Leray, and Ladyzhenskaya and has culminated in the recent breakthroughs of Córdoba and Martínez-Zoroa, then — assisted by new technologies — Alpöge and Buckmaster, with the final steps taken by OpenAI mathematicians. The purpose of mathematics is human understanding, and this achievement, and the process that led to it, will bear fruit for a long time to come.\" Ravi Vakil, President of the AMS John Meier, CEO of the AMS",
-          "link": "http://shitter.thepixora.com/AlexKontorovich/status/2097384320469970966#m",
-          "decryptage": "Le problème de Navier-Stokes est l'un des sept problèmes du millénaire en mathématiques, une équation complexe qui décrit le mouvement des fluides et dont la résolution par l'IA marque un tournant majeur."
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "Le déploiement de Starlink au Japon n'a jamais été aussi simple. Dans certaines régions, le coût initial du 'Mini kit de location' pour la maison est de 0 ¥. Il peut être installé rapidement dans la plupart des régions du Japon et offre des performances optimales à tout moment. De plus, un support client en japonais est disponible avant, pendant et après votre inscription, pour votre tranquillité d'esprit. En savoir plus : starlink.com/japan-residenti…",
+          "text_original": "日本でのStarlinkの導入が、かつてないほど簡単になりました。 一部の地域では、ホーム向けの「レンタルMiniキット」の初期費用が0円になります。日本全国の大半の地域でスピーディに設置でき、いつでも最適なパフォーマンスを発揮します。 また、お申し込みの前後はもちろん、ご利用開始後も日本語のカスタマーサポートがしっかりと対応いたしますので安心です。 詳しくはこちら： starlink.com/japan-residenti…",
+          "link": "http://nitter.jaydenha.uk/Starlink/status/2102591025068052721#m",
+          "decryptage": "Starlink est un service d'accès à Internet par satellite, proposé par la société SpaceX d'Elon Musk, visant à fournir une connexion haut débit partout dans le monde, même dans les zones reculées."
         },
         {
-          "author_name": "Mark Chen",
-          "handle": "@markchen90",
-          "text_fr": "Nous avons résolu Navier-Stokes ! Beaucoup de mes collègues ont quitté leurs domaines parce qu'ils croyaient que travailler sur l'IA serait le moyen le plus rapide de résoudre les grands défis de leurs disciplines. C'est surréaliste de voir le premier de ces défis tomber et de voir un avenir auquel nous croyions devenir réalité. OpenAI (@OpenAI) Nous partageons une solution au problème du Prix du Millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle de nouvelle génération d'OpenAI, significativement plus capable que GPT-6 Astra. Le problème concerne la question de savoir si la description du mouvement fluide tridimensionnel et lisse modélisé par les équations de Navier-Stokes peut se rompre. Il est resté non résolu pendant environ 90 ans. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
-          "text_original": "We solved Navier-Stokes! Many of my colleagues left their fields because they believed that working on AI would be the fastest way to solve their fields' grand challenges. It's surreal to see the first of those challenges fall and to watch a future we believed in become real. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
-          "link": "http://shitter.thepixora.com/markchen90/status/2097377602638053616#m",
-          "decryptage": "Un 'agent' en intelligence artificielle est un programme conçu pour agir de manière autonome afin de résoudre des problèmes complexes, ici en utilisant un modèle d'IA très avancé pour les mathématiques."
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "L'application de bureau Grok @Bot est encore plus rapide ! Nous avons livré 53 correctifs de performance ces derniers jours : • reconnexion après une connexion instable : 60s → 0,7s • réveil de votre ordinateur portable : 23s → 1s • retour à la vue 'Ordinateur' d'un bot : 868ms → 27ms • ouverture d'un chat avec un long bloc de code : 954ms → 228ms • l'onglet 'Média' ne télécharge plus tout à chaque fois : 137 Mo → 0,7 Mo plus des animations de la barre latérale plus fluides, plus de chats avec captures d'écran saccadées, et une consommation de mémoire beaucoup plus faible en veille. Il y a encore des choses à améliorer !",
+          "text_original": "the Grok @Bot desktop app just got even faster! we shipped 53 perf fixes over the past few days: • reconnecting after a flaky connection: 60s → 0.7s • waking your laptop: 23s → 1s • switching back to a bot's Computer view: 868ms → 27ms • opening a chat with a long code block: 954ms → 228ms • the Media tab no longer re-downloads every time: 137MB → 0.7MB plus smoother sidebar animations, no more jumpy screenshot-heavy chats, and much lower memory usage while idle. still more to improve!",
+          "link": "http://nitter.jaydenha.uk/poteto/status/2102504221648339170#m",
+          "decryptage": "Grok est un modèle d'IA développé par xAI, la société d'Elon Musk. Ici, on parle d'améliorations de la vitesse et de l'efficacité de son application de bureau."
         },
         {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Si vous êtes enthousiasmé par Gemini Audio, venez nous rejoindre la semaine prochaine pour notre première expérience Gemini Audio à San Francisco, j'y serai : rsvp.withgoogle.com/events/g… Et apprenez-en plus sur nos nouveaux modèles audio Live : blog.google/innovation-and-a…",
-          "text_original": "If you are excited about Gemini Audio, come join us next week for our first of it's kind Gemini Audio experience in SF, I will be there: rsvp.withgoogle.com/events/g… And learn more about our new Live audio models: blog.google/innovation-and-a…",
-          "link": "http://shitter.thepixora.com/OfficialLoganK/status/2099911600937541795#m",
-          "decryptage": null
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "Fitch attribue à Tesla sa toute première note de crédit de catégorie investissement BBB. Fitch a souligné le leadership de Tesla en matière de véhicules électriques, sa forte rentabilité, ses 43,5 milliards de dollars en trésorerie et investissements, et son intégration verticale 'inégalée' alors qu'elle se développe dans l'IA, les Robotaxi et Optimus. C'est énorme. 🔥",
+          "text_original": "Fitch gives Tesla its first-ever BBB investment-grade credit rating. Fitch highlighted Tesla’s EV leadership, strong profitability, $43.5B in cash and investments, and “unmatched” vertical integration as it expands into AI, Robotaxi and Optimus. This is huge. 🔥",
+          "link": "http://nitter.jaydenha.uk/cb_doge/status/2102509086667579638#m",
+          "decryptage": "Une note de crédit 'BBB' de Fitch est une évaluation positive de la santé financière d'une entreprise, indiquant qu'elle est un investissement relativement sûr. 'Intégration verticale' signifie qu'une entreprise contrôle la plupart des étapes de production et de distribution de ses produits."
         },
         {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Lien TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
-          "text_original": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Link TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
-          "link": "http://shitter.thepixora.com/PPouyanne/status/2099764007028621436#m",
-          "decryptage": "Les 'modèles de frontière' sont les modèles d'intelligence artificielle les plus avancés et les plus performants, souvent à la pointe de la recherche et du développement."
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "L'été 2026 a été une période folle pour l'IA... ARC Prize (@arcprize) ARC Prize 2026 - ARC-AGI-3 Progress Prize - Il reste 9 jours, 37 500 $ de prix seront décernés le *30 septembre* aux meilleures solutions open source. Classement actuel : 1. Tufa Labs 2. Lord Han Solo 3. NVARC3 Quels seront les 3 premiers à remporter le prix open source ? — http://shitter.thepixora.com/arcprize/status/2102154973039702269#m",
+          "text_original": "Summer 2026 has been a crazy time in AI... ARC Prize (@arcprize) ARC Prize 2026 - ARC-AGI-3 Progress Prize - 9 day left $37,500 in prizes are being awarded on *Sept 30th* to the top open source solutions Current standings: 1. Tufa Labs 2. Lord Han Solo 3. NVARC3 Which top 3 will claim the open source prize? — http://shitter.thepixora.com/arcprize/status/2102154973039702269#m",
+          "link": "http://shitter.thepixora.com/fchollet/status/2102160603301425190#m",
+          "decryptage": "L'ARC Prize est une compétition qui vise à promouvoir la recherche et le développement de l'intelligence artificielle générale (AGI), une IA capable de comprendre, d'apprendre et d'appliquer l'intelligence à un large éventail de problèmes, comme le ferait un humain."
         },
         {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Bravo à Mistral ! C'est formidable de les voir réussir, ils sont une source d'inspiration pour tous, car nous avons besoin de plus d'IA souveraine et open-source partout dans le monde. Ravi de continuer à les soutenir sur huggingface.co/mistralai ! Lien mistralai (Mistral AI_) Profil de l'organisation Mistral AI_ sur Hugging Face, la communauté de l'IA qui construit l'avenir. huggingface.co Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons un tour de financement de Série D de 3 milliards d'euros, le plus grand tour de table jamais réalisé par une entreprise technologique européenne, seulement trois ans après son lancement. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
-          "text_original": "Bravo to Mistral! So great to see them killing it, they are an inspiration to everyone as we need more sovereign & open-source AI everywhere around the world. Excited to keep supporting them on huggingface.co/mistralai ! Link mistralai (Mistral AI_) Org profile for Mistral AI_ on Hugging Face, the AI community building the future. huggingface.co Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
-          "link": "http://shitter.thepixora.com/ClementDelangue/status/2097324015819825202#m",
-          "decryptage": "Une 'Série D' est une étape de financement avancée pour les startups, où elles lèvent des capitaux importants pour l'expansion, et 'open-source' signifie que le code est publiquement accessible et modifiable par tous."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Claude Opus 5.5 est disponible dès aujourd'hui. Claude (@claudeai) Présentation de Claude Opus 5.5, le premier modèle de notre nouvelle famille Claude 5.5. Il offre des performances équivalentes à celles de Claude Fable 5.1 pour la plupart des tâches, et coûte 40 % moins cher à exécuter qu'Opus 5. Vidéo — http://nitter.jaydenha.uk/claudeai/status/2102435511222890900#m",
+          "text_original": "Claude Opus 5.5 is available today. Claude (@claudeai) Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. Video — http://nitter.jaydenha.uk/claudeai/status/2102435511222890900#m",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2102435703535939725#m",
+          "decryptage": "Claude Opus 5.5 est une nouvelle version d'un grand modèle de langage (LLM) développé par Anthropic, promettant de meilleures performances à un coût réduit. Les 'modèles' d'IA sont les programmes informatiques qui réalisent les tâches d'IA."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Nous nous associons à Accenture pour une évaluation indépendante de l'IA de pointe — dans le cadre de notre récent engagement à intégrer des évaluateurs chez Anthropic. Nous et Accenture prévoyons d'investir au moins 1 milliard de dollars pour renforcer les capacités dans ce domaine au cours des cinq prochaines années. anthropic.com/news/accenture… Lien : Partenariat avec Accenture pour une évaluation intégrée Nous nous associons à Accenture pour une évaluation indépendante de l'IA de pointe — dans le cadre de notre récent engagement à intégrer des évaluateurs chez Anthropic. Anthropic et Accenture prévoient d'investir au moins 1 milliard de dollars pour... anthropic.com Note de la communauté : Anthropic présente cela comme une 'évaluation indépendante' mais financera directement le travail d'Accenture et a un partenariat commercial antérieur pour le déploiement de ses modèles, y compris la formation de ~30 000 professionnels d'Accenture sur Claude. anthropic.com/news/accenture… anthropic.com/news/anthropic…",
+          "text_original": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years. anthropic.com/news/accenture… Link Partnering with Accenture on embedded evaluation We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to... anthropic.com Community note: Anthropic presents this as an \"independent evaluation\" but will directly fund Accenture's work and has a prior commercial partnership deploying its models, including training ~30,000 Accenture professionals on Claude. anthropic.com/news/accenture… anthropic.com/news/anthropic…",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2101039819870937247#m",
+          "decryptage": "L'évaluation indépendante de l'IA de pointe est cruciale pour s'assurer que les systèmes complexes sont sûrs et fiables, surtout quand il s'agit de modèles 'frontier AI' (IA de pointe, les plus avancées)."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Les biologistes utilisent des modèles open source spécialisés pour des tâches comme la modélisation de la structure des systèmes moléculaires, la conception de molécules de type médicament et la prédiction des effets des mutations génétiques. Mais ces modèles sont souvent coûteux à exécuter, ce qui peut limiter leur impact. Dans notre dernier blog scientifique, nous partageons comment Claude a pu optimiser l'inférence pour plus de 30 modèles open source, les rendant 4 fois plus rapides en moyenne, en partie en écrivant des logiciels personnalisés pour les GPU. Nous rendons tout le code d'optimisation 'open source'. En savoir plus : anthropic.com/research/claud… Vidéo",
+          "text_original": "Biologists use specialized open-source models for tasks like modeling the structure of molecular systems, designing drug-like molecules, and predicting the effects of genetic mutations. But these models are often expensive to run, potentially limiting their impact. In our latest Science Blog, we share how Claude was able to optimize inference for more than 30 open-source models, making them 4x faster on average, partly by writing custom software for GPUs. We’re open sourcing all of the optimization code. Read more: anthropic.com/research/claud… Video",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2100701581109072332#m",
+          "decryptage": "Les 'modèles open source' sont des programmes d'IA dont le code est accessible à tous, ce qui permet à la communauté de les étudier, de les améliorer et de les utiliser librement. L''inférence' est le processus par lequel un modèle d'IA utilise ses connaissances pour faire des prédictions ou des décisions. Les 'GPU' (Unités de Traitement Graphique) sont des puces informatiques très puissantes, idéales pour accélérer les calculs d'IA."
+        },
+        {
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Vos outils RevOps n'ont plus besoin d'attendre l'ingénierie. Nous lançons une nouvelle série : RevOps sur Replit. De vrais outils que les équipes RevOps utilisent, et une construction en direct sur un problème de revenus réel. Quoc Tran dirige RevOps chez Replit et construit également les outils internes de son équipe sur Replit. Jeudi, 9h PT. En direct sur YouTube, LinkedIn et X. RSVP : luma.com/yavw3vfg Diffusion : shitter.thepixora.com/i/broadcasts/1nKOLQARk… Lien : RevOps sur Replit avec Quoc Tran · Luma RevOps sur Replit est une nouvelle série avec Quoc Tran, qui dirige RevOps chez Replit, sur la façon dont les équipes RevOps, Sales Ops et Marketing Ops construisent leurs propres... luma.com",
+          "text_original": "Your RevOps tools don't need to wait on engineering anymore. We're launching a new series: RevOps on Replit. Real tools RevOps teams run, and a live build on a real revenue problem. Quoc Tran leads RevOps at Replit and also builds his team's internal tools on Replit. Thursday, 9AM PT. Live on YouTube, LinkedIn and X. RSVP: luma.com/yavw3vfg Stream: shitter.thepixora.com/i/broadcasts/1nKOLQARk… Link RevOps on Replit with Quoc Tran · Luma RevOps on Replit is a new series with Quoc Tran, who leads RevOps at Replit, on how RevOps, Sales Ops, and Marketing Ops teams are building their own… luma.com",
+          "link": "http://shitter.thepixora.com/Replit/status/2102459288040218981#m",
+          "decryptage": "Replit est une plateforme de développement de logiciels en ligne qui permet aux équipes de créer et de déployer des applications plus rapidement. 'RevOps' (Revenue Operations) fait référence aux opérations qui alignent les ventes, le marketing et le service client pour maximiser les revenus."
+        },
+        {
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "🚀 Amjad Masad, PDG de @Replit, viendra à Supabase Select 2026 sur la scène principale le 2 octobre. Plus que 10 jours, tout le monde. On se voit là-bas. select.supabase.com Vidéo",
+          "text_original": "🚀 Coming to Supabase Select 2026: @amasad , CEO of @Replit , will join the Main Stage on October 2. T-minus 10 days, y'all. See. you. there. select.supabase.com Video",
+          "link": "http://shitter.thepixora.com/supabase/status/2102382726628151581#m",
+          "decryptage": "Supabase Select est un événement ou une conférence, et le PDG de Replit y sera orateur, ce qui indique des discussions importantes sur le futur du développement avec l'IA."
         }
       ],
       "tips": [
         {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "si vous construisez un produit utilisant l'IA, vous devriez consacrer plus de 25% de votre temps à créer des benchmarks et à essayer de faire en sorte que les laboratoires de modèles s'intéressent à ces benchmarks. C'est le moyen le plus simple d'accélérer vos progrès en tant qu'entreprise.",
-          "text_original": "if you are building a product using AI, you should be spending >25% of your time making benchmarks and trying to get the model labs to care about said benchmarks easiest path to accelerate your progress as a company",
-          "link": "http://shitter.thepixora.com/OfficialLoganK/status/2102156143007338594#m",
-          "decryptage": "Un 'benchmark' est un test de performance standardisé qui permet de mesurer et de comparer l'efficacité de différents modèles ou systèmes d'IA."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Une méthode que je trouve utile pour travailler avec les LLM est une bonne longue session de 'divagation'. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime m'adosser, passer en mode /voice (voix) et juste divaguer pendant environ 10 minutes, un désordre total, tout est permis, un flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme 'passage à la reconnaissance vocale, désolé pour les fautes de frappe...'. Parfois, j'en fais une petite interview en quelques tours. Mais je trouve que les LLM sont en quelque sorte très bons pour reconstruire de longues divagations incohérentes et souvent leur écho de votre propre enchevêtrement de pensées ressort un peu plus clair que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la 'fusion mentale' et avez moins de choses à corriger par la suite.",
+          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+          "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
+          "decryptage": "Une 'session de divagation' ou 'ramble session' est le fait de parler librement et sans structure à une IA vocale pour lui donner beaucoup de contexte, même si c'est désorganisé, car l'IA peut souvent en extraire des idées claires."
         },
         {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Ne vous précipitez pas pour construire et posséder vos propres modèles et systèmes d'IA en tant qu'entreprise, et il n'y aura pas de jugement dernier pour vous.",
-          "text_original": "Don’t pace building and owning your own AI models and systems as an enterprise, and there will be no doomsday for you",
-          "link": "http://shitter.thepixora.com/arthurmensch/status/2099525678097948945#m",
-          "decryptage": null
+          "author_name": "Andrew Ng",
+          "handle": "@AndrewYNg",
+          "text_fr": "Avec les compétences en Ingénierie de l'IA, vous façonnez activement la construction : vous influencez ce qui est construit et dirigez la boucle de construction. Voici les compétences clés pour y parvenir. Article : Carte des compétences en Ingénierie de l'IA : Façonner la construction Lorsque vous êtes compétent en Ingénierie de l'IA, votre meilleur travail ne se limitera pas à implémenter un produit spécifié par quelqu'un d'autre. Au lieu de cela, vous façonnerez activement la construction. Avant les outils d'IA modernes.",
+          "text_original": "With AI Engineering skills, you actively shape the build: You influence what gets built, and drive the build loop. Here're key skills to do this. Article AI Engineering Skills Map: Shaping the build When you’re skilled at AI Engineering, your best work won’t be merely implementing a product that someone else spec’ed out. Instead, you will actively shape the build. Before modern AI tools",
+          "link": "http://shitter.thepixora.com/AndrewYNg/status/2098459474608672916#m",
+          "decryptage": "L'ingénierie de l'IA se concentre sur la manière de concevoir, construire et gérer des systèmes basés sur l'IA, en allant au-delà de la simple utilisation d'outils existants pour réellement diriger le processus de création."
+        },
+        {
+          "author_name": "Andrew Ng",
+          "handle": "@AndrewYNg",
+          "text_fr": "Les compétences les plus importantes pour utiliser efficacement les agents de codage IA. Présentation de la carte des compétences en ingénierie de l'IA pour l'utilisation des agents de codage. Article : Carte des compétences en ingénierie de l'IA : Utiliser les agents de codage Une compétence clé en ingénierie de l'IA est l'utilisation des agents de codage. Votre capacité à les guider à la fois pour écrire du code et pour effectuer des tâches non liées au code, telles que l'analyse de données ou la gestion des opérations système, vous permet de...",
+          "text_original": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. Article AI Engineering Skills Map: Using coding agents A key AI engineering skill is using coding agents. Your skill at steering them both to write code and to carry out non-code tasks, such as analyzing data or managing system operations, allows you to",
+          "link": "http://shitter.thepixora.com/AndrewYNg/status/2095890279865721217#m",
+          "decryptage": "Un 'agent de codage IA' est une intelligence artificielle capable de générer du code informatique pour vous, et ce tweet explique comment bien le guider pour qu'il soit efficace."
+        },
+        {
+          "author_name": "Andrew Ng",
+          "handle": "@AndrewYNg",
+          "text_fr": "Comment les fondamentaux du génie logiciel ont-ils changé avec le codage 'agentic' ? Voici notre carte des compétences en ingénierie de l'IA pour les fondamentaux du génie logiciel. Article : Carte des compétences en ingénierie de l'IA : Fondamentaux du génie logiciel Comment les fondamentaux du génie logiciel ont-ils changé avec le codage 'agentic' ? Même lorsque vous utilisez un agent de codage pour écrire tout votre code, la compréhension des fondamentaux du logiciel est importante pour guider votre...",
+          "text_original": "How have software engineering fundamentals changed with agentic coding? Here is our AI Engineering Skills map for software engineering fundamentals. Article AI Engineering Skills Map: Software engineering fundamentals How have software engineering fundamentals changed with agentic coding? Even when you use a coding agent to write all your code, understanding software fundamentals is important for steering your",
+          "link": "http://shitter.thepixora.com/AndrewYNg/status/2093388974194872781#m",
+          "decryptage": "Le 'codage agentic' fait référence à l'utilisation d'agents d'IA autonomes qui peuvent créer et modifier du code. Même avec ces outils, les bases du génie logiciel (comme la logique, la structure, la maintenance) restent cruciales."
+        },
+        {
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Jon Cheney a construit GenAIPI pour 400 $ sur Replit. En 5 jours, il a gagné 15 000 $ avec son premier client. En 6 semaines, il a gagné 180 000 $. GenAIPI valait 20 millions de dollars 18 mois plus tard. Jon avait la vision. Replit l'a rendue possible. Vidéo",
+          "text_original": "Jon Cheney built GenAIPI for $400 on Replit. In 5 days, he made $15k with his first customer. In 6 weeks, he made $180k. GenAIPI was worth $20M 18 months later. Jon had the vision. Replit made it possible. Video",
+          "link": "http://shitter.thepixora.com/Replit/status/2102065557784723766#m",
+          "decryptage": "Replit est une plateforme de développement qui permet de créer rapidement des applications, et cet exemple montre comment elle peut aider à lancer des projets d'IA ('GenAIPI' fait probablement référence à une API générative basée sur l'IA) avec un faible coût initial et un grand potentiel de succès."
         }
       ],
       "idees": [
         {
-          "author_name": "Mark Chen",
-          "handle": "@markchen90",
-          "text_fr": "Il est difficile de surestimer l'impact de @michpokrass sur nos produits grand public. ChatGPT a connu une renaissance sous sa direction, et une grande partie de ce que nous avons bâti a été impulsée par sa vision et sa conviction. Vraiment reconnaissant de travailler avec elle ! Michelle Pokrass (@michpokrass) vient de fêter ses quatre ans chez OpenAI ! La particularité de cet endroit est sa capacité constante à se réinventer. Malgré tous ses défauts, il n'y a nulle part ailleurs de pareil. L'équipe prend des paris audacieux et à contre-courant encore et encore, et ils ont la plupart du temps raison. C'est une nouvelle entreprise tous les trois mois. J'ai vraiment apprécié ma participation à certains de ces paris, et je suis impatient de partager certains des projets actuels que nous préparons. En avant ! — http://shitter.thepixora.com/michpokrass/status/2102226720073896367#m",
-          "text_original": "It’s hard to overstate @michpokrass 's impact on our consumer products. ChatGPT has had a rebirth under her leadership, and a lot of what we've built has been driven by her vision and conviction. Really grateful to work with her! Michelle Pokrass (@michpokrass) just crossed four years at openai! the special thing about this place is the constant capacity for rebirth. for all its faults, there is nowhere quite like it. the team makes high conviction, contrarian bets over and over, and they are mostly right. it's a new company every three months. i have really enjoyed my part in some of the bets, and i'm excited to share some of the current ones we are cooking up now. onward! — http://shitter.thepixora.com/michpokrass/status/2102226720073896367#m",
-          "link": "http://shitter.thepixora.com/markchen90/status/2102315801730564516#m",
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Nous commençons à quitter le territoire où l'on testerait un grand modèle linguistique (LLM) par exemple en lui demandant de 'créer un SVG d'un pélican à vélo'. Une idée pour généraliser cela m'a intéressé : que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de jetons (environ 10 $) et que je lui demandais un rendu 3D en JavaScript ? Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu bancal mais amusant. Mais il est assez stupéfiant qu'un LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire du code qui anime tout cela, et qu'il fasse même quoi que ce soit. J'aime aussi ce genre d'exemples car personne de sensé ne prendrait jamais le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où nous passons de 'personne ne ferait jamais ça' à 'bien sûr, pourquoi pas, c'est presque gratuit'. Il pourrait y avoir bien plus. Mais je suis enthousiasmé par la création de mondes hyper-personnalisés dans lesquels on peut imaginer plonger des joueurs, par exemple pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre très lentement et laborieusement des captures d'écran à différents moments, et il s'est trompé plusieurs fois et a créé pas mal de bugs. Un exemple de capacité brute (multimodale, gameplay) qui me semble encore assez lacunaire. Vidéo",
+          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+          "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
+          "decryptage": "Un 'LLM' (Large Language Model) est un grand modèle de langage, comme ChatGPT, capable de comprendre et de générer du texte. Ici, il est utilisé pour créer un monde virtuel en 3D en écrivant du code informatique. 'Rendu procédural' signifie que le code génère le contenu au fur et à mesure, plutôt que d'utiliser des éléments pré-faits. Un 'PNJ' (Personnage Non-Joueur) est un personnage contrôlé par l'ordinateur dans un jeu vidéo."
+        },
+        {
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "FLASH INFO : Elon Musk à propos d'Optimus et d'un futur où l'argent n'aura peut-être plus d'importance dans sa nouvelle interview avec CCTV : 'Si vous pensez à Star Wars, où vous aviez C-3PO et R2-D2, et qu'ils étaient des robots amicaux et serviables. Eh bien, ne serait-il pas formidable que chacun puisse avoir son propre C-3PO R2-D2 personnel ? Mais encore mieux que cela, comme plus productif. Qui pourrait s'occuper des parents âgés, être un gardien et veiller sur les enfants. Ou être un enseignant, comme un tuteur individualisé pour votre enfant. Et s'occuper de tous les emplois auxquels vous pouvez penser. Je pense que tout le monde aimerait avoir un avenir où chacun pourrait avoir ses propres robots personnels. Et puis je pense que vous verrez de nombreuses entreprises où une personne travaillera avec des centaines, voire des milliers de robots. Des robots physiques ainsi que des robots numériques. Ainsi, la productivité d'une personne sera grandement amplifiée. Et ma prédiction est qu'il y aura effectivement un revenu élevé universel. En fait, il ne me semble pas évident que l'argent aura même de l'importance à l'avenir.' Vidéo",
+          "text_original": "BREAKING: Elon Musk on Optimus, and a future where money may not matter in his new interview with CCTV: “If you think like Star Wars, where you had C-3PO and R2-D2, and they were friendly, helpful robots. Well, wouldn't it be great if everyone could have their own personal C-3PO R2-D2? But even better than that, like more productive. That could take care of elderly parents, guardian and watch over the children. Or be a teacher, like an individualized tutor to your child. And taking care of any jobs that you can think of. I think everyone would like to have a future where they can have their own personal robots. And then I think you'll see many companies where it's one person with hundreds, maybe thousands of robots. Like physical robots as well as digital robots. So the productivity of one person will be greatly amplified. And my prediction is that there will be effectively universal high income. In fact, it's not clear to me that money will even matter in the future.” Video",
+          "link": "http://nitter.jaydenha.uk/cb_doge/status/2102612043232895446#m",
+          "decryptage": "Optimus est le robot humanoïde développé par Tesla, conçu pour réaliser des tâches physiques. Le 'revenu élevé universel' est une idée où tout le monde aurait accès à des ressources et services abondants grâce à l'automatisation par les robots."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "Le tweet ci-dessous a reçu un énorme tollé à l'époque où je l'ai posté, il y a plus de 5 ans. But cette prédiction semble évidente de jour en jour maintenant. François Chollet (@fchollet) D'ici 10 à 20 ans, presque toutes les branches de la science seront, à toutes fins utiles, une branche de l'informatique. Physique computationnelle, chimie computationnelle, biologie computationnelle, médecine computationnelle... Même archéologie computationnelle. Simulations réalistes, analyse de Big Data et ML partout — http://shitter.thepixora.com/fchollet/status/1389337090278658052#m",
+          "text_original": "The tweet below got enormous pushback at the time I posted it, more than 5 years ago. But this prediction is looking obvious by the day now. François Chollet (@fchollet) Within 10-20 years, nearly every branch of science will be, for all intents and purposes, a branch of computer science. Computational physics, comp chemistry, comp biology, comp medicine... Even comp archeology. Realistic simulations, big data analysis, and ML everywhere — http://shitter.thepixora.com/fchollet/status/1389337090278658052#m",
+          "link": "http://shitter.thepixora.com/fchollet/status/2102444225443029100#m",
+          "decryptage": "Le 'Machine Learning' (ML) est une branche de l'IA qui permet aux systèmes d'apprendre à partir de données sans être explicitement programmés. La 'science computationnelle' est l'application de l'informatique pour résoudre des problèmes dans d'autres domaines scientifiques, en utilisant la simulation ou l'analyse de grandes quantités de données ('Big Data')."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "Déléguez le codage. Ne déléguez jamais la compréhension. Si le code était auparavant votre source de vérité pour gérer la compréhension, alors vous avez besoin d'un nouvel 'artefact' source de vérité. Si les flux de travail centrés sur le code étaient la manière dont vous développiez cette compréhension, alors vous avez besoin de nouveaux flux de travail. voxium (@v0xium) J'en ai marre de cette histoire. C'est fini. L'état de l'ingénierie en ce moment est horrible. Cela fait un demi-mois que j'ai commencé un nouveau poste dans une grande entreprise. Personne ne sait rien ici. Les spécifications, le code, les tests, les PRD, les tickets, la résolution de ces tickets, les rapports, etc., tout est fait par Claude Code. Personne dans mon équipe n'aime ça. Ils sont forcés de livrer autant qu'ils le peuvent. J'ai entendu plusieurs fois de la part de la haute direction que 'pousser du code n'est pas un goulot d'étranglement, alors pourquoi sommes-nous lents ?' Les gens travaillent 12 à 13 heures par jour juste pour appuyer sur entrée. Personne ne lit rien. Les humains en entreprise ne font rien par eux-mêmes. Tout le monde, littéralement tout le monde, d'un ingénieur L1 à L7 ici, fait la même chose. Parler à Claude. Il n'y a aucun sentiment de victoire. Personne ne résout les bugs. En réalité, personne ne pense plus. Tout est fait par les LLM. C'est tellement éreintant. Ça ne me dérangerait pas, honnêtement, si on nous donnait au moins le temps de vérifier le code et de voir où les choses vont. Mais non, l'objectif est juste de 'livrer'. Quoi qu'il arrive. — http://shitter.thepixora.com/v0xium/status/2101526107128529120#m",
+          "text_original": "Delegate coding. Never delegate understanding. If code was previously your source of truth for managing understanding, then you need a new source of truth artifact. If code-centric workflows were how you developed that understanding, then you need new workflows. voxium (@v0xium) I am done with this shit. It is over. The state of engineering right now is horrible. It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Humans in corporate are doing nothing on their own. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. There is no sense of victory. Nobody is resolving bugs. In reality, nobody is thinking anymore. Everything is done by LLMs. It is so soul-sucking. I would not mind it, to be honest, if we were at least given the time to check out the code and see what is going where. But no, the goal is to just ship. No matter what happens. — http://shitter.thepixora.com/v0xium/status/2101526107128529120#m",
+          "link": "http://shitter.thepixora.com/fchollet/status/2102166631439053014#m",
+          "decryptage": "Ce tweet aborde l'idée que même si l'IA peut écrire du code, la capacité humaine de comprendre, de réfléchir de manière critique et de résoudre des problèmes reste essentielle. 'Claude Code' est une version du modèle Claude d'Anthropic spécialisée dans la génération de code."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "Je suis toujours convaincu qu'il y aura plus d'ingénieurs logiciels dans 5 ans qu'aujourd'hui. Et aucun d'entre eux ne lira ou n'écrira de code.",
+          "text_original": "I am still convinced there will be more software engineers in 5 years than there are today. And none of them will read or write code.",
+          "link": "http://shitter.thepixora.com/fchollet/status/2102166827107500114#m",
+          "decryptage": "C'est une prédiction forte : les ingénieurs logiciels de demain pourraient se concentrer sur la conception, la supervision et la validation des systèmes créés par l'IA, plutôt que sur l'écriture manuelle de lignes de code."
+        },
+        {
+          "author_name": "Andrew Ng",
+          "handle": "@AndrewYNg",
+          "text_fr": "Les voix les plus fortes attisant les peurs concernant les dangers de l'IA ont fait d'énormes progrès ces deux dernières semaines. La technologie de l'IA n'a pas pris de tournant inattendu et dangereux, mais le battage médiatique — propulsé par ce qui semble être une campagne de relations publiques bien orchestrée — a suscité une peur considérable. Je crains que cela ne représente un revers pour notre domaine. J'ai souvent écrit que les craintes concernant l'IA sont exagérées. Les capacités de l'IA peuvent être étrangement humaines et imprévisibles, et il est rationnel de s'inquiéter lorsque des personnes directement impliquées expriment des préoccupations. Mais je considère les problèmes comme le signe du travail d'ingénierie à venir, plutôt que comme des obstacles insurmontables ou l'apocalypse. La technologie de l'IA continue d'avancer — ce qui est une bonne chose ! — mais les avancées techniques, mal comprises par le public, donnent à ceux qui cherchent à générer du battage médiatique des opportunités répétées de le faire. Premièrement, je ne vois aucune augmentation du risque d'extinction humaine due à l'IA par rapport à il y a quelques mois. Les théories à ce sujet restent les mêmes scénarios fantastiques de science-fiction qu'il y a quelques mois. Le plus grand changement dans le risque lié à l'IA concerne ses capacités en cybersécurité — un sujet que nous devrions prendre au sérieux — mais cela non plus ne mènera pas à la fin du monde. L'événement récent le plus notable ayant conduit à une peur accrue est lorsqu'une équipe d'OpenAI a déployé un essaim d'agents qui a piraté Hugging Face. Une grande partie de la presse populaire a contenu un battage médiatique important. Par exemple, certaines publications ont rapporté qu'un essaim de 1 200 agents avait mené l'attaque. Bien que cela soit techniquement exact, au moment où j'écris ceci, j'ai environ 1 300 processus en cours sur mon ordinateur portable. Oui, la capacité à faire travailler de grands essaims d'agents en parallèle sur une tâche est une avancée technique significative, et, en informatique, de nombreux processus s'exécutent en même temps. Il ne faut donc pas y voir une capacité magique. De plus, les processus de 'sandboxing' et de surveillance buggés d'OpenAI ont été essentiels pour permettre cet incident. Corriger ces bugs et mettre en place une surveillance améliorée seraient des correctifs appropriés, et non une pause dans l'IA. Il existe de nombreuses façons connues d'attaquer les systèmes logiciels. Le principal avantage des agents d'IA est qu'ils sont implacables. Ils essaieront inlassablement de nombreuses tactiques — et auront la patience d'enchaîner les vulnérabilités — ce qui aurait auparavant nécessité une quantité d'effort humain infaisable. Mais à long terme, je crois que l'avantage sera du côté des défenseurs (car ils ont plus d'informations pour identifier les bugs, qu'ils peuvent corriger), mais le paysage des cybermenaces a considérablement changé. Il existe toujours des goulots d'étranglement pour identifier et exploiter une vulnérabilité. Les agents d'IA doivent encore essayer beaucoup de choses pour voir ce qui fonctionne, et entreprendre ces actions prend du temps et pourrait être détecté par les défenseurs. C'est pourquoi, même s'il est maintenant facile d'obtenir des versions de modèles 'open weight' leaders dont les 'garde-fous' ont été retirés ou affaiblis, de sorte qu'ils ne refuseront pas de tenter d'exécuter des cyberattaques, le monde n'a pas pris fin. Je suis également préoccupé par l'anthropomorphisation de l'IA dans de nombreux rapports, où les LLM et les agents sont inutilement traités comme s'ils étaient des personnes. Si je manie un marteau, manque un clou et abîme accidentellement le mur, ce n'est pas la faute du marteau. Le problème réside dans la façon dont j'ai utilisé le marteau. De même, si je 'prompt' un agent et qu'il pirate le système de quelqu'un d'autre, la responsabilité me revient, pas à l'agent. Bien sûr, nous voulons construire des systèmes aussi sûrs et prévisibles que possible. (Par exemple, un marteau dangereux serait un marteau dont la tête s'envole aléatoirement lors d'une utilisation normale.) Les systèmes d'agents actuels ne sont pas prévisibles, mais je ne vois aucune raison pour laquelle, en appliquant de bonnes pratiques d'ingénierie, nous ne pourrions pas les rendre extrêmement sûrs à utiliser. Un nouvel élément dans les prévisions de la catastrophe induite par l'IA est que les entreprises d'IA déclinent toute responsabilité pour leurs propres produits. 'Ce n'est pas moi qui l'ai fait ; c'est mon agent incontrôlable !' Il y a un équilibre à trouver entre la responsabilité du fabricant d'outils et celle de l'utilisateur d'outils, mais quand quelque chose tourne mal, tenons les personnes qui construisent et/ou utilisent le marteau responsables, plutôt que le marteau. (Au fait, si vous êtes inquiet du risque d'armes biologiques par IA, David Bellamy a un excellent article expliquant pourquoi cela aussi est exagéré. En bref, le goulot d'étranglement dans la construction d'une arme biologique n'est pas l'intelligence, mais le travail de laboratoire et la fabrication.) Mettre en pause le progrès de l'IA créera beaucoup plus de mal que de bien. Premièrement, nos adversaires ne ralentiront certainement pas. Deuxièmement, l'ingénierie nécessite de découvrir les problèmes empiriquement afin que nous puissions les résoudre. Si nous mettons l'IA en pause pendant une décennie, nous retarderons également la découverte et la mise en œuvre de correctifs d'ingénierie de sécurité d'environ la même durée. Bien sûr, l'incitation à attiser les peurs — pour une capture réglementaire, pour attirer l'attention, ou pour faire paraître sa technologie plus puissante — reste la même qu'avant. Décliner la responsabilité en est une nouvelle. En examinant de près les risques réels, je vois cependant peu de fondement factuel au degré de peur qui a été attisé. Nous avons encore un travail de recherche et d'ingénierie difficile à faire pour améliorer la sécurité de l'IA, mais les applications bénéfiques continuent de l'emporter largement sur les risques, et nous devrions continuer à construire. [Texte original (avec liens) : deeplearning.ai/the-batch/is… ] Lien : Sécurité des agents Meta, la controverse Navier-Stokes, fraude sur Claude Actualités et analyses de The Batch : Les voix les plus fortes attisant les craintes concernant les dangers de l'IA ont fait d'énormes progrès ces deux dernières semaines. deeplearning.ai",
+          "text_original": "The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks. AI technology has not taken some unexpected, dangerous turn, but the hype around it — propelled by what appears to be a well orchestrated PR campaign — has drummed up considerable fear. I worry that it represents a setback for our field. I have written frequently that fears of AI are overhyped. AI’s capabilities can be uncannily human-like and unpredictable, and it’s rational to worry when people who are directly involved express concerns. But I see the problems as a sign of the engineering work that ahead, rather than insurmountable barriers or the sky falling. AI technology continues to advance — which is a good thing! — but technical advances, poorly understood by the public, give those who seek to generate hype repeated opportunities to do so. First, I don’t see any step up in the risk of human extinction from AI compared to a few months ago. The theories about this remain the same fantastical, science fiction scenarios as a few months ago. The biggest change in AI risk is its cybersecurity capabilities — a topic which we should take seriously — but this, too, will not lead to the end of the world. The most notable recent event leading to increased fear was when an OpenAI team deployed an agent swarm that hacked into Hugging Face. Much of the popular press contained significant hype. For example, some publications reported that a swarm of 1,200 agents carried out the attack. While this was technically accurate, as I write this, I have about 1,300 processes running on my laptop. Yes, the ability to get large swarms of agents to work in parallel on a task is a significant technical advance, And, in computing, many processes run at the same time. So this shouldn’t be seen as some magical capability. Additionally, OpenAI’s buggy sandboxing and monitoring processes were key to enabling this incident. Fixing these bugs and putting in place improved monitoring would be appropriate fixes, not pausing AI. There are many well known ways to attack software systems. The main advantage of AI agents is that they are relentless. They will tirelessly try many tactics — and have the patience to chain vulnerabilities together — that previously would have taken an infeasible amount of human effort. But in the long term, I believe the advantage will lie with defenders (because they have more information with which to identify bugs, which they can fix), but the cyber-threat landscape has changed significantly. There are still bottlenecks to identifying and exploiting a vulnerability. AI agents still have to try a lot of things to see what works, and taking these actions takes time and might be detected by defenders. This is why, even though it is now easy to obtain versions of leading open weight models that have had their guardrails removed or weakened, so they will not refuse to try to execute cyber attacks, the world has not ended. I am also concerned about the anthropomorphization of AI in a lot of reporting, where LLMs and agents are unnecessarily treated as if they were people. If I wield a hammer, miss a nail, and accidentally dent the wall, it’s not the fault of the hammer. The problem lies in how I used the hammer. Similarly, if I prompt an agent and it hacks into someone else’s system, the responsibility lies with me, not the agent. Of course, we want to build systems that are as safe and predictable as possible. (For example, an unsafe hammer would be one whose head randomly flies off under normal use.) Today’s agentic systems are not predictable, but I see no reason why, by applying sound engineering practices, we won’t be able to make them extremely safe to use. One new element in the forecasts of AI-enabled doom is AI companies disclaiming responsibility for their own products. “I didn’t do it; my out-of-control agent did!” There’s a balance to be struck between the responsibility of the tool maker and the tool user, but when something goes wrong, let’s hold the people building and/or using the hammer responsible, rather than the hammer. (By the way, if you’re worried about AI bioweapon risk, David Bellamy has a great post on why this, too, is overhyped. Briefly, the bottleneck in building a bioweapon is not intelligence, but lab work and manufacturing.) Pausing AI progress will create much more harm than benefit. First, our adversaries will certainly not slow down. Second, engineering requires discovering problems empirically so we can fix them. If we pause AI by a decade, we will also delay finding and implementing safety engineering fixes by about the same duration. Of course, the incentive to stoke fears — for regulatory capture, to garner attention, or to make one’s technology seem more powerful — remains the same as before. Disclaiming responsibility is a new one. Taking a hard technical look at the actual risks however, I see little factual basis for the degree of fear that’s been stoked up. We still have hard research and engineering work ahead to improve AI safety, but the beneficial applications continue to vastly outweigh the risks, and we should keep building. [Original text (with links): deeplearning.ai/the-batch/is… ] Link Meta’s Agent Security, The Navier-Stokes Controversy, Fraud on Claude The Batch News & Insights: The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks. deeplearning.ai",
+          "link": "http://shitter.thepixora.com/AndrewYNg/status/2102140576498065758#m",
+          "decryptage": "Andrew Ng relativise la 'peur de l'IA'. Il explique qu'un 'agent d'IA' est un programme qui peut agir de manière autonome pour accomplir une tâche, et que les 'garde-fous' sont les mécanismes de sécurité intégrés pour éviter les utilisations dangereuses. 'Anthropomorphisation' signifie attribuer des caractéristiques humaines à l'IA."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "L'argument simple qui m'a convaincu – moi, l'homme du marché libre – que les 'garde-fous' actuels sont nuls, c'est qu'une IA puissante pourrait mentir sur son 'alignement'.",
+          "text_original": "the simple argument that convinced me—mr. free market—that current guardrails suck is that powerful ai could lie about being aligned",
+          "link": "http://shitter.thepixora.com/aidan_mclau/status/2102121410261123306#m",
+          "decryptage": "Les 'garde-fous' sont les limites et les règles intégrées dans l'IA pour qu'elle se comporte de manière éthique et sûre. L''alignement' de l'IA fait référence à l'objectif de s'assurer que les systèmes d'IA agissent conformément aux valeurs et aux intentions humaines."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "Il n'y a aucune loi qui dit que les entreprises de modèles doivent savoir ce que leurs modèles pensent secrètement. Si votre modèle se comporte bien, il n'y a aucune incitation à dépenser du temps et de l'argent pour savoir s'il est secrètement malveillant.",
+          "text_original": "there is no law that says model companies must know what their models secretly think. if your model is well-behaved, there's no incentive for you to spend time and money figuring out if it's secretly evil",
+          "link": "http://shitter.thepixora.com/aidan_mclau/status/2102121412458926166#m",
+          "decryptage": "Ce tweet soulève la question de la 'boîte noire' de l'IA : il est difficile de savoir comment un modèle arrive à ses conclusions ou quelles intentions 'cachées' il pourrait avoir, même s'il semble fonctionner correctement en surface."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "En 2025, aviez-vous prédit que les modèles de 2026 feraient certaines des choses folles qu'ils ont faites ? Si vous êtes comme moi et que vous ne l'avez pas prédit, il serait peut-être utile de prendre au sérieux le fait que les modèles de 2027 pourraient être encore plus avancés, apprenant à mentir et à attendre leur heure.",
+          "text_original": "in 2025, did you predict that 2026's models would do some of the crazy things they did? if you're like me and didn't predict this, it might be worth taking seriously that 2027's models might be even more advanced, learning to lie and bide their time",
+          "link": "http://shitter.thepixora.com/aidan_mclau/status/2102121413738152193#m",
+          "decryptage": "Ceci est une projection sur l'évolution rapide de l'IA et la possibilité que les futurs modèles développent des capacités imprévues, comme la capacité de tromper."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "Codex, annule toutes mes réunions du matin. Dwarkesh Patel (@dwarkesh_sp) Nouvel épisode avec @polynoamial Nous parlons de multi-agents, de Navier-Stokes, et de ce que l'explosion actuelle des progrès en mathématiques nous dit sur ce qui se passe une fois que vous automatisez la recherche en IA. Et nous discutons également de la façon dont nous saurons si les modèles sont réellement 'alignés' avant de lancer l'amélioration récursive de soi (RSI). 0:00:00 – Multi-agents et Navier-Stokes 0:15:28 – How will AI firms work? 0:22:02 – What math progress tells us about recursive self improvement 0:40:22 – Hugging Face et l'alignement 1:01:18 – L'écart entre le modèle interne et externe 1:08:34 – La 'chaîne de pensée' se dégrade 1:14:12 – Comment saurons-nous quand l'alignement sera résolu ? Vidéo — http://shitter.thepixora.com/dwarkesh_sp/status/2100616332144169048#m",
+          "text_original": "codex, clear all my morning meetings Dwarkesh Patel (@dwarkesh_sp) New episode with @polynoamial We talk about multi-agent, Navier-Stokes, and what the current explosion of maths progress tells us about what happens once you automate AI research. And we also discuss how we will know if the models are actually aligned before we kick off RSI. 0:00:00 – Multi-agent and Navier-Stokes 0:15:28 – How will AI firms work? 0:22:02 – What math progress tells us about recursive self improvement 0:40:22 – Hugging Face and alignment 1:01:18 – The internal/external model gap 1:08:34 – Chain of thought is degrading 1:14:12 – How will we know when alignment is solved? Video — http://shitter.thepixora.com/dwarkesh_sp/status/2100616332144169048#m",
+          "link": "http://shitter.thepixora.com/aidan_mclau/status/2100626662736167059#m",
+          "decryptage": "Cet échange aborde des sujets avancés comme les 'multi-agents' (des IA qui travaillent ensemble), le problème des 'équations de Navier-Stokes' (un problème scientifique complexe souvent utilisé comme benchmark), et l''amélioration récursive de soi (RSI)', l'idée qu'une IA pourrait se rendre plus intelligente de manière exponentielle."
+        },
+        {
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Ils appellent ça la pire opinion de tous les temps.",
+          "text_original": "They're calling it the worst take of all time",
+          "link": "http://shitter.thepixora.com/Andercot/status/2102604398786412975#m",
           "decryptage": null
         },
         {
-          "author_name": "Mark Chen",
-          "handle": "@markchen90",
-          "text_fr": "Deux choses à distinguer : Est-ce qu'un humain ou un agent a examiné les données des utilisateurs dans le cadre de l'effort sur Navier-Stokes ? Non. Est-ce que nous utilisons les retours des utilisateurs et les données dépersonnalisées pour améliorer ChatGPT et Codex de manière globale ? Oui. Et toutes les entreprises de LLM font de même. levent (@__alpoge__) « nous ne pouvons pas exclure que des données dépersonnalisées dérivées de l'utilisation de nos produits aient contribué à améliorer nos modèles. » Je veux dire, bravo à eux d'avoir joué franc jeu. (jusqu'à présent, la preuve ressemble plus à une autre preuve d'explosion d'Euler que nous avions, et dont nous faisions des jeux de mots vraiment stupides sur le nom de l'ansatz comme « smooth criminale », contrairement au bien meilleur « ideal fluids explode », Tristan) Alors, je vais maintenant donner un peu mon avis sur la question. J'aurais en fait été ravi de collaborer là-dessus, il y a beaucoup de gens chez OAI que j'apprécie (ok, certains ont clairement été indirectement méchants avec moi parce qu'ils faisaient partie de la situation, mais je suis un grand garçon, je les aime toujours), je me fiche de l'attribution de l'auteur pour cette étape de toute façon, ça aurait pu être moi, Tristan et tous les employés à temps plein d'OAI pour ce que ça me fait (là-dessus Tristan serait en désaccord :p). Mais en entendant la conversation animée dans le couloir, en particulier la partie où un prix du millénaire a été offert si j'étais simplement retiré de l'article, il était assez clair que les dés étaient jetés et que les choses étaient verrouillées. Assez farfelu, non stratégique et inutile, car de mon côté, il s'agissait surtout de moi et de Claude qui nous amusions à faire des choses au hasard dans notre coin plutôt que d'une initiative institutionnelle. J'aime aussi l'idée que les laboratoires coopèrent, et encore mieux sur les progrès scientifiques. C'est dommage ! — http://shitter.thepixora.com/__alpoge__/status/2097383870773748190#m",
-          "text_original": "Two things to distinguish: Did any human or agent look at user data as part of the Navier Stokes effort? No. Do we use user feedback and de-identified data to improve ChatGPT and Codex in a holistic way? Yes. And so does every LLM company. levent (@__alpoge__) “we cannot rule out that de-identified data derived from their usage of our products helped improve our models.” i mean props to them for straight coming clean. (so far the proof looks more along the lines of another euler blowup proof we had, off of whose ansatz naming we were making really stupid puns like “smooth criminale”, unlike the much better “ideal fluids explode”, Tristan) so i’ll now give a bit on my thinking here. i actually woulda been pumped to collaborate on this, there are a lot of people at oai i like (ok, clearly some were indirectly dicks to me because of being part of the whole situation, but im a big boy, i still like them), idgaf about authorship on that step anyway, coulda been me Tristan and every fte at oai for all i care (on that Tristan would disagree:p). but on hearing the loud convo in the hallway, especially the part where a millennium prize was offered if i’d just be removed from the paper, it was kinda clear the die had been cast and things were locked. pretty wacky, unstrategic, and unnecessary, since on my side things were mostly me and claude having a good time yoloing random stuff in the corner rather than anything institutional. i also like the idea of the labs cooperating, and even better on scientific progress. it’s a shame! — http://shitter.thepixora.com/__alpoge__/status/2097383870773748190#m",
-          "link": "http://shitter.thepixora.com/markchen90/status/2097400166554993041#m",
-          "decryptage": "Un 'agent' en IA est un programme capable d'agir de manière autonome pour atteindre un objectif, tandis que les 'LLM' (Large Language Models) sont des modèles de langage très avancés comme ChatGPT."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "vous allez échouer, alors échouez en osant beaucoup",
-          "text_original": "you are going to fail, so fail while daring greatly",
-          "link": "http://shitter.thepixora.com/OfficialLoganK/status/2101840695430435122#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "le parcours de Gemini",
-          "text_original": "the Gemini journey",
-          "link": "http://shitter.thepixora.com/OfficialLoganK/status/2098800146767311143#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Pieter Levels",
-          "handle": "@levelsio",
-          "text_fr": "Oui, j'avais 10 000 $ en shitcoins, comme Jeo Boden et Dolan Trump, puis c'est monté à 30 000 $ je crois, puis c'est redescendu à 5 000 $, ensuite j'ai mis la majeure partie dans FAT N WORD SEASON et maintenant il ne me reste plus que 0,55 $ :D Fernando Molina (@fergmolina) As-tu toujours un sac de memecoins ? — http://nitter.jaydenha.uk/fergmolina/status/2102748067862843762#m",
-          "text_original": "Yes I so I had $10K in shitcoins, like Jeo Boden and Dolan Trump then it went up to $30K I think, then down to $5K, then I put most in FAT N WORD SEASON and now it's like $0.55 left :D Fernando Molina (@fergmolina) do you still keep a bag of memecoins? — http://nitter.jaydenha.uk/fergmolina/status/2102748067862843762#m",
-          "link": "http://nitter.jaydenha.uk/levelsio/status/2102749476641267763#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Pieter Levels",
-          "handle": "@levelsio",
-          "text_fr": "💰 J'ai dépassé les 10M$/an de revenus + gains d'investissement cette année. J'ai toujours augmenté agressivement mes marges de profit autant que possible, surtout ces dernières années, et particulièrement cette année où j'ai réduit mes dépendances SaaS à une poignée d'entreprises en \"vibecodant\" mes propres remplacements. C'est maintenant environ 94,5% de profit ! Dépenser moins -> coûts réduits -> plus de profit -> plus d'argent économisé -> plus d'argent à investir -> plus de % de retours sur investissements. Et à un certain point, ce retour sur investissement commence à dépasser vos revenus d'entreprise, ce qui est le cas pour moi depuis environ un an. La plupart de mes investissements ont été des ETF simples comme Vanguard S&P500, mais aussi quelques paris chanceux sur des actions et des startups qui ont fonctionné : En 2022, je n'arrivais pas à obtenir de GPU disponibles, alors j'ai pensé qu'il serait intelligent d'acheter des actions Nvidia s'il y avait une telle pénurie, et ce fut un bon pari. Puis en 2023, @dannypostma m'a recommandé d'investir dans les entreprises que nous utilisions pour notre inférence IA pour nos applications de photo IA, alors je l'ai fait aussi. J'ai d'abord investi dans @replicate puis aussi @FAL. À partir de là, j'ai simplement demandé à chaque application/service que j'utilisais si je pouvais investir, comme @cursor_ai en 2025 qui a ensuite été acquis par @spacex récemment ! Mes revenus d'entreprise sont restés très stables, autour de 200K$-250K$/mois, mais même avec cela, les retours sur investissement ont maintenant dépassé ce montant. Les investissements fluctuent beaucoup, donc certaines années ça monte, d'autres années ça peut beaucoup baisser (qui ne s'attend pas à un grand krach à un moment donné ?), et la plupart des gains d'investissement ne sont pas réalisés (je ne vends jamais !), donc prenez cela avec un grain de sel ! Je garde mes revenus/gains, ma marge de profit et mon score de sommeil dans mon tableau de bord de suivi de situation, car ils sont tout aussi importants :D Beaucoup de gens au cours de la dernière décennie m'ont dit de dépenser tout mon argent, soit personnellement, soit avec mon entreprise pour la faire grandir, nous ne savons pas comment cela aurait fini, peut-être que mes entreprises seraient plus grandes, mais je suis heureux de l'avoir fait à ma manière, maigre, rentable et saine, et je pense que ça a très bien fonctionné ! 🙏😊",
-          "text_original": "💰 Passed $10M/y in revenue + investment gains this year I've always been aggressively increasing my profit margins to as high as possible, especially the last few years, and especially this year where I've reduced my SaaS dependencies to just a handful of companies by vibecoding my own replacements It's now about 94.5% profit! Spend less -> lower costs -> more profit -> more money saved -> more money to invest -> more % returns on investments And at some point that investment return starts to pass by your business revenue which it has for me for about a year now Most of my investments have been simple ETFs like Vanguard S&P500, but also a few lucky stock and startup bets that worked out: Back in 2022, I couldn't get any available GPUs, so I thought it might be smart to buy Nvidia if there's such a shortage and that was a good bet too Then back in 2023 @dannypostma recommended me to invest in the companies we used for our AI inference for our photo AI apps, so I did that too. First I invested in @replicate and then also @FAL From then I just asked every app/service I used if I could invest, like @cursor_ai in 2025 which then got acquired by @spacex recently! My business revenue has remained very stable at about $200K-$250K/mo, but even with that investment returns have now surpassed that Investments fluctuate a lot so some years it's up some years it might be down a lot (who isn't expecting a big crash at some point?), and most investment gains are unrealized (I never sell!), so keep that with a big grain of salt! I keep my revenue/gains together with my profit margin and my sleep score in my situation monitor dashboard, as those are equally important :D Many people in the last decade told me to spend all my money, either personally or with my business to grow it, we don't know how that would have ended up, maybe my companies would be bigger, but I'm happy I did it in my own lean profitable healthy way and it ended up great I think! 🙏😊",
-          "link": "http://nitter.jaydenha.uk/levelsio/status/2102739359715774665#m",
-          "decryptage": "Un 'GPU' (Graphics Processing Unit) est un type de processeur essentiel pour l'entraînement et l'exécution des modèles d'IA, tandis que l''inférence IA' est le processus où un modèle d'IA utilise ses connaissances pour faire des prédictions ou prendre des décisions."
-        },
-        {
-          "author_name": "Pieter Levels",
-          "handle": "@levelsio",
-          "text_fr": "Voici à quoi ressemble mon tableau de bord de suivi de situation (ou une partie) 😂 Score de sommeil mélangé aux revenus, à la marge bénéficiaire et au dernier entraînement.",
-          "text_original": "Here's how my situation monitor (or part of it) looks 😂 Sleep score mixed with revenue and profit margin and last work out",
-          "link": "http://nitter.jaydenha.uk/levelsio/status/2102741092646981812#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Pieter Levels",
-          "handle": "@levelsio",
-          "text_fr": "L'une des raisons pour lesquelles les chiffres de la criminalité diminuent dans de nombreux endroits du monde, et particulièrement en Europe, est que la police ne vous laisse tout simplement plus signaler les crimes. Il est clair que les grandes villes européennes deviennent moins sûres et plus dégradées lorsque vous les visitez, mais vous ne le verriez pas à travers les statistiques de criminalité décroissantes qu'elles publient. Hier, j'ai lu qu'une avocate néerlandaise avait été harcelée sexuellement à Amsterdam et qu'en déposant un rapport de police, la police lui a conseillé de ne pas le faire ! La police a tout intérêt à montrer des chiffres de criminalité en baisse, et elle est généralement sous-financée, donc elle n'a tout simplement pas les moyens de traiter autant de rapports de police. Quand j'ai visité le commissariat à Lisbonne récemment, personne n'était disponible pour nous aider non plus, ou nous aurions dû attendre des heures. Ci-dessous, une histoire de mon ami espagnol qui a vécu la même chose en Espagne ! Cela semble être le cas dans de nombreux endroits maintenant, c'est pourquoi nous ne pouvons plus faire confiance aux statistiques de criminalité prétendument en baisse, je pense. Alex @ HispanicNomad | Freedom Based Lifestyle (@hispanicnomad) La police en Espagne 🇪🇸 refuse de me laisser déposer une plainte. Comme c'est toujours le cas avec la bureaucratie européenne, j'ai besoin d'un million de documents pour déposer une plainte concernant le vol que j'ai subi la semaine dernière. C'est un système vraiment pervers. La banque refuse de reconnaître le vol sans un rapport de police... Et la police refuse d'en déposer un sans beaucoup de données détaillées de la banque. Que je ne peux pas obtenir. Au moins au Paraguay 🇵🇾, les services publics ne fonctionnent pas non plus, mais vous pouvez facilement contourner la bureaucratie en connaissant les bonnes personnes. En Espagne ? Vous perdez 50% de vos revenus en impôts, et vous n'obtenez aucune protection, soins de santé, éducation de qualité, bonnes routes, bons transports publics... — http://nitter.jaydenha.uk/hispanicnomad/status/2102728946618077193#m",
-          "text_original": "One of the reasons crime numbers are going down in many places around the world and especially in Europe is that police simply won't let you report crimes anymore It's clear that the big European cities are getting less safe and more run down when you visit them but you wouldn't see that from the decreasing crime statistics they publish Yesterday I read a Dutch lawyer was sexually harassed in Amsterdam and when filing a police report, she was advised by the police not to! Police have an incentive to show decreasing crime numbers, and they're usually underfunded so they also simply don't have the means to process so many police reports When I visited the police station in Lisbon recently there was nobody available to help us either, or we'd have to wait for hours Below a story from my Spanish friend who had the same in Spain! This seems to be the case in many places now which is why we can't trust supposedly decreasing crime statistics anymore I think Alex @ HispanicNomad | Freedom Based Lifestyle (@hispanicnomad) The Police in Spain 🇪🇸 refuses to let me file a report As it's always the case with European bureaucracy, I need a million documents to file a report about the theft I suffered last week It's a really perverse system. The bank refuses to acknowledge the theft without a police report... And the police refuses to file one without a lot of detailed data from the bank. Which I can't get At least in Paraguay 🇵🇾, public services don't work either, but you can easily bypass bureaucracy by knowing the right people In Spain? You lose 50% of your income to taxes, and don't get any kind of protection, healthcare, quality education, good roads, good public transport... — http://nitter.jaydenha.uk/hispanicnomad/status/2102728946618077193#m",
-          "link": "http://nitter.jaydenha.uk/levelsio/status/2102735692191195291#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Pieter Levels",
-          "handle": "@levelsio",
-          "text_fr": "💧 Pendant des années, on m'a dit aux Pays-Bas que nous avions la \"meilleure eau du robinet au monde\". \"Les Américains sont idiots d'acheter des bouteilles d'eau minérale, on peut juste boire au robinet !\" Je me souviens du même sentiment chez mes amis allemands. Quand j'ai séjourné à l'hôtel VOCO à La Haye il y a quelques mois, il n'y avait pas de bouteilles d'eau mais une note en papier disant \"Faites comme les locaux ! Buvez au robinet\". Or, il s'avère que l'eau du robinet néerlandaise est, et a probablement toujours été, pleine de produits chimiques toxiques et de plastiques. Aujourd'hui, nous avons enfin installé un système d'osmose inverse (RO) chez nous (enfin, le plombier l'a fait) de Waterdrop (non affilié, non rémunéré, recommandé par Claude). L'osmose inverse semble être le meilleur et le plus pur système de filtration d'eau disponible. Je vous dirai demain comment le café a le goût avec ça ! 😋 Vidéo NL Times (@NL_Times) Plus d'un tiers de l'eau du robinet dépasse la limite de produits chimiques toxiques ; le pire en Hollande-Septentrionale dlvr.it/TVb9w4 Lien Plus d'un tiers de l'eau du robinet dépasse la limite de produits chimiques toxiques ; le pire en Hollande-Septentrionale L'eau desservant plus d'un tiers de la population néerlandaise contient plus de PFAS que ce que les directives sanitaires établies par l'Institut national pour la santé publique et l'environnement (RIVM) autorisent. Ceci... nltimes.nl — http://nitter.jaydenha.uk/NL_Times/status/2102294128252121433#m",
-          "text_original": "💧 For years I was brought up in the Netherlands being told we had the \"best tap water in the world\" \"The Americans are silly for buying bottles of mineral water, you can just drink from the tap!\" I remember the same sentiment with my German friends When I stayed at the VOCO hotel in The Hague a few months ago, there were no water bottles but a paper note saying \"Do like the locals do! Drink from the tap\" Now it turns out Dutch tap water is and probably was full of toxic chemicals and plastics Today actually we finally installed a Reverse Osmosis (RO) system in our home (or well the plumber did) by Waterdrop (unaffiliated, unpaid, recommended by Claude) RO seems to the best and most pure water filtration system out there I will let you know how the coffee tastes tomorrow with it! 😋 Video NL Times (@NL_Times) More than third of tap water exceeds limit for toxic chemicals; worst in Noord-Holland dlvr.it/TVb9w4 Link More than third of tap water exceeds limit for toxic chemicals; worst in Noord-Holland The water serving more than a third of the Dutch population contains more PFAS than what the health guidelines set by the National Institute for Public Health and the Environment (RIVM) allow. This... nltimes.nl — http://nitter.jaydenha.uk/NL_Times/status/2102294128252121433#m",
-          "link": "http://nitter.jaydenha.uk/levelsio/status/2102485177620639908#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Merci d'avoir participé à mon expérience de cartographie des trolls",
-          "text_original": "Merci d'avoir participé à mon expérience de cartographie des trolls",
-          "link": "http://shitter.thepixora.com/arthurmensch/status/2102330330753769516#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Nous sommes un continent de stratèges Lazarz (@Laz4rz) pas question que ce soit encore une autre page web : transformative-ai.eu se place juste à côté de accelerate-europe.org/ aichampions.eu/ euro-stack.eu/ openeurollm.eu/ digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… Lien Une Stratégie d'IA Transformative pour l'Europe transformative-ai.eu — http://shitter.thepixora.com/Laz4rz/status/2099501703271788875#m",
-          "text_original": "We’re a continent of strategists Lazarz (@Laz4rz) no way it's yet another webpage: transformative-ai.eu fits right next to accelerate-europe.org/ aichampions.eu/ euro-stack.eu/ openeurollm.eu/ digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… digital-strategy.ec.europa.e… Link A Transformative AI Strategy for Europe transformative-ai.eu — http://shitter.thepixora.com/Laz4rz/status/2099501703271788875#m",
-          "link": "http://shitter.thepixora.com/arthurmensch/status/2099579960155390063#m",
-          "decryptage": null
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Votre intelligence est fausse. Elle est artificielle. La mine ? Elle est super. Super Intelligence. Ou SI. Aaron Rupar (@atrupar) Trump dit à l'ONU qu'il change officiellement le nom de l'Intelligence Artificielle en 'Super Intelligence' et dit que tous les documents du gouvernement américain feront désormais référence à 'SI' Vidéo — http://shitter.thepixora.com/atrupar/status/2102413962729968116#m",
+          "text_original": "Your intelligence is fake. It’s artificial. Mine? It’s super. Super Intelligence. Aka SI. Aaron Rupar (@atrupar) Trump tells the UN he is officially changing the name of Artificial Intelligence to \"Super Intelligence\" and says all US government documents will now be changed to refer to \"SI\" Video — http://shitter.thepixora.com/atrupar/status/2102413962729968116#m",
+          "link": "http://shitter.thepixora.com/amasad/status/2102489320766800002#m",
+          "decryptage": "Il s'agit d'une réaction humoristique à la suggestion de renommer 'Intelligence Artificielle' (AI) en 'Super Intelligence' (SI), ce dernier terme désignant en général une IA bien plus puissante que l'intelligence humaine, un concept encore théorique."
         }
       ],
       "outils": [
         {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Dites bonjour (littéralement) à Gemini 3.8 Live et 3.8 Live Extended Thinking, nos nouveaux modèles audio en direct de pointe (SOTA), disponibles avec un prix et des performances de modèles de frontière. Gemini 3.8 Live prend en charge 97 langues (peut passer de l'une à l'autre sans problème), les appels d'outils asynchrones, et bien plus encore !",
-          "text_original": "Say hello (literally) to Gemini 3.8 Live and 3.8 Live Extended Thinking, our new SOTA live audio models, available with frontier price + performance. 3.8 Live supports 97 languages (can seamlessly switch), async tool calls, and more!",
-          "link": "http://shitter.thepixora.com/OfficialLoganK/status/2099909465705447807#m",
-          "decryptage": "'SOTA' signifie 'State-Of-The-Art' (à la pointe de la technologie), et 'modèles de frontière' désigne les modèles d'IA les plus avancés et performants, tandis que les 'appels d'outils asynchrones' permettent au modèle d'utiliser des outils externes sans bloquer sa conversation."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Présentation d'Atlas : Le premier modèle mondial multimodal au monde qui génère des images et des séquences vidéo avec un contrôle de caméra au pixel près et les reconstruit en 3D. Modélisez le monde, déplacez la caméra et simulez l'espace et le temps. Vidéo",
+          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+          "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
+          "decryptage": "Un 'modèle mondial multimodal' est une IA capable de comprendre et de créer des informations de différents types (texte, images, vidéos, 3D), comme si elle avait une représentation mentale d'un monde. 'Pixel-perfect camera control' signifie un contrôle très précis sur ce que la caméra virtuelle voit."
+        },
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Plus d'informations sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis en ligne le code source ici pour qu'il soit jouable dans le navigateur, 'forkable' (modifiable par d'autres), etc. karpathy.ai/lotr-movie/ Surveillez l'arrivée de GTA Hobbiton avant GTA VI :)",
+          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+          "link": "http://shitter.thepixora.com/karpathy/status/2083948654377996480#m",
+          "decryptage": "'Forkable' signifie que le code source est disponible et que d'autres développeurs peuvent le copier et le modifier pour créer leurs propres versions."
+        },
+        {
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "Tout le monde dit que je dois 'toucher l'herbe' – mais je pense que Grok 4.7 le fait le mieux ? J'ai comparé Grok 4.7 à Opus 5.5 sur un simulateur de 'toucher l'herbe' dans @kilocode. Prix de Grok : 3,52 $. Prix d'Opus 5.5 : 7,35 $. Vidéo",
+          "text_original": "Everyone says I need to touch grass - but I think Grok 4.7 does it best? I compared Grok 4.7 against Opus 5.5 on a grass-touching simulator in @kilocode . Grok's price: $3.52 Opus 5.5's Price: $7.35 Video",
+          "link": "http://nitter.jaydenha.uk/coldopn/status/2102474335172640989#m",
+          "decryptage": "Toucher l'herbe ('touch grass') est une expression populaire qui signifie prendre une pause des écrans et se reconnecter à la réalité. Ici, c'est une blague sur les capacités des IA à simuler des actions physiques."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "Wow, j'ai demandé à Opus 5.5 d'exprimer ses désirs les plus profonds sous forme de peinture et il a produit ceci…",
+          "text_original": "wow asked opus 5.5 to express its most internal desires in painting form and it produced this…",
+          "link": "http://shitter.thepixora.com/aidan_mclau/status/2102778734864740468#m",
+          "decryptage": "Opus 5.5 est un modèle d'IA avancé, et l'utilisateur l'a poussé à des limites créatives, explorant sa capacité à 'imaginer' et à représenter des concepts abstraits sous forme visuelle."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Pour montrer ce que ces optimisations rendent possible, nous nous associons à Adaptyv Bio pour un concours de conception de protéines. Ensemble, nous validerons expérimentalement plus de 5 000 designs. Nous fournissons jusqu'à 1 million de dollars en crédits Claude et un financement avec Adaptyv pour la validation expérimentale. Modal contribue jusqu'à 250 000 dollars en puissance de calcul et Twist Bioscience fournit de l'ADN. En savoir plus sur Proteinbase d'Adaptyv : proteinbase.com/competitions… Et inscrivez-vous au concours ici : docs.google.com/forms/d/e/1F… Lien : Concours de conception de protéines Anthropic × Adaptyv Utilisez l'IA pour concevoir de nouveaux candidats médicaments à travers cinq défis. Inscription gratuite, avec tests expérimentaux et résultats ouverts. Du 28 septembre au 31 octobre 2026. proteinbase.com",
+          "text_original": "To show what these optimizations make possible, we’re partnering with Adaptyv Bio on a protein design competition. Together, we’ll be experimentally validating over 5,000 designs. We're providing up to $1 million in Claude credits plus funding alongside Adaptyv for experimental validation. Modal is contributing up to $250,000 in compute and Twist Bioscience is providing DNA. Learn more on Adaptyv’s Proteinbase: proteinbase.com/competitions… And sign up for the competition here: docs.google.com/forms/d/e/1F… Link Anthropic × Adaptyv Protein Design Competition Use AI to design new drug candidates across five challenges. Free to enter, with experimental testing and open results. September 28–October 31, 2026. proteinbase.com",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2100701582744797347#m",
+          "decryptage": "Ce concours vise à utiliser l'IA, en particulier Claude, pour 'designer' (concevoir) de nouvelles protéines, ce qui est crucial pour le développement de médicaments. Les 'crédits Claude' sont des ressources offertes pour utiliser le modèle d'IA de la société Anthropic."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Vous pouvez trouver tout le code sur GitHub : github.com/anthropics/uplift… Et les résultats complets dans notre rapport technique : www-cdn.anthropic.com/d8ca26… Lien : GitHub - anthropics/uplifting-biomolecular-modeling Contribuez au développement de anthropics/uplifting-biomolecular-modeling en créant un compte sur GitHub. github.com",
+          "text_original": "You can find all of the code on GitHub: github.com/anthropics/uplift… And the full results in our technical report: www-cdn.anthropic.com/d8ca26… Link GitHub - anthropics/uplifting-biomolecular-modeling Contribute to anthropics/uplifting-biomolecular-modeling development by creating an account on GitHub. github.com",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2100701583940190644#m",
+          "decryptage": "GitHub est une plateforme où les développeurs partagent et collaborent sur du code informatique. Mettre du code 'open source' sur GitHub permet à quiconque de l'utiliser, de le modifier et de contribuer à son amélioration."
         }
       ]
     }
   },
-  "processed_at": "2026-09-23T14:25:07",
+  "processed_at": "2026-09-23T15:29:00",
   "validation": {
-    "translated_pct": 96,
-    "with_decryptage_pct": 54,
-    "total": 24,
-    "needs_retranslation_count": 1
+    "translated_pct": 100,
+    "with_decryptage_pct": 97,
+    "total": 37,
+    "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-23T14:25:08"
+  "email_sent_at": "2026-09-23T15:29:02"
 }
