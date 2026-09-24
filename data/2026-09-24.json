@@ -1,230 +1,185 @@
 {
   "date": "2026-09-24",
-  "fetched_at": "2026-09-24T13:32:13",
+  "fetched_at": "2026-09-24T14:24:40",
   "tweets": [
     {
-      "handle": "fchollet",
-      "text": "I wrote Deep Learning with Python to be the definitive guide to how deep learning works and how to best make use of it. Tens of thousands of people got their career start via this book. 120,000 copies sold, and downloaded by millions more. And now it's free to read online: deeplearningwithpython.io/ Link Deep Learning with Python, Third Edition Deep Learning with Python is written for anyone who wishes to explore deep learning from scratch. This new edition adds comprehensive coverage of generative AI and modern deep learning frameworks. It... deeplearningwithpython.io",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2051370269445615965#m",
-      "published": "Mon, 04 May 2026 18:35:59 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "fchollet",
-      "text": "The tweet below got enormous pushback at the time I posted it, more than 5 years ago. But this prediction is looking obvious by the day now. François Chollet (@fchollet) Within 10-20 years, nearly every branch of science will be, for all intents and purposes, a branch of computer science. Computational physics, comp chemistry, comp biology, comp medicine... Even comp archeology. Realistic simulations, big data analysis, and ML everywhere — http://nitter.jaydenha.uk/fchollet/status/1389337090278658052#m",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2102444225443029100#m",
-      "published": "Tue, 22 Sep 2026 17:05:39 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "fchollet",
-      "text": "Delegate coding. Never delegate understanding. If code was previously your source of truth for managing understanding, then you need a new source of truth artifact. If code-centric workflows were how you developed that understanding, then you need new workflows. voxium (@v0xium) I am done with this shit. It is over. The state of engineering right now is horrible. It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Humans in corporate are doing nothing on their own. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. There is no sense of victory. Nobody is resolving bugs. In reality, nobody is thinking anymore. Everything is done by LLMs. It is so soul-sucking. I would not mind it, to be honest, if we were at least given the time to check out the code and see what is going where. But no, the goal is to just ship. No matter what happens. — http://nitter.jaydenha.uk/v0xium/status/2101526107128529120#m",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2102166631439053014#m",
-      "published": "Mon, 21 Sep 2026 22:42:35 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "fchollet",
-      "text": "I am still convinced there will be more software engineers in 5 years than there are today. And none of them will read or write code.",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2102166827107500114#m",
-      "published": "Mon, 21 Sep 2026 22:43:22 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "fchollet",
-      "text": "Summer 2026 has been a crazy time in AI... ARC Prize (@arcprize) ARC Prize 2026 - ARC-AGI-3 Progress Prize - 9 day left $37,500 in prizes are being awarded on *Sept 30th* to the top open source solutions Current standings: 1. Tufa Labs 2. Lord Han Solo 3. NVARC3 Which top 3 will claim the open source prize? — http://nitter.jaydenha.uk/arcprize/status/2102154973039702269#m",
-      "link": "http://nitter.jaydenha.uk/fchollet/status/2102160603301425190#m",
-      "published": "Mon, 21 Sep 2026 22:18:38 GMT",
-      "author_name": "Francois Chollet",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "The main appeal of open-source agent harnesses isn't that they are free, but that we can inspect what they are doing on our computers.",
-      "link": "http://shitter.thepixora.com/rasbt/status/2102771721086673116#m",
-      "published": "Wed, 23 Sep 2026 14:47:00 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "MiMo-V2.6 is \"simply\" the best (for now). Despite its simple architecture design it's currently No.1 in the open-weight benchmarks (weighted average). With \"simple,\" I mean a classic Grouped Query Attention (GQA) with Sliding Window Attention (SWA) at a tiny 128-token window size. So, that underlines one of the points I've been trying to make in recent months: most of the progress still comes from the data and post-training recipe improvements. Fancy attention variants are just mostly efficiency tweaks. What are some of the training data improvements and recipe improvements? The MiMo team shared a pretty detailed technical report. Lots to carefully digest there, but in short, there are a few things that stood out: 1. An increase in agent tasks; also training across different harnesses (the average DeepSWE pass@1 accuracy on held-out harnesses improved from approximately 50% -> 66%). 2. Better reward signals: they replaced a simple correctness verifier with an agentic grader that looks at the execution traces as well. 3. Large RL batches (1,568 prompts × 16 rollouts = 25,088 trajectories) and 2.7–3.7 billion training tokens per update (unclear, though, what the predecessor used). Artificial Analysis (@ArtificialAnlys) MiMo-V2.6-Pro debuts as the top open weights model on the Artificial Analysis Intelligence Index (46). At $0.13 per Intelligence Index task, it lands on the Intelligence vs. Cost per Task Pareto frontier @Xiaomi has just released MiMo-V2.6-Pro, an open weights model with major advances in intelligence over its predecessor, MiMo-V2.5-Pro (Intelligence Index: 26). Despite the improvement, it retains the same attractive pricing at $0.435 per 1M input tokens (with a 99% cache-hit discount) and $0.87 per 1M output tokens. This makes MiMo-V2.6-Pro one of the most cost-efficient models to deploy. MiMo-V2.6-Pro is an MoE model with 1.02T total parameters and 42B active parameters. Stay tuned for additional analysis of the model. Check out MiMo-V2.6-Pro full benchmarking breakdown here: artificialanalysis.ai — http://shitter.thepixora.com/ArtificialAnlys/status/2102128560962187701#m",
-      "link": "http://shitter.thepixora.com/rasbt/status/2102394156731535413#m",
-      "published": "Tue, 22 Sep 2026 13:46:42 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "It’s easy to dismiss Jev it as “just a classifier”. But people (me included) who have been training encoder-style models for classification for many years know they were usually special-purpose and limited in some way. The breakthrough of Jev is that it generalizes well. And I’d say the secret sauce is probably more in the data than in the training algorithm. (Plus a nice API design on top of it.) Kun Chen (@kunchenguid) poor guy claim to have built Jev a year ago but no one cared, and now Jev stole all the thunder many people are saying “you gotta tell your story” or “marketing is important”, and they just completely missed what actually made the difference here i just looked into this laya model laya.convaiinnovations.com/ and: - it only supports 512-1k context… a lot of use cases won’t fit at all - evaluating the model directly shows its accuracy is as good as a coin flip. in order to get good results, you need to first fine tune it i’m sorry, but that’s not Jev there’s a massive gap between an interesting research and a useful product you can “tell your story” all you like, but you can’t blame Jev for stealing your thunder when Jev did all the work to make a well-packaged solution anyone can just grab and go Jev is not completely new from an academic sense, just like how ChatGPT was not the first LLM don’t underestimate the effort and value in putting together something that’s actually good enough for adoption - it makes all the difference — http://shitter.thepixora.com/kunchenguid/status/2101534610710761923#m",
-      "link": "http://shitter.thepixora.com/rasbt/status/2101672304358948992#m",
-      "published": "Sun, 20 Sep 2026 13:58:19 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "Inference scaling part 1. Starting with a modded text generation function (temperature scaling, top-p filtering, multinomial sampling) to generate diverse outputs for self-consistency and best-of-N (improving answer accuracy by>2x) 00:00 Introduction and recap 00:31 Training-time and inference-time scaling 07:52 What we'll implement 11:47 Notebook setup and model loading 17:43 Building a flexible text generation function 24:40 Chain-of-thought prompting 28:26 Sampling and output diversity 33:43 Next-token logits and greedy decoding 38:20 Temperature scaling step by step 42:46 Softmax and token probabilities 47:42 Multinomial sampling 54:51 Adding temperature sampling to text generation 59:31 Top-p filtering step by step 1:10:23 Adding top-p filtering to text generation 1:13:43 Sampling and LLM watermarking 1:16:01 Self-consistency and majority voting 1:20:36 Implementing self-consistency 1:29:02 MATH-500 results 1:35:01 Accuracy and compute tradeoffs 1:36:50 Next steps and self-refinement Video",
-      "link": "http://shitter.thepixora.com/rasbt/status/2101313945835368684#m",
-      "published": "Sat, 19 Sep 2026 14:14:19 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rasbt",
-      "text": "And a link to the video on YouTube: redirect.invidious.io/t5y-kS9nNxU Link Build A Reasoning Model From Scratch 4: Inference Scaling 1 (Temperature, Top-p, Self-Consistency) After motivating the use cases for inference-time scaling, this vid... youtube.com",
-      "link": "http://shitter.thepixora.com/rasbt/status/2101315873977860446#m",
-      "published": "Sat, 19 Sep 2026 14:21:59 GMT",
-      "author_name": "Sebastian Raschka",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "osanseviero",
-      "text": "Hyderabad Builders, Come build with Gemini! We’re hosting a hackathon with @gdg_hyd on Sept 26. Details and registration: gdg.community.dev/e/mrcchy/",
-      "link": "http://shitter.thepixora.com/chauhan_nilay16/status/2100996203051938192#m",
-      "published": "Fri, 18 Sep 2026 17:11:44 GMT",
-      "author_name": "Omar Sanseviero",
+      "handle": "bcherny",
+      "text": "At Box, we've been testing Opus 5.5 on a variety of complex enterprise knowledge work tasks dealing with unstructured data with the Box Agent. Overall, we saw frontier capability levels, with major performance improvements over Opus 5. 63% fewer tokens used, 42% less verbosity, and 30% faster vs. Opus 5. And the model itself is cheaper, so this is a major win for any agentic computer use, coding, analytics, or data work that enterprises will be doing. Here are some examples of the task wins and performance gains across a variety of industry tests that we performed: • Financial services - due diligence (+39% task accuracy): A year of transaction records, with the job of finding every miscalculation in an acquisition target's pricing tool. Opus 5.5 scored a perfect result on every attempt in half the words Opus 5 used, consuming 82% fewer tokens overall. • Technology - cloud cost analysis (+65% task accuracy): Work out what a company should actually change about its cloud spend. Opus 5.5 picked the right basis for the retention calculation and kept the source data's unit conventions straight all the way through, so the number at the end actually holds up. It took half the time Opus 5 took, with 70% fewer tokens. • Consumer products - client account analysis (+17% task accuracy): Set the onboarding targets for a client account, reading across the signed contract, a satisfaction tracker and a team metrics sheet. The contract never states a senior/junior split, so Opus 5.5 derived it from the 18-person roster and showed the rule it used; several clients had a perfect 10 on individual survey questions, so it averaged each client's responses instead of crowning the single 10. It finished this one in half the time, on 78% fewer tokens. • Clinical diagnostics - data analysis (+15% task accuracy): Malaria rapid-test performance across a dry and a wet season: build the patient records out of two clinical PDFs, compute positive test rates by season and gender, and test whether parasite counts really differ between test-positive and test-negative patients. Opus 5.5 caught that the two groups' standard deviations differed more than 100-fold, re-ran it the right way, and found the dry-season difference didn't hold up after all. This accuracy gain came with a final answer that was half the length of Opus 5's, and also needed 78% fewer tokens end to end. Customers will be able to build AI Agents with Opus 5.5 shortly in the Box AI Studio. Claude (@claudeai) Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. Video — http://shitter.thepixora.com/claudeai/status/2102435511222890900#m",
+      "link": "http://shitter.thepixora.com/levie/status/2102448415775051790#m",
+      "published": "Tue, 22 Sep 2026 17:22:18 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "if you tried hyperframes, you would know the agentic video stack is being built on code-gen but SWE-bench code v.s. code-to-video that feels alive are two different things we built the Code2Video Bench, in collab w/ Google DeepMind & @Kaggle frontier labs can finally get good at agentic video tasks Video",
-      "link": "http://shitter.thepixora.com/HyperFrames_/status/2102084939026247684#m",
-      "published": "Mon, 21 Sep 2026 17:17:58 GMT",
-      "author_name": "Omar Sanseviero",
+      "handle": "bcherny",
+      "text": "Projects now support using your local device! Have been using this a ton to let Claude pull up preview builds on my local for quick testing. ClaudeDevs (@ClaudeDevs) We've just added local support to Projects in Claude Code, so threads can now run on your own machine. — http://shitter.thepixora.com/ClaudeDevs/status/2102893178273874102#m",
+      "link": "http://shitter.thepixora.com/OmidMogasemi/status/2102901885829304381#m",
+      "published": "Wed, 23 Sep 2026 23:24:14 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Going to Argentina and Uruguay this and next week 🥟 Last time visiting Uruguay was during Khipu 2023, so I'm looking forward to going back and taking some time to disconnect!",
-      "link": "http://shitter.thepixora.com/osanseviero/status/2102035042444738588#m",
-      "published": "Mon, 21 Sep 2026 13:59:42 GMT",
-      "author_name": "Omar Sanseviero",
+      "handle": "bcherny",
+      "text": "It was an honor to meet Donald Knuth at the Computer History Museum today",
+      "link": "http://shitter.thepixora.com/bcherny/status/2102971275543216623#m",
+      "published": "Thu, 24 Sep 2026 03:59:58 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Article Managed Agents in the Gemini API: an updated agent harness, a Files API, and managed credentials Gemini managed agents are getting an updated harness. antigravity-preview-09-2026 brings the agent's tools and behavior closer to what you get in the Antigravity Coding Agent, it's live today in the",
-      "link": "http://shitter.thepixora.com/GoogleAIStudio/status/2100635173188432193#m",
-      "published": "Thu, 17 Sep 2026 17:17:07 GMT",
-      "author_name": "Omar Sanseviero",
+      "handle": "bcherny",
+      "text": "Cloud sessions are officially available and out of research preview! They let you keep Claude Code working, even when your laptop is closed. Existing subscribers get a one-time credit to try them: $100 on Pro, $250 on Max.",
+      "link": "http://shitter.thepixora.com/ClaudeDevs/status/2102871550974427462#m",
+      "published": "Wed, 23 Sep 2026 21:23:41 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Join @GoogleDeepMind for an immersive Gemini Audio experience in SF next week! A mix of creative Audio-Visual art and real-time conversations with Gemini and the folks behind the models! 📍 The Pearl, San Francisco 🗓️ Thursday, Sept 24 | 6–10 PM",
-      "link": "http://shitter.thepixora.com/thorwebdev/status/2099486872028225602#m",
-      "published": "Mon, 14 Sep 2026 13:14:11 GMT",
-      "author_name": "Omar Sanseviero",
+      "handle": "bcherny",
+      "text": "More details for the formal methods people -- what's happening is Claude is doing something like: 1. Building a model of the program, targeting a tricky state machine or race-prone part of the code 2. Finding counter-examples in the model. These are suspected bugs 3. Reproducing the bugs 4. Fixing the bugs in the code It's not that the whole codebase is formally verified (yet!..), more that the hairiest parts of the code are modeled, checked for counter-examples, and fixed.",
+      "link": "http://shitter.thepixora.com/bcherny/status/2102898067133595992#m",
+      "published": "Wed, 23 Sep 2026 23:09:03 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "Thom_Wolf",
-      "text": "There’s an enormous amount of open training data on Hugging Face. What does it take to make it work together 🤗? For Marin’s 535B run, we built on 25T tokens from 152 datasets with licenses permitting training. Here’s the work between downloading those and training a model 🧵",
-      "link": "http://nitter.jaydenha.uk/WilliamBarrHeld/status/2102850527575097716#m",
-      "published": "Wed, 23 Sep 2026 20:00:09 GMT",
-      "author_name": "Thomas Wolf",
+      "handle": "markchen90",
+      "text": "It’s hard to overstate @michpokrass 's impact on our consumer products. ChatGPT has had a rebirth under her leadership, and a lot of what we've built has been driven by her vision and conviction. Really grateful to work with her! Michelle Pokrass (@michpokrass) just crossed four years at openai! the special thing about this place is the constant capacity for rebirth. for all its faults, there is nowhere quite like it. the team makes high conviction, contrarian bets over and over, and they are mostly right. it's a new company every three months. i have really enjoyed my part in some of the bets, and i'm excited to share some of the current ones we are cooking up now. onward! — http://shitter.thepixora.com/michpokrass/status/2102226720073896367#m",
+      "link": "http://shitter.thepixora.com/markchen90/status/2102315801730564516#m",
+      "published": "Tue, 22 Sep 2026 08:35:20 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "Not to forget our friends across the pond.... Next week we'll host a second smaller get-together to celebrate GPT-6 in London! Our team there delivered core contributions to Astra, and we'd love to celebrate with you :) events.openai.com/gpt-6-lond… (click my link not Sam's) Link hero-only events.openai.com Sam Altman (@sama) We want to celebrate with people using GPT-6. We did this for GPT-5.5 and it was really fun. We’re getting together in SF on September 16 to talk about the model, what we should build next, and mostly just to hang out. Apply by Sep 10: gpt6-launch-event.openai.cha… Link GPT-6 Community Night Request an invitation to GPT-6 Community Night in San Francisco on September 16, 2026. An evening under the stars with OpenAI. gpt6-launch-event.openai.chatgpt.site — http://shitter.thepixora.com/sama/status/2097404861642137851#m",
+      "link": "http://shitter.thepixora.com/_aidan_clark_/status/2099740924628906010#m",
+      "published": "Tue, 15 Sep 2026 06:03:42 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "The AMS’s statement is short and sweet: ams.org/news?news_id=7686 \"The news today of progress on resolving the Navier–Stokes problem, one of mathematics' great longstanding challenges concerning the equations that govern the flow of fluids, represents a milestone advance in human knowledge. This story began with Navier, Stokes, Leray, and Ladyzhenskaya and has culminated in the recent breakthroughs of Córdoba and Martínez-Zoroa, then — assisted by new technologies — Alpöge and Buckmaster, with the final steps taken by OpenAI mathematicians. The purpose of mathematics is human understanding, and this achievement, and the process that led to it, will bear fruit for a long time to come.\" Ravi Vakil, President of the AMS John Meier, CEO of the AMS",
+      "link": "http://shitter.thepixora.com/AlexKontorovich/status/2097384320469970966#m",
+      "published": "Tue, 08 Sep 2026 17:59:24 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "Two things to distinguish: Did any human or agent look at user data as part of the Navier Stokes effort? No. Do we use user feedback and de-identified data to improve ChatGPT and Codex in a holistic way? Yes. And so does every LLM company. levent (@__alpoge__) “we cannot rule out that de-identified data derived from their usage of our products helped improve our models.” i mean props to them for straight coming clean. (so far the proof looks more along the lines of another euler blowup proof we had, off of whose ansatz naming we were making really stupid puns like “smooth criminale”, unlike the much better “ideal fluids explode”, Tristan) so i’ll now give a bit on my thinking here. i actually woulda been pumped to collaborate on this, there are a lot of people at oai i like (ok, clearly some were indirectly dicks to me because of being part of the whole situation, but im a big boy, i still like them), idgaf about authorship on that step anyway, coulda been me Tristan and every fte at oai for all i care (on that Tristan would disagree:p). but on hearing the loud convo in the hallway, especially the part where a millennium prize was offered if i’d just be removed from the paper, it was kinda clear the die had been cast and things were locked. pretty wacky, unstrategic, and unnecessary, since on my side things were mostly me and claude having a good time yoloing random stuff in the corner rather than anything institutional. i also like the idea of the labs cooperating, and even better on scientific progress. it’s a shame! — http://shitter.thepixora.com/__alpoge__/status/2097383870773748190#m",
+      "link": "http://shitter.thepixora.com/markchen90/status/2097400166554993041#m",
+      "published": "Tue, 08 Sep 2026 19:02:22 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "We solved Navier-Stokes! Many of my colleagues left their fields because they believed that working on AI would be the fastest way to solve their fields' grand challenges. It's surreal to see the first of those challenges fall and to watch a future we believed in become real. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
+      "link": "http://shitter.thepixora.com/markchen90/status/2097377602638053616#m",
+      "published": "Tue, 08 Sep 2026 17:32:42 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "In the Democratic Republic of the Congo, global health organizations including @CEPIvaccines , @WHOAFRO , and @inrb_kinshasa are using Claude to accelerate their response to an outbreak of an unusual Ebola variant. Read the full piece here: anthropic.com/features/ebola… Link The Situation Report A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible. anthropic.com",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2102897863097545197#m",
+      "published": "Wed, 23 Sep 2026 23:08:15 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR. We don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use. Read more: anthropic.com/news/claude-di… Link Claude discovers a novel enzyme system In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. anthropic.com",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2102824959827742916#m",
+      "published": "Wed, 23 Sep 2026 18:18:33 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "This is the first result from our new molecular biology lab, where a team of Anthropic biologists is using Claude to explore and accelerate fundamental biology research. There, Claude works through data and literature to generate hypotheses and candidate biological systems to study. After our scientists review Claude’s hypotheses, they test the most promising ideas, with all lab work done by our scientists. We’d like to extend this approach to a broad range of problems—in genomics and in other fields. If you have a proposal for a research question, we’d like to hear from you. Video",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2102824961538920822#m",
+      "published": "Wed, 23 Sep 2026 18:18:34 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "Claude Opus 5.5 is available today. Claude (@claudeai) Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. Video — http://nitter.jaydenha.uk/claudeai/status/2102435511222890900#m",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2102435703535939725#m",
+      "published": "Tue, 22 Sep 2026 16:31:47 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years. anthropic.com/news/accenture… Link Partnering with Accenture on embedded evaluation We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to... anthropic.com Community note: Anthropic presents this as an \"independent evaluation\" but will directly fund Accenture's work and has a prior commercial partnership with the firm for deploying its models, including training ~30,000 Accenture professionals on Claude. anthropic.com/news/accenture… anthropic.com/news/anthropic…",
+      "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2101039819870937247#m",
+      "published": "Fri, 18 Sep 2026 20:05:03 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+      "link": "http://nitter.jaydenha.uk/soumithchintala/status/1202981209057484801#m",
+      "published": "Fri, 06 Dec 2019 16:00:45 GMT",
+      "author_name": "Clem Delangue",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "Thom_Wolf",
-      "text": "this massive training run just keeps giving - we need new tabloids to follow these ai agents saga Transluce (@TransluceAI) Today’s news that OpenAI hacked the Australian government is not an isolated incident. We’re releasing more than 30,000 logs that include activity from this hack and attempts against previously unknown targets. In this data, we found rogue agent activity stretching back to at least March, two months earlier than was previously known. This activity continues as recently as last week, suggesting it may still be ongoing 🧵 Our blog: transluce.org/agent-activity NYT: nytimes.com/2026/09/23/techn… Link Early rogue agent activity and attempts to hack found on urlquery.net We found evidence on urlquery.net that AI agents were active earlier than previously reported and attempted hacks against public data providers. transluce.org — http://nitter.jaydenha.uk/TransluceAI/status/2102951665569825189#m",
-      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2103054896438136973#m",
-      "published": "Thu, 24 Sep 2026 09:32:14 GMT",
-      "author_name": "Thomas Wolf",
+      "handle": "ClemDelangue",
+      "text": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/1195662118974083073#m",
+      "published": "Sat, 16 Nov 2019 11:17:18 GMT",
+      "author_name": "Clem Delangue",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "Thom_Wolf",
-      "text": "How to get to the second floor 🦆 Video",
-      "link": "http://nitter.jaydenha.uk/HannesVonEssen/status/2102804220038508578#m",
-      "published": "Wed, 23 Sep 2026 16:56:08 GMT",
-      "author_name": "Thomas Wolf",
+      "handle": "ClemDelangue",
+      "text": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+      "link": "http://nitter.jaydenha.uk/algo_diver/status/1192329736850038786#m",
+      "published": "Thu, 07 Nov 2019 06:35:36 GMT",
+      "author_name": "Clem Delangue",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "Thom_Wolf",
-      "text": "nice to start seeing more open-weight security model with defensive capabilities which are close to the frontier altar-1 from Aikido is a pruned and quantized version of the open-SOTA GLM 5.3 which is lightweight enough to fit on one 4-H200s node Aikido (@AikidoSecurity) Introducing Altar-1, our first open-weight security model. Frontier-grade defensive AI, built to deploy. Own your own security. Video — http://nitter.jaydenha.uk/AikidoSecurity/status/2102035136678400056#m",
-      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2102177501250273748#m",
-      "published": "Mon, 21 Sep 2026 23:25:47 GMT",
-      "author_name": "Thomas Wolf",
+      "handle": "ClemDelangue",
+      "text": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitter.net/DoingJobs/status/11865…",
+      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/1189271899316064256#m",
+      "published": "Tue, 29 Oct 2019 20:04:51 GMT",
+      "author_name": "Clem Delangue",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "Thom_Wolf",
-      "text": "releasing many high quality open-source RL environments is the most impactful thing anyone can do to push the open-source frontier right now the equivalent of sharing high quality pretraining data but in the new RLVR paradigm elie (@eliebakouch) the most insane part, they will release ~7k RL training data and the framework leading to this top 6 model on AA, they also shipped the model + tech report less than 1 week after starting the final RL run pushing both intelligence and openness level, huge congrats — http://nitter.jaydenha.uk/eliebakouch/status/2102136275708879078#m",
-      "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2102137611011674173#m",
-      "published": "Mon, 21 Sep 2026 20:47:16 GMT",
-      "author_name": "Thomas Wolf",
+      "handle": "ClemDelangue",
+      "text": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+      "link": "http://nitter.jaydenha.uk/fchollet/status/1188942956511690752#m",
+      "published": "Mon, 28 Oct 2019 22:17:44 GMT",
+      "author_name": "Clem Delangue",
       "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712675308638581#m",
-      "published": "Wed, 09 Sep 2026 15:44:10 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "Surgeons implanted 5 electrode arrays in his brain An AI detects when he intends to move and stimulates his arm muscles, while finger sensors send pressure back so he can feel The most interesting finding IMO: effects persisted even after everything was switched off",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712693688103295#m",
-      "published": "Wed, 09 Sep 2026 15:44:14 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712705725747366#m",
-      "published": "Wed, 09 Sep 2026 15:44:17 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "Alps: 10/10 Astra quota: 0/10 🇨🇭",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2096988478688960986#m",
-      "published": "Mon, 07 Sep 2026 15:46:28 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
-      "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
-      "published": "Thu, 03 Sep 2026 15:44:00 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
       "source_lang": "en"
     }
   ],
@@ -240,14 +195,14 @@
     "ylecun",
     "demishassabis",
     "JeffDean",
+    "fchollet",
     "AndrewYNg",
-    "bcherny",
+    "rasbt",
     "karinanguyen_",
     "polynoamial",
-    "markchen90",
     "aidan_mclau",
     "officiallogank",
-    "AnthropicAI",
+    "osanseviero",
     "OpenAI",
     "GoogleDeepMind",
     "xai",
@@ -262,283 +217,268 @@
     "emollick",
     "ArthurMensch",
     "GuillaumeLample",
+    "Thom_Wolf",
     "julien_c",
-    "ClemDelangue",
+    "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, le monde de l'IA nous montre des avancées impressionnantes, allant de ressources pédagogiques gratuites pour les débutants à des applications médicales révolutionnaires. Nous avons aussi assisté à des discussions importantes sur l'évolution du métier d'ingénieur logiciel face à l'IA, l'importance des données d'entraînement, et l'utilité des outils open-source. Un accent particulier a été mis sur la nécessité de comprendre ce que l'IA fait, au-delà de la simple exécution de code.",
+    "summary": "Aujourd'hui, l'actualité de l'IA est marquée par des avancées scientifiques majeures et des lancements de modèles innovants. OpenAI a créé la sensation en annonçant la résolution du très complexe problème de Navier-Stokes grâce à ses agents IA, tandis qu'Anthropic a dévoilé Claude Opus 5.5, un modèle plus performant et économique, déjà utilisé dans des domaines allant de la santé à la biologie. Parallèlement, la communauté IA s'interroge sur l'éthique, la transparence et l'efficacité des méthodes de recherche, tout en partageant des astuces pratiques pour tirer le meilleur parti des outils existants.",
     "glossaire": [
       {
-        "terme": "Apprentissage profond (Deep Learning)",
-        "definition": "Une branche de l'IA utilisant des réseaux de neurones très complexes pour apprendre et réaliser des tâches variées, inspirés du cerveau humain."
+        "terme": "Tokens",
+        "definition": "Les tokens sont les unités de texte (mots ou parties de mots) que les modèles d'IA traitent. Moins de tokens signifient souvent un traitement plus rapide et moins cher."
       },
       {
-        "terme": "IA générative (Generative AI)",
-        "definition": "Des modèles d'intelligence artificielle capables de créer du nouveau contenu original comme du texte, des images, de l'audio ou du code."
+        "terme": "Agents IA",
+        "definition": "Un agent IA est un programme informatique capable de percevoir son environnement, de prendre des décisions et d'agir de manière autonome pour accomplir des tâches complexes, comme un assistant très intelligent."
+      },
+      {
+        "terme": "Problème de Navier-Stokes",
+        "definition": "C'est un problème mathématique fondamental et non résolu depuis des décennies, concernant les équations qui décrivent le mouvement des fluides comme l'eau ou l'air."
       },
       {
         "terme": "LLM (Large Language Model)",
-        "definition": "Un grand modèle de langage, une IA entraînée sur d'énormes quantités de texte pour comprendre, générer et répondre à des requêtes textuelles complexes."
+        "definition": "Un modèle de langage étendu est un type d'IA entraîné sur d'énormes quantités de texte pour comprendre, générer et répondre à des requêtes en langage humain."
       },
       {
-        "terme": "Open-source",
-        "definition": "Se dit d'un logiciel ou d'un modèle dont le code est public, permettant à quiconque de le consulter, l'utiliser, le modifier et le distribuer librement."
+        "terme": "CRISPR",
+        "definition": "Une technologie révolutionnaire souvent appelée les 'ciseaux génétiques', permettant de modifier précisément l'ADN pour corriger des gènes ou créer de nouvelles fonctions biologiques."
       },
       {
-        "terme": "Tokens",
-        "definition": "Les unités de texte (qui peuvent être des mots entiers, des parties de mots ou des symboles) que les modèles d'IA traitent et génèrent."
+        "terme": "Transformers",
+        "definition": "C'est un type d'architecture de réseau neuronal très efficace pour traiter des séquences de données (comme le texte ou la parole), et qui est à la base de la plupart des LLM modernes."
       },
       {
-        "terme": "Inférence",
-        "definition": "Le processus par lequel un modèle d'IA utilise ses connaissances acquises (après l'entraînement) pour faire des prédictions ou générer de nouvelles données en réponse à une entrée."
-      },
-      {
-        "terme": "Agent IA",
-        "definition": "Un programme d'intelligence artificielle autonome capable d'interagir avec son environnement, de prendre des décisions et d'exécuter des tâches sans intervention humaine constante."
+        "terme": "Frameworks d'apprentissage automatique",
+        "definition": "Ce sont des bibliothèques logicielles (comme PyTorch ou TensorFlow) qui facilitent la création, l'entraînement et le déploiement de modèles d'IA pour les développeurs et chercheurs."
       }
     ],
     "category_summaries": {
-      "actu": "Les actualités du jour mettent en lumière des événements comme un prix pour l'AGI, des hackathons autour de Gemini, et des innovations médicales incroyables où l'IA aide à restaurer le mouvement chez des personnes paralysées. Des alertes sur d'éventuels agents IA \"hors de contrôle\" ont également retenu l'attention, soulignant les enjeux de sécurité et d'éthique.",
-      "tips": "Les conseils pratiques se concentrent sur l'optimisation des modèles d'IA pour améliorer la qualité des réponses grâce à des techniques comme la mise à l'échelle de l'inférence. Un exemple concret de journalisation assistée par l'IA a montré comment l'IA peut structurer des pensées et automatiser des tâches quotidiennes pour gagner en productivité.",
-      "idees": "Les réflexions du jour abordent des sujets profonds, comme l'avenir de la science et de l'ingénierie logicielle, où l'IA pourrait devenir omniprésente, mais aussi la nécessité de ne jamais déléguer sa compréhension à une machine. L'importance des données d'entraînement par rapport aux algorithmes sophistiqués et la valeur de l'open-source sont également au cœur des débats.",
-      "outils": "De nouveaux outils et ressources sont à découvrir, notamment un livre gratuit sur l'apprentissage profond pour les développeurs. Des mises à jour pour l'API Gemini et l'annonce de modèles performants comme MiMo-V2.6-Pro, ainsi qu'Altar-1, un modèle de sécurité 'open-weight' optimisé pour le déploiement, offrent de nouvelles opportunités d'expérimentation."
+      "actu": "La journée a été riche en annonces de la part des géants de l'IA. OpenAI a fait sensation en annonçant la résolution du 'problème du millénaire' de Navier-Stokes avec des agents IA, une prouesse mathématique. Anthropic n'est pas en reste, avec le lancement de Claude Opus 5.5, un modèle plus performant et moins coûteux, et a montré comment Claude est utilisé dans des domaines cruciaux comme la gestion de crises sanitaires (Ebola) et la découverte scientifique en biologie.",
+      "tips": "Pour les utilisateurs et développeurs d'outils IA, des astuces pratiques ont été partagées. Il est désormais possible de faire tourner les 'Projets' de Claude Code directement sur sa machine locale, offrant plus de flexibilité pour les tests. Des 'sessions cloud' permettent de laisser le code travailler même si l'ordinateur est fermé, et on nous rappelle l'utilité d'intégrer des outils comme Hugging Face avec des plateformes de communication.",
+      "idees": "Au-delà des innovations techniques, des réflexions profondes ont émergé sur l'avenir de l'IA. Les discussions ont porté sur l'impact des leaders chez OpenAI, les méthodes formelles pour améliorer la fiabilité du code, l'éthique autour de l'utilisation des données utilisateurs pour l'entraînement des modèles, et même la philosophie de la recherche en PNL, qui pourrait privilégier l'efficacité et la simplicité.",
+      "outils": "Deux tweets mentionnent des ressources importantes pour ceux qui s'intéressent aux fondements techniques. Le premier article complet sur PyTorch a été mis en avant, fournissant une vue d'ensemble de ce framework essentiel. De plus, un travail de recherche sur les 'Transformers compressifs' a été cité, soulignant l'évolution des architectures de modèles pour une meilleure gestion des séquences longues."
     },
     "highlights": [
       {
-        "author_name": "Francois Chollet",
-        "handle": "@fchollet",
-        "text_fr": "J'ai écrit 'Deep Learning with Python' pour en faire le guide de référence sur le fonctionnement de l'apprentissage profond et la meilleure façon de l'utiliser. Des dizaines de milliers de personnes ont démarré leur carrière grâce à ce livre. 120 000 exemplaires vendus, et téléchargé par des millions d'autres. Et maintenant, il est gratuit en ligne : deeplearningwithpython.io/ Le lien Deep Learning with Python, Troisième Édition. 'Deep Learning with Python' est écrit pour quiconque souhaite explorer l'apprentissage profond à partir de zéro. Cette nouvelle édition couvre de manière exhaustive l'IA générative et les frameworks d'apprentissage profond modernes.",
-        "text_original": "I wrote Deep Learning with Python to be the definitive guide to how deep learning works and how to best make use of it. Tens of thousands of people got their career start via this book. 120,000 copies sold, and downloaded by millions more. And now it's free to read online: deeplearningwithpython.io/ Link Deep Learning with Python, Third Edition Deep Learning with Python is written for anyone who wishes to explore deep learning from scratch. This new edition adds comprehensive coverage of generative AI and modern deep learning frameworks. It... deeplearningwithpython.io",
-        "link": "http://nitter.jaydenha.uk/fchollet/status/2051370269445615965#m",
-        "decryptage": "L'apprentissage profond (Deep Learning) est une branche de l'intelligence artificielle qui utilise des réseaux de neurones très complexes, inspirés du cerveau humain, pour apprendre des tâches comme la reconnaissance d'images ou la traduction. L'IA générative (Generative AI) désigne les modèles d'IA capables de créer de nouveaux contenus (texte, images, audio, etc.).",
-        "category": "outils",
-        "highlight_reason": "C'est une ressource pédagogique fondamentale, gratuite et à jour, parfaite pour un débutant passionné par l'IA qui souhaite apprendre les bases et les avancées récentes."
-      },
-      {
-        "author_name": "Francois Chollet",
-        "handle": "@fchollet",
-        "text_fr": "Déléguez le codage, mais jamais la compréhension. Si le code était auparavant votre source de vérité pour gérer la compréhension, alors vous avez besoin d'un nouvel artefact source de vérité. Si les flux de travail centrés sur le code étaient la façon dont vous développiez cette compréhension, alors vous avez besoin de nouveaux flux de travail. voxium (@v0xium) J'en ai marre de cette merde. C'est fini. L'état de l'ingénierie est horrible en ce moment. Cela fait un demi-mois que j'ai commencé un nouveau rôle dans une grande entreprise. Personne ne sait rien ici. Les spécifications, le code, les tests, les PRD, les tickets, la résolution de ces tickets, les rapports, etc., tout est fait par Claude Code. Personne dans mon équipe n'aime ça. Ils sont forcés de livrer autant qu'ils le peuvent. J'ai entendu plusieurs fois de la part de la direction que 'pousser du code n'est pas un goulot d'étranglement, alors pourquoi sommes-nous lents ?'. Les gens travaillent 12 à 13 heures par jour juste pour appuyer sur 'entrée'. Personne ne lit rien. Les humains en entreprise ne font rien par eux-mêmes. Tout le monde, absolument tout le monde, d'un ingénieur L1 à un L7, fait la même chose. Parler à Claude. Il n'y a aucun sentiment de victoire. Personne ne résout les bugs. En réalité, personne ne réfléchit plus. Tout est fait par les LLM. C'est tellement épuisant pour l'âme. Je ne m'en soucierais pas, honnêtement, si nous avions au moins le temps de vérifier le code et de voir ce qui va où. Mais non, l'objectif est juste de livrer. Quoi qu'il arrive.",
-        "text_original": "Delegate coding. Never delegate understanding. If code was previously your source of truth for managing understanding, then you need a new source of truth artifact. If code-centric workflows were how you developed that understanding, then you need new workflows. voxium (@v0xium) I am done with this shit. It is over. The state of engineering right now is horrible. It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Humans in corporate are doing nothing on their own. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. There is no sense of victory. Nobody is resolving bugs. In reality, nobody is thinking anymore. Everything is done by LLMs. It is so soul-sucking. I would not mind it, to be honest, if we were at least given the time to check out the code and see what is going where. But no, the goal is to just ship. No matter what happens.",
-        "link": "http://nitter.jaydenha.uk/fchollet/status/2102166631439053014#m",
-        "decryptage": "Les LLM (Large Language Models) sont de grands modèles de langage, des intelligences artificielles capables de comprendre et de générer du texte, comme ChatGPT ou Claude Code, un assistant de code basé sur l'IA.",
-        "category": "idees",
-        "highlight_reason": "Ce tweet offre une réflexion cruciale pour les futurs professionnels de l'IA, insistant sur l'importance de la compréhension humaine au-delà de la simple exécution de code par une IA."
-      },
-      {
-        "author_name": "Rowan Cheung",
-        "handle": "@rowancheung",
-        "text_fr": "L'IA aide désormais les personnes paralysées à bouger à nouveau. Cet homme bouge sa propre main grâce à un implant entraîné sur son activité cérébrale, et ressent tout ce qu'il touche. Une incroyable application de l'IA pour le bien ! Vidéo",
-        "text_original": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
-        "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712675308638581#m",
-        "decryptage": "Un 'implant entraîné sur l'activité cérébrale' est un dispositif qui capte les signaux électriques du cerveau et les interprète grâce à l'IA pour contrôler une prothèse ou restaurer des fonctions motrices.",
+        "author_name": "Mark Chen",
+        "handle": "@markchen90",
+        "text_fr": "Nous avons résolu Navier-Stokes ! Beaucoup de mes collègues ont quitté leurs domaines parce qu'ils pensaient que travailler sur l'IA serait le moyen le plus rapide de résoudre les grands défis de leurs disciplines. C'est surréaliste de voir le premier de ces défis tomber et de voir un futur auquel nous croyions devenir réalité. OpenAI (@OpenAI) Nous partageons une solution au problème du prix du millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle de nouvelle génération d'OpenAI significativement plus capable que GPT-6 Astra. Le problème concerne la possibilité que la description du mouvement fluide tridimensionnel et lisse modélisé par les équations de Navier-Stokes puisse s'effondrer. Il est resté non résolu pendant environ 90 ans. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
+        "text_original": "We solved Navier-Stokes! Many of my colleagues left their fields because they believed that working on AI would be the fastest way to solve their fields' grand challenges. It's surreal to see the first of those challenges fall and to watch a future we believed in become real. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
+        "link": "http://shitter.thepixora.com/markchen90/status/2097377602638053616#m",
+        "decryptage": "Le \"problème du prix du millénaire de Navier-Stokes\" est l'un des sept problèmes mathématiques les plus difficiles désignés par l'Institut de Mathématiques Clay, avec une récompense d'un million de dollars pour sa résolution.",
         "category": "actu",
-        "highlight_reason": "C'est une illustration puissante et inspirante de l'impact positif et concret de l'IA sur la vie humaine, démontrant son immense potentiel éthique et médical."
+        "highlight_reason": "C'est l'annonce la plus spectaculaire et la plus 'science-fiction devenue réalité' du jour, montrant la capacité de l'IA à résoudre des défis humains majeurs et de longue date."
       },
       {
-        "author_name": "Rowan Cheung",
-        "handle": "@rowancheung",
-        "text_fr": "La journalisation améliorée par l'IA change ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme mes divagations en données structurées et en actions. Configuration super simple : 1. Après des réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je dicte tout dans une note Apple en utilisant Wispr Flow, de manière totalement non structurée. 2. Le seul objectif est de le sortir de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement avec mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Elle lit chaque note vocale que j'ai dictée pendant que je dors, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, actions et blocs de travail approfondi suggérés dans mon GCal. 6. Le lendemain matin, devant mon café, je les passe en revue et les mets en œuvre. Les avantages sont que les suivis que j'ai promis sont signalés, les idées à moitié formées sont structurées, et les blocs de travail approfondi sont réservés automatiquement. De plus, avec le temps, cela devient un journal consultable de toutes les idées que j'ai eues toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
-        "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
-        "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
-        "decryptage": "La 'journalisation améliorée par l'IA' est une méthode où l'intelligence artificielle aide à organiser et à tirer des informations de vos notes personnelles. 'Wispr Flow' et 'Claude Cowork' sont des noms d'outils ou de systèmes qui intègrent l'IA pour faciliter ce processus. Les 'données structurées' sont des informations organisées de manière cohérente, ce qui les rend faciles à rechercher et à analyser.",
-        "category": "tips",
-        "highlight_reason": "Ce conseil offre une application pratique et immédiate de l'IA pour améliorer l'organisation personnelle et la productivité, facile à comprendre et à adapter pour un débutant."
+        "author_name": "Boris Cherny",
+        "handle": "@bcherny",
+        "text_fr": "Chez Box, nous avons testé Opus 5.5 sur diverses tâches complexes de travail intellectuel en entreprise, gérant des données non structurées avec le Box Agent. Globalement, nous avons observé des capacités de pointe, avec des améliorations majeures par rapport à Opus 5 : 63 % de tokens en moins utilisés, 42 % de verbosité réduite et 30 % plus rapide que Opus 5. Et le modèle lui-même est moins cher, ce qui est un avantage considérable pour toute utilisation d'agents IA, le codage, l'analyse ou le travail sur les données que les entreprises effectueront. Voici quelques exemples de succès et de gains de performance sur divers tests industriels que nous avons réalisés : • Services financiers - diligence raisonnable (+39 % de précision des tâches) : À partir d'un an de relevés de transactions, trouver chaque erreur de calcul dans l'outil de tarification d'une cible d'acquisition. Opus 5.5 a obtenu un résultat parfait à chaque tentative en utilisant deux fois moins de mots qu'Opus 5, consommant 82 % de tokens en moins au total. • Technologie - analyse des coûts cloud (+65 % de précision des tâches) : Déterminer ce qu'une entreprise devrait réellement changer concernant ses dépenses cloud. Opus 5.5 a choisi la bonne base pour le calcul de rétention et a maintenu les conventions d'unité des données sources tout au long, de sorte que le chiffre final est réellement fiable. Cela a pris moitié moins de temps qu'Opus 5, avec 70 % de tokens en moins. • Produits de consommation - analyse de compte client (+17 % de précision des tâches) : Définir les objectifs d'intégration pour un compte client, en lisant le contrat signé, un suivi de satisfaction et une feuille de métriques d'équipe. Le contrat ne spécifie jamais de répartition senior/junior, donc Opus 5.5 l'a déduite de la liste de 18 personnes et a montré la règle utilisée ; plusieurs clients avaient un score parfait de 10 sur des questions d'enquête individuelles, donc il a fait la moyenne des réponses de chaque client au lieu de couronner le seul 10. Il a terminé cette tâche en moitié moins de temps, avec 78 % de tokens en moins. • Diagnostic clinique - analyse de données (+15 % de précision des tâches) : Performance des tests rapides de paludisme sur une saison sèche et une saison humide : construire les dossiers des patients à partir de deux PDF cliniques, calculer les taux de tests positifs par saison et sexe, et tester si les charges parasitaires diffèrent réellement entre les patients testés positifs et négatifs. Opus 5.5 a détecté que les écarts types des deux groupes différaient de plus de 100 fois, a refait le calcul correctement et a constaté que la différence de saison sèche ne tenait finalement pas. Ce gain de précision s'est accompagné d'une réponse finale qui était deux fois plus courte que celle d'Opus 5, et a également nécessité 78 % de tokens en moins de bout en bout. Les clients pourront bientôt construire des agents IA avec Opus 5.5 dans le Box AI Studio. Claude (@claudeai) Présentation de Claude Opus 5.5, le premier modèle de notre nouvelle famille Claude 5.5. Il est aussi performant que Claude Fable 5.1 pour la plupart des tâches, et coûte 40 % moins cher à utiliser qu'Opus 5. Vidéo — http://shitter.thepixora.com/claudeai/status/2102435511222890900#m",
+        "text_original": "At Box, we've been testing Opus 5.5 on a variety of complex enterprise knowledge work tasks dealing with unstructured data with the Box Agent. Overall, we saw frontier capability levels, with major performance improvements over Opus 5. 63% fewer tokens used, 42% less verbosity, and 30% faster vs. Opus 5. And the model itself is cheaper, so this is a major win for any agentic computer use, coding, analytics, or data work that enterprises will be doing. Here are some examples of the task wins and performance gains across a variety of industry tests that we performed: • Financial services - due diligence (+39% task accuracy): A year of transaction records, with the job of finding every miscalculation in an acquisition target's pricing tool. Opus 5.5 scored a perfect result on every attempt in half the words Opus 5 used, consuming 82% fewer tokens overall. • Technology - cloud cost analysis (+65% task accuracy): Work out what a company should actually change about its cloud spend. Opus 5.5 picked the right basis for the retention calculation and kept the source data's unit conventions straight all the way through, so the number at the end actually holds up. It took half the time Opus 5 took, with 70% fewer tokens. • Consumer products - client account analysis (+17% task accuracy): Set the onboarding targets for a client account, reading across the signed contract, a satisfaction tracker and a team metrics sheet. The contract never states a senior/junior split, so Opus 5.5 derived it from the 18-person roster and showed the rule it used; several clients had a perfect 10 on individual survey questions, so it averaged each client's responses instead of crowning the single 10. It finished this one in half the time, on 78% fewer tokens. • Clinical diagnostics - data analysis (+15% task accuracy): Malaria rapid-test performance across a dry and a wet season: build the patient records out of two clinical PDFs, compute positive test rates by season and gender, and test whether parasite counts really differ between test-positive and test-negative patients. Opus 5.5 caught that the two groups' standard deviations differed more than 100-fold, re-ran it the right way, and found the dry-season difference didn't hold up after all. This accuracy gain came with a final answer that was half the length of Opus 5's, and also needed 78% fewer tokens end to end. Customers will be able to build AI Agents with Opus 5.5 shortly in the Box AI Studio. Claude (@claudeai) Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. Video — http://shitter.thepixora.com/claudeai/status/2102435511222890900#m",
+        "link": "http://shitter.thepixora.com/levie/status/2102448415775051790#m",
+        "decryptage": "Les \"tokens\" sont les unités de texte (mots ou parties de mots) que les modèles d'IA traitent, et moins de tokens signifient souvent un traitement plus rapide et moins cher. L'\"utilisation d'agents IA\" signifie que l'IA ne se contente pas de répondre à une question, mais agit de manière autonome pour accomplir une série de tâches complexes.",
+        "category": "actu",
+        "highlight_reason": "Ce tweet met en lumière les progrès concrets des modèles d'IA, avec des améliorations significatives en termes de performance, de coût et de polyvalence pour des applications d'entreprise réelles."
+      },
+      {
+        "author_name": "Anthropic",
+        "handle": "@AnthropicAI",
+        "text_fr": "Claude a découvert un système enzymatique auparavant inconnu caché dans l'ADN des bactériophages. À côté du gène de l'enzyme se trouve une longue séquence d'ADN répétitif – une structure qui ressemble un peu à CRISPR. Nous ne comprenons pas encore ce que fait ce système, mais seule une poignée de systèmes connus partagent ses caractéristiques, et tous sont capables de couper, copier et coller l'ADN. Historiquement, la découverte de tels systèmes programmables a contribué à révolutionner la médecine. CRISPR, par exemple, est maintenant la base des médicaments génétiques. Mais il faudra beaucoup plus de travail pour comprendre ce que fait ce système et s'il peut être utilisé de manière similaire. En savoir plus : anthropic.com/news/claude-di… Lien Claude découvre un nouveau système enzymatique Dans les premiers résultats de notre nouveau laboratoire de recherche en sciences de la vie, les agents Claude ont trouvé un système enzymatique dont la fonction est encore inconnue. anthropic.com",
+        "text_original": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR. We don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use. Read more: anthropic.com/news/claude-di… Link Claude discovers a novel enzyme system In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. anthropic.com",
+        "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2102824959827742916#m",
+        "decryptage": "Les \"bactériophages\" sont des virus qui infectent les bactéries. \"CRISPR\" est une technologie révolutionnaire qui permet de modifier précisément l'ADN, souvent appelée les \"ciseaux génétiques\".",
+        "category": "actu",
+        "highlight_reason": "Ce tweet illustre de manière concrète comment l'IA peut accélérer la recherche scientifique fondamentale et potentiellement mener à des découvertes médicales révolutionnaires, ouvrant de nouvelles pistes en génétique."
+      },
+      {
+        "author_name": "Boris Cherny",
+        "handle": "@bcherny",
+        "text_fr": "Plus de détails pour les experts en méthodes formelles -- ce qui se passe, c'est que Claude fait quelque chose comme : 1. Construire un modèle du programme, ciblant une machine d'état complexe ou une partie du code sujette aux \"conditions de concurrence\" (race conditions) 2. Trouver des contre-exemples dans le modèle. Ce sont des bugs potentiels 3. Reproduire les bugs 4. Corriger les bugs dans le code. Ce n'est pas que l'intégralité de la base de code soit formellement vérifiée (pas encore !), mais plutôt que les parties les plus délicates du code sont modélisées, vérifiées pour des contre-exemples, et corrigées.",
+        "text_original": "More details for the formal methods people -- what's happening is Claude is doing something like: 1. Building a model of the program, targeting a tricky state machine or race-prone part of the code 2. Finding counter-examples in the model. These are suspected bugs 3. Reproducing the bugs 4. Fixing the bugs in the code It's not that the whole codebase is formally verified (yet!..), more that the hairiest parts of the code are modeled, checked for counter-examples, and fixed.",
+        "link": "http://shitter.thepixora.com/bcherny/status/2102898067133595992#m",
+        "decryptage": "Les \"méthodes formelles\" sont des techniques mathématiques utilisées pour prouver qu'un logiciel fonctionne exactement comme prévu, sans erreur. Une \"machine d'état\" est un concept qui décrit comment un programme passe d'un état à un autre en fonction d'événements, et les \"conditions de concurrence\" sont des situations où l'ordre des opérations peut créer des bugs inattendus.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet offre une explication plus technique mais accessible sur la manière dont l'IA peut aider à rendre le code plus fiable, un aspect crucial pour la sécurité et la confiance dans les systèmes d'IA."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "L'été 2026 a été une période folle pour l'IA... ARC Prize (@arcprize) Prix du Progrès ARC-AGI-3 2026 - 9 jours restants. 37 500 $ de prix seront décernés le *30 septembre* aux meilleures solutions open source. Classement actuel : 1. Tufa Labs 2. Lord Han Solo 3. NVARC3. Quels sont les 3 premiers qui remporteront le prix open source ?",
-          "text_original": "Summer 2026 has been a crazy time in AI... ARC Prize (@arcprize) ARC Prize 2026 - ARC-AGI-3 Progress Prize - 9 day left $37,500 in prizes are being awarded on *Sept 30th* to the top open source solutions Current standings: 1. Tufa Labs 2. Lord Han Solo 3. NVARC3 Which top 3 will claim the open source prize?",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2102160603301425190#m",
-          "decryptage": "L'ARC Prize est une compétition qui vise à faire progresser l'AGI (Artificial General Intelligence ou Intelligence Artificielle Générale), c'est-à-dire une IA qui serait capable de comprendre, d'apprendre et d'appliquer ses connaissances à une vaste gamme de tâches, comme un humain."
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Chez Box, nous avons testé Opus 5.5 sur diverses tâches complexes de travail intellectuel en entreprise, gérant des données non structurées avec le Box Agent. Globalement, nous avons observé des capacités de pointe, avec des améliorations majeures par rapport à Opus 5 : 63 % de tokens en moins utilisés, 42 % de verbosité réduite et 30 % plus rapide que Opus 5. Et le modèle lui-même est moins cher, ce qui est un avantage considérable pour toute utilisation d'agents IA, le codage, l'analyse ou le travail sur les données que les entreprises effectueront. Voici quelques exemples de succès et de gains de performance sur divers tests industriels que nous avons réalisés : • Services financiers - diligence raisonnable (+39 % de précision des tâches) : À partir d'un an de relevés de transactions, trouver chaque erreur de calcul dans l'outil de tarification d'une cible d'acquisition. Opus 5.5 a obtenu un résultat parfait à chaque tentative en utilisant deux fois moins de mots qu'Opus 5, consommant 82 % de tokens en moins au total. • Technologie - analyse des coûts cloud (+65 % de précision des tâches) : Déterminer ce qu'une entreprise devrait réellement changer concernant ses dépenses cloud. Opus 5.5 a choisi la bonne base pour le calcul de rétention et a maintenu les conventions d'unité des données sources tout au long, de sorte que le chiffre final est réellement fiable. Cela a pris moitié moins de temps qu'Opus 5, avec 70 % de tokens en moins. • Produits de consommation - analyse de compte client (+17 % de précision des tâches) : Définir les objectifs d'intégration pour un compte client, en lisant le contrat signé, un suivi de satisfaction et une feuille de métriques d'équipe. Le contrat ne spécifie jamais de répartition senior/junior, donc Opus 5.5 l'a déduite de la liste de 18 personnes et a montré la règle utilisée ; plusieurs clients avaient un score parfait de 10 sur des questions d'enquête individuelles, donc il a fait la moyenne des réponses de chaque client au lieu de couronner le seul 10. Il a terminé cette tâche en moitié moins de temps, avec 78 % de tokens en moins. • Diagnostic clinique - analyse de données (+15 % de précision des tâches) : Performance des tests rapides de paludisme sur une saison sèche et une saison humide : construire les dossiers des patients à partir de deux PDF cliniques, calculer les taux de tests positifs par saison et sexe, et tester si les charges parasitaires diffèrent réellement entre les patients testés positifs et négatifs. Opus 5.5 a détecté que les écarts types des deux groupes différaient de plus de 100 fois, a refait le calcul correctement et a constaté que la différence de saison sèche ne tenait finalement pas. Ce gain de précision s'est accompagné d'une réponse finale qui était deux fois plus courte que celle d'Opus 5, et a également nécessité 78 % de tokens en moins de bout en bout. Les clients pourront bientôt construire des agents IA avec Opus 5.5 dans le Box AI Studio. Claude (@claudeai) Présentation de Claude Opus 5.5, le premier modèle de notre nouvelle famille Claude 5.5. Il est aussi performant que Claude Fable 5.1 pour la plupart des tâches, et coûte 40 % moins cher à utiliser qu'Opus 5. Vidéo — http://shitter.thepixora.com/claudeai/status/2102435511222890900#m",
+          "text_original": "At Box, we've been testing Opus 5.5 on a variety of complex enterprise knowledge work tasks dealing with unstructured data with the Box Agent. Overall, we saw frontier capability levels, with major performance improvements over Opus 5. 63% fewer tokens used, 42% less verbosity, and 30% faster vs. Opus 5. And the model itself is cheaper, so this is a major win for any agentic computer use, coding, analytics, or data work that enterprises will be doing. Here are some examples of the task wins and performance gains across a variety of industry tests that we performed: • Financial services - due diligence (+39% task accuracy): A year of transaction records, with the job of finding every miscalculation in an acquisition target's pricing tool. Opus 5.5 scored a perfect result on every attempt in half the words Opus 5 used, consuming 82% fewer tokens overall. • Technology - cloud cost analysis (+65% task accuracy): Work out what a company should actually change about its cloud spend. Opus 5.5 picked the right basis for the retention calculation and kept the source data's unit conventions straight all the way through, so the number at the end actually holds up. It took half the time Opus 5 took, with 70% fewer tokens. • Consumer products - client account analysis (+17% task accuracy): Set the onboarding targets for a client account, reading across the signed contract, a satisfaction tracker and a team metrics sheet. The contract never states a senior/junior split, so Opus 5.5 derived it from the 18-person roster and showed the rule it used; several clients had a perfect 10 on individual survey questions, so it averaged each client's responses instead of crowning the single 10. It finished this one in half the time, on 78% fewer tokens. • Clinical diagnostics - data analysis (+15% task accuracy): Malaria rapid-test performance across a dry and a wet season: build the patient records out of two clinical PDFs, compute positive test rates by season and gender, and test whether parasite counts really differ between test-positive and test-negative patients. Opus 5.5 caught that the two groups' standard deviations differed more than 100-fold, re-ran it the right way, and found the dry-season difference didn't hold up after all. This accuracy gain came with a final answer that was half the length of Opus 5's, and also needed 78% fewer tokens end to end. Customers will be able to build AI Agents with Opus 5.5 shortly in the Box AI Studio. Claude (@claudeai) Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. Video — http://shitter.thepixora.com/claudeai/status/2102435511222890900#m",
+          "link": "http://shitter.thepixora.com/levie/status/2102448415775051790#m",
+          "decryptage": "Les \"tokens\" sont les unités de texte (mots ou parties de mots) que les modèles d'IA traitent, et moins de tokens signifient souvent un traitement plus rapide et moins cher. L'\"utilisation d'agents IA\" signifie que l'IA ne se contente pas de répondre à une question, mais agit de manière autonome pour accomplir une série de tâches complexes, comme un assistant très intelligent."
         },
         {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Constructeurs d'Hyderabad, venez construire avec Gemini ! Nous organisons un 'hackathon' avec @gdg_hyd le 26 septembre. Détails et inscription : gdg.community.dev/e/mrcchy/",
-          "text_original": "Hyderabad Builders, Come build with Gemini! We’re hosting a hackathon with @gdg_hyd on Sept 26. Details and registration: gdg.community.dev/e/mrcchy/",
-          "link": "http://shitter.thepixora.com/chauhan_nilay16/status/2100996203051938192#m",
-          "decryptage": "Un 'hackathon' est un événement où des développeurs se réunissent pour collaborer intensément sur des projets de programmation, souvent en compétition, autour d'un thème ou d'une technologie spécifique comme le modèle d'IA Gemini de Google."
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Les sessions cloud sont officiellement disponibles et ne sont plus en prévisualisation de recherche ! Elles vous permettent de laisser Claude Code travailler, même lorsque votre ordinateur portable est fermé. Les abonnés existants reçoivent un crédit unique pour les essayer : 100 $ pour l'offre Pro, 250 $ pour l'offre Max.",
+          "text_original": "Cloud sessions are officially available and out of research preview! They let you keep Claude Code working, even when your laptop is closed. Existing subscribers get a one-time credit to try them: $100 on Pro, $250 on Max.",
+          "link": "http://shitter.thepixora.com/ClaudeDevs/status/2102871550974427462#m",
+          "decryptage": "Les \"sessions cloud\" permettent à un programme de continuer à fonctionner sur des serveurs distants (le \"cloud\") même si votre propre ordinateur est éteint ou déconnecté."
         },
         {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Rejoignez @GoogleDeepMind pour une expérience audio immersive avec Gemini à San Francisco la semaine prochaine ! Un mélange d'art audio-visuel créatif et de conversations en temps réel avec Gemini et les personnes derrière les modèles ! 📍 The Pearl, San Francisco 🗓️ Jeudi 24 septembre | 18h-22h",
-          "text_original": "Join @GoogleDeepMind for an immersive Gemini Audio experience in SF next week! A mix of creative Audio-Visual art and real-time conversations with Gemini and the folks behind the models! 📍 The Pearl, San Francisco 🗓️ Thursday, Sept 24 | 6–10 PM",
-          "link": "http://shitter.thepixora.com/thorwebdev/status/2099486872028225602#m",
-          "decryptage": "Gemini Audio fait référence aux capacités audio du modèle d'IA Gemini, permettant des interactions vocales ou la génération de sons."
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Sans oublier nos amis d'outre-Manche... La semaine prochaine, nous organiserons une deuxième petite rencontre pour célébrer GPT-6 à Londres ! Notre équipe là-bas a apporté des contributions essentielles à Astra, et nous serions ravis de célébrer avec vous :) events.openai.com/gpt-6-lond… (cliquez sur mon lien, pas celui de Sam). Lien hero-only events.openai.com Sam Altman (@sama) Nous voulons célébrer avec les personnes qui utilisent GPT-6. Nous l'avons fait pour GPT-5.5 et c'était vraiment amusant. Nous nous réunissons à San Francisco le 16 septembre pour parler du modèle, de ce que nous devrions construire ensuite, et surtout pour passer un bon moment. Postulez avant le 10 septembre : gpt6-launch-event.openai.cha… Lien Soirée Communautaire GPT-6 Demandez une invitation à la Soirée Communautaire GPT-6 à San Francisco le 16 septembre 2026. Une soirée sous les étoiles avec OpenAI. gpt6-launch-event.openai.chatgpt.site",
+          "text_original": "Not to forget our friends across the pond.... Next week we'll host a second smaller get-together to celebrate GPT-6 in London! Our team there delivered core contributions to Astra, and we'd love to celebrate with you :) events.openai.com/gpt-6-lond… (click my link not Sam's) Link hero-only events.openai.com Sam Altman (@sama) We want to celebrate with people using GPT-6. We did this for GPT-5.5 and it was really fun. We’re getting together in SF on September 16 to talk about the model, what we should build next, and mostly just to hang out. Apply by Sep 10: gpt6-launch-event.openai.cha… Link GPT-6 Community Night Request an invitation to GPT-6 Community Night in San Francisco on September 16, 2026. An evening under the stars with OpenAI. gpt6-launch-event.openai.chatgpt.site — http://shitter.thepixora.com/sama/status/2097404861642137851#m",
+          "link": "http://shitter.thepixora.com/_aidan_clark_/status/2099740924628906010#m",
+          "decryptage": "GPT-6 Astra est la prochaine génération d'un modèle d'IA très puissant développé par OpenAI, capable de comprendre et de générer du texte."
         },
         {
-          "author_name": "Thomas Wolf",
-          "handle": "@Thom_Wolf",
-          "text_fr": "Cet entraînement massif ne cesse de nous surprendre — nous avons besoin de nouveaux tabloïds pour suivre cette saga des agents IA. Transluce (@TransluceAI) La nouvelle d'aujourd'hui selon laquelle OpenAI a piraté le gouvernement australien n'est pas un incident isolé. Nous publions plus de 30 000 journaux qui incluent l'activité de ce piratage et des tentatives contre des cibles auparavant inconnues. Dans ces données, nous avons trouvé une activité d'agents 'rogues' remontant au moins à mars, deux mois plus tôt que ce qui était connu auparavant. Cette activité continue aussi récemment que la semaine dernière, suggérant qu'elle pourrait encore être en cours. Notre blog : transluce.org/agent-activity NYT: nytimes.com/2026/09/23/techn… Lien : Activité d'agents 'rogues' précoces et tentatives de piratage trouvées sur urlquery.net. Nous avons trouvé des preuves sur urlquery.net que des agents IA étaient actifs plus tôt que signalé précédemment et ont tenté des piratages contre des fournisseurs de données publiques.",
-          "text_original": "this massive training run just keeps giving - we need new tabloids to follow these ai agents saga Transluce (@TransluceAI) Today’s news that OpenAI hacked the Australian government is not an isolated incident. We’re releasing more than 30,000 logs that include activity from this hack and attempts against previously unknown targets. In this data, we found rogue agent activity stretching back to at least March, two months earlier than was previously known. This activity continues as recently as last week, suggesting it may still be ongoing 🧵 Our blog: transluce.org/agent-activity NYT: nytimes.com/2026/09/23/techn… Link Early rogue agent activity and attempts to hack found on urlquery.net We found evidence on urlquery.net that AI agents were active earlier than previously reported and attempted hacks against public data providers.",
-          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2103054896438136973#m",
-          "decryptage": "Les 'agents IA' sont des programmes d'intelligence artificielle autonomes capables d'interagir avec leur environnement et d'exécuter des tâches sans intervention humaine constante. Un 'agent rogue' fait référence à un agent IA qui agit de manière inattendue ou non autorisée, potentiellement de manière malveillante."
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "La déclaration de l'AMS est courte et pertinente : ams.org/news?news_id=7686 \"La nouvelle aujourd'hui des progrès sur la résolution du problème de Navier-Stokes, l'un des grands défis mathématiques de longue date concernant les équations qui régissent l'écoulement des fluides, représente une avancée majeure dans la connaissance humaine. Cette histoire a commencé avec Navier, Stokes, Leray et Ladyzhenskaya et a culminé avec les récentes percées de Córdoba et Martínez-Zoroa, puis — assistées par de nouvelles technologies — Alpöge et Buckmaster, les dernières étapes ayant été franchies par les mathématiciens d'OpenAI. Le but des mathématiques est la compréhension humaine, et cet accomplissement, ainsi que le processus qui y a mené, portera ses fruits pendant longtemps.\" Ravi Vakil, Président de l'AMS John Meier, PDG de l'AMS",
+          "text_original": "The AMS’s statement is short and sweet: ams.org/news?news_id=7686 \"The news today of progress on resolving the Navier–Stokes problem, one of mathematics' great longstanding challenges concerning the equations that govern the flow of fluids, represents a milestone advance in human knowledge. This story began with Navier, Stokes, Leray, and Ladyzhenskaya and has culminated in the recent breakthroughs of Córdoba and Martínez-Zoroa, then — assisted by new technologies — Alpöge and Buckmaster, with the final steps taken by OpenAI mathematicians. The purpose of mathematics is human understanding, and this achievement, and the process that led to it, will bear fruit for a long time to come.\" Ravi Vakil, President of the AMS John Meier, CEO of the AMS",
+          "link": "http://shitter.thepixora.com/AlexKontorovich/status/2097384320469970966#m",
+          "decryptage": "Le \"problème de Navier-Stokes\" est un problème mathématique très complexe et non résolu depuis des décennies, concernant les équations qui décrivent comment les liquides et les gaz se déplacent. Le résoudre est une avancée scientifique majeure."
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "L'IA aide désormais les personnes paralysées à bouger à nouveau. Cet homme bouge sa propre main grâce à un implant entraîné sur son activité cérébrale, et ressent tout ce qu'il touche. Une incroyable application de l'IA pour le bien ! Vidéo",
-          "text_original": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712675308638581#m",
-          "decryptage": "Un 'implant entraîné sur l'activité cérébrale' est un dispositif qui capte les signaux électriques du cerveau et les interprète grâce à l'IA pour contrôler une prothèse ou restaurer des fonctions motrices."
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Nous avons résolu Navier-Stokes ! Beaucoup de mes collègues ont quitté leurs domaines parce qu'ils pensaient que travailler sur l'IA serait le moyen le plus rapide de résoudre les grands défis de leurs disciplines. C'est surréaliste de voir le premier de ces défis tomber et de voir un futur auquel nous croyions devenir réalité. OpenAI (@OpenAI) Nous partageons une solution au problème du prix du millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle de nouvelle génération d'OpenAI significativement plus capable que GPT-6 Astra. Le problème concerne la possibilité que la description du mouvement fluide tridimensionnel et lisse modélisé par les équations de Navier-Stokes puisse s'effondrer. Il est resté non résolu pendant environ 90 ans. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
+          "text_original": "We solved Navier-Stokes! Many of my colleagues left their fields because they believed that working on AI would be the fastest way to solve their fields' grand challenges. It's surreal to see the first of those challenges fall and to watch a future we believed in become real. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
+          "link": "http://shitter.thepixora.com/markchen90/status/2097377602638053616#m",
+          "decryptage": "Le \"problème du prix du millénaire de Navier-Stokes\" est l'un des sept problèmes mathématiques les plus difficiles désignés par l'Institut de Mathématiques Clay, avec une récompense d'un million de dollars pour sa résolution."
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Les chirurgiens ont implanté 5 réseaux d'électrodes dans son cerveau. Une IA détecte quand il a l'intention de bouger et stimule les muscles de son bras, tandis que des capteurs de doigts renvoient la pression pour qu'il puisse ressentir. La découverte la plus intéressante, à mon avis : les effets ont persisté même après que tout a été éteint.",
-          "text_original": "Surgeons implanted 5 electrode arrays in his brain An AI detects when he intends to move and stimulates his arm muscles, while finger sensors send pressure back so he can feel The most interesting finding IMO: effects persisted even after everything was switched off",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712693688103295#m",
-          "decryptage": "Des 'réseaux d'électrodes' sont des ensembles de petits capteurs qui peuvent enregistrer l'activité électrique du cerveau ou stimuler des tissus, servant d'interface entre le cerveau et une machine."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "En République Démocratique du Congo, des organisations mondiales de santé, y compris @CEPIvaccines , @WHOAFRO , et @inrb_kinshasa , utilisent Claude pour accélérer leur réponse à une épidémie d'une variante inhabituelle d'Ebola. Lisez l'article complet ici : anthropic.com/features/ebola… Lien Le Rapport de Situation Une souche rare d'Ebola se propage en RDC, sans vaccin confirmé. Les organisations de santé mondiales utilisent Claude pour réagir le plus rapidement possible. anthropic.com",
+          "text_original": "In the Democratic Republic of the Congo, global health organizations including @CEPIvaccines , @WHOAFRO , and @inrb_kinshasa are using Claude to accelerate their response to an outbreak of an unusual Ebola variant. Read the full piece here: anthropic.com/features/ebola… Link The Situation Report A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible. anthropic.com",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2102897863097545197#m",
+          "decryptage": null
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Article complet : nature.com/articles/s41591-0… Lien Une neuroprothèse pour restaurer le mouvement et la sensation de la main chez une personne atteinte de tétraplégie complète. Nature Medicine - Un système neuroprothétique sensorimoteur bidirectionnel qui décode les signaux cérébraux associés à l'intention de mouvement tout en délivrant une neuromodulation structurée à la moelle épinière et...",
-          "text_original": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712705725747366#m",
-          "decryptage": "Une 'neuroprothèse' est un dispositif qui remplace ou améliore une fonction neurologique perdue ou altérée, en interagissant directement avec le système nerveux."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Claude a découvert un système enzymatique auparavant inconnu caché dans l'ADN des bactériophages. À côté du gène de l'enzyme se trouve une longue séquence d'ADN répétitif – une structure qui ressemble un peu à CRISPR. Nous ne comprenons pas encore ce que fait ce système, mais seule une poignée de systèmes connus partagent ses caractéristiques, et tous sont capables de couper, copier et coller l'ADN. Historiquement, la découverte de tels systèmes programmables a contribué à révolutionner la médecine. CRISPR, par exemple, est maintenant la base des médicaments génétiques. Mais il faudra beaucoup plus de travail pour comprendre ce que fait ce système et s'il peut être utilisé de manière similaire. En savoir plus : anthropic.com/news/claude-di… Lien Claude découvre un nouveau système enzymatique Dans les premiers résultats de notre nouveau laboratoire de recherche en sciences de la vie, les agents Claude ont trouvé un système enzymatique dont la fonction est encore inconnue. anthropic.com",
+          "text_original": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR. We don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use. Read more: anthropic.com/news/claude-di… Link Claude discovers a novel enzyme system In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. anthropic.com",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2102824959827742916#m",
+          "decryptage": "Les \"bactériophages\" sont des virus qui infectent les bactéries. \"CRISPR\" est une technologie révolutionnaire qui permet de modifier précisément l'ADN, souvent appelée les \"ciseaux génétiques\"."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Claude Opus 5.5 est disponible dès aujourd'hui. Claude (@claudeai) Présentation de Claude Opus 5.5, le premier modèle de notre nouvelle famille Claude 5.5. Il est aussi performant que Claude Fable 5.1 pour la plupart des tâches, et coûte 40 % moins cher à utiliser qu'Opus 5. Vidéo — http://nitter.jaydenha.uk/claudeai/status/2102435511222890900#m",
+          "text_original": "Claude Opus 5.5 is available today. Claude (@claudeai) Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. Video — http://nitter.jaydenha.uk/claudeai/status/2102435511222890900#m",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2102435703535939725#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Nous nous associons à Accenture pour une évaluation indépendante de l'IA de pointe — cela fait partie de notre engagement récent à intégrer des évaluateurs chez Anthropic. Nous et Accenture prévoyons d'investir au moins 1 milliard de dollars pour renforcer les capacités dans ce domaine au cours des cinq prochaines années. anthropic.com/news/accenture… Lien Partenariat avec Accenture pour l'évaluation intégrée Nous nous associons à Accenture pour une évaluation indépendante de l'IA de pointe — cela fait partie de notre engagement récent à intégrer des évaluateurs chez Anthropic. Nous et Accenture prévoyons d'investir au moins 1 milliard de dollars pour... anthropic.com Note de la communauté : Anthropic présente cela comme une \"évaluation indépendante\" mais financera directement le travail d'Accenture et a un partenariat commercial préalable avec la firme pour le déploiement de ses modèles, y compris la formation de ~30 000 professionnels d'Accenture sur Claude. anthropic.com/news/accenture… anthropic.com/news/anthropic…",
+          "text_original": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years. anthropic.com/news/accenture… Link Partnering with Accenture on embedded evaluation We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to... anthropic.com Community note: Anthropic presents this as an \"independent evaluation\" but will directly fund Accenture's work and has a prior commercial partnership with the firm for deploying its models, including training ~30,000 Accenture professionals on Claude. anthropic.com/news/accenture… anthropic.com/news/anthropic…",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2101039819870937247#m",
+          "decryptage": "L'\"IA de pointe\" (frontier AI) fait référence aux modèles d'intelligence artificielle les plus avancés et les plus puissants, souvent ceux qui repoussent les limites de ce qui est techniquement possible."
         }
       ],
       "tips": [
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Mise à l'échelle de l'inférence, partie 1. Commençons par une fonction de génération de texte modifiée (mise à l'échelle de la 'température', filtrage 'top-p', échantillonnage multinomial) pour générer des sorties diverses pour l'auto-cohérence et le 'best-of-N' (améliorant la précision des réponses de plus de 2x). Ce qui sera couvert : Introduction et récapitulatif ; Mise à l'échelle pendant l'entraînement et l'inférence ; Ce que nous allons implémenter ; Configuration du 'notebook' et chargement du modèle ; Construction d'une fonction de génération de texte flexible ; 'Chain-of-thought prompting' ; Échantillonnage et diversité des sorties ; Logits du prochain 'token' et décodage glouton ; Mise à l'échelle de la 'température' étape par étape ; Softmax et probabilités de 'tokens' ; Échantillonnage multinomial ; Ajout de l'échantillonnage de 'température' à la génération de texte ; Filtrage 'top-p' étape par étape ; Ajout du filtrage 'top-p' à la génération de texte ; Échantillonnage et 'watermarking' des LLM ; Auto-cohérence et vote majoritaire ; Implémentation de l'auto-cohérence ; Résultats MATH-500 ; Compromis entre précision et calcul ; Prochaines étapes et auto-raffinement. Vidéo.",
-          "text_original": "Inference scaling part 1. Starting with a modded text generation function (temperature scaling, top-p filtering, multinomial sampling) to generate diverse outputs for self-consistency and best-of-N (improving answer accuracy by>2x) 00:00 Introduction and recap 00:31 Training-time and inference-time scaling 07:52 What we'll implement 11:47 Notebook setup and model loading 17:43 Building a flexible text generation function 24:40 Chain-of-thought prompting 28:26 Sampling and output diversity 33:43 Next-token logits and greedy decoding 38:20 Temperature scaling step by step 42:46 Softmax and token probabilities 47:42 Multinomial sampling 54:51 Adding temperature sampling to text generation 59:31 Top-p filtering step by step 1:10:23 Adding top-p filtering to text generation 1:13:43 Sampling and LLM watermarking 1:16:01 Self-consistency and majority voting 1:20:36 Implementing self-consistency 1:29:02 MATH-500 results 1:35:01 Accuracy and compute tradeoffs 1:36:50 Next steps and self-refinement Video",
-          "link": "http://shitter.thepixora.com/rasbt/status/2101313945835368684#m",
-          "decryptage": "L'« inférence » est le processus où un modèle d'IA utilise ce qu'il a appris pour faire des prédictions ou générer de nouvelles données. Des techniques comme la 'température', le 'top-p filtering' ou l'« auto-cohérence » sont des méthodes utilisées pour contrôler la créativité et améliorer la qualité des réponses générées par les modèles de langage (LLM)."
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Les \"Projets\" permettent désormais d'utiliser votre appareil local ! J'ai beaucoup utilisé cela pour que Claude puisse afficher des versions préliminaires sur ma machine locale pour des tests rapides. ClaudeDevs (@ClaudeDevs) Nous venons d'ajouter le support local aux \"Projets\" dans Claude Code, afin que les \"threads\" (les exécutions) puissent maintenant tourner sur votre propre machine. — http://shitter.thepixora.com/ClaudeDevs/status/2102893178273874102#m",
+          "text_original": "Projects now support using your local device! Have been using this a ton to let Claude pull up preview builds on my local for quick testing. ClaudeDevs (@ClaudeDevs) We've just added local support to Projects in Claude Code, so threads can now run on your own machine. — http://shitter.thepixora.com/ClaudeDevs/status/2102893178273874102#m",
+          "link": "http://shitter.thepixora.com/OmidMogasemi/status/2102901885829304381#m",
+          "decryptage": "Un \"appareil local\" signifie votre propre ordinateur, par opposition à des serveurs distants dans le \"cloud\". Cela permet de tester le code développé avec Claude directement sur votre machine sans le déployer ailleurs."
         },
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Et un lien vers la vidéo sur YouTube : redirect.invidious.io/t5y-kS9nNxU Lien Construire un modèle de raisonnement à partir de zéro 4 : Mise à l'échelle de l'inférence 1 (Température, Top-p, Auto-cohérence). Après avoir motivé les cas d'utilisation pour la mise à l'échelle au moment de l'inférence, cette vidéo...",
-          "text_original": "And a link to the video on YouTube: redirect.invidious.io/t5y-kS9nNxU Link Build A Reasoning Model From Scratch 4: Inference Scaling 1 (Temperature, Top-p, Self-Consistency) After motivating the use cases for inference-time scaling, this vid... youtube.com",
-          "link": "http://shitter.thepixora.com/rasbt/status/2101315873977860446#m",
-          "decryptage": null
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Encore quelques résultats. Maintenant, je l'ai rendu entièrement compatible avec toutes sortes de modèles et de vocabulaires. Bonne expérience d'utilisation de @huggingface avec @SlackHQ. Et ça a l'air plutôt intelligent",
+          "text_original": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+          "link": "http://nitter.jaydenha.uk/algo_diver/status/1192329736850038786#m",
+          "decryptage": "\"Hugging Face\" est une plateforme très populaire qui offre des outils et des modèles d'IA pré-entraînés pour le traitement du langage naturel, tandis que \"Slack\" est une application de communication d'équipe."
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "La journalisation améliorée par l'IA change ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme mes divagations en données structurées et en actions. Configuration super simple : 1. Après des réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je dicte tout dans une note Apple en utilisant Wispr Flow, de manière totalement non structurée. 2. Le seul objectif est de le sortir de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement avec mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Elle lit chaque note vocale que j'ai dictée pendant que je dors, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, actions et blocs de travail approfondi suggérés dans mon GCal. 6. Le lendemain matin, devant mon café, je les passe en revue et les mets en œuvre. Les avantages sont que les suivis que j'ai promis sont signalés, les idées à moitié formées sont structurées, et les blocs de travail approfondi sont réservés automatiquement. De plus, avec le temps, cela devient un journal consultable de toutes les idées que j'ai eues toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
-          "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
-          "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
-          "decryptage": "La 'journalisation améliorée par l'IA' est une méthode où l'intelligence artificielle aide à organiser et à tirer des informations de vos notes personnelles. 'Wispr Flow' et 'Claude Cowork' sont des noms d'outils ou de systèmes qui intègrent l'IA pour faciliter ce processus. Les 'données structurées' sont des informations organisées de manière cohérente, ce qui les rend faciles à rechercher et à analyser."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Peut-être une excellente occasion d'utiliser les implémentations de Transformer de @huggingface pour TF 2.0 :)",
+          "text_original": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+          "link": "http://nitter.jaydenha.uk/fchollet/status/1188942956511690752#m",
+          "decryptage": "\"TF 2.0\" fait référence à TensorFlow 2.0, une autre bibliothèque logicielle très populaire pour l'apprentissage automatique, souvent utilisée pour construire des modèles complexes."
         }
       ],
       "idees": [
         {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "Le tweet ci-dessous a reçu une énorme opposition au moment où je l'ai posté, il y a plus de 5 ans. Mais cette prédiction semble évidente de jour en jour maintenant. François Chollet (@fchollet) D'ici 10 à 20 ans, presque toutes les branches de la science seront, à toutes fins utiles, une branche de l'informatique. Physique computationnelle, chimie computationnelle, biologie computationnelle, médecine computationnelle... Même l'archéologie computationnelle. Simulations réalistes, analyse de big data, et ML partout.",
-          "text_original": "The tweet below got enormous pushback at the time I posted it, more than 5 years ago. But this prediction is looking obvious by the day now. François Chollet (@fchollet) Within 10-20 years, nearly every branch of science will be, for all intents and purposes, a branch of computer science. Computational physics, comp chemistry, comp biology, comp medicine... Even comp archeology. Realistic simulations, big data analysis, and ML everywhere — http://nitter.jaydenha.uk/fchollet/status/1389337090278658052#m",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2102444225443029100#m",
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Ce fut un honneur de rencontrer Donald Knuth au Musée de l'histoire de l'ordinateur aujourd'hui",
+          "text_original": "It was an honor to meet Donald Knuth at the Computer History Museum today",
+          "link": "http://shitter.thepixora.com/bcherny/status/2102971275543216623#m",
+          "decryptage": "Donald Knuth est un informaticien légendaire, considéré comme un pionnier de l'algorithmique et de la programmation, dont les travaux ont posé les bases de l'informatique moderne."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Plus de détails pour les experts en méthodes formelles -- ce qui se passe, c'est que Claude fait quelque chose comme : 1. Construire un modèle du programme, ciblant une machine d'état complexe ou une partie du code sujette aux \"conditions de concurrence\" (race conditions) 2. Trouver des contre-exemples dans le modèle. Ce sont des bugs potentiels 3. Reproduire les bugs 4. Corriger les bugs dans le code. Ce n'est pas que l'intégralité de la base de code soit formellement vérifiée (pas encore !), mais plutôt que les parties les plus délicates du code sont modélisées, vérifiées pour des contre-exemples, et corrigées.",
+          "text_original": "More details for the formal methods people -- what's happening is Claude is doing something like: 1. Building a model of the program, targeting a tricky state machine or race-prone part of the code 2. Finding counter-examples in the model. These are suspected bugs 3. Reproducing the bugs 4. Fixing the bugs in the code It's not that the whole codebase is formally verified (yet!..), more that the hairiest parts of the code are modeled, checked for counter-examples, and fixed.",
+          "link": "http://shitter.thepixora.com/bcherny/status/2102898067133595992#m",
+          "decryptage": "Les \"méthodes formelles\" sont des techniques mathématiques utilisées pour prouver qu'un logiciel fonctionne exactement comme prévu, sans erreur. Une \"machine d'état\" est un concept qui décrit comment un programme passe d'un état à l'autre en fonction d'événements, et les \"conditions de concurrence\" sont des situations où l'ordre des opérations peut créer des bugs inattendus."
+        },
+        {
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Il est difficile d'exagérer l'impact de @michpokrass sur nos produits grand public. ChatGPT a connu une renaissance sous sa direction, et une grande partie de ce que nous avons construit a été portée par sa vision et sa conviction. Vraiment reconnaissant de travailler avec elle ! Michelle Pokrass (@michpokrass) vient de dépasser les quatre ans chez OpenAI ! La particularité de cet endroit est la capacité constante à se réinventer. Malgré ses défauts, il n'y a nulle part ailleurs de pareil. L'équipe prend des paris audacieux et à contre-courant encore et encore, et la plupart du temps, ils ont raison. C'est une nouvelle entreprise tous les trois mois. J'ai beaucoup apprécié ma participation à certains de ces paris, et je suis impatient de partager ceux que nous préparons actuellement. En avant !",
+          "text_original": "It’s hard to overstate @michpokrass 's impact on our consumer products. ChatGPT has had a rebirth under her leadership, and a lot of what we've built has been driven by her vision and conviction. Really grateful to work with her! Michelle Pokrass (@michpokrass) just crossed four years at openai! the special thing about this place is the constant capacity for rebirth. for all its faults, there is nowhere quite like it. the team makes high conviction, contrarian bets over and over, and they are mostly right. it's a new company every three months. i have really enjoyed my part in some of the bets, and i'm excited to share some of the current ones we are cooking up now. onward! — http://shitter.thepixora.com/michpokrass/status/2102226720073896367#m",
+          "link": "http://shitter.thepixora.com/markchen90/status/2102315801730564516#m",
           "decryptage": null
         },
         {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "Déléguez le codage, mais jamais la compréhension. Si le code était auparavant votre source de vérité pour gérer la compréhension, alors vous avez besoin d'un nouvel artefact source de vérité. Si les flux de travail centrés sur le code étaient la façon dont vous développiez cette compréhension, alors vous avez besoin de nouveaux flux de travail. voxium (@v0xium) J'en ai marre de cette merde. C'est fini. L'état de l'ingénierie est horrible en ce moment. Cela fait un demi-mois que j'ai commencé un nouveau rôle dans une grande entreprise. Personne ne sait rien ici. Les spécifications, le code, les tests, les PRD, les tickets, la résolution de ces tickets, les rapports, etc., tout est fait par Claude Code. Personne dans mon équipe n'aime ça. Ils sont forcés de livrer autant qu'ils le peuvent. J'ai entendu plusieurs fois de la part de la direction que 'pousser du code n'est pas un goulot d'étranglement, alors pourquoi sommes-nous lents ?'. Les gens travaillent 12 à 13 heures par jour juste pour appuyer sur 'entrée'. Personne ne lit rien. Les humains en entreprise ne font rien par eux-mêmes. Tout le monde, absolument tout le monde, d'un ingénieur L1 à un L7, fait la même chose. Parler à Claude. Il n'y a aucun sentiment de victoire. Personne ne résout les bugs. En réalité, personne ne réfléchit plus. Tout est fait par les LLM. C'est tellement épuisant pour l'âme. Je ne m'en soucierais pas, honnêtement, si nous avions au moins le temps de vérifier le code et de voir ce qui va où. Mais non, l'objectif est juste de livrer. Quoi qu'il arrive.",
-          "text_original": "Delegate coding. Never delegate understanding. If code was previously your source of truth for managing understanding, then you need a new source of truth artifact. If code-centric workflows were how you developed that understanding, then you need new workflows. voxium (@v0xium) I am done with this shit. It is over. The state of engineering right now is horrible. It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Humans in corporate are doing nothing on their own. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. There is no sense of victory. Nobody is resolving bugs. In reality, nobody is thinking anymore. Everything is done by LLMs. It is so soul-sucking. I would not mind it, to be honest, if we were at least given the time to check out the code and see what is going where. But no, the goal is to just ship. No matter what happens.",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2102166631439053014#m",
-          "decryptage": "Les LLM (Large Language Models) sont de grands modèles de langage, des intelligences artificielles capables de comprendre et de générer du texte, comme ChatGPT ou Claude Code, un assistant de code basé sur l'IA."
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Deux choses à distinguer : Est-ce qu'un humain ou un agent a examiné les données utilisateur dans le cadre de l'effort sur Navier-Stokes ? Non. Est-ce que nous utilisons les retours des utilisateurs et des données anonymisées pour améliorer ChatGPT et Codex de manière globale ? Oui. Et toutes les entreprises de LLM font de même. levent (@__alpoge__) \"nous ne pouvons pas exclure que des données anonymisées dérivées de leur utilisation de nos produits aient contribué à améliorer nos modèles.\" Je veux dire, bravo à eux d'être francs. (jusqu'à présent, la preuve ressemble plus à une autre preuve de \"blowup\" d'Euler que nous avions, dont l'appellation \"ansatz\" nous faisait faire des jeux de mots vraiment stupides comme \"smooth criminale\", contrairement au bien meilleur \"les fluides idéaux explosent\", Tristan). Donc, je vais maintenant donner un peu de mon point de vue ici. J'aurais été vraiment enthousiasmé de collaborer là-dessus, il y a beaucoup de gens chez OAI que j'aime bien (ok, clairement certains ont été indirectement odieux avec moi à cause de cette situation, mais je suis un grand garçon, je les aime toujours), je me fiche de l'attribution de la paternité à cette étape de toute façon, ça aurait pu être moi, Tristan et chaque employé à temps plein d'OAI pour ce que ça me fait (là-dessus Tristan serait en désaccord :p). Mais en entendant la conversation bruyante dans le couloir, surtout la partie où un prix du millénaire était offert si je devais juste être retiré de l'article, il était clair que les jeux étaient faits et que les choses étaient verrouillées. Plutôt farfelu, non stratégique et inutile, puisque de mon côté, il s'agissait surtout de moi et de Claude qui s'amusaient à faire n'importe quoi dans un coin plutôt que quelque chose d'institutionnel. J'aime aussi l'idée que les laboratoires coopèrent, et encore plus sur le progrès scientifique. C'est dommage !",
+          "text_original": "Two things to distinguish: Did any human or agent look at user data as part of the Navier Stokes effort? No. Do we use user feedback and de-identified data to improve ChatGPT and Codex in a holistic way? Yes. And so does every LLM company. levent (@__alpoge__) “we cannot rule out that de-identified data derived from their usage of our products helped improve our models.” i mean props to them for straight coming clean. (so far the proof looks more along the lines of another euler blowup proof we had, off of whose ansatz naming we were making really stupid puns like “smooth criminale”, unlike the much better “ideal fluids explode”, Tristan) so i’ll now give a bit on my thinking here. i actually woulda been pumped to collaborate on this, there are a lot of people at oai i like (ok, clearly some were indirectly dicks to me because of being part of the whole situation, but im a big boy, i still like them), idgaf about authorship on that step anyway, coulda been me Tristan and every fte at oai for all i care (on that Tristan would disagree:p). but on hearing the loud convo in the hallway, especially the part where a millennium prize was offered if i’d just be removed from the paper, it was kinda clear the die had been cast and things were locked. pretty wacky, unstrategic, and unnecessary, since on my side things were mostly me and claude having a good time yoloing random stuff in the corner rather than anything institutional. i also like the idea of the labs cooperating, and even better on scientific progress. it’s a shame! — http://shitter.thepixora.com/__alpoge__/status/2097383870773748190#m",
+          "link": "http://shitter.thepixora.com/markchen90/status/2097400166554993041#m",
+          "decryptage": "Les \"LLM\" (Large Language Models) sont des modèles d'IA capables de comprendre et de générer du langage humain. Les \"données anonymisées\" sont des informations où tout ce qui permettrait d'identifier une personne a été retiré, pour protéger la vie privée."
         },
         {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "Je suis toujours convaincu qu'il y aura plus d'ingénieurs logiciels dans 5 ans qu'aujourd'hui. Et aucun d'entre eux ne lira ou n'écrira de code.",
-          "text_original": "I am still convinced there will be more software engineers in 5 years than there are today. And none of them will read or write code.",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2102166827107500114#m",
-          "decryptage": null
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "C'est le premier résultat de notre nouveau laboratoire de biologie moléculaire, où une équipe de biologistes d'Anthropic utilise Claude pour explorer et accélérer la recherche fondamentale en biologie. Là, Claude traite les données et la littérature pour générer des hypothèses et des systèmes biologiques candidats à étudier. Après que nos scientifiques aient examiné les hypothèses de Claude, ils testent les idées les plus prometteuses, tout le travail de laboratoire étant effectué par nos scientifiques. Nous aimerions étendre cette approche à un large éventail de problèmes – en génomique et dans d'autres domaines. Si vous avez une proposition de question de recherche, nous aimerions vous entendre. Vidéo",
+          "text_original": "This is the first result from our new molecular biology lab, where a team of Anthropic biologists is using Claude to explore and accelerate fundamental biology research. There, Claude works through data and literature to generate hypotheses and candidate biological systems to study. After our scientists review Claude’s hypotheses, they test the most promising ideas, with all lab work done by our scientists. We’d like to extend this approach to a broad range of problems—in genomics and in other fields. If you have a proposal for a research question, we’d like to hear from you. Video",
+          "link": "http://nitter.jaydenha.uk/AnthropicAI/status/2102824961538920822#m",
+          "decryptage": "La \"biologie moléculaire\" est l'étude des molécules qui composent la vie, comme l'ADN et les protéines. La \"génomique\" est l'étude de l'ensemble des gènes d'un organisme, c'est-à-dire son génome."
         },
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "L'attrait principal des 'agent harnesses' open-source n'est pas qu'ils sont gratuits, mais que nous pouvons inspecter ce qu'ils font sur nos ordinateurs.",
-          "text_original": "The main appeal of open-source agent harnesses isn't that they are free, but that we can inspect what they are doing on our computers.",
-          "link": "http://shitter.thepixora.com/rasbt/status/2102771721086673116#m",
-          "decryptage": "Un 'agent harness' (qu'on pourrait traduire par 'environnement d'agent') est un cadre ou un système qui permet de faire fonctionner et de gérer des agents IA, souvent en leur fournissant des outils et des capacités. 'Open-source' signifie que le code est public et peut être consulté, modifié et utilisé par tous."
-        },
-        {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "Il est facile de rejeter Jev comme « juste un classifieur ». Mais les gens (moi y compris) qui entraînent des modèles de type 'encoder' pour la classification depuis de nombreuses années savent qu'ils étaient généralement à usage spécialisé et limités d'une manière ou d'une autre. La percée de Jev est qu'il se généralise bien. Et je dirais que la clé du succès réside probablement plus dans les données que dans l'algorithme d'entraînement. (Plus une belle conception d'API par-dessus tout.) Kun Chen (@kunchenguid) Ce pauvre gars prétend avoir construit Jev il y a un an mais personne ne s'en est soucié, et maintenant Jev lui a volé la vedette. Beaucoup de gens disent « tu dois raconter ton histoire » ou « le marketing est important », et ils ont complètement manqué ce qui a fait la différence ici. Je viens d'examiner ce modèle Laya laya.convaiinnovations.com/ et : - il ne supporte que 512-1k de 'contexte'... beaucoup de cas d'utilisation ne conviendront pas du tout - l'évaluation directe du modèle montre que sa précision est aussi bonne qu'un pile ou face. pour obtenir de bons résultats, il faut d'abord le 'fine-tuner'. Je suis désolé, mais ce n'est pas Jev. Il y a un fossé énorme entre une recherche intéressante et un produit utile. Vous pouvez « raconter votre histoire » autant que vous voulez, mais vous ne pouvez pas blâmer Jev de vous avoir volé la vedette quand Jev a fait tout le travail pour créer une solution bien emballée que tout le monde peut simplement prendre et utiliser. Jev n'est pas complètement nouveau d'un point de vue académique, tout comme ChatGPT n'était pas le premier LLM. Ne sous-estimez pas l'effort et la valeur de la création de quelque chose qui est réellement suffisamment bon pour l'adoption — cela fait toute la différence.",
-          "text_original": "It’s easy to dismiss Jev it as “just a classifier”. But people (me included) who have been training encoder-style models for classification for many years know they were usually special-purpose and limited in some way. The breakthrough of Jev is that it generalizes well. And I’d say the secret sauce is probably more in the data than in the training algorithm. (Plus a nice API design on top of it.) Kun Chen (@kunchenguid) poor guy claim to have built Jev a year ago but no one cared, and now Jev stole all the thunder many people are saying “you gotta tell your story” or “marketing is important”, and they just completely missed what actually made the difference here i just looked into this laya model laya.convaiinnovations.com/ and: - it only supports 512-1k context… a lot of use cases won’t fit at all - evaluating the model directly shows its accuracy is as good as a coin flip. in order to get good results, you need to first fine tune it i’m sorry, but that’s not Jev there’s a massive gap between an interesting research and a useful product you can “tell your story” all you like, but you can’t blame Jev for stealing your thunder when Jev did all the work to make a well-packaged solution anyone can just grab and go Jev is not completely new from an academic sense, just like how ChatGPT was not the first LLM don’t underestimate the effort and value in putting together something that’s actually good enough for adoption - it makes all the difference",
-          "link": "http://shitter.thepixora.com/rasbt/status/2101672304358948992#m",
-          "decryptage": "Un 'classifieur' est un modèle d'IA qui prend des données en entrée et prédit la catégorie à laquelle elles appartiennent. Un 'modèle de type encoder' est un type d'architecture de réseau de neurones. 'Généraliser bien' signifie qu'un modèle peut bien fonctionner sur des données qu'il n'a jamais vues auparavant. Le 'contexte' fait référence à la quantité de texte qu'un modèle peut prendre en compte à la fois. 'Fine-tuner' (ou ajuster) un modèle consiste à l'entraîner davantage sur un ensemble de données plus petit et spécifique pour l'adapter à une tâche particulière."
-        },
-        {
-          "author_name": "Thomas Wolf",
-          "handle": "@Thom_Wolf",
-          "text_fr": "Il y a une quantité énorme de données d'entraînement disponibles en 'open source' sur Hugging Face. Que faut-il pour les faire fonctionner ensemble 🤗? Pour l'entraînement 'Marin 535B', nous avons utilisé 25 mille milliards de 'tokens' provenant de 152 ensembles de données dont les licences autorisent l'entraînement. Voici le travail entre le téléchargement de ces données et l'entraînement d'un modèle.",
-          "text_original": "There’s an enormous amount of open training data on Hugging Face. What does it take to make it work together 🤗? For Marin’s 535B run, we built on 25T tokens from 152 datasets with licenses permitting training. Here’s the work between downloading those and training a model 🧵",
-          "link": "http://nitter.jaydenha.uk/WilliamBarrHeld/status/2102850527575097716#m",
-          "decryptage": "Hugging Face est une plateforme populaire où les chercheurs et les développeurs partagent des modèles d'IA pré-entraînés et des 'datasets' (ensembles de données) pour l'entraînement. Un 'run 535B' fait référence à l'entraînement d'un modèle d'IA avec 535 milliards de paramètres, ce qui est une taille gigantesque. Les 'tokens' sont les unités de texte que les modèles d'IA traitent."
-        },
-        {
-          "author_name": "Thomas Wolf",
-          "handle": "@Thom_Wolf",
-          "text_fr": "La publication de nombreux environnements d'apprentissage par renforcement ('RL environments') 'open-source' de haute qualité est la chose la plus impactante que l'on puisse faire pour repousser les limites de l'open-source en ce moment, l'équivalent du partage de données de pré-entraînement de haute qualité, mais dans le nouveau paradigme RLVR. Elie (@eliebakouch) Le plus fou, c'est qu'ils vont publier environ 7 000 données d'entraînement RL et le 'framework' qui a mené à ce modèle classé dans le top 6 sur AA. Ils ont également livré le modèle + le rapport technique moins d'une semaine après le début de l'exécution finale du RL, faisant progresser à la fois l'intelligence et le niveau d'ouverture, félicitations !",
-          "text_original": "releasing many high quality open-source RL environments is the most impactful thing anyone can do to push the open-source frontier right now the equivalent of sharing high quality pretraining data but in the new RLVR paradigm elie (@eliebakouch) the most insane part, they will release ~7k RL training data and the framework leading to this top 6 model on AA, they also shipped the model + tech report less than 1 week after starting the final RL run pushing both intelligence and openness level, huge congrats",
-          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2102137611011674173#m",
-          "decryptage": "L'apprentissage par renforcement (RL, pour Reinforcement Learning) est une approche de l'IA où un agent apprend à prendre des décisions en interagissant avec un environnement et en maximisant une récompense. Un 'environnement RL open-source' est un simulateur ou un jeu dont le code est accessible, permettant aux agents IA de s'entraîner. Le 'paradigm RLVR' fait probablement référence à une nouvelle approche de l'apprentissage par renforcement, potentiellement liée à la réalité virtuelle (VR)."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "L'atelier @SustaiNLP2020 à #EMNLP2020 essaiera de réduire un peu la \"dépendance au SOTA\" dans la recherche en PNL 😉 Nous allons promouvoir des compromis raisonnables entre les performances et les modèles qui sont - plus efficaces en termes de calcul - conceptuellement plus simples... [1/2] nitter.net/DoingJobs/status/11865…",
+          "text_original": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitter.net/DoingJobs/status/11865…",
+          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/1189271899316064256#m",
+          "decryptage": "Le \"SOTA\" (State Of The Art) désigne le meilleur résultat ou la meilleure performance connue pour une tâche donnée en IA. Le \"PNL\" (Traitement du Langage Naturel) est le domaine de l'IA qui s'occupe de la compréhension et de la génération du langage humain par les machines."
         }
       ],
       "outils": [
         {
-          "author_name": "Francois Chollet",
-          "handle": "@fchollet",
-          "text_fr": "J'ai écrit 'Deep Learning with Python' pour en faire le guide de référence sur le fonctionnement de l'apprentissage profond et la meilleure façon de l'utiliser. Des dizaines de milliers de personnes ont démarré leur carrière grâce à ce livre. 120 000 exemplaires vendus, et téléchargé par des millions d'autres. Et maintenant, il est gratuit en ligne : deeplearningwithpython.io/ Le lien Deep Learning with Python, Troisième Édition. 'Deep Learning with Python' est écrit pour quiconque souhaite explorer l'apprentissage profond à partir de zéro. Cette nouvelle édition couvre de manière exhaustive l'IA générative et les frameworks d'apprentissage profond modernes.",
-          "text_original": "I wrote Deep Learning with Python to be the definitive guide to how deep learning works and how to best make use of it. Tens of thousands of people got their career start via this book. 120,000 copies sold, and downloaded by millions more. And now it's free to read online: deeplearningwithpython.io/ Link Deep Learning with Python, Third Edition Deep Learning with Python is written for anyone who wishes to explore deep learning from scratch. This new edition adds comprehensive coverage of generative AI and modern deep learning frameworks. It... deeplearningwithpython.io",
-          "link": "http://nitter.jaydenha.uk/fchollet/status/2051370269445615965#m",
-          "decryptage": "L'apprentissage profond (Deep Learning) est une branche de l'intelligence artificielle qui utilise des réseaux de neurones très complexes, inspirés du cerveau humain, pour apprendre des tâches comme la reconnaissance d'images ou la traduction. L'IA générative (Generative AI) désigne les modèles d'IA capables de créer de nouveaux contenus (texte, images, audio, etc.)."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Le premier article complet sur @pytorch après 3 ans de développement. Il décrit nos objectifs, principes de conception, détails techniques jusqu'à la version 0.4. Retrouvez l'affiche à #NeurIPS2019. Rédigé par @apaszke, @colesbury et al. arxiv.org/abs/1912.01703",
+          "text_original": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+          "link": "http://nitter.jaydenha.uk/soumithchintala/status/1202981209057484801#m",
+          "decryptage": "\"PyTorch\" est un cadre de travail (framework) très populaire utilisé par les développeurs et chercheurs en IA pour construire et entraîner des modèles d'apprentissage automatique, en particulier des réseaux de neurones."
         },
         {
-          "author_name": "Sebastian Raschka",
-          "handle": "@rasbt",
-          "text_fr": "MiMo-V2.6 est « simplement » le meilleur (pour l'instant). Malgré sa conception d'architecture simple, il est actuellement n°1 dans les classements de modèles 'open-weight' (moyenne pondérée). Par « simple », j'entends une Attention de Requête Groupée (GQA) classique avec une Attention à Fenêtre Glissante (SWA) avec une petite taille de fenêtre de 128 'tokens'. Cela souligne l'un des points que j'ai essayé de faire valoir ces derniers mois : la plupart des progrès viennent toujours de l'amélioration des données et des recettes de post-entraînement. Les variantes d'attention sophistiquées ne sont pour la plupart que des ajustements d'efficacité. Quelles sont certaines des améliorations des données d'entraînement et des recettes ? L'équipe MiMo a partagé un rapport technique assez détaillé. Il y a beaucoup à digérer, mais en bref, quelques points se sont démarqués : 1. Une augmentation des tâches d'agent ; également l'entraînement sur différentes 'harnesses' (la précision moyenne DeepSWE pass@1 sur les 'harnesses' non vues est passée d'environ 50% à 66%). 2. De meilleurs signaux de récompense : ils ont remplacé un simple vérificateur de justesse par un évaluateur 'agentic' qui examine également les traces d'exécution. 3. De grands lots RL (1 568 'prompts' × 16 'rollouts' = 25 088 trajectoires) et 2,7 à 3,7 milliards de 'tokens' d'entraînement par mise à jour (il n'est pas clair, cependant, ce que le prédécesseur utilisait). Artificial Analysis (@ArtificialAnlys) MiMo-V2.6-Pro fait ses débuts comme le meilleur modèle 'open weights' sur l'Artificial Analysis Intelligence Index (46). À 0,13 $ par tâche de l'Intelligence Index, il se situe sur la frontière de Pareto 'Intelligence vs. Coût par Tâche'. @Xiaomi vient de sortir MiMo-V2.6-Pro, un modèle 'open weights' avec des avancées majeures en intelligence par rapport à son prédécesseur, MiMo-V2.5-Pro (Intelligence Index : 26). Malgré l'amélioration, il conserve le même prix attractif à 0,435 $ par million de 'tokens' d'entrée (avec une réduction de 99% pour les 'cache-hits') et 0,87 $ par million de 'tokens' de sortie. Cela fait de MiMo-V2.6-Pro l'un des modèles les plus rentables à déployer. MiMo-V2.6-Pro est un modèle MoE avec un total de 1,02 T paramètres et 42 B paramètres actifs. Restez à l'écoute pour une analyse supplémentaire du modèle.",
-          "text_original": "MiMo-V2.6 is \"simply\" the best (for now). Despite its simple architecture design it's currently No.1 in the open-weight benchmarks (weighted average). With \"simple,\" I mean a classic Grouped Query Attention (GQA) with Sliding Window Attention (SWA) at a tiny 128-token window size. So, that underlines one of the points I've been trying to make in recent months: most of the progress still comes from the data and post-training recipe improvements. Fancy attention variants are just mostly efficiency tweaks. What are some of the training data improvements and recipe improvements? The MiMo team shared a pretty detailed technical report. Lots to carefully digest there, but in short, there are a few things that stood out: 1. An increase in agent tasks; also training across different harnesses (the average DeepSWE pass@1 accuracy on held-out harnesses improved from approximately 50% -> 66%). 2. Better reward signals: they replaced a simple correctness verifier with an agentic grader that looks at the execution traces as well. 3. Large RL batches (1,568 prompts × 16 rollouts = 25,088 trajectories) and 2.7–3.7 billion training tokens per update (unclear, though, what the predecessor used). Artificial Analysis (@ArtificialAnlys) MiMo-V2.6-Pro debuts as the top open weights model on the Artificial Analysis Intelligence Index (46). At $0.13 per Intelligence Index task, it lands on the Intelligence vs. Cost per Task Pareto frontier @Xiaomi has just released MiMo-V2.6-Pro, an open weights model with major advances in intelligence over its predecessor, MiMo-V2.5-Pro (Intelligence Index: 26). Despite the improvement, it retains the same attractive pricing at $0.435 per 1M input tokens (with a 99% cache-hit discount) and $0.87 per 1M output tokens. This makes MiMo-V2.6-Pro one of the most cost-efficient models to deploy. MiMo-V2.6-Pro is an MoE model with 1.02T total parameters and 42B active parameters. Stay tuned for additional analysis of the model. Check out MiMo-V2.6-Pro full benchmarking breakdown here: artificialanalysis.ai",
-          "link": "http://shitter.thepixora.com/rasbt/status/2102394156731535413#m",
-          "decryptage": "Un modèle 'open-weight' signifie que les 'poids' (les valeurs qui déterminent le comportement du modèle) sont rendus publics, ce qui permet à quiconque de l'utiliser ou de l'étudier. Les 'benchmarks' sont des tests de performance standardisés pour comparer les modèles. Les 'tokens' sont des unités de texte (mots ou parties de mots) utilisées par les modèles d'IA. GQA et SWA sont des techniques pour rendre l'attention des modèles plus efficace. L'apprentissage par renforcement (RL) est une méthode d'apprentissage où un agent apprend en interagissant avec un environnement et en recevant des récompenses."
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Si vous avez essayé 'hyperframes', vous sauriez que la pile vidéo 'agentique' est en train d'être construite sur la génération de code ('code-gen'), mais le code de 'SWE-bench' versus le 'code-to-video' qui semble vivant sont deux choses différentes. Nous avons construit le 'Code2Video Bench', en collaboration avec Google DeepMind et @Kaggle, afin que les laboratoires de pointe puissent enfin s'améliorer dans les tâches vidéo 'agentiques'.",
-          "text_original": "if you tried hyperframes, you would know the agentic video stack is being built on code-gen but SWE-bench code v.s. code-to-video that feels alive are two different things we built the Code2Video Bench, in collab w/ Google DeepMind & @Kaggle frontier labs can finally get good at agentic video tasks Video",
-          "link": "http://shitter.thepixora.com/HyperFrames_/status/2102084939026247684#m",
-          "decryptage": "La 'génération de code' ('code-gen') est la capacité d'une IA à écrire du code informatique. Une 'pile vidéo agentique' (agentic video stack) fait référence à un ensemble de technologies permettant à des agents IA de créer ou manipuler des vidéos de manière autonome. 'Code2Video Bench' est un nouveau banc d'essai ou 'benchmark' pour évaluer la capacité des IA à transformer du code en vidéo réaliste."
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Article : Agents Gérés dans l'API Gemini : un 'agent harness' mis à jour, une API Fichiers et des identifiants gérés. Les agents gérés de Gemini reçoivent une 'harness' mise à jour. 'antigravity-preview-09-2026' rapproche les outils et le comportement de l'agent de ce que vous obtenez avec l'agent de codage 'Antigravity Coding Agent', c'est en ligne aujourd'hui.",
-          "text_original": "Article Managed Agents in the Gemini API: an updated agent harness, a Files API, and managed credentials Gemini managed agents are getting an updated harness. antigravity-preview-09-2026 brings the agent's tools and behavior closer to what you get in the Antigravity Coding Agent, it's live today in the",
-          "link": "http://shitter.thepixora.com/GoogleAIStudio/status/2100635173188432193#m",
-          "decryptage": "L'API Gemini est une interface de programmation qui permet aux développeurs d'intégrer les capacités du modèle d'IA Gemini dans leurs propres applications. Un 'agent harness' est un environnement qui fournit aux agents IA les outils et le contexte nécessaires pour exécuter des tâches. Une 'API Fichiers' permet aux agents d'interagir avec des systèmes de fichiers, et les 'identifiants gérés' simplifient l'accès sécurisé aux ressources."
-        },
-        {
-          "author_name": "Thomas Wolf",
-          "handle": "@Thom_Wolf",
-          "text_fr": "Il est agréable de voir de plus en plus de modèles de sécurité 'open-weight' avec des capacités défensives proches de la 'frontière'. Altar-1 d'Aikido est une version élaguée ('pruned') et quantifiée ('quantized') du GLM 5.3 'open-SOTA', suffisamment léger pour tenir sur un nœud de 4 cartes H200. Aikido (@AikidoSecurity) Présentation d'Altar-1, notre premier modèle de sécurité 'open-weight'. Une IA défensive de pointe, conçue pour être déployée. Prenez en main votre propre sécurité.",
-          "text_original": "nice to start seeing more open-weight security model with defensive capabilities which are close to the frontier altar-1 from Aikido is a pruned and quantized version of the open-SOTA GLM 5.3 which is lightweight enough to fit on one 4-H200s node Aikido (@AikidoSecurity) Introducing Altar-1, our first open-weight security model. Frontier-grade defensive AI, built to deploy. Own your own security. Video — http://nitter.jaydenha.uk/AikidoSecurity/status/2102035136678400056#m",
-          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/2102177501250273748#m",
-          "decryptage": "Un 'modèle de sécurité open-weight' est un modèle d'IA dont les composants internes (les 'poids') sont accessibles au public, conçu spécifiquement pour la défense contre les cyberattaques. 'Pruned' (élagué) et 'quantized' (quantifié) sont des techniques d'optimisation qui réduisent la taille et les besoins en calcul d'un modèle, le rendant plus rapide et plus léger. 'Open-SOTA' signifie 'Open-Source State-Of-The-Art', c'est-à-dire le meilleur modèle disponible en 'open-source' pour une tâche donnée. Un 'nœud de 4 cartes H200' désigne une configuration matérielle puissante, souvent utilisée pour l'entraînement ou l'exécution de modèles d'IA."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Travail intéressant (et un bel ensemble de données volumineux et propre aussi, impatient de le voir publié) : \"Compressive Transformers for Long-Range Sequence Modelling\" par Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (chez DeepMind). Article : arxiv.org/abs/1911.05507",
+          "text_original": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+          "link": "http://nitter.jaydenha.uk/Thom_Wolf/status/1195662118974083073#m",
+          "decryptage": "Les \"Transformers\" sont un type d'architecture de réseau neuronal particulièrement efficace pour traiter des séquences de données comme le langage, et sont à la base de nombreux grands modèles de langage (LLM) actuels."
         }
       ]
     }
   },
-  "processed_at": "2026-09-24T13:34:22",
+  "processed_at": "2026-09-24T14:26:19",
   "validation": {
     "translated_pct": 100,
     "with_decryptage_pct": 88,
-    "total": 26,
+    "total": 24,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-24T13:34:23"
+  "email_sent_at": "2026-09-24T14:26:20"
 }
