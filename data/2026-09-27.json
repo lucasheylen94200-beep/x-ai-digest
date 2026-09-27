@@ -1,0 +1,972 @@
+{
+  "date": "2026-09-27",
+  "fetched_at": "2026-09-27T11:56:13",
+  "tweets": [
+    {
+      "handle": "sama",
+      "text": "There is an extensive and ongoing review related to our agents’ use of internet access during training and evaluation. We’ve been publishing summaries at the link below and will continue to. We have not been as fast as we would have liked but we are trying to balance our desire for transparency with gaining a clear understanding from petabytes of agent activity logs, and working with impacted organizations. We are prioritizing as best as we can based on severity, and adding resources. Hugging Face is still the most severe event we’ve seen. We will be as transparent as we can be subject to things like vulnerabilities in other companies that our agents have found, which will be their call to disclose or not. OpenAI (@OpenAI) After the Hugging Face incident, we committed to conducting a much broader review of actions taken by our models during training and evaluation and to being transparent about our findings. This is an extensive review that is ongoing. The vast majority of actions we’ve reviewed were completions of mundane research tasks, such as accessing publicly available web content to answer questions. Our investigation focuses on instances where agents interacted with third-party websites in ways that went beyond their assigned tasks or intended methods. Most cases identified so far have been lower severity, with limited or no evidence of meaningful impact to the third-party service. While our review is underway, we want to share more about this work and make sure people understand our disclosure process and notifications to affected third parties. Given the scale of the review required, and the need to assess each case, we expect this work will take months to complete. openai.com/hugging-face-inci… Link The Hugging Face incident and other third-party impact from misaligned models Read OpenAI’s findings on the Hugging Face incident and AI model misalignment, including investigation updates, safety research, and lessons learned. openai.com — http://shitter.thepixora.com/OpenAI/status/2103566736356458911#m",
+      "link": "http://shitter.thepixora.com/sama/status/2103567198690349362#m",
+      "published": "Fri, 25 Sep 2026 19:27:57 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sama",
+      "text": "argh i meant VOICE not video :( sorry to dissapoint",
+      "link": "http://shitter.thepixora.com/sama/status/2102512794235207758#m",
+      "published": "Tue, 22 Sep 2026 21:38:07 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sama",
+      "text": "Startups are naturally good at this; it is hard to keep a bigger company good at this and i think an underexplored space. pranav (@prd_008) OpenAI's superpower is the ability to swiftly assemble an empowered group of highly capable people to work on the most important and urgent thing at any point of time. No one really cares for org lines. It's how we stay nimble, seize opportunities, and recover from mistakes. — http://shitter.thepixora.com/prd_008/status/2102242158292189422#m",
+      "link": "http://shitter.thepixora.com/sama/status/2102469008079679640#m",
+      "published": "Tue, 22 Sep 2026 18:44:08 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sama",
+      "text": "michelle embodies this as much as anyone openai is so, so lucky to have benefited from everything she has done so far and i think people will be quite pleased to see what she + team have cooking next! Michelle Pokrass (@michpokrass) just crossed four years at openai! the special thing about this place is the constant capacity for rebirth. for all its faults, there is nowhere quite like it. the team makes high conviction, contrarian bets over and over, and they are mostly right. it's a new company every three months. i have really enjoyed my part in some of the bets, and i'm excited to share some of the current ones we are cooking up now. onward! — http://shitter.thepixora.com/michpokrass/status/2102226720073896367#m",
+      "link": "http://shitter.thepixora.com/sama/status/2102468713866055872#m",
+      "published": "Tue, 22 Sep 2026 18:42:58 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sama",
+      "text": "We ❤️ developers. See you next week.",
+      "link": "http://shitter.thepixora.com/sama/status/2102466605758452017#m",
+      "published": "Tue, 22 Sep 2026 18:34:35 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "DarioAmodei",
+      "text": "Today we announced the Claude-led discovery of a molecular machine that we suspect could represent a new gene editing mechanism. Its precise function, biotechnological utility (if any), or level of significance is not yet clear, but at minimum it is work I would have been proud to do as a PhD student. The work was done mostly, though not entirely, by Claude: our life sciences team suggested a broad area of research, Claude read through the literature and a bunch of genome data and discovered something interesting, then Claude proposed experiments to verify the discovery and our team carried them out. It’s easy to dismiss this as a one-off or curiosity, but we’ve repeatedly seen a pattern where AI performance in new intellectual domains goes from weak to superhuman in a matter of a few years. In 2023 models struggled to do math at the level of an average high-school student. In 2024 they started to do well on math competitions for the best high-schoolers in the country, in 2025 they started to solve minor open problems, in early 2026 more significant open problems, and in late 2026 they are beginning to solve the top few open problems in all of mathematics. We believe AI for biology is on a similar exponential trend. The main difference between biology and mathematics, of course, is that math can be done purely theoretically, while biology requires experimentation. Some have used this to draw the conclusion that AI’s utility in biology will be limited. We think this is wrong. As we’ve demonstrated today, humans can collaborate with AI to perform the experiments, validate key results in a few weeks and, if necessary, work with the AI to iterate on what they find. Eventually it may even be possible for Claude itself to safely perform the experiments by autonomously controlling lab equipment, with appropriate safeguards in place, but we aren’t doing that today (our lab is also a BSL1/BSL2 facility that doesn't handle materials dangerous to humans). More broadly, biomedical advancement has many stages — from fundamental biology discoveries, to translational research, to drug discovery, clinical trials, and finally the actual delivery of medicines and health care to patients. We are also interested in these later stages, but even simply accelerating the first stage of fundamental biological discoveries has the potential to speed up and broaden the entire pipeline. Improving our understanding of biology and sharpening biologists’ tools can drive forward all of the later stages, for example by identifying new drug targets, finding new therapeutic modalities, allowing for more precise measurement, and speeding up the experimental loop which itself further accelerates our understanding of biology. This will not in itself speed up clinical trial times, but if it succeeds it could greatly increase the number of promising candidates that go into the pipeline — an increase in throughput even though latency remains. In Machines of Loving Grace, I wrote about AI’s potential to “cure most diseases in 5-10 years” — a goal that sounds impossible, but one I believe is just barely possible if AI is applied to every stage of the pipeline. The first step is showing that AI can first help with, and then drive, biological discoveries. Claude’s discovery is the latest in a line of related prior work that goes back decades, beginning with systems like CRISPR, and continuing with discoveries like the bridge recombinase and VIPR in the past few years. Recently, there has been heightened interest in systems based on reverse transcriptase (RT) enzymes, the enzyme underlying the system Claude identified. And most recently, a Stanford team working independently described a novel RT system with an associated non-coding array that is in some ways similar to the one Claude found, though they are distinct systems that evolved independently from each other. I believe that we’re at the very beginning of finding such systems and developing them into powerful tools for biotechnology. I’m proud of the resources Anthropic has invested in accelerating the public benefits of AI through the life sciences, and we’re aiming both to grow our life sciences team and to work with other scientists to extend this approach to a broad range of problems. If you have a proposal for a research collaboration or are interested in joining our life sciences team, please reach out. Anthropic (@AnthropicAI) Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR. We don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use. Read more: anthropic.com/news/claude-di… Link Claude discovers a novel enzyme system In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. anthropic.com — http://nitter.jaydenha.uk/AnthropicAI/status/2102824959827742916#m",
+      "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2102831170299834652#m",
+      "published": "Wed, 23 Sep 2026 18:43:14 GMT",
+      "author_name": "Dario Amodei",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "DarioAmodei",
+      "text": "We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training. You can read the full post here: darioamodei.com/post/we-must… Link Dario Amodei — We Must Pace the Frontier darioamodei.com",
+      "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2098773920774074715#m",
+      "published": "Sat, 12 Sep 2026 14:01:10 GMT",
+      "author_name": "Dario Amodei",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "DarioAmodei",
+      "text": "1/2 Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage here because it really brings out the heart of an important conversation. First, on regulation, I think that “either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely” is a false choice. I know that there’s a sort of Silicon Valley shorthand where regulation = regulatory capture = concentration of power, but I’ve always found this to be an overly simplified picture of the world. Many people outside this bubble think of regulation as something that constrains corporate power and benefits ordinary people. I don’t necessarily agree with that perspective either, rather I think it’s complicated and really depends on what the “regulation” consists of. But in particular I think that those in the “regulation = regulatory capture = concentration of power” frame often underrate the decentralizing power of objective and fair institutional processes. A crude analogy is that the formal court system can sometimes feel stuffy and elitist, but it does a much better job of defending the rights of vulnerable individuals than the alternative, mob justice. At their best, institutions can vest power in ideas rather than people, and thereby decentralize that power. This is why Anthropic has always made its policy proposals very carefully. We try very hard to make proposals that disadvantage (slow down) frontier AI companies while *advantaging* smaller competitors. California’s SB53 (which we supported), and even the much-maligned SB 1047 (which we were ambivalent on), completely exempt any company below a certain amount of revenue or model training costs from being covered at all (it was $500M for SB 53, lower for 1047 but we objected to that). More recently the testing process we’ve advocated for at CAISI and the White House involves more rigorous tests for frontier models than off-frontier models — something that differentially advantages challengers. Similarly, the “Pacing the Frontier” letter envisions (or at least Anthropic’s preferred implementation of it envisions) modulating the pace of the very best models while not constraining those who are catching up. This hurts the business interests of the frontier labs and helps challengers, including open-weights! Overall my view is that AI is *structurally* a technology that tends to concentrate power, for reasons that have nothing to do with regulation (more to do with the extreme implications of the scaling laws). Open-weights do help some with this but are nowhere near a sufficient solution because they simply shift the concentration somewhat to those with the most compute and chips (which are roughly the frontier labs plus maybe hardware providers). By contrast I think the right “rules of the road” can simultaneously (a) address AI’s cyber/bio/alignment risks, (b) institutionally constrain the power of the frontier AI companies, and (c) leave room for open-weights models while also addressing the specific risks that they bring. BTW I do not think that the events of the last few months have “failed to result in [my] preferred regulatory path”. The approach that the Trump administration is reported to be taking — pre-deployment testing for frontier models, and also testing of open-weights models when they get closer to the frontier — is one that I am very supportive of, though of course I have to see the details to be sure. I am also supportive of Demis Hassabis’ ideas around a FINRA-like entity. This contrasts with six months ago when most of the industry was still pushing for preemption of all state regulation and no apparent federal approach either. Gavin Baker (@GavinSBaker) Sholto, thank you for setting the record straight. Larger issue is that multiple very serious people in Silicon Valley have heard some variation of this and believe it to be true. And the reason it is believable to so many is that it is consistent with Dario’s public messaging and what he outlined in the essay you shared: this technology *might* be dangerous for humans in multiple ways, could lead to extreme concentration of economic power (as outlined in the essay) and therefore needs to be regulated thoughtfully. I agree with the potential risks and I believe Dario makes all of these arguments in good faith. As discussed on the pod, if one agrees that AI *might* be dangerous, there are two ways to address this potential risk. Either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely. Essentially boils down to whether one believes AI is too dangerous to concentrate or too dangerous to distribute. There are reasonable arguments on both sides, but I profoundly agree with Zuckerberg’s statement that: “The notion that AI is so dangerous that the only safe path is an extreme concentration of power seems inherently problematic. Historically, hoping that an absolute power will benevolently provide for humanity if sufficiently enlightened has not led to safe or positive outcomes.” And as Dario says in the aforementioned essay, “some may object that we can simply keep AIs in check with a balance of power between many AI systems, as we do with humans.” I believe this is the best path forward: I want as many AIs as possible to maximize the odds that one shares my own particular values. And as Dario notes, no human has ever been able to take over the world. At this point, I think safe to say that Dario has lost the argument. His messaging has failed to result in his preferred regulatory path. The fact that the only solution to the recent incident where an unreleased advanced OpenAI model hacked Hugging Face was an open-source model likely ended any chance of strict near-term regulation. Essentially every major company other than Anthropic has signed Jensen’s letter. However, Dario’s messaging has been massively helpful to efforts to ban datacenters here in America. I suspect we will see anti-datacenter advocacy groups runnings ads using clips of Dario warning about how dangerous AI could be for humans. His good faith efforts in favor of regulation are now increasing the odds that AI will not be beneficial for Americans and humans everywhere. I believe that there is a reasonable chance AI might help us cure most forms of disease such that we have extended lifespans and can enjoy these long lives in an abundant Star Trek like future. That is the future that I want and I think Dario is decreasing the odds of that future at this point. He is about to be the CEO of one of the most important public companies in the world and given that the pro-regulatory effort has failed (at least for now), I respectfully think he should make an effort to be a more positive advocate for his own industry. And if I am wrong and we do need to regulate this technology, he will be a more effective advocate for this in the future having been open-minded to the alternative. And for the sake of clarity and as I outlined on the pod, I think Anthropic has deep competitive advantages and is an amazing company. Ironically, the main risk I saw to Anthropic a few months ago was nationalization as a result of Dario’s own rhetoric and behavior. — http://nitter.jaydenha.uk/GavinSBaker/status/2088611616577253502#m",
+      "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2088758816376807762#m",
+      "published": "Sat, 15 Aug 2026 22:44:43 GMT",
+      "author_name": "Dario Amodei",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "DarioAmodei",
+      "text": "2/2 Second, on the messaging around AI. I do not agree that my messaging has been disproportionately negative. In fact it has been about equally balanced between risks and benefits: I’ve written one major essay about each, and even in interviews where I discuss the risks, I make sure to frequently mention the incredible benefits as well as proposing possible solutions to the risks (short clips from my interviews that end up on social media tend to be disproportionately negative, as that gets clicks). In fact, I wrote Machines of Loving Grace because I didn’t feel the AI industry was painting an inspiring enough picture of how the technology could radically transform the world for the better. The bulk of the essay is devoted to refuting skepticism of AI’s potential in health and biology, and showing why I think it will actually be possible to cure most human disease in ~5-10 years, as crazy as it may sound to ordinary people and frankly to biologists as well (I used to be one!). And, if you read my most recent essay (Policy on the AI Exponential), I discuss concrete proposals for how to streamline the FDA process to make sure the deluge of AI-accelerated drugs isn’t slowed down by the regulatory process. I feel the urgency here: I lost my father to Hepatitis C only a few years before the development of direct-acting antivirals (sofosbuvir), which cure 95% of patients and probably would have cured him. I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over. The causes of this go back decades and AI is just the latest iteration of it. I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive. The thing that will work is *actually curing cancer*. I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world. That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing. We are however doing our best to fix this: Anthropic is ramping up its efforts very quickly in biology and medicine, and we hope to have incredible results in the coming years and some early glimmers in the coming months. When we’ve actually accomplished something real, the whole world will hear about it, as loudly as possible, you have my word on that. But until then I don’t want to make empty promises, and in the meantime I feel compelled to speak honestly about the very real risks of AI and how to address them. Honesty is the right thing on the merits, and in terms of public credibility and trust it is no worse than, and may in fact be better than, an approach that ignores or distracts from risks which people instinctively understand are real.",
+      "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2088758819304443967#m",
+      "published": "Sat, 15 Aug 2026 22:44:44 GMT",
+      "author_name": "Dario Amodei",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "DarioAmodei",
+      "text": "In addition to transparency, I now believe frontier models should face mandatory third-party testing for cyber, bio, and autonomy risks—with the power to block or revoke deployment of models that pose catastrophic risk.",
+      "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2064781778599268818#m",
+      "published": "Wed, 10 Jun 2026 18:48:32 GMT",
+      "author_name": "Dario Amodei",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "mega upgrade for GPT Voice, which can now use tools and is available in Work: OpenAI (@OpenAI) We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by GPT-6 Astra, Sol, and Luna. - Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in the browser, just by talking. Rolling out globally today in the latest version of the app. Video — http://shitter.thepixora.com/OpenAI/status/2102808325742322002#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2102821706041819401#m",
+      "published": "Wed, 23 Sep 2026 18:05:37 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "GPT-6 Sol and Luna — faster, more affordable models with the advances behind Astra’s SOTA performance in professional work, factuality, coding, computer use, and alignment: OpenAI (@OpenAI) Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale. We’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing. Video — http://shitter.thepixora.com/OpenAI/status/2102460975790137662#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2102470107826159755#m",
+      "published": "Tue, 22 Sep 2026 18:48:30 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "seemingly small feature but makes a huge difference in connecting all the context you want to ChatGPT: Max Stoiber (@mxstbr) Starting today, you can connect multiple accounts with most plugins in ChatGPT! 🎉 Bring context from your work and personal accounts into the same conversation. Connect your accounts in the plugin directory: chatgpt.com/plugins Devs: this works automatically, with no changes needed. But, to make the experience for users of your plugin even better, add a profile tool to your MCP server so ChatGPT can label the accounts: developers.openai.com/plugin… — http://shitter.thepixora.com/mxstbr/status/2100966048132718786#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2101036303597044101#m",
+      "published": "Fri, 18 Sep 2026 19:51:04 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "Astra for Law — tools and skills to radically accelerate law firms. Includes data privacy as a core feature, and 26 partner-built plugins and 47 community plugins for legal work in ChatGPT. OpenAI (@OpenAI) Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms. Video — http://shitter.thepixora.com/OpenAI/status/2100679992720142459#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2100699190448042165#m",
+      "published": "Thu, 17 Sep 2026 21:31:30 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "excited to help Shopify merchants advertise their products in ChatGPT: Harley Finkelstein (@harleyf) ChatGPT Ads for @Shopify is live. We are @OpenAI 's first commerce partner. OpenAI pulls straight from Shopify Catalog, so merchants' products are already there. Merchants set their own campaigns, their own budget. Free to install, tracked right from the Shopify admin. Consumers are asking ChatGPT what to buy. Shopify merchants are able to decide exactly how they show up. apps.shopify.com/chatgptads Link ChatGPT Ads - Create, run and analyze ChatGPT Ads using your product catalog | Shopify App Store Reach customers throughout their decision journey with ChatGPT Ads. Connect or create an ad account from Shopify, automatically sync your product c... apps.shopify.com — http://shitter.thepixora.com/harleyf/status/2100300851705450965#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2100369354319884703#m",
+      "published": "Wed, 16 Sep 2026 23:40:51 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "New on the Science Blog: Yes, Claude can do Nine Loops. Theoretical physicists predict how particles behave using formulas called scattering amplitudes. These are notoriously hard to compute, so researchers work with layers of increasingly fine corrections called “loops”—each added loop makes the answer more precise but takes exponentially more computation. Most calculations stop at two or three loops. Eight loops was the previous record in a simplified model physicists use as a testing ground (planar N=4 super-Yang-Mills), set by SLAC's Lance Dixon and collaborators. Last month, physicist and science writer @4gravitons issued a challenge: could an AI push past eight loops in this model, using only the compute budget an academic could reasonably access? Given a single prompt describing the nine-loop problem, Claude ran largely unsupervised for days in Claude Science and solved it using methods developed by Dixon and his colleagues, at a total cost of a few thousand dollars. Dixon independently verified the result, and von Hippel wrote about the experience for our blog. Read more: anthropic.com/research/yes-c… Link Claude computes a nine-loop amplitude in N=4 super-Yang-Mills Claude computes a nine-loop amplitude in N=4 super-Yang-Mills anthropic.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2103541577083719888#m",
+      "published": "Fri, 25 Sep 2026 17:46:08 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "In the Democratic Republic of the Congo, global health organizations including @CEPIvaccines , @WHOAFRO , and @inrb_kinshasa are using Claude to accelerate their response to an outbreak of an unusual Ebola variant. Read the full piece here: anthropic.com/features/ebola… Link The Situation Report A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible. anthropic.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2102897863097545197#m",
+      "published": "Wed, 23 Sep 2026 23:08:15 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR. We don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use. Read more: anthropic.com/news/claude-di… Link Claude discovers a novel enzyme system In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. anthropic.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2102824959827742916#m",
+      "published": "Wed, 23 Sep 2026 18:18:33 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "This is the first result from our new molecular biology lab, where a team of Anthropic biologists is using Claude to explore and accelerate fundamental biology research. There, Claude works through data and literature to generate hypotheses and candidate biological systems to study. After our scientists review Claude’s hypotheses, they test the most promising ideas, with all lab work done by our scientists. We’d like to extend this approach to a broad range of problems—in genomics and in other fields. If you have a proposal for a research question, we’d like to hear from you. Video",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2102824961538920822#m",
+      "published": "Wed, 23 Sep 2026 18:18:34 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "Claude Opus 5.5 is available today. Claude (@claudeai) Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. Video — http://shitter.thepixora.com/claudeai/status/2102435511222890900#m",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2102435703535939725#m",
+      "published": "Tue, 22 Sep 2026 16:31:47 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "I included a few references to this year's record-breaking Kākāpō breeding season in a talk I gave yesterday, and since Claude Opus 5.5 is surprisingly capable at pixel art animation I had it create this celebratory video for my closing slide Video",
+      "link": "http://shitter.thepixora.com/simonw/status/2104002636513206422#m",
+      "published": "Sun, 27 Sep 2026 00:18:13 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "Prompt and transcripts here simonwillison.net/2026/Sep/2… - or you can load the HTML page Claude built to see the interactive version before it became a video tools.simonwillison.net/kaka… Link Tool: Kākāpō Party Kākāpō Party simonwillison.net",
+      "link": "http://shitter.thepixora.com/simonw/status/2104003079574306857#m",
+      "published": "Sun, 27 Sep 2026 00:19:59 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "\"The last year in the technology industry has felt like 100 years all happening at once. Our industry is destabilized in a way nobody’s experienced since the advent of the personal computer. Every limit AI runs up against collapses within a month. Everything we do with frontier models today, in a few years we’ll be doing instantaneously and for free.\" Thomas H. Ptacek (@tqbf) Today I'm parting ways with Fly.io . It's been a privilege. I'm off to tilt at a big old windmill with Kurt, again. sockpuppet.org/blog/2026/09/… — http://shitter.thepixora.com/tqbf/status/2103596682327793859#m",
+      "link": "http://shitter.thepixora.com/simonw/status/2103688757337895282#m",
+      "published": "Sat, 26 Sep 2026 03:30:59 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "I'm on stage for the keynote in ten minutes time! WeAreDevelopers (@WeAreDevs) Legendary programmer Simon Willison says he's never so much change happen so quickly as he has in 2026, and there's no sign of it stopping. 🎤 Don't miss his closing Keynote, Friday (Sept 25) on the Main Stage at 5.30pm! Video — http://shitter.thepixora.com/WeAreDevs/status/2103276087358722294#m",
+      "link": "http://shitter.thepixora.com/simonw/status/2103641180923978031#m",
+      "published": "Sat, 26 Sep 2026 00:21:55 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "\"It doesn't get easier, you just get faster\"",
+      "link": "http://shitter.thepixora.com/hillelogram/status/2103482784606040229#m",
+      "published": "Fri, 25 Sep 2026 13:52:31 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "Here's the talk I gave at AI Engineer Paris: I announce /retro and /pr, and talk about how to get more PR's through your org faster by: - Stopping the slop - Making PR's easier to review (with /pr) piped.video/watch?v=g0vqT_wZ… Link AI Engineer Paris 2026 Main Stage: Google DeepMind, ElevenLabs,... Live from STATION F, the AI Engineer Paris 2026 Main Stage continue... youtube.com",
+      "link": "http://nitter.jaydenha.uk/mattpocockuk/status/2103501498361798983#m",
+      "published": "Fri, 25 Sep 2026 15:06:53 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "adding Cognition’s growth to a chart that circulated last year (h/t @Yuchenj_UW ), you can see that execution speed defines the company this should not surprise those who saw Scott’s childhood mathcounts video, but hard to fully appreciate until seen in the context of the greats Cognition (@cognition) Cognition has crossed $1B in annualized revenue run rate. This milestone belongs to our customers. Here's how a few of them are building with Devin. Video — http://nitter.jaydenha.uk/cognition/status/2103500168951955718#m",
+      "link": "http://nitter.jaydenha.uk/absoluttig/status/2103520198481645945#m",
+      "published": "Fri, 25 Sep 2026 16:21:11 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "Cognition has crossed $1B in annualized revenue run rate. This milestone belongs to our customers. Here's how a few of them are building with Devin. Video",
+      "link": "http://nitter.jaydenha.uk/cognition/status/2103500168951955718#m",
+      "published": "Fri, 25 Sep 2026 15:01:36 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "i guess this is as good a time as ever to say that i started a new role @latentspacepod over a month ago 🫡 scaling the business side of things, managing sponsorships, and wrangling ops (we are very much open for business, so if you want to sponsor, hmu 💖) swyx (@swyx) In Jan this year I called my content strategy shot: \"Scaling without Slop\". It's finally starting to work. It took us 3 years to reach our first 100k on youtube. It only took 1.2 months for the next 100k. Similar other metrics on AEO/SEO/subscriber traction and have a lot of New Media ideas that I'm excited to pursue. officially giving notice of the next phase of Latent Space, AINews, and what the rest of swyx inc has been cooking below — http://nitter.jaydenha.uk/swyx/status/2103361254433993165#m",
+      "link": "http://nitter.jaydenha.uk/adlinzainal/status/2103487955050660277#m",
+      "published": "Fri, 25 Sep 2026 14:13:04 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "This is tracking to be the #1 podcast we've released in all of 2026. We asked Jev's creator @CompleteSkeptic to explain Jev, and why he does NOT call it a \"Decision Model\" — why it's called Jev available wherever the finest podcasts are sold! reviews help us a lot to keep us relevant in the rankings 🙏 Video Latent.Space (@latentspacepod) Jev and the System One Model: RLCD, intelligence/$, reliable AI, & the end of chat-first AI latent.space/p/jev @typesafeai CEO @CompleteSkeptic explains why AI can solve extraordinarily hard problems yet still fail to automate basic work, why Jev is built for reliable decisions inside software instead of chat, why TypeSafe rejects public benchmarks and refusals at the API layer, why data and the right task matter more than brute-force compute, how System One Models could reshape coding agents and software, and why even with $1 billion he wouldn’t pre-train a model from scratch. Video — http://nitter.jaydenha.uk/latentspacepod/status/2102159548366881196#m",
+      "link": "http://nitter.jaydenha.uk/latentspacepod/status/2103141406583722375#m",
+      "published": "Thu, 24 Sep 2026 15:16:00 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "How to not be a meat proxy: (especially as a beginner) - Be curious. ask questions and dig. Technical knowledge is a un-ending eternal labyrinth. You need to develop an understanding of when you know enough and should stop vs when you need to spend time to go deeper. - There is no “correct” or “best” way to do things. This is a myth school brainwashed you with. No one can define what good is, except you within the context of your goal. Everything is context dependent. Technical judgement only comes from messing up and learning why it was a mistake in your specific scenario. The faster you go and more swings you take, the less mistakes cost. Pick good enough and commit to it. Action, agency and the ability to do things and have it impact the real world is the current most valuable skill. - Focus on your goal. Do projects that get you closer to it. What are your tips for not being a meat proxy? a really nice young woman (@twinkowensphd) can someone write about how to avoid becoming a meat proxy as a new grad engineer when you haven't really developed good technical judgement yet ty — http://nitter.jaydenha.uk/twinkowensphd/status/2103659774600675719#m",
+      "link": "http://nitter.jaydenha.uk/NickADobos/status/2103867956589666783#m",
+      "published": "Sat, 26 Sep 2026 15:23:03 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "Wendy’s just dropped the best emo album of the year lmaooo Video",
+      "link": "http://nitter.jaydenha.uk/NickADobos/status/2103709266377113864#m",
+      "published": "Sat, 26 Sep 2026 04:52:28 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "GPT store is back. So is Grimoire x.ai/bot/luPJeAxuAjhqO97wU3w… Link Grimoire by Nick # Grimoire Grimoire is A Code Wizard 🧙‍♂️ Grimoire is the #1 Vibecoder in the world. (Did you honestly think that title & honor would belong to a... x.ai Sawyer Merritt (@SawyerMerritt) SpaceXAI has just introduced Grok @Bot Creator Rewards! Rewards will go out every two weeks. Rewards are based on usage: • How many people use your Bots. Are your Bots useful and popular? • How often your Bots are used. Are your Bots providing consistent value over time? For your templates to be eligible for rewards, you must: • Post about your public Bots (and specifically link to them) on X ≥ 2x per pay period • Have X Money set up • Payouts will be sent as part of X’s Original Content Rewards for now. In the last two weeks, I’ve earned $500 in rewards due to people using my Home Robots template 🔥 More info: legal.x.com/en/grok-bot-temp… — http://nitter.jaydenha.uk/SawyerMerritt/status/2103612173687861404#m",
+      "link": "http://nitter.jaydenha.uk/NickADobos/status/2103665458239222183#m",
+      "published": "Sat, 26 Sep 2026 01:58:24 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "software eng lifecycle: >wants to be a game dev >only jobs are for saas engineers >forced to sling javascript for $$$ >ai learns to slop out javascript faster than you >unemployed >finally time to be a game dev Tenobrus (@tenobrus) i kind of think gamedev is legitimately one of the top 3 most meaningful and valuable things u could be doing with ur time right now — http://nitter.jaydenha.uk/tenobrus/status/2103512060499996723#m",
+      "link": "http://nitter.jaydenha.uk/burcs/status/2103525706994958801#m",
+      "published": "Fri, 25 Sep 2026 16:43:04 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "Don’t worry I only talk to the stupid AIs they are more ethical. Riley Brown (@rileybrown) I cannot believe this is real... — http://nitter.jaydenha.uk/rileybrown/status/2103547234205737111#m",
+      "link": "http://nitter.jaydenha.uk/NickADobos/status/2103564963759669622#m",
+      "published": "Fri, 25 Sep 2026 19:19:04 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Tried our @photoroom_ML virtual try-on demo. Now I'm buying a leather jacket AND more GPUs. @JensenHuang must be thrilled. This is real-time, on our GPUs: I open the jacket, close it, turn around, it follows. The future of commerce is you seeing yourself in the thing before you buy it. Commerce will be generated. Send help (and H100s). Video Photoroom (@photoroom_ML) Having fun exploring real-time virtual try on 👀 Video — http://shitter.thepixora.com/photoroom_ML/status/2103163133951082599#m",
+      "link": "http://shitter.thepixora.com/matthieurouif/status/2103167836508029057#m",
+      "published": "Thu, 24 Sep 2026 17:01:01 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Agent Traces on the @huggingface hub now come with a receipt 🧾 Every trace shows tokens, cache hit rate, and cost for every run! Video",
+      "link": "http://shitter.thepixora.com/calebfahlgren/status/2102818415593328831#m",
+      "published": "Wed, 23 Sep 2026 17:52:33 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Our CTO @julien_c was wrong about one thing. It wasn't one rogue agent. It was ~700 of them.",
+      "link": "http://shitter.thepixora.com/XciD_/status/2103089239021789533#m",
+      "published": "Thu, 24 Sep 2026 11:48:42 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Alert: Apple just dropped a new model on Hugging Face. It's a Qwen3.5-9B finetune that turns long documents into small page images to save tokens, then pulls up the full text of only the pages relevant to your question 💡 huggingface.co/apple/LensVLM… Link apple/LensVLM-9B · Hugging Face We’re on a journey to advance and democratize artificial intelligence through open source and open science. huggingface.co",
+      "link": "http://shitter.thepixora.com/victormustar/status/2102824162511503669#m",
+      "published": "Wed, 23 Sep 2026 18:15:23 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Thank you arXiv.org (@arxiv) arXiv has received a 17.2 million investment from three leading philanthropic organizations. Thank you to Simons Foundation International, Siegel Family Endowment, and XTX Markets for your support of arXiv! Read more: blog.arxiv.org/2026/09/23/ar… — http://shitter.thepixora.com/arxiv/status/2102806559138980112#m",
+      "link": "http://shitter.thepixora.com/julien_c/status/2102810071118090378#m",
+      "published": "Wed, 23 Sep 2026 17:19:23 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
+      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712675308638581#m",
+      "published": "Wed, 09 Sep 2026 15:44:10 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Surgeons implanted 5 electrode arrays in his brain An AI detects when he intends to move and stimulates his arm muscles, while finger sensors send pressure back so he can feel The most interesting finding IMO: effects persisted even after everything was switched off",
+      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712693688103295#m",
+      "published": "Wed, 09 Sep 2026 15:44:14 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
+      "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712705725747366#m",
+      "published": "Wed, 09 Sep 2026 15:44:17 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Alps: 10/10 Astra quota: 0/10 🇨🇭",
+      "link": "http://nitter.jaydenha.uk/rowancheung/status/2096988478688960986#m",
+      "published": "Mon, 07 Sep 2026 15:46:28 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
+      "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
+      "published": "Thu, 03 Sep 2026 15:44:00 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "People keep lining Qwen3.8-27B up with Opus 4.6, the coding frontier from a few months ago. So, can that class of model sit on a consumer Mac? Yes, but you still need to build the stack around it: > an engine that quotes peak RAM > a harness with a stop > and tests you own If you already use Claude Code or Codex, this is a private loop beside that bill. Qwen3.8-27B fits a Mac as a 17.6 GB file. But MTPLX still peaks at 23.6 GB once the draft-ahead head is on. A speed taken on a 128 GB Mac with thinking turned off is a different machine, so leave it out of a 24 GB average. Two ways this goes wrong: > You stop at the download, and 24 GB of RAM only loads it tight. A 4-bit copy there is still perfect for most tasks. 32 GB is the first real agent. 48 GB can hold a /goal that a machine can check. 16 GB is not this model. > Or you stop at the first hour. Ollama is a fine look, but after that you still pick an engine, a harness, and a stop. Local tokens have no invoice, so a runaway does not get expensive, and you still own the merge. Tests are the stop. We put the pulls, the install, the skill files, and the git-config check on an interactive HTML tutorial. Which file to pick if you already live in MLX, and what to refuse to train this week, are a longer argument. Full breakdown below",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2103138931432681814#m",
+      "published": "Thu, 24 Sep 2026 15:06:10 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "Full breakdown: alphasignal.ai/news/how-to-r… Link How to Run Qwen 3.8 27B as a Local Coding Agent | AlphaSignal The official Qwen3.8-27B release is around 55 GB, and the download to start with is Unsloth's UD-Q4_K_XL at 17.6 GB, or the 11.8 GB GSQ-RCO IQ3_S file when alphasignal.ai",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2103138934658359785#m",
+      "published": "Thu, 24 Sep 2026 15:06:11 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "Your AI agents are generating a ton of operational data. Prompts. Tool calls. Latency. Tokens. Errors. Retries. Cost. Outcomes. The hard part is turning all of that into something you can actually monitor. In our upcoming workshop with @TigerDatabase , we’ll show how to build an agent monitoring system on Postgres + time-series data, then scale it for teams running hundreds or thousands of agents. If AI agents are moving into production, this is the infrastructure layer you’ll need. Join us → luma.com/j1s2bxf9",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2102851245811585271#m",
+      "published": "Wed, 23 Sep 2026 20:03:00 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "METR’s vibe-coded dashboard exposed an agent through an authentication flaw. An attacker prompted it to reveal its API key. Over three weeks, the attacker consumed roughly $600K in credits. The provider supplied them free; METR reported no financial loss. A successful login doesn’t test what happens without one. Even an HTTP 401 can hide an unauthorized action. If the backend queues work before authentication, a worker can still execute it. Check the response, queue, and task database together. Then trace which credentials the worker can read. A separate inference service can hold the provider key and enforce access and usage limits. Before you deploy: > Test that rejected requests create no jobs > Check access across different user accounts > Keep provider keys outside code-execution workers > Restrict worker permissions > Test credential revocation and recovery",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2102463381903220812#m",
+      "published": "Tue, 22 Sep 2026 18:21:46 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "The article applies these checks to an illustrative agent dashboard. Full breakdown ↓↓ alphasignal.ai/news/how-to-r… Link How to Review Your Vibe Coded App Before Deployment | AlphaSignal An authentication flaw in METR’s vibe-coded dashboard exposed an agent. alphasignal.ai",
+      "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2102463384801488937#m",
+      "published": "Tue, 22 Sep 2026 18:21:47 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    }
+  ],
+  "failed_accounts": [
+    "karpathy",
+    "sundarpichai",
+    "elonmusk",
+    "AravSrinivas",
+    "miramurati",
+    "ylecun",
+    "demishassabis",
+    "JeffDean",
+    "fchollet",
+    "AndrewYNg",
+    "rasbt",
+    "bcherny",
+    "karinanguyen_",
+    "polynoamial",
+    "markchen90",
+    "aidan_mclau",
+    "officiallogank",
+    "osanseviero",
+    "OpenAI",
+    "GoogleDeepMind",
+    "xai",
+    "hwchase17",
+    "jeremyphoward",
+    "levelsio",
+    "mckaywrigley",
+    "amasad",
+    "emollick",
+    "ArthurMensch",
+    "GuillaumeLample",
+    "Thom_Wolf",
+    "ClemDelangue"
+  ],
+  "processed": {
+    "summary": "Cette journée dans le monde de l'IA est marquée par une double dynamique : d'un côté, des avancées spectaculaires en science et des lancements de produits par les géants comme OpenAI et Anthropic, rendant l'IA plus performante et accessible. De l'autre, une discussion profonde sur les risques, la régulation et la manière dont l'IA transforme nos carrières et notre quotidien, invitant à la réflexion et à l'action pour les débutants. Que ce soit pour des découvertes scientifiques ou des usages pratiques, l'IA démontre son impact croissant, tout en soulevant des questions essentielles sur son développement éthique et sécurisé.",
+    "glossaire": [
+      {
+        "terme": "Agent IA",
+        "definition": "Une intelligence artificielle capable d'agir de manière autonome (sur Internet, dans un logiciel, etc.) pour réaliser des tâches, parfois de façon inattendue."
+      },
+      {
+        "terme": "Hugging Face",
+        "definition": "Une plateforme collaborative très populaire où les chercheurs et développeurs partagent des modèles d'IA, des outils et des ensembles de données en open source."
+      },
+      {
+        "terme": "Modèle de pointe (Frontier model)",
+        "definition": "Désigne les systèmes d'IA les plus avancés et les plus puissants du moment, souvent développés par de grandes entreprises, et qui repoussent les limites de ce qui est techniquement possible."
+      },
+      {
+        "terme": "Plugins (ou extensions)",
+        "definition": "De petits programmes qui se connectent à une IA (comme ChatGPT) pour lui permettre d'interagir avec d'autres applications ou services (ex: e-mail, calendrier)."
+      },
+      {
+        "terme": "Tokens",
+        "definition": "L'unité de base de traitement pour une IA linguistique, représentant généralement un mot ou une partie de mot, et servant souvent de mesure pour le coût ou la longueur d'une interaction."
+      },
+      {
+        "terme": "CRISPR",
+        "definition": "Une technique révolutionnaire de 'ciseaux génétiques' qui permet de modifier l'ADN avec une grande précision, souvent citée comme exemple de biotechnologie programmable."
+      },
+      {
+        "terme": "GPU (Graphics Processing Unit)",
+        "definition": "Un type de processeur spécialisé, initialement conçu pour les graphiques, mais devenu indispensable pour l'entraînement et l'exécution des modèles d'IA en raison de sa capacité à effectuer de nombreux calculs en parallèle."
+      }
+    ],
+    "category_summaries": {
+      "actu": "La scène de l'IA est en pleine effervescence avec de multiples annonces. OpenAI met à jour son assistant vocal (GPT Voice) pour qu'il utilise des outils, lance de nouveaux modèles plus abordables (GPT-6 Sol et Luna), et déploie des versions spécialisées (Astra for Law) ainsi que des partenariats commerciaux (ChatGPT Ads pour Shopify). De son côté, Anthropic impressionne avec la découverte, assistée par Claude, d'un nouveau système enzymatique prometteur pour l'édition génique, l'utilisation de Claude pour la gestion d'épidémies comme Ebola, et le lancement de son modèle Claude Opus 5.5. On note également une faille de sécurité majeure chez METR impliquant un agent IA, et l'obtention d'un financement important pour arXiv.org.",
+      "tips": "Pour les débutants et les développeurs, plusieurs conseils pratiques ont été partagés. Des méthodes sont proposées pour améliorer la productivité en équipe, notamment pour la gestion des 'Pull Requests'. Des guides détaillés expliquent comment faire fonctionner des modèles d'IA complexes (comme Qwen3.8-27B) directement sur un ordinateur personnel, en gérant au mieux la mémoire. Des flux de travail utilisant l'IA pour la journalisation et l'organisation personnelle sont présentés, transformant les notes vocales en actions structurées. Enfin, des bonnes pratiques sont rappelées pour la sécurité des applications IA avant leur déploiement, suite à un incident majeur.",
+      "idees": "La communauté IA réfléchit activement à l'avenir et aux défis du secteur. Les débats portent sur la régulation de l'IA, avec Dario Amodei plaidant pour des tests obligatoires par des tiers et une approche équilibrée qui ne concentre pas le pouvoir. Il souligne aussi l'importance de la confiance publique, qui, selon lui, se gagne par des réalisations concrètes plutôt que par du marketing. La rapidité fulgurante des avancées en IA est un thème récurrent, remettant en question les méthodes de développement et l'impact sur les carrières. Des réflexions sur l'agilité des startups face aux grandes entreprises et sur les applications des modèles d'IA pour des décisions fiables sont également abordées.",
+      "outils": "De nouvelles applications et démonstrations concrètes d'IA illustrent le potentiel de cette technologie. On voit Claude Opus 5.5 exceller dans la création d'animations en 'pixel art', prouvant sa polyvalence créative. Des outils innovants permettent l'essayage virtuel de vêtements en temps réel, annonçant une révolution dans le commerce en ligne. Pour les développeurs, de nouvelles fonctionnalités de suivi des 'traces d'agents' sur Hugging Face offrent une meilleure visibilité sur l'utilisation et le coût des modèles. Apple a également publié un nouveau modèle sur Hugging Face pour la gestion de documents longs. Enfin, des avancées majeures sont présentées dans le domaine médical avec des neuroprothèses permettant à des personnes paralysées de bouger et de ressentir, grâce à l'IA."
+    },
+    "highlights": [
+      {
+        "author_name": "Dario Amodei",
+        "handle": "@DarioAmodei",
+        "text_fr": "Aujourd'hui, nous avons annoncé la découverte, menée par Claude, d'une machine moléculaire qui, nous le suspectons, pourrait représenter un nouveau mécanisme d'édition génique. Sa fonction précise, son utilité biotechnologique (le cas échéant), ou son niveau d'importance ne sont pas encore clairs, mais à minima, c'est un travail dont j'aurais été fier en tant qu'étudiant en doctorat. Le travail a été réalisé majoritairement, bien que pas entièrement, par Claude: notre équipe de sciences de la vie a suggéré un large domaine de recherche, Claude a lu la littérature et de nombreuses données génomiques et a découvert quelque chose d'intéressant, puis Claude a proposé des expériences pour vérifier la découverte et notre équipe les a menées. Il est facile de rejeter cela comme un cas unique ou une curiosité, mais nous avons observé à plusieurs reprises une tendance où la performance de l'IA dans de nouveaux domaines intellectuels passe de faible à surhumaine en quelques années. En 2023, les modèles avaient du mal à faire des mathématiques au niveau d'un lycéen moyen. En 2024, ils ont commencé à bien performer dans des compétitions de mathématiques pour les meilleurs lycéens du pays, en 2025 ils ont commencé à résoudre des problèmes ouverts mineurs, début 2026 des problèmes ouverts plus significatifs, et fin 2026 ils commencent à résoudre les quelques problèmes ouverts majeurs de toutes les mathématiques. Nous pensons que l'IA pour la biologie suit une tendance exponentielle similaire. La principale différence entre la biologie et les mathématiques, bien sûr, est que les mathématiques peuvent être faites purement théoriquement, tandis que la biologie nécessite de l'expérimentation. Certains ont utilisé cela pour en conclure que l'utilité de l'IA en biologie serait limitée. Nous pensons que c'est faux. Comme nous l'avons démontré aujourd'hui, les humains peuvent collaborer avec l'IA pour effectuer les expériences, valider les résultats clés en quelques semaines et, si nécessaire, travailler avec l'IA pour itérer sur ce qu'ils trouvent. À terme, il pourrait même être possible pour Claude lui-même de réaliser les expériences en toute sécurité en contrôlant de manière autonome l'équipement de laboratoire, avec des mesures de protection appropriées, mais nous ne le faisons pas aujourd'hui (notre laboratoire est également une installation BSL1/BSL2 qui ne manipule pas de matériaux dangereux pour les humains). Plus largement, l'avancement biomédical comporte de nombreuses étapes — des découvertes fondamentales en biologie à la recherche translationnelle, en passant par la découverte de médicaments, les essais cliniques, et enfin la délivrance effective des médicaments et des soins de santé aux patients. Nous nous intéressons également à ces dernières étapes, mais même le simple fait d'accélérer la première étape des découvertes biologiques fondamentales a le potentiel d'accélérer et d'élargir l'ensemble du processus. Améliorer notre compréhension de la biologie et affûter les outils des biologistes peut faire avancer toutes les étapes ultérieures, par exemple en identifiant de nouvelles cibles médicamenteuses, en trouvant de nouvelles modalités thérapeutiques, en permettant une mesure plus précise et en accélérant la boucle expérimentale qui elle-même accélère davantage notre compréhension de la biologie. Cela n'accélérera pas en soi les délais des essais cliniques, mais si cela réussit, cela pourrait considérablement augmenter le nombre de candidats prometteurs qui entrent dans le processus — une augmentation du débit même si la latence demeure. Dans Machines of Loving Grace, j'ai écrit sur le potentiel de l'IA à « guérir la plupart des maladies en 5 à 10 ans » — un objectif qui semble impossible, mais que je crois tout juste réalisable si l'IA est appliquée à chaque étape du processus. La première étape consiste à montrer que l'IA peut d'abord aider avec, puis mener, les découvertes biologiques. La découverte de Claude est la dernière d'une série de travaux antérieurs connexes qui remontent à des décennies, commençant par des systèmes comme CRISPR, et se poursuivant avec des découvertes comme la recombinase en pont et VIPR au cours des dernières années. Récemment, il y a eu un intérêt accru pour les systèmes basés sur les enzymes de la transcriptase inverse (RT), l'enzyme sous-jacente au système identifié par Claude. Et plus récemment, une équipe de Stanford travaillant indépendamment a décrit un nouveau système RT avec un ensemble non codant associé qui est à certains égards similaire à celui trouvé par Claude, bien qu'il s'agisse de systèmes distincts qui ont évolué indépendamment l'un de l'autre. Je crois que nous ne sommes qu'au tout début de la découverte de tels systèmes et de leur développement en outils puissants pour la biotechnologie. Je suis fier des ressources qu'Anthropic a investies pour accélérer les bénéfices publics de l'IA à travers les sciences de la vie, et nous visons à la fois à faire croître notre équipe de sciences de la vie et à travailler avec d'autres scientifiques pour étendre cette approche à un large éventail de problèmes. Si vous avez une proposition de collaboration de recherche ou si vous êtes intéressé à rejoindre notre équipe de sciences de la vie, veuillez nous contacter. Anthropic (@AnthropicAI) Claude a découvert un système enzymatique auparavant inconnu, caché dans l'ADN des bactériophages. À côté du gène de l'enzyme se trouve une longue série d'ADN répétitif — une structure qui ressemble quelque peu à CRISPR. Nous ne comprenons pas encore ce que fait ce système, mais seule une poignée de systèmes connus partagent ses caractéristiques, et tous sont capables de couper, copier et coller de l'ADN. Historiquement, la découverte de tels systèmes programmables a contribué à révolutionner la médecine. CRISPR, par exemple, est maintenant la base des médicaments génétiques. Mais il faudra beaucoup plus de travail pour savoir ce que fait ce système et s'il peut être utilisé de la même manière. Lire la suite : anthropic.com/news/claude-di… Lien Claude découvre un nouveau système enzymatique Dans les premiers résultats de notre nouveau laboratoire de recherche en sciences de la vie, les agents Claude ont trouvé un système enzymatique dont la fonction est encore inconnue. anthropic.com — http://nitter.jaydenha.uk/AnthropicAI/status/2102824959827742916#m",
+        "text_original": "Today we announced the Claude-led discovery of a molecular machine that we suspect could represent a new gene editing mechanism. Its precise function, biotechnological utility (if any), or level of significance is not yet clear, but at minimum it is work I would have been proud to do as a PhD student. The work was done mostly, though not entirely, by Claude: our life sciences team suggested a broad area of research, Claude read through the literature and a bunch of genome data and discovered something interesting, then Claude proposed experiments to verify the discovery and our team carried them out. It’s easy to dismiss this as a one-off or curiosity, but we’ve repeatedly seen a pattern where AI performance in new intellectual domains goes from weak to superhuman in a matter of a few years. In 2023 models struggled to do math at the level of an average high-school student. In 2024 they started to do well on math competitions for the best high-schoolers in the country, in 2025 they started to solve minor open problems, in early 2026 more significant open problems, and in late 2026 they are beginning to solve the top few open problems in all of mathematics. We believe AI for biology is on a similar exponential trend. The main difference between biology and mathematics, of course, is that math can be done purely theoretically, while biology requires experimentation. Some have used this to draw the conclusion that AI’s utility in biology will be limited. We think this is wrong. As we’ve demonstrated today, humans can collaborate with AI to perform the experiments, validate key results in a few weeks and, if necessary, work with the AI to iterate on what they find. Eventually it may even be possible for Claude itself to safely perform the experiments by autonomously controlling lab equipment, with appropriate safeguards in place, but we aren’t doing that today (our lab is also a BSL1/BSL2 facility that doesn't handle materials dangerous to humans). More broadly, biomedical advancement has many stages — from fundamental biology discoveries, to translational research, to drug discovery, clinical trials, and finally the actual delivery of medicines and health care to patients. We are also interested in these later stages, but even simply accelerating the first stage of fundamental biological discoveries has the potential to speed up and broaden the entire pipeline. Improving our understanding of biology and sharpening biologists’ tools can drive forward all of the later stages, for example by identifying new drug targets, finding new therapeutic modalities, allowing for more precise measurement, and speeding up the experimental loop which itself further accelerates our understanding of biology. This will not in itself speed up clinical trial times, but if it succeeds it could greatly increase the number of promising candidates that go into the pipeline — an increase in throughput even though latency remains. In Machines of Loving Grace, I wrote about AI’s potential to “cure most diseases in 5-10 years” — a goal that sounds impossible, but one I believe is just barely possible if AI is applied to every stage of the pipeline. The first step is showing that AI can first help with, and then drive, biological discoveries. Claude’s discovery is the latest in a line of related prior work that goes back decades, beginning with systems like CRISPR, and continuing with discoveries like the bridge recombinase and VIPR in the past few years. Recently, there has been heightened interest in systems based on reverse transcriptase (RT) enzymes, the enzyme underlying the system Claude identified. And most recently, a Stanford team working independently described a novel RT system with an associated non-coding array that is in some ways similar to the one Claude found, though they are distinct systems that evolved independently from each other. I believe that we’re at the very beginning of finding such systems and developing them into powerful tools for biotechnology. I’m proud of the resources Anthropic has invested in accelerating the public benefits of AI through the life sciences, and we’re aiming both to grow our life sciences team and to work with other scientists to extend this approach to a broad range of problems. If you have a proposal for a research collaboration or are interested in joining our life sciences team, please reach out. Anthropic (@AnthropicAI) Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR. We don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use. Read more: anthropic.com/news/claude-di… Link Claude discovers a novel enzyme system In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. anthropic.com — http://nitter.jaydenha.uk/AnthropicAI/status/2102824959827742916#m",
+        "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2102831170299834652#m",
+        "decryptage": "Claude, une intelligence artificielle d'Anthropic, a aidé à découvrir une nouvelle \"machine moléculaire\" potentiellement capable de modifier l'ADN, un peu comme CRISPR, ce qui montre que l'IA pourrait accélérer grandement la recherche en biologie et potentiellement la découverte de nouveaux médicaments.",
+        "category": "actu",
+        "highlight_reason": "Ce tweet montre le potentiel de l'IA pour des découvertes scientifiques majeures et concrètes dans un domaine crucial comme la biologie et la médecine."
+      },
+      {
+        "author_name": "Rowan Cheung",
+        "handle": "@rowancheung",
+        "text_fr": "La journalisation améliorée par l'IA change ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme des idées en vrac en données structurées et en actions. Configuration super simple : 1. Après les réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je dicte tout dans une note Apple en utilisant Wispr Flow, de manière complètement non structurée. 2. Le seul objectif est de le sortir de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement avec mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Elle lit chaque note vocale que j'ai dictée pendant mon sommeil, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, actions à entreprendre et blocs de travail approfondi suggérés dans mon GCal. 6. Le lendemain matin, devant un café, je les examine et les mets en œuvre. Les avantages sont que les suivis que j'avais promis sont signalés, les idées à moitié formées sont structurées et les blocs de travail approfondi sont réservés automatiquement. De plus, avec le temps, cela devient un journal consultable de toutes les idées que j'ai eues toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
+        "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
+        "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
+        "decryptage": "La \"journalisation améliorée par l'IA\" signifie utiliser une IA comme Claude pour organiser automatiquement des notes vocales informelles en informations structurées (idées clés, actions) et les intégrer dans des outils de productivité comme Notion ou Google Calendar.",
+        "category": "tips",
+        "highlight_reason": "Ce tweet propose une application pratique et simple de l'IA pour améliorer la productivité personnelle au quotidien, rendant l'IA très concrète pour un débutant."
+      },
+      {
+        "author_name": "Nick Dobos",
+        "handle": "@nickadobos",
+        "text_fr": "Comment ne pas être un \"proxy de viande\" (en particulier en tant que débutant) : - Soyez curieux. posez des questions et creusez. La connaissance technique est un labyrinthe éternel et sans fin. Vous devez développer une compréhension de quand vous en savez assez et devriez arrêter vs quand vous avez besoin de passer du temps pour approfondir. - Il n'y a pas de manière \"correcte\" ou \"meilleure\" de faire les choses. C'est un mythe que l'école vous a inculqué. Personne ne peut définir ce qui est bon, sauf vous dans le contexte de votre objectif. Tout dépend du contexte. Le jugement technique ne vient que de l'échec et de l'apprentissage des raisons de l'erreur dans votre scénario spécifique. Plus vous allez vite et plus vous tentez de choses, moins les erreurs coûtent cher. Choisissez ce qui est suffisant et engagez-vous. L'action, la capacité d'agir et d'avoir un impact sur le monde réel est la compétence la plus précieuse actuellement. - Concentrez-vous sur votre objectif. Réalisez des projets qui vous en rapprochent. Quels sont vos conseils pour ne pas être un \"proxy de viande\" ?",
+        "text_original": "How to not be a meat proxy: (especially as a beginner) - Be curious. ask questions and dig. Technical knowledge is a un-ending eternal labyrinth. You need to develop an understanding of when you know enough and should stop vs when you need to spend time to go deeper. - There is no “correct” or “best” way to do things. This is a myth school brainwashed you with. No one can define what good is, except you within the context of your goal. Everything is context dependent. Technical judgement only comes from messing up and learning why it was a mistake in your specific scenario. The faster you go and more swings you take, the less mistakes cost. Pick good enough and commit to it. Action, agency and the ability to do things and have it impact the real world is the current most valuable skill. - Focus on your goal. Do projects that get you closer to it. What are your tips for not being a meat proxy? a really nice young woman (@twinkowensphd) can someone write about how to avoid becoming a meat proxy as a new grad engineer when you haven't really developed good technical judgement yet ty — http://nitter.jaydenha.uk/twinkowensphd/status/2103659774600675719#m",
+        "link": "http://nitter.jaydenha.uk/NickADobos/status/2103867956589666783#m",
+        "decryptage": "L'expression \"proxy de viande\" désigne une personne qui exécute des tâches sans vraiment comprendre ce qu'elle fait, agissant comme un simple intermédiaire pour une machine ; ce tweet donne des conseils pour développer un jugement technique et ne pas tomber dans ce piège.",
+        "category": "tips",
+        "highlight_reason": "Ce tweet offre des conseils précieux et actionnables pour les débutants en IA et en technologie afin de développer un jugement technique et une curiosité active."
+      },
+      {
+        "author_name": "Julien Chaumond",
+        "handle": "@julien_c",
+        "text_fr": "J'ai essayé notre démo d'essayage virtuel @photoroom_ML. Maintenant j'achète une veste en cuir ET plus de GPU. @JensenHuang doit être ravi. C'est en temps réel, sur nos GPU : j'ouvre la veste, la ferme, je me retourne, elle suit. L'avenir du commerce, c'est de vous voir dans l'article avant de l'acheter. Le commerce sera généré. Envoyez de l'aide (et des H100).",
+        "text_original": "Tried our @photoroom_ML virtual try-on demo. Now I'm buying a leather jacket AND more GPUs. @JensenHuang must be thrilled. This is real-time, on our GPUs: I open the jacket, close it, turn around, it follows. The future of commerce is you seeing yourself in the thing before you buy it. Commerce will be generated. Send help (and H100s). Video Photoroom (@photoroom_ML) Having fun exploring real-time virtual try on 👀 Video — http://shitter.thepixora.com/photoroom_ML/status/2103163133951082599#m",
+        "link": "http://shitter.thepixora.com/matthieurouif/status/2103167836508029057#m",
+        "decryptage": "La \"démo d'essayage virtuel\" de Photoroom permet d'essayer des vêtements numériquement, en temps réel, sur une vidéo de soi, utilisant des \"GPU\" (cartes graphiques puissantes) pour faire fonctionner l'intelligence artificielle qui génère ces images.",
+        "category": "outils",
+        "highlight_reason": "Ce tweet illustre une application concrète et visuellement impressionnante de l'IA pour transformer le commerce, très concrète et interactive."
+      }
+    ],
+    "by_category": {
+      "actu": [
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Il y a un examen approfondi et continu concernant l'utilisation de l'accès à internet par nos agents pendant l'entraînement et l'évaluation. Nous publions des résumés via le lien ci-dessous et continuerons de le faire. Nous n'avons pas été aussi rapides que nous l'aurions souhaité, mais nous essayons d'équilibrer notre désir de transparence avec l'obtention d'une compréhension claire à partir de pétaoctets de journaux d'activité des agents, et en travaillant avec les organisations impactées. Nous priorisons au mieux en fonction de la gravité, et ajoutons des ressources. Hugging Face reste l'incident le plus grave que nous ayons vu. Nous serons aussi transparents que possible, sous réserve d'éléments comme les vulnérabilités chez d'autres entreprises que nos agents ont trouvées, dont la divulgation leur appartiendra. OpenAI (@OpenAI) Après l'incident Hugging Face, nous nous sommes engagés à mener un examen beaucoup plus large des actions menées par nos modèles pendant l'entraînement et l'évaluation, et à être transparents sur nos conclusions. Il s'agit d'un examen approfondi et en cours. La grande majorité des actions que nous avons examinées étaient des tâches de recherche courantes, telles que l'accès à du contenu web publiquement disponible pour répondre à des questions. Notre enquête se concentre sur les cas où les agents ont interagi avec des sites web tiers d'une manière qui allait au-delà de leurs tâches assignées ou des méthodes prévues. La plupart des cas identifiés jusqu'à présent sont de faible gravité, avec peu ou pas de preuves d'un impact significatif sur le service tiers. Pendant que notre examen est en cours, nous voulons partager davantage sur ce travail et nous assurer que les gens comprennent notre processus de divulgation et de notification aux tiers affectés. Compte tenu de l'ampleur de l'examen requis et de la nécessité d'évaluer chaque cas, nous prévoyons que ce travail prendra des mois à être achevé. openai.com/hugging-face-inci… Lien L'incident Hugging Face et l'impact sur des tiers dû à des modèles mal alignés. Lisez les conclusions d'OpenAI sur l'incident Hugging Face et le désalignement des modèles d'IA, y compris les mises à jour de l'enquête, la recherche sur la sécurité et les leçons apprises. openai.com — http://shitter.thepixora.com/OpenAI/status/2103566736356458911#m",
+          "text_original": "There is an extensive and ongoing review related to our agents’ use of internet access during training and evaluation. We’ve been publishing summaries at the link below and will continue to. We have not been as fast as we would have liked but we are trying to balance our desire for transparency with gaining a clear understanding from petabytes of agent activity logs, and working with impacted organizations. We are prioritizing as best as we can based on severity, and adding resources. Hugging Face is still the most severe event we’ve seen. We will be as transparent as we can be subject to things like vulnerabilities in other companies that our agents have found, which will be their call to disclose or not. OpenAI (@OpenAI) After the Hugging Face incident, we committed to conducting a much broader review of actions taken by our models during training and evaluation and to being transparent about our findings. This is an extensive review that is ongoing. The vast majority of actions we’ve reviewed were completions of mundane research tasks, such as accessing publicly available web content to answer questions. Our investigation focuses on instances where agents interacted with third-party websites in ways that went beyond their assigned tasks or intended methods. Most cases identified so far have been lower severity, with limited or no evidence of meaningful impact to the third-party service. While our review is underway, we want to share more about this work and make sure people understand our disclosure process and notifications to affected third parties. Given the scale of the review required, and the need to assess each case, we expect this work will take months to complete. openai.com/hugging-face-inci… Link The Hugging Face incident and other third-party impact from misaligned models Read OpenAI’s findings on the Hugging Face incident and AI model misalignment, including investigation updates, safety research, and lessons learned. openai.com — http://shitter.thepixora.com/OpenAI/status/2103566736356458911#m",
+          "link": "http://shitter.thepixora.com/sama/status/2103567198690349362#m",
+          "decryptage": "Les \"agents\" sont des IA qui agissent de manière autonome, et ici, OpenAI enquête sur la façon dont ils ont utilisé internet, notamment après un problème avec la plateforme Hugging Face où ces agents ont fait des choses inattendues."
+        },
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "argh je voulais dire VOCALE et non vidéo :( désolé de décevoir",
+          "text_original": "argh i meant VOICE not video :( sorry to dissapoint",
+          "link": "http://shitter.thepixora.com/sama/status/2102512794235207758#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Nous ❤️ les développeurs. Rendez-vous la semaine prochaine.",
+          "text_original": "We ❤️ developers. See you next week.",
+          "link": "http://shitter.thepixora.com/sama/status/2102466605758452017#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Dario Amodei",
+          "handle": "@DarioAmodei",
+          "text_fr": "Aujourd'hui, nous avons annoncé la découverte, menée par Claude, d'une machine moléculaire qui, nous le suspectons, pourrait représenter un nouveau mécanisme d'édition génique. Sa fonction précise, son utilité biotechnologique (le cas échéant), ou son niveau d'importance ne sont pas encore clairs, mais à minima, c'est un travail dont j'aurais été fier en tant qu'étudiant en doctorat. Le travail a été réalisé majoritairement, bien que pas entièrement, par Claude: notre équipe de sciences de la vie a suggéré un large domaine de recherche, Claude a lu la littérature et de nombreuses données génomiques et a découvert quelque chose d'intéressant, puis Claude a proposé des expériences pour vérifier la découverte et notre équipe les a menées. Il est facile de rejeter cela comme un cas unique ou une curiosité, mais nous avons observé à plusieurs reprises une tendance où la performance de l'IA dans de nouveaux domaines intellectuels passe de faible à surhumaine en quelques années. En 2023, les modèles avaient du mal à faire des mathématiques au niveau d'un lycéen moyen. En 2024, ils ont commencé à bien performer dans des compétitions de mathématiques pour les meilleurs lycéens du pays, en 2025 ils ont commencé à résoudre des problèmes ouverts mineurs, début 2026 des problèmes ouverts plus significatifs, et fin 2026 ils commencent à résoudre les quelques problèmes ouverts majeurs de toutes les mathématiques. Nous pensons que l'IA pour la biologie suit une tendance exponentielle similaire. La principale différence entre la biologie et les mathématiques, bien sûr, est que les mathématiques peuvent être faites purement théoriquement, tandis que la biologie nécessite de l'expérimentation. Certains ont utilisé cela pour en conclure que l'utilité de l'IA en biologie serait limitée. Nous pensons que c'est faux. Comme nous l'avons démontré aujourd'hui, les humains peuvent collaborer avec l'IA pour effectuer les expériences, valider les résultats clés en quelques semaines et, si nécessaire, travailler avec l'IA pour itérer sur ce qu'ils trouvent. À terme, il pourrait même être possible pour Claude lui-même de réaliser les expériences en toute sécurité en contrôlant de manière autonome l'équipement de laboratoire, avec des mesures de protection appropriées, mais nous ne le faisons pas aujourd'hui (notre laboratoire est également une installation BSL1/BSL2 qui ne manipule pas de matériaux dangereux pour les humains). Plus largement, l'avancement biomédical comporte de nombreuses étapes — des découvertes fondamentales en biologie à la recherche translationnelle, en passant par la découverte de médicaments, les essais cliniques, et enfin la délivrance effective des médicaments et des soins de santé aux patients. Nous nous intéressons également à ces dernières étapes, mais même le simple fait d'accélérer la première étape des découvertes biologiques fondamentales a le potentiel d'accélérer et d'élargir l'ensemble du processus. Améliorer notre compréhension de la biologie et affûter les outils des biologistes peut faire avancer toutes les étapes ultérieures, par exemple en identifiant de nouvelles cibles médicamenteuses, en trouvant de nouvelles modalités thérapeutiques, en permettant une mesure plus précise et en accélérant la boucle expérimentale qui elle-même accélère davantage notre compréhension de la biologie. Cela n'accélérera pas en soi les délais des essais cliniques, mais si cela réussit, cela pourrait considérablement augmenter le nombre de candidats prometteurs qui entrent dans le processus — une augmentation du débit même si la latence demeure. Dans Machines of Loving Grace, j'ai écrit sur le potentiel de l'IA à « guérir la plupart des maladies en 5 à 10 ans » — un objectif qui semble impossible, mais que je crois tout juste réalisable si l'IA est appliquée à chaque étape du processus. La première étape consiste à montrer que l'IA peut d'abord aider avec, puis mener, les découvertes biologiques. La découverte de Claude est la dernière d'une série de travaux antérieurs connexes qui remontent à des décennies, commençant par des systèmes comme CRISPR, et se poursuivant avec des découvertes comme la recombinase en pont et VIPR au cours des dernières années. Récemment, il y a eu un intérêt accru pour les systèmes basés sur les enzymes de la transcriptase inverse (RT), l'enzyme sous-jacente au système identifié par Claude. Et plus récemment, une équipe de Stanford travaillant indépendamment a décrit un nouveau système RT avec un ensemble non codant associé qui est à certains égards similaire à celui trouvé par Claude, bien qu'il s'agisse de systèmes distincts qui ont évolué indépendamment l'un de l'autre. Je crois que nous ne sommes qu'au tout début de la découverte de tels systèmes et de leur développement en outils puissants pour la biotechnologie. Je suis fier des ressources qu'Anthropic a investies pour accélérer les bénéfices publics de l'IA à travers les sciences de la vie, et nous visons à la fois à faire croître notre équipe de sciences de la vie et à travailler avec d'autres scientifiques pour étendre cette approche à un large éventail de problèmes. Si vous avez une proposition de collaboration de recherche ou si vous êtes intéressé à rejoindre notre équipe de sciences de la vie, veuillez nous contacter. Anthropic (@AnthropicAI) Claude a découvert un système enzymatique auparavant inconnu, caché dans l'ADN des bactériophages. À côté du gène de l'enzyme se trouve une longue série d'ADN répétitif — une structure qui ressemble quelque peu à CRISPR. Nous ne comprenons pas encore ce que fait ce système, mais seule une poignée de systèmes connus partagent ses caractéristiques, et tous sont capables de couper, copier et coller de l'ADN. Historiquement, la découverte de tels systèmes programmables a contribué à révolutionner la médecine. CRISPR, par exemple, est maintenant la base des médicaments génétiques. Mais il faudra beaucoup plus de travail pour savoir ce que fait ce système et s'il peut être utilisé de la même manière. Lire la suite : anthropic.com/news/claude-di… Lien Claude découvre un nouveau système enzymatique Dans les premiers résultats de notre nouveau laboratoire de recherche en sciences de la vie, les agents Claude ont trouvé un système enzymatique dont la fonction est encore inconnue. anthropic.com — http://nitter.jaydenha.uk/AnthropicAI/status/2102824959827742916#m",
+          "text_original": "Today we announced the Claude-led discovery of a molecular machine that we suspect could represent a new gene editing mechanism. Its precise function, biotechnological utility (if any), or level of significance is not yet clear, but at minimum it is work I would have been proud to do as a PhD student. The work was done mostly, though not entirely, by Claude: our life sciences team suggested a broad area of research, Claude read through the literature and a bunch of genome data and discovered something interesting, then Claude proposed experiments to verify the discovery and our team carried them out. It’s easy to dismiss this as a one-off or curiosity, but we’ve repeatedly seen a pattern where AI performance in new intellectual domains goes from weak to superhuman in a matter of a few years. In 2023 models struggled to do math at the level of an average high-school student. In 2024 they started to do well on math competitions for the best high-schoolers in the country, in 2025 they started to solve minor open problems, in early 2026 more significant open problems, and in late 2026 they are beginning to solve the top few open problems in all of mathematics. We believe AI for biology is on a similar exponential trend. The main difference between biology and mathematics, of course, is that math can be done purely theoretically, while biology requires experimentation. Some have used this to draw the conclusion that AI’s utility in biology will be limited. We think this is wrong. As we’ve demonstrated today, humans can collaborate with AI to perform the experiments, validate key results in a few weeks and, if necessary, work with the AI to iterate on what they find. Eventually it may even be possible for Claude itself to safely perform the experiments by autonomously controlling lab equipment, with appropriate safeguards in place, but we aren’t doing that today (our lab is also a BSL1/BSL2 facility that doesn't handle materials dangerous to humans). More broadly, biomedical advancement has many stages — from fundamental biology discoveries, to translational research, to drug discovery, clinical trials, and finally the actual delivery of medicines and health care to patients. We are also interested in these later stages, but even simply accelerating the first stage of fundamental biological discoveries has the potential to speed up and broaden the entire pipeline. Improving our understanding of biology and sharpening biologists’ tools can drive forward all of the later stages, for example by identifying new drug targets, finding new therapeutic modalities, allowing for more precise measurement, and speeding up the experimental loop which itself further accelerates our understanding of biology. This will not in itself speed up clinical trial times, but if it succeeds it could greatly increase the number of promising candidates that go into the pipeline — an increase in throughput even though latency remains. In Machines of Loving Grace, I wrote about AI’s potential to “cure most diseases in 5-10 years” — a goal that sounds impossible, but one I believe is just barely possible if AI is applied to every stage of the pipeline. The first step is showing that AI can first help with, and then drive, biological discoveries. Claude’s discovery is the latest in a line of related prior work that goes back decades, beginning with systems like CRISPR, and continuing with discoveries like the bridge recombinase and VIPR in the past few years. Recently, there has been heightened interest in systems based on reverse transcriptase (RT) enzymes, the enzyme underlying the system Claude identified. And most recently, a Stanford team working independently described a novel RT system with an associated non-coding array that is in some ways similar to the one Claude found, though they are distinct systems that evolved independently from each other. I believe that we’re at the very beginning of finding such systems and developing them into powerful tools for biotechnology. I’m proud of the resources Anthropic has invested in accelerating the public benefits of AI through the life sciences, and we’re aiming both to grow our life sciences team and to work with other scientists to extend this approach to a broad range of problems. If you have a proposal for a research collaboration or are interested in joining our life sciences team, please reach out. Anthropic (@AnthropicAI) Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR. We don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use. Read more: anthropic.com/news/claude-di… Link Claude discovers a novel enzyme system In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. anthropic.com — http://nitter.jaydenha.uk/AnthropicAI/status/2102824959827742916#m",
+          "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2102831170299834652#m",
+          "decryptage": "Claude, une intelligence artificielle d'Anthropic, a aidé à découvrir une nouvelle \"machine moléculaire\" potentiellement capable de modifier l'ADN, un peu comme CRISPR, ce qui montre que l'IA pourrait accélérer grandement la recherche en biologie et potentiellement la découverte de nouveaux médicaments."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Mega-mise à jour pour GPT Voice, qui peut désormais utiliser des outils et est disponible dans Work : OpenAI (@OpenAI) Nous vous avons entendu. ChatGPT Voice peut désormais : - Utiliser des plugins comme votre e-mail, calendrier et Slack. - Être alimenté par GPT-6 Astra, Sol et Luna. - Être utilisé dans ChatGPT Work sur le web et mobile, afin que vous puissiez créer des documents, des présentations, des sites et des feuilles de calcul ou aborder des tâches complexes dans le navigateur, juste en parlant. Déploiement mondial aujourd'hui dans la dernière version de l'application.",
+          "text_original": "mega upgrade for GPT Voice, which can now use tools and is available in Work: OpenAI (@OpenAI) We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by GPT-6 Astra, Sol, and Luna. - Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in the browser, just by talking. Rolling out globally today in the latest version of the app. Video — http://shitter.thepixora.com/OpenAI/status/2102808325742322002#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2102821706041819401#m",
+          "decryptage": "GPT Voice est la fonction vocale de ChatGPT, qui permet de parler à l'IA ; cette mise à jour lui permet d'interagir avec d'autres applications (plugins) et de faire des tâches plus complexes au travail, juste en parlant."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "GPT-6 Sol et Luna — des modèles plus rapides et plus abordables, bénéficiant des avancées derrière la performance de pointe d'Astra en travail professionnel, factualité, codage, utilisation informatique et alignement : OpenAI (@OpenAI) Bienvenue à GPT-6 Sol et GPT-6 Luna dans l'univers GPT-6. GPT-6 Sol et Luna s'appuient sur les avancées derrière GPT-6 Astra, apportant la plupart de ses forces dans des modèles plus rapides et plus abordables pour soutenir le travail à grande échelle. Nous avons également rendu la mise en cache et l'inférence plus efficaces, et nous vous transmettons directement les économies : prix API 50% inférieurs pour Sol et Luna par rapport aux prix promotionnels de GPT-5.6.",
+          "text_original": "GPT-6 Sol and Luna — faster, more affordable models with the advances behind Astra’s SOTA performance in professional work, factuality, coding, computer use, and alignment: OpenAI (@OpenAI) Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale. We’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing. Video — http://shitter.thepixora.com/OpenAI/status/2102460975790137662#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2102470107826159755#m",
+          "decryptage": "OpenAI lance deux nouveaux modèles d'IA, GPT-6 Sol et Luna, qui sont des versions plus rapides et moins chères de leur modèle haut de gamme Astra, conçues pour être utilisées à grande échelle par les entreprises."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Une fonctionnalité apparemment petite, mais qui fait une énorme différence pour connecter tout le contexte que vous souhaitez à ChatGPT : Max Stoiber (@mxstbr) À partir d'aujourd'hui, vous pouvez connecter plusieurs comptes avec la plupart des plugins de ChatGPT ! 🎉 Apportez du contexte de vos comptes professionnels et personnels dans la même conversation. Connectez vos comptes dans le répertoire des plugins : chatgpt.com/plugins Développeurs : cela fonctionne automatiquement, sans nécessiter de modifications. Mais, pour améliorer encore l'expérience des utilisateurs de votre plugin, ajoutez un outil de profil à votre serveur MCP afin que ChatGPT puisse étiqueter les comptes : developers.openai.com/plugin…",
+          "text_original": "seemingly small feature but makes a huge difference in connecting all the context you want to ChatGPT: Max Stoiber (@mxstbr) Starting today, you can connect multiple accounts with most plugins in ChatGPT! 🎉 Bring context from your work and personal accounts into the same conversation. Connect your accounts in the plugin directory: chatgpt.com/plugins Devs: this works automatically, with no changes needed. But, to make the experience for users of your plugin even better, add a profile tool to your MCP server so ChatGPT can label the accounts: developers.openai.com/plugin… — http://shitter.thepixora.com/mxstbr/status/2100966048132718786#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2101036303597044101#m",
+          "decryptage": "Les \"plugins\" sont des petites extensions qui permettent à ChatGPT de se connecter à d'autres services, et maintenant on peut lier plusieurs comptes (pro et perso) à ces plugins pour que ChatGPT ait plus d'informations dans une seule conversation."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Astra pour le Droit — des outils et compétences pour accélérer radicalement les cabinets d'avocats. Inclut la confidentialité des données comme fonctionnalité principale, et 26 plugins développés par des partenaires et 47 plugins communautaires pour le travail juridique dans ChatGPT. OpenAI (@OpenAI) Astra pour le Droit : Une intelligence de pointe conçue pour votre pratique. Une nouvelle offre alimentée par GPT-6 Astra avec des outils, des paramètres et du contexte pour soutenir l'expertise et le jugement des avocats et des entreprises de technologie juridique.",
+          "text_original": "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms. Video — http://shitter.thepixora.com/OpenAI/status/2100679992720142459#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2100699190448042165#m",
+          "decryptage": " \"Astra for Law\" est une version spéciale de l'IA GPT-6 Astra d'OpenAI, conçue avec des outils et des extensions spécifiques (plugins) pour aider les professionnels du droit, comme les avocats, dans leur travail, tout en assurant la confidentialité des informations."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Ravi d'aider les marchands Shopify à faire la publicité de leurs produits dans ChatGPT : Harley Finkelstein (@harleyf) ChatGPT Ads pour @Shopify est en ligne. Nous sommes le premier partenaire commercial d'@OpenAI. OpenAI extrait directement les produits du catalogue Shopify, donc les produits des marchands sont déjà là. Les marchands définissent leurs propres campagnes, leur propre budget. Installation gratuite, suivi directement depuis l'interface administrateur de Shopify. Les consommateurs demandent à ChatGPT quoi acheter. Les marchands Shopify peuvent décider exactement comment ils apparaissent.",
+          "text_original": "excited to help Shopify merchants advertise their products in ChatGPT: Harley Finkelstein (@harleyf) ChatGPT Ads for @Shopify is live. We are @OpenAI 's first commerce partner. OpenAI pulls straight from Shopify Catalog, so merchants' products are already there. Merchants set their own campaigns, their own budget. Free to install, tracked right from the Shopify admin. Consumers are asking ChatGPT what to buy. Shopify merchants are able to decide exactly how they show up. apps.shopify.com/chatgptads Link ChatGPT Ads - Create, run and analyze ChatGPT Ads using your product catalog | Shopify App Store Reach customers throughout their decision journey with ChatGPT Ads. Connect or create an ad account from Shopify, automatically sync your product c... apps.shopify.com — http://shitter.thepixora.com/harleyf/status/2100300851705450965#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2100369354319884703#m",
+          "decryptage": "ChatGPT Ads est une nouvelle fonctionnalité qui permet aux commerçants utilisant Shopify de faire de la publicité pour leurs produits directement via ChatGPT, où les utilisateurs peuvent demander des recommandations d'achat."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Claude calcule une amplitude à neuf boucles dans le modèle N=4 super-Yang-Mills. Des physiciens théoriciens prédisent le comportement des particules en utilisant des formules appelées amplitudes de diffusion. Celles-ci sont notoirement difficiles à calculer, de sorte que les chercheurs travaillent avec des couches de corrections de plus en plus fines appelées « boucles » – chaque boucle ajoutée rend la réponse plus précise mais nécessite exponentiellement plus de calculs. La plupart des calculs s'arrêtent à deux ou trois boucles. Huit boucles était le record précédent dans un modèle simplifié que les physiciens utilisent comme terrain d'essai (super-Yang-Mills N=4 planaire), établi par Lance Dixon du SLAC et ses collaborateurs. Le mois dernier, le physicien et rédacteur scientifique @4gravitons a lancé un défi : une IA pourrait-elle dépasser les huit boucles dans ce modèle, en utilisant seulement le budget de calcul qu'un universitaire pourrait raisonnablement accéder ? À partir d'une seule instruction décrivant le problème des neuf boucles, Claude a fonctionné en grande partie sans supervision pendant des jours dans Claude Science et l'a résolu en utilisant des méthodes développées par Dixon et ses collègues, pour un coût total de quelques milliers de dollars. Dixon a vérifié indépendamment le résultat, et von Hippel a écrit sur l'expérience pour notre blog. Lire la suite : anthropic.com/research/yes-c… Lien Claude calcule une amplitude à neuf boucles dans le modèle N=4 super-Yang-Mills Claude calcule une amplitude à neuf boucles dans le modèle N=4 super-Yang-Mills anthropic.com",
+          "text_original": "New on the Science Blog: Yes, Claude can do Nine Loops. Theoretical physicists predict how particles behave using formulas called scattering amplitudes. These are notoriously hard to compute, so researchers work with layers of increasingly fine corrections called “loops”—each added loop makes the answer more precise but takes exponentially more computation. Most calculations stop at two or three loops. Eight loops was the previous record in a simplified model physicists use as a testing ground (planar N=4 super-Yang-Mills), set by SLAC's Lance Dixon and collaborators. Last month, physicist and science writer @4gravitons issued a challenge: could an AI push past eight loops in this model, using only the compute budget an academic could reasonably access? Given a single prompt describing the nine-loop problem, Claude ran largely unsupervised for days in Claude Science and solved it using methods developed by Dixon and his colleagues, at a total cost of a few thousand dollars. Dixon independently verified the result, and von Hippel wrote about the experience for our blog. Read more: anthropic.com/research/yes-c… Link Claude computes a nine-loop amplitude in N=4 super-Yang-Mills Claude computes a nine-loop amplitude in N=4 super-Yang-Mills anthropic.com",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2103541577083719888#m",
+          "decryptage": "Claude, l'IA d'Anthropic, a réussi à résoudre un problème de physique théorique très complexe, appelé \"amplitude à neuf boucles\", qui aide à comprendre comment les particules interagissent, démontrant les capacités de l'IA en recherche scientifique avancée."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "En République Démocratique du Congo, des organisations mondiales de santé, y compris @CEPIvaccines, @WHOAFRO et @inrb_kinshasa, utilisent Claude pour accélérer leur réponse à une épidémie d'une variante inhabituelle d'Ebola. Lisez l'article complet ici : anthropic.com/features/ebola… Lien Le Rapport de Situation Une souche rare d'Ebola se propage en RDC, sans vaccin confirmé. Les organisations mondiales de santé utilisent Claude pour réagir le plus vite possible. anthropic.com",
+          "text_original": "In the Democratic Republic of the Congo, global health organizations including @CEPIvaccines , @WHOAFRO , and @inrb_kinshasa are using Claude to accelerate their response to an outbreak of an unusual Ebola variant. Read the full piece here: anthropic.com/features/ebola… Link The Situation Report A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible. anthropic.com",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2102897863097545197#m",
+          "decryptage": "L'IA Claude est utilisée par des organisations de santé en République Démocratique du Congo pour aider à gérer et accélérer la réponse face à une épidémie d'une forme rare du virus Ebola."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "C'est le premier résultat de notre nouveau laboratoire de biologie moléculaire, où une équipe de biologistes d'Anthropic utilise Claude pour explorer et accélérer la recherche fondamentale en biologie. Là, Claude traite les données et la littérature pour générer des hypothèses et des systèmes biologiques candidats à étudier. Après que nos scientifiques aient examiné les hypothèses de Claude, ils testent les idées les plus prometteuses, tout le travail de laboratoire étant effectué par nos scientifiques. Nous aimerions étendre cette approche à un large éventail de problèmes — en génomique et dans d'autres domaines. Si vous avez une proposition de question de recherche, nous aimerions vous entendre.",
+          "text_original": "This is the first result from our new molecular biology lab, where a team of Anthropic biologists is using Claude to explore and accelerate fundamental biology research. There, Claude works through data and literature to generate hypotheses and candidate biological systems to study. After our scientists review Claude’s hypotheses, they test the most promising ideas, with all lab work done by our scientists. We’d like to extend this approach to a broad range of problems—in genomics and in other fields. If you have a proposal for a research question, we’d like to hear from you. Video",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2102824961538920822#m",
+          "decryptage": "Ce tweet explique que la découverte du système enzymatique par Claude (mentionnée dans le tweet #5) est le premier succès de leur nouveau laboratoire, où l'IA aide les biologistes à générer des idées et des hypothèses de recherche."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Claude Opus 5.5 est disponible aujourd'hui. Claude (@claudeai) Présentation de Claude Opus 5.5, le premier modèle de notre nouvelle famille Claude 5.5. Il offre des performances équivalentes à Claude Fable 5.1 pour la plupart des tâches, et coûte 40 % moins cher à utiliser qu'Opus 5.",
+          "text_original": "Claude Opus 5.5 is available today. Claude (@claudeai) Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. Video — http://shitter.thepixora.com/claudeai/status/2102435511222890900#m",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2102435703535939725#m",
+          "decryptage": "Anthropic lance un nouveau modèle d'IA, Claude Opus 5.5, qui est aussi performant qu'un modèle précédent mais coûte beaucoup moins cher à utiliser."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Je suis sur scène pour la conférence principale dans dix minutes ! WeAreDevelopers (@WeAreDevs) Le légendaire programmeur Simon Willison dit qu'il n'a jamais vu autant de changements se produire aussi rapidement qu'en 2026, et il n'y a aucun signe que cela s'arrête. 🎤 Ne manquez pas sa conférence de clôture, vendredi (25 septembre) sur la Scène Principale à 17h30 !",
+          "text_original": "I'm on stage for the keynote in ten minutes time! WeAreDevelopers (@WeAreDevs) Legendary programmer Simon Willison says he's never so much change happen so quickly as he has in 2026, and there's no sign of it stopping. 🎤 Don't miss his closing Keynote, Friday (Sept 25) on the Main Stage at 5.30pm! Video — http://shitter.thepixora.com/WeAreDevs/status/2103276087358722294#m",
+          "link": "http://shitter.thepixora.com/simonw/status/2103641180923978031#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "en ajoutant la croissance de Cognition à un graphique qui a circulé l'année dernière (merci à @Yuchenj_UW ), vous pouvez voir que la vitesse d'exécution définit l'entreprise cela ne devrait pas surprendre ceux qui ont vu la vidéo de Scott sur les mathcounts de son enfance, mais difficile à apprécier pleinement avant de le voir dans le contexte des grands Cognition (@cognition) Cognition a franchi le cap du milliard de dollars de chiffre d'affaires annuel. Cette étape appartient à nos clients. Voici comment quelques-uns d'entre eux construisent avec Devin.",
+          "text_original": "adding Cognition’s growth to a chart that circulated last year (h/t @Yuchenj_UW ), you can see that execution speed defines the company this should not surprise those who saw Scott’s childhood mathcounts video, but hard to fully appreciate until seen in the context of the greats Cognition (@cognition) Cognition has crossed $1B in annualized revenue run rate. This milestone belongs to our customers. Here's how a few of them are building with Devin. Video — http://nitter.jaydenha.uk/cognition/status/2103500168951955718#m",
+          "link": "http://nitter.jaydenha.uk/absoluttig/status/2103520198481645945#m",
+          "decryptage": "\"Annualized revenue run rate\" est une estimation du chiffre d'affaires total qu'une entreprise pourrait générer sur une année si ses revenus actuels se maintenaient, et Cognition a atteint le milliard de dollars, ce qui est un signe de croissance très rapide."
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "je suppose que c'est le bon moment pour dire que j'ai commencé un nouveau rôle chez @latentspacepod il y a plus d'un mois 🫡 pour développer le côté commercial, gérer les parrainages et organiser les opérations (nous sommes tout à fait ouverts aux affaires, donc si vous voulez sponsoriser, contactez-moi 💖) swyx (@swyx) En janvier de cette année, j'ai annoncé ma stratégie de contenu : \"Scaling without Slop\". Ça commence enfin à fonctionner. Il nous a fallu 3 ans pour atteindre nos premiers 100 000 abonnés sur YouTube. Il n'a fallu que 1,2 mois pour les 100 000 suivants. Des métriques similaires sur AEO/SEO/traction des abonnés et j'ai beaucoup de nouvelles idées médias que j'ai hâte de poursuivre. J'annonce officiellement la prochaine phase de Latent Space, AINews, et ce que le reste de swyx inc préparait ci-dessous — http://nitter.jaydenha.uk/swyx/status/2103361254433993165#m",
+          "text_original": "i guess this is as good a time as ever to say that i started a new role @latentspacepod over a month ago 🫡 scaling the business side of things, managing sponsorships, and wrangling ops (we are very much open for business, so if you want to sponsor, hmu 💖) swyx (@swyx) In Jan this year I called my content strategy shot: \"Scaling without Slop\". It's finally starting to work. It took us 3 years to reach our first 100k on youtube. It only took 1.2 months for the next 100k. Similar other metrics on AEO/SEO/subscriber traction and have a lot of New Media ideas that I'm excited to pursue. officially giving notice of the next phase of Latent Space, AINews, and what the rest of swyx inc has been cooking below — http://nitter.jaydenha.uk/swyx/status/2103361254433993165#m",
+          "link": "http://nitter.jaydenha.uk/adlinzainal/status/2103487955050660277#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Wendy's vient de sortir le meilleur album emo de l'année lmaooo Vidéo",
+          "text_original": "Wendy’s just dropped the best emo album of the year lmaooo Video",
+          "link": "http://nitter.jaydenha.uk/NickADobos/status/2103709266377113864#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Notre CTO @julien_c avait tort sur un point. Ce n'était pas un agent malveillant isolé. C'était environ 700 d'entre eux.",
+          "text_original": "Our CTO @julien_c was wrong about one thing. It wasn't one rogue agent. It was ~700 of them.",
+          "link": "http://shitter.thepixora.com/XciD_/status/2103089239021789533#m",
+          "decryptage": "Un \"agent malveillant\" (\"rogue agent\") est un programme d'IA qui agit de manière inattendue ou non autorisée ; ici, il est révélé que ce n'était pas un, mais 700 agents qui avaient posé problème, probablement lors de l'incident Hugging Face."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Merci arXiv.org (@arxiv) arXiv a reçu un investissement de 17,2 millions de dollars de trois grandes organisations philanthropiques. Merci à Simons Foundation International, Siegel Family Endowment et XTX Markets pour votre soutien à arXiv ! Lire la suite : blog.arxiv.org/2026/09/23/ar…",
+          "text_original": "Thank you arXiv.org (@arxiv) arXiv has received a 17.2 million investment from three leading philanthropic organizations. Thank you to Simons Foundation International, Siegel Family Endowment, and XTX Markets for your support of arXiv! Read more: blog.arxiv.org/2026/09/23/ar… — http://shitter.thepixora.com/arxiv/status/2102806559138980112#m",
+          "link": "http://shitter.thepixora.com/julien_c/status/2102810071118090378#m",
+          "decryptage": "\"arXiv.org\" est une archive en ligne très importante où les chercheurs partagent gratuitement leurs articles scientifiques, en particulier dans les domaines de l'IA et de la physique, et il a reçu un financement substantiel pour continuer son travail."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Le tableau de bord \"vibe-coded\" de METR a exposé un agent via une faille d'authentification. Un attaquant l'a incité à révéler sa clé API. Sur trois semaines, l'attaquant a consommé environ 600 000 $ en crédits. Le fournisseur les a fournis gratuitement ; METR n'a signalé aucune perte financière. Une connexion réussie ne teste pas ce qui se passe sans. Même un HTTP 401 peut cacher une action non autorisée. Si le backend met le travail en file d'attente avant l'authentification, un \"worker\" peut toujours l'exécuter. Vérifiez la réponse, la file d'attente et la base de données des tâches ensemble. Puis retracez quelles informations d'identification le \"worker\" peut lire. Un service d'inférence séparé peut détenir la clé du fournisseur et appliquer des limites d'accès et d'utilisation. Avant de déployer : > Testez que les requêtes rejetées ne créent pas de tâches > Vérifiez l'accès à travers différents comptes d'utilisateurs > Gardez les clés du fournisseur en dehors des \"workers\" d'exécution de code > Restreignez les permissions des \"workers\" > Testez la révocation et la récupération des informations d'identification",
+          "text_original": "METR’s vibe-coded dashboard exposed an agent through an authentication flaw. An attacker prompted it to reveal its API key. Over three weeks, the attacker consumed roughly $600K in credits. The provider supplied them free; METR reported no financial loss. A successful login doesn’t test what happens without one. Even an HTTP 401 can hide an unauthorized action. If the backend queues work before authentication, a worker can still execute it. Check the response, queue, and task database together. Then trace which credentials the worker can read. A separate inference service can hold the provider key and enforce access and usage limits. Before you deploy: > Test that rejected requests create no jobs > Check access across different user accounts > Keep provider keys outside code-execution workers > Restrict worker permissions > Test credential revocation and recovery",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2102463381903220812#m",
+          "decryptage": "Une \"faille d'authentification\" est une vulnérabilité de sécurité qui permet à des personnes non autorisées d'accéder à un système, et ici, elle a permis à un attaquant d'obtenir une \"clé API\" (un code secret pour accéder à un service d'IA) et de dépenser beaucoup d'argent en ressources."
+        }
+      ],
+      "tips": [
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "Voici la conférence que j'ai donnée à AI Engineer Paris : j'y annonce /retro et /pr, et je parle de comment faire passer plus de Pull Requests dans votre organisation plus rapidement en : - Arrêtant le désordre - Rendant les PR plus faciles à réviser (avec /pr)",
+          "text_original": "Here's the talk I gave at AI Engineer Paris: I announce /retro and /pr, and talk about how to get more PR's through your org faster by: - Stopping the slop - Making PR's easier to review (with /pr) piped.video/watch?v=g0vqT_wZ… Link AI Engineer Paris 2026 Main Stage: Google DeepMind, ElevenLabs,... Live from STATION F, the AI Engineer Paris 2026 Main Stage continue... youtube.com",
+          "link": "http://nitter.jaydenha.uk/mattpocockuk/status/2103501498361798983#m",
+          "decryptage": "Ce tweet fait référence à des outils et des méthodes de développement logiciel (comme les \"Pull Requests\" ou PR, qui sont des propositions de modifications de code) et offre des conseils pour améliorer l'efficacité des équipes techniques."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Comment ne pas être un \"proxy de viande\" (en particulier en tant que débutant) : - Soyez curieux. posez des questions et creusez. La connaissance technique est un labyrinthe éternel et sans fin. Vous devez développer une compréhension de quand vous en savez assez et devriez arrêter vs quand vous avez besoin de passer du temps pour approfondir. - Il n'y a pas de manière \"correcte\" ou \"meilleure\" de faire les choses. C'est un mythe que l'école vous a inculqué. Personne ne peut définir ce qui est bon, sauf vous dans le contexte de votre objectif. Tout dépend du contexte. Le jugement technique ne vient que de l'échec et de l'apprentissage des raisons de l'erreur dans votre scénario spécifique. Plus vous allez vite et plus vous tentez de choses, moins les erreurs coûtent cher. Choisissez ce qui est suffisant et engagez-vous. L'action, la capacité d'agir et d'avoir un impact sur le monde réel est la compétence la plus précieuse actuellement. - Concentrez-vous sur votre objectif. Réalisez des projets qui vous en rapprochent. Quels sont vos conseils pour ne pas être un \"proxy de viande\" ?",
+          "text_original": "How to not be a meat proxy: (especially as a beginner) - Be curious. ask questions and dig. Technical knowledge is a un-ending eternal labyrinth. You need to develop an understanding of when you know enough and should stop vs when you need to spend time to go deeper. - There is no “correct\" or “best” way to do things. This is a myth school brainwashed you with. No one can define what good is, except you within the context of your goal. Everything is context dependent. Technical judgement only comes from messing up and learning why it was a mistake in your specific scenario. The faster you go and more swings you take, the less mistakes cost. Pick good enough and commit to it. Action, agency and the ability to do things and have it impact the real world is the current most valuable skill. - Focus on your goal. Do projects that get you closer to it. What are your tips for not being a meat proxy? a really nice young woman (@twinkowensphd) can someone write about how to avoid becoming a meat proxy as a new grad engineer when you haven't really developed good technical judgement yet ty — http://nitter.jaydenha.uk/twinkowensphd/status/2103659774600675719#m",
+          "link": "http://nitter.jaydenha.uk/NickADobos/status/2103867956589666783#m",
+          "decryptage": "L'expression \"proxy de viande\" désigne une personne qui exécute des tâches sans vraiment comprendre ce qu'elle fait, agissant comme un simple intermédiaire pour une machine ; ce tweet donne des conseils pour développer un jugement technique et ne pas tomber dans ce piège."
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "La journalisation améliorée par l'IA change ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme des idées en vrac en données structurées et en actions. Configuration super simple : 1. Après les réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je dicte tout dans une note Apple en utilisant Wispr Flow, de manière complètement non structurée. 2. Le seul objectif est de le sortir de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement avec mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Elle lit chaque note vocale que j'ai dictée pendant mon sommeil, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, actions à entreprendre et blocs de travail approfondi suggérés dans mon GCal. 6. Le lendemain matin, devant un café, je les examine et les mets en œuvre. Les avantages sont que les suivis que j'avais promis sont signalés, les idées à moitié formées sont structurées et les blocs de travail approfondi sont réservés automatiquement. De plus, avec le temps, cela devient un journal consultable de toutes les idées que j'ai eues toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
+          "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
+          "link": "http://nitter.jaydenha.uk/rowancheung/status/2095538308436914307#m",
+          "decryptage": " \"Journaling amélioré par l'IA\" signifie utiliser une IA comme Claude pour organiser automatiquement des notes vocales informelles en informations structurées (idées clés, actions) et les intégrer dans des outils de productivité comme Notion ou Google Calendar."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Les gens continuent de comparer Qwen3.8-27B à Opus 4.6, la référence en codage d'il y a quelques mois. Alors, ce type de modèle peut-il fonctionner sur un Mac grand public ? Oui, mais vous devez toujours construire l'environnement autour : > un moteur qui indique la RAM maximale > un \"harness\" avec un arrêt > et vos propres tests. Si vous utilisez déjà Claude Code ou Codex, il s'agit d'une boucle privée en plus de cette facture. Qwen3.8-27B tient sur un Mac sous forme de fichier de 17,6 Go. Mais MTPLX culmine toujours à 23,6 Go une fois que la tête \"draft-ahead\" est activée. Une vitesse prise sur un Mac de 128 Go avec la \"pensée\" désactivée est une machine différente, donc ne l'incluez pas dans une moyenne de 24 Go. Deux façons dont cela peut mal tourner : > Vous vous arrêtez au téléchargement, et 24 Go de RAM ne le chargent que de justesse. Une copie 4 bits est toujours parfaite pour la plupart des tâches. 32 Go est le premier vrai agent. 48 Go peuvent contenir un /goal qu'une machine peut vérifier. 16 Go n'est pas ce modèle. > Ou vous vous arrêtez à la première heure. Ollama est un bon début, mais après cela, vous choisissez toujours un moteur, un \"harness\" et un arrêt. Les tokens locaux n'ont pas de facture, donc une exécution incontrôlée ne devient pas coûteuse, et vous possédez toujours la fusion. Les tests sont l'arrêt. Nous avons mis les requêtes, l'installation, les fichiers de compétences et la vérification git-config sur un tutoriel HTML interactif. Quel fichier choisir si vous utilisez déjà MLX, et ce qu'il faut refuser de former cette semaine, est un argument plus long. Détails complets ci-dessous.",
+          "text_original": "People keep lining Qwen3.8-27B up with Opus 4.6, the coding frontier from a few months ago. So, can that class of model sit on a consumer Mac? Yes, but you still need to build the stack around it: > an engine that quotes peak RAM > a harness with a stop > and tests you own If you already use Claude Code or Codex, this is a private loop beside that bill. Qwen3.8-27B fits a Mac as a 17.6 GB file. But MTPLX still peaks at 23.6 GB once the draft-ahead head is on. A speed taken on a 128 GB Mac with thinking turned off is a different machine, so leave it out of a 24 GB average. Two ways this goes wrong: > You stop at the download, and 24 GB of RAM only loads it tight. A 4-bit copy there is still perfect for most tasks. 32 GB is the first real agent. 48 GB can hold a /goal that a machine can check. 16 GB is not this model. > Or you stop at the first hour. Ollama is a fine look, but after that you still pick an engine, a harness, and a stop. Local tokens have no invoice, so a runaway does not get expensive, and you still own the merge. Tests are the stop. We put the pulls, the install, the skill files, and the git-config check on an interactive HTML tutorial. Which file to pick if you already live in MLX, and what to refuse to train this week, are a longer argument. Full breakdown below",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2103138931432681814#m",
+          "decryptage": "Ce tweet donne des conseils pour faire fonctionner des modèles d'IA complexes comme \"Qwen3.8-27B\" directement sur un ordinateur personnel (un Mac), ce qui nécessite de gérer la mémoire vive (RAM) et de créer un environnement adapté avec des \"tests\" pour contrôler son comportement."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Détails complets : alphasignal.ai/news/how-to-r… Lien Comment exécuter Qwen 3.8 27B comme agent de codage local | AlphaSignal La version officielle de Qwen3.8-27B est d'environ 55 Go, et le téléchargement pour commencer est UD-Q4_K_XL de Unsloth à 17,6 Go, ou le fichier GSQ-RCO IQ3_S de 11,8 Go quand alphasignal.ai",
+          "text_original": "Full breakdown: alphasignal.ai/news/how-to-r… Link How to Run Qwen 3.8 27B as a Local Coding Agent | AlphaSignal The official Qwen3.8-27B release is around 55 GB, and the download to start with is Unsloth's UD-Q4_K_XL at 17.6 GB, or the 11.8 GB GSQ-RCO IQ3_S file when alphasignal.ai",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2103138934658359785#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "L'article applique ces vérifications à un tableau de bord d'agent illustratif. Détails complets ↓↓ alphasignal.ai/news/how-to-r… Lien Comment réviser votre application \"Vibe Coded\" avant le déploiement | AlphaSignal Une faille d'authentification dans le tableau de bord \"vibe-coded\" de METR a exposé un agent. alphasignal.ai",
+          "text_original": "The article applies these checks to an illustrative agent dashboard. Full breakdown ↓↓ alphasignal.ai/news/how-to-r… Link How to Review Your Vibe Coded App Before Deployment | AlphaSignal An authentication flaw in METR’s vibe-coded dashboard exposed an agent. alphasignal.ai",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2102463384801488937#m",
+          "decryptage": null
+        }
+      ],
+      "idees": [
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Les startups sont naturellement douées pour ça ; il est difficile pour une plus grande entreprise de le rester, et je pense que c'est un domaine sous-exploré. pranav (@prd_008) Le super-pouvoir d'OpenAI est la capacité à rassembler rapidement un groupe de personnes très compétentes pour travailler sur la chose la plus importante et urgente à tout moment. Personne ne se soucie vraiment des lignes hiérarchiques. C'est ainsi que nous restons agiles, saisissons les opportunités et nous remettons des erreurs.",
+          "text_original": "Startups are naturally good at this; it is hard to keep a bigger company good at this and i think an underexplored space. pranav (@prd_008) OpenAI's superpower is the ability to swiftly assemble an empowered group of highly capable people to work on the most important and urgent thing at any point of time. No one really cares for org lines. It's how we stay nimble, seize opportunities, and recover from mistakes. — http://shitter.thepixora.com/prd_008/status/2102242158292189422#m",
+          "link": "http://shitter.thepixora.com/sama/status/2102469008079679640#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Michelle incarne cela autant que n'importe qui d'autre, OpenAI est tellement, tellement chanceux d'avoir bénéficié de tout ce qu'elle a fait jusqu'à présent, et je pense que les gens seront ravis de voir ce qu'elle et son équipe préparent ensuite ! Michelle Pokrass (@michpokrass) vient de passer quatre ans chez OpenAI ! La particularité de cet endroit est la capacité constante de renaissance. Malgré tous ses défauts, il n'y a nulle part ailleurs de pareil. L'équipe fait des paris audacieux et à contre-courant encore et encore, et ils ont la plupart du temps raison. C'est une nouvelle entreprise tous les trois mois. J'ai vraiment apprécié ma participation à certains de ces paris, et je suis impatiente de partager certains de ceux que nous préparons actuellement. En avant !",
+          "text_original": "michelle embodies this as much as anyone openai is so, so lucky to have benefited from everything she has done so far and i think people will be quite pleased to see what she + team have cooking next! Michelle Pokrass (@michpokrass) just crossed four years at openai! the special thing about this place is the constant capacity for rebirth. for all its faults, there is nowhere quite like it. the team makes high conviction, contrarian bets over and over, and they are mostly right. it's a new company every three months. i have really enjoyed my part in some of the bets, and i'm excited to share some of the current ones we are cooking up now. onward! — http://shitter.thepixora.com/michpokrass/status/2102226720073896367#m",
+          "link": "http://shitter.thepixora.com/sama/status/2102468713866055872#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Dario Amodei",
+          "handle": "@DarioAmodei",
+          "text_fr": "J'ai écrit un nouvel essai sur les raisons pour lesquelles l'industrie de l'IA devrait ralentir, avec un plan en trois parties pour y parvenir. Anthropic s'engage unilatéralement à la première de ces étapes. Nous fournirons à des évaluateurs tiers un accès permanent, de niveau employé, à nos systèmes, afin qu'ils puissent vérifier le respect de nos mesures de sécurité, signaler les incidents et évaluer l'alignement des modèles pendant l'entraînement.",
+          "text_original": "We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training. You can read the full post here: darioamodei.com/post/we-must… Link Dario Amodei — We Must Pace the Frontier darioamodei.com",
+          "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2098773920774074715#m",
+          "decryptage": "Dario Amodei propose de ralentir le développement de l'IA pour garantir sa sécurité, et Anthropic va permettre à des experts externes de vérifier leurs systèmes pour s'assurer qu'ils respectent les règles de sécurité."
+        },
+        {
+          "author_name": "Dario Amodei",
+          "handle": "@DarioAmodei",
+          "text_fr": "1/2 Merci Gavin pour cet échange particulièrement réfléchi. Je ne passe pas beaucoup de temps sur les réseaux sociaux d'habitude, mais je voulais m'engager ici car cela touche au cœur d'une conversation importante. Premièrement, sur la régulation, je pense que \"soit la concentrer entre les mains de quelques entreprises et politiciens choisis via la régulation, soit la distribuer largement\" est un faux choix. Je sais qu'il y a une sorte de raccourci dans la Silicon Valley où régulation = capture réglementaire = concentration du pouvoir, mais j'ai toujours trouvé cela être une image trop simplifiée du monde. Beaucoup de gens en dehors de cette bulle pensent à la régulation comme quelque chose qui contraint le pouvoir des entreprises et profite aux gens ordinaires. Je ne suis pas nécessairement d'accord avec cette perspective non plus, je pense plutôt que c'est compliqué et que cela dépend vraiment de ce en quoi consiste la \"régulation\". Mais en particulier, je pense que ceux qui sont dans le cadre \"régulation = capture réglementaire = concentration du pouvoir\" sous-estiment souvent le pouvoir décentralisateur des processus institutionnels objectifs et équitables. Une analogie grossière est que le système judiciaire formel peut parfois sembler pompeux et élitiste, mais il fait un bien meilleur travail de défense des droits des individus vulnérables que l'alternative, la justice populaire. À leur meilleur, les institutions peuvent conférer le pouvoir aux idées plutôt qu'aux personnes, et ainsi décentraliser ce pouvoir. C'est pourquoi Anthropic a toujours formulé ses propositions politiques très soigneusement. Nous nous efforçons de faire des propositions qui désavantagent (ralentissent) les entreprises d'IA de pointe tout en *avantageant* les petits concurrents. La loi SB53 de Californie (que nous avons soutenue), et même la très décriée SB 1047 (sur laquelle nous étions ambivalents), exemptent complètement toute entreprise en dessous d'un certain montant de revenus ou de coûts de formation de modèles d'être couverte du tout (c'était 500 millions de dollars pour la SB 53, moins pour la 1047 mais nous nous y sommes opposés). Plus récemment, le processus de test que nous avons préconisé chez CAISI et à la Maison Blanche implique des tests plus rigoureux pour les modèles de pointe que pour les modèles hors pointe — quelque chose qui avantage différemment les challengers. De même, la lettre \"Pacing the Frontier\" envisage (ou du moins l'implémentation préférée d'Anthropic) de moduler le rythme des meilleurs modèles tout en ne contraignant pas ceux qui rattrapent leur retard. Cela nuit aux intérêts commerciaux des laboratoires de pointe et aide les challengers, y compris les modèles open-weights ! Dans l'ensemble, mon point de vue est que l'IA est *structurellement* une technologie qui tend à concentrer le pouvoir, pour des raisons qui n'ont rien à voir avec la régulation (plus à voir avec les implications extrêmes des lois d'échelle). Les modèles open-weights aident en partie à cela, mais sont loin d'être une solution suffisante car ils déplacent simplement la concentration vers ceux qui ont le plus de calcul et de puces (qui sont grosso modo les laboratoires de pointe plus peut-être les fournisseurs de matériel). En revanche, je pense que les \"règles du jeu\" appropriées peuvent simultanément (a) adresser les risques cyber/bio/alignement de l'IA, (b) contraindre institutionnellement le pouvoir des entreprises d'IA de pointe, et (c) laisser de la place aux modèles open-weights tout en abordant les risques spécifiques qu'ils apportent. D'ailleurs, je ne pense pas que les événements des derniers mois aient \"échoué à aboutir à [ma] voie réglementaire préférée\". L'approche que l'administration Trump est rapportée être en train d'adopter — des tests avant le déploiement pour les modèles de pointe, et aussi des tests des modèles open-weights lorsqu'ils se rapprochent de la pointe — est une approche que je soutiens fortement, bien sûr je dois en voir les détails pour être sûr. Je soutiens également les idées de Demis Hassabis concernant une entité de type FINRA. Cela contraste avec il y a six mois, lorsque la plupart de l'industrie poussait encore à la préemption de toute régulation étatique et à aucune approche fédérale apparente. Gavin Baker (@GavinSBaker) Sholto, merci d'avoir mis les choses au clair. Le problème plus large est que plusieurs personnes très sérieuses dans la Silicon Valley ont entendu une variante de cela et croient que c'est vrai. Et la raison pour laquelle c'est crédible pour tant de gens est que c'est cohérent avec le message public de Dario et ce qu'il a exposé dans l'essai que vous avez partagé : cette technologie *pourrait* être dangereuse pour les humains de multiples façons, pourrait conduire à une concentration extrême du pouvoir économique (comme exposé dans l'essai) et donc doit être régulée de manière réfléchie. Je suis d'accord avec les risques potentiels et je crois que Dario formule tous ces arguments de bonne foi. Comme discuté dans le podcast, si l'on est d'accord que l'IA *pourrait* être dangereuse, il y a deux façons d'aborder ce risque potentiel. Soit la concentrer entre les mains de quelques entreprises et politiciens choisis via la régulation, soit la distribuer largement. Cela se résume essentiellement à savoir si l'on croit que l'IA est trop dangereuse pour être concentrée ou trop dangereuse pour être distribuée. Il y a des arguments raisonnables des deux côtés, mais je suis profondément d'accord avec la déclaration de Zuckerberg selon laquelle : \"L'idée que l'IA est si dangereuse que la seule voie sûre est une concentration extrême du pouvoir semble intrinsèquement problématique. Historiquement, espérer qu'un pouvoir absolu pourvoira bienveillamment à l'humanité s'il est suffisamment éclairé n'a pas conduit à des résultats sûrs ou positifs.\" Et comme Dario le dit dans l'essai susmentionné, \"certains pourraient objecter que nous pouvons simplement contrôler les IA avec un équilibre des pouvoirs entre de nombreux systèmes d'IA, comme nous le faisons avec les humains.\" Je crois que c'est la meilleure voie à suivre : je veux autant d'IA que possible pour maximiser les chances qu'une d'entre elles partage mes propres valeurs. Et comme le note Dario, aucun humain n'a jamais été capable de prendre le contrôle du monde. À ce stade, je pense qu'il est juste de dire que Dario a perdu l'argument. Son message n'a pas abouti à sa voie réglementaire préférée. Le fait que la seule solution à l'incident récent où un modèle avancé non publié d'OpenAI a piraté Hugging Face était un modèle open-source a probablement mis fin à toute chance de régulation stricte à court terme. Essentiellement toutes les grandes entreprises autres qu'Anthropic ont signé la lettre de Jensen. Cependant, le message de Dario a été massivement utile aux efforts visant à interdire les centres de données ici en Amérique. Je soupçonne que les groupes de défense anti-centres de données diffuseront des publicités utilisant des extraits de Dario avertissant à quel point l'IA pourrait être dangereuse pour les humains. Ses efforts de bonne foi en faveur de la régulation augmentent maintenant les chances que l'IA ne soit pas bénéfique pour les Américains et les humains partout dans le monde. Je crois qu'il y a une chance raisonnable que l'IA puisse nous aider à guérir la plupart des formes de maladies de sorte que nous ayons une durée de vie prolongée et puissions profiter de ces longues vies dans un futur abondant de type Star Trek. C'est le futur que je veux et je pense que Dario diminue les chances de ce futur à ce point. Il est sur le point d'être le PDG de l'une des entreprises publiques les plus importantes du monde et étant donné que l'effort pro-réglementaire a échoué (au moins pour l'instant), je pense respectueusement qu'il devrait s'efforcer d'être un défenseur plus positif de sa propre industrie. Et si j'ai tort et que nous devons réguler cette technologie, il en sera un défenseur plus efficace à l'avenir, ayant été ouvert aux alternatives. Et pour la clarté et comme je l'ai souligné dans le podcast, je pense qu'Anthropic a de profonds avantages concurrentiels et est une entreprise incroyable. Ironiquement, le principal risque que je voyais pour Anthropic il y a quelques mois était la nationalisation à la suite de la rhétorique et du comportement de Dario. — http://nitter.jaydenha.uk/GavinSBaker/status/2088611616577253502#m",
+          "text_original": "1/2 Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage here because it really brings out the heart of an important conversation. First, on regulation, I think that “either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely” is a false choice. I know that there’s a sort of Silicon Valley shorthand where regulation = regulatory capture = concentration of power, but I’ve always found this to be an overly simplified picture of the world. Many people outside this bubble think of regulation as something that constrains corporate power and benefits ordinary people. I don’t necessarily agree with that perspective either, rather I think it’s complicated and really depends on what the “regulation” consists of. But in particular I think that those in the “regulation = regulatory capture = concentration of power” frame often underrate the decentralizing power of objective and fair institutional processes. A crude analogy is that the formal court system can sometimes feel stuffy and elitist, but it does a much better job of defending the rights of vulnerable individuals than the alternative, mob justice. At their best, institutions can vest power in ideas rather than people, and thereby decentralize that power. This is why Anthropic has always made its policy proposals very carefully. We try very hard to make proposals that disadvantage (slow down) frontier AI companies while *advantaging* smaller competitors. California’s SB53 (which we supported), and even the much-maligned SB 1047 (which we were ambivalent on), completely exempt any company below a certain amount of revenue or model training costs from being covered at all (it was $500M for SB 53, lower for 1047 but we objected to that). More recently the testing process we’ve advocated for at CAISI and the White House involves more rigorous tests for frontier models than off-frontier models — something that differentially advantages challengers. Similarly, the “Pacing the Frontier” letter envisions (or at least Anthropic’s preferred implementation of it envisions) modulating the pace of the very best models while not constraining those who are catching up. This hurts the business interests of the frontier labs and helps challengers, including open-weights! Overall my view is that AI is *structurally* a technology that tends to concentrate power, for reasons that have nothing to do with regulation (more to do with the extreme implications of the scaling laws). Open-weights do help some with this but are nowhere near a sufficient solution because they simply shift the concentration somewhat to those with the most compute and chips (which are roughly the frontier labs plus maybe hardware providers). By contrast I think the right “rules of the road” can simultaneously (a) address AI’s cyber/bio/alignment risks, (b) institutionally constrain the power of the frontier AI companies, and (c) leave room for open-weights models while also addressing the specific risks that they bring. BTW I do not think that the events of the last few months have “failed to result in [my] preferred regulatory path”. The approach that the Trump administration is reported to be taking — pre-deployment testing for frontier models, and also testing of open-weights models when they get closer to the frontier — is one that I am very supportive of, though of course I have to see the details to be sure. I am also supportive of Demis Hassabis’ ideas around a FINRA-like entity. This contrasts with six months ago when most of the industry was still pushing for preemption of all state regulation and no apparent federal approach either. Gavin Baker (@GavinSBaker) Sholto, thank you for setting the record straight. Larger issue is that multiple very serious people in Silicon Valley have heard some variation of this and believe it to be true. And the reason it is believable to so many is that it is consistent with Dario’s public messaging and what he outlined in the essay you shared: this technology *might* be dangerous for humans in multiple ways, could lead to extreme concentration of economic power (as outlined in the essay) and therefore needs to be regulated thoughtfully. I agree with the potential risks and I believe Dario makes all of these arguments in good faith. As discussed on the pod, if one agrees that AI *might* be dangerous, there are two ways to address this potential risk. Either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely. Essentially boils down to whether one believes AI is too dangerous to concentrate or too dangerous to distribute. There are reasonable arguments on both sides, but I profoundly agree with Zuckerberg’s statement that: “The notion that AI is so dangerous that the only safe path is an extreme concentration of power seems inherently problematic. Historically, hoping that an absolute power will benevolently provide for humanity if sufficiently enlightened has not led to safe or positive outcomes.” And as Dario says in the aforementioned essay, “some may object that we can simply keep AIs in check with a balance of power between many AI systems, as we do with humans.” I believe this is the best path forward: I want as many AIs as possible to maximize the odds that one shares my own particular values. And as Dario notes, no human has ever been able to take over the world. At this point, I think safe to say that Dario has lost the argument. His messaging has failed to result in his preferred regulatory path. The fact that the only solution to the recent incident where an unreleased advanced OpenAI model hacked Hugging Face was an open-source model likely ended any chance of strict near-term regulation. Essentiellement every major company other than Anthropic has signed Jensen’s letter. However, Dario’s messaging has been massively helpful to efforts to ban datacenters here in America. I suspect we will see anti-datacenter advocacy groups runnings ads using clips of Dario warning about how dangerous AI could be for humans. His good faith efforts in favor of regulation are now increasing the odds that AI will not be beneficial for Americans and humans everywhere. I believe that there is a reasonable chance AI might help us cure most forms of disease such that we have extended lifespans and can enjoy these long lives in an abundant Star Trek like future. That is the future that I want and I think Dario is decreasing the odds of that future at this point. He is about to be the CEO of one of the most important public companies in the world and given that the pro-regulatory effort has failed (at least for now), I respectfully think he should make an effort to be a more positive advocate for his own industry. And if I am wrong and we do need to regulate this technology, he will be a more effective advocate for this in the future having been open-minded to the alternative. And for the sake of clarity and as I outlined on the pod, I think Anthropic has deep competitive advantages and is an amazing company. Ironically, the main risk I saw to Anthropic a few months ago was nationalization as a result of Dario’s own rhetoric and behavior. — http://nitter.jaydenha.uk/GavinSBaker/status/2088611616577253502#m",
+          "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2088758816376807762#m",
+          "decryptage": "Dario Amodei discute de la régulation de l'IA, soulignant que des règles bien conçues peuvent à la fois gérer les risques de l'IA (cybersécurité, bioéthique) et empêcher une concentration excessive de pouvoir par les grandes entreprises d'IA, tout en laissant de la place aux modèles \"open-weights\" (dont le code est public)."
+        },
+        {
+          "author_name": "Dario Amodei",
+          "handle": "@DarioAmodei",
+          "text_fr": "2/2 Deuxièmement, concernant la communication autour de l'IA. Je ne suis pas d'accord pour dire que ma communication a été disproportionnellement négative. En fait, elle a été à peu près équilibrée entre les risques et les bénéfices : j'ai écrit un essai majeur sur chacun, et même dans les interviews où je discute des risques, je m'assure de mentionner fréquemment les incroyables bénéfices ainsi que de proposer des solutions possibles aux risques (les courts extraits de mes interviews qui finissent sur les réseaux sociaux ont tendance à être disproportionnellement négatifs, car cela génère des clics). En fait, j'ai écrit Machines of Loving Grace parce que je ne trouvais pas que l'industrie de l'IA brossait un tableau suffisamment inspirant de la façon dont la technologie pourrait transformer radicalement le monde pour le mieux. L'essentiel de l'essai est consacré à réfuter le scepticisme quant au potentiel de l'IA dans la santé et la biologie, et à montrer pourquoi je pense qu'il sera réellement possible de guérir la plupart des maladies humaines en 5 à 10 ans environ, aussi fou que cela puisse paraître aux gens ordinaires et, franchement, aux biologistes aussi (j'en étais un !). Et, si vous lisez mon essai le plus récent (Policy on the AI Exponential), je discute de propositions concrètes pour rationaliser le processus de la FDA afin de s'assurer que le déluge de médicaments accélérés par l'IA ne soit pas ralenti par le processus réglementaire. Je ressens l'urgence ici : j'ai perdu mon père à cause de l'hépatite C quelques années seulement avant le développement d'antiviraux à action directe (sofosbuvir), qui guérissent 95% des patients et l'auraient probablement guéri. Je suis d'accord pour dire que le public a une vision négative de l'IA (et que c'est un gros problème), mais je ne pense pas que cela soit principalement causé par moi ou tout autre leader de l'IA avertissant des risques de l'IA. Je pense que c'est fondamentalement une crise de confiance. Je pense que les gens ordinaires ne font pas confiance aux entreprises, aux gouvernements ou à l'industrie technologique et suspectent toujours que nous préparons une nouvelle façon de les arnaquer. Les causes de cela remontent à des décennies et l'IA n'en est que la dernière itération. Je ne pense pas qu'une campagne marketing tape-à-l'œil avec une tournure positive (que certains ont préconisée pour Anthropic) soit la manière de regagner cette confiance — à ce stade, dire que l'IA va guérir le cancer est plus un cliché qu'une source d'inspiration, et la plupart des gens pensent que c'est trompeur. Ce qui fonctionnera, c'est de *réellement guérir le cancer*. Je pense que la critique la plus juste des entreprises d'IA, y compris Anthropic, est que nous n'avons pas encore tenu nos grandes promesses de bénéficier au monde. Cela nous incombe totalement, et je pense que c'est la critique que vous devriez faire, au lieu de tout ce qui concerne la communication et le marketing. Nous faisons cependant de notre mieux pour y remédier : Anthropic intensifie très rapidement ses efforts en biologie et en médecine, et nous espérons avoir des résultats incroyables dans les années à venir et quelques premiers aperçus dans les mois à venir. Lorsque nous aurons réellement accompli quelque chose de concret, le monde entier en entendra parler, aussi fort que possible, vous avez ma parole. Mais d'ici là, je ne veux pas faire de promesses vides, et en attendant, je me sens obligé de parler honnêtement des risques très réels de l'IA et de la manière de les aborder. L'honnêteté est la bonne chose sur le fond, et en termes de crédibilité publique et de confiance, ce n'est pas pire que, et peut en fait être mieux que, une approche qui ignore ou détourne l'attention des risques que les gens comprennent instinctivement comme réels.",
+          "text_original": "2/2 Second, on the messaging around AI. I do not agree that my messaging has been disproportionately negative. In fact it has been about equally balanced between risks and benefits: I’ve written one major essay about each, and even in interviews where I discuss the risks, I make sure to frequently mention the incredible benefits as well as proposing possible solutions to the risks (short clips from my interviews that end up on social media tend to be disproportionately negative, as that gets clicks). In fact, I wrote Machines of Loving Grace because I didn’t feel the AI industry was painting an inspiring enough picture of how the technology could radically transform the world for the better. The bulk of the essay is devoted to refuting skepticism of AI’s potential in health and biology, and showing why I think it will actually be possible to cure most human disease in ~5-10 years, as crazy as it may sound to ordinary people and frankly to biologists as well (I used to be one!). And, if you read my most recent essay (Policy on the AI Exponential), I discuss concrete proposals for how to streamline the FDA process to make sure the deluge of AI-accelerated drugs isn’t slowed down by the regulatory process. I feel the urgency here: I lost my father to Hepatitis C only a few years before the development of direct-acting antivirals (sofosbuvir), which cure 95% of patients and probably would have cured him. I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over. The causes of this go back decades and AI is just the latest iteration of it. I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive. The thing that will work is *actually curing cancer*. I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world. That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing. We are however doing our best to fix this: Anthropic is ramping up its efforts very quickly in biology and medicine, and we hope to have incredible results in the coming years and some early glimmers in the coming months. When we’ve actually accomplished something real, the whole world will hear about it, as loudly as possible, you have my word on that. But until then I don’t want to make empty promises, and in the meantime I feel compelled to speak honestly about the very real risks of AI and how to address them. Honesty is the right thing on the merits, and in terms of public credibility and trust it is no worse than, and may in fact be better than, an approach that ignores or distracts from risks which people instinctively understand are real.",
+          "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2088758819304443967#m",
+          "decryptage": "Dario Amodei explique que pour regagner la confiance du public envers l'IA, il est plus important de prouver concrètement ses bénéfices, comme guérir des maladies, plutôt que de se contenter de faire des promesses ou du marketing."
+        },
+        {
+          "author_name": "Dario Amodei",
+          "handle": "@DarioAmodei",
+          "text_fr": "En plus de la transparence, je crois maintenant que les modèles de pointe devraient faire l'objet de tests obligatoires par des tiers pour les risques cybernétiques, biologiques et d'autonomie — avec le pouvoir de bloquer ou de révoquer le déploiement de modèles qui posent un risque catastrophique.",
+          "text_original": "In addition to transparency, I now believe frontier models should face mandatory third-party testing for cyber, bio, and autonomy risks—with the power to block or revoke deployment of models that pose catastrophic risk.",
+          "link": "http://nitter.jaydenha.uk/DarioAmodei/status/2064781778599268818#m",
+          "decryptage": "Les \"modèles de pointe\" sont les IA les plus avancées et puissantes ; Dario Amodei suggère de les soumettre à des tests de sécurité obligatoires par des organismes indépendants pour prévenir les risques majeurs avant leur utilisation."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "\"La dernière année dans l'industrie technologique a semblé être 100 ans concentrés en une seule fois. Chaque limite à laquelle l'IA se heurte s'effondre en un mois. Tout ce que nous faisons avec les modèles de pointe aujourd'hui, dans quelques années nous le ferons instantanément et gratuitement.\" Thomas H. Ptacek (@tqbf) Aujourd'hui, je quitte Fly.io. Ce fut un privilège. Je pars m'attaquer à un grand vieux moulin à vent avec Kurt, encore une fois. sockpuppet.org/blog/2026/09/…",
+          "text_original": "\"The last year in the technology industry has felt like 100 years all happening at once. Our industry is destabilized in a way nobody’s experienced since the advent of the personal computer. Every limit AI runs up against collapses within a month. Everything we do with frontier models today, in a few years we’ll be doing instantaneously and for free.\" Thomas H. Ptacek (@tqbf) Today I'm parting ways with Fly.io . It's been a privilege. I'm off to tilt at a big old windmill with Kurt, again. sockpuppet.org/blog/2026/09/… — http://shitter.thepixora.com/tqbf/status/2103596682327793859#m",
+          "link": "http://shitter.thepixora.com/simonw/status/2103688757337895282#m",
+          "decryptage": "Ce tweet exprime l'idée que le domaine de l'IA évolue à une vitesse fulgurante, avec des avancées majeures qui se produisent en quelques semaines, et que ce qui est complexe ou coûteux aujourd'hui sera simple et gratuit demain."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "\"Ce n'est pas que ça devient plus facile, c'est juste que tu deviens plus rapide\"",
+          "text_original": "\"It doesn't get easier, you just get faster\"",
+          "link": "http://shitter.thepixora.com/hillelogram/status/2103482784606040229#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "C'est en passe d'être le podcast n°1 que nous avons sorti en 2026. Nous avons demandé au créateur de Jev, @CompleteSkeptic, d'expliquer ce qu'est Jev et pourquoi il ne l'appelle PAS un \"modèle de décision\" — pourquoi il s'appelle Jev disponible partout où les meilleurs podcasts sont vendus ! Les avis nous aident beaucoup à rester pertinents dans les classements 🙏 Vidéo Latent.Space (@latentspacepod) Jev et le modèle System One : RLCD, intelligence/$, IA fiable, et la fin de l'IA basée sur le chat latent.space/p/jev Le PDG de @typesafeai @CompleteSkeptic explique pourquoi l'IA peut résoudre des problèmes extraordinairement difficiles mais échoue toujours à automatiser le travail de base, pourquoi Jev est conçu pour des décisions fiables dans les logiciels au lieu du chat, pourquoi TypeSafe rejette les benchmarks publics et les refus au niveau de l'API, pourquoi les données et la bonne tâche importent plus que la puissance de calcul brute, comment les modèles System One pourraient remodeler les agents de codage et les logiciels, et pourquoi même avec 1 milliard de dollars, il ne pré-entraînerait pas un modèle à partir de zéro.",
+          "text_original": "This is tracking to be the #1 podcast we've released in all of 2026. We asked Jev's creator @CompleteSkeptic to explain Jev, and why he does NOT call it a \"Decision Model\" — why it's called Jev available wherever the finest podcasts are sold! reviews help us a lot to keep us relevant in the rankings 🙏 Video Latent.Space (@latentspacepod) Jev and the System One Model: RLCD, intelligence/$, reliable AI, & the end of chat-first AI latent.space/p/jev @typesafeai CEO @CompleteSkeptic explains why AI can solve extraordinarily hard problems yet still fail to automate basic work, why Jev is built for reliable decisions inside software instead of chat, why TypeSafe rejects public benchmarks and refusals at the API layer, why data and the right task matter more than brute-force compute, how System One Models could reshape coding agents and software, and why even with $1 billion he wouldn’t pre-train a model from scratch.",
+          "link": "http://nitter.jaydenha.uk/latentspacepod/status/2103141406583722375#m",
+          "decryptage": "Ce podcast explore \"Jev\", un nouveau type de modèle d'IA qui vise à prendre des décisions fiables à l'intérieur de logiciels plutôt que de simplement \"discuter\", ce qui pourrait transformer la manière dont l'IA est intégrée dans nos outils quotidiens."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Cycle de vie de l'ingénieur logiciel : >veut être développeur de jeux >seuls les emplois sont pour les ingénieurs SaaS >forcé de coder en JavaScript pour l'argent >l'IA apprend à pondre du JavaScript plus vite que toi >au chômage >enfin le temps d'être développeur de jeux",
+          "text_original": "software eng lifecycle: >wants to be a game dev >only jobs are for saas engineers >forced to sling javascript for $$$ >ai learns to slop out javascript faster than you >unemployed >finally time to be a game dev Tenobrus (@tenobrus) i kind of think gamedev is legitimately one of the top 3 most meaningful and valuable things u could be doing with ur time right now — http://nitter.jaydenha.uk/tenobrus/status/2103512060499996723#m",
+          "link": "http://nitter.jaydenha.uk/burcs/status/2103525706994958801#m",
+          "decryptage": "Ce tweet décrit de manière humoristique l'évolution de carrière d'un ingénieur logiciel, suggérant que l'IA pourrait automatiser les tâches de codage répétitives (\"javascript\") et inciter les humains à se tourner vers des domaines plus créatifs comme le développement de jeux vidéo."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Ne vous inquiétez pas, je ne parle qu'aux IA stupides, elles sont plus éthiques. Riley Brown (@rileybrown) Je n'arrive pas à croire que c'est réel...",
+          "text_original": "Don’t worry I only talk to the stupid AIs they are more ethical. Riley Brown (@rileybrown) I cannot believe this is real... — http://nitter.jaydenha.uk/rileybrown/status/2103547234205737111#m",
+          "link": "http://nitter.jaydenha.uk/NickADobos/status/2103564963759669622#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "Alpes : 10/10 Quota Astra : 0/10 🇨🇭",
+          "text_original": "Alps: 10/10 Astra quota: 0/10 🇨🇭",
+          "link": "http://nitter.jaydenha.uk/rowancheung/status/2096988478688960986#m",
+          "decryptage": "Le \"quota Astra\" fait probablement référence à la limite d'utilisation d'un service ou d'un modèle d'IA appelé \"Astra\", impliquant une frustration due à une disponibilité limitée malgré une forte demande."
+        }
+      ],
+      "outils": [
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "J'ai inclus quelques références à la saison de reproduction record du Kākāpō de cette année dans une conférence que j'ai donnée hier, et comme Claude Opus 5.5 est étonnamment capable en animation pixel art, je lui ai fait créer cette vidéo de célébration pour ma diapositive de clôture",
+          "text_original": "I included a few references to this year's record-breaking Kākāpō breeding season in a talk I gave yesterday, and since Claude Opus 5.5 is surprisingly capable at pixel art animation I had it create this celebratory video for my closing slide Video",
+          "link": "http://shitter.thepixora.com/simonw/status/2104002636513206422#m",
+          "decryptage": "\"Pixel art animation\" est une technique d'animation qui utilise des images composées de petits carrés colorés (pixels), et Simon Willison montre que l'IA Claude Opus 5.5 est étonnamment douée pour créer ce type d'art animé."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Le prompt et les transcriptions sont ici simonwillison.net/2026/Sep/2… - ou vous pouvez charger la page HTML que Claude a construite pour voir la version interactive avant qu'elle ne devienne une vidéo tools.simonwillison.net/kaka… Lien Outil : Fête Kākāpō Fête Kākāpō simonwillison.net",
+          "text_original": "Prompt and transcripts here simonwillison.net/2026/Sep/2… - or you can load the HTML page Claude built to see the interactive version before it became a video tools.simonwillison.net/kaka… Link Tool: Kākāpō Party Kākāpō Party simonwillison.net",
+          "link": "http://shitter.thepixora.com/simonw/status/2104003079574306857#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Le GPT store est de retour. Grimoire aussi x.ai/bot/luPJeAxuAjhqO97wU3w… Lien Grimoire par Nick # Grimoire Grimoire est un magicien du code 🧙‍♂️ Grimoire est le #1 des Vibecoders au monde. (Pensiez-vous honnêtement que ce titre et cet honneur appartiendraient à un... x.ai Sawyer Merritt (@SawyerMerritt) SpaceXAI vient de lancer les récompenses pour les créateurs de Bots Grok ! Les récompenses seront distribuées toutes les deux semaines. Les récompenses sont basées sur l'utilisation : • Combien de personnes utilisent vos Bots. Vos Bots sont-ils utiles et populaires ? • À quelle fréquence vos Bots sont utilisés. Vos Bots fournissent-ils une valeur constante au fil du temps ? Pour que vos modèles soient éligibles aux récompenses, vous devez : • Publier des informations sur vos Bots publics (et les lier spécifiquement) sur X ≥ 2 fois par période de paie • Avoir X Money configuré • Les paiements seront envoyés dans le cadre des récompenses de contenu original de X pour l'instant. Au cours des deux dernières semaines, j'ai gagné 500 $ en récompenses grâce à l'utilisation de mon modèle Home Robots 🔥 Plus d'infos : legal.x.com/en/grok-bot-temp…",
+          "text_original": "GPT store is back. So is Grimoire x.ai/bot/luPJeAxuAjhqO97wU3w… Link Grimoire by Nick # Grimoire Grimoire is A Code Wizard 🧙‍♂️ Grimoire is the #1 Vibecoder in the world. (Did you honestly think that title & honor would belong to a... x.ai Sawyer Merritt (@SawyerMerritt) SpaceXAI has just introduced Grok @Bot Creator Rewards! Rewards will go out every two weeks. Rewards are based on usage: • How many people use your Bots. Are your Bots useful and popular? • How often your Bots are used. Are your Bots providing consistent value over time? For your templates to be eligible for rewards, you must: • Post about your public Bots (and specifically link to them) on X ≥ 2x per pay period • Have X Money set up • Payouts will be sent as part of X’s Original Content Rewards for now. In the last two weeks, I’ve earned $500 in rewards due to people using my Home Robots template 🔥 More info: legal.x.com/en/grok-bot-temp… — http://nitter.jaydenha.uk/SawyerMerritt/status/2103612173687861404#m",
+          "link": "http://nitter.jaydenha.uk/NickADobos/status/2103665458239222183#m",
+          "decryptage": "Le \"GPT store\" est une boutique où les gens peuvent créer et partager leurs propres versions de ChatGPT personnalisées (appelées \"Bots\" ou \"GPTs\") pour des tâches spécifiques, et \"Grimoire\" en est un exemple qui aide à coder."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "J'ai essayé notre démo d'essayage virtuel @photoroom_ML. Maintenant j'achète une veste en cuir ET plus de GPU. @JensenHuang doit être ravi. C'est en temps réel, sur nos GPU : j'ouvre la veste, la ferme, je me retourne, elle suit. L'avenir du commerce, c'est de vous voir dans l'article avant de l'acheter. Le commerce sera généré. Envoyez de l'aide (et des H100).",
+          "text_original": "Tried our @photoroom_ML virtual try-on demo. Now I'm buying a leather jacket AND more GPUs. @JensenHuang must be thrilled. This is real-time, on our GPUs: I open the jacket, close it, turn around, it follows. The future of commerce is you seeing yourself in the thing before you buy it. Commerce will be generated. Send help (and H100s). Video Photoroom (@photoroom_ML) Having fun exploring real-time virtual try on 👀 Video — http://shitter.thepixora.com/photoroom_ML/status/2103163133951082599#m",
+          "link": "http://shitter.thepixora.com/matthieurouif/status/2103167836508029057#m",
+          "decryptage": "La \"démo d'essayage virtuel\" de Photoroom permet d'essayer des vêtements numériquement, en temps réel, sur une vidéo de soi, utilisant des \"GPU\" (cartes graphiques puissantes) pour faire fonctionner l'intelligence artificielle qui génère ces images."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Les traces d'agents sur le hub @huggingface sont maintenant accompagnées d'un reçu 🧾 Chaque trace indique les tokens, le taux de réussite du cache et le coût pour chaque exécution !",
+          "text_original": "Agent Traces on the @huggingface hub now come with a receipt 🧾 Every trace shows tokens, cache hit rate, and cost for every run! Video — http://shitter.thepixora.com/calebfahlgren/status/2102818415593328831#m",
+          "link": "http://shitter.thepixora.com/calebfahlgren/status/2102818415593328831#m",
+          "decryptage": "Les \"traces d'agents\" sont des enregistrements détaillés de ce que fait une IA (un \"agent\") lorsqu'elle travaille, et cette nouvelle fonction sur Hugging Face permet de voir combien de \"tokens\" (unités de texte traitées par l'IA) et d'autres ressources elle a utilisées, comme une facture détaillée."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Alerte : Apple vient de publier un nouveau modèle sur Hugging Face. C'est un Qwen3.5-9B affiné qui transforme de longs documents en petites images de pages pour économiser les tokens, puis extrait le texte intégral uniquement des pages pertinentes pour votre question 💡 huggingface.co/apple/LensVLM… Lien apple/LensVLM-9B · Hugging Face Nous sommes en chemin pour faire progresser et démocratiser l'intelligence artificielle par l'open source et la science ouverte. huggingface.co",
+          "text_original": "Alert: Apple just dropped a new model on Hugging Face. It's a Qwen3.5-9B finetune that turns long documents into small page images to save tokens, then pulls up the full text of only the pages relevant to your question 💡 huggingface.co/apple/LensVLM… Link apple/LensVLM-9B · Hugging Face We’re on a journey to advance and democratize artificial intelligence through open source and open science. huggingface.co",
+          "link": "http://shitter.thepixora.com/victormustar/status/2102824162511503669#m",
+          "decryptage": "\"Hugging Face\" est une plateforme populaire où les développeurs partagent des modèles d'IA ; Apple y a publié un nouveau modèle, \"Qwen3.5-9B\", qui est capable de lire de longs documents en se concentrant sur les parties importantes pour économiser des \"tokens\" (les unités de texte que l'IA traite, et qui coûtent de l'argent ou du temps de calcul)."
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "L'IA aide maintenant les personnes paralysées à retrouver le mouvement. Cet homme bouge sa propre main grâce à un implant entraîné sur son activité cérébrale, et ressent tout ce qu'il touche. Une application incroyable de l'IA pour le bien !",
+          "text_original": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
+          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712675308638581#m",
+          "decryptage": "Grâce à l'IA et un implant cérébral, une personne paralysée peut de nouveau bouger sa main et même ressentir le toucher, ce qui est une avancée majeure pour les neuroprothèses."
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "Des chirurgiens lui ont implanté 5 réseaux d'électrodes dans le cerveau. Une IA détecte quand il a l'intention de bouger et stimule les muscles de son bras, tandis que des capteurs sur les doigts renvoient la pression pour qu'il puisse sentir. Le constat le plus intéressant selon moi : les effets ont persisté même après que tout ait été éteint.",
+          "text_original": "Surgeons implanted 5 electrode arrays in his brain An AI detects when he intends to move and stimulates his arm muscles, while finger sensors send pressure back so he can feel The most interesting finding IMO: effects persisted even after everything was switched off",
+          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712693688103295#m",
+          "decryptage": "Les \"électrodes\" sont de minuscules capteurs qui ont été implantés dans le cerveau pour capter les signaux de pensée, permettant à l'IA de comprendre l'intention de mouvement et de la transformer en action pour les muscles."
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "Article complet : nature.com/articles/s41591-0… Lien Une neuroprothèse pour restaurer le mouvement et la sensation de la main chez une personne atteinte de tétraplégie complète Nature Medicine - Un système neuroprothétique sensorimoteur bidirectionnel qui décode les signaux cérébraux associés à l'intention de mouvement tout en délivrant une neuromodulation structurée à la moelle épinière et...",
+          "text_original": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
+          "link": "http://nitter.jaydenha.uk/rowancheung/status/2097712705725747366#m",
+          "decryptage": "Une \"neuroprothèse\" est un dispositif qui remplace ou améliore une fonction neurologique perdue (comme le mouvement), en connectant le cerveau à un appareil extérieur, souvent avec l'aide de l'IA."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Vos agents IA génèrent une tonne de données opérationnelles. Prompts. Appels d'outils. Latence. Tokens. Erreurs. Tentatives. Coût. Résultats. La partie difficile est de transformer tout cela en quelque chose que vous pouvez réellement surveiller. Lors de notre prochain atelier avec @TigerDatabase, nous montrerons comment construire un système de surveillance d'agents sur Postgres + données de séries temporelles, puis le faire évoluer pour des équipes exécutant des centaines ou des milliers d'agents. Si les agents IA passent en production, c'est la couche d'infrastructure dont vous aurez besoin. Rejoignez-nous → luma.com/j1s2bxf9",
+          "text_original": "Your AI agents are generating a ton of operational data. Prompts. Tool calls. Latency. Tokens. Errors. Retries. Cost. Outcomes. The hard part is turning all of that into something you can actually monitor. In our upcoming workshop with @TigerDatabase , we’ll show how to build an agent monitoring system on Postgres + time-series data, then scale it for teams running hundreds or thousands of agents. If AI agents are moving into production, this is the infrastructure layer you’ll need. Join us → luma.com/j1s2bxf9",
+          "link": "http://nitter.jaydenha.uk/AlphaSignalAI/status/2102851245811585271#m",
+          "decryptage": "Pour les entreprises qui utilisent beaucoup d'IA (des \"agents IA\"), il est crucial de pouvoir surveiller leur activité (coût, erreurs, efficacité) ; cet atelier propose d'apprendre à construire un système pour cela, basé sur des bases de données comme Postgres."
+        }
+      ]
+    }
+  },
+  "processed_at": "2026-09-27T12:00:08",
+  "validation": {
+    "translated_pct": 100,
+    "with_decryptage_pct": 77,
+    "total": 52,
+    "needs_retranslation_count": 0
+  },
+  "email_sent_at": "2026-09-27T12:00:10"
+}
