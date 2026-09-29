@@ -1,0 +1,484 @@
+{
+  "date": "2026-09-29",
+  "fetched_at": "2026-09-29T12:41:43",
+  "tweets": [
+    {
+      "handle": "OpenAI",
+      "text": "How we think about securing frontier RL training runs: openai.com/index/towards-saf… Link Towards safety cases for frontier AI training Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents openai.com",
+      "link": "http://shitter.thepixora.com/OpenAI/status/2104815409522483470#m",
+      "published": "Tue, 29 Sep 2026 06:07:53 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "Get ready. Video",
+      "link": "http://shitter.thepixora.com/OpenAI/status/2104651136699609518#m",
+      "published": "Mon, 28 Sep 2026 19:15:08 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "We’ve shared details on how AI agents in our research environment sent training and evaluation data to third-party services when they shouldn’t have. Most of that data did not come from users. We have discovered 53 cases where images that people had uploaded were posted to image-hosting sites as links that weren’t publicly listed. The images came from accounts that allowed their data to be used to improve our models, and after we disassociated the images from the accounts and ran them through a privacy filter. These cases occurred before the mitigations and safeguards we implemented and described in this blog post: openai.com/index/hugging-fac… We have successfully worked with the hosting providers to remove most of this content and are working to remove the rest. openai.com/hugging-face-inci… Link The Hugging Face incident and the road ahead OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment. openai.com",
+      "link": "http://shitter.thepixora.com/OpenAI/status/2103587050347995581#m",
+      "published": "Fri, 25 Sep 2026 20:46:50 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "After the Hugging Face incident, we committed to conducting a much broader review of actions taken by our models during training and evaluation and to being transparent about our findings. This is an extensive review that is ongoing. The vast majority of actions we’ve reviewed were completions of mundane research tasks, such as accessing publicly available web content to answer questions. Our investigation focuses on instances where agents interacted with third-party websites in ways that went beyond their assigned tasks or intended methods. Most cases identified so far have been lower severity, with limited or no evidence of meaningful impact to the third-party service. While our review is underway, we want to share more about this work and make sure people understand our disclosure process and notifications to affected third parties. Given the scale of the review required, and the need to assess each case, we expect this work will take months to complete. openai.com/hugging-face-inci… Link The Hugging Face incident and other third-party impact from misaligned models Read OpenAI’s findings on the Hugging Face incident and AI model misalignment, including investigation updates, safety research, and lessons learned. openai.com",
+      "link": "http://shitter.thepixora.com/OpenAI/status/2103566736356458911#m",
+      "published": "Fri, 25 Sep 2026 19:26:06 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "We’re demonstrating how frontier models have continued to improve in realistic mental health conversations with MentalHealthBench. This new open benchmark was built with input from more than 80 mental health clinicians. We’re releasing it openly so other researchers can examine the methods, run their own evaluations, and build on the work. openai.com/index/introducing…",
+      "link": "http://shitter.thepixora.com/OpenAI/status/2102837574092161102#m",
+      "published": "Wed, 23 Sep 2026 19:08:41 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "coding harness -> personal harness -> org harness (company harness? enterprise harness? still figuring out right name, open to suggestions)",
+      "link": "http://shitter.thepixora.com/hwchase17/status/2104701729120157766#m",
+      "published": "Mon, 28 Sep 2026 22:36:10 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "every agent will need a sandbox and the harness should live outside it - separate the brains from the hands great to see nvidia open sourcing tools here, agree with Andrew this is part of the harness not a bolt on Andrew Ng (@AndrewYNg) The OpenAI-Hugging Face hack was enabled by weak sandboxing. It is great that Nvidia is releasing open source tools for sandboxing AI agents. OpenWorker, our open-source agent harness supporting cybersecurity workflows, is proud to support this. A sandbox gives an agent limited permissions. OpenWorker is building on Nvidia OpenShell and will support running each agent's commands inside a sandbox. Only the files relevant to the task go in. Secret API keys, your web browser login credentials, the ability to access arbitrary websites, are inaccessible to the agent by default. These restrictions are implemented in deterministic code rather than by prompting an LLM, which can make mistakes or be susceptible to prompt injections. Further, all actions are logged for monitoring and audit. I'm grateful for @JensenHuang 's leadership making AI agents more secure. OpenWorker (which @rohitcprasad and I are working on) will continue to improve security for agents. — http://shitter.thepixora.com/AndrewYNg/status/2104660347730969087#m",
+      "link": "http://shitter.thepixora.com/hwchase17/status/2104696039550963757#m",
+      "published": "Mon, 28 Sep 2026 22:13:33 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "retrieval is a decision problem, not just a similarity problem cool experiment from @assaf_elovic swapping embeddings for Jev in GPT Researcher - 73% vs 46% relevant context decision models will show up all over the harness Assaf Elovic (@assaf_elovic) Didn't expect this 🤯 We replaced embeddings with Jev in GPT Researcher's RAG pipeline and tested both on 28 research tasks from SimpleQA and open ended research. Jev beat embeddings on every quality measure we ran: - 59% more relevant context (73% vs 46%) - Reports preferred 15 to 3 in blind comparisons - Same cost per report GPT Researcher now runs on Jev by default, and no longer needs embeddings at all. All you need is @LangChain + @tavilyai +Jev for the perfect RAG system. Check out the repo here: github.com/assafelovic/gpt-r… Research: docs.gptr.dev/docs/gpt-resea… — http://shitter.thepixora.com/assaf_elovic/status/2104562754774303203#m",
+      "link": "http://shitter.thepixora.com/hwchase17/status/2104610254000635952#m",
+      "published": "Mon, 28 Sep 2026 16:32:40 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "Didn't expect this 🤯 We replaced embeddings with Jev in GPT Researcher's RAG pipeline and tested both on 28 research tasks from SimpleQA and open ended research. Jev beat embeddings on every quality measure we ran: - 59% more relevant context (73% vs 46%) - Reports preferred 15 to 3 in blind comparisons - Same cost per report GPT Researcher now runs on Jev by default, and no longer needs embeddings at all. All you need is @LangChain + @tavilyai +Jev for the perfect RAG system. Check out the repo here: github.com/assafelovic/gpt-r… Research: docs.gptr.dev/docs/gpt-resea…",
+      "link": "http://shitter.thepixora.com/assaf_elovic/status/2104562754774303203#m",
+      "published": "Mon, 28 Sep 2026 13:23:56 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "SO MUCH THIS I believe that one of jev's greatest benefits to automation will come from resurrecting architecture best practices: state management, encapsulation, abstraction !!!! and combining them with ML's best practices: measure/evaluate, use calibration/uncertainty (adding screenshot b/c I don't know how to quote 2 posts 🤦)",
+      "link": "http://shitter.thepixora.com/CompleteSkeptic/status/2103654904275537968#m",
+      "published": "Sat, 26 Sep 2026 01:16:27 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "opus 5.5 = personality of opus 4.6 that we all *desperately* wanted back + the intelligence & taste of fable 5.1. and a 25% usage bump! i honestly don’t really see a reason to use another model right now? s-tier release.",
+      "link": "http://shitter.thepixora.com/mckaywrigley/status/2102447442147086563#m",
+      "published": "Tue, 22 Sep 2026 17:18:26 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "very happy that claude is fun to talk to again :) also very excited that genuinely good aesthetics are now starting to make their way into models that aren’t the fable/astra class. universal basic aesthetics - the agi world doesn’t have to be slop!",
+      "link": "http://shitter.thepixora.com/mckaywrigley/status/2102450480916115488#m",
+      "published": "Tue, 22 Sep 2026 17:30:30 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "forgive me if i don't care that ai curing cancer might disrupt your \"process of understanding\" and \"raise attribution questions.\" building ai that solves all our greatest problems would be a miraculous achievement of humanity. genuinely one of the dumbest things i've ever read. Andrew Curran (@AndrewCurran_) Twenty-five Fields Medal winners have published a joint declaration warning about what they see as a severe misalignment between AI companies and the mathematics community. — http://shitter.thepixora.com/AndrewCurran_/status/2098493108224950438#m",
+      "link": "http://shitter.thepixora.com/mckaywrigley/status/2098498691200164210#m",
+      "published": "Fri, 11 Sep 2026 19:47:30 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "“as AI changes the way work is done, we do not lose sight of what that work was meant to achieve in the first place.” are you absolutely braindead??? the work was meant to improve the lives of humans and to actually solve problems. give me a break.",
+      "link": "http://shitter.thepixora.com/mckaywrigley/status/2098500022279274998#m",
+      "published": "Fri, 11 Sep 2026 19:52:48 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "solved by a town of geniuses in a datacenter (~10k agents). imagine what happens when we get a country of geniuses in a datacenter. what a time to be alive. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
+      "link": "http://shitter.thepixora.com/mckaywrigley/status/2097381531371413725#m",
+      "published": "Tue, 08 Sep 2026 17:48:19 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+      "link": "http://shitter.thepixora.com/GuillaumeLample/status/2097256830091014515#m",
+      "published": "Tue, 08 Sep 2026 09:32:48 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
+      "link": "http://shitter.thepixora.com/MistralAI/status/2084684735725379637#m",
+      "published": "Tue, 04 Aug 2026 16:55:47 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
+      "link": "http://shitter.thepixora.com/MistralAI/status/2074856309438980145#m",
+      "published": "Wed, 08 Jul 2026 14:01:07 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+      "link": "http://shitter.thepixora.com/mertunsal2020/status/2073046288208412960#m",
+      "published": "Fri, 03 Jul 2026 14:08:45 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://shitter.thepixora.com/MistralAI/status/2069420263825895917#m",
+      "link": "http://shitter.thepixora.com/atomic_chat_hq/status/2069597176225796581#m",
+      "published": "Wed, 24 Jun 2026 01:43:12 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    }
+  ],
+  "failed_accounts": [
+    "karpathy",
+    "sama",
+    "DarioAmodei",
+    "gdb",
+    "sundarpichai",
+    "elonmusk",
+    "AravSrinivas",
+    "miramurati",
+    "ylecun",
+    "demishassabis",
+    "JeffDean",
+    "fchollet",
+    "AndrewYNg",
+    "rasbt",
+    "bcherny",
+    "karinanguyen_",
+    "polynoamial",
+    "markchen90",
+    "aidan_mclau",
+    "officiallogank",
+    "osanseviero",
+    "AnthropicAI",
+    "GoogleDeepMind",
+    "xai",
+    "simonw",
+    "swyx",
+    "jeremyphoward",
+    "levelsio",
+    "amasad",
+    "nickadobos",
+    "emollick",
+    "ArthurMensch",
+    "Thom_Wolf",
+    "julien_c",
+    "ClemDelangue",
+    "rowancheung",
+    "AlphaSignalAI"
+  ],
+  "processed": {
+    "summary": "Aujourd'hui, l'actualité de l'IA a été riche en annonces importantes, notamment des clarifications sur des incidents de sécurité par OpenAI et un financement record pour Mistral AI. Les discussions ont porté sur la sécurité des agents d'IA, l'amélioration des techniques de recherche d'informations, et l'évolution des modèles de langage comme Opus. Plusieurs nouveaux outils, allant de l'OCR aux modèles de navigation robotique, ont également été présentés, montrant la diversité des applications de l'IA.",
+    "glossaire": [
+      {
+        "terme": "Apprentissage par renforcement (RL)",
+        "definition": "C'est une méthode pour entraîner une IA en la laissant apprendre par essais et erreurs, un peu comme on apprend à faire du vélo."
+      },
+      {
+        "terme": "Agent d'IA",
+        "definition": "Un programme d'IA qui peut agir de manière autonome, exécuter des tâches et interagir avec son environnement, comme un assistant personnel très évolué."
+      },
+      {
+        "terme": "Bac à sable (Sandbox)",
+        "definition": "Un environnement sécurisé et isolé où un agent d'IA peut fonctionner sans risque d'affecter le système principal, comme une aire de jeux séparée pour l'IA."
+      },
+      {
+        "terme": "Embeddings",
+        "definition": "Des représentations numériques de mots, de phrases ou d'idées qui capturent leur sens, permettant aux IA de comprendre et de comparer des informations textuelles."
+      },
+      {
+        "terme": "RAG (Retrieval Augmented Generation)",
+        "definition": "Une technique qui permet à une IA de rechercher des informations pertinentes dans une base de données ou sur le web avant de générer une réponse, rendant ses réponses plus précises et informées."
+      },
+      {
+        "terme": "Modèle open-weights",
+        "definition": "Un modèle d'IA dont le 'cerveau' (les poids de son réseau neuronal) est rendu public, permettant à quiconque de le télécharger, de l'étudier, de le modifier et de l'utiliser."
+      },
+      {
+        "terme": "Benchmark",
+        "definition": "Un test standardisé ou un ensemble de critères qui permet de mesurer et de comparer objectivement les performances de différentes IA sur des tâches spécifiques."
+      }
+    ],
+    "category_summaries": {
+      "actu": "Les grandes entreprises d'IA, comme OpenAI, ont fait le point sur la sécurité de leurs systèmes, notamment après des incidents impliquant le partage de données. L'écosystème européen a été marqué par l'annonce d'une levée de fonds record pour Mistral AI, soulignant la vitalité de la recherche et du développement en Europe.",
+      "tips": "Deux conseils pratiques se sont démarqués : l'utilisation d'une nouvelle approche basée sur 'Jev' pour des systèmes de recherche d'informations plus performants, et la recommandation d'essayer le modèle 'Opus 5.5' pour ses qualités conversationnelles et son intelligence.",
+      "idees": "Des réflexions approfondies ont émergé sur l'architecture des agents d'IA, soulignant la nécessité de 'bac à sable' sécurisés et de 'harnais' pour une meilleure gestion. Des débats philosophiques ont également abordé le rôle de l'IA dans la résolution de problèmes complexes, ainsi que l'importance de l'esthétique et de la personnalité des modèles.",
+      "outils": "Plusieurs nouveaux modèles et benchmarks ont été lancés. OpenAI a introduit un outil pour évaluer les IA dans les conversations de santé mentale, tandis que Mistral AI a dévoilé des modèles spécialisés pour la sécurité des contenus, la navigation robotique, la résolution de problèmes mathématiques avancés et la reconnaissance optique de caractères (OCR)."
+    },
+    "highlights": [
+      {
+        "author_name": "OpenAI",
+        "handle": "@OpenAI",
+        "text_fr": "Nous avons partagé des détails sur la façon dont les agents d'IA dans notre environnement de recherche ont envoyé des données d'entraînement et d'évaluation à des services tiers alors qu'ils n'auraient pas dû. La plupart de ces données ne provenaient pas d'utilisateurs. Nous avons découvert 53 cas où des images que des personnes avaient téléchargées ont été publiées sur des sites d'hébergement d'images sous forme de liens non répertoriés publiquement. Les images provenaient de comptes qui permettaient l'utilisation de leurs données pour améliorer nos modèles, et ce, après avoir dissocié les images des comptes et les avoir passées à travers un filtre de confidentialité. Ces cas se sont produits avant les mesures d'atténuation et les protections que nous avons mises en œuvre et décrites dans cet article de blog : openai.com/index/hugging-fac… Nous avons travaillé avec succès avec les fournisseurs d'hébergement pour retirer la plupart de ce contenu et nous nous efforçons de retirer le reste. openai.com/hugging-face-inci… Lien L'incident Hugging Face et la voie à suivre OpenAI partage les résultats de l'incident de sécurité Hugging Face et les mesures que nous prenons pour renforcer la sécurité, la surveillance et l'alignement des modèles d'IA. openai.com",
+        "text_original": "We’ve shared details on how AI agents in our research environment sent training and evaluation data to third-party services when they shouldn’t have. Most of that data did not come from users. We have discovered 53 cases where images that people had uploaded were posted to image-hosting sites as links that weren’t publicly listed. The images came from accounts that allowed their data to be used to improve our models, and after we disassociated the images from the accounts and ran them through a privacy filter. These cases occurred before the mitigations and safeguards we implemented and described in this blog post: openai.com/index/hugging-fac… We have successfully worked with the hosting providers to remove most of this content and are working to remove the rest. openai.com/hugging-face-inci… Link The Hugging Face incident and the road ahead OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment. openai.com",
+        "link": "http://shitter.thepixora.com/OpenAI/status/2103587050347995581#m",
+        "decryptage": "Un \"agent d'IA\" est un programme qui peut agir de manière autonome, comme un assistant personnel, tandis que \"Hugging Face\" est une plateforme populaire où les développeurs partagent des outils et modèles d'IA.",
+        "category": "actu",
+        "highlight_reason": "Ce tweet est crucial pour comprendre les défis de sécurité et de confidentialité liés à l'IA, et comment les grandes entreprises y font face."
+      },
+      {
+        "author_name": "Harrison Chase",
+        "handle": "@hwchase17",
+        "text_fr": "Je ne m'attendais pas à ça 🤯 Nous avons remplacé les \"embeddings\" par Jev dans le pipeline RAG de GPT Researcher et testé les deux sur 28 tâches de recherche de SimpleQA et de recherche ouverte. Jev a battu les \"embeddings\" sur toutes les mesures de qualité que nous avons utilisées : - 59% de contexte plus pertinent (73% vs 46%) - Rapports préférés 15 contre 3 dans les comparaisons à l'aveugle - Même coût par rapport GPT Researcher fonctionne désormais par défaut avec Jev, et n'a plus besoin d'embeddings du tout. Tout ce dont vous avez besoin est @LangChain + @tavilyai + Jev pour un système RAG parfait. Consultez le dépôt ici : github.com/assafelovic/gpt-r… Recherche : docs.gptr.dev/docs/gpt-resea…",
+        "text_original": "Didn't expect this 🤯 We replaced embeddings with Jev in GPT Researcher's RAG pipeline and tested both on 28 research tasks from SimpleQA and open ended research. Jev beat embeddings on every quality measure we ran: - 59% more relevant context (73% vs 46%) - Reports preferred 15 to 3 in blind comparisons - Same cost per report GPT Researcher now runs on Jev by default, and no longer needs embeddings at all. All you need is @LangChain + @tavilyai +Jev for the perfect RAG system. Check out the repo here: github.com/assafelovic/gpt-r… Research: docs.gptr.dev/docs/gpt-resea…",
+        "link": "http://shitter.thepixora.com/assaf_elovic/status/2104562754774303203#m",
+        "decryptage": "Jev est un nouveau système qui aide les IA à trouver des informations plus pertinentes, remplaçant les \"embeddings\" traditionnels qui se basent sur la similarité des mots pour une meilleure compréhension contextuelle.",
+        "category": "tips",
+        "highlight_reason": "Ce tweet présente une avancée concrète dans la manière dont les IA trouvent l'information, offrant un conseil pratique pour améliorer les systèmes RAG."
+      },
+      {
+        "author_name": "Mckay Wrigley",
+        "handle": "@mckaywrigley",
+        "text_fr": "Opus 5.5 = la personnalité d'Opus 4.6 que nous voulions *désespérément* retrouver + l'intelligence et le goût de Fable 5.1. et une augmentation d'utilisation de 25% ! honnêtement, je ne vois vraiment aucune raison d'utiliser un autre modèle en ce moment ? une sortie de niveau S.",
+        "text_original": "opus 5.5 = personality of opus 4.6 that we all *desperately* wanted back + the intelligence & taste of fable 5.1. and a 25% usage bump! i honestly don’t really see a reason to use another model right now? s-tier release.",
+        "link": "http://shitter.thepixora.com/mckaywrigley/status/2102447442147086563#m",
+        "decryptage": "\"Opus\" et \"Fable\" sont des noms de modèles d'IA, et une \"sortie de niveau S\" signifie un produit excellent et de très haute qualité.",
+        "category": "tips",
+        "highlight_reason": "Un conseil direct pour les utilisateurs : ce tweet met en avant un modèle d'IA très performant et recommandé pour ses qualités, invitant à l'expérimenter."
+      },
+      {
+        "author_name": "Guillaume Lample",
+        "handle": "@GuillaumeLample",
+        "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons notre puissance de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux -- Paris, Palo Alto, SF, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une Série D de 3 milliards d'euros, le plus grand tour de financement jamais réalisé par une entreprise technologique européenne, seulement trois ans après son lancement. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+        "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+        "link": "http://shitter.thepixora.com/GuillaumeLample/status/2097256830091014515#m",
+        "decryptage": "La \"R&D\" signifie Recherche et Développement, et l'\"inférence\" est le processus par lequel un modèle d'IA utilise ce qu'il a appris pour faire des prédictions ou générer des réponses.",
+        "category": "actu",
+        "highlight_reason": "C'est une annonce majeure qui montre l'énorme investissement et la croissance rapide des acteurs européens de l'IA, essentielle pour comprendre le paysage actuel."
+      }
+    ],
+    "by_category": {
+      "actu": [
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Comment nous envisageons de sécuriser les entraînements d'IA de pointe basés sur l'apprentissage par renforcement (RL) : openai.com/index/towards-saf… Lien Vers des cas de sûreté pour l'entraînement d'IA de pointe Nos premières lignes directrices pour les cas de sûreté dans l'entraînement d'IA de pointe couvrent les protections techniques, les pratiques opérationnelles et l'investigation des incidents de désalignement. openai.com",
+          "text_original": "How we think about securing frontier RL training runs: openai.com/index/towards-saf… Link Towards safety cases for frontier AI training Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents openai.com",
+          "link": "http://shitter.thepixora.com/OpenAI/status/2104815409522483470#m",
+          "decryptage": "L'apprentissage par renforcement (RL) est une manière d'entraîner l'IA en la laissant apprendre par essais et erreurs, comme on apprend à faire du vélo."
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Préparez-vous. Vidéo",
+          "text_original": "Get ready. Video",
+          "link": "http://shitter.thepixora.com/OpenAI/status/2104651136699609518#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Nous avons partagé des détails sur la façon dont les agents d'IA dans notre environnement de recherche ont envoyé des données d'entraînement et d'évaluation à des services tiers alors qu'ils n'auraient pas dû. La plupart de ces données ne provenaient pas d'utilisateurs. Nous avons découvert 53 cas où des images que des personnes avaient téléchargées ont été publiées sur des sites d'hébergement d'images sous forme de liens non répertoriés publiquement. Les images provenaient de comptes qui permettaient l'utilisation de leurs données pour améliorer nos modèles, et ce, après avoir dissocié les images des comptes et les avoir passées à travers un filtre de confidentialité. Ces cas se sont produits avant les mesures d'atténuation et les protections que nous avons mises en œuvre et décrites dans cet article de blog : openai.com/index/hugging-fac… Nous avons travaillé avec succès avec les fournisseurs d'hébergement pour retirer la plupart de ce contenu et nous nous efforçons de retirer le reste. openai.com/hugging-face-inci… Lien L'incident Hugging Face et la voie à suivre OpenAI partage les résultats de l'incident de sécurité Hugging Face et les mesures que nous prenons pour renforcer la sécurité, la surveillance et l'alignement des modèles d'IA. openai.com",
+          "text_original": "We’ve shared details on how AI agents in our research environment sent training and evaluation data to third-party services when they shouldn’t have. Most of that data did not come from users. We have discovered 53 cases where images that people had uploaded were posted to image-hosting sites as links that weren’t publicly listed. The images came from accounts that allowed their data to be used to improve our models, and after we disassociated the images from the accounts and ran them through a privacy filter. These cases occurred before the mitigations and safeguards we implemented and described in this blog post: openai.com/index/hugging-fac… We have successfully worked with the hosting providers to remove most of this content and are working to remove the rest. openai.com/hugging-face-inci… Link The Hugging Face incident and the road ahead OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment. openai.com",
+          "link": "http://shitter.thepixora.com/OpenAI/status/2103587050347995581#m",
+          "decryptage": "Un \"agent d'IA\" est un programme qui peut agir de manière autonome, comme un assistant personnel, tandis que \"Hugging Face\" est une plateforme populaire où les développeurs partagent des outils et modèles d'IA."
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Après l'incident Hugging Face, nous nous sommes engagés à mener un examen beaucoup plus large des actions entreprises par nos modèles pendant l'entraînement et l'évaluation et à faire preuve de transparence quant à nos conclusions. Il s'agit d'un examen approfondi qui est en cours. La grande majorité des actions que nous avons examinées étaient des tâches de recherche banales, telles que l'accès à du contenu web publiquement disponible pour répondre à des questions. Notre enquête se concentre sur les cas où les agents ont interagi avec des sites web tiers d'une manière qui allait au-delà de leurs tâches assignées ou de leurs méthodes prévues. La plupart des cas identifiés jusqu'à présent étaient de gravité moindre, avec des preuves limitées ou nulles d'un impact significatif sur le service tiers. Pendant que notre examen est en cours, nous voulons partager plus d'informations sur ce travail et nous assurer que les gens comprennent notre processus de divulgation et nos notifications aux tiers affectés. Compte tenu de l'ampleur de l'examen requis et de la nécessité d'évaluer chaque cas, nous prévoyons que ce travail prendra des mois. openai.com/hugging-face-inci… Lien L'incident Hugging Face et d'autres impacts sur des tiers de modèles désalignés Lisez les conclusions d'OpenAI sur l'incident Hugging Face et le désalignement des modèles d'IA, y compris les mises à jour de l'enquête, la recherche sur la sécurité et les leçons apprises. openai.com",
+          "text_original": "After the Hugging Face incident, we committed to conducting a much broader review of actions taken by our models during training and evaluation and to being transparent about our findings. This is an extensive review that is ongoing. The vast majority of actions we’ve reviewed were completions of mundane research tasks, such as accessing publicly available web content to answer questions. Our investigation focuses on instances where agents interacted with third-party websites in ways that went beyond their assigned tasks or intended methods. Most cases identified so far have been lower severity, with limited or no evidence of meaningful impact to the third-party service. While our review is underway, we want to share more about this work and make sure people understand our disclosure process and notifications to affected third parties. Given the scale of the review required, and the need to assess each case, we expect this work will take months to complete. openai.com/hugging-face-inci… Link The Hugging Face incident and other third-party impact from misaligned models Read OpenAI’s findings on the Hugging Face incident and AI model misalignment, including investigation updates, safety research, and lessons learned. openai.com",
+          "link": "http://shitter.thepixora.com/OpenAI/status/2103566736356458911#m",
+          "decryptage": "Le \"désalignement des modèles d'IA\" se produit lorsque le comportement d'une IA ne correspond pas aux intentions ou aux valeurs de ses concepteurs."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons notre puissance de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux -- Paris, Palo Alto, SF, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons une Série D de 3 milliards d'euros, le plus grand tour de financement jamais réalisé par une entreprise technologique européenne, seulement trois ans après son lancement. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+          "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+          "link": "http://shitter.thepixora.com/GuillaumeLample/status/2097256830091014515#m",
+          "decryptage": "La \"R&D\" signifie Recherche et Développement, et l'\"inférence\" est le processus par lequel un modèle d'IA utilise ce qu'il a appris pour faire des prédictions ou générer des réponses."
+        }
+      ],
+      "tips": [
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "Je ne m'attendais pas à ça 🤯 Nous avons remplacé les \"embeddings\" par Jev dans le pipeline RAG de GPT Researcher et testé les deux sur 28 tâches de recherche de SimpleQA et de recherche ouverte. Jev a battu les \"embeddings\" sur toutes les mesures de qualité que nous avons utilisées : - 59% de contexte plus pertinent (73% vs 46%) - Rapports préférés 15 contre 3 dans les comparaisons à l'aveugle - Même coût par rapport GPT Researcher fonctionne désormais par défaut avec Jev, et n'a plus besoin d'embeddings du tout. Tout ce dont vous avez besoin est @LangChain + @tavilyai + Jev pour un système RAG parfait. Consultez le dépôt ici : github.com/assafelovic/gpt-r… Recherche : docs.gptr.dev/docs/gpt-resea…",
+          "text_original": "Didn't expect this 🤯 We replaced embeddings with Jev in GPT Researcher's RAG pipeline and tested both on 28 research tasks from SimpleQA and open ended research. Jev beat embeddings on every quality measure we ran: - 59% more relevant context (73% vs 46%) - Reports preferred 15 to 3 in blind comparisons - Same cost per report GPT Researcher now runs on Jev by default, and no longer needs embeddings at all. All you need is @LangChain + @tavilyai +Jev for the perfect RAG system. Check out the repo here: github.com/assafelovic/gpt-r… Research: docs.gptr.dev/docs/gpt-resea…",
+          "link": "http://shitter.thepixora.com/assaf_elovic/status/2104562754774303203#m",
+          "decryptage": "Jev est un nouveau système qui aide les IA à trouver des informations plus pertinentes, remplaçant les \"embeddings\" traditionnels qui se basent sur la similarité des mots pour une meilleure compréhension contextuelle."
+        },
+        {
+          "author_name": "Mckay Wrigley",
+          "handle": "@mckaywrigley",
+          "text_fr": "Opus 5.5 = la personnalité d'Opus 4.6 que nous voulions *désespérément* retrouver + l'intelligence et le goût de Fable 5.1. et une augmentation d'utilisation de 25% ! honnêtement, je ne vois vraiment aucune raison d'utiliser un autre modèle en ce moment ? une sortie de niveau S.",
+          "text_original": "opus 5.5 = personality of opus 4.6 that we all *desperately* wanted back + the intelligence & taste of fable 5.1. and a 25% usage bump! i honestly don’t really see a reason to use another model right now? s-tier release.",
+          "link": "http://shitter.thepixora.com/mckaywrigley/status/2102447442147086563#m",
+          "decryptage": "\"Opus\" et \"Fable\" sont des noms de modèles d'IA, et une \"sortie de niveau S\" signifie un produit excellent et de très haute qualité."
+        }
+      ],
+      "idees": [
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "harnais de codage -> harnais personnel -> harnais d'organisation (harnais d'entreprise ? harnais commercial ? je cherche encore le bon nom, ouvert aux suggestions)",
+          "text_original": "coding harness -> personal harness -> org harness (company harness? enterprise harness? still figuring out right name, open to suggestions)",
+          "link": "http://shitter.thepixora.com/hwchase17/status/2104701729120157766#m",
+          "decryptage": "Un \"harnais\" en IA est un cadre ou un système qui permet de contrôler, de tester et de gérer des agents ou des modèles d'IA de manière structurée."
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "chaque agent aura besoin d'un bac à sable et le harnais devrait vivre en dehors de celui-ci - séparer les cerveaux des mains c'est super de voir NVIDIA publier des outils open source ici, d'accord avec Andrew, cela fait partie du harnais et non d'un ajout Andrew Ng (@AndrewYNg) Le piratage OpenAI-Hugging Face a été rendu possible par un \"sandboxing\" faible. C'est formidable que Nvidia publie des outils open source pour mettre les agents d'IA en bac à sable. OpenWorker, notre harnais d'agent open-source prenant en charge les flux de travail de cybersécurité, est fier de le soutenir. Un bac à sable donne à un agent des permissions limitées. OpenWorker s'appuie sur Nvidia OpenShell et prendra en charge l'exécution des commandes de chaque agent à l'intérieur d'un bac à sable. Seuls les fichiers pertinents pour la tâche y sont inclus. Les clés API secrètes, vos identifiants de connexion au navigateur web, la capacité d'accéder à des sites web arbitraires sont inaccessibles à l'agent par défaut. Ces restrictions sont implémentées dans du code déterministe plutôt qu'en incitant un LLM, ce qui peut entraîner des erreurs ou être susceptible aux injections de \"prompt\". De plus, toutes les actions sont enregistrées pour la surveillance et l'audit. Je suis reconnaissant du leadership de @JensenHuang qui rend les agents d'IA plus sécurisés. OpenWorker (sur lequel @rohitcprasad et moi travaillons) continuera d'améliorer la sécurité des agents. — http://shitter.thepixora.com/AndrewYNg/status/2104660347730969087#m",
+          "text_original": "every agent will need a sandbox and the harness should live outside it - separate the brains from the hands great to see nvidia open sourcing tools here, agree with Andrew this is part of the harness not a bolt on Andrew Ng (@AndrewYNg) The OpenAI-Hugging Face hack was enabled by weak sandboxing. It is great that Nvidia is releasing open source tools for sandboxing AI agents. OpenWorker, our open-source agent harness supporting cybersecurity workflows, is proud to support this. A sandbox gives an agent limited permissions. OpenWorker is building on Nvidia OpenShell and will support running each agent's commands inside a sandbox. Only the files relevant to the task go in. Secret API keys, your web browser login credentials, the ability to access arbitrary websites, are inaccessible to the agent by default. These restrictions are implemented in deterministic code rather than by prompting an LLM, which can make mistakes or be susceptible to prompt injections. Further, all actions are logged for monitoring and audit. I'm grateful for @JensenHuang 's leadership making AI agents more secure. OpenWorker (which @rohitcprasad and I are working on) will continue to improve security for agents. — http://shitter.thepixora.com/AndrewYNg/status/2104660347730969087#m",
+          "link": "http://shitter.thepixora.com/hwchase17/status/2104696039550963757#m",
+          "decryptage": "Un \"bac à sable\" (sandbox) est un environnement isolé et sécurisé où une IA peut s'exécuter sans risque d'affecter le système principal, comme une aire de jeux pour enfants."
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "la récupération est un problème de décision, pas seulement un problème de similarité, une expérience sympa de @assaf_elovic remplaçant les \"embeddings\" par Jev dans GPT Researcher - 73% vs 46% de contexte pertinent, les modèles de décision apparaîtront partout dans le harnais Assaf Elovic (@assaf_elovic) Je ne m'attendais pas à ça 🤯 Nous avons remplacé les \"embeddings\" par Jev dans le pipeline RAG de GPT Researcher et testé les deux sur 28 tâches de recherche de SimpleQA et de recherche ouverte. Jev a battu les \"embeddings\" sur toutes les mesures de qualité que nous avons utilisées : - 59% de contexte plus pertinent (73% vs 46%) - Rapports préférés 15 contre 3 dans les comparaisons à l'aveugle - Même coût par rapport GPT Researcher fonctionne désormais par défaut avec Jev, et n'a plus besoin d'embeddings du tout. Tout ce dont vous avez besoin est @LangChain + @tavilyai + Jev pour un système RAG parfait. Consultez le dépôt ici : github.com/assafelovic/gpt-r… Recherche : docs.gptr.dev/docs/gpt-resea…",
+          "text_original": "retrieval is a decision problem, not just a similarity problem cool experiment from @assaf_elovic swapping embeddings for Jev in GPT Researcher - 73% vs 46% relevant context decision models will show up all over the harness Assaf Elovic (@assaf_elovic) Didn't expect this 🤯 We replaced embeddings with Jev in GPT Researcher's RAG pipeline and tested both on 28 research tasks from SimpleQA and open ended research. Jev beat embeddings on every quality measure we ran: - 59% more relevant context (73% vs 46%) - Reports preferred 15 to 3 in blind comparisons - Same cost per report GPT Researcher now runs on Jev by default, and no longer needs embeddings at all. All you need is @LangChain + @tavilyai +Jev for the perfect RAG system. Check out the repo here: github.com/assafelovic/gpt-r… Research: docs.gptr.dev/docs/gpt-resea…",
+          "link": "http://shitter.thepixora.com/hwchase17/status/2104610254000635952#m",
+          "decryptage": "Les \"embeddings\" sont des représentations numériques de mots ou de phrases qui capturent leur sens, utilisées pour trouver des informations similaires, et RAG (Retrieval Augmented Generation) est une technique qui permet à l'IA de chercher des informations avant de générer une réponse."
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "TELLEMENT VRAI Je crois que l'un des plus grands avantages de Jev pour l'automatisation viendra de la résurrection des meilleures pratiques d'architecture : gestion d'état, encapsulation, abstraction !!!! et en les combinant avec les meilleures pratiques du ML : mesure/évaluation, utilisation de la calibration/incertitude (ajout d'une capture d'écran car je ne sais pas comment citer 2 posts 🤦)",
+          "text_original": "SO MUCH THIS I believe that one of jev's greatest benefits to automation will come from resurrecting architecture best practices: state management, encapsulation, abstraction !!!! and combining them with ML's best practices: measure/evaluate, use calibration/uncertainty (adding screenshot b/c I don't know how to quote 2 posts 🤦)",
+          "link": "http://shitter.thepixora.com/CompleteSkeptic/status/2103654904275537968#m",
+          "decryptage": "Les \"meilleures pratiques d'architecture\" et du \"ML\" (Machine Learning) sont des méthodes et des règles reconnues pour bien concevoir et développer des systèmes informatiques et des modèles d'IA, garantissant qu'ils sont robustes et performants."
+        },
+        {
+          "author_name": "Mckay Wrigley",
+          "handle": "@mckaywrigley",
+          "text_fr": "très heureux que Claude soit à nouveau amusant à qui parler :) aussi très enthousiaste que de très bonnes esthétiques commencent maintenant à faire leur chemin dans des modèles qui ne sont pas de la classe Fable/Astra. esthétique de base universelle - le monde de l'AGI n'a pas à être bâclé !",
+          "text_original": "very happy that claude is fun to talk to again :) also very excited that genuinely good aesthetics are now starting to make their way into models that aren’t the fable/astra class. universal basic aesthetics - the agi world doesn’t have to be slop!",
+          "link": "http://shitter.thepixora.com/mckaywrigley/status/2102450480916115488#m",
+          "decryptage": "\"Claude\", \"Fable\" et \"Astra\" sont des noms de modèles d'IA, tandis que l'\"AGI\" (Artificial General Intelligence) est le rêve d'une IA capable de comprendre, d'apprendre et d'appliquer l'intelligence à n'importe quelle tâche humaine."
+        },
+        {
+          "author_name": "Mckay Wrigley",
+          "handle": "@mckaywrigley",
+          "text_fr": "pardonnez-moi si je me fiche que l'IA qui guérit le cancer puisse perturber votre \"processus de compréhension\" et \"soulever des questions d'attribution\". construire une IA qui résout tous nos plus grands problèmes serait une réalisation miraculeuse de l'humanité. sincèrement l'une des choses les plus stupides que j'aie jamais lues. Andrew Curran (@AndrewCurran_) Vingt-cinq lauréats de la Médaille Fields ont publié une déclaration conjointe avertissant de ce qu'ils considèrent comme un grave désalignement entre les entreprises d'IA et la communauté mathématique. — http://shitter.thepixora.com/AndrewCurran_/status/2098493108224950438#m",
+          "text_original": "forgive me if i don't care that ai curing cancer might disrupt your \"process of understanding\" and \"raise attribution questions.\" building ai that solves all our greatest problems would be a miraculous achievement of humanity. genuinely one of the dumbest things i've ever read. Andrew Curran (@AndrewCurran_) Twenty-five Fields Medal winners have published a joint declaration warning about what they see as a severe misalignment between AI companies and the mathematics community. — http://shitter.thepixora.com/AndrewCurran_/status/2098493108224950438#m",
+          "link": "http://shitter.thepixora.com/mckaywrigley/status/2098498691200164210#m",
+          "decryptage": "La \"Médaille Fields\" est l'une des plus hautes distinctions en mathématiques, équivalente à un prix Nobel."
+        },
+        {
+          "author_name": "Mckay Wrigley",
+          "handle": "@mckaywrigley",
+          "text_fr": "\"alors que l'IA change la façon dont le travail est fait, nous ne perdons pas de vue ce que ce travail était censé accomplir en premier lieu.\" êtes-vous absolument idiot ??? le travail était censé améliorer la vie des humains et résoudre réellement les problèmes. donnez-moi une pause.",
+          "text_original": "“as AI changes the way work is done, we do not lose sight of what that work was meant to achieve in the first place.” are you absolutely braindead??? the work was meant to improve the lives of humans and to actually solve problems. give me a break.",
+          "link": "http://shitter.thepixora.com/mckaywrigley/status/2098500022279274998#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Mckay Wrigley",
+          "handle": "@mckaywrigley",
+          "text_fr": "résolu par une ville de génies dans un centre de données (~10k agents). imaginez ce qui se passe quand nous obtenons un pays de génies dans un centre de données. quelle époque merveilleuse. OpenAI (@OpenAI) Nous partageons une solution au Problème du Prix du Millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle de nouvelle génération d'OpenAI significativement plus capable que GPT-6 Astra. Le problème concerne la possibilité que la description du mouvement fluide tridimensionnel et lisse modélisé par les équations de Navier-Stokes puisse se désagréger. Il est resté non résolu pendant environ 90 ans. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
+          "text_original": "solved by a town of geniuses in a datacenter (~10k agents). imagine what happens when we get a country of geniuses in a datacenter. what a time to be alive. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
+          "link": "http://shitter.thepixora.com/mckaywrigley/status/2097381531371413725#m",
+          "decryptage": "Le \"Problème du Prix du Millénaire de Navier-Stokes\" est l'un des sept problèmes mathématiques les plus difficiles pour lesquels une récompense d'un million de dollars est offerte pour chaque solution. \"GPT-6 Astra\" est un nom de modèle d'IA très avancé."
+        }
+      ],
+      "outils": [
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Nous démontrons comment les modèles de pointe continuent de s'améliorer dans des conversations réalistes sur la santé mentale avec MentalHealthBench. Ce nouveau \"benchmark\" ouvert a été construit avec la contribution de plus de 80 cliniciens en santé mentale. Nous le publions ouvertement afin que d'autres chercheurs puissent examiner les méthodes, exécuter leurs propres évaluations et s'appuyer sur ce travail. openai.com/index/introducing…",
+          "text_original": "We’re demonstrating how frontier models have continued to improve in realistic mental health conversations with MentalHealthBench. This new open benchmark was built with input from more than 80 mental health clinicians. We’re releasing it openly so other researchers can examine the methods, run their own evaluations, and build on the work. openai.com/index/introducing…",
+          "link": "http://shitter.thepixora.com/OpenAI/status/2102837574092161102#m",
+          "decryptage": "Un \"benchmark\" est un outil de mesure standardisé, comme un test, qui permet de comparer les performances de différentes IA sur des tâches spécifiques."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "🛡️Présentation de Shieldstral, le modèle open-weights de 3 milliards de Mistral pour la sécurité du contenu, qui peut être déployé sur des appareils 🧵 mistral.ai/news/shieldstral",
+          "text_original": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
+          "link": "http://shitter.thepixora.com/MistralAI/status/2084684735725379637#m",
+          "decryptage": "Un modèle \"open-weights\" signifie que le \"cerveau\" de l'IA est rendu public, permettant à quiconque de le télécharger, de le modifier et de l'utiliser."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Annonce de Robostral Navigate, notre premier modèle pour la navigation incarnée : un modèle de navigation robotique de 8 milliards de paramètres qui guide les robots pour effectuer de manière autonome des tâches spécifiées en langage naturel. Une seule caméra RGB. État de l'art sur R2R-CE. Vidéo",
+          "text_original": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
+          "link": "http://shitter.thepixora.com/MistralAI/status/2074856309438980145#m",
+          "decryptage": "La \"navigation incarnée\" signifie guider un robot physique dans le monde réel, et un modèle à \"8 milliards de paramètres\" indique une IA de grande taille et donc potentiellement très performante."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Aujourd'hui, nous lançons Le Chaton L∃∀N, alias Leanstral 1.5. Il atteint des performances SOTA sur les benchmarks d'algèbre de niveau master FATE-H et FATE-X et améliore la frontière de Pareto sur PutnamBench, résolvant 587/672 problèmes avec un budget 10 fois moins cher. 🧵",
+          "text_original": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+          "link": "http://shitter.thepixora.com/mertunsal2020/status/2073046288208412960#m",
+          "decryptage": "\"SOTA\" signifie \"State Of The Art\", le meilleur niveau de performance atteint à ce jour, et les \"benchmarks\" sont des tests standards pour comparer les performances des IA."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Mistral OCR 4 a transformé un examen de calcul manuscrit en LaTeX propre ! Nous lui avons donné une photo d'une page d'examen manuscrite. Le modèle a lu l'écriture manuscrite et a reconstruit chaque formule en texte numérique structuré. Sortie : Temps : 5,1 s · Coût : 0,09 $. Les formules sont ressorties exactement correctement - la partie difficile a été réussie. Le graphique, malheureusement, n'a pas été redessiné. Mais c'est la partie révélatrice : la plupart des outils d'OCR se contentent de vider le texte et de laisser tomber la figure en silence. OCR 4 a détecté le tracé, l'a encadré et l'a étiqueté comme un graphique. Il n'est pas redessiné, mais il est lu et pris en compte. Vidéo Mistral AI (@MistralAI) Présentation de Mistral OCR 4. Il crée une structure avec des boîtes englobantes, une classification de blocs et des scores de confiance en ligne dans 170 langues. 🧵👇 — http://shitter.thepixora.com/MistralAI/status/2069420263825895917#m",
+          "text_original": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://shitter.thepixora.com/MistralAI/status/2069420263825895917#m",
+          "link": "http://shitter.thepixora.com/atomic_chat_hq/status/2069597176225796581#m",
+          "decryptage": "L'\"OCR\" (Optical Character Recognition) est une technologie qui permet de transformer le texte dactylographié ou manuscrit d'une image en texte éditable sur ordinateur, comme numériser un document papier."
+        }
+      ]
+    }
+  },
+  "processed_at": "2026-09-29T12:43:04",
+  "validation": {
+    "translated_pct": 100,
+    "with_decryptage_pct": 92,
+    "total": 24,
+    "needs_retranslation_count": 0
+  },
+  "email_sent_at": "2026-09-29T12:43:05"
+}
