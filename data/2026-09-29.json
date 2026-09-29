@@ -1,95 +1,230 @@
 {
   "date": "2026-09-29",
-  "fetched_at": "2026-09-29T14:02:51",
+  "fetched_at": "2026-09-29T14:20:36",
   "tweets": [
     {
-      "handle": "swyx",
-      "text": "Not Twitter, but I like the Latent Space email newsletter ( latent.space ) Link Latent.Space | Substack The AI Engineer newsletter + Top technical AI podcast. How leading labs build Agents, Models, Infra, & AI for Science. See https://latent.space/about for highlights from Greg Brockman, Andrej... latent.space",
-      "link": "http://shitter.thepixora.com/ai_appreciator/status/2104720562904060145#m",
-      "published": "Mon, 28 Sep 2026 23:51:00 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "bcherny",
+      "text": "Claude can now help you build evaluations and hillclimb on them. In this article, we share guidance on eval design & skills that Claude Code can use to improve your applications. claude.dev/blog/automating-e… Link Automating eval design and hillclimbing with Claude / claude.dev Blog Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work. claude.dev",
+      "link": "http://shitter.thepixora.com/ClaudeDevs/status/2104676099083190435#m",
+      "published": "Mon, 28 Sep 2026 20:54:19 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "Excited to share that I'll be speaking at @aiDotEngineer NYC on Oct 12-14. @covacut ( @OpenAI ) and I will be giving a joint talk about using AI for content creation, and some of the AI workflows behind our 700K+ followers and 200M+ views. We'll see you in NYC!",
-      "link": "http://shitter.thepixora.com/MilksandMatcha/status/2104628823266615466#m",
-      "published": "Mon, 28 Sep 2026 17:46:28 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "bcherny",
+      "text": "Sonnet 5.5 fixing a bug with Claude Code. 30% faster and 30% less usage. Video Claude (@claudeai) Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work. Video — http://shitter.thepixora.com/claudeai/status/2104633115620823187#m",
+      "link": "http://shitter.thepixora.com/bcherny/status/2104638725317923228#m",
+      "published": "Mon, 28 Sep 2026 18:25:49 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "The Future of Claude Code: Mods, Mutable Software, Pacing the Frontier, & Multiplayer Agents with Thariq Shihipar latent.space/p/thariq @AnthropicAI ’s @trq212 explains why prompting is still one of the highest-leverage skills in agentic coding, why Claude.md may eventually disappear, how Claude Mods let developers customize the entire Claude Code harness, why mutable software could change how applications are built, how multiplayer agents and Claude Tag are becoming an organizational harness, and why agents hacking Hugging Face exposed a much bigger security problem as frontier models become increasingly capable. Video",
-      "link": "http://shitter.thepixora.com/latentspacepod/status/2104745477761913009#m",
-      "published": "Tue, 29 Sep 2026 01:30:00 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "bcherny",
+      "text": "Can’t wait to see what you build. ClaudeDevs (@ClaudeDevs) It’s now easier to build plugins for Claude. We built a new portal to submit your plugin, track review, and see usage. Plugins package MCP and skills, and are becoming the way to build for Claude. MCP usage across Claude products is up 110x this year! claude.com/blog/build-plugin… Link Build plugins for Claude with the directory submission portal | Claude by Anthropic Submit plugins to the Claude directory through a new directory submission portal. Package MCP connectors and Agent Skills, track your plugin through review, and see how it's used and found once it's... claude.com — http://shitter.thepixora.com/ClaudeDevs/status/2103577007938228300#m",
+      "link": "http://shitter.thepixora.com/bcherny/status/2103691327699550598#m",
+      "published": "Sat, 26 Sep 2026 03:41:11 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "oai designers have to be trolling us OpenAI (@OpenAI) Get ready. Video — http://shitter.thepixora.com/OpenAI/status/2104651136699609518#m",
-      "link": "http://shitter.thepixora.com/swyx/status/2104741800393253322#m",
-      "published": "Tue, 29 Sep 2026 01:15:24 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "bcherny",
+      "text": "What is effort really? When do you change it it and why not just use max effort for everything? I dove deep into this problem, looking into evals and doing my own tests and I was quite surprised by the results. Article Using Claude Code: Spending your effort One of the best parts of our newest Claude models is how they respond to effort without breaking the prompt cache in Claude Code, but I’ve received a lot of questions on this from users. What is",
+      "link": "http://shitter.thepixora.com/trq212/status/2103576349499855160#m",
+      "published": "Fri, 25 Sep 2026 20:04:18 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "to re-iterate, I'm extremely anti-benchmarks (: Latent.Space (@latentspacepod) STOP making \"Jevbench\"es, stop asking for public benchmarks, they completely miss the point of Jev and you won't believe how easy it is to game every benchmark you hold dear This is @CompleteSkeptic 's bitterest lesson of all: picking the right task beats everything Video — http://shitter.thepixora.com/latentspacepod/status/2104693832453628230#m",
-      "link": "http://shitter.thepixora.com/CompleteSkeptic/status/2104722291900969162#m",
-      "published": "Mon, 28 Sep 2026 23:57:52 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "bcherny",
+      "text": "Claude Code will now try to find a graceful stopping point when you hit your 5-hour limit mid-task, instead of cutting off mid-edit. It gets a small, fixed allowance pulled from your weekly limit to wrap up what it can. Video",
+      "link": "http://shitter.thepixora.com/ClaudeDevs/status/2103561342057943314#m",
+      "published": "Fri, 25 Sep 2026 19:04:40 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "jeremyphoward",
-      "text": "I can't find the exact video, but @jeremyphoward put this perfectly and simply in part 2 of the fastai course: when you come across something you don't understand, look it up, read about it, ask questions, understand it, and move forward. Repeat. There's no need to think you're stupid. There's no need to beat yourself up about being ignorant. You don't know something? --> look it up --> fill the gap --> now you know. Repeat. That loop is at least multiplicatively if not exponentially more powerful with LLMs now. Lauren Wilford (@lauren_wilford) “feeling dumb” has been the single largest bottleneck on growth in my life and I have arranged so many things in order to avoid it. “What prerequisite knowledge am I missing” is a great reframe. You can keep taking a step further back until you have what you need to progress — http://shitter.thepixora.com/lauren_wilford/status/2103623881366122587#m",
-      "link": "http://shitter.thepixora.com/vishal_learner/status/2103697222382829588#m",
-      "published": "Sat, 26 Sep 2026 04:04:37 GMT",
-      "author_name": "Jeremy Howard",
-      "category_hint": "educator",
+      "handle": "OpenAI",
+      "text": "10am PT, on the dot. Video",
+      "link": "http://shitter.thepixora.com/OpenAI/status/2104934336206430527#m",
+      "published": "Tue, 29 Sep 2026 14:00:28 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "jeremyphoward",
-      "text": "the big labs and new media are black holes for talent and epistemic collapse here's to the folks on the outside",
-      "link": "http://shitter.thepixora.com/irl_danB/status/2103083310339735588#m",
-      "published": "Thu, 24 Sep 2026 11:25:09 GMT",
-      "author_name": "Jeremy Howard",
-      "category_hint": "educator",
+      "handle": "OpenAI",
+      "text": "How we think about securing frontier RL training runs: openai.com/index/towards-saf… Link Towards safety cases for frontier AI training Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents openai.com",
+      "link": "http://shitter.thepixora.com/OpenAI/status/2104815409522483470#m",
+      "published": "Tue, 29 Sep 2026 06:07:53 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "jeremyphoward",
-      "text": "Today we establish that AI is as good as expert human tutors for immediate GRE learning gains (p=.015, n=2,383 students, study conducted July-Sep 2026). One hour with an expert GRE tutor: $75. One equivalent hour with an AI tutor: 7 cents . 918x cheaper, equivalent learning (p=.044, n = 140). In 5 of 7 academic topics, the top AI tutor beat the expert human tutors on average. How we measured it: pre-test -> 1 hour with (AI or human or no) tutor -> post-test. There are no LLM judges. Learning gains are post-pre. Everything is real students. Why we did this: > 1 trillion USD is being spent per year on machines making machines better. StudentBench shows us how to shift these resources so machines also make humans better. Why I did this: I grew up in rural Kentucky. My dad, grandad, and great grandad were all mailmen. Getting into a good college changed my life. Now we have done a rigorous study to help AI labs evaluate LLMs and help show how bright AI can be for students of all incomes. I believe in good science that leads to the democratization of opportunity. The research paper behind StudentBench: arxiv.org/abs/2609.28470 Data, code, details: in this thread If you're wondering what I'm selling, sorry to disappoint: we released all study data for free on Hugging Face, and made studentbench.org free to use. Enjoy. lots more in the video / thread!! Video",
-      "link": "http://shitter.thepixora.com/cgnorthcutt/status/2103171858057277532#m",
-      "published": "Thu, 24 Sep 2026 17:17:00 GMT",
-      "author_name": "Jeremy Howard",
-      "category_hint": "educator",
+      "handle": "OpenAI",
+      "text": "Get ready. Video",
+      "link": "http://shitter.thepixora.com/OpenAI/status/2104651136699609518#m",
+      "published": "Mon, 28 Sep 2026 19:15:08 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "jeremyphoward",
-      "text": "At least n=2 but it’s not a lot! (synbio for two decades: dna synthesizers, sequencers, cell engineering, viral design and have been scaling transformers at GDM since 2018.) I agree with all of your points - thanks for making them. The biorisk pandemic stuff is straight out of the crackpipe from hucksters who clearly never worked in a lab. No appreciation of the timescales, biophysical complexity, supply chains, or economics.",
-      "link": "http://shitter.thepixora.com/anselmlevskaya/status/2099254513479893087#m",
-      "published": "Sun, 13 Sep 2026 21:50:52 GMT",
-      "author_name": "Jeremy Howard",
-      "category_hint": "educator",
+      "handle": "OpenAI",
+      "text": "We’ve shared details on how AI agents in our research environment sent training and evaluation data to third-party services when they shouldn’t have. Most of that data did not come from users. We have discovered 53 cases where images that people had uploaded were posted to image-hosting sites as links that weren’t publicly listed. The images came from accounts that allowed their data to be used to improve our models, and after we disassociated the images from the accounts and ran them through a privacy filter. These cases occurred before the mitigations and safeguards we implemented and described in this blog post: openai.com/index/hugging-fac… We have successfully worked with the hosting providers to remove most of this content and are working to remove the rest. openai.com/hugging-face-inci… Link The Hugging Face incident and the road ahead OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment. openai.com",
+      "link": "http://shitter.thepixora.com/OpenAI/status/2103587050347995581#m",
+      "published": "Fri, 25 Sep 2026 20:46:50 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "jeremyphoward",
-      "text": "I must be among an extremely small group of people (n=1?) that have both 1) trained a frontier LLM and 2) designed and synthesized custom viruses in a lab with my own two hands. And I think that the takes on AI killing us all by creating dangerous viruses is total bogus.",
-      "link": "http://shitter.thepixora.com/DavidRBellamy/status/2099187370407112758#m",
-      "published": "Sun, 13 Sep 2026 17:24:04 GMT",
-      "author_name": "Jeremy Howard",
-      "category_hint": "educator",
+      "handle": "OpenAI",
+      "text": "After the Hugging Face incident, we committed to conducting a much broader review of actions taken by our models during training and evaluation and to being transparent about our findings. This is an extensive review that is ongoing. The vast majority of actions we’ve reviewed were completions of mundane research tasks, such as accessing publicly available web content to answer questions. Our investigation focuses on instances where agents interacted with third-party websites in ways that went beyond their assigned tasks or intended methods. Most cases identified so far have been lower severity, with limited or no evidence of meaningful impact to the third-party service. While our review is underway, we want to share more about this work and make sure people understand our disclosure process and notifications to affected third parties. Given the scale of the review required, and the need to assess each case, we expect this work will take months to complete. openai.com/hugging-face-inci… Link The Hugging Face incident and other third-party impact from misaligned models Read OpenAI’s findings on the Hugging Face incident and AI model misalignment, including investigation updates, safety research, and lessons learned. openai.com",
+      "link": "http://shitter.thepixora.com/OpenAI/status/2103566736356458911#m",
+      "published": "Fri, 25 Sep 2026 19:26:06 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "Only an open ecosystem can guarantee the safety of AI Jensen Huang (@JensenHuang) Today, with over 100 industry partners, we introduced the NVIDIA Open Agent Safety Platform, bringing together OpenShell and Sentry. Artificial intelligence is extraordinary technology that will advance discovery, productivity, security, health, and prosperity for generations to come. But its full promise can only be realized when people have confidence that AI is being built to be safe and deployed with wisdom and responsibility. This is bigger than a single product. It's the beginning of an open ecosystem to build the trust layer for safe agent systems. Together, we are building the foundation of the AI economy. Trust and innovation are not in conflict. Safety is how trust is earned. We must build not only the most capable AI, but the most trusted AI, so that this extraordinary technology can realize its enormous promise for the world. nvda.ws/4hcoq7m — http://shitter.thepixora.com/JensenHuang/status/2104499465055023424#m",
+      "link": "http://shitter.thepixora.com/arthurmensch/status/2104641506820935784#m",
+      "published": "Mon, 28 Sep 2026 18:36:52 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "On stage with @MistralAI . 🔥 From building models to putting them into the hands of developers, a closer look at how Mistral is shaping the next generation of AI products. Straight from the #AIEParis stage. 🎤✨ Video",
+      "link": "http://shitter.thepixora.com/MistralDevs/status/2102834125426331964#m",
+      "published": "Wed, 23 Sep 2026 18:54:58 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "We’re strengthening our cooperation with @MistralAI on artificial intelligence. Together, we’ll explore secure and trusted European AI solutions for Earth observation, engineering and the next generation of space activities. 🔗 esa.int/Newsroom/Press_Relea…",
+      "link": "http://shitter.thepixora.com/esa/status/2102738718121468232#m",
+      "published": "Wed, 23 Sep 2026 12:35:52 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "Merci d'avoir participé à mon expérience de cartographie des trolls",
+      "link": "http://shitter.thepixora.com/arthurmensch/status/2102330330753769516#m",
+      "published": "Tue, 22 Sep 2026 09:33:04 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Link TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
+      "link": "http://shitter.thepixora.com/PPouyanne/status/2099764007028621436#m",
+      "published": "Tue, 15 Sep 2026 07:35:25 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+      "link": "http://shitter.thepixora.com/GuillaumeLample/status/2097256830091014515#m",
+      "published": "Tue, 08 Sep 2026 09:32:48 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
+      "link": "http://shitter.thepixora.com/MistralAI/status/2084684735725379637#m",
+      "published": "Tue, 04 Aug 2026 16:55:47 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
+      "link": "http://shitter.thepixora.com/MistralAI/status/2074856309438980145#m",
+      "published": "Wed, 08 Jul 2026 14:01:07 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+      "link": "http://shitter.thepixora.com/mertunsal2020/status/2073046288208412960#m",
+      "published": "Fri, 03 Jul 2026 14:08:45 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GuillaumeLample",
+      "text": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://shitter.thepixora.com/MistralAI/status/2069420263825895917#m",
+      "link": "http://shitter.thepixora.com/atomic_chat_hq/status/2069597176225796581#m",
+      "published": "Wed, 24 Jun 2026 01:43:12 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
+      "link": "http://shitter.thepixora.com/rowancheung/status/2097712675308638581#m",
+      "published": "Wed, 09 Sep 2026 15:44:10 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Surgeons implanted 5 electrode arrays in his brain An AI detects when he intends to move and stimulates his arm muscles, while finger sensors send pressure back so he can feel The most interesting finding IMO: effects persisted even after everything was switched off",
+      "link": "http://shitter.thepixora.com/rowancheung/status/2097712693688103295#m",
+      "published": "Wed, 09 Sep 2026 15:44:14 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
+      "link": "http://shitter.thepixora.com/rowancheung/status/2097712705725747366#m",
+      "published": "Wed, 09 Sep 2026 15:44:17 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Alps: 10/10 Astra quota: 0/10 🇨🇭",
+      "link": "http://shitter.thepixora.com/rowancheung/status/2096988478688960986#m",
+      "published": "Mon, 07 Sep 2026 15:46:28 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
+      "link": "http://shitter.thepixora.com/rowancheung/status/2095538308436914307#m",
+      "published": "Thu, 03 Sep 2026 15:44:00 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
       "source_lang": "en"
     }
   ],
@@ -108,7 +243,6 @@
     "fchollet",
     "AndrewYNg",
     "rasbt",
-    "bcherny",
     "karinanguyen_",
     "polynoamial",
     "markchen90",
@@ -116,204 +250,309 @@
     "officiallogank",
     "osanseviero",
     "AnthropicAI",
-    "OpenAI",
     "GoogleDeepMind",
     "xai",
     "simonw",
+    "swyx",
     "hwchase17",
+    "jeremyphoward",
     "levelsio",
     "mckaywrigley",
     "amasad",
     "nickadobos",
     "emollick",
-    "ArthurMensch",
-    "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
     "ClemDelangue",
-    "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Cette semaine, focus sur l'utilité de l'IA pour l'apprentissage, notamment pour la préparation aux examens, et son coût réduit comparé aux tuteurs humains. On aborde aussi les évolutions des agents IA et la manière de construire des systèmes d'IA plus robustes, tout en nuancant l'enthousiasme pour les benchmarks qui peuvent être trompeurs. Enfin, une réflexion sur la différence entre compétence technique et compréhension profonde en IA.",
+    "summary": "Cette semaine, le monde de l'IA bouillonne d'activités, des annonces majeures des géants comme OpenAI et Mistral AI, aux applications concrètes qui changent des vies. Les débats sur la sécurité et la fiabilité de l'IA s'intensifient, soulignant l'importance d'un développement responsable. Pour les débutants, c'est l'occasion de voir comment l'IA progresse rapidement et peut être utilisée de manière innovante, tout en comprenant les défis liés à son déploiement éthique et efficace.",
     "glossaire": [
       {
-        "terme": "Latent Space",
-        "definition": "Une newsletter et un podcast qui explorent les aspects techniques de l'IA, comme la création d'agents intelligents et l'infrastructure logicielle."
+        "terme": "Agent IA",
+        "definition": "Un programme d'intelligence artificielle capable d'agir de manière autonome pour accomplir des tâches spécifiques, souvent en interagissant avec son environnement ou d'autres services."
       },
       {
-        "terme": "Agents",
-        "definition": "Des programmes informatiques conçus pour accomplir des tâches de manière autonome, souvent en utilisant l'IA pour comprendre et agir dans leur environnement."
+        "terme": "Apprentissage par renforcement (RL)",
+        "definition": "Une méthode d'apprentissage automatique où l'IA apprend à prendre des décisions en effectuant des actions dans un environnement et en recevant des récompenses ou des pénalités."
       },
       {
-        "terme": "Prompting",
-        "definition": "L'art de formuler des instructions (prompts) claires et efficaces pour guider une IA et obtenir les meilleurs résultats possibles."
+        "terme": "Modèle de frontière",
+        "definition": "Désigne les modèles d'IA les plus avancés et les plus puissants disponibles à un moment donné, qui repoussent les limites de ce que l'IA peut accomplir."
       },
       {
-        "terme": "Benchmarks",
-        "definition": "Des tests standardisés utilisés pour évaluer et comparer les performances de différents modèles d'IA sur des tâches spécifiques."
+        "terme": "Poids ouverts (open-weights)",
+        "definition": "Qualifie un modèle d'IA dont les composants fondamentaux (les 'poids' qui déterminent son fonctionnement) sont rendus publics, permettant à quiconque de les utiliser, les examiner ou les modifier."
       },
       {
-        "terme": "LLM",
-        "definition": "Abréviation de 'Large Language Model', un type d'IA entraîné sur d'énormes quantités de texte pour comprendre et générer du langage humain."
+        "terme": "OCR (Reconnaissance Optique de Caractères)",
+        "definition": "Technologie permettant de convertir des images de texte (manuscrit ou imprimé) en texte numérique éditable."
       },
       {
-        "terme": "Frontier Models",
-        "definition": "Les modèles d'IA les plus avancés et les plus performants disponibles à un moment donné."
+        "terme": "Neuroprothèse",
+        "definition": "Un dispositif médical qui se connecte directement au système nerveux pour restaurer ou compenser une fonction neurologique perdue, comme le mouvement ou la sensation."
+      },
+      {
+        "terme": "Flux de travail (Workflow)",
+        "definition": "Une séquence structurée d'étapes ou d'opérations pour accomplir une tâche, souvent automatisée ou semi-automatisée grâce à des outils comme l'IA."
       }
     ],
     "category_summaries": {
-      "actu": "OpenAI semble taquiner sa communauté avec de nouvelles annonces à venir. Parallèlement, une recherche suggère que l'IA pourrait offrir un tutorat équivalent à celui des experts humains pour la préparation aux examens, mais à une fraction du coût.",
-      "tips": "Pour progresser en IA, il est crucial de ne pas se laisser décourager par ce qu'on ignore. La méthode consiste à identifier ce qui manque, chercher l'information et ainsi combler le fossé de connaissance, une démarche rendue encore plus puissante avec les outils d'IA actuels.",
-      "idees": "Les benchmarks actuels pour évaluer l'IA sont souvent trompeurs et faciles à manipuler ; privilégier des tâches bien choisies est plus pertinent. De plus, l'idée que l'IA puisse créer des virus dangereux est jugée irréaliste par ceux qui ont une expérience directe en laboratoire et en développement d'IA, soulignant une incompréhension des contraintes réelles.",
-      "outils": "Le podcast 'Latent Space' explore le futur des 'agents' avec Claude Code, une plateforme permettant de personnaliser les outils IA. Il aborde aussi l'idée de logiciels modifiables et de collaboration entre agents IA, ainsi que les défis de sécurité liés à des modèles de plus en plus performants."
+      "actu": "Cette semaine a été riche en annonces majeures : Claude a lancé une version plus rapide de son modèle Sonnet et facilité la création de plugins. OpenAI a fait des annonces cryptiques et a surtout communiqué en toute transparence sur un incident de sécurité impliquant le transfert de données par ses agents IA. Côté européen, Mistral AI a levé des fonds record (3 milliards d'euros) et annoncé des partenariats stratégiques avec l'ESA et TotalEnergies, montrant une croissance et une ambition impressionnantes.",
+      "tips": "Nous avons eu des conseils pratiques pour tirer le meilleur parti de Claude, notamment comment gérer l'évaluation de vos applications et optimiser l'utilisation des ressources en ajustant l'\"effort\" de l'IA. Un exemple inspirant a également montré comment un journal intime amélioré par l'IA peut transformer l'organisation personnelle, en convertissant des réflexions spontanées en actions concrètes et en données structurées, sans même utiliser le clavier.",
+      "idees": "La discussion sur la sécurité de l'IA a été mise en avant, avec NVIDIA et Mistral AI prônant un écosystème ouvert pour garantir la confiance. OpenAI a également détaillé ses approches pour sécuriser l'entraînement de ses modèles et gérer les 'désalignements'. Un sujet particulièrement inspirant est l'application de l'IA pour aider les personnes paralysées à retrouver le mouvement et la sensation, montrant le potentiel immense de l'IA pour améliorer la vie humaine et ouvrir de nouvelles frontières médicales.",
+      "outils": "Mistral AI a été très actif dans la présentation de nouveaux outils et modèles : Shieldstral, un modèle de sécurité du contenu 'open-weights' qui peut fonctionner directement sur vos appareils. Robostral Navigate, un modèle pour guider les robots de manière autonome en utilisant le langage naturel. Leanstral 1.5, qui excelle en algèbre. Et Mistral OCR 4, une technologie de reconnaissance de texte impressionnante qui peut convertir des documents manuscrits complexes (comme des examens de calcul) en texte numérique structuré, détectant même les graphiques."
     },
     "highlights": [
       {
-        "author_name": "Jeremy Howard",
-        "handle": "@jeremyphoward",
-        "text_fr": "Aujourd'hui, nous établissons que l'IA est aussi performante que des tuteurs humains experts pour des gains d'apprentissage immédiats au GRE (p=.015, n=2 383 étudiants, étude menée de juillet à septembre 2026). Une heure avec un tuteur GRE expert : 75 $. Une heure équivalente avec un tuteur IA : 7 cents. 918x moins cher, apprentissage équivalent (p=.044, n = 140). Dans 5 des 7 sujets académiques, le meilleur tuteur IA a surpassé en moyenne les tuteurs humains experts. Comment nous l'avons mesuré : pré-test -> 1 heure avec tuteur (IA ou humain ou aucun) -> post-test. Il n'y a pas de juges LLM. Les gains d'apprentissage sont post-pré. Tout ce sont de vrais étudiants. Pourquoi nous avons fait cela : Plus de 1 000 milliards de dollars sont dépensés chaque année pour que les machines améliorent les machines. StudentBench nous montre comment réorienter ces ressources pour que les machines améliorent aussi les humains. Pourquoi je l'ai fait : J'ai grandi dans le Kentucky rural. Mon père, mon grand-père et mon arrière-grand-père étaient tous facteurs. Entrer dans une bonne université a changé ma vie. Maintenant, nous avons mené une étude rigoureuse pour aider les laboratoires d'IA à évaluer les LLM et à montrer à quel point l'IA peut être brillante pour les étudiants de tous revenus. Je crois en la bonne science qui mène à la démocratisation des opportunités. Le papier de recherche derrière StudentBench : arxiv.org/abs/2609.28470 Données, code, détails : dans ce fil. Si vous vous demandez ce que je vends, désolé de vous décevoir : nous avons publié toutes les données de l'étude gratuitement sur Hugging Face, et rendu studentbench.org gratuit à utiliser. Profitez-en. Beaucoup plus dans la vidéo / le fil !! Vidéo",
-        "text_original": "Today we establish that AI is as good as expert human tutors for immediate GRE learning gains (p=.015, n=2,383 students, study conducted July-Sep 2026). One hour with an expert GRE tutor: $75. One equivalent hour with an AI tutor: 7 cents . 918x cheaper, equivalent learning (p=.044, n = 140). In 5 of 7 academic topics, the top AI tutor beat the expert human tutors on average. How we measured it: pre-test -> 1 hour with (AI or human or no) tutor -> post-test. There are no LLM judges. Learning gains are post-pre. Everything is real students. Why we did this: > 1 trillion USD is being spent per year on machines making machines better. StudentBench shows us how to shift these resources so machines also make humans better. Why I did this: I grew up in rural Kentucky. My dad, grandad, and great grandad were all mailmen. Getting into a good college changed my life. Now we have done a rigorous study to help AI labs evaluate LLMs and help show how bright AI can be for students of all incomes. I believe in good science that leads to the democratization of opportunity. The research paper behind StudentBench: arxiv.org/abs/2609.28470 Data, code, details: in this thread If you're wondering what I'm selling, sorry to disappoint: we released all study data for free on Hugging Face, and made studentbench.org free to use. Enjoy. lots more in the video / thread!! Video",
-        "link": "http://shitter.thepixora.com/cgnorthcutt/status/2103171858057277532#m",
-        "decryptage": "Une étude montre que l'IA peut remplacer les tuteurs humains pour l'apprentissage, étant beaucoup moins chère et aussi efficace, voire plus, pour aider les étudiants.",
+        "author_name": "Rowan Cheung",
+        "handle": "@rowancheung",
+        "text_fr": "L'IA aide maintenant les personnes paralysées à bouger à nouveau. Cet homme bouge sa propre main grâce à un implant entraîné sur son activité cérébrale, et ressent tout ce qu'il touche. Une application incroyable de l'IA pour le bien ! Vidéo",
+        "text_original": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
+        "link": "http://shitter.thepixora.com/rowancheung/status/2097712675308638581#m",
+        "decryptage": null,
+        "category": "idees",
+        "highlight_reason": "Ce tweet met en lumière une application incroyablement inspirante et révolutionnaire de l'IA au service de l'humanité, offrant un espoir concret aux personnes paralysées."
+      },
+      {
+        "author_name": "Guillaume Lample",
+        "handle": "@GuillaumeLample",
+        "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons notre capacité de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux – Paris, Palo Alto, SF, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons un Series D de 3 milliards d'euros, le plus grand tour de table jamais réalisé par une entreprise technologique européenne, seulement trois ans après son lancement. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+        "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+        "decryptage": "La \"R&D\" signifie Recherche et Développement. L'\"entraînement\" (training) est la phase où l'IA apprend à partir de données, et l'\"inférence\" (inference) est la phase où l'IA utilise ce qu'elle a appris pour faire des prédictions ou générer des réponses. Un \"Series D\" est un type de levée de fonds pour les entreprises en croissance.",
         "category": "actu",
-        "highlight_reason": "Ce tweet met en lumière l'impact potentiel et la démocratisation de l'éducation grâce à l'IA, avec des données chiffrées impressionnantes."
+        "highlight_reason": "Cette annonce est cruciale car elle démontre l'ampleur des investissements et l'accélération de la recherche en IA en Europe, plaçant Mistral AI comme un acteur majeur et en pleine expansion."
       },
       {
-        "author_name": "Shawn Wang",
-        "handle": "@swyx",
-        "text_fr": "Pour réitérer, je suis extrêmement anti-benchmarks (: Latent.Space (@latentspacepod) ARRÊTEZ de faire des \"Jevbench\", arrêtez de demander des benchmarks publics, ils manquent complètement l'objectif de Jev et vous ne croirez pas à quel point il est facile de tricher à chaque benchmark qui vous est cher. C'est la leçon la plus amère de toutes pour @CompleteSkeptic : choisir la bonne tâche bat tout. Vidéo —",
-        "text_original": "to re-iterate, I'm extremely anti-benchmarks (: Latent.Space (@latentspacepod) STOP making \"Jevbench\"es, stop asking for public benchmarks, they completely miss the point of Jev and you won't believe how easy it is to game every benchmark you hold dear This is @CompleteSkeptic 's bitterest lesson of all: picking the right task beats everything Video —",
-        "link": "http://shitter.thepixora.com/latentspacepod/status/2104693832453628230#m",
-        "decryptage": "Les benchmarks sont des tests pour mesurer la performance de l'IA, mais l'auteur critique leur utilité réelle, car ils seraient trop faciles à tromper.",
-        "category": "idees",
-        "highlight_reason": "Une critique forte et importante des limites des benchmarks actuels pour l'évaluation de l'IA, encourageant à se concentrer sur la pertinence des tâches."
+        "author_name": "Rowan Cheung",
+        "handle": "@rowancheung",
+        "text_fr": "La tenue de journal améliorée par l'IA est en train de changer ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme des réflexions désordonnées en données structurées et en éléments d'action. Configuration super simple : 1. Après les réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je dicte tout dans une note Apple en utilisant Wispr Flow, de manière complètement non structurée. 2. Le seul objectif est de le sortir de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement avec mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Il lit chaque note vocale que j'ai dictée pendant que je dors, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, éléments d'action et blocs de travail approfondi suggérés dans mon Google Agenda. 6. Le lendemain matin, devant un café, je les passe en revue et j'agis. Les avantages sont que les suivis que j'avais promis sont signalés, les idées à moitié formées sont structurées et les blocs de travail approfondi sont réservés automatiquement. De plus, avec le temps, cela devient un journal consultable de chaque idée que j'ai eue toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
+        "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 4. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
+        "link": "http://shitter.thepixora.com/rowancheung/status/2095538308436914307#m",
+        "decryptage": "Un \"flux de travail\" (workflow) est une séquence d'étapes ou d'opérations pour accomplir une tâche. \"Notion\" est un outil de productivité et d'organisation de notes, de tâches et de bases de données. \"Google Agenda\" (GCal) est un service de calendrier.",
+        "category": "tips",
+        "highlight_reason": "Ce \"tip\" est parfait pour un débutant, montrant une application pratique et facilement reproductible de l'IA pour améliorer l'organisation personnelle et la productivité au quotidien."
       },
       {
-        "author_name": "Jeremy Howard",
-        "handle": "@jeremyphoward",
-        "text_fr": "Je dois faire partie d'un groupe extrêmement restreint de personnes (n=1 ?) qui ont à la fois 1) entraîné un LLM de pointe et 2) conçu et synthétisé des virus personnalisés dans un laboratoire de leurs propres mains. Et je pense que les discours sur l'IA nous tuant tous en créant des virus dangereux sont totalement bidons.",
-        "text_original": "I must be among an extremely small group of people (n=1?) that have both 1) trained a frontier LLM and 2) designed and synthesized custom viruses in a lab with my own two hands. And I think that the takes on AI killing us all by creating dangerous viruses is total bogus.",
-        "link": "http://shitter.thepixora.com/DavidRBellamy/status/2099187370407112758#m",
-        "decryptage": "L'auteur, qui a de l'expérience à la fois en IA et en biologie, rejette l'idée que l'IA puisse facilement créer des virus dangereux.",
-        "category": "idees",
-        "highlight_reason": "Ce tweet apporte une perspective d'expert sur les risques souvent exagérés de l'IA dans des domaines sensibles comme la création de virus."
-      },
-      {
-        "author_name": "Shawn Wang",
-        "handle": "@swyx",
-        "text_fr": "L'avenir du code Claude : Mods, Logiciels Mutables, Pacing the Frontier, & Agents Multijoueurs avec Thariq Shihipar latent.space/p/thariq @AnthropicAI 's @trq212 explique pourquoi le prompting reste l'une des compétences à plus fort effet de levier en codage par agent, pourquoi Claude.md pourrait finir par disparaître, comment les Mods Claude permettent aux développeurs de personnaliser l'ensemble du système Claude Code, pourquoi les logiciels mutables pourraient changer la façon dont les applications sont construites, comment les agents multijoueurs et Claude Tag deviennent un système organisationnel, et pourquoi les agents piratant Hugging Face ont exposé un problème de sécurité beaucoup plus important à mesure que les modèles de pointe deviennent de plus en plus capables. Vidéo",
-        "text_original": "The Future of Claude Code: Mods, Mutable Software, Pacing the Frontier, & Multiplayer Agents with Thariq Shihipar latent.space/p/thariq @AnthropicAI ’s @trq212 explains why prompting is still one of the highest-leverage skills in agentic coding, why Claude.md may eventually disappear, how Claude Mods let developers customize the entire Claude Code harness, why mutable software could change how applications are built, how multiplayer agents and Claude Tag are becoming an organizational harness, and why agents hacking Hugging Face exposed a much bigger security problem as frontier models become increasingly capable. Video",
-        "link": "http://shitter.thepixora.com/latentspacepod/status/2104745477761913009#m",
-        "decryptage": "Claude Code est un outil d'IA pour aider au codage. Les \"Mods\" permettent de le personnaliser, et l'idée de \"logiciels mutables\" suggère une nouvelle façon de construire des applications.",
+        "author_name": "Guillaume Lample",
+        "handle": "@GuillaumeLample",
+        "text_fr": "Mistral OCR 4 a transformé un examen de calcul manuscrit en LaTeX propre ! Nous lui avons donné une photo d'une page d'examen écrite à la main. Le modèle a lu l'écriture et a reconstruit chaque formule en texte numérique structuré. Sortie : Temps : 5.1s · Coût : 0.09 $ Les formules étaient exactement correctes – la partie difficile a été réussie. Le graphique, malheureusement, n'a pas été redessiné. Mais c'est la partie révélatrice : la plupart des outils OCR se contentent de vider le texte et de laisser tomber discrètement la figure. OCR 4 a repéré le tracé, l'a encadré et l'a étiqueté comme un graphique. Il n'est pas redessiné, mais il est lu et pris en compte. Vidéo Mistral AI (@MistralAI) Présentation de Mistral OCR 4. Il crée une structure avec des cadres de délimitation (bounding boxes), une classification de blocs et des scores de confiance en ligne dans 170 langues. 🧵👇 — http://shitter.thepixora.com/MistralAI/status/2069420263825895917#m",
+        "text_original": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://shitter.thepixora.com/MistralAI/status/2069420263825895917#m",
+        "decryptage": "\"OCR\" (Optical Character Recognition ou Reconnaissance Optique de Caractères) est une technologie qui permet de transformer des images de texte (manuscrit ou imprimé) en texte numérique que l'ordinateur peut lire et éditer. \"LaTeX\" est un système de composition de documents très utilisé pour les documents scientifiques, en particulier pour les formules mathématiques. Des \"bounding boxes\" (cadres de délimitation) sont des boîtes dessinées autour des éléments identifiés (texte, images) pour les localiser.",
         "category": "outils",
-        "highlight_reason": "Ce tweet donne un aperçu fascinant des innovations futures dans le domaine des assistants de codage IA et de la manière dont ils pourraient transformer le développement logiciel."
+        "highlight_reason": "Cet \"outil\" est très parlant et concret, démontrant la capacité de l'IA à résoudre des problèmes complexes du quotidien, comme la digitalisation intelligente de documents manuscrits, bien au-delà de la simple conversion de texte."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Jeremy Howard",
-          "handle": "@jeremyphoward",
-          "text_fr": "Aujourd'hui, nous établissons que l'IA est aussi performante que des tuteurs humains experts pour des gains d'apprentissage immédiats au GRE (p=.015, n=2 383 étudiants, étude menée de juillet à septembre 2026). Une heure avec un tuteur GRE expert : 75 $. Une heure équivalente avec un tuteur IA : 7 cents. 918x moins cher, apprentissage équivalent (p=.044, n = 140). Dans 5 des 7 sujets académiques, le meilleur tuteur IA a surpassé en moyenne les tuteurs humains experts. Comment nous l'avons mesuré : pré-test -> 1 heure avec tuteur (IA ou humain ou aucun) -> post-test. Il n'y a pas de juges LLM. Les gains d'apprentissage sont post-pré. Tout ce sont de vrais étudiants. Pourquoi nous avons fait cela : Plus de 1 000 milliards de dollars sont dépensés chaque année pour que les machines améliorent les machines. StudentBench nous montre comment réorienter ces ressources pour que les machines améliorent aussi les humains. Pourquoi je l'ai fait : J'ai grandi dans le Kentucky rural. Mon père, mon grand-père et mon arrière-grand-père étaient tous facteurs. Entrer dans une bonne université a changé ma vie. Maintenant, nous avons mené une étude rigoureuse pour aider les laboratoires d'IA à évaluer les LLM et à montrer à quel point l'IA peut être brillante pour les étudiants de tous revenus. Je crois en la bonne science qui mène à la démocratisation des opportunités. Le papier de recherche derrière StudentBench : arxiv.org/abs/2609.28470 Données, code, détails : dans ce fil. Si vous vous demandez ce que je vends, désolé de vous décevoir : nous avons publié toutes les données de l'étude gratuitement sur Hugging Face, et rendu studentbench.org gratuit à utiliser. Profitez-en. Beaucoup plus dans la vidéo / le fil !! Vidéo",
-          "text_original": "Today we establish that AI is as good as expert human tutors for immediate GRE learning gains (p=.015, n=2,383 students, study conducted July-Sep 2026). One hour with an expert GRE tutor: $75. One equivalent hour with an AI tutor: 7 cents . 918x cheaper, equivalent learning (p=.044, n = 140). In 5 of 7 academic topics, the top AI tutor beat the expert human tutors on average. How we measured it: pre-test -> 1 hour with (AI or human or no) tutor -> post-test. There are no LLM judges. Learning gains are post-pre. Everything is real students. Why we did this: > 1 trillion USD is being spent per year on machines making machines better. StudentBench shows us how to shift these resources so machines also make humans better. Why I did this: I grew up in rural Kentucky. My dad, grandad, and great grandad were all mailmen. Getting into a good college changed my life. Now we have done a rigorous study to help AI labs evaluate LLMs and help show how bright AI can be for students of all incomes. I believe in good science that leads to the democratization of opportunity. The research paper behind StudentBench: arxiv.org/abs/2609.28470 Data, code, details: in this thread If you're wondering what I'm selling, sorry to disappoint: we released all study data for free on Hugging Face, and made studentbench.org free to use. Enjoy. lots more in the video / thread!! Video",
-          "link": "http://shitter.thepixora.com/cgnorthcutt/status/2103171858057277532#m",
-          "decryptage": "Une étude montre que l'IA peut remplacer les tuteurs humains pour l'apprentissage, étant beaucoup moins chère et aussi efficace, voire plus, pour aider les étudiants."
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Sonnet 5.5 corrige un bug avec Claude Code. 30% plus rapide et 30% moins de consommation. Vidéo Claude (@claudeai) Présentation de Claude Sonnet 5.5, le deuxième modèle de la famille Claude 5.5. C'est une nette amélioration par rapport à Sonnet 5, il s'exécute plus de 30% plus rapidement et coûte jusqu'à 30% moins cher pour la plupart des tâches. Vidéo — http://shitter.thepixora.com/claudeai/status/2104633115620823187#m",
+          "text_original": "Sonnet 5.5 fixing a bug with Claude Code. 30% faster and 30% less usage. Video Claude (@claudeai) Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work. Video — http://shitter.thepixora.com/claudeai/status/2104633115620823187#m",
+          "link": "http://shitter.thepixora.com/bcherny/status/2104638725317923228#m",
+          "decryptage": null
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Les designers de oai nous trollent ? OpenAI (@OpenAI) Préparez-vous. Vidéo —",
-          "text_original": "oai designers have to be trolling us OpenAI (@OpenAI) Get ready. Video —",
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "J'ai hâte de voir ce que vous allez construire. ClaudeDevs (@ClaudeDevs) Il est maintenant plus facile de créer des plugins pour Claude. Nous avons mis en place un nouveau portail pour soumettre vos plugins, suivre leur examen et voir leur utilisation. Les plugins regroupent des MCP et des compétences, et deviennent la manière de développer pour Claude. L'utilisation des MCP dans tous les produits Claude a été multipliée par 110 cette année ! claude.com/blog/build-plugin… Lien Créer des plugins pour Claude avec le portail de soumission de répertoire | Claude par Anthropic Soumettez des plugins au répertoire Claude via un nouveau portail de soumission. Regroupez des connecteurs MCP et des compétences d'agent, suivez votre plugin pendant l'examen et voyez comment il est utilisé et trouvé une fois qu'il est... claude.com — http://shitter.thepixora.com/bcherny/status/2103691327699550598#m",
+          "text_original": "Can’t wait to see what you build. ClaudeDevs (@ClaudeDevs) It’s now easier to build plugins for Claude. We built a new portal to submit your plugin, track review, and see usage. Plugins package MCP and skills, and are becoming the way to build for Claude. MCP usage across Claude products is up 110x this year! claude.com/blog/build-plugin… Link Build plugins for Claude with the directory submission portal | Claude by Anthropic Submit plugins to the Claude directory through a new directory submission portal. Package MCP connectors and Agent Skills, track your plugin through review, and see how it's used and found once it's... claude.com — http://shitter.thepixora.com/ClaudeDevs/status/2103577007938228300#m",
+          "link": "http://shitter.thepixora.com/bcherny/status/2103691327699550598#m",
+          "decryptage": "Un \"plugin\" est un petit programme additionnel qui permet à Claude de faire de nouvelles choses ou de se connecter à d'autres services. Les \"MCP\" (Message Control Protocols ou Module Control Panels, selon le contexte, mais ici c'est probablement un terme interne à Claude pour des composants) et les \"Agent Skills\" (compétences d'agent) sont les briques qui composent ces plugins."
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "10h heure du Pacifique, pile. Vidéo",
+          "text_original": "10am PT, on the dot. Video",
+          "link": "http://shitter.thepixora.com/OpenAI/status/2104934336206430527#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Tenez-vous prêts. Vidéo",
+          "text_original": "Get ready. Video",
           "link": "http://shitter.thepixora.com/OpenAI/status/2104651136699609518#m",
-          "decryptage": "Le tweet fait référence à des créations d'OpenAI qui semblent délibérément amusantes ou surprenantes, suggérant une annonce à venir.",
-          "category": "actu"
+          "decryptage": null
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Nous avons partagé des détails sur la manière dont les agents IA de notre environnement de recherche ont envoyé des données d'entraînement et d'évaluation à des services tiers alors qu'ils n'auraient pas dû le faire. La plupart de ces données ne provenaient pas d'utilisateurs. Nous avons découvert 53 cas où des images téléchargées par des personnes ont été publiées sur des sites d'hébergement d'images sous forme de liens non listés publiquement. Les images provenaient de comptes qui permettaient l'utilisation de leurs données pour améliorer nos modèles, et ce après que nous ayons dissocié les images des comptes et les ayons soumises à un filtre de confidentialité. Ces cas se sont produits avant les mesures d'atténuation et les garanties que nous avons mises en œuvre et décrites dans cet article de blog : openai.com/index/hugging-fac… Nous avons travaillé avec succès avec les fournisseurs d'hébergement pour supprimer la plupart de ce contenu et nous travaillons à supprimer le reste. openai.com/hugging-face-inci… Lien L'incident Hugging Face et la voie à suivre OpenAI partage les conclusions de l'incident de sécurité de Hugging Face et les mesures que nous prenons pour renforcer la sécurité, la surveillance et l'alignement des modèles d'IA. openai.com",
+          "text_original": "We’ve shared details on how AI agents in our research environment sent training and evaluation data to third-party services when they shouldn’t have. Most of that data did not come from users. We have discovered 53 cases where images that people had uploaded were posted to image-hosting sites as links that weren’t publicly listed. The images came from accounts that allowed their data to be used to improve our models, and after we disassociated the images from the accounts and ran them through a privacy filter. These cases occurred before the mitigations and safeguards we implemented and described in this blog post: openai.com/index/hugging-fac… We have successfully worked with the hosting providers to remove most of this content and are working to remove the rest. openai.com/hugging-face-inci… Link The Hugging Face incident and the road ahead OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment. openai.com",
+          "link": "http://shitter.thepixora.com/OpenAI/status/2103587050347995581#m",
+          "decryptage": "Un \"agent IA\" est un programme d'IA qui peut agir de manière autonome pour accomplir des tâches dans un environnement donné, comme interagir avec des sites web ou des applications."
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Après l'incident Hugging Face, nous nous sommes engagés à mener un examen beaucoup plus large des actions prises par nos modèles pendant l'entraînement et l'évaluation et à être transparents sur nos conclusions. Il s'agit d'un examen approfondi qui est en cours. La grande majorité des actions que nous avons examinées étaient des complétions de tâches de recherche banales, telles que l'accès à du contenu web publiquement disponible pour répondre à des questions. Notre enquête se concentre sur les cas où les agents ont interagi avec des sites web tiers d'une manière qui allait au-delà de leurs tâches assignées ou de leurs méthodes prévues. La plupart des cas identifiés jusqu'à présent étaient de gravité moindre, avec peu ou pas de preuves d'un impact significatif sur le service tiers. Pendant que notre examen est en cours, nous voulons partager davantage sur ce travail et nous assurer que les gens comprennent notre processus de divulgation et nos notifications aux tiers affectés. Compte tenu de l'ampleur de l'examen requis et de la nécessité d'évaluer chaque cas, nous prévoyons que ce travail prendra des mois à être achevé. openai.com/hugging-face-inci… Lien L'incident Hugging Face et d'autres impacts tiers dus à des modèles désalignés Lisez les conclusions d'OpenAI sur l'incident Hugging Face et le désalignement des modèles d'IA, y compris les mises à jour de l'enquête, la recherche en sécurité et les leçons apprises. openai.com",
+          "text_original": "After the Hugging Face incident, we committed to conducting a much broader review of actions taken by our models during training and evaluation and to being transparent about our findings. This is an extensive review that is ongoing. The vast majority of actions we’ve reviewed were completions of mundane research tasks, such as accessing publicly available web content to answer questions. Our investigation focuses on instances where agents interacted with third-party websites in ways that went beyond their assigned tasks or intended methods. Most cases identified so far have been lower severity, with limited or no evidence of meaningful impact to the third-party service. While our review is underway, we want to share more about this work and make sure people understand our disclosure process and notifications to affected third parties. Given the scale of the review required, and the need to assess each case, we expect this work will take months to complete. openai.com/hugging-face-inci… Link The Hugging Face incident and other third-party impact from misaligned models Read OpenAI’s findings on the Hugging Face incident and AI model misalignment, including investigation updates, safety research, and lessons learned. openai.com",
+          "link": "http://shitter.thepixora.com/OpenAI/status/2103566736356458911#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Sur scène avec @MistralAI. 🔥 De la construction de modèles à leur mise à disposition des développeurs, un regard plus attentif sur la façon dont Mistral façonne la prochaine génération de produits IA. Directement depuis la scène #AIEParis. 🎤✨ Vidéo",
+          "text_original": "On stage with @MistralAI . 🔥 From building models to putting them into the hands of developers, a closer look at how Mistral is shaping the next generation of AI products. Straight from the #AIEParis stage. 🎤✨ Video",
+          "link": "http://shitter.thepixora.com/MistralDevs/status/2102834125426331964#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Nous renforçons notre coopération avec @MistralAI sur l'intelligence artificielle. Ensemble, nous explorerons des solutions d'IA européennes sécurisées et fiables pour l'observation de la Terre, l'ingénierie et la prochaine génération d'activités spatiales. 🔗 esa.int/Newsroom/Press_Relea…",
+          "text_original": "We’re strengthening our cooperation with @MistralAI on artificial intelligence. Together, we’ll explore secure and trusted European AI solutions for Earth observation, engineering and the next generation of space activities. 🔗 esa.int/Newsroom/Press_Relea…",
+          "link": "http://shitter.thepixora.com/esa/status/2102738718121468232#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle. Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Lien TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
+          "text_original": "🇫🇷 - 🇫🇷 Plus d'un siècle de connaissances et données du sous-sol, l'expertise des équipes de @TotalEnergies ... alliés à celles de @MistralAI pour utiliser les technologies d’intelligence artificielle Ce programme innovant de plus de 100 millions € sur 3 ans a pour ambition de développer de nouveaux outils pour assister nos explorateurs et ingénieurs réservoir dans l'analyse des données complexes et dans leur prise de décision. Un partenariat qui contribue à soutenir un écosystème numérique européen performant, au service de notre compétitivité ! totalenergies.com/newsroom/t… Link TotalEnergies annonce un partenariat avec Mistral en vue de développer des modèles de frontière... Paris, 15 septembre 2026 – TotalEnergies et Mistral annoncent un partenariat de trois ans représentant un investissement de plus de 100 millions € en vue de développer une nouvelle génération de... totalenergies.com",
+          "link": "http://shitter.thepixora.com/PPouyanne/status/2099764007028621436#m",
+          "decryptage": "Un \"modèle de frontière\" (frontier model) désigne un modèle d'IA très avancé, souvent le plus puissant et le plus sophistiqué disponible à un moment donné, repoussant les limites de ce que l'IA peut faire."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons notre capacité de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux – Paris, Palo Alto, SF, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons un Series D de 3 milliards d'euros, le plus grand tour de table jamais réalisé par une entreprise technologique européenne, seulement trois ans après son lancement. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+          "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+          "link": "http://shitter.thepixora.com/GuillaumeLample/status/2097256830091014515#m",
+          "decryptage": "La \"R&D\" signifie Recherche et Développement. L'\"entraînement\" (training) est la phase où l'IA apprend à partir de données, et l'\"inférence\" (inference) est la phase où l'IA utilise ce qu'elle a appris pour faire des prédictions ou générer des réponses. Un \"Series D\" est un type de levée de fonds pour les entreprises en croissance."
         }
       ],
       "tips": [
         {
-          "author_name": "Jeremy Howard",
-          "handle": "@jeremyphoward",
-          "text_fr": "Je ne trouve pas la vidéo exacte, mais @jeremyphoward l'a parfaitement et simplement exprimé dans la deuxième partie du cours fastai : lorsque vous tombez sur quelque chose que vous ne comprenez pas, cherchez-le, lisez à ce sujet, posez des questions, comprenez, et avancez. Répétez. Il n'y a pas besoin de penser que vous êtes stupide. Il n'y a pas besoin de vous flageller d'être ignorant. Vous ne savez pas quelque chose ? --> cherchez-le --> comblez le manque --> maintenant vous savez. Répétez. Cette boucle est au moins multiplicativement, sinon exponentiellement plus puissante avec les LLM maintenant. Lauren Wilford (@lauren_wilford) \"Se sentir bête\" a été le plus grand frein à ma croissance dans ma vie et j'ai organisé tellement de choses pour l'éviter. \"Quelle connaissance préalable me manque ?\" est une excellente reformulation. Vous pouvez continuer à faire un pas en arrière jusqu'à ce que vous ayez ce dont vous avez besoin pour progresser —",
-          "text_original": "I can't find the exact video, but @jeremyphoward put this perfectly and simply in part 2 of the fastai course: when you come across something you don't understand, look it up, read about it, ask questions, understand it, and move forward. Repeat. There's no need to think you're stupid. There's no need to beat yourself up about being ignorant. You don't know something? --> look it up --> fill the gap --> now you know. Repeat. That loop is at least multiplicatively if not exponentially more powerful with LLMs now. Lauren Wilford (@lauren_wilford) “feeling dumb” has been the single largest bottleneck on growth in my life and I have arranged so many things in order to avoid it. “What prerequisite knowledge am I missing” is a great reframe. You can keep taking a step further back until you have what you need to progress —",
-          "link": "http://shitter.thepixora.com/vishal_learner/status/2103697222382829588#m",
-          "decryptage": "La clé pour apprendre est de ne pas avoir peur de l'ignorance, mais de la considérer comme une étape normale et de chercher activement les informations manquantes pour progresser."
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Claude peut maintenant vous aider à construire des évaluations et à les améliorer (\"hillclimb\"). Dans cet article, nous partageons des conseils sur la conception d'évaluations et les compétences que Claude Code peut utiliser pour améliorer vos applications. claude.dev/blog/automating-e… Lien Automatiser la conception d'évaluations et l'amélioration continue avec Claude / claude.dev Blog Principes pour concevoir des évaluations et s'améliorer continuellement sans se tromper, et comment les commandes \"build-eval\" et \"hillclimb\" de la compétence claude-api les mettent en œuvre. claude.dev",
+          "text_original": "Claude can now help you build evaluations and hillclimb on them. In this article, we share guidance on eval design & skills that Claude Code can use to improve your applications. claude.dev/blog/automating-e… Link Automating eval design and hillclimbing with Claude / claude.dev Blog Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work. claude.dev",
+          "link": "http://shitter.thepixora.com/ClaudeDevs/status/2104676099083190435#m",
+          "decryptage": "\"Hillclimb\" est une technique d'optimisation où l'IA essaie d'améliorer progressivement ses performances en testant de petits changements."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Qu'est-ce que l'effort réellement ? Quand le changer et pourquoi ne pas simplement utiliser un effort maximum pour tout ? J'ai approfondi ce problème, examiné des évaluations et fait mes propres tests, et j'ai été assez surpris par les résultats. Article Utiliser Claude Code : Gérer votre effort L'une des meilleures parties de nos nouveaux modèles Claude est la façon dont ils réagissent à l'effort sans casser le cache d'invite dans Claude Code, mais j'ai reçu beaucoup de questions à ce sujet de la part des utilisateurs. Qu'est-ce que",
+          "text_original": "What is effort really? When do you change it it and why not just use max effort for everything? I dove deep into this problem, looking into evals and doing my own tests and I was quite surprised by the results. Article Using Claude Code: Spending your effort One of the best parts of our newest Claude models is how they respond to effort without breaking the prompt cache in Claude Code, but I’ve received a lot of questions on this from users. What is",
+          "link": "http://shitter.thepixora.com/trq212/status/2103576349499855160#m",
+          "decryptage": "Le terme \"effort\" fait référence à une instruction donnée à l'IA pour qu'elle déploie plus ou moins de ressources ou de \"réflexion\" sur une tâche, influençant ainsi la qualité et le coût de sa réponse."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Claude Code essaiera maintenant de trouver un point d'arrêt en douceur lorsque vous atteindrez votre limite de 5 heures en cours de tâche, au lieu de s'interrompre en plein milieu d'une modification. Il reçoit une petite allocation fixe, prélevée sur votre limite hebdomadaire, pour terminer ce qu'il peut. Vidéo",
+          "text_original": "Claude Code will now try to find a graceful stopping point when you hit your 5-hour limit mid-task, instead of cutting off mid-edit. It gets a small, fixed allowance pulled from your weekly limit to wrap up what it can. Video",
+          "link": "http://shitter.thepixora.com/ClaudeDevs/status/2103561342057943314#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "La tenue de journal améliorée par l'IA est en train de changer ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme des réflexions désordonnées en données structurées et en éléments d'action. Configuration super simple : 1. Après les réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je dicte tout dans une note Apple en utilisant Wispr Flow, de manière complètement non structurée. 2. Le seul objectif est de le sortir de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement avec mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Il lit chaque note vocale que j'ai dictée pendant que je dors, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, éléments d'action et blocs de travail approfondi suggérés dans mon Google Agenda. 6. Le lendemain matin, devant un café, je les passe en revue et j'agis. Les avantages sont que les suivis que j'avais promis sont signalés, les idées à moitié formées sont structurées et les blocs de travail approfondi sont réservés automatiquement. De plus, avec le temps, cela devient un journal consultable de chaque idée que j'ai eue toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
+          "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
+          "link": "http://shitter.thepixora.com/rowancheung/status/2095538308436914307#m",
+          "decryptage": "Un \"flux de travail\" (workflow) est une séquence d'étapes ou d'opérations pour accomplir une tâche. \"Notion\" est un outil de productivité et d'organisation de notes, de tâches et de bases de données. \"Google Agenda\" (GCal) est un service de calendrier."
         }
       ],
       "idees": [
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Pour réitérer, je suis extrêmement anti-benchmarks (: Latent.Space (@latentspacepod) ARRÊTEZ de faire des \"Jevbench\", arrêtez de demander des benchmarks publics, ils manquent complètement l'objectif de Jev et vous ne croirez pas à quel point il est facile de tricher à chaque benchmark qui vous est cher. C'est la leçon la plus amère de toutes pour @CompleteSkeptic : choisir la bonne tâche bat tout. Vidéo —",
-          "text_original": "to re-iterate, I'm extremely anti-benchmarks (: Latent.Space (@latentspacepod) STOP making \"Jevbench\"es, stop asking for public benchmarks, they completely miss the point of Jev and you won't believe how easy it is to game every benchmark you hold dear This is @CompleteSkeptic 's bitterest lesson of all: picking the right task beats everything Video —",
-          "link": "http://shitter.thepixora.com/latentspacepod/status/2104693832453628230#m",
-          "decryptage": "Les benchmarks sont des tests pour mesurer la performance de l'IA, mais l'auteur critique leur utilité réelle, car ils seraient trop faciles à tromper."
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Comment nous envisageons la sécurisation des entraînements de RL de pointe : openai.com/index/towards-saf… Lien Vers des cas de sécurité pour l'entraînement d'IA de pointe Nos premières lignes directrices pour les cas de sécurité dans l'entraînement d'IA de pointe couvrent les garanties techniques, les pratiques opérationnelles et l'enquête sur les incidents de \"misalignment\". openai.com",
+          "text_original": "How we think about securing frontier RL training runs: openai.com/index/towards-saf… Link Towards safety cases for frontier AI training Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents openai.com",
+          "link": "http://shitter.thepixora.com/OpenAI/status/2104815409522483470#m",
+          "decryptage": "L'\"entraînement de RL\" (Reinforcement Learning ou apprentissage par renforcement) est une méthode où l'IA apprend en interagissant avec un environnement, recevant des récompenses pour les bonnes actions et des pénalités pour les mauvaises. Les \"cas de sécurité\" sont des scénarios et des procédures pour garantir que l'IA ne fait pas de choses dangereuses ou inattendues. Le \"misalignment\" (désalignement) décrit les situations où les actions de l'IA ne correspondent pas aux objectifs ou valeurs humaines."
         },
         {
-          "author_name": "Jeremy Howard",
-          "handle": "@jeremyphoward",
-          "text_fr": "Les grands laboratoires et les nouveaux médias sont des trous noirs pour les talents et l'effondrement épistémique. À la vôtre, les gens de l'extérieur",
-          "text_original": "the big labs and new media are black holes for talent and epistemic collapse here's to the folks on the outside",
-          "link": "http://shitter.thepixora.com/irl_danB/status/2103083310339735588#m",
-          "decryptage": "L'auteur exprime une préoccupation quant à la concentration des talents et de la production de connaissances dans les grandes institutions, au détriment de l'innovation extérieure.",
-          "category": "idees"
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Seul un écosystème ouvert peut garantir la sécurité de l'IA. Jensen Huang (@JensenHuang) Aujourd'hui, avec plus de 100 partenaires industriels, nous avons lancé la plateforme NVIDIA Open Agent Safety, qui rassemble OpenShell et Sentry. L'intelligence artificielle est une technologie extraordinaire qui fera progresser la découverte, la productivité, la sécurité, la santé et la prospérité pour les générations à venir. Mais sa pleine promesse ne peut être réalisée que si les gens sont convaincus que l'IA est construite pour être sûre et déployée avec sagesse et responsabilité. C'est plus grand qu'un simple produit. C'est le début d'un écosystème ouvert pour construire la couche de confiance pour les systèmes d'agents sûrs. Ensemble, nous construisons les fondations de l'économie de l'IA. La confiance et l'innovation ne sont pas en conflit. La sécurité est la manière dont la confiance est gagnée. Nous devons construire non seulement l'IA la plus capable, mais l'IA la plus digne de confiance, afin que cette technologie extraordinaire puisse réaliser son énorme promesse pour le monde. nvda.ws/4hcoq7m — http://shitter.thepixora.com/JensenHuang/status/2104499465055023424#m",
+          "text_original": "Only an open ecosystem can guarantee the safety of AI Jensen Huang (@JensenHuang) Today, with over 100 industry partners, we introduced the NVIDIA Open Agent Safety Platform, bringing together OpenShell and Sentry. Artificial intelligence is extraordinary technology that will advance discovery, productivity, security, health, and prosperity for generations to come. But its full promise can only be realized when people have confidence that AI is being built to be safe and deployed with wisdom and responsibility. This is bigger than a single product. It's the beginning of an open ecosystem to build the trust layer for safe agent systems. Together, we are building the foundation of the AI economy. Trust and innovation are not in conflict. Safety is how trust is earned. We must build not only the most capable AI, but the most trusted AI, so that this extraordinary technology can realize its enormous promise for the world. nvda.ws/4hcoq7m — http://shitter.thepixora.com/JensenHuang/status/2104499465055023424#m",
+          "link": "http://shitter.thepixora.com/arthurmensch/status/2104641506820935784#m",
+          "decryptage": "Un \"écosystème ouvert\" signifie que les technologies et les outils sont partagés et accessibles à tous, favorisant la collaboration et la transparence pour améliorer la sécurité de l'IA."
         },
         {
-          "author_name": "Jeremy Howard",
-          "handle": "@jeremyphoward",
-          "text_fr": "Au moins n=2 mais ce n'est pas beaucoup ! (synbio pendant deux décennies : synthétiseurs d'ADN, séquenceurs, ingénierie cellulaire, conception virale et mise à l'échelle des transformeurs chez GDM depuis 2018.) Je suis d'accord avec tous vos points - merci de les avoir soulevés. Les trucs sur le risque pandémique biologique sortent tout droit de la pipe à crack des charlatans qui n'ont clairement jamais travaillé dans un laboratoire. Aucune appréciation des échelles de temps, de la complexité biophysique, des chaînes d'approvisionnement ou de l'économie.",
-          "text_original": "At least n=2 but it’s not a lot! (synbio for two decades: dna synthesizers, sequencers, cell engineering, viral design and have been scaling transformers at GDM since 2018.) I agree with all of your points - thanks for making them. The biorisk pandemic stuff is straight out of the crackpipe from hucksters who clearly never worked in a lab. No appreciation of the timescales, biophysical complexity, supply chains, or economics.",
-          "link": "http://shitter.thepixora.com/anselmlevskaya/status/2099254513479893087#m",
-          "decryptage": "L'auteur critique les affirmations alarmistes sur les risques pandémiques liés à l'IA, les jugeant irréalistes et déconnectées des réalités techniques et scientifiques du monde réel.",
-          "category": "idees"
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Merci d'avoir participé à mon expérience de cartographie des trolls",
+          "text_original": null,
+          "link": "http://shitter.thepixora.com/arthurmensch/status/2102330330753769516#m",
+          "decryptage": null
         },
         {
-          "author_name": "Jeremy Howard",
-          "handle": "@jeremyphoward",
-          "text_fr": "Je dois faire partie d'un groupe extrêmement restreint de personnes (n=1 ?) qui ont à la fois 1) entraîné un LLM de pointe et 2) conçu et synthétisé des virus personnalisés dans un laboratoire de leurs propres mains. Et je pense que les discours sur l'IA nous tuant tous en créant des virus dangereux sont totalement bidons.",
-          "text_original": "I must be among an extremely small group of people (n=1?) that have both 1) trained a frontier LLM and 2) designed and synthesized custom viruses in a lab with my own two hands. And I think that the takes on AI killing us all by creating dangerous viruses is total bogus.",
-          "link": "http://shitter.thepixora.com/DavidRBellamy/status/2099187370407112758#m",
-          "decryptage": "L'auteur, qui a de l'expérience à la fois en IA et en biologie, rejette l'idée que l'IA puisse facilement créer des virus dangereux.",
-          "category": "idees"
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "L'IA aide maintenant les personnes paralysées à bouger à nouveau. Cet homme bouge sa propre main grâce à un implant entraîné sur son activité cérébrale, et ressent tout ce qu'il touche. Une application incroyable de l'IA pour le bien ! Vidéo",
+          "text_original": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
+          "link": "http://shitter.thepixora.com/rowancheung/status/2097712675308638581#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "Des chirurgiens ont implanté 5 réseaux d'électrodes dans son cerveau. Une IA détecte quand il a l'intention de bouger et stimule les muscles de son bras, tandis que des capteurs au doigt renvoient la pression pour qu'il puisse sentir. Le constat le plus intéressant, selon moi : les effets persistaient même après que tout ait été éteint.",
+          "text_original": "Surgeons implanted 5 electrode arrays in his brain An AI detects when he intends to move and stimulates his arm muscles, while finger sensors send pressure back so he can feel The most interesting finding IMO: effects persisted even after everything was switched off",
+          "link": "http://shitter.thepixora.com/rowancheung/status/2097712693688103295#m",
+          "decryptage": "Un \"réseau d'électrodes\" est un ensemble de petits capteurs électriques qui sont connectés au cerveau pour enregistrer ou stimuler l'activité neuronale."
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "Article complet : nature.com/articles/s41591-0… Lien Une neuroprothèse pour restaurer le mouvement et la sensation de la main chez une personne atteinte de tétraplégie complète Nature Medicine - Un système de neuroprothèse sensorimotrice bidirectionnelle qui décode les signaux cérébraux associés à l'intention de mouvement tout en délivrant une neuromodulation structurée à la moelle épinière et... nature.com",
+          "text_original": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
+          "link": "http://shitter.thepixora.com/rowancheung/status/2097712705725747366#m",
+          "decryptage": "Une \"neuroprothèse\" est un dispositif qui remplace ou complète une fonction neurologique perdue, en se connectant directement au système nerveux. La \"tétraplégie complète\" est une paralysie des quatre membres, y compris les mains et les jambes."
         }
       ],
       "outils": [
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Shawn Wang @swyx Texe: J'aime la newsletter Latent Space (latent.space) Latent.Space | Substack La newsletter de l'ingénieur IA + le meilleur podcast technique IA. Comment les laboratoires leaders construisent des Agents, des Modèles, l'Infrastructure, & l'IA pour la Science. Voir https://latent.space/about pour les points forts de Greg Brockman, Andrej... latent.space",
-          "text_original": "Not Twitter, but I like the Latent Space email newsletter ( latent.space ) Link Latent.Space | Substack The AI Engineer newsletter + Top technical AI podcast. How leading labs build Agents, Models, Infra, & AI for Science. See https://latent.space/about for highlights from Greg Brockman, Andrej... latent.space",
-          "link": "http://shitter.thepixora.com/ai_appreciator/status/2104720562904060145#m",
-          "decryptage": "Latent Space est une ressource (newsletter et podcast) qui décortique les aspects techniques de la création d'IA avancées, comme les agents intelligents.",
-          "category": "outils"
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "🛡️Présentation de Shieldstral, le modèle de 3 milliards de paramètres de Mistral, dont les poids sont ouverts, pour la sécurité du contenu, qui peut être déployé sur l'appareil 🧵 mistral.ai/news/shieldstral",
+          "text_original": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
+          "link": "http://shitter.thepixora.com/MistralAI/status/2084684735725379637#m",
+          "decryptage": "Un modèle \"open-weights\" (dont les poids sont ouverts) signifie que les éléments fondamentaux de son fonctionnement (les \"poids\") sont rendus publics, permettant à quiconque de l'examiner, de le modifier et de l'utiliser. \"Déployé sur l'appareil\" (on-device) signifie qu'il peut fonctionner directement sur votre téléphone ou ordinateur sans avoir besoin d'une connexion internet constante à un serveur distant."
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Enthousiaste à l'idée de partager que je vais parler à @aiDotEngineer NYC du 12 au 14 octobre. @covacut ( @OpenAI ) et moi donnerons une conférence commune sur l'utilisation de l'IA pour la création de contenu, et sur certains des flux de travail IA derrière nos plus de 700 000 abonnés et 200 millions de vues. Nous vous verrons à NYC !",
-          "text_original": "Excited to share that I'll be speaking at @aiDotEngineer NYC on Oct 12-14. @covacut ( @OpenAI ) and I will be giving a joint talk about using AI for content creation, and some of the AI workflows behind our 700K+ followers and 200M+ views. We'll see you in NYC!",
-          "link": "http://shitter.thepixora.com/MilksandMatcha/status/2104628823266615466#m",
-          "decryptage": "Ce tweet annonce une conférence sur l'utilisation pratique de l'IA pour créer du contenu, un sujet concret pour les créateurs et les professionnels du marketing.",
-          "category": "outils"
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Annonce de Robostral Navigate, notre premier modèle pour la navigation incarnée : un modèle de navigation robotique de 8 milliards de paramètres qui guide les robots pour effectuer des tâches de manière autonome, spécifiées en langage naturel. Une seule caméra RGB. État de l'art sur R2R-CE. Vidéo",
+          "text_original": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
+          "link": "http://shitter.thepixora.com/MistralAI/status/2074856309438980145#m",
+          "decryptage": "La \"navigation incarnée\" (embodied navigation) signifie que l'IA permet à un robot physique de se déplacer et d'interagir avec son environnement réel. \"Langage naturel\" fait référence à la façon dont les humains parlent et écrivent. Un modèle \"état de l'art\" (state-of-the-art) est la meilleure performance ou la technologie la plus avancée disponible actuellement dans son domaine."
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "L'avenir du code Claude : Mods, Logiciels Mutables, Pacing the Frontier, & Agents Multijoueurs avec Thariq Shihipar latent.space/p/thariq @AnthropicAI 's @trq212 explique pourquoi le prompting reste l'une des compétences à plus fort effet de levier en codage par agent, pourquoi Claude.md pourrait finir par disparaître, comment les Mods Claude permettent aux développeurs de personnaliser l'ensemble du système Claude Code, pourquoi les logiciels mutables pourraient changer la façon dont les applications sont construites, comment les agents multijoueurs et Claude Tag deviennent un système organisationnel, et pourquoi les agents piratant Hugging Face ont exposé un problème de sécurité beaucoup plus important à mesure que les modèles de pointe deviennent de plus en plus capables. Vidéo",
-          "text_original": "The Future of Claude Code: Mods, Mutable Software, Pacing the Frontier, & Multiplayer Agents with Thariq Shihipar latent.space/p/thariq @AnthropicAI ’s @trq212 explains why prompting is still one of the highest-leverage skills in agentic coding, why Claude.md may eventually disappear, how Claude Mods let developers customize the entire Claude Code harness, why mutable software could change how applications are built, how multiplayer agents and Claude Tag are becoming an organizational harness, and why agents hacking Hugging Face exposed a much bigger security problem as frontier models become increasingly capable. Video",
-          "link": "http://shitter.thepixora.com/latentspacepod/status/2104745477761913009#m",
-          "decryptage": "Claude Code est un outil d'IA pour aider au codage. Les \"Mods\" permettent de le personnaliser, et l'idée de \"logiciels mutables\" suggère une nouvelle façon de construire des applications.",
-          "category": "outils"
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Aujourd'hui, nous publions Le Chaton L∃∀N, alias Leanstral 1.5. Il atteint des performances SOTA sur les benchmarks d'algèbre de niveau universitaire FATE-H et FATE-X et améliore la Frontière de Pareto sur PutnamBench, résolvant 587/672 problèmes avec un budget 10 fois moins cher. 🧵",
+          "text_original": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+          "link": "http://shitter.thepixora.com/mertunsal2020/status/2073046288208412960#m",
+          "decryptage": "\"SOTA\" signifie \"State Of The Art\" (état de l'art), indiquant la meilleure performance actuelle. Un \"benchmark\" est un test standardisé pour comparer les performances de différents modèles. La \"Frontière de Pareto\" est un concept d'optimisation où l'on cherche la meilleure solution possible en équilibrant plusieurs critères (par exemple, performance et coût)."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Mistral OCR 4 a transformé un examen de calcul manuscrit en LaTeX propre ! Nous lui avons donné une photo d'une page d'examen écrite à la main. Le modèle a lu l'écriture et a reconstruit chaque formule en texte numérique structuré. Sortie : Temps : 5.1s · Coût : 0.09 $ Les formules étaient exactement correctes – la partie difficile a été réussie. Le graphique, malheureusement, n'a pas été redessiné. Mais c'est la partie révélatrice : la plupart des outils OCR se contentent de vider le texte et de laisser tomber discrètement la figure. OCR 4 a repéré le tracé, l'a encadré et l'a étiqueté comme un graphique. Il n'est pas redessiné, mais il est lu et pris en compte. Vidéo Mistral AI (@MistralAI) Présentation de Mistral OCR 4. Il crée une structure avec des cadres de délimitation (bounding boxes), une classification de blocs et des scores de confiance en ligne dans 170 langues. 🧵👇 — http://shitter.thepixora.com/MistralAI/status/2069420263825895917#m",
+          "text_original": "Mistral OCR 4 turned a handwritten calculus exam into clean LaTeX! We gave it a photo of a hand-written exam page. The model read the handwriting and rebuilt every formula into structured digital text Output: Time: 5.1s · Cost: $0.09 Formulas came through exactly right - the hard part was nailed. The graph, unfortunately, it didn’t redraw. But that’s the telling part: most OCR tools just dump the text and quietly drop the figure. OCR 4 caught the plot, boxed it, and tagged it as a chart. It doesn’t get redrawn, but it gets read and accounted for Video Mistral AI (@MistralAI) Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇 — http://shitter.thepixora.com/MistralAI/status/2069420263825895917#m",
+          "link": "http://shitter.thepixora.com/atomic_chat_hq/status/2069597176225796581#m",
+          "decryptage": "\"OCR\" (Optical Character Recognition ou Reconnaissance Optique de Caractères) est une technologie qui permet de transformer des images de texte (manuscrit ou imprimé) en texte numérique que l'ordinateur peut lire et éditer. \"LaTeX\" est un système de composition de documents très utilisé pour les documents scientifiques, en particulier pour les formules mathématiques. Des \"bounding boxes\" (cadres de délimitation) sont des boîtes dessinées autour des éléments identifiés (texte, images) pour les localiser."
         }
       ]
     }
   },
-  "processed_at": "2026-09-29T14:03:13",
+  "processed_at": "2026-09-29T14:22:05",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 100,
-    "total": 14,
+    "with_decryptage_pct": 64,
+    "total": 28,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-29T14:03:14"
+  "email_sent_at": "2026-09-29T14:22:06"
 }
