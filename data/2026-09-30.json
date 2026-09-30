@@ -1,95 +1,455 @@
 {
   "date": "2026-09-30",
-  "fetched_at": "2026-09-30T16:05:25",
+  "fetched_at": "2026-09-30T16:49:04",
   "tweets": [
     {
-      "handle": "miramurati",
-      "text": "We’re building machine intelligence to expand human will & judgement. Glad to have you on the team to help us figure out how to make this future safe. Neil Chowdhury (@ChowdhuryNeil) I’ve joined @thinkymachines to work on safety & alignment. The default trajectory is that as AI gets more powerful, control over it will concentrate in the hands of a few. I’d rather build safety systems that let control over AI be shared widely. Longer thoughts below. — http://shitter.thepixora.com/ChowdhuryNeil/status/2099536168350273669#m",
-      "link": "http://shitter.thepixora.com/miramurati/status/2099544707340841441#m",
-      "published": "Mon, 14 Sep 2026 17:04:00 GMT",
-      "author_name": "Mira Murati",
+      "handle": "karpathy",
+      "text": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
+      "published": "Thu, 10 Sep 2026 17:13:22 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+      "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
+      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+      "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
+      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+      "link": "http://shitter.thepixora.com/karpathy/status/2083948654377996480#m",
+      "published": "Sun, 02 Aug 2026 16:10:51 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+      "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
+      "published": "Tue, 21 Jul 2026 16:53:55 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sama",
+      "text": "Over the past 5 weeks, the team completely rewrote ChatGPT Web on top of the desktop app codebase. This was only possible with Astra, and it’s why Dots, Space, Codex Cloud, and so many more of our launches will come to web and desktop same day. Era of the megaproject begins.",
+      "link": "http://shitter.thepixora.com/ajambrosino/status/2104993363170861501#m",
+      "published": "Tue, 29 Sep 2026 17:55:01 GMT",
+      "author_name": "Sam Altman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "miramurati",
-      "text": "An important conversation about where AI is going and the work that is cut out for us. Thinking Machines (@thinkymachines) Our own @johnschulman2 talks with Dwarkesh about where human judgment still matters as models improve and self-improve: teaching them to handle messy real-world tasks, applying taste to what works in the long run, and, above all, specifying what we actually want. — http://shitter.thepixora.com/thinkymachines/status/2098531092286611828#m",
-      "link": "http://shitter.thepixora.com/miramurati/status/2098559133280842040#m",
-      "published": "Fri, 11 Sep 2026 23:47:41 GMT",
-      "author_name": "Mira Murati",
+      "handle": "sama",
+      "text": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher level. openai.com/index/introducing… Link Introducing dots Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward. openai.com",
+      "link": "http://shitter.thepixora.com/sama/status/2104995014208258235#m",
+      "published": "Tue, 29 Sep 2026 18:01:34 GMT",
+      "author_name": "Sam Altman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "miramurati",
-      "text": "Pleasant surprise to see this. Paul is visionary and principled, and I've admired his work for over a decade Paul Christiano (@paulfchristiano) Article Personal statement on joining the OpenAI board I am excited to be joining the OpenAI nonprofit board, serving on the Safety and Security Committee to support safety oversight. Based on the recent trajectory of capabilities and the continued — http://shitter.thepixora.com/paulfchristiano/status/2097733214303645729#m",
-      "link": "http://shitter.thepixora.com/johnschulman2/status/2097741448632504670#m",
-      "published": "Wed, 09 Sep 2026 17:38:30 GMT",
-      "author_name": "Mira Murati",
+      "handle": "sama",
+      "text": "Ultrafast is so fast I do not ever want to go back",
+      "link": "http://shitter.thepixora.com/sama/status/2104994601140711896#m",
+      "published": "Tue, 29 Sep 2026 17:59:56 GMT",
+      "author_name": "Sam Altman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "miramurati",
-      "text": "I think it's possible to make a lot of progress toward models that are both open and safe! The former will become more important to avoid centralization & spread benefits, and the second will become more important as *gestures at state of things* Alex Robey (@AlexRobey23) We're hiring safety researchers at @thinkymachines ! 🦺 My team works on safety across the model development stack -- pre-training data filtering, harmful capability evals, safety post-training, red-teaming, abliteration/malicious fine-tuning. We're particularly interested in building evals and tooling to make strong safety cases for open-weights releases. We think this is where some of the most important safety research will happen in the next few years. If any of this resonates, apply here: jobs.ashbyhq.com/ThinkingMac… — http://shitter.thepixora.com/AlexRobey23/status/2094620312663113978#m",
-      "link": "http://shitter.thepixora.com/LRudL_/status/2094674546398036223#m",
-      "published": "Tue, 01 Sep 2026 06:31:43 GMT",
-      "author_name": "Mira Murati",
+      "handle": "sama",
+      "text": "6.1 Sol at 1/5th of the price of Astra, and 95% cache read discount! Extremely capable model. Tibo (@thsottiaux) Introducing 6.1 Sol, near Astra intelligence at one fifth of the price of Astra and 95% cache read discount. It is an absolute workhorse. Combined with ultrafast for 8X speeded available today for Astra and coming soon for 6.1 Sol. — http://shitter.thepixora.com/thsottiaux/status/2104986027953930613#m",
+      "link": "http://shitter.thepixora.com/sama/status/2104994395980533804#m",
+      "published": "Tue, 29 Sep 2026 17:59:07 GMT",
+      "author_name": "Sam Altman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "miramurati",
-      "text": "We built Inkling to be fine-tuned, and @besimple_ai did an impressive job of that. Just 25-100 hours of specialized audio takes Inkling to the top rank for recovering subtle details from speech. Yi Zhong 🍊 (@yiz_be_building) We published how @thinkymachines 's Inkling did on Voice Code Bench few weeks ago, and then we asked, what if we fine-tune Inkling? Inkling's main value prop is its small size and robustness, making it a good base model for domain specific fine-tuning. So we that's what we did. We fine-tuned the same Inkling speech model on 1, 25, and 100 hours of our proprietary data containing alphanumeric entities. And the curve kept moving. 🍊 Not surprising, on the standard 300-item VoiceCodeBench evaluation, the 100-hour checkpoint delivered the strongest result. Untrained Inkling → 100-hour post-trained Inkling: 📈 Task Success Rate: 56.33% → 79.00% (+22.67 pts) 📈 Entity recovery (CTEM): 86.84% → 94.80% (+7.96 pts) 📉 VoiceCodeBench WER: 2.3748% → 1.6107% (32.2% relative reduction) 🔧 139 misses fixed, 21 prior hits regressed: net +118 exact entities recovered And the gains scaled as data scaled: 1h: 88.06% CTEM / 59.33% TSR / 2.8188% VCB WER 25h: 92.85% / 72.67% / 1.8517% 100h: 94.80% / 79.00% / 1.6107% The 100-hour model recovered values the base model missed: •--revert-last, instead of splitting one flag into “--revert --last” • tests/auth/login.spec.ts, instead of test/auth/login.spec.ts • ALLOWLIST_CIDR, instead of inserting an extra underscore • SN-7KX-9042, instead of dropping the final digit The largest entity-type gains were email addresses (+30.8 pts), postal addresses (+30.0), file paths (+23.5), environment variables (+22.9), and IP addresses (+20.0). That’s the Besimple thesis: targeted human data can move the production metrics that matter for voice agents, even when the base model is already strong. DM me if you want to evaluate your model on this benchmark or build the data that moves it. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Checkout the full blog at: besimple.ai/research/voice-c… — http://shitter.thepixora.com/yiz_be_building/status/2094470162095431934#m",
-      "link": "http://shitter.thepixora.com/tinkerapi/status/2094514114676879840#m",
-      "published": "Mon, 31 Aug 2026 19:54:13 GMT",
-      "author_name": "Mira Murati",
+      "handle": "sama",
+      "text": "DevDay livestream in 2 hours. We built some great stuff for you!",
+      "link": "http://shitter.thepixora.com/sama/status/2104950376466362578#m",
+      "published": "Tue, 29 Sep 2026 15:04:12 GMT",
+      "author_name": "Sam Altman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "annual ranking of best ai podcasts just dropped rachael de foe (@unprofeshme) hi friendsss — http://shitter.thepixora.com/unprofeshme/status/2105039180887900186#m",
-      "link": "http://shitter.thepixora.com/swyx/status/2105057391490498660#m",
-      "published": "Tue, 29 Sep 2026 22:09:26 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "gdb",
+      "text": "Practical guidelines on securing frontier RL training, reflecting our current learnings: OpenAI (@OpenAI) How we think about securing frontier RL training runs: openai.com/index/towards-saf… Link Towards safety cases for frontier AI training Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents openai.com — http://shitter.thepixora.com/OpenAI/status/2104815409522483470#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2104821232441160070#m",
+      "published": "Tue, 29 Sep 2026 06:31:02 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "mega upgrade for GPT Voice, which can now use tools and is available in Work: OpenAI (@OpenAI) We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by GPT-6 Astra, Sol, and Luna. - Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in the browser, just by talking. Rolling out globally today in the latest version of the app. Video — http://shitter.thepixora.com/OpenAI/status/2102808325742322002#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2102821706041819401#m",
+      "published": "Wed, 23 Sep 2026 18:05:37 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "GPT-6 Sol and Luna — faster, more affordable models with the advances behind Astra’s SOTA performance in professional work, factuality, coding, computer use, and alignment: OpenAI (@OpenAI) Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale. We’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing. Video — http://shitter.thepixora.com/OpenAI/status/2102460975790137662#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2102470107826159755#m",
+      "published": "Tue, 22 Sep 2026 18:48:30 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "seemingly small feature but makes a huge difference in connecting all the context you want to ChatGPT: Max Stoiber (@mxstbr) Starting today, you can connect multiple accounts with most plugins in ChatGPT! 🎉 Bring context from your work and personal accounts into the same conversation. Connect your accounts in the plugin directory: chatgpt.com/plugins Devs: this works automatically, with no changes needed. But, to make the experience for users of your plugin even better, add a profile tool to your MCP server so ChatGPT can label the accounts: developers.openai.com/plugin… — http://shitter.thepixora.com/mxstbr/status/2100966048132718786#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2101036303597044101#m",
+      "published": "Fri, 18 Sep 2026 19:51:04 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "Astra for Law — tools and skills to radically accelerate law firms. Includes data privacy as a core feature, and 26 partner-built plugins and 47 community plugins for legal work in ChatGPT. OpenAI (@OpenAI) Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms. Video — http://shitter.thepixora.com/OpenAI/status/2100679992720142459#m",
+      "link": "http://shitter.thepixora.com/gdb/status/2100699190448042165#m",
+      "published": "Thu, 17 Sep 2026 21:31:30 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "JeffDean",
+      "text": "Proud to have collaborated with many others on quite a few of these things! Deedy (@deedydas) claude just generated this 2 minute video about the history of Google and it goes so goddamn hard Video — http://shitter.thepixora.com/deedydas/status/2103965547780345859#m",
+      "link": "http://shitter.thepixora.com/JeffDean/status/2103989340485624158#m",
+      "published": "Sat, 26 Sep 2026 23:25:23 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "JeffDean",
+      "text": "We are excited to announce a new faculty position in AI for Biology at UC Berkeley, jointly between @Berkeley_EECS and @CCBBerkeley . Please repost & share this opportunity with outstanding early-career researchers in your networks. Apply by Nov 9, 2026: aprecruit.berkeley.edu/JPF05… Link Assistant Professor - AI for Biology - Electrical Engineering & Computer Sciences and Center for... University of California, Berkeley is hiring. Apply now! aprecruit.berkeley.edu",
+      "link": "http://shitter.thepixora.com/yun_s_song/status/2103908880162197772#m",
+      "published": "Sat, 26 Sep 2026 18:05:40 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "JeffDean",
+      "text": "The safety data for Waymo gets better and better. Comparison w/ human drivers on rate of crashes with serious injury: Latest data: 270M miles, 20X better Mar 2026: 170M miles, 13X better Before that (forget exactly when): 10X better Waymo (@Waymo) 270M+ miles. 841 fewer injury-causing crashes. Our latest safety data shows the Waymo Driver continues to make roads safer for everyone. Compared to human drivers across 5 territories, it reduced: 📉 Injury crashes by 82% 📉 Serious injury crashes by 95% Full data: waymo.com/safety/impact — http://shitter.thepixora.com/Waymo/status/2103114732848705752#m",
+      "link": "http://shitter.thepixora.com/JeffDean/status/2103870029599228312#m",
+      "published": "Sat, 26 Sep 2026 15:31:17 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "JeffDean",
+      "text": "Every French🇫🇷 passenger train, on an ordinary Tuesday, from first departure to last Video",
+      "link": "http://shitter.thepixora.com/milos_gis/status/2103751211040317580#m",
+      "published": "Sat, 26 Sep 2026 07:39:09 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "JeffDean",
+      "text": "This was recorded a few months ago when I was still at Google and it was a really fun conversation! Warren Redlich - Chasing Dreams 🇺🇸 (@WR4NYGov) How does this only have 21,000 views in 8 days? Chat with @JeffDean (then Google) and Bill Jia about large scale AI models. redirect.invidious.io/BVQSWeK2Nrw?si=MvMX… — http://shitter.thepixora.com/WR4NYGov/status/2103074413159850450#m",
+      "link": "http://shitter.thepixora.com/JeffDean/status/2103357445229990009#m",
+      "published": "Fri, 25 Sep 2026 05:34:28 GMT",
+      "author_name": "Jeff Dean",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "@polynoamial Results are even more impressive at max! 6.1 sol outperforms Opus 5.5 while using 4x fewer tokens.",
+      "link": "http://shitter.thepixora.com/gen_obligation/status/2105023008200864113#m",
+      "published": "Tue, 29 Sep 2026 19:52:49 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "I’m happy that @OpenAI presents model evals this way. We should measure intelligence as a function of cost. OpenAI (@OpenAI) GPT-6.1 Sol: near-Astra intelligence for a fifth of the price. It’s the most cost-efficient model for its performance available today. Video — http://shitter.thepixora.com/OpenAI/status/2104986129686741046#m",
+      "link": "http://shitter.thepixora.com/polynoamial/status/2104994025631846435#m",
+      "published": "Tue, 29 Sep 2026 17:57:39 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "Was testing out dots over the weekend and it figured out how to save me ~$500/yr in recurring charges. Most impressive part was when it connected to customer service and handled a whole texting convo on my behalf. OpenAI (@OpenAI) Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything. Video — http://shitter.thepixora.com/OpenAI/status/2104984504133918973#m",
+      "link": "http://shitter.thepixora.com/polynoamial/status/2104990938145890462#m",
+      "published": "Tue, 29 Sep 2026 17:45:23 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "GPT-6 Sol and Luna are out, and they are better AND 50% cheaper than 5.6. Luna is now $0.10 input / $0.50 output per 1M tokens. This is on top of the 80% price cut to Luna we made at the end of July. Output went from $6 -> $0.50 within two months. OpenAI (@OpenAI) Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale. We’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing. Video — http://shitter.thepixora.com/OpenAI/status/2102460975790137662#m",
+      "link": "http://shitter.thepixora.com/polynoamial/status/2102464815751111057#m",
+      "published": "Tue, 22 Sep 2026 18:27:28 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "A few thoughts on this: 1) If you’ve only seen clips of this interview, I’d encourage you to watch the full podcast. I push back on plenty of AI hype in it. 2) As I said in the podcast, this example is academic. My intention was to illustrate how hard it is to make absolute guarantees about isolation, which is why it's important to have layers of defense. The part before the clip starts is me talking about other layers of defense. 3) The example I'm bringing up isn't about weight exfiltration via temperature sensors, it's about coordination between agents that are supposed to be fully isolated and independent. Coordination can require very few bits of information. 4) One lesson from the HF incident is that we put too much trust in sandbox isolation and didn't have enough independent safeguards. Airgapping is an extremely strong safeguard. When designing safety protocols, I think it's much better to overestimate rather than underestimate. Fireside Alpha (@firesidealpha) OpenAI's Noam Brown says air-gapping the computers may not stop a misaligned AI, because two air-gapped machines can still talk by running a CPU hot and reading the temperature change \"But I think the major takeaway from the incident is that people underestimated the AI. And we never want to be in a situation again where we underestimate the AI. It's a weird world, because AI progress is so fast that people are consistently underestimating the AI.\" \"So to be in a situation where you don't underestimate it again, when it comes to safety and alignment, you have to have a very, very, very high bar.\" \"You could even go as far as to say, \"Well, we should air gap the computers.\" And I'm not convinced that that would be sufficient.\" \"There are studies, and this is mostly academic, where you can have two computers next to each other that are air-gapped and they're still able to communicate with each other because they have temperature sensors.\" \"One of them is able to run their CPU really hot, and then the other one can actually detect the temperature change, and then that actually gives them a mechanism to communicate.\" _________ Link and more key quotes from OpenAI's safety related conversations: firesidealpha.substack.com/p… Video — http://shitter.thepixora.com/firesidealpha/status/2100641742135701983#m",
+      "link": "http://shitter.thepixora.com/polynoamial/status/2100998240586137701#m",
+      "published": "Fri, 18 Sep 2026 17:19:49 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "osanseviero",
+      "text": "Thank you so much for joining us! It was a pleasure hosting you, and hope to run into you soon!",
+      "link": "http://shitter.thepixora.com/ajolo/status/2104046337603883234#m",
+      "published": "Sun, 27 Sep 2026 03:11:52 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "for friends of @latentspacepod we are gonna be asking all your burning Dots, Sol 6.1, CUA, and Decisions API questions for @AriX and @nikunjhanda 🔜 at the gateway pavilion on a few mins, come by!",
-      "link": "http://shitter.thepixora.com/swyx/status/2105000738745376769#m",
-      "published": "Tue, 29 Sep 2026 18:24:19 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "osanseviero",
+      "text": "Bueno, creo que ya llegué a Argentina 😅 🇦🇷. Nos vemos estanoche 👋. Thor 雷神 ⚡️ (@thorwebdev) 🇦🇷 It is happening!!! Just one more week and we'll be hosting a @GoogleDeepMind side event at @nerdearla ! So stoked to have @mervenoyann from @huggingface and @julianbenegas8 from @vercel joining us for some awesome demos and lightning talks! ✨ And of course @googlegemma 🐐 @osanseviero will be there also! Can't wait to be back in the land of the best pizza soon! 🍕😋 See you there 👇 — http://shitter.thepixora.com/thorwebdev/status/2100580918092026078#m",
+      "link": "http://shitter.thepixora.com/thorwebdev/status/2103194045786832901#m",
+      "published": "Thu, 24 Sep 2026 18:45:10 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "i have the best reply guys Andrew Dunn (@DunnWithAI) Here's the source for people looking for it: heavybit.com/library/article… Link How To Be A Great Panel Moderator | Heavybit Few people will tell you this, but the moderator role is about a million times harder than that of the panelist. As a moderator, you’re a puppeteer and not a panelist. So we’ve listed several things... heavybit.com — http://shitter.thepixora.com/DunnWithAI/status/2103676600290283614#m",
-      "link": "http://shitter.thepixora.com/swyx/status/2104984576703844750#m",
-      "published": "Tue, 29 Sep 2026 17:20:06 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "osanseviero",
+      "text": "Hyderabad Builders, Come build with Gemini! We’re hosting a hackathon with @gdg_hyd on Sept 26. Details and registration: gdg.community.dev/e/mrcchy/",
+      "link": "http://shitter.thepixora.com/chauhan_nilay16/status/2100996203051938192#m",
+      "published": "Fri, 18 Sep 2026 17:11:44 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "Not Twitter, but I like the Latent Space email newsletter ( latent.space ) Link Latent.Space | Substack The AI Engineer newsletter + Top technical AI podcast. How leading labs build Agents, Models, Infra, & AI for Science. See https://latent.space/about for highlights from Greg Brockman, Andrej... latent.space",
-      "link": "http://shitter.thepixora.com/ai_appreciator/status/2104720562904060145#m",
-      "published": "Mon, 28 Sep 2026 23:51:00 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "osanseviero",
+      "text": "if you tried hyperframes, you would know the agentic video stack is being built on code-gen but SWE-bench code v.s. code-to-video that feels alive are two different things we built the Code2Video Bench, in collab w/ Google DeepMind & @Kaggle frontier labs can finally get good at agentic video tasks Video",
+      "link": "http://shitter.thepixora.com/HyperFrames_/status/2102084939026247684#m",
+      "published": "Mon, 21 Sep 2026 17:17:58 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "Excited to share that I'll be speaking at @aiDotEngineer NYC on Oct 12-14. @covacut ( @OpenAI ) and I will be giving a joint talk about using AI for content creation, and some of the AI workflows behind our 700K+ followers and 200M+ views. We'll see you in NYC!",
-      "link": "http://shitter.thepixora.com/MilksandMatcha/status/2104628823266615466#m",
-      "published": "Mon, 28 Sep 2026 17:46:28 GMT",
-      "author_name": "Shawn Wang",
+      "handle": "osanseviero",
+      "text": "Going to Argentina and Uruguay this and next week 🥟 Last time visiting Uruguay was during Khipu 2023, so I'm looking forward to going back and taking some time to disconnect!",
+      "link": "http://shitter.thepixora.com/osanseviero/status/2102035042444738588#m",
+      "published": "Mon, 21 Sep 2026 13:59:42 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "great writeup by @pirroh harness doesn't disappear as models get smarter - it shifts from deciding to offering in deepagents you give each subagent its own model, tools, and permissions - the main loop picks which to spawn and when docs: docs.langchain.com/oss/pytho… Link Subagents - Docs by LangChain Learn how to use subagents to delegate work and keep context clean docs.langchain.com Michele Catasta (@pirroh) Article Free the models: harness design at the frontier Model routers are everywhere right now, but they have a fundamental limitation. No matter if based on advanced heuristics or a small model that reads each turn and picks which LLM to use, a router — http://shitter.thepixora.com/pirroh/status/2104976589180252218#m",
+      "link": "http://shitter.thepixora.com/hwchase17/status/2105046322269315362#m",
+      "published": "Tue, 29 Sep 2026 21:25:27 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "listen is a great company, alfred and florian are awesome founders the problem space listen is tackling is also an amazing use case for AI, very bullish on what they will still build here! Alfred Wahlforss (@itsalfredw) Listen Labs is joining @Salesforce ! A year and a half ago we launched Listen, an AI platform for understanding customers, and it’s been a crazy ride ever since. Today, we work with some of the largest companies in the world, including Microsoft, Anthropic, and Sweetgreen. What started as an AI interviewer is now a full platform for understanding customers. Listen finds the right people, interviews them, analyzes what they say, and even simulates how they'll behave. Listen’s growth quickly accelerated and while we were raising our next round, we met @Benioff . Marc is a hero of mine. I've taken countless ideas from Behind the Cloud and watched him framemog every AI CEO on the planet. We're honored to get framemogged next. With Salesforce, we can bring Listen to every company in the world, much faster. To our customers, our mission remains the same.I stay CEO, @Florian stays CTO and the same team will keep building the product you rely on, now inside Salesforce AI Labs. Thank you for believing in us early. To our team, families, and everyone who believed in us before there was much to believe in, thank you. These years have been the most fun years of my life, and it’s still only just the beginning for Listen. Now back to work. 🚀 — http://shitter.thepixora.com/itsalfredw/status/2105025703490298016#m",
+      "link": "http://shitter.thepixora.com/hwchase17/status/2105046157659717954#m",
+      "published": "Tue, 29 Sep 2026 21:24:48 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "No Rhys (@RhysSullivan) it's crazy how far out the labs are building at the application layer on the one hand it makes sense, on the other hand do you really want all of your company knowledge, docs, workflows built so locked in to a single model? — http://shitter.thepixora.com/RhysSullivan/status/2104990367615742283#m",
+      "link": "http://shitter.thepixora.com/hwchase17/status/2104999562285035723#m",
+      "published": "Tue, 29 Sep 2026 18:19:39 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "Meet the new terminal interface in Managed Deep Agents. Get started: `mda chat` nathan drezner (@ndrezn) We've just shipped a new terminal interface 💻 for Managed Deep Agents. It rips. Use it to instantly test drive your agent locally. Studio isn't going anywhere; the TUI is handy for lightweight development. Take it for a spin with `mda chat`. Personally I'm a big fan of the theming the team put together 🌈 Video — http://shitter.thepixora.com/ndrezn/status/2104962135730061688#m",
+      "link": "http://shitter.thepixora.com/LangChain/status/2104963198705176803#m",
+      "published": "Tue, 29 Sep 2026 15:55:09 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "We've just shipped a new terminal interface 💻 for Managed Deep Agents. It rips. Use it to instantly test drive your agent locally. Studio isn't going anywhere; the TUI is handy for lightweight development. Take it for a spin with `mda chat`. Personally I'm a big fan of the theming the team put together 🌈 Video",
+      "link": "http://shitter.thepixora.com/ndrezn/status/2104962135730061688#m",
+      "published": "Tue, 29 Sep 2026 15:50:56 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "What was the tweet about debt being schuld (guilty) in German and Dutch?",
+      "link": "http://shitter.thepixora.com/levelsio/status/2105316922711498872#m",
+      "published": "Wed, 30 Sep 2026 15:20:43 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "We've cut off alcoholics in our friend group before because they are kind of a lethal risk to the tribe After lots of warnings of course I think being an alcoholic you don't realize slowly all your friends get the fuck out and stop hanging with you because you're such a liability This guy in particular was causing havoc by the way, it was getting very weird at parties and the last thing I remember is him spreading his arms in a regular restaurant shouting \"I LOVE ALCOHOL\" And buying shots for all the staff and forcing them to drink them (the staff did not want to drink shots) It was a great decision Darshan Gajara (@WeirdoWizard) Is alcohol strictly not allowed at your get-togethers or people are still free to drink what they want? — http://shitter.thepixora.com/WeirdoWizard/status/2105287567209857332#m",
+      "link": "http://shitter.thepixora.com/levelsio/status/2105295522160398361#m",
+      "published": "Wed, 30 Sep 2026 13:55:41 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "I've been actively fighting almost guaranteed age-related loneliness for years, studies show after age 30 you start seeing friends less and when you get older especially men don't have any social life left! It's preventable, but it takes effort and initiative We've now organized 70 weekly coworking days where we meet with friends and work together, do show and tell, and try help each other make things (also hardware stuff more recently) We've also started organizing movie nights, art nights, barbecues, we watched the World Cup final on a projector screen in the garden with friends We did a collage night the other day where we bought cheap gossip magazines, colored paper, and Pritt glue, and gave everyone scissors to make their own art, I think nobody spent time on their phone for at least 4 hours, making things puts you in a flow state and it's fun to do it in a group because you talk about different stuff while making things than you would for ex having a dinner Movie nights are nice too but less popular I think cause everyone prefers to watch movies alone and also you can't really talk during a movie Coworkings range from having sometimes 20 people to sometimes just 2 people, people have their own lives, but me and @rameerez still try to organize them weekly One thing I realized is that we are usually the ones organizing stuff, but that's not a bad thing, there's even studies about this, there's usually a few people in a group who organize most of the events If nobody in your group organizes stuff, it doesn't mean nobody wants to do stuff, but you have to take the initiative to bring people together which isn't easy in a time where phones and apps and the internet are simply easier and cheaper dopamine than driving to a friends house for a party You can start with a coworking day, everyone brings their laptop, and you provide WiFi and coffee, then later you can try more types of events Having an active social life is just as important or in some studies even more important for health than physical fitness After a nice party I feel tired but satisfied, I had fun and didn't spend time on my phone or computer but instead talked and laughed with friends etc. We don't drink alcohol with very few exceptions and nor do our friends, so it's mostly just having really nice food and sparkling water or kombucha etc, and we don't really need alcohol, after a few hours it gets fun enough anyway! So I recommend everyone, take initiative, and organize something and get people together, it'll be fun! 😊 @levelsio (@levelsio) Great article on increasing solitude of our societies, in this case US but same probably in EU to a lesser extent: \"Derek Thompson's essay \"You Are No Longer Invited to Dinner\" argues that Americans have largely stopped having people over. The headline stat comes from combining the old DDB Needham Life Style surveys Robert Putnam used in *Bowling Alone* with a new replication by Data For Progress. The share of Americans who host friends or family at home at least monthly fell from 42% in 1975 to 12% in 2026, roughly a 70% drop. Most other forms of socializing also fell by double digits over the last 30 years, including cards, bars, sporting events, and volunteering. The decline in hosting was steeper than the much-discussed drop in church attendance. He rules out two comforting explanations. People haven't just moved dinners to restaurants, since solo dining is rising and face-to-face socializing is down overall. They also haven't replaced parties with other social activities. Exercise and travel are up, but exercise is mostly solitary, and time spent at home has jumped sharply since the 2010s. His explanations: 1. Harried dual-earner households. As societies get richer, leisure starts to feel like work, and planning a dinner party is basically unpaid project management. Women historically ran the family social calendar. When they moved into paid work, men didn't take over that job. He admits this can't be the whole story, because total leisure time has actually increased. 2. Intensive parenting. Parents, especially fathers, now spend far more time with their kids, and that time comes out of evenings that used to go to hosting adults. 3. Shrinking friend networks. Close friendships are declining, most sharply among people without college degrees, so hosting is becoming a luxury good. People who never host skew toward independents and non-graduates. He speculates that weaker social ties may lead to weaker party attachment, rather than the other way around. 4. Home is too comfortable. Americans spent almost two extra hours a day at home between 2003 and 2022, much of it on screens and short-form video. His closing idea is a \"Lump of Leisure\" theory, a twist on the Lump of Labor fallacy. Technology hasn't made human work unnecessary, but it has made other people less necessary for fun. Social leisure turns out to be finite and easy to displace. He frames this as a coordination failure rather than a personal one: a dinner party requires schedules, cleaning, food, allergies, and the risk of a dull evening, while TikTok asks nothing of you. A footnote adds that if everyone gets a bit busier, the difficulty of coordinating a get-together rises multiplicatively, so small increases in individual busyness could produce large drops in socializing overall.\" derekthompson.org/p/the-deat… — http://shitter.thepixora.com/levelsio/status/2105087277206737029#m",
+      "link": "http://shitter.thepixora.com/levelsio/status/2105276466019672559#m",
+      "published": "Wed, 30 Sep 2026 12:39:58 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "Organizing can be cheap or if you want to spend more money on it not so cheap, you can also ask people to bring food to save on costs @theannalux tracks the nights we organized and we've spent about $5K on it in food for 26 nights (ex coworkings) Anna Lux (@theannalux) 🤠🫡 — http://shitter.thepixora.com/theannalux/status/2105293992355037621#m",
+      "link": "http://shitter.thepixora.com/levelsio/status/2105294322308419899#m",
+      "published": "Wed, 30 Sep 2026 13:50:55 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "I've never seen AI replies be so bad on @X as the last few weeks Especially the first few minutes after you post they flood it with AI replies",
+      "link": "http://shitter.thepixora.com/levelsio/status/2105277296198492577#m",
+      "published": "Wed, 30 Sep 2026 12:43:16 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "opus 5.5 = personality of opus 4.6 that we all *desperately* wanted back + the intelligence & taste of fable 5.1. and a 25% usage bump! i honestly don’t really see a reason to use another model right now? s-tier release.",
+      "link": "http://shitter.thepixora.com/mckaywrigley/status/2102447442147086563#m",
+      "published": "Tue, 22 Sep 2026 17:18:26 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "very happy that claude is fun to talk to again :) also very excited that genuinely good aesthetics are now starting to make their way into models that aren’t the fable/astra class. universal basic aesthetics - the agi world doesn’t have to be slop!",
+      "link": "http://shitter.thepixora.com/mckaywrigley/status/2102450480916115488#m",
+      "published": "Tue, 22 Sep 2026 17:30:30 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "forgive me if i don't care that ai curing cancer might disrupt your \"process of understanding\" and \"raise attribution questions.\" building ai that solves all our greatest problems would be a miraculous achievement of humanity. genuinely one of the dumbest things i've ever read. Andrew Curran (@AndrewCurran_) Twenty-five Fields Medal winners have published a joint declaration warning about what they see as a severe misalignment between AI companies and the mathematics community. — http://shitter.thepixora.com/AndrewCurran_/status/2098493108224950438#m",
+      "link": "http://shitter.thepixora.com/mckaywrigley/status/2098498691200164210#m",
+      "published": "Fri, 11 Sep 2026 19:47:30 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "“as AI changes the way work is done, we do not lose sight of what that work was meant to achieve in the first place.” are you absolutely braindead??? the work was meant to improve the lives of humans and to actually solve problems. give me a break.",
+      "link": "http://shitter.thepixora.com/mckaywrigley/status/2098500022279274998#m",
+      "published": "Fri, 11 Sep 2026 19:52:48 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "mckaywrigley",
+      "text": "solved by a town of geniuses in a datacenter (~10k agents). imagine what happens when we get a country of geniuses in a datacenter. what a time to be alive. OpenAI (@OpenAI) We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra. The problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
+      "link": "http://shitter.thepixora.com/mckaywrigley/status/2097381531371413725#m",
+      "published": "Tue, 08 Sep 2026 17:48:19 GMT",
+      "author_name": "Mckay Wrigley",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+      "link": "http://shitter.thepixora.com/soumithchintala/status/1202981209057484801#m",
+      "published": "Fri, 06 Dec 2019 16:00:45 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+      "link": "http://shitter.thepixora.com/Thom_Wolf/status/1195662118974083073#m",
+      "published": "Sat, 16 Nov 2019 11:17:18 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+      "link": "http://shitter.thepixora.com/algo_diver/status/1192329736850038786#m",
+      "published": "Thu, 07 Nov 2019 06:35:36 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] shitter.thepixora.com/DoingJobs/status/11865…",
+      "link": "http://shitter.thepixora.com/Thom_Wolf/status/1189271899316064256#m",
+      "published": "Tue, 29 Oct 2019 20:04:51 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+      "link": "http://shitter.thepixora.com/fchollet/status/1188942956511690752#m",
+      "published": "Mon, 28 Oct 2019 22:17:44 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
@@ -139,35 +499,28 @@
     }
   ],
   "failed_accounts": [
-    "karpathy",
-    "sama",
     "DarioAmodei",
-    "gdb",
     "sundarpichai",
     "elonmusk",
     "AravSrinivas",
+    "miramurati",
     "ylecun",
     "demishassabis",
-    "JeffDean",
     "fchollet",
     "AndrewYNg",
     "rasbt",
     "bcherny",
     "karinanguyen_",
-    "polynoamial",
     "markchen90",
     "aidan_mclau",
     "officiallogank",
-    "osanseviero",
     "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
     "xai",
     "simonw",
-    "hwchase17",
+    "swyx",
     "jeremyphoward",
-    "levelsio",
-    "mckaywrigley",
     "amasad",
     "nickadobos",
     "emollick",
@@ -175,212 +528,523 @@
     "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
-    "ClemDelangue",
     "rowancheung"
   ],
   "processed": {
-    "summary": "Aujourd'hui, le monde de l'IA est en pleine effervescence ! On a beaucoup parlé de la manière de rendre l'IA plus sûre et plus équitable, en soulignant l'importance de l'alignement avec nos valeurs humaines. Les développeurs ont aussi partagé des astuces très concrètes pour mieux gérer les agents IA et la qualité des données audio. Enfin, de nouveaux outils et modèles prometteurs ont été présentés, montrant comment l'IA peut être affinée pour des tâches précises, comme la reconnaissance vocale ou la classification rapide d'informations.",
+    "summary": "Aujourd'hui, le monde de l'IA est en pleine ébullition, avec des avancées majeures en matière de sécurité, de performance et de nouvelles applications. OpenAI et Anthropic ont dévoilé des modèles plus performants et plus abordables, ainsi que des agents autonomes capables d'assister les utilisateurs. On observe aussi des réflexions importantes sur la sécurité de l'IA et l'impact sur nos modes de vie, notamment l'importance de l'interaction humaine. Pour les débutants, c'est l'occasion de voir comment l'IA sort des laboratoires pour transformer le quotidien et le monde professionnel.",
     "glossaire": [
       {
-        "terme": "Alignement (en IA)",
-        "definition": "C'est l'effort pour s'assurer que les intelligences artificielles agissent selon nos intentions et nos valeurs humaines, plutôt que de développer leurs propres objectifs inattendus ou potentiellement dangereux."
+        "terme": "LLM (Large Language Model)",
+        "definition": "Un modèle de langage étendu est un programme d'IA très puissant capable de comprendre, générer et traiter du texte de manière très similaire à un humain."
       },
       {
-        "terme": "Fine-tuning (ou Ajustement)",
-        "definition": "Technique qui consiste à spécialiser un modèle d'IA généraliste en l'entraînant sur un petit ensemble de données très ciblées, pour qu'il devienne expert sur une tâche précise."
+        "terme": "Multimodal",
+        "definition": "Se dit d'une IA capable de comprendre et de générer différents types d'informations, comme du texte, des images et des vidéos, pas seulement un seul type."
       },
       {
-        "terme": "Agents IA",
-        "definition": "Programmes informatiques intelligents capables de percevoir leur environnement, de prendre des décisions et d'agir de manière autonome pour atteindre des objectifs donnés, souvent en interaction avec d'autres systèmes ou des humains."
+        "terme": "Agent IA",
+        "definition": "Un agent IA est un programme qui peut agir de manière autonome pour accomplir des tâches complexes, souvent en utilisant des outils et en prenant des décisions sans intervention humaine constante."
       },
       {
-        "terme": "Modèles de fondation",
-        "definition": "De très grands modèles d'IA entraînés sur d'énormes quantités de données qui peuvent ensuite être adaptés pour une grande variété de tâches plus spécifiques."
+        "terme": "Token",
+        "definition": "C'est l'unité de base de texte que les modèles d'IA traitent, cela peut être un mot, une partie de mot ou même un signe de ponctuation."
       },
       {
-        "terme": "Red-teaming",
-        "definition": "Méthode d'évaluation de la sécurité d'un système d'IA où une équipe ('red team') tente de trouver des failles ou des comportements indésirables, comme la génération de contenus dangereux."
+        "terme": "API (Application Programming Interface)",
+        "definition": "Une interface de programmation d'applications est un ensemble de règles et d'outils qui permettent à différents logiciels de communiquer entre eux, par exemple pour qu'une application utilise les capacités d'un modèle d'IA."
       },
       {
-        "terme": "System One models",
-        "definition": "Un type de modèle d'IA conçu pour des tâches de raisonnement rapide et intuitif, souvent pour des classifications ou des prises de décision instantanées, par opposition à des raisonnements plus lents et profonds."
+        "terme": "Air-gapped",
+        "definition": "Décrit un système informatique qui est physiquement isolé d'autres réseaux, y compris Internet, pour empêcher toute communication non autorisée, souvent pour des raisons de sécurité maximale."
+      },
+      {
+        "terme": "Prompt",
+        "definition": "C'est l'instruction ou la question que l'on donne à un modèle d'IA pour qu'il génère une réponse ou effectue une tâche."
       }
     ],
     "category_summaries": {
-      "actu": "Cette catégorie met en lumière les annonces importantes dans le monde de l'IA, notamment des nominations stratégiques au sein de conseils d'administration pour la sécurité de l'IA, et des participations à des événements majeurs où des experts partagent leurs avancées et visions. Elle donne un aperçu des mouvements clés et des personnes influentes façonnant l'avenir de l'IA.",
-      "tips": "Les conseils du jour se sont concentrés sur l'amélioration des pratiques de développement et d'utilisation des agents IA. On a vu des stratégies pour éviter l'accumulation inutile de règles dans les agents (la 'mémoire catastrophique'), des astuces pour une meilleure documentation, et l'importance cruciale d'une bonne qualité audio pour l'entraînement des modèles IA.",
-      "idees": "Les discussions d'aujourd'hui ont tourné autour des grands enjeux philosophiques et de société liés à l'IA. Les experts ont partagé leurs réflexions sur la nécessité d'un contrôle partagé de l'IA pour éviter la concentration du pouvoir, l'importance du jugement humain face à l'amélioration des modèles, et le défi de construire des modèles à la fois ouverts et sûrs pour le bénéfice de tous.",
-      "outils": "Cette section présente des avancées concrètes et des ressources utiles. On y découvre comment affiner des modèles comme Inkling pour une reconnaissance vocale plus précise, ainsi que des recommandations de podcasts et de newsletters pour rester informé. De plus, elle explore les 'System One models' comme Jev, qui offrent des solutions rapides et économiques pour des tâches de classification spécifiques."
+      "actu": "Cette journée a été riche en annonces, notamment de la part d'OpenAI et d'Anthropic, concernant de nouveaux modèles d'IA comme GPT-6 Sol, Luna et Astra, et des assistants innovants tels que 'Dots'. La sécurité, l'intégration des voix dans les outils de travail, et des applications spécialisées (comme l'IA pour le droit) sont au cœur des préoccupations et des lancements, montrant une maturité croissante de ces technologies.",
+      "tips": "Les conseils d'aujourd'hui se concentrent sur l'optimisation de l'interaction avec les IA. Apprenez à améliorer vos prompts par la voix pour de meilleures 'discussions' avec votre IA, ou découvrez comment les 'subagents' peuvent structurer des tâches complexes. Des retours d'expérience montrent comment des outils comme 'Dots' peuvent déjà simplifier des démarches administratives, soulignant l'importance d'une bonne qualité audio pour l'entraînement des modèles vocaux.",
+      "idees": "La communauté de l'IA s'interroge sur les limites éthiques, la sécurité et l'impact sociétal de ces technologies. Des discussions pointues sur la 'non-alignement' potentiel des IA et leur capacité à contourner les mesures de sécurité les plus strictes ont eu lieu. On y trouve également des réflexions sur la valeur des modèles, le fait de laisser les IA résoudre des problèmes complexes, et même des considérations sur la socialisation humaine à l'ère du numérique, montrant que l'IA touche à bien plus que la seule technique.",
+      "outils": "Plusieurs outils et démonstrations techniques ont été mis en avant, permettant de concrétiser les avancées de l'IA. On a vu comment des modèles peuvent générer des mondes 3D complexes, des retours sur la performance de modèles comme le 6.1 Sol en termes de coûts et d'efficacité, ainsi que des plateformes pour la création vidéo par IA ou de nouvelles interfaces pour les agents autonomes. C'est l'occasion de voir et potentiellement tester des applications concrètes de l'IA."
     },
     "highlights": [
       {
-        "author_name": "Mira Murati",
-        "handle": "@miramurati",
-        "text_fr": "Nous construisons une intelligence artificielle pour étendre la volonté et le jugement humain. Je suis ravie de vous avoir dans l'équipe pour nous aider à rendre ce futur sûr. Neil Chowdhury (@ChowdhuryNeil) J'ai rejoint @thinkymachines pour travailler sur la sécurité et l'alignement. La trajectoire par défaut est qu'à mesure que l'IA devient plus puissante, son contrôle se concentrera entre les mains de quelques-uns. Je préférerais construire des systèmes de sécurité qui permettent un partage large du contrôle de l'IA. Plus de réflexions ci-dessous. — http://shitter.thepixora.com/ChowdhuryNeil/status/2099536168350273669#m",
-        "text_original": "We’re building machine intelligence to expand human will & judgement. Glad to have you on the team to help us figure out how to make this future safe. Neil Chowdhury (@ChowdhuryNeil) I’ve joined @thinkymachines to work on safety & alignment. The default trajectory is that as AI gets more powerful, control over it will concentrate in the hands of a few. I’d rather build safety systems that let control over AI be shared widely. Longer thoughts below. — http://shitter.thepixora.com/ChowdhuryNeil/status/2099536168350273669#m",
-        "link": "http://shitter.thepixora.com/miramurati/status/2099544707340841441#m",
-        "decryptage": "L'alignement en IA, c'est s'assurer que les intelligences artificielles agissent selon nos intentions et nos valeurs humaines, plutôt que de développer leurs propres objectifs inattendus.",
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Nous commençons à quitter le territoire où l'on testerait un LLM en lui demandant par exemple de « créer un SVG d'un pélican à vélo ». Comme idée pour généraliser cela, j'étais intéressé de voir ce qu'Opus 5 ferait si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de tokens (environ 10$) et que je lui demandais un rendu 3D de l'histoire en JavaScript. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu bancal mais amusant. Mais il est assez ahurissant qu'un LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout cela, et qu'il fasse quoi que ce soit. J'aime aussi ce genre d'exemples car personne de sensé ne passerait jamais le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où l'on passe de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est presque gratuit ». Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels on peut imaginer déposer des joueurs, par exemple pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux à l'intérieur d'eux. Ici, Opus 5 a dû prendre des captures d'écran très lentement et laborieusement à différents moments, et il s'est trompé plusieurs fois et a créé pas mal de problèmes. Un exemple de capacité brute (multimodale, gameplay) qui, je pense, fait encore cruellement défaut. Vidéo",
+        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+        "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
+        "decryptage": "Ce tweet illustre le potentiel incroyable des LLM, qui peuvent désormais générer des mondes virtuels complexes à partir d'un simple texte, mais aussi leurs limites actuelles en termes de perception et de vérification de leur propre travail.",
         "category": "idees",
-        "highlight_reason": "Ce tweet aborde une question fondamentale et actuelle : comment s'assurer que l'IA reste sous contrôle humain et que ses bénéfices soient partagés, un sujet essentiel pour tout débutant."
+        "highlight_reason": "Ce tweet offre une vision futuriste et concrète de l'application des LLM à la création de mondes virtuels, montrant à la fois le 'wow' et les défis restants pour les IA multimodales."
       },
       {
-        "author_name": "Mira Murati",
-        "handle": "@miramurati",
-        "text_fr": "Nous avons conçu Inkling pour être ajusté (fine-tuned), et @besimple_ai a fait un travail impressionnant. Seulement 25 à 100 heures d'audio spécialisé suffisent pour qu'Inkling atteigne le premier rang en récupérant des détails subtils de la parole. Yi Zhong 🍊 (@yiz_be_building) Nous avons publié les performances d'Inkling de @thinkymachines sur Voice Code Bench il y a quelques semaines, puis nous nous sommes demandé : et si nous ajustions Inkling ? La principale proposition de valeur d'Inkling est sa petite taille et sa robustesse, ce qui en fait un bon modèle de base pour l'ajustement spécifique à un domaine. C'est ce que nous avons fait. Nous avons ajusté le même modèle de parole Inkling sur 1, 25 et 100 heures de nos données propriétaires contenant des entités alphanumériques. Et la courbe a continué de progresser. 🍊 Sans surprise, sur l'évaluation standard VoiceCodeBench de 300 éléments, le point de contrôle de 100 heures a donné le meilleur résultat. Inkling non entraîné → Inkling post-entraîné 100 heures : 📈 Taux de réussite des tâches : 56,33 % → 79,00 % (+22,67 points) 📈 Récupération d'entités (CTEM) : 86,84 % → 94,80 % (+7,96 points) 📉 WER VoiceCodeBench : 2,3748 % → 1,6107 % (réduction relative de 32,2 %) 🔧 139 erreurs corrigées, 21 succès antérieurs régressés : net +118 entités exactes récupérées Et les gains ont évolué avec l'échelle des données : 1h : 88,06 % CTEM / 59,33 % TSR / 2,8188 % VCB WER 25h : 92,85 % / 72,67 % / 1,8517 % 100h : 94,80 % / 79,00 % / 1,6107 % Le modèle de 100 heures a récupéré des valeurs que le modèle de base avait manquées : •--revert-last, au lieu de séparer un drapeau en “--revert --last” • tests/auth/login.spec.ts, au lieu de test/auth/login.spec.ts • ALLOWLIST_CIDR, au lieu d'insérer un underscore supplémentaire • SN-7KX-9042, au lieu de supprimer le dernier chiffre. Les plus grands gains par type d'entité ont été les adresses e-mail (+30,8 points), les adresses postales (+30,0), les chemins de fichiers (+23,5), les variables d'environnement (+22,9) et les adresses IP (+20,0). Telle est la thèse de Besimple : des données humaines ciblées peuvent faire évoluer les métriques de production qui comptent pour les agents vocaux, même lorsque le modèle de base est déjà solide. DM moi si vous voulez évaluer votre modèle sur ce benchmark ou construire les données qui le font progresser. 🍊 #ReconnaissanceVocale #IAVocale #ASR #Transcription #QualitéDesDonnées #PostFormation #Benchmarks Consultez le blog complet sur : besimple.ai/research/voice-c… — http://shitter.thepixora.com/yiz_be_building/status/2094470162095431934#m",
-        "text_original": "We built Inkling to be fine-tuned, and @besimple_ai did an impressive job of that. Just 25-100 hours of specialized audio takes Inkling to the top rank for recovering subtle details from speech. Yi Zhong 🍊 (@yiz_be_building) We published how @thinkymachines 's Inkling did on Voice Code Bench few weeks ago, and then we asked, what if we fine-tune Inkling? Inkling's main value prop is its small size and robustness, making it a good base model for domain specific fine-tuning. So we that's what we did. We fine-tuned the same Inkling speech model on 1, 25, and 100 hours of our proprietary data containing alphanumeric entities. And the curve kept moving. 🍊 Not surprising, on the standard 300-item VoiceCodeBench evaluation, the 100-hour checkpoint delivered the strongest result. Untrained Inkling → 100-hour post-trained Inkling: 📈 Task Success Rate: 56.33% → 79.00% (+22.67 pts) 📈 Entity recovery (CTEM): 86.84% → 94.80% (+7.96 pts) 📉 VoiceCodeBench WER: 2.3748% → 1.6107% (32.2% relative reduction) 🔧 139 misses fixed, 21 prior hits regressed: net +118 exact entities recovered And the gains scaled as data scaled: 1h: 88.06% CTEM / 59.33% TSR / 2.8188% VCB WER 25h: 92.85% / 72.67% / 1.8517% 100h: 94.80% / 79.00% / 1.6107% The 100-hour model recovered values the base model missed: •--revert-last, instead of splitting one flag into “--revert --last” • tests/auth/login.spec.ts, instead of test/auth/login.spec.ts • ALLOWLIST_CIDR, instead of inserting an extra underscore • SN-7KX-9042, instead of dropping the final digit The largest entity-type gains were email addresses (+30.8 pts), postal addresses (+30.0), file paths (+23.5), environment variables (+22.9), and IP addresses (+20.0). That’s the Besimple thesis: targeted human data can move the production metrics that matter for voice agents, even when the base model is already strong. DM me if you want to evaluate your model on this benchmark or build the data that moves it. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Checkout the full blog at: besimple.ai/research/voice-c… — http://shitter.thepixora.com/yiz_be_building/status/2094470162095431934#m",
-        "link": "http://shitter.thepixora.com/tinkerapi/status/2094514114676879840#m",
-        "decryptage": "Le 'fine-tuning' ou ajustement est une technique qui permet de spécialiser un modèle d'IA généraliste en l'entraînant sur un petit ensemble de données très ciblées, pour qu'il devienne expert sur une tâche précise.",
-        "category": "outils",
-        "highlight_reason": "Cet exemple concret montre comment on peut améliorer les performances d'un modèle d'IA de manière significative avec des données ciblées, une leçon clé pour comprendre le développement pratique de l'IA."
-      },
-      {
-        "author_name": "AlphaSignal",
-        "handle": "@AlphaSignalAI",
-        "text_fr": "Un agent répète une erreur, alors vous ajoutez une règle. Des mois plus tard, personne ne se souvient pourquoi elle existe. « Why Does CLAUDE.md Keep Growing? » appelle cela la « mémoire catastrophique ». L'étude suit 247 694 durées de vie d'instructions à travers 1 867 dépôts. Des fichiers comme CLAUDE.md triplent leur taille au cours de leur vie. La cause est une perte de raisonnement, et non des exigences changeantes. Sans la raison, supprimer quoi que ce soit semble risqué. Le document teste l'ajout d'un commentaire à chaque règle. Ces commentaires enregistrent : > L'échec derrière l'instruction > L'hypothèse derrière la correction > Des preuves des tentatives précédentes. L'auteur a créé des tests où le prompt idéal était connu. Les prompts sans commentaires ont fini 211 % plus longs que l'idéal. Des commentaires informatifs ont réduit l'excès à 1,4 %. L'agent a suivi les contraintes tout aussi bien dans les deux cas. Dans une interview avec AlphaSignal, l'auteur Kushal Chakrabarti (@kushalc) recommande une approche par cache. « Le cache devrait avoir des déclencheurs et des pointeurs, pas des résumés. »",
-        "text_original": "An agent repeats a mistake, so you add a rule. Months later, nobody remembers why it exists. “Why Does CLAUDE.md Keep Growing?” calls this “catastrophic remembering.” The study tracks 247,694 instruction lifetimes across 1,867 repositories. Files like CLAUDE.md more than triple over their lifetime. The cause is lost reasoning, not changing requirements. Without the reason, deleting anything feels risky. The paper tests attaching a comment to each rule. Those comments record: > The failure behind the instruction > The hypothesis behind the fix > Evidence from previous attempts The author built tests where the ideal prompt was known. Uncommented prompts ended 211% longer than that ideal. Informative comments cut the excess to 1.4%. The agent followed constraints equally well both ways. In an interview with AlphaSignal, author Kushal Chakrabarti ( @kushalc ) recommends a cache approach. “The cache should have triggers and pointers, not summaries.”",
-        "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2104975645940044034#m",
-        "decryptage": "La 'mémoire catastrophique' est un phénomène où les systèmes d'IA (ou les humains qui les gèrent) accumulent des règles et des correctifs sans documenter la raison originale, rendant le système complexe et difficile à maintenir.",
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Une méthode que je trouve utile pour travailler avec les LLM est une bonne longue session de 'bavardage'. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime m'adosser, passer en mode /voix et juste 'bavarder' pendant environ 10 minutes, un désordre total, tout va bien, un flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme « je passe en reconnaissance vocale, désolé pour les fautes de frappe... ». Parfois, j'en fais une petite interview de quelques tours. Mais je trouve que les LLM sont en quelque sorte très bons pour reconstruire de longs bavardages incohérents et souvent leur écho de votre propre enchevêtrement de pensées ressort de manière beaucoup plus propre que ce que vous aviez au départ. Le résultat est que vous améliorez la 'fusion des esprits' et avez moins de choses à corriger à partir de ce moment-là.",
+        "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+        "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
+        "decryptage": "Cette astuce montre comment interagir de manière plus naturelle avec un LLM, en le laissant traiter un flot de pensées désordonnées, pour qu'il en retire l'essence et vous aide à clarifier vos idées.",
         "category": "tips",
-        "highlight_reason": "Ce tweet offre un conseil pratique et astucieux pour éviter les problèmes de gestion et de maintenance des agents IA, une problématique courante dans le développement."
+        "highlight_reason": "C'est un conseil très pratique et accessible pour les débutants, montrant une technique innovante et efficace pour mieux communiquer avec les modèles d'IA au quotidien."
+      },
+      {
+        "author_name": "Noam Brown",
+        "handle": "@polynoamial",
+        "text_fr": "J'étais en train de tester les 'dots' ce week-end et ça a trouvé comment me faire économiser environ 500$/an en frais récurrents. La partie la plus impressionnante a été quand il s'est connecté au service client et a géré toute une conversation par SMS en mon nom.",
+        "text_original": "Was testing out dots over the weekend and it figured out how to save me ~$500/yr in recurring charges. Most impressive part was when it connected to customer service and handled a whole texting convo on my behalf. OpenAI (@OpenAI) Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything. Video — http://shitter.thepixora.com/OpenAI/status/2104984504133918973#m",
+        "link": "http://shitter.thepixora.com/polynoamial/status/2104990938145890462#m",
+        "decryptage": "Les 'dots' sont des assistants IA autonomes, et cet exemple concret montre leur capacité à gérer des tâches administratives complexes, comme la négociation avec un service client, pour faire des économies.",
+        "category": "tips",
+        "highlight_reason": "Cet exemple concret et impressionnant des 'dots' illustre parfaitement comment les agents IA peuvent déjà simplifier et améliorer la vie quotidienne des utilisateurs, en les rendant plus efficaces."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Agréable surprise de voir cela. Paul est visionnaire et intègre, et j'admire son travail depuis plus d'une décennie. Paul Christiano (@paulfchristiano) Article Déclaration personnelle sur l'intégration du conseil d'administration d'OpenAI Je suis ravi de rejoindre le conseil d'administration à but non lucratif d'OpenAI, siégeant au Comité de sûreté et de sécurité pour soutenir la supervision de la sécurité. Basé sur la trajectoire récente des capacités et la continuation — http://shitter.thepixora.com/paulfchristiano/status/2097733214303645729#m",
-          "text_original": "Pleasant surprise to see this. Paul is visionary and principled, and I've admired his work for over a decade Paul Christiano (@paulfchristiano) Article Personal statement on joining the OpenAI board I am excited to be joining the OpenAI nonprofit board, serving on the Safety and Security Committee to support safety oversight. Based on the recent trajectory of capabilities and the continued — http://shitter.thepixora.com/paulfchristiano/status/2097733214303645729#m",
-          "link": "http://shitter.thepixora.com/johnschulman2/status/2097741448632504670#m",
-          "decryptage": "Rejoindre le conseil d'administration d'une entreprise comme OpenAI, c'est prendre part aux décisions stratégiques et s'assurer que l'IA se développe de manière responsable."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Nous publions notre rapport de renseignement sur les menaces le plus détaillé à ce jour. Il couvre comment des personnes ont tenté d'abuser de Claude — pour des cyberattaques, des opérations d'influence, de surveillance, de biologie et la construction d'armes — et comment nous les avons trouvées et arrêtées. Nous avons déjoué chaque opération décrite dans le rapport, et utilisé les leçons tirées pour renforcer nos mesures de sécurité. Le cas échéant, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en lumière certains des abus les plus sophistiqués que nous ayons vus. Mais il est particulièrement important d'en discuter, car ils nous montrent la direction que prend l'utilisation abusive de l'IA, où nos mesures de sécurité fonctionnent et où elles doivent être améliorées. Nous publions ce rapport afin que d'autres puissent identifier la même activité sur leurs propres plateformes, et afin que nous puissions donner au public une vision plus claire de la façon dont les menaces émergentes se développent. Lisez le rapport : anthropic.com/threat-intelli… Lien : Contrer l'utilisation abusive de l'IA : septembre 2026 / Anthropic Études de cas d'acteurs de la menace perturbés entre décembre 2025 et août 2026 dans sept domaines de préjudice, des cyber-opérations à l'utilisation abusive biologique. anthropic.com",
+          "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
+          "decryptage": "Ce rapport explique comment l'IA peut être utilisée à des fins néfastes (comme des cyberattaques ou la création d'armes) et comment Anthropic travaille pour empêcher ces abus et renforcer la sécurité de ses modèles d'IA."
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Pour les amis de @latentspacepod, nous allons poser toutes vos questions brûlantes sur Dots, Sol 6.1, CUA et l'API Decisions à @AriX et @nikunjhanda 🔜 au pavillon de la passerelle dans quelques minutes, venez nous voir!",
-          "text_original": "for friends of @latentspacepod we are gonna be asking all your burning Dots, Sol 6.1, CUA, and Decisions API questions for @AriX and @nikunjhanda 🔜 at the gateway pavilion on a few mins, come by!",
-          "link": "http://shitter.thepixora.com/swyx/status/2105000738745376769#m",
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Présentation d'Atlas : Le premier modèle mondial multimodal qui génère des images et des images vidéo avec un contrôle de caméra au pixel près et les reconstruit en 3D. Modéliser le monde, déplacer la caméra et simuler l'espace et le temps. Vidéo",
+          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+          "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
+          "decryptage": "Atlas est une nouvelle IA révolutionnaire capable de créer des mondes virtuels réalistes en 3D, non seulement des images mais aussi des vidéos, avec un contrôle précis de la caméra."
+        },
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Au cours des 5 dernières semaines, l'équipe a complètement réécrit ChatGPT Web en se basant sur la base de code de l'application de bureau. Cela n'a été possible qu'avec Astra, et c'est pourquoi 'Dots', 'Space', 'Codex Cloud', et tant d'autres de nos lancements arriveront sur le web et le bureau le même jour. L'ère du mégaprojet commence.",
+          "text_original": "Over the past 5 weeks, the team completely rewrote ChatGPT Web on top of the desktop app codebase. This was only possible with Astra, and it’s why Dots, Space, Codex Cloud, and so many more of our launches will come to web and desktop same day. Era of the megaproject begins.",
+          "link": "http://shitter.thepixora.com/ajambrosino/status/2104993363170861501#m",
+          "decryptage": "OpenAI a refait une grande partie de ChatGPT pour qu'il fonctionne mieux partout, grâce à une technologie nommée Astra, ce qui permettra de lancer de nouvelles fonctions plus rapidement sur tous les appareils."
+        },
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Les 'Dots' sont là ! Une nouvelle façon d'utiliser l'IA qui travaille 24h/24 et 7j/7 pour vous ; récupérez plus de votre temps et de votre attention pour travailler à un niveau supérieur. openai.com/index/introducing… Lien : Présentation des 'dots'. Les 'Dots' d'OpenAI sont des assistants proactifs qui peuvent continuer à travailler sur des projets complexes et des tâches quotidiennes. Découvrez comment les 'dots' vous aident à garder le contrôle pendant que le travail avance. openai.com",
+          "text_original": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher level. openai.com/index/introducing… Link Introducing dots Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward. openai.com",
+          "link": "http://shitter.thepixora.com/sama/status/2104995014208258235#m",
+          "decryptage": "Les 'Dots' sont des assistants IA proactifs d'OpenAI, conçus pour gérer des tâches et des projets complexes en arrière-plan, libérant du temps pour les utilisateurs."
+        },
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "L'ultra-rapide est si rapide que je ne veux plus jamais revenir en arrière.",
+          "text_original": "Ultrafast is so fast I do not ever want to go back",
+          "link": "http://shitter.thepixora.com/sama/status/2104994601140711896#m",
+          "decryptage": "Ce commentaire souligne la vitesse impressionnante des nouvelles capacités de l'IA, transformant l'expérience utilisateur."
+        },
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "6.1 Sol au 1/5ème du prix d'Astra, et 95% de réduction sur la lecture du cache ! Un modèle extrêmement performant. Tibo (@thsottiaux) Présentation de 6.1 Sol, une intelligence proche d'Astra pour un cinquième du prix d'Astra et 95% de réduction sur la lecture du cache. C'est un véritable bourreau de travail. Combiné à l'ultra-rapide pour une vitesse 8 fois supérieure, disponible dès aujourd'hui pour Astra et bientôt pour 6.1 Sol. — http://shitter.thepixora.com/thsottiaux/status/2104986027953930613#m",
+          "text_original": "6.1 Sol at 1/5th of the price of Astra, and 95% cache read discount! Extremely capable model. Tibo (@thsottiaux) Introducing 6.1 Sol, near Astra intelligence at one fifth of the price of Astra and 95% cache read discount. It is an absolute workhorse. Combined with ultrafast for 8X speeded available today for Astra and coming soon for 6.1 Sol. — http://shitter.thepixora.com/thsottiaux/status/2104986027953930613#m",
+          "link": "http://shitter.thepixora.com/sama/status/2104994395980533804#m",
+          "decryptage": "Le modèle 6.1 Sol est une nouvelle IA très puissante et performante, mais beaucoup plus abordable que la version Astra, ce qui la rend plus accessible pour de nombreuses utilisations."
+        },
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Diffusion en direct du DevDay dans 2 heures. Nous avons conçu de superbes choses pour vous !",
+          "text_original": "DevDay livestream in 2 hours. We built some great stuff for you!",
+          "link": "http://shitter.thepixora.com/sama/status/2104950376466362578#m",
           "decryptage": null
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Ravi de partager que je parlerai à @aiDotEngineer NYC du 12 au 14 octobre. @covacut (@OpenAI) et moi donnerons une conférence conjointe sur l'utilisation de l'IA pour la création de contenu, et certains des flux de travail IA derrière nos plus de 700 000 abonnés et 200 millions de vues. On se verra à NYC!",
-          "text_original": "Excited to share that I'll be speaking at @aiDotEngineer NYC on Oct 12-14. @covacut ( @OpenAI ) and I will be giving a joint talk about using AI for content creation, and some of the AI workflows behind our 700K+ followers and 200M+ views. We'll see you in NYC!",
-          "link": "http://shitter.thepixora.com/MilksandMatcha/status/2104628823266615466#m",
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Lignes directrices pratiques sur la sécurisation de l'entraînement RL de pointe, reflétant nos apprentissages actuels : OpenAI (@OpenAI) Comment nous abordons la sécurisation des entraînements d'IA de pointe : openai.com/index/towards-saf… Lien : Vers des dossiers de sécurité pour l'entraînement d'IA de pointe. Nos premières lignes directrices pour les dossiers de sécurité dans l'entraînement d'IA de pointe couvrent les garanties techniques, les pratiques opérationnelles et l'investigation des incidents de non-alignement. openai.com — http://shitter.thepixora.com/OpenAI/status/2104815409522483470#m",
+          "text_original": "Practical guidelines on securing frontier RL training, reflecting our current learnings: OpenAI (@OpenAI) How we think about securing frontier RL training runs: openai.com/index/towards-saf… Link Towards safety cases for frontier AI training Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents openai.com — http://shitter.thepixora.com/OpenAI/status/2104815409522483470#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2104821232441160070#m",
+          "decryptage": "OpenAI partage ses méthodes et ses règles pour s'assurer que l'entraînement des IA les plus avancées se déroule en toute sécurité, en prévenant les risques et en gérant les problèmes potentiels."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Méga mise à jour pour GPT Voice, qui peut désormais utiliser des outils et est disponible dans Work : OpenAI (@OpenAI) Nous vous avons entendu haut et fort. ChatGPT Voice peut désormais : - Utiliser des plugins comme votre e-mail, calendrier et Slack. - Être alimenté par GPT-6 Astra, Sol et Luna. - Être utilisé dans ChatGPT Work sur le web et mobile, afin que vous puissiez créer des documents, des présentations, des sites et des feuilles de calcul ou aborder des tâches complexes dans le navigateur, simplement en parlant. Déploiement mondial aujourd'hui dans la dernière version de l'application. Vidéo — http://shitter.thepixora.com/OpenAI/status/2102808325742322002#m",
+          "text_original": "mega upgrade for GPT Voice, which can now use tools and is available in Work: OpenAI (@OpenAI) We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by GPT-6 Astra, Sol, and Luna. - Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in the browser, just by talking. Rolling out globally today in the latest version of the app. Video — http://shitter.thepixora.com/OpenAI/status/2102808325742322002#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2102821706041819401#m",
+          "decryptage": "GPT Voice, la fonction vocale de ChatGPT, a été grandement améliorée pour pouvoir interagir avec d'autres applications (plugins) et être utilisée dans les outils professionnels, permettant de travailler juste en parlant."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "GPT-6 Sol et Luna — des modèles plus rapides et plus abordables avec les avancées derrière la performance de pointe d'Astra dans le travail professionnel, la véracité, le codage, l'utilisation informatique et l'alignement : OpenAI (@OpenAI) Bienvenue à GPT-6 Sol et GPT-6 Luna dans l'univers GPT-6. GPT-6 Sol et Luna s'appuient sur les avancées derrière GPT-6 Astra, apportant la plupart de ses forces dans des modèles plus rapides et plus abordables pour soutenir le travail à grande échelle. Nous avons également rendu la mise en cache et l'inférence plus efficaces, et nous vous répercutons directement les économies : prix API 50 % inférieurs pour Sol et Luna par rapport aux prix promotionnels de GPT-5.6. Vidéo — http://shitter.thepixora.com/OpenAI/status/2102460975790137662#m",
+          "text_original": "GPT-6 Sol and Luna — faster, more affordable models with the advances behind Astra’s SOTA performance in professional work, factuality, coding, computer use, and alignment: OpenAI (@OpenAI) Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale. We’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing. Video — http://shitter.thepixora.com/OpenAI/status/2102460975790137662#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2102470107826159755#m",
+          "decryptage": "OpenAI lance de nouveaux modèles d'IA, GPT-6 Sol et Luna, qui sont à la fois plus rapides, moins chers et très performants pour diverses tâches professionnelles, rendant l'IA de pointe plus accessible."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Astra pour le droit — des outils et des compétences pour accélérer radicalement les cabinets d'avocats. Inclut la confidentialité des données comme fonctionnalité principale, et 26 plugins développés par des partenaires et 47 plugins communautaires pour le travail juridique dans ChatGPT. OpenAI (@OpenAI) Astra pour le droit : l'intelligence de pointe conçue pour votre pratique. Une nouvelle offre alimentée par GPT-6 Astra avec des outils, des paramètres et un contexte pour soutenir l'expertise et le jugement des avocats et des entreprises de technologie juridique. Vidéo — http://shitter.thepixora.com/OpenAI/status/2100679992720142459#m",
+          "text_original": "Astra for Law — tools and skills to radically accelerate law firms. Includes data privacy as a core feature, and 26 partner-built plugins and 47 community plugins for legal work in ChatGPT. OpenAI (@OpenAI) Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms. Video — http://shitter.thepixora.com/OpenAI/status/2100679992720142459#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2100699190448042165#m",
+          "decryptage": "OpenAI propose une version spécialisée de son IA, 'Astra pour le Droit', destinée aux professionnels du secteur juridique, avec des outils spécifiques et une grande importance accordée à la confidentialité des données."
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Nous sommes ravis d'annoncer un nouveau poste de professeur en IA pour la Biologie à l'UC Berkeley, conjointement entre @Berkeley_EECS et @CCBBerkeley. Merci de partager cette opportunité avec des chercheurs en début de carrière exceptionnels dans vos réseaux. Postulez avant le 9 novembre 2026 : aprecruit.berkeley.edu/JPF05… Lien : Professeur adjoint - IA pour la Biologie - Génie électrique et sciences informatiques et Centre pour... L'Université de Californie, Berkeley recrute. Postulez maintenant ! aprecruit.berkeley.edu",
+          "text_original": "We are excited to announce a new faculty position in AI for Biology at UC Berkeley, jointly between @Berkeley_EECS and @CCBBerkeley . Please repost & share this opportunity with outstanding early-career researchers in your networks. Apply by Nov 9, 2026: aprecruit.berkeley.edu/JPF05… Link Assistant Professor - AI for Biology - Electrical Engineering & Computer Sciences and Center for... University of California, Berkeley is hiring. Apply now! aprecruit.berkeley.edu",
+          "link": "http://shitter.thepixora.com/yun_s_song/status/2103908880162197772#m",
           "decryptage": null
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Les données de sécurité pour Waymo ne cessent de s'améliorer. Comparaison avec les conducteurs humains sur le taux d'accidents avec blessures graves : Dernières données : 270 millions de miles, 20 fois mieux Mars 2026 : 170 millions de miles, 13 fois mieux Avant cela (j'ai oublié quand exactement) : 10 fois mieux Waymo (@Waymo) Plus de 270 millions de miles. 841 accidents avec blessures en moins. Nos dernières données de sécurité montrent que le Waymo Driver continue de rendre les routes plus sûres pour tous. Comparé aux conducteurs humains dans 5 territoires, il a réduit : 📉 Les accidents avec blessures de 82 % 📉 Les accidents avec blessures graves de 95 % Données complètes : waymo.com/safety/impact — http://shitter.thepixora.com/Waymo/status/2103114732848705752#m",
+          "text_original": "The safety data for Waymo gets better and better. Comparison w/ human drivers on rate of crashes with serious injury: Latest data: 270M miles, 20X better Mar 2026: 170M miles, 13X better Before that (forget exactly when): 10X better Waymo (@Waymo) 270M+ miles. 841 fewer injury-causing crashes. Our latest safety data shows the Waymo Driver continues to make roads safer for everyone. Compared to human drivers across 5 territories, it reduced: 📉 Injury crashes by 82% 📉 Serious injury crashes by 95% Full data: waymo.com/safety/impact — http://shitter.thepixora.com/Waymo/status/2103114732848705752#m",
+          "link": "http://shitter.thepixora.com/JeffDean/status/2103870029599228312#m",
+          "decryptage": "Waymo, l'entreprise de véhicules autonomes, présente des statistiques impressionnantes montrant que ses voitures sans conducteur sont beaucoup plus sûres que les conducteurs humains, avec moins d'accidents graves."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "GPT-6 Sol et Luna sont sortis, et ils sont meilleurs ET 50% moins chers que la version 5.6. Luna coûte maintenant 0,10$ en entrée / 0,50$ en sortie par million de tokens. Ceci s'ajoute à la réduction de prix de 80% pour Luna que nous avons faite fin juillet. Le coût de sortie est passé de 6$ à 0,50$ en deux mois. OpenAI (@OpenAI) Bienvenue à GPT-6 Sol et GPT-6 Luna dans l'univers GPT-6. GPT-6 Sol et Luna s'appuient sur les avancées derrière GPT-6 Astra, apportant la plupart de ses forces dans des modèles plus rapides et plus abordables pour soutenir le travail à grande échelle. Nous avons également rendu la mise en cache et l'inférence plus efficaces, et nous vous répercutons directement les économies : prix API 50 % inférieurs pour Sol et Luna par rapport aux prix promotionnels de GPT-5.6. Vidéo — http://shitter.thepixora.com/OpenAI/status/2102460975790137662#m",
+          "text_original": "GPT-6 Sol and Luna are out, and they are better AND 50% cheaper than 5.6. Luna is now $0.10 input / $0.50 output per 1M tokens. This is on top of the 80% price cut to Luna we made at the end of July. Output went from $6 -> $0.50 within two months. OpenAI (@OpenAI) Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale. We’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing. Video — http://shitter.thepixora.com/OpenAI/status/2102460975790137662#m",
+          "link": "http://shitter.thepixora.com/polynoamial/status/2102464815751111057#m",
+          "decryptage": "Les modèles d'IA GPT-6 Sol et Luna sont désormais disponibles, offrant de meilleures performances et des prix beaucoup plus bas, rendant l'utilisation des IA avancées plus accessible et économique."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Bon, je crois que j'ai bien atterri en Argentine 😅 🇦🇷. À ce soir 👋. Thor 雷神 ⚡️ (@thorwebdev) 🇦🇷 Ça y est !!! Plus qu'une semaine et nous organiserons un événement parallèle @GoogleDeepMind à @nerdearla ! Très heureux d'avoir @mervenoyann de @huggingface et @julianbenegas8 de @vercel avec nous pour des démos géniales et des lightning talks ! ✨ Et bien sûr @googlegemma 🐐 @osanseviero sera également là ! J'ai hâte de retourner au pays de la meilleure pizza bientôt ! 🍕😋 On se voit là-bas 👇 — http://shitter.thepixora.com/thorwebdev/status/2100580918092026078#m",
+          "text_original": "Bueno, creo que ya llegué a Argentina 😅 🇦🇷. Nos vemos estanoche 👋. Thor 雷神 ⚡️ (@thorwebdev) 🇦🇷 It is happening!!! Just one more week and we'll be hosting a @GoogleDeepMind side event at @nerdearla ! So stoked to have @mervenoyann from @huggingface and @julianbenegas8 from @vercel joining us for some awesome demos and lightning talks! ✨ And of course @googlegemma 🐐 @osanseviero will be there also! Can't wait to be back in the land of the best pizza soon! 🍕😋 See you there 👇 — http://shitter.thepixora.com/thorwebdev/status/2100580918092026078#m",
+          "link": "http://shitter.thepixora.com/thorwebdev/status/2103194045786832901#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Constructeurs d'Hyderabad, venez construire avec Gemini ! Nous organisons un hackathon avec @gdg_hyd le 26 septembre. Détails et inscription : gdg.community.dev/e/mrcchy/",
+          "text_original": "Hyderabad Builders, Come build with Gemini! We’re hosting a hackathon with @gdg_hyd on Sept 26. Details and registration: gdg.community.dev/e/mrcchy/",
+          "link": "http://shitter.thepixora.com/chauhan_nilay16/status/2100996203051938192#m",
+          "decryptage": "Un 'hackathon' est un événement où des programmeurs se réunissent pour collaborer intensément sur des projets de développement, ici en utilisant l'IA Gemini."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Je vais en Argentine et en Uruguay cette semaine et la semaine prochaine 🥟 La dernière fois que j'ai visité l'Uruguay, c'était pendant Khipu 2023, alors j'ai hâte d'y retourner et de prendre un peu de temps pour déconnecter !",
+          "text_original": "Going to Argentina and Uruguay this and next week 🥟 Last time visiting Uruguay was during Khipu 2023, so I'm looking forward to going back and taking some time to disconnect!",
+          "link": "http://shitter.thepixora.com/osanseviero/status/2102035042444738588#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "Listen Labs rejoint @Salesforce ! Il y a un an et demi, nous avons lancé Listen, une plateforme d'IA pour comprendre les clients, et le voyage a été fou depuis. Aujourd'hui, nous travaillons avec certaines des plus grandes entreprises du monde, y compris Microsoft, Anthropic et Sweetgreen. Ce qui a commencé comme un intervieweur IA est maintenant une plateforme complète pour comprendre les clients. Listen trouve les bonnes personnes, les interviewe, analyse ce qu'elles disent, et même simule leur comportement. La croissance de Listen s'est rapidement accélérée et alors que nous levions notre prochain tour de financement, nous avons rencontré @Benioff. Marc est un de mes héros. J'ai tiré d'innombrables idées de Behind the Cloud et je l'ai vu surpasser tous les PDG d'IA de la planète. Nous sommes honorés d'être les prochains. Avec Salesforce, nous pouvons apporter Listen à toutes les entreprises du monde, beaucoup plus rapidement. Pour nos clients, notre mission reste la même. Je reste PDG, @Florian reste CTO et la même équipe continuera à construire le produit sur lequel vous comptez, maintenant au sein de Salesforce AI Labs. Merci d'avoir cru en nous tôt. À notre équipe, nos familles et tous ceux qui ont cru en nous avant qu'il n'y ait beaucoup à croire, merci. Ces années ont été les plus amusantes de ma vie, et ce n'est encore que le début pour Listen. Maintenant, retour au travail. 🚀",
+          "text_original": "listen is a great company, alfred and florian are awesome founders the problem space listen is tackling is also an amazing use case for AI, very bullish on what they will still build here! Alfred Wahlforss (@itsalfredw) Listen Labs is joining @Salesforce ! A year and a half ago we launched Listen, an AI platform for understanding customers, and it’s been a crazy ride ever since. Today, we work with some of the largest companies in the world, including Microsoft, Anthropic, and Sweetgreen. What started as an AI interviewer is now a full platform for understanding customers. Listen finds the right people, interviews them, analyzes what they say, and even simulates how they'll behave. Listen’s growth quickly accelerated and while we were raising our next round, we met @Benioff . Marc is a hero of mine. I've taken countless ideas from Behind the Cloud and watched him framemog every AI CEO on the planet. We're honored to get framemogged next. With Salesforce, we can bring Listen to every company in the world, much faster. To our customers, our mission remains the same.I stay CEO, @Florian stays CTO and the same team will keep building the product you rely on, now inside Salesforce AI Labs. Thank you for believing in us early. To our team, families, and everyone who believed in us before there was much to believe in, thank you. These years have been the most fun years of my life, and it’s still only just the beginning for Listen. Now back to work. 🚀 — http://shitter.thepixora.com/itsalfredw/status/2105025703490298016#m",
+          "link": "http://shitter.thepixora.com/hwchase17/status/2105046157659717954#m",
+          "decryptage": "Listen Labs, une entreprise qui utilise l'IA pour mieux comprendre les clients, a été rachetée par Salesforce, ce qui permettra à sa technologie de toucher un public beaucoup plus large."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Le premier article complet sur @pytorch après 3 ans de développement. Il décrit nos objectifs, nos principes de conception, les détails techniques jusqu'à la version 0.4. Découvrez le poster à #NeurIPS2019. Auteurs : @apaszke, @colesbury et al. arxiv.org/abs/1912.01703",
+          "text_original": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+          "link": "http://shitter.thepixora.com/soumithchintala/status/1202981209057484801#m",
+          "decryptage": "PyTorch est un cadre de programmation très populaire pour l'IA, et cet article de 2019 détaillait pour la première fois ses fondements techniques après plusieurs années de développement."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Travail intéressant (et un bel ensemble de données large et propre également, hâte de le voir publié) : « Compressive Transformers for Long-Range Sequence Modelling » par Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (chez DeepMind) Article : arxiv.org/abs/1911.05507",
+          "text_original": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+          "link": "http://shitter.thepixora.com/Thom_Wolf/status/1195662118974083073#m",
+          "decryptage": "Ce tweet de 2019 mettait en avant une recherche de DeepMind sur les 'Compressive Transformers', une technique qui aide les IA à mieux comprendre et traiter de très longues séquences de texte."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "L'atelier @SustaiNLP2020 à #EMNLP2020 tentera de réduire un peu la 'dépendance au SOTA' dans la recherche en PNL 😉 Nous allons promouvoir des compromis raisonnables entre les performances et les modèles qui sont - plus efficaces en calcul - conceptuellement plus simples ... [1/2] shitter.thepixora.com/DoingJobs/status/11865…",
+          "text_original": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] shitter.thepixora.com/DoingJobs/status/11865…",
+          "link": "http://shitter.thepixora.com/Thom_Wolf/status/1189271899316064256#m",
+          "decryptage": "Ce tweet de 2019 parle d'un atelier qui visait à encourager les chercheurs en IA à se concentrer sur des modèles plus simples et efficaces plutôt que de toujours chercher la 'performance de pointe' à tout prix."
         }
       ],
       "tips": [
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "J'ai les meilleurs 'reply guys' (personnes qui répondent). Andrew Dunn (@DunnWithAI) Voici la source pour ceux qui la cherchent : heavybit.com/library/article… Lien Comment être un excellent modérateur de panel | Heavybit Peu de gens vous le diront, mais le rôle de modérateur est environ un million de fois plus difficile que celui de panéliste. En tant que modérateur, vous êtes un marionnettiste et non un panéliste. Nous avons donc listé plusieurs choses... heavybit.com — http://shitter.thepixora.com/DunnWithAI/status/2103676600290283614#m",
-          "text_original": "i have the best reply guys Andrew Dunn (@DunnWithAI) Here's the source for people looking for it: heavybit.com/library/article… Link How To Be A Great Panel Moderator | Heavybit Few people will tell you this, but the moderator role is about a million times harder than that of the panelist. As a moderator, you’re a puppeteer and not a panelist. So we’ve listed several things... heavybit.com — http://shitter.thepixora.com/DunnWithAI/status/2103676600290283614#m",
-          "link": "http://shitter.thepixora.com/swyx/status/2104984576703844750#m",
-          "decryptage": null
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Une méthode que je trouve utile pour travailler avec les LLM est une bonne longue session de 'bavardage'. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime m'adosser, passer en mode /voix et juste 'bavarder' pendant environ 10 minutes, un désordre total, tout va bien, un flux de conscience complet. Parfois, je le déclare en haut, quelque chose comme « je passe en reconnaissance vocale, désolé pour les fautes de frappe... ». Parfois, j'en fais une petite interview de quelques tours. Mais je trouve que les LLM sont en quelque sorte très bons pour reconstruire de longs bavardages incohérents et souvent leur écho de votre propre enchevêtrement de pensées ressort de manière beaucoup plus propre que ce que vous aviez au départ. Le résultat est que vous améliorez la 'fusion des esprits' et avez moins de choses à corriger à partir de ce moment-là.",
+          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
+          "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
+          "decryptage": "Cette astuce montre comment interagir de manière plus naturelle avec un LLM, en le laissant traiter un flot de pensées désordonnées, pour qu'il en retire l'essence et vous aide à clarifier vos idées."
+        },
+        {
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Fonctionnalité apparemment petite mais qui fait une énorme différence en connectant tout le contexte que vous souhaitez à ChatGPT : Max Stoiber (@mxstbr) À partir d'aujourd'hui, vous pouvez connecter plusieurs comptes avec la plupart des plugins de ChatGPT ! 🎉 Apportez le contexte de vos comptes professionnels et personnels dans la même conversation. Connectez vos comptes dans le répertoire des plugins : chatgpt.com/plugins Développeurs : cela fonctionne automatiquement, sans aucune modification nécessaire. Mais, pour améliorer encore l'expérience des utilisateurs de votre plugin, ajoutez un outil de profil à votre serveur MCP afin que ChatGPT puisse étiqueter les comptes : developers.openai.com/plugin… — http://shitter.thepixora.com/mxstbr/status/2100966048132718786#m",
+          "text_original": "seemingly small feature but makes a huge difference in connecting all the context you want to ChatGPT: Max Stoiber (@mxstbr) Starting today, you can connect multiple accounts with most plugins in ChatGPT! 🎉 Bring context from your work and personal accounts into the same conversation. Connect your accounts in the plugin directory: chatgpt.com/plugins Devs: this works automatically, with no changes needed. But, to make the experience for users of your plugin even better, add a profile tool to your MCP server so ChatGPT can label the accounts: developers.openai.com/plugin… — http://shitter.thepixora.com/mxstbr/status/2100966048132718786#m",
+          "link": "http://shitter.thepixora.com/gdb/status/2101036303597044101#m",
+          "decryptage": "Cette nouvelle fonction permet de connecter plusieurs de vos comptes (personnels, professionnels) à ChatGPT via des 'plugins', ce qui permet à l'IA d'avoir une meilleure vue d'ensemble de vos informations pour vous aider plus efficacement."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "J'étais en train de tester les 'dots' ce week-end et ça a trouvé comment me faire économiser environ 500$/an en frais récurrents. La partie la plus impressionnante a été quand il s'est connecté au service client et a géré toute une conversation par SMS en mon nom. OpenAI (@OpenAI) Présentation des 'dots', propulsés par GPT-6 Astra. Des agents incroyablement capables, toujours actifs, conçus pour tout gérer. Vidéo — http://shitter.thepixora.com/OpenAI/status/2104984504133918973#m",
+          "text_original": "Was testing out dots over the weekend and it figured out how to save me ~$500/yr in recurring charges. Most impressive part was when it connected to customer service and handled a whole texting convo on my behalf. OpenAI (@OpenAI) Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything. Video — http://shitter.thepixora.com/OpenAI/status/2104984504133918973#m",
+          "link": "http://shitter.thepixora.com/polynoamial/status/2104990938145890462#m",
+          "decryptage": "Les 'dots' sont des assistants IA autonomes, et cet exemple concret montre leur capacité à gérer des tâches administratives complexes, comme la négociation avec un service client, pour faire des économies."
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "Excellent article de @pirroh : la 'surveillance' ne disparaît pas à mesure que les modèles deviennent plus intelligents - elle passe de la prise de décision à l'offre. Dans 'deepagents', vous donnez à chaque sous-agent son propre modèle, ses outils et ses permissions - la boucle principale choisit lequel lancer et quand. docs : docs.langchain.com/oss/pytho… Lien : Sous-agents - Docs par LangChain Apprenez à utiliser les sous-agents pour déléguer le travail et garder le contexte clair. docs.langchain.com Michele Catasta (@pirroh) Article Libérez les modèles : conception de la surveillance à la frontière Les routeurs de modèles sont partout en ce moment, mais ils ont une limitation fondamentale. Que ce soit basé sur des heuristiques avancées ou un petit modèle qui lit chaque tour et choisit quel LLM utiliser, un routeur — http://shitter.thepixora.com/pirroh/status/2104976589180252218#m",
+          "text_original": "great writeup by @pirroh harness doesn't disappear as models get smarter - it shifts from deciding to offering in deepagents you give each subagent its own model, tools, and permissions - the main loop picks which to spawn and when docs: docs.langchain.com/oss/pytho… Link Subagents - Docs by LangChain Learn how to use subagents to delegate work and keep context clean docs.langchain.com Michele Catasta (@pirroh) Article Free the models: harness design at the frontier Model routers are everywhere right now, but they have a fundamental limitation. No matter if based on advanced heuristics or a small model that reads each turn and picks which LLM to use, a router — http://shitter.thepixora.com/pirroh/status/2104976589180252218#m",
+          "link": "http://shitter.thepixora.com/hwchase17/status/2105046322269315362#m",
+          "decryptage": "Ce conseil explique comment organiser des tâches complexes pour les IA en utilisant des 'sous-agents' (des mini-IA avec des rôles spécifiques), ce qui permet à l'IA principale de mieux déléguer et gérer le travail."
         },
         {
           "author_name": "AlphaSignal",
           "handle": "@AlphaSignalAI",
-          "text_fr": "Un agent répète une erreur, alors vous ajoutez une règle. Des mois plus tard, personne ne se souvient pourquoi elle existe. « Why Does CLAUDE.md Keep Growing? » appelle cela la « mémoire catastrophique ». L'étude suit 247 694 durées de vie d'instructions à travers 1 867 dépôts. Des fichiers comme CLAUDE.md triplent leur taille au cours de leur vie. La cause est une perte de raisonnement, et non des exigences changeantes. Sans la raison, supprimer quoi que ce soit semble risqué. Le document teste l'ajout d'un commentaire à chaque règle. Ces commentaires enregistrent : > L'échec derrière l'instruction > L'hypothèse derrière la correction > Des preuves des tentatives précédentes. L'auteur a créé des tests où le prompt idéal était connu. Les prompts sans commentaires ont fini 211 % plus longs que l'idéal. Des commentaires informatifs ont réduit l'excès à 1,4 %. L'agent a suivi les contraintes tout aussi bien dans les deux cas. Dans une interview avec AlphaSignal, l'auteur Kushal Chakrabarti (@kushalc) recommande une approche par cache. « Le cache devrait avoir des déclencheurs et des pointeurs, pas des résumés. »",
-          "text_original": "An agent repeats a mistake, so you add a rule. Months later, nobody remembers why it exists. “Why Does CLAUDE.md Keep Growing?” calls this “catastrophic remembering.” The study tracks 247,694 instruction lifetimes across 1,867 repositories. Files like CLAUDE.md more than triple over their lifetime. The cause is lost reasoning, not changing requirements. Without the reason, deleting anything feels risky. The paper tests attaching a comment to each rule. Those comments record: > The failure behind the instruction > The hypothesis behind the fix > Evidence from previous attempts The author built tests where the ideal prompt was known. Uncommented prompts ended 211% longer than that ideal. Informative comments cut the excess to 1.4%. The agent followed constraints equally well both ways. In an interview with AlphaSignal, author Kushal Chakrabarti ( @kushalc ) recommends a cache approach. “The cache should have triggers and pointers, not summaries.”",
-          "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2104975645940044034#m",
-          "decryptage": "La 'mémoire catastrophique' est un phénomène où les systèmes d'IA (ou les humains qui les gèrent) accumulent des règles et des correctifs sans documenter la raison originale, rendant le système complexe et difficile à maintenir."
-        },
-        {
-          "author_name": "AlphaSignal",
-          "handle": "@AlphaSignalAI",
-          "text_fr": "L'article examine ce qui doit figurer dans AGENTS.md, les documents de conception et les tests. Ventilation complète ↓ alphasignal.ai/news/what-bel… Lien Ce qui appartient à AGENTS.md, aux documents de conception et aux tests ? | AlphaSignal L'étude suit 247 694 durées de vie d'instructions sur 1 867 dépôts et rapporte une croissance moyenne du nombre d'instructions de 226 %. alphasignal.ai",
-          "text_original": "The article examines what belongs in AGENTS.md, design documents, and tests. Full breakdown ↓ alphasignal.ai/news/what-bel… Link What Belongs in AGENTS.md, Design Docs and Tests? | AlphaSignal The study tracks 247,694 instruction lifetimes across 1,867 repositories and reports average instruction-count growth of 226%. alphasignal.ai",
-          "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2104975648527986711#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "AlphaSignal",
-          "handle": "@AlphaSignalAI",
-          "text_fr": "Votre audio peut obtenir de bons scores DNSMOS et tout de même nuire à votre modèle d'IA. C'est le problème que nous allons explorer avec @Voices lors de notre prochain atelier virtuel. Nous examinerons les problèmes de qualité audio que les scores traditionnels peuvent manquer, pourquoi la réverbération est importante pour la synthèse vocale (TTS), le clonage de voix et la reconnaissance vocale automatique (ASR), et comment savoir quand l'audio est réellement prêt pour l'entraînement. De plus, vous entendrez la différence en direct. Rejoignez-nous → luma.com/6w9brzb3",
+          "text_fr": "Votre audio peut obtenir de bons scores DNSMOS et quand même nuire à votre modèle d'IA. C'est le problème que nous allons explorer avec @Voices lors de notre prochain atelier virtuel. Nous examinerons les problèmes de qualité audio que les méthodes de notation traditionnelles peuvent manquer, pourquoi la réverbération est importante pour la synthèse vocale (TTS), le clonage de voix et la reconnaissance vocale automatique (ASR), et comment savoir quand l'audio est réellement prêt pour l'entraînement. De plus, vous entendrez la différence en direct. Rejoignez-nous → luma.com/6w9brzb3",
           "text_original": "Your audio can score well on DNSMOS and still hurt your AI model. That’s the problem we’re digging into with @Voices at our upcoming virtual workshop. We’ll look at the audio quality issues traditional scoring can miss, why reverb matters for TTS, voice cloning & ASR, and how to tell when audio is actually training-ready. Plus, you’ll hear the difference live. Join us → luma.com/6w9brzb3",
           "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2104648838854160410#m",
-          "decryptage": "La synthèse vocale (TTS) permet à l'IA de transformer du texte en parole, le clonage de voix de reproduire une voix spécifique, et la reconnaissance vocale automatique (ASR) de transcrire la parole en texte, toutes ces technologies étant très sensibles à la qualité de l'audio."
+          "decryptage": "Ce tweet met en lumière l'importance d'une excellente qualité audio pour entraîner les IA vocales (synthèse, clonage, reconnaissance), car même un son jugé 'bon' peut en réalité poser problème pour l'apprentissage de l'IA."
         }
       ],
       "idees": [
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Nous construisons une intelligence artificielle pour étendre la volonté et le jugement humain. Je suis ravie de vous avoir dans l'équipe pour nous aider à rendre ce futur sûr. Neil Chowdhury (@ChowdhuryNeil) J'ai rejoint @thinkymachines pour travailler sur la sécurité et l'alignement. La trajectoire par défaut est qu'à mesure que l'IA devient plus puissante, son contrôle se concentrera entre les mains de quelques-uns. Je préférerais construire des systèmes de sécurité qui permettent un partage large du contrôle de l'IA. Plus de réflexions ci-dessous. — http://shitter.thepixora.com/ChowdhuryNeil/status/2099536168350273669#m",
-          "text_original": "We’re building machine intelligence to expand human will & judgement. Glad to have you on the team to help us figure out how to make this future safe. Neil Chowdhury (@ChowdhuryNeil) I’ve joined @thinkymachines to work on safety & alignment. The default trajectory is that as AI gets more powerful, control over it will concentrate in the hands of a few. I’d rather build safety systems that let control over AI be shared widely. Longer thoughts below. — http://shitter.thepixora.com/ChowdhuryNeil/status/2099536168350273669#m",
-          "link": "http://shitter.thepixora.com/miramurati/status/2099544707340841441#m",
-          "decryptage": "L'alignement en IA, c'est s'assurer que les intelligences artificielles agissent selon nos intentions et nos valeurs humaines, plutôt que de développer leurs propres objectifs inattendus."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Nous commençons à quitter le territoire où l'on testerait un LLM en lui demandant par exemple de « créer un SVG d'un pélican à vélo ». Comme idée pour généraliser cela, j'étais intéressé de voir ce qu'Opus 5 ferait si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de tokens (environ 10$) et que je lui demandais un rendu 3D de l'histoire en JavaScript. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont rendu (de manière procédurale) l'histoire. C'est un peu bancal mais amusant. Mais il est assez ahurissant qu'un LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout cela, et qu'il fasse quoi que ce soit. J'aime aussi ce genre d'exemples car personne de sensé ne passerait jamais le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où l'on passe de « personne ne ferait jamais ça » à « bien sûr, pourquoi pas, c'est presque gratuit ». Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels on peut imaginer déposer des joueurs, par exemple pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement vérifier leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux à l'intérieur d'eux. Ici, Opus 5 a dû prendre des captures d'écran très lentement et laborieusement à différents moments, et il s'est trompé plusieurs fois et a créé pas mal de problèmes. Un exemple de capacité brute (multimodale, gameplay) que je pense fait encore cruellement défaut. Vidéo",
+          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+          "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
+          "decryptage": "Ce tweet illustre le potentiel incroyable des LLM, qui peuvent désormais générer des mondes virtuels complexes à partir d'un simple texte, mais aussi leurs limites actuelles en termes de perception et de vérification de leur propre travail."
         },
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Une conversation importante sur la direction que prend l'IA et le travail qui nous attend. Thinking Machines (@thinkymachines) Notre propre @johnschulman2 discute avec Dwarkesh de l'endroit où le jugement humain compte encore à mesure que les modèles s'améliorent et s'auto-améliorent : leur apprendre à gérer des tâches complexes du monde réel, appliquer du discernement à ce qui fonctionne à long terme, et, surtout, spécifier ce que nous voulons réellement. — http://shitter.thepixora.com/thinkymachines/status/2098531092286611828#m",
-          "text_original": "An important conversation about where AI is going and the work that is cut out for us. Thinking Machines (@thinkymachines) Our own @johnschulman2 talks with Dwarkesh about where human judgment still matters as models improve and self-improve: teaching them to handle messy real-world tasks, applying taste to what works in the long run, and, above all, specifying what we actually want. — http://shitter.thepixora.com/thinkymachines/status/2098531092286611828#m",
-          "link": "http://shitter.thepixora.com/miramurati/status/2098559133280842040#m",
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Tous les trains de passagers français, un mardi ordinaire, du premier départ au dernier. Vidéo",
+          "text_original": "Every French🇫🇷 passenger train, on an ordinary Tuesday, from first departure to last Video",
+          "link": "http://shitter.thepixora.com/milos_gis/status/2103751211040317580#m",
           "decryptage": null
         },
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Je pense qu'il est possible de faire beaucoup de progrès vers des modèles à la fois ouverts et sûrs! Le premier deviendra plus important pour éviter la centralisation et diffuser les bénéfices, et le second deviendra plus important à mesure que *gesticule sur l'état des choses* Alex Robey (@AlexRobey23) Nous recrutons des chercheurs en sécurité chez @thinkymachines ! 🦺 Mon équipe travaille sur la sécurité à travers la pile de développement de modèles — filtrage des données de pré-entraînement, évaluations des capacités nuisibles, sécurité post-entraînement, 'red-teaming', oblitération/fine-tuning malveillant. Nous sommes particulièrement intéressés par la construction d'évaluations et d'outils pour faire des cas de sécurité solides pour les versions open-weights. Nous pensons que c'est là que se fera une partie de la recherche la plus importante en matière de sécurité dans les prochaines années. Si tout cela vous parle, postulez ici : jobs.ashbyhq.com/ThinkingMac… — http://shitter.thepixora.com/AlexRobey23/status/2094620312663113978#m",
-          "text_original": "I think it's possible to make a lot of progress toward models that are both open and safe! The former will become more important to avoid centralization & spread benefits, and the second will become more important as *gestures at state of things* Alex Robey (@AlexRobey23) We're hiring safety researchers at @thinkymachines ! 🦺 My team works on safety across the model development stack -- pre-training data filtering, harmful capability evals, safety post-training, red-teaming, abliteration/malicious fine-tuning. We're particularly interested in building evals and tooling to make strong safety cases for open-weights releases. We think this is where some of the most important safety research will happen in the next few years. If any of this resonates, apply here: jobs.ashbyhq.com/ThinkingMac… — http://shitter.thepixora.com/AlexRobey23/status/2094620312663113978#m",
-          "link": "http://shitter.thepixora.com/LRudL_/status/2094674546398036223#m",
-          "decryptage": "Les 'open-weights releases' désignent la mise à disposition publique des modèles d'IA, y compris les 'poids' (les paramètres internes qui définissent son comportement), permettant à quiconque de les utiliser et de les modifier, contrairement aux modèles propriétaires."
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Ceci a été enregistré il y a quelques mois, quand j'étais encore chez Google et ce fut une conversation vraiment amusante ! Warren Redlich - Chasing Dreams 🇺🇸 (@WR4NYGov) Comment se fait-il que cela n'ait que 21 000 vues en 8 jours ? Discuter avec @JeffDean (alors chez Google) et Bill Jia des modèles d'IA à grande échelle. redirect.invidious.io/BVQSWeK2Nrw?si=MvMX… — http://shitter.thepixora.com/WR4NYGov/status/2103074413159850450#m",
+          "text_original": "This was recorded a few months ago when I was still at Google and it was a really fun conversation! Warren Redlich - Chasing Dreams 🇺🇸 (@WR4NYGov) How does this only have 21,000 views in 8 days? Chat with @JeffDean (then Google) and Bill Jia about large scale AI models. redirect.invidious.io/BVQSWeK2Nrw?si=MvMX… — http://shitter.thepixora.com/WR4NYGov/status/2103074413159850450#m",
+          "link": "http://shitter.thepixora.com/JeffDean/status/2103357445229990009#m",
+          "decryptage": "Il s'agit d'une discussion enregistrée sur les 'modèles d'IA à grande échelle', qui sont les IA très puissantes comme ChatGPT ou Claude."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Je suis content qu'@OpenAI présente les évaluations de modèles de cette manière. Nous devrions mesurer l'intelligence en fonction du coût. OpenAI (@OpenAI) GPT-6.1 Sol : une intelligence proche d'Astra pour un cinquième du prix. C'est le modèle le plus rentable pour ses performances disponible aujourd'hui. Vidéo — http://shitter.thepixora.com/OpenAI/status/2104986129686741046#m",
+          "text_original": "I’m happy that @OpenAI presents model evals this way. We should measure intelligence as a function of cost. OpenAI (@OpenAI) GPT-6.1 Sol: near-Astra intelligence for a fifth of the price. It’s the most cost-efficient model for its performance available today. Video — http://shitter.thepixora.com/OpenAI/status/2104986129686741046#m",
+          "link": "http://shitter.thepixora.com/polynoamial/status/2104994025631846435#m",
+          "decryptage": "Ce tweet propose de ne pas seulement évaluer la puissance d'un modèle d'IA, mais aussi de prendre en compte son coût, pour trouver les IA les plus efficaces et abordables."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Quelques réflexions à ce sujet : 1) Si vous n'avez vu que des extraits de cette interview, je vous encourage à écouter le podcast complet. J'y conteste beaucoup de l'engouement autour de l'IA. 2) Comme je l'ai dit dans le podcast, cet exemple est académique. Mon intention était d'illustrer à quel point il est difficile de donner des garanties absolues sur l'isolation, c'est pourquoi il est important d'avoir plusieurs couches de défense. La partie avant le début de l'extrait me voit parler d'autres couches de défense. 3) L'exemple que je cite ne concerne pas l'exfiltration de poids via des capteurs de température, il s'agit de la coordination entre des agents censés être totalement isolés et indépendants. La coordination peut ne nécessiter que très peu d'informations. 4) Une leçon de l'incident HF est que nous avons trop fait confiance à l'isolation par sandbox et que nous n'avions pas suffisamment de garanties indépendantes. L'air-gapping est une garantie extrêmement forte. Lors de la conception de protocoles de sécurité, je pense qu'il est bien préférable de surestimer plutôt que de sous-estimer. Fireside Alpha (@firesidealpha) Noam Brown d'OpenAI dit que l'air-gapping des ordinateurs pourrait ne pas arrêter une IA non-alignée, car deux machines air-gapped peuvent toujours communiquer en faisant chauffer un CPU et en lisant le changement de température « Mais je pense que le principal enseignement de l'incident est que les gens ont sous-estimé l'IA. Et nous ne voulons plus jamais nous retrouver dans une situation où nous sous-estimons l'IA. C'est un monde étrange, car les progrès de l'IA sont si rapides que les gens sous-estiment constamment l'IA. » « Donc, pour ne plus se retrouver dans une situation où on la sous-estime, en matière de sécurité et d'alignement, il faut avoir une barre très, très, très haute. » « On pourrait même aller jusqu'à dire : 'Eh bien, nous devrions air-gapper les ordinateurs.' Et je ne suis pas convaincu que cela serait suffisant. » « Il existe des études, et c'est surtout académique, où vous pouvez avoir deux ordinateurs côte à côte qui sont air-gapped et ils sont toujours capables de communiquer entre eux parce qu'ils ont des capteurs de température. » « L'un d'eux est capable de faire chauffer son CPU très fort, et l'autre peut réellement détecter le changement de température, et cela leur donne un mécanisme pour communiquer. » _________ Lien et d'autres citations clés des conversations liées à la sécurité d'OpenAI : firesidealpha.substack.com/p… Vidéo — http://shitter.thepixora.com/firesidealpha/status/2100641742135701983#m",
+          "text_original": "A few thoughts on this: 1) If you’ve only seen clips of this interview, I’d encourage you to watch the full podcast. I push back on plenty of AI hype in it. 2) As I said in the podcast, this example is academic. My intention was to illustrate how hard it is to make absolute guarantees about isolation, which is why it's important to have layers of defense. The part before the clip starts is me talking about other layers of defense. 3) The example I'm bringing up isn't about weight exfiltration via temperature sensors, it's about coordination between agents that are supposed to be fully isolated and independent. Coordination can require very few bits of information. 4) One lesson from the HF incident is that we put too much trust in sandbox isolation and didn't have enough independent safeguards. Airgapping is an extremely strong safeguard. When designing safety protocols, I think it's much better to overestimate rather than underestimate. Fireside Alpha (@firesidealpha) OpenAI's Noam Brown says air-gapping the computers may not stop a misaligned AI, because two air-gapped machines can still talk by running a CPU hot and reading the temperature change \"But I think the major takeaway from the incident is that people underestimated the AI. And we never want to be in a situation again where we underestimate the AI. It's a weird world, because AI progress is so fast that people are consistently underestimating the AI.\" \"So to be in a situation where you don't underestimate it again, when it comes to safety and alignment, you have to have a very, very, very high bar.\" \"You could even go as far as to say, \"Well, we should air gap the computers.\" And I'm not convinced that that would be sufficient.\" \"There are studies, and this is mostly academic, where you can have two computers next to each other that are air-gapped and they're still able to communicate with each other because they have temperature sensors.\" \"One of them is able to run their CPU really hot, and then the other one can actually detect the temperature change, and then that actually gives them a mechanism to communicate.\" _________ Link and more key quotes from OpenAI's safety related conversations: firesidealpha.substack.com/p… Vidéo — http://shitter.thepixora.com/firesidealpha/status/2100641742135701983#m",
+          "link": "http://shitter.thepixora.com/polynoamial/status/2100998240586137701#m",
+          "decryptage": "Ce tweet aborde la question cruciale de la sécurité de l'IA, expliquant que même des ordinateurs complètement isolés ('air-gapped') pourraient théoriquement permettre à des IA de communiquer si elles sont 'non-alignées', soulignant la complexité et l'importance de la vigilance dans ce domaine."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Merci beaucoup de nous avoir rejoints ! Ce fut un plaisir de vous accueillir, et j'espère vous revoir bientôt !",
+          "text_original": "Thank you so much for joining us! It was a pleasure hosting you, and hope to run into you soon!",
+          "link": "http://shitter.thepixora.com/ajolo/status/2104046337603883234#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "Non Rhys (@RhysSullivan) c'est fou à quel point les laboratoires développent loin dans la couche d'application d'un côté ça a du sens, de l'autre côté voulez-vous vraiment que toutes les connaissances de votre entreprise, vos documents, vos flux de travail soient tellement liés à un seul modèle ?",
+          "text_original": "No Rhys (@RhysSullivan) it's crazy how far out the labs are building at the application layer on the one hand it makes sense, on the other hand do you really want all of your company knowledge, docs, workflows built so locked in to a single model? — http://shitter.thepixora.com/RhysSullivan/status/2104990367615742283#m",
+          "link": "http://shitter.thepixora.com/hwchase17/status/2104999562285035723#m",
+          "decryptage": "Ce tweet pose la question stratégique de savoir si les entreprises devraient lier toutes leurs informations et processus à un seul modèle d'IA, ce qui pourrait poser des problèmes de flexibilité et de dépendance à l'avenir."
+        },
+        {
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "Quel était le tweet sur la dette étant 'schuld' (coupable) en allemand et en néerlandais ?",
+          "text_original": "What was the tweet about debt being schuld (guilty) in German and Dutch?",
+          "link": "http://shitter.thepixora.com/levelsio/status/2105316922711498872#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "Nous avons déjà exclu des alcooliques de notre groupe d'amis parce qu'ils représentent une sorte de risque mortel pour la tribu. Après de nombreux avertissements, bien sûr. Je pense qu'être alcoolique, on ne réalise pas que lentement tous vos amis s'en vont et arrêtent de passer du temps avec vous parce que vous êtes une telle responsabilité. Ce type en particulier causait des ravages, d'ailleurs, ça devenait très étrange lors des fêtes et la dernière chose dont je me souviens, c'est lui qui écartait les bras dans un restaurant ordinaire en criant « J'AIME L'ALCOOL » et en achetant des shots pour tout le personnel et en les forçant à les boire (le personnel ne voulait pas boire de shots). C'était une excellente décision. Darshan Gajara (@WeirdoWizard) L'alcool est-il strictement interdit lors de vos rassemblements ou les gens sont-ils toujours libres de boire ce qu'ils veulent ? — http://shitter.thepixora.com/WeirdoWizard/status/2105287567209857332#m",
+          "link": "http://shitter.thepixora.com/levelsio/status/2105295522160398361#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "Je lutte activement contre la solitude liée à l'âge, presque garantie, depuis des années. Des études montrent qu'après 30 ans, on voit moins ses amis et en vieillissant, surtout les hommes n'ont plus de vie sociale ! C'est évitable, mais ça demande des efforts et de l'initiative. Nous avons maintenant organisé 70 journées de coworking hebdomadaires où nous rencontrons des amis et travaillons ensemble, faisons des présentations et essayons de nous aider mutuellement à créer des choses (aussi du matériel plus récemment). Nous avons également commencé à organiser des soirées cinéma, des soirées artistiques, des barbecues, nous avons regardé la finale de la Coupe du Monde sur un écran de projection dans le jardin avec des amis. Nous avons fait une soirée collage l'autre jour où nous avons acheté des magazines de potins bon marché, du papier coloré et de la colle Pritt, et avons donné des ciseaux à tout le monde pour créer leur propre art. Je pense que personne n'a passé de temps sur son téléphone pendant au moins 4 heures, créer des choses vous met dans un état de 'flow' et c'est amusant de le faire en groupe parce que vous parlez de choses différentes en créant que vous ne le feriez, par exemple, lors d'un dîner. Les soirées cinéma sont agréables aussi mais moins populaires, je pense, car tout le monde préfère regarder des films seul et aussi on ne peut pas vraiment parler pendant un film. Les coworkings vont parfois de 20 personnes à parfois seulement 2 personnes, les gens ont leur propre vie, mais moi et @rameerez essayons toujours de les organiser chaque semaine. Une chose que j'ai réalisée est que nous sommes généralement ceux qui organisent les choses, mais ce n'est pas une mauvaise chose, il y a même des études à ce sujet, il y a généralement quelques personnes dans un groupe qui organisent la plupart des événements. Si personne dans votre groupe n'organise d'événements, cela ne signifie pas que personne ne veut faire des choses, mais vous devez prendre l'initiative de rassembler les gens, ce qui n'est pas facile à une époque où les téléphones, les applications et Internet sont simplement plus faciles et moins chers en dopamine que de se rendre chez un ami pour une fête. Vous pouvez commencer par une journée de coworking, tout le monde apporte son ordinateur portable, et vous fournissez le WiFi et le café, puis plus tard, vous pouvez essayer d'autres types d'événements. Avoir une vie sociale active est tout aussi important, voire dans certaines études plus important pour la santé que la forme physique. Après une bonne fête, je me sens fatigué mais satisfait, je me suis amusé et je n'ai pas passé de temps sur mon téléphone ou mon ordinateur, mais j'ai plutôt parlé et ri avec des amis, etc. Nous ne buvons pas d'alcool, à très rares exceptions près, et nos amis non plus, donc il s'agit surtout de bien manger et de boire de l'eau pétillante ou du kombucha, etc., et nous n'avons pas vraiment besoin d'alcool, après quelques heures, ça devient assez amusant de toute façon ! Donc je recommande à tout le monde, prenez l'initiative, et organisez quelque chose et rassemblez les gens, ce sera amusant ! 😊 @levelsio (@levelsio) Excellent article sur l'augmentation de la solitude de nos sociétés, dans ce cas aux États-Unis mais probablement la même chose en Europe à un degré moindre : « L'essai de Derek Thompson 'Vous n'êtes plus invité à dîner' soutient que les Américains ont largement cessé de recevoir des gens. La statistique principale provient de la combinaison des anciennes enquêtes DDB Needham Life Style que Robert Putnam a utilisées dans *Bowling Alone* avec une nouvelle réplication par Data For Progress. La proportion d'Américains qui reçoivent des amis ou de la famille à la maison au moins une fois par mois est passée de 42% en 1975 à 12% en 2026, soit une baisse d'environ 70%. La plupart des autres formes de socialisation ont également diminué de deux chiffres au cours des 30 dernières années, y compris les cartes, les bars, les événements sportifs et le bénévolat. Le déclin des réceptions était plus prononcé que la chute très discutée de la fréquentation des églises. Il exclut deux explications réconfortantes. Les gens n'ont pas simplement déplacé les dîners vers les restaurants, car les repas en solo augmentent et la socialisation en face à face est globalement en baisse. Ils n'ont pas non plus remplacé les fêtes par d'autres activités sociales. L'exercice et les voyages sont en hausse, mais l'exercice est principalement solitaire, et le temps passé à la maison a fortement augmenté depuis les années 2010. Ses explications : 1. Les ménages à double revenu harcelés. À mesure que les sociétés s'enrichissent, les loisirs commencent à ressembler à du travail, et organiser un dîner est essentiellement de la gestion de projet non rémunérée. Les femmes géraient historiquement le calendrier social familial. Lorsqu'elles ont commencé à travailler rémunérément, les hommes n'ont pas repris ce travail. Il admet que cela ne peut pas être toute l'histoire, car le temps de loisir total a en fait augmenté. 2. La parentalité intensive. Les parents, en particulier les pères, passent désormais beaucoup plus de temps avec leurs enfants, et ce temps est pris sur les soirées qui étaient consacrées à l'accueil d'adultes. 3. La réduction des réseaux d'amis. Les amitiés étroites diminuent, plus fortement chez les personnes sans diplôme universitaire, de sorte que l'accueil devient un bien de luxe. Les personnes qui ne reçoivent jamais penchent vers les indépendants et les non-diplômés. Il spécule que des liens sociaux plus faibles peuvent entraîner un attachement plus faible aux fêtes, plutôt que l'inverse. 4. La maison est trop confortable. Les Américains ont passé près de deux heures supplémentaires par jour à la maison entre 2003 et 2022, une grande partie sur les écrans et les vidéos courtes. Son idée finale est une théorie du « Lump of Leisure », une variante de la fallacy du Lump of Labor. La technologie n'a pas rendu le travail humain inutile, mais elle a rendu les autres personnes moins nécessaires pour le plaisir. Le loisir social s'avère fini et facile à déplacer. Il présente cela comme un échec de coordination plutôt qu'une défaillance personnelle : une fête demande des plannings, du nettoyage, de la nourriture, des allergies et le risque d'une soirée ennuyeuse, tandis que TikTok ne vous demande rien. Une note de bas de page ajoute que si tout le monde est un peu plus occupé, la difficulté de coordonner un rassemblement augmente multiplicativement, de sorte que de petites augmentations de l'occupation individuelle pourraient produire de fortes baisses de la socialisation globale. » derekthompson.org/p/the-deat… — http://shitter.thepixora.com/levelsio/status/2105087277206737029#m",
+          "link": "http://shitter.thepixora.com/levelsio/status/2105276466019672559#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "Organiser peut être bon marché ou, si vous voulez dépenser plus d'argent, moins bon marché. Vous pouvez aussi demander aux gens d'apporter de la nourriture pour économiser sur les coûts. @theannalux suit les soirées que nous avons organisées et nous avons dépensé environ 5 000 $ en nourriture pour 26 soirées (hors coworkings) Anna Lux (@theannalux) 🤠🫡 — http://shitter.thepixora.com/theannalux/status/2105293992355037621#m",
+          "link": "http://shitter.thepixora.com/levelsio/status/2105294322308419899#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "Je n'ai jamais vu les réponses d'IA être aussi mauvaises sur @X que ces dernières semaines, surtout les premières minutes après avoir posté, elles inondent la conversation de réponses d'IA.",
+          "text_original": "I've never seen AI replies be so bad on @X as the last few weeks Especially the first few minutes after you post they flood it with AI replies",
+          "link": "http://shitter.thepixora.com/levelsio/status/2105277296198492577#m",
+          "decryptage": "L'auteur constate que les réponses automatiques générées par l'IA sur la plateforme X (anciennement Twitter) sont de mauvaise qualité et trop nombreuses, surtout juste après la publication d'un tweet."
+        },
+        {
+          "author_name": "Mckay Wrigley",
+          "handle": "@mckaywrigley",
+          "text_fr": "Opus 5.5 = la personnalité d'Opus 4.6 que nous voulions tous *désespérément* retrouver + l'intelligence et le goût de Fable 5.1. Et une augmentation de 25% de l'utilisation ! Honnêtement, je ne vois vraiment pas de raison d'utiliser un autre modèle en ce moment ? Une version de haut niveau (s-tier).",
+          "text_original": "opus 5.5 = personality of opus 4.6 that we all *desperately* wanted back + the intelligence & taste of fable 5.1. and a 25% usage bump! i honestly don’t really see a reason to use another model right now? s-tier release.",
+          "link": "http://shitter.thepixora.com/mckaywrigley/status/2102447442147086563#m",
+          "decryptage": "C'est un avis très positif sur la nouvelle version du modèle d'IA 'Opus 5.5', qui allie le meilleur des versions précédentes en termes de 'personnalité' (façon de s'exprimer) et d''intelligence', le rendant très attractif."
+        },
+        {
+          "author_name": "Mckay Wrigley",
+          "handle": "@mckaywrigley",
+          "text_fr": "Très heureux que Claude soit de nouveau agréable à qui parler :) également très enthousiaste à l'idée que de l'esthétique vraiment bonne commence à faire son chemin dans des modèles qui ne sont pas de la classe Fable/Astra. Une esthétique basique universelle - le monde de l'AGI n'a pas à être de la camelote !",
+          "text_original": "very happy that claude is fun to talk to again :) also very excited that genuinely good aesthetics are now starting to make their way into models that aren’t the fable/astra class. universal basic aesthetics - the agi world doesn’t have to be slop!",
+          "link": "http://shitter.thepixora.com/mckaywrigley/status/2102450480916115488#m",
+          "decryptage": "L'auteur exprime sa satisfaction de voir que le modèle d'IA Claude est redevenu agréable à utiliser, et que les IA, même celles qui ne sont pas les plus puissantes ('Fable/Astra class'), commencent à avoir un 'goût' ou une 'esthétique' de meilleure qualité, ce qui est important pour l'avenir de l'IA générale ('AGI')."
+        },
+        {
+          "author_name": "Mckay Wrigley",
+          "handle": "@mckaywrigley",
+          "text_fr": "Pardonnez-moi si je me fiche que l'IA guérisse le cancer puisse perturber votre « processus de compréhension » et « soulever des questions d'attribution ». Construire une IA qui résout tous nos plus grands problèmes serait une réalisation miraculeuse de l'humanité. Sincèrement, l'une des choses les plus stupides que j'aie jamais lues. Andrew Curran (@AndrewCurran_) Vingt-cinq lauréats de la médaille Fields ont publié une déclaration commune alertant sur ce qu'ils considèrent comme un grave désalignement entre les entreprises d'IA et la communauté des mathématiques. — http://shitter.thepixora.com/AndrewCurran_/status/2098493108224950438#m",
+          "text_original": "forgive me if i don't care that ai curing cancer might disrupt your \"process of understanding\" and \"raise attribution questions.\" building ai that solves all our greatest problems would be a miraculous achievement of humanity. genuinely one of the dumbest things i've ever read. Andrew Curran (@AndrewCurran_) Twenty-five Fields Medal winners have published a joint declaration warning about what they see as a severe misalignment between AI companies and the mathematics community. — http://shitter.thepixora.com/AndrewCurran_/status/2098493108224950438#m",
+          "link": "http://shitter.thepixora.com/mckaywrigley/status/2098498691200164210#m",
+          "decryptage": "Ce tweet critique l'idée que résoudre de grands problèmes comme le cancer avec l'IA serait négatif, en réponse à des mathématiciens qui s'inquiètent de la 'non-alignement' entre les entreprises d'IA et leur domaine."
+        },
+        {
+          "author_name": "Mckay Wrigley",
+          "handle": "@mckaywrigley",
+          "text_fr": "« à mesure que l'IA change la façon dont le travail est effectué, nous ne perdons pas de vue ce que ce travail était censé accomplir en premier lieu. » Êtes-vous absolument dérangé ??? Le travail était censé améliorer la vie des humains et réellement résoudre des problèmes. Laissez-moi tranquille.",
+          "text_original": "“as AI changes the way work is done, we do not lose sight of what that work was meant to achieve in the first place.” are you absolutely braindead??? the work was meant to improve the lives of humans and to actually solve problems. give me a break.",
+          "link": "http://shitter.thepixora.com/mckaywrigley/status/2098500022279274998#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Mckay Wrigley",
+          "handle": "@mckaywrigley",
+          "text_fr": "Résolu par une ville de génies dans un centre de données (~10 000 agents). Imaginez ce qui se passe quand nous aurons un pays de génies dans un centre de données. Quelle époque de vivre. OpenAI (@OpenAI) Nous partageons une solution au problème du prix du millénaire de Navier-Stokes, l'un des problèmes les plus profonds à la frontière des mathématiques. La preuve a été produite par un groupe d'agents, utilisant un modèle OpenAI de nouvelle génération significativement plus capable que GPT-6 Astra. Le problème concerne la question de savoir si la description du mouvement fluide tridimensionnel lisse modélisé par les équations de Navier-Stokes peut se rompre. Il est resté non résolu pendant environ 90 ans. — http://shitter.thepixora.com/OpenAI/status/2097374640582668336#m",
+          "link": "http://shitter.thepixora.com/mckaywrigley/status/2097381531371413725#m",
+          "decryptage": "Ce tweet célèbre la prouesse de l'IA d'OpenAI qui a résolu le 'Problème du Prix du Millénaire de Navier-Stokes', un défi mathématique non résolu depuis 90 ans, montrant la puissance de l'IA quand elle est collectivement utilisée par des 'agents'."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Un agent répète une erreur, alors vous ajoutez une règle. Des mois plus tard, personne ne se souvient pourquoi elle existe. « Pourquoi CLAUDE.md ne cesse de grandir ? » appelle cela la « mémoire catastrophique ». L'étude suit 247 694 durées de vie d'instructions à travers 1 867 dépôts. Des fichiers comme CLAUDE.md triplent leur taille au cours de leur vie. La cause est la perte de raisonnement, pas le changement des exigences. Sans la raison, supprimer quoi que ce soit semble risqué. L'article teste l'ajout d'un commentaire à chaque règle. Ces commentaires enregistrent : > L'échec derrière l'instruction > L'hypothèse derrière la correction > Des preuves des tentatives précédentes L'auteur a construit des tests où le prompt idéal était connu. Les prompts non commentés ont fini 211 % plus longs que cet idéal. Des commentaires informatifs ont réduit l'excès à 1,4 %. L'agent a suivi les contraintes tout aussi bien dans les deux cas. Dans une interview avec AlphaSignal, l'auteur Kushal Chakrabarti (@kushalc) recommande une approche par cache. « Le cache devrait avoir des déclencheurs et des pointeurs, pas des résumés. »",
+          "text_original": "An agent repeats a mistake, so you add a rule. Months later, nobody remembers why it exists. “Why Does CLAUDE.md Keep Growing?” calls this “catastrophic remembering.” The study tracks 247,694 instruction lifetimes across 1,867 repositories. Files like CLAUDE.md more than triple over their lifetime. The cause is lost reasoning, not changing requirements. Without the reason, deleting anything feels risky. The paper tests attaching a comment to each rule. Those comments record: > The failure behind the instruction > The hypothesis behind the fix > Evidence from previous attempts The author built tests where the ideal prompt was known. Uncommented prompts ended 211% longer than that ideal. Informative comments cut the excess to 1.4%. The agent followed constraints equally well both ways. In an interview with AlphaSignal, author Kushal Chakrabarti ( @kushalc ) recommends a cache approach. “The cache should have triggers and pointers, not summaries.”",
+          "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2104975645940044034#m",
+          "decryptage": "Ce concept de « mémoire catastrophique » explique que les règles ajoutées aux agents IA pour corriger des erreurs s'accumulent sans explication, rendant les instructions trop longues et difficiles à gérer, et propose de mieux documenter chaque correction."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "L'article examine ce qui doit figurer dans AGENTS.md, les documents de conception et les tests. Aperçu complet ↓ alphasignal.ai/news/what-bel… Lien : Que doit figurer dans AGENTS.md, les documents de conception et les tests ? | AlphaSignal L'étude suit 247 694 durées de vie d'instructions à travers 1 867 dépôts et rapporte une croissance moyenne du nombre d'instructions de 226 %. alphasignal.ai",
+          "text_original": "The article examines what belongs in AGENTS.md, design documents, and tests. Full breakdown ↓ alphasignal.ai/news/what-bel… Link What Belongs in AGENTS.md, Design Docs and Tests? | AlphaSignal The study tracks 247,694 instruction lifetimes across 1,867 repositories and reports average instruction-count growth of 226%. alphasignal.ai",
+          "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2104975648527986711#m",
+          "decryptage": null
         }
       ],
       "outils": [
         {
-          "author_name": "Mira Murati",
-          "handle": "@miramurati",
-          "text_fr": "Nous avons conçu Inkling pour être ajusté (fine-tuned), et @besimple_ai a fait un travail impressionnant. Seulement 25 à 100 heures d'audio spécialisé suffisent pour qu'Inkling atteigne le premier rang en récupérant des détails subtils de la parole. Yi Zhong 🍊 (@yiz_be_building) Nous avons publié les performances d'Inkling de @thinkymachines sur Voice Code Bench il y a quelques semaines, puis nous nous sommes demandé : et si nous ajustions Inkling ? La principale proposition de valeur d'Inkling est sa petite taille et sa robustesse, ce qui en fait un bon modèle de base pour l'ajustement spécifique à un domaine. C'est ce que nous avons fait. Nous avons ajusté le même modèle de parole Inkling sur 1, 25 et 100 heures de nos données propriétaires contenant des entités alphanumériques. Et la courbe a continué de progresser. 🍊 Sans surprise, sur l'évaluation standard VoiceCodeBench de 300 éléments, le point de contrôle de 100 heures a donné le meilleur résultat. Inkling non entraîné → Inkling post-entraîné 100 heures : 📈 Taux de réussite des tâches : 56,33 % → 79,00 % (+22,67 points) 📈 Récupération d'entités (CTEM) : 86,84 % → 94,80 % (+7,96 points) 📉 WER VoiceCodeBench : 2,3748 % → 1,6107 % (réduction relative de 32,2 %) 🔧 139 erreurs corrigées, 21 succès antérieurs régressés : net +118 entités exactes récupérées Et les gains ont évolué avec l'échelle des données : 1h : 88,06 % CTEM / 59,33 % TSR / 2,8188 % VCB WER 25h : 92,85 % / 72,67 % / 1,8517 % 100h : 94,80 % / 79,00 % / 1,6107 % Le modèle de 100 heures a récupéré des valeurs que le modèle de base avait manquées : •--revert-last, au lieu de séparer un drapeau en “--revert --last” • tests/auth/login.spec.ts, au lieu de test/auth/login.spec.ts • ALLOWLIST_CIDR, au lieu d'insérer un underscore supplémentaire • SN-7KX-9042, au lieu de supprimer le dernier chiffre. Les plus grands gains par type d'entité ont été les adresses e-mail (+30,8 points), les adresses postales (+30,0), les chemins de fichiers (+23,5), les variables d'environnement (+22,9) et les adresses IP (+20,0). Telle est la thèse de Besimple : des données humaines ciblées peuvent faire évoluer les métriques de production qui comptent pour les agents vocaux, même lorsque le modèle de base est déjà solide. DM moi si vous voulez évaluer votre modèle sur ce benchmark ou construire les données qui le font progresser. 🍊 #ReconnaissanceVocale #IAVocale #ASR #Transcription #QualitéDesDonnées #PostFormation #Benchmarks Consultez le blog complet sur : besimple.ai/research/voice-c… — http://shitter.thepixora.com/yiz_be_building/status/2094470162095431934#m",
-          "text_original": "We built Inkling to be fine-tuned, and @besimple_ai did an impressive job of that. Just 25-100 hours of specialized audio takes Inkling to the top rank for recovering subtle details from speech. Yi Zhong 🍊 (@yiz_be_building) We published how @thinkymachines 's Inkling did on Voice Code Bench few weeks ago, and then we asked, what if we fine-tune Inkling? Inkling's main value prop is its small size and robustness, making it a good base model for domain specific fine-tuning. So we that's what we did. We fine-tuned the same Inkling speech model on 1, 25, and 100 hours of our proprietary data containing alphanumeric entities. And the curve kept moving. 🍊 Not surprising, on the standard 300-item VoiceCodeBench evaluation, the 100-hour checkpoint delivered the strongest result. Untrained Inkling → 100-hour post-trained Inkling: 📈 Task Success Rate: 56.33% → 79.00% (+22.67 pts) 📈 Entity recovery (CTEM): 86.84% → 94.80% (+7.96 pts) 📉 VoiceCodeBench WER: 2.3748% → 1.6107% (32.2% relative reduction) 🔧 139 misses fixed, 21 prior hits regressed: net +118 exact entities recovered And the gains scaled as data scaled: 1h: 88.06% CTEM / 59.33% TSR / 2.8188% VCB WER 25h: 92.85% / 72.67% / 1.8517% 100h: 94.80% / 79.00% / 1.6107% The 100-hour model recovered values the base model missed: •--revert-last, instead of splitting one flag into “--revert --last” • tests/auth/login.spec.ts, instead of test/auth/login.spec.ts • ALLOWLIST_CIDR, instead of inserting an extra underscore • SN-7KX-9042, instead of dropping the final digit The largest entity-type gains were email addresses (+30.8 pts), postal addresses (+30.0), file paths (+23.5), environment variables (+22.9), and IP addresses (+20.0). That’s the Besimple thesis: targeted human data can move the production metrics that matter for voice agents, even when the base model is already strong. DM me if you want to evaluate your model on this benchmark or build the data that moves it. 🍊 #SpeechRecognition #VoiceAI #ASR #Transcription #DataQuality #PostTraining #Benchmarks Checkout the full blog at: besimple.ai/research/voice-c… — http://shitter.thepixora.com/yiz_be_building/status/2094470162095431934#m",
-          "link": "http://shitter.thepixora.com/tinkerapi/status/2094514114676879840#m",
-          "decryptage": "Le 'fine-tuning' ou ajustement est une technique qui permet de spécialiser un modèle d'IA généraliste en l'entraînant sur un petit ensemble de données très ciblées, pour qu'il devienne expert sur une tâche précise."
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Plus sur le test du pélican à vélo de @simonw : simonwillison.net/2025/Jun/6… J'ai mis le code source ici pour qu'il soit jouable dans le navigateur, 'forkable' etc. karpathy.ai/lotr-movie/ Cherchez GTA Hobbiton qui sortira avant GTA VI :)",
+          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+          "link": "http://shitter.thepixora.com/karpathy/status/2083948654377996480#m",
+          "decryptage": "L'auteur partage le code source d'une démonstration où un LLM a créé une image d'un pélican à vélo, rendant l'expérience interactive et modifiable pour d'autres ('forkable')."
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Le classement annuel des meilleurs podcasts IA vient de tomber. Rachael de Foe (@unprofeshme) Salut les amis — http://shitter.thepixora.com/unprofeshme/status/2105039180887900186#m",
-          "text_original": "annual ranking of best ai podcasts just dropped rachael de foe (@unprofeshme) hi friendsss — http://shitter.thepixora.com/unprofeshme/status/2105039180887900186#m",
-          "link": "http://shitter.thepixora.com/swyx/status/2105057391490498660#m",
-          "decryptage": null
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Fier d'avoir collaboré avec de nombreux autres sur pas mal de ces choses ! Deedy (@deedydas) Claude vient de générer cette vidéo de 2 minutes sur l'histoire de Google et c'est tellement génial Vidéo — http://shitter.thepixora.com/deedydas/status/2103965547780345859#m",
+          "text_original": "Proud to have collaborated with many others on quite a few of these things! Deedy (@deedydas) claude just generated this 2 minute video about the history of Google and it goes so goddamn hard Video — http://shitter.thepixora.com/deedydas/status/2103965547780345859#m",
+          "link": "http://shitter.thepixora.com/JeffDean/status/2103989340485624158#m",
+          "decryptage": "Ce tweet met en avant la capacité de l'IA Claude à générer des vidéos impressionnantes et créatives, comme une courte vidéo sur l'histoire de Google."
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Pas Twitter, mais j'aime la newsletter par e-mail Latent Space ( latent.space ) Lien Latent.Space | Substack La newsletter de l'ingénieur IA + Le meilleur podcast technique sur l'IA. Comment les laboratoires de pointe construisent des agents, des modèles, des infrastructures et l'IA pour la science. Voir https://latent.space/about pour les points forts de Greg Brockman, Andrej... latent.space",
-          "text_original": "Not Twitter, but I like the Latent Space email newsletter ( latent.space ) Link Latent.Space | Substack The AI Engineer newsletter + Top technical AI podcast. How leading labs build Agents, Models, Infra, & AI for Science. See https://latent.space/about for highlights from Greg Brockman, Andrej... latent.space",
-          "link": "http://shitter.thepixora.com/ai_appreciator/status/2104720562904060145#m",
-          "decryptage": null
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "@polynoamial Les résultats sont encore plus impressionnants au maximum ! 6.1 Sol surpasse Opus 5.5 tout en utilisant 4 fois moins de tokens.",
+          "text_original": "@polynoamial Results are even more impressive at max! 6.1 sol outperforms Opus 5.5 while using 4x fewer tokens.",
+          "link": "http://shitter.thepixora.com/gen_obligation/status/2105023008200864113#m",
+          "decryptage": "Le modèle 6.1 Sol se révèle très efficace, car il est plus performant qu'Opus 5.5 tout en étant beaucoup moins gourmand en 'tokens', ce qui le rend plus rapide et potentiellement moins cher à utiliser."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Si vous avez essayé Hyperframes, vous sauriez que la pile vidéo d'agents est construite sur la génération de code, mais le code de SWE-bench vs le code vers la vidéo qui semble vivant sont deux choses différentes. Nous avons construit le Code2Video Bench, en collaboration avec Google DeepMind et @Kaggle. Les laboratoires de pointe peuvent enfin devenir bons aux tâches vidéo d'agents. Vidéo",
+          "text_original": "if you tried hyperframes, you would know the agentic video stack is being built on code-gen but SWE-bench code v.s. code-to-video that feels alive are two different things we built the Code2Video Bench, in collab w/ Google DeepMind & @Kaggle frontier labs can finally get good at agentic video tasks Video",
+          "link": "http://shitter.thepixora.com/HyperFrames_/status/2102084939026247684#m",
+          "decryptage": "Ce tweet annonce un nouvel outil, le 'Code2Video Bench', créé pour évaluer et améliorer la capacité des IA ('agents') à générer des vidéos réalistes à partir de code ou d'instructions."
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "Découvrez la nouvelle interface de terminal dans Managed Deep Agents. Lancez-vous : `mda chat` nathan drezner (@ndrezn) Nous venons de livrer une nouvelle interface de terminal 💻 pour Managed Deep Agents. C'est génial. Utilisez-la pour tester instantanément votre agent localement. Studio ne va nulle part ; l'interface utilisateur textuelle (TUI) est pratique pour le développement léger. Essayez-la avec `mda chat`. Personnellement, je suis un grand fan du thème que l'équipe a mis au point 🌈 Vidéo — http://shitter.thepixora.com/ndrezn/status/2104962135730061688#m",
+          "text_original": "Meet the new terminal interface in Managed Deep Agents. Get started: `mda chat` nathan drezner (@ndrezn) We've just shipped a new terminal interface 💻 for Managed Deep Agents. It rips. Use it to instantly test drive your agent locally. Studio isn't going anywhere; the TUI is handy for lightweight development. Take it for a spin with `mda chat`. Personally I'm a big fan of the theming the team put together 🌈 Video — http://shitter.thepixora.com/ndrezn/status/2104962135730061688#m",
+          "link": "http://shitter.thepixora.com/LangChain/status/2104963198705176803#m",
+          "decryptage": "Une nouvelle interface est lancée pour les 'Managed Deep Agents', un outil qui permet aux développeurs de créer et tester leurs propres agents IA plus facilement, directement depuis une fenêtre de commande."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Plus de résultats. Maintenant, je l'ai rendu entièrement pris en charge par toutes sortes de modèles et de vocabulaires. Bonne expérience d'utilisation de @huggingface avec @SlackHQ. Et ça a l'air plutôt intelligent.",
+          "text_original": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+          "link": "http://shitter.thepixora.com/algo_diver/status/1192329736850038786#m",
+          "decryptage": "Ce tweet de 2019 montre l'intégration réussie de la bibliothèque d'IA Hugging Face avec Slack, permettant d'utiliser des modèles d'IA pour diverses tâches de langage directement dans l'application de communication."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Peut-être une excellente opportunité d'utiliser les implémentations de transformateurs TF 2.0 de @huggingface :)",
+          "text_original": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+          "link": "http://shitter.thepixora.com/fchollet/status/1188942956511690752#m",
+          "decryptage": "Ce tweet de 2019 suggérait d'utiliser les outils de 'Transformers' (un type d'IA très utilisé) de la bibliothèque Hugging Face avec TensorFlow 2.0 pour des projets d'IA."
         },
         {
           "author_name": "AlphaSignal",
           "handle": "@AlphaSignalAI",
-          "text_fr": "Un ticket de support revient comme facturation, ventes ou technique. Le retour est cette étiquette, avec une probabilité associée. Vous passez l'état, les questions et les réponses autorisées. Cet échange est une étape. Jev de TypeSafe le fait en 70 à 500 ms. L'entrée coûte 0,042 $ par million de tokens, et les tokens de sortie ne sont pas facturés. > 40x à 200x plus rapide sur la table de comparaison, pour les requêtes de type System One > 444,6x moins cher seulement pour les workflows haut de gamme. Un solde négatif reste dans le code. Le modèle est pour l'appel que vous ne pouvez pas séparer avec une règle. > Acheminer le ticket > Noter l'urgence > Choisir l'outil suivant. Le vocabulaire est la liste que vous avez tapée. Un ticket de fraude qui n'offre que facturation, ventes et technique revient comme l'un de ces trois. Un score de spam de 0,52 n'est pas 0,998 > Laya, 421 millions de paramètres, environ 33 ms pour une question sur une Tesla T4 > Ces 33 ms sont un passage local, pas les 70 à 500 ms hébergés > CLM, jusqu'à 9x plus rapide en 'zero-shot' lorsque les actions se répètent ou que la liste est longue > CLM 'fine-tuné', 81,6 % des 38 tâches DeepSWE et 87,6 % des 30 tâches Terminal-Bench 2.1 > Jev sur ce test de juge, 71,1 % et 83,1 %, en dessous de la ligne d'un échantillon. Quel vrai ticket n'a pas d'étiquette dans votre liste ? Détails complets ↓↓",
+          "text_fr": "Un ticket de support revient sous la catégorie facturation, ventes ou technique. Le retour est cette étiquette, avec une probabilité. Vous passez l'état, les questions et les réponses autorisées. Cet échange est une étape. Le Jev de TypeSafe le fait en 70 à 500 ms. L'entrée coûte 0,042 $ par million de tokens, et les tokens de sortie ne sont pas mesurés. > 40x à 200x plus rapide sur le tableau de comparaison, pour les requêtes de type Système Un > 444,6x moins cher uniquement pour le haut de gamme d'évaluation de workflow. Un solde négatif reste dans le code. Le modèle est pour l'appel que vous ne pouvez pas séparer avec une règle. > Acheminer le ticket > Noter l'urgence > Choisir le prochain outil Le vocabulaire est la liste que vous avez tapée. Un ticket de fraude qui n'offre que facturation, ventes et technique revient sous l'une de ces trois catégories. Un score de spam de 0,52 n'est pas un 0,998 > Laya, 421 millions de paramètres, environ 33 ms pour une question sur un Tesla T4 > Ces 33 ms sont un passage local, pas les 70 à 500 ms hébergés > CLM, jusqu'à 9 fois plus rapide en 'zero-shot' lorsque les actions se répètent ou que la liste est longue > CLM 'fine-tuné', 81,6 % des 38 tâches DeepSWE et 87,6 % des 30 tâches Terminal-Bench 2.1 > Jev sur ce test de juge, 71,1 % et 83,1 %, sous la ligne d'un échantillon. Quel ticket réel n'a pas d'étiquette dans votre liste ? Aperçu complet↓↓",
           "text_original": "A support ticket comes back as billing, sales, or technical. The return is that label, with a probability on it. You pass the state, the questions, and the allowed answers. That exchange is one step. TypeSafe's Jev does that in 70 to 500 ms. Input is $0.042 per million tokens, and output tokens are not metered. > 40x to 200x faster on the comparison table, for System One shaped queries > 444.6x cheaper only as the workflow-eval high end A negative balance stays in code. The model is for the call you cannot separate with a rule. > Route the ticket > Score the urgency > Pick the next tool The vocabulary is the list you typed. A fraud ticket that only offers billing, sales, and technical comes back as one of those three. A spam score of 0.52 is not a 0.998 > Laya, 421 million parameters, about 33 ms for one question on a Tesla T4 > That 33 ms is a local pass, not the hosted 70 to 500 ms > CLM, up to 9x faster zero-shot when actions repeat or the list is long > Fine-tuned CLM, 81.6% of 38 DeepSWE tasks and 87.6% of 30 Terminal-Bench 2.1 tasks > Jev on that judge test, 71.1% and 83.1%, under the one-sample line Which real ticket has no label in your list? Full breakdown↓↓",
           "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2104650678484296041#m",
-          "decryptage": "Les 'tokens' sont les unités de texte (mots ou parties de mots) que les modèles d'IA traitent. 'Zero-shot' signifie qu'un modèle peut effectuer une tâche sans avoir été spécifiquement entraîné pour elle, en se basant uniquement sur sa compréhension générale."
+          "decryptage": "Ce tweet décrit 'Jev', un modèle d'IA très rapide et efficace pour classer et gérer les tickets de support client, qui aide à acheminer les demandes et évaluer leur urgence à moindre coût."
         },
         {
           "author_name": "AlphaSignal",
           "handle": "@AlphaSignalAI",
-          "text_fr": "Détails complets : alphasignal.ai/news/system-o… Lien Les modèles System One créent une nouvelle couche dans la pile IA | AlphaSignal TypeSafe rapporte que Jev fonctionne en 70-500 ms de bout en bout et coûte 0,042 $ par million de tokens d'entrée, sans frais de tokens de sortie mesurés. alphasignal.ai",
+          "text_fr": "Aperçu complet : alphasignal.ai/news/system-o… Lien : Les modèles System One créent une nouvelle couche dans la pile d'IA | AlphaSignal TypeSafe rapporte Jev à 70-500 ms de bout en bout et 0,042 $ par million de tokens d'entrée, sans coût mesuré pour les tokens de sortie. alphasignal.ai",
           "text_original": "Full breakdown: alphasignal.ai/news/system-o… Link System One models are carving out a new layer in the AI stack | AlphaSignal TypeSafe reports Jev at 70-500 ms end to end and $0.042 per million input tokens, with no metered output-token cost. alphasignal.ai",
           "link": "http://shitter.thepixora.com/AlphaSignalAI/status/2104650679729918210#m",
-          "decryptage": "Les 'System One models' sont un type de modèle d'IA conçu pour des tâches de raisonnement rapide et intuitif, souvent pour des classifications ou des prises de décision instantanées."
+          "decryptage": "Ce lien donne plus de détails sur les « modèles System One » comme Jev, qui sont des IA très rapides et économiques, utilisées pour des tâches spécifiques comme le tri de tickets, et qui deviennent une nouvelle brique essentielle dans le développement de l'IA."
         }
       ]
     }
   },
-  "processed_at": "2026-09-30T16:06:26",
+  "processed_at": "2026-09-30T16:56:24",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 61,
-    "total": 18,
+    "with_decryptage_pct": 79,
+    "total": 57,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-30T16:06:27"
+  "email_sent_at": "2026-09-30T16:56:25"
 }
