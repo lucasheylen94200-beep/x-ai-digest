@@ -1,197 +1,152 @@
 {
   "date": "2026-09-30",
-  "fetched_at": "2026-09-30T14:14:00",
+  "fetched_at": "2026-09-30T14:54:28",
   "tweets": [
     {
-      "handle": "karpathy",
-      "text": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
-      "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
-      "published": "Thu, 10 Sep 2026 17:13:22 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "elonmusk",
+      "text": "Great to meet today with @POTUS , @JDVance , @SpeakerJohnson and Administration + tech leaders. Important conversation and we signed today the White House Accord on Super Intelligence. As I shared today, Google has invested hundreds of billions in the last two years alone, with more to come, across the entire stack, to deliver benefits for America and the world. We’re working to build products that deliver real value for people and businesses, invest in local communities, and build trust in the technology. Industry also has to innovate responsibly. Google’s focused on building the right way, with appropriate testing, evaluations, red-teaming, and other safeguards against misuse and misalignment – and releasing models or products only after they’ve been thoroughly reviewed. We are committed to working with other industry leaders to establish norms and build public confidence. The White House Accord and the Joint Commitment on Frontier Responsibilities signed today is a solid basis for moving forward - it contains real tangible steps to promote safe development, while delivering the economic and scientific benefits of this technology.",
+      "link": "http://nitter.meowing.monster/sundarpichai/status/2105121763176894804#m",
+      "published": "Wed, 30 Sep 2026 02:25:14 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-      "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
-      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "elonmusk",
+      "text": "Best way to sandbox an AI is to put it on a Delta flight – it will have no chance of accessing the Internet!",
+      "link": "http://nitter.meowing.monster/elonmusk/status/2105139959720014101#m",
+      "published": "Wed, 30 Sep 2026 03:37:32 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-      "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
-      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "elonmusk",
+      "text": "Views from of one of the first 26 Starlink V3 satellites successfully deployed to orbit by Starship Thanks for the ride, @SpaceX ! Video",
+      "link": "http://nitter.meowing.monster/Starlink/status/2104603601943339071#m",
+      "published": "Mon, 28 Sep 2026 16:06:15 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-      "link": "http://shitter.thepixora.com/karpathy/status/2083948654377996480#m",
-      "published": "Sun, 02 Aug 2026 16:10:51 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "elonmusk",
+      "text": "i still think about this ngl",
+      "link": "http://nitter.meowing.monster/alpaysh/status/2104931962465206731#m",
+      "published": "Tue, 29 Sep 2026 13:51:02 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "karpathy",
-      "text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-      "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
-      "published": "Tue, 21 Jul 2026 16:53:55 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
+      "handle": "elonmusk",
+      "text": "From concept to reality. @SpaceX has successfully deployed Starlink V3 satellites into Earth’s orbit and made contact with them for the first time. At scale, one Starship carries 60 V3 satellites, the same network capacity as about 20 Falcon 9 launches. Video",
+      "link": "http://nitter.meowing.monster/niccruzpatane/status/2104568103174566043#m",
+      "published": "Mon, 28 Sep 2026 13:45:11 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "ylecun",
-      "text": "1501: Pope Alexander VI criticizes Gutenberg’s printing press safety “The art of printing can be of great service in so far as it furthers the circulation of useful & tested books; but it can bring about serious evils l..it will, therefore, be necessary to maintain full control” Financial Times (@FT) Pope Leo criticises Nvidia’s Jensen Huang over AI safety ft.trib.al/azwdiGc Link Pope Leo criticises Nvidia’s Jensen Huang over AI safety Rare intervention from head of Catholic Church comes as top executives are due to meet at White House on Tuesday ft.com — http://shitter.thepixora.com/FT/status/2104723771227611268#m",
-      "link": "http://shitter.thepixora.com/PessimistsArc/status/2104833557420212705#m",
-      "published": "Tue, 29 Sep 2026 07:20:00 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
+      "handle": "demishassabis",
+      "text": "Good to see the progress, and we look forward to following up. Sundar Pichai (@sundarpichai) Great to meet today with @POTUS , @JDVance , @SpeakerJohnson and Administration + tech leaders. Important conversation and we signed today the White House Accord on Super Intelligence. As I shared today, Google has invested hundreds of billions in the last two years alone, with more to come, across the entire stack, to deliver benefits for America and the world. We’re working to build products that deliver real value for people and businesses, invest in local communities, and build trust in the technology. Industry also has to innovate responsibly. Google’s focused on building the right way, with appropriate testing, evaluations, red-teaming, and other safeguards against misuse and misalignment – and releasing models or products only after they’ve been thoroughly reviewed. We are committed to working with other industry leaders to establish norms and build public confidence. The White House Accord and the Joint Commitment on Frontier Responsibilities signed today is a solid basis for moving forward - it contains real tangible steps to promote safe development, while delivering the economic and scientific benefits of this technology. — http://shitter.thepixora.com/sundarpichai/status/2105121763176894804#m",
+      "link": "http://shitter.thepixora.com/demishassabis/status/2105148971975102609#m",
+      "published": "Wed, 30 Sep 2026 04:13:21 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "ylecun",
-      "text": "[1/n] Can a world model drive without training a driving policy? Introducing AD-E2E-JEPA, a JEPA-based world model for end-to-end autonomous driving. 📄: arxiv.org/abs/2609.34085 💻: github.com/HaoranZhuExplorer… Joint work with @kevinghstz , Prof. @ylecun , and Prof. Anna Choromanska",
-      "link": "http://shitter.thepixora.com/HaoranZhuX/status/2104961832393855073#m",
-      "published": "Tue, 29 Sep 2026 15:49:43 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
+      "handle": "demishassabis",
+      "text": "Can our TPUs survive and operate in space? Well, we're going to find out. Project Suncatcher is hitching a ride aboard @SpaceX 's Transporter-18 mission, testing a prototype satellite built in partnership with @planet One small step for TPUs.... Video",
+      "link": "http://shitter.thepixora.com/sundarpichai/status/2103209164072010051#m",
+      "published": "Thu, 24 Sep 2026 19:45:15 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "ylecun",
-      "text": "Another \"coincidence\", like the one that happened to Tristan Buckmaster with the solution of the Navier-Stokes problem? Except now it's in biology: Did Anthropic’s A.I. Really Make a Scientific Discovery on Its Own? nytimes.com/2026/09/27/scien… via @NYTimes Link Did Anthropic’s A.I. Really Make a Scientific Discovery on Its Own? (Gift Article) An expert at the University of Copenhagen said his team had been sharing its research with the company’s A.I. model, Claude, and that its new finding matched their work. nytimes.com",
-      "link": "http://shitter.thepixora.com/stevenstrogatz/status/2104698928629449168#m",
-      "published": "Mon, 28 Sep 2026 22:25:02 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
+      "handle": "demishassabis",
+      "text": "Today we have 3 new DeepMind Institute essays: How can we control misbehaviour in agent swarms? How should we orchestrate complex networks of AIs and people? The case for making AGI’s benefits equitably distributed. Get them here -> bit.ly/deepmind-institute Link DeepMind Institute Bold, well-evidenced thinking on AGI from the lab that pioneered the field. Read the latest essays from the DeepMind Institute. institute.deepmind.com",
+      "link": "http://shitter.thepixora.com/ShaneLegg/status/2103123676178866658#m",
+      "published": "Thu, 24 Sep 2026 14:05:33 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "ylecun",
-      "text": "i was diagnosed with thyroid cancer many years ago purely by chance, because i had to get blood work for my US green card application (thank you, USCIS!). i was in my mid-30’s and was reasonably healthy (or so i believed.) this was shocking and totally unpredictable news to me. thanks to the amazing team of clinicians at NYU Langone, i successfully went through a total thyroidectomy followed by radioactive iodine therapy. but, it was truly the most uncertain and confusing period of my life. this is when i first realized that no one can opt out of healthcare. being sick isn’t what you choose to or choose not to. it is something that unpredictably happens to all of us at some point for one reason or another. this is why it is a healthcare system that we collectively build and use to support each other at the society level. because it must support everyone, the complexity of creating, maintaining and improving this system is a Herculean effort that calls for all the help in the world. today, i am announcing @OrtetAI together with my dear co-founders, @keunwoochoi , @HenriDwyer , @elmanmansimov , @causalclaudia and Jeff, to lend our support to improving the health of each and every one of us. Ortet’s goal is to create a technological foundation that will enable health systems to deliver predictably better care to each and every patient. this will only be possible by working closely with all stakeholders in the broader ecosystem, which is enabled in part by Ortet’s close partnership with Thoreau. Ortet is taking the very first step of a long journey ahead, and at the end of this journey, i strongly believe we would be able to say that Ortet had contributed to building better, more predictable healthcare and thus to improving health of each and every one of us. see ortet.ai/ for more! Link Ortet Ortet is a frontier AI lab for health, creating continuously improving intelligence for every patient. ortet.ai",
-      "link": "http://shitter.thepixora.com/kchonyc/status/2104923398971277802#m",
-      "published": "Tue, 29 Sep 2026 13:17:00 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
+      "handle": "demishassabis",
+      "text": "Introducing Gemini 3.8 Flash and Flash-Lite TTS, our new SOTA text to speech model with: - a new voice design experience - 2,000+ production ready voices - voice replication - support for 100 languages - voice remixing (soon) - #1 spot on Hume AI's voice benchmarks and more!!",
+      "link": "http://shitter.thepixora.com/OfficialLoganK/status/2102785495726219305#m",
+      "published": "Wed, 23 Sep 2026 15:41:44 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "ylecun",
-      "text": "Fueled by the vaccine skepticism of Trump and his \"health\" secretary, Robert F. Kennedy Jr., Pennsylvania has a total of 890 measles cases so far this year, leading to 173 hospitalizations and four deaths. trib.al/X5PiBHA Link Pennsylvania Measles Outbreak Grows to Nearly 900 Cases State health officials said 55 new cases had been reported since Wednesday. In all, 890 measles cases have been reported across 39 counties so far this year. nytimes.com",
-      "link": "http://shitter.thepixora.com/KenRoth/status/2104720694865018950#m",
-      "published": "Mon, 28 Sep 2026 23:51:32 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
+      "handle": "demishassabis",
+      "text": "My 2008 PhD thesis was well ahead of its time :-)",
+      "link": "http://shitter.thepixora.com/ShaneLegg/status/2102581582154301591#m",
+      "published": "Wed, 23 Sep 2026 02:11:27 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "simonw",
-      "text": "I'm at OpenAI's DevDay event in San Francisco today - as I have for the past three DevDay events, I'm running a live blog where I'll be posting updates during the keynote, which starts in five minutes simonwillison.net/2026/Sep/2… Link OpenAI DevDay 2026 live blog I’m at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I’ll be live blogging the keynote and some other notes during the day. OpenAI gave me … simonwillison.net",
-      "link": "http://shitter.thepixora.com/simonw/status/2104978193946124370#m",
-      "published": "Tue, 29 Sep 2026 16:54:44 GMT",
-      "author_name": "Simon Willison",
+      "handle": "osanseviero",
+      "text": "Thank you so much for joining us! It was a pleasure hosting you, and hope to run into you soon!",
+      "link": "http://shitter.thepixora.com/ajolo/status/2104046337603883234#m",
+      "published": "Sun, 27 Sep 2026 03:11:52 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "simonw",
-      "text": "The most important thing about Sonnet 5.5 is that it's now the model that powers the free tier on claude.ai - so all of this stuff can be done by free users ChatGPT's free tier is still GPT-5.6 Luna, which is a lot less capable Link Claude claude.ai Claude (@claudeai) A thread of early experiments with Claude Sonnet 5.5. A fall foliage simulator by @_re_pete , made with Sonnet 5 vs Sonnet 5.5. Video — http://shitter.thepixora.com/claudeai/status/2104674987164782598#m",
-      "link": "http://shitter.thepixora.com/simonw/status/2104682232522944909#m",
-      "published": "Mon, 28 Sep 2026 21:18:41 GMT",
-      "author_name": "Simon Willison",
+      "handle": "osanseviero",
+      "text": "Bueno, creo que ya llegué a Argentina 😅 🇦🇷. Nos vemos estanoche 👋. Thor 雷神 ⚡️ (@thorwebdev) 🇦🇷 It is happening!!! Just one more week and we'll be hosting a @GoogleDeepMind side event at @nerdearla ! So stoked to have @mervenoyann from @huggingface and @julianbenegas8 from @vercel joining us for some awesome demos and lightning talks! ✨ And of course @googlegemma 🐐 @osanseviero will be there also! Can't wait to be back in the land of the best pizza soon! 🍕😋 See you there 👇 — http://shitter.thepixora.com/thorwebdev/status/2100580918092026078#m",
+      "link": "http://shitter.thepixora.com/thorwebdev/status/2103194045786832901#m",
+      "published": "Thu, 24 Sep 2026 18:45:10 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "simonw",
-      "text": "More on Sonnet 5.5 simonwillison.net/2026/Sep/2… Link Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but … simonwillison.net",
-      "link": "http://shitter.thepixora.com/simonw/status/2104774320656646160#m",
-      "published": "Tue, 29 Sep 2026 03:24:37 GMT",
-      "author_name": "Simon Willison",
+      "handle": "osanseviero",
+      "text": "Hyderabad Builders, Come build with Gemini! We’re hosting a hackathon with @gdg_hyd on Sept 26. Details and registration: gdg.community.dev/e/mrcchy/",
+      "link": "http://shitter.thepixora.com/chauhan_nilay16/status/2100996203051938192#m",
+      "published": "Fri, 18 Sep 2026 17:11:44 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "simonw",
-      "text": "And my closing thought on how this stuff impacts our lives as software engineers, with a quote from cycling champion Greg LeMond",
-      "link": "http://shitter.thepixora.com/simonw/status/2104631210412810466#m",
-      "published": "Mon, 28 Sep 2026 17:55:57 GMT",
-      "author_name": "Simon Willison",
+      "handle": "osanseviero",
+      "text": "if you tried hyperframes, you would know the agentic video stack is being built on code-gen but SWE-bench code v.s. code-to-video that feels alive are two different things we built the Code2Video Bench, in collab w/ Google DeepMind & @Kaggle frontier labs can finally get good at agentic video tasks Video",
+      "link": "http://shitter.thepixora.com/HyperFrames_/status/2102084939026247684#m",
+      "published": "Mon, 21 Sep 2026 17:17:58 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "simonw",
-      "text": "(The full talk also covers New Zealand’s Kākāpō parrot breeding season, probably the best news of 2026)",
-      "link": "http://shitter.thepixora.com/simonw/status/2104631417712103706#m",
-      "published": "Mon, 28 Sep 2026 17:56:46 GMT",
-      "author_name": "Simon Willison",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "nickadobos",
-      "text": "Am I the only one who thinks this is spot on? Noah is getting dunked on, but he’s 100% right. Maybe a poor example, but if a restaurant can prioritize certain customers they can more specifically cater their offer. So say one restaurant only does birthday parties, or only does date nights, or whatever, this means they can prequalify ideal customers, build better experiences for them, and charge more for it. Customers get better matched experiences too. This affects far more than restaurants. Every business and customer on earth will be better matched by AI. This won’t be via bots spamming ticket reservations, instead it will look more like businesses holding auctions & negotiations with 10000s of customers every day via agents. This is a reorganization of information architecture, economics, marketing, the way we search the internet and how commerce, services and supply chains come together to build a final experience. All of it will be mediated by AI. People are dramatically underestimating how much the internet is changing right now. I get the instinct vision now. Raising at the amount and valuation they did is a risky business move and forces them into a particular goal, but if it works, it’s gonna be the next stripe and will run a significant portion of global spending. Unless OpenAI or SpaceXAI gets there first (in a consumer friendly way) Fireside Alpha (@firesidealpha) Instinct CEO Noah Shinn says agents will let restaurants give tables to birthdays and anniversaries over whoever clicks first \"And traditionally, because of the way that the internet has worked, at least for reservations, it's been first come first serve. So anyone that comes in, no matter how important or how not important it might be, whoever gets in first gets the reservation.\" \"But what if you had the ability for the agent to be able to communicate on both sides, communicate, hey, this is important. This is actually the person's spouse's birthday, the 30th birthday, a very special event is coming up.\" \"And the restaurant too can say, let's actually prioritize birthdays or major decade birthdays or major anniversaries or these certain people, I don't know, whatever it might be, right?\" \"So now with the ability, with all of the logistical burden of having to describe exactly what your case is and what's happening and why it's important. Now we have the ability to perfectly match what does the restaurant want? What does the user want?\" \"And that will result in more special events for the users being able to actually have a spot in the restaurant.\" Video — http://shitter.thepixora.com/firesidealpha/status/2104615871255867837#m",
-      "link": "http://shitter.thepixora.com/NickADobos/status/2105291070649340017#m",
-      "published": "Wed, 30 Sep 2026 13:38:00 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "nickadobos",
-      "text": "Whoa ChatGPT plugin extensions are way more thorough than I realized Holy shit they made ChatGPT into vscode. I get the sidebar redesign now. Genius. This is the new App Store.",
-      "link": "http://shitter.thepixora.com/NickADobos/status/2105074673923014777#m",
-      "published": "Tue, 29 Sep 2026 23:18:07 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "nickadobos",
-      "text": "If you understand why vscode was good, (crazy extensibility), you’ll get this. They basically made ChatGPT 100x more moddable.",
-      "link": "http://shitter.thepixora.com/NickADobos/status/2105074677295239380#m",
-      "published": "Tue, 29 Sep 2026 23:18:08 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "nickadobos",
-      "text": "This and specialized dots are both crazy genius platform plays",
-      "link": "http://shitter.thepixora.com/NickADobos/status/2105074679245611289#m",
-      "published": "Tue, 29 Sep 2026 23:18:08 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "nickadobos",
-      "text": "OpenAI dev day wins best conference swag Limited edition OAI clear mod retro chromatic complete with secret dev mode, a custom empty cartridge, and a codex /skill to flash games onto it. Best day ever.",
-      "link": "http://shitter.thepixora.com/NickADobos/status/2105044558476403122#m",
-      "published": "Tue, 29 Sep 2026 21:18:27 GMT",
-      "author_name": "Nick Dobos",
+      "handle": "osanseviero",
+      "text": "Going to Argentina and Uruguay this and next week 🥟 Last time visiting Uruguay was during Khipu 2023, so I'm looking forward to going back and taking some time to disconnect!",
+      "link": "http://shitter.thepixora.com/osanseviero/status/2102035042444738588#m",
+      "published": "Mon, 21 Sep 2026 13:59:42 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
+    "karpathy",
     "sama",
     "DarioAmodei",
     "gdb",
     "sundarpichai",
-    "elonmusk",
     "AravSrinivas",
     "miramurati",
-    "demishassabis",
+    "ylecun",
     "JeffDean",
     "fchollet",
     "AndrewYNg",
@@ -202,17 +157,18 @@
     "markchen90",
     "aidan_mclau",
     "officiallogank",
-    "osanseviero",
     "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
     "xai",
+    "simonw",
     "swyx",
     "hwchase17",
     "jeremyphoward",
     "levelsio",
     "mckaywrigley",
     "amasad",
+    "nickadobos",
     "emollick",
     "ArthurMensch",
     "GuillaumeLample",
@@ -223,274 +179,166 @@
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Cette semaine dans l'IA, on a beaucoup parlé de la capacité des modèles à créer des mondes virtuels complexes, comme le propose Atlas ou la génération 3D du Seigneur des Anneaux. La sécurité de l'IA reste une préoccupation majeure, avec des rapports détaillant les tentatives de mésusage. Yann LeCun lance un nouveau projet pour l'IA dans la santé. Enfin, l'écosystème des outils IA évolue vite, avec de nouvelles versions plus performantes et des extensions qui transforment les interfaces.",
+    "summary": "Cette journée a été marquée par des avancées importantes et des réflexions sur l'avenir de l'IA. Nous avons vu l'accent mis sur le développement responsable de l'intelligence artificielle, avec des leaders mondiaux et de l'industrie s'engageant pour une IA sûre. De nouvelles technologies de pointe comme la synthèse vocale Gemini Flash ont été présentées, et l'exploration de l'IA dans des environnements extrêmes, comme l'espace, continue de progresser. C'est un rappel que l'IA n'est pas seulement une question de technologie, mais aussi d'éthique, de sécurité et de collaboration.",
     "glossaire": [
       {
-        "terme": "Modèle du monde (World Model)",
-        "definition": "Un système d'IA capable de comprendre et de prédire comment le monde fonctionne, comme une simulation interne."
+        "terme": "Super Intelligence",
+        "definition": "Forme d'IA hypothétique qui dépasse l'intelligence humaine dans presque tous les domaines, y compris la créativité scientifique, la sagesse générale et les compétences sociales."
       },
       {
-        "terme": "Multimodal",
-        "definition": "Capacité d'un modèle d'IA à comprendre et à générer différents types d'informations (texte, images, sons, vidéo)."
+        "terme": "Bac à sable (Sandbox)",
+        "definition": "Un environnement isolé et sécurisé utilisé pour exécuter et tester des programmes ou des systèmes (comme une IA) sans risquer d'affecter le système principal ou de causer des dommages réels."
       },
       {
-        "terme": "LLM (Large Language Model)",
-        "definition": "Modèle de langage de grande taille, entraîné sur d'énormes quantités de texte pour comprendre et générer du langage humain."
+        "terme": "TPU (Tensor Processing Unit)",
+        "definition": "Des puces informatiques spéciales conçues par Google pour accélérer spécifiquement les calculs complexes nécessaires aux réseaux neuronaux et à l'intelligence artificielle."
       },
       {
-        "terme": "API",
-        "definition": "Interface de programmation applicative, qui permet à différents logiciels de communiquer entre eux."
+        "terme": "AGI (Artificial General Intelligence)",
+        "definition": "L'Intelligence Artificielle Générale est une IA capable de comprendre, d'apprendre et d'appliquer l'intelligence à un large éventail de tâches, comme un humain, plutôt que d'être spécialisée dans une seule tâche."
       },
       {
-        "terme": "Traitement du langage naturel (NLP)",
-        "definition": "Branche de l'IA qui permet aux ordinateurs de comprendre, d'interpréter et de générer le langage humain."
+        "terme": "Synthèse vocale (Text-to-speech - TTS)",
+        "definition": "Technologie qui convertit le texte écrit en parole artificielle, permettant à un ordinateur de 'lire' à voix haute un document ou un message."
       },
       {
-        "terme": "Agent IA",
-        "definition": "Un programme d'IA conçu pour effectuer des tâches de manière autonome, souvent en interagissant avec d'autres systèmes."
+        "terme": "SOTA (State-Of-The-Art)",
+        "definition": "Abréviation signifiant 'à la pointe de la technologie', utilisée pour décrire la méthode ou le modèle le plus avancé et le plus performant actuellement disponible dans un domaine donné."
+      },
+      {
+        "terme": "Benchmark",
+        "definition": "Un test standardisé ou un ensemble de tests utilisé pour évaluer et comparer les performances de différents systèmes, modèles ou algorithmes d'IA."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces importantes de la semaine incluent le lancement par Anthropic de Sonnet 5.5, un modèle plus rapide et moins cher, et le rapport détaillé d'Anthropic sur les tentatives de mésusage de leurs systèmes d'IA. Yann LeCun lance Ortet AI, un projet axé sur l'application de l'IA dans le domaine de la santé. De plus, OpenAI semble préparer des annonces majeures lors de son événement DevDay.",
-      "tips": "Andrej Karpathy partage une technique utile pour interagir avec les grands modèles de langage : laisser l'IA reconstruire et clarifier vos pensées après une longue séance de 'monologue' oral. Cela améliore la compréhension mutuelle et réduit les corrections nécessaires.",
-      "idees": "Les discussions portent sur la puissance des modèles d'IA pour créer des expériences immersives et personnalisées, comme des mondes virtuels ou des simulations. On s'interroge aussi sur les implications de ces technologies pour l'économie et la manière dont nous interagissons en ligne, avec l'idée que des agents IA pourraient bientôt négocier et attribuer des ressources de manière plus sophistiquée. Les questions de sécurité et de détection de mésusage restent au cœur des préoccupations, tout comme le rôle de l'IA dans les découvertes scientifiques.",
-      "outils": "Plusieurs outils et modèles impressionnants ont été présentés : 'Atlas', un modèle capable de générer des images et vidéos avec un contrôle 3D précis ; une démonstration de LLM générant une simulation visuelle du Seigneur des Anneaux ; AD-E2E-JEPA pour la conduite autonome ; et surtout, les améliorations apportées par OpenAI à ChatGPT avec des plugins qui le transforment en un environnement de développement avancé, comparé à VS Code."
+      "actu": "L'actualité du jour est dominée par des engagements majeurs pour une IA responsable, notamment l'Accord de la Maison Blanche sur la Super Intelligence et les investissements de Google. Nous suivons aussi les tests de puces IA (TPU) dans l'espace, signe d'une volonté d'étendre les capacités de l'IA à des environnements extrêmes, ainsi que les événements communautaires autour des modèles d'IA comme Gemini.",
+      "tips": "Un conseil, bien que formulé avec humour par Elon Musk, souligne l'importance capitale de la sécurité en IA : l'idée du 'bac à sable' (sandbox) pour isoler et tester une IA est une pratique fondamentale pour prévenir les risques et maîtriser son comportement.",
+      "idees": "La catégorie 'Idées' nous invite à la réflexion profonde sur l'avenir de l'IA. Les essais du DeepMind Institute soulèvent des questions essentielles sur le contrôle des systèmes d'IA complexes et la nécessité de distribuer équitablement les bénéfices potentiels de l'Intelligence Artificielle Générale (AGI), montrant que l'éthique est au cœur de la recherche.",
+      "outils": "Côté 'Outils', de nouvelles avancées concrètes sont à découvrir : Google a lancé Gemini 3.8 Flash et Flash-Lite TTS, des modèles de synthèse vocale de pointe. Des opportunités pour les développeurs, comme un hackathon autour de Gemini, sont annoncées, et de nouveaux benchmarks comme Code2Video Bench sont créés pour mieux évaluer la capacité des IA à générer des vidéos 'vivantes' à partir de code."
     },
     "highlights": [
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "On commence à quitter le territoire où l'on testerait un LLM en lui demandant par exemple \"crée une image SVG d'un pélican à vélo\". Comme idée pour généraliser, j'étais curieux de voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1M de tokens (~10$) et que je lui demandais une rendu en trois js. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont (procéduralement) rendu l'histoire. C'est un peu bancal mais sympa. Mais il est un peu stupéfiant que le LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et que cela fonctionne même un peu. J'aime aussi ce genre d'exemples car personne de sensé ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où l'on passe de \"personne ne ferait jamais ça\" à \"bien sûr, pourquoi pas, c'est ~gratuit\". Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels on peut imaginer lâcher des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère sur demande. Dernière pensée, le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas auditer facilement leur travail car ils ne sont pas capables de percevoir nativement et efficacement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre des captures d'écran très lentement et méticuleusement à différents moments, et il s'est trompé quelques fois et a créé un tas de trucs bancals. Un exemple de capacité brute (multimodale, gameplay) qui est encore assez limitée à mon avis.",
-        "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-        "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
-        "decryptage": "Ce tweet montre comment un modèle d'IA peut désormais créer des univers visuels complexes à partir de simples descriptions textuelles, ouvrant la voie à des expériences interactives personnalisées, mais révèle aussi les limites actuelles de ces IA dans la perception et l'interaction avec des environnements dynamiques comme les jeux vidéo.",
-        "category": "outils",
-        "highlight_reason": "Démonstration fascinante de la capacité des LLM à générer du contenu visuel et interactif complexe à partir de texte, tout en soulignant les défis actuels."
-      },
-      {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Introduction d'Atlas : le premier modèle du monde capable de générer des images et des vidéos avec un contrôle parfait des pixels et de les reconstruire en 3D. Modélisez le monde, déplacez la caméra, et simulez l'espace et le temps. Vidéo",
-        "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-        "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
-        "decryptage": "Atlas est une avancée majeure car il permet à l'IA de comprendre le monde en 3D et de générer des séquences vidéo réalistes, ouvrant la porte à des simulations très poussées.",
-        "category": "outils",
-        "highlight_reason": "Présentation d'un modèle révolutionnaire qui modélise le monde en 3D et génère des images et vidéos avec un contrôle précis, ouvrant des perspectives inédites."
-      },
-      {
-        "author_name": "Yann LeCun",
-        "handle": "@ylecun",
-        "text_fr": "J'ai été diagnostiqué d'un cancer de la thyroïde il y a de nombreuses années, purement par hasard, car je devais faire des analyses de sang pour ma demande de carte verte américaine (merci, USCIS !). J'avais la trentaine et j'étais raisonnablement en bonne santé (du moins, c'est ce que je croyais). Ce fut une nouvelle choquante et totalement imprévisible pour moi. Grâce à l'incroyable équipe de cliniciens de NYU Langone, j'ai subi avec succès une thyroïdectomie totale suivie d'une thérapie à l'iode radioactif. Mais ce fut véritablement la période la plus incertaine et déroutante de ma vie. C'est à ce moment-là que j'ai réalisé pour la première fois que personne ne peut se soustraire aux soins de santé. Tomber malade n'est pas quelque chose que l'on choisit ou non. C'est quelque chose qui arrive de manière imprévisible à chacun d'entre nous à un moment donné, pour une raison ou une autre. C'est pourquoi c'est un système de santé que nous construisons et utilisons collectivement pour nous soutenir mutuellement au niveau de la société. Parce qu'il doit soutenir tout le monde, la complexité de créer, de maintenir et d'améliorer ce système est un effort herculéen qui nécessite toute l'aide du monde. Aujourd'hui, j'annonce le lancement d'@OrtetAI avec mes chers cofondateurs, @keunwoochoi, @HenriDwyer, @elmanmansimov, @causalclaudia et Jeff, afin d'apporter notre soutien à l'amélioration de la santé de chacun d'entre nous. L'objectif d'Ortet est de créer une base technologique qui permettra aux systèmes de santé de fournir des soins prévisiblement meilleurs à chaque patient. Cela ne sera possible qu'en travaillant en étroite collaboration avec toutes les parties prenantes de l'écosystème au sens large, ce qui est rendu possible en partie par le partenariat étroit d'Ortet avec Thoreau. Ortet fait le tout premier pas d'un long chemin à parcourir, et à la fin de ce voyage, je crois fermement que nous pourrions dire qu'Ortet a contribué à bâtir des soins de santé meilleurs et plus prévisibles, et ainsi à améliorer la santé de chacun d'entre nous. Pour en savoir plus, consultez ortet.ai/ ! Lien Ortet Ortet est un laboratoire d'IA de pointe pour la santé, créant une intelligence en amélioration continue pour chaque patient. ortet.ai",
-        "text_original": "i was diagnosed with thyroid cancer many years ago purely by chance, because i had to get blood work for my US green card application (thank you, USCIS!). i was in my mid-30’s and was reasonably healthy (or so i believed.) this was shocking and totally unpredictable news to me. thanks to the amazing team of clinicians at NYU Langone, i successfully went through a total thyroidectomy followed by radioactive iodine therapy. but, it was truly the most uncertain and confusing period of my life. this is when i first realized that no one can opt out of healthcare. being sick isn’t what you choose to or choose not to. it is something that unpredictably happens to all of us at some point for one reason or another. this is why it is a healthcare system that we collectively build and use to support each other at the society level. because it must support everyone, the complexity of creating, maintaining and improving this system is a Herculean effort that calls for all the help in the world. today, i am announcing @OrtetAI together with my dear co-founders, @keunwoochoi , @HenriDwyer , @elmanmansimov , @causalclaudia and Jeff, to lend our support to improving the health of each and every one of us. Ortet’s goal is to create a technological foundation that will enable health systems to deliver predictably better care to each and every patient. this will only be possible by working closely with all stakeholders in the broader ecosystem, which is enabled in part by Ortet’s close partnership with Thoreau. Ortet is taking the very first step of a long journey ahead, and at the end of this journey, i strongly believe we would be able to say that Ortet had contributed to building better, more predictable healthcare and thus to improving health of each and every one of us. see ortet.ai/ for more! Link Ortet Ortet is a frontier AI lab for health, creating continuously improving intelligence for every patient. ortet.ai",
-        "link": "http://shitter.thepixora.com/kchonyc/status/2104923398971277802#m",
-        "decryptage": "Yann LeCun lance Ortet AI, un laboratoire d'IA dédié à l'amélioration des soins de santé. L'objectif est d'utiliser l'intelligence artificielle pour rendre la médecine plus prévisible et personnalisée, suite à une expérience personnelle de maladie et à la prise de conscience de l'importance universelle des soins de santé.",
+        "author_name": "Elon Musk",
+        "handle": "@elonmusk",
+        "text_fr": "Excellent d'avoir rencontré aujourd'hui @POTUS, @JDVance, @SpeakerJohnson ainsi que des leaders de l'administration et de la technologie. Conversation importante et nous avons signé aujourd'hui l'Accord de la Maison Blanche sur la Super Intelligence. Comme je l'ai partagé aujourd'hui, Google a investi des centaines de milliards au cours des deux dernières années, et ce n'est pas fini, dans l'ensemble de la chaîne technologique pour apporter des bénéfices à l'Amérique et au monde. Nous travaillons à créer des produits qui apportent une réelle valeur aux personnes et aux entreprises, à investir dans les communautés locales et à renforcer la confiance dans la technologie. L'industrie doit également innover de manière responsable. Google s'efforce de construire correctement, avec des tests, des évaluations, des \"red-teaming\" et d'autres mesures de protection contre la mauvaise utilisation et le désalignement – et ne lance des modèles ou des produits qu'après un examen approfondi. Nous nous engageons à travailler avec d'autres leaders de l'industrie pour établir des normes et renforcer la confiance du public. L'Accord de la Maison Blanche et l'Engagement conjoint sur les responsabilités frontalières signés aujourd'hui constituent une base solide pour aller de l'avant – ils contiennent des étapes concrètes pour promouvoir un développement sûr, tout en offrant les avantages économiques et scientifiques de cette technologie.",
+        "text_original": "Great to meet today with @POTUS , @JDVance , @SpeakerJohnson and Administration + tech leaders. Important conversation and we signed today the White House Accord on Super Intelligence. As I shared today, Google has invested hundreds of billions in the last two years alone, with more to come, across the entire stack, to deliver benefits for America and the world. We’re working to build products that deliver real value for people and businesses, invest in local communities, and build trust in the technology. Industry also has to innovate responsibly. Google’s focused on building the right way, with appropriate testing, evaluations, red-teaming, and other safeguards against misuse and misalignment – and releasing models or products only after they’ve been thoroughly reviewed. We are committed to working with other industry leaders to establish norms and build public confidence. The White House Accord and the Joint Commitment on Frontier Responsibilities signed today is a solid basis for moving forward - it contains real tangible steps to promote safe development, while delivering the economic and scientific benefits of this technology.",
+        "link": "http://nitter.meowing.monster/sundarpichai/status/2105121763176894804#m",
+        "decryptage": "Cet accord, signé par Google, vise à encadrer le développement de l'IA très avancée (\"Super Intelligence\") pour s'assurer qu'elle reste sûre et bénéfique pour tous, avec des investissements massifs et des tests rigoureux (comme le \"red-teaming\" où l'on essaie de \"casser\" l'IA pour trouver ses failles).",
         "category": "actu",
-        "highlight_reason": "Lancement d'un projet ambitieux par Yann LeCun pour appliquer l'IA à la santé, une initiative majeure qui pourrait transformer le secteur médical."
+        "highlight_reason": "C'est une annonce majeure sur la gouvernance de l'IA et l'engagement des grandes entreprises, comme Google, pour un développement responsable et sûr de l'intelligence artificielle la plus avancée."
       },
       {
-        "author_name": "Nick Dobos",
-        "handle": "@nickadobos",
-        "text_fr": "Et si vous comprenez pourquoi vscode était bien, (extensibilité folle), vous comprendrez ceci. Ils ont essentiellement rendu ChatGPT 100 fois plus modifiable.",
-        "text_original": "If you understand why vscode was good, (crazy extensibility), you’ll get this. They basically made ChatGPT 100x more moddable.",
-        "link": "http://shitter.thepixora.com/NickADobos/status/2105074677295239380#m",
-        "decryptage": "Ce tweet compare les nouvelles extensions de ChatGPT à celles de VS Code, un éditeur de code très populaire connu pour sa grande flexibilité grâce à ses extensions, suggérant que ChatGPT devient aussi personnalisable et puissant.",
+        "author_name": "Demis Hassabis",
+        "handle": "@demishassabis",
+        "text_fr": "Aujourd'hui, nous avons 3 nouveaux essais du DeepMind Institute : Comment contrôler les comportements inappropriés dans les essaims d'agents ? Comment orchestrer des réseaux complexes d'IA et d'humains ? L'argument en faveur d'une distribution équitable des bénéfices de l'AGI. Retrouvez-les ici -> bit.ly/deepmind-institute Lien DeepMind Institute Réflexions audacieuses et bien étayées sur l'AGI du laboratoire qui a été pionnier dans le domaine. Lisez les derniers essais du DeepMind Institute. institute.deepmind.com",
+        "text_original": "Today we have 3 new DeepMind Institute essays: How can we control misbehaviour in agent swarms? How should we orchestrate complex networks of AIs and people? The case for making AGI’s benefits equitably distributed. Get them here -> bit.ly/deepmind-institute Link DeepMind Institute Bold, well-evidenced thinking on AGI from the lab that pioneered the field. Read the latest essays from the DeepMind Institute. institute.deepmind.com",
+        "link": "http://shitter.thepixora.com/ShaneLegg/status/2103123676178866658#m",
+        "decryptage": "L'AGI (Artificial General Intelligence) est une IA hypothétique capable d'accomplir n'importe quelle tâche intellectuelle humaine. Un \"essaim d'agents\" fait référence à un groupe d'IA collaborant, soulevant des questions sur leur contrôle et la répartition des bénéfices de l'AGI.",
+        "category": "idees",
+        "highlight_reason": "Ces essais posent des questions fondamentales sur l'avenir de l'IA très avancée (AGI), son éthique et son impact sur la société, stimulant une réflexion cruciale pour les débutants."
+      },
+      {
+        "author_name": "Demis Hassabis",
+        "handle": "@demishassabis",
+        "text_fr": "Nous présentons Gemini 3.8 Flash et Flash-Lite TTS, notre nouveau modèle de synthèse vocale (text-to-speech) à la pointe de la technologie (SOTA) avec : - une nouvelle expérience de conception vocale - plus de 2 000 voix prêtes pour la production - la réplication de voix - le support de 100 langues - le remixage de voix (bientôt) - la place de numéro 1 sur les benchmarks vocaux de Hume AI et plus encore !!",
+        "text_original": "Introducing Gemini 3.8 Flash and Flash-Lite TTS, our new SOTA text to speech model with: - a new voice design experience - 2,000+ production ready voices - voice replication - support for 100 languages - voice remixing (soon) - #1 spot on Hume AI's voice benchmarks and more!!",
+        "link": "http://shitter.thepixora.com/OfficialLoganK/status/2102785495726219305#m",
+        "decryptage": "Un modèle \"text-to-speech\" (TTS) transforme le texte en parole. \"SOTA\" signifie \"State-Of-The-Art\" (à la pointe de la technologie), c'est-à-dire le meilleur disponible. Les \"benchmarks\" sont des tests de performance standardisés pour comparer les modèles.",
         "category": "outils",
-        "highlight_reason": "Explication claire de la transformation de ChatGPT en une plateforme extensible grâce aux plugins, le rendant comparable à un environnement de développement comme VS Code."
+        "highlight_reason": "C'est un exemple concret d'avancée technologique majeure, présentant un nouvel outil de synthèse vocale puissant et ses nombreuses applications possibles."
+      },
+      {
+        "author_name": "Elon Musk",
+        "handle": "@elonmusk",
+        "text_fr": "La meilleure façon de \"mettre en bac à sable\" une IA est de la placer sur un vol Delta – elle n'aura aucune chance d'accéder à Internet !",
+        "text_original": "Best way to sandbox an AI is to put it on a Delta flight – it will have no chance of accessing the Internet!",
+        "link": "http://nitter.meowing.monster/elonmusk/status/2105139959720014101#m",
+        "decryptage": "Mettre une IA en \"bac à sable\" (sandbox) est une technique cruciale pour la sécurité : cela signifie l'isoler de l'extérieur, notamment d'Internet, pour la tester en toute sécurité et l'empêcher de faire des choses imprévues.",
+        "category": "tips",
+        "highlight_reason": "Cette blague contient une idée très sérieuse et importante pour tout passionné d'IA : la nécessité d'isoler les systèmes pour les tester en toute sécurité."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Nous publions notre rapport de renseignement sur les menaces le plus détaillé à ce jour. Il couvre la manière dont les gens ont tenté d'utiliser Claude à mauvais escient – pour des cyberattaques, des opérations d'influence, la surveillance, la biologie et la fabrication d'armes – et comment nous les avons trouvés et arrêtés. Nous avons perturbé toutes les opérations mentionnées dans le rapport et utilisé les leçons apprises pour renforcer nos mesures de sécurité. Lorsque cela était approprié, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en évidence certaines des utilisations abusives les plus sophistiquées que nous ayons rencontrées. Mais ils sont particulièrement importants à discuter, car ils nous montrent où évolue l'utilisation abusive de l'IA, où nos mesures de sécurité fonctionnent et où elles doivent être améliorées. Nous publions ce rapport afin que d'autres puissent repérer la même activité sur leurs propres plateformes, et afin de donner au public une vision plus claire de l'évolution des menaces émergentes. Lisez le rapport : anthropic.com/threat-intelli… Lien Contrer l'utilisation abusive de l'IA : Septembre 2026 / Études de cas d'Anthropic sur des acteurs de menaces perturbés entre décembre 2025 et août 2026 dans sept domaines de préjudice, des opérations cybernétiques à l'utilisation abusive biologique. anthropic.com",
-          "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
-          "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
-          "decryptage": "Ce rapport d'Anthropic détaille les tentatives d'utilisation malveillante de leur IA Claude, comme pour des cyberattaques ou la création d'armes, montrant les efforts de l'entreprise pour sécuriser ses systèmes et la nécessité d'une vigilance constante face aux menaces émergentes."
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "Excellent d'avoir rencontré aujourd'hui @POTUS, @JDVance, @SpeakerJohnson ainsi que des leaders de l'administration et de la technologie. Conversation importante et nous avons signé aujourd'hui l'Accord de la Maison Blanche sur la Super Intelligence. Comme je l'ai partagé aujourd'hui, Google a investi des centaines de milliards au cours des deux dernières années, et ce n'est pas fini, dans l'ensemble de la chaîne technologique pour apporter des bénéfices à l'Amérique et au monde. Nous travaillons à créer des produits qui apportent une réelle valeur aux personnes et aux entreprises, à investir dans les communautés locales et à renforcer la confiance dans la technologie. L'industrie doit également innover de manière responsable. Google s'efforce de construire correctement, avec des tests, des évaluations, des \"red-teaming\" et d'autres mesures de protection contre la mauvaise utilisation et le désalignement – et ne lance des modèles ou des produits qu'après un examen approfondi. Nous nous engageons à travailler avec d'autres leaders de l'industrie pour établir des normes et renforcer la confiance du public. L'Accord de la Maison Blanche et l'Engagement conjoint sur les responsabilités frontalières signés aujourd'hui constituent une base solide pour aller de l'avant – ils contiennent des étapes concrètes pour promouvoir un développement sûr, tout en offrant les avantages économiques et scientifiques de cette technologie.",
+          "text_original": "Great to meet today with @POTUS , @JDVance , @SpeakerJohnson and Administration + tech leaders. Important conversation and we signed today the White House Accord on Super Intelligence. As I shared today, Google has invested hundreds of billions in the last two years alone, with more to come, across the entire stack, to deliver benefits for America and the world. We’re working to build products that deliver real value for people and businesses, invest in local communities, and build trust in the technology. Industry also has to innovate responsibly. Google’s focused on building the right way, with appropriate testing, evaluations, red-teaming, and other safeguards against misuse and misalignment – and releasing models or products only after they’ve been thoroughly reviewed. We are committed to working with other industry leaders to establish norms and build public confidence. The White House Accord and the Joint Commitment on Frontier Responsibilities signed today is a solid basis for moving forward - it contains real tangible steps to promote safe development, while delivering the economic and scientific benefits of this technology.",
+          "link": "http://nitter.meowing.monster/sundarpichai/status/2105121763176894804#m",
+          "decryptage": "Cet accord, signé par Google, vise à encadrer le développement de l'IA très avancée (\"Super Intelligence\") pour s'assurer qu'elle reste sûre et bénéfique pour tous, avec des investissements massifs et des tests rigoureux (comme le \"red-teaming\" où l'on essaie de \"casser\" l'IA pour trouver ses failles)."
         },
         {
-          "author_name": "Yann LeCun",
-          "handle": "@ylecun",
-          "text_fr": "1501: Le Pape Alexandre VI critique la sécurité de la presse d'imprimerie de Gutenberg \"L'art de l'impression peut être d'une grande utilité dans la mesure où il favorise la circulation de livres utiles et éprouvés ; mais il peut causer de graves maux [...] il sera donc nécessaire de maintenir un contrôle total\". Financial Times (@FT) Le Pape François critique Jensen Huang de Nvidia concernant la sécurité de l'IA ft.trib.al/azwdiGc Lien Le Pape François critique Jensen Huang de Nvidia concernant la sécurité de l'IA Rare intervention du chef de l'Église catholique alors que de hauts dirigeants doivent se rencontrer à la Maison Blanche mardi ft.com — http://shitter.thepixora.com/FT/status/2104723771227611268#m",
-          "text_original": "1501: Pope Alexander VI criticizes Gutenberg’s printing press safety “The art of printing can be of great service in so far as it furthers the circulation of useful & tested books; but it can bring about serious evils l..it will, therefore, be necessary to maintain full control” Financial Times (@FT) Pope Leo criticises Nvidia’s Jensen Huang over AI safety ft.trib.al/azwdiGc Link Pope Leo criticises Nvidia’s Jensen Huang over AI safety Rare intervention from head of Catholic Church comes as top executives are due to meet at White House on Tuesday ft.com — http://shitter.thepixora.com/FT/status/2104723771227611268#m",
-          "link": "http://shitter.thepixora.com/PessimistsArc/status/2104833557420212705#m",
-          "decryptage": "Ce tweet établit un parallèle historique entre les inquiétudes concernant la nouvelle technologie d'imprimerie au XVe siècle et les préoccupations actuelles sur la sécurité de l'IA, illustré par une critique du Pape François envers le PDG de Nvidia, soulignant que les débats sur le contrôle des technologies nouvelles sont récurrents."
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Nos TPU peuvent-ils survivre et fonctionner dans l'espace ? Eh bien, nous allons le découvrir. Le projet Suncatcher embarque à bord de la mission Transporter-18 de @SpaceX, testant un satellite prototype construit en partenariat avec @planet. Un petit pas pour les TPU...",
+          "text_original": "Can our TPUs survive and operate in space? Well, we're going to find out. Project Suncatcher is hitching a ride aboard @SpaceX 's Transporter-18 mission, testing a prototype satellite built in partnership with @planet One small step for TPUs.... Video",
+          "link": "http://shitter.thepixora.com/sundarpichai/status/2103209164072010051#m",
+          "decryptage": "Les TPU (Tensor Processing Units) sont des puces informatiques spéciales conçues par Google pour accélérer les calculs nécessaires à l'intelligence artificielle, surtout pour les réseaux neuronaux. Les tester dans l'espace permet de voir si l'IA peut fonctionner dans des environnements extrêmes."
         },
         {
-          "author_name": "Yann LeCun",
-          "handle": "@ylecun",
-          "text_fr": "Une autre \"coïncidence\", comme celle qui est arrivée à Tristan Buckmaster avec la résolution du problème de Navier-Stokes ? Sauf qu'il s'agit maintenant de biologie : l'IA d'Anthropic a-t-elle vraiment fait une découverte scientifique par elle-même ? nytimes.com/2026/09/27/scien… via @NYTimes Lien L'IA d'Anthropic a-t-elle vraiment fait une découverte scientifique par elle-même ? (Article cadeau) Un expert de l'Université de Copenhague a déclaré que son équipe avait partagé ses recherches avec le modèle d'IA de l'entreprise, Claude, et que sa nouvelle découverte correspondait à leurs travaux. nytimes.com",
-          "text_original": "Another \"coincidence\", like the one that happened to Tristan Buckmaster with the solution of the Navier-Stokes problem? Except now it's in biology: Did Anthropic’s A.I. Really Make a Scientific Discovery on Its Own? nytimes.com/2026/09/27/scien… via @NYTimes Link Did Anthropic’s A.I. Really Make a Scientific Discovery on Its Own? (Gift Article) An expert at the University of Copenhagen said his team had been sharing its research with the company’s A.I. model, Claude, and that its new finding matched their work. nytimes.com",
-          "link": "http://shitter.thepixora.com/stevenstrogatz/status/2104698928629449168#m",
-          "decryptage": "Ce tweet soulève des questions sur l'autonomie des découvertes scientifiques faites par l'IA, en comparant un cas récent d'Anthropic à une précédente énigme mathématique résolue par une IA, tout en mentionnant qu'un chercheur pense avoir partagé des informations similaires au modèle d'IA utilisé par Anthropic."
-        },
-        {
-          "author_name": "Yann LeCun",
-          "handle": "@ylecun",
-          "text_fr": "Alimenté par le scepticisme vaccinal de Trump et de son secrétaire à la \"santé\", Robert F. Kennedy Jr., la Pennsylvanie compte 890 cas de rougeole jusqu'à présent cette année, entraînant 173 hospitalisations et quatre décès. trib.al/X5PiBHA Lien L'épidémie de rougeole en Pennsylvanie s'étend à près de 900 cas Les responsables de la santé de l'État ont déclaré 55 nouveaux cas depuis mercredi. Au total, 890 cas de rougeole ont été signalés dans 39 comtés jusqu'à présent cette année. nytimes.com",
-          "text_original": "Fueled by the vaccine skepticism of Trump and his \"health\" secretary, Robert F. Kennedy Jr., Pennsylvania has a total of 890 measles cases so far this year, leading to 173 hospitalizations and four deaths. trib.al/X5PiBHA Link Pennsylvania Measles Outbreak Grows to Nearly 900 Cases State health officials said 55 new cases had been reported since Wednesday. In all, 890 measles cases have been reported across 39 counties so far this year. nytimes.com",
-          "link": "http://shitter.thepixora.com/KenRoth/status/2104720694865018950#m",
-          "decryptage": "Ce tweet met en lumière les conséquences sanitaires du scepticisme face aux vaccins, en citant une augmentation significative des cas de rougeole en Pennsylvanie, attribuée en partie à des figures politiques influentes prônant la défiance envers la vaccination."
-        },
-        {
-          "author_name": "Simon Willison",
-          "handle": "@simonw",
-          "text_fr": "Je suis à l'événement DevDay d'OpenAI à San Francisco aujourd'hui – comme pour les trois derniers événements DevDay, je tiens un blog en direct où je publierai des mises à jour pendant la keynote, qui commence dans cinq minutes simonwillison.net/2026/Sep/2… Lien Blog en direct d'OpenAI DevDay 2026 Je suis à l'OpenAI DevDay aujourd'hui, à Fort Mason, San Francisco. Comme l'année dernière, je publierai en direct la keynote et d'autres notes pendant la journée. OpenAI m'a donné … simonwillison.net",
-          "text_original": "I'm at OpenAI's DevDay event in San Francisco today - as I have for the past three DevDay events, I'm running a live blog where I'll be posting updates during the keynote, which starts in five minutes simonwillison.net/2026/Sep/2… Link OpenAI DevDay 2026 live blog I’m at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I’ll be live blogging the keynote and some other notes during the day. OpenAI gave me … simonwillison.net",
-          "link": "http://shitter.thepixora.com/simonw/status/2104978193946124370#m",
-          "decryptage": "Simon Willison couvre en direct l'événement DevDay d'OpenAI, une conférence où l'entreprise présente ses dernières innovations en matière d'intelligence artificielle, souvent destinées aux développeurs pour intégrer l'IA dans leurs propres applications."
-        },
-        {
-          "author_name": "Simon Willison",
-          "handle": "@simonw",
-          "text_fr": "La chose la plus importante concernant Sonnet 5.5 est qu'il s'agit désormais du modèle qui alimente le niveau gratuit sur claude.ai – donc toutes ces choses peuvent être faites par des utilisateurs gratuits. Le niveau gratuit de ChatGPT est toujours GPT-5.6 Luna, qui est beaucoup moins performant. Lien Claude claude.ai Claude (@claudeai) Un fil d'expériences précoces avec Claude Sonnet 5.5. Un simulateur d'automne par @_re_pete, réalisé avec Sonnet 5 vs Sonnet 5.5. Vidéo — http://shitter.thepixora.com/claudeai/status/2104674987164782598#m",
-          "text_original": "The most important thing about Sonnet 5.5 is that it's now the model that powers the free tier on claude.ai - so all of this stuff can be done by free users ChatGPT's free tier is still GPT-5.6 Luna, which is a lot less capable Link Claude claude.ai Claude (@claudeai) A thread of early experiments with Claude Sonnet 5.5. A fall foliage simulator by @_re_pete , made with Sonnet 5 vs Sonnet 5.5. Video — http://shitter.thepixora.com/claudeai/status/2104674987164782598#m",
-          "link": "http://shitter.thepixora.com/simonw/status/2104682232522944909#m",
-          "decryptage": "Le nouveau modèle Sonnet 5.5 d'Anthropic devient la base de la version gratuite de Claude.ai, ce qui le rend plus accessible et performant pour le grand public par rapport à l'offre gratuite de ChatGPT."
-        },
-        {
-          "author_name": "Simon Willison",
-          "handle": "@simonw",
-          "text_fr": "Plus d'informations sur Sonnet 5.5 simonwillison.net/2026/Sep/2… Lien Claude Sonnet 5.5 Nouveau modèle Sonnet d'Anthropic aujourd'hui. Ils disent qu'il \"fonctionne 30%+ plus rapidement, et coûte jusqu'à 30% moins cher pour la plupart des travaux\" - il est au même prix que Sonnet 5 mais … simonwillison.net",
-          "text_original": "More on Sonnet 5.5 simonwillison.net/2026/Sep/2… Link Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but … simonwillison.net",
-          "link": "http://shitter.thepixora.com/simonw/status/2104774320656646160#m",
-          "decryptage": "Le modèle Sonnet 5.5 d'Anthropic représente une amélioration significative en termes de vitesse et de coût, le rendant plus efficace pour une large gamme d'applications d'IA."
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Bon, je crois que je suis bien arrivé en Argentine 😅 🇦🇷. On se voit ce soir 👋. Thor 雷神 ⚡️ (@thorwebdev) 🇦🇷 Ça y est !!! Plus qu'une semaine et nous organiserons un événement parallèle @GoogleDeepMind à @nerdearla ! Très excité d'avoir @mervenoyann de @huggingface et @julianbenegas8 de @vercel qui nous rejoindront pour des démos géniales et des \"lightning talks\" ! ✨ Et bien sûr @googlegemma 🐐 @osanseviero sera là aussi ! Hâte de revenir au pays de la meilleure pizza bientôt ! 🍕😋 On se voit là-bas 👇",
+          "text_original": "Bueno, creo que ya llegué a Argentina 😅 🇦🇷. Nos vemos estanoche 👋. Thor 雷神 ⚡️ (@thorwebdev) 🇦🇷 It is happening!!! Just one more week and we'll be hosting a @GoogleDeepMind side event at @nerdearla ! So stoked to have @mervenoyann from @huggingface and @julianbenegas8 from @vercel joining us for some awesome demos and lightning talks! ✨ And of course @googlegemma 🐐 @osanseviero will be there also! Can't wait to be back in the land of the best pizza soon! 🍕😋 See you there 👇",
+          "link": "http://shitter.thepixora.com/thorwebdev/status/2103194045786832901#m",
+          "decryptage": "Un \"side event\" est un événement organisé en marge d'une conférence. Des \"lightning talks\" sont des présentations très courtes. @huggingface est une plateforme populaire pour les modèles d'IA, et @googlegemma est un modèle d'IA de Google."
         }
       ],
       "tips": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Une méthode que je trouve utile pour travailler avec les LLM est une longue séance de divagation. Parfois, le LLM a besoin de plus d'informations pour comprendre ce que vous essayez d'accomplir, mais vous êtes trop paresseux pour les taper. Dans ces cas, j'aime m'appuyer en arrière, passer au mode /voix et simplement divaguer pendant 10 minutes, totalement en désordre, tout est permis, flux de conscience complet. Parfois, je le déclare au début, quelque chose comme \"passage à la reconnaissance vocale, désolé pour les fautes de frappe...\". Parfois, je le transforme en une petite interview en quelques tours. Mais je trouve que les LLM sont d'une manière ou d'une autre très bons pour reconstruire de longues divagations incohérentes et souvent leur écho de vos propres pensées embrouillées ressort plus clairement que ce avec quoi vous avez commencé. Le résultat est que vous améliorez la connexion mentale et que vous avez moins à corriger à partir de ce moment-là.",
-          "text_original": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-          "link": "http://shitter.thepixora.com/karpathy/status/2079610838143623371#m",
-          "decryptage": "Ce conseil de Karpathy propose une méthode d'interaction avec les IA : utiliser la voix pour 'divaguer' librement, permettant à l'IA de structurer et clarifier vos idées, améliorant ainsi la communication et réduisant le besoin de corrections manuelles."
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "La meilleure façon de \"mettre en bac à sable\" une IA est de la placer sur un vol Delta – elle n'aura aucune chance d'accéder à Internet !",
+          "text_original": "Best way to sandbox an AI is to put it on a Delta flight – it will have no chance of accessing the Internet!",
+          "link": "http://nitter.meowing.monster/elonmusk/status/2105139959720014101#m",
+          "decryptage": "Mettre une IA en \"bac à sable\" (sandbox) est une technique cruciale pour la sécurité : cela signifie l'isoler de l'extérieur, notamment d'Internet, pour la tester en toute sécurité et l'empêcher de faire des choses imprévues."
         }
       ],
       "idees": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "On commence à quitter le territoire où l'on testerait un LLM en lui demandant par exemple \"crée une image SVG d'un pélican à vélo\". Comme idée pour généraliser, j'étais curieux de voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1M de tokens (~10$) et que je lui demandais une rendu en trois js. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont (procéduralement) rendu l'histoire. C'est un peu bancal mais sympa. Mais il est un peu stupéfiant que le LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et que cela fonctionne même un peu. J'aime aussi ce genre d'exemples car personne de sensé ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où l'on passe de \"personne ne ferait jamais ça\" à \"bien sûr, pourquoi pas, c'est ~gratuit\". Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels on peut imaginer lâcher des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère sur demande. Dernière pensée, le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas auditer facilement leur travail car ils ne sont pas capables de percevoir nativement et efficacement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre des captures d'écran très lentement et méticuleusement à différents moments, et il s'est trompé quelques fois et a créé un tas de trucs bancals. Un exemple de capacité brute (multimodale, gameplay) qui est encore assez limitée à mon avis.",
-          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-          "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
-          "decryptage": "Ce tweet montre comment un modèle d'IA peut désormais créer des univers visuels complexes à partir de simples descriptions textuelles, ouvrant la voie à des expériences interactives personnalisées, mais révèle aussi les limites actuelles de ces IA dans la perception et l'interaction avec des environnements dynamiques comme les jeux vidéo."
-        },
-        {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Plus d'informations sur le test du pélican à vélo par @simonw : simonwillison.net/2025/Jun/6… J'ai mis le code source ici pour qu'il soit jouable dans le navigateur, modifiable, etc. karpathy.ai/lotr-movie/ Attention à GTA Hobbiton avant GTA VI :)",
-          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-          "link": "http://shitter.thepixora.com/karpathy/status/2083948654377996480#m",
-          "decryptage": "Ce tweet partage un lien vers une démonstration interactive de génération vidéo par IA, inspirée par une expérience précédente, et taquine sur la création potentielle de jeux vidéo immersifs basés sur des univers connus."
-        },
-        {
-          "author_name": "Yann LeCun",
-          "handle": "@ylecun",
-          "text_fr": "J'ai été diagnostiqué d'un cancer de la thyroïde il y a de nombreuses années, purement par hasard, car je devais faire des analyses de sang pour ma demande de carte verte américaine (merci, USCIS !). J'avais la trentaine et j'étais raisonnablement en bonne santé (du moins, c'est ce que je croyais). Ce fut une nouvelle choquante et totalement imprévisible pour moi. Grâce à l'incroyable équipe de cliniciens de NYU Langone, j'ai subi avec succès une thyroïdectomie totale suivie d'une thérapie à l'iode radioactif. Mais ce fut véritablement la période la plus incertaine et déroutante de ma vie. C'est à ce moment-là que j'ai réalisé pour la première fois que personne ne peut se soustraire aux soins de santé. Tomber malade n'est pas quelque chose que l'on choisit ou non. C'est quelque chose qui arrive de manière imprévisible à chacun d'entre nous à un moment donné, pour une raison ou une autre. C'est pourquoi c'est un système de santé que nous construisons et utilisons collectivement pour nous soutenir mutuellement au niveau de la société. Parce qu'il doit soutenir tout le monde, la complexité de créer, de maintenir et d'améliorer ce système est un effort herculéen qui nécessite toute l'aide du monde. Aujourd'hui, j'annonce le lancement d'@OrtetAI avec mes chers cofondateurs, @keunwoochoi, @HenriDwyer, @elmanmansimov, @causalclaudia et Jeff, afin d'apporter notre soutien à l'amélioration de la santé de chacun d'entre nous. L'objectif d'Ortet est de créer une base technologique qui permettra aux systèmes de santé de fournir des soins prévisiblement meilleurs à chaque patient. Cela ne sera possible qu'en travaillant en étroite collaboration avec toutes les parties prenantes de l'écosystème au sens large, ce qui est rendu possible en partie par le partenariat étroit d'Ortet avec Thoreau. Ortet fait le tout premier pas d'un long chemin à parcourir, et à la fin de ce voyage, je crois fermement que nous pourrions dire qu'Ortet a contribué à bâtir des soins de santé meilleurs et plus prévisibles, et ainsi à améliorer la santé de chacun d'entre nous. Pour en savoir plus, consultez ortet.ai/ ! Lien Ortet Ortet est un laboratoire d'IA de pointe pour la santé, créant une intelligence en amélioration continue pour chaque patient. ortet.ai",
-          "text_original": "i was diagnosed with thyroid cancer many years ago purely by chance, because i had to get blood work for my US green card application (thank you, USCIS!). i was in my mid-30’s and was reasonably healthy (or so i believed.) this was shocking and totally unpredictable news to me. thanks to the amazing team of clinicians at NYU Langone, i successfully went through a total thyroidectomy followed by radioactive iodine therapy. but, it was truly the most uncertain and confusing period of my life. this is when i first realized that no one can opt out of healthcare. being sick isn’t what you choose to or choose not to. it is something that unpredictably happens to all of us at some point for one reason or another. this is why it is a healthcare system that we collectively build and use to support each other at the society level. because it must support everyone, the complexity of creating, maintaining and improving this system is a Herculean effort that calls for all the help in the world. today, i am announcing @OrtetAI together with my dear co-founders, @keunwoochoi , @HenriDwyer , @elmanmansimov , @causalclaudia and Jeff, to lend our support to improving the health of each and every one of us. Ortet’s goal is to create a technological foundation that will enable health systems to deliver predictably better care to each and every patient. this will only be possible by working closely with all stakeholders in the broader ecosystem, which is enabled in part by Ortet’s close partnership with Thoreau. Ortet is taking the very first step of a long journey ahead, and at the end of this journey, i strongly believe we would be able to say that Ortet had contributed to building better, more predictable healthcare and thus to improving health of each and every one of us. see ortet.ai/ for more! Link Ortet Ortet is a frontier AI lab for health, creating continuously improving intelligence for every patient. ortet.ai",
-          "link": "http://shitter.thepixora.com/kchonyc/status/2104923398971277802#m",
-          "decryptage": "Yann LeCun lance Ortet AI, un laboratoire d'IA dédié à l'amélioration des soins de santé. L'objectif est d'utiliser l'intelligence artificielle pour rendre la médecine plus prévisible et personnalisée, suite à une expérience personnelle de maladie et à la prise de conscience de l'importance universelle des soins de santé."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Est-ce que je suis le seul à penser que c'est pertinent ? Noah se fait démonter, mais il a 100% raison. C'est peut-être un mauvais exemple, mais si un restaurant peut privilégier certains clients, il peut adapter son offre plus spécifiquement. Disons qu'un restaurant ne fait que des fêtes d'anniversaire, ou seulement des dîners en amoureux, ou quoi que ce soit, cela signifie qu'il peut préqualifier les clients idéaux, créer de meilleures expériences pour eux et facturer plus cher. Les clients bénéficient également d'expériences mieux adaptées. Cela affecte bien plus que les restaurants. Chaque entreprise et chaque client sur Terre sera mieux mis en relation par l'IA. Cela ne se fera pas par des bots spammant des réservations de billets, mais plutôt par des entreprises organisant des enchères et des négociations avec des milliers de clients chaque jour via des agents. C'est une réorganisation de l'architecture de l'information, de l'économie, du marketing, de la manière dont nous recherchons sur Internet et de la manière dont le commerce, les services et les chaînes d'approvisionnement se combinent pour construire une expérience finale. Tout cela sera médiatisé par l'IA. Les gens sous-estiment considérablement à quel point Internet est en train de changer en ce moment. Je comprends la vision de Instinct maintenant. Lever des fonds avec le montant et l'évaluation qu'ils ont obtenus est une décision commerciale risquée et les oblige à atteindre un objectif particulier, mais si cela fonctionne, ce sera le prochain Stripe et gérera une part importante des dépenses mondiales. À moins qu'OpenAI ou SpaceXAI n'y parviennent en premier (d'une manière conviviale pour le consommateur). Fireside Alpha (@firesidealpha) Noah Shinn, PDG d'Instinct, déclare que les agents permettront aux restaurants de donner des tables aux anniversaires et autres célébrations plutôt qu'à ceux qui cliquent en premier \"Et traditionnellement, en raison du fonctionnement d'Internet, du moins pour les réservations, c'était premier arrivé, premier servi. Donc, quiconque arrive, peu importe son importance ou son manque d'importance, celui qui arrive le premier obtient la réservation.\" \"Mais si vous aviez la possibilité pour l'agent de pouvoir communiquer des deux côtés, communiquer, hé, c'est important. C'est en fait l'anniversaire du conjoint de cette personne, le 30e anniversaire, un événement très spécial qui approche.\" \"Et le restaurant peut aussi dire, donnons la priorité aux anniversaires ou aux anniversaires importants ou à certaines personnes, je ne sais pas, peu importe, n'est-ce pas ?\" \"Donc, maintenant, avec la capacité, avec tout le fardeau logistique de devoir décrire exactement quel est votre cas et ce qui se passe et pourquoi c'est important. Nous avons maintenant la capacité de faire correspondre parfaitement ce que veut le restaurant, ce que veut l'utilisateur.\" \"Et cela se traduira par des événements plus spéciaux pour les utilisateurs qui pourront réellement avoir une place au restaurant.\" Vidéo — http://shitter.thepixora.com/firesidealpha/status/2104615871255867837#m",
-          "text_original": "Am I the only one who thinks this is spot on? Noah is getting dunked on, but he’s 100% right. Maybe a poor example, but if a restaurant can prioritize certain customers they can more specifically cater their offer. So say one restaurant only does birthday parties, or only does date nights, or whatever, this means they can prequalify ideal customers, build better experiences for them, and charge more for it. Customers get better matched experiences too. This affects far more than restaurants. Every business and customer on earth will be better matched by AI. This won’t be via bots spamming ticket reservations, instead it will look more like businesses holding auctions & negotiations with 10000s of customers every day via agents. This is a reorganization of information architecture, economics, marketing, the way we search the internet and how commerce, services and supply chains come together to build a final experience. All of it will be mediated by AI. People are dramatically underestimating how much the internet is changing right now. I get the instinct vision now. Raising at the amount and valuation they did is a risky business move and forces them into a particular goal, but if it works, it’s gonna be the next stripe and will run a significant portion of global spending. Unless OpenAI or SpaceXAI gets there first (in a consumer friendly way) Fireside Alpha (@firesidealpha) Instinct CEO Noah Shinn says agents will let restaurants give tables to birthdays and anniversaries over whoever clicks first \"And traditionally, because of the way that the internet has worked, at least for reservations, it's been first come first serve. So anyone that comes in, no matter how important or how not important it might be, whoever gets in first gets the reservation.\" \"But what if you had the ability for the agent to be able to communicate on both sides, communicate, hey, this is important. This is actually the person's spouse's birthday, the 30th birthday, a very special event is coming up.\" \"And the restaurant too can say, let's actually prioritize birthdays or major decade birthdays or major anniversaries or these certain people, I don't know, whatever it might be, right?\" \"So now with the ability, with all of the logistical burden of having to describe exactly what your case is and what's happening and why it's important. Now we have the ability to perfectly match what does the restaurant want? What does the user want?\" \"And that will result in more special events for the users being able to actually have a spot in the restaurant.\" Video — http://shitter.thepixora.com/firesidealpha/status/2104615871255867837#m",
-          "link": "http://shitter.thepixora.com/NickADobos/status/2105291070649340017#m",
-          "decryptage": "Ce tweet explore l'idée que l'IA, via des 'agents', va révolutionner la façon dont les entreprises et les clients interagissent, permettant des mises en relation plus fines et personnalisées, bien au-delà des simples réservations, et changeant profondément le commerce en ligne."
-        },
-        {
-          "author_name": "Simon Willison",
-          "handle": "@simonw",
-          "text_fr": "Et ma pensée finale sur la façon dont ces choses affectent nos vies en tant qu'ingénieurs logiciels, avec une citation du champion cycliste Greg LeMond",
-          "text_original": "And my closing thought on how this stuff impacts our lives as software engineers, with a quote from cycling champion Greg LeMond",
-          "link": "http://shitter.thepixora.com/simonw/status/2104631210412810466#m",
-          "decryptage": "Ce tweet aborde l'impact des avancées en IA sur le métier d'ingénieur logiciel, suggérant une réflexion sur l'évolution des compétences et des rôles face à ces nouvelles technologies."
-        },
-        {
-          "author_name": "Simon Willison",
-          "handle": "@simonw",
-          "text_fr": "(La présentation complète couvre également la saison de reproduction du perroquet Kākāpō de Nouvelle-Zélande, probablement la meilleure nouvelle de 2026)",
-          "text_original": "(The full talk also covers New Zealand’s Kākāpō parrot breeding season, probably the best news of 2026)",
-          "link": "http://shitter.thepixora.com/simonw/status/2104631417712810466#m",
-          "decryptage": "Ce tweet mentionne une information anecdotique mais positive sur la reproduction d'une espèce d'oiseau rare, ajoutant une touche légère et optimiste au contenu technique habituel."
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Aujourd'hui, nous avons 3 nouveaux essais du DeepMind Institute : Comment contrôler les comportements inappropriés dans les essaims d'agents ? Comment orchestrer des réseaux complexes d'IA et d'humains ? L'argument en faveur d'une distribution équitable des bénéfices de l'AGI. Retrouvez-les ici -> bit.ly/deepmind-institute Lien DeepMind Institute Réflexions audacieuses et bien étayées sur l'AGI du laboratoire qui a été pionnier dans le domaine. Lisez les derniers essais du DeepMind Institute. institute.deepmind.com",
+          "text_original": "Today we have 3 new DeepMind Institute essays: How can we control misbehaviour in agent swarms? How should we orchestrate complex networks of AIs and people? The case for making AGI’s benefits equitably distributed. Get them here -> bit.ly/deepmind-institute Link DeepMind Institute Bold, well-evidenced thinking on AGI from the lab that pioneered the field. Read the latest essays from the DeepMind Institute. institute.deepmind.com",
+          "link": "http://shitter.thepixora.com/ShaneLegg/status/2103123676178866658#m",
+          "decryptage": "L'AGI (Artificial General Intelligence) est une IA hypothétique capable d'accomplir n'importe quelle tâche intellectuelle humaine. Un \"essaim d'agents\" fait référence à un groupe d'IA collaborant, soulevant des questions sur leur contrôle et la répartition des bénéfices de l'AGI."
         }
       ],
       "outils": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Introduction d'Atlas : le premier modèle du monde capable de générer des images et des vidéos avec un contrôle parfait des pixels et de les reconstruire en 3D. Modélisez le monde, déplacez la caméra, et simulez l'espace et le temps. Vidéo",
-          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-          "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
-          "decryptage": "Atlas est une avancée majeure car il permet à l'IA de comprendre le monde en 3D et de générer des séquences vidéo réalistes, ouvrant la porte à des simulations très poussées."
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Nous présentons Gemini 3.8 Flash et Flash-Lite TTS, notre nouveau modèle de synthèse vocale (text-to-speech) à la pointe de la technologie (SOTA) avec : - une nouvelle expérience de conception vocale - plus de 2 000 voix prêtes pour la production - la réplication de voix - le support de 100 langues - le remixage de voix (bientôt) - la place de numéro 1 sur les benchmarks vocaux de Hume AI et plus encore !!",
+          "text_original": "Introducing Gemini 3.8 Flash and Flash-Lite TTS, our new SOTA text to speech model with: - a new voice design experience - 2,000+ production ready voices - voice replication - support for 100 languages - voice remixing (soon) - #1 spot on Hume AI's voice benchmarks and more!!",
+          "link": "http://shitter.thepixora.com/OfficialLoganK/status/2102785495726219305#m",
+          "decryptage": "Un modèle \"text-to-speech\" (TTS) transforme le texte en parole. \"SOTA\" signifie \"State-Of-The-Art\" (à la pointe de la technologie), c'est-à-dire le meilleur disponible. Les \"benchmarks\" sont des tests de performance standardisés pour comparer les modèles."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "On commence à quitter le territoire où l'on testerait un LLM en lui demandant par exemple \"crée une image SVG d'un pélican à vélo\". Comme idée pour généraliser, j'étais curieux de voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1M de tokens (~10$) et que je lui demandais une rendu en trois js. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui ont (procéduralement) rendu l'histoire. C'est un peu bancal mais sympa. Mais il est un peu stupéfiant que le LLM doive placer et orchestrer divers éléments polygonaux dans des coordonnées (x,y,z) et écrire du code qui anime tout ça, et que cela fonctionne même un peu. J'aime aussi ce genre d'exemples car personne de sensé ne passerait le temps à écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, donc c'est un exemple où l'on passe de \"personne ne ferait jamais ça\" à \"bien sûr, pourquoi pas, c'est ~gratuit\". Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper personnalisés dans lesquels on peut imaginer lâcher des joueurs, par exemple ici pour participer à l'histoire du SdA en tant que spectateur PNJ, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère sur demande. Dernière pensée, le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas auditer facilement leur travail car ils ne sont pas capables de percevoir nativement et efficacement des vidéos ou de jouer à des jeux. Ici, Opus 5 a dû prendre des captures d'écran très lentement et méticuleusement à différents moments, et il s'est trompé quelques fois et a créé un tas de trucs bancals. Un exemple de capacité brute (multimodale, gameplay) qui est encore assez limitée à mon avis.",
-          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
-          "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
-          "decryptage": "Ce tweet montre comment un modèle d'IA peut désormais créer des univers visuels complexes à partir de simples descriptions textuelles, ouvrant la voie à des expériences interactives personnalisées, mais révèle aussi les limites actuelles de ces IA dans la perception et l'interaction avec des environnements dynamiques comme les jeux vidéo."
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Développeurs d'Hyderabad, venez construire avec Gemini ! Nous organisons un hackathon avec @gdg_hyd le 26 septembre. Détails et inscription : gdg.community.dev/e/mrcchy/",
+          "text_original": "Hyderabad Builders, Come build with Gemini! We’re hosting a hackathon with @gdg_hyd on Sept 26. Details and registration: gdg.community.dev/e/mrcchy/",
+          "link": "http://shitter.thepixora.com/chauhan_nilay16/status/2100996203051938192#m",
+          "decryptage": "Un \"hackathon\" est un événement où des équipes développent rapidement des projets. Ici, il s'agit d'utiliser Gemini, un modèle d'IA avancé de Google, pour créer de nouvelles applications."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Plus d'informations sur le test du pélican à vélo par @simonw : simonwillison.net/2025/Jun/6… J'ai mis le code source ici pour qu'il soit jouable dans le navigateur, modifiable, etc. karpathy.ai/lotr-movie/ Attention à GTA Hobbiton avant GTA VI :)",
-          "text_original": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
-          "link": "http://shitter.thepixora.com/karpathy/status/2083948654377996480#m",
-          "decryptage": "Ce tweet partage un lien vers une démonstration interactive de génération vidéo par IA, inspirée par une expérience précédente, et taquine sur la création potentielle de jeux vidéo immersifs basés sur des univers connus."
-        },
-        {
-          "author_name": "Yann LeCun",
-          "handle": "@ylecun",
-          "text_fr": "[1/n] Un modèle du monde peut-il conduire sans entraîner une politique de conduite ? Introduction d'AD-E2E-JEPA, un modèle du monde basé sur JEPA pour la conduite autonome de bout en bout. 📄: arxiv.org/abs/2609.34085 💻: github.com/HaoranZhuExplorer… Travail conjoint avec @kevinghstz, Prof. @ylecun, et Prof. Anna Choromanska",
-          "text_original": "[1/n] Can a world model drive without training a driving policy? Introducing AD-E2E-JEPA, a JEPA-based world model for end-to-end autonomous driving. 📄: arxiv.org/abs/2609.34085 💻: github.com/HaoranZhuExplorer… Joint work with @kevinghstz , Prof. @ylecun , and Prof. Anna Choromanska",
-          "link": "http://shitter.thepixora.com/HaoranZhuX/status/2104961832393855073#m",
-          "decryptage": "AD-E2E-JEPA est une nouvelle approche en IA pour la conduite autonome qui utilise un 'modèle du monde' pour apprendre à conduire sans avoir besoin d'une politique de conduite explicitement programmée, promettant une approche plus flexible et adaptable."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Wow, les extensions de plugins ChatGPT sont bien plus complètes que ce que je pensais. Sacré bordel, ils ont transformé ChatGPT en VSCode. Je comprends le nouveau design de la barre latérale maintenant. Génial. C'est le nouvel App Store.",
-          "text_original": "Whoa ChatGPT plugin extensions are way more thorough than I realized Holy shit they made ChatGPT into vscode. I get the sidebar redesign now. Genius. This is the new App Store.",
-          "link": "http://shitter.thepixora.com/NickADobos/status/2105074673923014777#m",
-          "decryptage": "Ce tweet exprime la surprise de l'auteur face à la profondeur et à la puissance des extensions de ChatGPT, le comparant à VS Code, un environnement de développement complet, et suggérant que cela marque une nouvelle ère pour les applications d'IA."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Si vous comprenez pourquoi vscode était bien, (extensibilité folle), vous comprendrez ceci. Ils ont essentiellement rendu ChatGPT 100 fois plus modifiable.",
-          "text_original": "If you understand why vscode was good, (crazy extensibility), you’ll get this. They basically made ChatGPT 100x more moddable.",
-          "link": "http://shitter.thepixora.com/NickADobos/status/2105074677295239380#m",
-          "decryptage": "Ce tweet compare les nouvelles extensions de ChatGPT à celles de VS Code, un éditeur de code très populaire connu pour sa grande flexibilité grâce à ses extensions, suggérant que ChatGPT devient aussi personnalisable et puissant."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Ceci et des 'dots' spécialisés sont tous deux des stratégies de plateforme de génie fou",
-          "text_original": "This and specialized dots are both crazy genius platform plays",
-          "link": "http://shitter.thepixora.com/NickADobos/status/2105074679245611289#m",
-          "decryptage": "Ce tweet, faisant référence à des innovations dans l'écosystème ChatGPT, souligne l'aspect 'plateforme' de ces développements, suggérant qu'ils visent à créer un écosystème ouvert et extensible pour l'IA."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "OpenAI dev day remporte les meilleurs cadeaux de conférence Édition limitée OAI rétro chromatique transparent mod avec mode développeur secret, une cartouche vide personnalisée et un codex/compétence pour y flasher des jeux. Meilleur jour de ma vie.",
-          "text_original": "OpenAI dev day wins best conference swag Limited edition OAI clear mod retro chromatic complete with secret dev mode, a custom empty cartridge, and a codex /skill to flash games onto it. Best day ever.",
-          "link": "http://shitter.thepixora.com/NickADobos/status/2105044558476403122#m",
-          "decryptage": "Ce tweet, bien que centré sur les 'cadeaux' reçus lors d'un événement OpenAI, met en lumière l'effort de l'entreprise pour créer un engouement et une culture autour de ses développements, en offrant des objets personnalisés et thématiques."
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Si vous avez essayé HyperFrames, vous sauriez que la pile vidéo \"agentique\" est basée sur la génération de code, mais le code SWE-bench comparé au code-vidéo qui semble vivant sont deux choses différentes. Nous avons créé le Code2Video Bench, en collaboration avec Google DeepMind et @Kaggle, pour que les laboratoires de pointe puissent enfin devenir performants sur les tâches vidéo \"agentiques\". Vidéo",
+          "text_original": "if you tried hyperframes, you would know the agentic video stack is being built on code-gen but SWE-bench code v.s. code-to-video that feels alive are two different things we built the Code2Video Bench, in collab w/ Google DeepMind & @Kaggle frontier labs can finally get good at agentic video tasks Video",
+          "link": "http://shitter.thepixora.com/HyperFrames_/status/2102084939026247684#m",
+          "decryptage": "La \"génération de code\" (code-gen) est l'utilisation de l'IA pour écrire du code. Un \"benchmark\" (ici, Code2Video Bench) est un outil de test pour mesurer et comparer les performances des IA, notamment pour créer des vidéos réalistes ou \"vivantes\" (\"agentiques\") à partir de descriptions ou de code."
         }
       ]
     }
   },
-  "processed_at": "2026-09-30T14:15:17",
+  "processed_at": "2026-09-30T14:55:42",
   "validation": {
     "translated_pct": 100,
     "with_decryptage_pct": 100,
-    "total": 26,
+    "total": 12,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-09-30T14:15:19"
+  "email_sent_at": "2026-09-30T14:55:43"
 }
