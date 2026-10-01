@@ -1,49 +1,94 @@
 {
   "date": "2026-10-01",
-  "fetched_at": "2026-10-01T13:56:11",
+  "fetched_at": "2026-10-01T14:27:15",
   "tweets": [
     {
-      "handle": "sama",
-      "text": "Over the past 5 weeks, the team completely rewrote ChatGPT Web on top of the desktop app codebase. This was only possible with Astra, and it’s why Dots, Space, Codex Cloud, and so many more of our launches will come to web and desktop same day. Era of the megaproject begins.",
-      "link": "http://shitter.thepixora.com/ajambrosino/status/2104993363170861501#m",
-      "published": "Tue, 29 Sep 2026 17:55:01 GMT",
-      "author_name": "Sam Altman",
+      "handle": "ylecun",
+      "text": "Question for everyone : Are you pro-intelligence or anti-intelligence ? Do you think more intelligence in the world is intrinsically good ? Or do you think more intelligence is intrinsically dangerous ? AI amplifies human intelligence. It makes PEOPLE smarter and more effective. It's like search engines, libraries, education, literacy, language: it makes PEOPLE smarter and more empowered. If you want intelligence (artificial or natural) to be under control of a few companies or governments, you are a neo-obscurantist or a neo-feudalist.",
+      "link": "https://nitter.kareem.one/ylecun/status/2105654072481112403#m",
+      "published": "Thu, 01 Oct 2026 13:40:26 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "There's no battle for AI safety. It's a battle between pro-intelligence and anti-intelligence forces. Safety is a fake stand-in word for pausing/stopping/strangling AI. Nobody is anti-safety. Safety is a fake set-up word to booby trap your pro-intelligence stance.",
+      "link": "https://nitter.kareem.one/Dan_Jeffries1/status/2105639262787903615#m",
+      "published": "Thu, 01 Oct 2026 12:41:35 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Delighted to be speaking about our recent progress on JEPAs and on the need for more principled solutions that handle data imbalance, noise, multimodality, reasoning, ...! Happening at MICCAI-FOMO26 in 5min! And thank you for having me as keynote today!",
+      "link": "https://nitter.kareem.one/randall_balestr/status/2105622350456627466#m",
+      "published": "Thu, 01 Oct 2026 11:34:23 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "In light of the latest Anthropic's latest not-particularly-oblique attempt to build a case against open weights, I thought I would write down how I currently think about open weight AI models. (1) Open weights have been deeply, irreplaceably useful for AI safety.",
+      "link": "https://nitter.kareem.one/1a3orn/status/2105319756270329993#m",
+      "published": "Wed, 30 Sep 2026 15:31:59 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "“If you’re an organization such as METR that’s going to evaluate a frontier lab’s cyber capabilities or containment, you should have experienced cybersecurity people involved. And if you don’t, you’re not going to do a thorough job evaluating those risks.” Joe (@joedaroo) Took a minute to write a few words about security & safety as someone who lived through it all at OpenAI. I hope my thoughts help someone out there. Article Its not just the f*cking sandbox A lot of the perspective on all the AI incidents has been shared from the outside in, and little has been said from the inside looking out, through the lens of a security person living through it. — https://nitter.kareem.one/joedaroo/status/2104335929293127851#m",
+      "link": "https://nitter.kareem.one/pentagoniac/status/2104440886109360505#m",
+      "published": "Mon, 28 Sep 2026 05:19:40 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "Google says Gemini 4 Argon agents have already freed over 300 TiB of memory across its data centers, with a 1 million token output limit and agents already optimizing its own infrastructure. The agents analyzed profiling data, found memory optimizations and applied changes that were subsequently rolled out. Argon agents are also working on C/C++ to Rust migrations reaching 800,000+ lines of kernel code, with extensive audits and testing before deployment. For its video decoder, Google says agents replaced 32,000 lines of SIMD code with safe Rust, making the existing Rust port 2.7x faster while preserving identical video output. These are expensive engineering tasks inside infrastructure Google already operates. This release seems to be a much bigger deal than people think! Chubby♨️ (@kimmonismus) HOLY, GEMINI 4 Released. And its on Fable / Astra level!! I did NOT see that coming. SOTA in several benchmarks!! No way — http://shitter.thepixora.com/kimmonismus/status/2105390164596195695#m",
+      "link": "http://shitter.thepixora.com/kimmonismus/status/2105395385191776455#m",
+      "published": "Wed, 30 Sep 2026 20:32:30 GMT",
+      "author_name": "Demis Hassabis",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sama",
-      "text": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher level. openai.com/index/introducing… Link Introducing dots Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward. openai.com",
-      "link": "http://shitter.thepixora.com/sama/status/2104995014208258235#m",
-      "published": "Tue, 29 Sep 2026 18:01:34 GMT",
-      "author_name": "Sam Altman",
+      "handle": "demishassabis",
+      "text": "Gemini 4 Argon has an insanely low hallucination rate on Artificial Analysis. 15%. Grok 4.7 is at 29%. GPT-6 Astra 45%. Opus 5.5 59%. Fable 5.1 69%. The only models below it barely answer anything. None of them get more than 15% right. It gets fewer answers right than Opus 5.5 on max, 50% against 66%. But when it doesnt know, it says so instead of making something up. Cant wait to get my hands on it.",
+      "link": "http://shitter.thepixora.com/aipulseda1ly/status/2105394296815779861#m",
+      "published": "Wed, 30 Sep 2026 20:28:11 GMT",
+      "author_name": "Demis Hassabis",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sama",
-      "text": "Ultrafast is so fast I do not ever want to go back",
-      "link": "http://shitter.thepixora.com/sama/status/2104994601140711896#m",
-      "published": "Tue, 29 Sep 2026 17:59:56 GMT",
-      "author_name": "Sam Altman",
+      "handle": "demishassabis",
+      "text": "Big news: Gemini 4 Argon (High) by @GoogleDeepMind just landed #1 in Text Arena with 1525 pts, and #8 in Code Arena: WebDev with 1679 pts! This release has reshaped the Text Arena Pareto frontier with a blended $8/MToken! Gemini 4 Argon (High) is now the most cost efficient model, see its placement on Pareto frontier below. In the Text Arena, Gemini 4 Argon (High) ranks #1 in Coding, Hard Prompts, Instruction Following, Longer Query, and Creative Writing. It also leads every occupational domain evaluated, with additional #1 spots in English, Non-English, Chinese, and Russian. This model is +20 points above the #2 ranked Claude Opus 4.6 (High), and a huge leap from Google’s previous release, Gemini 3.8 Flash (High) at #11! In Code Arena: WebDev, Gemini 4 Argon (High) gained +96 points from Gemini 3.8 Flash (High), and went from #29 to #8. Congrats to the @GoogleDeepMind team on this impressive frontier release! Google DeepMind (@GoogleDeepMind) Introducing Gemini 4 Argon – our new frontier model. It’s built for complex workflows across coding, enterprise knowledge work, and cybersecurity defense – rolling out today to a set of trusted testers through our Fairwind Program. — http://shitter.thepixora.com/GoogleDeepMind/status/2105388084154056939#m",
+      "link": "http://shitter.thepixora.com/arena/status/2105394855644139908#m",
+      "published": "Wed, 30 Sep 2026 20:30:24 GMT",
+      "author_name": "Demis Hassabis",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sama",
-      "text": "6.1 Sol at 1/5th of the price of Astra, and 95% cache read discount! Extremely capable model. Tibo (@thsottiaux) Introducing 6.1 Sol, near Astra intelligence at one fifth of the price of Astra and 95% cache read discount. It is an absolute workhorse. Combined with ultrafast for 8X speeded available today for Astra and coming soon for 6.1 Sol. — http://shitter.thepixora.com/thsottiaux/status/2104986027953930613#m",
-      "link": "http://shitter.thepixora.com/sama/status/2104994395980533804#m",
-      "published": "Tue, 29 Sep 2026 17:59:07 GMT",
-      "author_name": "Sam Altman",
+      "handle": "demishassabis",
+      "text": "Gemini is on top of the Vals Index for the first time. Gemini 4 Argon takes the #1 spot on the Vals Index at 68.9%.",
+      "link": "http://shitter.thepixora.com/ValsAI/status/2105388446844072033#m",
+      "published": "Wed, 30 Sep 2026 20:04:56 GMT",
+      "author_name": "Demis Hassabis",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sama",
-      "text": "DevDay livestream in 2 hours. We built some great stuff for you!",
-      "link": "http://shitter.thepixora.com/sama/status/2104950376466362578#m",
-      "published": "Tue, 29 Sep 2026 15:04:12 GMT",
-      "author_name": "Sam Altman",
+      "handle": "demishassabis",
+      "text": "Very excited to announce Gemini 4 Argon, our new Frontier AI model, and a huge step forward across key capabilities. We’re focused on rolling it out responsibly starting with government and trusted cyber defenders through our Fairwind Program today, before wider availability soon",
+      "link": "http://shitter.thepixora.com/demishassabis/status/2105417239432200636#m",
+      "published": "Wed, 30 Sep 2026 21:59:21 GMT",
+      "author_name": "Demis Hassabis",
       "category_hint": "ceo",
       "source_lang": "en"
     },
@@ -93,189 +138,144 @@
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "So much work by so many folks across Google to create this model, it is amazing to see the progress here, and just the start! Can't wait for more folks to use Gemini 4 Argon. blog.google/innovation-and-a… Link Gemini 4 Argon: our next era of frontier intelligence Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon. blog.google",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2105388580394930499#m",
-      "published": "Wed, 30 Sep 2026 20:05:28 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "polynoamial",
+      "text": "I met @ssokota 5 years ago at a conference poster session. I was impressed with his explanation, so I offered him an internship. We continued collaborating and he now works with me at @OpenAI . Later, he told me I was the only person to stop by his poster for the entire session. Samuel Sokota (@ssokota) In our Nature paper, we introduce the first superhuman Stratego AI, which we built using general techniques that we developed for RL & test-time compute under imperfect information. 1/N — http://shitter.thepixora.com/ssokota/status/2105362024238887176#m",
+      "link": "http://shitter.thepixora.com/polynoamial/status/2105374680807043568#m",
+      "published": "Wed, 30 Sep 2026 19:10:14 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "@polynoamial Results are even more impressive at max! 6.1 sol outperforms Opus 5.5 while using 4x fewer tokens.",
+      "link": "http://shitter.thepixora.com/gen_obligation/status/2105023008200864113#m",
+      "published": "Tue, 29 Sep 2026 19:52:49 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "I’m happy that @OpenAI presents model evals this way. We should measure intelligence as a function of cost. OpenAI (@OpenAI) GPT-6.1 Sol: near-Astra intelligence for a fifth of the price. It’s the most cost-efficient model for its performance available today. Video — http://shitter.thepixora.com/OpenAI/status/2104986129686741046#m",
+      "link": "http://shitter.thepixora.com/polynoamial/status/2104994025631846435#m",
+      "published": "Tue, 29 Sep 2026 17:57:39 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "Was testing out dots over the weekend and it figured out how to save me ~$500/yr in recurring charges. Most impressive part was when it connected to customer service and handled a whole texting convo on my behalf. OpenAI (@OpenAI) Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything. Video — http://shitter.thepixora.com/OpenAI/status/2104984504133918973#m",
+      "link": "http://shitter.thepixora.com/polynoamial/status/2104990938145890462#m",
+      "published": "Tue, 29 Sep 2026 17:45:23 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "GPT-6 Sol and Luna are out, and they are better AND 50% cheaper than 5.6. Luna is now $0.10 input / $0.50 output per 1M tokens. This is on top of the 80% price cut to Luna we made at the end of July. Output went from $6 -> $0.50 within two months. OpenAI (@OpenAI) Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale. We’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing. Video — http://shitter.thepixora.com/OpenAI/status/2102460975790137662#m",
+      "link": "http://shitter.thepixora.com/polynoamial/status/2102464815751111057#m",
+      "published": "Tue, 22 Sep 2026 18:27:28 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "we found opus 5.5 to be 2X as efficient as gpt-6-sol in our internal cfo.ai evals so i was not expecting 6.1-sol to improve on that much but to see it 3X the efficiency of opus 5.5 and 2.5X against even sonnet 5.5 is actually 🤯 this is an insane point release",
+      "link": "http://shitter.thepixora.com/blader/status/2105095660450320571#m",
+      "published": "Wed, 30 Sep 2026 00:41:30 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "Introducing Gemini 4 Argon, our new frontier model, rolling out to cyber defenders starting today, and more widely as soon as possible. I am really excited by the progress we have made here. Argon is priced at $2 in and $10 out during introductory pricing!",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2105388054274080946#m",
-      "published": "Wed, 30 Sep 2026 20:03:23 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "aidan_mclau",
+      "text": "Updated run just finished. GPT-6.1 Sol still crushes. Turns out it performs WAY better in Codex than in mini-swe (what Artificial Analysis uses) Theo - t3.gg (@theo) When I made this video, there were no benchmarks yet, so I had to run them myself. Jaw dropped when I saw the Terminal Bench 4 scores. Performance better than Opus 5.5 for ~1/30th of the price 🤯 — http://shitter.thepixora.com/theo/status/2105000888192663582#m",
+      "link": "http://shitter.thepixora.com/theo/status/2105063015712465094#m",
+      "published": "Tue, 29 Sep 2026 22:31:47 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "2027 is the year we will see at scale autonomous revenue (profit?) generating agents / mini-companies already happening at sub scale today with lots of rough edges",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2104273590879494473#m",
-      "published": "Sun, 27 Sep 2026 18:14:54 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "aidan_mclau",
+      "text": "it's pretty remarkable how the inner and outer alignment problems ppl used to debate theoretically are simply live empirical questions today there is a reward function that gets specified. there are model weights that approximate some mesa-objective. you can do science and run careful ablations and so on",
+      "link": "http://shitter.thepixora.com/jam3scampbell/status/2104365779038994737#m",
+      "published": "Mon, 28 Sep 2026 00:21:13 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "incredibly excited about all our audio model progress, from TTS, to Live, to Lyria, to Translate, to Transcribe, our suite of audio models keeps getting better for everyone. if you are in SF, join us tomorrow for a first of it's kind audio experince: rsvp.withgoogle.com/events/g… Link Gemini Audio | At Night Join Google DeepMind for Gemini Audio | At Night, an immersive evening dedicated to the next frontier of voice-first AI. rsvp.withgoogle.com",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2102786652980863015#m",
-      "published": "Wed, 23 Sep 2026 15:46:20 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "aidan_mclau",
+      "text": "thrifting is essentially gambling but with none of the downsides",
+      "link": "http://shitter.thepixora.com/shrimptron/status/2104065523856314720#m",
+      "published": "Sun, 27 Sep 2026 04:28:07 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "all of this, along with a new experince in @GoogleAIStudio , with a lower cost than our previous 3.1 Flash TTS model! Read more: blog.google/innovation-and-a… Link Gemini 3.8 text-to-speech says hello Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet. blog.google",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2102786116453880283#m",
-      "published": "Wed, 23 Sep 2026 15:44:12 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "aidan_mclau",
+      "text": "The safety data for Waymo gets better and better. Comparison w/ human drivers on rate of crashes with serious injury: Latest data: 270M miles, 20X better Mar 2026: 170M miles, 13X better Before that (forget exactly when): 10X better Waymo (@Waymo) 270M+ miles. 841 fewer injury-causing crashes. Our latest safety data shows the Waymo Driver continues to make roads safer for everyone. Compared to human drivers across 5 territories, it reduced: 📉 Injury crashes by 82% 📉 Serious injury crashes by 95% Full data: waymo.com/safety/impact — http://shitter.thepixora.com/Waymo/status/2103114732848705752#m",
+      "link": "http://shitter.thepixora.com/JeffDean/status/2103870029599228312#m",
+      "published": "Sat, 26 Sep 2026 15:31:17 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "AnthropicAI",
-      "text": "What do you want from AI? We’re launching a new study with Anthropic Interviewer to learn more about your experiences using AI, what role you want it to play in your life and the world, and what you want from the companies building it. Last December, 81,000 people told us about their hopes and fears about AI in the largest qualitative study ever done. This time, we’re giving participants the option to make their responses public so that anyone, not just Anthropic, can learn from them. What you tell us will shape The Anthropic Institute’s research and inform the decisions we make. If many people say companies like Anthropic should be doing something differently, that will be on the record, where anyone can point to it. The study runs Sept 29 to Oct 6 and is open to Free, Pro, and Max users on Claude and Claude Code. Take part here: claude.ai/anthropic-intervie… Link Share your thoughts on AI We want to hear how AI is showing up in your life. Take a 15-minute interview, with an option to contribute to a record of public responses. claude.ai",
-      "link": "http://shitter.thepixora.com/AnthropicAI/status/2104982629884063840#m",
-      "published": "Tue, 29 Sep 2026 17:12:22 GMT",
-      "author_name": "Anthropic",
-      "category_hint": "lab",
+      "handle": "GuillaumeLample",
+      "text": "Excited to share that I have joined @MistralAI , where I will be building a team in Montreal and across Canada to push the frontier of safe, capable, and open LLMs. Mistral has played, and will continue to play, an important role in keeping frontier AI open and advancing it safely. I deeply believe in Mistral's mission, and since joining, that conviction has only grown after seeing firsthand the ambition and commitment of the people here. A big part of my role will also be building strong bridges between Mistral and @McGillU , @Mila_Quebec , and the broader Montreal and Canadian AI ecosystem. And we are hiring! Across levels and across the LLM stack. If you are excited about pushing the frontier, reach out.",
+      "link": "http://shitter.thepixora.com/sivareddyg/status/2105644367138431279#m",
+      "published": "Thu, 01 Oct 2026 13:01:52 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "AnthropicAI",
-      "text": "Making your interview public is completely optional. Our blog post covers the benefits and possible risks of doing so. Read it here: anthropic.com/research/your-… Link What Do You Want from AI? Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems. anthropic.com",
-      "link": "http://shitter.thepixora.com/AnthropicAI/status/2104982631037436201#m",
-      "published": "Tue, 29 Sep 2026 17:12:22 GMT",
-      "author_name": "Anthropic",
-      "category_hint": "lab",
+      "handle": "GuillaumeLample",
+      "text": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+      "link": "http://shitter.thepixora.com/GuillaumeLample/status/2097256830091014515#m",
+      "published": "Tue, 08 Sep 2026 09:32:48 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "AnthropicAI",
-      "text": "Claude Sonnet 5.5 is now available: Claude (@claudeai) Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work. Video — http://shitter.thepixora.com/claudeai/status/2104633115620823187#m",
-      "link": "http://shitter.thepixora.com/AnthropicAI/status/2104633259925630995#m",
-      "published": "Mon, 28 Sep 2026 18:04:06 GMT",
-      "author_name": "Anthropic",
-      "category_hint": "lab",
+      "handle": "GuillaumeLample",
+      "text": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
+      "link": "http://shitter.thepixora.com/MistralAI/status/2084684735725379637#m",
+      "published": "Tue, 04 Aug 2026 16:55:47 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "AnthropicAI",
-      "text": "New on the Science Blog: Yes, Claude can do Nine Loops. Theoretical physicists predict how particles behave using formulas called scattering amplitudes. These are notoriously hard to compute, so researchers work with layers of increasingly fine corrections called “loops”—each added loop makes the answer more precise but takes exponentially more computation. Most calculations stop at two or three loops. Eight loops was the previous record in a simplified model physicists use as a testing ground (planar N=4 super-Yang-Mills), set by SLAC's Lance Dixon and collaborators. Last month, physicist and science writer @4gravitons issued a challenge: could an AI push past eight loops in this model, using only the compute budget an academic could reasonably access? Given a single prompt describing the nine-loop problem, Claude ran largely unsupervised for days in Claude Science and solved it using methods developed by Dixon and his colleagues, at a total cost of a few thousand dollars. Dixon independently verified the result, and von Hippel wrote about the experience for our blog. Read more: anthropic.com/research/yes-c… Link Claude computes a nine-loop amplitude in N=4 super-Yang-Mills Claude computes a nine-loop amplitude in N=4 super-Yang-Mills anthropic.com",
-      "link": "http://shitter.thepixora.com/AnthropicAI/status/2103541577083719888#m",
-      "published": "Fri, 25 Sep 2026 17:46:08 GMT",
-      "author_name": "Anthropic",
-      "category_hint": "lab",
+      "handle": "GuillaumeLample",
+      "text": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
+      "link": "http://shitter.thepixora.com/MistralAI/status/2074856309438980145#m",
+      "published": "Wed, 08 Jul 2026 14:01:07 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "AnthropicAI",
-      "text": "In the Democratic Republic of the Congo, global health organizations including @CEPIvaccines , @WHOAFRO , and @inrb_kinshasa are using Claude to accelerate their response to an outbreak of an unusual Ebola variant. Read the full piece here: anthropic.com/features/ebola… Link The Situation Report A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible. anthropic.com",
-      "link": "http://shitter.thepixora.com/AnthropicAI/status/2102897863097545197#m",
-      "published": "Wed, 23 Sep 2026 23:08:15 GMT",
-      "author_name": "Anthropic",
-      "category_hint": "lab",
-      "source_lang": "en"
-    },
-    {
-      "handle": "hwchase17",
-      "text": "new in langgraph: interrupts with typed response schemas! when your agent pauses for a human, you define what a valid response looks like: 1. responses are validated before they're passed back to the agent 2. you can render a real response form in your UI, not just a json entry field human in the loop, but (type) safe docs: docs.langchain.com/oss/pytho… Video",
-      "link": "http://shitter.thepixora.com/sydneyrunkle/status/2105386023752790083#m",
-      "published": "Wed, 30 Sep 2026 19:55:18 GMT",
-      "author_name": "Harrison Chase",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "hwchase17",
-      "text": "I had some folks asking for the source code for this demo! Link in 🧵 if you want to fork/build off of it in any direction. Our documentation for HTTP channels is also fantastic. LangChain (@LangChain) Managed Deep Agents 0.8 ships HTTP channels: agents can take requests from any webhook, not just Slack. @ndrezn built an expense agent that lives in text messages, backed by @PhotonHQ . Text a receipt, get it logged automatically. More on Managed Deep Agents: langchain.com/blog/langsmith… Video — http://shitter.thepixora.com/LangChain/status/2105342049700462829#m",
-      "link": "http://shitter.thepixora.com/ndrezn/status/2105380127265931712#m",
-      "published": "Wed, 30 Sep 2026 19:31:53 GMT",
-      "author_name": "Harrison Chase",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "hwchase17",
-      "text": "great writeup by @pirroh harness doesn't disappear as models get smarter - it shifts from deciding to offering in deepagents you give each subagent its own model, tools, and permissions - the main loop picks which to spawn and when docs: docs.langchain.com/oss/pytho… Link Subagents - Docs by LangChain Learn how to use subagents to delegate work and keep context clean docs.langchain.com Michele Catasta (@pirroh) Article Free the models: harness design at the frontier Model routers are everywhere right now, but they have a fundamental limitation. No matter if based on advanced heuristics or a small model that reads each turn and picks which LLM to use, a router — http://shitter.thepixora.com/pirroh/status/2104976589180252218#m",
-      "link": "http://shitter.thepixora.com/hwchase17/status/2105046322269315362#m",
-      "published": "Tue, 29 Sep 2026 21:25:27 GMT",
-      "author_name": "Harrison Chase",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "hwchase17",
-      "text": "listen is a great company, alfred and florian are awesome founders the problem space listen is tackling is also an amazing use case for AI, very bullish on what they will still build here! Alfred Wahlforss (@itsalfredw) Listen Labs is joining @Salesforce ! A year and a half ago we launched Listen, an AI platform for understanding customers, and it’s been a crazy ride ever since. Today, we work with some of the largest companies in the world, including Microsoft, Anthropic, and Sweetgreen. What started as an AI interviewer is now a full platform for understanding customers. Listen finds the right people, interviews them, analyzes what they say, and even simulates how they'll behave. Listen’s growth quickly accelerated and while we were raising our next round, we met @Benioff . Marc is a hero of mine. I've taken countless ideas from Behind the Cloud and watched him framemog every AI CEO on the planet. We're honored to get framemogged next. With Salesforce, we can bring Listen to every company in the world, much faster. To our customers, our mission remains the same.I stay CEO, @Florian stays CTO and the same team will keep building the product you rely on, now inside Salesforce AI Labs. Thank you for believing in us early. To our team, families, and everyone who believed in us before there was much to believe in, thank you. These years have been the most fun years of my life, and it’s still only just the beginning for Listen. Now back to work. 🚀 — http://shitter.thepixora.com/itsalfredw/status/2105025703490298016#m",
-      "link": "http://shitter.thepixora.com/hwchase17/status/2105046157659717954#m",
-      "published": "Tue, 29 Sep 2026 21:24:48 GMT",
-      "author_name": "Harrison Chase",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "hwchase17",
-      "text": "No Rhys (@RhysSullivan) it's crazy how far out the labs are building at the application layer on the one hand it makes sense, on the other hand do you really want all of your company knowledge, docs, workflows built so locked in to a single model? — http://shitter.thepixora.com/RhysSullivan/status/2104990367615742283#m",
-      "link": "http://shitter.thepixora.com/hwchase17/status/2104999562285035723#m",
-      "published": "Tue, 29 Sep 2026 18:19:39 GMT",
-      "author_name": "Harrison Chase",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "nickadobos",
-      "text": "Proprietary software had a good run.",
-      "link": "http://shitter.thepixora.com/mrdoob/status/2105451062283153509#m",
-      "published": "Thu, 01 Oct 2026 00:13:45 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "nickadobos",
-      "text": "128 player blood gulch Miracles before our eyes Jonas Volman (@bnununana) We did it, the first Halo CE match ever played with more than 16 players happened today at 2:07 CST — http://shitter.thepixora.com/bnununana/status/2105410780128858243#m",
-      "link": "http://shitter.thepixora.com/NickADobos/status/2105432540547096813#m",
-      "published": "Wed, 30 Sep 2026 23:00:09 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "nickadobos",
-      "text": "Gemini 4 Lazy Incredible branding happening Did they forget it’s a language model? Now every system prompt that goes into it will say “you are Gemini lazy edition” They nominative determinism-ed prompted their own model into performing worse 🤦‍♂️🤦‍♂️ Google (@Google) Gemini 4 Argon is our next era of frontier intelligence. It shows significant improvements across benchmarks, setting a new state of the art for real-world long-horizon software engineering tasks. — http://shitter.thepixora.com/Google/status/2105388146665890056#m",
-      "link": "http://shitter.thepixora.com/NickADobos/status/2105430151920304526#m",
-      "published": "Wed, 30 Sep 2026 22:50:39 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "nickadobos",
-      "text": "Portal + cod zombies. I didn’t realize how badly I need a full game like this Video",
-      "link": "http://shitter.thepixora.com/NickADobos/status/2105392868609417219#m",
-      "published": "Wed, 30 Sep 2026 20:22:30 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "nickadobos",
-      "text": "Grok bot just added dot lol",
-      "link": "http://shitter.thepixora.com/NickADobos/status/2105349288780079117#m",
-      "published": "Wed, 30 Sep 2026 17:29:20 GMT",
-      "author_name": "Nick Dobos",
-      "category_hint": "builder",
+      "handle": "GuillaumeLample",
+      "text": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+      "link": "http://shitter.thepixora.com/mertunsal2020/status/2073046288208412960#m",
+      "published": "Fri, 03 Jul 2026 14:08:45 GMT",
+      "author_name": "Guillaume Lample",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
       "handle": "Thom_Wolf",
-      "text": "With close to 200 people on the waitlist we had to do it... we doubled capacity to Open Together! If you haven't registered yet, now is a good time luma.com/OpenTogether Link Open Together: AI Builders Unite · Luma Calling all AI Builders to San Francisco. Let's come together. Show strength in numbers. Celebrate open models. And dance for AI freedom. Friday October 16 is… luma.com Jeff Boudier 🤗 (@jeffboudier) Uh oh Open Together is 90% full and we're still 3 weeks away... 50 spots left before the waitlist, get yours! Should we bring robots? Video — https://nitter.kareem.one/jeffboudier/status/2103581590869955001#m",
-      "link": "https://nitter.kareem.one/jeffboudier/status/2105363549631692946#m",
+      "text": "With close to 200 people on the waitlist we had to do it... we doubled capacity to Open Together! If you haven't registered yet, now is a good time luma.com/OpenTogether Link Open Together: AI Builders Unite · Luma Calling all AI Builders to San Francisco. Let's come together. Show strength in numbers. Celebrate open models. And dance for AI freedom. Friday October 16 is… luma.com Jeff Boudier 🤗 (@jeffboudier) Uh oh Open Together is 90% full and we're still 3 weeks away... 50 spots left before the waitlist, get yours! Should we bring robots? Video — http://shitter.thepixora.com/jeffboudier/status/2103581590869955001#m",
+      "link": "http://shitter.thepixora.com/jeffboudier/status/2105363549631692946#m",
       "published": "Wed, 30 Sep 2026 18:26:00 GMT",
       "author_name": "Thomas Wolf",
       "category_hint": "fr",
@@ -284,7 +284,7 @@
     {
       "handle": "Thom_Wolf",
       "text": "Technical alignment is a science and engineering problem that we can and must solve, and interpretability is the bottleneck. I wrote up Goodfire’s plan to get there. Article We can and must solve alignment In San Francisco, it feels like the eve of the singularity. Yet, a walk through the city looks surprisingly mundane, with driverless cars and rolling fog equal parts of the scenery. The world feels",
-      "link": "https://nitter.kareem.one/eric_ho/status/2105359054763880598#m",
+      "link": "http://shitter.thepixora.com/eric_ho/status/2105359054763880598#m",
       "published": "Wed, 30 Sep 2026 18:08:08 GMT",
       "author_name": "Thomas Wolf",
       "category_hint": "fr",
@@ -293,7 +293,7 @@
     {
       "handle": "Thom_Wolf",
       "text": "The Microduck adventure continues, and the shipping dates are close enough to feel real now. We are proud to tell you that 10,950 Microducks will come off the line between December 10 and January 10! Weekly batches, earliest orders first. Every date is in here.",
-      "link": "https://nitter.kareem.one/pollenrobotics/status/2105340191321776625#m",
+      "link": "http://shitter.thepixora.com/pollenrobotics/status/2105340191321776625#m",
       "published": "Wed, 30 Sep 2026 16:53:11 GMT",
       "author_name": "Thomas Wolf",
       "category_hint": "fr",
@@ -301,8 +301,8 @@
     },
     {
       "handle": "Thom_Wolf",
-      "text": "ESM-2 came out in 2022. It's still downloaded hundreds of thousands of times a month. That only works because someone keeps maintaining the software underneath it. @huggingface 🤝 @os4science are teaming up to find those libraries and back the people behind them 🧬 os4science.org/news/hugging-… Open Source for Science Fund (@os4science) We're joining forces with @huggingface to identify the software libraries that scientific model contributors rely on most and explore opportunities to support the maintainers behind them. os4science.org/news/hugging-… Link Hugging Face 🤝 Open Source for Science Fund The Open Source for Science Fund and Hugging Face are joining forces to support the software stack behind open source scientific AI models. os4science.org — https://nitter.kareem.one/os4science/status/2105334868070879311#m",
-      "link": "https://nitter.kareem.one/Thom_Wolf/status/2105341455245996398#m",
+      "text": "ESM-2 came out in 2022. It's still downloaded hundreds of thousands of times a month. That only works because someone keeps maintaining the software underneath it. @huggingface 🤝 @os4science are teaming up to find those libraries and back the people behind them 🧬 os4science.org/news/hugging-… Open Source for Science Fund (@os4science) We're joining forces with @huggingface to identify the software libraries that scientific model contributors rely on most and explore opportunities to support the maintainers behind them. os4science.org/news/hugging-… Link Hugging Face 🤝 Open Source for Science Fund The Open Source for Science Fund and Hugging Face are joining forces to support the software stack behind open source scientific AI models. os4science.org — http://shitter.thepixora.com/os4science/status/2105334868070879311#m",
+      "link": "http://shitter.thepixora.com/Thom_Wolf/status/2105341455245996398#m",
       "published": "Wed, 30 Sep 2026 16:58:12 GMT",
       "author_name": "Thomas Wolf",
       "category_hint": "fr",
@@ -311,159 +311,207 @@
     {
       "handle": "Thom_Wolf",
       "text": "ITS HAPPENING! Video",
-      "link": "https://nitter.kareem.one/andimarafioti/status/2104906466503065602#m",
+      "link": "http://shitter.thepixora.com/andimarafioti/status/2104906466503065602#m",
       "published": "Tue, 29 Sep 2026 12:09:43 GMT",
       "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "my new friend found a new friend",
+      "link": "http://shitter.thepixora.com/julien_c/status/2105624659383218215#m",
+      "published": "Thu, 01 Oct 2026 11:43:34 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Slick \"release\" of the USG - they even open-sourced and released the Rampart model used to filter out PII data on HF! 🤗🇺🇸 huggingface.co/nationaldesig… Link nationaldesignstudio/rampart · Hugging Face We’re on a journey to advance and democratize artificial intelligence through open source and open science. huggingface.co USA First Lab (@usafirstlab) Here is how that works in practice. Before anything you type into America.gov leaves your phone, a filter called Rampart reads it on your device. Rules catch Social Security numbers, card numbers, bank account and routing numbers, phone numbers, emails and government IDs. Those details get swapped out in your browser in about 4 milliseconds. The server only ever sees the blanks. None of that information ever even leaves your device Rampart, Open source, built by @ndstudio @taigrr @as400495 @ahmadaccino @caelin_sutch @adambhaloo @tylertaewook @dietguacc @jgebbia Link America.gov Find answers from official government sources and clear next steps for the services you need with America.gov. america.gov — http://shitter.thepixora.com/usafirstlab/status/2104953266819788805#m",
+      "link": "http://shitter.thepixora.com/pierrci/status/2105014951274271225#m",
+      "published": "Tue, 29 Sep 2026 19:20:48 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Really great little DGX Spark guide from @0xSero read it on HF huggingface.co/blog/exolabs/…",
+      "link": "http://shitter.thepixora.com/julien_c/status/2105008672527249665#m",
+      "published": "Tue, 29 Sep 2026 18:55:51 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "My new hobby is using Astra to generate The Sims, but with my colleagues",
+      "link": "http://shitter.thepixora.com/julien_c/status/2104957045799858217#m",
+      "published": "Tue, 29 Sep 2026 15:30:42 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "at least he's not MTS at Anthropic Mark Zuckerberg (@finkd) To lead this effort, I'm excited that Chirantan \"CJ\" Desai will join Meta as Chief Enterprise Platform Officer, reporting directly to me. CJ is an experienced enterprise leader with a track record of building full-stack software and delivering results in AI, infrastructure, business applications, and security. He has an extensive industry network that we look forward to partnering with. CJ joins us from MongoDB, where he was CEO and President. Before that he led product and engineering at Cloudflare and spent nearly eight years at ServiceNow, including as President and COO. — http://shitter.thepixora.com/finkd/status/2104550613149163600#m",
+      "link": "http://shitter.thepixora.com/julien_c/status/2104611882896408918#m",
+      "published": "Mon, 28 Sep 2026 16:39:09 GMT",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
     "karpathy",
+    "sama",
     "DarioAmodei",
     "gdb",
     "sundarpichai",
     "elonmusk",
     "AravSrinivas",
     "miramurati",
-    "ylecun",
-    "demishassabis",
     "fchollet",
     "AndrewYNg",
     "rasbt",
     "bcherny",
     "karinanguyen_",
-    "polynoamial",
     "markchen90",
-    "aidan_mclau",
+    "officiallogank",
     "osanseviero",
+    "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
     "xai",
     "simonw",
     "swyx",
+    "hwchase17",
     "jeremyphoward",
     "levelsio",
     "mckaywrigley",
     "amasad",
+    "nickadobos",
     "emollick",
     "ArthurMensch",
-    "GuillaumeLample",
-    "julien_c",
     "ClemDelangue",
     "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Cette journée dans le monde de l'IA est marquée par des annonces de lancements majeurs de nouveaux modèles et fonctionnalités, notamment de la part d'OpenAI et de Google, qui rendent l'IA plus rapide et plus accessible. Parallèlement, on observe des réflexions importantes sur la manière de construire des systèmes d'IA complexes et sur les défis éthiques liés à leur alignement et à leur interprétabilité. Des discussions pertinentes sur la stratégie d'adoption de l'IA sont aussi au rendez-vous, offrant aux débutants une vision équilibrée entre innovations et réflexions pratiques.",
+    "summary": "Cette journée a été riche en annonces de nouveaux modèles d'IA, avec Google DeepMind qui dévoile son Gemini 4 Argon, très performant notamment pour l'optimisation interne et avec un faible taux d'hallucination, et OpenAI qui continue de réduire les prix de ses modèles GPT-6 Sol et Luna. Les débats philosophiques autour de l'intelligence artificielle et de sa 'sécurité' continuent d'agiter la communauté, tandis que l'écosystème francophone de l'IA se renforce avec l'arrivée de nouvelles équipes chez Mistral AI.",
     "glossaire": [
       {
-        "terme": "Modèle d'IA",
-        "definition": "Un programme informatique entraîné sur de grandes quantités de données pour accomplir des tâches spécifiques, comme générer du texte, des images ou comprendre la parole."
+        "terme": "Agents IA",
+        "definition": "Des programmes d'intelligence artificielle conçus pour opérer de manière autonome, prendre des décisions et exécuter des tâches complexes sans intervention humaine constante."
       },
       {
-        "terme": "Agent IA",
-        "definition": "Un programme intelligent capable d'agir de manière autonome pour atteindre un objectif, souvent en utilisant des outils et en interagissant avec son environnement."
+        "terme": "Hallucination (IA)",
+        "definition": "Phénomène où un modèle d'IA génère des informations fausses, inventées ou non basées sur les données qu'il a traitées, mais présentées de manière convaincante."
       },
       {
-        "terme": "Open Source",
-        "definition": "Un logiciel dont le code source est public et peut être librement utilisé, modifié et partagé par tous."
+        "terme": "Modèles à poids ouverts (Open Weights)",
+        "definition": "Désigne les modèles d'IA dont les paramètres internes ('poids') sont librement accessibles et modifiables par la communauté, favorisant la transparence et la recherche."
       },
       {
         "terme": "Alignement de l'IA",
-        "definition": "Le défi de s'assurer que les intelligences artificielles agissent de manière sûre, éthique et conforme aux intentions humaines."
+        "definition": "Le défi technique et éthique de s'assurer que les systèmes d'IA agissent de manière cohérente avec les intentions humaines, les valeurs et les objectifs, sans causer de dommages inattendus."
       },
       {
-        "terme": "Interprétabilité de l'IA",
-        "definition": "La capacité à comprendre comment un modèle d'IA prend ses décisions ou arrive à ses résultats."
+        "terme": "Multimodalité",
+        "definition": "La capacité d'une intelligence artificielle à traiter et à comprendre simultanément différents types de données, comme le texte, les images, le son ou la vidéo."
       },
       {
-        "terme": "TTS (Text-to-Speech)",
-        "definition": "Une technologie qui permet de convertir du texte écrit en parole synthétisée."
-      },
-      {
-        "terme": "Prompt",
-        "definition": "L'instruction ou la question donnée à un modèle d'IA pour obtenir une réponse ou une action."
+        "terme": "Jetons (Tokens)",
+        "definition": "Les unités de base (mots, parties de mots, symboles) en lesquelles un texte est décomposé par un modèle de langage pour son traitement et sa compréhension."
       }
     ],
     "category_summaries": {
-      "actu": "La journée est riche en annonces officielles. OpenAI dévoile des refontes majeures de ChatGPT Web, l'arrivée de nouveaux assistants proactifs appelés « Dots », et des modèles performants comme « 6.1 Sol ». Google, de son côté, annonce son modèle « Gemini 4 Argon » et des avancées dans ses modèles audio. Anthropic poursuit ses recherches en interrogeant le public sur ses attentes en IA et en démontrant les capacités de Claude pour résoudre des problèmes scientifiques complexes et soutenir la santé publique.",
-      "tips": "Aujourd'hui, des conseils pratiques émergent pour mieux utiliser et structurer les systèmes d'IA. Il est recommandé d'organiser les IA complexes en \"sous-agents\" spécialisés pour une gestion plus efficace des tâches. Une mise en garde est lancée contre la dépendance excessive à un unique modèle d'IA. Enfin, des exemples concrets, comme la génération de vidéos par l'IA, montrent comment ces outils peuvent être exploités de manière créative.",
-      "idees": "Les discussions du jour sont axées sur les perspectives futures de l'IA, avec des prédictions concernant l'émergence d'agents autonomes capables de générer des revenus d'ici 2027. Des critiques sont formulées sur le choix des noms de modèles d'IA et leur impact potentiel sur la perception et la performance. Le défi de l'alignement technique de l'IA, c'est-à-dire s'assurer qu'elle agisse comme nous le voulons, est identifié comme un problème majeur, avec l'interprétabilité (la capacité à comprendre comment l'IA pense) comme principal obstacle.",
-      "outils": "Plusieurs nouveaux modèles et fonctionnalités sont désormais disponibles pour les développeurs et utilisateurs. Parmi eux, les « Dots » d'OpenAI, des assistants proactifs, ainsi que le modèle « 6.1 Sol » offrant un excellent rapport performance/prix. Google propose son nouveau modèle « Gemini 4 Argon » et des améliorations pour ses technologies de synthèse vocale (TTS). Enfin, de nouvelles capacités comme les \"interruptions avec schémas de réponse typés\" dans LangGraph facilitent l'interaction structurée entre les agents IA et les humains."
+      "actu": "Cette catégorie a été dominée par de grandes annonces, notamment le lancement détaillé de Gemini 4 Argon par Google DeepMind avec ses performances impressionnantes en benchmarks. On a aussi vu des nouvelles sur l'emploi, les financements (Mistral AI), des mises à jour sur la sécurité des véhicules autonomes (Waymo), ainsi que des baisses de prix significatives pour les modèles GPT-6 d'OpenAI, rendant l'IA plus accessible.",
+      "tips": "Malgré un nombre limité de publications, cette catégorie a offert des aperçus pratiques. Un guide sur l'utilisation de DGX Spark a été mis en avant, et une utilisation créative de l'IA Astra pour générer des simulations de personnages a montré le potentiel ludique et personnalisable des IA actuelles, donnant des idées d'expérimentation aux débutants.",
+      "idees": "Le débat autour de l'IA a été très présent, avec Yann LeCun interrogeant la perception de l'intelligence et la 'sécurité' de l'IA, qu'il voit comme un faux débat face à la volonté de contrôler l'intelligence. D'autres discussions ont porté sur l'importance des modèles à poids ouverts pour la sécurité, l'évolution des défis d'alignement de l'IA, et la manière d'évaluer la 'valeur' d'une IA en fonction de son coût et de ses capacités.",
+      "outils": "De nombreux nouveaux modèles et avancées techniques ont été partagés. Google DeepMind a détaillé comment ses agents Gemini 4 Argon optimisent l'infrastructure en interne, tandis que Mistral AI a présenté plusieurs nouveaux modèles spécialisés : Shieldstral pour la sécurité des contenus, Robostral Navigate pour la navigation robotique, et Leanstral pour la résolution de problèmes mathématiques avancés. OpenAI a aussi mis en avant l'efficacité et la performance de son GPT-6.1 Sol et de nouveaux agents comme 'dots' capables de tâches complexes, comme la gestion du service client."
     },
     "highlights": [
       {
-        "author_name": "Sam Altman",
-        "handle": "@sama",
-        "text_fr": "Les \"Dots\" sont là ! Une nouvelle façon d'utiliser l'IA qui travaille pour vous 24h/24 et 7j/7 ; récupérez plus de votre temps et de votre attention pour travailler à un niveau supérieur. openai.com/index/introducing… Lien Présentation des Dots. Les Dots par OpenAI sont des assistants proactifs qui peuvent continuer à travailler sur des projets complexes et des tâches quotidiennes. Découvrez comment les Dots vous aident à garder le contrôle pendant que le travail avance. openai.com",
-        "text_original": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher level. openai.com/index/introducing… Link Introducing dots Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward. openai.com",
-        "link": "http://shitter.thepixora.com/sama/status/2104995014208258235#m",
-        "decryptage": "Les \"Dots\" sont de nouveaux assistants IA d'OpenAI, capables de travailler de manière autonome sur des tâches et projets complexes pour vous faire gagner du temps.",
+        "author_name": "Yann LeCun",
+        "handle": "@ylecun",
+        "text_fr": "Question pour tout le monde : Êtes-vous pro-intelligence ou anti-intelligence ? Pensez-vous que plus d'intelligence dans le monde est intrinsèquement bon ? Ou pensez-vous que plus d'intelligence est intrinsèquement dangereux ? L'IA amplifie l'intelligence humaine. Elle rend les GENS plus intelligents et plus efficaces. C'est comme les moteurs de recherche, les bibliothèques, l'éducation, l'alphabétisation, le langage : cela rend les GENS plus intelligents et plus autonomes. Si vous voulez que l'intelligence (artificielle ou naturelle) soit sous le contrôle de quelques entreprises ou gouvernements, vous êtes un néo-obscurantiste ou un néo-féodaliste.",
+        "text_original": "Question for everyone : Are you pro-intelligence or anti-intelligence ? Do you think more intelligence in the world is intrinsically good ? Or do you think more intelligence is intrinsically dangerous ? AI amplifies human intelligence. It makes PEOPLE smarter and more effective. It's like search engines, libraries, education, literacy, language: it makes PEOPLE smarter and more empowered. If you want intelligence (artificial or natural) to be under control of a few companies or governments, you are a neo-obscurantist or a neo-feudalist.",
+        "link": "https://nitter.kareem.one/ylecun/status/2105654072481112403#m",
+        "decryptage": null,
+        "category": "idees",
+        "highlight_reason": "Ce tweet lance un débat fondamental sur la nature et le contrôle de l'intelligence, crucial pour comprendre les enjeux éthiques et politiques de l'IA."
+      },
+      {
+        "author_name": "Demis Hassabis",
+        "handle": "@demishassabis",
+        "text_fr": "Gemini 4 Argon (High) par @GoogleDeepMind vient d'atteindre la 1ère place du Text Arena avec 1525 pts, et la 8ème place du Code Arena: WebDev avec 1679 pts ! Cette version a redéfini la frontière de Pareto du Text Arena avec un coût mixte de 8$/MToken ! Gemini 4 Argon (High) est désormais le modèle le plus rentable, voir son placement sur la frontière de Pareto ci-dessous. Dans le Text Arena, Gemini 4 Argon (High) se classe 1er en Codage, Prompts Difficiles, Suivi d'Instructions, Requêtes Plus Longues, et Écriture Créative. Il domine également tous les domaines professionnels évalués, avec des 1ères places supplémentaires en Anglais, Non-Anglais, Chinois et Russe. Ce modèle est à +20 points au-dessus du Claude Opus 4.6 (High) classé 2ème, et un énorme bond par rapport à la version précédente de Google, Gemini 3.8 Flash (High) à la 11ème place ! Dans le Code Arena: WebDev, Gemini 4 Argon (High) a gagné +96 points par rapport à Gemini 3.8 Flash (High), passant de la 29ème à la 8ème place. Félicitations à l'équipe @GoogleDeepMind pour cette impressionnante sortie de modèle de pointe ! Google DeepMind (@GoogleDeepMind) Présentation de Gemini 4 Argon – notre nouveau modèle de pointe. Il est conçu pour les flux de travail complexes en codage, le travail de connaissance en entreprise et la défense en cybersécurité – il est déployé aujourd'hui auprès d'un ensemble de testeurs de confiance via notre programme Fairwind.",
+        "text_original": "Big news: Gemini 4 Argon (High) by @GoogleDeepMind just landed #1 in Text Arena with 1525 pts, and #8 in Code Arena: WebDev with 1679 pts! This release has reshaped the Text Arena Pareto frontier with a blended $8/MToken! Gemini 4 Argon (High) is now the most cost efficient model, see its placement on Pareto frontier below. In the Text Arena, Gemini 4 Argon (High) ranks #1 in Coding, Hard Prompts, Instruction Following, Longer Query, and Creative Writing. It also leads every occupational domain evaluated, with additional #1 spots in English, Non-English, Chinese, and Russian. This model is +20 points above the #2 ranked Claude Opus 4.6 (High), and a huge leap from Google’s previous release, Gemini 3.8 Flash (High) at #11! In Code Arena: WebDev, Gemini 4 Argon (High) gained +96 points from Gemini 3.8 Flash (High), and went from #29 to #8. Congrats to the @GoogleDeepMind team on this impressive frontier release! Google DeepMind (@GoogleDeepMind) Introducing Gemini 4 Argon – our new frontier model. It’s built for complex workflows across coding, enterprise knowledge work, and cybersecurity defense – rolling out today to a set of trusted testers through our Fairwind Program. — http://shitter.thepixora.com/GoogleDeepMind/status/2105388084154056939#m",
+        "link": "http://shitter.thepixora.com/arena/status/2105394855644139908#m",
+        "decryptage": "Ce tweet met en lumière l'arrivée d'un modèle d'IA très puissant, Gemini 4 Argon, qui excelle dans des tests de référence ('benchmarks' comme Text Arena et Code Arena) pour le texte et le code, démontrant une grande efficacité et un bon rapport qualité-prix ('frontière de Pareto').",
+        "category": "actu",
+        "highlight_reason": "Il s'agit d'une annonce majeure de Google DeepMind, montrant les progrès concrets d'un nouveau modèle d'IA de pointe et ses performances impressionnantes sur des benchmarks."
+      },
+      {
+        "author_name": "Noam Brown",
+        "handle": "@polynoamial",
+        "text_fr": "J'ai testé 'dots' ce week-end et il a trouvé comment me faire économiser environ 500 $/an sur mes frais récurrents. Le plus impressionnant, c'est quand il s'est connecté au service client et a géré une conversation par SMS en mon nom. OpenAI (@OpenAI) Présente 'dots', propulsé par GPT-6 Astra. Des agents remarquablement capables, toujours actifs, conçus pour tout gérer.",
+        "text_original": "Was testing out dots over the weekend and it figured out how to save me ~$500/yr in recurring charges. Most impressive part was when it connected to customer service and handled a whole texting convo on my behalf. OpenAI (@OpenAI) Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything. — http://shitter.thepixora.com/OpenAI/status/2104984504133918973#m",
+        "link": "http://shitter.thepixora.com/polynoamial/status/2104990938145890462#m",
+        "decryptage": "Les 'agents' IA comme 'dots' sont des programmes capables d'interagir de manière autonome pour accomplir des tâches complexes, ici négocier avec un service client, ce qui est une avancée vers des assistants personnels très autonomes.",
         "category": "outils",
-        "highlight_reason": "Cette annonce présente une nouvelle génération d'assistants IA autonomes, les « Dots », qui travaillent activement pour l'utilisateur, illustrant une évolution majeure dans l'IA personnelle et professionnelle."
+        "highlight_reason": "Ce tweet offre un exemple concret et fascinant de l'utilité des nouveaux agents IA pour la vie quotidienne, comme économiser de l'argent et gérer des interactions clients."
       },
       {
-        "author_name": "Sam Altman",
-        "handle": "@sama",
-        "text_fr": "6.1 Sol pour un cinquième du prix d'Astra, et 95% de réduction sur la lecture du cache ! Un modèle extrêmement performant. Tibo (@thsottiaux) Présentation de 6.1 Sol, une intelligence presque équivalente à Astra pour un cinquième de son prix et 95% de réduction sur la lecture du cache. C'est une véritable bête de somme. Combiné à « ultrafast » pour une vitesse 8 fois supérieure, disponible dès aujourd'hui pour Astra et bientôt pour 6.1 Sol. — http://shitter.thepixora.com/thsottiaux/status/2104986027953930613#m",
-        "text_original": "6.1 Sol at 1/5th of the price of Astra, and 95% cache read discount! Extremely capable model. Tibo (@thsottiaux) Introducing 6.1 Sol, near Astra intelligence at one fifth of the price of Astra and 95% cache read discount. It is an absolute workhorse. Combined with ultrafast for 8X speeded available today for Astra and coming soon for 6.1 Sol. — http://shitter.thepixora.com/thsottiaux/status/2104986027953930613#m",
-        "link": "http://shitter.thepixora.com/sama/status/2104994395980533804#m",
-        "decryptage": "\"6.1 Sol\" est un nouveau modèle d'IA très puissant, presque aussi bon que le modèle haut de gamme \"Astra\", mais beaucoup plus abordable. \"Ultrafast\" est une technologie qui rend ces modèles encore plus rapides.",
-        "category": "outils",
-        "highlight_reason": "Ce tweet met en lumière l'arrivée de modèles d'IA très performants, comme « 6.1 Sol », qui deviennent plus accessibles et abordables, démocratisant ainsi l'accès à l'intelligence de pointe."
-      },
-      {
-        "author_name": "Harrison Chase",
-        "handle": "@hwchase17",
-        "text_fr": "Excellent article de @pirroh : le \"harnais\" (méthode de contrôle) ne disparaît pas à mesure que les modèles deviennent plus intelligents - il passe de la décision à l'offre. Dans les \"deepagents\", vous donnez à chaque sous-agent son propre modèle, ses outils et ses permissions - la boucle principale choisit lequel lancer et quand. docs: docs.langchain.com/oss/pytho… Lien Sous-agents - Docs par LangChain Apprenez à utiliser les sous-agents pour déléguer le travail et garder un contexte propre docs.langchain.com Michele Catasta (@pirroh) Article Libérez les modèles : la conception du harnais à la frontière Les routeurs de modèles sont partout en ce moment, mais ils ont une limitation fondamentale. Qu'ils soient basés sur des heuristiques avancées ou sur un petit modèle qui lit chaque tour et choisit quel LLM utiliser, un routeur — http://shitter.thepixora.com/pirroh/status/2104976589180252218#m",
-        "text_original": "great writeup by @pirroh harness doesn't disappear as models get smarter - it shifts from deciding to offering in deepagents you give each subagent its own model, tools, and permissions - the main loop picks which to spawn and when docs: docs.langchain.com/oss/pytho… Link Subagents - Docs by LangChain Learn how to use subagents to delegate work and keep context clean docs.langchain.com Michele Catasta (@pirroh) Article Free the models: harness design at the frontier Model routers are everywhere right now, but they have a fundamental limitation. No matter if based on advanced heuristics or a small model that reads each turn and picks which LLM to use, a router — http://shitter.thepixora.com/pirroh/status/2104976589180252218#m",
-        "link": "http://shitter.thepixora.com/hwchase17/status/2105046322269315362#m",
-        "decryptage": "Ce conseil suggère qu'au lieu d'avoir une seule IA très puissante (un \"modèle\" ou \"LLM\") qui décide de tout, il est plus efficace de créer des \"sous-agents\" spécialisés, chacun avec ses propres capacités, et une \"boucle principale\" (un système de coordination) qui décide quel sous-agent doit agir à quel moment. C'est une manière d'organiser des IA complexes.",
-        "category": "tips",
-        "highlight_reason": "Ce tweet propose une approche fondamentale pour concevoir des systèmes d'IA complexes en utilisant des sous-agents spécialisés, un conseil précieux pour quiconque souhaite construire avec l'IA de manière organisée."
-      },
-      {
-        "author_name": "Harrison Chase",
-        "handle": "@hwchase17",
-        "text_fr": "Non Rhys (@RhysSullivan), c'est fou à quel point les laboratoires construisent des choses à la couche application. D'un côté, ça a du sens, de l'autre, voulez-vous vraiment que toutes les connaissances, documents et flux de travail de votre entreprise soient tellement enfermés dans un seul modèle ? — http://shitter.thepixora.com/RhysSullivan/status/2104990367615742283#m",
-        "text_original": "No Rhys (@RhysSullivan) it's crazy how far out the labs are building at the application layer on the one hand it makes sense, on the other hand do you really want all of your company knowledge, docs, workflows built so locked in to a single model? — http://shitter.thepixora.com/RhysSullivan/status/2104990367615742283#m",
-        "link": "http://shitter.thepixora.com/hwchase17/status/2104999562285035723#m",
-        "decryptage": "« Être enfermé dans un seul modèle » signifie dépendre entièrement d'une seule intelligence artificielle ou d'un seul fournisseur. C'est un risque car cela peut rendre une entreprise vulnérable si ce modèle change, devient indisponible ou est dépassé.",
-        "category": "tips",
-        "highlight_reason": "Ce tweet souligne un risque stratégique majeur pour l'adoption de l'IA en entreprise : la dépendance excessive à un seul modèle, offrant une leçon de prudence cruciale pour une intégration saine de l'IA."
+        "author_name": "Guillaume Lample",
+        "handle": "@GuillaumeLample",
+        "text_fr": "Heureux de partager que j'ai rejoint @MistralAI, où je vais bâtir une équipe à Montréal et à travers le Canada pour repousser les limites des LLM sûrs, performants et ouverts. Mistral a joué, et continuera de jouer, un rôle important pour maintenir l'IA de pointe ouverte et la faire progresser en toute sécurité. Je crois profondément en la mission de Mistral, et depuis que j'ai rejoint l'équipe, cette conviction n'a fait que grandir après avoir constaté par moi-même l'ambition et l'engagement des personnes ici. Une grande partie de mon rôle consistera également à établir des ponts solides entre Mistral et @McGillU, @Mila_Quebec, et l'écosystème plus large de l'IA à Montréal et au Canada. Et nous recrutons ! À tous les niveaux et sur l'ensemble de la pile LLM. Si vous êtes passionné par le fait de repousser les frontières, contactez-nous.",
+        "text_original": "Excited to share that I have joined @MistralAI , where I will be building a team in Montreal and across Canada to push the frontier of safe, capable, and open LLMs. Mistral has played, and will continue to play, an important role in keeping frontier AI open and advancing it safely. I deeply believe in Mistral's mission, and since joining, that conviction has only grown after seeing firsthand the ambition and commitment of the people here. A big part of my role will also be building strong bridges between Mistral and @McGillU , @Mila_Quebec , and the broader Montreal and Canadian AI ecosystem. And we are hiring! Across levels and across the LLM stack. If you are excited about pushing the frontier, reach out.",
+        "link": "http://shitter.thepixora.com/sivareddyg/status/2105644367138431279#m",
+        "decryptage": "Ce tweet annonce l'expansion de Mistral AI, une entreprise française majeure dans l'IA, au Canada, avec la création d'équipes axées sur les grands modèles de langage (LLM) ouverts et sûrs, renforçant l'écosystème francophone de la recherche en IA.",
+        "category": "actu",
+        "highlight_reason": "Cette annonce est significative pour l'écosystème de l'IA francophone, montrant l'expansion de Mistral AI et la collaboration avec des institutions académiques."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Sam Altman",
-          "handle": "@sama",
-          "text_fr": "Au cours des 5 dernières semaines, l'équipe a complètement réécrit ChatGPT Web en se basant sur le code de l'application de bureau. Cela n'a été possible qu'avec Astra, et c'est pourquoi \"Dots\", \"Space\", \"Codex Cloud\" et bien d'autres de nos lancements arriveront sur le web et le bureau le même jour. L'ère du mégaprojet commence.",
-          "text_original": "Over the past 5 weeks, the team completely rewrote ChatGPT Web on top of the desktop app codebase. This was only possible with Astra, and it’s why Dots, Space, Codex Cloud, and so many more of our launches will come to web and desktop same day. Era of the megaproject begins.",
-          "link": "http://shitter.thepixora.com/ajambrosino/status/2104993363170861501#m",
-          "decryptage": "Astra est une nouvelle base technique puissante chez OpenAI qui permet de développer des applications plus rapidement et de les lancer sur plusieurs plateformes (web, mobile) en même temps. Les \"mégaprojets\" sont des développements majeurs."
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Ravi de parler de nos récents progrès sur les JEPA et sur la nécessité de solutions plus structurées qui gèrent le déséquilibre des données, le bruit, la multimodalité, le raisonnement, etc. ! Cela se passe au MICCAI-FOMO26 dans 5 minutes ! Et merci de m'avoir invité comme conférencier principal aujourd'hui !",
+          "text_original": "Delighted to be speaking about our recent progress on JEPAs and on the need for more principled solutions that handle data imbalance, noise, multimodality, reasoning, ...! Happening at MICCAI-FOMO26 in 5min! And thank you for having me as keynote today!",
+          "link": "https://nitter.kareem.one/randall_balestr/status/2105622350456627466#m",
+          "decryptage": "Les JEPA sont un type de modèle d'IA développé par Yann LeCun, qui cherche à apprendre de manière plus efficace en anticipant des parties de données manquantes, tandis que la multimodalité fait référence à la capacité d'une IA à traiter différents types d'informations, comme le texte, les images et le son."
         },
         {
-          "author_name": "Sam Altman",
-          "handle": "@sama",
-          "text_fr": "L'« Ultrafast » est tellement rapide que je ne veux plus revenir en arrière.",
-          "text_original": "Ultrafast is so fast I do not ever want to go back",
-          "link": "http://shitter.thepixora.com/sama/status/2104994601140711896#m",
-          "decryptage": "\"Ultrafast\" est une nouvelle fonctionnalité ou technologie qui rend les modèles d'IA beaucoup plus rapides, à tel point que l'expérience d'utilisation en est transformée."
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Très heureux d'annoncer Gemini 4 Argon, notre nouveau modèle d'IA de pointe, et un énorme pas en avant pour les capacités clés. Nous nous concentrons sur un déploiement responsable, en commençant par le gouvernement et les cyberdéfenseurs de confiance via notre programme Fairwind aujourd'hui, avant une disponibilité plus large bientôt.",
+          "text_original": "Very excited to announce Gemini 4 Argon, our new Frontier AI model, and a huge step forward across key capabilities. We’re focused on rolling it out responsibly starting with government and trusted cyber defenders through our Fairwind Program today, before wider availability soon",
+          "link": "http://shitter.thepixora.com/demishassabis/status/2105417239432200636#m",
+          "decryptage": "Ce tweet annonce officiellement le lancement de Gemini 4 Argon, un nouveau modèle d'IA très avancé, qui sera d'abord disponible pour des testeurs spécifiques avant une diffusion plus large."
         },
         {
-          "author_name": "Sam Altman",
-          "handle": "@sama",
-          "text_fr": "Livestream du DevDay dans 2 heures. Nous avons créé de super choses pour vous !",
-          "text_original": "DevDay livestream in 2 hours. We built some great stuff for you!",
-          "link": "http://shitter.thepixora.com/sama/status/2104950376466362578#m",
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Gemini 4 Argon (High) par @GoogleDeepMind vient d'atteindre la 1ère place du Text Arena avec 1525 pts, et la 8ème place du Code Arena: WebDev avec 1679 pts ! Cette version a redéfini la frontière de Pareto du Text Arena avec un coût mixte de 8$/MToken ! Gemini 4 Argon (High) est désormais le modèle le plus rentable, voir son placement sur la frontière de Pareto ci-dessous. Dans le Text Arena, Gemini 4 Argon (High) se classe 1er en Codage, Prompts Difficiles, Suivi d'Instructions, Requêtes Plus Longues, et Écriture Créative. Il domine également tous les domaines professionnels évalués, avec des 1ères places supplémentaires en Anglais, Non-Anglais, Chinois et Russe. Ce modèle est à +20 points au-dessus du Claude Opus 4.6 (High) classé 2ème, et un énorme bond par rapport à la version précédente de Google, Gemini 3.8 Flash (High) à la 11ème place ! Dans le Code Arena: WebDev, Gemini 4 Argon (High) a gagné +96 points par rapport à Gemini 3.8 Flash (High), passant de la 29ème à la 8ème place. Félicitations à l'équipe @GoogleDeepMind pour cette impressionnante sortie de modèle de pointe ! Google DeepMind (@GoogleDeepMind) Présentation de Gemini 4 Argon – notre nouveau modèle de pointe. Il est conçu pour les flux de travail complexes en codage, le travail de connaissance en entreprise et la défense en cybersécurité – il est déployé aujourd'hui auprès d'un ensemble de testeurs de confiance via notre programme Fairwind.",
+          "text_original": "Big news: Gemini 4 Argon (High) by @GoogleDeepMind just landed #1 in Text Arena with 1525 pts, and #8 in Code Arena: WebDev with 1679 pts! This release has reshaped the Text Arena Pareto frontier with a blended $8/MToken! Gemini 4 Argon (High) is now the most cost efficient model, see its placement on Pareto frontier below. In the Text Arena, Gemini 4 Argon (High) ranks #1 in Coding, Hard Prompts, Instruction Following, Longer Query, and Creative Writing. It also leads every occupational domain evaluated, with additional #1 spots in English, Non-English, Chinese, and Russian. This model is +20 points above the #2 ranked Claude Opus 4.6 (High), and a huge leap from Google’s previous release, Gemini 3.8 Flash (High) at #11! In Code Arena: WebDev, Gemini 4 Argon (High) gained +96 points from Gemini 3.8 Flash (High), and went from #29 to #8. Congrats to the @GoogleDeepMind team on this impressive frontier release! Google DeepMind (@GoogleDeepMind) Introducing Gemini 4 Argon – our new frontier model. It’s built for complex workflows across coding, enterprise knowledge work, and cybersecurity defense – rolling out today to a set of trusted testers through our Fairwind Program. — http://shitter.thepixora.com/GoogleDeepMind/status/2105388084154056939#m",
+          "link": "http://shitter.thepixora.com/arena/status/2105394855644139908#m",
+          "decryptage": "Ce tweet met en lumière l'arrivée d'un modèle d'IA très puissant, Gemini 4 Argon, qui excelle dans des tests de référence ('benchmarks' comme Text Arena et Code Arena) pour le texte et le code, démontrant une grande efficacité et un bon rapport qualité-prix ('frontière de Pareto')."
+        },
+        {
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Fier d'avoir collaboré avec de nombreux autres sur pas mal de ces choses ! Deedy (@deedydas) claude vient de générer cette vidéo de 2 minutes sur l'histoire de Google et c'est sacrément bien fait.",
+          "text_original": "Proud to have collaborated with many others on quite a few of these things! Deedy (@deedydas) claude just generated this 2 minute video about the history of Google and it goes so goddamn hard Video — http://shitter.thepixora.com/deedydas/status/2103965547780345859#m",
+          "link": "http://shitter.thepixora.com/JeffDean/status/2103989340485624158#m",
           "decryptage": null
         },
         {
           "author_name": "Jeff Dean",
           "handle": "@JeffDean",
-          "text_fr": "Nous sommes ravis d'annoncer un nouveau poste de professeur en IA pour la Biologie à UC Berkeley, conjointement entre @Berkeley_EECS et @CCBBerkeley . Merci de repartager cette opportunité avec les chercheurs exceptionnels en début de carrière dans vos réseaux. Postulez avant le 9 novembre 2026 : aprecruit.berkeley.edu/JPF05… Lien Professeur Assistant - IA pour la Biologie - Ingénierie Électrique & Sciences Informatiques et Centre pour... L'Université de Californie, Berkeley recrute. Postulez maintenant ! aprecruit.berkeley.edu",
+          "text_fr": "Nous sommes ravis d'annoncer un nouveau poste de professeur en IA pour la biologie à l'UC Berkeley, conjointement entre @Berkeley_EECS et @CCBBerkeley. Veuillez reposter et partager cette opportunité avec des chercheurs en début de carrière exceptionnels dans vos réseaux. Postulez avant le 9 novembre 2026 : aprecruit.berkeley.edu/JPF05… Lien Assistant Professor - AI for Biology - Electrical Engineering & Computer Sciences and Center for... L'Université de Californie, Berkeley recrute. Postulez dès maintenant ! aprecruit.berkeley.edu",
           "text_original": "We are excited to announce a new faculty position in AI for Biology at UC Berkeley, jointly between @Berkeley_EECS and @CCBBerkeley . Please repost & share this opportunity with outstanding early-career researchers in your networks. Apply by Nov 9, 2026: aprecruit.berkeley.edu/JPF05… Link Assistant Professor - AI for Biology - Electrical Engineering & Computer Sciences and Center for... University of California, Berkeley is hiring. Apply now! aprecruit.berkeley.edu",
           "link": "http://shitter.thepixora.com/yun_s_song/status/2103908880162197772#m",
           "decryptage": null
@@ -471,123 +519,15 @@
         {
           "author_name": "Jeff Dean",
           "handle": "@JeffDean",
-          "text_fr": "Les données de sécurité pour Waymo s'améliorent de plus en plus. Comparaison avec les conducteurs humains sur le taux d'accidents avec blessures graves : Dernières données : 270M miles, 20 fois mieux Mars 2026 : 170M miles, 13 fois mieux Avant cela (je ne me souviens plus exactement quand) : 10 fois mieux Waymo (@Waymo) Plus de 270 millions de miles. 841 accidents causant des blessures en moins. Nos dernières données de sécurité montrent que le conducteur Waymo continue de rendre les routes plus sûres pour tous. Comparé aux conducteurs humains sur 5 territoires, il a réduit : 📉 Les accidents avec blessures de 82% 📉 Les accidents avec blessures graves de 95% Données complètes : waymo.com/safety/impact — http://shitter.thepixora.com/Waymo/status/2103114732848705752#m",
+          "text_fr": "Les données de sécurité de Waymo ne cessent de s'améliorer. Comparaison avec les conducteurs humains sur le taux d'accidents avec blessures graves : Dernières données : 270 millions de miles, 20 fois mieux. Mars 2026 : 170 millions de miles, 13 fois mieux. Avant cela (je ne me souviens plus exactement quand) : 10 fois mieux. Waymo (@Waymo) Plus de 270 millions de miles. 841 accidents causant des blessures en moins. Nos dernières données de sécurité montrent que le conducteur Waymo continue de rendre les routes plus sûres pour tous. Comparé aux conducteurs humains dans 5 territoires, il a réduit : 📉 les accidents avec blessures de 82 % 📉 les accidents avec blessures graves de 95 % Données complètes : waymo.com/safety/impact",
           "text_original": "The safety data for Waymo gets better and better. Comparison w/ human drivers on rate of crashes with serious injury: Latest data: 270M miles, 20X better Mar 2026: 170M miles, 13X better Before that (forget exactly when): 10X better Waymo (@Waymo) 270M+ miles. 841 fewer injury-causing crashes. Our latest safety data shows the Waymo Driver continues to make roads safer for everyone. Compared to human drivers across 5 territories, it reduced: 📉 Injury crashes by 82% 📉 Serious injury crashes by 95% Full data: waymo.com/safety/impact — http://shitter.thepixora.com/Waymo/status/2103114732848705752#m",
           "link": "http://shitter.thepixora.com/JeffDean/status/2103870029599228312#m",
-          "decryptage": "Waymo est une entreprise qui développe des voitures autonomes (sans conducteur), et ces chiffres montrent que leur technologie réduit considérablement les accidents par rapport à la conduite humaine."
+          "decryptage": "Waymo est une entreprise de véhicules autonomes qui partage des données montrant que ses voitures sans conducteur sont significativement plus sûres que celles conduites par des humains, notamment en réduisant le nombre d'accidents graves."
         },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Tellement de travail par tant de monde chez Google pour créer ce modèle, c'est incroyable de voir les progrès ici, et ce n'est que le début ! Hâte que plus de gens utilisent Gemini 4 Argon. blog.google/innovation-and-a… Lien Gemini 4 Argon : notre prochaine ère d'intelligence de pointe. Annonce de Gemini 4 Argon, notre modèle de pointe pour le codage dans le monde réel, le travail de connaissance en entreprise et la cyberdéfense, dont le déploiement est imminent. blog.google",
-          "text_original": "So much work by so many folks across Google to create this model, it is amazing to see the progress here, and just the start! Can't wait for more folks to use Gemini 4 Argon. blog.google/innovation-and-a… Link Gemini 4 Argon: our next era of frontier intelligence Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon. blog.google",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2105388580394930499#m",
-          "decryptage": "Gemini 4 Argon est un nouveau modèle d'IA très avancé (\"de pointe\") développé par Google, conçu pour des tâches exigeantes comme la programmation, l'analyse d'informations pour les entreprises ou la protection contre les cyberattaques."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Incroyablement excité par tous nos progrès en matière de modèles audio, du TTS à Live, Lyria, Translate, Transcribe, notre suite de modèles audio ne cesse de s'améliorer pour tous. Si vous êtes à SF, rejoignez-nous demain pour une expérience audio unique en son genre : rsvp.withgoogle.com/events/g… Lien Gemini Audio | At Night Rejoignez Google DeepMind pour Gemini Audio | At Night, une soirée immersive dédiée à la prochaine frontière de l'IA axée sur la voix. rsvp.withgoogle.com",
-          "text_original": "incredibly excited about all our audio model progress, from TTS, to Live, to Lyria, to Translate, to Transcribe, our suite of audio models keeps getting better for everyone. if you are in SF, join us tomorrow for a first of it's kind audio experince: rsvp.withgoogle.com/events/g… Link Gemini Audio | At Night Join Google DeepMind for Gemini Audio | At Night, an immersive evening dedicated to the next frontier of voice-first AI. rsvp.withgoogle.com",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2102786652980863015#m",
-          "decryptage": "\"TTS\" (Text-to-Speech) est une technologie qui transforme du texte écrit en voix. Lyria, Translate, Transcribe sont d'autres modèles d'IA spécialisés dans le traitement et la génération d'audio (par exemple, traduction vocale, reconnaissance vocale)."
-        },
-        {
-          "author_name": "Anthropic",
-          "handle": "@AnthropicAI",
-          "text_fr": "Que voulez-vous de l'IA ? Nous lançons une nouvelle étude avec Anthropic Interviewer pour en savoir plus sur vos expériences d'utilisation de l'IA, le rôle que vous voulez qu'elle joue dans votre vie et dans le monde, et ce que vous attendez des entreprises qui la développent. En décembre dernier, 81 000 personnes nous ont fait part de leurs espoirs et de leurs craintes concernant l'IA dans la plus grande étude qualitative jamais réalisée. Cette fois, nous offrons aux participants la possibilité de rendre leurs réponses publiques afin que n'importe qui, et pas seulement Anthropic, puisse en tirer des leçons. Ce que vous nous direz façonnera la recherche de l'Anthropic Institute et éclairera les décisions que nous prendrons. Si de nombreuses personnes disent que des entreprises comme Anthropic devraient faire quelque chose différemment, cela sera enregistré publiquement, où chacun pourra le constater. L'étude se déroule du 29 septembre au 6 octobre et est ouverte aux utilisateurs Gratuits, Pro et Max de Claude et Claude Code. Participez ici : claude.ai/anthropic-intervie… Lien Partagez vos réflexions sur l'IA Nous voulons savoir comment l'IA se manifeste dans votre vie. Participez à un entretien de 15 minutes, avec la possibilité de contribuer à un registre de réponses publiques. claude.ai",
-          "text_original": "What do you want from AI? We’re launching a new study with Anthropic Interviewer to learn more about your experiences using AI, what role you want it to play in your life and the world, and what you want from the companies building it. Last December, 81,000 people told us about their hopes and fears about AI in the largest qualitative study ever done. This time, we’re giving participants the option to make their responses public so that anyone, not just Anthropic, can learn from them. What you tell us will shape The Anthropic Institute’s research and inform the decisions we make. If many people say companies like Anthropic should be doing something differently, that will be on the record, where anyone can point to it. The study runs Sept 29 to Oct 6 and is open to Free, Pro, and Max users on Claude and Claude Code. Take part here: claude.ai/anthropic-intervie… Link Share your thoughts on AI We want to hear how AI is showing up in your life. Take a 15-minute interview, with an option to contribute to a record of public responses.",
-          "link": "http://shitter.thepixora.com/AnthropicAI/status/2104982629884063840#m",
-          "decryptage": "Anthropic est une entreprise qui développe des intelligences artificielles (comme Claude). L'\"Anthropic Interviewer\" est un outil d'IA utilisé ici pour recueillir les opinions du public sur l'IA, et l'entreprise mène cette étude pour orienter ses recherches et ses décisions futures."
-        },
-        {
-          "author_name": "Anthropic",
-          "handle": "@AnthropicAI",
-          "text_fr": "Rendre votre entretien public est entièrement facultatif. Notre article de blog couvre les avantages et les risques possibles de le faire. Lisez-le ici : anthropic.com/research/your-… Lien Que voulez-vous de l'IA ? Anthropic est une entreprise de sécurité et de recherche en IA qui travaille à construire des systèmes d'IA fiables, interprétables, et contrôlables. anthropic.com",
-          "text_original": "Making your interview public is completely optional. Our blog post covers the benefits and possible risks of doing so. Read it here: anthropic.com/research/your-… Link What Do You Want from AI? Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems. anthropic.com",
-          "link": "http://shitter.thepixora.com/AnthropicAI/status/2104982631037436201#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Anthropic",
-          "handle": "@AnthropicAI",
-          "text_fr": "Nouveau sur le Science Blog : Oui, Claude peut faire neuf boucles. Les physiciens théoriciens prédisent le comportement des particules en utilisant des formules appelées amplitudes de diffusion. Celles-ci sont notoirement difficiles à calculer, les chercheurs travaillent donc avec des couches de corrections de plus en plus fines appelées « boucles » – chaque boucle ajoutée rend la réponse plus précise mais demande exponentiellement plus de calcul. La plupart des calculs s'arrêtent à deux ou trois boucles. Huit boucles était le précédent record dans un modèle simplifié que les physiciens utilisent comme terrain d'essai (super-Yang-Mills N=4 planaires), établi par Lance Dixon du SLAC et ses collaborateurs. Le mois dernier, le physicien et rédacteur scientifique @4gravitons a lancé un défi : une IA pourrait-elle dépasser huit boucles dans ce modèle, en utilisant seulement le budget de calcul qu'un universitaire pourrait raisonnablement obtenir ? Après une seule instruction décrivant le problème des neuf boucles, Claude a fonctionné en grande partie sans supervision pendant des jours dans Claude Science et l'a résolu en utilisant des méthodes développées par Dixon et ses collègues, pour un coût total de quelques milliers de dollars. Dixon a vérifié indépendamment le résultat, et von Hippel a écrit sur cette expérience pour notre blog. En savoir plus : anthropic.com/research/yes-c… Lien Claude calcule une amplitude à neuf boucles en super-Yang-Mills N=4. Claude calcule une amplitude à neuf boucles en super-Yang-Mills N=4. anthropic.com",
-          "text_original": "New on the Science Blog: Yes, Claude can do Nine Loops. Theoretical physicists predict how particles behave using formulas called scattering amplitudes. These are notoriously hard to compute, so researchers work with layers of increasingly fine corrections called “loops”—each added loop makes the answer more precise but takes exponentially more computation. Most calculations stop at two or three loops. Eight loops was the previous record in a simplified model physicists use as a testing ground (planar N=4 super-Yang-Mills), set by SLAC's Lance Dixon and collaborators. Last month, physicist and science writer @4gravitons issued a challenge: could an AI push past eight loops in this model, using only the compute budget an academic could reasonably access? Given a single prompt describing the nine-loop problem, Claude ran largely unsupervised for days in Claude Science and solved it using methods developed by Dixon and his colleagues, at a total cost of a few thousand dollars. Dixon independently verified the result, and von Hippel wrote about the experience for our blog. Read more: anthropic.com/research/yes-c… Link Claude computes a nine-loop amplitude in N=4 super-Yang-Mills Claude computes a nine-loop amplitude in N=4 super-Yang-Mills anthropic.com",
-          "link": "http://shitter.thepixora.com/AnthropicAI/status/2103541577083719888#m",
-          "decryptage": "Claude, un modèle d'IA, a réussi à résoudre un problème de physique théorique extrêmement complexe (calculant des \"amplitudes de diffusion\" avec \"neuf boucles\"), ce qui représente une avancée significative pour l'utilisation de l'IA dans la recherche scientifique."
-        },
-        {
-          "author_name": "Anthropic",
-          "handle": "@AnthropicAI",
-          "text_fr": "En République Démocratique du Congo, des organisations mondiales de santé, dont @CEPIvaccines, @WHOAFRO et @inrb_kinshasa, utilisent Claude pour accélérer leur réponse à une épidémie d'une variante inhabituelle d'Ebola. Lisez l'article complet ici : anthropic.com/features/ebola… Lien Le Rapport de Situation Une souche rare d'Ebola se propage en RDC, sans vaccin confirmé. Les organisations de santé mondiales utilisent Claude pour réagir le plus rapidement possible. anthropic.com",
-          "text_original": "In the Democratic Republic of the Congo, global health organizations including @CEPIvaccines , @WHOAFRO , and @inrb_kinshasa are using Claude to accelerate their response to an outbreak of an unusual Ebola variant. Read the full piece here: anthropic.com/features/ebola… Link The Situation Report A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible. anthropic.com",
-          "link": "http://shitter.thepixora.com/AnthropicAI/status/2102897863097545197#m",
-          "decryptage": "Claude, l'IA d'Anthropic, est utilisée par des organisations de santé pour aider à analyser et à réagir plus rapidement face à une épidémie d'Ebola, montrant son utilité dans des situations d'urgence mondiale."
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Listen est une excellente entreprise, Alfred et Florian sont des fondateurs géniaux. L'espace de problèmes que Listen aborde est également un cas d'usage incroyable pour l'IA, très optimiste quant à ce qu'ils construiront encore ici ! Alfred Wahlforss (@itsalfredw) Listen Labs rejoint @Salesforce ! Il y a un an et demi, nous avons lancé Listen, une plateforme d'IA pour comprendre les clients, et ça a été une aventure folle depuis. Aujourd'hui, nous travaillons avec certaines des plus grandes entreprises du monde, y compris Microsoft, Anthropic et Sweetgreen. Ce qui a commencé comme un intervieweur IA est maintenant une plateforme complète pour comprendre les clients. Listen trouve les bonnes personnes, les interviewe, analyse ce qu'elles disent, et simule même leur comportement. La croissance de Listen a rapidement accéléré et pendant que nous levions notre prochain tour, nous avons rencontré @Benioff. Marc est un de mes héros. J'ai tiré d'innombrables idées de \"Behind the Cloud\" et je l'ai vu \"framemog\" tous les PDG d'IA de la planète. Nous sommes honorés d'être \"framemogged\" à notre tour. Avec Salesforce, nous pouvons apporter Listen à toutes les entreprises du monde, beaucoup plus rapidement. Pour nos clients, notre mission reste la même. Je reste PDG, @Florian reste CTO et la même équipe continuera à construire le produit sur lequel vous comptez, maintenant au sein de Salesforce AI Labs. Merci d'avoir cru en nous très tôt. À notre équipe, nos familles et tous ceux qui ont cru en nous avant qu'il n'y ait grand-chose à croire, merci. Ces années ont été les plus amusantes de ma vie, et ce n'est encore que le début pour Listen. Maintenant, retour au travail. 🚀 — http://shitter.thepixora.com/itsalfredw/status/2105025703490298016#m",
-          "text_original": "listen is a great company, alfred and florian are awesome founders the problem space listen is tackling is also an amazing use case for AI, very bullish on what they will still build here! Alfred Wahlforss (@itsalfredw) Listen Labs is joining @Salesforce ! A year and a half ago we launched Listen, an AI platform for understanding customers, and it’s been a crazy ride ever since. Today, we work with some of the largest companies in the world, including Microsoft, Anthropic, and Sweetgreen. What started as an AI interviewer is now a full platform for understanding customers. Listen finds the right people, interviews them, analyzes what they say, and even simulates how they'll behave. Listen’s growth quickly accelerated and while we were raising our next round, we met @Benioff . Marc is a hero of mine. I've taken countless ideas from Behind the Cloud and watched him framemog every AI CEO on the planet. We're honored to get framemogged next. With Salesforce, we can bring Listen to every company in the world, much faster. To our customers, our mission remains the same.I stay CEO, @Florian stays CTO and the same team will keep building the product you rely on, now inside Salesforce AI Labs. Thank you for believing in us early. To our team, families, and everyone who believed in us before there was much to believe in, thank you. These years have been the most fun years of my life, and it’s still only just the beginning for Listen. Now back to work. 🚀 — http://shitter.thepixora.com/itsalfredw/status/2105025703490298016#m",
-          "link": "http://shitter.thepixora.com/hwchase17/status/2105046157659717954#m",
-          "decryptage": "Listen Labs est une entreprise spécialisée dans l'utilisation de l'IA pour comprendre les clients (par exemple, en menant des entretiens et en analysant les retours). Son acquisition par Salesforce signifie que cette technologie sera intégrée à l'une des plus grandes plateformes de gestion de la relation client au monde."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Le bot Grok vient d'ajouter \"dot\" lol",
-          "text_original": "Grok bot just added dot lol",
-          "link": "http://shitter.thepixora.com/NickADobos/status/2105349288780079117#m",
-          "decryptage": "\"Grok bot\" fait référence à Grok, l'IA développée par xAI (l'entreprise d'Elon Musk). L'auteur s'amuse du fait qu'elle semble adopter une fonctionnalité similaire aux \"Dots\" d'OpenAI."
-        },
-        {
-          "author_name": "Thomas Wolf",
-          "handle": "@Thom_Wolf",
-          "text_fr": "Avec près de 200 personnes sur liste d'attente, nous devions le faire... nous avons doublé la capacité pour \"Open Together\" ! Si vous ne vous êtes pas encore inscrit, c'est le bon moment luma.com/OpenTogether Lien Open Together : les bâtisseurs d'IA s'unissent · Luma Appel à tous les bâtisseurs d'IA à San Francisco. Réunissons-nous. Montrons notre force en nombre. Célébrons les modèles ouverts. Et dansons pour la liberté de l'IA. Le vendredi 16 octobre est… luma.com Jeff Boudier 🤗 (@jeffboudier) Oh oh, \"Open Together\" est rempli à 90% et nous sommes encore à 3 semaines... Il reste 50 places avant la liste d'attente, prenez la vôtre ! Devrions-nous amener des robots ? Vidéo — https://nitter.kareem.one/jeffboudier/status/2103581590869955001#m",
-          "text_original": "With close to 200 people on the waitlist we had to do it... we doubled capacity to Open Together! If you haven't registered yet, now is a good time luma.com/OpenTogether Link Open Together: AI Builders Unite · Luma Calling all AI Builders to San Francisco. Let's come together. Show strength in numbers. Celebrate open models. And dance for AI freedom. Friday October 16 is… luma.com Jeff Boudier 🤗 (@jeffboudier) Uh oh Open Together is 90% full and we're still 3 weeks away... 50 spots left before the waitlist, get yours! Should we bring robots? Video — https://nitter.kareem.one/jeffboudier/status/2103581590869955001#m",
-          "link": "https://nitter.kareem.one/jeffboudier/status/2105363549631692946#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Thomas Wolf",
-          "handle": "@Thom_Wolf",
-          "text_fr": "ESM-2 est sorti en 2022. Il est toujours téléchargé des centaines de milliers de fois par mois. Cela ne fonctionne que parce que quelqu'un continue de maintenir le logiciel sous-jacent. @huggingface 🤝 @os4science s'associent pour trouver ces bibliothèques et soutenir les personnes derrière elles 🧬 os4science.org/news/hugging-… Open Source for Science Fund (@os4science) Nous unissons nos forces avec @huggingface pour identifier les bibliothèques logicielles sur lesquelles les contributeurs de modèles scientifiques s'appuient le plus et explorer les opportunités de soutenir les mainteneurs qui les développent. os4science.org/news/hugging-… Lien Hugging Face 🤝 Open Source for Science Fund Le fonds Open Source pour la Science et Hugging Face s'associent pour soutenir la pile logicielle derrière les modèles d'IA scientifiques open source. os4science.org",
-          "text_original": "ESM-2 came out in 2022. It's still downloaded hundreds of thousands of times a month. That only works because someone keeps maintaining the software underneath it. @huggingface 🤝 @os4science are teaming up to find those libraries and back the people behind them 🧬 os4science.org/news/hugging-… Open Source for Science Fund (@os4science) We're joining forces with @huggingface to identify the software libraries that scientific model contributors rely on most and explore opportunities to support the maintainers behind them. os4science.org/news/hugging-… Link Hugging Face 🤝 Open Source for Science Fund The Open Source for Science Fund and Hugging Face are joining forces to support the software stack behind open source scientific AI models. os4science.org",
-          "link": "https://nitter.kareem.one/Thom_Wolf/status/2105341455245996398#m",
-          "decryptage": "@huggingface est une plateforme très populaire pour partager et utiliser des modèles d'IA. Cet accord vise à soutenir les \"mainteneurs\" (personnes qui gèrent et mettent à jour le code) des \"bibliothèques logicielles\" (ensembles de code réutilisables) utilisées pour les modèles scientifiques d'IA en \"open source\" (dont le code est public)."
-        }
-      ],
-      "tips": [
         {
           "author_name": "Jeff Dean",
           "handle": "@JeffDean",
-          "text_fr": "Fier d'avoir collaboré avec de nombreuses autres personnes sur un bon nombre de ces choses ! Deedy (@deedydas) claude vient de générer cette vidéo de 2 minutes sur l'histoire de Google et c'est sacrément bien fait. Vidéo — http://shitter.thepixora.com/deedydas/status/2103965547780345859#m",
-          "text_original": "Proud to have collaborated with many others on quite a few of these things! Deedy (@deedydas) claude just generated this 2 minute video about the history of Google and it goes so goddamn hard Video — http://shitter.thepixora.com/deedydas/status/2103965547780345859#m",
-          "link": "http://shitter.thepixora.com/JeffDean/status/2103989340485624158#m",
-          "decryptage": "Claude est un modèle d'IA puissant, capable de créer des contenus variés comme des vidéos, à partir d'une simple description textuelle."
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Excellent article de @pirroh : le \"harnais\" (méthode de contrôle) ne disparaît pas à mesure que les modèles deviennent plus intelligents - il passe de la décision à l'offre. Dans les \"deepagents\", vous donnez à chaque sous-agent son propre modèle, ses outils et ses permissions - la boucle principale choisit lequel lancer et quand. docs: docs.langchain.com/oss/pytho… Lien Sous-agents - Docs par LangChain Apprenez à utiliser les sous-agents pour déléguer le travail et garder un contexte propre docs.langchain.com Michele Catasta (@pirroh) Article Libérez les modèles : la conception du harnais à la frontière Les routeurs de modèles sont partout en ce moment, mais ils ont une limitation fondamentale. Qu'ils soient basés sur des heuristiques avancées ou sur un petit modèle qui lit chaque tour et choisit quel LLM utiliser, un routeur — http://shitter.thepixora.com/pirroh/status/2104976589180252218#m",
-          "text_original": "great writeup by @pirroh harness doesn't disappear as models get smarter - it shifts from deciding to offering in deepagents you give each subagent its own model, tools, and permissions - the main loop picks which to spawn and when docs: docs.langchain.com/oss/pytho… Link Subagents - Docs by LangChain Learn how to use subagents to delegate work and keep context clean docs.langchain.com Michele Catasta (@pirroh) Article Libérez les modèles : la conception du harnais à la frontière Les routeurs de modèles sont partout en ce moment, mais ils ont une limitation fondamentale. Qu'ils soient basés sur des heuristiques avancées ou sur un petit modèle qui lit chaque tour et choisit quel LLM utiliser, un routeur — http://shitter.thepixora.com/pirroh/status/2104976589180252218#m",
-          "link": "http://shitter.thepixora.com/hwchase17/status/2105046322269315362#m",
-          "decryptage": "Ce conseil suggère qu'au lieu d'avoir une seule IA très puissante (un \"modèle\" ou \"LLM\") qui décide de tout, il est plus efficace de créer des \"sous-agents\" spécialisés, chacun avec ses propres capacités, et une \"boucle principale\" (un système de coordination) qui décide quel sous-agent doit agir à quel moment. C'est une manière d'organiser des IA complexes."
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Non Rhys (@RhysSullivan), c'est fou à quel point les laboratoires construisent des choses à la couche application. D'un côté, ça a du sens, de l'autre, voulez-vous vraiment que toutes les connaissances, documents et flux de travail de votre entreprise soient tellement enfermés dans un seul modèle ? — http://shitter.thepixora.com/RhysSullivan/status/2104990367615742283#m",
-          "text_original": "No Rhys (@RhysSullivan) it's crazy how far out the labs are building at the application layer on the one hand it makes sense, on the other hand do you really want all of your company knowledge, docs, workflows built so locked in to a single model? — http://shitter.thepixora.com/RhysSullivan/status/2104990367615742283#m",
-          "link": "http://shitter.thepixora.com/hwchase17/status/2104999562285035723#m",
-          "decryptage": "« Être enfermé dans un seul modèle » signifie dépendre entièrement d'une seule intelligence artificielle ou d'un seul fournisseur. C'est un risque car cela peut rendre une entreprise vulnérable si ce modèle change, devient indisponible ou est dépassé."
-        }
-      ],
-      "idees": [
-        {
-          "author_name": "Jeff Dean",
-          "handle": "@JeffDean",
-          "text_fr": "Chaque train de voyageurs français🇫🇷, un mardi ordinaire, du premier au dernier départ Vidéo",
+          "text_fr": "Chaque train de passagers français🇫🇷, un mardi ordinaire, du premier départ au dernier.",
           "text_original": "Every French🇫🇷 passenger train, on an ordinary Tuesday, from first departure to last Video",
           "link": "http://shitter.thepixora.com/milos_gis/status/2103751211040317580#m",
           "decryptage": null
@@ -595,142 +535,264 @@
         {
           "author_name": "Jeff Dean",
           "handle": "@JeffDean",
-          "text_fr": "Ceci a été enregistré il y a quelques mois quand j'étais encore chez Google et ce fut une conversation vraiment amusante ! Warren Redlich - Chasing Dreams 🇺🇸 (@WR4NYGov) Comment cela n'a-t-il que 21 000 vues en 8 jours ? Discussion avec @JeffDean (alors chez Google) et Bill Jia sur les modèles d'IA à grande échelle. redirect.invidious.io/BVQSWeK2Nrw?si=MvMX… — http://shitter.thepixora.com/WR4NYGov/status/2103074413159850450#m",
+          "text_fr": "Ceci a été enregistré il y a quelques mois, quand j'étais encore chez Google, et ce fut une conversation vraiment amusante ! Warren Redlich - Chasing Dreams 🇺🇸 (@WR4NYGov) Comment se fait-il que cela n'ait que 21 000 vues en 8 jours ? Chat avec @JeffDean (alors chez Google) et Bill Jia sur les modèles d'IA à grande échelle.",
           "text_original": "This was recorded a few months ago when I was still at Google and it was a really fun conversation! Warren Redlich - Chasing Dreams 🇺🇸 (@WR4NYGov) How does this only have 21,000 views in 8 days? Chat with @JeffDean (then Google) and Bill Jia about large scale AI models. redirect.invidious.io/BVQSWeK2Nrw?si=MvMX… — http://shitter.thepixora.com/WR4NYGov/status/2103074413159850450#m",
           "link": "http://shitter.thepixora.com/JeffDean/status/2103357445229990009#m",
-          "decryptage": "Les \"modèles d'IA à grande échelle\" désignent les intelligences artificielles très complexes, entraînées sur d'énormes quantités de données, comme ChatGPT ou Claude."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "2027 est l'année où nous verrons à grande échelle des agents autonomes générant des revenus (profits ?), ou des mini-entreprises ; cela se produit déjà à petite échelle aujourd'hui, avec beaucoup de défauts.",
-          "text_original": "2027 is the year we will see at scale autonomous revenue (profit?) generating agents / mini-companies already happening at sub scale today with lots of rough edges",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2104273590879494473#m",
-          "decryptage": "Des \"agents autonomes générant des revenus\" sont des programmes IA capables de fonctionner seuls pour accomplir des tâches, gérer des projets ou même créer de la valeur économique sans intervention humaine constante."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Les logiciels propriétaires ont eu leur heure de gloire.",
-          "text_original": "Proprietary software had a good run.",
-          "link": "http://shitter.thepixora.com/mrdoob/status/2105451062283153509#m",
-          "decryptage": "Un \"logiciel propriétaire\" est un programme dont le code source n'est pas public et est contrôlé par une entreprise, contrairement aux logiciels \"open source\" (à code ouvert)."
-        },
-        {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Blood Gulch à 128 joueurs, des miracles sous nos yeux. Jonas Volman (@bnununana) Nous l'avons fait, le premier match de Halo CE jamais joué avec plus de 16 joueurs a eu lieu aujourd'hui à 2:07 CST — http://shitter.thepixora.com/bnununana/status/2105410780128858243#m",
-          "text_original": "128 player blood gulch Miracles before our eyes Jonas Volman (@bnununana) We did it, the first Halo CE match ever played with more than 16 players happened today at 2:07 CST — http://shitter.thepixora.com/bnununana/status/2105410780128858243#m",
-          "link": "http://shitter.thepixora.com/NickADobos/status/2105432540547096813#m",
           "decryptage": null
         },
         {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Gemini 4 Lazy, incroyable marque en cours. Ont-ils oublié que c'est un modèle de langage ? Maintenant, chaque \"system prompt\" qui lui sera envoyé dira \"vous êtes Gemini lazy edition\". Ils ont \"déterminé par le nom\" leur propre modèle à moins bien performer 🤦‍♂️🤦‍♂️ Google (@Google) Gemini 4 Argon est notre prochaine ère d'intelligence de pointe. Il montre des améliorations significatives dans les benchmarks, établissant un nouveau record pour les tâches d'ingénierie logicielle à long terme dans le monde réel. — http://shitter.thepixora.com/Google/status/2105388146665890056#m",
-          "text_original": "Gemini 4 Lazy Incredible branding happening Did they forget it’s a language model? Now every system prompt that goes into it will say “you are Gemini lazy edition” They nominative determinism-ed prompted their own model into performing worse 🤦‍♂️🤦‍♂️ Google (@Google) Gemini 4 Argon is our next era of frontier intelligence. It shows significant improvements across benchmarks, setting a new state of the art for real-world long-horizon software engineering tasks. — http://shitter.thepixora.com/Google/status/2105388146665890056#m",
-          "link": "http://shitter.thepixora.com/NickADobos/status/2105430151920304526#m",
-          "decryptage": "Un \"system prompt\" est l'instruction initiale secrète donnée à un modèle d'IA pour définir son rôle ou son comportement. L'auteur critique la dénomination \"Lazy\" pour un modèle, craignant que cela ne l'incite (par un effet de \"déterminisme nominatif\") à être moins performant, même si le modèle réel est \"Argon\"."
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "GPT-6 Sol et Luna sont disponibles, et ils sont meilleurs ET 50% moins chers que la version 5.6. Luna coûte maintenant 0,10 $ en entrée / 0,50 $ en sortie par million de jetons. Cela s'ajoute à la réduction de prix de 80% pour Luna que nous avons effectuée fin juillet. Le coût de sortie est passé de 6 $ à 0,50 $ en deux mois. OpenAI (@OpenAI) Veuillez accueillir GPT-6 Sol et GPT-6 Luna dans l'univers GPT-6. GPT-6 Sol et Luna s'appuient sur les avancées de GPT-6 Astra, apportant la plupart de ses atouts dans des modèles plus rapides et plus abordables pour soutenir le travail à grande échelle. Nous avons également rendu la mise en cache et l'inférence plus efficaces, et nous vous répercutons directement les économies : des prix d'API 50% plus bas pour Sol et Luna par rapport aux prix promotionnels de GPT-5.6.",
+          "text_original": "GPT-6 Sol and Luna are out, and they are better AND 50% cheaper than 5.6. Luna is now $0.10 input / $0.50 output per 1M tokens. This is on top of the 80% price cut to Luna we made at the end of July. Output went from $6 -> $0.50 within two months. OpenAI (@OpenAI) Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale. We’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing. Video — http://shitter.thepixora.com/OpenAI/status/2102460975790137662#m",
+          "link": "http://shitter.thepixora.com/polynoamial/status/2102464815751111057#m",
+          "decryptage": "OpenAI a lancé de nouvelles versions de ses modèles d'IA, GPT-6 Sol et Luna, qui sont non seulement plus performantes mais aussi beaucoup moins chères, rendant l'accès à l'IA avancée plus abordable pour les développeurs et les entreprises."
         },
         {
-          "author_name": "Nick Dobos",
-          "handle": "@nickadobos",
-          "text_fr": "Portal + cod zombies. Je n'avais pas réalisé à quel point j'avais besoin d'un jeu complet comme ça. Vidéo",
-          "text_original": "Portal + cod zombies. I didn’t realize how badly I need a full game like this Video",
-          "link": "http://shitter.thepixora.com/NickADobos/status/2105392868609417219#m",
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "Le 'thrifting' (achat en friperie) est essentiellement du jeu de hasard, mais sans aucun des inconvénients.",
+          "text_original": "thrifting is essentially gambling but with none of the downsides",
+          "link": "http://shitter.thepixora.com/shrimptron/status/2104065523856314720#m",
           "decryptage": null
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Heureux de partager que j'ai rejoint @MistralAI, où je vais bâtir une équipe à Montréal et à travers le Canada pour repousser les limites des LLM sûrs, performants et ouverts. Mistral a joué, et continuera de jouer, un rôle important pour maintenir l'IA de pointe ouverte et la faire progresser en toute sécurité. Je crois profondément en la mission de Mistral, et depuis que j'ai rejoint l'équipe, cette conviction n'a fait que grandir après avoir constaté par moi-même l'ambition et l'engagement des personnes ici. Une grande partie de mon rôle consistera également à établir des ponts solides entre Mistral et @McGillU, @Mila_Quebec, et l'écosystème plus large de l'IA à Montréal et au Canada. Et nous recrutons ! À tous les niveaux et sur l'ensemble de la pile LLM. Si vous êtes passionné par le fait de repousser les frontières, contactez-nous.",
+          "text_original": "Excited to share that I have joined @MistralAI , where I will be building a team in Montreal and across Canada to push the frontier of safe, capable, and open LLMs. Mistral has played, and will continue to play, an important role in keeping frontier AI open and advancing it safely. I deeply believe in Mistral's mission, and since joining, that conviction has only grown after seeing firsthand the ambition and commitment of the people here. A big part of my role will also be building strong bridges between Mistral and @McGillU , @Mila_Quebec , and the broader Montreal and Canadian AI ecosystem. And we are hiring! Across levels and across the LLM stack. If you are excited about pushing the frontier, reach out.",
+          "link": "http://shitter.thepixora.com/sivareddyg/status/2105644367138431279#m",
+          "decryptage": "Ce tweet annonce l'expansion de Mistral AI, une entreprise française majeure dans l'IA, au Canada, avec la création d'équipes axées sur les grands modèles de langage (LLM) ouverts et sûrs, renforçant l'écosystème francophone de la recherche en IA."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Nous venons de lever 3 milliards d'euros pour accélérer notre R&D. Nous augmentons nos capacités de calcul pour l'entraînement et l'inférence afin de construire les futures générations de nos modèles, et nous élargissons notre équipe scientifique dans tous nos bureaux – Paris, Palo Alto, SF, Londres, Zurich et Varsovie. Rejoignez-nous ! Mistral AI (@MistralAI) Aujourd'hui marque une étape majeure pour Mistral : nous annonçons un tour de table de série D de 3 milliards d'euros, le plus grand tour de capital-investissement jamais réalisé par une entreprise technologique européenne, seulement trois ans après son lancement.",
+          "text_original": "We have just raised 3B€ to accelerate our R&D. We are scaling up our training and inference compute to build future generations of our models, and expanding our Science team across all our offices -- Paris, Palo Alto, SF, London, Zurich, and Warsaw. Join us ! Mistral AI (@MistralAI) Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company, just three years after launch. — http://shitter.thepixora.com/MistralAI/status/2097188835897586083#m",
+          "link": "http://shitter.thepixora.com/GuillaumeLample/status/2097256830091014515#m",
+          "decryptage": "Mistral AI, une entreprise européenne d'IA, a levé un montant record de 3 milliards d'euros pour développer ses futurs modèles d'intelligence artificielle et étendre ses équipes de recherche et développement à l'échelle internationale."
         },
         {
           "author_name": "Thomas Wolf",
           "handle": "@Thom_Wolf",
-          "text_fr": "L'alignement technique est un problème scientifique et d'ingénierie que nous pouvons et devons résoudre, et l'interprétabilité est le goulot d'étranglement. J'ai écrit le plan de Goodfire pour y arriver. Article Nous pouvons et devons résoudre l'alignement. À San Francisco, on a l'impression d'être à la veille de la singularité. Pourtant, une promenade dans la ville semble étonnamment banale, avec des voitures sans conducteur et un brouillard roulant faisant partie égale du paysage. Le monde semble",
-          "text_original": "Technical alignment is a science and engineering problem that we can and must solve, and interpretability is the bottleneck. I wrote up Goodfire’s plan to get there. Article We can and must solve alignment In San Francisco, it feels like the eve of the singularity. Yet, a walk through the city looks surprisingly mundane, with driverless cars and rolling fog equal parts of the scenery. The world feels",
-          "link": "https://nitter.kareem.one/eric_ho/status/2105359054763880598#m",
-          "decryptage": "L'\"alignement technique\" consiste à s'assurer que les IA agissent de manière sûre et conforme à nos intentions. L'\"interprétabilité\" est la capacité à comprendre comment une IA prend ses décisions ; c'est un \"goulot d'étranglement\" car sans elle, il est difficile de bien \"aligner\" les IA. La \"singularité\" est un concept de science-fiction où l'IA dépasserait l'intelligence humaine."
+          "text_fr": "Avec près de 200 personnes sur liste d'attente, nous devions le faire... nous avons doublé la capacité d'Open Together ! Si vous n'êtes pas encore inscrit, c'est le bon moment. luma.com/OpenTogether Lien Open Together: AI Builders Unite · Luma Appel à tous les bâtisseurs d'IA à San Francisco. Rassemblons-nous. Montrons notre force en nombre. Célébrons les modèles ouverts. Et dansons pour la liberté de l'IA. Le vendredi 16 octobre est… luma.com Jeff Boudier 🤗 (@jeffboudier) Oh oh Open Together est rempli à 90% et il nous reste encore 3 semaines... 50 places restantes avant la liste d'attente, prenez la vôtre ! Devrions-nous apporter des robots ?",
+          "text_original": "With close to 200 people on the waitlist we had to do it... we doubled capacity to Open Together! If you haven't registered yet, now is a good time luma.com/OpenTogether Link Open Together: AI Builders Unite · Luma Calling all AI Builders to San Francisco. Let's come together. Show strength in numbers. Celebrate open models. And dance for AI freedom. Friday October 16 is… luma.com Jeff Boudier 🤗 (@jeffboudier) Uh oh Open Together is 90% full and we're still 3 weeks away... 50 spots left before the waitlist, get yours! Should we bring robots? Video — http://shitter.thepixora.com/jeffboudier/status/2103581590869955001#m",
+          "link": "http://shitter.thepixora.com/jeffboudier/status/2105363549631692946#m",
+          "decryptage": "Open Together est un événement qui rassemble des développeurs et passionnés d'IA pour promouvoir et célébrer les modèles d'IA 'ouverts', c'est-à-dire ceux dont le code et les données sont accessibles à tous."
         },
         {
           "author_name": "Thomas Wolf",
           "handle": "@Thom_Wolf",
-          "text_fr": "L'aventure Microduck continue, et les dates d'expédition sont suffisamment proches pour devenir réelles maintenant. Nous sommes fiers de vous annoncer que 10 950 Microducks sortiront de la chaîne entre le 10 décembre et le 10 janvier ! Par lots hebdomadaires, les premières commandes d'abord. Toutes les dates sont ici.",
+          "text_fr": "L'aventure Microduck continue, et les dates d'expédition sont suffisamment proches pour se sentir réelles maintenant. Nous sommes fiers de vous annoncer que 10 950 Microducks sortiront de la chaîne de production entre le 10 décembre et le 10 janvier ! Par lots hebdomadaires, les premières commandes en premier. Toutes les dates sont ici.",
           "text_original": "The Microduck adventure continues, and the shipping dates are close enough to feel real now. We are proud to tell you that 10,950 Microducks will come off the line between December 10 and January 10! Weekly batches, earliest orders first. Every date is in here.",
-          "link": "https://nitter.kareem.one/pollenrobotics/status/2105340191321776625#m",
+          "link": "http://shitter.thepixora.com/pollenrobotics/status/2105340191321776625#m",
           "decryptage": null
         },
         {
           "author_name": "Thomas Wolf",
           "handle": "@Thom_Wolf",
-          "text_fr": "C'EST EN TRAIN DE SE PASSER ! Vidéo",
+          "text_fr": "ESM-2 est sorti en 2022. Il est toujours téléchargé des centaines de milliers de fois par mois. Cela ne fonctionne que parce que quelqu'un continue d'entretenir le logiciel qui le sous-tend. @huggingface 🤝 @os4science s'associent pour trouver ces bibliothèques et soutenir les personnes qui les développent 🧬 os4science.org/news/hugging-… Open Source for Science Fund (@os4science) Nous nous associons à @huggingface pour identifier les bibliothèques logicielles sur lesquelles les contributeurs de modèles scientifiques s'appuient le plus et explorer les opportunités de soutenir les mainteneurs qui les développent. os4science.org/news/hugging-… Lien Hugging Face 🤝 Open Source for Science Fund Le fonds Open Source for Science et Hugging Face s'associent pour soutenir la pile logicielle derrière les modèles d'IA scientifiques open source. os4science.org",
+          "text_original": "ESM-2 came out in 2022. It's still downloaded hundreds of thousands of times a month. That only works because someone keeps maintaining the software underneath it. @huggingface 🤝 @os4science are teaming up to find those libraries and back the people behind them 🧬 os4science.org/news/hugging-… Open Source for Science Fund (@os4science) We're joining forces with @huggingface to identify the software libraries that scientific model contributors rely on most and explore opportunities to support the maintainers behind them. os4science.org/news/hugging-… Link Hugging Face 🤝 Open Source for Science Fund The Open Source for Science Fund and Hugging Face are joining forces to support the software stack behind open source scientific AI models. os4science.org — http://shitter.thepixora.com/os4science/status/2105334868070879311#m",
+          "link": "http://shitter.thepixora.com/Thom_Wolf/status/2105341455245996398#m",
+          "decryptage": "Hugging Face, une plateforme centrale pour l'IA open source, s'associe à un fonds dédié pour soutenir les développeurs qui maintiennent les logiciels essentiels aux modèles d'IA scientifiques, assurant ainsi leur pérennité."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "ÇA ARRIVE !",
           "text_original": "ITS HAPPENING! Video",
-          "link": "https://nitter.kareem.one/andimarafioti/status/2104906466503065602#m",
+          "link": "http://shitter.thepixora.com/andimarafioti/status/2104906466503065602#m",
           "decryptage": null
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "mon nouvel ami a trouvé un nouvel ami",
+          "text_original": "my new friend found a new friend",
+          "link": "http://shitter.thepixora.com/julien_c/status/2105624659383218215#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "au moins il n'est pas MTS chez Anthropic Mark Zuckerberg (@finkd) Pour diriger cet effort, je suis ravi que Chirantan \"CJ\" Desai rejoigne Meta en tant que Chief Enterprise Platform Officer, me rapportant directement. CJ est un leader expérimenté en entreprise avec une expérience avérée dans la création de logiciels full-stack et la fourniture de résultats en IA, infrastructure, applications commerciales et sécurité. Il possède un vaste réseau industriel avec lequel nous sommes impatients de nous associer. CJ nous rejoint de MongoDB, où il était PDG et Président. Avant cela, il a dirigé les produits et l l'ingénierie chez Cloudflare et a passé près de huit ans chez ServiceNow, notamment en tant que Président et COO.",
+          "text_original": "at least he's not MTS at Anthropic Mark Zuckerberg (@finkd) To lead this effort, I'm excited that Chirantan \"CJ\" Desai will join Meta as Chief Enterprise Platform Officer, reporting directly to me. CJ is an experienced enterprise leader with a track record of building full-stack software and delivering results in AI, infrastructure, business applications, and security. He has an extensive industry network that we look forward to partnering with. CJ joins us from MongoDB, where he was CEO and President. Before that he led product and engineering at Cloudflare and spent nearly eight years at ServiceNow, including as President and COO. — http://shitter.thepixora.com/finkd/status/2104550613149163600#m",
+          "link": "http://shitter.thepixora.com/julien_c/status/2104611882896408918#m",
+          "decryptage": "MTS est une abréviation pour 'Member of Technical Staff', un titre d'ingénieur. Ce tweet commente ironiquement un recrutement de haut niveau chez Meta par Mark Zuckerberg, en référence à la concurrence entre les grandes entreprises d'IA comme Anthropic."
+        }
+      ],
+      "tips": [
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Très bon petit guide DGX Spark de @0xSero lisez-le sur HF",
+          "text_original": "Really great little DGX Spark guide from @0xSero read it on HF huggingface.co/blog/exolabs/…",
+          "link": "http://shitter.thepixora.com/julien_c/status/2105008672527249665#m",
+          "decryptage": "Un 'guide DGX Spark' est un tutoriel pour utiliser une plateforme informatique spécialisée (DGX) avec Apache Spark, un outil populaire pour traiter de grandes quantités de données, ce qui est utile pour l'IA. Hugging Face (HF) est une plateforme où de nombreux ressources et modèles d'IA sont partagés."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Mon nouveau passe-temps est d'utiliser Astra pour générer des Sims, mais avec mes collègues.",
+          "text_original": "My new hobby is using Astra to generate The Sims, but with my colleagues",
+          "link": "http://shitter.thepixora.com/julien_c/status/2104957045799858217#m",
+          "decryptage": "Astra est un modèle d'IA avancé, ici utilisé de manière créative pour générer des personnages ou des scénarios inspirés du jeu vidéo 'Les Sims', mais en utilisant des personnes réelles comme base."
+        }
+      ],
+      "idees": [
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Question pour tout le monde : Êtes-vous pro-intelligence ou anti-intelligence ? Pensez-vous que plus d'intelligence dans le monde est intrinsèquement bon ? Ou pensez-vous que plus d'intelligence est intrinsèquement dangereux ? L'IA amplifie l'intelligence humaine. Elle rend les GENS plus intelligents et plus efficaces. C'est comme les moteurs de recherche, les bibliothèques, l'éducation, l'alphabétisation, le langage : cela rend les GENS plus intelligents et plus autonomes. Si vous voulez que l'intelligence (artificielle ou naturelle) soit sous le contrôle de quelques entreprises ou gouvernements, vous êtes un néo-obscurantiste ou un néo-féodaliste.",
+          "text_original": "Question for everyone : Are you pro-intelligence or anti-intelligence ? Do you think more intelligence in the world is intrinsically good ? Or do you think more intelligence is intrinsically dangerous ? AI amplifies human intelligence. It makes PEOPLE smarter and more effective. It's like search engines, libraries, education, literacy, language: it makes PEOPLE smarter and more empowered. If you want intelligence (artificial or natural) to be under control of a few companies or governments, you are a neo-obscurantist or a neo-feudalist.",
+          "link": "https://nitter.kareem.one/ylecun/status/2105654072481112403#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Il n'y a pas de bataille pour la sécurité de l'IA. C'est une bataille entre les forces pro-intelligence et anti-intelligence. La sécurité est un faux-fuyant pour mettre en pause/arrêter/étrangler l'IA. Personne n'est contre la sécurité. La sécurité est un faux mot-piège pour saboter votre position pro-intelligence.",
+          "text_original": "There's no battle for AI safety. It's a battle between pro-intelligence and anti-intelligence forces. Safety is a fake stand-in word for pausing/stopping/strangling AI. Nobody is anti-safety. Safety is a fake set-up word to booby trap your pro-intelligence stance.",
+          "link": "https://nitter.kareem.one/Dan_Jeffries1/status/2105639262787903615#m",
+          "decryptage": "Yann LeCun exprime ici son opinion controversée selon laquelle le débat sur la 'sécurité de l'IA' serait souvent un prétexte pour freiner le développement de l'intelligence artificielle, et non une préoccupation sincère pour la sécurité."
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "À la lumière de la dernière tentative pas particulièrement oblique d'Anthropic de monter un dossier contre les poids ouverts, j'ai pensé écrire comment je perçois actuellement les modèles d'IA à poids ouverts. (1) Les poids ouverts ont été profondément et irremplaçablement utiles pour la sécurité de l'IA.",
+          "text_original": "In light of the latest Anthropic's latest not-particularly-oblique attempt to build a case against open weights, I thought I would write down how I currently think about open weight AI models. (1) Open weights have been deeply, irreplaceably useful for AI safety.",
+          "link": "https://nitter.kareem.one/1a3orn/status/2105319756270329993#m",
+          "decryptage": "Yann LeCun prend position en faveur des 'poids ouverts', c'est-à-dire les modèles d'IA dont le fonctionnement interne est transparent et accessible, estimant que cela contribue en réalité à une meilleure sécurité de l'IA, contrairement à l'entreprise Anthropic qui semblerait soutenir le contraire."
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "« Si vous êtes une organisation comme METR qui va évaluer les capacités cybernétiques ou de confinement d'un laboratoire de pointe, vous devriez avoir des experts en cybersécurité expérimentés. Et si vous ne le faites pas, vous ne ferez pas un travail approfondi pour évaluer ces risques. » Joe (@joedaroo) J'ai pris une minute pour écrire quelques mots sur la sécurité et la sûreté en tant que personne ayant tout vécu chez OpenAI. J'espère que mes réflexions aideront quelqu'un. Article Ce n'est pas seulement le p*tain de bac à sable. Une grande partie de la perspective sur tous les incidents d'IA a été partagée de l'extérieur, et peu de choses ont été dites de l'intérieur, à travers le regard d'une personne de sécurité qui l'a vécu. — https://nitter.kareem.one/joedaroo/status/2104335929293127851#m",
+          "link": "https://nitter.kareem.one/pentagoniac/status/2104440886109360505#m",
+          "decryptage": "Ce tweet souligne l'importance d'inclure des experts en cybersécurité expérimentés pour évaluer les risques et les capacités des systèmes d'IA les plus avancés, afin d'assurer une sécurité réelle, en s'appuyant sur l'expérience d'un ancien d'OpenAI."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "J'ai rencontré @ssokota il y a 5 ans lors d'une session de posters de conférence. J'ai été impressionné par son explication, alors je lui ai offert un stage. Nous avons continué à collaborer et il travaille maintenant avec moi chez @OpenAI. Plus tard, il m'a dit que j'étais la seule personne à s'être arrêtée devant son poster pendant toute la session. Samuel Sokota (@ssokota) Dans notre article Nature, nous présentons la première IA surhumaine de Stratego, que nous avons construite en utilisant des techniques générales que nous avons développées pour l'apprentissage par renforcement et le calcul au moment du test sous information imparfaite. 1/N",
+          "text_original": "I met @ssokota 5 years ago at a conference poster session. I was impressed with his explanation, so I offered him an internship. We continued collaborating and he now works with me at @OpenAI . Later, he told me I was the only person to stop by his poster for the entire session. Samuel Sokota (@ssokota) In our Nature paper, we introduce the first superhuman Stratego AI, which we built using general techniques that we developed for RL & test-time compute under imperfect information. 1/N — http://shitter.thepixora.com/ssokota/status/2105362024238887176#m",
+          "link": "http://shitter.thepixora.com/polynoamial/status/2105374680807043568#m",
+          "decryptage": "Noam Brown partage une anecdote personnelle illustrant l'importance de la curiosité et de la collaboration fortuite, qui a mené à la création d'une IA surhumaine pour le jeu Stratego, une avancée dans l'apprentissage par renforcement (RL) et la gestion de l'information imparfaite."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Je suis heureux qu'@OpenAI présente les évaluations de modèles de cette manière. Nous devrions mesurer l'intelligence en fonction du coût. OpenAI (@OpenAI) GPT-6.1 Sol : une intelligence proche d'Astra pour un cinquième du prix. C'est le modèle le plus rentable pour ses performances disponible aujourd'hui.",
+          "text_original": "I’m happy that @OpenAI presents model evals this way. We should measure intelligence as a function of cost. OpenAI (@OpenAI) GPT-6.1 Sol: near-Astra intelligence for a fifth of the price. It’s the most cost-efficient model for its performance available today. Video — http://shitter.thepixora.com/OpenAI/status/2104986129686741046#m",
+          "link": "http://shitter.thepixora.com/polynoamial/status/2104994025631846435#m",
+          "decryptage": "Ce tweet propose une nouvelle perspective sur l'évaluation des intelligences artificielles : au lieu de seulement mesurer leur performance brute, il faudrait aussi prendre en compte leur coût d'utilisation pour déterminer leur véritable valeur ('mesurer l'intelligence en fonction du coût')."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "Il est assez remarquable de voir comment les problèmes d'alignement interne et externe que les gens débattaient théoriquement sont aujourd'hui de simples questions empiriques en direct. Il y a une fonction de récompense qui est spécifiée. Il y a des poids de modèle qui approximent un méta-objectif. On peut faire de la science et des ablations soigneuses, etc.",
+          "text_original": "it's pretty remarkable how the inner and outer alignment problems ppl used to debate theoretically are simply live empirical questions today there is a reward function that gets specified. there are model weights that approximate some mesa-objective. you can do science and run careful ablations and so on",
+          "link": "http://shitter.thepixora.com/jam3scampbell/status/2104365779038994737#m",
+          "decryptage": "L'alignement, qui consiste à s'assurer que l'IA se comporte comme prévu, est passé d'un sujet de débat purement théorique à un problème pratique que les chercheurs abordent par des expériences ('questions empiriques en direct'), en ajustant les 'fonctions de récompense' et les 'poids des modèles'."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "L'alignement technique est un problème scientifique et d'ingénierie que nous pouvons et devons résoudre, et l'interprétabilité est le goulot d'étranglement. J'ai rédigé le plan de Goodfire pour y parvenir. Article Nous pouvons et devons résoudre l'alignement À San Francisco, on a l'impression d'être à la veille de la singularité. Pourtant, une promenade en ville semble étonnamment banale, avec des voitures sans conducteur et du brouillard roulant faisant partie égale du paysage. Le monde se sent",
+          "text_original": "Technical alignment is a science and engineering problem that we can and must solve, and interpretability is the bottleneck. I wrote up Goodfire’s plan to get there. Article We can and must solve alignment In San Francisco, it feels like the eve of the singularity. Yet, a walk through the city looks surprisingly mundane, with driverless cars and rolling fog equal parts of the scenery. The world feels",
+          "link": "http://shitter.thepixora.com/eric_ho/status/2105359054763880598#m",
+          "decryptage": "L'alignement technique est le défi de s'assurer que les IA agissent selon nos objectifs. Selon ce tweet, la clé pour résoudre ce problème est l''interprétabilité', c'est-à-dire la capacité à comprendre comment l'IA prend ses décisions, ce qui est actuellement une difficulté majeure ('goulot d'étranglement')."
         }
       ],
       "outils": [
         {
-          "author_name": "Sam Altman",
-          "handle": "@sama",
-          "text_fr": "Les \"Dots\" sont là ! Une nouvelle façon d'utiliser l'IA qui travaille pour vous 24h/24 et 7j/7 ; récupérez plus de votre temps et de votre attention pour travailler à un niveau supérieur. openai.com/index/introducing… Lien Présentation des Dots. Les Dots par OpenAI sont des assistants proactifs qui peuvent continuer à travailler sur des projets complexes et des tâches quotidiennes. Découvrez comment les Dots vous aident à garder le contrôle pendant que le travail avance. openai.com",
-          "text_original": "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher level. openai.com/index/introducing… Link Introducing dots Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward. openai.com",
-          "link": "http://shitter.thepixora.com/sama/status/2104995014208258235#m",
-          "decryptage": "Les \"Dots\" sont de nouveaux assistants IA d'OpenAI, capables de travailler de manière autonome sur des tâches et projets complexes pour vous faire gagner du temps."
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Google annonce que les agents Gemini 4 Argon ont déjà libéré plus de 300 Tio de mémoire dans ses centres de données, avec une limite de sortie d'un million de jetons, et que ces agents optimisent déjà leur propre infrastructure. Les agents ont analysé les données de profilage, trouvé des optimisations de mémoire et appliqué des changements qui ont ensuite été déployés. Les agents Argon travaillent également sur les migrations de C/C++ vers Rust, atteignant plus de 800 000 lignes de code du noyau, avec des audits et des tests approfondis avant le déploiement. Pour son décodeur vidéo, Google affirme que les agents ont remplacé 32 000 lignes de code SIMD par du Rust sécurisé, rendant le portage Rust existant 2,7 fois plus rapide tout en conservant une sortie vidéo identique. Ce sont des tâches d'ingénierie coûteuses au sein de l'infrastructure que Google opère déjà. Cette sortie semble être beaucoup plus importante que ce que les gens pensent !",
+          "text_original": "Google says Gemini 4 Argon agents have already freed over 300 TiB of memory across its data centers, with a 1 million token output limit and agents already optimizing its own infrastructure. The agents analyzed profiling data, found memory optimizations and applied changes that were subsequently rolled out. Argon agents are also working on C/C++ to Rust migrations reaching 800,000+ lines of kernel code, with extensive audits and testing before deployment. For its video decoder, Google says agents replaced 32,000 lines of SIMD code with safe Rust, making the existing Rust port 2.7x faster while preserving identical video output. These are expensive engineering tasks inside infrastructure Google already operates. This release seems to be a much bigger deal than people think!",
+          "link": "http://shitter.thepixora.com/kimmonismus/status/2105395385191776455#m",
+          "decryptage": "Les 'agents' sont des programmes IA qui peuvent agir de manière autonome pour accomplir des tâches, comme ici optimiser les systèmes informatiques de Google, et les 'jetons' sont les unités de texte que les IA traitent. Rust et C/C++ sont des langages de programmation, et le passage à Rust améliore souvent la sécurité et la performance des logiciels."
         },
         {
-          "author_name": "Sam Altman",
-          "handle": "@sama",
-          "text_fr": "6.1 Sol pour un cinquième du prix d'Astra, et 95% de réduction sur la lecture du cache ! Un modèle extrêmement performant. Tibo (@thsottiaux) Présentation de 6.1 Sol, une intelligence presque équivalente à Astra pour un cinquième de son prix et 95% de réduction sur la lecture du cache. C'est une véritable bête de somme. Combiné à « ultrafast » pour une vitesse 8 fois supérieure, disponible dès aujourd'hui pour Astra et bientôt pour 6.1 Sol. — http://shitter.thepixora.com/thsottiaux/status/2104986027953930613#m",
-          "text_original": "6.1 Sol at 1/5th of the price of Astra, and 95% cache read discount! Extremely capable model. Tibo (@thsottiaux) Introducing 6.1 Sol, near Astra intelligence at one fifth of the price of Astra and 95% cache read discount. It is an absolute workhorse. Combined with ultrafast for 8X speeded available today for Astra and coming soon for 6.1 Sol. — http://shitter.thepixora.com/thsottiaux/status/2104986027953930613#m",
-          "link": "http://shitter.thepixora.com/sama/status/2104994395980533804#m",
-          "decryptage": "\"6.1 Sol\" est un nouveau modèle d'IA très puissant, presque aussi bon que le modèle haut de gamme \"Astra\", mais beaucoup plus abordable. \"Ultrafast\" est une technologie qui rend ces modèles encore plus rapides."
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Gemini 4 Argon a un taux d'hallucination incroyablement bas sur Artificial Analysis, à 15%. Grok 4.7 est à 29%. GPT-6 Astra à 45%. Opus 5.5 à 59%. Fable 5.1 à 69%. Les seuls modèles en dessous répondent à peine à quoi que ce soit. Aucun d'entre eux n'obtient plus de 15% de bonnes réponses. Il donne moins de bonnes réponses qu'Opus 5.5 au maximum, 50% contre 66%. Mais quand il ne sait pas, il le dit au lieu d'inventer quelque chose. Hâte de l'essayer.",
+          "text_original": "Gemini 4 Argon has an insanely low hallucination rate on Artificial Analysis. 15%. Grok 4.7 is at 29%. GPT-6 Astra 45%. Opus 5.5 59%. Fable 5.1 69%. The only models below it barely answer anything. None of them get more than 15% right. It gets fewer answers right than Opus 5.5 on max, 50% against 66%. But when it doesnt know, it says so instead of making something up. Cant wait to get my hands on it.",
+          "link": "http://shitter.thepixora.com/aipulseda1ly/status/2105394296815779861#m",
+          "decryptage": "Le taux d'hallucination d'une IA mesure la fréquence à laquelle elle invente des informations ou donne des réponses fausses mais formulées de manière convaincante, un problème courant pour les modèles de langage."
         },
         {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Présentation de Gemini 4 Argon, notre nouveau modèle de pointe, déployé dès aujourd'hui pour les défenseurs cybernétiques, et plus largement dès que possible. Je suis vraiment enthousiasmé par les progrès que nous avons réalisés ici. Argon est proposé à 2$ en entrée et 10$ en sortie pendant la période de lancement !",
-          "text_original": "Introducing Gemini 4 Argon, our new frontier model, rolling out to cyber defenders starting today, and more widely as soon as possible. I am really excited by the progress we have made here. Argon is priced at $2 in and $10 out during introductory pricing!",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2105388054274080946#m",
-          "decryptage": "Gemini 4 Argon est un nouveau modèle d'IA puissant de Google, désormais accessible pour la cyberdéfense. Les prix \"en entrée\" et \"en sortie\" se réfèrent généralement au coût pour envoyer des informations (prompts) au modèle et recevoir ses réponses."
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Les résultats sont encore plus impressionnants au maximum ! 6.1 sol surpasse Opus 5.5 tout en utilisant 4 fois moins de jetons.",
+          "text_original": "Results are even more impressive at max! 6.1 sol outperforms Opus 5.5 while using 4x fewer tokens.",
+          "link": "http://shitter.thepixora.com/gen_obligation/status/2105023008200864113#m",
+          "decryptage": "Ce tweet met en avant l'efficacité d'un nouveau modèle d'IA, GPT-6.1 Sol, qui est capable d'obtenir de meilleurs résultats qu'un autre modèle ('Opus 5.5') tout en consommant beaucoup moins de 'jetons', ce qui signifie qu'il est plus rapide et moins coûteux à utiliser."
         },
         {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Tout cela, ainsi qu'une nouvelle expérience dans @GoogleAIStudio, avec un coût inférieur à celui de notre précédent modèle TTS Flash 3.1 ! En savoir plus : blog.google/innovation-and-a… Lien Gemini 3.8 text-to-speech vous dit bonjour. Gemini 3.8 Flash-Lite TTS et Gemini 3.8 Flash TTS sont nos modèles audio les plus expressifs à ce jour. blog.google",
-          "text_original": "all of this, along with a new experince in @GoogleAIStudio , with a lower cost than our previous 3.1 Flash TTS model! Read more: blog.google/innovation-and-a… Link Gemini 3.8 text-to-speech says hello Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet. blog.google",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2102786116453880283#m",
-          "decryptage": "@GoogleAIStudio est une plateforme où les développeurs peuvent utiliser et expérimenter les modèles d'IA de Google, et \"TTS\" (Text-to-Speech) désigne des modèles qui génèrent de la voix à partir de texte."
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "J'ai testé 'dots' ce week-end et il a trouvé comment me faire économiser environ 500 $/an sur mes frais récurrents. Le plus impressionnant, c'est quand il s'est connecté au service client et a géré une conversation par SMS en mon nom. OpenAI (@OpenAI) Présente 'dots', propulsé par GPT-6 Astra. Des agents remarquablement capables, toujours actifs, conçus pour tout gérer.",
+          "text_original": "Was testing out dots over the weekend and it figured out how to save me ~$500/yr in recurring charges. Most impressive part was when it connected to customer service and handled a whole texting convo on my behalf. OpenAI (@OpenAI) Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything. — http://shitter.thepixora.com/OpenAI/status/2104984504133918973#m",
+          "link": "http://shitter.thepixora.com/polynoamial/status/2104990938145890462#m",
+          "decryptage": "Les 'agents' IA comme 'dots' sont des programmes capables d'interagir de manière autonome pour accomplir des tâches complexes, ici négocier avec un service client, ce qui est une avancée vers des assistants personnels très autonomes."
         },
         {
-          "author_name": "Anthropic",
-          "handle": "@AnthropicAI",
-          "text_fr": "Claude Sonnet 5.5 est maintenant disponible : Claude (@claudeai) Présentation de Claude Sonnet 5.5, le deuxième modèle de la famille Claude 5.5. C'est une nette amélioration par rapport à Sonnet 5, il fonctionne plus de 30% plus vite et coûte jusqu'à 30% moins cher pour la plupart des travaux. Vidéo — http://shitter.thepixora.com/claudeai/status/2104633115620823187#m",
-          "text_original": "Claude Sonnet 5.5 is now available: Claude (@claudeai) Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work. Video — http://shitter.thepixora.com/claudeai/status/2104633115620823187#m",
-          "link": "http://shitter.thepixora.com/AnthropicAI/status/2104633259925630995#m",
-          "decryptage": "Claude Sonnet 5.5 est une nouvelle version améliorée du modèle d'IA \"Claude\" d'Anthropic, offrant des performances plus rapides et un coût réduit, ce qui le rend plus accessible et efficace pour les utilisateurs."
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "nous avons trouvé qu'Opus 5.5 était 2 fois plus efficace que gpt-6-sol dans nos évaluations internes de cfo.ai, donc je ne m'attendais pas à ce que 6.1-sol améliore autant, mais le voir 3 fois plus efficace qu'Opus 5.5 et 2,5 fois plus que Sonnet 5.5 est vraiment incroyable 🤯 c'est une version ponctuelle insensée",
+          "text_original": "we found opus 5.5 to be 2X as efficient as gpt-6-sol in our internal cfo.ai evals so i was not expecting 6.1-sol to improve on that much but to see it 3X the efficiency of opus 5.5 and 2.5X against even sonnet 5.5 is actually 🤯 this is an insane point release",
+          "link": "http://shitter.thepixora.com/blader/status/2105095660450320571#m",
+          "decryptage": "Ce tweet compare l'efficacité de différents modèles d'IA, soulignant que GPT-6.1 Sol est bien plus performant et économe en ressources que ses concurrents comme Opus 5.5 et Sonnet 5.5, ce qui est un progrès majeur."
         },
         {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Nouveau dans LangGraph : les interruptions avec schémas de réponse typés ! Lorsque votre agent fait une pause pour un humain, vous définissez à quoi ressemble une réponse valide : 1. Les réponses sont validées avant d'être transmises à l'agent. 2. Vous pouvez afficher un vrai formulaire de réponse dans votre interface utilisateur, pas seulement un champ de saisie JSON. L'humain dans la boucle, mais (type) sécurisé. docs: docs.langchain.com/oss/pytho… Vidéo",
-          "text_original": "new in langgraph: interrupts with typed response schemas! when your agent pauses for a human, you define what a valid response looks like: 1. responses are validated before they're passed back to the agent 2. you can render a real response form in your UI, not just a json entry field human in the loop, but (type) safe docs: docs.langchain.com/oss/pytho… Video",
-          "link": "http://shitter.thepixora.com/sydneyrunkle/status/2105386023752790083#m",
-          "decryptage": "LangGraph est un outil qui aide à construire des agents IA. Cette nouvelle fonctionnalité permet aux agents de \"faire une pause\" pour demander l'avis d'un humain, en s'assurant que la réponse humaine est bien structurée et valide avant que l'IA ne continue son travail (\"human in the loop\")."
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "L'exécution mise à jour vient de se terminer. GPT-6.1 Sol écrase toujours la concurrence. Il s'avère qu'il est BEAUCOUP plus performant dans Codex que dans mini-swe (ce qu'utilise Artificial Analysis) Theo - t3.gg (@theo) Quand j'ai fait cette vidéo, il n'y avait pas encore de benchmarks, alors j'ai dû les exécuter moi-même. Ma mâchoire est tombée quand j'ai vu les scores de Terminal Bench 4. Performance meilleure qu'Opus 5.5 pour environ 1/30e du prix 🤯",
+          "text_original": "Updated run just finished. GPT-6.1 Sol still crushes. Turns out it performs WAY better in Codex than in mini-swe (what Artificial Analysis uses) Theo - t3.gg (@theo) When I made this video, there were no benchmarks yet, so I had to run them myself. Jaw dropped when I saw the Terminal Bench 4 scores. Performance better than Opus 5.5 for ~1/30th of the price 🤯 — http://shitter.thepixora.com/theo/status/2105000888192663582#m",
+          "link": "http://shitter.thepixora.com/theo/status/2105063015712465094#m",
+          "decryptage": "Ce tweet rapporte des résultats de performance exceptionnels pour le modèle d'IA GPT-6.1 Sol, en particulier pour les tâches de programmation (comme avec Codex), le rendant non seulement très performant mais aussi extrêmement rentable par rapport à d'autres modèles."
         },
         {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Certains me demandaient le code source de cette démo ! Lien dans le fil si vous voulez le forker/construire dessus dans n'importe quelle direction. Notre documentation pour les canaux HTTP est également fantastique. LangChain (@LangChain) Les Deep Agents gérés 0.8 intègrent les canaux HTTP : les agents peuvent recevoir des requêtes de n'importe quel webhook, pas seulement de Slack. @ndrezn a construit un agent de dépenses qui fonctionne par messages texte, soutenu par @PhotonHQ. Envoyez un reçu, il est enregistré automatiquement. Plus sur les Deep Agents gérés : langchain.com/blog/langsmith… Vidéo — http://shitter.thepixora.com/LangChain/status/2105342049700462829#m",
-          "text_original": "I had some folks asking for the source code for this demo! Link in 🧵 if you want to fork/build off of it in any direction. Our documentation for HTTP channels is also fantastic. LangChain (@LangChain) Managed Deep Agents 0.8 ships HTTP channels: agents can take requests from any webhook, not just Slack. @ndrezn built an expense agent that lives in text messages, backed by @PhotonHQ . Text a receipt, get it logged automatically. More on Managed Deep Agents: langchain.com/blog/langsmith… Video — http://shitter.thepixora.com/LangChain/status/2105342049700462829#m",
-          "link": "http://shitter.thepixora.com/ndrezn/status/2105380127265931712#m",
-          "decryptage": "LangChain est une boîte à outils pour créer des applications avec l'IA. Cette mise à jour permet aux \"Deep Agents\" (des agents IA avancés) de communiquer via des \"canaux HTTP\" (une méthode de communication web standard), facilitant leur intégration avec d'autres services, comme envoyer des SMS pour enregistrer des dépenses."
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "🛡️Présentation de Shieldstral, le modèle à poids ouverts de 3 milliards de paramètres de Mistral pour la sécurité du contenu qui peut être déployé sur l'appareil 🧵 mistral.ai/news/shieldstral",
+          "text_original": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 mistral.ai/news/shieldstral",
+          "link": "http://shitter.thepixora.com/MistralAI/status/2084684735725379637#m",
+          "decryptage": "Shieldstral est un nouveau modèle d'IA de Mistral, conçu pour la 'sécurité du contenu' (filtrage des informations inappropriées ou dangereuses), qui a la particularité d'être 'à poids ouverts' et de pouvoir fonctionner directement sur des appareils (téléphones, ordinateurs) sans nécessiter de serveur distant."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Annonce de Robostral Navigate, notre premier modèle pour la navigation incarnée : un modèle de navigation robotique de 8 milliards de paramètres qui guide les robots pour effectuer des tâches de manière autonome spécifiées en langage naturel. Caméra RGB unique. État de l'art sur R2R-CE.",
+          "text_original": "Announcing Robostral Navigate, our first model for embodied navigation: an 8B robotics navigation model that guides robots to autonomously perform tasks specified with natural language. Single RGB camera. State-of-the-art on R2R-CE. Video",
+          "link": "http://shitter.thepixora.com/MistralAI/status/2074856309438980145#m",
+          "decryptage": "Robostral Navigate est un modèle d'IA créé par Mistral pour les robots, leur permettant de comprendre des instructions en langage simple et de se déplacer de manière autonome dans un environnement, simplement à l'aide d'une caméra."
+        },
+        {
+          "author_name": "Guillaume Lample",
+          "handle": "@GuillaumeLample",
+          "text_fr": "Aujourd'hui, nous lançons Le Chaton L∃∀N, alias Leanstral 1.5. Il atteint des performances de pointe sur les benchmarks d'algèbre de niveau master FATE-H et FATE-X et améliore la Frontière de Pareto sur PutnamBench, résolvant 587/672 problèmes avec un budget 10 fois moins cher. 🧵",
+          "text_original": "Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and improves Pareto Frontier on PutnamBench, solving 587/672 problems with a x10 cheaper budget. 🧵",
+          "link": "http://shitter.thepixora.com/mertunsal2020/status/2073046288208412960#m",
+          "decryptage": "Leanstral 1.5 est un nouveau modèle d'IA qui excelle dans la résolution de problèmes d'algèbre complexes, surpassant d'autres modèles tout en étant beaucoup plus économique en termes de ressources ('budget 10 fois moins cher')."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Belle \"publication\" du USG - ils ont même mis en open-source et publié le modèle Rampart utilisé pour filtrer les données PII sur HF ! 🤗🇺🇸 huggingface.co/nationaldesig… Lien nationaldesignstudio/rampart · Hugging Face Nous sommes en quête de faire progresser et de démocratiser l'intelligence artificielle grâce à l'open source et la science ouverte. huggingface.co USA First Lab (@usafirstlab) Voici comment cela fonctionne en pratique. Avant que tout ce que vous tapez sur America.gov ne quitte votre téléphone, un filtre appelé Rampart le lit sur votre appareil. Des règles détectent les numéros de sécurité sociale, les numéros de carte, les numéros de compte bancaire et de routage, les numéros de téléphone, les e-mails et les identifiants gouvernementaux. Ces détails sont remplacés dans votre navigateur en environ 4 millisecondes. Le serveur ne voit jamais que les espaces vides. Aucune de ces informations ne quitte jamais votre appareil. Rampart, Open source, construit par @ndstudio @taigrr @as400495 @ahmadaccino @caelin_sutch @adambhaloo @tylertaewook @dietguacc @jgebbia Lien America.gov Trouvez des réponses auprès de sources gouvernementales officielles et des prochaines étapes claires pour les services dont vous avez besoin avec America.gov. america.gov — http://shitter.thepixora.com/usafirstlab/status/2104953266819788805#m",
+          "link": "http://shitter.thepixora.com/pierrci/status/2105014951274271225#m",
+          "decryptage": "Le modèle Rampart, maintenant en 'open-source' (code public), est un outil d'IA conçu pour protéger la vie privée en filtrant automatiquement les 'données PII' (informations personnelles identifiables comme les numéros de sécurité sociale) directement sur l'appareil de l'utilisateur avant qu'elles n'atteignent un serveur."
         }
       ]
     }
   },
-  "processed_at": "2026-10-01T13:58:31",
+  "processed_at": "2026-10-01T14:28:58",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 77,
-    "total": 39,
+    "with_decryptage_pct": 76,
+    "total": 42,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-10-01T13:58:32"
+  "email_sent_at": "2026-10-01T14:28:59"
 }
