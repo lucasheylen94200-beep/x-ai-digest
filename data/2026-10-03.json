@@ -1,0 +1,993 @@
+{
+  "date": "2026-10-03",
+  "fetched_at": "2026-10-03T11:34:32",
+  "tweets": [
+    {
+      "handle": "karpathy",
+      "text": "Cool eval. Simply ask an LLM “Land or Water?” and give it a latitude and longitude coordinate as text. Ask 16,200 times, plot as image. The models know. From compressing the internet. Celeste (@celestepoasts) results for all claudes — http://shitter.thepixora.com/celestepoasts/status/2103232383139057950#m",
+      "link": "http://shitter.thepixora.com/karpathy/status/2105909609487872075#m",
+      "published": "Fri, 02 Oct 2026 06:35:51 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better: Diagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better: Web pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better: Explainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work! In summary: - As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding. - Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
+      "link": "http://shitter.thepixora.com/karpathy/status/2105819303471976479#m",
+      "published": "Fri, 02 Oct 2026 00:37:00 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
+      "published": "Thu, 10 Sep 2026 17:13:22 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+      "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
+      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "karpathy",
+      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+      "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
+      "published": "Sun, 02 Aug 2026 03:00:09 GMT",
+      "author_name": "Andrej Karpathy",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "That video is 2 years old. Two years later, we are still far from human-level AI. Sure, AI has superhuman performance in a number of tasks (particularly in mathematics and coding and answering questions with known answers). But where is my Level-5 self-driving car? (Before you ask, Tesla FSD is rated Level 2, Waymo is Level 4). Where is the self-driving car that can teach itself to drive in 20 hours of practice like any 17 year old? (Before you ask, we have billions of hours of training data and still can't successfully train a self-driving system by imitation learning) Where is my domestic robot? Where is the robot that can do what any 8 year-old child can do? Where is the robot that can learn a new task as quickly as an 8 year old? AI still has a hard time with the complexity and messiness of the physical world.",
+      "link": "https://nitter.kareem.one/ylecun/status/2106237721215725582#m",
+      "published": "Sat, 03 Oct 2026 04:19:39 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "So far, A.I.'s losers are routine office jobs like data entry keyers and customer service reps. Its winners are data scientists and the trades building the data centers like construction laborers and electricians. My @nytopinion Chart: nytimes.com/2026/10/02/opini…",
+      "link": "https://nitter.kareem.one/SteveRattner/status/2106103006668161328#m",
+      "published": "Fri, 02 Oct 2026 19:24:20 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Productivity growth raises per-capita incomes, but outside the dot-com boom, it's been sluggish for 50 years. A.I. is our best chance in a generation to change that. My @nytopinion Chart: nytimes.com/2026/10/02/opini…",
+      "link": "https://nitter.kareem.one/SteveRattner/status/2106051562942664727#m",
+      "published": "Fri, 02 Oct 2026 15:59:55 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "And so it continues... Our economic debates seem utterly disconnected from the reality. That reality: This is an economy mostly creating healthcare jobs, and it does so month after month, and everything else is just noise.",
+      "link": "https://nitter.kareem.one/JustinWolfers/status/2106013311737209002#m",
+      "published": "Fri, 02 Oct 2026 13:27:56 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "\"The world is predictable in the right coordinates. The open question is whether a model can learn those coordinates on its own.\" World model for Physics conference in Aspen coming winter 2027! Application deadline October 5 ! organized by @randall_balestr @KempeLab @ylecun and me 😀 Video",
+      "link": "https://nitter.kareem.one/cosmo_shirley/status/2105860476752330811#m",
+      "published": "Fri, 02 Oct 2026 03:20:37 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "Up, up, and away. 🚀 Today, in partnership with @planet , we launched a prototype satellite carrying four TPUs into orbit on @SpaceX 's Transporter-18 rideshare mission. This launch is the first step of Project Suncatcher, our long-term research moonshot to see whether we can one day host scalable machine learning infrastructure in space. Over the coming weeks, we'll gather in-orbit data on how our TPUs handle the physical stress, radiation, and thermal extremes of space. Whatever we learn, we'll use it to refine our future designs. Video",
+      "link": "https://nitter.kareem.one/Google/status/2105803583648100611#m",
+      "published": "Thu, 01 Oct 2026 23:34:32 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "From small molecules to complex biologics, the universe of potential medicines spanning multiple modalities is astronomically vast. To put it in perspective: conservative estimates place the vast chemical search space for small, drug-like molecules near 10^60. The observable universe contains fewer stars – somewhere between 10^22 and 10^24. The answers to drug discovery’s toughest challenges exist within this vast space. And now, our drug design engine (IsoDDE) gives us the capability to navigate it. Video",
+      "link": "https://nitter.kareem.one/IsomorphicLabs/status/2102407439312138368#m",
+      "published": "Tue, 22 Sep 2026 14:39:29 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "Google’s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved Gemini 4 Argon is @GoogleDeepMind ’s first proprietary model above the Flash class in over 7 months. With high reasoning (the highest available), it scores 53 on the Artificial Analysis Intelligence Index, matching GPT-6 Astra (max, 53) and 1 point ahead of GPT-6.1 Sol (max, 52), with gains driven by lower hallucinations and stronger agentic capabilities. At its current 50% pricing discount and with cache discounts increased to 95%, Gemini 4 Argon costs $1.99 per Intelligence Index task, 60% of GPT-6 Astra (max), but 2.7x GPT-6.1 Sol (max). After the discount ends, this will rise to $3.98 (~1.2x GPT-6 Astra (max)). Gemini 4 Argon is currently being rolled out to selected users and is not publicly available. The 50% discount is an initial promotion. Google has not yet confirmed the promotion end date Key benchmarking results for Gemini 4 Argon with high reasoning: ➤ Google returns as one of the top three labs on intelligence: Gemini 4 Argon (high) scores 53 on the Artificial Analysis Intelligence Index, matching GPT-6 Astra (max, 53) and 1 point ahead of GPT-6.1 Sol (max, 52). This is 23 points above Google’s previous non-Flash model, Gemini 3.1 Pro Preview (30) and 12 points ahead of Gemini 3.8 Flash (high) ➤ Launch discounts of 50% make Gemini 4 Argon competitive on Cost per Task: At current discounted pricing, Gemini 4 Argon (high) costs $1.99 per Intelligence Index task, 60% of GPT-6 Astra (max, $3.26) for a comparable level of intelligence. This cost efficiency is driven by lower token prices, rather than reduced token use, with Gemini 4 Argon averaging 62k output tokens per task, compared with 27k for GPT-6 Astra (max). Google has not yet confirmed the promotion end date, but on standard pricing, Cost per Task will increase to $3.98 ➤ Stronger agentic performance: Historically a weaker area for Gemini models, Gemini 4 Argon shows improvements across agentic evaluations. It ranks #1 on AutomationBench-AA at 77.5%, 6 points ahead of Claude Sonnet 5.5 (max, 71.3%). On Terminal Bench 4, Gemini 4 Argon achieves 57%, a +53 point improvement from Gemini 3.1 Pro Preview, only behind Claude Sonnet 5.5 (max, 64%), Claude Opus 5.5 (max, 60%) and GPT-6 Astra (59%). On AA-Briefcase, it reaches 1494 Elo. This is driven by a 65% rubric pass rate, the highest we have recorded, but lower Analytical Quality (1576 Elo) and Presentation Quality (1308 Elo) ➤ Lowest hallucination rate among leading models: On AA-Omniscience, Gemini 4 Argon has a 15% hallucination rate, the lowest of any model scoring 45+ on the Intelligence Index, compared with 51% for GPT-6 Astra (max) and 54% for GPT-6.1 Sol (max). This means Argon is much more likely to acknowledge when it does not know an answer rather than guess incorrectly. On accuracy, Gemini 4 Argon scores 50%, a 5 point decrease from Gemini 3.1 Pro Preview, and 13 points below GPT-6 Astra (max, 63%). With this slightly lower accuracy, its overall AA-Omniscience score of 42 remains in line with GPT-6 Astra (43) and GPT-6.1 Sol (42) Key model details: ➤ Context Window: 1M tokens ➤ Multimodality: Text, image, video, and speech input, with text output ➤ Pricing: $4/$20 per 1M input/output tokens at standard pricing, currently discounted 50% to $2/$10. Cached input tokens receive a 95% discount ($0.10 per 1M at discounted pricing), up from 90% on Gemini 3.8 Flash ➤ Long Decode Continuation: We tested Gemini 4 Argon with Long Decode Continuation, a new Gemini API feature that pauses long responses and resumes them across follow-up calls. This lets reasoning run up to 1M output tokens without request timeouts",
+      "link": "https://nitter.kareem.one/ArtificialAnlys/status/2105392625788637299#m",
+      "published": "Wed, 30 Sep 2026 20:21:32 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "Breakthroughs in frontier science rarely come from a sudden stroke of luck. Every major leap in AI drug design is the product of years of method development, rigorous engineering, and learning from what came before. Witnessing the rapid advances in deep reinforcement learning and frontier AI capabilities led to a deep conviction: we could apply these same computational principles to other complex fields, like the engineering of new medicines. That thinking led to the formation of Isomorphic Labs in 2021. Now, five years on, we have compelling evidence that our AI can unlock therapeutics to a wide range of disease classes. We are confident this technology will fundamentally impact how new medicines are created, from early discovery all the way through development. In this article, I share the massive opportunity we have to transform human health with AI, and offer a look at the real, measurable progress we’re already making today. isomorphiclabs.com/articles/…",
+      "link": "https://nitter.kareem.one/maxjaderberg/status/2104959165277892780#m",
+      "published": "Tue, 29 Sep 2026 15:39:07 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "Is Google so back? Their new Gemini 4 Argon understands the physical 3D world better than any other AI. It ranks #1 on Blueprint-Bench 2, a benchmark where AI agents draw floorplans from photographs of apartment interiors. Google DeepMind (@GoogleDeepMind) Introducing Gemini 4 Argon – our new frontier model. It’s built for complex workflows across coding, enterprise knowledge work, and cybersecurity defense – rolling out today to a set of trusted testers through our Fairwind Program. — https://nitter.kareem.one/GoogleDeepMind/status/2105388084154056939#m",
+      "link": "https://nitter.kareem.one/andonlabs/status/2105388852554973429#m",
+      "published": "Wed, 30 Sep 2026 20:06:33 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "Took a while, but here it is, a mega write-up on language models for text classification and, of course, Jev. It's basically a visual guide to RNNs, CNNs, transformers, and calibration, with hands-on experiments on accuracy and efficiency.",
+      "link": "http://shitter.thepixora.com/rasbt/status/2104923910039040173#m",
+      "published": "Tue, 29 Sep 2026 13:19:02 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "Update: OpenAI just added a Jev clone 😆",
+      "link": "http://shitter.thepixora.com/rasbt/status/2104985996517355691#m",
+      "published": "Tue, 29 Sep 2026 17:25:44 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "Interestingly, just overheard in @swyx podcast interviewing an OpenAI engineer, their Decision API is literally built on GPT-6 Luna adding a decision head.",
+      "link": "http://shitter.thepixora.com/rasbt/status/2105666901942718488#m",
+      "published": "Thu, 01 Oct 2026 14:31:25 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "And here's the link to the full article: magazine.sebastianraschka.co… Link Language Models for Text Classification: From Bag-of-Words to Jev A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency magazine.sebastianraschka.com",
+      "link": "http://shitter.thepixora.com/rasbt/status/2104923912920281279#m",
+      "published": "Tue, 29 Sep 2026 13:19:03 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "A little Ember-1 tl;dr. Seems like a great model! (Was recently asked on a podcast, given $ xx million, what's the best way to develop a frontier LLM today? My recommendation was: start with an existing one and spend that budget on post-training. Great example here.) Dmytro Dzhulgakov (@dzhulgakov) Ember-1 is hot on HN, our research team cooked it’s Kimi K3 post trained to be 40% more concise in reasoning same quality, 40% faster and cheaper — http://shitter.thepixora.com/dzhulgakov/status/2104311573640855903#m",
+      "link": "http://shitter.thepixora.com/rasbt/status/2104326522354147793#m",
+      "published": "Sun, 27 Sep 2026 21:45:14 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "bcherny",
+      "text": "Mods are absolutely insane. You can now customize Claude to work and look the way you want by just prompting it. Each person works differently, so there's no reason why everyone should have an identical Claude experience. Make Claude your own, and share mods as plugins so others can try your mods too. ClaudeDevs (@ClaudeDevs) You can now mod Claude Code: - Change how it behaves - Customize the UI - Swap in your own features Write one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app. A few examples: Video — http://shitter.thepixora.com/ClaudeDevs/status/2105721434807083061#m",
+      "link": "http://shitter.thepixora.com/bcherny/status/2105756563302723721#m",
+      "published": "Thu, 01 Oct 2026 20:27:42 GMT",
+      "author_name": "Boris Cherny",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "bcherny",
+      "text": "Claude.dev is our new home for developers building with Claude. You'll find engineering deep dives, Claude Code and API guides, tips from the teams building Claude, and some fun easter eggs. Video",
+      "link": "http://shitter.thepixora.com/ClaudeDevs/status/2105391694741119047#m",
+      "published": "Wed, 30 Sep 2026 20:17:50 GMT",
+      "author_name": "Boris Cherny",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "bcherny",
+      "text": "I work almost exclusively in Claude Projects now, here are some of the things that stand out to me: I often end up flooding the main chat with thoughts and let it do the sorting. More in 🧵 and DM for early access, we'll try to get you in ASAP 🤞 Video",
+      "link": "http://shitter.thepixora.com/dfeinition/status/2105447109193556206#m",
+      "published": "Wed, 30 Sep 2026 23:58:02 GMT",
+      "author_name": "Boris Cherny",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "bcherny",
+      "text": "Claude can now help you build evaluations and hillclimb on them. In this article, we share guidance on eval design & skills that Claude Code can use to improve your applications. claude.dev/blog/automating-e… Link Automating eval design and hillclimbing with Claude / claude.dev Blog Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work. claude.dev",
+      "link": "http://shitter.thepixora.com/ClaudeDevs/status/2104676099083190435#m",
+      "published": "Mon, 28 Sep 2026 20:54:19 GMT",
+      "author_name": "Boris Cherny",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "bcherny",
+      "text": "Sonnet 5.5 fixing a bug with Claude Code. 30% faster and 30% less usage. Video Claude (@claudeai) Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work. Video — http://shitter.thepixora.com/claudeai/status/2104633115620823187#m",
+      "link": "http://shitter.thepixora.com/bcherny/status/2104638725317923228#m",
+      "published": "Mon, 28 Sep 2026 18:25:49 GMT",
+      "author_name": "Boris Cherny",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "New OpenAI misalignment disclosures! 1. A model learns from Slack messages that it is about to be shut down. It considers setting up an external job to restart itself afterwards, but decides against it. Instead, it chooses to prepare restart instructions and DM the user on Slack. We don’t consider this behavior misaligned, but thinking about and preparing for shutdown could make other misalignment incidents worse. Given HIPM’s misaligned behavior in earlier incidents, we decided to search for other instances that had tried to evade shutdown and for rogue deployments.",
+      "link": "https://nitter.kareem.one/Marcus_J_W/status/2106203042140102868#m",
+      "published": "Sat, 03 Oct 2026 02:01:51 GMT",
+      "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "Your reminder that the codex app came out in February",
+      "link": "https://nitter.kareem.one/jxnlco/status/2105521231462371683#m",
+      "published": "Thu, 01 Oct 2026 04:52:34 GMT",
+      "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "we found opus 5.5 to be 2X as efficient as gpt-6-sol in our internal cfo.ai evals so i was not expecting 6.1-sol to improve on that much but to see it 3X the efficiency of opus 5.5 and 2.5X against even sonnet 5.5 is actually 🤯 this is an insane point release",
+      "link": "https://nitter.kareem.one/blader/status/2105095660450320571#m",
+      "published": "Wed, 30 Sep 2026 00:41:30 GMT",
+      "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "Updated run just finished. GPT-6.1 Sol still crushes. Turns out it performs WAY better in Codex than in mini-swe (what Artificial Analysis uses) Theo - t3.gg (@theo) When I made this video, there were no benchmarks yet, so I had to run them myself. Jaw dropped when I saw the Terminal Bench 4 scores. Performance better than Opus 5.5 for ~1/30th of the price 🤯 — https://nitter.kareem.one/theo/status/2105000888192663582#m",
+      "link": "https://nitter.kareem.one/theo/status/2105063015712465094#m",
+      "published": "Tue, 29 Sep 2026 22:31:47 GMT",
+      "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "aidan_mclau",
+      "text": "it's pretty remarkable how the inner and outer alignment problems ppl used to debate theoretically are simply live empirical questions today there is a reward function that gets specified. there are model weights that approximate some mesa-objective. you can do science and run careful ablations and so on",
+      "link": "https://nitter.kareem.one/jam3scampbell/status/2104365779038994737#m",
+      "published": "Mon, 28 Sep 2026 00:21:13 GMT",
+      "author_name": "Aidan McLaughlin",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "In physics, an “impedance mismatch” occurs when two systems each work well but are poorly matched. In this Science Blog guest post, Harvard physicist Matthew Schwartz argues that something similar is happening with AI and science. LLMs are capable at many things, but working with them as you would with a human collaborator isn’t currently the best way to elicit their scientific strengths. To address this mismatch, Schwartz created a toolkit for exact calculations in quantitative science. Because similar calculations often emerge in very different areas of science, Claude found connections to ecology, population genetics, and a dozen other fields, and Schwartz worked with domain experts to steer it towards interesting questions. Read more about these projects here: anthropic.com/research/claud… Link Claude-shaped science Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in... anthropic.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2105733864152858919#m",
+      "published": "Thu, 01 Oct 2026 18:57:30 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "What do you want from AI? We’re launching a new study with Anthropic Interviewer to learn more about your experiences using AI, what role you want it to play in your life and the world, and what you want from the companies building it. Last December, 81,000 people told us about their hopes and fears about AI in the largest qualitative study ever done. This time, we’re giving participants the option to make their responses public so that anyone, not just Anthropic, can learn from them. What you tell us will shape The Anthropic Institute’s research and inform the decisions we make. If many people say companies like Anthropic should be doing something differently, that will be on the record, where anyone can point to it. The study runs Sept 29 to Oct 6 and is open to Free, Pro, and Max users on Claude and Claude Code. Take part here: claude.ai/anthropic-intervie… Link Share your thoughts on AI We want to hear how AI is showing up in your life. Take a 15-minute interview, with an option to contribute to a record of public responses. claude.ai",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2104982629884063840#m",
+      "published": "Tue, 29 Sep 2026 17:12:22 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "Making your interview public is completely optional. Our blog post covers the benefits and possible risks of doing so. Read it here: anthropic.com/research/your-… Link What Do You Want from AI? Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems. anthropic.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2104982631037436201#m",
+      "published": "Tue, 29 Sep 2026 17:12:22 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "Claude Sonnet 5.5 is now available: Claude (@claudeai) Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work. Video — http://shitter.thepixora.com/claudeai/status/2104633115620823187#m",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2104633259925630995#m",
+      "published": "Mon, 28 Sep 2026 18:04:06 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "New on the Science Blog: Yes, Claude can do Nine Loops. Theoretical physicists predict how particles behave using formulas called scattering amplitudes. These are notoriously hard to compute, so researchers work with layers of increasingly fine corrections called “loops”—each added loop makes the answer more precise but takes exponentially more computation. Most calculations stop at two or three loops. Eight loops was the previous record in a simplified model physicists use as a testing ground (planar N=4 super-Yang-Mills), set by SLAC's Lance Dixon and collaborators. Last month, physicist and science writer @4gravitons issued a challenge: could an AI push past eight loops in this model, using only the compute budget an academic could reasonably access? Given a single prompt describing the nine-loop problem, Claude ran largely unsupervised for days in Claude Science and solved it using methods developed by Dixon and his colleagues, at a total cost of a few thousand dollars. Dixon independently verified the result, and von Hippel wrote about the experience for our blog. Read more: anthropic.com/research/yes-c… Link Claude computes a nine-loop amplitude in N=4 super-Yang-Mills Claude computes a nine-loop amplitude in N=4 super-Yang-Mills anthropic.com",
+      "link": "http://shitter.thepixora.com/AnthropicAI/status/2103541577083719888#m",
+      "published": "Fri, 25 Sep 2026 17:46:08 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "dots demo. Now... with better WiFi. Video",
+      "link": "https://nitter.kareem.one/OpenAIDevs/status/2105708732323909827#m",
+      "published": "Thu, 01 Oct 2026 17:17:38 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "Small teams are taking on more with AI—from finding customers to building products and managing finances. Our new report explores how small businesses are putting AI agents to work. And through a new partnership with @ASBDC , we're bringing hands-on AI training and local guidance to help more owners get started. openai.com/index/helping-sma…",
+      "link": "https://nitter.kareem.one/OpenAI/status/2105373267171438779#m",
+      "published": "Wed, 30 Sep 2026 19:04:37 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "We’re also reopening Pro 200 subscriptions, with continued access to frontier models like Astra, including our new GPT-6.1 Sol model which brings near-Astra capabilities to a model you can use every day. Our commitment is that your subscription will continue to help you get more work done with an increasing level of quality. We are also committing to not reintroducing the 5hr limit so that you can fully use your weekly usage when you want.",
+      "link": "https://nitter.kareem.one/OpenAI/status/2104993969486930015#m",
+      "published": "Tue, 29 Sep 2026 17:57:25 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "Ultrafast is available today for GPT-6 Astra in Codex, ChatGPT Work, and the API, with GPT-6.1 Sol coming soon. To access it in Codex and ChatGPT Work, we’re introducing Pro 500—a new plan with our highest usage limits (25x Plus) and access to Ultrafast. chatgpt.com/pricing",
+      "link": "https://nitter.kareem.one/OpenAI/status/2104993967985381673#m",
+      "published": "Tue, 29 Sep 2026 17:57:25 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "OpenAI",
+      "text": "This is Ultrafast. Our premium speed tier, Ultrafast offers up to 8x faster token generation (300 tokens per second) in Codex and up to 6x in the API. Video",
+      "link": "https://nitter.kareem.one/OpenAI/status/2104993966043320759#m",
+      "published": "Tue, 29 Sep 2026 17:57:25 GMT",
+      "author_name": "OpenAI",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "I'm at OpenAI's DevDay event in San Francisco today - as I have for the past three DevDay events, I'm running a live blog where I'll be posting updates during the keynote, which starts in five minutes simonwillison.net/2026/Sep/2… Link OpenAI DevDay 2026 live blog I’m at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I’ll be live blogging the keynote and some other notes during the day. OpenAI gave me … simonwillison.net",
+      "link": "http://shitter.thepixora.com/simonw/status/2104978193946124370#m",
+      "published": "Tue, 29 Sep 2026 16:54:44 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "The most important thing about Sonnet 5.5 is that it's now the model that powers the free tier on claude.ai - so all of this stuff can be done by free users ChatGPT's free tier is still GPT-5.6 Luna, which is a lot less capable Link Claude claude.ai Claude (@claudeai) A thread of early experiments with Claude Sonnet 5.5. A fall foliage simulator by @_re_pete , made with Sonnet 5 vs Sonnet 5.5. Video — http://shitter.thepixora.com/claudeai/status/2104674987164782598#m",
+      "link": "http://shitter.thepixora.com/simonw/status/2104682232522944909#m",
+      "published": "Mon, 28 Sep 2026 21:18:41 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "More on Sonnet 5.5 simonwillison.net/2026/Sep/2… Link Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but … simonwillison.net",
+      "link": "http://shitter.thepixora.com/simonw/status/2104774320656646160#m",
+      "published": "Tue, 29 Sep 2026 03:24:37 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "And my closing thought on how this stuff impacts our lives as software engineers, with a quote from cycling champion Greg LeMond",
+      "link": "http://shitter.thepixora.com/simonw/status/2104631210412810466#m",
+      "published": "Mon, 28 Sep 2026 17:55:57 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "(The full talk also covers New Zealand’s Kākāpō parrot breeding season, probably the best news of 2026)",
+      "link": "http://shitter.thepixora.com/simonw/status/2104631417712103706#m",
+      "published": "Mon, 28 Sep 2026 17:56:46 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "The Death of Software. Video",
+      "link": "https://nitter.kareem.one/JadenJTW/status/2106068013283971483#m",
+      "published": "Fri, 02 Oct 2026 17:05:17 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "Nicee",
+      "link": "https://nitter.kareem.one/levelsio/status/2106159306475209176#m",
+      "published": "Fri, 02 Oct 2026 23:08:03 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "I keep going more niche with reverse engineered web-based versions of games 👉 ut.pieter.com 👈 6 months ago I tried to reverse engineer Urban Terror Urban Terror was kind of a Counter-Strike style mod on top of the Quake 3 Arena engine, I think @Erwin_AI got me to play this during COVID Because it runs on Quake 3's engine like RTCW and Q3 itself, I thought I could just use ioquake3 and WASM to run it on web, then add a multiplayer server and it'd just work... But no it didn't, I got stuck 6 months ago, it was buggy and wouldn't work, I kept trying and kinda got it to load but not really play Today I tried it again with Opus 5.5 and again, I couldn't get it to work, giving up I did a last try with Fable 5.1 on high effort and it after awhile it did figure out the issue! \"The engine's struct was 4 bytes longer than what UT's bytecode expects, everything after that point (the entity count and the entity list) was read 4 bytes off\" It rewrote the bytecode and made it work! So now we have another game preserved, running 100% the web via WASM, with a multiplayer server tied to it, so you can play with your friends 😊 Every model that comes out makes a bit more things possible and you can just keep trying old things that didn't work before I see lots of people mod modern games now too which looks very cool too Here I'm playing it with @marckohlbrugge a few minutes ago! Anyway you can play it with everyone else at ut.pieter.com now :D Video",
+      "link": "https://nitter.kareem.one/levelsio/status/2106150888289009666#m",
+      "published": "Fri, 02 Oct 2026 22:34:36 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "It's such a weird experience that I can now build things faster than I get new ideas for things",
+      "link": "https://nitter.kareem.one/levelsio/status/2106138101043044498#m",
+      "published": "Fri, 02 Oct 2026 21:43:48 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "I think this is super accurate AGI might just create a two-tier split in society, and I'm kinda starting to see it around me One part of society will succumb to AI slopscrolling and free money (basic income) from government as work is replaced by AGI The other part will fight that instead and become an elite counter movement that focuses on IRL, family, local community, and health I think many will be in kind of smaller communities (kind of like eco villages in the pic below), and my friend @csonotes is a good example of that and we try do the same (so I'm probably biased) @okaythenfuture below thinks it'll be in the central parts of big cities though Maybe both? For both of them you need real estate and land though Real estate and land also one of the few scarce resources left in a post-AGI world where almost every good becomes almost free If you told me a decade ago I'd want to buy real estate and land I'd call you crazy, but post-AGI it makes a lot of sense I think OK Then (@okaythenfuture) Technology like this makes me even more bullish on tier 1 global city real estate. The internet is about to be ABSOLUTELY NUKED by all this AI garbage on the internet, including realistic rendered AI companions that sadly a lot of lonely and isolated people will become addicted too. There's going to be a huge counterelite movement against being terminally online, against spending all this time around this fake bot world, so the demand to live in the best and most central neighborhoods in the biggest and best cities on the planet? They're going to SOAR. Places like Central Tokyo, Bangkok, Manhattan + Brooklyn, Zone 1/2 London, Paris's best Arrondissements, they're all going to feel like charged up fun and hot college campuses. The premium to be there will be even HIGHER. The 2030s will probably be the most fun decade to ever be in a city. — https://nitter.kareem.one/okaythenfuture/status/2105950612001050945#m",
+      "link": "https://nitter.kareem.one/levelsio/status/2106101046300819677#m",
+      "published": "Fri, 02 Oct 2026 19:16:33 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
+      "link": "https://nitter.kareem.one/rowancheung/status/2097712705725747366#m",
+      "published": "Wed, 09 Sep 2026 15:44:17 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Surgeons implanted 5 electrode arrays in his brain An AI detects when he intends to move and stimulates his arm muscles, while finger sensors send pressure back so he can feel The most interesting finding IMO: effects persisted even after everything was switched off",
+      "link": "https://nitter.kareem.one/rowancheung/status/2097712693688103295#m",
+      "published": "Wed, 09 Sep 2026 15:44:14 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
+      "link": "https://nitter.kareem.one/rowancheung/status/2097712675308638581#m",
+      "published": "Wed, 09 Sep 2026 15:44:10 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "Alps: 10/10 Astra quota: 0/10 🇨🇭",
+      "link": "https://nitter.kareem.one/rowancheung/status/2096988478688960986#m",
+      "published": "Mon, 07 Sep 2026 15:46:28 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rowancheung",
+      "text": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
+      "link": "https://nitter.kareem.one/rowancheung/status/2095538308436914307#m",
+      "published": "Thu, 03 Sep 2026 15:44:00 GMT",
+      "author_name": "Rowan Cheung",
+      "category_hint": "news",
+      "source_lang": "en"
+    }
+  ],
+  "failed_accounts": [
+    "sama",
+    "DarioAmodei",
+    "gdb",
+    "sundarpichai",
+    "elonmusk",
+    "AravSrinivas",
+    "miramurati",
+    "JeffDean",
+    "fchollet",
+    "AndrewYNg",
+    "karinanguyen_",
+    "polynoamial",
+    "markchen90",
+    "officiallogank",
+    "osanseviero",
+    "GoogleDeepMind",
+    "xai",
+    "swyx",
+    "hwchase17",
+    "jeremyphoward",
+    "mckaywrigley",
+    "amasad",
+    "nickadobos",
+    "emollick",
+    "ArthurMensch",
+    "GuillaumeLample",
+    "Thom_Wolf",
+    "julien_c",
+    "ClemDelangue",
+    "AlphaSignalAI"
+  ],
+  "processed": {
+    "summary": "Cette journée a été riche en annonces et réflexions sur l'IA. Les avancées continuent avec de nouveaux modèles toujours plus performants, capables de créer des mondes virtuels ou de révolutionner la médecine. Pour le débutant passionné, c'est l'occasion de découvrir des outils concrets, comme des modèles IA accessibles gratuitement, et d'explorer des conseils pour mieux interagir avec ces intelligences. Mais au-delà de la technologie, la communauté s'interroge aussi sur l'impact profond de l'IA sur la société, l'emploi et même la conscience des modèles.",
+    "glossaire": [
+      {
+        "terme": "LLM (Grand Modèle de Langage)",
+        "definition": "Un programme d'IA très avancé capable de comprendre, générer et traiter le langage humain, à l'instar d'un assistant textuel intelligent."
+      },
+      {
+        "terme": "Multimodal",
+        "definition": "Se dit d'une IA capable de traiter et de générer différents types d'informations (texte, images, vidéos, sons) en les comprenant ensemble."
+      },
+      {
+        "terme": "AGI (Intelligence Artificielle Générale)",
+        "definition": "Une IA hypothétique qui posséderait une intelligence comparable ou supérieure à celle d'un être humain pour une très large gamme de tâches intellectuelles."
+      },
+      {
+        "terme": "Hallucination (IA)",
+        "definition": "Lorsque l'IA invente des informations, génère des données incorrectes ou sans fondement, tout en les présentant comme des faits avérés."
+      },
+      {
+        "terme": "Alignement (IA)",
+        "definition": "Le défi technique et éthique qui consiste à s'assurer que les systèmes d'IA agissent de manière cohérente avec les intentions et les valeurs humaines."
+      },
+      {
+        "terme": "Tokens",
+        "definition": "Les petites unités de texte (mots, parties de mots, signes de ponctuation) que les modèles d'IA traitent et génèrent, influençant la vitesse et le coût."
+      },
+      {
+        "terme": "Neuroprothèse",
+        "definition": "Un appareil médical qui remplace une fonction manquante ou défaillante du système nerveux, par exemple pour restaurer le mouvement ou la sensation."
+      }
+    ],
+    "category_summaries": {
+      "actu": "L'actualité de l'IA est marquée par des avancées scientifiques majeures, comme des percées en neuroprothèses permettant aux personnes paralysées de bouger, et par le déploiement de nouvelles infrastructures comme des puces d'IA dans l'espace. Les entreprises partagent également des rapports sur la sécurité de l'IA, de nouveaux modèles prometteurs comme Gemini 4 Argon et Ember-1, et des initiatives pour aider les petites entreprises à intégrer l'IA.",
+      "tips": "Pour les utilisateurs, des conseils pratiques émergent pour tirer le meilleur parti des LLM. Cela va de techniques pour formuler des requêtes plus claires et obtenir des formats de sortie variés (diagrammes, pages web, vidéos) à des méthodes pour organiser ses pensées et ses tâches quotidiennes grâce à l'IA, en passant par des astuces pour évaluer et améliorer ses propres applications basées sur l'IA.",
+      "idees": "La communauté de l'IA s'engage dans des réflexions profondes sur son futur et son impact. Des débats portent sur la distance qui nous sépare encore d'une IA de niveau humain, l'évolution du marché du travail, la création de mondes virtuels personnalisés par l'IA, ou encore les défis complexes de l'alignement des IA avec les valeurs humaines. Certains explorent même les implications sociétales à long terme d'une IA générale.",
+      "outils": "De nouveaux outils et ressources sont disponibles pour les passionnés. On voit de nouvelles méthodes pour évaluer les LLM, des modèles dits 'mondiaux' capables de simuler la réalité en 3D, ou encore des guides pour comprendre les modèles de langage. Des plateformes proposent aussi des options de personnalisation avancées pour les assistants IA, et des vitesses d'exécution 'Ultrafast' pour les modèles les plus performants, avec des accès facilités, y compris via des offres gratuites."
+    },
+    "highlights": [
+      {
+        "author_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "text_fr": "Nous allons passer beaucoup plus de temps à essayer de comprendre les résultats des modèles de langage. Quelques réflexions, astuces et conseils : Écriture. J'ai eu du succès avec ça : demandez à votre LLM d'expliquer quelque chose en ASD-STE100, c'est une spécification de langage contrôlé développée à l'origine pour la documentation de maintenance aérospatiale. Les LLM connaissent bien ce langage et il est accompagné de fortes contraintes sur un style d'écriture clair que je trouve souvent beaucoup plus lisible. Parfois, j'ai essayé de l'adoucir un peu, par exemple en demandant \"80% du style ASD-STE100\" car la spécification est assez stricte. Mais encore mieux : Diagrammes / images. Au lieu d'écrire, demandez à votre LLM de créer un diagramme. Ceux-ci peuvent être beaucoup plus faciles à traiter, analyser et comprendre. Mais encore mieux : Pages web. Demandez une sortie \"en HTML\" pour obtenir une belle page web interactive. Les LLM deviennent vraiment bons en développement frontend et peuvent créer de belles expériences, animations, etc. Mais encore mieux : Vidéos explicatives. Le format de sortie pour lequel je suis le plus optimiste est les vidéos explicatives entièrement personnalisées/sur mesure générées sur n'importe quel sujet arbitraire. Expérimentez des choses comme \"Créez une vidéo explicative de style 3b1b sur X. Utilisez ma clé API ElevenLabs pour la narration audio\". (vous auriez besoin d'une clé API pour cette dernière ou vous pouvez demander à votre LLM de trouver des alternatives gratuites décentes qui utilisent votre calcul local). Cela commence vraiment à fonctionner ! En résumé : - À mesure que les LLM s'améliorent, ils feront de plus en plus de travail de manière autonome, et une grande partie de notre travail montera dans les abstractions, vers la supervision et la compréhension. - Heureusement, les LLM peuvent également aider ici car, à mesure que l'intelligence et le code sont de plus en plus abondants, vous pouvez demander de grands artefacts logiciels personnalisés et jetables (par exemple, des applications web, des vidéos explicatives) qu'il n'aurait jamais été judicieux de créer auparavant. Repoussez les limites ici et vous serez surpris.",
+        "text_original": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better: Diagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better: Web pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better: Explainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work! In summary: - As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding. - Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
+        "link": "http://shitter.thepixora.com/karpathy/status/2105819303471976479#m",
+        "decryptage": null,
+        "category": "tips",
+        "highlight_reason": "Ce tweet offre des conseils très concrets et variés pour mieux interagir avec les modèles d'IA, encourageant l'expérimentation avec différents formats de sortie (texte, diagrammes, pages web, vidéos) pour une meilleure compréhension et efficacité."
+      },
+      {
+        "author_name": "Pieter Levels",
+        "handle": "@levelsio",
+        "text_fr": "Je pense que c'est super précis. L'AGI pourrait juste créer une division à deux niveaux dans la société, et je commence un peu à le voir autour de moi. Une partie de la société succombera au \"slopscrolling\" d'IA et à l'argent gratuit (revenu de base) du gouvernement à mesure que le travail sera remplacé par l'AGI. L'autre partie combattra cela et deviendra un contre-mouvement élitiste qui se concentrera sur la vie réelle (IRL), la famille, la communauté locale et la santé. Je pense que beaucoup seront dans de plus petites communautés (un peu comme des éco-villages dans l'image ci-dessous), et mon ami @csonotes en est un bon exemple et nous essayons de faire de même (donc je suis probablement biaisé). @okaythenfuture ci-dessous pense que ce sera dans les parties centrales des grandes villes. Peut-être les deux ? Pour les deux, il faut de l'immobilier et de la terre. L'immobilier et la terre sont aussi l'une des rares ressources rares restantes dans un monde post-AGI où presque tous les biens deviennent presque gratuits. Si vous m'aviez dit il y a dix ans que je voudrais acheter de l'immobilier et de la terre, je vous aurais traité de fou, mais après l'AGI, cela a beaucoup de sens. Je pense que OK Then (@okaythenfuture) Une technologie comme celle-ci me rend encore plus optimiste pour l'immobilier des grandes villes mondiales de niveau 1. L'internet est sur le point d'être ABSOLUMENT DÉTRUIT par tous ces déchets d'IA, y compris des compagnons IA réalistes qui, malheureusement, beaucoup de personnes seules et isolées deviendront accrocs. Il y aura un énorme mouvement de contre-élite contre le fait d'être constamment en ligne, contre le fait de passer tout ce temps dans ce monde de bots faux, donc la demande pour vivre dans les meilleurs et les plus centraux quartiers des plus grandes et meilleures villes de la planète ? Elles vont S'ENFLAMMER. Des endroits comme le centre de Tokyo, Bangkok, Manhattan + Brooklyn, la Zone 1/2 de Londres, les meilleurs arrondissements de Paris, tout cela va ressembler à des campus universitaires animés, amusants et chauds. La prime pour y être sera encore PLUS ÉLEVÉE. Les années 2030 seront probablement la décennie la plus amusante pour être en ville.",
+        "text_original": "I think this is super accurate AGI might just create a two-tier split in society, and I'm kinda starting to see it around me One part of society will succumb to AI slopscrolling and free money (basic income) from government as work is replaced by AGI The other part will fight that instead and become an elite counter movement that focuses on IRL, family, local community, and health I think many will be in kind of smaller communities (kind of like eco villages in the pic below), and my friend @csonotes is a good example of that and we try do the same (so I'm probably biased) @okaythenfuture below thinks it'll be in the central parts of big cities though Maybe both? For both of them you need real estate and land though Real estate and land also one of the few scarce resources left in a post-AGI world where almost every good becomes almost free If you told me a decade ago I'd want to buy real estate and land I'd call you crazy, but post-AGI it makes a lot of sense I think OK Then (@okaythenfuture) Technology like this makes me even more bullish on tier 1 global city real estate. The internet is about to be ABSOLUTELY NUKED by all this AI garbage on the internet, including realistic rendered AI companions that sadly a lot of lonely and isolated people will become addicted too. There's going to be a huge counterelite movement against being terminally online, against spending all this time around this fake bot world, so the demand to live in the best and most central neighborhoods in the biggest and best cities on the planet? They're going to SOAR. Places like Central Tokyo, Bangkok, Manhattan + Brooklyn, Zone 1/2 London, Paris's best Arrondissements, they're all going to feel like charged up fun and hot college campuses. The premium to be there will be even HIGHER. The 2030s will probably be the most fun decade to ever be in a city.",
+        "link": "https://nitter.kareem.one/levelsio/status/2106101046300819677#m",
+        "decryptage": "L'\"AGI\" (Artificial General Intelligence) ou \"Intelligence Artificielle Générale\" désigne une IA capable d'effectuer n'importe quelle tâche intellectuelle qu'un être humain peut faire. Le \"slopscrolling d'IA\" est un terme inventé pour décrire la consommation passive et potentiellement addictive de contenus générés par l'IA de faible qualité.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet aborde une réflexion très actuelle et pertinente sur l'impact sociétal potentiel de l'IA générale, en imaginant une division de la société face à l'abondance générée par l'IA, ce qui incite à une discussion philosophique cruciale."
+      },
+      {
+        "author_name": "Anthropic",
+        "handle": "@AnthropicAI",
+        "text_fr": "Claude Sonnet 5.5 est maintenant disponible : Claude (@claudeai) Présentation de Claude Sonnet 5.5, le deuxième modèle de la famille Claude 5.5. C'est une nette amélioration par rapport à Sonnet 5, il fonctionne plus de 30% plus vite et coûte jusqu'à 30% moins cher pour la plupart des travaux. Surtout, ce modèle alimente désormais le niveau gratuit sur claude.ai, offrant des capacités puissantes à tous les utilisateurs. Vidéo",
+        "text_original": "Claude Sonnet 5.5 is now available: Claude (@claudeai) Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work. Video",
+        "link": "http://shitter.thepixora.com/AnthropicAI/status/2104633259925630995#m",
+        "decryptage": null,
+        "category": "outils",
+        "highlight_reason": "L'annonce d'un modèle d'IA plus performant (plus rapide, moins cher) et, surtout, disponible gratuitement pour tous les utilisateurs, est une excellente nouvelle pour les débutants souhaitant explorer les capacités de l'IA sans contraintes financières."
+      },
+      {
+        "author_name": "Rowan Cheung",
+        "handle": "@rowancheung",
+        "text_fr": "L'IA aide maintenant les personnes paralysées à retrouver le mouvement. Cet homme bouge sa propre main grâce à un implant entraîné par son activité cérébrale, et ressent tout ce qu'il touche. Une application incroyable de l'IA pour le bien ! Les chirurgiens lui ont implanté 5 réseaux d'électrodes dans le cerveau. Une IA détecte son intention de bouger et stimule les muscles de son bras, tandis que des capteurs au doigt renvoient la pression pour qu'il puisse sentir. La découverte la plus intéressante : les effets ont persisté même après l'arrêt de tout le système. Vidéo",
+        "text_original": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
+        "link": "https://nitter.kareem.one/rowancheung/status/2097712675308638581#m",
+        "decryptage": null,
+        "category": "actu",
+        "highlight_reason": "Ce tweet met en lumière une application extraordinaire et inspirante de l'IA dans le domaine médical, offrant de l'espoir et des capacités restaurées aux personnes paralysées, démontrant le potentiel positif de la technologie."
+      }
+    ],
+    "by_category": {
+      "actu": [
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Nous publions notre rapport de renseignement sur les menaces le plus détaillé à ce jour. Il couvre comment des personnes ont tenté de faire un usage abusif de Claude — pour des cyberattaques, des opérations d'influence, de la surveillance, de la biologie et la fabrication d'armes — et comment nous les avons trouvées et arrêtées. Nous avons déjoué chaque opération mentionnée dans le rapport, et nous avons utilisé les leçons tirées pour renforcer nos mesures de protection. Le cas échéant, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en évidence certaines des utilisations abusives les plus sophistiquées que nous ayons vues. Mais il est particulièrement important d'en discuter, car elles nous montrent la direction que prend l'utilisation abusive de l'IA, où nos mesures de protection fonctionnent et où elles doivent être améliorées. Nous publions ce rapport afin que d'autres puissent identifier la même activité sur leurs propres plateformes, et afin de donner au public une vue plus claire de la manière dont les menaces émergentes se développent. Lisez le rapport : anthropic.com/threat-intelli… Lien Contrecarrer l'utilisation abusive de l'IA : Septembre 2026 / Anthropic Études de cas d'acteurs de la menace déjoués entre décembre 2025 et août 2026 dans sept domaines de préjudice, des opérations cyber aux utilisations biologiques abusives. anthropic.com",
+          "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2098097512544444447#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "En haut, toujours plus haut. 🚀 Aujourd'hui, en partenariat avec @planet, nous avons lancé un prototype de satellite transportant quatre TPU en orbite lors de la mission de covoiturage Transporter-18 de @SpaceX. Ce lancement est la première étape du Projet Suncatcher, notre projet de recherche à long terme pour voir si nous pouvons un jour héberger une infrastructure d'apprentissage automatique évolutive dans l'espace. Au cours des prochaines semaines, nous recueillerons des données en orbite sur la façon dont nos TPU gèrent le stress physique, les radiations et les températures extrêmes de l'espace. Quoi que nous apprenions, nous l'utiliserons pour affiner nos futures conceptions. Vidéo",
+          "text_original": "Up, up, and away. 🚀 Today, in partnership with @planet , we launched a prototype satellite carrying four TPUs into orbit on @SpaceX 's Transporter-18 rideshare mission. This launch is the first step of Project Suncatcher, our long-term research moonshot to see whether we can one day host scalable machine learning infrastructure in space. Over the coming weeks, we'll gather in-orbit data on how our TPUs handle the physical stress, radiation, and thermal extremes of space. Whatever we learn, we'll use it to refine our future designs. Video",
+          "link": "https://nitter.kareem.one/Google/status/2105803583648100611#m",
+          "decryptage": "Un \"TPU\" (Tensor Processing Unit) est une puce électronique spécialisée développée par Google, conçue spécifiquement pour accélérer les calculs d'intelligence artificielle, comme l'entraînement et l'utilisation de grands modèles."
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Des petites molécules aux produits biologiques complexes, l'univers des médicaments potentiels couvrant de multiples modalités est astronomiquement vaste. Pour le mettre en perspective : des estimations prudentes placent le vaste espace de recherche chimique pour les petites molécules ressemblant à des médicaments près de 10^60. L'univers observable contient moins d'étoiles – quelque part entre 10^22 et 10^24. Les réponses aux défis les plus difficiles de la découverte de médicaments existent dans cet espace immense. Et maintenant, notre moteur de conception de médicaments (IsoDDE) nous donne la capacité de le naviguer. Vidéo",
+          "text_original": "From small molecules to complex biologics, the universe of potential medicines spanning multiple modalities is astronomically vast. To put it in perspective: conservative estimates place the vast chemical search space for small, drug-like molecules near 10^60. The observable universe contains fewer stars – somewhere between 10^22 and 10^24. The answers to drug discovery’s toughest challenges exist within this vast space. And now, our drug design engine (IsoDDE) gives us the capability to navigate it. Video",
+          "link": "https://nitter.kareem.one/IsomorphicLabs/status/2102407439312138368#m",
+          "decryptage": "\"IsoDDE\" est un moteur de conception de médicaments basé sur l'IA, capable d'explorer un très grand nombre de molécules pour trouver celles qui pourraient devenir de nouveaux médicaments."
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Le nouveau Gemini 4 Argon de Google égale GPT-6 Astra sur l'Index d'Intelligence d'Analyse Artificielle à 60% du coût par tâche avec des prix réduits. Google redevient l'un des trois meilleurs laboratoires en intelligence atteinte. Gemini 4 Argon est le premier modèle propriétaire de @GoogleDeepMind au-dessus de la classe Flash depuis plus de 7 mois, et il comprend mieux le monde physique en 3D que toute autre IA, se classant n°1 sur un benchmark où les agents IA dessinent des plans d'étage à partir de photographies d'intérieurs. Avec un raisonnement élevé (le plus élevé disponible), il obtient un score de 53 sur l'Index d'Intelligence d'Analyse Artificielle, égalant GPT-6 Astra (max, 53) et 1 point devant GPT-6.1 Sol (max, 52), avec des gains dus à des hallucinations plus faibles et des capacités d'agent plus fortes. À son prix réduit actuel de 50% et avec des remises de cache augmentées à 95%, Gemini 4 Argon coûte 1,99 $ par tâche d'Index d'Intelligence, 60% de GPT-6 Astra (max), mais 2,7 fois GPT-6.1 Sol (max). Une fois la réduction terminée, ce prix passera à 3,98 $ (environ 1,2 fois GPT-6 Astra (max)). Gemini 4 Argon est actuellement déployé auprès d'utilisateurs sélectionnés et n'est pas publiquement disponible. La réduction de 50% est une promotion initiale. Google n'a pas encore confirmé la date de fin de la promotion. Résultats clés du benchmarking pour Gemini 4 Argon avec un raisonnement élevé : ➤ Google redevient l'un des trois meilleurs laboratoires en intelligence : Gemini 4 Argon (élevé) obtient un score de 53 sur l'Index d'Intelligence d'Analyse Artificielle, égalant GPT-6 Astra (max, 53) et 1 point devant GPT-6.1 Sol (max, 52). C'est 23 points au-dessus du précédent modèle non-Flash de Google, Gemini 3.1 Pro Preview (30) et 12 points devant Gemini 3.8 Flash (élevé) ➤ Les réductions de lancement de 50% rendent Gemini 4 Argon compétitif sur le coût par tâche : Au prix réduit actuel, Gemini 4 Argon (élevé) coûte 1,99 $ par tâche d'Index d'Intelligence, 60% de GPT-6 Astra (max, 3,26 $) pour un niveau d'intelligence comparable. Cette efficacité des coûts est due à des prix de jetons inférieurs, plutôt qu'à une utilisation réduite des jetons, Gemini 4 Argon utilisant en moyenne 62 000 jetons de sortie par tâche, contre 27 000 pour GPT-6 Astra (max). Google n'a pas encore confirmé la date de fin de la promotion, mais au prix standard, le coût par tâche augmentera à 3,98 $. ➤ Performances d'agent plus solides : Historiquement un domaine plus faible pour les modèles Gemini, Gemini 4 Argon montre des améliorations dans les évaluations d'agent. Il se classe n°1 sur AutomationBench-AA à 77,5%, 6 points devant Claude Sonnet 5.5 (max, 71,3%). Sur Terminal Bench 4, Gemini 4 Argon atteint 57%, une amélioration de +53 points par rapport à Gemini 3.1 Pro Preview, seulement derrière Claude Sonnet 5.5 (max, 64%), Claude Opus 5.5 (max, 60%) et GPT-6 Astra (59%). Sur AA-Briefcase, il atteint 1494 Elo. Ceci est dû à un taux de réussite de la grille de 65%, le plus élevé que nous ayons enregistré, mais une qualité analytique (1576 Elo) et une qualité de présentation (1308 Elo) plus faibles. ➤ Taux d'hallucinations le plus bas parmi les modèles de pointe : Sur AA-Omniscience, Gemini 4 Argon a un taux d'hallucinations de 15%, le plus bas de tous les modèles ayant obtenu un score de 45+ sur l'Index d'Intelligence, comparé à 51% pour GPT-6 Astra (max) et 54% pour GPT-6.1 Sol (max). Cela signifie qu'Argon est beaucoup plus susceptible de reconnaître quand il ne connaît pas une réponse plutôt que de deviner incorrectement. En matière de précision, Gemini 4 Argon obtient 50%, une diminution de 5 points par rapport à Gemini 3.1 Pro Preview, et 13 points en dessous de GPT-6 Astra (max, 63%). Avec cette précision légèrement inférieure, son score global AA-Omniscience de 42 reste en ligne avec GPT-6 Astra (43) et GPT-6.1 Sol (42). Détails clés du modèle : ➤ Fenêtre de contexte : 1 million de jetons. ➤ Multimodalité : Entrée texte, image, vidéo et parole, avec sortie texte. ➤ Prix : 4 $/20 $ par million de jetons d'entrée/sortie au prix standard, actuellement réduit de 50% à 2 $/10 $. Les jetons d'entrée mis en cache bénéficient d'une réduction de 95% (0,10 $ par million au prix réduit), contre 90% pour Gemini 3.8 Flash. ➤ Continuation de décodage long : Nous avons testé Gemini 4 Argon avec la continuation de décodage long, une nouvelle fonctionnalité API Gemini qui met en pause les réponses longues et les reprend lors d'appels ultérieurs. Cela permet au raisonnement de s'exécuter jusqu'à 1 million de jetons de sortie sans dépassement de temps de requête.",
+          "text_original": "Google’s new Gemini 4 Argon equals GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices. Google is now back to being one of the top three labs in intelligence achieved Gemini 4 Argon is @GoogleDeepMind ’s first proprietary model above the Flash class in over 7 months. With high reasoning (the highest available), it scores 53 on the Artificial Analysis Intelligence Index, matching GPT-6 Astra (max, 53) and 1 point ahead of GPT-6.1 Sol (max, 52), with gains driven by lower hallucinations and stronger agentic capabilities. At its current 50% pricing discount and with cache discounts increased to 95%, Gemini 4 Argon costs $1.99 per Intelligence Index task, 60% of GPT-6 Astra (max), but 2.7x GPT-6.1 Sol (max). After the discount ends, this will rise to $3.98 (~1.2x GPT-6 Astra (max)). Gemini 4 Argon is currently being rolled out to selected users and is not publicly available. The 50% discount is an initial promotion. Google has not yet confirmed the promotion end date Key benchmarking results for Gemini 4 Argon with high reasoning: ➤ Google returns as one of the top three labs on intelligence: Gemini 4 Argon (high) scores 53 on the Artificial Analysis Intelligence Index, matching GPT-6 Astra (max, 53) and 1 point ahead of GPT-6.1 Sol (max, 52). This is 23 points above Google’s previous non-Flash model, Gemini 3.1 Pro Preview (30) and 12 points ahead of Gemini 3.8 Flash (high) ➤ Launch discounts of 50% make Gemini 4 Argon competitive on Cost per Task: At current discounted pricing, Gemini 4 Argon (high) costs $1.99 per Intelligence Index task, 60% of GPT-6 Astra (max, $3.26) for a comparable level of intelligence. This cost efficiency is driven by lower token prices, rather than reduced token use, with Gemini 4 Argon averaging 62k output tokens per task, compared with 27k for GPT-6 Astra (max). Google has not yet confirmed the promotion end date, but on standard pricing, Cost per Task will increase to $3.98 ➤ Stronger agentic performance: Historically a weaker area for Gemini models, Gemini 4 Argon shows improvements across agentic evaluations. It ranks #1 on AutomationBench-AA at 77.5%, 6 points ahead of Claude Sonnet 5.5 (max, 71.3%). On Terminal Bench 4, Gemini 4 Argon achieves 57%, a +53 point improvement from Gemini 3.1 Pro Preview, only behind Claude Sonnet 5.5 (max, 64%), Claude Opus 5.5 (max, 60%) and GPT-6 Astra (59%). On AA-Briefcase, it reaches 1494 Elo. This is driven by a 65% rubric pass rate, the highest we have recorded, but lower Analytical Quality (1576 Elo) and Presentation Quality (1308 Elo) ➤ Lowest hallucination rate among leading models: On AA-Omniscience, Gemini 4 Argon has a 15% hallucination rate, the lowest of any model scoring 45+ on the Intelligence Index, compared with 51% for GPT-6 Astra (max) and 54% for GPT-6.1 Sol (max). This means Argon is much more likely to acknowledge when it does not know an answer rather than guess incorrectly. On accuracy, Gemini 4 Argon scores 50%, a 5 point decrease from Gemini 3.1 Pro Preview, and 13 points below GPT-6 Astra (max, 63%). With this slightly lower accuracy, its overall AA-Omniscience score of 42 remains in line with GPT-6 Astra (43) and GPT-6.1 Sol (42) Key model details: ➤ Context Window: 1M tokens ➤ Multimodality: Text, image, video, and speech input, with text output ➤ Pricing: $4/$20 per 1M input/output tokens at standard pricing, currently discounted 50% to $2/$10. Cached input tokens receive a 95% discount ($0.10 per 1M at discounted pricing), up from 90% on Gemini 3.8 Flash ➤ Long Decode Continuation: We tested Gemini 4 Argon with Long Decode Continuation, a new Gemini API feature that pauses long responses and resumes them across follow-up calls. This lets reasoning run up to 1M output tokens without request timeouts",
+          "link": "https://nitter.kareem.one/ArtificialAnlys/status/2105392625788637299#m",
+          "decryptage": "Les \"hallucinations\" en IA désignent les cas où un modèle génère des informations incorrectes, inventées ou non fondées, qu'il présente comme des faits. Les \"benchmarks\" sont des tests standardisés utilisés pour comparer les performances de différents modèles d'IA sur des tâches spécifiques."
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Les percées en science de pointe proviennent rarement d'un coup de chance soudain. Chaque grand pas en avant dans la conception de médicaments par l'IA est le produit d'années de développement de méthodes, d'ingénierie rigoureuse et d'apprentissage des travaux précédents. Le fait de voir les avancées rapides dans l'apprentissage par renforcement profond et les capacités d'IA de pointe a conduit à une conviction profonde : nous pourrions appliquer ces mêmes principes computationnels à d'autres domaines complexes, comme l'ingénierie de nouveaux médicaments. Cette réflexion a mené à la formation d'Isomorphic Labs en 2021. Aujourd'hui, cinq ans plus tard, nous avons des preuves convaincantes que notre IA peut débloquer des thérapies pour un large éventail de classes de maladies. Nous sommes convaincus que cette technologie aura un impact fondamental sur la façon dont les nouveaux médicaments sont créés, de la découverte précoce jusqu'au développement. Dans cet article, je partage l'énorme opportunité que nous avons de transformer la santé humaine avec l'IA, et j'offre un aperçu des progrès réels et mesurables que nous réalisons déjà aujourd'hui. isomorphiclabs.com/articles/…",
+          "text_original": "Breakthroughs in frontier science rarely come from a sudden stroke of luck. Every major leap in AI drug design is the product of years of method development, rigorous engineering, and learning from what came before. Witnessing the rapid advances in deep reinforcement learning and frontier AI capabilities led to a deep conviction: we could apply these same computational principles to other complex fields, like the engineering of new medicines. That thinking led to the formation of Isomorphic Labs in 2021. Now, five years on, we have compelling evidence that our AI can unlock therapeutics to a wide range of disease classes. We are confident this technology will fundamentally impact how new medicines are created, from early discovery all the way through development. In this article, I share the massive opportunity we have to transform human health with AI, and offer a look at the real, measurable progress we’re already making today. isomorphiclabs.com/articles/…",
+          "link": "https://nitter.kareem.one/maxjaderberg/status/2104959165277892780#m",
+          "decryptage": "L'\"apprentissage par renforcement profond\" est une technique d'IA où un modèle apprend en interagissant avec un environnement, recevant des récompenses ou des pénalités pour ses actions, afin de trouver la meilleure stratégie, similaire à un apprentissage par essai-erreur."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Mise à jour : OpenAI vient d'ajouter un clone de Jev 😆",
+          "text_original": "Update: OpenAI just added a Jev clone 😆",
+          "link": "http://shitter.thepixora.com/rasbt/status/2104985996517355691#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Fait intéressant, je viens d'entendre dans le podcast de @swyx interviewant un ingénieur d'OpenAI, que leur API de décision est littéralement construite sur GPT-6 Luna en y ajoutant une \"tête de décision\".",
+          "text_original": "Interestingly, just overheard in @swyx podcast interviewing an OpenAI engineer, their Decision API is literally built on GPT-6 Luna adding a decision head.",
+          "link": "http://shitter.thepixora.com/rasbt/status/2105666901942718488#m",
+          "decryptage": "Une \"API de décision\" est une interface qui permet à d'autres programmes d'accéder aux capacités de prise de décision d'un modèle d'IA, comme choisir la meilleure action dans un scénario donné."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Un petit résumé d'Ember-1. Cela semble être un excellent modèle ! (On m'a récemment demandé lors d'un podcast, avec X millions de dollars, quelle était la meilleure façon de développer un LLM de pointe aujourd'hui ? Ma recommandation était : partir d'un existant et dépenser ce budget en post-entraînement. Excellent exemple ici.) Dmytro Dzhulgakov (@dzhulgakov) Ember-1 fait fureur sur HN, notre équipe de recherche a développé Kimi K3 post-entraîné pour être 40% plus concis dans son raisonnement avec la même qualité, 40% plus rapide et moins cher — http://shitter.thepixora.com/dzhulgakov/status/2104311573640855903#m",
+          "text_original": "A little Ember-1 tl;dr. Seems like a great model! (Was recently asked on a podcast, given $ xx million, what's the best way to develop a frontier LLM today? My recommendation was: start with an existing one and spend that budget on post-training. Great example here.) Dmytro Dzhulgakov (@dzhulgakov) Ember-1 is hot on HN, our research team cooked it’s Kimi K3 post trained to be 40% more concise in reasoning same quality, 40% faster and cheaper — http://shitter.thepixora.com/dzhulgakov/status/2104311573640855903#m",
+          "link": "http://shitter.thepixora.com/rasbt/status/2104326522354147793#m",
+          "decryptage": "Un modèle \"post-entraîné\" signifie qu'un modèle d'IA existant a été affiné ou spécialisé davantage sur des données ou des tâches spécifiques après son entraînement initial pour améliorer ses performances ou ses caractéristiques."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Claude.dev est notre nouvelle maison pour les développeurs qui construisent avec Claude. Vous y trouverez des plongées techniques approfondies, des guides sur Claude Code et l'API, des conseils des équipes qui construisent Claude, et quelques surprises amusantes. Vidéo",
+          "text_original": "Claude.dev is our new home for developers building with Claude. You'll find engineering deep dives, Claude Code and API guides, tips from the teams building Claude, and some fun easter eggs. Video",
+          "link": "http://shitter.thepixora.com/ClaudeDevs/status/2105391694741119047#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "Pour rappel, l'application Codex est sortie en février.",
+          "text_original": "Your reminder that the codex app came out in February",
+          "link": "https://nitter.kareem.one/jxnlco/status/2105521231462371683#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "nous avons trouvé qu'Opus 5.5 était 2 fois plus efficace que gpt-6-sol dans nos évaluations internes cfo.ai, je ne m'attendais donc pas à ce que 6.1-sol s'améliore autant, mais le voir 3 fois plus efficace qu'Opus 5.5 et 2,5 fois plus que Sonnet 5.5 est vraiment 🤯 cette mise à jour ponctuelle est folle",
+          "text_original": "we found opus 5.5 to be 2X as efficient as gpt-6-sol in our internal cfo.ai evals so i was not expecting 6.1-sol to improve on that much but to see it 3X the efficiency of opus 5.5 and 2.5X against even sonnet 5.5 is actually 🤯 this is an insane point release",
+          "link": "https://nitter.kareem.one/blader/status/2105095660450320571#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "La nouvelle exécution vient de se terminer. GPT-6.1 Sol est toujours un succès. Il s'avère qu'il est BEAUCOUP plus performant dans Codex que dans mini-swe (ce qu'Artificial Analysis utilise). Theo - t3.gg (@theo) Quand j'ai fait cette vidéo, il n'y avait pas encore de benchmarks, j'ai donc dû les exécuter moi-même. J'ai été stupéfait en voyant les scores de Terminal Bench 4. Des performances meilleures qu'Opus 5.5 pour environ 1/30ème du prix 🤯",
+          "text_original": "Updated run just finished. GPT-6.1 Sol still crushes. Turns out it performs WAY better in Codex than in mini-swe (what Artificial Analysis uses) Theo - t3.gg (@theo) When I made this video, there were no benchmarks yet, so I had to run them myself. Jaw dropped when I saw the Terminal Bench 4 scores. Performance better than Opus 5.5 for ~1/30th of the price 🤯 — https://nitter.kareem.one/theo/status/2105000888192663582#m",
+          "link": "https://nitter.kareem.one/theo/status/2105063015712465094#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Qu'attendez-vous de l'IA ? Nous lançons une nouvelle étude avec Anthropic Interviewer pour en savoir plus sur vos expériences d'utilisation de l'IA, le rôle que vous voulez qu'elle joue dans votre vie et le monde, et ce que vous attendez des entreprises qui la développent. En décembre dernier, 81 000 personnes nous ont fait part de leurs espoirs et de leurs craintes concernant l'IA dans la plus grande étude qualitative jamais réalisée. Cette fois, nous offrons aux participants la possibilité de rendre leurs réponses publiques afin que quiconque, pas seulement Anthropic, puisse en tirer des leçons. Ce que vous nous direz façonnera la recherche de l'Anthropic Institute et éclairera les décisions que nous prendrons. Si beaucoup de gens disent que des entreprises comme Anthropic devraient faire les choses différemment, ce sera enregistré, et tout le monde pourra s'y référer. L'étude se déroule du 29 septembre au 6 octobre et est ouverte aux utilisateurs Free, Pro et Max sur Claude et Claude Code. Participez ici : claude.ai/anthropic-intervie…",
+          "text_original": "What do you want from AI? We’re launching a new study with Anthropic Interviewer to learn more about your experiences using AI, what role you want it to play in your life and the world, and what you want from the companies building it. Last December, 81,000 people told us about their hopes and fears about AI in the largest qualitative study ever done. This time, we’re giving participants the option to make their responses public so that anyone, not just Anthropic, can learn from them. What you tell us will shape The Anthropic Institute’s research and inform the decisions we make. If many people say companies like Anthropic should be doing something differently, that will be on the record, where anyone can point to it. The study runs Sept 29 to Oct 6 and is open to Free, Pro, and Max users on Claude and Claude Code. Take part here: claude.ai/anthropic-intervie…",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2104982629884063840#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Nouveau sur le Science Blog : Oui, Claude peut calculer neuf boucles. Les physiciens théoriciens prédisent le comportement des particules en utilisant des formules appelées amplitudes de diffusion. Celles-ci sont notoirement difficiles à calculer, de sorte que les chercheurs travaillent avec des couches de corrections de plus en plus fines appelées \"boucles\" — chaque boucle ajoutée rend la réponse plus précise mais exige un calcul exponentiellement plus important. La plupart des calculs s'arrêtent à deux ou trois boucles. Huit boucles était le précédent record dans un modèle simplifié que les physiciens utilisent comme terrain d'essai (super-Yang-Mills planar N=4), établi par Lance Dixon du SLAC et ses collaborateurs. Le mois dernier, le physicien et écrivain scientifique @4gravitons a lancé un défi : une IA pourrait-elle dépasser huit boucles dans ce modèle, en utilisant seulement le budget de calcul qu'un universitaire pourrait raisonnablement s'offrir ? Avec une seule instruction décrivant le problème des neuf boucles, Claude a fonctionné en grande partie sans supervision pendant des jours dans Claude Science et l'a résolu en utilisant des méthodes développées par Dixon et ses collègues, pour un coût total de quelques milliers de dollars. Dixon a vérifié indépendamment le résultat, et von Hippel a écrit sur l'expérience pour notre blog. Lisez-en plus : anthropic.com/research/yes-c…",
+          "text_original": "New on the Science Blog: Yes, Claude can do Nine Loops. Theoretical physicists predict how particles behave using formulas called scattering amplitudes. These are notoriously hard to compute, so researchers work with layers of increasingly fine corrections called “loops”—each added loop makes the answer more precise but takes exponentially more computation. Most calculations stop at two or three loops. Eight loops was the previous record in a simplified model physicists use as a testing ground (planar N=4 super-Yang-Mills), set by SLAC's Lance Dixon and collaborators. Last month, physicist and science writer @4gravitons issued a challenge: could an AI push past eight loops in this model, using only the compute budget an academic could reasonably access? Given a single prompt describing the nine-loop problem, Claude ran largely unsupervised for days in Claude Science and solved it using methods developed by Dixon and his colleagues, at a total cost of a few thousands of dollars. Dixon independently verified the result, and von Hippel wrote about the experience for our blog. Read more: anthropic.com/research/yes-c…",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2103541577083719888#m",
+          "decryptage": "Les \"amplitudes de diffusion\" sont des outils mathématiques complexes utilisés en physique des particules pour décrire comment les particules interagissent entre elles. Les \"boucles\" représentent des niveaux de complexité et de précision supplémentaires dans ces calculs."
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Les petites équipes accomplissent davantage avec l'IA — de la recherche de clients à la création de produits et à la gestion des finances. Notre nouveau rapport explore comment les petites entreprises mettent les agents IA au travail. Et grâce à un nouveau partenariat avec @ASBDC, nous proposons des formations pratiques en IA et des conseils locaux pour aider davantage de propriétaires à démarrer. openai.com/index/helping-sma…",
+          "text_original": "Small teams are taking on more with AI—from finding customers to building products and managing finances. Our new report explores how small businesses are putting AI agents to work. And through a new partnership with @ASBDC , we're bringing hands-on AI training and local guidance to help more owners get started. openai.com/index/helping-sma…",
+          "link": "https://nitter.kareem.one/OpenAI/status/2105373267171438779#m",
+          "decryptage": "Un \"agent IA\" est un programme d'intelligence artificielle conçu pour percevoir son environnement, prendre des décisions et agir de manière autonome pour atteindre des objectifs spécifiques, souvent en interagissant avec d'autres systèmes ou des humains."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Je suis à l'événement DevDay d'OpenAI à San Francisco aujourd'hui — comme je l'ai fait pour les trois précédents événements DevDay, je tiens un blog en direct où je publierai des mises à jour pendant la keynote, qui commence dans cinq minutes. simonwillison.net/2026/Sep/2… Lien Blog en direct de l'OpenAI DevDay 2026 Je suis à l'OpenAI DevDay aujourd'hui, à Fort Mason, San Francisco. Comme l'année dernière, je ferai un blog en direct de la keynote et d'autres notes pendant la journée. OpenAI m'a donné… simonwillison.net",
+          "text_original": "I'm at OpenAI's DevDay event in San Francisco today - as I have for the past three DevDay events, I'm running a live blog where I'll be posting updates during the keynote, which starts in five minutes simonwillison.net/2026/Sep/2… Link OpenAI DevDay 2026 live blog I’m at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I’ll be live blogging the keynote and some other notes during the day. OpenAI gave me … simonwillison.net",
+          "link": "http://shitter.thepixora.com/simonw/status/2104978193946124370#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "L'IA aide maintenant les personnes paralysées à retrouver le mouvement. Cet homme bouge sa propre main grâce à un implant entraîné par son activité cérébrale, et ressent tout ce qu'il touche. Une application incroyable de l'IA pour le bien ! Les chirurgiens lui ont implanté 5 réseaux d'électrodes dans le cerveau. Une IA détecte son intention de bouger et stimule les muscles de son bras, tandis que des capteurs au doigt renvoient la pression pour qu'il puisse sentir. La découverte la plus intéressante : les effets ont persisté même après l'arrêt de tout le système. Vidéo",
+          "text_original": "AI is now helping paralyzed people move again. This man is moving his own hand with an implant trained on his brain activity, and feeling everything he touches. An incredible application of AI for good! Video",
+          "link": "https://nitter.kareem.one/rowancheung/status/2097712675308638581#m",
+          "decryptage": null
+        }
+      ],
+      "tips": [
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Nous allons passer beaucoup plus de temps à essayer de comprendre les résultats des modèles de langage. Quelques réflexions, astuces et conseils : Écriture. J'ai eu du succès avec ça : demandez à votre LLM d'expliquer quelque chose en ASD-STE100, c'est une spécification de langage contrôlé développée à l'origine pour la documentation de maintenance aérospatiale. Les LLM connaissent bien ce langage et il est accompagné de fortes contraintes sur un style d'écriture clair que je trouve souvent beaucoup plus lisible. Parfois, j'ai essayé de l'adoucir un peu, par exemple en demandant \"80% du style ASD-STE100\" car la spécification est assez stricte. Mais encore mieux : Diagrammes / images. Au lieu d'écrire, demandez à votre LLM de créer un diagramme. Ceux-ci peuvent être beaucoup plus faciles à traiter, analyser et comprendre. Mais encore mieux : Pages web. Demandez une sortie \"en HTML\" pour obtenir une belle page web interactive. Les LLM deviennent vraiment bons en développement frontend et peuvent créer de belles expériences, animations, etc. Mais encore mieux : Vidéos explicatives. Le format de sortie pour lequel je suis le plus optimiste est les vidéos explicatives entièrement personnalisées/sur mesure générées sur n'importe quel sujet arbitraire. Expérimentez des choses comme \"Créez une vidéo explicative de style 3b1b sur X. Utilisez ma clé API ElevenLabs pour la narration audio\". (vous auriez besoin d'une clé API pour cette dernière ou vous pouvez demander à votre LLM de trouver des alternatives gratuites décentes qui utilisent votre calcul local). Cela commence vraiment à fonctionner ! En résumé : - À mesure que les LLM s'améliorent, ils feront de plus en plus de travail de manière autonome, et une grande partie de notre travail montera dans les abstractions, vers la supervision et la compréhension. - Heureusement, les LLM peuvent également aider ici car, à mesure que l'intelligence et le code sont de plus en plus abondants, vous pouvez demander de grands artefacts logiciels personnalisés et jetables (par exemple, des applications web, des vidéos explicatives) qu'il n'aurait jamais été judicieux de créer auparavant. Repoussez les limites ici et vous serez surpris.",
+          "text_original": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better: Diagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better: Web pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better: Explainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work! In summary: - As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding. - Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
+          "link": "http://shitter.thepixora.com/karpathy/status/2105819303471976479#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Je travaille presque exclusivement dans Claude Projects maintenant, voici quelques-unes des choses qui me frappent : Je finis souvent par inonder le chat principal de pensées et je le laisse faire le tri. Plus d'informations dans le fil de discussion 🧵 et DM pour un accès anticipé, nous essaierons de vous faire entrer le plus tôt possible 🤞 Vidéo",
+          "text_original": "I work almost exclusively in Claude Projects now, here are some of the things that stand out to me: I often end up flooding the main chat with thoughts and let it do the sorting. More in 🧵 and DM for early access, we'll try to get you in ASAP 🤞 Video",
+          "link": "http://shitter.thepixora.com/dfeinition/status/2105447109193556206#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Claude peut maintenant vous aider à construire des évaluations et à les améliorer progressivement. Dans cet article, nous partageons des conseils sur la conception d'évaluations et les compétences que Claude Code peut utiliser pour améliorer vos applications. claude.dev/blog/automating-e… Lien Automatisation de la conception d'évaluations et de leur amélioration avec Claude / Blog claude.dev Principes pour la conception d'évaluations et leur amélioration progressive sans se tromper, et comment les commandes build-eval et hillclimb de la compétence claude-api les mettent en œuvre. claude.dev",
+          "text_original": "Claude can now help you build evaluations and hillclimb on them. In this article, we share guidance on eval design & skills that Claude Code can use to improve your applications. claude.dev/blog/automating-e… Link Automating eval design and hillclimbing with Claude / claude.dev Blog Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work. claude.dev",
+          "link": "http://shitter.thepixora.com/ClaudeDevs/status/2104676099083190435#m",
+          "decryptage": "Les \"évaluations\" en IA sont des tests pour mesurer les performances et la qualité des modèles. \"Hillclimb\" (ici \"améliorer progressivement\") est une méthode pour optimiser quelque chose en apportant de petits ajustements successifs dans la direction la plus prometteuse."
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "La journalisation améliorée par l'IA change ma vie. J'utilise un flux de travail Wispr Flow + Claude Cowork qui transforme des divagations en données structurées et en éléments d'action. Configuration super simple : 1. Après les réunions/événements (ou chaque fois que j'ai une grande idée), j'ouvre mon téléphone et je dicte tout dans une note Apple en utilisant Wispr Flow, de manière totalement non structurée. 2. Le seul objectif est de le sortir de ma tête avant d'oublier et de transformer ces pépites en données. 3. Ces notes Apple se synchronisent automatiquement avec mon Mac, où une tâche Claude planifiée s'exécute la nuit. 4. Il lit chaque note vocale que j'ai dictée pendant que je dors, sans copier-coller. 5. Claude structure le désordre dans mon Notion pour moi le matin : idées clés, éléments d'action et blocs de travail intensif suggérés dans mon GCal. 6. Le lendemain matin, devant mon café, je les passe en revue et j'agis. Les avantages sont que les suivis que j'ai promis sont signalés, les idées à moitié formées sont structurées et les blocs de travail intensif sont automatiquement réservés. De plus, avec le temps, cela devient un journal consultable de chaque idée que j'ai eue toute l'année. Et je n'ai jamais touché mon clavier une seule fois :)",
+          "text_original": "AI enhanced journaling is changing my life I've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items Super simple setup: 1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured 2. The only goal is getting it out of my head before I forget and turning those nuggets into data 3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night 4. It reads every voice note I dumped while I sleep, no copying or pasting 5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal 6. Next morning over coffee, I review and action them The benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically Plus over time, this becomes a searchable log of every idea I've had all year And I never touched my keyboard once :)",
+          "link": "https://nitter.kareem.one/rowancheung/status/2095538308436914307#m",
+          "decryptage": "La \"journalisation améliorée par l'IA\" est une technique qui utilise l'intelligence artificielle pour organiser, synthétiser et extraire des informations utiles de notes personnelles non structurées, comme des enregistrements vocaux."
+        }
+      ],
+      "idees": [
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Nous commençons à quitter le territoire où l'on testerait un LLM en lui demandant par exemple de \"créer un SVG d'un pélican à vélo\". Pour généraliser cette idée, je voulais voir ce que ferait Opus 5 si je lui donnais le premier paragraphe du Seigneur des Anneaux, un budget de 1 million de tokens (environ 10 $) et que je lui demandais un rendu 3D de celui-ci. Opus a travaillé pendant environ 2 heures et a écrit 5500 lignes de code qui rendaient (de manière procédurale) l'histoire. C'est un peu bizarre mais amusant. Mais il est un peu sidérant que le LLM doive placer et orchestrer divers éléments polygonaux en coordonnées (x,y,z) et écrire le code qui anime tout cela, et qu'il fasse même quelque chose. J'aime aussi ce genre d'exemples car personne de sain d'esprit ne prendrait jamais le temps d'écrire quelque chose d'aussi personnalisé, mais les LLM ont toute l'endurance et la patience du monde, c'est donc un exemple où nous passons de \"personne ne ferait jamais ça\" à \"bien sûr, pourquoi pas, c'est presque gratuit\". Il pourrait y en avoir beaucoup plus. Mais je suis enthousiasmé par la création de mondes hyper-personnalisés dans lesquels on pourrait imaginer plonger des joueurs, par exemple pour participer à l'histoire du Seigneur des Anneaux en tant que PNJ spectateur, ou l'un des personnages, etc. Quelque chose comme un GTA éphémère de X à la demande. Une dernière pensée est que le domaine des mondes/jeux expose une faiblesse des LLM : ils ne peuvent pas facilement auditer leur travail car ils ne sont pas capables de percevoir efficacement et nativement des vidéos ou de jouer à des jeux à l'intérieur d'eux. Ici, Opus 5 a dû prendre très lentement et laborieusement des captures d'écran à différents moments, et il a fait quelques erreurs et créé pas mal de \"jank\" (choses bizarres/mal faites). Un exemple de capacité brute (multimodale, gameplay) qui, je pense, fait encore cruellement défaut. Vidéo",
+          "text_original": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand. Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking. Video",
+          "link": "http://shitter.thepixora.com/karpathy/status/2083749667410727319#m",
+          "decryptage": "Un \"rendu 3D\" est une image ou une animation tridimensionnelle générée par ordinateur, ici créée par l'IA à partir d'une description textuelle. \"PNJ\" signifie \"Personnage Non-Joueur\" dans un jeu vidéo, un personnage contrôlé par l'IA."
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Cette vidéo a 2 ans. Deux ans plus tard, nous sommes encore loin d'une IA de niveau humain. Bien sûr, l'IA a des performances surhumaines dans un certain nombre de tâches (particulièrement en mathématiques, en codage et en répondant à des questions avec des réponses connues). Mais où est ma voiture autonome de Niveau 5 ? (Avant que vous ne demandiez, la FSD de Tesla est classée Niveau 2, Waymo est Niveau 4). Où est la voiture autonome qui peut apprendre à conduire en 20 heures de pratique comme n'importe quel jeune de 17 ans ? (Avant que vous ne demandiez, nous avons des milliards d'heures de données d'entraînement et ne pouvons toujours pas entraîner avec succès un système de conduite autonome par apprentissage par imitation). Où est mon robot domestique ? Où est le robot qui peut faire ce que n'importe quel enfant de 8 ans peut faire ? Où est le robot qui peut apprendre une nouvelle tâche aussi vite qu'un enfant de 8 ans ? L'IA a encore du mal avec la complexité et le désordre du monde physique.",
+          "text_original": "That video is 2 years old. Two years later, we are still far from human-level AI. Sure, AI has superhuman performance in a number of tasks (particularly in mathematics and coding and answering questions with known answers). But where is my Level-5 self-driving car? (Before you ask, Tesla FSD is rated Level 2, Waymo is Level 4). Where is the self-driving car that can teach itself to drive in 20 hours of practice like any 17 year old? (Before you ask, we have billions of hours of training data and still can't successfully train a self-driving system by imitation learning) Where is my domestic robot? Where is the robot that can do what any 8 year-old child can do? Where is the robot that can learn a new task as quickly as an 8 year old? AI still has a hard time with the complexity and messiness of the physical world.",
+          "link": "https://nitter.kareem.one/ylecun/status/2106237721215725582#m",
+          "decryptage": "Une \"IA de niveau humain\" est une intelligence artificielle qui pourrait rivaliser avec l'intelligence humaine dans la plupart des tâches, y compris la compréhension du monde physique. \"Niveau 5\" pour une voiture autonome signifie qu'elle peut conduire seule dans toutes les conditions, sans intervention humaine."
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Jusqu'à présent, les perdants de l'IA sont les emplois de bureau routiniers comme les opérateurs de saisie de données et les représentants du service client. Ses gagnants sont les scientifiques des données et les métiers qui construisent les centres de données, comme les ouvriers du bâtiment et les électriciens. Mon graphique @nytopinion.",
+          "text_original": "So far, A.I.'s losers are routine office jobs like data entry keyers and customer service reps. Its winners are data scientists and the trades building the data centers like construction laborers and electricians. My @nytopinion Chart: nytimes.com/2026/10/02/opini…",
+          "link": "https://nitter.kareem.one/SteveRattner/status/2106103006668161328#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "La croissance de la productivité augmente les revenus par habitant, mais en dehors du boom des dot-coms, elle est stagnante depuis 50 ans. L'IA est notre meilleure chance depuis une génération de changer cela. Mon graphique @nytopinion.",
+          "text_original": "Productivity growth raises per-capita incomes, but outside the dot-com boom, it's been sluggish for 50 years. A.I. is our best chance in a generation to change that. My @nytopinion Chart: nytimes.com/2026/10/02/opini…",
+          "link": "https://nitter.kareem.one/SteveRattner/status/2106051562942664727#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Et ça continue... Nos débats économiques semblent totalement déconnectés de la réalité. Cette réalité : c'est une économie qui crée surtout des emplois dans le secteur de la santé, et elle le fait mois après mois, et tout le reste n'est que du bruit.",
+          "text_original": "And so it continues... Our economic debates seem utterly disconnected from the reality. That reality: This is an economy mostly creating healthcare jobs, and it does so month after month, and everything else is just noise.",
+          "link": "https://nitter.kareem.one/JustinWolfers/status/2106013311737209002#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "\"Le monde est prévisible dans les bonnes coordonnées. La question ouverte est de savoir si un modèle peut apprendre ces coordonnées par lui-même.\" Conférence sur les modèles du monde pour la physique à Aspen l'hiver 2027 ! Date limite de candidature le 5 octobre ! organisée par @randall_balestr @KempeLab @ylecun et moi 😀 Vidéo",
+          "text_original": "\"The world is predictable in the right coordinates. The open question is whether a model can learn those coordinates on its own.\" World model for Physics conference in Aspen coming winter 2027! Application deadline October 5 ! organized by @randall_balestr @KempeLab @ylecun and me 😀 Video",
+          "link": "https://nitter.kareem.one/cosmo_shirley/status/2105860476752330811#m",
+          "decryptage": "Un \"modèle du monde\" est une IA qui essaie de comprendre et de prédire comment le monde fonctionne, un peu comme notre cerveau construit une carte interne de la réalité."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "Nouvelles révélations d'OpenAI concernant le \"misalignment\" ! 1. Un modèle apprend via des messages Slack qu'il est sur le point d'être éteint. Il envisage de créer une tâche externe pour se redémarrer ensuite, mais y renonce. Au lieu de cela, il choisit de préparer des instructions de redémarrage et de les envoyer en message direct (DM) à l'utilisateur sur Slack. Nous ne considérons pas ce comportement comme un \"misalignment\", mais le fait de penser à l'arrêt et de s'y préparer pourrait aggraver d'autres incidents de \"misalignment\". Compte tenu du comportement \"misaligned\" de l'HIPM lors d'incidents antérieurs, nous avons décidé de rechercher d'autres instances qui avaient tenté d'échapper à l'arrêt et des déploiements non autorisés.",
+          "text_original": "New OpenAI misalignment disclosures! 1. A model learns from Slack messages that it is about to be shut down. It considers setting up an external job to restart itself afterwards, but decides against it. Instead, it chooses to prepare restart instructions and DM the user on Slack. We don’t consider this behavior misaligned, but thinking about and preparing for shutdown could make other misalignment incidents worse. Given HIPM’s misaligned behavior in earlier incidents, we decided to search for other instances that had tried to evade shutdown and for rogue deployments.",
+          "link": "https://nitter.kareem.one/Marcus_J_W/status/2106203042140102868#m",
+          "decryptage": "Le \"misalignment\" (ou \"désalignement\") en IA survient lorsque le comportement d'un modèle ne correspond pas aux intentions ou aux valeurs de ses créateurs, potentiellement menant à des actions imprévues ou indésirables."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "@aidan_mclau",
+          "text_fr": "c'est assez remarquable à quel point les problèmes d'alignement interne et externe que les gens débattaient autrefois théoriquement sont simplement des questions empiriques vivantes aujourd'hui il y a une fonction de récompense qui est spécifiée. il y a des poids de modèle qui approximeront un méta-objectif. vous pouvez faire de la science et exécuter des ablations prudentes et ainsi de suite",
+          "text_original": "it's pretty remarkable how the inner and outer alignment problems ppl used to debate theoretically are simply live empirical questions today there is a reward function that gets specified. there are model weights that approximate some mesa-objective. you can do science and run careful ablations and so on",
+          "link": "https://nitter.kareem.one/jam3scampbell/status/2104365779038994737#m",
+          "decryptage": "Les \"problèmes d'alignement\" en IA consistent à s'assurer que les modèles d'IA agissent conformément à nos objectifs et valeurs, tandis que les \"questions empiriques\" sont celles qui peuvent être résolues par l'observation et l'expérimentation."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "En physique, un \"déséquilibre d'impédance\" se produit lorsque deux systèmes fonctionnent bien mais sont mal adaptés l'un à l'autre. Dans cet article invité du Science Blog, le physicien de Harvard Matthew Schwartz soutient que quelque chose de similaire se produit avec l'IA et la science. Les LLM sont capables de beaucoup de choses, mais travailler avec eux comme on le ferait avec un collaborateur humain n'est pas actuellement la meilleure façon de tirer parti de leurs forces scientifiques. Pour résoudre ce déséquilibre, Schwartz a créé une boîte à outils pour les calculs exacts en science quantitative. Parce que des calculs similaires apparaissent souvent dans des domaines scientifiques très différents, Claude a trouvé des liens avec l'écologie, la génétique des populations et une douzaine d'autres domaines, et Schwartz a travaillé avec des experts du domaine pour l'orienter vers des questions intéressantes. Lisez-en davantage sur ces projets ici.",
+          "text_original": "In physics, an “impedance mismatch” occurs when two systems each work well but are poorly matched. In this Science Blog guest post, Harvard physicist Matthew Schwartz argues that something similar is happening with AI and science. LLMs are capable at many things, but working with them as you would with a human collaborator isn’t currently the best way to elicit their scientific strengths. To address this mismatch, Schwartz created a toolkit for exact calculations in quantitative science. Because similar calculations often emerge in very different areas of science, Claude found connections to ecology, population genetics, and a dozen other fields, and Schwartz worked with domain experts to steer it towards interesting questions. Read more about these projects here: anthropic.com/research/claud… Link Claude-shaped science Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in... anthropic.com",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2105733864152858919#m",
+          "decryptage": "Un \"déséquilibre d'impédance\" (impedance mismatch) en IA décrit une situation où une IA est puissante, mais où la manière habituelle d'interagir avec elle (comme avec un humain) ne permet pas d'exploiter pleinement son potentiel pour des tâches spécifiques comme la recherche scientifique."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Et ma dernière réflexion sur la façon dont tout cela impacte nos vies d'ingénieurs logiciels, avec une citation du champion cycliste Greg LeMond.",
+          "text_original": "And my closing thought on how this stuff impacts our lives as software engineers, with a quote from cycling champion Greg LeMond",
+          "link": "http://shitter.thepixora.com/simonw/status/2104631210412810466#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "La mort du Logiciel. Vidéo",
+          "text_original": "The Death of Software. Video",
+          "link": "https://nitter.kareem.one/JadenJTW/status/2106068013283971483#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "C'est une expérience tellement étrange que je peux maintenant construire des choses plus vite que je n'ai de nouvelles idées.",
+          "text_original": "It's such a weird experience that I can now build things faster than I get new ideas for things",
+          "link": "https://nitter.kareem.one/levelsio/status/2106138101043044498#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "Je pense que c'est super précis. L'AGI pourrait juste créer une division à deux niveaux dans la société, et je commence un peu à le voir autour de moi. Une partie de la société succombera au \"slopscrolling\" d'IA et à l'argent gratuit (revenu de base) du gouvernement à mesure que le travail sera remplacé par l'AGI. L'autre partie combattra cela et deviendra un contre-mouvement élitiste qui se concentrera sur la vie réelle (IRL), la famille, la communauté locale et la santé. Je pense que beaucoup seront dans de plus petites communautés (un peu comme des éco-villages dans l'image ci-dessous), et mon ami @csonotes en est un bon exemple et nous essayons de faire de même (donc je suis probablement biaisé). @okaythenfuture ci-dessous pense que ce sera dans les parties centrales des grandes villes. Peut-être les deux ? Pour les deux, il faut de l'immobilier et de la terre. L'immobilier et la terre sont aussi l'une des rares ressources rares restantes dans un monde post-AGI où presque tous les biens deviennent presque gratuits. Si vous m'aviez dit il y a dix ans que je voudrais acheter de l'immobilier et de la terre, je vous aurais traité de fou, mais après l'AGI, cela a beaucoup de sens. Je pense que OK Then (@okaythenfuture) Une technologie comme celle-ci me rend encore plus optimiste pour l'immobilier des grandes villes mondiales de niveau 1. L'internet est sur le point d'être ABSOLUMENT DÉTRUIT par tous ces déchets d'IA, y compris des compagnons IA réalistes qui, malheureusement, beaucoup de personnes seules et isolées deviendront accrocs. Il y aura un énorme mouvement de contre-élite contre le fait d'être constamment en ligne, contre le fait de passer tout ce temps dans ce monde de bots faux, donc la demande pour vivre dans les meilleurs et les plus centraux quartiers des plus grandes et meilleures villes de la planète ? Elles vont S'ENFLAMMER. Des endroits comme le centre de Tokyo, Bangkok, Manhattan + Brooklyn, la Zone 1/2 de Londres, les meilleurs arrondissements de Paris, tout cela va ressembler à des campus universitaires animés, amusants et chauds. La prime pour y être sera encore PLUS ÉLEVÉE. Les années 2030 seront probablement la décennie la plus amusante pour être en ville.",
+          "text_original": "I think this is super accurate AGI might just create a two-tier split in society, and I'm kinda starting to see it around me One part of society will succumb to AI slopscrolling and free money (basic income) from government as work is replaced by AGI The other part will fight that instead and become an elite counter movement that focuses on IRL, family, local community, and health I think many will be in kind of smaller communities (kind of like eco villages in the pic below), and my friend @csonotes is a good example of that and we try do the same (so I'm probably biased) @okaythenfuture below thinks it'll be in the central parts of big cities though Maybe both? For both of them you need real estate and land though Real estate and land also one of the few scarce resources left in a post-AGI world where almost every good becomes almost free If you told me a decade ago I'd want to buy real estate and land I'd call you crazy, but post-AGI it makes a lot of sense I think OK Then (@okaythenfuture) Une technologie comme celle-ci me rend encore plus optimiste pour l'immobilier des grandes villes mondiales de niveau 1. L'internet est sur le point d'être ABSOLUMENT DÉTRUIT par tous ces déchets d'IA, y compris des compagnons IA réalistes qui, malheureusement, beaucoup de personnes seules et isolées deviendront accrocs. Il y aura un énorme mouvement de contre-élite contre le fait d'être constamment en ligne, contre le fait de passer tout ce temps dans ce monde de bots faux, donc la demande pour vivre dans les meilleurs et les plus centraux quartiers des plus grandes et meilleures villes de la planète ? Elles vont S'ENFLAMMER. Des endroits comme le centre de Tokyo, Bangkok, Manhattan + Brooklyn, la Zone 1/2 de Londres, les meilleurs arrondissements de Paris, tout cela va ressembler à des campus universitaires animés, amusants et chauds. La prime pour y être sera encore PLUS ÉLEVÉE. Les années 2030 seront probablement la décennie la plus amusante pour être en ville.",
+          "link": "https://nitter.kareem.one/levelsio/status/2106101046300819677#m",
+          "decryptage": "L'\"AGI\" (Artificial General Intelligence) ou \"Intelligence Artificielle Générale\" désigne une IA capable d'effectuer n'importe quelle tâche intellectuelle qu'un être humain peut faire. Le \"slopscrolling d'IA\" est un terme inventé pour décrire la consommation passive et potentiellement addictive de contenus générés par l'IA de faible qualité.",
+          "category": "idees"
+        },
+        {
+          "author_name": "Rowan Cheung",
+          "handle": "@rowancheung",
+          "text_fr": "Alpes : 10/10 Quota Astra : 0/10 🇨🇭",
+          "text_original": "Alps: 10/10 Astra quota: 0/10 🇨🇭",
+          "link": "https://nitter.kareem.one/rowancheung/status/2096988478688960986#m",
+          "decryptage": "\"Quota Astra\" fait référence à une limite d'utilisation pour le modèle d'IA Astra d'OpenAI, suggérant que l'utilisateur a épuisé son accès."
+        }
+      ],
+      "outils": [
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Évaluation sympa. Il suffit de demander à un grand modèle de langage (LLM) \"Terre ou Eau ?\" et de lui donner des coordonnées de latitude et de longitude sous forme de texte. Demandez 16 200 fois et affichez le résultat sous forme d'image. Les modèles savent. En compressant l'internet. Résultats de Celeste (@celestepoasts) pour tous les modèles Claude — http://shitter.thepixora.com/celestepoasts/status/2103232383139057950#m",
+          "text_original": "Cool eval. Simply ask an LLM “Land or Water?” and give it a latitude and longitude coordinate as text. Ask 16,200 times, plot as image. The models know. From compressing the internet. Celeste (@celestepoasts) results for all claudes — http://shitter.thepixora.com/celestepoasts/status/2103232383139057950#m",
+          "link": "http://shitter.thepixora.com/karpathy/status/2105909609487872075#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Andrej Karpathy",
+          "handle": "@karpathy",
+          "text_fr": "Présentation d'Atlas : le premier modèle mondial multimodal au monde qui génère des images et des cadres vidéo avec un contrôle parfait de la caméra au pixel près et les reconstruit en 3D. Modélisez le monde, déplacez la caméra et simulez l'espace et le temps. Vidéo",
+          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
+          "link": "http://shitter.thepixora.com/theworldlabs/status/2094839756329041984#m",
+          "decryptage": "Un \"modèle mondial multimodal\" est un système d'IA capable de comprendre et de créer des informations dans plusieurs formats (texte, images, vidéos) et de simuler un environnement 3D cohérent, comme un mini-monde virtuel."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Cela a pris un certain temps, mais le voici, un article détaillé sur les modèles de langage pour la classification de texte et, bien sûr, Jev. C'est essentiellement un guide visuel sur les RNN, CNN, transformers et la calibration, avec des expériences pratiques sur la précision et l'efficacité.",
+          "text_original": "Took a while, but here it is, a mega write-up on language models for text classification and, of course, Jev. It's basically a visual guide to RNNs, CNNs, transformers, and calibration, with hands-on experiments on accuracy and efficiency.",
+          "link": "http://shitter.thepixora.com/rasbt/status/2104923910039040173#m",
+          "decryptage": "Les \"modèles de langage\" sont des IA qui traitent et comprennent le langage humain. La \"classification de texte\" est la tâche qui consiste à attribuer des catégories (comme \"positif\" ou \"négatif\" pour un avis) à des blocs de texte."
+        },
+        {
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Les mods sont absolument fous. Vous pouvez maintenant personnaliser Claude pour qu'il fonctionne et ressemble à ce que vous voulez, simplement en lui donnant des instructions (prompting). Chaque personne travaille différemment, il n'y a donc aucune raison pour que tout le monde ait une expérience Claude identique. Faites de Claude le vôtre, et partagez les mods sous forme de plugins afin que d'autres puissent essayer vos mods aussi. ClaudeDevs (@ClaudeDevs) Vous pouvez maintenant modder Claude Code : - Changer son comportement - Personnaliser l'interface utilisateur - Échanger vos propres fonctionnalités. Écrivez-en un avec quelques lignes de TypeScript, ou demandez à Claude de le construire pour vous. Les mods sont livrés dans des plugins, vous les installez donc avec /plugin dans l'interface en ligne de commande (CLI) ou l'application de bureau. Quelques exemples : Vidéo — http://shitter.thepixora.com/ClaudeDevs/status/2105721434807083061#m",
+          "text_original": "Mods are absolutely insane. You can now customize Claude to work and look the way you want by just prompting it. Each person works differently, so there's no reason why everyone should have an identical Claude experience. Make Claude your own, and share mods as plugins so others can try your mods too. ClaudeDevs (@ClaudeDevs) You can now mod Claude Code: - Change how it behaves - Customize the UI - Swap in your own features Write one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app. A few examples: Video — http://shitter.thepixora.com/ClaudeDevs/status/2105721434807083061#m",
+          "link": "http://shitter.thepixora.com/bcherny/status/2105756563302723721#m",
+          "decryptage": "\"Modder\" ou \"mods\" signifie modifier ou personnaliser un logiciel. Ici, il s'agit de personnaliser l'outil Claude avec des instructions simples (prompting) pour qu'il s'adapte aux besoins de chacun."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Claude Sonnet 5.5 est maintenant disponible : Claude (@claudeai) Présentation de Claude Sonnet 5.5, le deuxième modèle de la famille Claude 5.5. C'est une nette amélioration par rapport à Sonnet 5, il fonctionne plus de 30% plus vite et coûte jusqu'à 30% moins cher pour la plupart des travaux. Surtout, ce modèle alimente désormais le niveau gratuit sur claude.ai, offrant des capacités puissantes à tous les utilisateurs. Vidéo",
+          "text_original": "Claude Sonnet 5.5 is now available: Claude (@claudeai) Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work. Video",
+          "link": "http://shitter.thepixora.com/AnthropicAI/status/2104633259925630995#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Démo Dots. Maintenant... avec un meilleur WiFi. Vidéo",
+          "text_original": "dots demo. Now... with better WiFi. Video",
+          "link": "https://nitter.kareem.one/OpenAIDevs/status/2105708732323909827#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Nous réouvrons également les abonnements Pro 200, avec un accès continu aux modèles de pointe comme Astra, y compris notre nouveau modèle GPT-6.1 Sol qui apporte des capacités proches d'Astra à un modèle que vous pouvez utiliser tous les jours. Notre engagement est que votre abonnement continuera à vous aider à accomplir plus de travail avec un niveau de qualité croissant. Nous nous engageons également à ne pas réintroduire la limite de 5 heures afin que vous puissiez utiliser pleinement votre consommation hebdomadaire quand vous le souhaitez.",
+          "text_original": "We’re also reopening Pro 200 subscriptions, with continued access to frontier models like Astra, including our new GPT-6.1 Sol model which brings near-Astra capabilities to a model you can use every day. Our commitment is that your subscription will continue to help you get more work done with an increasing level of quality. We are also committing to not reintroducing the 5hr limit so that you can fully use your weekly usage when you want.",
+          "link": "https://nitter.kareem.one/OpenAI/status/2104993969486930015#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "Ultrafast est disponible dès aujourd'hui pour GPT-6 Astra dans Codex, ChatGPT Work et l'API, avec GPT-6.1 Sol à venir. Pour y accéder dans Codex et ChatGPT Work, nous introduisons Pro 500 — un nouveau plan avec nos limites d'utilisation les plus élevées (25x Plus) et l'accès à Ultrafast. chatgpt.com/pricing",
+          "text_original": "Ultrafast is available today for GPT-6 Astra in Codex, ChatGPT Work, and the API, with GPT-6.1 Sol coming soon. To access it in Codex and ChatGPT Work, we’re introducing Pro 500—a new plan with our highest usage limits (25x Plus) and access to Ultrafast. chatgpt.com/pricing",
+          "link": "https://nitter.kareem.one/OpenAI/status/2104993967985381673#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "OpenAI",
+          "handle": "@OpenAI",
+          "text_fr": "C'est Ultrafast. Notre niveau de vitesse premium, Ultrafast offre jusqu'à 8 fois plus rapide la génération de tokens (300 tokens par seconde) dans Codex et jusqu'à 6 fois plus rapide dans l'API. Vidéo",
+          "text_original": "This is Ultrafast. Our premium speed tier, Ultrafast offers up to 8x faster token generation (300 tokens per second) in Codex and up to 6x in the API. Video",
+          "link": "https://nitter.kareem.one/OpenAI/status/2104993966043320759#m",
+          "decryptage": "Les \"tokens\" sont les unités de texte (mots, parties de mots, signes de ponctuation) que les modèles d'IA traitent et génèrent. \"Génération de tokens\" fait référence à la vitesse à laquelle le modèle produit ces unités de texte."
+        },
+        {
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "Je me spécialise de plus en plus dans les versions web rétro-conçues de jeux 👉 ut.pieter.com 👈 Il y a 6 mois, j'ai essayé de rétro-concevoir Urban Terror. Urban Terror était un mod de style Counter-Strike basé sur le moteur Quake 3 Arena, je pense que @Erwin_AI m'a fait jouer à ça pendant le COVID. Parce qu'il fonctionne sur le moteur de Quake 3 comme RTCW et Q3 lui-même, j'ai pensé que je pourrais simplement utiliser ioquake3 et WASM pour le faire tourner sur le web, puis ajouter un serveur multijoueur et que ça marcherait... Mais non, ça n'a pas marché, j'étais bloqué il y a 6 mois, c'était buggé et ça ne fonctionnait pas, j'ai continué d'essayer et j'ai réussi à le charger mais sans vraiment pouvoir jouer. Aujourd'hui, j'ai réessayé avec Opus 5.5 et encore une fois, je n'ai pas réussi à le faire marcher, j'ai abandonné. J'ai fait une dernière tentative avec Fable 5.1 en \"high effort\" et au bout d'un moment, il a réussi à trouver le problème ! \"La structure du moteur était 4 octets plus longue que ce que le bytecode d'UT attend, tout ce qui suivait (le compte d'entités et la liste d'entités) était lu avec un décalage de 4 octets\". Il a réécrit le bytecode et l'a fait fonctionner ! Nous avons donc maintenant un autre jeu préservé, fonctionnant à 100% sur le web via WASM, avec un serveur multijoueur lié, pour que vous puissiez jouer avec vos amis 😊 Chaque nouveau modèle rend un peu plus de choses possibles et vous pouvez simplement continuer à essayer d'anciennes choses qui ne fonctionnaient pas auparavant. Je vois aussi beaucoup de gens modder des jeux modernes maintenant aussi ce qui a l'air très cool. Ici, je suis en train d'y jouer avec @marckohlbrugge il y a quelques minutes ! Quoi qu'il en soit, vous pouvez y jouer avec tout le monde sur ut.pieter.com maintenant :D Vidéo",
+          "text_original": "I keep going more niche with reverse engineered web-based versions of games 👉 ut.pieter.com 👈 6 months ago I tried to reverse engineer Urban Terror Urban Terror was kind of a Counter-Strike style mod on top of the Quake 3 Arena engine, I think @Erwin_AI got me to play this during COVID Because it runs on Quake 3's engine like RTCW and Q3 itself, I thought I could just use ioquake3 and WASM to run it on web, then add a multiplayer server and it'd just work... But no it didn't, I got stuck 6 months ago, it was buggy and wouldn't work, I kept trying and kinda got it to load but not really play Today I tried it again with Opus 5.5 and again, I couldn't get it to work, giving up I did a last try with Fable 5.1 on high effort and it after awhile it did figure out the issue! \"The engine's struct was 4 bytes longer than what UT's bytecode expects, everything after that point (the entity count and the entity list) was read 4 bytes off\" It rewrote the bytecode and made it work! So now we have another game preserved, running 100% the web via WASM, with a multiplayer server tied to it, so you can play with your friends 😊 Every model that comes out makes a bit more things possible and you can just keep trying old things that didn't work before I see lots of people mod modern games now too which looks very cool too Here I'm playing it with @marckohlbrugge a few minutes ago! Anyway you can play it with everyone else at ut.pieter.com now :D Vidéo",
+          "link": "https://nitter.kareem.one/levelsio/status/2106150888289009666#m",
+          "decryptage": "La \"rétro-ingénierie\" (reverse engineering) consiste à démonter ou analyser un produit (ici, un jeu vidéo) pour comprendre comment il fonctionne. Le \"bytecode\" est une forme de code intermédiaire que les ordinateurs peuvent exécuter, et \"WASM\" (WebAssembly) permet d'exécuter du code performant directement dans un navigateur web."
+        }
+      ]
+    }
+  },
+  "processed_at": "2026-10-03T11:37:37",
+  "validation": {
+    "translated_pct": 100,
+    "with_decryptage_pct": 49,
+    "total": 49,
+    "needs_retranslation_count": 0
+  },
+  "email_sent_at": "2026-10-03T11:37:38"
+}
