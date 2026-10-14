@@ -1,97 +1,7 @@
 {
   "date": "2026-10-14",
-  "fetched_at": "2026-10-14T13:05:44",
+  "fetched_at": "2026-10-14T13:40:41",
   "tweets": [
-    {
-      "handle": "sundarpichai",
-      "text": "Good summary of our security and alignment work for Argon 4. Anca Dragan (@ancadianadragan) We did a lot to understand Gemini 4's capabilities and propensities, and to improve our mitigations for this launch -- you can get a tl;dr here blog.google/innovation-and-a… and dive into the report storage.googleapis.com/deepm… Link Developing Gemini 4 Argon responsibly and safely Learn more about our approach to safety and security for Gemini 4 Argon. blog.google — https://nitter.kareem.one/ancadianadragan/status/2110073779531747784#m",
-      "link": "https://nitter.kareem.one/sundarpichai/status/2110108367247294885#m",
-      "published": "Tue, 13 Oct 2026 20:40:13 GMT",
-      "author_name": "Sundar Pichai",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "sundarpichai",
-      "text": "Using Gemini 4 makes you realize how many other models must be distilling Claude/GPT (or using a similar training pipeline). It feels quite different than other models.",
-      "link": "https://nitter.kareem.one/emollick/status/2110060618258497764#m",
-      "published": "Tue, 13 Oct 2026 17:30:29 GMT",
-      "author_name": "Sundar Pichai",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "sundarpichai",
-      "text": "At Box, we've been testing Gemini 4 Argon on our Box AI Complex Work eval for the past week. It's a huge upgrade over Gemini 3.1 Pro, jumping by 14 percentage points across all our tests, and firmly at the frontier. In our evaluation, we give the Box Agent (using Gemini 4 Argon) a variety of complex enterprise tasks involving enterprise documents in a range of industries. These tasks approximate the kind of hard, time-consuming work that knowledge workers do every day with their enterprise content. Gemini 4 is a huge leap on effectively every dimension of this work. Gemini 4 is far more capable on math, logic, analytics, and deep knowledge of a variety of business domains. It also works far harder to complete tasks fully without stopping short of the desired result. This is incredibly important for complex enterprise workflows that depend on robust task execution. Here are some example wins that we saw to put the improvements in perspective: * Financial services (+18 points): a funding-gap analysis for a family-owned company, where the brief spelled out every step of the projected statements, down to the interest on the bank loan and the overdraft for each year. Gemini 4 Argon built them exactly as specified, every line broken out and carried through to the funding gap. Gemini 3.1 Pro folded the interest into a single figure. * Healthcare (+25 points): an intensive care management plan where both models spotted a dangerous potassium level and a drug interaction. Only Gemini 4 Argon went back and pulled the offending drugs from the final regimen, so its plan actually matched its own diagnosis. * Technology (+37 points): a product performance review deciding which of two regional markets should have its cloud infrastructure optimized first. Gemini 4 Argon pulled the right month's user, retention and per-user figures for both regions and correctly flagged North America. Gemini 3.1 Pro often pulled the wrong rows, at one point reporting retention above 100%, and pointed the effort at the wrong region. * Energy (+16 points): an energy consumption report across two facilities that had to flag any gaps in the meter data. Gemini 4 Argon consistently caught that the data center's smart meter log stops in November. Gemini 3.1 Pro often missed it, at times declaring the logs complete. * Consumer products (+33 points): a product launch evaluation deciding which production expansion to fund. Gemini 4 Argon saw that existing inventory could bridge an early capacity gap, which made the smaller expansion viable with an earlier launch and a faster break-even. Gemini 3.1 Pro defaulted to the larger expansion and the later timeline. Gemini 4 Argon will be available in the Box AI Studio shortly for anyone to build custom Box Agents with. Sundar Pichai (@sundarpichai) Gemini 4 Argon is here. It’s available globally today for developers and enterprises in the paid tier of the Gemini API and the Gemini platform, for Ultra subscribers in Google Antigravity, and Ultra and Pro subscribers in the Gemini app and Search. Hope you all enjoy it! Video — https://nitter.kareem.one/sundarpichai/status/2110038898009407584#m",
-      "link": "https://nitter.kareem.one/levie/status/2110046686198550539#m",
-      "published": "Tue, 13 Oct 2026 16:35:07 GMT",
-      "author_name": "Sundar Pichai",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "sundarpichai",
-      "text": "Generating complex, multi-tiered architecture is a great test for frontier models. Using multi-agent visual critique loops in Google Antigravity, Argon autonomously created this highly detailed Pagoda and surrounding grounds from scratch in Blender. Video",
-      "link": "https://nitter.kareem.one/sundarpichai/status/2110059845806399489#m",
-      "published": "Tue, 13 Oct 2026 17:27:24 GMT",
-      "author_name": "Sundar Pichai",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "sundarpichai",
-      "text": "Anyone dealing with massive data dumps knows what a headache it can be. We gave Gemini 4 Argon 80,000+ raw NASA Mars weather logs and Ingenuity Helicopter telemetry files, it distills the atmospheric flight mechanics into a deck, turning massive, messy scientific archives (including a mix of CSVs, images, pdfs, xml logs, videos) into clear visual Google Slides in minutes. Video",
-      "link": "https://nitter.kareem.one/sundarpichai/status/2110059844187406428#m",
-      "published": "Tue, 13 Oct 2026 17:27:24 GMT",
-      "author_name": "Sundar Pichai",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "A Saudi court has sentenced a Sri Lankan migrant worker to death over a Facebook comment that was deemed blasphemous, whatever that is. trib.al/41ReHEI Link Saudi Arabia: Death Penalty for Facebook Comment A Saudi court has sentenced a Sri Lankan migrant worker to death over a Facebook comment that was deemed blasphemous. hrw.org",
-      "link": "https://nitter.kareem.one/KenRoth/status/2110185298726408303#m",
-      "published": "Wed, 14 Oct 2026 01:45:55 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "Trump would sacrifice Ukraine for his corruption. He has implied that the point of allowing Russia to sell diesel is to lower fuel prices for Americans, trying to deceive voters into thinking that \"the cause of high prices is Ukraine and not his own war of choice in Iran.\" But \"the amount of fuel that Russia could export is too small, the impact on pricing too slight.\" This looks, instead, like an \"attempt to force Ukraine to surrender and to save the Russian economy, perhaps in order to finally complete the multiple business deals that the Russians are known to have discussed with American negotiators and others in Trump’s orbit.\" theatlantic.com/ideas/2026/1… Link Trump’s Message to Ukraine Is Now Crystal Clear The president’s actions over the past 72 hours look like an effort to force Kyiv to surrender. theatlantic.com",
-      "link": "https://nitter.kareem.one/KenRoth/status/2110014696094843096#m",
-      "published": "Tue, 13 Oct 2026 14:28:00 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "Trump’s promised $5,000 post-midterm checks would cost $1.2 trillion, more than the entire Pentagon budget. Add that to his previous promises, and the total is $2.2 trillion. Video",
-      "link": "https://nitter.kareem.one/SteveRattner/status/2110054272767246814#m",
-      "published": "Tue, 13 Oct 2026 17:05:16 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "In JEPA, are we preventing collapse in the representation we actually use downstream? TLDR: not necessarily. A high-rank projected representation does not guarantee a non-collapsed backbone. λ-JEPA is designed to target this gap. arxiv.org/abs/2609.35288 Video",
-      "link": "https://nitter.kareem.one/berkerdemirel97/status/2110035520533266435#m",
-      "published": "Tue, 13 Oct 2026 15:50:45 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "Good morning 🌞 Here’s why Trump is so terrified of losing Congress",
-      "link": "https://nitter.kareem.one/mjfree/status/2109988142732181760#m",
-      "published": "Tue, 13 Oct 2026 12:42:29 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
     {
       "handle": "GoogleDeepMind",
       "text": "Over half of reported crimes in Singapore use sophisticated social engineering. With @GovTechSG , we’re building on-device fraud detection using our open model Gemma. By fine-tuning it on local scam tactics, it identifies threats in real time without compromising personal privacy → goo.gle/4ygVkJa",
@@ -138,48 +48,48 @@
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "Exa just passed $100m in annualized revenue. We've grown almost exactly 10x per year for 3 years. We now handle 2 billion requests a month from 200k+ teams. And it’s still so early: We predict agents will search 1000x more than humans by 2030. Agents don't search like humans. They write long, complex queries and want all the world's data, not just the web. We've spent 5 years building a search engine designed for them. We now serve personal agents, AI labs, coding agents, GTM agents, really any agent. Exa gives these agents access to 100s of billions of web documents and tons of proprietary data. Our customers are increasingly noticing that information is the bottleneck to agent performance. While the world seems close to perfect intelligence with models like Fable and Astra, we are very far from perfect information. To our small but legendary team, thank you for getting us here, from engineering to research to GTM to ops. To our customers, it is an honor to serve you. We have some exciting releases coming soon and can't wait to share them 🫡",
-      "link": "https://nitter.kareem.one/WilliamBryk/status/2110058915589464192#m",
-      "published": "Tue, 13 Oct 2026 17:23:43 GMT",
-      "author_name": "Shawn Wang",
-      "category_hint": "builder",
+      "handle": "ClemDelangue",
+      "text": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+      "link": "https://nitter.kareem.one/soumithchintala/status/1202981209057484801#m",
+      "published": "Fri, 06 Dec 2019 16:00:45 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "this is what talent density means at @aidotengineer - @SydneyScouts runs speakers at AIE!! Video Alex Volkov (@altryne) When I tell you @swyx is a theater kid at heart, this is what I mean! Pipes! Video — https://nitter.kareem.one/altryne/status/2110171574972317870#m",
-      "link": "https://nitter.kareem.one/swyx/status/2110194074573586607#m",
-      "published": "Wed, 14 Oct 2026 02:20:47 GMT",
-      "author_name": "Shawn Wang",
-      "category_hint": "builder",
+      "handle": "ClemDelangue",
+      "text": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+      "link": "https://nitter.kareem.one/Thom_Wolf/status/1195662118974083073#m",
+      "published": "Sat, 16 Nov 2019 11:17:18 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "ask not what the takeoff can do for you, but what YOU can do for the takeoff Greetings from @aiDotEngineer New York Video",
-      "link": "https://nitter.kareem.one/dexhorthy/status/2110153120428724552#m",
-      "published": "Tue, 13 Oct 2026 23:38:03 GMT",
-      "author_name": "Shawn Wang",
-      "category_hint": "builder",
+      "handle": "ClemDelangue",
+      "text": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+      "link": "https://nitter.kareem.one/algo_diver/status/1192329736850038786#m",
+      "published": "Thu, 07 Nov 2019 06:35:36 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "Robots That Predict the Future: Dyna-2, Million-Hour World Models, & the Bitter Lesson of Robotics @DynaRobotics ’s @JasonMa2020 explains how world-action models predict the future to guide physical robot actions, why training on over a million hours of human video lets robots adapt to new tasks with as little as 45 minutes of demonstrations, how synthetic data and self-improving world models could accelerate robotics, why agentic harnesses are enabling hour-long autonomous workflows, and how the Bitter Lesson of scaling, full-stack hardware, and real-world deployments at Din Tai Fung are turning physical AI from impressive demos into useful robots. Video",
-      "link": "https://nitter.kareem.one/latentspacepod/status/2110063689529241762#m",
-      "published": "Tue, 13 Oct 2026 17:42:41 GMT",
-      "author_name": "Shawn Wang",
-      "category_hint": "builder",
+      "handle": "ClemDelangue",
+      "text": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitterk.kareem.one/DoingJobs/status/11865…",
+      "link": "https://nitter.kareem.one/Thom_Wolf/status/1189271899316064256#m",
+      "published": "Tue, 29 Oct 2019 20:04:51 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "swyx",
-      "text": "When I tell you @swyx is a theater kid at heart, this is what I mean! Pipes! Video Alex Volkov (@altryne) Got a pleasant surprise walking into the @aiDotEngineer keynote theater at the Sheraton NY! PromptBill on every seat! Ahahaa Swyx is a theater kid at heart and it shows! — https://nitter.kareem.one/altryne/status/2109995628977889441#m",
-      "link": "https://nitter.kareem.one/altryne/status/2110171574972317870#m",
-      "published": "Wed, 14 Oct 2026 00:51:23 GMT",
-      "author_name": "Shawn Wang",
-      "category_hint": "builder",
+      "handle": "ClemDelangue",
+      "text": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+      "link": "https://nitter.kareem.one/fchollet/status/1188942956511690752#m",
+      "published": "Mon, 28 Oct 2019 22:17:44 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     }
   ],
@@ -188,9 +98,11 @@
     "sama",
     "DarioAmodei",
     "gdb",
+    "sundarpichai",
     "elonmusk",
     "AravSrinivas",
     "miramurati",
+    "ylecun",
     "demishassabis",
     "JeffDean",
     "fchollet",
@@ -207,6 +119,7 @@
     "OpenAI",
     "xai",
     "simonw",
+    "swyx",
     "hwchase17",
     "jeremyphoward",
     "levelsio",
@@ -218,207 +131,186 @@
     "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
-    "ClemDelangue",
     "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Cette journée a été riche en annonces autour de Gemini 4 Argon de Google, le nouveau modèle d'IA qui impressionne par ses capacités à résoudre des problèmes complexes pour les entreprises et même à enseigner des tâches physiques à des robots. Nous avons aussi vu comment des entreprises spécialisées comme Exa se positionnent pour le futur des 'agents IA' autonomes. Le message clé pour les débutants est que l'IA devient de plus en plus polyvalente et accessible, ouvrant la voie à des applications concrètes qui étaient inimaginables il y a peu.",
+    "summary": "Aujourd'hui, l'actualité de l'IA nous plonge dans les applications concrètes des modèles de pointe, notamment avec Google DeepMind qui met en lumière les capacités de Gemini 4 Argon. Ce modèle se distingue par sa capacité à résoudre des problèmes complexes, allant de la détection de fraude sophistiquée à l'apprentissage robotique par observation vidéo. Nous voyons aussi des discussions sur l'accessibilité de ces technologies pour divers utilisateurs, ainsi que des réflexions sur les défis de la recherche en IA, soulignant l'importance de l'efficacité et de la simplicité des modèles.",
     "glossaire": [
       {
-        "terme": "Gemini 4 Argon",
-        "definition": "La dernière génération du grand modèle d'intelligence artificielle développé par Google, conçue pour des tâches très avancées et complexes."
-      },
-      {
-        "terme": "Modèle de langage (LLM)",
-        "definition": "Un programme d'IA entraîné sur d'énormes volumes de texte et de données pour comprendre, générer et interagir en langage humain."
-      },
-      {
-        "terme": "Agents IA",
-        "definition": "Des programmes d'intelligence artificielle autonomes capables de comprendre des objectifs, de planifier et d'exécuter des tâches complexes en interagissant avec leur environnement."
-      },
-      {
-        "terme": "World Models (Modèles du monde)",
-        "definition": "Des systèmes d'IA qui apprennent à créer des simulations internes du monde réel pour prédire les conséquences de leurs actions et mieux planifier."
-      },
-      {
         "terme": "Ingénierie sociale",
-        "definition": "Des techniques de manipulation psychologique utilisées par des escrocs pour tromper des individus afin qu'ils divulguent des informations ou réalisent des actions spécifiques."
+        "definition": "Technique de manipulation psychologique utilisée pour tromper les individus et leur soutirer des informations confidentielles ou les inciter à réaliser certaines actions."
       },
       {
-        "terme": "Alignement",
-        "definition": "L'effort de recherche pour s'assurer que les systèmes d'IA agissent de manière bénéfique et conforme aux intentions et aux valeurs des humains."
+        "terme": "Modèle open source",
+        "definition": "Un modèle d'IA dont le code et les principes de fonctionnement sont accessibles au public, permettant à quiconque de l'étudier, de le modifier et de le partager."
+      },
+      {
+        "terme": "IA physique",
+        "definition": "Systèmes d'intelligence artificielle conçus pour interagir directement avec le monde réel, souvent intégrés dans des robots ou des dispositifs capables d'actions concrètes."
+      },
+      {
+        "terme": "API (Interface de Programmation d'Application)",
+        "definition": "Un ensemble de règles et d'outils qui permettent à différents logiciels de communiquer entre eux, comme un pont entre une application et un service en ligne."
+      },
+      {
+        "terme": "Modèle de pointe",
+        "definition": "Un système d'IA qui représente l'état le plus avancé de la technologie dans son domaine, offrant les meilleures performances ou les capacités les plus innovantes du moment."
+      },
+      {
+        "terme": "Transformers",
+        "definition": "Une architecture de réseau neuronal particulièrement efficace pour traiter les séquences de données, comme le texte ou la parole, et qui est à la base de nombreux grands modèles de langage."
+      },
+      {
+        "terme": "PNL (Traitement du Langage Naturel)",
+        "definition": "Le domaine de l'intelligence artificielle qui se concentre sur la manière de permettre aux ordinateurs de comprendre, d'interpréter et de générer le langage humain."
       }
     ],
     "category_summaries": {
-      "actu": "Aujourd'hui, l'actualité est dominée par l'annonce de Gemini 4 Argon, le nouveau modèle d'IA de Google, disponible pour les développeurs et les entreprises. Les retours d'experts, notamment de Box, soulignent une nette amélioration dans les tâches professionnelles complexes. On a aussi appris des initiatives concrètes comme la détection de fraude à Singapour grâce à l'IA, et la croissance impressionnante d'Exa, une entreprise qui se positionne comme un moteur de recherche pour les futurs agents IA.",
-      "tips": "Un point clé de la journée est la mise à disposition de Gemini 4 Argon, avec des informations précises sur la manière de l'utiliser. Que vous soyez un utilisateur quotidien, un développeur, un scientifique ou une entreprise, il existe désormais des moyens d'accéder à ce modèle. C'est une invitation à explorer et à expérimenter directement les capacités de cette nouvelle IA.",
-      "idees": "La réflexion du jour nous invite à considérer les différences entre les modèles d'IA, Gemini 4 étant perçu comme distinct des modèles basés sur Claude/GPT. Des discussions plus techniques sur la manière d'optimiser les représentations internes des IA pour éviter les 'effondrements' nous rappellent la complexité sous-jacente. Enfin, l'avenir de la robotique et des 'modèles du monde' met en lumière le potentiel de robots qui peuvent apprendre à prédire leur environnement, transformant des démonstrations impressionnantes en outils utiles.",
-      "outils": "Les démonstrations des capacités de Gemini 4 Argon ont été marquantes. Il peut générer des architectures complexes, condenser des montagnes de données scientifiques en présentations claires, ou encore transformer des vidéos en terrains d'entraînement pour des IA physiques. Le point culminant est sans doute l'exploit d'un robot apprenant à jouer au cornhole juste en regardant une vidéo, preuve de l'avancée de l'IA dans l'apprentissage et l'exécution de tâches physiques."
+      "actu": "Cette catégorie met en lumière les progrès fulgurants de Google DeepMind avec son modèle Gemini 4 Argon, capable de détection de fraude et d'apprentissage robotique par vidéo. Elle souligne également l'importance d'outils fondamentaux comme PyTorch pour le développement de l'IA.",
+      "tips": "Le conseil du jour met l'accent sur l'intégration pratique de grandes plateformes d'IA comme Hugging Face avec des outils de communication comme Slack, suggérant des façons astucieuses d'utiliser l'IA au quotidien.",
+      "idees": "Les réflexions du jour portent sur les innovations en matière de modélisation de séquences longues avec les 'Compressive Transformers' et sur une discussion essentielle concernant la recherche en IA, invitant à privilégier l'efficacité et la simplicité plutôt que la seule course à la performance maximale (SOTA).",
+      "outils": "Cette section présente les différentes manières d'accéder et d'expérimenter avec le nouveau modèle Gemini 4 Argon, que ce soit pour les utilisateurs, les développeurs ou les scientifiques. Elle recommande aussi des implémentations spécifiques de modèles Transformers pour les développeurs."
     },
     "highlights": [
       {
-        "author_name": "Sundar Pichai",
-        "handle": "@sundarpichai",
-        "text_fr": "Chez Box, nous avons testé Gemini 4 Argon sur notre évaluation 'Box AI Complex Work' la semaine dernière. C'est une énorme amélioration par rapport à Gemini 3.1 Pro, avec un bond de 14 points de pourcentage sur tous nos tests, et se situant fermement à la pointe. Dans notre évaluation, nous donnons à l'Agent Box (utilisant Gemini 4 Argon) une variété de tâches d'entreprise complexes impliquant des documents professionnels dans diverses industries. Ces tâches se rapprochent du travail difficile et chronophage que les employés du savoir effectuent chaque jour avec leur contenu d'entreprise. Gemini 4 est un énorme bond en avant sur pratiquement toutes les dimensions de ce travail. Gemini 4 est bien plus capable en mathématiques, logique, analyse et connaissance approfondie d'une variété de domaines commerciaux. Il travaille aussi beaucoup plus dur pour accomplir entièrement les tâches sans s'arrêter avant le résultat souhaité. C'est incroyablement important pour les flux de travail d'entreprise complexes qui dépendent d'une exécution robuste des tâches. Voici quelques exemples de réussites que nous avons observées pour mettre les améliorations en perspective : * Services financiers (+18 points) : une analyse d'écart de financement pour une entreprise familiale, où le bref détaillait chaque étape des états prévisionnels, jusqu'aux intérêts sur le prêt bancaire et le découvert pour chaque année. Gemini 4 Argon les a construits exactement comme spécifié, chaque ligne détaillée et reportée à l'écart de financement. Gemini 3.1 Pro a regroupé les intérêts en un seul chiffre. * Santé (+25 points) : un plan de gestion des soins intensifs où les deux modèles ont repéré un niveau de potassium dangereux et une interaction médicamenteuse. Seul Gemini 4 Argon est revenu en arrière et a retiré les médicaments incriminés du régime final, de sorte que son plan correspondait réellement à son propre diagnostic. * Technologie (+37 points) : une revue de performance produit décidant lequel des deux marchés régionaux devrait voir son infrastructure cloud optimisée en premier. Gemini 4 Argon a extrait les chiffres d'utilisateurs, de rétention et par utilisateur du bon mois pour les deux régions et a correctement signalé l'Amérique du Nord. Gemini 3.1 Pro a souvent extrait les mauvaises lignes, à un moment donné, signalant une rétention supérieure à 100 %, et a orienté l'effort vers la mauvaise région. * Énergie (+16 points) : un rapport de consommation d'énergie sur deux installations qui devait signaler toute lacune dans les données du compteur. Gemini 4 Argon a systématiquement remarqué que le journal du compteur intelligent du centre de données s'arrête en novembre. Gemini 3.1 Pro l'a souvent manqué, déclarant parfois les journaux complets. * Produits de consommation (+33 points) : une évaluation de lancement de produit décidant quelle expansion de production financer. Gemini 4 Argon a vu que l'inventaire existant pouvait combler un déficit de capacité précoce, ce qui rendait la plus petite expansion viable avec un lancement plus précoce et un seuil de rentabilité plus rapide. Gemini 3.1 Pro a opté par défaut pour la plus grande expansion et le calendrier plus tardif. Gemini 4 Argon sera bientôt disponible dans Box AI Studio pour que tout le monde puisse créer des Agents Box personnalisés avec. Sundar Pichai (@sundarpichai) Gemini 4 Argon est là. Il est disponible globalement aujourd'hui pour les développeurs et les entreprises dans le niveau payant de l'API Gemini et de la plateforme Gemini, pour les abonnés Ultra dans Google Antigravity, et pour les abonnés Ultra et Pro dans l'application Gemini et Search. J'espère que vous l'apprécierez tous !",
-        "text_original": "At Box, we've been testing Gemini 4 Argon on our Box AI Complex Work eval for the past week. It's a huge upgrade over Gemini 3.1 Pro, jumping by 14 percentage points across all our tests, and firmly at the frontier. In our evaluation, we give the Box Agent (using Gemini 4 Argon) a variety of complex enterprise tasks involving enterprise documents in a range of industries. These tasks approximate the kind of hard, time-consuming work that knowledge workers do every day with their enterprise content. Gemini 4 is a huge leap on effectively every dimension of this work. Gemini 4 is far more capable on math, logic, analytics, and deep knowledge of a variety of business domains. It also works far harder to complete tasks fully without stopping short of the desired result. This is incredibly important for complex enterprise workflows that depend on robust task execution. Here are some example wins that we saw to put the improvements in perspective: * Financial services (+18 points): a funding-gap analysis for a family-owned company, where the brief spelled out every step of the projected statements, down to the interest on the bank loan and the overdraft for each year. Gemini 4 Argon built them exactly as specified, every line broken out and carried through to the funding gap. Gemini 3.1 Pro folded the interest into a single figure. * Healthcare (+25 points): an intensive care management plan where both models spotted a dangerous potassium level and a drug interaction. Only Gemini 4 Argon went back and pulled the offending drugs from the final regimen, so its plan actually matched its own diagnosis. * Technology (+37 points): a product performance review deciding which of two regional markets should have its cloud infrastructure optimized first. Gemini 4 Argon pulled the right month's user, retention and per-user figures for both regions and correctly flagged North America. Gemini 3.1 Pro often pulled the wrong rows, at one point reporting retention above 100%, and pointed the effort at the wrong region. * Energy (+16 points): an energy consumption report across two facilities that had to flag any gaps in the meter data. Gemini 4 Argon consistently caught that the data center's smart meter log stops in November. Gemini 3.1 Pro often missed it, at times declaring the logs complete. * Consumer products (+33 points): a product launch evaluation deciding which production expansion to fund. Gemini 4 Argon saw that existing inventory could bridge an early capacity gap, which made the smaller expansion viable with an earlier launch and a faster break-even. Gemini 3.1 Pro defaulted to the larger expansion and the later timeline. Gemini 4 Argon will be available in the Box AI Studio shortly for anyone to build custom Box Agents with. Sundar Pichai (@sundarpichai) Gemini 4 Argon is here. It’s available globally today for developers and enterprises in the paid tier of the Gemini API and the Gemini platform, for Ultra subscribers in Google Antigravity, and Ultra and Pro subscribers in the Gemini app and Search. Hope you all enjoy it!",
-        "link": "https://nitter.kareem.one/levie/status/2110046686198550539#m",
-        "decryptage": "Ce tweet montre de manière très concrète comment une nouvelle IA comme Gemini 4 Argon peut transformer le travail de tous les jours dans différents secteurs d'activité, en étant plus précise et plus autonome que les versions précédentes.",
-        "category": "actu",
-        "highlight_reason": "Ce tweet donne des exemples très concrets et impressionnants des capacités de Gemini 4 Argon dans des tâches d'entreprise complexes, le rendant très parlant pour un débutant."
-      },
-      {
         "author_name": "Google DeepMind",
         "handle": "@GoogleDeepMind",
-        "text_fr": "Gemini 4 Argon a appris à un robot à jouer au cornhole simplement en regardant une vidéo. Il a modélisé la physique, codé sa propre simulation et a appris au robot humanoïde Apollo de @Apptronik à faire 7 lancers d'affilée. Vidéo",
+        "text_fr": "Gemini 4 Argon a appris à un robot à jouer au cornhole juste en regardant une vidéo. Il a modélisé la physique, codé sa propre simulation et appris à l'humanoïde Apollo de @Apptronik à réussir 7 lancers d'affilée. Vidéo",
         "text_original": "Gemini 4 Argon taught a robot to play cornhole just by watching a video. It mapped the physics, coded its own simulation, and taught @Apptronik 's Apollo humanoid to sink 7 throws in a row. Video",
         "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110078384617464201#m",
-        "decryptage": "Le 'cornhole' est un jeu où l'on lance des sacs de grains vers un trou, et ce tweet montre que Gemini 4 Argon peut non seulement comprendre une tâche complexe à partir d'une simple vidéo, mais aussi la traduire en actions physiques pour un robot.",
-        "category": "outils",
-        "highlight_reason": "C'est un exemple fascinant de l'apprentissage de l'IA par l'observation et de son application concrète dans le monde physique, ce qui est très visuel et compréhensible pour un débutant."
+        "decryptage": "Un \"humanoïde\" désigne un robot qui ressemble à un humain. Une \"simulation\" est une recréation numérique d'un événement ou d'un système réel pour le tester ou l'étudier sans risque.",
+        "category": "actu",
+        "highlight_reason": "Ce tweet est fascinant car il montre comment l'IA peut apprendre des tâches complexes simplement en observant, une avancée majeure pour l'interaction entre l'IA et le monde physique."
       },
       {
         "author_name": "Google DeepMind",
         "handle": "@GoogleDeepMind",
-        "text_fr": "Voici comment vous pouvez l'essayer : 🔵 Utilisateurs quotidiens : Dans l'application @GeminiApp et le mode IA dans la recherche pour les abonnés Google AI Pro et Ultra. 🔵 Développeurs : Niveau payant de l'API Gemini, plus @Antigravity et @GoogleAIStudio pour les abonnés Google AI Ultra. 🔵 Scientifiques : Postulez pour le niveau d'utilisation supérieur dans @Antigravity gratuitement. 🔵 Entreprises : Gemini pour les entreprises et dans Antigravity. En savoir plus → goo.gle/3W85sXj",
+        "text_fr": "Voici comment vous pouvez l'essayer : 🔵 Utilisateurs quotidiens : Dans l'application @GeminiApp et le Mode IA de la Recherche pour les abonnés Google AI Pro et Ultra. 🔵 Développeurs : Via l'API Gemini payante, ainsi que @Antigravity et @GoogleAIStudio pour les abonnés Google AI Ultra. 🔵 Scientifiques : Demandez l'accès au niveau d'utilisation supérieur dans @Antigravity gratuitement. 🔵 Entreprises : Gemini pour les affaires et dans Antigravity. En savoir plus → goo.gle/3W85sXj",
         "text_original": "Here’s how you can try it: 🔵 Everyday users: In the @GeminiApp and AI Mode in Search for Google AI Pro and Ultra subscribers. 🔵 Developers: Gemini API paid tier, plus @Antigravity and @GoogleAIStudio for Google AI Ultra subscribers. 🔵 Scientists: Apply for the top usage tier in @Antigravity free of charge. 🔵 Enterprises: Gemini for business and in Antigravity. Find out more → goo.gle/3W85sXj",
         "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110039277442682916#m",
-        "decryptage": "Ce tweet explique de manière très pratique comment les différents types d'utilisateurs (particuliers, développeurs, chercheurs, entreprises) peuvent accéder et utiliser le nouveau modèle Gemini 4 Argon selon leurs besoins.",
-        "category": "tips",
-        "highlight_reason": "Ce tweet est directement actionnable et utile pour un débutant passionné par l'IA qui souhaite savoir comment interagir concrètement avec les nouveaux modèles."
+        "decryptage": "Une \"API\" (Interface de Programmation d'Application) est un ensemble de règles qui permet à différentes applications logicielles de communiquer entre elles, comme un menu pour demander des services.",
+        "category": "outils",
+        "highlight_reason": "Ce tweet est crucial pour un débutant car il indique très concrètement comment interagir avec un modèle d'IA de pointe, ouvrant la porte à l'expérimentation et à l'apprentissage pratique."
       },
       {
-        "author_name": "Shawn Wang",
-        "handle": "@swyx",
-        "text_fr": "Exa vient de dépasser 100 millions de dollars de revenus annualisés. Nous avons connu une croissance d'environ 10x par an pendant 3 ans. Nous gérons maintenant 2 milliards de requêtes par mois de la part de plus de 200 000 équipes. Et ce n'est que le début : nous prévoyons que les agents chercheront 1000 fois plus que les humains d'ici 2030. Les agents ne cherchent pas comme les humains. Ils écrivent des requêtes longues et complexes et veulent toutes les données du monde, pas seulement le web. Nous avons passé 5 ans à construire un moteur de recherche conçu pour eux. Nous servons maintenant des agents personnels, des laboratoires d'IA, des agents de codage, des agents de mise sur le marché, vraiment n'importe quel agent. Exa donne à ces agents accès à des centaines de milliards de documents web et à des tonnes de données propriétaires. Nos clients remarquent de plus en plus que l'information est le goulot d'étranglement de la performance des agents. Bien que le monde semble proche de l'intelligence parfaite avec des modèles comme Fable et Astra, nous sommes très loin de l'information parfaite. À notre petite mais légendaire équipe, merci de nous avoir amenés ici, de l'ingénierie à la recherche en passant par la mise sur le marché et les opérations. À nos clients, c'est un honneur de vous servir. Nous avons des sorties passionnantes à venir et avons hâte de les partager 🫡",
-        "text_original": "Exa just passed $100m in annualized revenue. We've grown almost exactly 10x per year for 3 years. We now handle 2 billion requests a month from 200k+ teams. And it’s still so early: We predict agents will search 1000x more than humans by 2030. Agents don't search like humans. They write long, complex queries and want all the world's data, not just the web. We've spent 5 years building a search engine designed for them. We now serve personal agents, AI labs, coding agents, GTM agents, really any agent. Exa gives these agents access to 100s of billions of web documents and tons of proprietary data. Our customers are increasingly noticing that information is the bottleneck to agent performance. While the world seems close to perfect intelligence with models like Fable and Astra, we are very far from perfect information. To our small but legendary team, thank you for getting us here, from engineering to research to GTM to ops. To our customers, it is an honor to serve you. We have some exciting releases coming soon and can't wait to share them 🫡",
-        "link": "https://nitter.kareem.one/WilliamBryk/status/2110058915589464192#m",
-        "decryptage": "Ce tweet met en lumière la tendance des 'agents IA', des programmes capables de chercher et d'utiliser des informations de manière très autonome, et comment leur efficacité dépendra de leur accès à des données très spécifiques, un peu comme un moteur de recherche sur mesure pour l'IA.",
+        "author_name": "Google DeepMind",
+        "handle": "@GoogleDeepMind",
+        "text_fr": "Plus de la moitié des crimes signalés à Singapour utilisent des techniques d'ingénierie sociale sophistiquées. Avec @GovTechSG, nous développons un système de détection de fraude directement sur les appareils en utilisant notre modèle open source Gemma. En l'ajustant spécifiquement aux tactiques d'arnaque locales, il identifie les menaces en temps réel sans compromettre la vie privée → goo.gle/4ygVkJa",
+        "text_original": "Over half of reported crimes in Singapore use sophisticated social engineering. With @GovTechSG , we’re building on-device fraud detection using our open model Gemma. By fine-tuning it on local scam tactics, it identifies threats in real time without compromising personal privacy → goo.gle/4ygVkJa",
+        "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110190101707858039#m",
+        "decryptage": "\"Ingénierie sociale\" signifie manipuler les gens pour obtenir des informations confidentielles. \"Modèle open source\" veut dire que le code de base est public et peut être utilisé par tout le monde. \"Fine-tuning\" ou \"ajustement\" signifie adapter un modèle existant à une tâche très spécifique avec de nouvelles données.",
         "category": "actu",
-        "highlight_reason": "Ce tweet offre une perspective futuriste sur le rôle des agents IA et l'importance de l'information pour leur performance, un concept crucial pour comprendre l'évolution de l'IA."
+        "highlight_reason": "Ce tweet met en lumière l'impact positif et très concret de l'IA dans la lutte contre la criminalité, en utilisant un modèle accessible et respectueux de la vie privée."
+      },
+      {
+        "author_name": "Clem Delangue",
+        "handle": "@ClemDelangue",
+        "text_fr": "L'atelier @SustaiNLP2020 à #EMNLP2020 essaiera de réduire un peu la \"dépendance au SOTA\" dans la recherche en PNL 😉 Nous allons promouvoir des compromis raisonnables entre les performances et des modèles qui sont – plus efficaces en termes de calcul – conceptuellement plus simples... [1/2] nitterk.kareem.one/DoingJobs/status/11865…",
+        "text_original": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitterk.kareem.one/DoingJobs/status/11865…",
+        "link": "https://nitter.kareem.one/Thom_Wolf/status/1189271899316064256#m",
+        "decryptage": "\"PNL\" signifie Traitement du Langage Naturel, c'est le domaine de l'IA qui s'occupe de la compréhension et de la génération du langage humain. \"SOTA\" (State Of The Art) désigne les meilleures performances actuelles atteintes par un modèle sur une tâche donnée ; l'atelier critique l'obsession de toujours faire mieux en performance au détriment de l'efficacité ou de la simplicité.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet propose une réflexion importante sur l'orientation de la recherche en IA, invitant à penser au-delà de la simple performance brute pour privilégier des modèles plus durables, efficaces et simples."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "Bon résumé de notre travail sur la sécurité et l'alignement pour Argon 4. Anca Dragan (@ancadianadragan) Nous avons fait beaucoup pour comprendre les capacités et les propensions de Gemini 4, et pour améliorer nos mesures d'atténuation pour ce lancement – vous pouvez en avoir un résumé ici blog.google/innovation-and-a… et plonger dans le rapport storage.googleapis.com/deepm… Lien Développer Gemini 4 Argon de manière responsable et sûre Apprenez-en davantage sur notre approche de la sécurité et de la sûreté pour Gemini 4 Argon. blog.google — https://nitter.kareem.one/ancadianadragan/status/2110073779531747784#m",
-          "text_original": "Good summary of our security and alignment work for Argon 4. Anca Dragan (@ancadianadragan) We did a lot to understand Gemini 4's capabilities and propensities, and to improve our mitigations for this launch -- you can get a tl;dr here blog.google/innovation-and-a… and dive into the report storage.googleapis.com/deepm… Link Developing Gemini 4 Argon responsibly and safely Learn more about our approach to safety and security for Gemini 4 Argon. blog.google — https://nitter.kareem.one/ancadianadragan/status/2110073779531747784#m",
-          "link": "https://nitter.kareem.one/sundarpichai/status/2110108367247294885#m",
-          "decryptage": "Ce tweet met en avant les efforts de Google pour s'assurer que sa nouvelle IA, Gemini 4 Argon, est non seulement puissante, mais aussi sûre et qu'elle respecte les valeurs humaines (c'est ce qu'on appelle l'alignement et les mesures d'atténuation)."
-        },
-        {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "Chez Box, nous avons testé Gemini 4 Argon sur notre évaluation 'Box AI Complex Work' la semaine dernière. C'est une énorme amélioration par rapport à Gemini 3.1 Pro, avec un bond de 14 points de pourcentage sur tous nos tests, et se situant fermement à la pointe. Dans notre évaluation, nous donnons à l'Agent Box (utilisant Gemini 4 Argon) une variété de tâches d'entreprise complexes impliquant des documents professionnels dans diverses industries. Ces tâches se rapprochent du travail difficile et chronophage que les employés du savoir effectuent chaque jour avec leur contenu d'entreprise. Gemini 4 est un énorme bond en avant sur pratiquement toutes les dimensions de ce travail. Gemini 4 est bien plus capable en mathématiques, logique, analyse et connaissance approfondie d'une variété de domaines commerciaux. Il travaille aussi beaucoup plus dur pour accomplir entièrement les tâches sans s'arrêter avant le résultat souhaité. C'est incroyablement important pour les flux de travail d'entreprise complexes qui dépendent d'une exécution robuste des tâches. Voici quelques exemples de réussites que nous avons observées pour mettre les améliorations en perspective : * Services financiers (+18 points) : une analyse d'écart de financement pour une entreprise familiale, où le bref détaillait chaque étape des états prévisionnels, jusqu'aux intérêts sur le prêt bancaire et le découvert pour chaque année. Gemini 4 Argon les a construits exactement comme spécifié, chaque ligne détaillée et reportée à l'écart de financement. Gemini 3.1 Pro a regroupé les intérêts en un seul chiffre. * Santé (+25 points) : un plan de gestion des soins intensifs où les deux modèles ont repéré un niveau de potassium dangereux et une interaction médicamenteuse. Seul Gemini 4 Argon est revenu en arrière et a retiré les médicaments incriminés du régime final, de sorte que son plan correspondait réellement à son propre diagnostic. * Technologie (+37 points) : une revue de performance produit décidant lequel des deux marchés régionaux devrait voir son infrastructure cloud optimisée en premier. Gemini 4 Argon a extrait les chiffres d'utilisateurs, de rétention et par utilisateur du bon mois pour les deux régions et a correctement signalé l'Amérique du Nord. Gemini 3.1 Pro a souvent extrait les mauvaises lignes, à un moment donné, signalant une rétention supérieure à 100 %, et a orienté l'effort vers la mauvaise région. * Énergie (+16 points) : un rapport de consommation d'énergie sur deux installations qui devait signaler toute lacune dans les données du compteur. Gemini 4 Argon a systématiquement remarqué que le journal du compteur intelligent du centre de données s'arrête en novembre. Gemini 3.1 Pro l'a souvent manqué, déclarant parfois les journaux complets. * Produits de consommation (+33 points) : une évaluation de lancement de produit décidant quelle expansion de production financer. Gemini 4 Argon a vu que l'inventaire existant pouvait combler un déficit de capacité précoce, ce qui rendait la plus petite expansion viable avec un lancement plus précoce et un seuil de rentabilité plus rapide. Gemini 3.1 Pro a opté par défaut pour la plus grande expansion et le calendrier plus tardif. Gemini 4 Argon sera bientôt disponible dans Box AI Studio pour que tout le monde puisse créer des Agents Box personnalisés avec. Sundar Pichai (@sundarpichai) Gemini 4 Argon est là. Il est disponible globalement aujourd'hui pour les développeurs et les entreprises dans le niveau payant de l'API Gemini et de la plateforme Gemini, pour les abonnés Ultra dans Google Antigravity, et Ultra et Pro subscribers dans l'application Gemini et Search. J'espère que vous l'apprécierez tous !",
-          "text_original": "At Box, we've been testing Gemini 4 Argon on our Box AI Complex Work eval for the past week. It's a huge upgrade over Gemini 3.1 Pro, jumping by 14 percentage points across all our tests, and firmly at the frontier. In our evaluation, we give the Box Agent (using Gemini 4 Argon) a variety of complex enterprise tasks involving enterprise documents in a range of industries. These tasks approximate the kind of hard, time-consuming work that knowledge workers do every day with their enterprise content. Gemini 4 is a huge leap on effectively every dimension of this work. Gemini 4 is far more capable on math, logic, analytics, and deep knowledge of a variety of business domains. It also works far harder to complete tasks fully without stopping short of the desired result. This is incredibly important for complex enterprise workflows that depend on robust task execution. Here are some example wins that we saw to put the improvements in perspective: * Financial services (+18 points): a funding-gap analysis for a family-owned company, where the brief spelled out every step of the projected statements, down to the interest on the bank loan and the overdraft for each year. Gemini 4 Argon built them exactly as specified, every line broken out and carried through to the funding gap. Gemini 3.1 Pro folded the interest into a single figure. * Healthcare (+25 points): an intensive care management plan where both models spotted a dangerous potassium level and a drug interaction. Only Gemini 4 Argon went back and pulled the offending drugs from the final regimen, so its plan actually matched its own diagnosis. * Technology (+37 points): a product performance review deciding which of two regional markets should have its cloud infrastructure optimized first. Gemini 4 Argon pulled the right month's user, retention and per-user figures for both regions and correctly flagged North America. Gemini 3.1 Pro often pulled the wrong rows, at one point reporting retention above 100%, and pointed the effort at the wrong region. * Energy (+16 points): an energy consumption report across two facilities that had to flag any gaps in the meter data. Gemini 4 Argon consistently caught that the data center's smart meter log stops in November. Gemini 3.1 Pro often missed it, at times declaring the logs complete. * Consumer products (+33 points): a product launch evaluation deciding which production expansion to fund. Gemini 4 Argon saw that existing inventory could bridge an early capacity gap, which made the smaller expansion viable with an earlier launch and a faster break-even. Gemini 3.1 Pro defaulted to the larger expansion and the later timeline. Gemini 4 Argon will be available in the Box AI Studio shortly for anyone to build custom Box Agents with. Sundar Pichai (@sundarpichai) Gemini 4 Argon is here. It’s available globally today for developers and enterprises in the paid tier of the Gemini API and the Gemini platform, for Ultra subscribers in Google Antigravity, and Ultra and Pro subscribers in the Gemini app and Search. Hope you all enjoy it!",
-          "link": "https://nitter.kareem.one/levie/status/2110046686198550539#m",
-          "decryptage": "Ce tweet montre de manière très concrète comment une nouvelle IA comme Gemini 4 Argon peut transformer le travail de tous les jours dans différents secteurs d'activité, en étant plus précise et plus autonome que les versions précédentes."
-        },
-        {
           "author_name": "Google DeepMind",
           "handle": "@GoogleDeepMind",
-          "text_fr": "Plus de la moitié des crimes signalés à Singapour utilisent une ingénierie sociale sophistiquée. Avec @GovTechSG, nous développons une détection de fraude sur appareil en utilisant notre modèle ouvert Gemma. En le peaufinant sur les tactiques d'arnaque locales, il identifie les menaces en temps réel sans compromettre la confidentialité personnelle → goo.gle/4ygVkJa",
+          "text_fr": "Plus de la moitié des crimes signalés à Singapour utilisent des techniques d'ingénierie sociale sophistiquées. Avec @GovTechSG, nous développons un système de détection de fraude directement sur les appareils en utilisant notre modèle open source Gemma. En l'ajustant spécifiquement aux tactiques d'arnaque locales, il identifie les menaces en temps réel sans compromettre la vie privée → goo.gle/4ygVkJa",
           "text_original": "Over half of reported crimes in Singapore use sophisticated social engineering. With @GovTechSG , we’re building on-device fraud detection using our open model Gemma. By fine-tuning it on local scam tactics, it identifies threats in real time without compromising personal privacy → goo.gle/4ygVkJa",
           "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110190101707858039#m",
-          "decryptage": "L'ingénierie sociale désigne les techniques de manipulation pour tromper les gens. Ici, une IA (Gemma) est utilisée pour repérer ces arnaques directement sur les téléphones, protégeant la vie privée tout en luttant contre la criminalité."
+          "decryptage": "\"Ingénierie sociale\" signifie manipuler les gens pour obtenir des informations confidentielles. \"Modèle open source\" veut dire que le code de base est public et peut être utilisé par tout le monde. \"Fine-tuning\" ou \"ajustement\" signifie adapter un modèle existant à une tâche très spécifique avec de nouvelles données."
         },
         {
           "author_name": "Google DeepMind",
           "handle": "@GoogleDeepMind",
-          "text_fr": "Gemini 4 Argon est maintenant disponible dans le monde entier. Conçu pour résoudre vos problèmes les plus ardus du début à la fin, le modèle apporte des capacités de pointe dans le codage, les flux de travail d'entreprise et la cyberdéfense. Vidéo",
-          "text_original": "Gemini 4 Argon is now globally available. Built to solve your hardest problems from start to finish, the model brings frontier capabilities across coding, enterprise workflows, and cyber defense. Video",
-          "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110039274922131792#m",
-          "decryptage": "Ce tweet est l'annonce officielle de la disponibilité de Gemini 4 Argon, un modèle d'IA de nouvelle génération capable de s'attaquer à des problèmes très difficiles dans des domaines variés comme le développement informatique ou la sécurité en ligne."
+          "text_fr": "En transformant la vidéo en un terrain d'entraînement pour l'IA physique, Argon réduit des semaines de modélisation manuelle à seulement quelques heures. ↓ goo.gle/3VxIB7v Lien Google for Developers Blog - Actualités pour les développeurs Web, Mobile, IA et Cloud. developers.googleblog.com",
+          "text_original": "By turning video into a training ground for physical AI, Argon compresses weeks of manual modeling into just a few hours. ↓ goo.gle/3VxIB7v Link Google for Developers Blog - News about Web, Mobile, AI and Cloud developers.googleblog.com",
+          "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110080053409116660#m",
+          "decryptage": "\"IA physique\" fait référence à des systèmes d'IA qui interagissent avec le monde réel, souvent via des robots, pour effectuer des tâches physiques. \"Modélisation manuelle\" est le processus de création de représentations de la réalité étape par étape par des humains."
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Exa vient de dépasser 100 millions de dollars de revenus annualisés. Nous avons connu une croissance d'environ 10x par an pendant 3 ans. Nous gérons maintenant 2 milliards de requêtes par mois de la part de plus de 200 000 équipes. Et ce n'est que le début : nous prévoyons que les agents chercheront 1000 fois plus que les humains d'ici 2030. Les agents ne cherchent pas comme les humains. Ils écrivent des requêtes longues et complexes et veulent toutes les données du monde, pas seulement le web. Nous avons passé 5 ans à construire un moteur de recherche conçu pour eux. Nous servons maintenant des agents personnels, des laboratoires d'IA, des agents de codage, des agents de mise sur le marché, vraiment n'importe quel agent. Exa donne à ces agents accès à des centaines de milliards de documents web et à des tonnes de données propriétaires. Nos clients remarquent de plus en plus que l'information est le goulot d'étranglement de la performance des agents. Bien que le monde semble proche de l'intelligence parfaite avec des modèles comme Fable et Astra, nous sommes très loin de l'information parfaite. À notre petite mais légendaire équipe, merci de nous avoir amenés ici, de l'ingénierie à la recherche en passant par la mise sur le marché et les opérations. À nos clients, c'est un honneur de vous servir. Nous avons des sorties passionnantes à venir et avons hâte de les partager 🫡",
-          "text_original": "Exa just passed $100m in annualized revenue. We've grown almost exactly 10x per year for 3 years. We now handle 2 billion requests a month from 200k+ teams. And it’s still so early: We predict agents will search 1000x more than humans by 2030. Agents don't search like humans. They write long, complex queries and want all the world's data, not just the web. We've spent 5 years building a search engine designed for them. We now serve personal agents, AI labs, coding agents, GTM agents, really any agent. Exa gives these agents access to 100s of billions of web documents and tons of proprietary data. Our customers are increasingly noticing that information is the bottleneck to agent performance. While the world seems close to perfect intelligence with models like Fable and Astra, we are very far from perfect information. To our small but légendaire team, thank you for getting us here, from engineering to research to GTM to ops. To our customers, it is an honor to serve you. We have some exciting releases coming soon and can't wait to share them 🫡",
-          "link": "https://nitter.kareem.one/WilliamBryk/status/2110058915589464192#m",
-          "decryptage": "Ce tweet met en lumière la tendance des 'agents IA', des programmes capables de chercher et d'utiliser des informations de manière très autonome, et comment leur efficacité dépendra de leur accès à des données très spécifiques, un peu comme un moteur de recherche sur mesure pour l'IA."
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "Gemini 4 Argon a appris à un robot à jouer au cornhole juste en regardant une vidéo. Il a modélisé la physique, codé sa propre simulation et appris à l'humanoïde Apollo de @Apptronik à réussir 7 lancers d'affilée. Vidéo",
+          "text_original": "Gemini 4 Argon taught a robot to play cornhole just by watching a video. It mapped the physics, coded its own simulation, and taught @Apptronik 's Apollo humanoid to sink 7 throws in a row. Video",
+          "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110078384617464201#m",
+          "decryptage": "Un \"humanoïde\" désigne un robot qui ressemble à un humain. Une \"simulation\" est une recréation numérique d'un événement ou d'un système réel pour le tester ou l'étudier sans risque."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "Gemini 4 Argon est désormais disponible mondialement. Conçu pour résoudre vos problèmes les plus complexes du début à la fin, ce modèle apporte des capacités de pointe en matière de codage, de flux de travail en entreprise et de cyberdéfense. Vidéo",
+          "text_original": "Gemini 4 Argon is now globally available. Built to solve your hardest problems from start to finish, the model brings frontier capabilities across coding, enterprise workflows, and cyber defense. Video",
+          "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110039274922131792#m",
+          "decryptage": "Un \"modèle de pointe\" fait référence à une IA qui possède les capacités les plus avancées et innovantes de l'industrie à un moment donné."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Le premier article complet sur @pytorch après 3 ans de développement. Il décrit nos objectifs, principes de conception, détails techniques jusqu'à la version 0.4. Retrouvez l'affiche à #NeurIPS2019. Rédigé par @apaszke, @colesbury et al. arxiv.org/abs/1912.01703",
+          "text_original": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+          "link": "https://nitter.kareem.one/soumithchintala/status/1202981209057484801#m",
+          "decryptage": "\"PyTorch\" est un cadre de travail (un ensemble d'outils et de bibliothèques) très utilisé par les développeurs pour créer et entraîner des modèles d'intelligence artificielle. \"NeurIPS\" est une des conférences les plus importantes au monde sur l'IA et l'apprentissage automatique."
         }
       ],
       "tips": [
         {
-          "author_name": "Google DeepMind",
-          "handle": "@GoogleDeepMind",
-          "text_fr": "Voici comment vous pouvez l'essayer : 🔵 Utilisateurs quotidiens : Dans l'application @GeminiApp et le mode IA dans la recherche pour les abonnés Google AI Pro et Ultra. 🔵 Développeurs : Niveau payant de l'API Gemini, plus @Antigravity et @GoogleAIStudio pour les abonnés Google AI Ultra. 🔵 Scientifiques : Postulez pour le niveau d'utilisation supérieur dans @Antigravity gratuitement. 🔵 Entreprises : Gemini pour les entreprises et dans Antigravity. En savoir plus → goo.gle/3W85sXj",
-          "text_original": "Here’s how you can try it: 🔵 Everyday users: In the @GeminiApp and AI Mode in Search for Google AI Pro and Ultra subscribers. 🔵 Developers: Gemini API paid tier, plus @Antigravity and @GoogleAIStudio for Google AI Ultra subscribers. 🔵 Scientists: Apply for the top usage tier in @Antigravity free of charge. 🔵 Enterprises: Gemini for business and in Antigravity. Find out more → goo.gle/3W85sXj",
-          "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110039277442682916#m",
-          "decryptage": "Ce tweet explique de manière très pratique comment les différents types d'utilisateurs (particuliers, développeurs, chercheurs, entreprises) peuvent accéder et utiliser le nouveau modèle Gemini 4 Argon selon leurs besoins."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Quelques résultats supplémentaires. Maintenant, je l'ai rendu entièrement compatible avec toutes sortes de modèles et de vocabulaires. Bonne expérience d'utilisation de @huggingface avec @SlackHQ. Et ça a l'air plutôt intelligent.",
+          "text_original": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+          "link": "https://nitter.kareem.one/algo_diver/status/1192329736850038786#m",
+          "decryptage": "\"Hugging Face\" est une plateforme très populaire qui propose des milliers de modèles d'IA pré-entraînés et des outils pour les utiliser, tandis que \"Slack\" est une application de communication pour les équipes. \"Vocabulaires\" fait ici référence aux ensembles de mots ou de tokens qu'un modèle peut comprendre et utiliser."
         }
       ],
       "idees": [
         {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "L'utilisation de Gemini 4 fait réaliser à quel point de nombreux autres modèles doivent distiller Claude/GPT (ou utiliser un pipeline d'entraînement similaire). Cela semble très différent des autres modèles.",
-          "text_original": "Using Gemini 4 makes you realize how many other models must be distilling Claude/GPT (or using a similar training pipeline). It feels quite different than other models.",
-          "link": "https://nitter.kareem.one/emollick/status/2110060618258497764#m",
-          "decryptage": "Ce tweet est une réflexion sur le fait que certains modèles d'IA pourraient en réalité réutiliser ou s'inspirer fortement des capacités d'autres modèles leaders comme Claude ou GPT, alors que Gemini 4 semble avoir une approche distincte."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Un travail intéressant (et un bel ensemble de données volumineux et propre aussi, hâte de le voir publié) : \"Transformateurs compressifs pour la modélisation de séquences à longue portée\" par Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (chez DeepMind). Article : arxiv.org/abs/1911.05507",
+          "text_original": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+          "link": "https://nitter.kareem.one/Thom_Wolf/status/1195662118974083073#m",
+          "decryptage": "Les \"Transformers\" sont un type d'architecture de modèle d'IA très puissant, notamment pour comprendre et générer du langage, et la \"modélisation de séquences à longue portée\" signifie qu'ils peuvent traiter des textes ou des données très longs."
         },
         {
-          "author_name": "Yann LeCun",
-          "handle": "@ylecun",
-          "text_fr": "Dans JEPA, empêchons-nous l'effondrement dans la représentation que nous utilisons réellement en aval ? TLDR : pas nécessairement. Une représentation projetée de haut rang ne garantit pas un squelette non effondré. λ-JEPA est conçu pour cibler cet écart. arxiv.org/abs/2609.35288 Vidéo",
-          "text_original": "In JEPA, are we preventing collapse in the representation we actually use downstream? TLDR: not necessarily. A high-rank projected representation does not guarantee a non-collapsed backbone. λ-JEPA is designed to target this gap. arxiv.org/abs/2609.35288 Video",
-          "link": "https://nitter.kareem.one/berkerdemirel97/status/2110035520533266435#m",
-          "decryptage": "C'est une discussion très technique sur la manière dont les IA 'apprennent' à représenter le monde. L'idée est d'éviter que ces représentations ne deviennent trop simplifiées ou 'effondrées', ce qui limiterait la capacité de l'IA à comprendre des choses complexes, et λ-JEPA est une nouvelle méthode pour résoudre ce problème."
-        },
-        {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Des robots qui prédisent l'avenir : Dyna-2, des modèles de monde d'un million d'heures, et la leçon amère de la robotique. @DynaRobotics Jason Ma (@JasonMa2020) explique comment les modèles d'action du monde prédisent l'avenir pour guider les actions physiques des robots, pourquoi l'entraînement sur plus d'un million d'heures de vidéo humaine permet aux robots de s'adapter à de nouvelles tâches avec aussi peu que 45 minutes de démonstrations, comment les données synthétiques et les modèles du monde auto-améliorants pourraient accélérer la robotique, pourquoi les harnais d'agents permettent des flux de travail autonomes d'une heure, et comment la 'leçon amère' de la mise à l'échelle, le matériel 'full-stack' et les déploiements réels chez Din Tai Fung transforment l'IA physique de démos impressionnantes en robots utiles. Vidéo",
-          "text_original": "Robots That Predict the Future: Dyna-2, Million-Hour World Models, & the Bitter Lesson of Robotics @DynaRobotics ’s @JasonMa2020 explains how world-action models predict the future to guide physical robot actions, why training on over a million hours of human video lets robots adapt to new tasks with as little as 45 minutes of demonstrations, how synthetic data and self-improving world models could accelerate robotics, why agentic harnesses are enabling hour-long autonomous workflows, and how the Bitter Lesson of scaling, full-stack hardware, and real-world deployments at Din Tai Fung are turning physical AI from impressive demos into useful robots. Video",
-          "link": "https://nitter.kareem.one/latentspacepod/status/2110063689529241762#m",
-          "decryptage": "Ce tweet aborde l'idée que les robots peuvent 'prédire l'avenir' en utilisant des 'modèles du monde', c'est-à-dire des simulations internes de leur environnement, pour mieux agir. Il souligne que l'IA a besoin de beaucoup de données réelles (vidéos humaines) et la difficulté de passer de simples démonstrations à des robots réellement utiles et autonomes."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "L'atelier @SustaiNLP2020 à #EMNLP2020 essaiera de réduire un peu la \"dépendance au SOTA\" dans la recherche en PNL 😉 Nous allons promouvoir des compromis raisonnables entre les performances et des modèles qui sont – plus efficaces en termes de calcul – conceptuellement plus simples... [1/2] nitterk.kareem.one/DoingJobs/status/11865…",
+          "text_original": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitterk.kareem.one/DoingJobs/status/11865…",
+          "link": "https://nitter.kareem.one/Thom_Wolf/status/1189271899316064256#m",
+          "decryptage": "\"PNL\" signifie Traitement du Langage Naturel, c'est le domaine de l'IA qui s'occupe de la compréhension et de la génération du langage humain. \"SOTA\" (State Of The Art) désigne les meilleures performances actuelles atteintes par un modèle sur une tâche donnée ; l'atelier critique l'obsession de toujours faire mieux en performance au détriment de l'efficacité ou de la simplicité."
         }
       ],
       "outils": [
         {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "Générer une architecture complexe et multi-niveaux est un excellent test pour les modèles de pointe. En utilisant des boucles de critique visuelle multi-agents dans Google Antigravity, Argon a créé de manière autonome cette pagode très détaillée et ses terrains environnants de toutes pièces dans Blender. Vidéo",
-          "text_original": "Generating complex, multi-tiered architecture is a great test for frontier models. Using multi-agent visual critique loops in Google Antigravity, Argon autonomously created this highly detailed Pagoda and surrounding grounds from scratch in Blender. Video",
-          "link": "https://nitter.kareem.one/sundarpichai/status/2110059845806399489#m",
-          "decryptage": "Ce tweet montre comment une IA avancée (Argon) peut créer des modèles 3D complexes (comme une pagode) de manière autonome, en utilisant plusieurs 'agents' qui s'auto-corrigent visuellement, un peu comme une équipe de designers IA qui se donnent des retours pour améliorer un projet."
-        },
-        {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "Quiconque a affaire à des déversements massifs de données sait à quel point cela peut être un casse-tête. Nous avons donné à Gemini 4 Argon plus de 80 000 journaux météorologiques bruts de la NASA sur Mars et des fichiers de télémétrie de l'hélicoptère Ingenuity, il distille la mécanique de vol atmosphérique en une présentation, transformant des archives scientifiques massives et désordonnées (y compris un mélange de CSV, d'images, de PDF, de journaux XML, de vidéos) en des Google Slides visuels clairs en quelques minutes. Vidéo",
-          "text_original": "Anyone dealing with massive data dumps knows what a headache it can be. We gave Gemini 4 Argon 80,000+ raw NASA Mars weather logs and Ingenuity Helicopter telemetry files, it distills the atmospheric flight mechanics into a deck, turning massive, messy scientific archives (including a mix of CSVs, images, pdfs, xml logs, videos) into clear visual Google Slides in minutes. Video",
-          "link": "https://nitter.kareem.one/sundarpichai/status/2110059844187406428#m",
-          "decryptage": "Ce tweet démontre la capacité de Gemini 4 Argon à organiser et résumer des quantités gigantesques et variées de données brutes (ici, des données de la NASA sur Mars) pour en faire des présentations claires et visuelles en très peu de temps, ce qui est un gain de temps énorme pour les scientifiques."
-        },
-        {
           "author_name": "Google DeepMind",
           "handle": "@GoogleDeepMind",
-          "text_fr": "En transformant la vidéo en terrain d'entraînement pour l'IA physique, Argon condense des semaines de modélisation manuelle en quelques heures seulement. ↓ goo.gle/3VxIB7v Lien Blog Google for Developers - Actualités sur le Web, le mobile, l'IA et les développeurs de cloud. developers.googleblog.com",
-          "text_original": "By turning video into a training ground for physical AI, Argon compresses weeks of manual modeling into just a few hours. ↓ goo.gle/3VxIB7v Link Google for Developers Blog - News about Web, Mobile, AI and Cloud developers.googleblog.com",
-          "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110080053409116660#m",
-          "decryptage": "Ce tweet explique qu'Argon peut apprendre des tâches physiques en analysant des vidéos, ce qui permet de gagner énormément de temps par rapport à la programmation ou la modélisation manuelle, accélérant ainsi le développement de robots et d'IA capables d'interagir avec le monde réel."
+          "text_fr": "Voici comment vous pouvez l'essayer : 🔵 Utilisateurs quotidiens : Dans l'application @GeminiApp et le Mode IA de la Recherche pour les abonnés Google AI Pro et Ultra. 🔵 Développeurs : Via l'API Gemini payante, ainsi que @Antigravity et @GoogleAIStudio pour les abonnés Google AI Ultra. 🔵 Scientifiques : Demandez l'accès au niveau d'utilisation supérieur dans @Antigravity gratuitement. 🔵 Entreprises : Gemini pour les affaires et dans Antigravity. En savoir plus → goo.gle/3W85sXj",
+          "text_original": "Here’s how you can try it: 🔵 Everyday users: In the @GeminiApp and AI Mode in Search for Google AI Pro and Ultra subscribers. 🔵 Developers: Gemini API paid tier, plus @Antigravity and @GoogleAIStudio for Google AI Ultra subscribers. 🔵 Scientists: Apply for the top usage tier in @Antigravity free of charge. 🔵 Enterprises: Gemini for business and in Antigravity. Find out more → goo.gle/3W85sXj",
+          "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110039277442682916#m",
+          "decryptage": "Une \"API\" (Interface de Programmation d'Application) est un ensemble de règles qui permet à différentes applications logicielles de communiquer entre elles, comme un menu pour demander des services."
         },
         {
-          "author_name": "Google DeepMind",
-          "handle": "@GoogleDeepMind",
-          "text_fr": "Gemini 4 Argon a appris à un robot à jouer au cornhole simplement en regardant une vidéo. Il a modélisé la physique, codé sa propre simulation et a appris au robot humanoïde Apollo de @Apptronik à faire 7 lancers d'affilée. Vidéo",
-          "text_original": "Gemini 4 Argon taught a robot to play cornhole just by watching a video. It mapped the physics, coded its own simulation, and taught @Apptronik 's Apollo humanoid to sink 7 throws in a row. Video",
-          "link": "https://nitter.kareem.one/GoogleDeepMind/status/2110078384617464201#m",
-          "decryptage": "Le 'cornhole' est un jeu où l'on lance des sacs de grains vers un trou, et ce tweet montre que Gemini 4 Argon peut non seulement comprendre une tâche complexe à partir d'une simple vidéo, mais aussi la traduire en actions physiques pour un robot."
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Peut-être une excellente opportunité d'utiliser les implémentations de Transformers de @huggingface pour TF 2.0 :)",
+          "text_original": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+          "link": "https://nitter.kareem.one/fchollet/status/1188942956511690752#m",
+          "decryptage": "\"TF 2.0\" fait référence à TensorFlow 2.0, une autre grande bibliothèque logicielle pour l'apprentissage automatique, similaire à PyTorch, et \"implémentations\" sont des versions concrètes de certains algorithmes ou modèles."
         }
       ]
     }
   },
-  "processed_at": "2026-10-14T13:07:22",
+  "processed_at": "2026-10-14T13:41:24",
   "validation": {
     "translated_pct": 100,
     "with_decryptage_pct": 100,
-    "total": 17,
+    "total": 14,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-10-14T13:07:24"
+  "email_sent_at": "2026-10-14T13:41:25"
 }
