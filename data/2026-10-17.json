@@ -1,95 +1,95 @@
 {
   "date": "2026-10-17",
-  "fetched_at": "2026-10-17T12:10:22",
+  "fetched_at": "2026-10-17T13:11:53",
   "tweets": [
     {
-      "handle": "DarioAmodei",
-      "text": "Today we announced the Claude-led discovery of a molecular machine that we suspect could represent a new gene editing mechanism. Its precise function, biotechnological utility (if any), or level of significance is not yet clear, but at minimum it is work I would have been proud to do as a PhD student. The work was done mostly, though not entirely, by Claude: our life sciences team suggested a broad area of research, Claude read through the literature and a bunch of genome data and discovered something interesting, then Claude proposed experiments to verify the discovery and our team carried them out. It’s easy to dismiss this as a one-off or curiosity, but we’ve repeatedly seen a pattern where AI performance in new intellectual domains goes from weak to superhuman in a matter of a few years. In 2023 models struggled to do math at the level of an average high-school student. In 2024 they started to do well on math competitions for the best high-schoolers in the country, in 2025 they started to solve minor open problems, in early 2026 more significant open problems, and in late 2026 they are beginning to solve the top few open problems in all of mathematics. We believe AI for biology is on a similar exponential trend. The main difference between biology and mathematics, of course, is that math can be done purely theoretically, while biology requires experimentation. Some have used this to draw the conclusion that AI’s utility in biology will be limited. We think this is wrong. As we’ve demonstrated today, humans can collaborate with AI to perform the experiments, validate key results in a few weeks and, if necessary, work with the AI to iterate on what they find. Eventually it may even be possible for Claude itself to safely perform the experiments by autonomously controlling lab equipment, with appropriate safeguards in place, but we aren’t doing that today (our lab is also a BSL1/BSL2 facility that doesn't handle materials dangerous to humans). More broadly, biomedical advancement has many stages — from fundamental biology discoveries, to translational research, to drug discovery, clinical trials, and finally the actual delivery of medicines and health care to patients. We are also interested in these later stages, but even simply accelerating the first stage of fundamental biological discoveries has the potential to speed up and broaden the entire pipeline. Improving our understanding of biology and sharpening biologists’ tools can drive forward all of the later stages, for example by identifying new drug targets, finding new therapeutic modalities, allowing for more precise measurement, and speeding up the experimental loop which itself further accelerates our understanding of biology. This will not in itself speed up clinical trial times, but if it succeeds it could greatly increase the number of promising candidates that go into the pipeline — an increase in throughput even though latency remains. In Machines of Loving Grace, I wrote about AI’s potential to “cure most diseases in 5-10 years” — a goal that sounds impossible, but one I believe is just barely possible if AI is applied to every stage of the pipeline. The first step is showing that AI can first help with, and then drive, biological discoveries. Claude’s discovery is the latest in a line of related prior work that goes back decades, beginning with systems like CRISPR, and continuing with discoveries like the bridge recombinase and VIPR in the past few years. Recently, there has been heightened interest in systems based on reverse transcriptase (RT) enzymes, the enzyme underlying the system Claude identified. And most recently, a Stanford team working independently described a novel RT system with an associated non-coding array that is in some ways similar to the one Claude found, though they are distinct systems that evolved independently from each other. I believe that we’re at the very beginning of finding such systems and developing them into powerful tools for biotechnology. I’m proud of the resources Anthropic has invested in accelerating the public benefits of AI through the life sciences, and we’re aiming both to grow our life sciences team and to work with other scientists to extend this approach to a broad range of problems. If you have a proposal for a research collaboration or are interested in joining our life sciences team, please reach out. Anthropic (@AnthropicAI) Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR. We don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use. Read more: anthropic.com/news/claude-di… Link Claude discovers a novel enzyme system In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. anthropic.com — https://nitter.kareem.one/AnthropicAI/status/2102824959827742916#m",
-      "link": "https://nitter.kareem.one/DarioAmodei/status/2102831170299834652#m",
-      "published": "Wed, 23 Sep 2026 18:43:14 GMT",
-      "author_name": "Dario Amodei",
+      "handle": "sama",
+      "text": "The back of the Navier-Stokes milestone shirt is the last line of the chain-of-thought from the solution:",
+      "link": "https://nitter.kareem.one/sama/status/2111139227761266699#m",
+      "published": "Fri, 16 Oct 2026 16:56:29 GMT",
+      "author_name": "Sam Altman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "DarioAmodei",
-      "text": "We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training. You can read the full post here: darioamodei.com/post/we-must… Link Dario Amodei — We Must Pace the Frontier darioamodei.com",
-      "link": "https://nitter.kareem.one/DarioAmodei/status/2098773920774074715#m",
-      "published": "Sat, 12 Sep 2026 14:01:10 GMT",
-      "author_name": "Dario Amodei",
+      "handle": "sama",
+      "text": "Wow the new roadster looks quite amazing, good job @elonmusk",
+      "link": "https://nitter.kareem.one/sama/status/2111131677351432197#m",
+      "published": "Fri, 16 Oct 2026 16:26:29 GMT",
+      "author_name": "Sam Altman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "DarioAmodei",
-      "text": "2/2 Second, on the messaging around AI. I do not agree that my messaging has been disproportionately negative. In fact it has been about equally balanced between risks and benefits: I’ve written one major essay about each, and even in interviews where I discuss the risks, I make sure to frequently mention the incredible benefits as well as proposing possible solutions to the risks (short clips from my interviews that end up on social media tend to be disproportionately negative, as that gets clicks). In fact, I wrote Machines of Loving Grace because I didn’t feel the AI industry was painting an inspiring enough picture of how the technology could radically transform the world for the better. The bulk of the essay is devoted to refuting skepticism of AI’s potential in health and biology, and showing why I think it will actually be possible to cure most human disease in ~5-10 years, as crazy as it may sound to ordinary people and frankly to biologists as well (I used to be one!). And, if you read my most recent essay (Policy on the AI Exponential), I discuss concrete proposals for how to streamline the FDA process to make sure the deluge of AI-accelerated drugs isn’t slowed down by the regulatory process. I feel the urgency here: I lost my father to Hepatitis C only a few years before the development of direct-acting antivirals (sofosbuvir), which cure 95% of patients and probably would have cured him. I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over. The causes of this go back decades and AI is just the latest iteration of it. I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive. The thing that will work is *actually curing cancer*. I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world. That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing. We are however doing our best to fix this: Anthropic is ramping up its efforts very quickly in biology and medicine, and we hope to have incredible results in the coming years and some early glimmers in the coming months. When we’ve actually accomplished something real, the whole world will hear about it, as loudly as possible, you have my word on that. But until then I don’t want to make empty promises, and in the meantime I feel compelled to speak honestly about the very real risks of AI and how to address them. Honesty is the right thing on the merits, and in terms of public credibility and trust it is no worse than, and may in fact be better than, an approach that ignores or distracts from risks which people instinctively understand are real.",
-      "link": "https://nitter.kareem.one/DarioAmodei/status/2088758819304443967#m",
-      "published": "Sat, 15 Aug 2026 22:44:44 GMT",
-      "author_name": "Dario Amodei",
+      "handle": "sama",
+      "text": "Very happy to see this from Nick! Nick (@nickcammarata) interpretability might be the most important scientific problem in the world right now, as I don't think we can solve alignment if we don't know what we're building. I think I have good news about it. I co-authored early work in mechanistic interpretability at OpenAI and came away pessimistic, because neural networks appeared to fold into arbitrary tangled knots. years later, I started openai's first large-scale automated interpretability project, finding about 2% of neurons legible with the primitive tools we had with modern agentic tools and a much closer look, the picture looks totally different. the vast majority in models up to trillions of parameters are legible, and their circuits beautiful. many famous examples of tangled neurons turned out to be misunderstood. The roadblocks I expected mostly aren't there. I now think ambitious interpretability will be solved by the time we need it most, and possibly quite soon, as automated scientists keep improving. it may be a bitter lesson for interpretability: the simple thing, at absurd scale, works already-clean.goodfire.com/ Link Neural Networks Are Already Clean A working hypothesis about neurons, generalization, and the ecology of circuits. already-clean.goodfire.com — https://nitter.kareem.one/nickcammarata/status/2110757819427574056#m",
+      "link": "https://nitter.kareem.one/sama/status/2111130577789493706#m",
+      "published": "Fri, 16 Oct 2026 16:22:07 GMT",
+      "author_name": "Sam Altman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "DarioAmodei",
-      "text": "1/2 Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage here because it really brings out the heart of an important conversation. First, on regulation, I think that “either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely” is a false choice. I know that there’s a sort of Silicon Valley shorthand where regulation = regulatory capture = concentration of power, but I’ve always found this to be an overly simplified picture of the world. Many people outside this bubble think of regulation as something that constrains corporate power and benefits ordinary people. I don’t necessarily agree with that perspective either, rather I think it’s complicated and really depends on what the “regulation” consists of. But in particular I think that those in the “regulation = regulatory capture = concentration of power” frame often underrate the decentralizing power of objective and fair institutional processes. A crude analogy is that the formal court system can sometimes feel stuffy and elitist, but it does a much better job of defending the rights of vulnerable individuals than the alternative, mob justice. At their best, institutions can vest power in ideas rather than people, and thereby decentralize that power. This is why Anthropic has always made its policy proposals very carefully. We try very hard to make proposals that disadvantage (slow down) frontier AI companies while *advantaging* smaller competitors. California’s SB53 (which we supported), and even the much-maligned SB 1047 (which we were ambivalent on), completely exempt any company below a certain amount of revenue or model training costs from being covered at all (it was $500M for SB 53, lower for 1047 but we objected to that). More recently the testing process we’ve advocated for at CAISI and the White House involves more rigorous tests for frontier models than off-frontier models — something that differentially advantages challengers. Similarly, the “Pacing the Frontier” letter envisions (or at least Anthropic’s preferred implementation of it envisions) modulating the pace of the very best models while not constraining those who are catching up. This hurts the business interests of the frontier labs and helps challengers, including open-weights! Overall my view is that AI is *structurally* a technology that tends to concentrate power, for reasons that have nothing to do with regulation (more to do with the extreme implications of the scaling laws). Open-weights do help some with this but are nowhere near a sufficient solution because they simply shift the concentration somewhat to those with the most compute and chips (which are roughly the frontier labs plus maybe hardware providers). By contrast I think the right “rules of the road” can simultaneously (a) address AI’s cyber/bio/alignment risks, (b) institutionally constrain the power of the frontier AI companies, and (c) leave room for open-weights models while also addressing the specific risks that they bring. BTW I do not think that the events of the last few months have “failed to result in [my] preferred regulatory path”. The approach that the Trump administration is reported to be taking — pre-deployment testing for frontier models, and also testing of open-weights models when they get closer to the frontier — is one that I am very supportive of, though of course I have to see the details to be sure. I am also supportive of Demis Hassabis’ ideas around a FINRA-like entity. This contrasts with six months ago when most of the industry was still pushing for preemption of all state regulation and no apparent federal approach either. Gavin Baker (@GavinSBaker) Sholto, thank you for setting the record straight. Larger issue is that multiple very serious people in Silicon Valley have heard some variation of this and believe it to be true. And the reason it is believable to so many is that it is consistent with Dario’s public messaging and what he outlined in the essay you shared: this technology *might* be dangerous for humans in multiple ways, could lead to extreme concentration of economic power (as outlined in the essay) and therefore needs to be regulated thoughtfully. I agree with the potential risks and I believe Dario makes all of these arguments in good faith. As discussed on the pod, if one agrees that AI *might* be dangerous, there are two ways to address this potential risk. Either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely. Essentially boils down to whether one believes AI is too dangerous to concentrate or too dangerous to distribute. There are reasonable arguments on both sides, but I profoundly agree with Zuckerberg’s statement that: “The notion that AI is so dangerous that the only safe path is an extreme concentration of power seems inherently problematic. Historically, hoping that an absolute power will benevolently provide for humanity if sufficiently enlightened has not led to safe or positive outcomes.” And as Dario says in the aforementioned essay, “some may object that we can simply keep AIs in check with a balance of power between many AI systems, as we do with humans.” I believe this is the best path forward: I want as many AIs as possible to maximize the odds that one shares my own particular values. And as Dario notes, no human has ever been able to take over the world. At this point, I think safe to say that Dario has lost the argument. His messaging has failed to result in his preferred regulatory path. The fact that the only solution to the recent incident where an unreleased advanced OpenAI model hacked Hugging Face was an open-source model likely ended any chance of strict near-term regulation. Essentially every major company other than Anthropic has signed Jensen’s letter. However, Dario’s messaging has been massively helpful to efforts to ban datacenters here in America. I suspect we will see anti-datacenter advocacy groups runnings ads using clips of Dario warning about how dangerous AI could be for humans. His good faith efforts in favor of regulation are now increasing the odds that AI will not be beneficial for Americans and humans everywhere. I believe that there is a reasonable chance AI might help us cure most forms of disease such that we have extended lifespans and can enjoy these long lives in an abundant Star Trek like future. That is the future that I want and I think Dario is decreasing the odds of that future at this point. He is about to be the CEO of one of the most important public companies in the world and given that the pro-regulatory effort has failed (at least for now), I respectfully think he should make an effort to be a more positive advocate for his own industry. And if I am wrong and we do need to regulate this technology, he will be a more effective advocate for this in the future having been open-minded to the alternative. And for the sake of clarity and as I outlined on the pod, I think Anthropic has deep competitive advantages and is an amazing company. Ironically, the main risk I saw to Anthropic a few months ago was nationalization as a result of Dario’s own rhetoric and behavior. — https://nitter.kareem.one/GavinSBaker/status/2088611616577253502#m",
-      "link": "https://nitter.kareem.one/DarioAmodei/status/2088758816376807762#m",
-      "published": "Sat, 15 Aug 2026 22:44:43 GMT",
-      "author_name": "Dario Amodei",
+      "handle": "sama",
+      "text": "Have been waiting for this one for a long time, and I would hate to have to go back to the old version of Chat!",
+      "link": "https://nitter.kareem.one/sama/status/2107924677801001381#m",
+      "published": "Wed, 07 Oct 2026 20:03:01 GMT",
+      "author_name": "Sam Altman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "DarioAmodei",
-      "text": "Many of these policy ideas have common-sense appeal across the political spectrum, and the sooner we act on them, the sooner everyone shares in AI's benefits.",
-      "link": "https://nitter.kareem.one/DarioAmodei/status/2064781785033244851#m",
-      "published": "Wed, 10 Jun 2026 18:48:33 GMT",
-      "author_name": "Dario Amodei",
+      "handle": "sama",
+      "text": "ChatGPT can now generate a custom UI for you! OpenAI (@OpenAI) GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. Video — https://nitter.kareem.one/OpenAI/status/2107894997538525580#m",
+      "link": "https://nitter.kareem.one/sama/status/2107924408597950702#m",
+      "published": "Wed, 07 Oct 2026 20:01:57 GMT",
+      "author_name": "Sam Altman",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "Put your dot on call. Ali, an engineer at OpenAI, used his dot to triage an on-call incident at 3am. His dot investigated the issue and started a Codex thread, so he could steer the work from his phone in the ChatGPT app. Video",
-      "link": "https://nitter.kareem.one/OpenAIDevs/status/2111211411766399288#m",
-      "published": "Fri, 16 Oct 2026 21:43:19 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "fchollet",
+      "text": "Argon has a similar performance profile on ARC-AGI-3 as Astra. Google is back at the frontier. ARC Prize (@arcprize) Gemini 4 Argon from @Google on ARC-AGI (Verified): - ARC-AGI-3: 97.5%, $4.8K (provider adapter harness), 49.8%, $5.8K (standard harness) - ARC-AGI-2: 91.3%, $0.32/task - ARC-AGI-1: 98.5%, $0.16/task Google DeepMind is the second frontier AI lab to score above 95% on ARC-AGI-3. — https://nitter.kareem.one/arcprize/status/2110768288523251762#m",
+      "link": "https://nitter.kareem.one/fchollet/status/2110775560846914009#m",
+      "published": "Thu, 15 Oct 2026 16:51:24 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work. Now available to Pro users in the Chat tab.",
-      "link": "https://nitter.kareem.one/OpenAI/status/2111192259073094035#m",
-      "published": "Fri, 16 Oct 2026 20:27:13 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "fchollet",
+      "text": "I truly believe conversational AI will drive the biggest educational leap of our generation. 1-on-1 tutoring is the gold standard for education, but it doesn't scale. AI can change that with truly active conversational learning. Annie and team set out to solve this with @gakkuai , and they've done a great job. Gakku is an AI mentoring app for K-12 students. Rather than doing the work for them, the voice chat coach guides students through 10 min essay writing \"missions\" that cover brainstorming, drafting, and revising. It actively trains kids to generate their own ideas, structure logical arguments, and articulate themselves clearly. If you have school-aged kids, I highly recommend checking it out: gakku.ai",
+      "link": "https://nitter.kareem.one/fchollet/status/2110756584611516512#m",
+      "published": "Thu, 15 Oct 2026 15:36:00 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "Learn about the Rosalind Academic Plan, check your lab's eligibility, and find out how to apply: openai.com/index/introducing… Link Bringing GPT-Rosalind to academic research labs Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research. openai.com",
-      "link": "https://nitter.kareem.one/OpenAI/status/2110841901121511705#m",
-      "published": "Thu, 15 Oct 2026 21:15:01 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "fchollet",
+      "text": "Everyone wants to have solved a hard problem, but almost nobody wants to live inside the grind of actually solving it. The breakthroughs belong to the few who are obsessed with the process, not just the idea of the outcome",
+      "link": "https://nitter.kareem.one/fchollet/status/2110748224097222874#m",
+      "published": "Thu, 15 Oct 2026 15:02:47 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "GPT-Rosalind is built to support that work: helping researchers reason across scientific literature and biological data, with scientists bringing the expertise and judgment to evaluate the evidence. Eligible labs can receive up to 12 months of sponsored access to OpenAI tools, with GPT-Rosalind access subject to trusted-access approval. Research data shared through the Rosalind Academic Plan is not used to train our models by default.",
-      "link": "https://nitter.kareem.one/OpenAI/status/2110841899838046525#m",
-      "published": "Thu, 15 Oct 2026 21:15:01 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "fchollet",
+      "text": "You can't solve real-world physical tasks through autoregressive sampling alone. The physical world is entirely unforgiving to hallucination or approximate pattern matching. If we want actual autonomous robotics we have to engineer causality and discrete reasoning back into the loop. Biwei and the team at Aether AI is doing exactly the kind of foundational, non-consensus work the field actually needs right now. Biwei Huang (@huang_biwei) I have spent more than a decade studying causality. For me, causality is about understanding the rules that govern how actions change the world, and reasoning about their consequences before acting. Scaling has made today's models remarkably capable at spotting patterns and predicting what comes next. A system that acts in the physical world needs more. It has to ask what will happen if it acts, check the outcome, and adapt when reality doesn't match the plan. In the physical world, trial and error can be costly or unsafe, and an early mistake can carry through the rest of a task. When we started Aether AI, robotics was the obvious place to begin. CRIS-0 is our first integrated system built on these ideas. It tracks the conditions that matter for a task, predicts how each action will change them, and replans when something unexpected happens. In our demo, that means taking a metal can off a plate before heating it, and telling an empty can from an unfinished drink while tidying a room. Physical AI is just our first proving ground. We're building towards causal intelligence that also works for forecasting, scientific discovery, and more. The technical write-up is linked in the comments. Video — https://nitter.kareem.one/huang_biwei/status/2109667913472839911#m",
+      "link": "https://nitter.kareem.one/fchollet/status/2110378929588752784#m",
+      "published": "Wed, 14 Oct 2026 14:35:20 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "We're expanding access to GPT-Rosalind for academic research. The new Rosalind Academic Plan helps scientific labs bring AI into the work of understanding biology, exploring ideas, and deciding what to test next—with sponsored access for eligible labs at U.S. universities. Academic research starts with questions whose impact may take years to impact human health. Video",
-      "link": "https://nitter.kareem.one/OpenAI/status/2110841898076418336#m",
-      "published": "Thu, 15 Oct 2026 21:15:00 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "fchollet",
+      "text": "String theory is what happens when an intelligent system is starved of sensory input and starts hallucinating. Intelligence needs grounding. For this reason, intelligence is practically never the bottleneck to solving impactful problems. The bottleneck is iterated contact with reality.",
+      "link": "https://nitter.kareem.one/fchollet/status/2110377155079385477#m",
+      "published": "Wed, 14 Oct 2026 14:28:17 GMT",
+      "author_name": "Francois Chollet",
+      "category_hint": "researcher",
       "source_lang": "en"
     },
     {
@@ -183,54 +183,189 @@
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Turns out le Chonk is into rocket science. Mistral Large 4 scoring well in engineering and astronomy on Ulam’s private benchmark, STEMBench: ulam.ai/stembench",
-      "link": "https://nitter.kareem.one/MistralAI/status/2111056939841163336#m",
-      "published": "Fri, 16 Oct 2026 11:29:30 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "nickadobos",
+      "text": "Standing out might actually be easier in an AI filled world, because people will be 10x more expressive due to increased leverage & ability to automate and do things. For example, previously to run a burger restaurant or build an app, you needed lots of people. Now with robots and ai coding tools one person can do that, which means we get 10x as many unique takes on it. So to avoid competition these businesses are literally forced to create variation. We get 10 different burger shops, 10 different apps, all doing their unique twist. Abundance increases competition, diversity & quality. A lot of people are stuck in this thinking that volume = factory = same. Cookie cutter everything. Housing blocks & misery. But that’s no longer the case. Abundance = We now can have 10 factories all making unique things.",
+      "link": "https://nitter.kareem.one/NickADobos/status/2111262922693566679#m",
+      "published": "Sat, 17 Oct 2026 01:08:00 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "Explained 1. Biggest problem with op’s charts is the assumption that there is no negative effect. Teachers always seem to forget it’s possible to teach people the wrong thing and have them end up traumatized with infohazards and maladaptive behaviors and thoughts. There’s not 0 learning there is backwards learning. 2. The original chart shows smart people being pulled back. That’s only true if AI is dumber or less creative or less able to execute “taste”. Which breaks if AI advances in capabilities, when AI has already proven to be superhuman in math, coding, and other disciplines, at minimum it’s able to do some things better, and likely more. So the spike is in the wrong spot. Few if any people are or will be pulled back in the long run. 3. The original charts also assumes AI users have 0 input or control over the final quality of the AI output. Ridiculous assumption. You are the one typing prompts and asking questions. You are the one picking which AIs to pay for, chat with, and what settings to use. You pick and edit the final work. You are the one aiming it! Your inputs matter! Smart questions and more experience on how to use AI tools gets you better results! This effect is recursive as you learn & accelerate with Ai, or downward spiral. — What’s actually going to happen: Acceleration in every direction. Smart people get smarter. Dumb people get dumber. Intelligence Gap widens it doesn’t shrink Every human emotion we experience will be dialed up to 11 and amplified with the power of the machine. The same way social media and internet communities often push and create extreme niche behavior. Those who aim it properly will go far. Those who don’t? Well. At least we have safety classifiers.",
+      "link": "https://nitter.kareem.one/NickADobos/status/2111262920638349723#m",
+      "published": "Sat, 17 Oct 2026 01:08:00 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "The assumption AI regresses intelligence to average is fundamentally wrong Corrected charts: Miles Cranmer (@MilesCranmer) Here is the full talk: Video — https://nitter.kareem.one/MilesCranmer/status/2111105654211608847#m",
+      "link": "https://nitter.kareem.one/NickADobos/status/2111262916683223318#m",
+      "published": "Sat, 17 Oct 2026 01:07:59 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "Hello regulatory capture. Andrew Curran (@AndrewCurran_) Politico is reporting that Anthropic have written their own bill to to regulate frontier AI, and are pitching it to memebers of Congress. — https://nitter.kareem.one/AndrewCurran_/status/2111222136362897502#m",
+      "link": "https://nitter.kareem.one/NickADobos/status/2111231108356747433#m",
+      "published": "Fri, 16 Oct 2026 23:01:35 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "nickadobos",
+      "text": "Become a Robot Pilot! I can't even imagine the insane kung fu trickshots we are gonna see with this at high elo on the ranked ladder CIX 🦾 (@cixliv) Announcing REK for iOS (Beta) We built a 1 to 1 sim that runs the entire physics and robot ai that can be used on a phone. So anyone in the world can train to be a robot pilot! Video — https://nitter.kareem.one/cixliv/status/2111176183262187895#m",
+      "link": "https://nitter.kareem.one/NickADobos/status/2111195891432603732#m",
+      "published": "Fri, 16 Oct 2026 20:41:39 GMT",
+      "author_name": "Nick Dobos",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "Seriously, there is no way to algorithmically filter out the obvious AI slopreplies? Ethan Mollick (@emollick) The paper on how a team of Gemini 4 agents beat Minecraft is worth a look. It is accessible example (partially because it is AI written) of spontaneous coordination among agents to accomplish a complicated goal & how their approach differs from humans/ arxiv.org/pdf/2610.22319 — https://nitter.kareem.one/emollick/status/2111171225418408236#m",
+      "link": "https://nitter.kareem.one/emollick/status/2111183137011077220#m",
+      "published": "Fri, 16 Oct 2026 19:50:58 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "The paper on how a team of Gemini 4 agents beat Minecraft is worth a look. It is accessible example (partially because it is AI written) of spontaneous coordination among agents to accomplish a complicated goal & how their approach differs from humans/ arxiv.org/pdf/2610.22319",
+      "link": "https://nitter.kareem.one/emollick/status/2111171225418408236#m",
+      "published": "Fri, 16 Oct 2026 19:03:38 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "I should also point out that almost all benchmarks are of single-answer short-horizon tasks, but a large amount of economically valuable work is complex long-horizon tasks. Again, there is room for both, but I think we will find \"good enough\" intelligence may not always be.",
+      "link": "https://nitter.kareem.one/emollick/status/2111048324291899785#m",
+      "published": "Fri, 16 Oct 2026 10:55:16 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "How could I not have thought of this earlier?",
+      "link": "https://nitter.kareem.one/emollick/status/2110955882083217719#m",
+      "published": "Fri, 16 Oct 2026 04:47:56 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "kiasoul.md",
+      "link": "https://nitter.kareem.one/emollick/status/2110943784309588092#m",
+      "published": "Fri, 16 Oct 2026 03:59:52 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "Should Europe leave frontier AI to the Americans and the Chinese? The idea has gained ground in Europe. It is a fundamental mistake. Build or surrender: for now, the choice is still ours. Full article below. Article Build or surrender An idea has gained ground in Europe: we should leave frontier AI models to the Americans and the Chinese. It is advocated by serious people, whose reasoning has its logic. A frontier model costs",
+      "link": "https://nitter.kareem.one/arthurmensch/status/2110990492930314712#m",
+      "published": "Fri, 16 Oct 2026 07:05:28 GMT",
+      "author_name": "Arthur Mensch",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Congrats to Meta on building the best open-weight model in the United States ! AI at Meta (@AIatMeta) Today we’re releasing Muse Spark Open, the most capable US open-weight model to date. Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning. Key Model Specs: → 816B total / 42B active parameters → 1M token context window → Natively multimodal across text, image, video, audio — https://nitter.kareem.one/AIatMeta/status/2110779754274292212#m",
-      "link": "https://nitter.kareem.one/GuillaumeLample/status/2110931453576196429#m",
-      "published": "Fri, 16 Oct 2026 03:10:52 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "ArthurMensch",
+      "text": "Today I'm excited to share that New Material is joining @MistralAI to design sovereign frontier AI. We're establishing a new team, 'Solutions Design' within Mistral: working across product, engineering and AI, the team will co-develop with customers, creating a tight feedback loop between real-world deployment and Mistral’s products. newmaterial.ai/stories/newma… Link New Material joins Mistral to design the frontier · New Material New Material builds AI-native products, workflows and ventures. newmaterial.ai",
+      "link": "https://nitter.kareem.one/aaronabentheuer/status/2110370455710282024#m",
+      "published": "Wed, 14 Oct 2026 14:01:40 GMT",
+      "author_name": "Arthur Mensch",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
+      "handle": "ArthurMensch",
       "text": "🇫🇷 Le Chonk joins the sudo L7 leaderboard 🇫🇷 We just added @MistralAI 's Mistral Large 4 to sudo L7, our benchmark for staff-level software engineering. Mistral Large 4 scores 13.3%, ahead of Muse Spark 1.3 (12.2%) and Grok 4.7 (10.6%). sudo L7 tests whether coding agents can go beyond writing correct code to exercise the judgment of experienced engineers: navigating messy systems, spotting hidden risks, and knowing when technically correct code is still the wrong thing to ship. Allez, le Chonk ! 🥖 Leaderboard ↓ surgehq.ai/benchmarks/sudo-l…",
       "link": "https://nitter.kareem.one/HelloSurgeAI/status/2109706583215411260#m",
       "published": "Mon, 12 Oct 2026 18:03:40 GMT",
-      "author_name": "Guillaume Lample",
+      "author_name": "Arthur Mensch",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Le Chonk cooked on visual grounding. Pinpoints exactly where things are in an image. 42% on Dense 200, ahead of even frontier closed models.. Video",
-      "link": "https://nitter.kareem.one/MistralAI/status/2109687906751086628#m",
-      "published": "Mon, 12 Oct 2026 16:49:27 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "ArthurMensch",
+      "text": "I’m in Seoul building Mistral’s founding Korea team. Looking for kind, ambitious researchers and engineers to build and customise LLMs for real problems, from data and evals to RL and training at scale. Here until 16th October. DM me or apply here: jobs.ashbyhq.com/mistral.ai/… Link Applied Scientist, South Korea ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-sta... jobs.ashbyhq.com",
+      "link": "https://nitter.kareem.one/hkproj/status/2108463012428550194#m",
+      "published": "Fri, 09 Oct 2026 07:42:10 GMT",
+      "author_name": "Arthur Mensch",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
+      "handle": "ArthurMensch",
       "text": "We serve those as well! Sorry if using nuclear energy is a real blocker POLITICOEurope (@POLITICOEurope) Berlin-based search engine Ecosia, used by government services, is dropping its French AI partner, Mistral, its CEO told POLITICO. The company will now bet on open-source models, including those from China. vist.ly/5mh5y Link German search engine ditches Mistral, bets on Chinese open-source AI “We are disappointed with the quality of Mistral,” Ecosia founder and CEO told POLITICO. politico.eu — https://nitter.kareem.one/POLITICOEurope/status/2108099375750656485#m",
       "link": "https://nitter.kareem.one/arthurmensch/status/2108204822537322802#m",
       "published": "Thu, 08 Oct 2026 14:36:12 GMT",
-      "author_name": "Guillaume Lample",
+      "author_name": "Arthur Mensch",
       "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "We're presenting the SF AI Assistant Meetup with @merit_systems on October 19. ​This event is a space for power users and people interested in the world of AI Assistants to hang out, get to know one another, and share tips/tricks on how to best use these tools. RSVP: luma.com/wabd65c0 Link SF AI Assistants Meetup · Luma Hello SF AI Assistant lovers! Welcome to the first official SF meetup. This is a space for power users and people interested in the world of AI Assistants to… luma.com David Pawlan (@DavidPawlan) SF AI Assistant lovers, your time has come! October 19th. Get ready for an epic AI assistant meetup 🤖 To be announced: > more sponsors/partners > location > event agenda RSVP here: luma.com/wabd65c0 — https://nitter.kareem.one/DavidPawlan/status/2108302149956358181#m",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2108307164335157505#m",
+      "published": "Thu, 08 Oct 2026 21:22:53 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "Those 20 times are 22 GPU-hours against 1.14. Throughput on one 5090 was about 8.4K tokens/s against 124K. Full Breakdown: alphasignal.ai/news/looped-t… Link Looped transformers: three different machines | AlphaSignal Nanbeige4.2-3B is Apache 2.0 on Hugging Face, with num_hidden_layers: 22 and num_loops: 2 , and two passes kept about 75% of a standard Transformer's token alphasignal.ai",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895779054522805#m",
+      "published": "Wed, 07 Oct 2026 18:08:11 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "You’ve probably heard the buzz around Looped transformers, but which one? Over the past month, the same word covered three reuse tricks. Implementing the wrong one burns a training week. It also budgets a 3B file like a 3B decode. We opened a looped transformer open model, Nanbeige 4.2: > 22 layers, two passes > 44 applications, same weights > About twice the block compute > KV cache doubles with it It kept about 75% of a standard Transformer's token efficiency. Sharing the cache halved its memory. And quality gains were consistently lower. A second design carries state token to token. Sequence length is the depth. Training used 500 million tokens. That run cost about 20 times the GPU-hours. So, Which reuse trick is the viral tweet? If extra loops do not raise quality, what are you paying? Does the file still need a second cache? Full Breakdown ↓↓",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895777393541555#m",
+      "published": "Wed, 07 Oct 2026 18:08:10 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "It's time to solve one of the biggest challenges in vision-language models. Today's multimodal models can look at a biomedical image and give a convincing, sometimes correct, answer without actually understanding what they're seeing. A model might answer the medical question correctly while failing to identify basic visual context like the imaging modality, body part, specimen, or stain. So, I'm teaming up with Stanford to solve this problem. You should too. The MMBU Challenge tests whether models can actually recognize, localize, and understand what is in biomedical images, not just arrive at the right answer. 🏆 3 tracks 💻 $100K+ in compute and prizes 📅 Oct 1 to Dec 31 ⏰ Registration closes today",
+      "link": "https://nitter.kareem.one/LiorOnAI/status/2105377147431051624#m",
+      "published": "Wed, 30 Sep 2026 19:20:02 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "The article examines what belongs in AGENTS.md, design documents, and tests. Full breakdown ↓ alphasignal.ai/news/what-bel… Link What Belongs in AGENTS.md, Design Docs and Tests? | AlphaSignal The study tracks 247,694 instruction lifetimes across 1,867 repositories and reports average instruction-count growth of 226%. alphasignal.ai",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2104975648527986711#m",
+      "published": "Tue, 29 Sep 2026 16:44:37 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
     "karpathy",
-    "sama",
+    "DarioAmodei",
     "gdb",
     "sundarpichai",
     "elonmusk",
@@ -239,7 +374,6 @@
     "ylecun",
     "demishassabis",
     "JeffDean",
-    "fchollet",
     "AndrewYNg",
     "rasbt",
     "bcherny",
@@ -250,6 +384,7 @@
     "officiallogank",
     "osanseviero",
     "AnthropicAI",
+    "OpenAI",
     "GoogleDeepMind",
     "xai",
     "simonw",
@@ -257,303 +392,421 @@
     "jeremyphoward",
     "levelsio",
     "mckaywrigley",
-    "nickadobos",
-    "emollick",
-    "ArthurMensch",
+    "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
     "ClemDelangue",
-    "rowancheung",
-    "AlphaSignalAI"
+    "rowancheung"
   ],
   "processed": {
-    "summary": "Cette journée a été riche en annonces et réflexions sur l'IA ! D'un côté, nous avons vu des avancées majeures en biologie, où des IA comme Claude d'Anthropic aident à la découverte scientifique. De l'autre, le débat sur la régulation de l'IA de pointe continue, avec des appels à ralentir le rythme pour assurer la sécurité et une meilleure distribution des pouvoirs. Enfin, des outils comme ChatGPT reçoivent des mises à jour importantes, et des créateurs partagent des astuces concrètes sur l'analyse d'audience, montrant l'omniprésence de l'IA et de ses méthodes dans divers domaines.",
+    "summary": "Cette journée a été riche en réflexions sur l'impact de l'IA, notamment son rôle dans l'éducation et la transformation des industries, ainsi que des débats sur sa compréhension et sa régulation. Plusieurs annonces importantes et de nouveaux outils ont été partagés, démontrant l'avancement rapide du domaine. Pour les débutants, il est essentiel de comprendre que l'IA ne se limite pas à des modèles textuels, mais touche la robotique et même les méthodes d'apprentissage.",
     "glossaire": [
       {
-        "terme": "Système enzymatique",
-        "definition": "Des protéines spéciales dans les organismes vivants qui accélèrent les réactions chimiques, essentielles à la vie."
+        "terme": "Interprétabilité",
+        "definition": "Capacité de comprendre pourquoi une IA prend certaines décisions, cruciale pour la confiance et la sécurité des systèmes intelligents."
       },
       {
-        "terme": "Édition génique",
-        "definition": "Une technique qui permet de modifier l'ADN d'un organisme avec une grande précision, comme 'couper et coller' des gènes."
+        "terme": "Alignement",
+        "definition": "Processus qui consiste à s'assurer que les intelligences artificielles agissent conformément à nos valeurs et intentions humaines, pour éviter les comportements inattendus."
       },
       {
-        "terme": "Modèle open-weight",
-        "definition": "Un modèle d'IA dont les 'poids' (les données internes qui lui donnent son intelligence) sont rendus publics, permettant à quiconque de l'utiliser et de le modifier."
+        "terme": "Réseaux de neurones",
+        "definition": "Modèles informatiques inspirés du cerveau humain, composés de 'neurones' connectés qui apprennent en détectant des motifs dans de grandes quantités de données."
       },
       {
-        "terme": "IA de pointe (Frontier AI)",
-        "definition": "Les modèles d'IA les plus avancés et les plus puissants du moment, souvent développés par les plus grandes entreprises."
+        "terme": "ARC-AGI",
+        "definition": "Un défi majeur pour l'IA (Abstraction and Reasoning Corpus for Artificial General Intelligence) qui mesure la capacité d'un modèle à résoudre des problèmes de manière créative et générale, comme le ferait un humain."
       },
       {
-        "terme": "Test A/B",
-        "definition": "Une méthode qui compare deux versions (A et B) d'un élément (comme une vignette vidéo) pour voir laquelle fonctionne le mieux auprès des utilisateurs."
+        "terme": "Hallucination",
+        "definition": "Phénomène où une IA génère des informations fausses, inventées ou non basées sur des faits réels, tout en les présentant comme vraies."
       },
       {
-        "terme": "Multimodal",
-        "definition": "La capacité d'une IA à comprendre et à traiter différents types d'informations simultanément, comme le texte, les images et les sons."
+        "terme": "Modèles de langage (LLM)",
+        "definition": "Des intelligences artificielles très puissantes (comme ChatGPT) capables de comprendre, de générer et de manipuler du texte de manière cohérente et naturelle."
       },
       {
-        "terme": "Agents autonomes",
-        "definition": "Des systèmes d'IA capables de planifier et d'exécuter des tâches complexes en plusieurs étapes sans intervention humaine constante."
+        "terme": "Agents",
+        "definition": "Des systèmes d'IA capables de percevoir leur environnement, de prendre des décisions et d'agir de manière autonome pour atteindre des objectifs complexes."
       }
     ],
     "category_summaries": {
-      "actu": "Aujourd'hui, l'actualité de l'IA a été marquée par des percées scientifiques, avec la découverte d'un nouveau système enzymatique par l'IA Claude d'Anthropic, promettant de futures révolutions en médecine. OpenAI a également annoncé un plan académique pour rendre son IA GPT-Rosalind accessible aux chercheurs en biologie. Par ailleurs, des mises à jour produits notables incluent la nouvelle fonctionnalité 'Bring Your Own Cloud' de Replit pour plus de sécurité des données et le classement élevé de Replit dans la création rapide de diapositives, tandis que Meta a lancé un nouveau modèle open-weight puissant.",
-      "tips": "Du côté des conseils pratiques, OpenAI nous a montré comment un de ses ingénieurs a utilisé un 'dot' (un assistant IA interne) pour résoudre un incident technique rapidement. Un créateur de contenu a partagé des analyses détaillées sur l'audience de ses vidéos YouTube, notamment sur les taux de vues et d'abonnements, offrant des leçons concrètes sur l'engagement et la croissance d'une chaîne.",
-      "idees": "Les débats sur l'avenir de l'IA ont été vifs, notamment avec Dario Amodei d'Anthropic qui a souligné l'importance de ralentir le développement de l'IA de pointe pour mieux la maîtriser et l'encadrer par des régulations justes. Il a également insisté sur la nécessité pour les entreprises d'IA de réellement tenir leurs promesses de bénéfices pour l'humanité, plutôt que de se contenter de marketing. On a aussi abordé les conséquences de l'IA sur des domaines comme les mathématiques, où l'ère 'romantique' laisserait place à une approche plus 'industrielle', et les considérations éthiques autour de la consommation énergétique des modèles IA.",
-      "outils": "Côté outils, OpenAI a amélioré GPT-6 Astra Pro, offrant des réponses plus rapides et la capacité pour des 'agents' de travailler en parallèle sur différentes parties d'une tâche. Nous avons aussi découvert des plateformes d'évaluation comme Ulam STEMBench et sudo L7, où le modèle Mistral Large 4, surnommé 'Le Chonk', a démontré ses capacités impressionnantes en ingénierie, astronomie, et sa compétence en 'visual grounding' pour localiser des éléments dans des images. Un créateur a également partagé un laboratoire en ligne pour les tests A/B de vignettes YouTube."
+      "actu": "Aujourd'hui, l'actualité de l'IA a été marquée par des discussions sur la régulation de l'IA de pointe, avec Anthropic qui propose son propre projet de loi, et des mouvements stratégiques d'entreprises comme l'acquisition de New Material par Mistral AI. Nous avons aussi vu des nouvelles sur le recrutement et des changements de partenaires technologiques, montrant l'intense compétition et l'évolution rapide du secteur.",
+      "tips": "Ces conseils se sont concentrés sur l'importance de l'expérimentation pour optimiser la visibilité de contenu en ligne, comme les tests A/B de vignettes YouTube. Un autre point clé est la capacité des individus à se démarquer et à innover dans un monde saturé d'IA en se concentrant sur la création de variations uniques.",
+      "idees": "Les discussions ont abordé des sujets variés, allant de l'importance de l'interprétabilité et de l'alignement pour la sécurité de l'IA, à la nécessité d'ancrer l'intelligence artificielle dans la réalité pour éviter les 'hallucinations'. Des réflexions sur l'impact de l'IA sur la productivité humaine et même sur le domaine des mathématiques ont également été partagées, questionnant si l'IA creusera l'écart d'intelligence ou uniformisera les compétences.",
+      "outils": "De nouveaux outils et benchmarks ont été présentés, comme l'interface utilisateur personnalisable de ChatGPT ou l'application Gakku.ai pour le mentorat éducatif par IA. Des modèles de langage ont montré d'excellentes performances sur des tests complexes de raisonnement (ARC-AGI) ou d'ingénierie logicielle. Enfin, des recherches sur l'optimisation des 'Transformers bouclés' et un défi pour améliorer la compréhension des images biomédicales par l'IA ont été mis en avant, prouvant que les progrès techniques continuent d'ouvrir de nouvelles possibilités."
     },
     "highlights": [
       {
-        "author_name": "Dario Amodei",
-        "handle": "@DarioAmodei",
-        "text_fr": "Aujourd'hui, nous avons annoncé la découverte, menée par Claude, d'une machine moléculaire que nous soupçonnons de représenter un nouveau mécanisme d'édition génique. Sa fonction précise, son utilité biotechnologique (le cas échéant) ou son niveau de signification ne sont pas encore clairs, mais c'est un travail dont j'aurais été fier en tant qu'étudiant en doctorat. Le travail a été réalisé principalement, mais pas entièrement, par Claude : notre équipe de sciences de la vie a suggéré un large domaine de recherche, Claude a parcouru la littérature et de nombreuses données génomiques pour découvrir quelque chose d'intéressant, puis Claude a proposé des expériences pour vérifier la découverte et notre équipe les a menées à bien. Il est facile de considérer cela comme un cas isolé ou une curiosité, mais nous avons observé à plusieurs reprises un modèle où les performances de l'IA dans de nouveaux domaines intellectuels passent de faibles à surhumaines en quelques années. En 2023, les modèles avaient du mal avec les mathématiques d'un lycéen moyen. En 2024, ils ont commencé à bien réussir les concours de mathématiques pour les meilleurs lycéens du pays, en 2025 ils ont commencé à résoudre des problèmes ouverts mineurs, début 2026 des problèmes ouverts plus importants, et fin 2026 ils commencent à résoudre les quelques problèmes ouverts majeurs en mathématiques. Nous pensons que l'IA pour la biologie suit une tendance exponentielle similaire. La principale différence entre la biologie et les mathématiques, bien sûr, est que les mathématiques peuvent être faites purement théoriquement, tandis que la biologie nécessite des expérimentations. Certains ont utilisé cela pour en conclure que l'utilité de l'IA en biologie serait limitée. Nous pensons que c'est faux. Comme nous l'avons démontré aujourd'hui, les humains peuvent collaborer avec l'IA pour réaliser les expériences, valider les résultats clés en quelques semaines et, si nécessaire, travailler avec l'IA pour itérer sur ce qu'ils trouvent. À terme, il pourrait même être possible pour Claude lui-même de réaliser les expériences en toute sécurité en contrôlant de manière autonome l'équipement de laboratoire, avec les protections appropriées, mais nous ne le faisons pas aujourd'hui (notre laboratoire est également une installation BSL1/BSL2 qui ne manipule pas de matériaux dangereux pour les humains). Plus largement, le progrès biomédical comporte de nombreuses étapes — des découvertes fondamentales en biologie à la recherche translationnelle, la découverte de médicaments, les essais cliniques et enfin la livraison effective des médicaments et des soins de santé aux patients. Nous nous intéressons également à ces dernières étapes, mais même simplement accélérer la première étape des découvertes biologiques fondamentales a le potentiel d'accélérer et d'élargir l'ensemble du processus. Améliorer notre compréhension de la biologie et affûter les outils des biologistes peut faire progresser toutes les étapes ultérieures, par exemple en identifiant de nouvelles cibles médicamenteuses, en trouvant de nouvelles modalités thérapeutiques, en permettant des mesures plus précises et en accélérant la boucle expérimentale qui elle-même accélère notre compréhension de la biologie. Cela n'accélérera pas en soi les délais des essais cliniques, mais si cela réussit, cela pourrait augmenter considérablement le nombre de candidats prometteurs entrant dans le pipeline — une augmentation du débit même si la latence demeure. Dans Machines of Loving Grace, j'ai écrit sur le potentiel de l'IA à 'guérir la plupart des maladies en 5-10 ans' — un objectif qui semble impossible, mais que je crois juste à peine possible si l'IA est appliquée à chaque étape du processus. La première étape est de montrer que l'IA peut d'abord aider avec, et ensuite diriger, les découvertes biologiques. La découverte de Claude est la dernière d'une série de travaux antérieurs connexes qui remontent à des décennies, commençant par des systèmes comme CRISPR, et se poursuivant avec des découvertes comme la recombinase pont et VIPR ces dernières années. Récemment, l'intérêt s'est accru pour les systèmes basés sur les enzymes de la transcriptase inverse (RT), l'enzyme qui sous-tend le système identifié par Claude. Et plus récemment, une équipe de Stanford travaillant indépendamment a décrit un nouveau système RT avec une matrice non codante associée qui est à certains égards similaire à celui trouvé par Claude, bien qu'il s'agisse de systèmes distincts qui ont évolué indépendamment l'un de l'autre. Je crois que nous sommes au tout début de la découverte de tels systèmes et de leur développement en outils puissants pour la biotechnologie. Je suis fier des ressources qu'Anthropic a investies pour accélérer les bénéfices publics de l'IA par le biais des sciences de la vie, et nous visons à la fois à agrandir notre équipe de sciences de la vie et à travailler avec d'autres scientifiques pour étendre cette approche à un large éventail de problèmes. Si vous avez une proposition de collaboration de recherche ou si vous êtes intéressé à rejoindre notre équipe de sciences de la vie, veuillez nous contacter. Anthropic (@AnthropicAI) Claude a découvert un système enzymatique auparavant inconnu caché dans l'ADN des bactériophages. À côté du gène de l'enzyme se trouve une longue série d'ADN répété — une structure qui ressemble quelque peu à CRISPR. Nous ne comprenons pas encore ce que fait ce système, mais seule une poignée de systèmes connus partagent ses caractéristiques, et tous sont capables de couper, copier et coller l'ADN. Historiquement, la découverte de tels systèmes programmables a contribué à révolutionner la médecine. CRISPR, par exemple, est maintenant la base des médicaments génétiques. Mais il faudra beaucoup plus de travail pour savoir ce que fait ce système, et s'il peut être utilisé de manière similaire. En savoir plus : anthropic.com/news/claude-di… Lien Claude découvre un nouveau système enzymatique Lors des premiers résultats de notre nouveau laboratoire de recherche en sciences de la vie, les agents Claude ont trouvé un système enzymatique dont la fonction est encore inconnue. anthropic.com",
-        "text_original": "Today we announced the Claude-led discovery of a molecular machine that we suspect could represent a new gene editing mechanism. Its precise function, biotechnological utility (if any), or level of significance is not yet clear, but at minimum it is work I would have been proud to do as a PhD student. The work was done mostly, though not entirely, by Claude: our life sciences team suggested a broad area of research, Claude read through the literature and a bunch of genome data and discovered something interesting, then Claude proposed experiments to verify the discovery and our team carried them out. It’s easy to dismiss this as a one-off or curiosity, but we’ve repeatedly seen a pattern where AI performance in new intellectual domains goes from weak to superhuman in a matter of a few years. In 2023 models struggled to do math at the level of an average high-school student. In 2024 they started to do well on math competitions for the best high-schoolers in the country, in 2025 they started to solve minor open problems, in early 2026 more significant open problems, and in late 2026 they are beginning to solve the top few open problems in all of mathematics. We believe AI for biology is on a similar exponential trend. The main difference between biology and mathematics, of course, is that math can be done purely theoretically, while biology requires experimentation. Some have used this to draw the conclusion that AI’s utility in biology will be limited. We think this is wrong. As we’ve demonstrated today, humans can collaborate with AI to perform the experiments, validate key results in a few weeks and, if necessary, work with the AI to iterate on what they find. Eventually it may even be possible for Claude itself to safely perform the experiments by autonomously controlling lab equipment, with appropriate safeguards in place, but we aren’t doing that today (our lab is also a BSL1/BSL2 facility that doesn't handle materials dangerous to humans). More broadly, biomedical advancement has many stages — from fundamental biology discoveries, to translational research, to drug discovery, clinical trials, and finally the actual delivery of medicines and health care to patients. We are also interested in these later stages, but even simply accelerating the first stage of fundamental biological discoveries has the potential to speed up and broaden the entire pipeline. Improving our understanding of biology and sharpening biologists’ tools can drive forward all of the later stages, for example by identifying new drug targets, finding new therapeutic modalities, allowing for more precise measurement, and speeding up the experimental loop which itself further accelerates our understanding of biology. This will not in itself speed up clinical trial times, but if it succeeds it could greatly increase the number of promising candidates that go into the pipeline — an increase in throughput even though latency remains. In Machines of Loving Grace, I wrote about AI’s potential to “cure most diseases in 5-10 years” — a goal that sounds impossible, but one I believe is just barely possible if AI is applied to every stage of the pipeline. The first step is showing that AI can first help with, and then drive, biological discoveries. Claude’s discovery is the latest in a line of related prior work that goes back decades, beginning with systems like CRISPR, and continuing with discoveries like the bridge recombinase and VIPR in the past few years. Recently, there has been heightened interest in systems based on reverse transcriptase (RT) enzymes, the enzyme underlying the system Claude identified. And most recently, a Stanford team working independently described a novel RT system with an associated non-coding array that is in some ways similar to the one Claude found, though they are distinct systems that evolved independently from each other. I believe that we’re at the very beginning of finding such systems and developing them into powerful tools for biotechnology. I’m proud of the resources Anthropic has invested in accelerating the public benefits of AI through the life sciences, and we’re aiming both to grow our life sciences team and to work with other scientists to extend this approach to a broad range of problems. If you have a proposal for a research collaboration or are interested in joining our life sciences team, please reach out. Anthropic (@AnthropicAI) Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR. We don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use. Read more: anthropic.com/news/claude-di… Link Claude discovers a novel enzyme system In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. anthropic.com",
-        "link": "https://nitter.kareem.one/DarioAmodei/status/2102831170299834652#m",
-        "decryptage": "Claude, une IA, a aidé à découvrir une nouvelle 'machine' dans le vivant qui pourrait changer la médecine, un peu comme le système CRISPR.",
-        "category": "actu",
-        "highlight_reason": "Cette annonce est capitale car elle montre le potentiel de l'IA pour faire des découvertes scientifiques fondamentales, ouvrant la voie à de nouvelles avancées médicales."
-      },
-      {
-        "author_name": "Dario Amodei",
-        "handle": "@DarioAmodei",
-        "text_fr": "Nous devons ralentir le rythme de la frontière : j'ai écrit un nouvel essai sur les raisons pour lesquelles l'industrie de l'IA devrait ralentir, avec un plan en trois parties pour y parvenir. Anthropic s'engage unilatéralement à la première de ces étapes. Nous fournirons aux évaluateurs tiers un accès permanent, au niveau des employés, à nos systèmes, afin qu'ils puissent vérifier le respect de nos mesures de sécurité, signaler les incidents et évaluer l'alignement des modèles pendant l'entraînement. Vous pouvez lire l'article complet ici : darioamodei.com/post/we-must… Lien Dario Amodei — We Must Pace the Frontier darioamodei.com",
-        "text_original": "We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training. You can read the full post here: darioamodei.com/post/we-must… Link Dario Amodei — We Must Pace the Frontier darioamodei.com",
-        "link": "https://nitter.kareem.one/DarioAmodei/status/2098773920774074715#m",
-        "decryptage": "Le patron d'Anthropic propose de ralentir le développement de l'IA la plus avancée pour mieux la contrôler et s'engage à laisser des experts indépendants vérifier leurs systèmes.",
+        "author_name": "Sam Altman",
+        "handle": "@sama",
+        "text_fr": "Très heureux de voir cela de la part de Nick ! Nick (@nickcammarata) pense que l'interprétabilité est peut-être le problème scientifique le plus important au monde actuellement, car je ne pense pas que nous puissions résoudre l'alignement si nous ne savons pas ce que nous construisons. Je pense avoir de bonnes nouvelles à ce sujet. J'ai co-écrit des travaux préliminaires sur l'interprétabilité mécaniste chez OpenAI et j'en suis ressorti pessimiste, car les réseaux de neurones semblaient se plier en nœuds arbitrairement enchevêtrés. Des années plus tard, j'ai lancé le premier projet d'interprétabilité automatisée à grande échelle d'OpenAI, trouvant environ 2 % des neurones lisibles avec les outils rudimentaires que nous avions ; avec les outils d'agents modernes et un examen beaucoup plus approfondi, l'image est totalement différente. La grande majorité des modèles allant jusqu'à des milliers de milliards de paramètres sont lisibles, et leurs circuits sont magnifiques. De nombreux exemples célèbres de neurones enchevêtrés se sont avérés mal compris. Les obstacles que j'attendais ne sont pour la plupart pas là. Je pense maintenant que l'interprétabilité ambitieuse sera résolue au moment où nous en aurons le plus besoin, et peut-être très bientôt, à mesure que les scientifiques automatisés continueront de s'améliorer. Ce pourrait être une leçon difficile pour l'interprétabilité : la chose simple, à une échelle absurde, fonctionne déjà proprement. already-clean.goodfire.com — https://nitter.kareem.one/nickcammarata/status/2110757819427574056#m",
+        "text_original": "Very happy to see this from Nick! Nick (@nickcammarata) interpretability might be the most important scientific problem in the world right now, as I don't think we can solve alignment if we don't know what we're building. I think I have good news about it. I co-authored early work in mechanistic interpretability at OpenAI and came away pessimistic, because neural networks appeared to fold into arbitrary tangled knots. years later, I started openai's first large-scale automated interpretability project, finding about 2% of neurons legible with the primitive tools we had with modern agentic tools and a much closer look, the picture looks totally different. the vast majority in models up to trillions of parameters are legible, and their circuits beautiful. many famous examples of tangled neurons turned out to be misunderstood. The roadblocks I expected mostly aren't there. I now think ambitious interpretability will be solved by the time we need it most, and possibly quite soon, as automated scientists keep improving. it may be a bitter lesson for interpretability: the simple thing, at absurd scale, works already-clean.goodfire.com/ Link Neural Networks Are Already Clean A working hypothesis about neurons, generalization, and the ecology of circuits. already-clean.goodfire.com — https://nitter.kareem.one/nickcammarata/status/2110757819427574056#m",
+        "link": "https://nitter.kareem.one/sama/status/2111130577789493706#m",
+        "decryptage": "Ce tweet aborde l'interprétabilité (comprendre le fonctionnement interne d'une IA) et l'alignement (s'assurer que l'IA respecte nos valeurs), deux enjeux majeurs pour la sécurité et le développement futur de l'IA.",
         "category": "idees",
-        "highlight_reason": "Ce tweet aborde un débat central sur la sécurité et la régulation de l'IA de pointe, avec des propositions concrètes de la part d'un acteur majeur."
+        "highlight_reason": "Ce tweet de Sam Altman met en lumière l'importance cruciale de l'interprétabilité pour le futur de l'IA, un enjeu souvent technique mais ici très bien vulgarisé, montrant l'optimisme des chercheurs."
       },
       {
-        "author_name": "OpenAI",
-        "handle": "@OpenAI",
-        "text_fr": "GPT-6 Astra Pro dans ChatGPT a été mis à jour avec des réponses plus rapides et une meilleure utilisation des plugins et outils. Désormais, plusieurs agents peuvent s'attaquer à différentes parties d'une tâche en parallèle. Vous pouvez suivre la progression de chaque agent et ouvrir les tâches terminées pour vérifier leur travail. Maintenant disponible pour les utilisateurs Pro dans l'onglet Chat.",
-        "text_original": "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work. Now available to Pro users in the Chat tab.",
-        "link": "https://nitter.kareem.one/OpenAI/status/2111192259073094035#m",
-        "decryptage": "Une version améliorée de ChatGPT, appelée GPT-6 Astra Pro, permet maintenant à l'IA de diviser une tâche complexe en plusieurs sous-tâches et de les résoudre simultanément, offrant des réponses plus rapides et une meilleure gestion des outils.",
+        "author_name": "Sam Altman",
+        "handle": "@sama",
+        "text_fr": "ChatGPT peut désormais générer une interface utilisateur personnalisée pour vous ! OpenAI (@OpenAI) : GPT-6 et l'Interface Utilisateur Intelligente sont maintenant déployés dans ChatGPT pour tout le monde. L'Interface Utilisateur Intelligente de ChatGPT offre des réponses rapides et interactives qui rendent les questions quotidiennes plus visuelles, les sujets complexes plus faciles à comprendre, et met à disposition des outils interactifs pour votre tâche sur le champ. Vidéo — https://nitter.kareem.one/OpenAI/status/2107894997538525580#m",
+        "text_original": "ChatGPT can now generate a custom UI for you! OpenAI (@OpenAI) GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. Video — https://nitter.kareem.one/OpenAI/status/2107894997538525580#m",
+        "link": "https://nitter.kareem.one/sama/status/2107924408597950702#m",
+        "decryptage": "Une \"UI\" (User Interface ou interface utilisateur) est ce que vous voyez et avec quoi vous interagissez sur un écran ; ChatGPT peut maintenant créer ces interfaces personnalisées pour rendre ses réponses plus utiles et interactives.",
         "category": "outils",
-        "highlight_reason": "C'est une annonce concrète d'une nouvelle capacité pour les utilisateurs de ChatGPT, montrant comment l'IA peut décomposer et gérer des tâches complexes de manière plus efficace."
+        "highlight_reason": "Cette annonce de ChatGPT, qui peut désormais générer des interfaces utilisateur personnalisées, est un exemple concret et direct de l'évolution des capacités de l'IA pour faciliter l'interaction et la résolution de tâches quotidiennes."
       },
       {
-        "author_name": "Amjad Masad",
-        "handle": "@amasad",
-        "text_fr": "Fascinant de voir les mathématiciens traverser toutes les étapes du deuil — Déni, Colère, Négociation, Dépression et Acceptation — dans un laps de temps si court. Nous sommes à la fin de la dépression et entrons dans l'acceptation. Haider. (@haider1) Le mathématicien Terence Tao : « nous assistons à la fin de l'ère romantique des mathématiques, l'âge des héros. Nous entrons dans une ère industrielle où les maths deviennent à grande échelle, réalisées par de grandes équipes comme les autres sciences. » Nous entrons, plutôt malgré nous, dans une nouvelle ère où des choses nouvelles et passionnantes sont possibles, mais où certaines choses sont perdues Vidéo",
-        "text_original": "Fascinating to see Mathematicians go through all the stages of grief — Denial, Anger, Bargaining, Depression, and Acceptance — in such a compressed window of time. We're at the tail end of depression and entering acceptance. Haider. (@haider1) Mathematician Terence Tao: \"we're seeing the end of the romantic era of mathematics, the age of heroes. we're moving into an industrial era where math becomes large-scale, done in big teams like the other sciences\" We're entering, rather unwillingly, a new era where exciting new things are possible, but some things are being lost Video",
-        "link": "https://nitter.kareem.one/amasad/status/2111206044416500159#m",
-        "decryptage": "Amjad Masad observe que l'arrivée de l'IA force les mathématiciens à accepter un changement profond dans leur discipline, passant d'une approche individuelle à une ère plus collaborative et industrielle.",
-        "category": "idees",
-        "highlight_reason": "Ce tweet met en lumière l'impact profond de l'IA sur des disciplines établies comme les mathématiques, nous invitant à réfléchir aux changements de nos propres métiers face à l'IA."
+        "author_name": "Francois Chollet",
+        "handle": "@fchollet",
+        "text_fr": "Je crois sincèrement que l'IA conversationnelle va provoquer le plus grand bond en avant éducatif de notre génération. Le tutorat individuel est la référence en matière d'éducation, mais il ne peut pas être généralisé. L'IA peut changer cela avec un apprentissage conversationnel véritablement actif. Annie et son équipe se sont attelées à résoudre ce problème avec @gakkuai, et elles ont fait un excellent travail. Gakku est une application de mentorat par IA pour les élèves de la maternelle à la terminale. Plutôt que de faire le travail à leur place, l'entraîneur vocal par chat guide les élèves à travers des \"missions\" de rédaction d'essais de 10 minutes qui couvrent le brainstorming, la rédaction et la révision. Elle forme activement les enfants à générer leurs propres idées, à structurer des arguments logiques et à s'exprimer clairement. Si vous avez des enfants en âge scolaire, je vous recommande vivement de l'essayer : gakku.ai",
+        "text_original": "I truly believe conversational AI will drive the biggest educational leap of our generation. 1-on-1 tutoring is the gold standard for education, but it doesn't scale. AI can change that with truly active conversational learning. Annie and team set out to solve this with @gakkuai , and they've done a great job. Gakku is an AI mentoring app for K-12 students. Rather than doing the work for them, the voice chat coach guides students through 10 min essay writing \"missions\" that cover brainstorming, drafting, and revising. It actively trains kids to generate their own ideas, structure logical arguments, and articulate themselves clearly. If you have school-aged kids, I highly recommend checking it out: gakku.ai",
+        "link": "https://nitter.kareem.one/fchollet/status/2110756584611516512#m",
+        "decryptage": "L'IA conversationnelle permet une interaction naturelle comme avec un professeur, offrant un accompagnement personnalisé qui peut révolutionner l'éducation en étant accessible à beaucoup plus de personnes.",
+        "category": "outils",
+        "highlight_reason": "Ce tweet illustre le potentiel transformateur de l'IA dans l'éducation, avec un exemple concret d'application qui offre un tutorat personnalisé à grande échelle. C'est un outil très prometteur pour les jeunes apprenants."
+      },
+      {
+        "author_name": "Nick Dobos",
+        "handle": "@nickadobos",
+        "text_fr": "Se démarquer pourrait en fait être plus facile dans un monde rempli d'IA, car les gens seront 10 fois plus expressifs grâce à un effet de levier accru et à la capacité d'automatiser et de faire des choses. Par exemple, auparavant, pour gérer un restaurant de hamburgers ou créer une application, il fallait beaucoup de monde. Maintenant, avec les robots et les outils de codage IA, une seule personne peut le faire, ce qui signifie que nous obtenons 10 fois plus de variantes uniques. Pour éviter la concurrence, ces entreprises sont littéralement forcées de créer de la variation. Nous obtenons 10 différents restaurants de hamburgers, 10 différentes applications, toutes avec leur touche unique. L'abondance augmente la concurrence, la diversité et la qualité. Beaucoup de gens sont bloqués dans l'idée que volume = usine = pareil. Tout est standardisé. Blocs d'habitations et misère. Mais ce n'est plus le cas. Abondance = Nous pouvons maintenant avoir 10 usines qui fabriquent toutes des choses uniques.",
+        "text_original": "Standing out might actually be easier in an AI filled world, because people will be 10x more expressive due to increased leverage & ability to automate and do things. For example, previously to run a burger restaurant or build an app, you needed lots of people. Now with robots and ai coding tools one person can do that, which means we get 10x as many unique takes on it. So to avoid competition these businesses are literally forced to create variation. We get 10 different burger shops, 10 different apps, all doing their unique twist. Abundance increases competition, diversity & quality. A lot of people are stuck in this thinking that volume = factory = same. Cookie cutter everything. Housing blocks & misery. But that’s no longer the case. Abundance = We now can have 10 factories all making unique things.",
+        "link": "https://nitter.kareem.one/NickADobos/status/2111262922693566679#m",
+        "decryptage": "Ce tweet suggère que l'IA, en automatisant des tâches, permet aux individus de créer des produits et services uniques plus facilement, favorisant ainsi la diversité plutôt que l'uniformité.",
+        "category": "tips",
+        "highlight_reason": "Ce conseil est stimulant pour tout créateur ou entrepreneur. Il offre une perspective optimiste sur la manière de réussir et de se différencier dans un monde où l'IA démocratise la création, encourageant à explorer des 'torsions uniques' plutôt que de se conformer."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Dario Amodei",
-          "handle": "@DarioAmodei",
-          "text_fr": "Aujourd'hui, nous avons annoncé la découverte, menée par Claude, d'une machine moléculaire que nous soupçonnons de représenter un nouveau mécanisme d'édition génique. Sa fonction précise, son utilité biotechnologique (le cas échéant) ou son niveau de signification ne sont pas encore clairs, mais c'est un travail dont j'aurais été fier en tant qu'étudiant en doctorat. Le travail a été réalisé principalement, mais pas entièrement, par Claude : notre équipe de sciences de la vie a suggéré un large domaine de recherche, Claude a parcouru la littérature et de nombreuses données génomiques pour découvrir quelque chose d'intéressant, puis Claude a proposé des expériences pour vérifier la découverte et notre équipe les a menées à bien. Il est facile de considérer cela comme un cas isolé ou une curiosité, mais nous avons observé à plusieurs reprises un modèle où les performances de l'IA dans de nouveaux domaines intellectuels passent de faibles à surhumaines en quelques années. En 2023, les modèles avaient du mal avec les mathématiques d'un lycéen moyen. En 2024, ils ont commencé à bien réussir les concours de mathématiques pour les meilleurs lycéens du pays, en 2025 ils ont commencé à résoudre des problèmes ouverts mineurs, début 2026 des problèmes ouverts plus importants, et fin 2026 ils commencent à résoudre les quelques problèmes ouverts majeurs en mathématiques. Nous pensons que l'IA pour la biologie suit une tendance exponentielle similaire. La principale différence entre la biologie et les mathématiques, bien sûr, est que les mathématiques peuvent être faites purement théoriquement, tandis que la biologie nécessite des expérimentations. Certains ont utilisé cela pour en conclure que l'utilité de l'IA en biologie serait limitée. Nous pensons que c'est faux. Comme nous l'avons démontré aujourd'hui, les humains peuvent collaborer avec l'IA pour réaliser les expériences, valider les résultats clés en quelques semaines et, si nécessaire, travailler avec l'IA pour itérer sur ce qu'ils trouvent. À terme, il pourrait même être possible pour Claude lui-même de réaliser les expériences en toute sécurité en contrôlant de manière autonome l'équipement de laboratoire, avec les protections appropriées, mais nous ne le faisons pas aujourd'hui (notre laboratoire est également une installation BSL1/BSL2 qui ne manipule pas de matériaux dangereux pour les humains). Plus largement, le progrès biomédical comporte de nombreuses étapes — des découvertes fondamentales en biologie à la recherche translationnelle, la découverte de médicaments, les essais cliniques et enfin la livraison effective des médicaments et des soins de santé aux patients. Nous nous intéressons également à ces dernières étapes, mais même simplement accélérer la première étape des découvertes biologiques fondamentales a le potentiel d'accélérer et d'élargir l'ensemble du processus. Améliorer notre compréhension de la biologie et affûter les outils des biologistes peut faire progresser toutes les étapes ultérieures, par exemple en identifiant de nouvelles cibles médicamenteuses, en trouvant de nouvelles modalités thérapeutiques, en permettant des mesures plus précises et en accélérant la boucle expérimentale qui elle-même accélère notre compréhension de la biologie. Cela n'accélérera pas en soi les délais des essais cliniques, mais si cela réussit, cela pourrait augmenter considérablement le nombre de candidats prometteurs entrant dans le pipeline — une augmentation du débit même si la latence demeure. Dans Machines of Loving Grace, j'ai écrit sur le potentiel de l'IA à 'guérir la plupart des maladies en 5-10 ans' — un objectif qui semble impossible, mais que je crois juste à peine possible si l'IA est appliquée à chaque étape du processus. La première étape est de montrer que l'IA peut d'abord aider avec, et ensuite diriger, les découvertes biologiques. La découverte de Claude est la dernière d'une série de travaux antérieurs connexes qui remontent à des décennies, commençant par des systèmes comme CRISPR, et se poursuivant avec des découvertes comme la recombinase pont et VIPR ces dernières années. Récemment, l'intérêt s'est accru pour les systèmes basés sur les enzymes de la transcriptase inverse (RT), l'enzyme qui sous-tend le système identifié par Claude. Et plus récemment, une équipe de Stanford travaillant indépendamment a décrit un nouveau système RT avec une matrice non codante associée qui est à certains égards similaire à celui trouvé par Claude, bien qu'il s'agisse de systèmes distincts qui ont évolué indépendamment l'un de l'autre. Je crois que nous sommes au tout début de la découverte de tels systèmes et de leur développement en outils puissants pour la biotechnologie. Je suis fier des ressources qu'Anthropic a investies pour accélérer les bénéfices publics de l'IA par le biais des sciences de la vie, et nous visons à la fois à agrandir notre équipe de sciences de la vie et à travailler avec d'autres scientifiques pour étendre cette approche à un large éventail de problèmes. Si vous avez une proposition de collaboration de recherche ou si vous êtes intéressé à rejoindre notre équipe de sciences de la vie, veuillez nous contacter. Anthropic (@AnthropicAI) Claude a découvert un système enzymatique auparavant inconnu caché dans l'ADN des bactériophages. À côté du gène de l'enzyme se trouve une longue série d'ADN répété — une structure qui ressemble quelque peu à CRISPR. Nous ne comprenons pas encore ce que fait ce système, mais seule une poignée de systèmes connus partagent ses caractéristiques, et tous sont capables de couper, copier et coller l'ADN. Historiquement, la découverte de tels systèmes programmables a contribué à révolutionner la médecine. CRISPR, par exemple, est maintenant la base des médicaments génétiques. Mais il faudra beaucoup plus de travail pour savoir ce que fait ce système, et s'il peut être utilisé de manière similaire. En savoir plus : anthropic.com/news/claude-di… Lien Claude découvre un nouveau système enzymatique Lors des premiers résultats de notre nouveau laboratoire de recherche en sciences de la vie, les agents Claude ont trouvé un système enzymatique dont la fonction est encore inconnue. anthropic.com",
-          "text_original": "Today we announced the Claude-led discovery of a molecular machine that we suspect could represent a new gene editing mechanism. Its precise function, biotechnological utility (if any), or level of significance is not yet clear, but at minimum it is work I would have been proud to do as a PhD student. The work was done mostly, though not entirely, by Claude: our life sciences team suggested a broad area of research, Claude read through the literature and a bunch of genome data and discovered something interesting, then Claude proposed experiments to verify the discovery and our team carried them out. It’s easy to dismiss this as a one-off or curiosity, but we’ve repeatedly seen a pattern where AI performance in new intellectual domains goes from weak to superhuman in a matter of a few years. In 2023 models struggled to do math at the level of an average high-school student. In 2024 they started to do well on math competitions for the best high-schoolers in the country, in 2025 they started to solve minor open problems, in early 2026 more significant open problems, and in late 2026 they are beginning to solve the top few open problems in all of mathematics. We believe AI for biology is on a similar exponential trend. The main difference between biology and mathematics, of course, is that math can be done purely theoretically, while biology requires experimentation. Some have used this to draw the conclusion that AI’s utility in biology will be limited. We think this is wrong. As we’ve demonstrated today, humans can collaborate with AI to perform the experiments, validate key results in a few weeks and, if necessary, work with the AI to iterate on what they find. Eventually it may even be possible for Claude itself to safely perform the experiments by autonomously controlling lab equipment, with appropriate safeguards in place, but we aren’t doing that today (our lab is also a BSL1/BSL2 facility that doesn't handle materials dangerous to humans). More broadly, biomedical advancement has many stages — from fundamental biology discoveries, to translational research, to drug discovery, clinical trials, and finally the actual delivery of medicines and health care to patients. We are also interested in these later stages, but even simply accelerating the first stage of fundamental biological discoveries has the potential to speed up and broaden the entire pipeline. Improving our understanding of biology and sharpening biologists’ tools can drive forward all of the later stages, for example by identifying new drug targets, finding new therapeutic modalities, allowing for more precise measurement, and speeding up the experimental loop which itself further accelerates our understanding of biology. This will not in itself speed up clinical trial times, but if it succeeds it could greatly increase the number of promising candidates that go into the pipeline — an increase in throughput even though latency remains. In Machines of Loving Grace, I wrote about AI’s potential to “cure most diseases in 5-10 years” — a goal that sounds impossible, but one I believe is just barely possible if AI is applied to every stage of the pipeline. The first step is showing that AI can first help with, and then drive, biological discoveries. Claude’s discovery is the latest in a line of related prior work that goes back decades, beginning with systems like CRISPR, and continuing with discoveries like the bridge recombinase and VIPR in the past few years. Recently, there has been heightened interest in systems based on reverse transcriptase (RT) enzymes, the enzyme underlying the system Claude identified. And most recently, a Stanford team working independently described a novel RT system with an associated non-coding array that is in some ways similar to the one Claude found, though they are distinct systems that evolved independently from each other. I believe that we’re at the very beginning of finding such systems and developing them into powerful tools for biotechnology. I’m proud of the resources Anthropic has invested in accelerating the public benefits of AI through the life sciences, and we’re aiming both to grow our life sciences team and to work with other scientists to extend this approach to a broad range of problems. If you have a proposal for a research collaboration or are interested in joining our life sciences team, please reach out. Anthropic (@AnthropicAI) Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR. We don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use. Read more: anthropic.com/news/claude-di… Link Claude discovers a novel enzyme system In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. anthropic.com",
-          "link": "https://nitter.kareem.one/DarioAmodei/status/2102831170299834652#m",
-          "decryptage": "Claude, une IA, a aidé à découvrir une nouvelle 'machine' dans le vivant qui pourrait changer la médecine, un peu comme le système CRISPR."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Waouh, le nouveau roadster a l'air vraiment incroyable, bon travail @elonmusk",
+          "text_original": "Wow the new roadster looks quite amazing, good job @elonmusk",
+          "link": "https://nitter.kareem.one/sama/status/2111131677351432197#m",
+          "decryptage": null
         },
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Découvrez le plan académique Rosalind, vérifiez l'éligibilité de votre laboratoire et découvrez comment postuler : openai.com/index/introducing… Lien Présentation de GPT-Rosalind aux laboratoires de recherche universitaires Présentation du plan académique Rosalind, offrant aux laboratoires universitaires éligibles un accès sponsorisé à GPT-Rosalind et des outils pour faire avancer la recherche en sciences de la vie. openai.com",
-          "text_original": "Learn about the Rosalind Academic Plan, check your lab's eligibility, and find out how to apply: openai.com/index/introducing… Link Bringing GPT-Rosalind to academic research labs Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research. openai.com",
-          "link": "https://nitter.kareem.one/OpenAI/status/2110841901121511705#m",
-          "decryptage": "OpenAI propose un programme appelé 'Rosalind Academic Plan' pour que les laboratoires de recherche universitaires puissent utiliser gratuitement leur IA GPT-Rosalind, spécialisée dans les sciences de la vie."
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Bonjour la capture réglementaire. Andrew Curran (@AndrewCurran_) : Politico rapporte qu'Anthropic a rédigé son propre projet de loi pour réglementer l'IA de pointe, et le présente aux membres du Congrès. — https://nitter.kareem.one/AndrewCurran_/status/2111222136362897502#m",
+          "text_original": "Hello regulatory capture. Andrew Curran (@AndrewCurran_) Politico is reporting that Anthropic have written their own bill to to regulate frontier AI, and are pitching it to memebers of Congress. — https://nitter.kareem.one/AndrewCurran_/status/2111222136362897502#m",
+          "link": "https://nitter.kareem.one/NickADobos/status/2111231108356747433#m",
+          "decryptage": "La \"capture réglementaire\" est un phénomène où une entreprise (ici Anthropic) influence la création de lois pour qu'elles lui soient favorables, potentiellement au détriment de la concurrence ou du public. \"IA de pointe\" (frontier AI) désigne les modèles d'IA les plus avancés et puissants."
         },
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "GPT-Rosalind est conçu pour soutenir ce travail : aider les chercheurs à raisonner à travers la littérature scientifique et les données biologiques, les scientifiques apportant l'expertise et le jugement pour évaluer les preuves. Les laboratoires éligibles peuvent recevoir jusqu'à 12 mois d'accès sponsorisé aux outils OpenAI, l'accès à GPT-Rosalind étant soumis à l'approbation d'accès de confiance. Les données de recherche partagées via le plan académique Rosalind ne sont pas utilisées pour entraîner nos modèles par défaut.",
-          "text_original": "GPT-Rosalind is built to support that work: helping researchers reason across scientific literature and biological data, with scientists bringing the expertise and judgment to evaluate the evidence. Eligible labs can receive up to 12 months of sponsored access to OpenAI tools, with GPT-Rosalind access subject to trusted-access approval. Research data shared through the Rosalind Academic Plan is not used to train our models by default.",
-          "link": "https://nitter.kareem.one/OpenAI/status/2110841899838046525#m",
-          "decryptage": "GPT-Rosalind est une IA d'OpenAI qui aide les chercheurs à analyser des textes et données scientifiques en biologie, et les laboratoires éligibles peuvent y avoir accès gratuitement pendant un an sans que leurs données soient utilisées pour entraîner l'IA."
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Aujourd'hui, je suis ravi d'annoncer que New Material rejoint @MistralAI pour concevoir une IA de pointe souveraine. Nous mettons en place une nouvelle équipe, 'Solutions Design' au sein de Mistral : travaillant sur les produits, l'ingénierie et l'IA, l'équipe développera en collaboration avec les clients, créant une boucle de rétroaction étroite entre le déploiement réel et les produits de Mistral. newmaterial.ai/stories/newma… Lien : New Material rejoint Mistral pour concevoir l'IA de pointe · New Material New Material construit des produits, des flux de travail et des entreprises natifs de l'IA. newmaterial.ai",
+          "text_original": "Today I'm excited to share that New Material is joining @MistralAI to design sovereign frontier AI. We're establishing a new team, 'Solutions Design' within Mistral: working across product, engineering and AI, the team will co-develop with customers, creating a tight feedback loop between real-world deployment and Mistral’s products. newmaterial.ai/stories/newma… Link New Material joins Mistral to design the frontier · New Material New Material builds AI-native products, workflows and ventures. newmaterial.ai",
+          "link": "https://nitter.kareem.one/aaronabentheuer/status/2110370455710282024#m",
+          "decryptage": "\"IA de pointe souveraine\" signifie développer des modèles d'IA très avancés (de pointe) qui soient indépendants des influences étrangères (souverains), pour que la France ou l'Europe en garde le contrôle."
         },
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Nous étendons l'accès à GPT-Rosalind pour la recherche académique. Le nouveau plan académique Rosalind aide les laboratoires scientifiques à intégrer l'IA dans leur travail de compréhension de la biologie, d'exploration d'idées et de décision des prochaines expériences à tester — avec un accès sponsorisé pour les laboratoires éligibles des universités américaines. La recherche académique commence par des questions dont l'impact sur la santé humaine peut prendre des années. Vidéo",
-          "text_original": "We're expanding access to GPT-Rosalind for academic research. The new Rosalind Academic Plan helps scientific labs bring AI into the work of understanding biology, exploring ideas, and deciding what to test next—with sponsored access for eligible labs at U.S. universities. Academic research starts with questions whose impact may take years to impact human health. Video",
-          "link": "https://nitter.kareem.one/OpenAI/status/2110841898076418336#m",
-          "decryptage": "OpenAI rend son outil IA GPT-Rosalind plus accessible aux universités américaines pour accélérer la recherche en biologie, leur permettant d'explorer de nouvelles idées plus efficacement."
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Je suis à Séoul pour construire l'équipe fondatrice de Mistral en Corée. Je recherche des chercheurs et ingénieurs bienveillants et ambitieux pour construire et personnaliser des LLM pour des problèmes réels, des données et évaluations à l'apprentissage par renforcement (RL) et à l'entraînement à grande échelle. Je suis ici jusqu'au 16 octobre. Envoyez-moi un DM ou postulez ici : jobs.ashbyhq.com/mistral.ai/… Lien : Scientifique Appliqué, Corée du Sud. À PROPOS DE MISTRAL Mistral propose des solutions d'IA complètes : des modèles de pointe aux outils de développement, applications et puissance de calcul. Nous nous associons à des entreprises qui s'attaquent aux problèmes les plus difficiles dans des environnements à enjeux élevés... jobs.ashbyhq.com",
+          "text_original": "I’m in Seoul building Mistral’s founding Korea team. Looking for kind, ambitious researchers and engineers to build and customise LLMs for real problems, from data and evals to RL and training at scale. Here until 16th October. DM me or apply here: jobs.ashbyhq.com/mistral.ai/… Link Applied Scientist, South Korea ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-sta... jobs.ashbyhq.com",
+          "link": "https://nitter.kareem.one/hkproj/status/2108463012428550194#m",
+          "decryptage": "Les \"LLM\" (Large Language Models ou grands modèles de langage) sont des IA capables de comprendre et de générer du texte, tandis que l'\"apprentissage par renforcement\" (RL) est une technique où l'IA apprend en interagissant avec son environnement et en recevant des récompenses."
         },
         {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "Vos données vous appartiennent ! Nous déploierons Replit sur votre cloud et les données ne quitteront jamais votre environnement. Conçu pour les environnements à enjeux élevés comme les gouvernements, la finance et la santé. Replit ⠕ (@Replit) Nous introduisons Bring Your Own Cloud (BYOC) pour Replit, avec des options de développement et de production dans votre cloud, que vous utilisiez @Azure, @GoogleCloud ou @AWScloud. Notre approche offre aux équipes de sécurité et de plateforme une plus grande isolation et un meilleur contrôle tout en préservant l'expérience familière de Replit. Découvrez le BYOC : replit.com/blog/bring-your-o…",
-          "text_original": "Your data belongs to you! We’ll deploy Replit to your cloud and data never leaves home. Designed for high stakes environments like governments, finance, and healthcare. Replit ⠕ (@Replit) We’re introducing Bring Your Own Cloud (BYOC) for Replit, with options for development and production in your cloud, whether you use @Azure , @GoogleCloud , or @AWScloud . Our approach gives security and platform teams greater isolation and control while preserving the familiar Replit experience. Explore BYOC: replit.com/blog/bring-your-o…",
-          "link": "https://nitter.kareem.one/amasad/status/2111267314012496121#m",
-          "decryptage": "Replit lance une nouvelle fonctionnalité appelée 'Bring Your Own Cloud' (BYOC) qui permet aux utilisateurs d'héberger leurs projets et données sur leur propre cloud (comme Azure ou AWS), garantissant ainsi un meilleur contrôle et une plus grande sécurité, particulièrement pour les secteurs sensibles."
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Nous servons aussi ceux-là ! Désolé si l'utilisation de l'énergie nucléaire est un véritable frein. POLITICOEurope (@POLITICOEurope) : Le moteur de recherche berlinois Ecosia, utilisé par les services gouvernementaux, abandonne son partenaire français en IA, Mistral, a déclaré son PDG à POLITICO. L'entreprise va désormais parier sur les modèles open-source, y compris ceux de Chine. vist.ly/5mh5y Lien : Le moteur de recherche allemand abandonne Mistral, parie sur l'IA open-source chinoise. \"Nous sommes déçus par la qualité de Mistral\", a déclaré à POLITICO le fondateur et PDG d'Ecosia. politico.eu — https://nitter.kareem.one/POLITICOEurope/status/2108099375750656485#m",
+          "text_original": "We serve those as well! Sorry if using nuclear energy is a real blocker POLITICOEurope (@POLITICOEurope) Berlin-based search engine Ecosia, used by government services, is dropping its French AI partner, Mistral, its CEO told POLITICO. The company will now bet on open-source models, including those from China. vist.ly/5mh5y Link German search engine ditches Mistral, bets on Chinese open-source AI “We are disappointed with the quality of Mistral,” Ecosia founder and CEO told POLITICO. politico.eu — https://nitter.kareem.one/POLITICOEurope/status/2108099375750656485#m",
+          "link": "https://nitter.kareem.one/arthurmensch/status/2108204822537322802#m",
+          "decryptage": "\"Open-source\" signifie que le code source d'un logiciel ou d'un modèle d'IA est accessible et peut être modifié ou utilisé par tous, favorisant la transparence et la collaboration."
         },
         {
-          "author_name": "Amjad Masad",
-          "handle": "@amasad",
-          "text_fr": "Replit a établi une nouvelle frontière de Pareto pour la création de diapositives sur @DesignArena. Il se classe #2 au classement général et est le créateur de diapositives le plus préféré en moins de 7,5 minutes. Un grand bravo à @amasad et au reste de l'équipe @Replit ! DesignArena (@DesignArena) URGENT : Replit de @Replit se classe #2 sur Slides Arena avec un Elo de 1279 ! C'est le créateur de diapositives le mieux noté en moins de 8 minutes et il génère des présentations environ 24% plus rapidement que le #1, établissant une nouvelle frontière de Pareto pour la Vitesse vs. la Préférence. Replit se classe devant Gamma 5 de @GammaApp, Manus 1.6 de @ManusAI et Claude Opus 4.6 de @Anthropic, ne devançant que Playyy. Félicitations à l'équipe @Replit ! Vidéo",
-          "text_original": "Replit has established a new Pareto frontier for Slides creation on @DesignArena It ranks #2 overall and is the most-preferred slides builder under 7.5 minutes Huge congrats to @amasad and the rest of the @Replit team! DesignArena (@DesignArena) BREAKING: Replit by @Replit ranks at #2 on Slides Arena with an Elo of 1279! It is the highest-rated slides builder under 8 minutes and generates decks ~24% faster than #1, establishing a new Pareto frontier for Speed vs. Preference. Replit places ahead of Gamma 5 by @GammaApp , Manus 1.6 by @ManusAI , and Claude Opus 4.6 by @Anthropic , trailing only Playyy. Congrats to the @Replit team! Video",
-          "link": "https://nitter.kareem.one/grx_xce/status/2111260257238548523#m",
-          "decryptage": "Replit, un outil de développement, excelle désormais aussi dans la création rapide de présentations, se classant très haut dans un benchmark dédié à la vitesse et à la qualité des diaporamas générés par IA."
-        },
-        {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Félicitations à Meta pour avoir construit le meilleur modèle open-weight des États-Unis ! AI at Meta (@AIatMeta) Aujourd'hui, nous lançons Muse Spark Open, le modèle open-weight américain le plus performant à ce jour. Conçu pour le codage et le travail d'agent, il excelle dans les tâches à long terme, l'ingénierie logicielle complexe et le raisonnement en plusieurs étapes. Spécifications clés du modèle : → 816 milliards au total / 42 milliards de paramètres actifs → Fenêtre contextuelle d'un million de jetons → Nativement multimodal sur le texte, l'image, la vidéo, l'audio",
-          "text_original": "Congrats to Meta on building the best open-weight model in the United States ! AI at Meta (@AIatMeta) Today we’re releasing Muse Spark Open, the most capable US open-weight model to date. Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning. Key Model Specs: → 816B total / 42B active parameters → 1M token context window → Natively multimodal across text, image, video, audio",
-          "link": "https://nitter.kareem.one/GuillaumeLample/status/2110931453576196429#m",
-          "decryptage": "Meta a créé 'Muse Spark Open', présenté comme le modèle d'IA 'open-weight' le plus puissant des États-Unis, particulièrement doué pour la programmation et les tâches complexes, et capable de traiter différents types d'informations (texte, image, son)."
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Nous présentons le \"SF AI Assistant Meetup\" avec @merit_systems le 19 octobre. Cet événement est un espace pour les utilisateurs avancés et les personnes intéressées par le monde des assistants IA pour se retrouver, faire connaissance et partager des astuces/conseils sur la meilleure façon d'utiliser ces outils. RSVP : luma.com/wabd65c0 Lien : SF AI Assistants Meetup · Luma. Bonjour aux amateurs d'assistants IA de SF ! Bienvenue au premier meetup officiel de SF. C'est un espace pour les utilisateurs expérimentés et les personnes intéressées par le monde des assistants IA pour… luma.com David Pawlan (@DavidPawlan) : Amateurs d'assistants IA de SF, votre heure est venue ! 19 octobre. Préparez-vous pour un meetup épique d'assistants IA 🤖 À annoncer : > plus de sponsors/partenaires > lieu > programme de l'événement RSVP ici : luma.com/wabd65c0 — https://nitter.kareem.one/DavidPawlan/status/2108302149956358181#m",
+          "text_original": "We're presenting the SF AI Assistant Meetup with @merit_systems on October 19. ​This event is a space for power users and people interested in the world of AI Assistants to hang out, get to know one another, and share tips/tricks on how to best use these tools. RSVP: luma.com/wabd65c0 Link SF AI Assistants Meetup · Luma Hello SF AI Assistant lovers! Welcome to the first official SF meetup. This is a space for power users and people interested in the world of AI Assistants to… luma.com David Pawlan (@DavidPawlan) : Amateurs d'assistants IA de SF, votre heure est venue ! 19 octobre. Préparez-vous pour un meetup épique d'assistants IA 🤖 À annoncer : > plus de sponsors/partenaires > lieu > programme de l'événement RSVP ici : luma.com/wabd65c0 — https://nitter.kareem.one/DavidPawlan/status/2108302149956358181#m",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2108307164335157505#m",
+          "decryptage": "Un \"meetup\" est une rencontre informelle où des personnes partageant un intérêt commun (ici, les assistants IA) se réunissent pour échanger des connaissances et des astuces."
         }
       ],
       "tips": [
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Mettez votre 'dot' en service. Ali, un ingénieur chez OpenAI, a utilisé son 'dot' pour gérer un incident de garde à 3h du matin. Son 'dot' a enquêté sur le problème et a lancé une discussion Codex, ce qui lui a permis de diriger le travail depuis son téléphone via l'application ChatGPT. Vidéo",
-          "text_original": "Put your dot on call. Ali, an engineer at OpenAI, used his dot to triage an on-call incident at 3am. His dot investigated the issue and started a Codex thread, so he could steer the work from his phone in the ChatGPT app. Video",
-          "link": "https://nitter.kareem.one/OpenAIDevs/status/2111211411766399288#m",
-          "decryptage": "Un ingénieur d'OpenAI a utilisé un outil interne ('dot') pour diagnostiquer et commencer à résoudre un problème technique pendant la nuit, en travaillant à distance via ChatGPT."
-        },
-        {
           "author_name": "Shawn Wang",
           "handle": "@swyx",
-          "text_fr": "J'aime bien ce graphique pour raconter l'histoire. En gros, pas de succès pendant 2 ans et ensuite on a été lentement recommandé via la navigation. Notre taux de clics (CTR) est nul.",
-          "text_original": "kinda like this chart to tell the story. basically no love for 2 years and then slowly we get recommended via browsing. our CTR sucks.",
-          "link": "https://nitter.kareem.one/swyx/status/2111353401363902573#m",
-          "decryptage": "Shawn Wang analyse comment ses vidéos ont eu du mal à percer pendant deux ans avant d'être découvertes grâce aux recommandations, malgré un faible taux de clics."
+          "text_fr": "J'ai parlé pour la dernière fois de nos tests A/B de vignettes ici : nitterk.kareem.one/swyx/status/2089798658… quelques sélections supplémentaires de vidéos avec une taille d'échantillon significative où l'on peut voir un gradient clair et en tirer des leçons. swyx (@swyx) : nous avons fait beaucoup de tests A/B des vignettes YouTube de @aiDotEngineer. J'ai toujours détesté que ce soit un processus si opaque. Nous partageons aujourd'hui nos apprentissages en open source/crowdsourcing ! ai-engineer-thumbnail-lab.sw… Nous faisons cela dans l'espoir que les gens puissent partager leur expérience ou apprendre de la nôtre. Au final, nous voulons juste que le bon contenu éducatif dépasse le bruit en ligne. Dites-moi ce que vous en pensez. Vidéo — https://nitter.kareem.one/swyx/status/2089798658225266806#m",
+          "text_original": "i last talked about our thumbnail ab testing here nitterk.kareem.one/swyx/status/2089798658… a few more selections from nontrivial sample size videos where you can see a clear gradient and infer lessons swyx (@swyx) we've been doing a lot of a/b testing of @aiDotEngineer youtube thumbnails. i always hated that it is such an opaque process. open sourcing/crowdsourcing our learnings today! ai-engineer-thumbnail-lab.sw… doing this in hopes that people can share their experience or learn from ours. at the end of the day we just want to get good educational content to rise above the noise online. please lmk what you think Video — https://nitter.kareem.one/swyx/status/2089798658225266806#m",
+          "link": "https://nitter.kareem.one/swyx/status/2111349705481596970#m",
+          "decryptage": "Un \"test A/B\" consiste à comparer deux versions (A et B) d'un élément (comme une vignette vidéo) pour voir laquelle fonctionne le mieux auprès des utilisateurs."
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Affinité de chaîne : mon objectif est de collaborer avec chacun de ces gens. Vous les aimez déjà. S'il vous plaît @Jeffdelaney23 @ThePrimeagen",
-          "text_original": "channel affinity my goal is basically to collab with every single one of these folks. you guys already love them. pls @Jeffdelaney23 @ThePrimeagen",
-          "link": "https://nitter.kareem.one/swyx/status/2111351354409300230#m",
-          "decryptage": "Shawn Wang cherche à collaborer avec d'autres créateurs de contenu populaires pour toucher de nouveaux publics qui aiment déjà leurs partenaires."
-        },
-        {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Nous avons plus d'un million de spectateurs uniques par mois de manière quasi continue depuis mai (après AIE EU) mais même maintenant 58% des spectateurs par mois sont nouveaux. 68% des spectateurs ne sont pas abonnés mdr. La plupart des spectateurs regardent entre 7h et 11h PT tous les jours. Personne ne regarde après 17h.",
-          "text_original": "we serve >1m unique viewers a month pretty much nonstop since May (after AIE EU) but even now 58% of viewers a month are new to us. 68% of viewers not subscribed lol. most viewers 7am-11am PT daily. nobody watches after 5pm.",
-          "link": "https://nitter.kareem.one/swyx/status/2111350966419411070#m",
-          "decryptage": "Shawn Wang partage des statistiques d'audience étonnantes, avec plus d'un million de vues mensuelles mais une majorité de nouveaux spectateurs non abonnés, et des pics d'audience le matin."
-        },
-        {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "Une courbe YouTube normale ressemble à ça — une montée agressive au début, puis un nivellement, mais de temps en temps nous en avons une qui ressemble à ça, comme le discours de @dexhorthy... nous n'avons pas changé de test A/B ni d'emballage à ma connaissance (je suis l'un des 3 qui contrôlent la chaîne). Ces dernières semaines, elle s'est ACCÉLÉRÉE à nouveau",
-          "text_original": "normal youtube curve looks like this - aggressive ramp in the early days, then a leveling off but every now and then we get one that looks like this @dexhorthy talk... we did not change any a/b test or pakckaging as far as i know (i'm one of 3 that control the channel). in recent weeks it has ACCELERATED again",
-          "link": "https://nitter.kareem.one/swyx/status/2111348321277161592#m",
-          "decryptage": "Shawn Wang observe que certaines de ses vidéos connaissent une croissance soudaine et inattendue sur YouTube, dépassant le schéma habituel, sans qu'aucun changement de sa part n'ait été effectué."
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Se démarquer pourrait en fait être plus facile dans un monde rempli d'IA, car les gens seront 10 fois plus expressifs grâce à un effet de levier accru et à la capacité d'automatiser et de faire des choses. Par exemple, auparavant, pour gérer un restaurant de hamburgers ou créer une application, il fallait beaucoup de monde. Maintenant, avec les robots et les outils de codage IA, une seule personne peut le faire, ce qui signifie que nous obtenons 10 fois plus de variantes uniques. Pour éviter la concurrence, ces entreprises sont littéralement forcées de créer de la variation. Nous obtenons 10 différents restaurants de hamburgers, 10 différentes applications, toutes avec leur touche unique. L'abondance augmente la concurrence, la diversité et la qualité. Beaucoup de gens sont bloqués dans l'idée que volume = usine = pareil. Tout est standardisé. Blocs d'habitations et misère. Mais ce n'est plus le cas. Abondance = Nous pouvons maintenant avoir 10 usines qui fabriquent toutes des choses uniques.",
+          "text_original": "Standing out might actually be easier in an AI filled world, because people will be 10x more expressive due to increased leverage & ability to automate and do things. For example, previously to run a burger restaurant or build an app, you needed lots of people. Now with robots and ai coding tools one person can do that, which means we get 10x as many unique takes on it. So to avoid competition these businesses are literally forced to create variation. We get 10 different burger shops, 10 different apps, all doing their unique twist. Abundance increases competition, diversity & quality. A lot of people are stuck in this thinking that volume = factory = same. Cookie cutter everything. Housing blocks & misery. But that’s no longer the case. Abundance = We now can have 10 factories all making unique things.",
+          "link": "https://nitter.kareem.one/NickADobos/status/2111262922693566679#m",
+          "decryptage": "Ce tweet suggère que l'IA, en automatisant des tâches, permet aux individus de créer des produits et services uniques plus facilement, favorisant ainsi la diversité plutôt que l'uniformité."
         }
       ],
       "idees": [
         {
-          "author_name": "Dario Amodei",
-          "handle": "@DarioAmodei",
-          "text_fr": "Nous devons ralentir le rythme de la frontière : j'ai écrit un nouvel essai sur les raisons pour lesquelles l'industrie de l'IA devrait ralentir, avec un plan en trois parties pour y parvenir. Anthropic s'engage unilatéralement à la première de ces étapes. Nous fournirons aux évaluateurs tiers un accès permanent, au niveau des employés, à nos systèmes, afin qu'ils puissent vérifier le respect de nos mesures de sécurité, signaler les incidents et évaluer l'alignement des modèles pendant l'entraînement. Vous pouvez lire l'article complet ici : darioamodei.com/post/we-must… Lien Dario Amodei — We Must Pace the Frontier darioamodei.com",
-          "text_original": "We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training. You can read the full post here: darioamodei.com/post/we-must… Link Dario Amodei — We Must Pace the Frontier darioamodei.com",
-          "link": "https://nitter.kareem.one/DarioAmodei/status/2098773920774074715#m",
-          "decryptage": "Le patron d'Anthropic propose de ralentir le développement de l'IA la plus avancée pour mieux la contrôler et s'engage à laisser des experts indépendants vérifier leurs systèmes."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "L'arrière du t-shirt marquant l'étape de Navier-Stokes est la dernière ligne de la \"chaîne de pensée\" de la solution :",
+          "text_original": "The back of the Navier-Stokes milestone shirt is the last line of the chain-of-thought from the solution:",
+          "link": "https://nitter.kareem.one/sama/status/2111139227761266699#m",
+          "decryptage": "La \"chaîne de pensée\" fait référence à une technique où l'IA explique son raisonnement étape par étape, comme un humain qui réfléchit à voix haute, tandis que Navier-Stokes sont des équations complexes de la physique."
         },
         {
-          "author_name": "Dario Amodei",
-          "handle": "@DarioAmodei",
-          "text_fr": "2/2 Deuxièmement, sur la communication autour de l'IA. Je ne suis pas d'accord pour dire que ma communication a été disproportionnément négative. En fait, elle a été à peu près équilibrée entre les risques et les avantages : j'ai écrit un essai majeur sur chacun, et même dans les interviews où je discute des risques, je m'assure de mentionner fréquemment les incroyables avantages ainsi que de proposer des solutions possibles aux risques (les courts extraits de mes interviews qui se retrouvent sur les médias sociaux ont tendance à être disproportionnellement négatifs, car cela génère des clics). En fait, j'ai écrit Machines of Loving Grace parce que je ne pensais pas que l'industrie de l'IA brossait un tableau suffisamment inspirant de la manière dont la technologie pourrait transformer radicalement le monde pour le mieux. L'essentiel de l'essai est consacré à réfuter le scepticisme quant au potentiel de l'IA dans la santé et la biologie, et à montrer pourquoi je pense qu'il sera réellement possible de guérir la plupart des maladies humaines en 5 à 10 ans, aussi fou que cela puisse paraître aux gens ordinaires et franchement aux biologistes aussi (j'en étais un !). Et, si vous lisez mon essai le plus récent (Policy on the AI Exponential), je discute de propositions concrètes pour rationaliser le processus de la FDA afin de garantir que l'afflux de médicaments accélérés par l'IA ne soit pas ralenti par le processus réglementaire. Je ressens l'urgence ici : j'ai perdu mon père à cause de l'hépatite C quelques années seulement avant le développement des antiviraux à action directe (sofosbuvir), qui guérissent 95% des patients et l'auraient probablement guéri. Je suis d'accord que le public a une vision négative de l'IA (et que c'est un gros problème), mais je ne pense pas que ce soit principalement causé par moi ou tout autre leader de l'IA qui alerte sur les risques de l'IA. Je pense que c'est fondamentalement une crise de confiance. Je pense que les gens ordinaires ne font pas confiance aux entreprises, aux gouvernements ou à l'industrie technologique et suspectent toujours que nous concoctons une nouvelle façon de les arnaquer. Les causes de cela remontent à des décennies et l'IA n'en est que la dernière itération. Je ne pense pas qu'une campagne de marketing tape-à-l'œil avec une tournure positive (que certains ont préconisé qu'Anthropic fasse) soit le moyen de regagner cette confiance — à ce stade, dire que l'IA va guérir le cancer est plus un cliché qu'une source d'inspiration, et la plupart des gens pensent que c'est trompeur. Ce qui fonctionnera, c'est de *réellement guérir le cancer*. Je pense que la critique la plus juste des entreprises d'IA, y compris Anthropic, est que nous n'avons pas encore tenu nos grandes promesses de bénéficier au monde. Cela nous incombe totalement, et je pense que c'est la critique que vous devriez faire, au lieu de toutes ces histoires de communication et de marketing. Nous faisons cependant de notre mieux pour y remédier : Anthropic intensifie très rapidement ses efforts en biologie et en médecine, et nous espérons avoir des résultats incroyables dans les années à venir et quelques lueurs précoces dans les mois à venir. Lorsque nous aurons réellement accompli quelque chose de concret, le monde entier en entendra parler, aussi fort que possible, je vous donne ma parole là-dessus. Mais d'ici là, je ne veux pas faire de fausses promesses, et en attendant, je me sens obligé de parler honnêtement des risques très réels de l'IA et de la manière de les aborder. L'honnêteté est la bonne chose sur le fond, et en termes de crédibilité publique et de confiance, ce n'est pas pire que, et peut en fait être meilleur qu'une approche qui ignore ou détourne l'attention des risques qui se sentent instinctivement réels.",
-          "text_original": "2/2 Second, on the messaging around AI. I do not agree that my messaging has been disproportionately negative. In fact it has been about equally balanced between risks and benefits: I’ve written one major essay about each, and even in interviews where I discuss the risks, I make sure to frequently mention the incredible benefits as well as proposing possible solutions to the risks (short clips from my interviews that end up on social media tend to be disproportionately negative, as that gets clicks). In fact, I wrote Machines of Loving Grace because I didn’t feel the AI industry was painting an inspiring enough picture of how the technology could radically transform the world for the better. The bulk of the essay is devoted to refuting skepticism of AI’s potential in health and biology, and showing why I think it will actually be possible to cure most human disease in ~5-10 years, as crazy as it may sound to ordinary people and frankly to biologists as well (I used to be one!). And, if you read my most recent essay (Policy on the AI Exponential), I discuss concrete proposals for how to streamline the FDA process to make sure the deluge of AI-accelerated drugs isn’t slowed down by the regulatory process. I feel the urgency here: I lost my father to Hepatitis C only a few years before the development of direct-acting antivirals (sofosbuvir), which cure 95% of patients and probably would have cured him. I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over. The causes of this go back decades and AI is just the latest iteration of it. I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive. The thing that will work is *actually curing cancer*. I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world. That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing. We are however doing our best to fix this: Anthropic is ramping up its efforts very quickly in biology and medicine, and we hope to have incredible results in the coming years and some early glimmers in the coming months. When we’ve actually accomplished something real, the whole world will hear about it, as loudly as possible, you have my word on that. But until then I don’t want to make empty promises, and in the meantime I feel compelled to speak honestly about the very real risks of AI and how to address them. Honesty is the right thing on the merits, and in terms of public credibility and trust it is no worse than, and may in fact be better than, an approach that ignores or distracts from risks which people instinctively understand are real.",
-          "link": "https://nitter.kareem.one/DarioAmodei/status/2088758819304443967#m",
-          "decryptage": "Dario Amodei défend sa communication équilibrée sur l'IA, affirmant que la vraie preuve de valeur sera de guérir des maladies, plutôt que de faire de simples promesses marketing."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Très heureux de voir cela de la part de Nick ! Nick (@nickcammarata) pense que l'interprétabilité est peut-être le problème scientifique le plus important au monde actuellement, car je ne pense pas que nous puissions résoudre l'alignement si nous ne savons pas ce que nous construisons. Je pense avoir de bonnes nouvelles à ce sujet. J'ai co-écrit des travaux préliminaires sur l'interprétabilité mécaniste chez OpenAI et j'en suis ressorti pessimiste, car les réseaux de neurones semblaient se plier en nœuds arbitrairement enchevêtrés. Des années plus tard, j'ai lancé le premier projet d'interprétabilité automatisée à grande échelle d'OpenAI, trouvant environ 2 % des neurones lisibles avec les outils rudimentaires que nous avions ; avec les outils d'agents modernes et un examen beaucoup plus approfondi, l'image est totalement différente. La grande majorité des modèles allant jusqu'à des milliers de milliards de paramètres sont lisibles, et leurs circuits sont magnifiques. De nombreux exemples célèbres de neurones enchevêtrés se sont avérés mal compris. Les obstacles que j'attendais ne sont pour la plupart pas là. Je pense maintenant que l'interprétabilité ambitieuse sera résolue au moment où nous en aurons le plus besoin, et peut-être très bientôt, à mesure que les scientifiques automatisés continueront de s'améliorer. Ce pourrait être une leçon difficile pour l'interprétabilité : la chose simple, à une échelle absurde, fonctionne déjà proprement. already-clean.goodfire.com — https://nitter.kareem.one/nickcammarata/status/2110757819427574056#m",
+          "text_original": "Very happy to see this from Nick! Nick (@nickcammarata) interpretability might be the most important scientific problem in the world right now, as I don't think we can solve alignment if we don't know what we're building. I think I have good news about it. I co-authored early work in mechanistic interpretability at OpenAI and came away pessimistic, because neural networks appeared to fold into arbitrary tangled knots. years later, I started openai's first large-scale automated interpretability project, finding about 2% of neurons legible with the primitive tools we had with modern agentic tools and a much closer look, the picture looks totally different. the vast majority in models up to trillions of parameters are legible, and their circuits beautiful. many famous examples of tangled neurons turned out to be misunderstood. The roadblocks I expected mostly aren't there. I now think ambitious interpretability will be solved by the time we need it most, and possibly quite soon, as automated scientists keep improving. it may be a bitter lesson for interpretability: the simple thing, at absurd scale, works already-clean.goodfire.com/ Link Neural Networks Are Already Clean A working hypothesis about neurons, generalization, and the ecology of circuits. already-clean.goodfire.com — https://nitter.kareem.one/nickcammarata/status/2110757819427574056#m",
+          "link": "https://nitter.kareem.one/sama/status/2111130577789493706#m",
+          "decryptage": "Ce tweet aborde l'interprétabilité (comprendre le fonctionnement interne d'une IA) et l'alignement (s'assurer que l'IA respecte nos valeurs), deux enjeux majeurs pour la sécurité et le développement futur de l'IA."
         },
         {
-          "author_name": "Dario Amodei",
-          "handle": "@DarioAmodei",
-          "text_fr": "1/2 Merci Gavin pour cet échange particulièrement réfléchi. Je ne passe pas beaucoup de temps sur les médias sociaux d'habitude, mais je voulais m'engager ici car cela met vraiment en lumière le cœur d'une conversation importante. Premièrement, sur la réglementation, je pense que « soit la concentrer entre les mains de quelques entreprises et politiciens choisis via la réglementation, soit la distribuer largement » est un faux choix. Je sais qu'il existe une sorte de raccourci dans la Silicon Valley où réglementation = capture réglementaire = concentration du pouvoir, mais j'ai toujours trouvé que c'était une image trop simplifiée du monde. Beaucoup de gens en dehors de cette bulle considèrent la réglementation comme quelque chose qui contraint le pouvoir des entreprises et profite aux gens ordinaires. Je ne suis pas nécessairement d'accord avec cette perspective non plus, je pense plutôt que c'est compliqué et que cela dépend vraiment de ce en quoi consiste la « réglementation ». Mais en particulier, je pense que ceux qui ont le cadre « réglementation = capture réglementaire = concentration du pouvoir » sous-estiment souvent le pouvoir décentralisateur des processus institutionnels objectifs et équitables. Une analogie grossière est que le système judiciaire formel peut parfois sembler guindé et élitiste, mais il défend bien mieux les droits des personnes vulnérables que l'alternative, la justice populaire. À leur meilleur, les institutions peuvent conférer le pouvoir aux idées plutôt qu'aux personnes, et ainsi décentraliser ce pouvoir. C'est pourquoi Anthropic a toujours élaboré très soigneusement ses propositions politiques. Nous nous efforçons de faire des propositions qui désavantagent (ralentissent) les entreprises d'IA de pointe tout en *avantageant* les petits concurrents. La SB53 de Californie (que nous avons soutenue), et même la très décriée SB 1047 (sur laquelle nous étions ambivalents), exemptent complètement toute entreprise en dessous d'un certain montant de revenus ou de coûts d'entraînement de modèles d'être couverte du tout (c'était 500 millions de dollars pour la SB 53, moins pour la 1047 mais nous nous y sommes opposés). Plus récemment, le processus de test que nous avons préconisé auprès du CAISI et de la Maison Blanche implique des tests plus rigoureux pour les modèles de pointe que pour les modèles hors pointe — ce qui avantage de manière différentielle les challengers. De même, la lettre « Pacing the Frontier » envisage (ou du moins l'implémentation préférée d'Anthropic l'envisage) de moduler le rythme des meilleurs modèles sans contraindre ceux qui sont en train de rattraper leur retard. Cela nuit aux intérêts commerciaux des laboratoires de pointe et aide les challengers, y compris les modèles open-weights ! Dans l'ensemble, mon point de vue est que l'IA est *structurellement* une technologie qui tend à concentrer le pouvoir, pour des raisons qui n'ont rien à voir avec la réglementation (plus à voir avec les implications extrêmes des lois de mise à l'échelle). Les open-weights aident en partie à cela mais sont loin d'être une solution suffisante car elles ne font que déplacer la concentration vers ceux qui ont le plus de calcul et de puces (qui sont grosso modo les laboratoires de pointe plus peut-être les fournisseurs de matériel). Par contre, je pense que les bonnes « règles du jeu » peuvent simultanément (a) aborder les risques cyber/bio/d'alignement de l'IA, (b) contraindre institutionnellement le pouvoir des entreprises d'IA de pointe, et (c) laisser de la place aux modèles open-weights tout en abordant les risques spécifiques qu'ils entraînent. D'ailleurs, je ne pense pas que les événements des derniers mois n'aient « pas abouti à [ma] voie réglementaire préférée ». L'approche que l'administration Trump serait en train d'adopter — des tests avant le déploiement pour les modèles de pointe, et aussi des tests des modèles open-weights lorsqu'ils se rapprochent de la frontière — est une approche que je soutiens beaucoup, bien sûr, je dois voir les détails pour en être sûr. Je soutiens également les idées de Demis Hassabis concernant une entité de type FINRA. Cela contraste avec il y a six mois, lorsque la plupart de l'industrie préconisait encore la préemption de toute réglementation étatique et aucune approche fédérale apparente. Gavin Baker (@GavinSBaker) Sholto, merci d'avoir mis les choses au clair. Le problème plus vaste est que plusieurs personnes très sérieuses dans la Silicon Valley ont entendu une variante de cela et croient que c'est vrai. Et la raison pour laquelle c'est crédible pour tant de gens est que c'est cohérent avec le message public de Dario et ce qu'il a exposé dans l'essai que vous avez partagé : cette technologie *pourrait* être dangereuse pour les humains de multiples façons, pourrait entraîner une concentration extrême du pouvoir économique (comme exposé dans l'essai) et donc doit être réglementée de manière réfléchie. Je suis d'accord avec les risques potentiels et je crois que Dario fait tous ces arguments de bonne foi. Comme discuté dans le podcast, si l'on est d'accord que l'IA *pourrait* être dangereuse, il y a deux façons d'aborder ce risque potentiel. Soit la concentrer entre les mains de quelques entreprises et politiciens choisis via la réglementation, soit la distribuer largement. Cela se résume essentiellement à savoir si l'on croit que l'IA est trop dangereuse pour être concentrée ou trop dangereuse pour être distribuée. Il y a des arguments raisonnables des deux côtés, mais je suis profondément d'accord avec la déclaration de Zuckerberg : « L'idée que l'IA est si dangereuse que la seule voie sûre est une concentration extrême du pouvoir semble intrinsèquement problématique. Historiquement, espérer qu'un pouvoir absolu pourvoira bienveillamment à l'humanité s'il est suffisamment éclairé n'a pas conduit à des résultats sûrs ou positifs. » Et comme Dario le dit dans l'essai susmentionné, « certains pourraient objecter que nous pouvons simplement maîtriser les IA avec un équilibre des pouvoirs entre de nombreux systèmes d'IA, comme nous le faisons avec les humains. » Je crois que c'est la meilleure voie à suivre : je veux autant d'IA que possible pour maximiser les chances qu'une d'entre elles partage mes propres valeurs particulières. Et comme Dario le note, aucun humain n'a jamais été capable de prendre le contrôle du monde. À ce stade, je pense qu'on peut dire sans risque que Dario a perdu l'argument. Son message n'a pas abouti à sa voie réglementaire préférée. Le fait que la seule solution à l'incident récent où un modèle avancé d'OpenAI non publié a piraté Hugging Face était un modèle open-source a probablement mis fin à toute chance de réglementation stricte à court terme. Essentiellement toutes les grandes entreprises autres qu'Anthropic ont signé la lettre de Jensen. Cependant, le message de Dario a été d'une aide énorme aux efforts visant à interdire les centres de données ici en Amérique. Je soupçonne que nous verrons des groupes de défense anti-centres de données diffuser des publicités utilisant des extraits de Dario avertissant à quel point l'IA pourrait être dangereuse pour les humains. Ses efforts de bonne foi en faveur de la réglementation augmentent maintenant les chances que l'IA ne soit pas bénéfique pour les Américains et les humains partout dans le monde. Je crois qu'il y a une chance raisonnable que l'IA pourrait nous aider à guérir la plupart des formes de maladies afin que nous ayons une durée de vie prolongée et que nous puissions profiter de ces longues vies dans un futur abondant de type Star Trek. C'est l'avenir que je veux et je pense que Dario diminue les chances de cet avenir à ce stade. Il est sur le point d'être le PDG de l'une des entreprises publiques les plus importantes du monde et étant donné que l'effort pro-réglementaire a échoué (au moins pour l'instant), je pense respectueusement qu'il devrait s'efforcer d'être un défenseur plus positif de sa propre industrie. Et si je me trompe et que nous devons réglementer cette technologie, il sera un défenseur plus efficace de celle-ci à l'avenir ayant été ouvert à l'alternative. Et pour la clarté et comme je l'ai souligné dans le podcast, je pense qu'Anthropic a de profonds avantages concurrentiels et est une entreprise incroyable. Ironiquement, le principal risque que je voyais pour Anthropic il y a quelques mois était la nationalisation suite à la rhétorique et au comportement de Dario.",
-          "link": "https://nitter.kareem.one/DarioAmodei/status/2088758816376807762#m",
-          "decryptage": "Dario Amodei débat de la meilleure façon de réglementer l'IA, expliquant que l'objectif est de limiter le pouvoir des grandes entreprises tout en favorisant les plus petites, y compris les modèles 'open-weights'."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "J'attendais cela depuis longtemps, et je détesterais devoir revenir à l'ancienne version de Chat !",
+          "text_original": "Have been waiting for this one for a long time, and I would hate to have to go back to the old version of Chat!",
+          "link": "https://nitter.kareem.one/sama/status/2107924677801001381#m",
+          "decryptage": null
         },
         {
-          "author_name": "Dario Amodei",
-          "handle": "@DarioAmodei",
-          "text_fr": "Beaucoup de ces idées politiques ont un attrait de bon sens à travers le spectre politique, et plus vite nous agirons, plus vite tout le monde partagera les bénéfices de l'IA.",
-          "text_original": "Many of these policy ideas have common-sense appeal across the political spectrum, and the sooner we act on them, the sooner everyone shares in AI's benefits.",
-          "link": "https://nitter.kareem.one/DarioAmodei/status/2064781785033244851#m",
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "Tout le monde veut avoir résolu un problème difficile, mais presque personne ne veut endurer le travail acharné pour le résoudre réellement. Les percées appartiennent à ceux qui sont obsédés par le processus, pas seulement par l'idée du résultat.",
+          "text_original": "Everyone wants to have solved a hard problem, but almost nobody wants to live inside the grind of actually solving it. The breakthroughs belong to the few who are obsessed with the process, not just the idea of the outcome",
+          "link": "https://nitter.kareem.one/fchollet/status/2110748224097222874#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "On ne peut pas résoudre les tâches physiques du monde réel uniquement par échantillonnage autorégressif. Le monde physique est totalement impitoyable face aux hallucinations ou à la reconnaissance de formes approximative. Si nous voulons une robotique autonome réelle, nous devons réintégrer la causalité et le raisonnement discret dans la boucle. Biwei et l'équipe d'Aether AI font exactement le genre de travail fondamental et non consensuel dont le domaine a réellement besoin en ce moment. Biwei Huang (@huang_biwei) J'ai passé plus d'une décennie à étudier la causalité. Pour moi, la causalité consiste à comprendre les règles qui régissent la façon dont les actions changent le monde, et à raisonner sur leurs conséquences avant d'agir. L'augmentation d'échelle a rendu les modèles actuels remarquablement capables de repérer des schémas et de prédire ce qui va suivre. Un système qui agit dans le monde physique a besoin de plus. Il doit se demander ce qui se passera s'il agit, vérifier le résultat et s'adapter lorsque la réalité ne correspond pas au plan. Dans le monde physique, les essais et erreurs peuvent être coûteux ou dangereux, et une erreur précoce peut se répercuter sur le reste d'une tâche. Lorsque nous avons lancé Aether AI, la robotique était le point de départ évident. CRIS-0 est notre premier système intégré construit sur ces idées. Il suit les conditions importantes pour une tâche, prédit comment chaque action les modifiera, et replanifie lorsque quelque chose d'inattendu se produit. Dans notre démo, cela signifie retirer une canette métallique d'une plaque avant de la chauffer, et distinguer une canette vide d'une boisson inachevée en rangeant une pièce. L'IA physique n'est que notre premier terrain d'essai. Nous nous dirigeons vers une intelligence causale qui fonctionne également pour la prévision, la découverte scientifique, et bien plus. Le rapport technique est lié dans les commentaires. Vidéo — https://nitter.kareem.one/huang_biwei/status/2109667913472839911#m",
+          "text_original": "You can't solve real-world physical tasks through autoregressive sampling alone. The physical world is entirely unforgiving to hallucination or approximate pattern matching. If we want actual autonomous robotics we have to engineer causality and discrete reasoning back into the loop. Biwei and the team at Aether AI is doing exactly the kind of foundational, non-consensus work the field actually needs right now. Biwei Huang (@huang_biwei) I have spent more than a decade studying causality. For me, causality is about understanding the rules that govern how actions change the world, and reasoning about their consequences before acting. Scaling has made today's models remarkably capable at spotting patterns and predicting what comes next. A system that acts in the physical world needs more. It has to ask what will happen if it acts, check the outcome, and adapt when reality doesn't match the plan. In the physical world, trial and error can be costly or unsafe, and an early mistake can carry through the rest of a task. When we started Aether AI, robotics was the obvious place to begin. CRIS-0 is our first integrated system built on these ideas. It tracks the conditions that matter for a task, predicts how each action will change them, and replans when something unexpected happens. In our demo, that means taking a metal can off a plate before heating it, and telling an empty can from an unfinished drink while tidying a room. Physical AI is just our first proving ground. We're building towards causal intelligence that also works for forecasting, scientific discovery, and more. The technical write-up is linked in the comments. Video — https://nitter.kareem.one/huang_biwei/status/2109667913472839911#m",
+          "link": "https://nitter.kareem.one/fchollet/status/2110378929588752784#m",
+          "decryptage": "L'échantillonnage autorégressif est une méthode où l'IA prédit la suite d'une séquence ; la causalité, elle, est la capacité de comprendre les liens de cause à effet pour agir intelligemment dans le monde physique sans faire d'erreurs."
+        },
+        {
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "La théorie des cordes est ce qui arrive quand un système intelligent est privé d'entrées sensorielles et commence à halluciner. L'intelligence a besoin d'être ancrée dans le réel. Pour cette raison, l'intelligence n'est pratiquement jamais le facteur limitant pour résoudre des problèmes importants. Le facteur limitant est le contact itératif avec la réalité.",
+          "text_original": "String theory is what happens when an intelligent system is starved of sensory input and starts hallucinating. Intelligence needs grounding. For this reason, intelligence is practically never the bottleneck to solving impactful problems. The bottleneck is iterated contact with reality.",
+          "link": "https://nitter.kareem.one/fchollet/status/2110377155079385477#m",
+          "decryptage": "\"L'intelligence a besoin d'être ancrée dans le réel\" signifie que l'IA doit interagir avec le monde physique pour apprendre de véritables causes et conséquences, plutôt que de se contenter de modèles abstraits."
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "J'aime bien ce graphique pour raconter l'histoire. En gros, pas d'amour pendant 2 ans et puis lentement nous sommes recommandés via la navigation. Notre taux de clics (CTR) est nul.",
+          "text_original": "kinda like this chart to tell the story. basically no love for 2 years and then slowly we get recommended via browsing. our CTR sucks.",
+          "link": "https://nitter.kareem.one/swyx/status/2111353401363902573#m",
+          "decryptage": "Le \"CTR\" (Click-Through Rate ou taux de clics) mesure le pourcentage de personnes qui cliquent sur un lien ou une vidéo après l'avoir vu."
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "affinité de chaîne, mon objectif est en gros de collaborer avec chacun de ces gens. Vous les aimez déjà. S'il vous plaît @Jeffdelaney23 @ThePrimeagen",
+          "text_original": "channel affinity my goal is basically to collab with every single one of these folks. you guys already love them. pls @Jeffdelaney23 @ThePrimeagen",
+          "link": "https://nitter.kareem.one/swyx/status/2111351354409300230#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "Nous servons plus d'un million de spectateurs uniques par mois quasiment sans arrêt depuis mai (après AIE EU), mais même maintenant, 58 % des spectateurs par mois nous découvrent. 68 % des spectateurs ne sont pas abonnés lol. La plupart des spectateurs sont là entre 7h et 11h PT tous les jours. Personne ne regarde après 17h.",
+          "text_original": "we serve >1m unique viewers a month pretty much nonstop since May (after AIE EU) but even now 58% of viewers a month are new to us. 68% of viewers not subscribed lol. most viewers 7am-11am PT daily. nobody watches after 5pm.",
+          "link": "https://nitter.kareem.one/swyx/status/2111350966419411070#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "La courbe YouTube normale ressemble à ceci - une forte augmentation au début, puis une stabilisation, mais de temps en temps, nous en avons une qui ressemble à ça, la conférence de @dexhorthy... nous n'avons modifié aucun test A/B ou packaging à ma connaissance (je suis l'une des 3 personnes qui contrôlent la chaîne). Ces dernières semaines, elle a de nouveau ACCÉLÉRÉ.",
+          "text_original": "normal youtube curve looks like this - aggressive ramp in the early days, then a leveling off but every now and then we get one that looks like this @dexhorthy talk... we did not change any a/b test or pakckaging as far as i know (i'm one of 3 that control the channel). in recent weeks it has ACCELERATED again",
+          "link": "https://nitter.kareem.one/swyx/status/2111348321277161592#m",
           "decryptage": null
         },
         {
           "author_name": "Amjad Masad",
           "handle": "@amasad",
-          "text_fr": "Fascinant de voir les mathématiciens traverser toutes les étapes du deuil — Déni, Colère, Négociation, Dépression et Acceptation — dans un laps de temps si court. Nous sommes à la fin de la dépression et entrons dans l'acceptation. Haider. (@haider1) Le mathématicien Terence Tao : « nous assistons à la fin de l'ère romantique des mathématiques, l'âge des héros. Nous entrons dans une ère industrielle où les maths deviennent à grande échelle, réalisées par de grandes équipes comme les autres sciences. » Nous entrons, plutôt malgré nous, dans une nouvelle ère où des choses nouvelles et passionnantes sont possibles, mais où certaines choses sont perdues Vidéo",
-          "text_original": "Fascinating to see Mathematicians go through all the stages of grief — Denial, Anger, Bargaining, Depression, and Acceptance — in such a compressed window of time. We're at the tail end of depression and entering acceptance. Haider. (@haider1) Mathematician Terence Tao: \"we're seeing the end of the romantic era of mathematics, the age of heroes. we're moving into an industrial era where math becomes large-scale, done in big teams like the other sciences\" We're entering, rather unwillingly, a new era where exciting new things are possible, but some things are being lost Video",
+          "text_fr": "C'est fascinant de voir les mathématiciens passer par toutes les étapes du deuil — Déni, Colère, Négociation, Dépression et Acceptation — dans une fenêtre de temps aussi compressée. Nous sommes à la fin de la dépression et entrons dans l'acceptation. Haider. (@haider1) : Le mathématicien Terence Tao : \"Nous assistons à la fin de l'ère romantique des mathématiques, l'âge des héros. Nous entrons dans une ère industrielle où les mathématiques deviennent à grande échelle, réalisées par de grandes équipes comme les autres sciences.\" Nous entrons, plutôt malgré nous, dans une nouvelle ère où de nouvelles choses passionnantes sont possibles, mais où certaines choses se perdent. Vidéo — https://nitter.kareem.one/haider1/status/2110797855879471162#m",
+          "text_original": "Fascinating to see Mathematicians go through all the stages of grief — Denial, Anger, Bargaining, Depression, and Acceptance — in such a compressed window of time. We're at the tail end of depression and entering acceptance. Haider. (@haider1) Mathematician Terence Tao: \"we're seeing the end of the romantic era of mathematics, the age of heroes. we're moving into an industrial era where math becomes large-scale, done in big teams like the other sciences\" We're entering, rather unwillingly, a new era where exciting new things are possible, but some things are being lost Video — https://nitter.kareem.one/haider1/status/2110797855879471162#m",
           "link": "https://nitter.kareem.one/amasad/status/2111206044416500159#m",
-          "decryptage": "Amjad Masad observe que l'arrivée de l'IA force les mathématiciens à accepter un changement profond dans leur discipline, passant d'une approche individuelle à une ère plus collaborative et industrielle."
+          "decryptage": null
         },
         {
           "author_name": "Amjad Masad",
           "handle": "@amasad",
-          "text_fr": "Ahem. Keith Rabois (@rabois) Wow tu es un idiot. Il n'y a littéralement aucune chance d'atteindre 2 $ par action. Note de la communauté : C'est passé à 2 $/action x.com/MebFaber/statu… — https://nitter.kareem.one/rabois/status/2039518956482900260#m",
+          "text_fr": "Hum. Keith Rabois (@rabois) : Waouh, vous êtes un idiot. Il n'y a littéralement aucune chance d'atteindre 2 $ par action. Note de la communauté : C'est passé à 2 $/action x.com/MebFaber/statu… — https://nitter.kareem.one/rabois/status/2039518956482900260#m",
           "text_original": "Ahem. Keith Rabois (@rabois) Wow you are a moron. There is literally zero chance of $2 per share. Community note: It hit $2/share x.com/MebFaber/statu… — https://nitter.kareem.one/rabois/status/2039518956482900260#m",
           "link": "https://nitter.kareem.one/haroon/status/2110429923156300047#m",
-          "decryptage": "Amjad Masad partage un tweet humoristique où une prédiction financière erronée sur un prix d'action est corrigée par une note de la communauté, montrant l'importance des faits face aux opinions."
+          "decryptage": null
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Nous servons aussi ceux-là ! Désolé si l'utilisation de l'énergie nucléaire est un véritable obstacle POLITICOEurope (@POLITICOEurope) Le moteur de recherche berlinois Ecosia, utilisé par les services gouvernementaux, abandonne son partenaire français d'IA, Mistral, a déclaré son PDG à POLITICO. L'entreprise va désormais miser sur les modèles open-source, y compris ceux de Chine. vist.ly/5mh5y Lien Un moteur de recherche allemand abandonne Mistral et parie sur l'IA open-source chinoise « Nous sommes déçus de la qualité de Mistral », a déclaré le fondateur et PDG d'Ecosia à POLITICO. politico.eu",
-          "text_original": "We serve those as well! Sorry if using nuclear energy is a real blocker POLITICOEurope (@POLITICOEurope) Berlin-based search engine Ecosia, used by government services, is dropping its French AI partner, Mistral, its CEO told POLITICO. The company will now bet on open-source models, including those from China. vist.ly/5mh5y Link German search engine ditches Mistral, bets on Chinese open-source AI “We are disappointed with the quality of Mistral,” Ecosia founder and CEO told POLITICO. politico.eu",
-          "link": "https://nitter.kareem.one/arthurmensch/status/2108204822537322802#m",
-          "decryptage": "Cet échange révèle qu'Ecosia, un moteur de recherche écologique, a cessé d'utiliser l'IA de Mistral, en partie à cause de la consommation d'énergie nucléaire de ses infrastructures, et se tourne vers des modèles open-source chinois."
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Explication : 1. Le plus gros problème avec les graphiques originaux est l'hypothèse qu'il n'y a aucun effet négatif. Les professeurs semblent toujours oublier qu'il est possible d'enseigner de mauvaises choses aux gens et qu'ils finissent traumatisés par des \"infohazards\" et des comportements et pensées inadaptés. Il n'y a pas d'apprentissage zéro, il y a un apprentissage inversé. 2. Le graphique original montre que les personnes intelligentes sont ralenties. Ce n'est vrai que si l'IA est plus bête ou moins créative ou moins capable d'exécuter un \"goût\". Ce qui s'effondre si l'IA progresse en capacités, quand l'IA a déjà prouvé être surhumaine en mathématiques, en codage et dans d'autres disciplines, au minimum elle est capable de faire certaines choses mieux, et probablement plus. Donc le pic est au mauvais endroit. Peu de gens, voire aucun, ne seront ralentis à long terme. 3. Les graphiques originaux supposent également que les utilisateurs d'IA n'ont aucune influence ou contrôle sur la qualité finale du résultat de l'IA. Hypothèse ridicule. C'est vous qui tapez les invites et posez les questions. C'est vous qui choisissez les IA à payer, avec lesquelles chatter et quels paramètres utiliser. C'est vous qui choisissez et modifiez le travail final. C'est vous qui la dirigez ! Vos entrées comptent ! Des questions intelligentes et plus d'expérience sur l'utilisation des outils IA vous donnent de meilleurs résultats ! Cet effet est récursif à mesure que vous apprenez et accélérez avec l'IA, ou que vous entrez dans une spirale descendante. — Ce qui va réellement se passer : Accélération dans toutes les directions. Les gens intelligents deviennent plus intelligents. Les gens moins intelligents deviennent moins intelligents. L'écart d'intelligence se creuse, il ne se réduit pas. Chaque émotion humaine que nous éprouvons sera poussée à 11 et amplifiée par la puissance de la machine. De la même manière que les médias sociaux et les communautés Internet poussent et créent souvent des comportements de niche extrêmes. Ceux qui l'utilisent correctement iront loin. Ceux qui ne le font pas ? Eh bien. Au moins, nous avons des classificateurs de sécurité.",
+          "text_original": "Explained 1. Biggest problem with op’s charts is the assumption that there is no negative effect. Teachers always seem to forget it’s possible to teach people the wrong thing and have them end up traumatized with infohazards and maladaptive behaviors and thoughts. There’s not 0 learning there is backwards learning. 2. The original chart shows smart people being pulled back. That’s only true if AI is dumber or less creative or less able to execute “taste”. Which breaks if AI advances in capabilities, when AI has already proven to be superhuman in math, coding, and other disciplines, at minimum it’s able to do some things better, and likely more. So the spike is in the wrong spot. Few if any people are or will be pulled back in the long run. 3. The original charts also assumes AI users have 0 input or control over the final quality of the AI output. Ridiculous assumption. You are the one typing prompts and asking questions. You are the one picking which AIs to pay for, chat with, and what settings to use. You pick and edit the final work. You are the one aiming it! Your inputs matter! Smart questions and more experience on how to use AI tools gets you better results! This effect is recursive as you learn & accelerate with Ai, or downward spiral. — What’s actually going to happen: Acceleration in every direction. Smart people get smarter. Dumb people get dumber. Intelligence Gap widens it doesn’t shrink Every human emotion we experience will be dialed up to 11 and amplified with the power of the machine. The same way social media and internet communities often push and create extreme niche behavior. Those who aim it properly will go far. Those who don’t? Well. At least we have safety classifiers.",
+          "link": "https://nitter.kareem.one/NickADobos/status/2111262920638349723#m",
+          "decryptage": "Ce tweet est une critique des prévisions selon lesquelles l'IA réduirait les capacités humaines, argumentant au contraire qu'elle amplifiera les compétences de chacun, créant un écart entre ceux qui l'utilisent bien et les autres."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "L'hypothèse selon laquelle l'IA ramènerait l'intelligence à la moyenne est fondamentalement fausse. Graphiques corrigés : Miles Cranmer (@MilesCranmer) : Voici la conférence complète : Vidéo — https://nitter.kareem.one/MilesCranmer/status/2111105654211608847#m",
+          "text_original": "The assumption AI regresses intelligence to average is fundamentally wrong Corrected charts: Miles Cranmer (@MilesCranmer) Here is the full talk: Video — https://nitter.kareem.one/MilesCranmer/status/2111105654211608847#m",
+          "link": "https://nitter.kareem.one/NickADobos/status/2111262916683223318#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Sérieusement, n'y a-t-il aucun moyen de filtrer algorithmiquement les \"réponses bâclées\" évidentes générées par l'IA ? Ethan Mollick (@emollick) : L'article sur la façon dont une équipe d'agents Gemini 4 a battu Minecraft vaut le détour. C'est un exemple accessible (partiellement parce qu'il est écrit par une IA) de coordination spontanée entre agents pour accomplir un objectif complexe et comment leur approche diffère de celle des humains / arxiv.org/pdf/2610.22319 — https://nitter.kareem.one/emollick/status/2111171225418408236#m",
+          "text_original": "Seriously, there is no way to algorithmically filter out the obvious AI slopreplies? Ethan Mollick (@emollick) The paper on how a team of Gemini 4 agents beat Minecraft is worth a look. It is accessible example (partially because it is AI written) of spontaneous coordination among agents to accomplish a complicated goal & how their approach differs from humans/ arxiv.org/pdf/2610.22319 — https://nitter.kareem.one/emollick/status/2111171225418408236#m",
+          "link": "https://nitter.kareem.one/emollick/status/2111183137011077220#m",
+          "decryptage": "Les \"réponses bâclées\" (slopreplies) désignent des commentaires générés par IA qui sont de mauvaise qualité ou peu pertinents, souvent des spams. Les \"agents\" sont des IA conçues pour agir de manière autonome afin d'atteindre des objectifs."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Je devrais également souligner que presque tous les \"benchmarks\" (tests de performance) concernent des tâches à réponse unique et à court terme, alors qu'une grande partie du travail économiquement valable est constituée de tâches complexes à long terme. Encore une fois, il y a de la place pour les deux, mais je pense que nous constaterons qu'une intelligence \"suffisamment bonne\" pourrait ne pas toujours suffire.",
+          "text_original": "I should also point out that almost all benchmarks are of single-answer short-horizon tasks, but a large amount of economically valuable work is complex long-horizon tasks. Again, there is room for both, but I think we will find \"good enough\" intelligence may not always be.",
+          "link": "https://nitter.kareem.one/emollick/status/2111048324291899785#m",
+          "decryptage": "Un \"benchmark\" est un test standardisé utilisé pour mesurer et comparer les performances des différents modèles d'IA."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Comment n'y ai-je pas pensé plus tôt ?",
+          "text_original": "How could I not have thought of this earlier?",
+          "link": "https://nitter.kareem.one/emollick/status/2110955882083217719#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "kiasoul.md",
+          "text_original": "kiasoul.md",
+          "link": "https://nitter.kareem.one/emollick/status/2110943784309588092#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "L'Europe devrait-elle laisser l'IA de pointe aux Américains et aux Chinois ? L'idée a gagné du terrain en Europe. C'est une erreur fondamentale. Construire ou se rendre : pour l'instant, le choix est encore le nôtre. Article complet ci-dessous. Article Construire ou se rendre. Une idée a gagné du terrain en Europe : nous devrions laisser les modèles d'IA de pointe aux Américains et aux Chinois. Elle est défendue par des personnes sérieuses, dont le raisonnement a sa logique. Un modèle de pointe coûte...",
+          "text_original": "Should Europe leave frontier AI to the Americans and the Chinese? The idea has gained ground in Europe. It is a fundamental mistake. Build or surrender: for now, the choice is still ours. Full article below. Article Build or surrender An idea has gained ground in Europe: we should leave frontier AI models to the Americans and the Chinese. It is advocated by serious people, whose reasoning has its logic. A frontier model costs",
+          "link": "https://nitter.kareem.one/arthurmensch/status/2110990492930314712#m",
+          "decryptage": "L'\"IA de pointe\" (frontier AI) désigne les modèles d'intelligence artificielle les plus avancés et les plus puissants, souvent à la limite des capacités actuelles."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "L'article examine ce qui doit figurer dans les fichiers AGENTS.md, les documents de conception et les tests. Analyse complète ↓ alphasignal.ai/news/what-bel… Lien : Ce qui doit figurer dans AGENTS.md, les documents de conception et les tests ? | AlphaSignal L'étude suit 247 694 durées de vie d'instructions à travers 1 867 dépôts et rapporte une croissance moyenne du nombre d'instructions de 226 %. alphasignal.ai",
+          "text_original": "The article examines what belongs in AGENTS.md, design documents, and tests. Full breakdown ↓ alphasignal.ai/news/what-bel… Link What Belongs in AGENTS.md, Design Docs and Tests? | AlphaSignal The study tracks 247,694 instruction lifetimes across 1,867 repositories and reports average instruction-count growth of 226%. alphasignal.ai",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2104975648527986711#m",
+          "decryptage": "Le fichier \"AGENTS.md\" est un document qui décrit le fonctionnement, les objectifs et les règles d'un agent IA pour aider les développeurs à mieux le comprendre et le gérer."
         }
       ],
       "outils": [
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "GPT-6 Astra Pro dans ChatGPT a été mis à jour avec des réponses plus rapides et une meilleure utilisation des plugins et outils. Désormais, plusieurs agents peuvent s'attaquer à différentes parties d'une tâche en parallèle. Vous pouvez suivre la progression de chaque agent et ouvrir les tâches terminées pour vérifier leur travail. Maintenant disponible pour les utilisateurs Pro dans l'onglet Chat.",
-          "text_original": "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work. Now available to Pro users in the Chat tab.",
-          "link": "https://nitter.kareem.one/OpenAI/status/2111192259073094035#m",
-          "decryptage": "Une version améliorée de ChatGPT, appelée GPT-6 Astra Pro, permet maintenant à l'IA de diviser une tâche complexe en plusieurs sous-tâches et de les résoudre simultanément, offrant des réponses plus rapides et une meilleure gestion des outils."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "ChatGPT peut désormais générer une interface utilisateur personnalisée pour vous ! OpenAI (@OpenAI) : GPT-6 et l'Interface Utilisateur Intelligente sont maintenant déployés dans ChatGPT pour tout le monde. L'Interface Utilisateur Intelligente de ChatGPT offre des réponses rapides et interactives qui rendent les questions quotidiennes plus visuelles, les sujets complexes plus faciles à comprendre, et met à disposition des outils interactifs pour votre tâche sur le champ. Vidéo — https://nitter.kareem.one/OpenAI/status/2107894997538525580#m",
+          "text_original": "ChatGPT can now generate a custom UI for you! OpenAI (@OpenAI) GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. Video — https://nitter.kareem.one/OpenAI/status/2107894997538525580#m",
+          "link": "https://nitter.kareem.one/sama/status/2107924408597950702#m",
+          "decryptage": "Une \"UI\" (User Interface ou interface utilisateur) est ce que vous voyez et avec quoi vous interagissez sur un écran ; ChatGPT peut maintenant créer ces interfaces personnalisées pour rendre ses réponses plus utiles et interactives."
         },
         {
-          "author_name": "Shawn Wang",
-          "handle": "@swyx",
-          "text_fr": "J'ai parlé pour la dernière fois de nos tests A/B de vignettes ici nitterk.kareem.one/swyx/status/2089798658… quelques sélections supplémentaires de vidéos avec une taille d'échantillon non triviale où vous pouvez voir un gradient clair et en tirer des leçons swyx (@swyx) nous avons fait beaucoup de tests A/B des vignettes YouTube de @aiDotEngineer. J'ai toujours détesté que ce soit un processus si opaque. Nous partageons aujourd'hui nos apprentissages en open source/crowdsourcing ! ai-engineer-thumbnail-lab.sw… en espérant que les gens pourront partager leur expérience ou apprendre de la nôtre. Au final, nous voulons juste que le bon contenu éducatif s'élève au-dessus du bruit en ligne. Dites-moi ce que vous en pensez Vidéo",
-          "text_original": "i last talked about our thumbnail ab testing here nitterk.kareem.one/swyx/status/2089798658… a few more selections from nontrivial sample size videos where you can see a clear gradient and infer lessons swyx (@swyx) we've been doing a lot of a/b testing of @aiDotEngineer youtube thumbnails. i always hated that it is such an opaque process. open sourcing/crowdsourcing our learnings today! ai-engineer-thumbnail-lab.sw… doing this in hopes that people can share their experience or learn from ours. at the end of the day we just want to get good educational content to rise above the noise online. please lmk what you think Video",
-          "link": "https://nitter.kareem.one/swyx/status/2111349705481596970#m",
-          "decryptage": "Shawn Wang partage une ressource en ligne où il a regroupé les résultats de ses tests pour optimiser les vignettes YouTube, permettant aux autres créateurs de contenu d'apprendre de son expérience."
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "Argon a un profil de performance similaire à Astra sur ARC-AGI-3. Google est de retour à la pointe. ARC Prize (@arcprize) : Gemini 4 Argon de @Google sur ARC-AGI (Vérifié) : - ARC-AGI-3 : 97.5%, 4.8K $ (harnais d'adaptateur de fournisseur), 49.8%, 5.8K $ (harnais standard) - ARC-AGI-2 : 91.3%, 0.32 $/tâche - ARC-AGI-1 : 98.5%, 0.16 $/tâche Google DeepMind est le deuxième laboratoire d'IA de pointe à obtenir un score supérieur à 95% sur ARC-AGI-3. — https://nitter.kareem.one/arcprize/status/2110768288523251762#m",
+          "text_original": "Argon has a similar performance profile on ARC-AGI-3 as Astra. Google is back at the frontier. ARC Prize (@arcprize) Gemini 4 Argon from @Google on ARC-AGI (Verified): - ARC-AGI-3: 97.5%, $4.8K (provider adapter harness), 49.8%, $5.8K (standard harness) - ARC-AGI-2: 91.3%, $0.32/task - ARC-AGI-1: 98.5%, $0.16/task Google DeepMind is the second frontier AI lab to score above 95% on ARC-AGI-3. — https://nitter.kareem.one/arcprize/status/2110768288523251762#m",
+          "link": "https://nitter.kareem.one/fchollet/status/2110775560846914009#m",
+          "decryptage": "ARC-AGI est un défi important pour l'IA qui teste sa capacité à résoudre de nouveaux problèmes de manière générale, comme le ferait un humain. Un score élevé montre une IA très performante."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Il s'avère que Le Chonk est doué pour la science des fusées. Mistral Large 4 obtient de bons résultats en ingénierie et en astronomie sur le benchmark privé d'Ulam, STEMBench : ulam.ai/stembench",
-          "text_original": "Turns out le Chonk is into rocket science. Mistral Large 4 scoring well in engineering and astronomy on Ulam’s private benchmark, STEMBench: ulam.ai/stembench",
-          "link": "https://nitter.kareem.one/MistralAI/status/2111056939841163336#m",
-          "decryptage": "Le modèle d'IA Mistral Large 4, surnommé 'Le Chonk', montre de très bonnes performances dans des domaines scientifiques complexes comme l'ingénierie et l'astronomie, testé sur un benchmark spécifique appelé STEMBench."
+          "author_name": "Francois Chollet",
+          "handle": "@fchollet",
+          "text_fr": "Je crois sincèrement que l'IA conversationnelle va provoquer le plus grand bond en avant éducatif de notre génération. Le tutorat individuel est la référence en matière d'éducation, mais il ne peut pas être généralisé. L'IA peut changer cela avec un apprentissage conversationnel véritablement actif. Annie et son équipe se sont attelées à résoudre ce problème avec @gakkuai, et elles ont fait un excellent travail. Gakku est une application de mentorat par IA pour les élèves de la maternelle à la terminale. Plutôt que de faire le travail à leur place, l'entraîneur vocal par chat guide les élèves à travers des \"missions\" de rédaction d'essais de 10 minutes qui couvrent le brainstorming, la rédaction et la révision. Elle forme activement les enfants à générer leurs propres idées, à structurer des arguments logiques et à s'exprimer clairement. Si vous avez des enfants en âge scolaire, je vous recommande vivement de l'essayer : gakku.ai",
+          "text_original": "I truly believe conversational AI will drive the biggest educational leap of our generation. 1-on-1 tutoring is the gold standard for education, but it doesn't scale. AI can change that with truly active conversational learning. Annie and team set out to solve this with @gakkuai , and they've done a great job. Gakku is an AI mentoring app for K-12 students. Rather than doing the work for them, the voice chat coach guides students through 10 min essay writing \"missions\" that cover brainstorming, drafting, and revising. It actively trains kids to generate their own ideas, structure logical arguments, and articulate themselves clearly. If you have school-aged kids, I highly recommend checking it out: gakku.ai",
+          "link": "https://nitter.kareem.one/fchollet/status/2110756584611516512#m",
+          "decryptage": "L'IA conversationnelle permet une interaction naturelle comme avec un professeur, offrant un accompagnement personnalisé qui peut révolutionner l'éducation en étant accessible à beaucoup plus de personnes."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "🇫🇷 Le Chonk rejoint le classement sudo L7 🇫🇷 Nous venons d'ajouter le Mistral Large 4 de @MistralAI à sudo L7, notre benchmark pour l'ingénierie logicielle de niveau expert. Mistral Large 4 obtient un score de 13,3%, devant Muse Spark 1.3 (12,2%) et Grok 4.7 (10,6%). sudo L7 teste si les agents de codage peuvent aller au-delà de l'écriture de code correct pour exercer le jugement d'ingénieurs expérimentés : naviguer dans des systèmes complexes, repérer les risques cachés et savoir quand un code techniquement correct n'est pas bon à déployer. Allez, le Chonk ! 🥖 Classement ↓ surgehq.ai/benchmarks/sudo-l…",
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Vos données vous appartiennent ! Nous déploierons Replit sur votre propre cloud et vos données ne quitteront jamais votre environnement. Conçu pour les environnements à enjeux élevés comme les gouvernements, la finance et la santé. Replit ⠕ (@Replit) : Nous introduisons le \"Bring Your Own Cloud\" (BYOC) pour Replit, avec des options pour le développement et la production dans votre propre cloud, que vous utilisiez @Azure, @GoogleCloud ou @AWScloud. Notre approche offre aux équipes de sécurité et de plateforme une plus grande isolation et un meilleur contrôle tout en préservant l'expérience Replit familière. Explorez le BYOC : replit.com/blog/bring-your-o… — https://nitter.kareem.one/Replit/status/2111219084352221410#m",
+          "text_original": "Your data belongs to you! We’ll deploy Replit to your cloud and data never leaves home. Designed for high stakes environments like governments, finance, and healthcare. Replit ⠕ (@Replit) We’re introducing Bring Your Own Cloud (BYOC) for Replit, with options for development and production in your cloud, whether you use @Azure , @GoogleCloud , or @AWScloud . Our approach gives security and platform teams greater isolation and control while preserving the familiar Replit experience. Explore BYOC: replit.com/blog/bring-your-o… — https://nitter.kareem.one/Replit/status/2111219084352221410#m",
+          "link": "https://nitter.kareem.one/amasad/status/2111267314012496121#m",
+          "decryptage": "Le \"Bring Your Own Cloud\" (BYOC) est une option qui permet aux entreprises d'utiliser un service comme Replit, mais en hébergeant leurs propres données et outils sur leur infrastructure cloud existante pour plus de sécurité."
+        },
+        {
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Slides de pointe, super rapide ;) DesignArena (@DesignArena) : DERNIÈRE MINUTE : Replit par @Replit se classe #2 sur Slides Arena avec un Elo de 1279 ! C'est le constructeur de diapositives le mieux noté en moins de 8 minutes et il génère des présentations environ 24 % plus vite que le #1, établissant une nouvelle frontière de Pareto pour la vitesse vs. la préférence. Replit devance Gamma 5 de @GammaApp, Manus 1.6 de @ManusAI et Claude Opus 4.6 de @Anthropic, ne se classant derrière que Playyy. Félicitations à l'équipe @Replit ! Vidéo — https://nitter.kareem.one/DesignArena/status/2111259231257268651#m",
+          "text_original": "Frontier Slides, super fast ;) DesignArena (@DesignArena) BREAKING: Replit by @Replit ranks at #2 on Slides Arena with an Elo of 1279! It is the highest-rated slides builder under 8 minutes and generates decks ~24% faster than #1, establishing a new Pareto frontier for Speed vs. Preference. Replit places ahead of Gamma 5 by @GammaApp , Manus 1.6 by @ManusAI , and Claude Opus 4.6 by @Anthropic , trailing only Playyy. Congrats to the @Replit team! Video — https://nitter.kareem.one/DesignArena/status/2111259231257268651#m",
+          "link": "https://nitter.kareem.one/amasad/status/2111261373741383712#m",
+          "decryptage": "Une \"frontière de Pareto\" représente l'équilibre optimal entre plusieurs critères (ici vitesse et préférence), montrant qu'un outil comme Replit est très performant sur les deux aspects."
+        },
+        {
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Devenez pilote de robot ! Je ne peux même pas imaginer les incroyables \"kung fu trickshots\" que nous allons voir avec ça à haut niveau sur le classement classé. CIX 🦾 (@cixliv) : Annonce de REK pour iOS (Beta) Nous avons construit un simulateur 1 pour 1 qui gère toute la physique et l'IA robotique, utilisable sur un téléphone. Ainsi, n'importe qui dans le monde peut s'entraîner à être un pilote de robot ! Vidéo — https://nitter.kareem.one/cixliv/status/2111176183262187895#m",
+          "text_original": "Become a Robot Pilot! I can't even imagine the insane kung fu trickshots we are gonna see with this at high elo on the ranked ladder CIX 🦾 (@cixliv) Announcing REK for iOS (Beta) We built a 1 to 1 sim that runs the entire physics and robot ai that can be used on a phone. So anyone in the world can train to be a robot pilot! Video — https://nitter.kareem.one/cixliv/status/2111176183262187895#m",
+          "link": "https://nitter.kareem.one/NickADobos/status/2111195891432603732#m",
+          "decryptage": "Ce jeu/application permet aux utilisateurs de piloter des robots virtuels en s'entraînant sur un simulateur réaliste, offrant une nouvelle façon d'interagir avec la robotique."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "L'article sur la façon dont une équipe d'agents Gemini 4 a battu Minecraft mérite d'être consulté. C'est un exemple accessible (en partie parce qu'il est écrit par une IA) de coordination spontanée entre agents pour accomplir un objectif complexe et comment leur approche diffère de celle des humains / arxiv.org/pdf/2610.22319",
+          "text_original": "The paper on how a team of Gemini 4 agents beat Minecraft is worth a look. It is accessible example (partially because it is AI written) of spontaneous coordination among agents to accomplish a complicated goal & how their approach differs from humans/ arxiv.org/pdf/2610.22319",
+          "link": "https://nitter.kareem.one/emollick/status/2111171225418408236#m",
+          "decryptage": "Des \"agents\" sont des systèmes d'IA capables de prendre des décisions et d'agir de manière autonome pour accomplir des tâches, comme coordonner leurs efforts pour jouer à Minecraft."
+        },
+        {
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "🇫🇷 Le Chonk rejoint le classement sudo L7 🇫🇷 Nous venons d'ajouter Mistral Large 4 de @MistralAI au sudo L7, notre benchmark pour l'ingénierie logicielle de niveau expert. Mistral Large 4 obtient un score de 13,3 %, devant Muse Spark 1.3 (12,2 %) et Grok 4.7 (10,6 %). sudo L7 teste si les agents de codage peuvent aller au-delà de l'écriture de code correct pour exercer le jugement d'ingénieurs expérimentés : naviguer dans des systèmes complexes, repérer les risques cachés et savoir quand un code techniquement correct est toujours la mauvaise chose à livrer. Allez, le Chonk ! 🥖 Classement ↓ surgehq.ai/benchmarks/sudo-l…",
           "text_original": "🇫🇷 Le Chonk joins the sudo L7 leaderboard 🇫🇷 We just added @MistralAI 's Mistral Large 4 to sudo L7, our benchmark for staff-level software engineering. Mistral Large 4 scores 13.3%, ahead of Muse Spark 1.3 (12.2%) and Grok 4.7 (10.6%). sudo L7 tests whether coding agents can go beyond writing correct code to exercise the judgment of experienced engineers: navigating messy systems, spotting hidden risks, and knowing when technically correct code is still the wrong thing to ship. Allez, le Chonk ! 🥖 Leaderboard ↓ surgehq.ai/benchmarks/sudo-l…",
           "link": "https://nitter.kareem.one/HelloSurgeAI/status/2109706583215411260#m",
-          "decryptage": "Le modèle Mistral Large 4 se distingue dans un test exigeant, le 'sudo L7', qui évalue la capacité des IA à coder comme des ingénieurs experts, en gérant la complexité et en anticipant les problèmes."
+          "decryptage": "Le \"sudo L7\" est un test de référence (benchmark) qui évalue la capacité des IA à coder comme des ingénieurs logiciels expérimentés, en jugeant au-delà de la simple correction du code."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Le Chonk a cartonné en 'visual grounding'. Il localise précisément les éléments dans une image. 42% sur Dense 200, devant même les modèles fermés de pointe.. Vidéo",
-          "text_original": "Le Chonk cooked on visual grounding. Pinpoints exactly where things are in an image. 42% on Dense 200, ahead of even frontier closed models.. Video",
-          "link": "https://nitter.kareem.one/MistralAI/status/2109687906751086628#m",
-          "decryptage": "Le modèle Mistral, surnommé 'Le Chonk', excelle dans la tâche de 'visual grounding', c'est-à-dire sa capacité à identifier et localiser très précisément des objets ou des concepts dans une image."
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Ces 20 fois représentent 22 heures de GPU contre 1,14. Le débit sur une 5090 était d'environ 8,4K tokens/s contre 124K. Analyse complète : alphasignal.ai/news/looped-t… Lien : Transformers bouclés : trois machines différentes | AlphaSignal Nanbeige4.2-3B est Apache 2.0 sur Hugging Face, avec num_hidden_layers : 22 et num_loops : 2, et deux passes ont conservé environ 75 % du token d'un Transformer standard. alphasignal.ai",
+          "text_original": "Those 20 times are 22 GPU-hours against 1.14. Throughput on one 5090 was about 8.4K tokens/s against 124K. Full Breakdown: alphasignal.ai/news/looped-t… Link Looped transformers: three different machines | AlphaSignal Nanbeige4.2-3B is Apache 2.0 on Hugging Face, with num_hidden_layers: 22 and num_loops: 2 , and two passes kept about 75% of a standard Transformer's token alphasignal.ai",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895779054522805#m",
+          "decryptage": "Les \"GPU-hours\" mesurent la quantité de temps de calcul sur des cartes graphiques (GPU), essentielles pour entraîner les IA ; un \"Transformer\" est un type de réseau de neurones très efficace pour le traitement du langage."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Vous avez probablement entendu parler des \"Transformers bouclés\", mais lequel ? Au cours du dernier mois, le même mot a couvert trois astuces de réutilisation. Mettre en œuvre la mauvaise brûle une semaine d'entraînement. Cela budgétise également un fichier de 3 milliards comme un décodage de 3 milliards. Nous avons ouvert un modèle open-source de Transformer bouclé, Nanbeige 4.2 : > 22 couches, deux passes > 44 applications, mêmes poids > Environ deux fois le calcul de bloc > Le cache KV double avec cela. Il a conservé environ 75 % de l'efficacité en tokens d'un Transformer standard. Le partage du cache a réduit de moitié sa mémoire. Et les gains de qualité étaient constamment plus faibles. Une deuxième conception transporte l'état de token en token. La longueur de séquence est la profondeur. L'entraînement a utilisé 500 millions de tokens. Cette exécution a coûté environ 20 fois les heures de GPU. Alors, quelle astuce de réutilisation est le tweet viral ? Si des boucles supplémentaires n'augmentent pas la qualité, que payez-vous ? Le fichier a-t-il encore besoin d'un second cache ? Analyse complète ↓↓",
+          "text_original": "You’ve probably heard the buzz around Looped transformers, but which one? Over the past month, the same word covered three reuse tricks. Implementing the wrong one burns a training week. It also budgets a 3B file like a 3B decode. We opened a looped transformer open model, Nanbeige 4.2: > 22 layers, two passes > 44 applications, same weights > About twice the block compute > KV cache doubles with it It kept about 75% of a standard Transformer's token efficiency. Sharing the cache halved its memory. And quality gains were consistently lower. A second design carries state token to token. Sequence length is the depth. Training used 500 million tokens. That run cost about 20 times the GPU-hours. So, Which reuse trick is the viral tweet? If extra loops do not raise quality, what are you paying? Does the file still need a second cache? Full Breakdown ↓↓",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895777393541555#m",
+          "decryptage": "Les \"Transformers bouclés\" sont une variation des modèles Transformer qui réutilisent les mêmes parties du réseau pour traiter l'information, dans le but d'être plus efficaces, mais cet article explore si cela améliore vraiment la qualité."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Il est temps de résoudre l'un des plus grands défis des modèles vision-langage. Les modèles multimodaux actuels peuvent regarder une image biomédicale et donner une réponse convaincante, parfois correcte, sans réellement comprendre ce qu'ils voient. Un modèle pourrait répondre correctement à la question médicale tout en échouant à identifier le contexte visuel de base comme la modalité d'imagerie, la partie du corps, le spécimen ou la coloration. Alors, je m'associe à Stanford pour résoudre ce problème. Vous devriez le faire aussi. Le Défi MMBU teste si les modèles peuvent réellement reconnaître, localiser et comprendre ce qui se trouve dans les images biomédicales, et non pas seulement arriver à la bonne réponse. 🏆 3 pistes 💻 Plus de 100K $ en calcul et prix 📅 Du 1er octobre au 31 décembre ⏰ Les inscriptions se clôturent aujourd'hui",
+          "text_original": "It's time to solve one of the biggest challenges in vision-language models. Today's multimodal models can look at a biomedical image and give a convincing, sometimes correct, answer without actually understanding what they're seeing. A model might answer the medical question correctly while failing to identify basic visual context like the imaging modality, body part, specimen, or stain. So, I'm teaming up with Stanford to solve this problem. You should too. The MMBU Challenge tests whether models can actually recognize, localize, and understand what is in biomedical images, not just arrive at the right answer. 🏆 3 tracks 💻 $100K+ in compute and prizes 📅 Oct 1 to Dec 31 ⏰ Registration closes today",
+          "link": "https://nitter.kareem.one/LiorOnAI/status/2105377147431051624#m",
+          "decryptage": "Les \"modèles vision-langage\" sont des IA capables d'analyser des images et de comprendre du texte, comme pour des images médicales, mais ce défi vise à s'assurer qu'elles *comprennent* vraiment ce qu'elles voient, au-delà d'une simple réponse correcte."
         }
       ]
     }
   },
-  "processed_at": "2026-10-17T12:12:53",
+  "processed_at": "2026-10-17T13:15:00",
   "validation": {
-    "translated_pct": 100,
-    "with_decryptage_pct": 96,
-    "total": 28,
-    "needs_retranslation_count": 0
+    "translated_pct": 98,
+    "with_decryptage_pct": 74,
+    "total": 43,
+    "needs_retranslation_count": 1
   },
-  "email_sent_at": "2026-10-17T12:12:54"
+  "email_sent_at": "2026-10-17T13:15:01"
 }
