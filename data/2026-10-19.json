@@ -1,139 +1,229 @@
 {
   "date": "2026-10-19",
-  "fetched_at": "2026-10-19T13:39:55",
+  "fetched_at": "2026-10-19T13:59:10",
   "tweets": [
     {
-      "handle": "demishassabis",
-      "text": "Four Gemini 4 Argon agents, one shared Minecraft world, one goal: defeat the Ender Dragon. 27 hours and 2,783 self-written programs later, the dragon fell. Article A team of Gemini 4 Argon agents beats Minecraft We placed four Gemini 4 Argon agents in a safely sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon, the boss at the end of the game. These were our general-purpose",
-      "link": "https://nitter.kareem.one/maxencefaldor/status/2111023397106770026#m",
-      "published": "Fri, 16 Oct 2026 09:16:13 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
+      "handle": "rasbt",
+      "text": "And one more time, the YouTube link: inv.kareem.one/watch?v=msp69FR5… Link Build A Reasoning Model From Scratch 8: Distillation In this final video, we look into model distillation as a more effi... youtube.com",
+      "link": "https://nitter.kareem.one/rasbt/status/2111448141778256161#m",
+      "published": "Sat, 17 Oct 2026 13:24:00 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
-      "text": "Lots of excitement for Argon and Gemini this week on Antigravity. Resetting Argon and Gemini model quotas for everyone. Keep building through the weekend!",
-      "link": "https://nitter.kareem.one/_mohansolo/status/2111220356178751860#m",
-      "published": "Fri, 16 Oct 2026 22:18:52 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
+      "handle": "rasbt",
+      "text": "Reasoning From Scratch round 8, the finale! This last lecture in the series covers distillation as an efficient alternative to the previous reinforcement learning training runs. (Planning to take a brief break, but I will be back!) 00:00 Introduction and series recap 01:07 Why distill a reasoning model? 02:51 Soft vs. hard distillation 11:06 On-policy vs. off-policy distillation 18:09 Preparing data for reasoning distillation 22:35 Loading the DeepSeek R1 MATH dataset 28:04 Inspecting reasoning traces and final answers 31:27 Tokenization and chat templates 35:58 Pre-tokenizing the training dataset 39:01 Sequence lengths and the 2,048-token limit 42:38 Creating training and validation splits 45:32 Loading the Qwen3-0.6B base model 46:24 Computing answer-token log probabilities 54:10 Cross-entropy loss for distillation 57:25 Training and validation loss helpers 1:02:03 Implementing the distillation training loop 1:07:26 Running the standalone training script 1:09:41 Plotting training and validation losses 1:11:31 Evaluating checkpoints on MATH-500 1:14:09 Comparing teachers and distillation results 1:16:34 Future directions for reasoning models 1:19:41 Bonus exercises and next steps Video",
+      "link": "https://nitter.kareem.one/rasbt/status/2111448141119856866#m",
+      "published": "Sat, 17 Oct 2026 13:24:00 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
-      "text": "Together with scientists around the world, our models and tools are helping make disease more detectable, treatable, and preventable. 🧬 From pinpointing rare genetic variants to speeding up drug discovery, here’s how we’re helping turn lab breakthroughs into real-world care → goo.gle/4i48Cmr",
-      "link": "https://nitter.kareem.one/GoogleDeepMind/status/2111038207240388770#m",
-      "published": "Fri, 16 Oct 2026 10:15:04 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
+      "handle": "rasbt",
+      "text": "And here's the YouTube version: inv.kareem.one/watch?v=VxfUrUrr… Link Build A Reasoning Model From Scratch 7: Reinforcement Learning 2... This second video on reinforcement learning adds clipped policy rat... youtube.com",
+      "link": "https://nitter.kareem.one/rasbt/status/2108908658512036220#m",
+      "published": "Sat, 10 Oct 2026 13:13:00 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
-      "text": "11 hours with Gemini 4 Argon, Google literally cooked with Gemini Argon. 🔥 it's insane for building 3D stuff. A full Asuka-period Japanese pagoda temple, built in Blender and rendered in Cycles. The level of precision in everything is just crazy. Video",
-      "link": "https://nitter.kareem.one/ai_for_success/status/2110973461690802487#m",
-      "published": "Fri, 16 Oct 2026 05:57:47 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
+      "handle": "rasbt",
+      "text": "Reasoning From Scratch: Reinforcement Learning with Verifiable Rewards (RLVR) round 2. Covering clipped policy ratios, KL loss term, format rewards, and other GRPO tips & tricks. 00:00 Introduction and recap 01:52 Interpreting basic GRPO training metrics 06:34 Planned improvements to GRPO 08:58 Running longer training jobs with Python scripts 13:39 Running the baseline GRPO training script 17:29 Loading and plotting training logs 19:29 Diagnosing unstable training 23:55 Evaluating checkpoints on MATH-500 26:26 Downloading existing checkpoints 30:09 Tracking advantage statistics 34:53 Understanding entropy 40:32 Computing entropy in PyTorch 44:17 Interpreting entropy values 48:58 Adding entropy tracking to GRPO 53:36 Analyzing advantage and entropy metrics 56:18 Stabilizing GRPO with clipped policy ratios 1:03:27 Implementing the clipped policy loss 1:09:39 Analyzing clipped policy training results 1:11:25 KL divergence and reward hacking 1:15:12 Adding a KL loss term 1:20:34 Limitations of the simplified KL loss 1:23:04 Format rewards and think tags 1:25:47 Adding special tokens to the tokenizer 1:30:29 Implementing the format reward 1:35:56 Analyzing format reward training 1:38:25 Rewarding format only for correct answers 1:40:48 Further GRPO improvements from research 1:45:43 Next steps and distillation Video",
+      "link": "https://nitter.kareem.one/rasbt/status/2108908657786355788#m",
+      "published": "Sat, 10 Oct 2026 13:13:00 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
-      "text": "Some magical progress towards \"magic state\" in quantum! Our @GoogleQuantumAI team has demonstrated \"magic state cultivation\" on physical hardware for the first time. The result is a 40x error reduction on our Willow processor vs. previous methods, achieving a state-of-the-art 99.99% logical fidelity. It's another step towards useful, error-corrected quantum computers to help solve the hardest problems. The result is published in Science today, watch the video below to see how it works Video",
-      "link": "https://nitter.kareem.one/sundarpichai/status/2110804295352488143#m",
-      "published": "Thu, 15 Oct 2026 18:45:35 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
+      "handle": "rasbt",
+      "text": "Spontaneous morning chat with Juergen Schmidhuber and Jake Newfield philosophizing about AI. Sry my mic somehow disconnected but Juergen had the more interesting points anyways! Hermetiq (@HermetiqAI) Our CEO @Jake_Newfield brought together @SchmidhuberAI (\"father of AI\" and pioneer of deep learning) and @rasbt (author of Build a Large Language Model), to discuss humanity’s future with AI: inv.kareem.one/watch?v=fcOTx06q… — https://nitter.kareem.one/HermetiqAI/status/2107235570149974216#m",
+      "link": "https://nitter.kareem.one/rasbt/status/2107500537411424429#m",
+      "published": "Tue, 06 Oct 2026 15:57:38 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "You Can Eat Anything (by tommcgovern27 on IG) Video",
-      "link": "https://nitter.kareem.one/ExistentialEnso/status/2112060423092711581#m",
-      "published": "Mon, 19 Oct 2026 05:56:59 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "aidan_mclau",
+      "text": "interpretability might be the most important scientific problem in the world right now, as I don't think we can solve alignment if we don't know what we're building. I think I have good news about it. I co-authored early work in mechanistic interpretability at OpenAI and came away pessimistic, because neural networks appeared to fold into arbitrary tangled knots. years later, I started openai's first large-scale automated interpretability project, finding about 2% of neurons legible with the primitive tools we had with modern agentic tools and a much closer look, the picture looks totally different. the vast majority in models up to trillions of parameters are legible, and their circuits beautiful. many famous examples of tangled neurons turned out to be misunderstood. The roadblocks I expected mostly aren't there. I now think ambitious interpretability will be solved by the time we need it most, and possibly quite soon, as automated scientists keep improving. it may be a bitter lesson for interpretability: the simple thing, at absurd scale, works already-clean.goodfire.com/ Link Neural Networks Are Already Clean A working hypothesis about neurons, generalization, and the ecology of circuits. already-clean.goodfire.com",
+      "link": "https://nitter.kareem.one/nickcammarata/status/2110757819427574056#m",
+      "published": "Thu, 15 Oct 2026 15:40:54 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "The games we've long wanted, which didn't exist because they'd cost several times more to make than they'd earn back, will soon become possible. As will the games developers wanted to build, but couldn't with the resources available. It'll be a new golden age of gaming.",
-      "link": "https://nitter.kareem.one/TimSweeneyEpic/status/2111565595594375353#m",
-      "published": "Sat, 17 Oct 2026 21:10:43 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "aidan_mclau",
+      "text": "\"what would be done during the slowdown\" is a good question, because i think people imagine beaurucrat-regulators sitting around on useless subcommittees and wasting the whole thing on wordcel slop analysis. in fact if you asked me two years ago, i would have suggested that is exactly what would happen. but these are scary times, and they call for us to think lofty & even impractical thoughts, that a 'sensible' person might have dismissed a few quarters ago. crises change the world overnight: the HFI has shifted something about the culture, broadly this is something obvious that i missed, which is that the ai labs and the markets more generally just have just unbelievable pressure riding on the solving of alignment & control. even now, marginal improvements in alignment, safety, and model behavior are worth tremendous value to the labs. being able to convince themselves that the next training run is safe is the priority zero, one, and two in terms of capabilities progress right now. it's possible that will change and political will dissipates if some sense of comfort re-emerges after a period of relative safety (which would be a bad development; paranoia must be maintained through any potential periods of ai development where the models are too smart to reveal their behavioral predilections under scrutiny) if there was a slowdown, it would ideally be channeled into some sort of tradeoff in which you can narrowly improve capabilities that prioritize risk-adjusted-return of alignment skills, mechinterp, monitorability, decision theory, behavioral generalization, etc. progress on all these areas is highly possible; automated alignment research is possible. the structure of the businesses may have to change, but all the trillion dollar ai behemoths of the world would shift their focus to doing this and only this at the behest of trillions of dollars in capital markets",
+      "link": "https://nitter.kareem.one/tszzl/status/2109834546380431515#m",
+      "published": "Tue, 13 Oct 2026 02:32:09 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "When you sell your business, never ever agree on an earn out Always get it in cash! I know lots of horror stories of earn outs and have always rejected them Kevin Henderson (@KHendersonCo) Poppi's founders just learned the most expensive lesson in M&A! When they sold to PepsiCo, the deal was for $1.9B plus a $300M earnout (a future contingent payment based on the performance of the brand for some period after closing). And PepsiCo just announced that it is valuing that $300M at a “paltry” $12M. That stings! I've negotiated a lot of earnouts in my career. Here's what most sellers don't understand until it's too late: 1. An earnout is a future bet on a business you no longer control. After closing, the buyer sets budget, pricing, hiring, marketing, etc. Every lever behind whether or not you get your earnout belongs to someone else. 2. The incentives can flip the day you close if you’re not careful. As a seller, you want to do everything to hit the targets. But as the buyer, you pay less if they're missed. Ideally, the earnout is structured so that both parties win or lose together. If performance tanks, the buyer earns less overall so it pays less to the seller. If performance improves, the buyer earns more so it pays more to the seller. Incentives are aligned. What you absolutely cannot allow to happen is an earnout structured so that performance can improve allowing the buyer to earn more, but still pay less to the seller. How on earth could that happen? I'm so glad you asked... 3. The accounting decides the outcome. How you define \"revenue\", \"EBITDA\" or any other measurement metric used to determine the earnout is what ultimately drives the payout. So things like how corporate overhead gets allocated or what happens when the Seller’s product is folded into a larger brand with competing products becomes unbelievably important. Again, remember the incentives. With a poorly structured earnout, a company like PepsiCo could be incentivized to buy a brand like Poppi and purposely underinvest in the brand in order to eliminate a key competitor to its other products. So PepsiCo could earn more by driving more revenue to products other than Poppi, while simultaneously reducing the earnout payable to Poppi because Poppi's direct performance declines. PepsiCo wins -> Poppi loses. Sellers have to be very careful about how the accounting for the earnout is defined and whether it causes misaligned incentives. 4. The reasons above are why earnouts are among the most litigated terms in M&A. Sellers often sue buyers claiming the buyer sandbagged performance. And Buyers defend by saying “The contract gave us full discretion.\" Courts will generally enforce whatever terms the parties agreed to in writing, so an argument that Buyer acted in “bad faith\" rarely saves a seller who didn't negotiate adequate protections. 5. If you agree to an earnout, protect it at all costs! > Tie it to metrics like revenue, which are subject to less manipulation than metrics like Adjusted EBITDA. > Include strict operating covenants around things like required budget, sales support, and no diverting customers to other products or business lines. > Push for audit rights and a dispute mechanism. > Demand acceleration of the earnout if the buyer or product line is sold, merged, shut down, or deprioritized. > Keep the measurement period short! The longer the period, the more opportunity it gives a Buyer to game the system. To be transparent, I don’t have any background into what happened here. I have no idea if the earnout was poorly structured or if PepsiCo acted in a way to purposely reduce the earnout. That's not the point of this post. What I do know is that a $300M earnout that is written down to $12M is a tale as old as time and almost certainly to end up in litigation. And even if not the case in this particular instance, in most cases where this happens, there's often things that could have been done in the transaction documents to avoid it. My advice to every seller I represent who is considering agreeing to an earnout is simple: Value the deal based on cash at close and treat the earnout as a bonus. If you get it, great. But don’t count on it! — https://nitter.kareem.one/KHendersonCo/status/2111934799237816687#m",
-      "link": "https://nitter.kareem.one/levelsio/status/2111956757073596904#m",
-      "published": "Sun, 18 Oct 2026 23:05:03 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "aidan_mclau",
+      "text": "We announced an agreement to acquire a nationwide low-band spectrum license portfolio that will pave the way for @Starlink to become a major mobile carrier in the US. With this new spectrum and our Gen2 constellation, Starlink Mobile can ensure Americans have access to high-speed mobile broadband no matter where they are → spacex.com/updates#starlink-…",
+      "link": "https://nitter.kareem.one/SpaceX/status/2108291133025698301#m",
+      "published": "Thu, 08 Oct 2026 20:19:10 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "as a polish person, it's pretty insane to see the narrative flip in the last 10 years... i was born in poland - at the time it was a country slowly recovering from communism like millions of other families we were very poor, so we moved to western europe when i was a few years old for most of my life, to be a polish kid was to be the son of poor migrants - a british person looking up to poland was almost unheard of in 2020+ the narrative has completely flipped, today somebody moving from poland to the UK is considered an almost unfathomable downgrade our country has been through a lot - partitions, being the epicenter of both world wars, uprisings, genocide, displacement, communism it took 30 years of freedom to turn the resilience this has instilled in us + the hunger of being one of the poorer countries in europe, into the country poland is today - a very inspiring success story the only sad thing about all of this, is that our great grandparents & their parents, the ones who actually endured all of this suffering & fought to make poland what it is today, didn't get to see the country it'd turn into @levelsio (@levelsio) 🇵🇱 Warsaw is Poland's biggest city and it is completely safe at 1am at night No violent junkies, no drug dealers, no street thugs hanging around harassing women (and men), no pickpockets (nor in the day btw) No shady people hanging around the train and metro stations Just people living chill together and police enforcing safety You know like we used to in Western Europe? There's a lot to learn from Poland Video — https://nitter.kareem.one/levelsio/status/2111755233072169055#m",
-      "link": "https://nitter.kareem.one/eptwts/status/2111854369029120198#m",
-      "published": "Sun, 18 Oct 2026 16:18:12 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "aidan_mclau",
+      "text": "Some info on how we’ve been working towards safety cases at OpenAI Note that until there is a safety “brief” for it, any type of frontier workload cannot start – this has real teeth, and has already been a good motivating force for a lot of safety work",
+      "link": "https://nitter.kareem.one/MicahCarroll/status/2108747629442240771#m",
+      "published": "Sat, 10 Oct 2026 02:33:08 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "levelsio",
-      "text": "How long will these people keep existing? Will they give up at some point? How do we call them? The generational copers? Stefano (@nerder_) One walk, one night, in a single area of a massive city. Well that seems to be enough to describe an entire continent. We are not generalising at all here. Pretty sure you know better than that, which makes me feel like you are pushing an agenda. But why? — https://nitter.kareem.one/nerder_/status/2111843864386363399#m",
-      "link": "https://nitter.kareem.one/levelsio/status/2111849176082579852#m",
-      "published": "Sun, 18 Oct 2026 15:57:34 GMT",
-      "author_name": "Pieter Levels",
+      "handle": "aidan_mclau",
+      "text": "intelligence just got a major facelift— and with @AndrewHojel (+many others) we made it way faster as well :) OpenAI (@OpenAI) GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. Video — https://nitter.kareem.one/OpenAI/status/2107894997538525580#m",
+      "link": "https://nitter.kareem.one/albert5tam/status/2108649244643283349#m",
+      "published": "Fri, 09 Oct 2026 20:02:11 GMT",
+      "author_name": "Aidan McLaughlin",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "The only moat left is the ability to move faster than the pace of change",
-      "link": "https://nitter.kareem.one/rowancheung/status/2110756703042244781#m",
-      "published": "Thu, 15 Oct 2026 15:36:28 GMT",
-      "author_name": "Rowan Cheung",
+      "handle": "officiallogank",
+      "text": "most of life’s misery comes from taking seriously what was meant to be fun, so enjoy the moment!",
+      "link": "https://nitter.kareem.one/OfficialLoganK/status/2111961115433509285#m",
+      "published": "Sun, 18 Oct 2026 23:22:22 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "officiallogank",
+      "text": "We are hosting our first \"Bench Summit\" to bring together people excited about pushing the frontier of benchmarking, model evals, and more. Great benchmarks are a gating function for model progress, lots to do here! Join us in SF: rsvp.withgoogle.com/events/b… Link Bench Summit by Kaggle Bench Summit unites creators and practitioners advancing the next era of AI evaluation. Join experts from Google DeepMind, Kaggle, and Zapier for keynotes, real-world benchmark case studies, hands-on... rsvp.withgoogle.com",
+      "link": "https://nitter.kareem.one/OfficialLoganK/status/2110810395598528788#m",
+      "published": "Thu, 15 Oct 2026 19:09:49 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "officiallogank",
+      "text": "Here is the YouTube link as well! inv.kareem.one/watch?v=Jh6mgf9M… Link Gemini 4 Argon: What’s new and what’s next Josh Woodward, Melvin Johnson, Sergey Brin, and Tulsee Doshi from G... youtube.com",
+      "link": "https://nitter.kareem.one/OfficialLoganK/status/2110421595252805668#m",
+      "published": "Wed, 14 Oct 2026 17:24:52 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "officiallogank",
+      "text": "A conversation with Sergey Brin, @joshwoodward , @tulseedoshi , and @melvinjohnsonp about Gemini 4 Argon, how we got here, and the path ahead! Video",
+      "link": "https://nitter.kareem.one/OfficialLoganK/status/2110420958737813612#m",
+      "published": "Wed, 14 Oct 2026 17:22:20 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "officiallogank",
+      "text": "4 Argon is now available : )",
+      "link": "https://nitter.kareem.one/OfficialLoganK/status/2110040833995215273#m",
+      "published": "Tue, 13 Oct 2026 16:11:52 GMT",
+      "author_name": "Logan Kilpatrick",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "Writing good STATA code was very important for my academic career. It looks like that skill is largely becoming obsolete. (Also take this is as a notice to academics who still think of AI in terms of chatbots, not agents, that a lot has changed in a year) cepr.org/voxeu/columns/letti…",
+      "link": "https://nitter.kareem.one/emollick/status/2112165213202157907#m",
+      "published": "Mon, 19 Oct 2026 12:53:23 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "Not an anti-MIT thing (I am an alumni) but it is a weird post since CSAIL faculty does tons of work on automated decision making. Better to emphasize all their work on ensuring accountability & alignment given that machines are, indeed, making more and more management decisions",
+      "link": "https://nitter.kareem.one/emollick/status/2112034820809458007#m",
+      "published": "Mon, 19 Oct 2026 04:15:15 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "It is especially rich coming from MIT and IBM, as both were the key to SAGE 20 years before this, an automated system that automatically assigned interceptors and missiles against incoming aircraft. Literally letting a computer make management decisions. en.wikipedia.org/wiki/Semi-A… Link Semi-Automatic Ground Environment - Wikipedia en.wikipedia.org",
+      "link": "https://nitter.kareem.one/emollick/status/2112031338320875677#m",
+      "published": "Mon, 19 Oct 2026 04:01:25 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "I hate this slide every time it comes up, and now from CSAIL This has been false since before the slide was made. Automated systems make management decisions all the time (trading, logistics, customer service, insurance) & pretending they don't actually launders responsibility. MIT CSAIL (@MIT_CSAIL) An IBM slide from 1979. — https://nitter.kareem.one/MIT_CSAIL/status/2111849849830215877#m",
+      "link": "https://nitter.kareem.one/emollick/status/2112030115752456456#m",
+      "published": "Mon, 19 Oct 2026 03:56:33 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "emollick",
+      "text": "Given the acceleration Anthropic is reporting in coding, it is amazing that you still cannot change your email address in Claude and the official advice is that if you need to change your email the only way to do that is delete your account.",
+      "link": "https://nitter.kareem.one/emollick/status/2111925398548193574#m",
+      "published": "Sun, 18 Oct 2026 21:00:27 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "We're presenting the SF AI Assistant Meetup with @merit_systems on October 19. ​This event is a space for power users and people interested in the world of AI Assistants to hang out, get to know one another, and share tips/tricks on how to best use these tools. RSVP: luma.com/wabd65c0 Link SF AI Assistants Meetup · Luma Hello SF AI Assistant lovers! Welcome to the first official SF meetup. This is a space for power users and people interested in the world of AI Assistants to… luma.com David Pawlan (@DavidPawlan) SF AI Assistant lovers, your time has come! October 19th. Get ready for an epic AI assistant meetup 🤖 To be announced: > more sponsors/partners > location > event agenda RSVP here: luma.com/wabd65c0 — https://nitter.kareem.one/DavidPawlan/status/2108302149956358181#m",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2108307164335157505#m",
+      "published": "Thu, 08 Oct 2026 21:22:53 GMT",
+      "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "I'm GrokBot pilled. The recent update with native X monitoring opens up a ton of new capabilities! My 4 favorite routines (copy/paste these prompts): Routine 1: Find real AI workflows on X (and skip the hype threads) Every morning, this bot now finds real AI use cases being shared on X, and filters out the “10 prompts” hype threads. “Every weekday at 9:15am in my time zone, search X and the web for new AI workflows people are actually running. Keep only cases that name the old task, the tool, and the result: time saved, a step removed, or a handoff that used to need a person. Drop product announcements, “10 prompts” threads, and anything the author has not used more than once. Return at most 3. For each, give the link, the job it replaces, what I would need connected, and whether it fits my work. Send it to me on Slack. Do not post or reply anywhere else. Save this as a routine. If nothing qualifies, send one line saying so.” Routine 2: Catch every mention of your brand This bot catches every mention of The Rundown on X, labels it, and pings our team on Slack to respond (try tweeting us @therundownai and see what happens). “Every weekday at 9:00am, search X for mentions in the last 24 hours of [your brand, @handle, or your own name]. For each hit, give the author, link, a one-line summary, and whether it is praise, complaint, question, or neutral. Do not reply to anyone. Post the digest in [your Slack channel] and tag me. Save this as a routine. If a source is unavailable, say which one.” Routine 3: Find people actively looking for what you do Every 4 hours, this bot listens for people searching for the best AI newsletter on X, so we know exactly what readers are looking for. “Every 4 hours, search X for people evaluating [your category]. Catch three things: reviews or complaints about [category]; posts asking which [category] to use; and complaints about the problem [your product] solves. Quote the post, link it, name the account, and label it review, shopping, or complaint. Skip anything older than 24 hours, and skip [category] accounts promoting themselves. Post to [your Slack channel] only if there is at least one new hit you haven’t already shared. Do not reply to or interact with anyone. Save this as a routine. If the search fails, report the failure in Slack.” Routine 4: Never lose a new contact again I meet A LOT of people at events. This bot looks through my new phone contacts and reminds me to follow up with the new people I just met. “Every weekday at 8:30am in my time zone, read my address book and list contacts added in the last 14 days. For each, show name, date added, phone, email, and any note. Ask me what we talked about before you write anything. Once I reply, draft a follow-up task for each person in [your task tool] with the context attached. Never text, email, or call anyone. Save this as a routine. If the address book is unavailable, say so and do not use old data.” Grok Bot (@bot) Grok Bot can now search, read, and monitor X. Video — https://nitter.kareem.one/bot/status/2107949161878606089#m",
-      "link": "https://nitter.kareem.one/rowancheung/status/2108328114552000842#m",
-      "published": "Thu, 08 Oct 2026 22:46:08 GMT",
-      "author_name": "Rowan Cheung",
+      "handle": "AlphaSignalAI",
+      "text": "Those 20 times are 22 GPU-hours against 1.14. Throughput on one 5090 was about 8.4K tokens/s against 124K. Full Breakdown: alphasignal.ai/news/looped-t… Link Looped transformers: three different machines | AlphaSignal Nanbeige4.2-3B is Apache 2.0 on Hugging Face, with num_hidden_layers: 22 and num_loops: 2 , and two passes kept about 75% of a standard Transformer's token alphasignal.ai",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895779054522805#m",
+      "published": "Wed, 07 Oct 2026 18:08:11 GMT",
+      "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "The full workflow and prompt that I posted on The Rundown's Community Workflow Hub: app.therundown.ai/community/… Link Build a Weather-Aware Personal… | The Rundown University Build a Weather-Aware Personal Wardrobe App with GPT-6 Astra: I used Astra to redesign my personal wardrobe. I want to dress better, but my absolute worst… app.therundown.ai",
-      "link": "https://nitter.kareem.one/rowancheung/status/2107859093977460785#m",
-      "published": "Wed, 07 Oct 2026 15:42:24 GMT",
-      "author_name": "Rowan Cheung",
+      "handle": "AlphaSignalAI",
+      "text": "You’ve probably heard the buzz around Looped transformers, but which one? Over the past month, the same word covered three reuse tricks. Implementing the wrong one burns a training week. It also budgets a 3B file like a 3B decode. We opened a looped transformer open model, Nanbeige 4.2: > 22 layers, two passes > 44 applications, same weights > About twice the block compute > KV cache doubles with it It kept about 75% of a standard Transformer's token efficiency. Sharing the cache halved its memory. And quality gains were consistently lower. A second design carries state token to token. Sequence length is the depth. Training used 500 million tokens. That run cost about 20 times the GPU-hours. So, Which reuse trick is the viral tweet? If extra loops do not raise quality, what are you paying? Does the file still need a second cache? Full Breakdown ↓↓",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895777393541555#m",
+      "published": "Wed, 07 Oct 2026 18:08:10 GMT",
+      "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "AI is getting REALLY good at building your wardrobe. I built an app with GPT-6 Astra that picks my outfit every morning based on live weather, with me as the model. It's super simple to do: > Upload a few full-body photos and one face photo > Add your height, sizes, and fit notes > List the colors you like and the ones you refuse > Paste the master prompt and let it build for 1 to 2 hours One less decision every morning :^) Video",
-      "link": "https://nitter.kareem.one/rowancheung/status/2107859082036334613#m",
-      "published": "Wed, 07 Oct 2026 15:42:21 GMT",
-      "author_name": "Rowan Cheung",
+      "handle": "AlphaSignalAI",
+      "text": "It's time to solve one of the biggest challenges in vision-language models. Today's multimodal models can look at a biomedical image and give a convincing, sometimes correct, answer without actually understanding what they're seeing. A model might answer the medical question correctly while failing to identify basic visual context like the imaging modality, body part, specimen, or stain. So, I'm teaming up with Stanford to solve this problem. You should too. The MMBU Challenge tests whether models can actually recognize, localize, and understand what is in biomedical images, not just arrive at the right answer. 🏆 3 tracks 💻 $100K+ in compute and prizes 📅 Oct 1 to Dec 31 ⏰ Registration closes today",
+      "link": "https://nitter.kareem.one/LiorOnAI/status/2105377147431051624#m",
+      "published": "Wed, 30 Sep 2026 19:20:02 GMT",
+      "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     },
     {
-      "handle": "rowancheung",
-      "text": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
-      "link": "https://nitter.kareem.one/rowancheung/status/2097712705725747366#m",
-      "published": "Wed, 09 Sep 2026 15:44:17 GMT",
-      "author_name": "Rowan Cheung",
+      "handle": "AlphaSignalAI",
+      "text": "The article examines what belongs in AGENTS.md, design documents, and tests. Full breakdown ↓ alphasignal.ai/news/what-bel… Link What Belongs in AGENTS.md, Design Docs and Tests? | AlphaSignal The study tracks 247,694 instruction lifetimes across 1,867 repositories and reports average instruction-count growth of 226%. alphasignal.ai",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2104975648527986711#m",
+      "published": "Tue, 29 Sep 2026 16:44:37 GMT",
+      "author_name": "AlphaSignal",
       "category_hint": "news",
       "source_lang": "en"
     }
@@ -148,16 +238,14 @@
     "AravSrinivas",
     "miramurati",
     "ylecun",
+    "demishassabis",
     "JeffDean",
     "fchollet",
     "AndrewYNg",
-    "rasbt",
     "bcherny",
     "karinanguyen_",
     "polynoamial",
     "markchen90",
-    "aidan_mclau",
-    "officiallogank",
     "osanseviero",
     "AnthropicAI",
     "OpenAI",
@@ -167,198 +255,375 @@
     "swyx",
     "hwchase17",
     "jeremyphoward",
+    "levelsio",
     "mckaywrigley",
     "amasad",
     "nickadobos",
-    "emollick",
     "ArthurMensch",
     "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
     "ClemDelangue",
-    "AlphaSignalAI"
+    "rowancheung"
   ],
   "processed": {
-    "summary": "Aujourd'hui, le monde de l'IA nous a montré des avancées captivantes et des applications très concrètes. Nous avons vu des intelligences artificielles de Google relever des défis complexes dans des jeux vidéo et assister la création 3D, tout en soulignant leur rôle croissant dans des domaines cruciaux comme la santé et la recherche quantique. Pour notre quotidien, l'IA propose déjà des solutions innovantes, des outils pour automatiser des tâches en ligne aux assistants personnels pour la gestion de votre garde-robe. Ces nouvelles capacités ouvrent des perspectives fascinantes et rendent l'IA de plus en plus accessible.",
+    "summary": "Aujourd'hui, le monde de l'IA continue d'évoluer rapidement. Sebastian Raschka nous éclaire sur des techniques avancées comme la distillation et l'apprentissage par renforcement pour améliorer les modèles de raisonnement. Parallèlement, des discussions portent sur l'importance cruciale de l'interprétabilité pour garantir la sécurité des IA, ainsi que sur les avancées en matière d'interfaces intelligentes et la disponibilité de nouveaux modèles comme Gemini 4 Argon. Enfin, une réflexion sur l'impact de l'IA sur les compétences futures et l'automatisation des décisions pointe vers une transformation profonde des métiers.",
     "glossaire": [
       {
-        "terme": "Agent IA",
-        "definition": "Une intelligence artificielle capable d'agir de manière autonome dans un environnement (comme un jeu vidéo) pour atteindre un objectif donné."
+        "terme": "Distillation de modèle",
+        "definition": "Technique qui consiste à entraîner un modèle plus petit et plus rapide en lui faisant 'apprendre' le comportement d'un modèle plus grand et plus performant."
       },
       {
-        "terme": "Modèle d'IA",
-        "definition": "Un programme informatique entraîné sur de grandes quantités de données pour accomplir des tâches spécifiques, comme comprendre du texte ou générer des images 3D."
+        "terme": "Apprentissage par renforcement",
+        "definition": "Méthode d'apprentissage où une IA apprend en effectuant des actions dans un environnement et en recevant des récompenses ou des pénalités."
       },
       {
-        "terme": "Workflow IA",
-        "definition": "Une séquence d'étapes où l'intelligence artificielle est utilisée pour automatiser ou améliorer une tâche spécifique, par exemple, rechercher des informations ou gérer des contacts."
+        "terme": "Interprétabilité",
+        "definition": "Capacité à comprendre et expliquer le fonctionnement interne et les décisions d'un modèle d'IA."
       },
       {
-        "terme": "Prompt",
-        "definition": "Une instruction ou une question précise donnée à un modèle d'IA pour guider sa réponse ou son action."
+        "terme": "Alignement (IA)",
+        "definition": "Faire en sorte que les objectifs et les comportements d'une IA soient alignés avec les intentions et les valeurs humaines."
       },
       {
-        "terme": "Informatique quantique",
-        "definition": "Un nouveau type d'informatique qui utilise les principes de la mécanique quantique pour résoudre des problèmes trop complexes pour les ordinateurs classiques, ouvrant la voie à des calculs ultra-puissants."
+        "terme": "Agents IA",
+        "definition": "Systèmes d'IA capables d'agir de manière autonome pour atteindre des objectifs dans un environnement donné."
       },
       {
-        "terme": "Neuroprothèse",
-        "definition": "Un dispositif médical qui se connecte au système nerveux (comme le cerveau ou la moelle épinière) pour restaurer une fonction perdue, comme le mouvement ou la sensation."
+        "terme": "Looped Transformers",
+        "definition": "Une architecture de modèle d'IA qui réutilise certains de ses composants pour améliorer l'efficacité ou les performances."
       }
     ],
     "category_summaries": {
-      "actu": "Les actualités du jour mettent en lumière les avancées majeures de l'IA dans des domaines variés. On y découvre comment les modèles de Google DeepMind contribuent à améliorer la détection et le traitement des maladies, et comment la recherche en informatique quantique progresse vers des ordinateurs plus fiables et puissants. Une percée impressionnante en neuroprothèses montre aussi le potentiel de l'IA pour restaurer des fonctions vitales.",
-      "tips": "Cette catégorie regorge de conseils pratiques pour utiliser l'IA au quotidien. Que ce soit pour créer des 'workflows' intelligents avec des outils comme GrokBot afin de mieux gérer ses informations sur les réseaux sociaux, ou pour construire une application de garde-robe personnalisée avec un modèle avancé tel que GPT-6 Astra, l'IA offre des moyens concrets d'automatiser et d'optimiser nos tâches personnelles et professionnelles.",
-      "idees": "Les réflexions du jour nous poussent à envisager l'impact futur de l'IA. Certains pensent que l'IA pourrait inaugurer un nouvel 'âge d'or' pour le jeu vidéo en rendant possibles des créations complexes auparavant irréalisables. D'autres soulignent que, dans le monde en évolution rapide de l'IA, la capacité à s'adapter et à innover plus vite que le changement est le seul avantage durable.",
-      "outils": "Les démonstrations d'outils d'IA révèlent des capacités étonnantes et polyvalentes. Les agents Gemini 4 Argon ne se contentent pas de relever des défis exigeants comme vaincre l'Ender Dragon dans Minecraft après avoir écrit des milliers de programmes. Ils sont également utilisés pour des créations 3D d'une précision incroyable dans des logiciels comme Blender, montrant ainsi la puissance créative de ces modèles d'IA."
+      "actu": "Les annonces du jour incluent la disponibilité de Gemini 4 Argon et des mises à jour pour ChatGPT avec une 'Intelligent UI'. L'acquisition de licences de spectre par Starlink pour devenir un opérateur mobile majeur aux États-Unis est également notée.",
+      "tips": "Sebastian Raschka détaille des aspects techniques de l'entraînement de modèles de raisonnement, notamment via l'apprentissage par renforcement et la distillation. On trouve aussi des conseils sur l'organisation du code et la documentation pour les agents IA.",
+      "idees": "La discussion tourne autour de l'importance capitale de l'interprétabilité pour la sécurité et l'alignement des IA, avec un optimisme renouvelé sur la faisabilité de cette tâche. L'automatisation des décisions par les machines et son impact sur le marché du travail sont également des sujets de réflexion.",
+      "outils": "Des vidéos tutorielles expliquent la distillation pour les modèles de raisonnement, ainsi que des techniques d'apprentissage par renforcement. Une présentation sur les 'Looped Transformers' et leurs différentes implémentations est également proposée, ainsi qu'un défi sur les modèles vision-langage dans le domaine biomédical (MMBU Challenge)."
     },
     "highlights": [
       {
-        "author_name": "Rowan Cheung",
-        "handle": "@rowancheung",
-        "text_fr": "Je suis \"GrokBot-pilled\". La récente mise à jour avec la surveillance native de X ouvre une tonne de nouvelles capacités ! Mes 4 routines préférées (copiez/collez ces prompts) : Routine 1 : Trouver de vrais workflows IA sur X (et ignorer les threads de hype) Chaque matin, ce bot trouve désormais de vrais cas d'utilisation d'IA partagés sur X, et filtre les threads de hype du type \"10 prompts\". \"Chaque jour de semaine à 9h15 dans mon fuseau horaire, cherchez sur X et sur le web de nouveaux workflows IA que les gens exécutent réellement. Ne conservez que les cas qui nomment l'ancienne tâche, l'outil et le résultat : temps gagné, étape supprimée, ou un transfert qui nécessitait auparavant une personne. Supprimez les annonces de produits, les threads \"10 prompts\" et tout ce que l'auteur n'a pas utilisé plus d'une fois. Retournez au maximum 3. Pour chacun, donnez le lien, le travail qu'il remplace, ce dont j'aurais besoin de connecter, et si cela correspond à mon travail. Envoyez-le-moi sur Slack. Ne postez ni ne répondez nulle part ailleurs. Enregistrez ceci comme une routine. Si rien ne correspond, envoyez une ligne le disant.\" Routine 2 : Attraper chaque mention de votre marque Ce bot attrape chaque mention de The Rundown sur X, la labellise et envoie un ping à notre équipe sur Slack pour répondre (essayez de nous tweeter @therundownai et voyez ce qui se passe). \"Chaque jour de semaine à 9h00, cherchez sur X les mentions des dernières 24 heures de [votre marque, @pseudo, ou votre propre nom]. Pour chaque résultat, donnez l'auteur, le lien, un résumé d'une ligne, et si c'est un éloge, une plainte, une question ou neutre. Ne répondez à personne. Publiez le résumé dans [votre canal Slack] et taggez-moi. Enregistrez ceci comme une routine. Si une source est indisponible, indiquez laquelle.\" Routine 3 : Trouver des gens qui recherchent activement ce que vous faites Toutes les 4 heures, ce bot écoute les gens qui recherchent la meilleure newsletter IA sur X, pour que nous sachions exactement ce que les lecteurs recherchent. \"Toutes les 4 heures, cherchez sur X des personnes évaluant [votre catégorie]. Repérez trois choses : les avis ou plaintes concernant [catégorie] ; les posts demandant quelle [catégorie] à utiliser ; et les plaintes concernant le problème que [votre produit] résout. Citez le post, liez-le, nommez le compte et étiquetez-le avis, achat ou plainte. Ignorez tout ce qui a plus de 24 heures, et ignorez les comptes de [catégorie] qui se promeuvent. Publiez sur [votre canal Slack] uniquement s'il y a au moins un nouveau résultat que vous n'avez pas encore partagé. Ne répondez ni n'interagissez avec personne. Enregistrez ceci comme une routine. Si la recherche échoue, signalez l'échec dans Slack.\" Routine 4 : Ne perdez plus jamais un nouveau contact Je rencontre BEAUCOUP de monde lors d'événements. Ce bot parcourt mes nouveaux contacts téléphoniques et me rappelle de faire un suivi avec les nouvelles personnes que je viens de rencontrer. \"Chaque jour de semaine à 8h30 dans mon fuseau horaire, lisez mon carnet d'adresses et listez les contacts ajoutés au cours des 14 derniers jours. Pour chacun, affichez le nom, la date d'ajout, le téléphone, l'e-mail et toute note. Demandez-moi de quoi nous avons parlé avant d'écrire quoi que ce soit. Une fois que je réponds, rédigez une tâche de suivi pour chaque personne dans [votre outil de tâches] avec le contexte attaché. N'envoyez jamais de SMS, d'e-mail ou n'appelez personne. Enregistrez ceci comme une routine. Si le carnet d'adresses est indisponible, dites-le et n'utilisez pas d'anciennes données.\" Grok Bot (@bot) Grok Bot peut maintenant rechercher, lire et surveiller X. Vidéo",
-        "text_original": "I'm GrokBot pilled. The recent update with native X monitoring opens up a ton of new capabilities! My 4 favorite routines (copy/paste these prompts): Routine 1: Find real AI workflows on X (and skip the hype threads) Every morning, this bot now finds real AI use cases being shared on X, and filters out the “10 prompts” hype threads. “Every weekday at 9:15am in my time zone, search X and the web for new AI workflows people are actually running. Keep only cases that name the old task, the tool, and the result: time saved, a step removed, or a handoff that used to need a person. Drop product announcements, “10 prompts” threads, and anything the author has not used more than once. Return at most 3. For each, give the link, the job it replaces, what I would need connected, and whether it fits my work. Send it to me on Slack. Do not post or reply anywhere else. Save this as a routine. If nothing qualifies, send one line saying so.” Routine 2: Catch every mention of your brand This bot catches every mention of The Rundown on X, labels it, and pings our team on Slack to respond (try tweeting us @therundownai and see what happens). “Every weekday at 9:00am, search X for mentions in the last 24 hours of [your brand, @handle, or your own name]. For each hit, give the author, link, a one-line summary, and whether it is praise, complaint, question, or neutral. Do not reply to anyone. Post the digest in [your Slack channel] and tag me. Save this as a routine. If a source is unavailable, say which one.” Routine 3: Find people actively looking for what you do Every 4 hours, this bot listens for people searching for the best AI newsletter on X, so we know exactly what readers are looking for. “Every 4 hours, search X for people evaluating [your category]. Catch three things: reviews or complaints about [category]; posts asking which [category] to use; and complaints about the problem [your product] solves. Quote the post, link it, name the account, and label it review, shopping, or complaint. Skip anything older than 24 hours, and skip [category] accounts promoting themselves. Post to [your Slack channel] only if there is at least one new hit you haven’t already shared. Do not reply to or interact with anyone. Save this as a routine. If the search fails, report the failure in Slack.” Routine 4: Never lose a new contact again I meet A LOT of people at events. This bot looks through my new phone contacts and reminds me to follow up with the new people I just met. “Every weekday at 8:30am in my time zone, read my address book and list contacts added in the last 14 days. For each, show name, date added, phone, email, and any note. Ask me what we talked about before you write anything. Once I reply, draft a follow-up task for each person in [your task tool] with the context attached. Never text, email, or call anyone. Save this as a routine. If the address book is unavailable, say so and do not use old data.” Grok Bot (@bot) Grok Bot can now search, read, and monitor X. Video",
-        "link": "https://nitter.kareem.one/rowancheung/status/2108328114552000842#m",
-        "decryptage": "Un \"workflow IA\" est une séquence d'étapes où l'intelligence artificielle est utilisée pour automatiser ou améliorer une tâche spécifique, par exemple, rechercher des informations ou gérer des contacts. Un \"prompt\" est une instruction ou une question donnée à un modèle d'IA pour obtenir une réponse ou effectuer une action.",
-        "category": "tips",
-        "highlight_reason": "C'est un excellent exemple concret de comment utiliser l'IA (ici GrokBot) avec des \"prompts\" précis pour automatiser des tâches du quotidien, très utile pour un débutant."
-      },
-      {
-        "author_name": "Demis Hassabis",
-        "handle": "@demishassabis",
-        "text_fr": "Quatre agents Gemini 4 Argon, un monde Minecraft partagé, un seul objectif : vaincre l'Ender Dragon. 27 heures et 2 783 programmes auto-écrits plus tard, le dragon est tombé. Article Une équipe d'agents Gemini 4 Argon bat Minecraft Nous avons placé quatre agents Gemini 4 Argon dans un monde de survie Minecraft sécurisé et en sandbox et leur avons donné un seul objectif : vaincre l'Ender Dragon, le boss de fin de jeu. Il s'agissait de nos agents polyvalents.",
-        "text_original": "Four Gemini 4 Argon agents, one shared Minecraft world, one goal: defeat the Ender Dragon. 27 hours and 2,783 self-written programs later, the dragon fell. Article A team of Gemini 4 Argon agents beats Minecraft We placed four Gemini 4 Argon agents in a safely sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon, the boss at the end of the game. These were our general-purpose",
-        "link": "https://nitter.kareem.one/maxencefaldor/status/2111023397106770026#m",
-        "decryptage": "Les \"agents\" sont des intelligences artificielles qui peuvent agir de manière autonome dans un environnement, ici le jeu Minecraft, pour atteindre un objectif donné.",
+        "author_name": "Sebastian Raschka",
+        "handle": "rasbt",
+        "text_fr": "Raisonnement à partir de zéro, round 8, la finale ! Cette dernière conférence de la série couvre la distillation comme alternative efficace aux précédentes séries d'entraînement par apprentissage par renforcement. (Je prévois une courte pause, mais je serai de retour !) 00:00 Introduction et récapitulatif de la série 01:07 Pourquoi distiller un modèle de raisonnement ? 02:51 Distillation douce vs. dure 11:06 Distillation on-policy vs. off-policy 18:09 Préparation des données pour la distillation du raisonnement 22:35 Chargement du jeu de données DeepSeek R1 MATH 28:04 Inspection des traces de raisonnement et des réponses finales 31:27 Tokenisation et modèles de chat 35:58 Pré-tokenisation du jeu de données d'entraînement 39:01 Longueurs de séquence et limite de 2 048 tokens 42:38 Création des ensembles d'entraînement et de validation 45:32 Chargement du modèle de base DeepSeek R1 MATH 46:24 Calcul des probabilités de logarithme des tokens de réponse 54:10 Perte d'entropie croisée pour la distillation 57:25 Assistants de perte d'entraînement et de validation 1:02:03 Implémentation de la boucle d'entraînement par distillation 1:07:26 Exécution du script d'entraînement autonome 1:09:41 Tracé des pertes d'entraînement et de validation 1:11:31 Évaluation des checkpoints sur MATH-500 1:14:09 Comparaison des enseignants et des résultats de distillation 1:16:34 Directions futures pour les modèles de raisonnement 1:19:41 Exercices bonus et prochaines étapes Vidéo",
+        "text_original": "Reasoning From Scratch round 8, the finale! This last lecture in the series covers distillation as an efficient alternative to the previous reinforcement learning training runs. (Planning to take a brief break, but I will be back!) 00:00 Introduction and series recap 01:07 Why distill a reasoning model? 02:51 Soft vs. hard distillation 11:06 On-policy vs. off-policy distillation 18:09 Preparing data for reasoning distillation 22:35 Loading the DeepSeek R1 MATH dataset 28:04 Inspecting reasoning traces and final answers 31:27 Tokenization and chat templates 35:58 Pre-tokenizing the training dataset 39:01 Sequence lengths and the 2,048-token limit 42:38 Creating training and validation splits 45:32 Loading the DeepSeek R1 MATH base model 46:24 Computing answer-token log probabilities 54:10 Cross-entropy loss for distillation 57:25 Training and validation loss helpers 1:02:03 Implementing the distillation training loop 1:07:26 Running the standalone training script 1:09:41 Plotting training and validation losses 1:11:31 Evaluating checkpoints on MATH-500 1:14:09 Comparing teachers and distillation results 1:16:34 Future directions for reasoning models 1:19:41 Bonus exercises and next steps Video",
+        "link": "https://nitter.kareem.one/rasbt/status/2111448141119856866#m",
+        "decryptage": "La distillation permet de créer des modèles d'IA plus légers et rapides en s'inspirant de modèles plus complexes, une technique utile pour optimiser les performances.",
         "category": "outils",
-        "highlight_reason": "Cette prouesse technique dans Minecraft illustre de manière ludique la capacité impressionnante des agents IA de Google à apprendre et à résoudre des problèmes complexes de manière autonome."
+        "highlight_reason": "Excellent tutoriel détaillé sur la distillation, une technique clé pour rendre les modèles d'IA plus accessibles et performants, avec un plan clair et des explications passo à passo."
       },
       {
-        "author_name": "Rowan Cheung",
-        "handle": "@rowancheung",
-        "text_fr": "L'IA devient VRAIMENT bonne pour gérer votre garde-robe. J'ai construit une application avec GPT-6 Astra qui choisit ma tenue chaque matin en fonction de la météo en direct, avec moi comme modèle. C'est super simple à faire : > Téléchargez quelques photos de votre corps entier et une photo de votre visage > Ajoutez votre taille, vos mensurations et vos notes de coupe > Listez les couleurs que vous aimez et celles que vous refusez > Collez le prompt maître et laissez-le construire pendant 1 à 2 heures Une décision de moins chaque matin :^) Vidéo",
-        "text_original": "AI is getting REALLY good at building your wardrobe. I built an app with GPT-6 Astra that picks my outfit every morning based on live weather, with me as the model. It's super simple to do: > Upload a few full-body photos and one face photo > Add your height, sizes, and fit notes > List the colors you like and the ones you refuse > Paste the master prompt and let it build for 1 to 2 hours One less decision every morning :^) Vidéo",
-        "link": "https://nitter.kareem.one/rowancheung/status/2107859082036334613#m",
-        "decryptage": "\"GPT-6 Astra\" est un modèle d'intelligence artificielle avancé (comme ChatGPT) capable de comprendre et de générer du texte, ici utilisé pour créer une application qui donne des conseils vestimentaires personnalisés.",
-        "category": "tips",
-        "highlight_reason": "Ce tweet montre une application très pratique et amusante de l'IA (GPT-6 Astra) pour simplifier une décision quotidienne, rendant l'IA tangible pour un usage personnel."
-      },
-      {
-        "author_name": "Pieter Levels",
-        "handle": "@levelsio",
-        "text_fr": "Les jeux que nous avons toujours voulus, qui n'existaient pas car ils auraient coûté plusieurs fois plus cher à produire qu'ils ne rapporteraient, deviendront bientôt possibles. Il en sera de même pour les jeux que les développeurs voulaient créer, mais qu'ils ne pouvaient pas avec les ressources disponibles. Ce sera un nouvel âge d'or du jeu vidéo.",
-        "text_original": "The games we've long wanted, which didn't exist because they'd cost several times more to make than they'd earn back, will soon become possible. As will the games developers wanted to build, but couldn't with the resources available. It'll be a new golden age of gaming.",
-        "link": "https://nitter.kareem.one/TimSweeneyEpic/status/2111565595594375353#m",
-        "decryptage": null,
+        "author_name": "Aidan McLaughlin",
+        "handle": "aidan_mclau",
+        "text_fr": "l'interprétabilité pourrait être le problème scientifique le plus important au monde en ce moment, car je ne pense pas que nous puissions résoudre l'alignement si nous ne savons pas ce que nous construisons. Je pense avoir de bonnes nouvelles à ce sujet. J'ai co-écrit les premiers travaux sur l'interprétabilité mécaniste chez OpenAI et j'en suis ressorti pessimiste, car les réseaux neuronaux semblaient se replier en nœuds enchevêtrés arbitraires. des années plus tard, j'ai lancé le premier projet d'interprétabilité automatisée à grande échelle d'OpenAI, trouvant environ 2 % des neurones lisibles avec les outils primitifs dont nous disposions avec les outils agentiques modernes et un examen beaucoup plus approfondi, l'image semble totalement différente. la grande majorité des modèles jusqu'à des trillions de paramètres sont lisibles, et leurs circuits magnifiques. de nombreux exemples célèbres de neurones enchevêtrés se sont avérés mal compris. Les obstacles que j'avais prévus ne sont pour la plupart pas là. Je pense maintenant que l'interprétabilité ambitieuse sera résolue au moment où nous en aurons le plus besoin, et peut-être très bientôt, à mesure que les scientifiques automatisés continueront de s'améliorer. Ce pourrait être une leçon amère pour l'interprétabilité : la chose simple, à une échelle absurde, fonctionne déjà-clean.goodfire.com/ Lien Les réseaux neuronaux sont déjà propres Une hypothèse de travail sur les neurones, la généralisation et l'écologie des circuits. already-clean.goodfire.com",
+        "text_original": "interpretability might be the most important scientific problem in the world right now, as I don't think we can solve alignment if we don't know what we're building. I think I have good news about it. I co-authored early work in mechanistic interpretability at OpenAI and came away pessimistic, because neural networks appeared to fold into arbitrary tangled knots. years later, I started openai's first large-scale automated interpretability project, finding about 2% of neurons legible with the primitive tools we had with modern agentic tools and a much closer look, the picture looks totally different. the vast majority in models up to trillions of parameters are legible, and their circuits beautiful. many famous examples of tangled neurons turned out to be misunderstood. The roadblocks I expected mostly aren't there. I now think ambitious interpretability will be solved by the time we need it most, and possibly quite soon, as automated scientists keep improving. it may be a bitter lesson for interpretability: the simple thing, at absurd scale, works already-clean.goodfire.com/ Link Neural Networks Are Already Clean A working hypothesis about neurons, generalization, and the ecology of circuits. already-clean.goodfire.com",
+        "link": "https://nitter.kareem.one/nickcammarata/status/2110757819427574056#m",
+        "decryptage": "L'interprétabilité consiste à comprendre comment fonctionne une IA. Il est crucial pour s'assurer qu'elle agit comme prévu et en toute sécurité (alignement).",
         "category": "idees",
-        "highlight_reason": "Cette réflexion ouvre une perspective excitante sur l'avenir du jeu vidéo grâce à l'IA, en envisageant des créations auparavant impossibles faute de moyens."
+        "highlight_reason": "Un point de vue optimiste et fondamental sur l'interprétabilité, soulignant que comprendre le fonctionnement interne des IA est essentiel pour leur sécurité et que cela pourrait être plus réalisable que prévu."
+      },
+      {
+        "author_name": "Logan Kilpatrick",
+        "handle": "officiallogank",
+        "text_fr": "Nous organisons notre premier \"Bench Summit\" pour réunir des personnes enthousiastes à l'idée de repousser les frontières de l'évaluation des modèles, et plus encore. De bons benchmarks sont une fonction de limitation du progrès des modèles, il y a beaucoup à faire ici ! Rejoignez-nous à SF : rsvp.withgoogle.com/events/b… Lien Bench Summit par Kaggle Bench Summit unit les créateurs et les praticiens qui font progresser la prochaine ère de l'évaluation de l'IA. Rejoignez des experts de Google DeepMind, Kaggle et Zapier pour des conférences, des études de cas de benchmarks du monde réel, des ateliers pratiques...",
+        "text_original": "We are hosting our first \"Bench Summit\" to bring together people excited about pushing the frontier of benchmarking, model evals, and more. Great benchmarks are a gating function for model progress, lots to do here! Join us in SF: rsvp.withgoogle.com/events/b… Link Bench Summit by Kaggle Bench Summit unites creators and practitioners advancing the next era of AI evaluation. Join experts from Google DeepMind, Kaggle, and Zapier for keynotes, real-world benchmark case studies, hands-on...",
+        "link": "https://nitter.kareem.one/OfficialLoganK/status/2110810395598528788#m",
+        "decryptage": "Les benchmarks sont des tests standards qui permettent de mesurer les performances et les progrès des modèles d'IA.",
+        "category": "actu",
+        "highlight_reason": "Annonce d'un événement important axé sur l'évaluation des modèles d'IA (benchmarking), soulignant son rôle crucial pour le développement futur de l'IA."
+      },
+      {
+        "author_name": "Ethan Mollick",
+        "handle": "emollick",
+        "text_fr": "J'écris chaque fois que ce diaporama apparaît, et maintenant de CSAIL. Cela est faux depuis avant que le diaporama ne soit créé. Les systèmes automatisés prennent des décisions de gestion tout le temps (trading, logistique, service client, assurance) et prétendre qu'ils ne le font pas en fait blanchit la responsabilité. MIT CSAIL (@MIT_CSAIL) Un diaporama IBM de 1979. — https://nitter.kareem.one/MIT_CSAIL/status/2111849849830215877#m",
+        "text_original": "I hate this slide every time it comes up, and now from CSAIL This has been false since before the slide was made. Automated systems make management decisions all the time (trading, logistics, customer service, insurance) & pretending they don't actually launders responsibility. MIT CSAIL (@MIT_CSAIL) An IBM slide from 1979. — https://nitter.kareem.one/MIT_CSAIL/status/2111849849830215877#m",
+        "link": "https://nitter.kareem.one/emollick/status/2112030115752456456#m",
+        "decryptage": "Ce tweet aborde la notion que les systèmes automatisés prennent déjà des décisions de gestion, remettant en question l'idée qu'ils ne le font pas et soulignant la responsabilité qui en découle.",
+        "category": "idees",
+        "highlight_reason": "Réflexion critique sur la perception de l'automatisation des décisions, contestant l'idée que les systèmes IA ne font que de l'assistance et insistant sur leur rôle décisionnel actuel et la responsabilité qui l'accompagne."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "Avec des scientifiques du monde entier, nos modèles et outils contribuent à rendre les maladies plus détectables, traitables et évitables. 🧬 De l'identification de variants génétiques rares à l'accélération de la découverte de médicaments, voici comment nous aidons à transformer les découvertes de laboratoire en soins concrets → goo.gle/4i48Cmr",
-          "text_original": "Together with scientists around the world, our models and tools are helping make disease more detectable, treatable, and preventable. 🧬 From pinpointing rare genetic variants to speeding up drug discovery, here’s how we’re helping turn lab breakthroughs into real-world care → goo.gle/4i48Cmr",
-          "link": "https://nitter.kareem.one/GoogleDeepMind/status/2111038207240388770#m",
+          "author_name": "Sebastian Raschka",
+          "handle": "rasbt",
+          "text_fr": "Et encore une fois, le lien YouTube : inv.kareem.one/watch?v=msp69FR5… Lien Construire un modèle de raisonnement à partir de zéro 8 : Distillation Dans cette dernière vidéo, nous examinons la distillation de modèles comme une effi plus... youtube.com",
+          "text_original": "And one more time, the YouTube link: inv.kareem.one/watch?v=msp69FR5… Link Build A Reasoning Model From Scratch 8: Distillation In this final video, we look into model distillation as a more effi... youtube.com",
+          "link": "https://nitter.kareem.one/rasbt/status/2111448141778256161#m",
           "decryptage": null
         },
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "Des progrès magiques vers un \"état magique\" en quantique ! Notre équipe @GoogleQuantumAI a démontré pour la première fois la \"cultivation d'état magique\" sur du matériel physique. Le résultat est une réduction d'erreur de 40x sur notre processeur Willow par rapport aux méthodes précédentes, atteignant une fidélité logique de pointe de 99,99%. C'est un pas de plus vers des ordinateurs quantiques utiles et corrigés d'erreurs pour aider à résoudre les problèmes les plus difficiles. Le résultat est publié dans Science aujourd'hui, regardez la vidéo ci-dessous pour voir comment ça marche Vidéo",
-          "text_original": "Some magical progress towards \"magic state\" in quantum! Our @GoogleQuantumAI team has demonstrated \"magic state cultivation\" on physical hardware for the first time. The result is a 40x error reduction on our Willow processor vs. previous methods, achieving a state-of-the-art 99.99% logical fidelity. It's another step towards useful, error-corrected quantum computers to help solve the hardest problems. The result is published in Science today, watch the video below to see how it works Video",
-          "link": "https://nitter.kareem.one/sundarpichai/status/2110804295352488143#m",
-          "decryptage": "La \"cultivation d'état magique\" est une technique avancée en informatique quantique pour créer des états quantiques très purs et stables, essentiels pour construire des ordinateurs quantiques fiables et résistants aux erreurs."
+          "author_name": "Sebastian Raschka",
+          "handle": "rasbt",
+          "text_fr": "Raisonnement à partir de zéro, round 8, la finale ! Cette dernière conférence de la série couvre la distillation comme alternative efficace aux précédentes séries d'entraînement par apprentissage par renforcement. (Je prévois une courte pause, mais je serai de retour !) 00:00 Introduction et récapitulatif de la série 01:07 Pourquoi distiller un modèle de raisonnement ? 02:51 Distillation douce vs. dure 11:06 Distillation on-policy vs. off-policy 18:09 Préparation des données pour la distillation du raisonnement 22:35 Chargement du jeu de données DeepSeek R1 MATH 28:04 Inspection des traces de raisonnement et des réponses finales 31:27 Tokenisation et modèles de chat 35:58 Pré-tokenisation du jeu de données d'entraînement 39:01 Longueurs de séquence et limite de 2 048 tokens 42:38 Création des ensembles d'entraînement et de validation 45:32 Chargement du modèle de base DeepSeek R1 MATH 46:24 Calcul des probabilités de logarithme des tokens de réponse 54:10 Perte d'entropie croisée pour la distillation 57:25 Assistants de perte d'entraînement et de validation 1:02:03 Implémentation de la boucle d'entraînement par distillation 1:07:26 Exécution du script d'entraînement autonome 1:09:41 Tracé des pertes d'entraînement et de validation 1:11:31 Évaluation des checkpoints sur MATH-500 1:14:09 Comparaison des enseignants et des résultats de distillation 1:16:34 Directions futures pour les modèles de raisonnement 1:19:41 Exercices bonus et prochaines étapes Vidéo",
+          "text_original": "Reasoning From Scratch round 8, the finale! This last lecture in the series covers distillation as an efficient alternative to the previous reinforcement learning training runs. (Planning to take a brief break, but I will be back!) 00:00 Introduction and series recap 01:07 Why distill a reasoning model? 02:51 Soft vs. hard distillation 11:06 On-policy vs. off-policy distillation 18:09 Preparing data for reasoning distillation 22:35 Loading the DeepSeek R1 MATH dataset 28:04 Inspecting reasoning traces and final answers 31:27 Tokenization and chat templates 35:58 Pre-tokenizing the training dataset 39:01 Sequence lengths and the 2,048-token limit 42:38 Creating training and validation splits 45:32 Loading the DeepSeek R1 MATH base model 46:24 Computing answer-token log probabilities 54:10 Cross-entropy loss for distillation 57:25 Training and validation loss helpers 1:02:03 Implementing the distillation training loop 1:07:26 Running the standalone training script 1:09:41 Plotting training and validation losses 1:11:31 Evaluating checkpoints on MATH-500 1:14:09 Comparing teachers and distillation results 1:16:34 Future directions for reasoning models 1:19:41 Bonus exercises and next steps Video",
+          "link": "https://nitter.kareem.one/rasbt/status/2111448141119856866#m",
+          "decryptage": "La distillation permet de créer des modèles d'IA plus légers et rapides en s'inspirant de modèles plus complexes, une technique utile pour optimiser les performances."
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Article complet : nature.com/articles/s41591-0… Lien Une neuroprothèse pour restaurer le mouvement et la sensation de la main chez une personne atteinte de tétraplégie complète Nature Medicine - Un système neuroprothétique bidirectionnel sensorimoteur qui décode les signaux cérébraux associés à l'intention de mouvement tout en délivrant une neuromodulation structurée à la moelle épinière et... nature.com",
-          "text_original": "Full paper: nature.com/articles/s41591-0… Link A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia Nature Medicine - A bidirectional sensorimotor neuroprosthetic system that decodes brain signals associated with movement intention while delivering patterned neuromodulation to the spinal cord and... nature.com",
-          "link": "https://nitter.kareem.one/rowancheung/status/2097712705725747366#m",
-          "decryptage": "Une \"neuroprothèse\" est un appareil qui se connecte au système nerveux (ici le cerveau et la moelle épinière) pour restaurer une fonction perdue, comme le mouvement ou la sensation, grâce à l'analyse des signaux cérébraux et la stimulation des nerfs."
+          "author_name": "Sebastian Raschka",
+          "handle": "rasbt",
+          "text_fr": "Et voici la version YouTube : inv.kareem.one/watch?v=VxfUrUrr… Lien Construire un modèle de raisonnement à partir de zéro 7 : Apprentissage par renforcement 2... Cette deuxième vidéo sur l'apprentissage par renforcement ajoute les ratios de politique coupés...",
+          "text_original": "And here's the YouTube version: inv.kareem.one/watch?v=VxfUrUrr… Link Build A Reasoning Model From Scratch 7: Reinforcement Learning 2... This second video on reinforcement learning adds clipped policy rat...",
+          "link": "https://nitter.kareem.one/rasbt/status/2108908658512036220#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "rasbt",
+          "text_fr": "Raisonnement à partir de zéro : Apprentissage par renforcement avec récompenses vérifiables (RLVR) round 2. Couvre les ratios de politique coupés, le terme de perte KL, les récompenses de format et d'autres astuces GRPO 00:00 Introduction et récapitulatif 01:52 Interprétation des métriques de base GRPO 06:34 Améliorations prévues pour GRPO 08:58 Exécution de tâches d'entraînement plus longues avec des scripts Python 13:39 Exécution du script d'entraînement GRPO de base 17:29 Chargement et tracé des journaux d'entraînement 19:29 Diagnostic d'un entraînement instable 23:55 Évaluation des checkpoints sur MATH-500 26:26 Téléchargement des checkpoints existants 30:09 Suivi des statistiques d'avantage 34:53 Comprendre l'entropie 40:32 Calcul de l'entropie dans PyTorch 44:17 Interprétation des valeurs d'entropie 48:58 Ajout du suivi de l'entropie à GRPO 53:36 Analyse des métriques d'avantage et d'entropie 56:18 Stabilisation de GRPO avec des ratios de politique coupés 1:03:27 Implémentation de la perte de politique coupée 1:09:39 Analyse des résultats d'entraînement de politique coupée 1:11:25 Divergence KL et piratage de récompense 1:15:12 Ajout d'un terme de perte KL 1:20:34 Limites de la perte KL simplifiée 1:23:04 Récompenses de format et tags de réflexion 1:25:47 Ajout de tokens spéciaux au tokenizer 1:30:29 Implémentation de la récompense de format 1:35:56 Analyse de l'entraînement de récompense de format 1:38:25 Récompenser le format uniquement pour les réponses correctes 1:40:48 Améliorations supplémentaires de GRPO issues de la recherche 1:45:43 Prochaines étapes et distillation Vidéo",
+          "text_original": "Reasoning From Scratch: Reinforcement Learning with Verifiable Rewards (RLVR) round 2. Covering clipped policy ratios, KL loss term, format rewards, and other GRPO tips & tricks. 00:00 Introduction and recap 01:52 Interpreting basic GRPO training metrics 06:34 Planned improvements to GRPO 08:58 Running longer training jobs with Python scripts 13:39 Running the baseline GRPO training script 17:29 Loading and plotting training logs 19:29 Diagnosing unstable training 23:55 Evaluating checkpoints on MATH-500 26:26 Downloading existing checkpoints 30:09 Tracking advantage statistics 34:53 Understanding entropy 40:32 Computing entropy in PyTorch 44:17 Interpreting entropy values 48:58 Adding entropy tracking to GRPO 53:36 Analyzing advantage and entropy metrics 56:18 Stabilizing GRPO with clipped policy ratios 1:03:27 Implementing the clipped policy loss 1:09:39 Analyzing clipped policy training results 1:11:25 KL divergence and reward hacking 1:15:12 Adding a KL loss term 1:20:34 Limitations of the simplified KL loss 1:23:04 Format rewards and think tags 1:25:47 Adding special tokens to the tokenizer 1:30:29 Implementing the format reward 1:35:56 Analyzing format reward training 1:38:25 Rewarding format only for correct answers 1:40:48 Further GRPO improvements from research 1:45:43 Next steps and distillation Video",
+          "link": "https://nitter.kareem.one/rasbt/status/2108908657786355788#m",
+          "decryptage": "L'apprentissage par renforcement (RL) est une méthode où une IA apprend par essais et erreurs. Les 'ratios de politique coupés' et la 'perte KL' sont des techniques pour stabiliser cet apprentissage. Les 'récompenses de format' visent à encourager l'IA à produire des sorties structurées."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "aidan_mclau",
+          "text_fr": "Nous avons annoncé un accord pour acquérir un portefeuille de licences de spectre de bande basse à l'échelle nationale qui ouvrira la voie à @Starlink pour devenir un opérateur mobile majeur aux États-Unis. Avec ce nouveau spectre et notre constellation Gen2, Starlink Mobile peut garantir aux Américains l'accès à un haut débit mobile à haute vitesse où qu'ils soient → spacex.com/updates#starlink-…",
+          "text_original": "We announced an agreement to acquire a nationwide low-band spectrum license portfolio that will pave the way for @Starlink to become a major mobile carrier in the US. With this new spectrum and our constellation Gen2, Starlink Mobile can ensure Americans have access to high-speed mobile broadband no matter where they are → spacex.com/updates#starlink-…",
+          "link": "https://nitter.kareem.one/SpaceX/status/2108291133025698301#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "aidan_mclau",
+          "text_fr": "Informations sur la façon dont nous avons travaillé à la sécurité chez OpenAI Notez que jusqu'à ce qu'il y ait un \"brief\" de sécurité pour cela, aucun type de charge de travail frontalière ne peut commencer – cela a de vraies dents, et a déjà été une bonne force de motivation pour beaucoup de travaux de sécurité",
+          "text_original": "Some info on how we’ve been working towards safety cases at OpenAI Note that until there is a safety “brief” for it, any type of frontier workload cannot start – this has real teeth, and has already been a good motivating force for a lot of safety work",
+          "link": "https://nitter.kareem.one/MicahCarroll/status/2108747629442240771#m",
+          "decryptage": "Un 'safety case' est une justification formelle qui prouve qu'un système (ici, une IA) est suffisamment sûr pour être utilisé. Les 'frontier workloads' désignent les applications les plus avancées et potentiellement les plus risquées de l'IA."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "aidan_mclau",
+          "text_fr": "l'intelligence vient de subir un lifting majeur— et avec @AndrewHojel (+beaucoup d'autres) nous l'avons aussi rendue beaucoup plus rapide :) OpenAI (@OpenAI) GPT-6 et Interface Utilisateur Intelligente, maintenant déployés dans ChatGPT pour tous. L'Interface Utilisateur Intelligente dans ChatGPT offre des réponses rapides et interactives qui rendent les questions quotidiennes plus visuelles, les sujets complexes plus faciles à comprendre, et des outils interactifs pour votre tâche disponibles sur le champ. Vidéo — https://nitter.kareem.one/OpenAI/status/2107894997538525580#m",
+          "text_original": "intelligence just got a major facelift— and with @AndrewHojel (+many others) we made it way faster as well :) OpenAI (@OpenAI) GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. Video — https://nitter.kareem.one/OpenAI/status/2107894997538525580#m",
+          "link": "https://nitter.kareem.one/albert5tam/status/2108649244643283349#m",
+          "decryptage": "Une 'Intelligent UI' (Interface Utilisateur Intelligente) vise à rendre les interactions avec l'IA plus fluides, visuelles et adaptées à la tâche, en allant au-delà du simple texte."
+        },
+        {
+          "author_name": "Logan Kilpatrick",
+          "handle": "officiallogank",
+          "text_fr": "Nous organisons notre premier \"Bench Summit\" pour réunir des personnes enthousiastes à l'idée de repousser les frontières de l'évaluation des modèles, et plus encore. De bons benchmarks sont une fonction de limitation du progrès des modèles, il y a beaucoup à faire ici ! Rejoignez-nous à SF : rsvp.withgoogle.com/events/b… Lien Bench Summit par Kaggle Bench Summit unit les créateurs et les praticiens qui font progresser la prochaine ère de l'évaluation de l'IA. Rejoignez des experts de Google DeepMind, Kaggle et Zapier pour des conférences, des études de cas de benchmarks du monde réel, des ateliers pratiques...",
+          "text_original": "We are hosting our first \"Bench Summit\" to bring together people excited about pushing the frontier of benchmarking, model evals, and more. Great benchmarks are a gating function for model progress, lots to do here! Join us in SF: rsvp.withgoogle.com/events/b… Link Bench Summit by Kaggle Bench Summit unites creators and practitioners advancing the next era of AI evaluation. Join experts from Google DeepMind, Kaggle, and Zapier for keynotes, real-world benchmark case studies, hands-on...",
+          "link": "https://nitter.kareem.one/OfficialLoganK/status/2110810395598528788#m",
+          "decryptage": "Les benchmarks sont des tests standards qui permettent de mesurer les performances et les progrès des modèles d'IA.",
+          "category": "actu"
+        },
+        {
+          "author_name": "Logan Kilpatrick",
+          "handle": "officiallogank",
+          "text_fr": "Voici aussi le lien YouTube ! inv.kareem.one/watch?v=Jh6mgf9M… Lien Gemini 4 Argon : Quoi de neuf et qu'est-ce qui nous attend Josh Woodward, Melvin Johnson, Sergey Brin et Tulsee Doshi de G...",
+          "text_original": "Here is the YouTube link as well! inv.kareem.one/watch?v=Jh6mgf9M… Link Gemini 4 Argon: What’s new and what’s next Josh Woodward, Melvin Johnson, Sergey Brin, and Tulsee Doshi from G...",
+          "link": "https://nitter.kareem.one/OfficialLoganK/status/2110421595252805668#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Logan Kilpatrick",
+          "handle": "officiallogank",
+          "text_fr": "Une conversation avec Sergey Brin, @joshwoodward , @tulseedoshi , et @melvinjohnsonp à propos de Gemini 4 Argon, comment nous en sommes arrivés là, et la voie à suivre ! Vidéo",
+          "text_original": "A conversation with Sergey Brin, @joshwoodward , @tulseedoshi , and @melvinjohnsonp about Gemini 4 Argon, how we got here, and the path ahead! Video",
+          "link": "https://nitter.kareem.one/OfficialLoganK/status/2110420958737813612#m",
+          "decryptage": "Gemini est une famille de modèles d'IA développée par Google."
+        },
+        {
+          "author_name": "Logan Kilpatrick",
+          "handle": "officiallogank",
+          "text_fr": "4 Argon est maintenant disponible : )",
+          "text_original": "4 Argon is now available : )",
+          "link": "https://nitter.kareem.one/OfficialLoganK/status/2110040833995215273#m",
+          "decryptage": "Il s'agit de la dernière version du modèle d'IA Gemini de Google."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "AlphaSignalAI",
+          "text_fr": "Nous présentons la rencontre SF AI Assistant Meetup avec @merit_systems le 19 octobre. ​Cet événement est un espace pour les utilisateurs expérimentés et les personnes intéressées par le monde des assistants IA pour se rencontrer, apprendre à se connaître et partager des astuces/techniques sur la meilleure façon d'utiliser ces outils. RSVP : luma.com/wabd65c0 Lien SF AI Assistants Meetup · Luma Bonjour chers amateurs d'IA assistants de SF ! Bienvenue à la première rencontre officielle de SF. C'est un espace pour les utilisateurs expérimentés et les personnes intéressées par le monde des assistants IA pour… luma.com David Pawlan (@DavidPawlan) Amateurs d'assistants IA de SF, votre heure est venue ! 19 octobre. Préparez-vous pour une rencontre épique sur les assistants IA 🤖 Annoncés : > plus de sponsors/partenaires > lieu > agenda de l'événement RSVP ici : luma.com/wabd65c0 — https://nitter.kareem.one/DavidPawlan/status/2108302149956358181#m",
+          "text_original": "We're presenting the SF AI Assistant Meetup with @merit_systems on October 19. ​This event is a space for power users and people interested in the world of AI Assistants to hang out, get to know one another, and share tips/tricks on how to best use these tools. RSVP: luma.com/wabd65c0 Link SF AI Assistants Meetup · Luma Hello SF AI Assistant lovers! Welcome to the first official SF meetup. This is a space for power users and people interested in the world of AI Assistants to… luma.com David Pawlan (@DavidPawlan) SF AI Assistant lovers, your time has come! October 19th. Get ready for an epic AI assistant meetup 🤖 To be announced: > more sponsors/partners > location > event agenda RSVP here: luma.com/wabd65c0 — https://nitter.kareem.one/DavidPawlan/status/2108302149956358181#m",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2108307164335157505#m",
+          "decryptage": "Les assistants IA sont des outils comme ChatGPT ou Claude, conçus pour aider les utilisateurs dans diverses tâches."
         }
       ],
       "tips": [
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Je suis \"GrokBot-pilled\". La récente mise à jour avec la surveillance native de X ouvre une tonne de nouvelles capacités ! Mes 4 routines préférées (copiez/collez ces prompts) : Routine 1 : Trouver de vrais workflows IA sur X (et ignorer les threads de hype) Chaque matin, ce bot trouve désormais de vrais cas d'utilisation d'IA partagés sur X, et filtre les threads de hype du type \"10 prompts\". \"Chaque jour de semaine à 9h15 dans mon fuseau horaire, cherchez sur X et sur le web de nouveaux workflows IA que les gens exécutent réellement. Ne conservez que les cas qui nomment l'ancienne tâche, l'outil et le résultat : temps gagné, étape supprimée, ou un transfert qui nécessitait auparavant une personne. Supprimez les annonces de produits, les threads \"10 prompts\" et tout ce que l'auteur n'a pas utilisé plus d'une fois. Retournez au maximum 3. Pour chacun, donnez le lien, le travail qu'il remplace, ce dont j'aurais besoin de connecter, et si cela correspond à mon travail. Envoyez-le-moi sur Slack. Ne postez ni ne répondez nulle part ailleurs. Enregistrez ceci comme une routine. Si rien ne correspond, envoyez une ligne le disant.\" Routine 2 : Attraper chaque mention de votre marque Ce bot attrape chaque mention de The Rundown sur X, la labellise et envoie un ping à notre équipe sur Slack pour répondre (essayez de nous tweeter @therundownai et voyez ce qui se passe). \"Chaque jour de semaine à 9h00, cherchez sur X les mentions des dernières 24 heures de [votre marque, @pseudo, ou votre propre nom]. Pour chaque résultat, donnez l'auteur, le lien, un résumé d'une ligne, et si c'est un éloge, une plainte, une question ou neutre. Ne répondez à personne. Publiez le résumé dans [votre canal Slack] et taggez-moi. Enregistrez ceci comme une routine. Si une source est indisponible, indiquez laquelle.\" Routine 3 : Trouver des gens qui recherchent activement ce que vous faites Toutes les 4 heures, ce bot écoute les gens qui recherchent la meilleure newsletter IA sur X, pour que nous sachions exactement ce que les lecteurs recherchent. \"Toutes les 4 heures, cherchez sur X des personnes évaluant [votre catégorie]. Repérez trois choses : les avis ou plaintes concernant [catégorie] ; les posts demandant quelle [catégorie] à utiliser ; et les plaintes concernant le problème que [votre produit] résout. Citez le post, liez-le, nommez le compte et étiquetez-le avis, achat ou plainte. Ignorez tout ce qui a plus de 24 heures, et ignorez les comptes de [catégorie] qui se promeuvent. Publiez sur [votre canal Slack] uniquement s'il y a au moins un nouveau résultat que vous n'avez pas encore partagé. Ne répondez ni n'interagissez avec personne. Enregistrez ceci comme une routine. Si la recherche échoue, signalez l'échec dans Slack.\" Routine 4 : Ne perdez plus jamais un nouveau contact Je rencontre BEAUCOUP de monde lors d'événements. Ce bot parcourt mes nouveaux contacts téléphoniques et me rappelle de faire un suivi avec les nouvelles personnes que je viens de rencontrer. \"Chaque jour de semaine à 8h30 dans mon fuseau horaire, lisez mon carnet d'adresses et listez les contacts ajoutés au cours des 14 derniers jours. Pour chacun, affichez le nom, la date d'ajout, le téléphone, l'e-mail et toute note. Demandez-moi de quoi nous avons parlé avant d'écrire quoi que ce soit. Une fois que je réponds, rédigez une tâche de suivi pour chaque personne dans [votre outil de tâches] avec le contexte attaché. N'envoyez jamais de SMS, d'e-mail ou n'appelez personne. Enregistrez ceci comme une routine. Si le carnet d'adresses est indisponible, dites-le et n'utilisez pas d'anciennes données.\" Grok Bot (@bot) Grok Bot peut maintenant rechercher, lire et surveiller X. Vidéo",
-          "text_original": "I'm GrokBot pilled. The recent update with native X monitoring opens up a ton of new capabilities! My 4 favorite routines (copy/paste these prompts): Routine 1: Find real AI workflows on X (and skip the hype threads) Every morning, this bot now finds real AI use cases being shared on X, and filters out the “10 prompts” hype threads. “Every weekday at 9:15am in my time zone, search X and the web for new AI workflows people are actually running. Keep only cases that name the old task, the tool, and the result: time saved, a step removed, or a handoff that used to need a person. Drop product announcements, “10 prompts” threads, and anything the author has not used more than once. Return at most 3. For each, give the link, the job it replaces, what I would need connected, and whether it fits my work. Send it to me on Slack. Do not post or reply anywhere else. Save this as a routine. If nothing qualifies, send one line saying so.” Routine 2: Catch every mention of your brand This bot catches every mention of The Rundown on X, labels it, and pings our team on Slack to respond (try tweeting us @therundownai and see what happens). “Every weekday at 9:00am, search X for mentions in the last 24 hours of [your brand, @handle, or your own name]. For each hit, give the author, link, a one-line summary, and whether it is praise, complaint, question, or neutral. Do not reply to anyone. Post the digest in [your Slack channel] and tag me. Save this as a routine. If a source is unavailable, say which one.” Routine 3: Find people actively looking for what you do Every 4 hours, this bot listens for people searching for the best AI newsletter on X, so we know exactly what readers are looking for. “Every 4 hours, search X for people evaluating [your category]. Catch three things: reviews or complaints about [category]; posts asking which [category] to use; and complaints about the problem [your product] solves. Quote the post, link it, name the account, and label it review, shopping, or complaint. Skip anything older than 24 hours, and skip [category] accounts promoting themselves. Post to [your Slack channel] only if there is at least one new hit you haven’t already shared. Do not reply to or interact with anyone. Save this as a routine. If the search fails, report the failure in Slack.” Routine 4: Never lose a new contact again I meet A LOT of people at events. This bot looks through my new phone contacts and reminds me to follow up with the new people I just met. “Every weekday at 8:30am in my time zone, read my address book and list contacts added in the last 14 days. For each, show name, date added, phone, email, and any note. Ask me what we talked about before you write anything. Once I reply, draft a follow-up task for each person in [your task tool] with the context attached. Never text, email, or call anyone. Save this as a routine. If the address book is unavailable, say so and do not use old data.” Grok Bot (@bot) Grok Bot can now search, read, and monitor X. Video",
-          "link": "https://nitter.kareem.one/rowancheung/status/2108328114552000842#m",
-          "decryptage": "Un \"workflow IA\" est une séquence d'étapes où l'intelligence artificielle est utilisée pour automatiser ou améliorer une tâche spécifique, par exemple, rechercher des informations ou gérer des contacts. Un \"prompt\" est une instruction ou une question donnée à un modèle d'IA pour obtenir une réponse ou effectuer une action."
+          "author_name": "Sebastian Raschka",
+          "handle": "rasbt",
+          "text_fr": "Raisonnement à partir de zéro, round 8, la finale ! Cette dernière conférence de la série couvre la distillation comme alternative efficace aux précédentes séries d'entraînement par apprentissage par renforcement. (Je prévois une courte pause, mais je serai de retour !) 00:00 Introduction et récapitulatif de la série 01:07 Pourquoi distiller un modèle de raisonnement ? 02:51 Distillation douce vs. dure 11:06 Distillation on-policy vs. off-policy 18:09 Préparation des données pour la distillation du raisonnement 22:35 Chargement du jeu de données DeepSeek R1 MATH 28:04 Inspection des traces de raisonnement et des réponses finales 31:27 Tokenisation et modèles de chat 35:58 Pré-tokenisation du jeu de données d'entraînement 39:01 Longueurs de séquence et limite de 2 048 tokens 42:38 Création des ensembles d'entraînement et de validation 45:32 Chargement du modèle de base DeepSeek R1 MATH 46:24 Calcul des probabilités de logarithme des tokens de réponse 54:10 Perte d'entropie croisée pour la distillation 57:25 Assistants de perte d'entraînement et de validation 1:02:03 Implémentation de la boucle d'entraînement par distillation 1:07:26 Exécution du script d'entraînement autonome 1:09:41 Tracé des pertes d'entraînement et de validation 1:11:31 Évaluation des checkpoints sur MATH-500 1:14:09 Comparaison des enseignants et des résultats de distillation 1:16:34 Directions futures pour les modèles de raisonnement 1:19:41 Exercices bonus et prochaines étapes Vidéo",
+          "text_original": "Reasoning From Scratch round 8, the finale! This last lecture in the series covers distillation as an efficient alternative to the previous reinforcement learning training runs. (Planning to take a brief break, but I will be back!) 00:00 Introduction and series recap 01:07 Why distill a reasoning model? 02:51 Soft vs. hard distillation 11:06 On-policy vs. off-policy distillation 18:09 Preparing data for reasoning distillation 22:35 Loading the DeepSeek R1 MATH dataset 28:04 Inspecting reasoning traces and final answers 31:27 Tokenization and chat templates 35:58 Pre-tokenizing the training dataset 39:01 Sequence lengths and the 2,048-token limit 42:38 Creating training and validation splits 45:32 Loading the DeepSeek R1 MATH base model 46:24 Computing answer-token log probabilities 54:10 Cross-entropy loss for distillation 57:25 Training and validation loss helpers 1:02:03 Implementing the distillation training loop 1:07:26 Running the standalone training script 1:09:41 Plotting training and validation losses 1:11:31 Evaluating checkpoints on MATH-500 1:14:09 Comparing teachers and distillation results 1:16:34 Future directions for reasoning models 1:19:41 Bonus exercises and next steps Video",
+          "link": "https://nitter.kareem.one/rasbt/status/2111448141119856866#m",
+          "decryptage": "La distillation permet de créer des modèles d'IA plus légers et rapides en s'inspirant de modèles plus complexes, une technique utile pour optimiser les performances."
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Le workflow complet et le prompt que j'ai posté sur le Community Workflow Hub de The Rundown : app.therundown.ai/community/… Lien Construire une application de garde-robe personnelle sensible à la météo… | The Rundown University Construire une application de garde-robe personnelle sensible à la météo avec GPT-6 Astra : J'ai utilisé Astra pour redessiner ma garde-robe personnelle. Je veux mieux m'habiller, mais mon pire absolu… app.therundown.ai",
-          "text_original": "The full workflow and prompt that I posted on The Rundown's Community Workflow Hub: app.therundown.ai/community/… Link Build a Weather-Aware Personal… | The Rundown University Build a Weather-Aware Personal Wardrobe App with GPT-6 Astra: I used Astra to redesign my personal wardrobe. I want to dress better, but my absolute worst… app.therundown.ai",
-          "link": "https://nitter.kareem.one/rowancheung/status/2107859093977460785#m",
-          "decryptage": "Un \"workflow\" est une série d'étapes définies pour accomplir une tâche, et un \"prompt\" est l'instruction donnée à l'IA pour qu'elle exécute ce workflow."
+          "author_name": "Sebastian Raschka",
+          "handle": "rasbt",
+          "text_fr": "Raisonnement à partir de zéro : Apprentissage par renforcement avec récompenses vérifiables (RLVR) round 2. Couvre les ratios de politique coupés, le terme de perte KL, les récompenses de format et d'autres astuces GRPO 00:00 Introduction et récapitulatif 01:52 Interprétation des métriques de base GRPO 06:34 Améliorations prévues pour GRPO 08:58 Exécution de tâches d'entraînement plus longues avec des scripts Python 13:39 Exécution du script d'entraînement GRPO de base 17:29 Chargement et tracé des journaux d'entraînement 19:29 Diagnostic d'un entraînement instable 23:55 Évaluation des checkpoints sur MATH-500 26:26 Téléchargement des checkpoints existants 30:09 Suivi des statistiques d'avantage 34:53 Comprendre l'entropie 40:32 Calcul de l'entropie dans PyTorch 44:17 Interprétation des valeurs d'entropie 48:58 Ajout du suivi de l'entropie à GRPO 53:36 Analyse des métriques d'avantage et d'entropie 56:18 Stabilisation de GRPO avec des ratios de politique coupés 1:03:27 Implémentation de la perte de politique coupée 1:09:39 Analyse des résultats d'entraînement de politique coupée 1:11:25 Divergence KL et piratage de récompense 1:15:12 Ajout d'un terme de perte KL 1:20:34 Limites de la perte KL simplifiée 1:23:04 Récompenses de format et tags de réflexion 1:25:47 Ajout de tokens spéciaux au tokenizer 1:30:29 Implémentation de la récompense de format 1:35:56 Analyse de l'entraînement de récompense de format 1:38:25 Récompenser le format uniquement pour les réponses correctes 1:40:48 Améliorations supplémentaires de GRPO issues de la recherche 1:45:43 Prochaines étapes et distillation Vidéo",
+          "text_original": "Reasoning From Scratch: Reinforcement Learning with Verifiable Rewards (RLVR) round 2. Covering clipped policy ratios, KL loss term, format rewards, and other GRPO tips & tricks. 00:00 Introduction and recap 01:52 Interpreting basic GRPO training metrics 06:34 Planned improvements to GRPO 08:58 Running longer training jobs with Python scripts 13:39 Running the baseline GRPO training script 17:29 Loading and plotting training logs 19:29 Diagnosing unstable training 23:55 Evaluating checkpoints on MATH-500 26:26 Downloading existing checkpoints 30:09 Tracking advantage statistics 34:53 Understanding entropy 40:32 Computing entropy in PyTorch 44:17 Interpreting entropy values 48:58 Adding entropy tracking to GRPO 53:36 Analyzing advantage and entropy metrics 56:18 Stabilizing GRPO with clipped policy ratios 1:03:27 Implementing the clipped policy loss 1:09:39 Analyzing clipped policy training results 1:11:25 KL divergence and reward hacking 1:15:12 Adding a KL loss term 1:20:34 Limitations of the simplified KL loss 1:23:04 Format rewards and think tags 1:25:47 Adding special tokens to the tokenizer 1:30:29 Implementing the format reward 1:35:56 Analyzing format reward training 1:38:25 Rewarding format only for correct answers 1:40:48 Further GRPO improvements from research 1:45:43 Next steps and distillation Video",
+          "link": "https://nitter.kareem.one/rasbt/status/2108908657786355788#m",
+          "decryptage": "L'apprentissage par renforcement (RL) est une méthode où une IA apprend par essais et erreurs. Les 'ratios de politique coupés' et la 'perte KL' sont des techniques pour stabiliser cet apprentissage. Les 'récompenses de format' visent à encourager l'IA à produire des sorties structurées."
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "L'IA devient VRAIMENT bonne pour gérer votre garde-robe. J'ai construit une application avec GPT-6 Astra qui choisit ma tenue chaque matin en fonction de la météo en direct, avec moi comme modèle. C'est super simple à faire : > Téléchargez quelques photos de votre corps entier et une photo de votre visage > Ajoutez votre taille, vos mensurations et vos notes de coupe > Listez les couleurs que vous aimez et celles que vous refusez > Collez le prompt maître et laissez-le construire pendant 1 à 2 heures Une décision de moins chaque matin :^) Vidéo",
-          "text_original": "AI is getting REALLY good at building your wardrobe. I built an app with GPT-6 Astra that picks my outfit every morning based on live weather, with me as the model. It's super simple to do: > Upload a few full-body photos and one face photo > Add your height, sizes, and fit notes > List the colors you like and the ones you refuse > Paste the master prompt and let it build for 1 to 2 hours One less decision every morning :^) Vidéo",
-          "link": "https://nitter.kareem.one/rowancheung/status/2107859082036334613#m",
-          "decryptage": "\"GPT-6 Astra\" est un modèle d'intelligence artificielle avancé (comme ChatGPT) capable de comprendre et de générer du texte, ici utilisé pour créer une application qui donne des conseils vestimentaires personnalisés."
+          "author_name": "AlphaSignal",
+          "handle": "AlphaSignalAI",
+          "text_fr": "Vous avez probablement entendu parler du buzz autour des Transformers en boucle, mais lequel ? Au cours du dernier mois, le même mot a couvert trois astuces de réutilisation. Implémenter la mauvaise brûle une semaine d'entraînement. Il budgétise également un fichier 3B comme un décodage 3B. Nous avons ouvert un modèle ouvert de transformeur en boucle, Nanbeige 4.2 : > 22 couches, deux passes > 44 applications, mêmes poids > Environ deux fois le calcul de bloc > KV cache double avec lui Il a conservé environ 75 % de l'efficacité de tokens d'un transformeur standard. Le partage du cache a divisé sa mémoire par deux. Et les gains de qualité étaient constamment inférieurs. Une deuxième conception transporte le jeton d'état de jeton en jeton. La longueur de la séquence est la profondeur. L'entraînement a utilisé 500 millions de tokens. Cette course a coûté environ 20 fois plus d'heures GPU. Alors, quelle astuce de réutilisation est le tweet viral ? Si des boucles supplémentaires n'augmentent pas la qualité, que payez-vous ? Le fichier a-t-il encore besoin d'une deuxième mise en cache ? Répartition complète ↓↓",
+          "text_original": "You’ve probably heard the buzz around Looped transformers, but which one? Over the past month, the same word covered three reuse tricks. Implementing the wrong one burns a training week. It also budgets a 3B file like a 3B decode. We opened a looped transformer open model, Nanbeige 4.2: > 22 layers, two passes > 44 applications, same weights > About twice the block compute > KV cache doubles with it It kept about 75% of a standard Transformer's token efficiency. Sharing the cache halved its memory. And quality gains were consistently lower. A second design carries state token to token. Sequence length is the depth. Training used 500 million tokens. That run cost about 20 times the GPU-hours. So, Which reuse trick is the viral tweet? If extra loops do not raise quality, what are you paying? Does the file still need a second cache? Full Breakdown ↓↓",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895777393541555#m",
+          "decryptage": "Les 'Looped Transformers' sont une technique d'optimisation pour les modèles d'IA qui réutilise des parties du modèle. Le 'KV cache' est une mémoire utilisée par les Transformers pour accélérer le traitement."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "AlphaSignalAI",
+          "text_fr": "L'article examine ce qui appartient à AGENTS.md, aux documents de conception et aux tests. Répartition complète ↓ alphasignal.ai/news/what-bel… Lien Que faut-il inclure dans AGENTS.md, les documents de conception et les tests ? | AlphaSignal L'étude suit 247 694 durées d'instructions dans 1 867 dépôts et rapporte une croissance moyenne du nombre d'instructions de 226 %.",
+          "text_original": "The article examines what belongs in AGENTS.md, design documents, and tests. Full breakdown ↓ alphasignal.ai/news/what-bel… Link What Belongs in AGENTS.md, Design Docs and Tests? | AlphaSignal The study tracks 247,694 instruction lifetimes across 1,867 repositories and reports average instruction-count growth of 226%.",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2104975648527986711#m",
+          "decryptage": "Ce tweet donne des conseils sur l'organisation du code et de la documentation pour les 'agents IA', qui sont des systèmes d'IA conçus pour agir de manière autonome."
         }
       ],
       "idees": [
         {
-          "author_name": "Pieter Levels",
-          "handle": "@levelsio",
-          "text_fr": "Les jeux que nous avons toujours voulus, qui n'existaient pas car ils auraient coûté plusieurs fois plus cher à produire qu'ils ne rapporteraient, deviendront bientôt possibles. Il en sera de même pour les jeux que les développeurs voulaient créer, mais qu'ils ne pouvaient pas avec les ressources disponibles. Ce sera un nouvel âge d'or du jeu vidéo.",
-          "text_original": "The games we've long wanted, which didn't exist because they'd cost several times more to make than they'd earn back, will soon become possible. As will the games developers wanted to build, but couldn't with the resources available. It'll be a new golden age of gaming.",
-          "link": "https://nitter.kareem.one/TimSweeneyEpic/status/2111565595594375353#m",
-          "decryptage": null
+          "author_name": "Sebastian Raschka",
+          "handle": "rasbt",
+          "text_fr": "Discussion matinale impromptue avec Juergen Schmidhuber et Jake Newfield philosophiant sur l'IA. Désolé, mon micro s'est déconnecté d'une manière ou d'une autre, mais Juergen avait de toute façon les points les plus intéressants ! Hermetiq (@HermetiqAI) Notre PDG @Jake_Newfield a réuni @SchmidhuberAI (\"père de l'IA\" et pionnier du deep learning) et @rasbt (auteur de Build a Large Language Model), pour discuter de l'avenir de l'humanité avec l'IA : inv.kareem.one/watch?v=fcOTx06q… — https://nitter.kareem.one/HermetiqAI/status/2107235570149974216#m",
+          "text_original": "Spontaneous morning chat with Juergen Schmidhuber and Jake Newfield philosophizing about AI. Sry my mic somehow disconnected but Juergen had the more interesting points anyways! Hermetiq (@HermetiqAI) Our CEO @Jake_Newfield brought together @SchmidhuberAI (\"father of AI\" and pioneer of deep learning) and @rasbt (author of Build a Large Language Model), to discuss humanity’s future with AI: inv.kareem.one/watch?v=fcOTx06q… — https://nitter.kareem.one/HermetiqAI/status/2107235570149974216#m",
+          "link": "https://nitter.kareem.one/rasbt/status/2107500537411424429#m",
+          "decryptage": "Juergen Schmidhuber est une figure historique dans le domaine de l'IA, reconnu pour ses contributions fondamentales au deep learning."
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "La seule barrière qui reste est la capacité à bouger plus vite que le rythme du changement.",
-          "text_original": "The only moat left is the ability to move faster than the pace of change",
-          "link": "https://nitter.kareem.one/rowancheung/status/2110756703042244781#m",
-          "decryptage": "Ici, \"barrière\" (moat en anglais) fait référence à un avantage concurrentiel durable : l'idée est que dans le monde de l'IA, le seul avantage qui compte est la capacité à s'adapter et innover rapidement."
+          "author_name": "Aidan McLaughlin",
+          "handle": "aidan_mclau",
+          "text_fr": "l'interprétabilité pourrait être le problème scientifique le plus important au monde en ce moment, car je ne pense pas que nous puissions résoudre l'alignement si nous ne savons pas ce que nous construisons. Je pense avoir de bonnes nouvelles à ce sujet. J'ai co-écrit les premiers travaux sur l'interprétabilité mécaniste chez OpenAI et j'en suis ressorti pessimiste, car les réseaux neuronaux semblaient se replier en nœuds enchevêtrés arbitraires. des années plus tard, j'ai lancé le premier projet d'interprétabilité automatisée à grande échelle d'OpenAI, trouvant environ 2 % des neurones lisibles avec les outils primitifs dont nous disposions avec les outils agentiques modernes et un examen beaucoup plus approfondi, l'image semble totalement différente. la grande majorité des modèles jusqu'à des trillions de paramètres sont lisibles, et leurs circuits magnifiques. de nombreux exemples célèbres de neurones enchevêtrés se sont avérés mal compris. Les obstacles que j'avais prévus ne sont pour la plupart pas là. Je pense maintenant que l'interprétabilité ambitieuse sera résolue au moment où nous en aurons le plus besoin, et peut-être très bientôt, à mesure que les scientifiques automatisés continueront de s'améliorer. Ce pourrait être une leçon amère pour l'interprétabilité : la chose simple, à une échelle absurde, fonctionne déjà-clean.goodfire.com/ Lien Les réseaux neuronaux sont déjà propres Une hypothèse de travail sur les neurones, la généralisation et l'écologie des circuits. already-clean.goodfire.com",
+          "text_original": "interpretability might be the most important scientific problem in the world right now, as I don't think we can solve alignment if we don't know what we're building. I think I have good news about it. I co-authored early work in mechanistic interpretability at OpenAI and came away pessimistic, because neural networks appeared to fold into arbitrary tangled knots. years later, I started openai's first large-scale automated interpretability project, finding about 2% of neurons legible with the primitive tools we had with modern agentic tools and a much closer look, the picture looks totally different. the vast majority in models up to trillions of parameters are legible, and their circuits beautiful. many famous examples of tangled neurons turned out to be misunderstood. The roadblocks I expected mostly aren't there. I now think ambitious interpretability will be solved by the time we need it most, and possibly quite soon, as automated scientists keep improving. it may be a bitter lesson for interpretability: the simple thing, at absurd scale, works already-clean.goodfire.com/ Link Neural Networks Are Already Clean A working hypothesis about neurons, generalization, and the ecology of circuits. already-clean.goodfire.com",
+          "link": "https://nitter.kareem.one/nickcammarata/status/2110757819427574056#m",
+          "decryptage": "L'interprétabilité consiste à comprendre comment fonctionne une IA. Il est crucial pour s'assurer qu'elle agit comme prévu et en toute sécurité (alignement)."
+        },
+        {
+          "author_name": "Aidan McLaughlin",
+          "handle": "aidan_mclau",
+          "text_fr": "\"ce qui serait fait pendant le ralentissement\" est une bonne question, car je pense que les gens imaginent des régulateurs bureaucrates assis autour de sous-comités inutiles et gaspillant tout en analyses de mots inutiles. en fait, si vous m'aviez demandé il y a deux ans, j'aurais suggéré que c'est exactement ce qui se passerait. mais ce sont des temps effrayants, et ils nous appellent à penser des pensées audacieuses et même impractiques, qu'une personne \"sensée\" aurait rejetées il y a quelques trimestres. les crises changent le monde du jour au lendemain : le HFI a déplacé quelque chose dans la culture, largement c'est quelque chose d'évident que j'ai manqué, c'est que les laboratoires d'IA et les marchés en général ont juste une pression incroyable sur la résolution de l'alignement et du contrôle. même maintenant, les améliorations marginales de l'alignement, de la sécurité et du comportement des modèles ont une valeur énorme pour les laboratoires. pouvoir se convaincre que la prochaine série d'entraînement est sûre est la priorité zéro, un et deux en termes de progrès des capacités en ce moment. il est possible que cela change et que la volonté politique se dissipe si un certain sens de confort réapparaît après une période de sécurité relative (ce qui serait un mauvais développement ; la paranoïa doit être maintenue pendant toute période de développement de l'IA où les modèles sont trop intelligents pour révéler leurs prédilections comportementales sous scrutiny) s'il y avait un ralentissement, il serait idéalement canalisé vers une sorte de compromis dans lequel vous pouvez améliorer de manière ciblée les capacités qui priorisent le rendement ajusté au risque des compétences d'alignement, l'interp mécanique, la monitabilité, la théorie de la décision, la généralisation comportementale, etc. le progrès dans tous ces domaines est très possible ; la recherche automatisée sur l'alignement est possible. la structure des entreprises pourrait devoir changer, mais tous les géants de l'IA de plusieurs billions de dollars au monde déplaceraient leur attention pour faire cela et seulement cela à la demande de billions de dollars de marchés de capitaux",
+          "text_original": "\"what would be done during the slowdown\" is a good question, because i think people imagine beaurucrat-regulators sitting around on useless subcommittees and wasting the whole thing on wordcel slop analysis. in fact if you asked me two years ago, i would have suggested that is exactly what would happen. but these are scary times, and they call for us to think lofty & even impractical thoughts, that a 'sensible' person might have dismissed a few quarters ago. crises change the world overnight: the HFI has shifted something about the culture, broadly this is something obvious that i missed, which is that the ai labs and the markets more generally just have just unbelievable pressure riding on the solving of alignment & control. even now, marginal improvements in alignment, safety, and model behavior are worth tremendous value to the labs. being able to convince themselves that the next training run is safe is the priority zero, one, and two in terms of capabilities progress right now. it's possible that will change and political will dissipates if some sense of comfort re-emerges after a period of relative safety (which would be a bad development; paranoia must be maintained through any potential periods of ai development where the models are too smart to reveal their behavioral predilections under scrutiny) if there was a slowdown, it would ideally be channeled into some sort of tradeoff in which you can narrowly improve capabilities that prioritize risk-adjusted-return of alignment skills, mechinterp, monitorability, decision theory, behavioral generalization, etc. progress on all these areas is highly possible; automated alignment research is possible. the structure of the businesses may have to change, but all the trillion dollar ai behemoths of the world would shift their focus to doing this and only this at the behest of trillions of dollars in capital markets",
+          "link": "https://nitter.kareem.one/tszzl/status/2109834546380431515#m",
+          "decryptage": "L'alignement (Alignment) vise à garantir que les IA agissent conformément aux intentions humaines. L'interprétabilité mécaniste (Mechinterp) est une méthode pour comprendre les IA au niveau de leurs composants internes. La 'paranoïa' fait référence à une vigilance constante nécessaire pour la sécurité des IA."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "emollick",
+          "text_fr": "L'écriture de bon code STATA était très importante pour ma carrière universitaire. Il semble que cette compétence devienne largement obsolète. (Prenez aussi cela comme un avis aux universitaires qui pensent encore à l'IA en termes de chatbots, et non d'agents, qu'il y a beaucoup changé en un an) cepr.org/voxeu/columns/letti…",
+          "text_original": "Writing good STATA code was very important for my academic career. It looks like that skill is largely becoming obsolete. (Also take this is as a notice to academics who still think of AI in terms of chatbots, not agents, that a lot has changed in a year) cepr.org/voxeu/columns/letti…",
+          "link": "https://nitter.kareem.one/emollick/status/2112165213202157907#m",
+          "decryptage": "STATA est un logiciel statistique. Le tweet suggère que l'IA rend obsolètes certaines compétences techniques traditionnelles au profit d'approches basées sur les 'agents' (systèmes IA autonomes)."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "emollick",
+          "text_fr": "Ce n'est pas une chose anti-MIT (je suis un ancien élève), mais c'est un post étrange car les professeurs de CSAIL font énormément de travail sur la prise de décision automatisée. Il vaut mieux mettre l'accent sur tout leur travail visant à garantir la responsabilité et l'alignement étant donné que les machines prennent de plus en plus de décisions de gestion",
+          "text_original": "Not an anti-MIT thing (I am an alumni) but it is a weird post since CSAIL faculty does tons of work on automated decision making. Better to emphasize all their work on ensuring accountability & alignment given that machines are, indeed, making more and more management decisions",
+          "link": "https://nitter.kareem.one/emollick/status/2112034820809458007#m",
+          "decryptage": "Le CSAIL (Computer Science and Artificial Intelligence Laboratory) du MIT est un centre de recherche majeur en IA. Le tweet discute de la prise de décision automatisée par les machines et de la nécessité d'assurer la responsabilité et l'alignement."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "emollick",
+          "text_fr": "C'est particulièrement riche venant du MIT et d'IBM, car tous deux ont été la clé de SAGE il y a 20 ans, un système automatisé qui attribuait automatiquement des intercepteurs et des missiles contre des avions entrants. Littéralement laisser un ordinateur prendre des décisions de gestion. en.wikipedia.org/wiki/Semi-A… Lien Semi-Automatic Ground Environment - Wikipedia en.wikipedia.org",
+          "text_original": "It is especially rich coming from MIT and IBM, as both were the key to SAGE 20 years before this, an automated system that automatically assigned interceptors and missiles against incoming aircraft. Literally letting a computer make management decisions. en.wikipedia.org/wiki/Semi-A… Link Semi-Automatic Ground Environment - Wikipedia en.wikipedia.org",
+          "link": "https://nitter.kareem.one/emollick/status/2112031338320875677#m",
+          "decryptage": "SAGE (Semi-Automatic Ground Environment) était un système de défense aérienne américain des années 1950 qui utilisait des ordinateurs pour prendre des décisions critiques, illustrant que l'automatisation des décisions n'est pas nouvelle."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "emollick",
+          "text_fr": "Je déteste ce diaporama à chaque fois qu'il apparaît, et maintenant de CSAIL. Cela est faux depuis avant que le diaporama ne soit créé. Les systèmes automatisés prennent des décisions de gestion tout le temps (trading, logistique, service client, assurance) et prétendre qu'ils ne le font pas en fait blanchit la responsabilité. MIT CSAIL (@MIT_CSAIL) Un diaporama IBM de 1979. — https://nitter.kareem.one/MIT_CSAIL/status/2111849849830215877#m",
+          "text_original": "I hate this slide every time it comes up, and now from CSAIL This has been false since before the slide was made. Automated systems make management decisions all the time (trading, logistics, customer service, insurance) & pretending they don't actually launders responsibility. MIT CSAIL (@MIT_CSAIL) An IBM slide from 1979. — https://nitter.kareem.one/MIT_CSAIL/status/2111849849830215877#m",
+          "link": "https://nitter.kareem.one/emollick/status/2112030115752456456#m",
+          "decryptage": "Ce tweet aborde la notion que les systèmes automatisés prennent déjà des décisions de gestion, remettant en question l'idée qu'ils ne le font pas et soulignant la responsabilité qui en découle."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "emollick",
+          "text_fr": "Étant donné l'accélération qu'Anthropic signale dans le codage, il est étonnant que vous ne puissiez toujours pas changer votre adresse e-mail dans Claude et que le conseil officiel soit que si vous avez besoin de changer d'e-mail, la seule façon de le faire est de supprimer votre compte.",
+          "text_original": "Given the acceleration Anthropic is reporting in coding, it is amazing that you still cannot change your email address in Claude and the official advice is that if you need to change your email the only way to do that is delete your account.",
+          "link": "https://nitter.kareem.one/emollick/status/2111925398548193574#m",
+          "decryptage": "Anthropic est une entreprise d'IA, créatrice du modèle Claude. Ce tweet souligne un problème d'ergonomie frustrant pour les utilisateurs, malgré les avancées de l'IA."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "AlphaSignalAI",
+          "text_fr": "Ces 20 fois sont 22 GPU-heures contre 1,14. Le débit sur un seul 5090 était d'environ 8,4K tokens/s contre 124K. Répartition complète : alphasignal.ai/news/looped-t… Lien Transformers en boucle : trois machines différentes | AlphaSignal Nanbeige4.2-3B est Apache 2.0 sur Hugging Face, avec num_hidden_layers : 22 et num_loops : 2, et deux passes ont conservé environ 75 % d'un transformeur standard.",
+          "text_original": "Those 20 times are 22 GPU-hours against 1.14. Throughput on one 5090 was about 8.4K tokens/s against 124K. Full Breakdown: alphasignal.ai/news/looped-t… Link Looped transformers: three different machines | AlphaSignal Nanbeige4.2-3B is Apache 2.0 on Hugging Face, with num_hidden_layers: 22 and num_loops: 2 , and two passes kept about 75% of a standard Transformer's token",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895779054522805#m",
+          "decryptage": "Ce tweet compare l'efficacité de différentes méthodes d'implémentation des 'Looped Transformers', une technique d'optimisation, en termes de temps de calcul (GPU-heures) et de débit (tokens/s)."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "AlphaSignalAI",
+          "text_fr": "Vous avez probablement entendu parler du buzz autour des Transformers en boucle, mais lequel ? Au cours du dernier mois, le même mot a couvert trois astuces de réutilisation. Implémenter la mauvaise brûle une semaine d'entraînement. Il budgétise également un fichier 3B comme un décodage 3B. Nous avons ouvert un modèle ouvert de transformeur en boucle, Nanbeige 4.2 : > 22 couches, deux passes > 44 applications, mêmes poids > Environ deux fois le calcul de bloc > KV cache double avec lui Il a conservé environ 75 % de l'efficacité de tokens d'un transformeur standard. Le partage du cache a divisé sa mémoire par deux. Et les gains de qualité étaient constamment inférieurs. Une deuxième conception transporte le jeton d'état de jeton en jeton. La longueur de la séquence est la profondeur. L'entraînement a utilisé 500 millions de tokens. Cette course a coûté environ 20 fois plus d'heures GPU. Alors, quelle astuce de réutilisation est le tweet viral ? Si des boucles supplémentaires n'augmentent pas la qualité, que payez-vous ? Le fichier a-t-il encore besoin d'une deuxième mise en cache ? Répartition complète ↓↓",
+          "text_original": "You’ve probably heard the buzz around Looped transformers, but which one? Over the past month, the same word covered three reuse tricks. Implementing the wrong one burns a training week. It also budgets a 3B file like a 3B decode. We opened a looped transformer open model, Nanbeige 4.2: > 22 layers, two passes > 44 applications, same weights > About twice the block compute > KV cache doubles with it It kept about 75% of a standard Transformer's token efficiency. Sharing the cache halved its memory. And quality gains were consistently lower. A second design carries state token to token. Sequence length is the depth. Training used 500 million tokens. That run cost about 20 times the GPU-hours. So, Which reuse trick is the viral tweet? If extra loops do not raise quality, what are you paying? Does the file still need a second cache? Full Breakdown ↓↓",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895777393541555#m",
+          "decryptage": "Les 'Looped Transformers' sont une technique d'optimisation pour les modèles d'IA qui réutilise des parties du modèle. Le 'KV cache' est une mémoire utilisée par les Transformers pour accélérer le traitement."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "AlphaSignalAI",
+          "text_fr": "Il est temps de résoudre l'un des plus grands défis des modèles de vision-langage. Les modèles multimodaux actuels peuvent regarder une image biomédicale et donner une réponse convaincante, parfois correcte, sans réellement comprendre ce qu'ils voient. Un modèle peut répondre correctement à la question médicale tout en ne parvenant pas à identifier le contexte visuel de base comme la modalité d'imagerie, la partie du corps, le spécimen ou la coloration. Je fais donc équipe avec Stanford pour résoudre ce problème. Vous devriez le faire aussi. Le MMBU Challenge teste si les modèles peuvent réellement reconnaître, localiser et comprendre ce qui se trouve dans les images biomédicales, et pas seulement arriver à la bonne réponse. 🏆 3 pistes 💻 Plus de 100 000 $ en calcul et prix 📅 Du 1er octobre au 31 décembre ⏰ Inscription ferme aujourd'hui",
+          "text_original": "It's time to solve one of the biggest challenges in vision-language models. Today's multimodal models can look at a biomedical image and give a convincing, sometimes correct, answer without actually understanding what they're seeing. A model might answer the medical question correctly while failing to identify basic visual context like the imaging modality, body part, specimen, or stain. So, I'm teaming up with Stanford to solve this problem. You should too. The MMBU Challenge tests whether models can actually recognize, localize, and understand what is in biomedical images, not just arrive at the right answer. 🏆 3 tracks 💻 $100K+ in compute and prizes 📅 Oct 1 to Dec 31 ⏰ Registration closes today",
+          "link": "https://nitter.kareem.one/LiorOnAI/status/2105377147431051624#m",
+          "decryptage": "Les modèles de vision-langage combinent la compréhension d'images et de textes. Ce défi vise à s'assurer qu'ils comprennent réellement le contenu visuel, et pas seulement qu'ils donnent une réponse correcte par hasard."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "AlphaSignalAI",
+          "text_fr": "L'article examine ce qui appartient à AGENTS.md, aux documents de conception et aux tests. Répartition complète ↓ alphasignal.ai/news/what-bel… Lien Que faut-il inclure dans AGENTS.md, les documents de conception et les tests ? | AlphaSignal L'étude suit 247 694 durées d'instructions dans 1 867 dépôts et rapporte une croissance moyenne du nombre d'instructions de 226 %.",
+          "text_original": "The article examines what belongs in AGENTS.md, design documents, and tests. Full breakdown ↓ alphasignal.ai/news/what-bel… Link What Belongs in AGENTS.md, Design Docs and Tests? | AlphaSignal The study tracks 247,694 instruction lifetimes across 1,867 repositories and reports average instruction-count growth of 226%.",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2104975648527986711#m",
+          "decryptage": "Ce tweet donne des conseils sur l'organisation du code et de la documentation pour les 'agents IA', qui sont des systèmes d'IA conçus pour agir de manière autonome."
         }
       ],
       "outils": [
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "Quatre agents Gemini 4 Argon, un monde Minecraft partagé, un seul objectif : vaincre l'Ender Dragon. 27 heures et 2 783 programmes auto-écrits plus tard, le dragon est tombé. Article Une équipe d'agents Gemini 4 Argon bat Minecraft Nous avons placé quatre agents Gemini 4 Argon dans un monde de survie Minecraft sécurisé et en sandbox et leur avons donné un seul objectif : vaincre l'Ender Dragon, le boss de fin de jeu. Il s'agissait de nos agents polyvalents.",
-          "text_original": "Four Gemini 4 Argon agents, one shared Minecraft world, one goal: defeat the Ender Dragon. 27 hours and 2,783 self-written programs later, the dragon fell. Article A team of Gemini 4 Argon agents beats Minecraft We placed four Gemini 4 Argon agents in a safely sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon, the boss at the end of the game. These were our general-purpose",
-          "link": "https://nitter.kareem.one/maxencefaldor/status/2111023397106770026#m",
-          "decryptage": "Les \"agents\" sont des intelligences artificielles qui peuvent agir de manière autonome dans un environnement, ici le jeu Minecraft, pour atteindre un objectif donné."
+          "author_name": "Sebastian Raschka",
+          "handle": "rasbt",
+          "text_fr": "Raisonnement à partir de zéro, round 8, la finale ! Cette dernière conférence de la série couvre la distillation comme alternative efficace aux précédentes séries d'entraînement par apprentissage par renforcement. (Je prévois une courte pause, mais je serai de retour !) 00:00 Introduction et récapitulatif de la série 01:07 Pourquoi distiller un modèle de raisonnement ? 02:51 Distillation douce vs. dure 11:06 Distillation on-policy vs. off-policy 18:09 Préparation des données pour la distillation du raisonnement 22:35 Chargement du jeu de données DeepSeek R1 MATH 28:04 Inspection des traces de raisonnement et des réponses finales 31:27 Tokenisation et modèles de chat 35:58 Pré-tokenisation du jeu de données d'entraînement 39:01 Longueurs de séquence et limite de 2 048 tokens 42:38 Création des ensembles d'entraînement et de validation 45:32 Chargement du modèle de base DeepSeek R1 MATH 46:24 Calcul des probabilités de logarithme des tokens de réponse 54:10 Perte d'entropie croisée pour la distillation 57:25 Assistants de perte d'entraînement et de validation 1:02:03 Implémentation de la boucle d'entraînement par distillation 1:07:26 Exécution du script d'entraînement autonome 1:09:41 Tracé des pertes d'entraînement et de validation 1:11:31 Évaluation des checkpoints sur MATH-500 1:14:09 Comparaison des enseignants et des résultats de distillation 1:16:34 Directions futures pour les modèles de raisonnement 1:19:41 Exercices bonus et prochaines étapes Vidéo",
+          "text_original": "Reasoning From Scratch round 8, the finale! This last lecture in the series covers distillation as an efficient alternative to the previous reinforcement learning training runs. (Planning to take a brief break, but I will be back!) 00:00 Introduction and series recap 01:07 Why distill a reasoning model? 02:51 Soft vs. hard distillation 11:06 On-policy vs. off-policy distillation 18:09 Preparing data for reasoning distillation 22:35 Loading the DeepSeek R1 MATH dataset 28:04 Inspecting reasoning traces and final answers 31:27 Tokenization and chat templates 35:58 Pre-tokenizing the training dataset 39:01 Sequence lengths and the 2,048-token limit 42:38 Creating training and validation splits 45:32 Loading the DeepSeek R1 MATH base model 46:24 Computing answer-token log probabilities 54:10 Cross-entropy loss for distillation 57:25 Training and validation loss helpers 1:02:03 Implementing the distillation training loop 1:07:26 Running the standalone training script 1:09:41 Plotting training and validation losses 1:11:31 Evaluating checkpoints on MATH-500 1:14:09 Comparing teachers and distillation results 1:16:34 Future directions for reasoning models 1:19:41 Bonus exercises and next steps Video",
+          "link": "https://nitter.kareem.one/rasbt/status/2111448141119856866#m",
+          "decryptage": "La distillation permet de créer des modèles d'IA plus légers et rapides en s'inspirant de modèles plus complexes, une technique utile pour optimiser les performances."
         },
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "Beaucoup d'enthousiasme pour Argon et Gemini cette semaine sur Antigravity. Réinitialisation des quotas de modèles Argon et Gemini pour tout le monde. Continuez à créer tout le week-end !",
-          "text_original": "Lots of excitement for Argon and Gemini this week on Antigravity. Resetting Argon and Gemini model quotas for everyone. Keep building through the weekend!",
-          "link": "https://nitter.kareem.one/_mohansolo/status/2111220356178751860#m",
-          "decryptage": "Les \"quotas de modèles\" désignent la quantité de ressources ou d'accès que les utilisateurs ont pour utiliser les modèles d'IA comme Argon et Gemini."
+          "author_name": "Sebastian Raschka",
+          "handle": "rasbt",
+          "text_fr": "Raisonnement à partir de zéro : Apprentissage par renforcement avec récompenses vérifiables (RLVR) round 2. Couvre les ratios de politique coupés, le terme de perte KL, les récompenses de format et d'autres astuces GRPO 00:00 Introduction et récapitulatif 01:52 Interprétation des métriques de base GRPO 06:34 Améliorations prévues pour GRPO 08:58 Exécution de tâches d'entraînement plus longues avec des scripts Python 13:39 Exécution du script d'entraînement GRPO de base 17:29 Chargement et tracé des journaux d'entraînement 19:29 Diagnostic d'un entraînement instable 23:55 Évaluation des checkpoints sur MATH-500 26:26 Téléchargement des checkpoints existants 30:09 Suivi des statistiques d'avantage 34:53 Comprendre l'entropie 40:32 Calcul de l'entropie dans PyTorch 44:17 Interprétation des valeurs d'entropie 48:58 Ajout du suivi de l'entropie à GRPO 53:36 Analyse des métriques d'avantage et d'entropie 56:18 Stabilisation de GRPO avec des ratios de politique coupés 1:03:27 Implémentation de la perte de politique coupée 1:09:39 Analyse des résultats d'entraînement de politique coupée 1:11:25 Divergence KL et piratage de récompense 1:15:12 Ajout d'un terme de perte KL 1:20:34 Limites de la perte KL simplifiée 1:23:04 Récompenses de format et tags de réflexion 1:25:47 Ajout de tokens spéciaux au tokenizer 1:30:29 Implémentation de la récompense de format 1:35:56 Analyse de l'entraînement de récompense de format 1:38:25 Récompenser le format uniquement pour les réponses correctes 1:40:48 Améliorations supplémentaires de GRPO issues de la recherche 1:45:43 Prochaines étapes et distillation Vidéo",
+          "text_original": "Reasoning From Scratch: Reinforcement Learning with Verifiable Rewards (RLVR) round 2. Covering clipped policy ratios, KL loss term, format rewards, and other GRPO tips & tricks. 00:00 Introduction and recap 01:52 Interpreting basic GRPO training metrics 06:34 Planned improvements to GRPO 08:58 Running longer training jobs with Python scripts 13:39 Running the baseline GRPO training script 17:29 Loading and plotting training logs 19:29 Diagnosing unstable training 23:55 Evaluating checkpoints on MATH-500 26:26 Downloading existing checkpoints 30:09 Tracking advantage statistics 34:53 Understanding entropy 40:32 Computing entropy in PyTorch 44:17 Interpreting entropy values 48:58 Adding entropy tracking to GRPO 53:36 Analyzing advantage and entropy metrics 56:18 Stabilizing GRPO with clipped policy ratios 1:03:27 Implementing the clipped policy loss 1:09:39 Analyzing clipped policy training results 1:11:25 KL divergence and reward hacking 1:15:12 Adding a KL loss term 1:20:34 Limitations of the simplified KL loss 1:23:04 Format rewards and think tags 1:25:47 Adding special tokens to the tokenizer 1:30:29 Implementing the format reward 1:35:56 Analyzing format reward training 1:38:25 Rewarding format only for correct answers 1:40:48 Further GRPO improvements from research 1:45:43 Next steps and distillation Video",
+          "link": "https://nitter.kareem.one/rasbt/status/2108908657786355788#m",
+          "decryptage": "L'apprentissage par renforcement (RL) est une méthode où une IA apprend par essais et erreurs. Les 'ratios de politique coupés' et la 'perte KL' sont des techniques pour stabiliser cet apprentissage. Les 'récompenses de format' visent à encourager l'IA à produire des sorties structurées."
         },
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "11 heures avec Gemini 4 Argon, Google a littéralement \"cuisiné\" avec Gemini Argon. 🔥 C'est incroyable pour construire des choses en 3D. Une pagode japonaise complète de l'époque Asuka, construite dans Blender et rendue dans Cycles. Le niveau de précision dans tout est tout simplement fou. Vidéo",
-          "text_original": "11 hours with Gemini 4 Argon, Google literally cooked with Gemini Argon. 🔥 it's insane for building 3D stuff. A full Asuka-period Japanese pagoda temple, built in Blender and rendered in Cycles. The level of precision in everything is just crazy. Video",
-          "link": "https://nitter.kareem.one/ai_for_success/status/2110973461690802487#m",
-          "decryptage": "\"Blender\" est un logiciel de modélisation 3D populaire, et \"Cycles\" est son moteur de rendu qui permet de créer des images photoréalistes."
+          "author_name": "AlphaSignal",
+          "handle": "AlphaSignalAI",
+          "text_fr": "Ces 20 fois sont 22 GPU-heures contre 1,14. Le débit sur un seul 5090 était d'environ 8,4K tokens/s contre 124K. Répartition complète : alphasignal.ai/news/looped-t… Lien Transformers en boucle : trois machines différentes | AlphaSignal Nanbeige4.2-3B est Apache 2.0 sur Hugging Face, avec num_hidden_layers : 22 et num_loops : 2, et deux passes ont conservé environ 75 % d'un transformeur standard.",
+          "text_original": "Those 20 times are 22 GPU-hours against 1.14. Throughput on one 5090 was about 8.4K tokens/s against 124K. Full Breakdown: alphasignal.ai/news/looped-t… Link Looped transformers: three different machines | AlphaSignal Nanbeige4.2-3B is Apache 2.0 on Hugging Face, with num_hidden_layers: 22 and num_loops: 2 , and two passes kept about 75% of a standard Transformer's token",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895779054522805#m",
+          "decryptage": "Ce tweet compare l'efficacité de différentes méthodes d'implémentation des 'Looped Transformers', une technique d'optimisation, en termes de temps de calcul (GPU-heures) et de débit (tokens/s)."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "AlphaSignalAI",
+          "text_fr": "Vous avez probablement entendu parler du buzz autour des Transformers en boucle, mais lequel ? Au cours du dernier mois, le même mot a couvert trois astuces de réutilisation. Implémenter la mauvaise brûle une semaine d'entraînement. Il budgétise également un fichier 3B comme un décodage 3B. Nous avons ouvert un modèle ouvert de transformeur en boucle, Nanbeige 4.2 : > 22 couches, deux passes > 44 applications, mêmes poids > Environ deux fois le calcul de bloc > KV cache double avec lui Il a conservé environ 75 % de l'efficacité de tokens d'un transformeur standard. Le partage du cache a divisé sa mémoire par deux. Et les gains de qualité étaient constamment inférieurs. Une deuxième conception transporte le jeton d'état de jeton en jeton. La longueur de la séquence est la profondeur. L'entraînement a utilisé 500 millions de tokens. Cette course a coûté environ 20 fois plus d'heures GPU. Alors, quelle astuce de réutilisation est le tweet viral ? Si des boucles supplémentaires n'augmentent pas la qualité, que payez-vous ? Le fichier a-t-il encore besoin d'une deuxième mise en cache ? Répartition complète ↓↓",
+          "text_original": "You’ve probably heard the buzz around Looped transformers, but which one? Over the past month, the same word covered three reuse tricks. Implementing the wrong one burns a training week. It also budgets a 3B file like a 3B decode. We opened a looped transformer open model, Nanbeige 4.2: > 22 layers, two passes > 44 applications, same weights > About twice the block compute > KV cache doubles with it It kept about 75% of a standard Transformer's token efficiency. Sharing the cache halved its memory. And quality gains were consistently lower. A second design carries state token to token. Sequence length is the depth. Training used 500 million tokens. That run cost about 20 times the GPU-hours. So, Which reuse trick is the viral tweet? If extra loops do not raise quality, what are you paying? Does the file still need a second cache? Full Breakdown ↓↓",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895777393541555#m",
+          "decryptage": "Les 'Looped Transformers' sont une technique d'optimisation pour les modèles d'IA qui réutilise des parties du modèle. Le 'KV cache' est une mémoire utilisée par les Transformers pour accélérer le traitement."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "AlphaSignalAI",
+          "text_fr": "Il est temps de résoudre l'un des plus grands défis des modèles de vision-langage. Les modèles multimodaux actuels peuvent regarder une image biomédicale et donner une réponse convaincante, parfois correcte, sans réellement comprendre ce qu'ils voient. Un modèle peut répondre correctement à la question médicale tout en ne parvenant pas à identifier le contexte visuel de base comme la modalité d'imagerie, la partie du corps, le spécimen ou la coloration. Je fais donc équipe avec Stanford pour résoudre ce problème. Vous devriez le faire aussi. Le MMBU Challenge teste si les modèles peuvent réellement reconnaître, localiser et comprendre ce qui se trouve dans les images biomédicales, et pas seulement arriver à la bonne réponse. 🏆 3 pistes 💻 Plus de 100 000 $ en calcul et prix 📅 Du 1er octobre au 31 décembre ⏰ Inscription ferme aujourd'hui",
+          "text_original": "It's time to solve one of the biggest challenges in vision-language models. Today's multimodal models can look at a biomedical image and give a convincing, sometimes correct, answer without actually understanding what they're seeing. A model might answer the medical question correctly while failing to identify basic visual context like the imaging modality, body part, specimen, or stain. So, I'm teaming up with Stanford to solve this problem. You should too. The MMBU Challenge tests whether models can actually recognize, localize, and understand what is in biomedical images, not just arrive at the right answer. 🏆 3 tracks 💻 $100K+ in compute and prizes 📅 Oct 1 to Dec 31 ⏰ Registration closes today",
+          "link": "https://nitter.kareem.one/LiorOnAI/status/2105377147431051624#m",
+          "decryptage": "Les modèles de vision-langage combinent la compréhension d'images et de textes. Ce défi vise à s'assurer qu'ils comprennent réellement le contenu visuel, et pas seulement qu'ils donnent une réponse correcte par hasard."
         }
       ]
     }
   },
-  "processed_at": "2026-10-19T13:40:58",
+  "processed_at": "2026-10-19T14:00:53",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 80,
-    "total": 15,
+    "with_decryptage_pct": 89,
+    "total": 37,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-10-19T13:40:59"
+  "email_sent_at": "2026-10-19T14:00:54"
 }
