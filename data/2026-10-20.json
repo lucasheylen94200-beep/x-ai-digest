@@ -1,244 +1,290 @@
 {
   "date": "2026-10-20",
-  "fetched_at": "2026-10-20T12:15:40",
+  "fetched_at": "2026-10-20T12:43:03",
   "tweets": [
     {
-      "handle": "karpathy",
-      "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all. - Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract. - Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code. - And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while. The funnel is driven by a combination of factors: 1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel. 2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel. 3. Access. Free-tier, paid-tier, internal. So this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time. Andrej Karpathy (@karpathy) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is a group of reactions laughing at various quirks of the models, hallucinations, etc. Yes I also saw the viral videos of OpenAI's Advanced Voice mode fumbling simple queries like \"should I drive or walk to the carwash\". The thing is that these free and old/deprecated models don't reflect the capability in the latest round of state of the art agentic models of this year, especially OpenAI Codex and Claude Code. But that brings me to the second issue. Even if people paid $200/month to use the state of the art models, a lot of the capabilities are relatively \"peaky\" in highly technical areas. Typical queries around search, writing, advice, etc. are *not* the domain that has made the most noticeable and dramatic strides in capability. Partly, this is due to the technical details of reinforcement learning and its use of verifiable rewards. But partly, it's also because these use cases are not sufficiently prioritized by the companies in their hillclimbing because they don't lead to as much $$$ value. The goldmines are elsewhere, and the focus comes along. So that brings me to the second group of people, who *both* 1) pay for and use the state of the art frontier agentic models (OpenAI Codex / Claude Code) and 2) do so professionally in technical domains like programming, math and research. This group of people is subject to the highest amount of \"AI Psychosis\" because the recent improvements in these domains as of this year have been nothing short of staggering. When you hand a computer terminal to one of these models, you can now watch them melt programming problems that you'd normally expect to take days/weeks of work. It's this second group of people that assigns a much greater gravity to the capabilities, their slope, and various cyber-related repercussions. TLDR the people in these two groups are speaking past each other. It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) \"Advanced Voice Mode\" will fumble the dumbest questions in your Instagram's reels and *at the same time*, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems. This part really works and has made dramatic strides because 2 properties: 1) these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge), but also 2) they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them. So here we are. — https://nitter.kareem.one/karpathy/status/2042334451611693415#m",
-      "link": "https://nitter.kareem.one/karpathy/status/2109361546505966046#m",
-      "published": "Sun, 11 Oct 2026 19:12:37 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "karpathy",
-      "text": "Cool eval. Simply ask an LLM “Land or Water?” and give it a latitude and longitude coordinate as text. Ask 16,200 times, plot as image. The models know. From compressing the internet. Celeste (@celestepoasts) results for all claudes — https://nitter.kareem.one/celestepoasts/status/2103232383139057950#m",
-      "link": "https://nitter.kareem.one/karpathy/status/2105909609487872075#m",
-      "published": "Fri, 02 Oct 2026 06:35:51 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "karpathy",
-      "text": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better: Diagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better: Web pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better: Explainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work! In summary: - As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding. - Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
-      "link": "https://nitter.kareem.one/karpathy/status/2105819303471976479#m",
-      "published": "Fri, 02 Oct 2026 00:37:00 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "karpathy",
-      "text": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
-      "link": "https://nitter.kareem.one/AnthropicAI/status/2098097512544444447#m",
-      "published": "Thu, 10 Sep 2026 17:13:22 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "karpathy",
-      "text": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-      "link": "https://nitter.kareem.one/theworldlabs/status/2094839756329041984#m",
-      "published": "Tue, 01 Sep 2026 17:28:12 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "sundarpichai",
-      "text": "Gemini 4 Argon is a frontier model and has set a new SoTA on Wide-And-Deep-Research (WANDR) benchmark. Available now to all Perplexity users both on fast search and Computer (agent) modes. Perplexity (@perplexity_ai) Gemini 4 Argon sets a new record on WANDR. It is now available in Perplexity for Pro and Max subscribers. — https://nitter.kareem.one/perplexity_ai/status/2111110772747321460#m",
-      "link": "https://nitter.kareem.one/AravSrinivas/status/2111111329536987234#m",
-      "published": "Fri, 16 Oct 2026 15:05:38 GMT",
-      "author_name": "Sundar Pichai",
+      "handle": "miramurati",
+      "text": "One of the best parts of this year, inside Thinky and out, has been watching people follow their own ideas all the way into weights they own. Thinking Machines (@thinkymachines) Tinker lets customers turn their expertise into cutting-edge models that they own. One year after launch, we look back at what we’ve shipped and what our users are building. thinkingmachines.ai/news/one… Link One Year of Tinker: Turning Your Expertise into Custom Models Tinker handles the infrastructure, while our research and recipes make more training methods accessible. thinkingmachines.ai — http://nitter.meowing.monster/thinkymachines/status/2110851669915570685#m",
+      "link": "http://nitter.meowing.monster/miramurati/status/2110870483214213496#m",
+      "published": "Thu, 15 Oct 2026 23:08:35 GMT",
+      "author_name": "Mira Murati",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sundarpichai",
-      "text": "11 hours with Gemini 4 Argon, Google literally cooked with Gemini Argon. 🔥 it's insane for building 3D stuff. A full Asuka-period Japanese pagoda temple, built in Blender and rendered in Cycles. The level of precision in everything is just crazy. Video",
-      "link": "https://nitter.kareem.one/ai_for_success/status/2110973461690802487#m",
-      "published": "Fri, 16 Oct 2026 05:57:47 GMT",
-      "author_name": "Sundar Pichai",
+      "handle": "miramurati",
+      "text": "As @johnschulman2 has put it, there are many ways we can \"spend compute to save our customers compute\". Here's one of them - a variant of muon that works far better for lora fine-tuning :) Tinker (@tinkerapi) Dimuon is a new optimizer we built for LoRA fine-tuning. In our SFT tests, it often reaches lower loss in fewer steps than AdamW. We're still experimenting with Dimuon; you can Tinker with it today and share your feedback! See our optimizers guide at tinker-docs.thinkingmachines… — http://nitter.meowing.monster/tinkerapi/status/2110535361013366840#m",
+      "link": "http://nitter.meowing.monster/cHHillee/status/2110569587955908774#m",
+      "published": "Thu, 15 Oct 2026 03:12:56 GMT",
+      "author_name": "Mira Murati",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sundarpichai",
-      "text": "Gemini 4 Argon is live in Antigravity for paid Pro subscribers. As part of Pro, you get a separate weekly quota so it doesn’t eat up your Flash quota. Excited to see Antigravity push the limits of our best model yet. Love to see what you build!",
-      "link": "https://nitter.kareem.one/_mohansolo/status/2110866446020710657#m",
-      "published": "Thu, 15 Oct 2026 22:52:33 GMT",
-      "author_name": "Sundar Pichai",
+      "handle": "miramurati",
+      "text": "BTW tinker is hiring researchers & infra experts! research: jobs.ashbyhq.com/ThinkingMac… systems: jobs.ashbyhq.com/ThinkingMac… Link Research, Finetuning Science ABOUT THINKING MACHINES The mission of Thinking Machines is to build AI that extends human will and judgment. We are training frontier models with Inkling, developing Tinker to let people make models... jobs.ashbyhq.com Tinker (@tinkerapi) Dimuon is a new optimizer we built for LoRA fine-tuning. In our SFT tests, it often reaches lower loss in fewer steps than AdamW. We're still experimenting with Dimuon; you can Tinker with it today and share your feedback! See our optimizers guide at tinker-docs.thinkingmachines… — http://nitter.meowing.monster/tinkerapi/status/2110535361013366840#m",
+      "link": "http://nitter.meowing.monster/hannahnth/status/2110559155224482222#m",
+      "published": "Thu, 15 Oct 2026 02:31:29 GMT",
+      "author_name": "Mira Murati",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sundarpichai",
-      "text": "read more here: blog.google/innovation-and-a… Link Bringing the magic: Google breaks open a bottleneck in quantum computing In a paper published in Science, Google has shown that Magic State Cultivation works on Google Quantum AI hardware. blog.google",
-      "link": "https://nitter.kareem.one/sundarpichai/status/2110804298087203149#m",
-      "published": "Thu, 15 Oct 2026 18:45:36 GMT",
-      "author_name": "Sundar Pichai",
+      "handle": "miramurati",
+      "text": "Dimuon is a new optimizer we built for LoRA fine-tuning. In our SFT tests, it often reaches lower loss in fewer steps than AdamW. We're still experimenting with Dimuon; you can Tinker with it today and share your feedback! See our optimizers guide at tinker-docs.thinkingmachines…",
+      "link": "http://nitter.meowing.monster/tinkerapi/status/2110535361013366840#m",
+      "published": "Thu, 15 Oct 2026 00:56:56 GMT",
+      "author_name": "Mira Murati",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "sundarpichai",
-      "text": "Some magical progress towards \"magic state\" in quantum! Our @GoogleQuantumAI team has demonstrated \"magic state cultivation\" on physical hardware for the first time. The result is a 40x error reduction on our Willow processor vs. previous methods, achieving a state-of-the-art 99.99% logical fidelity. It's another step towards useful, error-corrected quantum computers to help solve the hardest problems. The result is published in Science today, watch the video below to see how it works Video",
-      "link": "https://nitter.kareem.one/sundarpichai/status/2110804295352488143#m",
-      "published": "Thu, 15 Oct 2026 18:45:35 GMT",
-      "author_name": "Sundar Pichai",
+      "handle": "miramurati",
+      "text": "We’re building machine intelligence to expand human will & judgement. Glad to have you on the team to help us figure out how to make this future safe. Neil Chowdhury (@ChowdhuryNeil) I’ve joined @thinkymachines to work on safety & alignment. The default trajectory is that as AI gets more powerful, control over it will concentrate in the hands of a few. I’d rather build safety systems that let control over AI be shared widely. Longer thoughts below. — http://nitter.meowing.monster/ChowdhuryNeil/status/2099536168350273669#m",
+      "link": "http://nitter.meowing.monster/miramurati/status/2099544707340841441#m",
+      "published": "Mon, 14 Sep 2026 17:04:00 GMT",
+      "author_name": "Mira Murati",
       "category_hint": "ceo",
       "source_lang": "en"
     },
     {
-      "handle": "ylecun",
-      "text": "It speaks to the unchecked power of the American presidency that a single warped occupant of the Oval Office can transform the United States into an ally of Putin even as most Americans are outraged by his invasion of Ukraine and targeting of civilians. trib.al/86S0yX6 Link America Is Now an Ally of Russia Donald Trump has abandoned the Western order. theatlantic.com",
-      "link": "https://nitter.kareem.one/KenRoth/status/2112358040686952774#m",
-      "published": "Tue, 20 Oct 2026 01:39:37 GMT",
-      "author_name": "Yann LeCun",
+      "handle": "JeffDean",
+      "text": "Have a glimpse at this! Nice work, @AndrewDai and Elorian folks! Andrew M. Dai (@AndrewDai) Spent years watching models ace a single image and completely whiff on anything that moves or changes angle. Today we’re fixing that. Try Glimpse now, our first visual thinking model with competitive frontier performance compared to Astra on key public visual reasoning benchmarks. Video — https://nitter.kareem.one/AndrewDai/status/2111142161584628060#m",
+      "link": "https://nitter.kareem.one/JeffDean/status/2111147597159415874#m",
+      "published": "Fri, 16 Oct 2026 17:29:45 GMT",
+      "author_name": "Jeff Dean",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "ylecun",
-      "text": "Washington has discovered a brilliant financial strategy. Cut benefits for people who need them, cut taxes for people who don't, and borrow the difference from people who aren't old enough to vote. Video",
-      "link": "https://nitter.kareem.one/JustinWolfers/status/2112263595425730842#m",
-      "published": "Mon, 19 Oct 2026 19:24:19 GMT",
-      "author_name": "Yann LeCun",
+      "handle": "JeffDean",
+      "text": "My AI security research lab AISLE discovered 500+ zero-days with CVEs across 100+ codebases in a year => ~1% of 2026's open-source CVEs globally from a single team! On hardened codebases like curl, we've repeatedly matched or outperformed frontier AI labs in zero-day discovery",
+      "link": "https://nitter.kareem.one/stanislavfort/status/2110386359777046951#m",
+      "published": "Wed, 14 Oct 2026 15:04:51 GMT",
+      "author_name": "Jeff Dean",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "ylecun",
-      "text": "Trump has raised $330 million from private donors for his White House ballroom. About half have received federal contracts during his second term, according to The Washington Post. Here are the top 16 givers.",
-      "link": "https://nitter.kareem.one/SteveRattner/status/2112195745600110680#m",
-      "published": "Mon, 19 Oct 2026 14:54:43 GMT",
-      "author_name": "Yann LeCun",
+      "handle": "JeffDean",
+      "text": "As @NandoDF suggested, if you're at an AI company, please suggest to the appropriate person that these are worthwhile events for your company to sponsor.",
+      "link": "https://nitter.kareem.one/JeffDean/status/2109853665884520688#m",
+      "published": "Tue, 13 Oct 2026 03:48:07 GMT",
+      "author_name": "Jeff Dean",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "ylecun",
-      "text": "I'm definitely not anti-achievement and never criticized real achievements, including by Elon. I even own two Teslas. I do expose marketing stunts that, while cool on the surface, are not the achievements they are claimed to be. Compressed air thrusters might give you acceleration boosts in any direction. They might even make your car hover for a couple of seconds if you accept replacing the passenger seat by a 400 liter high-pressure air tank. But they are not a path to actual flying cars. The same way Burt Rutan's SpaceshipOne was never going to be a path to orbital flights (just bunny hops out of the atmosphere). I am anti-Musk when it comes to politics. His political actions, the massive dissemination of disinformation through X and other channels, and his support for authoritarian regimes and racist ideas have the effect of weakening democracy and weakening human decency and social progress around the world.",
-      "link": "https://nitter.kareem.one/ylecun/status/2111880905891414253#m",
-      "published": "Sun, 18 Oct 2026 18:03:39 GMT",
-      "author_name": "Yann LeCun",
+      "handle": "JeffDean",
+      "text": "I've been a personal supporter (through our family foundation) of @Khipu_AI & @DeepIndaba , which are fantastic events for AI researchers in Africa and South America. I've encouraged Google to support these in the past. Discovery Loop ( @DiscoLoopAI ) is thrilled to support! Nando de Freitas (@NandoDF) For the last 10 years we've been raising funds to bring AI to Africa ( @DeepIndaba ) and South America ( @Khipu_AI ). The efforts have been very successful, but this year we are finding it hard to raise money. If you work for an AI company, please share the following with the right team to support us. Thank you! About KHIPU 2027 What it is: KHIPU AI ( khipu.ai ) is a non-profit organization dedicated to advancing AI talent, research, and community across Latin America. Alongside year-round regional initiatives, we host a biennial in-person gathering rotating across the continent, previously in Uruguay (2019, 2023) and Chile (2025). Next Edition: April 5–9, 2027, in São Paulo, Brazil, hosted at the Universidade de São Paulo (USP), one of Latin America's leading research universities. Watch our 2-minute video: inv.kareem.one/watch?v=Db19zoqu… (hear directly from past speakers, including Nando, and Latin American students on how KHIPU grew from a single gathering into a regional AI movement). Who Attends & Why Support - Engaging with the region's top talent and lab leaders: We bring together around 500 participants, including leading faculty and lab directors from across Latin America alongside a curated cohort of ~300 graduate students and industry researchers selected from over 1,000 applicants. As the local AI ecosystem grows rapidly, KHIPU offers a rare opportunity to engage directly with these emerging researchers and regional leaders in one place, helping shape research priorities and the safety mindset across Latin America while connecting with talent and perspectives outside Silicon Valley. 100% free attendance & student grants: Attendance is completely free for all selected students, professors, and researchers. Sponsorship funding goes directly toward travel and accommodation grants for students and faculty across Latin America who otherwise could not afford to attend. Community & Track Record: Past editions have featured speakers such as @Yoshua_Bengio , @JeffDean , @jpineau1 , and @NandoDF (2025 lineup: khipu.ai/khipu2025/speakers-… ), and have been supported by the Hopper-Dean Foundation, @GoogleDeepMind , @Apple , @Microsoft , @Meta , @cohere , and @MistralAI . For 2027, @OriolVinyalsML and @sarahookr are already confirmed. 2027 Sponsorship Prospectus: Attached (also available at khipu.ai/prospectus-2027 ) Contact: @FortunatoMeire (meirefortunato@khipu.ai) & KHIPU Sponsorship Committee (sponsors@khipu.ai) — https://nitter.kareem.one/NandoDF/status/2109717380406673505#m",
+      "link": "https://nitter.kareem.one/JeffDean/status/2109841404239417415#m",
+      "published": "Tue, 13 Oct 2026 02:59:24 GMT",
+      "author_name": "Jeff Dean",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "ylecun",
-      "text": "Everything Yann said here is roughly correct, and Musk knows it, which is why he responded like a 14-year-old. Fred Lambert (@FredLambert) Calling @MKBHD ’s video “hate” is misguided and highlights the nearly insurmountable issue the Tesla community has with criticism. There was plenty to criticize about that unveiling and I thought Marques did an incredible job. He is becoming a great force pushing against the growing movement in tech and now automotive of over promising and under delivering. — https://nitter.kareem.one/FredLambert/status/2111869336596173136#m",
-      "link": "https://nitter.kareem.one/FredLambert/status/2111874915699999188#m",
-      "published": "Sun, 18 Oct 2026 17:39:51 GMT",
-      "author_name": "Yann LeCun",
+      "handle": "JeffDean",
+      "text": "Introducing DeepRSI, a new industry standard for measuring recursive self-improvement. On preexisting benchmarks, tasks are contributor-based and short-horizon (~12 hrs). In DeepRSI, we push agents to work 48 hours on ML tasks actually derived from ongoing proprietary research. Video",
+      "link": "https://nitter.kareem.one/jparkjmc/status/2109684519896780938#m",
+      "published": "Mon, 12 Oct 2026 16:36:00 GMT",
+      "author_name": "Jeff Dean",
       "category_hint": "researcher",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
-      "text": "Four Gemini 4 Argon agents, one shared Minecraft world, one goal: defeat the Ender Dragon. 27 hours and 2,783 self-written programs later, the dragon fell. Article A team of Gemini 4 Argon agents beats Minecraft We placed four Gemini 4 Argon agents in a safely sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon, the boss at the end of the game. These were our general-purpose",
-      "link": "http://nitter.meowing.monster/maxencefaldor/status/2111023397106770026#m",
-      "published": "Fri, 16 Oct 2026 09:16:13 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
+      "handle": "rasbt",
+      "text": "And one more time, the YouTube link: inv.kareem.one/watch?v=msp69FR5… Link Build A Reasoning Model From Scratch 8: Distillation In this final video, we look into model distillation as a more effi... youtube.com",
+      "link": "https://nitter.kareem.one/rasbt/status/2111448141778256161#m",
+      "published": "Sat, 17 Oct 2026 13:24:00 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
-      "text": "Lots of excitement for Argon and Gemini this week on Antigravity. Resetting Argon and Gemini model quotas for everyone. Keep building through the weekend!",
-      "link": "http://nitter.meowing.monster/_mohansolo/status/2111220356178751860#m",
-      "published": "Fri, 16 Oct 2026 22:18:52 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
+      "handle": "rasbt",
+      "text": "Reasoning From Scratch round 8, the finale! This last lecture in the series covers distillation as an efficient alternative to the previous reinforcement learning training runs. (Planning to take a brief break, but I will be back!) 00:00 Introduction and series recap 01:07 Why distill a reasoning model? 02:51 Soft vs. hard distillation 11:06 On-policy vs. off-policy distillation 18:09 Preparing data for reasoning distillation 22:35 Loading the DeepSeek R1 MATH dataset 28:04 Inspecting reasoning traces and final answers 31:27 Tokenization and chat templates 35:58 Pre-tokenizing the training dataset 39:01 Sequence lengths and the 2,048-token limit 42:38 Creating training and validation splits 45:32 Loading the Qwen3-0.6B base model 46:24 Computing answer-token log probabilities 54:10 Cross-entropy loss for distillation 57:25 Training and validation loss helpers 1:02:03 Implementing the distillation training loop 1:07:26 Running the standalone training script 1:09:41 Plotting training and validation losses 1:11:31 Evaluating checkpoints on MATH-500 1:14:09 Comparing teachers and distillation results 1:16:34 Future directions for reasoning models 1:19:41 Bonus exercises and next steps Video",
+      "link": "https://nitter.kareem.one/rasbt/status/2111448141119856866#m",
+      "published": "Sat, 17 Oct 2026 13:24:00 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
+      "handle": "rasbt",
+      "text": "And here's the YouTube version: inv.kareem.one/watch?v=VxfUrUrr… Link Build A Reasoning Model From Scratch 7: Reinforcement Learning 2... This second video on reinforcement learning adds clipped policy rat... youtube.com",
+      "link": "https://nitter.kareem.one/rasbt/status/2108908658512036220#m",
+      "published": "Sat, 10 Oct 2026 13:13:00 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "Reasoning From Scratch: Reinforcement Learning with Verifiable Rewards (RLVR) round 2. Covering clipped policy ratios, KL loss term, format rewards, and other GRPO tips & tricks. 00:00 Introduction and recap 01:52 Interpreting basic GRPO training metrics 06:34 Planned improvements to GRPO 08:58 Running longer training jobs with Python scripts 13:39 Running the baseline GRPO training script 17:29 Loading and plotting training logs 19:29 Diagnosing unstable training 23:55 Evaluating checkpoints on MATH-500 26:26 Downloading existing checkpoints 30:09 Tracking advantage statistics 34:53 Understanding entropy 40:32 Computing entropy in PyTorch 44:17 Interpreting entropy values 48:58 Adding entropy tracking to GRPO 53:36 Analyzing advantage and entropy metrics 56:18 Stabilizing GRPO with clipped policy ratios 1:03:27 Implementing the clipped policy loss 1:09:39 Analyzing clipped policy training results 1:11:25 KL divergence and reward hacking 1:15:12 Adding a KL loss term 1:20:34 Limitations of the simplified KL loss 1:23:04 Format rewards and think tags 1:25:47 Adding special tokens to the tokenizer 1:30:29 Implementing the format reward 1:35:56 Analyzing format reward training 1:38:25 Rewarding format only for correct answers 1:40:48 Further GRPO improvements from research 1:45:43 Next steps and distillation Video",
+      "link": "https://nitter.kareem.one/rasbt/status/2108908657786355788#m",
+      "published": "Sat, 10 Oct 2026 13:13:00 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "Spontaneous morning chat with Juergen Schmidhuber and Jake Newfield philosophizing about AI. Sry my mic somehow disconnected but Juergen had the more interesting points anyways! Hermetiq (@HermetiqAI) Our CEO @Jake_Newfield brought together @SchmidhuberAI (\"father of AI\" and pioneer of deep learning) and @rasbt (author of Build a Large Language Model), to discuss humanity’s future with AI: inv.kareem.one/watch?v=fcOTx06q… — https://nitter.kareem.one/HermetiqAI/status/2107235570149974216#m",
+      "link": "https://nitter.kareem.one/rasbt/status/2107500537411424429#m",
+      "published": "Tue, 06 Oct 2026 15:57:38 GMT",
+      "author_name": "Sebastian Raschka",
+      "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new wholly owned entity dedicated entirely to the public benefit. It will start off with 5% of our shares. For every 50% increase in the company’s value over a set baseline, we can contribute up to an extra 2%, subject to our board’s discretion. In total, this means that roughly 20% of Anthropic’s shares are committed to the public good. Our co-founders have already pledged to donate 80% of their equity, and around half our employees are donating a portion of their equity as part of a donation matching program we’ve run since our founding. In the post below, we share more details about our new fund. anthropic.com/news/public-be… Link Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. anthropic.com",
+      "link": "https://nitter.kareem.one/AnthropicAI/status/2111881963657412903#m",
+      "published": "Sun, 18 Oct 2026 18:07:51 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "New from our STEM Fellows Program: Designing more efficient quantum circuits with Claude. Given plain-language instructions, Claude Mythos 5 designed quantum circuits that improve on the best published ones, sometimes by an order of magnitude or more. More efficient circuits reduce the resources needed by quantum algorithms, which could bring quantum computing applications in chemistry and materials science within reach sooner. Read more: anthropic.com/research/desig… Link Designing more efficient quantum circuits with Claude Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more. anthropic.com",
+      "link": "https://nitter.kareem.one/AnthropicAI/status/2111152183240511640#m",
+      "published": "Fri, 16 Oct 2026 17:47:58 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "Working out how best to use AI in mathematics research—and in science more generally—will take time, effort, and resources. We’re eager to support mathematicians as they drive scientific progress and define the future of their field. We’ve committed $5 million of funding, compute, and Claude access to help the math community navigate the massive changes that AI brings. We’re partnering with @SimonsFdn , who will manage the award through a community-driven approach, supporting workshops, conferences, and lectures by domain experts. nitterk.kareem.one/SimonsFdn/status/21107… Simons Foundation (@SimonsFdn) How can the math community forge the best path forward in the AI age? We're committing $15M to workshops and initiatives — plus free AI computing resources for foundation-supported researchers — through new partnerships with @AnthropicAI and @OpenAI : bit.ly/4zpfIbW #math #science #AI Link Simons Foundation Launches $15M Effort To Help Mathematicians Navigate AI Era The Simons Foundation today announced a new set of initiatives that will help the mathematics community navigate the rapid rise of artificial intelligence in the field. Under a partnership… simonsfoundation.org — https://nitter.kareem.one/SimonsFdn/status/2110740786169979088#m",
+      "link": "https://nitter.kareem.one/AnthropicAI/status/2110846112152105136#m",
+      "published": "Thu, 15 Oct 2026 21:31:45 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "We’ve committed to having evaluators assess our safety practices. We're in discussions with multiple organizations, and have now given employee-like access to a team from @METR_Evals . In this post, we describe how we work with third-party evaluators: anthropic.com/news/an-update… Link Anthropic update on independent evaluators Anthropic announces updates to embedding independent evaluators anthropic.com",
+      "link": "https://nitter.kareem.one/AnthropicAI/status/2110784662071398807#m",
+      "published": "Thu, 15 Oct 2026 17:27:34 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AnthropicAI",
+      "text": "Applications are now open for two new Anthropic Fellowships. STEM Fellows (science and engineering) and Conceptual Reasoning Fellows (philosophy, cognitive science, economics, policy, and law) will spend four months at Anthropic from January 2027, working to help Claude reason well about some of the hardest problems in those fields. For more information, see the descriptions below. The application deadline is October 28. Conceptual Reasoning Fellows: job-boards.greenhouse.io/ant… STEM Fellows: job-boards.greenhouse.io/ant… Link Conceptual Reasoning Fellow Remote-Friendly, United States; San Francisco, CA job-boards.greenhouse.io",
+      "link": "https://nitter.kareem.one/AnthropicAI/status/2110720940665372825#m",
+      "published": "Thu, 15 Oct 2026 13:14:22 GMT",
+      "author_name": "Anthropic",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "We did a lot to understand Gemini 4's capabilities and propensities, and to improve our mitigations for this launch -- you can get a tl;dr here blog.google/innovation-and-a… and dive into the report storage.googleapis.com/deepm… Link Developing Gemini 4 Argon responsibly and safely Learn more about our approach to safety and security for Gemini 4 Argon. blog.google",
+      "link": "http://nitter.meowing.monster/ancadianadragan/status/2110073779531747784#m",
+      "published": "Tue, 13 Oct 2026 18:22:46 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "Four Gemini 4 Argon agents beat Minecraft from scratch in 27 hours. Operating in a sandbox using only code and text, they wrote 2,783 programs, divided up jobs over chat, shared notes, and debugged errors together - all with no human help ↓ Maxence Faldor (@maxencefaldor) Four Gemini 4 Argon agents, one shared Minecraft world, one goal: defeat the Ender Dragon. 27 hours and 2,783 self-written programs later, the dragon fell. Article A team of Gemini 4 Argon agents beats Minecraft We placed four Gemini 4 Argon agents in a safely sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon, the boss at the end of the game. These were our general-purpose — http://nitter.meowing.monster/maxencefaldor/status/2111023397106770026#m",
+      "link": "http://nitter.meowing.monster/GoogleDeepMind/status/2111127991401247033#m",
+      "published": "Fri, 16 Oct 2026 16:11:50 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
       "text": "Together with scientists around the world, our models and tools are helping make disease more detectable, treatable, and preventable. 🧬 From pinpointing rare genetic variants to speeding up drug discovery, here’s how we’re helping turn lab breakthroughs into real-world care → goo.gle/4i48Cmr",
       "link": "http://nitter.meowing.monster/GoogleDeepMind/status/2111038207240388770#m",
       "published": "Fri, 16 Oct 2026 10:15:04 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
-      "text": "11 hours with Gemini 4 Argon, Google literally cooked with Gemini Argon. 🔥 it's insane for building 3D stuff. A full Asuka-period Japanese pagoda temple, built in Blender and rendered in Cycles. The level of precision in everything is just crazy. Video",
-      "link": "http://nitter.meowing.monster/ai_for_success/status/2110973461690802487#m",
-      "published": "Fri, 16 Oct 2026 05:57:47 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
+      "handle": "GoogleDeepMind",
+      "text": "Last week, Hurricane Isaias made landfall in the Florida Panhandle. Our thoughts are with everyone affected and with the recovery efforts still underway. Earlier and more accurate forecasting can help protect communities by giving them more time to prepare, and we are grateful that Google’s WeatherNext model was able to assist the @NWSNHC 's expert forecasters. Based on initial evaluations, here's how our model supported the response to #Isaias : - Tracking the Hurricane’s Path: WeatherNext was the most accurate model on the storm’s track. While traditional physics models predicted landfall closer to New Orleans, WeatherNext correctly predicted a path further east. This allowed NHC forecasters to highlight the potential for wind and storm surge impacts in the Florida Panhandle from their very first forecast. - More Time to Prepare: Up to three days before landfall, our model consistently predicted its eventual location in the Florida Panhandle to within 60 km or less, supporting the NHC as they honed in on a track toward the Florida Panhandle and issued hurricane watches and warnings to give officials in Florida, Alabama, and Mississippi more time to prepare. - Early Indications about Intensity: Early on, WeatherNext accurately predicted the intensification to a major hurricane. Alongside the regional hurricane models HWRF and HMON, WeatherNext’s intensity forecasts helped NHC forecasters to predict that the Isaias would approach the coast as a category 2 hurricane from the very first advisory. Giving communities more time and more accurate warnings is critical for protecting lives and livelihoods. While model performance varies from storm to storm, Isaias reflects our broader findings. In our recent @Nature paper co-authored with NHC forecasters, evaluating 200+ global tropical cyclones, we found our model provides ~1 day of additional lead time for both track and intensity. It’s been an honor for the @GoogleDeepMind and @GoogleResearch teams to work alongside NHC forecasters. By combining AI, physics models, satellite data, and the crucial expertise of meteorologists, we're excited to keep pushing the boundaries of forecasting to help protect communities.",
+      "link": "http://nitter.meowing.monster/PeterWBattaglia/status/2110724943860154669#m",
+      "published": "Thu, 15 Oct 2026 13:30:16 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "demishassabis",
-      "text": "Some magical progress towards \"magic state\" in quantum! Our @GoogleQuantumAI team has demonstrated \"magic state cultivation\" on physical hardware for the first time. The result is a 40x error reduction on our Willow processor vs. previous methods, achieving a state-of-the-art 99.99% logical fidelity. It's another step towards useful, error-corrected quantum computers to help solve the hardest problems. The result is published in Science today, watch the video below to see how it works Video",
-      "link": "http://nitter.meowing.monster/sundarpichai/status/2110804295352488143#m",
-      "published": "Thu, 15 Oct 2026 18:45:35 GMT",
-      "author_name": "Demis Hassabis",
-      "category_hint": "ceo",
+      "handle": "GoogleDeepMind",
+      "text": "Explore the latest advances in native audio models and the challenges of building better real-time voice experiences with @GoogleDeepMind + @SierraPlatform . Learn about conversational latency, multilingual code-switching, agentic voice tasks, and more → goo.gle/4hKV9B5 Video",
+      "link": "http://nitter.meowing.monster/googlecloud/status/2110490834739073049#m",
+      "published": "Wed, 14 Oct 2026 22:00:00 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
       "source_lang": "en"
     },
     {
-      "handle": "julien_c",
-      "text": "We’ll be back",
-      "link": "https://nitter.kareem.one/julien_c/status/2111061173583892923#m",
-      "published": "Fri, 16 Oct 2026 11:46:20 GMT",
-      "author_name": "Julien Chaumond",
-      "category_hint": "fr",
+      "handle": "emollick",
+      "text": "Its not a new idea, but the lack of giant eccentric monumental architecture in Silicon Valley is a shame. You have lots of weird people with too much money, and yet only one place at the level of a solid midwestern oddball tourist attraction, and that was started in the 1880s.",
+      "link": "https://nitter.kareem.one/emollick/status/2112415001730601333#m",
+      "published": "Tue, 20 Oct 2026 05:25:57 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "julien_c",
-      "text": "Beam is out 🔥 huggingface.co/reflection Link reflection (Reflection) Org profile for Reflection on Hugging Face, the AI community building the future. huggingface.co",
-      "link": "https://nitter.kareem.one/julien_c/status/2111080648949838235#m",
-      "published": "Fri, 16 Oct 2026 13:03:43 GMT",
-      "author_name": "Julien Chaumond",
-      "category_hint": "fr",
+      "handle": "emollick",
+      "text": "Update: Felix Rieseberg (@felixrieseberg) Okay, as expected, this isn't something I can quickly fix between meetings but we all agree that it's a pretty poor experience — https://nitter.kareem.one/felixrieseberg/status/2112377814712471995#m",
+      "link": "https://nitter.kareem.one/emollick/status/2112398911482778036#m",
+      "published": "Tue, 20 Oct 2026 04:22:01 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "julien_c",
-      "text": "we are not the same",
-      "link": "https://nitter.kareem.one/julien_c/status/2111023772706758802#m",
-      "published": "Fri, 16 Oct 2026 09:17:42 GMT",
-      "author_name": "Julien Chaumond",
-      "category_hint": "fr",
+      "handle": "emollick",
+      "text": "New Claude Projects* is a nice interface for multi-agent work. It does a good job with having a user-facing coordinator model and independent agents running threads that pass messages around. Takes some fiddling but quite powerful. * Same name but no relation to old Projects🤪",
+      "link": "https://nitter.kareem.one/emollick/status/2112332499917681028#m",
+      "published": "Mon, 19 Oct 2026 23:58:07 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "julien_c",
-      "text": "🙄 Pliny the Liberator 🐉󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭 (@elder_plinius) WTF IS THIS 🤬 — https://nitter.kareem.one/elder_plinius/status/2110798024998113708#m",
-      "link": "https://nitter.kareem.one/julien_c/status/2110822350644007417#m",
-      "published": "Thu, 15 Oct 2026 19:57:20 GMT",
-      "author_name": "Julien Chaumond",
-      "category_hint": "fr",
+      "handle": "emollick",
+      "text": "Video Taylor Lorenz (@TaylorLorenz) There's nothing people deep in AI psychosis love more than a dashboard — https://nitter.kareem.one/TaylorLorenz/status/2112292791619649965#m",
+      "link": "https://nitter.kareem.one/emollick/status/2112310600806072387#m",
+      "published": "Mon, 19 Oct 2026 22:31:06 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "julien_c",
-      "text": "llama.cpp v0.7.0 github.com/ggml-org/llama.cp… Link Release v0.7.0 · ggml-org/llama.cpp Overview llama.cpp v0.7.0 adds the LiliCorr speculative decoding technique and MTP for GLM5-Next, a new GPU cache for MoE experts kept in host memory (--moe-cache-mib, up to ~2.2x decode speedup wh... github.com",
-      "link": "https://nitter.kareem.one/ggml_org/status/2110783295093141587#m",
-      "published": "Thu, 15 Oct 2026 17:22:08 GMT",
-      "author_name": "Julien Chaumond",
-      "category_hint": "fr",
+      "handle": "emollick",
+      "text": "There are many more options for multiplayer, but they require serious experimental with organizational form, requiring more effort than just adding AI to existing chat, but also making them into a better strategic moat rather than a generic capability.",
+      "link": "https://nitter.kareem.one/emollick/status/2112291003537502393#m",
+      "published": "Mon, 19 Oct 2026 21:13:14 GMT",
+      "author_name": "Ethan Mollick",
+      "category_hint": "educator",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
+    "karpathy",
     "sama",
     "DarioAmodei",
     "gdb",
+    "sundarpichai",
     "elonmusk",
     "AravSrinivas",
-    "miramurati",
-    "JeffDean",
+    "ylecun",
+    "demishassabis",
     "fchollet",
     "AndrewYNg",
-    "rasbt",
     "bcherny",
     "karinanguyen_",
     "polynoamial",
@@ -246,9 +292,7 @@
     "aidan_mclau",
     "officiallogank",
     "osanseviero",
-    "AnthropicAI",
     "OpenAI",
-    "GoogleDeepMind",
     "xai",
     "simonw",
     "swyx",
@@ -258,231 +302,343 @@
     "mckaywrigley",
     "amasad",
     "nickadobos",
-    "emollick",
     "ArthurMensch",
     "GuillaumeLample",
     "Thom_Wolf",
+    "julien_c",
     "ClemDelangue",
     "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, le monde de l'IA a été marqué par une série de nouvelles passionnantes et de réflexions profondes. Nous avons découvert des avancées majeures dans les capacités des IA génératives, notamment pour la création 3D et la simulation de mondes, ainsi que des progrès fulgurants en calcul quantique. Les experts nous alertent sur le fossé grandissant entre la perception commune et les réelles capacités de l'IA, tout en nous offrant des pistes concrètes pour mieux interagir avec ces systèmes. Enfin, l'émergence d'agents IA autonomes capables de résoudre des tâches complexes, comme battre un jeu vidéo, illustre le potentiel transformateur de cette technologie.",
+    "summary": "Cette journée a été riche en annonces de la part des grands acteurs de l'IA, notamment Anthropic et Google DeepMind, qui ont mis en avant leurs avancées en matière de sécurité, de nouvelles capacités de modèles comme Gemini 4 Argon battant Minecraft, et leurs engagements sociétaux. Pour ceux qui aiment mettre la main à la pâte, de nouveaux outils et optimisations sont disponibles pour affiner vos modèles d'IA, et des séries de tutoriels approfondis offrent des clés pour comprendre la construction de modèles de raisonnement. Enfin, le soutien à la communauté mondiale de l'IA et les réflexions sur l'intégration de l'IA dans nos vies quotidiennes continuent d'animer les discussions.",
     "glossaire": [
       {
-        "terme": "LLM (Large Language Model)",
-        "definition": "Un programme d'intelligence artificielle très grand, entraîné sur d'énormes quantités de texte, capable de comprendre et de générer du langage humain."
+        "terme": "LoRA fine-tuning",
+        "definition": "Une technique d'entraînement qui permet d'adapter (ou 'fine-tuner') un grand modèle d'IA à une tâche spécifique avec beaucoup moins de données et de puissance de calcul que les méthodes traditionnelles."
       },
       {
-        "terme": "Agent IA",
-        "definition": "Un programme d'IA conçu pour agir de manière autonome, prendre des décisions et exécuter des tâches complexes dans un environnement donné, souvent en plusieurs étapes."
+        "terme": "Optimiseur",
+        "definition": "Un algorithme utilisé pendant l'entraînement d'un modèle d'IA pour ajuster ses paramètres de manière à réduire l'erreur (ou 'perte') et améliorer ses performances."
       },
       {
-        "terme": "Modèle de pointe (Frontier Model)",
-        "definition": "Un modèle d'IA qui représente les capacités les plus avancées disponibles à un moment donné, souvent développé par les plus grandes entreprises de recherche."
+        "terme": "Perte (Loss)",
+        "definition": "Une mesure de l'erreur d'un modèle d'IA : plus la perte est faible, plus le modèle est précis dans ses prédictions ou ses réponses."
       },
       {
-        "terme": "Modèle multimodal",
-        "definition": "Un type d'IA capable de comprendre et de générer différents types de données, comme du texte, des images et des vidéos, en les traitant ensemble."
+        "terme": "Zéro-day",
+        "definition": "Une vulnérabilité logicielle qui n'est pas encore connue des développeurs, et donc sans correctif disponible, ce qui la rend potentiellement exploitable par des attaquants."
       },
       {
-        "terme": "Calcul quantique",
-        "definition": "Une nouvelle forme de calcul qui utilise les principes de la mécanique quantique pour résoudre des problèmes trop complexes pour les ordinateurs classiques."
+        "terme": "Distillation de modèle",
+        "definition": "Une technique qui consiste à transférer les connaissances d'un grand modèle d'IA (le 'professeur') vers un modèle plus petit et plus rapide (l''étudiant'), le rendant ainsi plus efficace."
       },
       {
-        "terme": "Apprentissage par renforcement (Reinforcement Learning)",
-        "definition": "Une méthode d'entraînement de l'IA où un agent apprend à prendre les meilleures décisions en recevant des \"récompenses\" ou des \"pénalités\" pour ses actions."
+        "terme": "Apprentissage par renforcement",
+        "definition": "Un type d'apprentissage automatique où un agent apprend à prendre des décisions en interagissant avec un environnement, recevant des récompenses pour les bonnes actions et des pénalités pour les mauvaises."
       },
       {
-        "terme": "Benchmark",
-        "definition": "Un ensemble de tests standardisés utilisés pour évaluer et comparer les performances de différents modèles ou systèmes d'IA sur des tâches spécifiques."
+        "terme": "Multi-agent",
+        "definition": "Un système où plusieurs intelligences artificielles collaborent, communiquent et agissent ensemble pour atteindre un objectif commun ou résoudre un problème complexe."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces du jour sont dominées par l'arrivée de nouveaux modèles d'IA comme Gemini 4 Argon, désormais disponible sur plusieurs plateformes, et Atlas, un modèle multimodal révolutionnaire. Google a également marqué les esprits avec des progrès majeurs dans le domaine du calcul quantique, ouvrant la voie à des ordinateurs ultra-puissants.",
-      "tips": "Pour mieux exploiter le potentiel des IA, des astuces pratiques ont été partagées, comme l'utilisation de styles d'écriture structurés (ASD-STE100) ou la génération directe de diagrammes, pages web interactives et même de vidéos explicatives. Les capacités du modèle Gemini 4 Argon pour la création 3D sont aussi mises en avant comme une piste d'expérimentation.",
-      "idees": "Une réflexion clé du jour concerne l'écart croissant de compréhension des capacités de l'IA entre le grand public et les experts. La capacité des modèles à 'connaître' le monde simplement en 'compressant' Internet a été soulignée. Par ailleurs, les défis liés à l'usage malveillant de l'IA et les efforts pour y faire face ont été abordés.",
-      "outils": "Le pouvoir des IA à agir comme des agents autonomes a été démontré de manière spectaculaire, notamment avec une équipe de modèles Gemini 4 Argon battant le Dragon de l'Ender dans Minecraft. D'autres outils comme Beam sur Hugging Face et la mise à jour de llama.cpp, qui améliore la vitesse des modèles locaux, sont également sortis."
+      "actu": "Les grandes entreprises de l'IA ont fait plusieurs annonces importantes : des fonds dédiés au bien public et à la recherche en mathématiques par Anthropic, de nouvelles capacités impressionnantes comme Gemini 4 Argon de Google DeepMind battant Minecraft, et des progrès en sécurité et en prévisions météorologiques. Ces nouvelles illustrent les avancées rapides et l'impact croissant de l'IA dans divers domaines.",
+      "tips": "Pour les apprenants, une série de vidéos détaillées sur la 'construction d'un modèle de raisonnement de A à Z' a été publiée, couvrant des techniques clés comme la distillation de modèles et l'apprentissage par renforcement. Ces ressources sont précieuses pour comprendre les mécanismes complexes derrière les modèles d'IA performants et pour les développer soi-même.",
+      "idees": "Des réflexions ont émergé sur l'importance de soutenir le développement de l'IA dans les régions émergentes comme l'Afrique et l'Amérique du Sud, ainsi que des observations sur l'intégration de l'IA dans les flux de travail collaboratifs. Les discussions se sont aussi orientées vers la philosophie de l'IA et son avenir, et des remarques plus légères sur l'écosystème tech.",
+      "outils": "Plusieurs nouveautés sont à tester : un optimiseur innovant appelé Dimuon pour l'ajustement fin de modèles, un nouveau modèle de raisonnement visuel performant nommé Glimpse, un standard pour mesurer l'auto-amélioration des IA (DeepRSI), et une nouvelle interface de Claude pour le travail multi-agent. Ces outils offrent des opportunités concrètes d'expérimenter les dernières avancées."
     },
     "highlights": [
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Je ressors ce tweet d'avril car l'écart de compréhension des capacités des LLM s'élargit. Ce n'est plus \"deux groupes de personnes qui se parlent sans se comprendre\", mais plutôt un entonnoir très marqué. - Selon des calculs rapides, environ 6 milliards de personnes (environ 75% de la population) n'ont quasiment jamais eu de contact avec les LLM. - Environ 1 à 2 milliards (environ 20%) sont des utilisateurs occasionnels et peu fréquents des versions gratuites de produits comme ChatGPT. Ce groupe voit des chatbots un peu maladroits et les traite un peu comme un meilleur moteur de recherche, une aide à la rédaction, etc. Peut-être qu'un agent essaie de leur réserver un vol. J'ai des amis non-techniciens qui (raisonnablement, à mon avis) disent qu'ils n'en ont pas beaucoup l'utilité. Même de nombreux professionnels en dehors des mathématiques et de la programmation sont dans cette catégorie. Par exemple, les cadres et de nombreuses autres fonctions passent beaucoup de temps à parler à d'autres personnes, donc même s'ils comprennent intellectuellement ce qui se passe, c'est encore de seconde main et un peu abstrait. - Ensuite, nous arrivons à l'utilisation professionnelle de LLM de pointe en mathématiques et en programmation. Environ 20 millions de personnes (0,2%) constatent de première main que de grands projets complexes qui leur prenaient des semaines/mois peuvent maintenant être réalisés par des agents avec une simple instruction. Construire des applications, copier des applications, traduire des applications, décompiler des applications à partir de binaires... Tout cela s'est passé très rapidement et récemment - il y a moins d'un an, j'écrivais du code manuellement, tapant des commandes informatiques mémorisées caractère par caractère dans un éditeur de code, appuyant occasionnellement sur Tab pour auto-compléter un petit morceau de code. - Et enfin, nous arrivons aux environ 5 000 personnes (environ 0,00006%) ayant accès à des systèmes de pointe en interne. Le monde extérieur a vu l'aperçu. Cela ressemble à des essaims de milliers d'agents collaborant pendant des semaines sur des mégaprojets logiciels : création de \"zero-days\", exécution de cyberattaques et de défenses à la vitesse de la machine, découverte de nouvelles sciences, avancement de la frontière des mathématiques. Des choses qui auraient pris des années de travail à des professionnels de haut niveau dans l'industrie. Pendant ce temps, l'examen et la compréhension humains commencent à être dépassés. Par exemple, des gens sont toujours impliqués dans l'\"archéologie\" de l'incident OpenAI-HF d'il y a plusieurs mois. Les mathématiciens pourraient se pencher sur les 722 manuscrits de mathématiques de pointe pendant un certain temps. L'entonnoir est alimenté par une combinaison de facteurs : 1. L'impact augmente avec l'ambition, la taille du problème et l'horizon. Une question avec une réponse d'un paragraphe stresse à peine le système. Vous avez besoin d'un réservoir de problèmes grands, difficiles et qui vous tiennent vraiment à cœur. Cet aspect pilote la dimension consommateur / professionnel de l'entonnoir. 2. L'irrégularité du système (dont j'ai beaucoup parlé séparément). Les capacités atteignent des sommets dans des domaines numériques, vérifiables et économiquement précieux. C'est parce que la capacité des LLM émerge de l'apprentissage par renforcement sur des récompenses vérifiables dans un mélange d'environnements curatés et motivés par le potentiel de revenus. Cet aspect pilote principalement la dimension de domaine (par exemple, mathématiques et programmation) de l'entonnoir. 3. L'accès. Niveau gratuit, niveau payant, interne. C'est donc la bizarrerie du moment. Le grand public n'a pour la plupart pas interagi avec ces systèmes. Quand ils l'ont fait, cela ressemble à un chatbot maladroit. La majorité des professionnels ne voient encore qu'une amélioration modeste. Et une petite partie des professionnels connaît le vertige de la courbe qui monte verticalement. Et tout cela se passe en même temps. Andrej Karpathy (@karpathy) À en juger par mon fil, il y a un fossé croissant dans la compréhension des capacités de l'IA. Le premier problème, je pense, concerne la nouveauté et le niveau d'utilisation. Je pense que beaucoup de gens ont essayé la version gratuite de ChatGPT l'année dernière et ont laissé cela influencer un peu trop leurs opinions sur l'IA. C'est un groupe de réactions qui se moquent des diverses bizarreries des modèles, des hallucinations, etc. Oui, j'ai aussi vu les vidéos virales du mode vocal avancé d'OpenAI qui échouait à des requêtes simples comme \"dois-je aller en voiture ou à pied au lave-auto\". Le fait est que ces modèles gratuits et anciens/dépréciés ne reflètent pas les capacités des dernières générations de modèles agentiques à la pointe de la technologie de cette année, en particulier OpenAI Codex et Claude Code. Mais cela m'amène au deuxième problème. Même si les gens payaient 200 $ par mois pour utiliser les modèles de pointe, beaucoup de capacités sont relativement \"pointues\" dans des domaines très techniques. Les requêtes typiques autour de la recherche, de la rédaction, des conseils, etc., ne sont *pas* le domaine qui a fait les avancées les plus notables et spectaculaires en matière de capacités. En partie, cela est dû aux détails techniques de l'apprentissage par renforcement et à son utilisation de récompenses vérifiables. Mais en partie, c'est aussi parce que ces cas d'utilisation ne sont pas suffisamment prioritaires par les entreprises dans leur optimisation car ils ne génèrent pas autant de revenus. Les mines d'or sont ailleurs, et l'attention suit. Cela m'amène donc au deuxième groupe de personnes, qui *à la fois* 1) paient et utilisent les modèles agentiques de pointe (OpenAI Codex / Claude Code) et 2) le font professionnellement dans des domaines techniques comme la programmation, les mathématiques et la recherche. Ce groupe de personnes est soumis à la plus grande quantité de \"psychose de l'IA\" car les améliorations récentes dans ces domaines cette année ont été tout simplement stupéfiantes. Lorsque vous donnez un terminal informatique à l'un de ces modèles, vous pouvez maintenant les regarder résoudre des problèmes de programmation qui vous prendraient normalement des jours/semaines de travail. C'est ce deuxième groupe de personnes qui accorde une gravité beaucoup plus grande aux capacités, à leur évolution, et aux diverses répercussions cybernétiques. En bref, les gens de ces deux groupes se parlent sans se comprendre. Il est vraiment simultanément vrai que le \"mode vocal avancé\" gratuit et, je pense, légèrement orphelin (?) d'OpenAI échouera aux questions les plus stupides de vos bobines Instagram et *en même temps*, le modèle Codex payant d'OpenAI de plus haut niveau pourra travailler pendant 1 heure pour restructurer de manière cohérente une base de code entière, ou trouver et exploiter des vulnérabilités dans des systèmes informatiques. Cette partie fonctionne réellement et a fait des progrès spectaculaires grâce à deux propriétés : 1) ces domaines offrent des fonctions de récompense explicites et vérifiables, ce qui signifie qu'ils sont facilement adaptables à l'entraînement par apprentissage par renforcement (par exemple, les tests unitaires ont réussi oui ou non, en contraste à l'écriture, qui est beaucoup plus difficile à juger explicitement), mais aussi 2) ils sont beaucoup plus précieux dans les contextes B2B, ce qui signifie que la plus grande partie de l'équipe se concentre sur leur amélioration. Voilà où nous en sommes.",
-        "text_original": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all. - Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract. - Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code. - And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while. The funnel is driven by a combination of factors: 1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel. 2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel. 3. Access. Free-tier, paid-tier, internal. So this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time. Andrej Karpathy (@karpathy) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is a group of reactions laughing at various quirks of the models, hallucinations, etc. Yes I also saw the viral videos of OpenAI's Advanced Voice mode fumbling simple queries like \"should I drive or walk to the carwash\". The thing is that these free and old/deprecated models don't reflect the capability in the latest round of state of the art agentic models of this year, especially OpenAI Codex and Claude Code. But that brings me to the second issue. Even if people paid $200/month to use the state of the art models, a lot of the capabilities are relatively \"peaky\" in highly technical areas. Typical queries around search, writing, advice, etc. are *not* the domain that has made the most noticeable and dramatic strides in capability. Partly, this is due to the technical details of reinforcement learning and its use of verifiable rewards. But partly, it's also because these use cases are not sufficiently prioritized by the companies in their hillclimbing because they don't lead to as much $$$ value. The goldmines are elsewhere, and the focus comes along. So that brings me to the second group of people, who *both* 1) pay for and use the state of the art frontier agentic models (OpenAI Codex / Claude Code) and 2) do so professionally in technical domains like programming, math and research. This group of people is subject to the highest amount of \"AI Psychosis\" because the recent improvements in these domains as of this year have been nothing short of staggering. When you hand a computer terminal to one of these models, you can now watch them melt programming problems that you'd normally expect to take days/weeks of work. It's this second group of people that assigns a much greater gravity to the capabilities, their slope, and various cyber-related repercussions. TLDR the people in these two groups are speaking past each other. It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) \"Advanced Voice Mode\" will fumble the dumbest questions in your Instagram's reels and *at the same time*, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems. This part really works and has made dramatic strides because 2 properties: 1) these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge), but also 2) they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them. So here we are.",
-        "link": "https://nitter.kareem.one/karpathy/status/2109361546505966046#m",
-        "decryptage": "Ce long texte de Karpathy explique que la perception des capacités de l'IA varie énormément selon l'utilisateur, allant du novice qui ne voit qu'un chatbot maladroit au professionnel qui utilise des modèles de pointe pour des tâches complexes et perçoit une révolution, créant un fossé de compréhension. Il met en lumière que les progrès les plus spectaculaires de l'IA se trouvent dans des domaines techniques (comme le code ou les maths) car les machines peuvent facilement vérifier si le résultat est correct, ce qui permet de les entraîner plus efficacement.",
-        "category": "idees",
-        "highlight_reason": "Fournit une perspective essentielle sur la manière dont les capacités de l'IA sont perçues différemment selon le niveau d'exposition, aidant le débutant à mieux situer son propre niveau de compréhension."
+        "author_name": "Google DeepMind",
+        "handle": "@GoogleDeepMind",
+        "text_fr": "Quatre agents Gemini 4 Argon ont battu Minecraft de zéro en 27 heures. Opérant dans un environnement virtuel en utilisant uniquement du code et du texte, ils ont écrit 2 783 programmes, réparti les tâches via chat, partagé des notes et débogué des erreurs ensemble – le tout sans aucune aide humaine ↓ Maxence Faldor (@maxencefaldor) Quatre agents Gemini 4 Argon, un monde Minecraft partagé, un objectif : vaincre le Dragon de l'Ender. 27 heures et 2 783 programmes auto-écrits plus tard, le dragon est tombé. Article Une équipe d'agents Gemini 4 Argon bat Minecraft Nous avons placé quatre agents Gemini 4 Argon dans un monde de survie Minecraft sécurisé et en bac à sable et leur avons donné un objectif : vaincre le Dragon de l'Ender, le boss de fin de jeu. Il s'agissait de nos agents généralistes — http://nitter.meowing.monster/maxencefaldor/status/2111023397106770026#m",
+        "text_original": "Four Gemini 4 Argon agents beat Minecraft from scratch in 27 hours. Operating in a sandbox using only code and text, they wrote 2,783 programs, divided up jobs over chat, shared notes, and debugged errors together - all with no human help ↓ Maxence Faldor (@maxencefaldor) Four Gemini 4 Argon agents, one shared Minecraft world, one goal: defeat the Ender Dragon. 27 hours and 2,783 self-written programs later, the dragon fell. Article A team of Gemini 4 Argon agents beats Minecraft We placed four Gemini 4 Argon agents in a safely sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon, the boss at the end of the game. These were our general-purpose — http://nitter.meowing.monster/maxencefaldor/status/2111023397106770026#m",
+        "link": "http://nitter.meowing.monster/GoogleDeepMind/status/2111127991401247033#m",
+        "decryptage": "Ce tweet montre une avancée impressionnante où des intelligences artificielles collaborent de manière autonome pour accomplir une tâche complexe, ce qui est un exemple d'IA multi-agents et de capacités de raisonnement avancé.",
+        "category": "actu",
+        "highlight_reason": "Démontre de manière concrète et spectaculaire la capacité d'agents IA à collaborer, raisonner et atteindre un objectif complexe, ce qui est très parlant pour un débutant."
       },
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Nous allons passer beaucoup plus de temps à essayer de comprendre les sorties des modèles de langage. Quelques réflexions, astuces et conseils : Écriture. Une chose qui m'a réussi : demandez à votre LLM d'expliquer quelque chose en ASD-STE100, c'est une spécification de langage contrôlé développée à l'origine pour la documentation de maintenance aérospatiale. Les LLM sont bien familiarisés avec ce langage et il impose de fortes contraintes sur un style d'écriture clair que je trouve souvent beaucoup plus lisible. Parfois, j'ai essayé de l'adoucir un peu, par exemple en demandant \"à 80% du style ASD-STE100\" car la spécification est assez stricte. Mais encore mieux : Diagrammes / images. Au lieu d'écrire, demandez à votre LLM de créer un diagramme. Ceux-ci peuvent être beaucoup plus faciles à traiter, à analyser et à comprendre. Mais encore mieux : Pages web. Demandez une sortie \"en HTML\" pour obtenir une belle page web interactive. Les LLM deviennent très performants en \"frontend\" et peuvent créer de belles expériences, des animations, etc. Mais encore mieux : Vidéos explicatives. Le format de sortie pour lequel je suis le plus optimiste est la vidéo explicative entièrement personnalisée/sur mesure générée sur n'importe quel sujet arbitraire. Expérimentez des choses comme \"Créez une vidéo explicative de style 3b1b sur X. Utilisez ma clé API ElevenLabs pour la narration audio\". (vous auriez besoin d'une clé API pour cette dernière ou vous pouvez demander à votre LLM de vous trouver des alternatives gratuites décentes utilisant votre puissance de calcul locale). Cela commence vraiment à fonctionner ! En résumé : - À mesure que les LLM s'améliorent, ils feront de plus en plus de travail de manière autonome, et une grande partie de notre travail s'élèvera dans les abstractions, vers la supervision et la compréhension. - Heureusement, les LLM peuvent aussi aider ici car à mesure que l'intelligence et le code deviennent de plus en plus abondants, vous pouvez demander de grands artefacts logiciels personnalisés et jetables (par exemple, des applications web, des vidéos explicatives) qu'il n'aurait jamais été logique de créer auparavant. Poussez les limites et vous serez surpris.",
-        "text_original": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better: Diagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better: Web pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better: Explainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work! In summary: - As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding. - Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
-        "link": "https://nitter.kareem.one/karpathy/status/2105819303471976479#m",
-        "decryptage": "Ce tweet offre des astuces pratiques pour obtenir de meilleures réponses des IA, en suggérant de leur demander des explications dans un langage simple et structuré (ASD-STE100), ou même de générer directement des diagrammes, des pages web interactives, voire des vidéos explicatives.",
-        "category": "tips",
-        "highlight_reason": "Offre des conseils directement applicables et très innovants pour interagir avec les IA, permettant au lecteur de tester des méthodes avancées pour obtenir des résultats plus utiles."
-      },
-      {
-        "author_name": "Demis Hassabis",
-        "handle": "@demishassabis",
-        "text_fr": "Quatre agents Gemini 4 Argon, un monde Minecraft partagé, un seul objectif : vaincre le Dragon de l'Ender. Après 27 heures et 2 783 programmes écrits par eux-mêmes, le dragon est tombé. Article : Une équipe d'agents Gemini 4 Argon bat Minecraft. Nous avons placé quatre agents Gemini 4 Argon dans un monde de survie Minecraft en sandbox sécurisé et leur avons donné un seul objectif : vaincre le Dragon de l'Ender, le boss de fin de jeu. Il s'agissait de nos agents généralistes.",
-        "text_original": "Four Gemini 4 Argon agents, one shared Minecraft world, one goal: defeat the Ender Dragon. 27 hours and 2,783 self-written programs later, the dragon fell. Article A team of Gemini 4 Argon agents beats Minecraft We placed four Gemini 4 Argon agents in a safely sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon, the boss at the end of the game. These were our general-purpose",
-        "link": "http://nitter.meowing.monster/maxencefaldor/status/2111023397106770026#m",
-        "decryptage": "Des \"agents\" (des IA autonomes) utilisant le modèle Gemini 4 Argon ont réussi à vaincre le boss final de Minecraft en travaillant ensemble et en programmant leurs propres actions, démontrant leur capacité à résoudre des problèmes complexes et à s'adapter de manière autonome.",
+        "author_name": "Mira Murati",
+        "handle": "@miramurati",
+        "text_fr": "Comme l'a dit @johnschulman2, il y a de nombreuses façons de « dépenser du calcul pour économiser du calcul à nos clients ». En voici une – une variante de muon qui fonctionne bien mieux pour le fine-tuning LoRA :) Tinker (@tinkerapi) Dimuon est un nouvel optimiseur que nous avons créé pour le fine-tuning LoRA. Lors de nos tests SFT, il atteint souvent une perte plus faible en moins d'étapes que AdamW. Nous expérimentons toujours avec Dimuon ; vous pouvez l'essayer avec Tinker dès aujourd'hui et partager vos retours ! Consultez notre guide des optimiseurs sur tinker-docs.thinkingmachines… — http://nitter.meowing.monster/tinkerapi/status/2110535361013366840#m",
+        "text_original": "As @johnschulman2 has put it, there are many ways we can \"spend compute to save our customers compute\". Here's one of them - a variant of muon that works far better for lora fine-tuning :) Tinker (@tinkerapi) Dimuon is a new optimizer we built for LoRA fine-tuning. In our SFT tests, it often reaches lower loss in fewer steps than AdamW. We're still experimenting with Dimuon; you can Tinker with it today and share your feedback! See our optimizers guide at tinker-docs.thinkingmachines… — http://nitter.meowing.monster/tinkerapi/status/2110535361013366840#m",
+        "link": "http://nitter.meowing.monster/cHHillee/status/2110569587955908774#m",
+        "decryptage": "Cet 'optimiseur' Dimuon est un nouvel algorithme qui aide à améliorer les modèles d'IA plus efficacement, en réduisant leurs erreurs ('perte') plus rapidement lors de leur entraînement spécifique ('LoRA fine-tuning').",
         "category": "outils",
-        "highlight_reason": "Démontre de façon très concrète et impressionnante la capacité d'agents IA autonomes à collaborer et à résoudre des problèmes complexes, illustrant le futur de l'IA."
+        "highlight_reason": "Présente un nouvel outil concret et une technique d'optimisation pour améliorer l'entraînement des modèles d'IA, ce qui est directement utile pour ceux qui souhaitent expérimenter."
       },
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Nous publions notre rapport le plus détaillé à ce jour sur les renseignements sur les menaces. Il couvre la manière dont des personnes ont tenté d'utiliser abusivement Claude — pour des cyberattaques, des opérations d'influence, de la surveillance, des utilisations en biologie et la fabrication d'armes — et comment nous les avons détectées et arrêtées. Nous avons déjoué chaque opération mentionnée dans le rapport et avons utilisé les leçons tirées pour renforcer nos mesures de sécurité. Le cas échéant, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en lumière certaines des utilisations abusives les plus sophistiquées que nous ayons observées. Mais il est particulièrement important d'en discuter, car elles nous montrent vers où se dirige l'abus de l'IA, où nos mesures de sécurité fonctionnent et où elles doivent être améliorées. Nous publions ce rapport pour que d'autres puissent repérer la même activité sur leurs propres plateformes, et pour donner au public une vision plus claire de la façon dont les menaces émergentes se développent. Lisez le rapport : anthropic.com/threat-intelli… Lien : Lutter contre l'abus de l'IA : Septembre 2026 / Anthropic Études de cas d'acteurs de la menace déjoués entre décembre 2025 et août 2026 dans sept domaines de préjudice, des opérations cybernétiques à l'abus biologique. anthropic.com",
-        "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
-        "link": "https://nitter.kareem.one/AnthropicAI/status/2098097512544444447#m",
-        "decryptage": "Ce rapport d'Anthropic (une entreprise qui développe l'IA Claude) souligne les dangers potentiels des IA, comme les utiliser pour des cyberattaques ou des opérations d'influence, et explique comment ils travaillent pour empêcher ces abus. C'est une réflexion importante sur la sécurité et l'éthique de l'IA.",
-        "category": "idees",
-        "highlight_reason": "Soulève une question cruciale sur la sécurité et les usages malveillants de l'IA, essentielle pour que le débutant comprenne les enjeux éthiques et sociétaux de cette technologie."
+        "author_name": "Sebastian Raschka",
+        "handle": "@rasbt",
+        "text_fr": "Tour 8 de 'Reasoning From Scratch', la finale ! Cette dernière conférence de la série couvre la distillation comme une alternative efficace aux précédentes exécutions d'entraînement par apprentissage par renforcement. (Je prévois une courte pause, mais je serai de retour !) 00:00 Introduction et récapitulatif de la série 01:07 Pourquoi distiller un modèle de raisonnement ? 02:51 Distillation douce vs dure 11:06 Distillation on-policy vs off-policy 18:09 Préparation des données pour la distillation de raisonnement 22:35 Chargement de l'ensemble de données DeepSeek R1 MATH 28:04 Inspection des traces de raisonnement et des réponses finales 31:27 Tokenisation et modèles de chat 35:58 Pré-tokenisation de l'ensemble de données d'entraînement 39:01 Longueurs de séquence et limite de 2 048 jetons 42:38 Création de divisions d'entraînement et de validation 45:32 Chargement du modèle de base Qwen3-0.6B 46:24 Calcul des probabilités logarithmiques des jetons de réponse 54:10 Perte d'entropie croisée pour la distillation 57:25 Aides à la perte d'entraînement et de validation 1:02:03 Implémentation de la boucle d'entraînement de distillation 1:07:26 Exécution du script d'entraînement autonome 1:09:41 Tracé des pertes d'entraînement et de validation 1:11:31 Évaluation des points de contrôle sur MATH-500 1:14:09 Comparaison des résultats des enseignants et de la distillation 1:16:34 Orientations futures pour les modèles de raisonnement 1:19:41 Exercices bonus et prochaines étapes Vidéo",
+        "text_original": "Reasoning From Scratch round 8, the finale! This last lecture in the series covers distillation as an efficient alternative to the previous reinforcement learning training runs. (Planning to take a brief break, but I will be back!) 00:00 Introduction and series recap 01:07 Why distill a reasoning model? 02:51 Soft vs. hard distillation 11:06 On-policy vs. off-policy distillation 18:09 Preparing data for reasoning distillation 22:35 Loading the DeepSeek R1 MATH dataset 28:04 Inspecting reasoning traces and final answers 31:27 Tokenization and chat templates 35:58 Pre-tokenizing the training dataset 39:01 Sequence lengths and the 2,048-token limit 42:38 Creating training and validation splits 45:32 Loading the Qwen3-0.6B base model 46:24 Computing answer-token log probabilities 54:10 Cross-entropy loss for distillation 57:25 Training and validation loss helpers 1:02:03 Implementing the distillation training loop 1:07:26 Running the standalone training script 1:09:41 Plotting training and validation losses 1:11:31 Evaluating checkpoints on MATH-500 1:14:09 Comparing teachers and distillation results 1:16:34 Future directions for reasoning models 1:19:41 Bonus exercises and next steps Video",
+        "link": "https://nitter.kareem.one/rasbt/status/2111448141119856866#m",
+        "decryptage": "La 'distillation' est une méthode pour rendre les modèles d'IA plus petits et plus rapides tout en conservant leurs performances, en leur faisant apprendre d'un modèle plus grand, tandis que l'apprentissage par renforcement est une technique où l'IA apprend par essais et erreurs.",
+        "category": "tips",
+        "highlight_reason": "Offre un contenu pédagogique très détaillé et pratique pour comprendre comment construire et optimiser des modèles d'IA de raisonnement, idéal pour un débutant passionné."
+      },
+      {
+        "author_name": "Ethan Mollick",
+        "handle": "@emollick",
+        "text_fr": "Les nouveaux 'Claude Projects' sont une interface agréable pour le travail multi-agent. Elle gère bien le fait d'avoir un modèle coordinateur orienté utilisateur et des agents indépendants exécutant des threads qui se transmettent des messages. Cela demande un peu de tâtonnement mais c'est assez puissant. * Même nom mais sans rapport avec les anciens Projets 🤪",
+        "text_original": "New Claude Projects* is a nice interface for multi-agent work. It does a good job with having a user-facing coordinator model and independent agents running threads that pass messages around. Takes some fiddling but quite powerful. * Same name but no relation to old Projects🤪",
+        "link": "https://nitter.kareem.one/emollick/status/2112332499917681028#m",
+        "decryptage": "Cette interface permet de gérer des 'agents multi-agents', c'est-à-dire plusieurs IA qui travaillent ensemble et communiquent pour résoudre des problèmes, ce qui est une approche avancée pour des tâches complexes.",
+        "category": "outils",
+        "highlight_reason": "Met en avant une nouvelle interface pour la collaboration entre IA, ouvrant des perspectives concrètes pour explorer le potentiel du travail multi-agent, un concept important de l'IA moderne."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Présentation d'Atlas : le premier modèle mondial multimodal qui génère des images et des séquences vidéo avec un contrôle parfait de la caméra au pixel près et les reconstruit en 3D. Modélisez le monde, déplacez la caméra et simulez l'espace et le temps. Vidéo",
-          "text_original": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space & time. Video",
-          "link": "https://nitter.kareem.one/theworldlabs/status/2094839756329041984#m",
-          "decryptage": "Atlas est un nouveau type d'IA capable de comprendre et de créer à la fois des images et des vidéos, en contrôlant précisément la caméra virtuelle et en recréant des scènes en trois dimensions, ce qui lui permet de simuler des mondes virtuels."
+          "author_name": "Mira Murati",
+          "handle": "@miramurati",
+          "text_fr": "L'une des meilleures parties de cette année, au sein de Thinky et en dehors, a été de voir des gens suivre leurs propres idées jusqu'à des poids qu'ils possèdent. Thinking Machines (@thinkymachines) Tinker permet aux clients de transformer leur expertise en modèles de pointe qu'ils possèdent. Un an après son lancement, nous faisons le bilan de ce que nous avons livré et de ce que nos utilisateurs construisent. thinkingmachines.ai/news/one… Lien Un an de Tinker : Transformer votre expertise en modèles personnalisés Tinker gère l'infrastructure, tandis que nos recherches et recettes rendent plus de méthodes d'entraînement accessibles. thinkingmachines.ai — http://nitter.meowing.monster/thinkymachines/status/2110851669915570685#m",
+          "text_original": "One of the best parts of this year, inside Thinky and out, has been watching people follow their own ideas all the way into weights they own. Thinking Machines (@thinkymachines) Tinker lets customers turn their expertise into cutting-edge models that they own. One year after launch, we look back at what we’ve shipped and what our users are building. thinkingmachines.ai/news/one… Link One Year of Tinker: Turning Your Expertise into Custom Models Tinker handles the infrastructure, while our research and recipes make more training methods accessible. thinkingmachines.ai — http://nitter.meowing.monster/thinkymachines/status/2110851669915570685#m",
+          "link": "http://nitter.meowing.monster/miramurati/status/2110870483214213496#m",
+          "decryptage": "Thinking Machines célèbre le premier anniversaire de 'Tinker', une plateforme qui permet aux experts de créer et de posséder leurs propres modèles d'IA personnalisés, en fournissant l'infrastructure nécessaire et des méthodes d'entraînement simplifiées."
         },
         {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "Gemini 4 Argon est un modèle de pointe et a établi un nouveau record de l'état de l'art (SoTA) sur le benchmark Wide-And-Deep-Research (WANDR). Il est désormais disponible pour tous les utilisateurs de Perplexity, à la fois en mode recherche rapide et en mode ordinateur (agent). Perplexity (@perplexity_ai) Gemini 4 Argon établit un nouveau record sur WANDR. Il est désormais disponible dans Perplexity pour les abonnés Pro et Max.",
-          "text_original": "Gemini 4 Argon is a frontier model and has set a new SoTA on Wide-And-Deep-Research (WANDR) benchmark. Available now to all Perplexity users both on fast search and Computer (agent) modes. Perplexity (@perplexity_ai) Gemini 4 Argon sets a new record on WANDR. It is now available in Perplexity for Pro and Max subscribers. — https://nitter.kareem.one/perplexity_ai/status/2111110772747321460#m",
-          "link": "https://nitter.kareem.one/AravSrinivas/status/2111111329536987234#m",
-          "decryptage": "Gemini 4 Argon est un nouveau modèle d'IA très performant de Google, qui a battu des records sur des tests spécifiques et est maintenant intégré dans l'application de recherche Perplexity, offrant des capacités améliorées de recherche et d'agent."
+          "author_name": "Mira Murati",
+          "handle": "@miramurati",
+          "text_fr": "Au fait, Tinker recrute des chercheurs et des experts en infrastructure ! Recherche : jobs.ashbyhq.com/ThinkingMac… Systèmes : jobs.ashbyhq.com/ThinkingMac… Lien Recherche, science du fine-tuning À PROPOS DE THINKING MACHINES La mission de Thinking Machines est de construire une IA qui étend la volonté et le jugement humains. Nous entraînons des modèles de pointe avec Inkling, développons Tinker pour permettre aux gens de créer des modèles... jobs.ashbyhq.com Tinker (@tinkerapi) Dimuon est un nouvel optimiseur que nous avons créé pour le fine-tuning LoRA. Lors de nos tests SFT, il atteint souvent une perte plus faible en moins d'étapes que AdamW. Nous expérimentons toujours avec Dimuon ; vous pouvez l'essayer avec Tinker dès aujourd'hui et partager vos retours ! Consultez notre guide des optimiseurs sur tinker-docs.thinkingmachines… — http://nitter.meowing.monster/tinkerapi/status/2110535361013366840#m",
+          "text_original": "BTW tinker is hiring researchers & infra experts! research: jobs.ashbyhq.com/ThinkingMac… systems: jobs.ashbyhq.com/ThinkingMac… Link Research, Finetuning Science ABOUT THINKING MACHINES The mission of Thinking Machines is to build AI that extends human will and judgment. We are training frontier models with Inkling, developing Tinker to let people make models... jobs.ashbyhq.com Tinker (@tinkerapi) Dimuon is a new optimizer we built for LoRA fine-tuning. In our SFT tests, it often reaches lower loss in fewer steps than AdamW. We're still experimenting with Dimuon; you can Tinker with it today and share your feedback! See our optimizers guide at tinker-docs.thinkingmachines… — http://nitter.meowing.monster/tinkerapi/status/2110535361013366840#m",
+          "link": "http://nitter.meowing.monster/hannahnth/status/2110559155224482222#m",
+          "decryptage": "Thinking Machines, qui développe la plateforme Tinker, recrute activement des experts pour travailler sur des modèles d'IA de pointe, notamment pour améliorer leur entraînement ('fine-tuning')."
         },
         {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "Gemini 4 Argon est disponible sur Antigravity pour les abonnés Pro payants. Dans le cadre de l'abonnement Pro, vous bénéficiez d'un quota hebdomadaire séparé afin qu'il ne consomme pas votre quota Flash. Impatient de voir Antigravity repousser les limites de notre meilleur modèle à ce jour. Hâte de voir ce que vous allez construire !",
-          "text_original": "Gemini 4 Argon is live in Antigravity for paid Pro subscribers. As part of Pro, you get a separate weekly quota so it doesn’t eat up your Flash quota. Excited to see Antigravity push the limits of our best model yet. Love to see what you build!",
-          "link": "https://nitter.kareem.one/_mohansolo/status/2110866446020710657#m",
-          "decryptage": "Gemini 4 Argon, le nouveau modèle d'IA de Google, est maintenant accessible aux utilisateurs Pro de la plateforme Antigravity, avec des limites d'utilisation spécifiques pour encourager l'expérimentation."
+          "author_name": "Mira Murati",
+          "handle": "@miramurati",
+          "text_fr": "Nous construisons une intelligence machine pour étendre la volonté et le jugement humains. Heureux de vous avoir dans l'équipe pour nous aider à rendre cet avenir sûr. Neil Chowdhury (@ChowdhuryNeil) J'ai rejoint @thinkymachines pour travailler sur la sécurité et l'alignement. La trajectoire par défaut est qu'à mesure que l'IA devient plus puissante, le contrôle sur elle se concentrera entre les mains de quelques-uns. Je préférerais construire des systèmes de sécurité qui permettent de partager largement le contrôle sur l'IA. Pensées plus longues ci-dessous. — http://nitter.meowing.monster/ChowdhuryNeil/status/2099536168350273669#m",
+          "text_original": "We’re building machine intelligence to expand human will & judgement. Glad to have you on the team to help us figure out how to make this future safe. Neil Chowdhury (@ChowdhuryNeil) I’ve joined @thinkymachines to work on safety & alignment. The default trajectory is that as AI gets more powerful, control over it will concentrate in the hands of a few. I’d rather build safety systems that let control over AI be shared widely. Longer thoughts below. — http://nitter.meowing.monster/ChowdhuryNeil/status/2099536168350273669#m",
+          "link": "http://nitter.meowing.monster/miramurati/status/2099544707340841441#m",
+          "decryptage": "Neil Chowdhury rejoint Thinking Machines pour travailler sur la 'sécurité et l'alignement' de l'IA, c'est-à-dire s'assurer que l'IA est sûre et agit conformément aux intentions humaines, et que son contrôle est partagé, non concentré."
         },
         {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "En savoir plus ici : blog.google/innovation-and-a… Lien : L'heure de la magie : Google élimine un goulot d'étranglement dans le calcul quantique. Dans un article publié dans Science, Google a montré que la \"Culture d'États Magiques\" fonctionne sur le matériel d'IA quantique de Google. blog.google",
-          "text_original": "read more here: blog.google/innovation-and-a… Link Bringing the magic: Google breaks open a bottleneck in quantum computing In a paper published in Science, Google has shown that Magic State Cultivation works on Google Quantum AI hardware. blog.google",
-          "link": "https://nitter.kareem.one/sundarpichai/status/2110804298087203149#m",
-          "decryptage": "Google a réalisé une avancée importante dans le domaine de l'informatique quantique, une technologie qui utilise les principes de la physique quantique pour résoudre des problèmes complexes bien plus rapidement que les ordinateurs classiques, en rendant les ordinateurs quantiques plus fiables."
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Mon laboratoire de recherche en sécurité IA AISLE a découvert plus de 500 vulnérabilités de type 'zero-day' avec des CVEs dans plus de 100 bases de code en un an => ~1% des CVEs open-source de 2026 à l'échelle mondiale proviennent d'une seule équipe ! Sur des bases de code renforcées comme curl, nous avons à plusieurs reprises égalé ou surpassé les laboratoires d'IA de pointe dans la découverte de zero-days",
+          "text_original": "My AI security research lab AISLE discovered 500+ zero-days with CVEs across 100+ codebases in a year => ~1% of 2026's open-source CVEs globally from a single team! On hardened codebases like curl, we've repeatedly matched or outperformed frontier AI labs in zero-day discovery",
+          "link": "https://nitter.kareem.one/stanislavfort/status/2110386359777046951#m",
+          "decryptage": "Le laboratoire de sécurité IA AISLE a détecté un grand nombre de 'zero-days' (failles de sécurité inconnues) avec des 'CVEs' (identifiants publics de vulnérabilités), démontrant l'efficacité de l'IA pour trouver des problèmes de sécurité dans le code."
         },
         {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "Des progrès magiques vers l'\"état magique\" en quantique ! Notre équipe @GoogleQuantumAI a démontré la \"culture d'états magiques\" sur du matériel physique pour la première fois. Le résultat est une réduction d'erreur de 40 fois sur notre processeur Willow par rapport aux méthodes précédentes, atteignant une fidélité logique de 99,99%, à la pointe de la technologie. C'est une nouvelle étape vers des ordinateurs quantiques utiles et corrigés d'erreurs pour aider à résoudre les problèmes les plus difficiles. Le résultat est publié dans Science aujourd'hui, regardez la vidéo ci-dessous pour voir comment cela fonctionne. Vidéo",
-          "text_original": "Some magical progress towards \"magic state\" in quantum! Our @GoogleQuantumAI team has demonstrated \"magic state cultivation\" on physical hardware for the first time. The result is a 40x error reduction on our Willow processor vs. previous methods, achieving a state-of-the-art 99.99% logical fidelity. It's another step towards useful, error-corrected quantum computers to help solve the hardest problems. The result is published in Science today, watch the video below to see how it works Video",
-          "link": "https://nitter.kareem.one/sundarpichai/status/2110804295352488143#m",
-          "decryptage": "Google a fait un grand pas en avant dans l'informatique quantique en réussissant à réduire considérablement les erreurs sur ses processeurs, ce qui est crucial pour rendre ces ordinateurs ultra-puissants plus fiables et utilisables pour résoudre des problèmes très complexes."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Nous engageons une partie des actions d'Anthropic au Anthropic Public Benefit Fund, une nouvelle entité entièrement détenue et dédiée au bien public. Elle débutera avec 5 % de nos actions. Pour chaque augmentation de 50 % de la valeur de l'entreprise par rapport à un seuil défini, nous pourrons contribuer jusqu'à 2 % supplémentaires, à la discrétion de notre conseil d'administration. Au total, cela signifie qu'environ 20 % des actions d'Anthropic sont engagées pour le bien public. Nos co-fondateurs se sont déjà engagés à faire don de 80 % de leur participation, et environ la moitié de nos employés donnent une partie de leur participation dans le cadre d'un programme de dons que nous avons mis en place depuis notre fondation. Dans le billet ci-dessous, nous partageons plus de détails sur notre nouveau fonds. anthropic.com/news/public-be… Lien Investir dans le bien public Nous engageons une partie des actions d'Anthropic au Anthropic Public Benefit Fund, une nouvelle entité dont la structure augmente la participation à mesure que l'entreprise grandit. anthropic.com",
+          "text_original": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new wholly owned entity dedicated entirely to the public benefit. It will start off with 5% of our shares. For every 50% increase in the company’s value over a set baseline, we can contribute up to an extra 2%, subject to our board’s discretion. In total, this means that roughly 20% of Anthropic’s shares are committed to the public good. Our co-founders have already pledged to donate 80% of their equity, and around half our employees are donating a portion of their equity as part of a donation matching program we’ve run since our founding. In the post below, we share more details about our new fund. anthropic.com/news/public-be… Link Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. anthropic.com",
+          "link": "https://nitter.kareem.one/AnthropicAI/status/2111881963657412903#m",
+          "decryptage": "Anthropic, une entreprise d'IA, annonce la création d'un fonds dédié au bien public, auquel elle engage une partie de ses actions pour soutenir des initiatives bénéfiques pour la société."
         },
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "Beaucoup d'enthousiasme pour Argon et Gemini cette semaine sur Antigravity. Réinitialisation des quotas de modèles Argon et Gemini pour tout le monde. Continuez à créer ce week-end !",
-          "text_original": "Lots of excitement for Argon and Gemini this week on Antigravity. Resetting Argon and Gemini model quotas for everyone. Keep building through the weekend!",
-          "link": "http://nitter.meowing.monster/_mohansolo/status/2111220356178751860#m",
-          "decryptage": "Les quotas d'utilisation des modèles d'IA Gemini et Argon sur la plateforme Antigravity ont été réinitialisés, permettant aux utilisateurs d'expérimenter davantage leurs capacités pendant le week-end."
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Nouveau de notre programme STEM Fellows : Concevoir des circuits quantiques plus efficaces avec Claude. Grâce à des instructions en langage clair, Claude Mythos 5 a conçu des circuits quantiques qui améliorent les meilleures versions publiées, parfois d'un ordre de grandeur ou plus. Des circuits plus efficaces réduisent les ressources nécessaires aux algorithmes quantiques, ce qui pourrait rendre les applications de l'informatique quantique en chimie et science des matériaux accessibles plus tôt. En savoir plus : anthropic.com/research/desig… Lien Conception de circuits quantiques plus efficaces avec Claude Travaillant largement seul, Claude a conçu des circuits quantiques qui améliorent les meilleures versions publiées, dans certains cas d'un ordre de grandeur ou plus. anthropic.com",
+          "text_original": "New from our STEM Fellows Program: Designing more efficient quantum circuits with Claude. Given plain-language instructions, Claude Mythos 5 designed quantum circuits that improve on the best published ones, sometimes by an order of magnitude or more. More efficient circuits reduce the resources needed by quantum algorithms, which could bring quantum computing applications in chemistry and materials science within reach sooner. Read more: anthropic.com/research/desig… Link Designing more efficient quantum circuits with Claude Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases of an order of magnitude or more. anthropic.com",
+          "link": "https://nitter.kareem.one/AnthropicAI/status/2111152183240511640#m",
+          "decryptage": "Claude, le modèle d'IA d'Anthropic, a réussi à créer des 'circuits quantiques' (composants de base pour l'informatique quantique) plus efficaces que les meilleurs existants, ce qui pourrait accélérer le développement des ordinateurs quantiques."
         },
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "En collaboration avec des scientifiques du monde entier, nos modèles et outils aident à rendre les maladies plus détectables, traitables et évitables. 🧬 De l'identification des variants génétiques rares à l'accélération de la découverte de médicaments, voici comment nous aidons à transformer les découvertes de laboratoire en soins concrets → goo.gle/4i48Cmr",
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Comprendre comment utiliser au mieux l'IA dans la recherche mathématique — et plus généralement scientifique — prendra du temps, des efforts et des ressources. Nous sommes désireux de soutenir les mathématiciens alors qu'ils stimulent le progrès scientifique et définissent l'avenir de leur domaine. Nous avons engagé 5 millions de dollars de financement, de puissance de calcul et d'accès à Claude pour aider la communauté mathématique à naviguer dans les changements massifs apportés par l'IA. Nous nous associons à @SimonsFdn, qui gérera l'attribution via une approche communautaire, soutenant des ateliers, des conférences et des conférences par des experts du domaine. nitterk.kareem.one/SimonsFdn/status/21107… Simons Foundation (@SimonsFdn) Comment la communauté mathématique peut-elle tracer la meilleure voie à suivre à l'ère de l'IA ? Nous nous engageons à verser 15 millions de dollars pour des ateliers et des initiatives — plus des ressources de calcul IA gratuites pour les chercheurs soutenus par la fondation — grâce à de nouveaux partenariats avec @AnthropicAI et @OpenAI : bit.ly/4zpfIbW #math #science #AI Lien La Fondation Simons lance un effort de 15 millions de dollars pour aider les mathématiciens à naviguer dans l'ère de l'IA La Fondation Simons a annoncé aujourd'hui une nouvelle série d'initiatives qui aideront la communauté mathématique à naviguer dans l'essor rapide de l'intelligence artificielle dans ce domaine. Dans le cadre d'un partenariat… simonsfoundation.org — https://nitter.kareem.one/SimonsFdn/status/2110740786169979088#m",
+          "text_original": "Working out how best to use AI in mathematics research—and in science more generally—will take time, effort, and resources. We’re eager to support mathematicians as they drive scientific progress and define the future of their field. We’ve committed $5 million of funding, compute, and Claude access to help the math community navigate the massive changes that AI brings. We’re partnering with @SimonsFdn , who will manage the award through a community-driven approach, supporting workshops, conferences, and lectures by domain experts. nitterk.kareem.one/SimonsFdn/status/21107… Simons Foundation (@SimonsFdn) How can the math community forge the best path forward in the AI age? We're committing $15M to workshops and initiatives — plus free AI computing resources for foundation-supported researchers — through new partnerships with @AnthropicAI and @OpenAI : bit.ly/4zpfIbW #math #science #AI Link Simons Foundation Launches $15M Effort To Help Mathematicians Navigate AI Era The Simons Foundation today announced a new set of initiatives that will help the mathematics community navigate the rapid rise of artificial intelligence in the field. Under a partnership… simonsfoundation.org — https://nitter.kareem.one/SimonsFdn/status/2110740786169979088#m",
+          "link": "https://nitter.kareem.one/AnthropicAI/status/2110846112152105136#m",
+          "decryptage": "Anthropic s'engage à financer et à donner accès à ses ressources d'IA, comme son modèle Claude, pour aider la communauté des mathématiciens à utiliser l'IA dans leur recherche et s'adapter aux changements qu'elle apporte."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Nous nous sommes engagés à faire évaluer nos pratiques de sécurité par des évaluateurs indépendants. Nous sommes en discussion avec plusieurs organisations, et avons maintenant donné un accès similaire à celui des employés à une équipe de @METR_Evals. Dans ce billet, nous décrivons comment nous travaillons avec des évaluateurs tiers : anthropic.com/news/an-update… Lien Mise à jour d'Anthropic sur les évaluateurs indépendants Anthropic annonce des mises à jour sur l'intégration d'évaluateurs indépendants anthropic.com",
+          "text_original": "We’ve committed to having evaluators assess our safety practices. We're in discussions with multiple organizations, and have now given employee-like access to a team from @METR_Evals . In this post, we describe how we work with third-party evaluators: anthropic.com/news/an-update… Link Anthropic update on independent evaluators Anthropic announces updates to embedding independent evaluators anthropic.com",
+          "link": "https://nitter.kareem.one/AnthropicAI/status/2110784662071398807#m",
+          "decryptage": "Anthropic renforce la confiance dans ses systèmes d'IA en autorisant des experts externes et indépendants à évaluer et vérifier ses méthodes de sécurité, garantissant ainsi plus de transparence et de fiabilité."
+        },
+        {
+          "author_name": "Anthropic",
+          "handle": "@AnthropicAI",
+          "text_fr": "Les candidatures sont maintenant ouvertes pour deux nouvelles bourses Anthropic. Les boursiers STEM (science et ingénierie) et Conceptual Reasoning Fellows (philosophie, sciences cognitives, économie, politique et droit) passeront quatre mois chez Anthropic à partir de janvier 2027, travaillant à aider Claude à raisonner correctement sur certains des problèmes les plus difficiles dans ces domaines. Pour plus d'informations, voir les descriptions ci-dessous. La date limite de candidature est le 28 octobre. Boursiers en raisonnement conceptuel : job-boards.greenhouse.io/ant… Boursiers STEM : job-boards.greenhouse.io/ant… Lien Boursier en raisonnement conceptuel À distance, États-Unis ; San Francisco, CA job-boards.greenhouse.io",
+          "text_original": "Applications are now open for two new Anthropic Fellowships. STEM Fellows (science and engineering) and Conceptual Reasoning Fellows (philosophy, cognitive science, economics, policy, and law) will spend four months at Anthropic from January 2027, working to help Claude reason well about some of the hardest problems in those fields. For more information, see the descriptions below. The application deadline is October 28. Conceptual Reasoning Fellows: job-boards.greenhouse.io/ant… STEM Fellows: job-boards.greenhouse.io/ant… Link Conceptual Reasoning Fellow Remote-Friendly, United States; San Francisco, CA job-boards.greenhouse.io",
+          "link": "https://nitter.kareem.one/AnthropicAI/status/2110720940665372825#m",
+          "decryptage": "Anthropic propose des bourses à des experts de divers domaines (sciences, ingénierie, philosophie, droit) pour qu'ils collaborent avec leur IA Claude et l'aident à améliorer ses capacités de raisonnement sur des sujets complexes."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "Nous avons fait beaucoup pour comprendre les capacités et les propensions de Gemini 4 et pour améliorer nos mesures d'atténuation pour ce lancement — vous pouvez obtenir un résumé ici blog.google/innovation-and-a… et plonger dans le rapport storage.googleapis.com/deepm… Lien Développer Gemini 4 Argon de manière responsable et sûre En savoir plus sur notre approche de la sécurité et de la sûreté pour Gemini 4 Argon. blog.google",
+          "text_original": "We did a lot to understand Gemini 4's capabilities and propensities, and to improve our mitigations for this launch -- you can get a tl;dr here blog.google/innovation-and-a… and dive into the report storage.googleapis.com/deepm… Link Developing Gemini 4 Argon responsibly and safely Learn more about our approach to safety and security for Gemini 4 Argon. blog.google",
+          "link": "http://nitter.meowing.monster/ancadianadragan/status/2110073779531747784#m",
+          "decryptage": "Google DeepMind a mené une étude approfondie sur les capacités et les risques potentiels de son modèle d'IA Gemini 4 Argon afin de s'assurer qu'il soit développé et utilisé de manière responsable et sûre."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "Quatre agents Gemini 4 Argon ont battu Minecraft de zéro en 27 heures. Opérant dans un environnement virtuel en utilisant uniquement du code et du texte, ils ont écrit 2 783 programmes, réparti les tâches via chat, partagé des notes et débogué des erreurs ensemble – le tout sans aucune aide humaine ↓ Maxence Faldor (@maxencefaldor) Quatre agents Gemini 4 Argon, un monde Minecraft partagé, un objectif : vaincre le Dragon de l'Ender. 27 heures et 2 783 programmes auto-écrits plus tard, le dragon est tombé. Article Une équipe d'agents Gemini 4 Argon bat Minecraft Nous avons placé quatre agents Gemini 4 Argon dans un monde de survie Minecraft sécurisé et en bac à sable et leur avons donné un objectif : vaincre le Dragon de l'Ender, le boss de fin de jeu. Il s'agissait de nos agents généralistes — http://nitter.meowing.monster/maxencefaldor/status/2111023397106770026#m",
+          "text_original": "Four Gemini 4 Argon agents beat Minecraft from scratch in 27 hours. Operating in a sandbox using only code and text, they wrote 2,783 programs, divided up jobs over chat, shared notes, and debugged errors together - all with no human help ↓ Maxence Faldor (@maxencefaldor) Four Gemini 4 Argon agents, one shared Minecraft world, one goal: defeat the Ender Dragon. 27 hours and 2,783 self-written programs later, the dragon fell. Article A team of Gemini 4 Argon agents beats Minecraft We placed four Gemini 4 Argon agents in a safely sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon, the boss at the end of the game. These were our general-purpose — http://nitter.meowing.monster/maxencefaldor/status/2111023397106770026#m",
+          "link": "http://nitter.meowing.monster/GoogleDeepMind/status/2111127991401247033#m",
+          "decryptage": "Ce tweet montre une avancée impressionnante où des intelligences artificielles collaborent de manière autonome pour accomplir une tâche complexe, ce qui est un exemple d'IA multi-agents et de capacités de raisonnement avancé."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "En collaboration avec des scientifiques du monde entier, nos modèles et outils aident à rendre les maladies plus détectables, traitables et prévenables. 🧬 De l'identification de variantes génétiques rares à l'accélération de la découverte de médicaments, voici comment nous aidons à transformer les découvertes de laboratoire en soins réels → goo.gle/4i48Cmr",
           "text_original": "Together with scientists around the world, our models and tools are helping make disease more detectable, treatable, and preventable. 🧬 From pinpointing rare genetic variants to speeding up drug discovery, here’s how we’re helping turn lab breakthroughs into real-world care → goo.gle/4i48Cmr",
           "link": "http://nitter.meowing.monster/GoogleDeepMind/status/2111038207240388770#m",
-          "decryptage": "Google DeepMind utilise l'IA pour faire progresser la médecine en aidant à détecter plus tôt les maladies, à trouver de nouveaux traitements et à accélérer la découverte de médicaments."
+          "decryptage": "Les modèles et outils d'IA de Google DeepMind sont utilisés en médecine pour aider à identifier des maladies, découvrir de nouveaux médicaments et rendre les traitements plus efficaces."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "La semaine dernière, l'ouragan Isaias a touché terre dans le Panhandle de la Floride. Nos pensées vont à toutes les personnes touchées et aux efforts de rétablissement toujours en cours. Des prévisions plus précises et plus tôt peuvent aider à protéger les communautés en leur donnant plus de temps pour se préparer, et nous sommes reconnaissants que le modèle WeatherNext de Google ait pu aider les prévisionnistes experts du @NWSNHC. Sur la base des premières évaluations, voici comment notre modèle a soutenu la réponse à #Isaias : - Suivi de la trajectoire de l'ouragan : WeatherNext a été le modèle le plus précis sur la trajectoire de la tempête. Alors que les modèles physiques traditionnels prévoyaient un atterrissage plus proche de la Nouvelle-Orléans, WeatherNext a correctement prédit une trajectoire plus à l'est. Cela a permis aux prévisionnistes du NHC de souligner le potentiel d'impacts éoliens et de ondes de tempête dans le Panhandle de la Floride dès leur toute première prévision. - Plus de temps pour se préparer : Jusqu'à trois jours avant l'atterrissage, notre modèle a constamment prédit son emplacement final dans le Panhandle de la Floride à 60 km ou moins, soutenant le NHC alors qu'il affinait une trajectoire vers le Panhandle de la Floride et émettait des veilles et avertissements d'ouragan pour donner aux responsables de Floride, d'Alabama et du Mississippi plus de temps pour se préparer. - Premières indications sur l'intensité : Tôt, WeatherNext a prédit avec précision l'intensification en un ouragan majeur. Aux côtés des modèles d'ouragan régionaux HWRF et HMON, les prévisions d'intensité de WeatherNext ont aidé les prévisionnistes du NHC à prédire que l'ouragan Isaias approcherait la côte en tant qu'ouragan de catégorie 2 dès le premier bulletin. Donner plus de temps et des avertissements plus précis aux communautés est essentiel pour protéger les vies et les moyens de subsistance. Bien que les performances des modèles varient d'une tempête à l'autre, Isaias reflète nos découvertes plus larges. Dans notre récent article @Nature co-écrit avec des prévisionnistes du NHC, évaluant plus de 200 cyclones tropicaux mondiaux, nous avons constaté que notre modèle fournit environ 1 jour de délai supplémentaire pour la trajectoire et l'intensité. Ce fut un honneur pour les équipes @GoogleDeepMind et @GoogleResearch de travailler aux côtés des prévisionnistes du NHC. En combinant l'IA, les modèles physiques, les données satellitaires et l'expertise cruciale des météorologues, nous sommes impatients de continuer à repousser les limites des prévisions pour aider à protéger les communautés.",
+          "text_original": "Last week, Hurricane Isaias made landfall in the Florida Panhandle. Our thoughts are with everyone affected and with the recovery efforts still underway. Earlier and more accurate forecasting can help protect communities by giving them more time to prepare, and we are grateful that Google’s WeatherNext model was able to assist the @NWSNHC 's expert forecasters. Based on initial evaluations, here's how our model supported the response to #Isaias : - Tracking the Hurricane’s Path: WeatherNext was the most accurate model on the storm’s track. While traditional physics models predicted landfall closer to New Orleans, WeatherNext correctly predicted a path further east. This allowed NHC forecasters to highlight the potential for wind and storm surge impacts in the Florida Panhandle from their very first forecast. - More Time to Prepare: Up to three days before landfall, our model consistently predicted its eventual location in the Florida Panhandle to within 60 km or less, supporting the NHC as they honed in on a track toward the Florida Panhandle and issued hurricane watches and warnings to give officials in Florida, Alabama, and Mississippi more time to prepare. - Early Indications about Intensity: Early on, WeatherNext accurately predicted the intensification to a major hurricane. Alongside the regional hurricane models HWRF and HMON, WeatherNext’s intensity forecasts helped NHC forecasters to predict that the Isaias would approach the coast as a category 2 hurricane from the very first advisory. Giving communities more time and more accurate warnings is critical for protecting lives and livelihoods. While model performance varies from storm to storm, Isaias reflects our broader findings. In our recent @Nature paper co-authored with NHC forecasters, evaluating 200+ global tropical cyclones, we found our model provides ~1 day of additional lead time for both track and intensity. It’s been an honor for the @GoogleDeepMind and @GoogleResearch teams to work alongside NHC forecasters. By combining AI, physics models, satellite data, and the crucial expertise of meteorologists, we're excited to keep pushing the boundaries of forecasting to help protect communities.",
+          "link": "http://nitter.meowing.monster/PeterWBattaglia/status/2110724943860154669#m",
+          "decryptage": "Le modèle d'IA WeatherNext de Google a démontré sa capacité à prévoir les ouragans avec une grande précision et plus tôt que les modèles traditionnels, aidant ainsi les communautés à mieux se préparer et à protéger des vies."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "Explorez les dernières avancées en matière de modèles audio natifs et les défis liés à la création de meilleures expériences vocales en temps réel avec @GoogleDeepMind + @SierraPlatform. Découvrez la latence conversationnelle, la commutation de code multilingue, les tâches vocales agentiques et plus encore → goo.gle/4hKV9B5 Vidéo",
+          "text_original": "Explore the latest advances in native audio models and the challenges of building better real-time voice experiences with @GoogleDeepMind + @SierraPlatform . Learn about conversational latency, multilingual code-switching, agentic voice tasks, and more → goo.gle/4hKV9B5 Video",
+          "link": "http://nitter.meowing.monster/googlecloud/status/2110490834739073049#m",
+          "decryptage": "Google DeepMind et SierraPlatform explorent les progrès des modèles d'IA capables de traiter le son en temps réel, abordant les défis pour améliorer les interactions vocales avec les IA, comme la réduction du délai de réponse ('latence conversationnelle')."
         }
       ],
       "tips": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Nous allons passer beaucoup plus de temps à essayer de comprendre les sorties des modèles de langage. Quelques réflexions, astuces et conseils : Écriture. Une chose qui m'a réussi : demandez à votre LLM d'expliquer quelque chose en ASD-STE100, c'est une spécification de langage contrôlé développée à l'origine pour la documentation de maintenance aérospatiale. Les LLM sont bien familiarisés avec ce langage et il impose de fortes contraintes sur un style d'écriture clair que je trouve souvent beaucoup plus lisible. Parfois, j'ai essayé de l'adoucir un peu, par exemple en demandant \"à 80% du style ASD-STE100\" car la spécification est assez stricte. Mais encore mieux : Diagrammes / images. Au lieu d'écrire, demandez à votre LLM de créer un diagramme. Ceux-ci peuvent être beaucoup plus faciles à traiter, à analyser et à comprendre. Mais encore mieux : Pages web. Demandez une sortie \"en HTML\" pour obtenir une belle page web interactive. Les LLM deviennent très performants en \"frontend\" et peuvent créer de belles expériences, des animations, etc. But even better : Vidéos explicatives. Le format de sortie pour lequel je suis le plus optimiste est la vidéo explicative entièrement personnalisée/sur mesure générée sur n'importe quel sujet arbitraire. Expérimentez des choses comme \"Créez une vidéo explicative de style 3b1b sur X. Utilisez ma clé API ElevenLabs pour la narration audio\". (vous auriez besoin d'une clé API pour cette dernière ou vous pouvez demander à votre LLM de vous trouver des alternatives gratuites décentes utilisant votre puissance de calcul locale). Cela commence vraiment à fonctionner ! En résumé : - À mesure que les LLM s'améliorent, ils feront de plus en plus de travail de manière autonome, et une grande partie de notre travail s'élèvera dans les abstractions, vers la supervision et la compréhension. - Heureusement, les LLM peuvent aussi aider ici car à mesure que l'intelligence et le code deviennent de plus en plus abondants, vous pouvez demander de grands artefacts logiciels personnalisés et jetables (par exemple, des applications web, des vidéos explicatives) qu'il n'aurait jamais été logique de créer auparavant. Poussez les limites et vous serez surpris.",
-          "text_original": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better: Diagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better: Web pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better: Explainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work! In summary: - As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding. - Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
-          "link": "https://nitter.kareem.one/karpathy/status/2105819303471976479#m",
-          "decryptage": "Ce tweet offre des astuces pratiques pour obtenir de meilleures réponses des IA, en suggérant de leur demander des explications dans un langage simple et structuré (ASD-STE100), ou même de générer directement des diagrammes, des pages web interactives, voire des vidéos explicatives."
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Et encore une fois, le lien YouTube : inv.kareem.one/watch?v=msp69FR5… Lien Construire un modèle de raisonnement de A à Z 8 : La distillation Dans cette dernière vidéo, nous examinons la distillation de modèle comme une méthode plus efficace... youtube.com",
+          "text_original": "And one more time, the YouTube link: inv.kareem.one/watch?v=msp69FR5… Link Build A Reasoning Model From Scratch 8: Distillation In this final video, we look into model distillation as a more effi... youtube.com",
+          "link": "https://nitter.kareem.one/rasbt/status/2111448141778256161#m",
+          "decryptage": "Cette vidéo est la dernière d'une série qui enseigne comment construire un modèle d'IA capable de raisonner, en se concentrant sur une technique appelée la 'distillation de modèle' pour le rendre plus efficace."
         },
         {
-          "author_name": "Sundar Pichai",
-          "handle": "@sundarpichai",
-          "text_fr": "11 heures avec Gemini 4 Argon, Google a littéralement \"fait des merveilles\" avec Gemini Argon. 🔥 C'est incroyable pour créer des objets en 3D. Un temple pagode japonais complet de la période Asuka, construit dans Blender et rendu avec Cycles. Le niveau de précision dans tout est juste fou. Vidéo",
-          "text_original": "11 hours with Gemini 4 Argon, Google literally cooked with Gemini Argon. 🔥 it's insane for building 3D stuff. A full Asuka-period Japanese pagoda temple, built in Blender and rendered in Cycles. The level of precision in everything is just crazy. Video",
-          "link": "https://nitter.kareem.one/ai_for_success/status/2110973461690802487#m",
-          "decryptage": "Ce tweet met en avant la capacité impressionnante du modèle Gemini 4 Argon à générer des modèles 3D complexes avec une grande précision, ce qui suggère de l'utiliser pour des projets de création graphique ou d'architecture virtuelle."
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Tour 8 de 'Reasoning From Scratch', la finale ! Cette dernière conférence de la série couvre la distillation comme une alternative efficace aux précédentes exécutions d'entraînement par apprentissage par renforcement. (Je prévois une courte pause, mais je serai de retour !) 00:00 Introduction et récapitulatif de la série 01:07 Pourquoi distiller un modèle de raisonnement ? 02:51 Distillation douce vs dure 11:06 Distillation on-policy vs off-policy 18:09 Préparation des données pour la distillation de raisonnement 22:35 Chargement de l'ensemble de données DeepSeek R1 MATH 28:04 Inspection des traces de raisonnement et des réponses finales 31:27 Tokenisation et modèles de chat 35:58 Pré-tokenisation de l'ensemble de données d'entraînement 39:01 Longueurs de séquence et limite de 2 048 jetons 42:38 Création de divisions d'entraînement et de validation 45:32 Chargement du modèle de base Qwen3-0.6B 46:24 Calcul des probabilités logarithmiques des jetons de réponse 54:10 Perte d'entropie croisée pour la distillation 57:25 Aides à la perte d'entraînement et de validation 1:02:03 Implémentation de la boucle d'entraînement de distillation 1:07:26 Exécution du script d'entraînement autonome 1:09:41 Tracé des pertes d'entraînement et de validation 1:11:31 Évaluation des points de contrôle sur MATH-500 1:14:09 Comparaison des résultats des enseignants et de la distillation 1:16:34 Orientations futures pour les modèles de raisonnement 1:19:41 Exercices bonus et prochaines étapes Vidéo",
+          "text_original": "Reasoning From Scratch round 8, the finale! This last lecture in the series covers distillation as an efficient alternative to the previous reinforcement learning training runs. (Planning to take a brief break, but I will be back!) 00:00 Introduction and series recap 01:07 Why distill a reasoning model? 02:51 Soft vs. hard distillation 11:06 On-policy vs. off-policy distillation 18:09 Preparing data for reasoning distillation 22:35 Loading the DeepSeek R1 MATH dataset 28:04 Inspecting reasoning traces and final answers 31:27 Tokenization and chat templates 35:58 Pre-tokenizing the training dataset 39:01 Sequence lengths and the 2,048-token limit 42:38 Creating training and validation splits 45:32 Loading the Qwen3-0.6B base model 46:24 Computing answer-token log probabilities 54:10 Cross-entropy loss for distillation 57:25 Training and validation loss helpers 1:02:03 Implementing the distillation training loop 1:07:26 Running the standalone training script 1:09:41 Plotting training and validation losses 1:11:31 Evaluating checkpoints on MATH-500 1:14:09 Comparing teachers and distillation results 1:16:34 Future directions for reasoning models 1:19:41 Exercices bonus et prochaines étapes Vidéo",
+          "link": "https://nitter.kareem.one/rasbt/status/2111448141119856866#m",
+          "decryptage": "La 'distillation' est une méthode pour rendre les modèles d'IA plus petits et plus rapides tout en conservant leurs performances, en leur faisant apprendre d'un modèle plus grand, tandis que l'apprentissage par renforcement est une technique où l'IA apprend par essais et erreurs."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Et voici la version YouTube : inv.kareem.one/watch?v=VxfUrUrr… Lien Construire un modèle de raisonnement de A à Z 7 : Apprentissage par Renforcement 2… Cette deuxième vidéo sur l'apprentissage par renforcement ajoute un ratio de politique écrêté... youtube.com",
+          "text_original": "And here's the YouTube version: inv.kareem.one/watch?v=VxfUrUrr… Link Build A Reasoning Model From Scratch 7: Reinforcement Learning 2... This second video on reinforcement learning adds clipped policy rat... youtube.com",
+          "link": "https://nitter.kareem.one/rasbt/status/2108908658512036220#m",
+          "decryptage": "Cette vidéo est la deuxième partie d'un tutoriel sur l'apprentissage par renforcement pour les modèles de raisonnement, une technique d'entraînement où l'IA apprend en recevant des récompenses pour ses bonnes actions."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Reasoning From Scratch : Apprentissage par Renforcement avec Récompenses Vérifiables (RLVR) tour 2. Couvrant les ratios de politique écrêtés, le terme de perte KL, les récompenses de format et d'autres astuces GRPO. 00:00 Introduction et récapitulatif 01:52 Interprétation des métriques d'entraînement GRPO de base 06:34 Améliorations prévues pour GRPO 08:58 Exécution de tâches d'entraînement plus longues avec des scripts Python 13:39 Exécution du script d'entraînement GRPO de base 17:29 Chargement et tracé des logs d'entraînement 19:29 Diagnostic de l'entraînement instable 23:55 Évaluation des points de contrôle sur MATH-500 26:26 Téléchargement des points de contrôle existants 30:09 Suivi des statistiques d'avantage 34:53 Comprendre l'entropie 40:32 Calcul de l'entropie dans PyTorch 44:17 Interprétation des valeurs d'entropie 48:58 Ajout du suivi de l'entropie à GRPO 53:36 Analyse des métriques d'avantage et d'entropie 56:18 Stabilisation de GRPO avec des ratios de politique écrêtés 1:03:27 Implémentation de la perte de politique écrêtée 1:09:39 Analyse des résultats d'entraînement de la politique écrêtée 1:11:25 Divergence KL et piratage de récompense 1:15:12 Ajout d'un terme de perte KL 1:20:34 Limitations de la perte KL simplifiée 1:23:04 Récompenses de format et balises de pensée 1:25:47 Ajout de jetons spéciaux au tokenizer 1:30:29 Implémentation de la récompense de format 1:35:56 Analyse de l'entraînement de la récompense de format 1:38:25 Récompenser le format uniquement pour les réponses correctes 1:40:48 Autres améliorations GRPO de la recherche 1:45:43 Prochaines étapes et distillation Vidéo",
+          "text_original": "Reasoning From Scratch: Reinforcement Learning with Verifiable Rewards (RLVR) round 2. Covering clipped policy ratios, KL loss term, format rewards, and other GRPO tips & tricks. 00:00 Introduction and recap 01:52 Interpreting basic GRPO training metrics 06:34 Planned improvements to GRPO 08:58 Running longer training jobs with Python scripts 13:39 Running the baseline GRPO training script 17:29 Loading and plotting training logs 19:29 Diagnosing unstable training 23:55 Evaluating checkpoints on MATH-500 26:26 Downloading existing checkpoints 30:09 Tracking advantage statistics 34:53 Understanding entropy 40:32 Computing entropy in PyTorch 44:17 Interpreting entropy values 48:58 Adding entropy tracking to GRPO 53:36 Analyzing advantage and entropy metrics 56:18 Stabilizing GRPO with clipped policy ratios 1:03:27 Implementing the clipped policy loss 1:09:39 Analyzing clipped policy training results 1:11:25 KL divergence and reward hacking 1:15:12 Adding a KL loss term 1:20:34 Limitations of the simplified KL loss 1:23:04 Format rewards and think tags 1:25:47 Adding special tokens to the tokenizer 1:30:29 Implementing the format reward 1:35:56 Analyzing format reward training 1:38:25 Rewarding format only for correct answers 1:40:48 Further GRPO improvements from research 1:45:43 Next steps et distillation Vidéo",
+          "link": "https://nitter.kareem.one/rasbt/status/2108908657786355788#m",
+          "decryptage": "Ce tutoriel approfondit l'apprentissage par renforcement pour les modèles d'IA, en expliquant des techniques avancées comme les 'ratios de politique écrêtés' ou la 'perte KL' qui aident à stabiliser et améliorer l'entraînement des modèles."
         }
       ],
       "idees": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Je ressors ce tweet d'avril car l'écart de compréhension des capacités des LLM s'élargit. Ce n'est plus \"deux groupes de personnes qui se parlent sans se comprendre\", mais plutôt un entonnoir très marqué. - Selon des calculs rapides, environ 6 milliards de personnes (environ 75% de la population) n'ont quasiment jamais eu de contact avec les LLM. - Environ 1 à 2 milliards (environ 20%) sont des utilisateurs occasionnels et peu fréquents des versions gratuites de produits comme ChatGPT. Ce groupe voit des chatbots un peu maladroits et les traite un peu comme un meilleur moteur de recherche, une aide à la rédaction, etc. Peut-être qu'un agent essaie de leur réserver un vol. J'ai des amis non-techniciens qui (raisonnablement, à mon avis) disent qu'ils n'en ont pas beaucoup l'utilité. Même de nombreux professionnels en dehors des mathématiques et de la programmation sont dans cette catégorie. Par exemple, les cadres et de nombreuses autres fonctions passent beaucoup de temps à parler à d'autres personnes, donc même s'ils comprennent intellectuellement ce qui se passe, c'est encore de seconde main et un peu abstrait. - Ensuite, nous arrivons à l'utilisation professionnelle de LLM de pointe en mathématiques et en programmation. Environ 20 millions de personnes (0,2%) constatent de première main que de grands projets complexes qui leur prenaient des semaines/mois peuvent maintenant être réalisés par des agents avec une simple instruction. Construire des applications, copier des applications, traduire des applications, décompiler des applications à partir de binaires... Tout cela s'est passé très rapidement et récemment - il y a moins d'un an, j'écrivais du code manuellement, tapant des commandes informatiques mémorisées caractère par caractère dans un éditeur de code, appuyant occasionnellement sur Tab pour auto-compléter un petit morceau de code. - Et enfin, nous arrivons aux environ 5 000 personnes (environ 0,00006%) ayant accès à des systèmes de pointe en interne. Le monde extérieur a vu l'aperçu. Cela ressemble à des essaims de milliers d'agents collaborant pendant des semaines sur des mégaprojets logiciels : création de \"zero-days\", exécution de cyberattaques et de défenses à la vitesse de la machine, découverte de nouvelles sciences, avancement de la frontière des mathématiques. Des choses qui auraient pris des années de travail à des professionnels de haut niveau dans l'industrie. Pendant ce temps, l'examen et la compréhension humains commencent à être dépassés. Par exemple, des gens sont toujours impliqués dans l'\"archéologie\" de l'incident OpenAI-HF d'il y a plusieurs mois. Les mathématiciens pourraient se pencher sur les 722 manuscrits de mathématiques de pointe pendant un certain temps. L'entonnoir est alimenté par une combinaison de facteurs : 1. L'impact augmente avec l'ambition, la taille du problème et l'horizon. Une question avec une réponse d'un paragraphe stresse à peine le système. Vous avez besoin d'un réservoir de problèmes grands, difficiles et qui vous tiennent vraiment à cœur. Cet aspect pilote la dimension consommateur / professionnel de l'entonnoir. 2. L'irrégularité du système (dont j'ai beaucoup parlé séparément). Les capacités atteignent des sommets dans des domaines numériques, vérifiables et économiquement précieux. C'est parce que la capacité des LLM émerge de l'apprentissage par renforcement sur des récompenses vérifiables dans un mélange d'environnements curatés et motivés par le potentiel de revenus. Cet aspect pilote principalement la dimension de domaine (par exemple, mathématiques et programmation) de l'entonnoir. 3. L'accès. Niveau gratuit, niveau payant, interne. C'est donc la bizarrerie du moment. Le grand public n'a pour la plupart pas interagi avec ces systèmes. Quand ils l'ont fait, cela ressemble à un chatbot maladroit. La majorité des professionnels ne voient encore qu'une amélioration modeste. Et une petite partie des professionnels connaît le vertige de la courbe qui monte verticalement. Et tout cela se passe en même temps. Andrej Karpathy (@karpathy) À en juger par mon fil, il y a un fossé croissant dans la compréhension des capacités de l'IA. Le premier problème, je pense, concerne la nouveauté et le niveau d'utilisation. Je pense que beaucoup de gens ont essayé la version gratuite de ChatGPT l'année dernière et ont laissé cela influencer un peu trop leurs opinions sur l'IA. C'est un groupe de réactions qui se moquent des diverses bizarreries des modèles, des hallucinations, etc. Oui, j'ai aussi vu les vidéos virales du mode vocal avancé d'OpenAI qui échouait à des requêtes simples comme \"dois-je aller en voiture ou à pied au lave-auto\". Le fait est que ces modèles gratuits et anciens/dépréciés ne reflètent pas les capacités des dernières générations de modèles agentiques à la pointe de la technologie de cette année, en particulier OpenAI Codex et Claude Code. Mais cela m'amène au deuxième problème. Même si les gens payaient 200 $ par mois pour utiliser les modèles de pointe, beaucoup de capacités sont relativement \"pointues\" dans des domaines très techniques. Les requêtes typiques autour de la recherche, de la rédaction, des conseils, etc., ne sont *pas* le domaine qui a fait les avancées les plus notables et spectaculaires en matière de capacités. En partie, cela est dû aux détails techniques de l'apprentissage par renforcement et à son utilisation de récompenses vérifiables. Mais en partie, c'est aussi parce que ces cas d'utilisation ne sont pas suffisamment prioritaires par les entreprises dans leur optimisation car ils ne génèrent pas autant de revenus. Les mines d'or sont ailleurs, et l'attention suit. Cela m'amène donc au deuxième groupe de personnes, qui *à la fois* 1) paient et utilisent les modèles agentiques de pointe (OpenAI Codex / Claude Code) et 2) le font professionnellement dans des domaines techniques comme la programmation, les mathématiques et la recherche. Ce groupe de personnes est soumis à la plus grande quantité de \"psychose de l'IA\" car les améliorations récentes dans ces domaines cette année ont été tout simplement stupéfiantes. Lorsque vous donnez un terminal informatique à l'un de ces modèles, vous pouvez maintenant les regarder résoudre des problèmes de programmation qui vous prendraient normalement des jours/semaines de travail. C'est ce deuxième groupe de personnes qui accorde une gravité beaucoup plus grande aux capacités, à leur évolution, et aux diverses répercussions cybernétiques. En bref, les gens de ces deux groupes se parlent sans se comprendre. Il est vraiment simultanément vrai que le \"mode vocal avancé\" gratuit et, je pense, légèrement orphelin (?) d'OpenAI échouera aux questions les plus stupides de vos bobines Instagram et *at the same time*, le modèle Codex payant d'OpenAI de plus haut niveau pourra travailler pendant 1 heure pour restructurer de manière cohérente une base de code entière, ou trouver et exploiter des vulnérabilités dans des systèmes informatiques. Cette partie fonctionne réellement et a fait des progrès spectaculaires grâce à deux propriétés : 1) ces domaines offrent des fonctions de récompense explicites et vérifiables, ce qui signifie qu'ils sont facilement adaptables à l'entraînement par apprentissage par renforcement (par exemple, les tests unitaires ont réussi oui ou non, en contraste à l'écriture, qui est beaucoup plus difficile à juger explicitement), mais aussi 2) ils sont beaucoup plus précieux dans les contextes B2B, ce qui signifie que la plus grande partie de l'équipe se concentre sur leur amélioration. Voilà où nous en sommes.",
-          "text_original": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all. - Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract. - Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code. - And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while. The funnel is driven by a combination of factors: 1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel. 2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel. 3. Access. Free-tier, paid-tier, internal. So this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time. Andrej Karpathy (@karpathy) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is a group of reactions laughing at various quirks of the models, hallucinations, etc. Yes I also saw the viral videos of OpenAI's Advanced Voice mode fumbling simple queries like \"should I drive or walk to the carwash\". The thing is that these free and old/deprecated models don't reflect the capability in the latest round of state of the art agentic models of this year, especially OpenAI Codex and Claude Code. But that brings me to the second issue. Even if people paid $200/month to use the state of the art models, a lot of the capabilities are relatively \"peaky\" in highly technical areas. Typical queries around search, writing, advice, etc. are *not* the domain that has made the most noticeable and dramatic strides in capability. Partly, this is due to the technical details of reinforcement learning and its use of verifiable rewards. But partly, it's also because these use cases are not sufficiently prioritized by the companies in their hillclimbing because they don't lead to as much $$$ value. The goldmines are elsewhere, and the focus comes along. So that brings me to the second group of people, who *both* 1) pay for and use the state of the art frontier agentic models (OpenAI Codex / Claude Code) and 2) do so professionally in technical domains like programming, math and research. This group of people is subject to the highest amount of \"AI Psychosis\" because the recent improvements in these domains as of this year have been nothing short of staggering. When you hand a computer terminal to one of these models, you can now watch them melt programming problems that you'd normally expect to take days/weeks of work. It's this second group of people that assigns a much greater gravity to the capabilities, their slope, and various cyber-related repercussions. TLDR the people in these two groups are speaking past each other. It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) \"Advanced Voice Mode\" will fumble the dumbest questions in your Instagram's reels and *at the same time*, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems. This part really works and has made dramatic strides because 2 properties: 1) these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge), but also 2) they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them. So here we are.",
-          "link": "https://nitter.kareem.one/karpathy/status/2109361546505966046#m",
-          "decryptage": "Ce long texte de Karpathy explique que la perception des capacités de l'IA varie énormément selon l'utilisateur, allant du novice qui ne voit qu'un chatbot maladroit au professionnel qui utilise des modèles de pointe pour des tâches complexes et perçoit une révolution, créant un fossé de compréhension. Il met en lumière que les progrès les plus spectaculaires de l'IA se trouvent dans des domaines techniques (comme le code ou les maths) car les machines peuvent facilement vérifier si le résultat est correct, ce qui permet de les entraîner plus efficacement."
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Comme @NandoDF l'a suggéré, si vous travaillez dans une entreprise d'IA, veuillez suggérer à la personne appropriée que ces événements méritent d'être parrainés par votre entreprise.",
+          "text_original": "As @NandoDF suggested, if you're at an AI company, please suggest to the appropriate person that these are worthwhile events for your company to sponsor.",
+          "link": "https://nitter.kareem.one/JeffDean/status/2109853665884520688#m",
+          "decryptage": "Jeff Dean encourage les entreprises d'IA à soutenir financièrement des événements importants pour la recherche et la communauté de l'IA, soulignant l'importance du mécénat pour l'écosystème."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Une évaluation sympa. Il suffit de demander à un LLM \"Terre ou Mer ?\" et de lui donner des coordonnées de latitude et longitude sous forme de texte. Faites la question 16 200 fois, puis représentez les résultats sous forme d'image. Les modèles savent. C'est dû à la compression d'internet. Résultats de Celeste (@celestepoasts) pour tous les modèles Claude.",
-          "text_original": "Cool eval. Simply ask an LLM “Land or Water?” and give it a latitude and longitude coordinate as text. Ask 16,200 times, plot as image. The models know. From compressing the internet. Celeste (@celestepoasts) results for all claudes — https://nitter.kareem.one/celestepoasts/status/2103232383139057950#m",
-          "link": "https://nitter.kareem.one/karpathy/status/2105909609487872075#m",
-          "decryptage": "Cela montre que les grands modèles de langage, en \"compressant\" l'immense quantité de données d'Internet, acquièrent une connaissance du monde réel (comme la géographie) sans y avoir été explicitement entraînés."
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "J'ai personnellement soutenu (par le biais de notre fondation familiale) @Khipu_AI et @DeepIndaba, qui sont des événements fantastiques pour les chercheurs en IA en Afrique et en Amérique du Sud. J'ai encouragé Google à les soutenir par le passé. Discovery Loop (@DiscoLoopAI) est ravi de soutenir ! Nando de Freitas (@NandoDF) Au cours des 10 dernières années, nous avons collecté des fonds pour amener l'IA en Afrique (@DeepIndaba) et en Amérique du Sud (@Khipu_AI). Les efforts ont été très fructueux, mais cette année, nous avons du mal à collecter des fonds. Si vous travaillez pour une entreprise d'IA, veuillez partager ce qui suit avec l'équipe appropriée pour nous soutenir. Merci ! À propos de KHIPU 2027 Qu'est-ce que c'est : KHIPU AI (khipu.ai) est une organisation à but non lucratif dédiée à l'avancement des talents, de la recherche et de la communauté IA en Amérique latine. En plus d'initiatives régionales tout au long de l'année, nous organisons un rassemblement biennal en personne, alternant sur le continent, précédemment en Uruguay (2019, 2023) et au Chili (2025). Prochaine édition : du 5 au 9 avril 2027, à São Paulo, Brésil, hébergée à l'Universidade de São Paulo (USP), l'une des principales universités de recherche d'Amérique latine. Regardez notre vidéo de 2 minutes : inv.kareem.one/watch?v=Db19zoqu… (écoutez directement d'anciens orateurs, y compris Nando, et des étudiants latino-américains sur la façon dont KHIPU est passé d'un simple rassemblement à un mouvement régional d'IA). Qui participe et pourquoi soutenir - Engager les meilleurs talents et chefs de laboratoire de la région : Nous réunissons environ 500 participants, y compris des professeurs et directeurs de laboratoire de premier plan de toute l'Amérique latine, ainsi qu'une cohorte sélectionnée d'environ 300 étudiants diplômés et chercheurs de l'industrie sélectionnés parmi plus de 1 000 candidats. Alors que l'écosystème local de l'IA se développe rapidement, KHIPU offre une rare opportunité d'engager directement ces chercheurs émergents et leaders régionaux en un seul endroit, aidant à façonner les priorités de recherche et l'état d'esprit de sécurité en Amérique latine tout en se connectant avec des talents et des perspectives en dehors de la Silicon Valley. Participation 100% gratuite et bourses d'études pour les étudiants : La participation est entièrement gratuite pour tous les étudiants, professeurs et chercheurs sélectionnés. Le financement du parrainage va directement aux bourses de voyage et d'hébergement pour les étudiants et professeurs de toute l'Amérique latine qui, autrement, n'auraient pas les moyens d'y assister. Communauté et bilan : Les éditions précédentes ont accueilli des orateurs tels que @Yoshua_Bengio, @JeffDean, @jpineau1 et @NandoDF (liste des orateurs de 2025 : khipu.ai/khipu2025/speakers-…), et ont été soutenues par la Fondation Hopper-Dean, @GoogleDeepMind, @Apple, @Microsoft, @Meta, @cohere et @MistralAI. Pour 2027, @OriolVinyalsML et @sarahookr sont déjà confirmés. Prospectus de parrainage 2027 : Ci-joint (également disponible sur khipu.ai/prospectus-2027) Contact : @FortunatoMeire (meirefortunato@khipu.ai) et le Comité de parrainage KHIPU (sponsors@khipu.ai) — https://nitter.kareem.one/NandoDF/status/2109717380406673505#m",
+          "text_original": "I've been a personal supporter (through our family foundation) of @Khipu_AI & @DeepIndaba , which are fantastic events for AI researchers in Africa and South America. I've encouraged Google to support these in the past. Discovery Loop ( @DiscoLoopAI ) is thrilled to support! Nando de Freitas (@NandoDF) For the last 10 years we've been raising funds to bring AI to Africa ( @DeepIndaba ) and South America ( @Khipu_AI ). The efforts have been very successful, but this year we are finding it hard to raise money. If you work for an AI company, please share the following with the right team to support us. Thank you! About KHIPU 2027 What it is: KHIPU AI ( khipu.ai ) is a non-profit organization dedicated to advancing AI talent, research, and community across Latin America. Alongside year-round regional initiatives, we host a biennial in-person gathering rotating across the continent, previously in Uruguay (2019, 2023) and Chile (2025). Next Edition: April 5–9, 2027, in São Paulo, Brazil, hosted at the Universidade de São Paulo (USP), one of Latin America's leading research universities. Watch our 2-minute video: inv.kareem.one/watch?v=Db19zoqu… (hear directly from past speakers, including Nando, and Latin American students on how KHIPU grew from a single gathering into a regional AI movement). Who Attends & Why Support - Engaging with the region's top talent and lab leaders: We bring together around 500 participants, including leading faculty and lab directors from across Latin America alongside a curated cohort of ~300 graduate students and industry researchers selected from over 1,000 applicants. As the local AI ecosystem grows rapidly, KHIPU offers a rare opportunity to engage directly with these emerging researchers and regional leaders in one place, helping shape research priorities and the safety mindset across Latin America while connecting with talent and perspectives outside Silicon Valley. 100% free attendance & student grants: Attendance is completely free for all selected students, professors, and researchers. Sponsorship funding goes directly toward travel and accommodation grants for students and faculty across Latin America who otherwise could not afford to attend. Community & Track Record: Past editions have featured speakers such as @Yoshua_Bengio , @JeffDean , @jpineau1 , and @NandoDF (2025 lineup: khipu.ai/khipu2025/speakers-… ), and have been supported by the Hopper-Dean Foundation, @GoogleDeepMind , @Apple , @Microsoft , @Meta , @cohere , and @MistralAI . For 2027, @OriolVinyalsML and @sarahookr are already confirmed. 2027 Sponsorship Prospectus: Attached (also available at khipu.ai/prospectus-2027 ) Contact: @FortunatoMeire (meirefortunato@khipu.ai) & KHIPU Sponsorship Committee (sponsors@khipu.ai) — https://nitter.kareem.one/NandoDF/status/2109717380406673505#m",
+          "link": "https://nitter.kareem.one/JeffDean/status/2109841404239417415#m",
+          "decryptage": "Jeff Dean et Nando de Freitas soulignent l'importance de soutenir des initiatives comme Khipu AI et DeepIndaba, qui visent à développer les talents et la recherche en IA en Afrique et en Amérique du Sud, rendant l'IA plus accessible et équitable mondialement."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Nous publions notre rapport le plus détaillé à ce jour sur les renseignements sur les menaces. Il couvre la manière dont des personnes ont tenté d'utiliser abusivement Claude — pour des cyberattaques, des opérations d'influence, de la surveillance, des utilisations en biologie et la fabrication d'armes — et comment nous les avons détectées et arrêtées. Nous avons déjoué chaque opération mentionnée dans le rapport et avons utilisé les leçons tirées pour renforcer nos mesures de sécurité. Le cas échéant, nous avons également partagé nos découvertes avec les autorités et d'autres entreprises d'IA. Ces cas ne sont pas typiques : nous mettons en lumière certaines des utilisations abusives les plus sophistiquées que nous ayons observées. Mais il est particulièrement important d'en discuter, car elles nous montrent vers où se dirige l'abus de l'IA, où nos mesures de sécurité fonctionnent et où elles doivent être améliorées. Nous publions ce rapport pour que d'autres puissent repérer la même activité sur leurs propres plateformes, et pour donner au public une vision plus claire de la façon dont les menaces émergentes se développent. Lisez le rapport : anthropic.com/threat-intelli… Lien : Lutter contre l'abus de l'IA : Septembre 2026 / Anthropic Études de cas d'acteurs de la menace déjoués entre décembre 2025 et août 2026 dans sept domaines de préjudice, des opérations cybernétiques à l'abus biologique. anthropic.com",
-          "text_original": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them. We disrupted every operation in the report, and used the lessons from them to strengthen our safeguards. Where appropriate, we also shared what we found with authorities and other AI companies. These cases are not typical: we’re highlighting some of the most sophisticated misuse we’ve seen. But they’re especially important to discuss, because they show us where AI misuse is headed, where our safeguards work, and where they need to improve. We’re publishing this report so others can spot the same activity on their own platforms, and so we can give the public a clearer view of how emerging threats develop. Read the report: anthropic.com/threat-intelli… Link Countering misuse of AI: September 2026 / Anthropic Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse. anthropic.com",
-          "link": "https://nitter.kareem.one/AnthropicAI/status/2098097512544444447#m",
-          "decryptage": "Ce rapport d'Anthropic (une entreprise qui développe l'IA Claude) souligne les dangers potentiels des IA, comme les utiliser pour des cyberattaques ou des opérations d'influence, et explique comment ils travaillent pour empêcher ces abus. C'est une réflexion importante sur la sécurité et l'éthique de l'IA."
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Discussion spontanée du matin avec Juergen Schmidhuber et Jake Newfield philosophant sur l'IA. Désolé, mon micro s'est déconnecté, mais Juergen avait de toute façon les points les plus intéressants ! Hermetiq (@HermetiqAI) Notre PDG @Jake_Newfield a réuni @SchmidhuberAI (« père de l'IA » et pionnier de l'apprentissage profond) et @rasbt (auteur de 'Build a Large Language Model'), pour discuter de l'avenir de l'humanité avec l'IA : inv.kareem.one/watch?v=fcOTx06q… — https://nitter.kareem.one/HermetiqAI/status/2107235570149974216#m",
+          "text_original": "Spontaneous morning chat with Juergen Schmidhuber and Jake Newfield philosophizing about AI. Sry my mic somehow disconnected but Juergen had the more interesting points anyways! Hermetiq (@HermetiqAI) Our CEO @Jake_Newfield brought together @SchmidhuberAI (\"father of AI\" and pioneer of deep learning) and @rasbt (author of Build a Large Language Model), to discuss humanity’s future with AI: inv.kareem.one/watch?v=fcOTx06q… — https://nitter.kareem.one/HermetiqAI/status/2107235570149974216#m",
+          "link": "https://nitter.kareem.one/rasbt/status/2107500537411424429#m",
+          "decryptage": "Sebastian Raschka a participé à une discussion philosophique avec des figures de l'IA, comme Juergen Schmidhuber, sur l'impact futur de l'intelligence artificielle sur l'humanité."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Ce n'est pas une idée nouvelle, mais l'absence d'architecture monumentale géante et excentrique dans la Silicon Valley est une honte. Vous avez beaucoup de gens bizarres avec trop d'argent, et pourtant un seul endroit au niveau d'une solide attraction touristique excentrique du Midwest, et cela a commencé dans les années 1880.",
+          "text_original": "Its not a new idea, but the lack of giant eccentric monumental architecture in Silicon Valley is a shame. You have lots of weird people with too much money, and yet only one place at the level of a solid midwestern oddball tourist attraction, and that was started in the 1880s.",
+          "link": "https://nitter.kareem.one/emollick/status/2112415001730601333#m",
+          "decryptage": "Ce tweet est une observation humoristique sur le manque d'architecture audacieuse et monumentale dans la Silicon Valley, contrastant avec la richesse et l'innovation technologique de la région."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Mise à jour : Felix Rieseberg (@felixrieseberg) Bon, comme prévu, ce n'est pas quelque chose que je peux régler rapidement entre deux réunions mais nous sommes tous d'accord que c'est une très mauvaise expérience — https://nitter.kareem.one/felixrieseberg/status/2112377814712471995#m",
+          "text_original": "Update: Felix Rieseberg (@felixrieseberg) Okay, as expected, this isn't something I can quickly fix between meetings but we all agree that it's a pretty poor experience — https://nitter.kareem.one/felixrieseberg/status/2112377814712471995#m",
+          "link": "https://nitter.kareem.one/emollick/status/2112398911482778036#m",
+          "decryptage": "Ce tweet est un commentaire sur la difficulté de corriger rapidement une mauvaise expérience utilisateur dans le développement technologique, reflétant une frustration courante dans l'industrie."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Vidéo Taylor Lorenz (@TaylorLorenz) Il n'y a rien que les personnes plongées dans la psychose de l'IA aiment plus qu'un tableau de bord — https://nitter.kareem.one/TaylorLorenz/status/2112292791619649965#m",
+          "text_original": "Video Taylor Lorenz (@TaylorLorenz) There's nothing people deep in AI psychosis love more than a dashboard — https://nitter.kareem.one/TaylorLorenz/status/2112292791619649965#m",
+          "link": "https://nitter.kareem.one/emollick/status/2112310600806072387#m",
+          "decryptage": "Ce tweet est une observation ironique sur la fascination de certains experts en IA pour les tableaux de bord ('dashboards'), qui permettent de visualiser et de contrôler les performances de leurs modèles."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Il existe beaucoup plus d'options pour le multijoueur, mais elles nécessitent une expérimentation sérieuse avec la forme organisationnelle, exigeant plus d'efforts que d'ajouter simplement l'IA au chat existant, mais les transformant également en un meilleur avantage stratégique plutôt qu'une capacité générique.",
+          "text_original": "There are many more options for multiplayer, but they require serious experimental with organizational form, requiring more effort than just adding AI to existing chat, but also making them into a better strategic moat rather than a generic capability.",
+          "link": "https://nitter.kareem.one/emollick/status/2112291003537502393#m",
+          "decryptage": "Ce tweet réfléchit à la manière dont l'IA pourrait être intégrée dans des expériences collaboratives plus complexes que de simples chats, nécessitant de repenser les structures d'équipe pour en faire un véritable avantage stratégique."
         }
       ],
       "outils": [
         {
-          "author_name": "Demis Hassabis",
-          "handle": "@demishassabis",
-          "text_fr": "Quatre agents Gemini 4 Argon, un monde Minecraft partagé, un seul objectif : vaincre le Dragon de l'Ender. Après 27 heures et 2 783 programmes écrits par eux-mêmes, le dragon est tombé. Article : Une équipe d'agents Gemini 4 Argon bat Minecraft. Nous avons placé quatre agents Gemini 4 Argon dans un monde de survie Minecraft en sandbox sécurisé et leur avons donné un seul objectif : vaincre le Dragon de l'Ender, le boss de fin de jeu. Il s'agissait de nos agents généralistes.",
-          "text_original": "Four Gemini 4 Argon agents, one shared Minecraft world, one goal: defeat the Ender Dragon. 27 hours and 2,783 self-written programs later, the dragon fell. Article A team of Gemini 4 Argon agents beats Minecraft We placed four Gemini 4 Argon agents in a safely sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon, the boss at the end of the game. These were our general-purpose",
-          "link": "http://nitter.meowing.monster/maxencefaldor/status/2111023397106770026#m",
-          "decryptage": "Des \"agents\" (des IA autonomes) utilisant le modèle Gemini 4 Argon ont réussi à vaincre le boss final de Minecraft en travaillant ensemble et en programmant leurs propres actions, démontrant leur capacité à résoudre des problèmes complexes et à s'adapter de manière autonome."
+          "author_name": "Mira Murati",
+          "handle": "@miramurati",
+          "text_fr": "Comme l'a dit @johnschulman2, il y a de nombreuses façons de « dépenser du calcul pour économiser du calcul à nos clients ». En voici une – une variante de muon qui fonctionne bien mieux pour le fine-tuning LoRA :) Tinker (@tinkerapi) Dimuon est un nouvel optimiseur que nous avons créé pour le fine-tuning LoRA. Lors de nos tests SFT, il atteint souvent une perte plus faible en moins d'étapes que AdamW. Nous expérimentons toujours avec Dimuon ; vous pouvez l'essayer avec Tinker dès aujourd'hui et partager vos retours ! Consultez notre guide des optimiseurs sur tinker-docs.thinkingmachines… — http://nitter.meowing.monster/tinkerapi/status/2110535361013366840#m",
+          "text_original": "As @johnschulman2 has put it, there are many ways we can \"spend compute to save our customers compute\". Here's one of them - a variant of muon that works far better for lora fine-tuning :) Tinker (@tinkerapi) Dimuon is a new optimizer we built for LoRA fine-tuning. In our SFT tests, it often reaches lower loss in fewer steps than AdamW. We're still experimenting with Dimuon; you can Tinker with it today and share your feedback! See our optimizers guide at tinker-docs.thinkingmachines… — http://nitter.meowing.monster/tinkerapi/status/2110535361013366840#m",
+          "link": "http://nitter.meowing.monster/cHHillee/status/2110569587955908774#m",
+          "decryptage": "Cet 'optimiseur' Dimuon est un nouvel algorithme qui aide à améliorer les modèles d'IA plus efficacement, en réduisant leurs erreurs ('perte') plus rapidement lors de leur entraînement spécifique ('LoRA fine-tuning')."
         },
         {
-          "author_name": "Julien Chaumond",
-          "handle": "@julien_c",
-          "text_fr": "Beam est sorti 🔥 huggingface.co/reflection Lien : reflection (Reflection) Profil de l'organisation Reflection sur Hugging Face, la communauté IA qui construit l'avenir. huggingface.co",
-          "text_original": "Beam is out 🔥 huggingface.co/reflection Link reflection (Reflection) Org profile for Reflection on Hugging Face, the AI community building the future. huggingface.co",
-          "link": "https://nitter.kareem.one/julien_c/status/2111080648949838235#m",
-          "decryptage": "\"Beam\" est un nouveau projet lancé sur Hugging Face, une plateforme collaborative pour l'IA, invitant la communauté à explorer et à contribuer à son développement."
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Jetez un coup d'œil à cela ! Beau travail, @AndrewDai et l'équipe d'Elorian ! Andrew M. Dai (@AndrewDai) J'ai passé des années à voir des modèles réussir avec une seule image et échouer complètement sur tout ce qui bouge ou change d'angle. Aujourd'hui, nous corrigeons cela. Essayez Glimpse maintenant, notre premier modèle de pensée visuelle avec des performances de pointe compétitives par rapport à Astra sur les principaux benchmarks publics de raisonnement visuel. Vidéo — https://nitter.kareem.one/AndrewDai/status/2111142161584628060#m",
+          "text_original": "Have a glimpse at this! Nice work, @AndrewDai and Elorian folks! Andrew M. Dai (@AndrewDai) Spent years watching models ace a single image and completely whiff on anything that moves or changes angle. Today we’re fixing that. Try Glimpse now, our first visual thinking model with competitive frontier performance compared to Astra on key public visual reasoning benchmarks. Video — https://nitter.kareem.one/AndrewDai/status/2111142161584628060#m",
+          "link": "https://nitter.kareem.one/JeffDean/status/2111147597159415874#m",
+          "decryptage": "'Glimpse' est un nouveau modèle d'IA spécialisé dans la 'pensée visuelle', capable de mieux comprendre les images en mouvement ou sous différents angles, une avancée importante pour la compréhension visuelle par l'IA."
         },
         {
-          "author_name": "Julien Chaumond",
-          "handle": "@julien_c",
-          "text_fr": "llama.cpp v0.7.0 github.com/ggml-org/llama.cp… Lien : Version v0.7.0 · ggml-org/llama.cpp Aperçu : llama.cpp v0.7.0 ajoute la technique de décodage spéculatif LiliCorr et le MTP pour GLM5-Next, un nouveau cache GPU pour les experts MoE conservés en mémoire hôte (--moe-cache-mib, jusqu'à 2,2x d'accélération du décodage...). github.com",
-          "text_original": "llama.cpp v0.7.0 github.com/ggml-org/llama.cp… Link Release v0.7.0 · ggml-org/llama.cpp Overview llama.cpp v0.7.0 adds the LiliCorr speculative decoding technique and MTP for GLM5-Next, a new GPU cache for MoE experts kept in host memory (--moe-cache-mib, up to ~2.2x decode speedup wh... github.com",
-          "link": "https://nitter.kareem.one/ggml_org/status/2110783295093141587#m",
-          "decryptage": "Il s'agit d'une nouvelle version de llama.cpp, un outil qui permet de faire fonctionner des modèles d'IA localement sur votre ordinateur, même s'il n'est pas très puissant, avec des améliorations de vitesse pour rendre l'utilisation plus fluide."
+          "author_name": "Jeff Dean",
+          "handle": "@JeffDean",
+          "text_fr": "Présentation de DeepRSI, une nouvelle norme industrielle pour mesurer l'auto-amélioration récursive. Sur les benchmarks préexistants, les tâches sont basées sur les contributeurs et à court terme (~12 heures). Avec DeepRSI, nous poussons les agents à travailler 48 heures sur des tâches d'apprentissage automatique réellement dérivées de la recherche propriétaire en cours. Vidéo",
+          "text_original": "Introducing DeepRSI, a new industry standard for measuring recursive self-improvement. On preexisting benchmarks, tasks are contributor-based and short-horizon (~12 hrs). In DeepRSI, we push agents to work 48 hours on ML tasks actually derived from ongoing proprietary research. Video",
+          "link": "https://nitter.kareem.one/jparkjmc/status/2109684519896780938#m",
+          "decryptage": "DeepRSI est une nouvelle méthode pour évaluer la capacité d'une IA à s'améliorer toute seule ('auto-amélioration récursive'), en lui faisant travailler sur des tâches plus longues et plus complexes, comme un test plus rigoureux pour mesurer son progrès."
+        },
+        {
+          "author_name": "Ethan Mollick",
+          "handle": "@emollick",
+          "text_fr": "Les nouveaux 'Claude Projects' sont une interface agréable pour le travail multi-agent. Elle gère bien le fait d'avoir un modèle coordinateur orienté utilisateur et des agents indépendants exécutant des threads qui se transmettent des messages. Cela demande un peu de tâtonnement mais c'est assez puissant. * Même nom mais sans rapport avec les anciens Projets 🤪",
+          "text_original": "New Claude Projects* is a nice interface for multi-agent work. It does a good job with having a user-facing coordinator model and independent agents running threads that pass messages around. Takes some fiddling but quite powerful. * Same name but no relation to old Projects🤪",
+          "link": "https://nitter.kareem.one/emollick/status/2112332499917681028#m",
+          "decryptage": "Cette interface permet de gérer des 'agents multi-agents', c'est-à-dire plusieurs IA qui travaillent ensemble et communiquent pour résoudre des problèmes, ce qui est une approche avancée pour des tâches complexes."
         }
       ]
     }
   },
-  "processed_at": "2026-10-20T12:19:19",
+  "processed_at": "2026-10-20T12:44:47",
   "validation": {
     "translated_pct": 100,
     "with_decryptage_pct": 100,
-    "total": 19,
+    "total": 33,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-10-20T12:19:21"
+  "email_sent_at": "2026-10-20T12:44:48"
 }
