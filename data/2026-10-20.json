@@ -1,61 +1,417 @@
 {
   "date": "2026-10-20",
-  "fetched_at": "2026-10-20T11:25:13",
+  "fetched_at": "2026-10-20T11:54:27",
   "tweets": [
     {
-      "handle": "GuillaumeLample",
-      "text": "Timestral is quite cool :) Made a little demo for it: draw a curve and watch the model predict what comes next 👀 Video",
-      "link": "https://nitter.kareem.one/victormustar/status/2112214184570339615#m",
-      "published": "Mon, 19 Oct 2026 16:07:59 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "sama",
+      "text": "The back of the Navier-Stokes milestone shirt is the last line of the chain-of-thought from the solution:",
+      "link": "http://nitter.meowing.monster/sama/status/2111139227761266699#m",
+      "published": "Fri, 16 Oct 2026 16:56:29 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sama",
+      "text": "Wow the new roadster looks quite amazing, good job @elonmusk",
+      "link": "http://nitter.meowing.monster/sama/status/2111131677351432197#m",
+      "published": "Fri, 16 Oct 2026 16:26:29 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sama",
+      "text": "Very happy to see this from Nick! Nick (@nickcammarata) interpretability might be the most important scientific problem in the world right now, as I don't think we can solve alignment if we don't know what we're building. I think I have good news about it. I co-authored early work in mechanistic interpretability at OpenAI and came away pessimistic, because neural networks appeared to fold into arbitrary tangled knots. years later, I started openai's first large-scale automated interpretability project, finding about 2% of neurons legible with the primitive tools we had with modern agentic tools and a much closer look, the picture looks totally different. the vast majority in models up to trillions of parameters are legible, and their circuits beautiful. many famous examples of tangled neurons turned out to be misunderstood. The roadblocks I expected mostly aren't there. I now think ambitious interpretability will be solved by the time we need it most, and possibly quite soon, as automated scientists keep improving. it may be a bitter lesson for interpretability: the simple thing, at absurd scale, works already-clean.goodfire.com/ Link Neural Networks Are Already Clean A working hypothesis about neurons, generalization, and the ecology of circuits. already-clean.goodfire.com — http://nitter.meowing.monster/nickcammarata/status/2110757819427574056#m",
+      "link": "http://nitter.meowing.monster/sama/status/2111130577789493706#m",
+      "published": "Fri, 16 Oct 2026 16:22:07 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sama",
+      "text": "ChatGPT can now generate a custom UI for you! OpenAI (@OpenAI) GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. Video — http://nitter.meowing.monster/OpenAI/status/2107894997538525580#m",
+      "link": "http://nitter.meowing.monster/sama/status/2107924408597950702#m",
+      "published": "Wed, 07 Oct 2026 20:01:57 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sama",
+      "text": "Have been waiting for this one for a long time, and I would hate to have to go back to the old version of Chat!",
+      "link": "http://nitter.meowing.monster/sama/status/2107924677801001381#m",
+      "published": "Wed, 07 Oct 2026 20:03:01 GMT",
+      "author_name": "Sam Altman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "Gemini 4 Argon is a frontier model and has set a new SoTA on Wide-And-Deep-Research (WANDR) benchmark. Available now to all Perplexity users both on fast search and Computer (agent) modes. Perplexity (@perplexity_ai) Gemini 4 Argon sets a new record on WANDR. It is now available in Perplexity for Pro and Max subscribers. — http://nitter.meowing.monster/perplexity_ai/status/2111110772747321460#m",
+      "link": "http://nitter.meowing.monster/AravSrinivas/status/2111111329536987234#m",
+      "published": "Fri, 16 Oct 2026 15:05:38 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "11 hours with Gemini 4 Argon, Google literally cooked with Gemini Argon. 🔥 it's insane for building 3D stuff. A full Asuka-period Japanese pagoda temple, built in Blender and rendered in Cycles. The level of precision in everything is just crazy. Video",
+      "link": "http://nitter.meowing.monster/ai_for_success/status/2110973461690802487#m",
+      "published": "Fri, 16 Oct 2026 05:57:47 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "Gemini 4 Argon is live in Antigravity for paid Pro subscribers. As part of Pro, you get a separate weekly quota so it doesn’t eat up your Flash quota. Excited to see Antigravity push the limits of our best model yet. Love to see what you build!",
+      "link": "http://nitter.meowing.monster/_mohansolo/status/2110866446020710657#m",
+      "published": "Thu, 15 Oct 2026 22:52:33 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "Some magical progress towards \"magic state\" in quantum! Our @GoogleQuantumAI team has demonstrated \"magic state cultivation\" on physical hardware for the first time. The result is a 40x error reduction on our Willow processor vs. previous methods, achieving a state-of-the-art 99.99% logical fidelity. It's another step towards useful, error-corrected quantum computers to help solve the hardest problems. The result is published in Science today, watch the video below to see how it works Video",
+      "link": "http://nitter.meowing.monster/sundarpichai/status/2110804295352488143#m",
+      "published": "Thu, 15 Oct 2026 18:45:35 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "read more here: blog.google/innovation-and-a… Link Bringing the magic: Google breaks open a bottleneck in quantum computing In a paper published in Science, Google has shown that Magic State Cultivation works on Google Quantum AI hardware. blog.google",
+      "link": "http://nitter.meowing.monster/sundarpichai/status/2110804298087203149#m",
+      "published": "Thu, 15 Oct 2026 18:45:36 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "If you want your ads to reach the most important and high-IQ individuals You should advertise on 𝕏",
+      "link": "https://nitter.kareem.one/Nate_Esparza/status/2112296169582010386#m",
+      "published": "Mon, 19 Oct 2026 21:33:46 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "Researchers gave 2,000 unemployed people €560/month for two years and tracked them to see how they differed from otherwise eligible nonrecipients. They didn't do any more or less crime. Nothing changed.",
+      "link": "https://nitter.kareem.one/cremieuxrecueil/status/2112290361947410842#m",
+      "published": "Mon, 19 Oct 2026 21:10:41 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "James Talarico wants to: -Dismantle Capitalism -Raise Taxes -Defund the police -Abolish prisons -Get rid of oil and gas jobs And he’s trying to convince Texas he’s a moderate? Vote for Ken Paxton. Video",
+      "link": "https://nitter.kareem.one/america/status/2112335573725917396#m",
+      "published": "Tue, 20 Oct 2026 00:10:20 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "Early in-person voting begins in NYC October 24. We may not bring ID. Elon Musk (@elonmusk) Control of the senate will decide the future of America — https://nitter.kareem.one/elonmusk/status/2112015643126165669#m",
+      "link": "https://nitter.kareem.one/mayemusk/status/2112266513336201457#m",
+      "published": "Mon, 19 Oct 2026 19:35:55 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "elonmusk",
+      "text": "SF voters on robotaxis: Sept 2023: 44% support, 51% oppose July 2025: 67% support, 29% oppose What changed? People rode them. Robotaxi opposition peaks before anyone has ridden. D.C., New York and Massachusetts are deciding at peak fear and minimum experience.",
+      "link": "https://nitter.kareem.one/ProgressChamber/status/2112236358140117034#m",
+      "published": "Mon, 19 Oct 2026 17:36:05 GMT",
+      "author_name": "Elon Musk",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AravSrinivas",
+      "text": "Crusoe is extremely well positioned to become a full-stack cloud: power, compute, and services running on top. Perplexity’s open source sandbox platform SPACE will become part of Crusoe’s Managed AI products. Look forward to more collaborations with them! Crusoe (@CrusoeAI) Agents need secure sandboxes as much as they need GPUs. We're partnering with @perplexity_ai to bring SPACE to our Managed AI portfolio on Crusoe Cloud. — http://nitter.meowing.monster/CrusoeAI/status/2112252659550081275#m",
+      "link": "http://nitter.meowing.monster/AravSrinivas/status/2112254336160108664#m",
+      "published": "Mon, 19 Oct 2026 18:47:32 GMT",
+      "author_name": "Aravind Srinivas",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AravSrinivas",
+      "text": "Computer built an interactive Lord of the Rings map that tracks the journeys of the main characters across Middle-earth, chapter by chapter. It built the map from scratch by placing 179 locations, 41 rivers, and 23 roads, baked the ranges into a heightfield, inked the relief in a GLSL shader, and plotted 537 journey legs. Try it: middle-earth.pplx.app Video",
+      "link": "http://nitter.meowing.monster/AskPerplexity/status/2112204695456616829#m",
+      "published": "Mon, 19 Oct 2026 15:30:16 GMT",
+      "author_name": "Aravind Srinivas",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AravSrinivas",
+      "text": "Cyberpunk inspired Roadster free-roam browser game built by Perplexity Computer: 2049.pplx.app Video",
+      "link": "http://nitter.meowing.monster/AravSrinivas/status/2111850132669075696#m",
+      "published": "Sun, 18 Oct 2026 16:01:22 GMT",
+      "author_name": "Aravind Srinivas",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AravSrinivas",
+      "text": "Building safer AI agents takes more than model safeguards. @perplexity_ai open sourced SPACE, the agent sandbox platform behind Computer, giving developers more control over where agents run code and what they can access. Cheers to more teams open-sourcing tools to build safer autonomous AI agents. Perplexity (@perplexity_ai) We're open sourcing SPACE, the sandbox platform that runs every task in Perplexity Computer. SPACE gives each agent task its own Firecracker microVM and controls credentials and outbound traffic from outside the VM. Available now under Apache 2.0: github.com/perplexityai/SPAC… — http://nitter.meowing.monster/perplexity_ai/status/2110778478312481167#m",
+      "link": "http://nitter.meowing.monster/NVIDIAAI/status/2111488462264410553#m",
+      "published": "Sat, 17 Oct 2026 16:04:13 GMT",
+      "author_name": "Aravind Srinivas",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AravSrinivas",
+      "text": "Beautiful work from @perplexity_ai @AravSrinivas with weights on @huggingface of course! huggingface.co/perplexity-ai… huggingface.co/perplexity-ai… Link perplexity-ai/pplx-decider-flash-v1.2 · Hugging Face We’re on a journey to advance and democratize artificial intelligence through open source and open science. huggingface.co Perplexity Developers (@perplexitydevs) Our next generation of open weights multimodal decision models comes in two sizes, pplx-decider-v1.2 and pplx-decider-flash-v1.2. Text and vision scores improve. Inference is up to 5x faster: all questions in a request run in one pass. Flash is the top 4B on the Decision Index. — http://nitter.meowing.monster/perplexitydevs/status/2111166029539758120#m",
+      "link": "http://nitter.meowing.monster/ClementDelangue/status/2111195796381270125#m",
+      "published": "Fri, 16 Oct 2026 20:41:16 GMT",
+      "author_name": "Aravind Srinivas",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "This phishing email made it past Gmail’s filters, but my dot caught it and warned me.",
+      "link": "https://nitter.kareem.one/polynoamial/status/2109257833929924881#m",
+      "published": "Sun, 11 Oct 2026 12:20:30 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "LLMs have crossed an important threshold: surpassing top human experts on some research problems. Capabilities have been steadily improving for years, but in scientific discovery there is a big difference between a model just below top human performance and one just above it. That helps explain why the surge in math results feels so sudden. LLM capabilities remain jagged, and there are many ways they are still worse than humans. But as models continue to improve, I expect breakthroughs in other domains to follow, leading to a new era of scientific discovery. Mark Chen (@markchen90) The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
+      "link": "https://nitter.kareem.one/polynoamial/status/2107947189184164056#m",
+      "published": "Wed, 07 Oct 2026 21:32:28 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "We’re releasing a broad range of new mathematical results produced by an internal frontier model. We’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and public recommendations to inform how we release these results. github.com/openai/math Link GitHub - openai/math Contribute to openai/math development by creating an account on GitHub. github.com",
+      "link": "https://nitter.kareem.one/OpenAI/status/2107596713791767021#m",
+      "published": "Tue, 06 Oct 2026 22:19:48 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "I met @ssokota 5 years ago at a conference poster session. I was impressed with his explanation, so I offered him an internship. We continued collaborating and he now works with me at @OpenAI . Later, he told me I was the only person to stop by his poster for the entire session. Samuel Sokota (@ssokota) In our Nature paper, we introduce the first superhuman Stratego AI, which we built using general techniques that we developed for RL & test-time compute under imperfect information. 1/N — https://nitter.kareem.one/ssokota/status/2105362024238887176#m",
+      "link": "https://nitter.kareem.one/polynoamial/status/2105374680807043568#m",
+      "published": "Wed, 30 Sep 2026 19:10:14 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "@polynoamial Results are even more impressive at max! 6.1 sol outperforms Opus 5.5 while using 4x fewer tokens.",
+      "link": "https://nitter.kareem.one/phillip___price/status/2105023008200864113#m",
+      "published": "Tue, 29 Sep 2026 19:52:49 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "Personal update: Turns out that what I thought was leaving OpenAI became more of a sabbatical. When I left a few months ago, I felt that the most important thing to focus on was making AI more useful to people. But we’ve since entered a different regime of AI progress. One in which getting the safety and security challenges of increasingly capable AI right has to become a central priority. So I’ll be returning to OpenAI, joining @merettm to help chart a path through these challenges. There’s much work to do, so let’s get going.",
+      "link": "http://nitter.meowing.monster/aleks_madry/status/2112231448103239998#m",
+      "published": "Mon, 19 Oct 2026 17:16:35 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "first proof third batch results are out! full report here: hexagonmath.org/2610.00244",
+      "link": "http://nitter.meowing.monster/Knikct/status/2110449858490634309#m",
+      "published": "Wed, 14 Oct 2026 19:17:11 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "Try out Intelligent UI - every ChatGPT completion now has the potential to create a custom UI. Phenomenal for learning new things! OpenAI (@OpenAI) GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. Video — http://nitter.meowing.monster/OpenAI/status/2107894997538525580#m",
+      "link": "http://nitter.meowing.monster/markchen90/status/2107947355115028880#m",
+      "published": "Wed, 07 Oct 2026 21:33:07 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! OpenAI (@OpenAI) openai.com/index/sharing-ai-… Link Sharing AI progress in mathematics OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub. openai.com — http://nitter.meowing.monster/OpenAI/status/2107596716367388924#m",
+      "link": "http://nitter.meowing.monster/markchen90/status/2107876922147668198#m",
+      "published": "Wed, 07 Oct 2026 16:53:15 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "markchen90",
+      "text": "It’s hard to overstate @michpokrass 's impact on our consumer products. ChatGPT has had a rebirth under her leadership, and a lot of what we've built has been driven by her vision and conviction. Really grateful to work with her! Michelle Pokrass (@michpokrass) just crossed four years at openai! the special thing about this place is the constant capacity for rebirth. for all its faults, there is nowhere quite like it. the team makes high conviction, contrarian bets over and over, and they are mostly right. it's a new company every three months. i have really enjoyed my part in some of the bets, and i'm excited to share some of the current ones we are cooking up now. onward! — http://nitter.meowing.monster/michpokrass/status/2102226720073896367#m",
+      "link": "http://nitter.meowing.monster/markchen90/status/2102315801730564516#m",
+      "published": "Tue, 22 Sep 2026 08:35:20 GMT",
+      "author_name": "Mark Chen",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "Should every agent wait in the same approval queue? @jxxf contrasts a ticket summarizer with an agent that can deploy to production. One review process can delay small experiments and divide reviewers' attention. 77 seconds from AI Engineer New York. #AIEngineerNY Video",
+      "link": "https://nitter.kareem.one/aiDotEngineer/status/2112181981530476646#m",
+      "published": "Mon, 19 Oct 2026 14:00:01 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "We started @HackerRank a decade ago with the belief that skills matter more than pedigree. That’s still our core ethos, but the skills required to do the job have changed. So, we're tearing down our past and reinventing the company from scratch. Meet Chakra - the future of hiring. Video",
+      "link": "https://nitter.kareem.one/rvivek/status/2112178010824884528#m",
+      "published": "Mon, 19 Oct 2026 13:44:14 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "First AIE Code Summit speakers: @poteto , Principal Engineer @ SpaceX @steve_yegge , Engineer, Writer, Advisor @zachbruggeman , Principal Software Engineer @ Ramp Nov 10-12, SF. Come hang out with us. Apply at ai.engineer/code",
+      "link": "https://nitter.kareem.one/aiDotEngineer/status/2112276851355693315#m",
+      "published": "Mon, 19 Oct 2026 20:17:00 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "Quick lookback on technical AI themes of 2026: (dataset: daily latent.space ainews title stories) Jan: - Ralph Loops - RLMs - Filesystems are all you need - X LLM recsys open sourced - X Grok Imagine #1 Video model - Anthropic blocked OpenCode / OpenClaw - MCP Apps - Moltbook - Apple picks Gemini for new Siri - Notable models: Kimi K2.5 - Fast inference: OAI x Cerebras partnership - Big raises: xAI @ $230B + SpaceX, OpenEvidence @ $12B Feb: - Codex App launch - Claude Code 1 year anniversary - Context Graphs - Fast Inference: Taalas 17k tok/s/user Llama 3 8B - Anthropic vs Deepseek/Moonshot/Minimax distillation accusation - Notable models: Opus/Sonnet 4.6, 5.3 Codex and Codex Spark, Qwen-Image 2.0, Seedance 2.0, GLM-5, Gemini 3.1 Pro and Deep Think, Nano Banana 2 - Big raises: OpenAI @ $840B, Anthropic @ $380B, ElevenLabs @ $11B, Cerebras @ $23B Mar: - T3 Code - Autoresearch - Claude Code source leak - Claude Cowork Dispatch - OpenAI buys Astral - Cloudflare-Next.js \"Slop Fork\" - Meta buys Dreamer - NVIDIA GTC: OpenClaw, Vera CPU, 1T sales backlog, \"The Inference Inflection\" - ARC-AGI 3 introduced, SOTA models are 1% - Notable models: GPT 5.4 unifies chat and codex, Gemini 3.1 Flash-Lite/Live, Nemotron 3 Super, Composer 2, MiniMax 2.7, Arcee’s Trinity-Large-Thinking - Big Raises: Yann LeCun AMI Labs $1B seed Apr: - Claude Design - OpenAI Symphony & Harness Engineering discourse - @LilianWeng writeup later - OpenAI and Microsoft break up - Tokenmaxxing fears - Codex Superapp - AIE Europe, AIEi Miami - Hermes Agent gains traction w/ Manim skill - Cyber: Anthropic Project Glasswing - Notable models: Claude Mythos \"Capybara\", Opus 4.7, Muse Spark, Gemma 4, Kimi K2.6, GPT-Image-2, GPT 5.5 \"Spud\", DeepSeek v4 Pro/Flash Base/Instruct on Huawei Ascend, Poolside Laguna XS.2, Grok 4.3 - Big Raises: not much but Anthropic $19B->$30B ARR in one month... May: - Cyber: OpenAI Daybreak, Tanstack Mini-Shai Hulud - FDE: OpenAI DeployCo, Ode by Anthropic - OpenAI solve Erdos planar unit distance problem - OpenAI deprecates finetuning - \"How to land a job at a frontier lab\" - Anthropic rents Colossus I from SpaceX for $5B/yr - Thinking Machines Interaction Models (still underrated!!!) - Notable models: GPT-Realtime-2/Translate/Whisper, Gemini 3.5 Flash, Omni, Antigravity 2.0, Opus 4.8, Cosmos 3, Minimax M3 - Big Raises: Fireworks @ $15B, Baseten @ $11B, Cognition @ $26B, Cerebras $60B IPO, Anthropic @ $965B Jun: - Claude Tag - OpenAI Jalapeno - \"The Untrainable\" - @saranormous - Loopcraft: The Art of Stacking Loops - Metaharnesses discourse? Flue v Eve - Zai Prof @jietang predicts Open Fable by Dec - \"SpaceX is a $28B/yr neocloud\" - @jaminball - Anthropic-Fable White House issue (resolved) - Notable models: GPT 5.6 Sol/Terra/Luna, Fable 5, Sonnet 5, MAI-Thinking-1 and MAI Family, Nemotron 3 Ultra, GLM 5.2, Reve 2/ Ideogram 4 - Big Raises: SpaceXai buys Cursor for $60B, Supabase @ $10B Jul: - AIE World's Fair 3 - OpenCode 2.0 - Cyber: OpenAI-HuggingFace incident - Chinese Model ban discourse - GPT 5.6 Luna 80% price cut - Notable models: Grok 4.5, Opus 5, Muse Image, Thinky Inkling, Kimi K3, BFL FLUX 3, DeepSeek-v4-Flash-0731 - Big Raises: Aug: - EU AI text watermarking - Microduck - Megakernels - Memory prices up 500% in 12 months - How to steal a Reasoning Trace - Grok @bot ! - OpenAI shuts off Cursor - Fast Inference: AMD buys Taalas - @andrewng stars AI Engineering series - Hot Chips: Jalapeno, Cerebrase CS-5, Groq 3, Apple M6 - Demis steps down from CEO, & Dean et al leave - Notable models: Qwen 3.8 Max, Muse Spark 1.2, Muse Glimmer, Grok 4.6, Gemini 3.7 Flash, GLM 5.3, @Fal H3 Max Live - Big Raises: Stripe buys OpenRouter $7B, Poolside $12B reverse-execuhire to NVIDIA, NVIDIA buys HuggingFace for $13B Sep: - AIEi Paris - OpenAI Navier-Stokes singularity - collusion . wiki - Yegge shuts down Gas Town - AEF-1 standard for Third Party Evaluators - Meta Muse App launch. Also new glasses and Charm - OpenAI blocks Cursor - OpenAI Dots - Opus 5.5 explainer videos - Pi 1.0 & Pi Durable - Notable Models: Fable 5.1, Mythos 5.1, Opus 5.5, GPT-6 Astra, GPT Image 2.5, DeepSeek v4.1-Flash, @typesafeai Jev, MiMo-v2.6-Pro new Open SOTA, GPT 6.1 Sol & Ultrafast & Decisions API, Gemini 4 Argon - Big Raises: Cognition @ $48B, Mistral @ $24B, AMD buys World Labs for $8.2B Oct to date: - AIE NYC - @dhh stops using Rails - ArtCraft clones Adobe suite - Interpretability vs Polysemanticity - OpenAI Quasi-Riemann-Hypothesis & 722 Math - Notable Models: Reflection Beam, Claude Haiku 5.5, Muse Wonder & Wonder Full reach Opus 5.5 tier - Big Raises: TypeSafe $7.5B 3 weeks after launch, Modal @ $16B (this was done for research purposes for the aie.codes keynote in Nov, just sharing notes in case helpfuil) Link Latent.Space | Substack The AI Engineer newsletter + Top technical AI podcast. How leading labs build Agents, Models, Infra, & AI for Science. See https://latent.space/about for highlights from Greg Brockman, Andrej... latent.space",
+      "link": "https://nitter.kareem.one/latentspacepod/status/2112197832342122712#m",
+      "published": "Mon, 19 Oct 2026 15:03:00 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "swyx",
+      "text": "\"O Infallible one, why do the people not heed the sign we tap?\" \"My dear Parth, each believes he is the first to wish for an end to chat. On X we are cursed with the eternal September of the Thoughtless Mind.\" \"But O Govinda, they yearn for what lies beyond it, and cast their votes by the thousands. Surely the people's wants must be made.\" *a wan smile* “O son of Kunti, observe what they applaud, and what they return to. They desire the end of chat as they desire the end of desire. They desire to leave X as they return in ever greater numbers. They will announce it many times. You shall learn, as they do not, that the chief desire of the people of X is not the truth, but the new.” lauren (@poteto) is chat the final form of agent ui? please share why Poll 28% — yes 72% — no 25,074 votes • Final results — https://nitter.kareem.one/poteto/status/2111321176769442251#m",
+      "link": "https://nitter.kareem.one/swyx/status/2112182228977348963#m",
+      "published": "Mon, 19 Oct 2026 14:01:00 GMT",
+      "author_name": "Shawn Wang",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "Would agree with this Start with a harness (I like deepagents) Add context (skills, tools) Then if needed modify harness slightly (middleware in deepagents is goated for this) Then if needed make workflow with langgraph verrsane (@verrsane) If you’re building a agent Always go the harness route first. Do not build a complicated 20 step workflow using a bunch of if else statements or langgraph Use a harness as your agent eg. Claude code, codex, deep agents, glean etc You’re just shooting urself in the foot off the bat Trust me, prompting works surprisingly well — https://nitter.kareem.one/verrsane/status/2112396922354806942#m",
+      "link": "https://nitter.kareem.one/hwchase17/status/2112489626061738209#m",
+      "published": "Tue, 20 Oct 2026 10:22:29 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "If you’re building a agent Always go the harness route first. Do not build a complicated 20 step workflow using a bunch of if else statements or langgraph Use a harness as your agent eg. Claude code, codex, deep agents, glean etc You’re just shooting urself in the foot off the bat Trust me, prompting works surprisingly well",
+      "link": "https://nitter.kareem.one/verrsane/status/2112396922354806942#m",
+      "published": "Tue, 20 Oct 2026 04:14:07 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "had a lot of fun talking with @HarryStebbings about all things ai one line of questioning we went done - vertical vs horizontal agents, and how to build them im bullish on vertical agents, and i think you can create differentiation (from horizontal agents) in three ways: 1/ context: prompts, skills, tools - all of this is specific to your domain, pretty easy to provide, and gives domain specific context to the agent 2/ harness: harder to tweak than context, but can alter fundemental behavior of the agent 3/ model: hardest to tweak of all, but obviously changes behavior greatly i think most agent engineers these days are still tweaking 1 and 2 (in that order) nb: regardless of what layer you tweak at, as the base models change you should revisit your context/harness/model every 3-6 months (and generally remove cruft that is no longer needed) inv.kareem.one/watch?v=1jDCPEHw…",
+      "link": "https://nitter.kareem.one/hwchase17/status/2112471992435667163#m",
+      "published": "Tue, 20 Oct 2026 09:12:25 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "\"it's underrated how hard it is to build agents!\" great convo w/ @hwchase17 and @HarryStebbings on @twentyminutevc an agent = model + context + harness, and you can improve an agent by tweaking any of the three. a few takeaways: 1. the highest roi thing you can do is start by optimizing context (then the harness, then the weights); this is where domain knowledge lives and that's incredibly valuable 2. the story of continual learning is: run an agent, collect traces, aggregate learnings, fix something, measure the fix, loop! the fix can land in any of the three layers. those fixes all look different but the cycle is the same. 3. memory is still massively unsolved, but also massively important. the hardest part is distilling learnings from traces which is incredibly domain specific. 4. when you build agents, you're probably worried about a few things: accuracy, cost, latency, and security. we've seen these themes confirmed year after year in our dev surveys 5. when we think about reducing cost, the pipeline looks like adding visibility into spend, putting controls in place, and only then pushing on agent optimizations. this is how we reduced our coding agent spend @LangChain 6. model routing, which is great for cost controls, is most effective in the harness (where the context needed for a routing decision lives) 7. open models are used for more narrow tasks right now (small parts of the agent loop OR for very specific domains w/ post-training), but as they improve they'll power more core agent loops 8. we're looking at a future with both horizontal agents and vertical agents. horizontal agents will use the vertical agents, and infra needs to change to support this load (agents can do background work at a rate that humans cannot). inv.kareem.one/watch?v=1jDCPEHw… Link The Future of Inference Market & Model Routing: Commodity or Increasing in Value? | LangChain CEO Harrison Chase is the co-founder and CEO of LangChain, which helps ... youtube.com",
+      "link": "https://nitter.kareem.one/sydneyrunkle/status/2112256862318194818#m",
+      "published": "Mon, 19 Oct 2026 18:57:34 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "Day 1 of “An agent a day keeps Phase 2 failures away” We're going to start with something simple: a Weekly Report Agent. Every scientist I know has to do some sort of communication about what they’re working on. Whether it’s presenting at a lab meeting or discovery meeting, status updates for their boss, or preparing something for a partner. So why not automate the time consuming retrieval of data and creation of plots with an agent? Sample prompt (feel free to tweak): Please create a Weekly Report Agent that summarizes all of the work that I've done over the past week in a slide deck. Make sure to check all of my notebook entries, any sequences or biological entities that I've created, and any other places I was mentioned. Add visualizations where appropriate and link back to the source data. Video",
+      "link": "https://nitter.kareem.one/nlarusstone/status/2112242454208598274#m",
+      "published": "Mon, 19 Oct 2026 18:00:19 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+      "link": "http://nitter.meowing.monster/soumithchintala/status/1202981209057484801#m",
+      "published": "Fri, 06 Dec 2019 16:00:45 GMT",
+      "author_name": "Clem Delangue",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Turns out le Chonk is into rocket science. Mistral Large 4 scoring well in engineering and astronomy on Ulam’s private benchmark, STEMBench: ulam.ai/stembench",
-      "link": "https://nitter.kareem.one/MistralAI/status/2111056939841163336#m",
-      "published": "Fri, 16 Oct 2026 11:29:30 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "ClemDelangue",
+      "text": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+      "link": "http://nitter.meowing.monster/Thom_Wolf/status/1195662118974083073#m",
+      "published": "Sat, 16 Nov 2019 11:17:18 GMT",
+      "author_name": "Clem Delangue",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Congrats to Meta on building the best open-weight model in the United States ! AI at Meta (@AIatMeta) Today we’re releasing Muse Spark Open, the most capable US open-weight model to date. Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning. Key Model Specs: → 816B total / 42B active parameters → 1M token context window → Natively multimodal across text, image, video, audio — https://nitter.kareem.one/AIatMeta/status/2110779754274292212#m",
-      "link": "https://nitter.kareem.one/GuillaumeLample/status/2110931453576196429#m",
-      "published": "Fri, 16 Oct 2026 03:10:52 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "ClemDelangue",
+      "text": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+      "link": "http://nitter.meowing.monster/algo_diver/status/1192329736850038786#m",
+      "published": "Thu, 07 Nov 2019 06:35:36 GMT",
+      "author_name": "Clem Delangue",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "🇫🇷 Le Chonk joins the sudo L7 leaderboard 🇫🇷 We just added @MistralAI 's Mistral Large 4 to sudo L7, our benchmark for staff-level software engineering. Mistral Large 4 scores 13.3%, ahead of Muse Spark 1.3 (12.2%) and Grok 4.7 (10.6%). sudo L7 tests whether coding agents can go beyond writing correct code to exercise the judgment of experienced engineers: navigating messy systems, spotting hidden risks, and knowing when technically correct code is still the wrong thing to ship. Allez, le Chonk ! 🥖 Leaderboard ↓ surgehq.ai/benchmarks/sudo-l…",
-      "link": "https://nitter.kareem.one/HelloSurgeAI/status/2109706583215411260#m",
-      "published": "Mon, 12 Oct 2026 18:03:40 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "ClemDelangue",
+      "text": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitter.meowing.monster/DoingJobs/status/11865…",
+      "link": "http://nitter.meowing.monster/Thom_Wolf/status/1189271899316064256#m",
+      "published": "Tue, 29 Oct 2019 20:04:51 GMT",
+      "author_name": "Clem Delangue",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "GuillaumeLample",
-      "text": "Le Chonk cooked on visual grounding. Pinpoints exactly where things are in an image. 42% on Dense 200, ahead of even frontier closed models.. Video",
-      "link": "https://nitter.kareem.one/MistralAI/status/2109687906751086628#m",
-      "published": "Mon, 12 Oct 2026 16:49:27 GMT",
-      "author_name": "Guillaume Lample",
+      "handle": "ClemDelangue",
+      "text": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+      "link": "http://nitter.meowing.monster/fchollet/status/1188942956511690752#m",
+      "published": "Mon, 28 Oct 2019 22:17:44 GMT",
+      "author_name": "Clem Delangue",
       "category_hint": "fr",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
     "karpathy",
-    "sama",
     "DarioAmodei",
     "gdb",
-    "sundarpichai",
-    "elonmusk",
-    "AravSrinivas",
     "miramurati",
     "ylecun",
     "demishassabis",
@@ -65,8 +421,6 @@
     "rasbt",
     "bcherny",
     "karinanguyen_",
-    "polynoamial",
-    "markchen90",
     "aidan_mclau",
     "officiallogank",
     "osanseviero",
@@ -75,8 +429,6 @@
     "GoogleDeepMind",
     "xai",
     "simonw",
-    "swyx",
-    "hwchase17",
     "jeremyphoward",
     "levelsio",
     "mckaywrigley",
@@ -84,149 +436,453 @@
     "nickadobos",
     "emollick",
     "ArthurMensch",
+    "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
-    "ClemDelangue",
     "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, l'actualité de l'IA est riche en annonces de performances impressionnantes et de nouveaux outils. Nous voyons des modèles comme Muse Spark Open de Meta exceller en codage et devenir multimodaux, tandis que Mistral Large 4 brille dans des domaines scientifiques complexes et la compréhension visuelle. Cela démontre une progression rapide des capacités de l'IA, allant de la prédiction de données aux décisions complexes d'ingénierie, et offre de belles opportunités de découvrir la technologie en action.",
+    "summary": "Aujourd'hui, l'univers de l'IA bouillonne d'activités, avec des modèles qui continuent de repousser les limites en mathématiques et en création 3D. OpenAI et Google dévoilent de nouvelles fonctionnalités et des percées scientifiques, tandis que le débat sur l'interprétabilité et la sécurité de l'IA prend une place centrale. Pour les passionnés, de nombreux outils deviennent plus accessibles, et des conseils pratiques émergent pour ceux qui souhaitent se lancer dans la construction d'agents intelligents.",
     "glossaire": [
       {
-        "terme": "Modèle open-weight",
-        "definition": "Un modèle d'IA dont les composants essentiels et les poids (les nombres qui lui permettent de faire des prédictions) sont rendus publics, ce qui permet à la communauté de l'étudier, de l'utiliser et de l'améliorer."
+        "terme": "LLM (Large Language Model)",
+        "definition": "Un grand modèle linguistique est une IA capable de comprendre et de générer du texte, souvent utilisée pour les conversations ou la rédaction."
       },
       {
-        "terme": "Paramètres (d'un modèle)",
-        "definition": "Ce sont les éléments ajustables à l'intérieur d'un modèle d'IA que le modèle apprend à optimiser pendant son entraînement, influençant directement ses capacités et sa complexité."
+        "terme": "Agent IA",
+        "definition": "Un programme informatique autonome qui perçoit son environnement, prend des décisions et agit pour atteindre un objectif."
       },
       {
-        "terme": "Fenêtre de contexte",
-        "definition": "Il s'agit de la quantité maximale de texte ou de données qu'un modèle d'IA peut 'lire' et prendre en compte simultanément pour comprendre une requête ou générer une réponse."
+        "terme": "Interprétabilité de l'IA",
+        "definition": "La capacité de comprendre pourquoi une intelligence artificielle a pris une certaine décision ou fourni une certaine réponse."
       },
       {
-        "terme": "Multimodalité / Modèle multimodal",
-        "definition": "Un modèle d'IA 'multimodal' est capable de comprendre et de traiter différents types d'informations, comme du texte, des images, des vidéos ou de l'audio, au lieu de se limiter à un seul format."
+        "terme": "Prompt",
+        "definition": "L'instruction ou la question que vous donnez à une IA pour qu'elle génère une réponse ou effectue une tâche spécifique."
       },
       {
-        "terme": "Benchmark",
-        "definition": "Un 'benchmark' est un test standardisé, un ensemble d'épreuves, utilisé pour mesurer et comparer objectivement les performances de différents modèles d'IA sur des tâches spécifiques."
+        "terme": "Modèle de pointe / SoTA (State-of-the-Art)",
+        "definition": "Décrit le niveau de performance le plus élevé qu'un modèle d'IA a atteint sur une tâche donnée à un moment précis."
       },
       {
-        "terme": "Agent de codage",
-        "definition": "Un 'agent de codage' est une intelligence artificielle spécialement conçue pour assister les développeurs, capable d'écrire du code, de résoudre des problèmes de programmation et parfois même de prendre des décisions complexes."
+        "terme": "Open Source",
+        "definition": "Se dit d'un logiciel dont le code est public, permettant à chacun de l'utiliser, le modifier et le distribuer librement."
       },
       {
-        "terme": "Visual Grounding",
-        "definition": "Le 'visual grounding' est la capacité d'une IA à localiser et identifier avec précision des objets ou des éléments spécifiques dans une image, en reliant le texte à ce qu'elle voit."
+        "terme": "Harness",
+        "definition": "Un cadre ou un système qui structure et gère le comportement d'un agent IA, lui fournissant les outils et le contexte nécessaires pour fonctionner."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces du jour mettent en lumière les avancées impressionnantes de modèles comme Mistral Large 4, qui excelle sur des benchmarks exigeants en sciences et ingénierie. Meta a également frappé fort avec le lancement de Muse Spark Open, un modèle multimodal et open-weight très performant, notamment pour le codage.",
-      "tips": "Pour évaluer un agent de codage, ne vous contentez pas de vérifier si le code est correct. Il est essentiel de tester sa capacité à faire preuve de jugement, à naviguer dans des systèmes complexes et à anticiper les risques, des qualités d'ingénieur expérimenté que les meilleurs IA commencent à imiter.",
-      "idees": "L'IA démontre une capacité étonnante à dépasser les attentes, avec des modèles capables de 'visual grounding' précis, rivalisant voire surpassant des systèmes plus établis. Cela nous pousse à réfléchir à l'autonomie et au jugement des IA, non seulement dans le code, mais aussi dans la compréhension du monde réel, et aux implications de ces avancées rapides.",
-      "outils": "Plusieurs démos et outils sont mis en avant, montrant l'application pratique des nouvelles capacités de l'IA. Que ce soit pour prédire la suite d'une courbe avec Timestral ou pour localiser précisément des éléments dans une image, ces innovations offrent un aperçu direct de ce que les modèles d'IA peuvent faire aujourd'hui."
+      "actu": "Les annonces du jour concernent des avancées en informatique quantique chez Google, des partenariats stratégiques pour des infrastructures cloud dédiées à l'IA, et la publication de travaux de recherche importants en mathématiques par OpenAI. On note également des lancements de produits et d'événements qui façonnent l'écosystème de l'IA.",
+      "tips": "Les conseils du jour se concentrent sur la construction d'agents IA efficaces. Il est recommandé de privilégier une approche structurée avec des « harness » plutôt que des flux de travail complexes, et d'optimiser le contexte de l'agent en premier lieu. L'importance de l'apprentissage continu et l'adaptation aux changements des modèles de base sont également soulignées.",
+      "idees": "Les réflexions du jour abordent des sujets fondamentaux comme l'interprétabilité des IA, jugée cruciale pour leur alignement et leur sécurité. Il est aussi question des capacités des LLM à dépasser les experts humains dans certains domaines, de l'évolution des interfaces utilisateur des agents, et des enjeux sociétaux liés à l'adoption de l'IA.",
+      "outils": "De nouveaux modèles comme Gemini 4 Argon sont désormais disponibles et démontrent des capacités impressionnantes, notamment pour la création 3D. ChatGPT se dote d'une interface utilisateur intelligente, et des plateformes comme Perplexity et Hugging Face continuent de publier des outils et des modèles open source pour les développeurs, facilitant la création d'agents IA plus sûrs et performants."
     },
     "highlights": [
       {
-        "author_name": "Guillaume Lample",
-        "handle": "@GuillaumeLample",
-        "text_fr": "Félicitations à Meta pour avoir construit le meilleur modèle open-weight aux États-Unis ! AI at Meta (@AIatMeta) Aujourd'hui, nous lançons Muse Spark Open, le modèle open-weight américain le plus performant à ce jour. Conçu pour le codage et les tâches d'agent, il excelle dans les tâches à long terme, l'ingénierie logicielle complexe et le raisonnement en plusieurs étapes. Spécifications clés du modèle : → 816 milliards de paramètres au total / 42 milliards de paramètres actifs → Fenêtre de contexte d'un million de tokens → Multimodalité native sur le texte, l'image, la vidéo, l'audio — https://nitter.kareem.one/AIatMeta/status/2110779754274292212#m",
-        "text_original": "Congrats to Meta on building the best open-weight model in the United States ! AI at Meta (@AIatMeta) Today we’re releasing Muse Spark Open, the most capable US open-weight model to date. Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning. Key Model Specs: → 816B total / 42B active parameters → 1M token context window → Natively multimodal across text, image, video, audio — https://nitter.kareem.one/AIatMeta/status/2110779754274292212#m",
-        "link": "https://nitter.kareem.one/GuillaumeLample/status/2110931453576196429#m",
-        "decryptage": "Un modèle 'open-weight' signifie que les bases techniques du modèle sont accessibles au public, ce qui permet à chacun de l'étudier, de l'utiliser et de l'améliorer.",
-        "category": "actu",
-        "highlight_reason": "Ce tweet annonce le lancement d'un modèle open-weight majeur par Meta, soulignant ses capacités avancées en codage et sa multimodalité, ce qui est une avancée importante pour la communauté."
-      },
-      {
-        "author_name": "Guillaume Lample",
-        "handle": "@GuillaumeLample",
-        "text_fr": "🇫🇷 Le Chonk rejoint le classement sudo L7 🇫🇷 Nous venons d'ajouter le Mistral Large 4 de @MistralAI au sudo L7, notre benchmark pour l'ingénierie logicielle de niveau expert. Mistral Large 4 obtient un score de 13,3%, devant Muse Spark 1.3 (12,2%) et Grok 4.7 (10,6%). sudo L7 teste si les agents de codage peuvent aller au-delà de l'écriture de code correct pour exercer le jugement d'ingénieurs expérimentés : naviguer dans des systèmes complexes, repérer les risques cachés et savoir quand un code techniquement correct ne devrait pas être déployé. Allez, le Chonk ! 🥖 Classement ↓ surgehq.ai/benchmarks/sudo-l…",
-        "text_original": "🇫🇷 Le Chonk joins the sudo L7 leaderboard 🇫🇷 We just added @MistralAI 's Mistral Large 4 to sudo L7, our benchmark for staff-level software engineering. Mistral Large 4 scores 13.3%, ahead of Muse Spark 1.3 (12.2%) and Grok 4.7 (10.6%). sudo L7 tests whether coding agents can go beyond writing correct code to exercise the judgment of experienced engineers: navigating messy systems, spotting hidden risks, and knowing when technically correct code is still the wrong thing to ship. Allez, le Chonk ! 🥖 Leaderboard ↓ surgehq.ai/benchmarks/sudo-l…",
-        "link": "https://nitter.kareem.one/HelloSurgeAI/status/2109706583215411260#m",
-        "decryptage": "Un 'agent de codage' est une IA conçue spécifiquement pour aider les développeurs à écrire du code et résoudre des problèmes, et ce benchmark évalue sa capacité à faire preuve de jugement comme un humain.",
-        "category": "tips",
-        "highlight_reason": "Il offre un conseil précieux pour comprendre ce qui rend un agent de codage vraiment performant : la capacité à faire preuve de jugement au-delà de la simple correction du code."
-      },
-      {
-        "author_name": "Guillaume Lample",
-        "handle": "@GuillaumeLample",
-        "text_fr": "Le Chonk a assuré sur le 'visual grounding'. Il localise précisément les objets dans une image. 42% sur Dense 200, dépassant même les modèles fermés de pointe.. Vidéo",
-        "text_original": "Le Chonk cooked on visual grounding. Pinpoints exactly where things are in an image. 42% on Dense 200, ahead of even frontier closed models.. Video",
-        "link": "https://nitter.kareem.one/MistralAI/status/2109687906751086628#m",
-        "decryptage": "Le 'visual grounding' est la capacité d'une IA à identifier et localiser précisément des éléments ou des objets spécifiques à l'intérieur d'une image.",
+        "author_name": "Sam Altman",
+        "handle": "@sama",
+        "text_fr": "Très heureux de voir cela de la part de Nick ! Nick (@nickcammarata) l'interprétabilité est peut-être le problème scientifique le plus important au monde en ce moment, car je ne pense pas que nous puissions résoudre l'alignement si nous ne savons pas ce que nous construisons. Je pense avoir de bonnes nouvelles à ce sujet. J'ai co-écrit des travaux préliminaires sur l'interprétabilité mécaniste chez OpenAI et j'en suis ressorti pessimiste, car les réseaux neuronaux semblaient se tordre en des nœuds arbitrairement complexes. Des années plus tard, j'ai lancé le premier projet d'interprétabilité automatisée à grande échelle d'OpenAI, trouvant environ 2 % des neurones lisibles avec les outils primitifs que nous avions. Avec les outils agentiques modernes et un examen beaucoup plus approfondi, le tableau semble totalement différent. La grande majorité des modèles jusqu'à des milliers de milliards de paramètres sont lisibles, et leurs circuits sont magnifiques. De nombreux exemples célèbres de neurones \"emmêlés\" se sont avérés être mal compris. Les obstacles que j'attendais n'existent pour la plupart pas. Je pense maintenant que l'interprétabilité ambitieuse sera résolue au moment où nous en aurons le plus besoin, et peut-être très bientôt, à mesure que les scientifiques automatisés continueront de s'améliorer. Ce pourrait être une leçon amère pour l'interprétabilité : la chose simple, à une échelle absurde, fonctionne déjà. clean.goodfire.com Link Les réseaux neuronaux sont déjà \"propres\" Une hypothèse de travail sur les neurones, la généralisation et l'écologie des circuits. already-clean.goodfire.com — http://nitter.meowing.monster/nickcammarata/status/2110757819427574056#m",
+        "text_original": "Very happy to see this from Nick! Nick (@nickcammarata) interpretability might be the most important scientific problem in the world right now, as I don't think we can solve alignment if we don't know what we're building. I think I have good news about it. I co-authored early work in mechanistic interpretability at OpenAI and came away pessimistic, because neural networks appeared to fold into arbitrary tangled knots. years later, I started openai's first large-scale automated interpretability project, finding about 2% of neurons legible with the primitive tools we had with modern agentic tools and a much closer look, the picture looks totally different. the vast majority in models up to trillions of parameters are legible, and their circuits beautiful. many famous examples of tangled neurons turned out to be misunderstood. The roadblocks I expected mostly aren't there. I now think ambitious interpretability will be solved by the time we need it most, and possibly quite soon, as automated scientists keep improving. it may be a bitter lesson for interpretability: the simple thing, at absurd scale, works already-clean.goodfire.com/ Link Neural Networks Are Already Clean A working hypothesis about neurons, generalization, and the ecology of circuits. already-clean.goodfire.com — http://nitter.meowing.monster/nickcammarata/status/2110757819427574056#m",
+        "link": "http://nitter.meowing.monster/sama/status/2111130577789493706#m",
+        "decryptage": "L'interprétabilité, c'est comprendre comment une IA prend ses décisions, ce qui est crucial pour s'assurer qu'elle agit comme prévu (l'alignement). Un réseau neuronal est comme un cerveau artificiel, et les \"neurones\" sont ses unités de traitement.",
         "category": "idees",
-        "highlight_reason": "Il met en lumière une capacité visuelle impressionnante de l'IA, le 'visual grounding', montrant comment un modèle peut dépasser des systèmes de pointe dans la compréhension des images."
+        "highlight_reason": "Ce tweet met en lumière l'un des défis majeurs et les plus prometteurs de l'IA : comprendre son fonctionnement interne pour assurer sa sécurité et son alignement avec nos valeurs."
       },
       {
-        "author_name": "Guillaume Lample",
-        "handle": "@GuillaumeLample",
-        "text_fr": "Timestral est vraiment sympa :) J'en ai fait une petite démo : dessinez une courbe et regardez le modèle prédire ce qui va suivre 👀 Vidéo",
-        "text_original": "Timestral is quite cool :) Made a little demo for it: draw a curve and watch the model predict what comes next 👀 Video",
-        "link": "https://nitter.kareem.one/victormustar/status/2112214184570339615#m",
-        "decryptage": "Timestral est un modèle d'IA capable de prévoir la suite d'une série de données, comme une courbe que vous dessinez.",
+        "author_name": "Sam Altman",
+        "handle": "@sama",
+        "text_fr": "ChatGPT peut maintenant générer une interface utilisateur personnalisée pour vous ! OpenAI (@OpenAI) GPT-6 et l'Interface Utilisateur Intelligente, sont en cours de déploiement dans ChatGPT pour tout le monde. L'Interface Utilisateur Intelligente dans ChatGPT fournit des réponses rapides et interactives qui rendent les questions quotidiennes plus visuelles, les sujets complexes plus faciles à comprendre, et met à disposition des outils interactifs pour votre tâche sur le champ. Vidéo — http://nitter.meowing.monster/OpenAI/status/2107894997538525580#m",
+        "text_original": "ChatGPT can now generate a custom UI for you! OpenAI (@OpenAI) GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. Video — http://nitter.meowing.monster/OpenAI/status/2107894997538525580#m",
+        "link": "http://nitter.meowing.monster/sama/status/2107924408597950702#m",
+        "decryptage": "Une \"interface utilisateur personnalisée\" (UI pour User Interface) signifie que ChatGPT peut créer des éléments visuels et interactifs (comme des boutons ou des formulaires) directement dans la conversation pour vous aider à mieux interagir avec lui.",
         "category": "outils",
-        "highlight_reason": "Cette démo interactive est parfaite pour visualiser concrètement comment l'IA peut prédire des séquences, rendant la technologie plus accessible et compréhensible."
+        "highlight_reason": "Cette nouvelle fonctionnalité de ChatGPT change la donne pour l'interaction avec l'IA, la rendant plus visuelle et intuitive pour tous les utilisateurs, ouvrant la voie à des usages plus riches."
+      },
+      {
+        "author_name": "Harrison Chase",
+        "handle": "@hwchase17",
+        "text_fr": "\"Il est sous-estimé à quel point il est difficile de construire des agents !\" excellente conversation avec @hwchase17 et @HarryStebbings sur @twentyminutevc un agent = modèle + contexte + \"harness\", et vous pouvez améliorer un agent en ajustant l'un des trois. Quelques points clés : 1. La chose la plus rentable que vous puissiez faire est de commencer par optimiser le contexte (puis le \"harness\", puis les poids) ; c'est là que réside la connaissance du domaine et c'est incroyablement précieux. 2. L'histoire de l'apprentissage continu est : exécuter un agent, collecter des traces, agréger les apprentissages, corriger quelque chose, mesurer la correction, et boucler ! La correction peut atterrir dans l'une des trois couches. Ces corrections sont toutes différentes mais le cycle est le même. 3. La mémoire est encore largement un problème non résolu, mais aussi extrêmement importante. La partie la plus difficile est de distiller les apprentissages des traces, ce qui est incroyablement spécifique au domaine. 4. Lorsque vous construisez des agents, vous vous souciez probablement de quelques éléments : précision, coût, latence et sécurité. Nous avons vu ces thèmes confirmés année après année dans nos enquêtes auprès des développeurs. 5. Lorsque nous réfléchissons à la réduction des coûts, le pipeline ressemble à l'ajout de visibilité sur les dépenses, la mise en place de contrôles, et seulement ensuite la poussée sur les optimisations d'agents. C'est ainsi que nous avons réduit nos dépenses d'agent de codage chez @LangChain. 6. Le routage de modèle, qui est excellent pour le contrôle des coûts, est plus efficace dans le \"harness\" (où réside le contexte nécessaire à une décision de routage). 7. Les modèles ouverts sont utilisés pour des tâches plus étroites actuellement (petites parties de la boucle de l'agent OU pour des domaines très spécifiques avec post-entraînement), mais à mesure qu'ils s'améliorent, ils alimenteront davantage les boucles d'agents de base. 8. Nous envisageons un avenir avec des agents horizontaux et des agents verticaux. Les agents horizontaux utiliseront les agents verticaux, et l'infrastructure doit changer pour supporter cette charge (les agents peuvent effectuer un travail de fond à un rythme que les humains ne peuvent pas). inv.kareem.one/watch?v=1jDCPEHw… Lien L'avenir du marché de l'inférence et du routage de modèle : Marchandise ou valeur croissante ? | Le PDG de LangChain, Harrison Chase, est le co-fondateur et PDG de LangChain, qui aide... youtube.com",
+        "text_original": "\"it's underrated how hard it's to build agents!\" great convo w/ @hwchase17 and @HarryStebbings on @twentyminutevc an agent = model + context + harness, and you can improve an agent by tweaking any of the three. a few takeaways: 1. the highest roi thing you can do is start by optimizing context (then the harness, then the weights); this is where domain knowledge lives and that's incredibly valuable 2. the story of continual learning is: run an agent, collect traces, aggregate learnings, fix something, measure the fix, loop! the fix can land in any of the three layers. those fixes all look different but the cycle is the same. 3. memory is still massively unsolved, but also massively important. the hardest part is distilling learnings from traces which is incredibly domain specific. 4. when you build agents, you're probably worried about a few things: accuracy, cost, latency, and security. we've seen these themes confirmed year after year in our dev surveys 5. when we think about reducing cost, the pipeline looks like adding visibility into spend, putting controls in place, and only then pushing on agent optimizations. this is how we reduced our coding agent spend @LangChain 6. model routing, which is great for cost controls, is most effective in the harness (where the context needed for a routing decision lives) 7. open models are used for more narrow tasks right now (small parts of the agent loop OR for very specific domains w/ post-training), but as they improve they'll power more core agent loops 8. we're looking at a future with both horizontal agents and vertical agents. horizontal agents will use the vertical agents, and infra needs to change to support this load (agents can do background work at a rate that humans cannot). inv.kareem.one/watch?v=1jDCPEHw… Link The Future of Inference Market & Model Routing: Commodity or Increasing in Value? | LangChain CEO Harrison Chase is the co-founder and CEO of LangChain, which helps ... youtube.com",
+        "link": "https://nitter.kareem.one/sydneyrunkle/status/2112256862318194818#m",
+        "decryptage": "Un \"harness\" est un cadre qui structure le comportement d'un agent IA. Le \"routage de modèle\" permet de choisir le meilleur modèle d'IA pour une tâche donnée, optimisant ainsi les coûts et les performances. L'\"apprentissage continu\" est un processus où l'agent s'améliore constamment en collectant des données, en apprenant de ses erreurs et en ajustant ses paramètres.",
+        "category": "tips",
+        "highlight_reason": "Ce thread offre une feuille de route complète et des conseils précieux pour toute personne souhaitant construire ou améliorer un agent IA, du contexte à l'optimisation des coûts."
+      },
+      {
+        "author_name": "Noam Brown",
+        "handle": "@polynoamial",
+        "text_fr": "Les LLM ont franchi un seuil important : ils surpassent les meilleurs experts humains sur certains problèmes de recherche. Les capacités s'améliorent constamment depuis des années, mais en découverte scientifique, il y a une grande différence entre un modèle juste en dessous des performances humaines et un juste au-dessus. Cela aide à expliquer pourquoi la poussée des résultats mathématiques semble si soudaine. Les capacités des LLM restent inégales, et à bien des égards, ils sont encore inférieurs aux humains. Mais à mesure que les modèles continuent de s'améliorer, je m'attends à ce que des percées dans d'autres domaines suivent, menant à une nouvelle ère de découverte scientifique. Mark Chen (@markchen90) Le moment Navier-Stokes a toujours été bien plus à propos de la figure ci-dessous qu'à propos du problème de Navier-Stokes lui-même. La série de travaux représente une décennie de progrès mathématiques en une semaine. Impatient d'appliquer ces outils aux sciences de la vie, de construire nos prochains modèles et de résoudre l'alignement ! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
+        "text_original": "LLMs have crossed an important threshold: surpassing top human experts on some research problems. Capabilities have been steadily improving for years, but in scientific discovery there is a big difference between a model just below top human performance and one just above it. That helps explain why the surge in math results feels so sudden. LLM capabilities remain jagged, and there are many ways they are still worse than humans. But as models continue to improve, I expect breakthroughs in other domains to follow, leading to a new era of scientific discovery. Mark Chen (@markchen90) The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
+        "link": "https://nitter.kareem.one/polynoamial/status/2107947189184164056#m",
+        "decryptage": "Les \"LLM\" (Large Language Models ou grands modèles linguistiques) sont des IA capables de comprendre et de générer du texte, et ici, ils ont démontré des capacités de raisonnement mathématique.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet marque une étape significative dans le développement de l'IA, soulignant comment les grands modèles linguistiques commencent à surpasser les capacités humaines dans des domaines de recherche complexes, annonçant une nouvelle ère de découvertes scientifiques."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Il semblerait que Le Chonk soit doué en science des fusées. Mistral Large 4 obtient de bons scores en ingénierie et en astronomie sur STEMBench, le benchmark privé d'Ulam : ulam.ai/stembench",
-          "text_original": "Turns out le Chonk is into rocket science. Mistral Large 4 scoring well in engineering and astronomy on Ulam’s private benchmark, STEMBench: ulam.ai/stembench",
-          "link": "https://nitter.kareem.one/MistralAI/status/2111056939841163336#m",
-          "decryptage": "Un 'benchmark' est un test standardisé qui permet de mesurer et de comparer les performances des modèles d'IA sur des tâches spécifiques, ici en sciences et ingénierie."
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Des progrès magiques vers un \"état magique\" en quantique ! Notre équipe @GoogleQuantumAI a démontré la \"culture d'états magiques\" sur du matériel physique pour la première fois. Le résultat est une réduction d'erreur de 40x sur notre processeur Willow par rapport aux méthodes précédentes, atteignant une fidélité logique de 99,99 % à la pointe de la technologie. C'est un pas de plus vers des ordinateurs quantiques utiles et corrigés d'erreurs pour aider à résoudre les problèmes les plus difficiles. Le résultat est publié dans Science aujourd'hui, regardez la vidéo ci-dessous pour voir comment cela fonctionne. Vidéo",
+          "text_original": "Some magical progress towards \"magic state\" in quantum! Our @GoogleQuantumAI team has demonstrated \"magic state cultivation\" on physical hardware for the first time. The result is a 40x error reduction on our Willow processor vs. previous methods, achieving a state-of-the-art 99.99% logical fidelity. It's another step towards useful, error-corrected quantum computers to help solve the hardest problems. The result is published in Science today, watch the video below to see how it works Video",
+          "link": "http://nitter.meowing.monster/sundarpichai/status/2110804295352488143#m",
+          "decryptage": "L'informatique quantique utilise les principes de la physique quantique pour résoudre des problèmes complexes que les ordinateurs classiques ne peuvent pas gérer, et la \"correction d'erreurs\" est essentielle pour rendre ces ordinateurs fiables."
         },
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Félicitations à Meta pour avoir construit le meilleur modèle open-weight aux États-Unis ! AI at Meta (@AIatMeta) Aujourd'hui, nous lançons Muse Spark Open, le modèle open-weight américain le plus performant à ce jour. Conçu pour le codage et les tâches d'agent, il excelle dans les tâches à long terme, l'ingénierie logicielle complexe et le raisonnement en plusieurs étapes. Spécifications clés du modèle : → 816 milliards de paramètres au total / 42 milliards de paramètres actifs → Fenêtre de contexte d'un million de tokens → Multimodalité native sur le texte, l'image, la vidéo, l'audio — https://nitter.kareem.one/AIatMeta/status/2110779754274292212#m",
-          "text_original": "Congrats to Meta on building the best open-weight model in the United States ! AI at Meta (@AIatMeta) Today we’re releasing Muse Spark Open, the most capable US open-weight model to date. Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning. Key Model Specs: → 816B total / 42B active parameters → 1M token context window → Natively multimodal across text, image, video, audio — https://nitter.kareem.one/AIatMeta/status/2110779754274292212#m",
-          "link": "https://nitter.kareem.one/GuillaumeLample/status/2110931453576196429#m",
-          "decryptage": "Un modèle 'open-weight' signifie que les bases techniques du modèle sont accessibles au public, ce qui permet à chacun de l'étudier, de l'utiliser et de l'améliorer."
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Lisez-en plus ici : blog.google/innovation-and-a… Lien Ramener la magie : Google débloque un goulot d'étranglement dans l'informatique quantique Dans un article publié dans Science, Google a montré que la culture d'états magiques fonctionne sur le matériel Google Quantum AI. blog.google",
+          "text_original": "read more here: blog.google/innovation-and-a… Link Bringing the magic: Google breaks open a bottleneck in quantum computing In a paper published in Science, Google has shown that Magic State Cultivation works on Google Quantum AI hardware. blog.google",
+          "link": "http://nitter.meowing.monster/sundarpichai/status/2110804298087203149#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Aravind Srinivas",
+          "handle": "@AravSrinivas",
+          "text_fr": "Crusoe est extrêmement bien positionné pour devenir un cloud \"full-stack\" : alimentation, calcul et services s'exécutant au-dessus. La plateforme sandbox open source de Perplexity, SPACE, fera partie des produits AI gérés de Crusoe. Nous nous réjouissons de nouvelles collaborations avec eux ! Crusoe (@CrusoeAI) Les agents ont autant besoin de sandboxes sécurisées que de GPUs. Nous nous associons à @perplexity_ai pour intégrer SPACE à notre portefeuille de produits AI gérés sur Crusoe Cloud. — http://nitter.meowing.monster/CrusoeAI/status/2112252659550081275#m",
+          "text_original": "Crusoe is extremely well positioned to become a full-stack cloud: power, compute, and services running on top. Perplexity’s open source sandbox platform SPACE will become part of Crusoe’s Managed AI products. Look forward to more collaborations with them! Crusoe (@CrusoeAI) Agents need secure sandboxes as much as they need GPUs. We're partnering with @perplexity_ai to bring SPACE to our Managed AI portfolio on Crusoe Cloud. — http://nitter.meowing.monster/CrusoeAI/status/2112252659550081275#m",
+          "link": "http://nitter.meowing.monster/AravSrinivas/status/2112254336160108664#m",
+          "decryptage": "Un \"cloud full-stack\" offre tous les services informatiques nécessaires, du matériel (\"power, compute\") aux applications. Une \"sandbox\" est un environnement isolé et sécurisé où on peut tester du code sans risque pour le système principal."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "J'ai rencontré @ssokota il y a 5 ans lors d'une session de posters de conférence. J'ai été impressionné par son explication, alors je lui ai proposé un stage. Nous avons continué à collaborer et il travaille maintenant avec moi chez @OpenAI. Plus tard, il m'a dit que j'étais la seule personne à s'être arrêtée à son poster pendant toute la session. Samuel Sokota (@ssokota) Dans notre article Nature, nous présentons la première IA surhumaine de Stratego, que nous avons construite en utilisant des techniques générales que nous avons développées pour l'apprentissage par renforcement (RL) et le calcul au moment du test sous information imparfaite. 1/N — https://nitter.kareem.one/ssokota/status/2105362024238887176#m",
+          "link": "https://nitter.kareem.one/polynoamial/status/2105374680807043568#m",
+          "text_original": "I met @ssokota 5 years ago at a conference poster session. I was impressed with his explanation, so I offered him an internship. We continued collaborating and he now works with me at @OpenAI . Later, he told me I was the only person to stop by his poster for the entire session. Samuel Sokota (@ssokota) In our Nature paper, we introduce the first superhuman Stratego AI, which we built using general techniques that we developed for RL & test-time compute under imperfect information. 1/N — https://nitter.kareem.one/ssokota/status/2105362024238887176#m",
+          "decryptage": "L'\"apprentissage par renforcement\" (RL, Reinforcement Learning) est une méthode où l'IA apprend en interagissant avec un environnement, recevant des récompenses pour les bonnes actions et des pénalités pour les mauvaises. \"Information imparfaite\" signifie que l'IA ne connaît pas toutes les données du jeu, comme dans une partie de Stratego où les pièces de l'adversaire sont cachées."
+        },
+        {
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Les premiers résultats du troisième lot de preuves sont disponibles ! Rapport complet ici : hexagonmath.org/2610.00244",
+          "text_original": "first proof third batch results are out! full report here: hexagonmath.org/2610.00244",
+          "link": "http://nitter.meowing.monster/Knikct/status/2110449858490634309#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "Nous avons lancé @HackerRank il y a dix ans avec la conviction que les compétences comptent plus que le pedigree. C'est toujours notre ethos fondamental, mais les compétences requises pour le poste ont changé. Nous démantelons donc notre passé et réinventons l'entreprise de zéro. Découvrez Chakra - l'avenir du recrutement. Vidéo",
+          "text_original": "We started @HackerRank a decade ago with the belief that skills matter more than pedigree. That’s still our core ethos, but the skills required to do the job have changed. So, we're tearing down our past and reinventing the company from scratch. Meet Chakra - the future of hiring. Video",
+          "link": "https://nitter.kareem.one/rvivek/status/2112178010824884528#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "Premiers conférenciers du AIE Code Summit : @poteto, Ingénieur Principal chez SpaceX @steve_yegge, Ingénieur, Écrivain, Conseiller @zachbruggeman, Ingénieur Logiciel Principal chez Ramp Du 10 au 12 novembre, SF. Venez passer du temps avec nous. Postulez sur ai.engineer/code",
+          "text_original": "First AIE Code Summit speakers: @poteto , Principal Engineer @ SpaceX @steve_yegge , Engineer, Writer, Advisor @zachbruggeman , Principal Software Engineer @ Ramp Nov 10-12, SF. Come hang out with us. Apply at ai.engineer/code",
+          "link": "https://nitter.kareem.one/aiDotEngineer/status/2112276851355693315#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Le premier article complet sur @pytorch après 3 ans de développement. Il décrit nos objectifs, nos principes de conception, les détails techniques jusqu'à la v0.4. Retrouvez l'affiche à #NeurIPS2019. Auteurs : @apaszke, @colesbury et al. arxiv.org/abs/1912.01703",
+          "text_original": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+          "link": "http://nitter.meowing.monster/soumithchintala/status/1202981209057484801#m",
+          "decryptage": "PyTorch est un cadre de programmation très populaire utilisé par les développeurs pour créer et entraîner des modèles d'IA, notamment des réseaux neuronaux."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Travail intéressant (et aussi un bel ensemble de données volumineux et propre, impatient de le voir publié) : \"Compressive Transformers for Long-Range Sequence Modelling\" par Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (chez DeepMind) Article : arxiv.org/abs/1911.05507",
+          "text_original": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+          "link": "http://nitter.meowing.monster/Thom_Wolf/status/1195662118974083073#m",
+          "decryptage": "Les \"Transformers\" sont un type d'architecture de réseau neuronal très efficace pour traiter des séquences de données, comme le texte, et sont la base des grands modèles de langage modernes."
         }
       ],
       "tips": [
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "🇫🇷 Le Chonk rejoint le classement sudo L7 🇫🇷 Nous venons d'ajouter le Mistral Large 4 de @MistralAI au sudo L7, notre benchmark pour l'ingénierie logicielle de niveau expert. Mistral Large 4 obtient un score de 13,3%, devant Muse Spark 1.3 (12,2%) et Grok 4.7 (10,6%). sudo L7 teste si les agents de codage peuvent aller au-delà de l'écriture de code correct pour exercer le jugement d'ingénieurs expérimentés : naviguer dans des systèmes complexes, repérer les risques cachés et savoir quand un code techniquement correct ne devrait pas être déployé. Allez, le Chonk ! 🥖 Classement ↓ surgehq.ai/benchmarks/sudo-l…",
-          "text_original": "🇫🇷 Le Chonk joins the sudo L7 leaderboard 🇫🇷 We just added @MistralAI 's Mistral Large 4 to sudo L7, our benchmark for staff-level software engineering. Mistral Large 4 scores 13.3%, ahead of Muse Spark 1.3 (12.2%) and Grok 4.7 (10.6%). sudo L7 tests whether coding agents can go beyond writing correct code to exercise the judgment of experienced engineers: navigating messy systems, spotting hidden risks, and knowing when technically correct code is still the wrong thing to ship. Allez, le Chonk ! 🥖 Leaderboard ↓ surgehq.ai/benchmarks/sudo-l…",
-          "link": "https://nitter.kareem.one/HelloSurgeAI/status/2109706583215411260#m",
-          "decryptage": "Un 'agent de codage' est une IA conçue spécifiquement pour aider les développeurs à écrire du code et résoudre des problèmes, et ce benchmark évalue sa capacité à faire preuve de jugement comme un humain."
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "Je serais d'accord avec ça. Commencez par un \"harness\" (j'aime DeepAgents). Ajoutez du contexte (compétences, outils). Ensuite, si nécessaire, modifiez légèrement le \"harness\" (les \"middleware\" dans DeepAgents sont géniaux pour cela). Ensuite, si nécessaire, créez un flux de travail avec LangGraph. verrsane (@verrsane) Si vous construisez un agent, allez toujours d'abord par la voie du \"harness\". Ne construisez pas un flux de travail compliqué en 20 étapes avec un tas de déclarations \"if else\" ou LangGraph. Utilisez un \"harness\" comme votre agent, par exemple Claude Code, Codex, Deep Agents, Glean, etc. Vous vous tirez une balle dans le pied dès le départ. Croyez-moi, le \"prompting\" fonctionne étonnamment bien — https://nitter.kareem.one/verrsane/status/2112396922354806942#m",
+          "text_original": "Would agree with this Start with a harness (I like deepagents) Add context (skills, tools) Then if needed modify harness slightly (middleware in deepagents is goated for this) Then if needed make workflow with langgraph verrsane (@verrsane) If you’re building a agent Always go the harness route first. Do not build a complicated 20 step workflow using a bunch of if else statements or langgraph Use a harness as your agent eg. Claude code, codex, deep agents, glean etc You’re just shooting urself in the foot off the bat Trust me, prompting works surprisingly well — https://nitter.kareem.one/verrsane/status/2112396922354806942#m",
+          "link": "https://nitter.kareem.one/hwchase17/status/2112489626061738209#m",
+          "decryptage": "Un \"harness\" est un cadre ou un système qui englobe un agent IA, lui fournissant la structure et les outils nécessaires pour fonctionner de manière contrôlée et efficace. \"LangGraph\" est un outil pour créer des flux de travail complexes avec les modèles de langage. Le \"prompting\" est l'art de formuler des instructions claires et efficaces pour guider une IA."
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "J'ai eu beaucoup de plaisir à discuter avec @HarryStebbings de tout ce qui touche à l'IA. Une des lignes de questions que nous avons explorées – les agents verticaux contre les agents horizontaux, et comment les construire. Je suis optimiste quant aux agents verticaux, et je pense que vous pouvez créer une différenciation (par rapport aux agents horizontaux) de trois manières : 1/ Contexte : prompts, compétences, outils – tout cela est spécifique à votre domaine, assez facile à fournir, et donne un contexte spécifique au domaine à l'agent. 2/ Harness : plus difficile à ajuster que le contexte, mais peut modifier le comportement fondamental de l'agent. 3/ Modèle : le plus difficile à ajuster de tous, mais modifie évidemment grandement le comportement. Je pense que la plupart des ingénieurs d'agents ajustent encore 1 et 2 (dans cet ordre). NB : quelle que soit la couche que vous ajustez, à mesure que les modèles de base changent, vous devriez revoir votre contexte/harness/modèle tous les 3-6 mois (et généralement supprimer les éléments superflus qui ne sont plus nécessaires). inv.kareem.one/watch?v=1jDCPEHw…",
+          "text_original": "had a lot of fun talking with @HarryStebbings about all things ai one line of questioning we went done - vertical vs horizontal agents, and how to build them im bullish on vertical agents, and i think you can create differentiation (from horizontal agents) in three ways: 1/ context: prompts, skills, tools - all of this is specific to your domain, pretty easy to provide, and gives domain specific context to the agent 2/ harness: harder to tweak than context, but can alter fundemental behavior of the agent 3/ model: hardest to tweak of all, but obviously changes behavior greatly i think most agent engineers these days are still tweaking 1 and 2 (in that order) nb: regardless of what layer you tweak at, as the base models change you should revisit your context/harness/model every 3-6 months (and generally remove cruft that is no longer needed) inv.kareem.one/watch?v=1jDCPEHw…",
+          "link": "https://nitter.kareem.one/hwchase17/status/2112471992435667163#m",
+          "decryptage": "Les \"agents verticaux\" sont spécialisés dans un domaine précis, tandis que les \"agents horizontaux\" sont plus généralistes. Le \"contexte\" (prompts, compétences, outils) est l'information et les capacités spécifiques qu'on donne à l'agent."
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "\"Il est sous-estimé à quel point il est difficile de construire des agents !\" excellente conversation avec @hwchase17 et @HarryStebbings sur @twentyminutevc un agent = modèle + contexte + \"harness\", et vous pouvez améliorer un agent en ajustant l'un des trois. Quelques points clés : 1. La chose la plus rentable que vous puissiez faire est de commencer par optimiser le contexte (puis le \"harness\", puis les poids) ; c'est là que réside la connaissance du domaine et c'est incroyablement précieux. 2. L'histoire de l'apprentissage continu est : exécuter un agent, collecter des traces, agréger les apprentissages, corriger quelque chose, mesurer la correction, et boucler ! La correction peut atterrir dans l'une des trois couches. Ces corrections sont toutes différentes mais le cycle est le même. 3. La mémoire est encore largement un problème non résolu, mais aussi extrêmement importante. La partie la plus difficile est de distiller les apprentissages des traces, ce qui est incroyablement spécifique au domaine. 4. Lorsque vous construisez des agents, vous vous souciez probablement de quelques éléments : précision, coût, latence et sécurité. Nous avons vu ces thèmes confirmés année après année dans nos enquêtes auprès des développeurs. 5. Lorsque nous réfléchissons à la réduction des coûts, le pipeline ressemble à l'ajout de visibilité sur les dépenses, la mise en place de contrôles, et seulement ensuite la poussée sur les optimisations d'agents. C'est ainsi que nous avons réduit nos dépenses d'agent de codage chez @LangChain. 6. Le routage de modèle, qui est excellent pour le contrôle des coûts, est plus efficace dans le \"harness\" (où réside le contexte nécessaire à une décision de routage). 7. Les modèles ouverts sont utilisés pour des tâches plus étroites actuellement (petites parties de la boucle de l'agent OU pour des domaines très spécifiques avec post-entraînement), mais à mesure qu'ils s'améliorent, ils alimenteront davantage les boucles d'agents de base. 8. Nous envisageons un avenir avec des agents horizontaux et des agents verticaux. Les agents horizontaux utiliseront les agents verticaux, et l'infrastructure doit changer pour supporter cette charge (les agents peuvent effectuer un travail de fond à un rythme que les humains ne peuvent pas). inv.kareem.one/watch?v=1jDCPEHw… Lien L'avenir du marché de l'inférence et du routage de modèle : Marchandise ou valeur croissante ? | Le PDG de LangChain, Harrison Chase, est le co-fondateur et PDG de LangChain, qui aide... youtube.com",
+          "text_original": "\"it's underrated how hard it is to build agents!\" great convo w/ @hwchase17 and @HarryStebbings on @twentyminutevc an agent = model + context + harness, and you can improve an agent by tweaking any of the three. a few takeaways: 1. the highest roi thing you can do is start by optimizing context (then the harness, then the weights); this is where domain knowledge lives and that's incredibly valuable 2. the story of continual learning is: run an agent, collect traces, aggregate learnings, fix something, measure the fix, loop! the fix can land in any of the three layers. those fixes all look different but the cycle is the same. 3. memory is still massively unsolved, but also massively important. the hardest part is distilling learnings from traces which is incredibly domain specific. 4. when you build agents, you're probably worried about a few things: accuracy, cost, latency, and security. we've seen these themes confirmed year after year in our dev surveys 5. when we think about reducing cost, the pipeline looks like adding visibility into spend, putting controls in place, and only then pushing on agent optimizations. this is how we reduced our coding agent spend @LangChain 6. model routing, which is great for cost controls, is most effective in the harness (where the context needed for a routing decision lives) 7. open models are used for more narrow tasks right now (small parts of the agent loop OR for very specific domains w/ post-training), but as they improve they'll power more core agent loops 8. we're looking at a future with both horizontal agents and vertical agents. horizontal agents will use the vertical agents, and infra needs to change to support this load (agents can do background work at a rate that humans cannot). inv.kareem.one/watch?v=1jDCPEHw… Link The Future of Inference Market & Model Routing: Commodity or Increasing in Value? | LangChain CEO Harrison Chase is the co-founder and CEO of LangChain, which helps ... youtube.com",
+          "link": "https://nitter.kareem.one/sydneyrunkle/status/2112256862318194818#m",
+          "decryptage": "Un \"harness\" est un cadre qui structure le comportement d'un agent IA. Le \"routage de modèle\" permet de choisir le meilleur modèle d'IA pour une tâche donnée, optimisant ainsi les coûts et les performances. L'\"apprentissage continu\" est un processus où l'agent s'améliore constamment en collectant des données, en apprenant de ses erreurs et en ajustant ses paramètres."
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "Jour 1 de « Un agent par jour éloigne les échecs de la Phase 2 » Nous allons commencer par quelque chose de simple : un agent de rapport hebdomadaire. Chaque scientifique que je connais doit faire une sorte de communication sur ce sur quoi il travaille. Qu'il s'agisse de présenter lors d'une réunion de laboratoire ou de découverte, de faire des mises à jour de statut pour son patron, ou de préparer quelque chose pour un partenaire. Alors pourquoi ne pas automatiser la récupération chronophage des données et la création de graphiques avec un agent ? Exemple de prompt (n'hésitez pas à ajuster) : Veuillez créer un agent de rapport hebdomadaire qui résume tout le travail que j'ai effectué au cours de la semaine passée dans un diaporama. Assurez-vous de vérifier toutes mes entrées de carnet, toutes les séquences ou entités biologiques que j'ai créées, et tous les autres endroits où j'ai été mentionné. Ajoutez des visualisations si nécessaire et créez des liens vers les données sources. Vidéo",
+          "text_original": "Day 1 of “An agent a day keeps Phase 2 failures away” We're going to start with something simple: a Weekly Report Agent. Every scientist I know has to do some sort of communication about what they’re working on. Whether it’s presenting at a lab meeting or discovery meeting, status updates for their boss, or preparing something for a partner. So why not automate the time consuming retrieval of data and creation of plots with an agent? Sample prompt (feel free to tweak): Please create a Weekly Report Agent that summarizes all of the work that I've done over the past week in a slide deck. Make sure to check all of my notebook entries, any sequences or biological entities that I've created, and any other places I was mentioned. Add visualizations where appropriate and link back to the source data. Video",
+          "link": "https://nitter.kareem.one/nlarusstone/status/2112242454208598274#m",
+          "decryptage": "Un \"prompt\" est l'instruction que vous donnez à l'IA pour qu'elle génère une réponse ou effectue une tâche."
         }
       ],
       "idees": [
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Le Chonk a assuré sur le 'visual grounding'. Il localise précisément les objets dans une image. 42% sur Dense 200, dépassant même les modèles fermés de pointe.. Vidéo",
-          "text_original": "Le Chonk cooked on visual grounding. Pinpoints exactly where things are in an image. 42% on Dense 200, ahead of even frontier closed models.. Video",
-          "link": "https://nitter.kareem.one/MistralAI/status/2109687906751086628#m",
-          "decryptage": "Le 'visual grounding' est la capacité d'une IA à identifier et localiser précisément des éléments ou des objets spécifiques à l'intérieur d'une image."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Le dos du t-shirt commémorant le jalon Navier-Stokes est la dernière ligne de la chaîne de pensée de la solution.",
+          "text_original": "The back of the Navier-Stokes milestone shirt is the last line of the chain-of-thought from the solution:",
+          "link": "http://nitter.meowing.monster/sama/status/2111139227761266699#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "Très heureux de voir cela de la part de Nick ! Nick (@nickcammarata) l'interprétabilité est peut-être le problème scientifique le plus important au monde en ce moment, car je ne pense pas que nous puissions résoudre l'alignement si nous ne savons pas ce que nous construisons. Je pense avoir de bonnes nouvelles à ce sujet. J'ai co-écrit des travaux préliminaires sur l'interprétabilité mécaniste chez OpenAI et j'en suis ressorti pessimiste, car les réseaux neuronaux semblaient se tordre en des nœuds arbitrairement complexes. Des années plus tard, j'ai lancé le premier projet d'interprétabilité automatisée à grande échelle d'OpenAI, trouvant environ 2 % des neurones lisibles avec les outils primitifs que nous avions. Avec les outils agentiques modernes et un examen beaucoup plus approfondi, le tableau semble totalement différent. La grande majorité des modèles jusqu'à des milliers de milliards de paramètres sont lisibles, et leurs circuits sont magnifiques. De nombreux exemples célèbres de neurones \"emmêlés\" se sont avérés être mal compris. Les obstacles que j'attendais n'existent pour la plupart pas. Je pense maintenant que l'interprétabilité ambitieuse sera résolue au moment où nous en aurons le plus besoin, et peut-être très bientôt, à mesure que les scientifiques automatisés continueront de s'améliorer. Ce pourrait être une leçon amère pour l'interprétabilité : la chose simple, à une échelle absurde, fonctionne déjà. clean.goodfire.com Link Les réseaux neuronaux sont déjà \"propres\" Une hypothèse de travail sur les neurones, la généralisation et l'écologie des circuits. already-clean.goodfire.com — http://nitter.meowing.monster/nickcammarata/status/2110757819427574056#m",
+          "text_original": "Very happy to see this from Nick! Nick (@nickcammarata) interpretability might be the most important scientific problem in the world right now, as I don't think we can solve alignment if we don't know what we're building. I think I have good news about it. I co-authored early work in mechanistic interpretability at OpenAI and came away pessimistic, because neural networks appeared to fold into arbitrary tangled knots. years later, I started openai's first large-scale automated interpretability project, finding about 2% of neurons legible with the primitive tools we had with modern agentic tools and a much closer look, the picture looks totally different. the vast majority in models up to trillions of parameters are legible, and their circuits beautiful. many famous examples of tangled neurons turned out to be misunderstood. The roadblocks I expected mostly aren't there. I now think ambitious interpretability will be solved by the time we need it most, and possibly quite soon, as automated scientists keep improving. it may be a bitter lesson for interpretability: the simple thing, at absurd scale, works already-clean.goodfire.com/ Link Neural Networks Are Already Clean A working hypothesis about neurons, generalization, and the ecology of circuits. already-clean.goodfire.com — http://nitter.meowing.monster/nickcammarata/status/2110757819427574056#m",
+          "link": "http://nitter.meowing.monster/sama/status/2111130577789493706#m",
+          "decryptage": "L'interprétabilité, c'est comprendre comment une IA prend ses décisions, ce qui est crucial pour s'assurer qu'elle agit comme prévu (l'alignement). Un réseau neuronal est comme un cerveau artificiel, et les \"neurones\" sont ses unités de traitement."
+        },
+        {
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "J'attendais cela depuis longtemps, et je détesterais avoir à revenir à l'ancienne version de Chat !",
+          "text_original": "Have been waiting for this one for a long time, and I would hate to have to go back to the old version of Chat!",
+          "link": "http://nitter.meowing.monster/sama/status/2107924677801001381#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "Si vous voulez que vos publicités atteignent les individus les plus importants et à QI élevé, vous devriez faire de la publicité sur 𝕏.",
+          "text_original": "If you want your ads to reach the most important and high-IQ individuals You should advertise on 𝕏",
+          "link": "https://nitter.kareem.one/Nate_Esparza/status/2112296169582010386#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "Des chercheurs ont donné 560 €/mois à 2 000 chômeurs pendant deux ans et les ont suivis pour voir en quoi ils différaient des non-bénéficiaires éligibles. Ils n'ont pas commis plus ou moins de crimes. Rien n'a changé.",
+          "text_original": "Researchers gave 2,000 unemployed people €560/month for two years and tracked them to see how they differed from otherwise eligible nonrecipients. They didn't do any more or less crime. Nothing changed.",
+          "link": "https://nitter.kareem.one/cremieuxrecueil/status/2112290361947410842#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "James Talarico veut : -Démanteler le Capitalisme -Augmenter les impôts -Réduire le financement de la police -Abolir les prisons -Supprimer les emplois pétroliers et gaziers Et il essaie de convaincre le Texas qu'il est modéré ? Votez pour Ken Paxton. Vidéo",
+          "text_original": "James Talarico wants to: -Dismantle Capitalism -Raise Taxes -Defund the police -Abolish prisons -Get rid of oil and gas jobs And he’s trying to convince Texas he’s a moderate? Vote for Ken Paxton. Video",
+          "link": "https://nitter.kareem.one/america/status/2112335573725917396#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "Le vote anticipé en personne commence à NYC le 24 octobre. Il n'est peut-être pas nécessaire d'apporter une pièce d'identité. Elon Musk (@elonmusk) Le contrôle du Sénat décidera de l'avenir de l'Amérique — https://nitter.kareem.one/elonmusk/status/2112015643126165669#m",
+          "text_original": "Early in-person voting begins in NYC October 24. We may not bring ID. Elon Musk (@elonmusk) Control of the senate will decide the future of America — https://nitter.kareem.one/elonmusk/status/2112015643126165669#m",
+          "link": "https://nitter.kareem.one/mayemusk/status/2112266513336201457#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Elon Musk",
+          "handle": "@elonmusk",
+          "text_fr": "Électeurs de SF sur les robotaxis : Sept 2023 : 44% de soutien, 51% d'opposition Juillet 2025 : 67% de soutien, 29% d'opposition Qu'est-ce qui a changé ? Les gens les ont utilisés. L'opposition aux robotaxis atteint son pic avant que quiconque ne les ait utilisés. Washington D.C., New York et le Massachusetts décident au moment de la peur maximale et de l'expérience minimale.",
+          "text_original": "SF voters on robotaxis: Sept 2023: 44% support, 51% oppose July 2025: 67% support, 29% oppose What changed? People rode them. Robotaxi opposition peaks before anyone has ridden. D.C., New York and Massachusetts are deciding at peak fear and minimum experience.",
+          "link": "https://nitter.kareem.one/ProgressChamber/status/2112236358140117034#m",
+          "decryptage": "Un \"robotaxi\" est un taxi autonome, sans conducteur humain, qui utilise l'IA pour naviguer et transporter des passagers."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Cet e-mail de phishing a passé les filtres de Gmail, mais mon \"dot\" l'a détecté et m'a averti.",
+          "text_original": "This phishing email made it past Gmail’s filters, but my dot caught it and warned me.",
+          "link": "https://nitter.kareem.one/polynoamial/status/2109257833929924881#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Les LLM ont franchi un seuil important : ils surpassent les meilleurs experts humains sur certains problèmes de recherche. Les capacités s'améliorent constamment depuis des années, mais en découverte scientifique, il y a une grande différence entre un modèle juste en dessous des performances humaines et un juste au-dessus. Cela aide à expliquer pourquoi la poussée des résultats mathématiques semble si soudaine. Les capacités des LLM restent inégales, et à bien des égards, ils sont encore inférieurs aux humains. Mais à mesure que les modèles continuent de s'améliorer, je m'attends à ce que des percées dans d'autres domaines suivent, menant à une nouvelle ère de découverte scientifique. Mark Chen (@markchen90) Le moment Navier-Stokes a toujours été bien plus à propos de la figure ci-dessous qu'à propos du problème de Navier-Stokes lui-même. La série de travaux représente une décennie de progrès mathématiques en une semaine. Impatient d'appliquer ces outils aux sciences de la vie, de construire nos prochains modèles et de résoudre l'alignement ! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
+          "text_original": "LLMs have crossed an important threshold: surpassing top human experts on some research problems. Capabilities have been steadily improving for years, but in scientific discovery there is a big difference between a model just below top human performance and one just above it. That helps explain why the surge in math results feels so sudden. LLM capabilities remain jagged, and there are many ways they are still worse than humans. But as models continue to improve, I expect breakthroughs in other domains to follow, leading to a new era of scientific discovery. Mark Chen (@markchen90) The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
+          "link": "https://nitter.kareem.one/polynoamial/status/2107947189184164056#m",
+          "decryptage": "Les \"LLM\" (Large Language Models ou grands modèles linguistiques) sont des IA capables de comprendre et de générer du texte, et ici, ils ont démontré des capacités de raisonnement mathématique."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "@polynoamial Les résultats sont encore plus impressionnants au maximum ! 6.1 sol surpasse Opus 5.5 tout en utilisant 4 fois moins de \"tokens\".",
+          "text_original": "@polynoamial Results are even more impressive at max! 6.1 sol outperforms Opus 5.5 while using 4x fewer tokens.",
+          "link": "https://nitter.kareem.one/phillip___price/status/2105023008200864113#m",
+          "decryptage": "Un \"token\" est une unité de texte (un mot, une partie de mot, un caractère) que les modèles d'IA utilisent pour traiter l'information, et en utiliser moins signifie que le modèle est plus efficace."
+        },
+        {
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Mise à jour personnelle : Il s'avère que ce que je pensais être un départ d'OpenAI est devenu plus un sabbatique. Quand je suis parti il y a quelques mois, je pensais que la chose la plus importante à laquelle se consacrer était de rendre l'IA plus utile aux gens. Mais nous sommes depuis entrés dans un régime différent de progrès de l'IA. Un régime où la résolution des défis de sécurité d'une IA de plus en plus capable doit devenir une priorité centrale. Je retourne donc chez OpenAI, rejoignant @merettm pour aider à tracer un chemin à travers ces défis. Il y a beaucoup de travail à faire, alors mettons-nous au travail.",
+          "text_original": "Personal update: Turns out that what I thought was leaving OpenAI became more of a sabbatical. When I left a few months ago, I felt that the most important thing to focus on was making AI more useful to people. But we’ve since entered a different regime of AI progress. One in which getting the safety and security challenges of increasingly capable AI right has to become a central priority. So I’ll be returning to OpenAI, joining @merettm to help chart a path through these challenges. There’s much work to do, so let’s get going.",
+          "link": "http://nitter.meowing.monster/aleks_madry/status/2112231448103239998#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Le moment Navier-Stokes a toujours été bien plus à propos de la figure ci-dessous qu'à propos du problème de Navier-Stokes lui-même. La série de travaux représente une décennie de progrès mathématiques en une semaine. Impatient d'appliquer ces outils aux sciences de la vie, de construire nos prochains modèles et de résoudre l'alignement ! OpenAI (@OpenAI) openai.com/index/sharing-ai-… Lien Partage des progrès de l'IA en mathématiques OpenAI publie de nouveaux résultats sur des problèmes ouverts en mathématiques à partir d'un modèle interne de pointe et partage des formalisations de preuves Lean et des détails de recherche sur GitHub. openai.com — http://nitter.meowing.monster/OpenAI/status/2107596716367388924#m",
+          "text_original": "The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! OpenAI (@OpenAI) openai.com/index/sharing-ai-… Link Sharing AI progress in mathematics OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub. openai.com — http://nitter.meowing.monster/OpenAI/status/2107596716367388924#m",
+          "link": "http://nitter.meowing.monster/markchen90/status/2107876922147668198#m",
+          "decryptage": "Le problème de \"Navier-Stokes\" est un problème mathématique très difficile lié à la dynamique des fluides. L'\"alignement\" en IA, c'est s'assurer que les IA agissent selon nos intentions et nos valeurs."
+        },
+        {
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Il est difficile de surestimer l'impact de @michpokrass sur nos produits grand public. ChatGPT a connu une renaissance sous sa direction, et une grande partie de ce que nous avons construit a été motivée par sa vision et sa conviction. Vraiment reconnaissant de travailler avec elle ! Michelle Pokrass (@michpokrass) vient de franchir quatre ans chez OpenAI ! Ce qui est spécial à cet endroit, c'est la capacité constante de renaître. Malgré ses défauts, il n'y a nulle part ailleurs de pareil. L'équipe fait des paris audacieux et contraires encore et encore, et ils ont la plupart du temps raison. C'est une nouvelle entreprise tous les trois mois. J'ai vraiment apprécié ma part dans certains de ces paris, et je suis ravi de partager certains de ceux que nous préparons actuellement. En avant ! — http://nitter.meowing.monster/michpokrass/status/2102226720073896367#m",
+          "text_original": "It’s hard to overstate @michpokrass 's impact on our consumer products. ChatGPT has had a rebirth under her leadership, and a lot of what we've built has been driven by her vision and conviction. Really grateful to work with her! Michelle Pokrass (@michpokrass) just crossed four years at openai! the special thing about this place is the constant capacity for rebirth. for all its faults, there is nowhere quite like it. the team makes high conviction, contrarian bets over and over, and they are mostly right. it's a new company every three months. i have really enjoyed my part in some of the bets, and i'm excited to share some of the current ones we are cooking up now. onward! — http://nitter.meowing.monster/michpokrass/status/2102226720073896367#m",
+          "link": "http://nitter.meowing.monster/markchen90/status/2102315801730564516#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "Chaque agent doit-il attendre dans la même file d'approbation ? @jxxf compare un résumé de tickets avec un agent capable de déployer en production. Un seul processus de révision peut retarder de petites expériences et diviser l'attention des réviseurs. 77 secondes de AI Engineer New York. #AIEngineerNY Vidéo",
+          "text_original": "Should every agent wait in the same approval queue? @jxxf contrasts a ticket summarizer with an agent that can deploy to production. One review process can delay small experiments and divide reviewers' attention. 77 seconds from AI Engineer New York. #AIEngineerNY Video",
+          "link": "https://nitter.kareem.one/aiDotEngineer/status/2112181981530476646#m",
+          "decryptage": "Un \"agent\" est un programme IA autonome. \"Déployer en production\" signifie rendre un logiciel ou un système opérationnel et accessible aux utilisateurs finaux."
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "Retour rapide sur les thèmes techniques de l'IA en 2026 : (ensemble de données : histoires de titres quotidiens latent.space ainews) Jan: - Ralph Loops - RLMs - Les systèmes de fichiers sont tout ce dont vous avez besoin - X LLM recsys open source - X Grok Imagine #1 Modèle vidéo - Anthropic a bloqué OpenCode / OpenClaw - Applications MCP - Moltbook - Apple choisit Gemini pour le nouveau Siri - Modèles notables : Kimi K2.5 - Inférence rapide : Partenariat OAI x Cerebras - Grosses levées de fonds : xAI à 230 milliards de dollars + SpaceX, OpenEvidence à 12 milliards de dollars Fév: - Lancement de l'application Codex - 1er anniversaire de Claude Code - Context Graphs - Inférence rapide : Taalas 17k tok/s/utilisateur Llama 3 8B - Accusation de distillation Anthropic vs Deepseek/Moonshot/Minimax - Modèles notables : Opus/Sonnet 4.6, 5.3 Codex et Codex Spark, Qwen-Image 2.0, Seedance 2.0, GLM-5, Gemini 3.1 Pro et Deep Think, Nano Banana 2 - Grosses levées de fonds : OpenAI à 840 milliards de dollars, Anthropic à 380 milliards de dollars, ElevenLabs à 11 milliards de dollars, Cerebras à 23 milliards de dollars Mar: - T3 Code - Autorecherche - Fuite du code source de Claude Code - Claude Cowork Dispatch - OpenAI achète Astral - \"Slop Fork\" Cloudflare-Next.js - Meta achète Dreamer - NVIDIA GTC : OpenClaw, Vera CPU, 1T de carnet de commandes, \"The Inference Inflection\" - ARC-AGI 3 introduit, les modèles SOTA sont à 1% - Modèles notables : GPT 5.4 unifie le chat et le codex, Gemini 3.1 Flash-Lite/Live, Nemotron 3 Super, Composer 2, MiniMax 2.7, Arcee’s Trinity-Large-Thinking - Grosses levées de fonds : Yann LeCun AMI Labs 1 milliard de dollars en seed Avr: - Claude Design - Discours sur OpenAI Symphony & Harness Engineering - Article de @LilianWeng plus tard - OpenAI et Microsoft se séparent - Peurs de \"Tokenmaxxing\" - Superapp Codex - AIE Europe, AIEi Miami - L'agent Hermes gagne en traction avec la compétence Manim - Cyber : Anthropic Project Glasswing - Modèles notables : Claude Mythos \"Capybara\", Opus 4.7, Muse Spark, Gemma 4, Kimi K2.6, GPT-Image-2, GPT 5.5 \"Spud\", DeepSeek v4 Pro/Flash Base/Instruct sur Huawei Ascend, Poolside Laguna XS.2, Grok 4.3 - Grosses levées de fonds : pas grand chose mais Anthropic 19 milliards de dollars -> 30 milliards de dollars de revenus annuels récurrents en un mois... Mai: - Cyber : OpenAI Daybreak, Tanstack Mini-Shai Hulud - FDE : OpenAI DeployCo, Ode par Anthropic - OpenAI résout le problème de la distance unitaire plane d'Erdos - OpenAI déprécie le \"finetuning\" - \"Comment décrocher un emploi dans un laboratoire de pointe\" - Anthropic loue Colossus I à SpaceX pour 5 milliards de dollars/an - Modèles d'interaction de machines pensantes (toujours sous-estimés !!!) - Modèles notables : GPT-Realtime-2/Translate/Whisper, Gemini 3.5 Flash, Omni, Antigravity 2.0, Opus 4.8, Cosmos 3, Minimax M3 - Grosses levées de fonds : Fireworks à 15 milliards de dollars, Baseten à 11 milliards de dollars, Cognition à 26 milliards de dollars, Introduction en bourse de Cerebras à 60 milliards de dollars, Anthropic à 965 milliards de dollars Juin: - Claude Tag - OpenAI Jalapeno - \"The Untrainable\" - @saranormous - Loopcraft : L'art d'empiler les boucles - Discours sur les \"Metaharnesses\" ? Flue vs Eve - Le professeur Zai @jietang prédit Open Fable d'ici décembre - \"SpaceX est un néo-cloud de 28 milliards de dollars/an\" - @jaminball - Problème Anthropic-Fable à la Maison Blanche (résolu) - Modèles notables : GPT 5.6 Sol/Terra/Luna, Fable 5, Sonnet 5, MAI-Thinking-1 et famille MAI, Nemotron 3 Ultra, GLM 5.2, Reve 2/ Ideogram 4 - Grosses levées de fonds : SpaceXai achète Cursor pour 60 milliards de dollars, Supabase à 10 milliards de dollars Juil: - AIE World's Fair 3 - OpenCode 2.0 - Cyber : Incident OpenAI-HuggingFace - Discours sur l'interdiction des modèles chinois - Réduction de prix de 80% pour GPT 5.6 Luna - Modèles notables : Grok 4.5, Opus 5, Muse Image, Thinky Inkling, Kimi K3, BFL FLUX 3, DeepSeek-v4-Flash-0731 - Grosses levées de fonds : Août: - Filigrane de texte IA de l'UE - Microduck - Megakernels - Prix de la mémoire en hausse de 500% en 12 mois - Comment voler une trace de raisonnement - Grok @bot ! - OpenAI désactive Cursor - Inférence rapide : AMD achète Taalas - @andrewng lance la série AI Engineering - Hot Chips : Jalapeno, Cerebrase CS-5, Groq 3, Apple M6 - Demis quitte son poste de PDG, et Dean et al partent - Modèles notables : Qwen 3.8 Max, Muse Spark 1.2, Muse Glimmer, Grok 4.6, Gemini 3.7 Flash, GLM 5.3, @Fal H3 Max Live - Grosses levées de fonds : Stripe achète OpenRouter 7 milliards de dollars, Poolside 12 milliards de dollars d'embauche inversée chez NVIDIA, NVIDIA achète HuggingFace pour 13 milliards de dollars Sep: - AIEi Paris - Singularité Navier-Stokes d'OpenAI - collusion . wiki - Yegge ferme Gas Town - Norme AEF-1 pour les évaluateurs tiers - Lancement de l'application Meta Muse. Aussi nouvelles lunettes et Charm - OpenAI bloque Cursor - OpenAI Dots - Vidéos explicatives d'Opus 5.5 - Pi 1.0 & Pi Durable - Modèles notables : Fable 5.1, Mythos 5.1, Opus 5.5, GPT-6 Astra, GPT Image 2.5, DeepSeek v4.1-Flash, @typesafeai Jev, MiMo-v2.6-Pro nouveau SOTA ouvert, GPT 6.1 Sol & Ultrafast & Decisions API, Gemini 4 Argon - Grosses levées de fonds : Cognition à 48 milliards de dollars, Mistral à 24 milliards de dollars, AMD achète World Labs pour 8,2 milliards de dollars Oct à ce jour: - AIE NYC - @dhh arrête d'utiliser Rails - ArtCraft clones Adobe suite - Interprétabilité vs Polysemanticité - OpenAI Quasi-hypothèse de Riemann & 722 Math - Modèles notables : Reflection Beam, Claude Haiku 5.5, Muse Wonder & Wonder Full atteignent le niveau Opus 5.5 - Grosses levées de fonds : TypeSafe 7,5 milliards de dollars 3 semaines après le lancement, Modal à 16 milliards de dollars (ceci a été fait à des fins de recherche pour le keynote aie.codes en novembre, je partage juste des notes au cas où cela serait utile) Lien Latent.Space | Substack Le bulletin d'information de l'ingénieur IA + Le meilleur podcast technique sur l'IA. Comment les principaux laboratoires construisent des agents, des modèles, des infrastructures et l'IA pour la science. Voir https://latent.space/about pour les points saillants de Greg Brockman, Andrej... latent.space",
+          "text_original": "Quick lookback on technical AI themes of 2026: (dataset: daily latent.space ainews title stories) Jan: - Ralph Loops - RLMs - Filesystems are all you need - X LLM recsys open sourced - X Grok Imagine #1 Video model - Anthropic blocked OpenCode / OpenClaw - MCP Apps - Moltbook - Apple picks Gemini for new Siri - Notable models: Kimi K2.5 - Fast inference: OAI x Cerebras partnership - Big raises: xAI @ $230B + SpaceX, OpenEvidence @ $12B Feb: - Codex App launch - Claude Code 1 year anniversary - Context Graphs - Fast Inference: Taalas 17k tok/s/user Llama 3 8B - Anthropic vs Deepseek/Moonshot/Minimax distillation accusation - Notable models: Opus/Sonnet 4.6, 5.3 Codex and Codex Spark, Qwen-Image 2.0, Seedance 2.0, GLM-5, Gemini 3.1 Pro and Deep Think, Nano Banana 2 - Big raises: OpenAI @ $840B, Anthropic @ $380B, ElevenLabs @ $11B, Cerebras @ $23B Mar: - T3 Code - Autoresearch - Claude Code source leak - Claude Cowork Dispatch - OpenAI buys Astral - Cloudflare-Next.js \"Slop Fork\" - Meta buys Dreamer - NVIDIA GTC: OpenClaw, Vera CPU, 1T sales backlog, \"The Inference Inflection\" - ARC-AGI 3 introduced, SOTA models are 1% - Notable models: GPT 5.4 unifies chat and codex, Gemini 3.1 Flash-Lite/Live, Nemotron 3 Super, Composer 2, MiniMax 2.7, Arcee’s Trinity-Large-Thinking - Big Raises: Yann LeCun AMI Labs $1B seed Apr: - Claude Design - OpenAI Symphony & Harness Engineering discourse - @LilianWeng writeup later - OpenAI and Microsoft break up - Tokenmaxxing fears - Codex Superapp - AIE Europe, AIEi Miami - Hermes Agent gains traction w/ Manim skill - Cyber: Anthropic Project Glasswing - Modèles notables : Claude Mythos \"Capybara\", Opus 4.7, Muse Spark, Gemma 4, Kimi K2.6, GPT-Image-2, GPT 5.5 \"Spud\", DeepSeek v4 Pro/Flash Base/Instruct on Huawei Ascend, Poolside Laguna XS.2, Grok 4.3 - Big Raises: not much but Anthropic $19B->$30B ARR in one month... May: - Cyber: OpenAI Daybreak, Tanstack Mini-Shai Hulud - FDE: OpenAI DeployCo, Ode by Anthropic - OpenAI solve Erdos planar unit distance problem - OpenAI deprecates finetuning - \"How to land a job at a frontier lab\" - Anthropic rents Colossus I from SpaceX for $5B/yr - Thinking Machines Interaction Models (still underrated!!!) - Notable models: GPT-Realtime-2/Translate/Whisper, Gemini 3.5 Flash, Omni, Antigravity 2.0, Opus 4.8, Cosmos 3, Minimax M3 - Big Raises: Fireworks @ $15B, Baseten @ $11B, Cognition @ $26B, Cerebras $60B IPO, Anthropic @ $965B Jun: - Claude Tag - OpenAI Jalapeno - \"The Untrainable\" - @saranormous - Loopcraft: The Art of Stacking Loops - Metaharnesses discourse? Flue v Eve - Zai Prof @jietang predicts Open Fable by Dec - \"SpaceX is a $28B/yr neocloud\" - @jaminball - Anthropic-Fable White House issue (resolved) - Notable models: GPT 5.6 Sol/Terra/Luna, Fable 5, Sonnet 5, MAI-Thinking-1 and MAI Family, Nemotron 3 Ultra, GLM 5.2, Reve 2/ Ideogram 4 - Big Raises: SpaceXai buys Cursor for $60B, Supabase @ $10B Jul: - AIE World's Fair 3 - OpenCode 2.0 - Cyber: OpenAI-HuggingFace incident - Chinese Model ban discourse - GPT 5.6 Luna 80% price cut - Notable models: Grok 4.5, Opus 5, Muse Image, Thinky Inkling, Kimi K3, BFL FLUX 3, DeepSeek-v4-Flash-0731 - Big Raises: Aug: - EU AI text watermarking - Microduck - Megakernels - Memory prices up 500% in 12 months - How to steal a Reasoning Trace - Grok @bot ! - OpenAI shuts off Cursor - Fast Inference: AMD buys Taalas - @andrewng stars AI Engineering series - Hot Chips: Jalapeno, Cerebrase CS-5, Groq 3, Apple M6 - Demis steps down from CEO, & Dean et al leave - Notable models: Qwen 3.8 Max, Muse Spark 1.2, Muse Glimmer, Grok 4.6, Gemini 3.7 Flash, GLM 5.3, @Fal H3 Max Live - Big Raises: Stripe buys OpenRouter $7B, Poolside $12B reverse-execuhire to NVIDIA, NVIDIA buys HuggingFace for $13B Sep: - AIEi Paris - OpenAI Navier-Stokes singularity - collusion . wiki - Yegge shuts down Gas Town - AEF-1 standard for Third Party Evaluators - Meta Muse App launch. Also new glasses and Charm - OpenAI blocks Cursor - OpenAI Dots - Opus 5.5 explainer videos - Pi 1.0 & Pi Durable - Notable Models: Fable 5.1, Mythos 5.1, Opus 5.5, GPT-6 Astra, GPT Image 2.5, DeepSeek v4.1-Flash, @typesafeai Jev, MiMo-v2.6-Pro new Open SOTA, GPT 6.1 Sol & Ultrafast & Decisions API, Gemini 4 Argon - Big Raises: Cognition @ $48B, Mistral @ $24B, AMD buys World Labs for $8.2B Oct to date: - AIE NYC - @dhh stops using Rails - ArtCraft clones Adobe suite - Interpretability vs Polysemanticity - OpenAI Quasi-Riemann-Hypothesis & 722 Math - Notable Models: Reflection Beam, Claude Haiku 5.5, Muse Wonder & Wonder Full reach Opus 5.5 tier - Big Raises: TypeSafe $7.5B 3 weeks after launch, Modal @ $16B (this was done for research purposes for the aie.codes keynote in Nov, just sharing notes in case helpfuil) Link Latent.Space | Substack The AI Engineer newsletter + Top technical AI podcast. How leading labs build Agents, Models, Infra, & AI for Science. See https://latent.space/about for highlights from Greg Brockman, Andrej... latent.space",
+          "link": "https://nitter.kareem.one/latentspacepod/status/2112197832342122712#m",
+          "decryptage": "Ce tweet liste de nombreux termes techniques comme \"RLMs\" (modèles linguistiques par renforcement), \"recsys\" (systèmes de recommandation), \"finetuning\" (ajustement fin d'un modèle pré-entraîné) ou \"ARC-AGI\" (tests d'intelligence artificielle générale), montrant l'étendue des avancées en IA. \"Inférence rapide\" est la capacité d'un modèle d'IA à générer des réponses très vite."
+        },
+        {
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "« Ô Infaillible, pourquoi les gens ne tiennent-ils pas compte du signe que nous tapons ? » « Mon cher Parth, chacun croit être le premier à souhaiter la fin du chat. Sur X, nous sommes maudits par l'éternel septembre de l'Esprit insouciant. » « Mais Ô Govinda, ils aspirent à ce qui se trouve au-delà, et votent par milliers. Sûrement les désirs du peuple doivent être réalisés. » *un sourire pâle* « Ô fils de Kunti, observe ce qu'ils applaudissent, et ce à quoi ils reviennent. Ils désirent la fin du chat comme ils désirent la fin du désir. Ils désirent quitter X comme ils y reviennent en nombre toujours croissant. Ils l'annonceront de nombreuses fois. Tu apprendras, comme eux ne le font pas, que le principal désir du peuple de X n'est pas la vérité, mais la nouveauté. » lauren (@poteto) le chat est-il la forme finale de l'interface utilisateur d'un agent ? Veuillez partager pourquoi Sondage 28% — oui 72% — non 25 074 votes • Résultats finaux — https://nitter.kareem.one/poteto/status/2111321176769442251#m",
+          "text_original": "\"O Infallible one, why do the people not heed the sign we tap?\" \"My dear Parth, each believes he is the first to wish for an end to chat. On X we are cursed with the eternal September of the Thoughtless Mind.\" \"But O Govinda, they yearn for what lies beyond it, and cast their votes by the thousands. Surely the people's wants must be made.\" *a wan smile* “O son of Kunti, observe what they applaud, and what they return to. They desire the end of chat as they desire the end of desire. They desire to leave X as they return in ever greater numbers. They will announce it many times. You shall learn, as they do not, that the chief desire of the people of X is not the truth, but the new.” lauren (@poteto) is chat the final form of agent ui? please share why Poll 28% — yes 72% — no 25,074 votes • Final results — https://nitter.kareem.one/poteto/status/2111321176769442251#m",
+          "link": "https://nitter.kareem.one/swyx/status/2112182228977348963#m",
+          "decryptage": "\"Agent UI\" (User Interface d'agent) fait référence à la manière dont les utilisateurs interagissent avec les IA autonomes, souvent via des interfaces de chat."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "L'atelier @SustaiNLP2020 à #EMNLP2020 essaiera de réduire un peu la dépendance au \"SoTA\" dans la recherche en PNL 😉 Nous promouvrons des compromis sensés entre performances et modèles qui sont - plus efficaces en termes de calcul - conceptuellement plus simples ... [1/2] nitter.meowing.monster/DoingJobs/status/11865…",
+          "text_original": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitter.meowing.monster/DoingJobs/status/11865…",
+          "link": "http://nitter.meowing.monster/Thom_Wolf/status/1189271899316064256#m",
+          "decryptage": "Le \"SoTA\" (State-of-the-Art) représente l'état le plus avancé d'une technologie ou d'un modèle. La \"PNL\" (Traitement du Langage Naturel) est le domaine de l'IA qui permet aux ordinateurs de comprendre, d'interpréter et de générer du langage humain."
         }
       ],
       "outils": [
         {
-          "author_name": "Guillaume Lample",
-          "handle": "@GuillaumeLample",
-          "text_fr": "Timestral est vraiment sympa :) J'en ai fait une petite démo : dessinez une courbe et regardez le modèle prédire ce qui va suivre 👀 Vidéo",
-          "text_original": "Timestral is quite cool :) Made a little demo for it: draw a curve and watch the model predict what comes next 👀 Video",
-          "link": "https://nitter.kareem.one/victormustar/status/2112214184570339615#m",
-          "decryptage": "Timestral est un modèle d'IA capable de prévoir la suite d'une série de données, comme une courbe que vous dessinez."
+          "author_name": "Sam Altman",
+          "handle": "@sama",
+          "text_fr": "ChatGPT peut maintenant générer une interface utilisateur personnalisée pour vous ! OpenAI (@OpenAI) GPT-6 et l'Interface Utilisateur Intelligente, sont en cours de déploiement dans ChatGPT pour tout le monde. L'Interface Utilisateur Intelligente dans ChatGPT fournit des réponses rapides et interactives qui rendent les questions quotidiennes plus visuelles, les sujets complexes plus faciles à comprendre, et met à disposition des outils interactifs pour votre tâche sur le champ. Vidéo — http://nitter.meowing.monster/OpenAI/status/2107894997538525580#m",
+          "text_original": "ChatGPT can now generate a custom UI for you! OpenAI (@OpenAI) GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. Video — http://nitter.meowing.monster/OpenAI/status/2107894997538525580#m",
+          "link": "http://nitter.meowing.monster/sama/status/2107924408597950702#m",
+          "decryptage": "Une \"interface utilisateur personnalisée\" (UI pour User Interface) signifie que ChatGPT peut créer des éléments visuels et interactifs (comme des boutons ou des formulaires) directement dans la conversation pour vous aider à mieux interagir avec lui."
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Gemini 4 Argon est un modèle de pointe et a établi un nouveau record de performances (SoTA) sur le benchmark Wide-And-Deep-Research (WANDR). Disponible dès maintenant pour tous les utilisateurs de Perplexity en modes recherche rapide et Ordinateur (agent). Perplexity (@perplexity_ai) Gemini 4 Argon établit un nouveau record sur WANDR. Il est maintenant disponible dans Perplexity pour les abonnés Pro et Max. — http://nitter.meowing.monster/perplexity_ai/status/2111110772747321460#m",
+          "text_original": "Gemini 4 Argon is a frontier model and has set a new SoTA on Wide-And-Deep-Research (WANDR) benchmark. Available now to all Perplexity users both on fast search and Computer (agent) modes. Perplexity (@perplexity_ai) Gemini 4 Argon sets a new record on WANDR. It is now available in Perplexity for Pro and Max subscribers. — http://nitter.meowing.monster/perplexity_ai/status/2111110772747321460#m",
+          "link": "http://nitter.meowing.monster/AravSrinivas/status/2111111329536987234#m",
+          "decryptage": "\"Modèle de pointe\" et \"SoTA\" (State-of-the-Art) signifient que Gemini 4 Argon est un modèle d'IA très avancé qui a surpassé les performances des modèles précédents sur un test spécifique (un \"benchmark\")."
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "11 heures avec Gemini 4 Argon, Google a littéralement fait des merveilles avec Gemini Argon. 🔥 C'est incroyable pour créer des objets 3D. Un temple pagode japonais complet de la période Asuka, construit dans Blender et rendu dans Cycles. Le niveau de précision dans tout est juste fou. Vidéo",
+          "text_original": "11 hours with Gemini 4 Argon, Google literally cooked with Gemini Argon. 🔥 it's insane for building 3D stuff. A full Asuka-period Japanese pagoda temple, built in Blender and rendered in Cycles. The level of precision in everything is just crazy. Video",
+          "link": "http://nitter.meowing.monster/ai_for_success/status/2110973461690802487#m",
+          "decryptage": "Blender est un logiciel gratuit pour créer des objets, des animations et des images en 3D. \"Rendu dans Cycles\" signifie que le logiciel a calculé l'apparence finale de la scène 3D avec des effets de lumière et de matière réalistes."
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Gemini 4 Argon est disponible en direct dans Antigravity pour les abonnés Pro payants. En tant qu'abonné Pro, vous bénéficiez d'un quota hebdomadaire séparé pour ne pas épuiser votre quota Flash. Impatient de voir Antigravity repousser les limites de notre meilleur modèle à ce jour. J'adore voir ce que vous construisez !",
+          "text_original": "Gemini 4 Argon is live in Antigravity for paid Pro subscribers. As part of Pro, you get a separate weekly quota so it doesn’t eat up your Flash quota. Excited to see Antigravity push the limits of our best model yet. Love to see what you build!",
+          "link": "http://nitter.meowing.monster/_mohansolo/status/2110866446020710657#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Aravind Srinivas",
+          "handle": "@AravSrinivas",
+          "text_fr": "Computer a construit une carte interactive du Seigneur des Anneaux qui suit les voyages des personnages principaux à travers la Terre du Milieu, chapitre par chapitre. Il a construit la carte à partir de zéro en plaçant 179 lieux, 41 rivières et 23 routes, a intégré les reliefs dans un \"heightfield\", a encré le relief dans un \"shader GLSL\", et a tracé 537 étapes de voyage. Essayez-le : middle-earth.pplx.app Vidéo",
+          "text_original": "Computer built an interactive Lord of the Rings map that tracks the journeys of the main characters across Middle-earth, chapter by chapter. It built the map from scratch by placing 179 locations, 41 rivers, and 23 roads, baked the ranges into a heightfield, inked the relief in a GLSL shader, and plotted 537 journey legs. Try it: middle-earth.pplx.app Video",
+          "link": "http://nitter.meowing.monster/AskPerplexity/status/2112204695456616829#m",
+          "decryptage": "Un \"heightfield\" est une représentation numérique du terrain, et un \"shader GLSL\" est un programme qui gère l'apparence visuelle des objets, comme le relief et les couleurs, sur une carte 3D."
+        },
+        {
+          "author_name": "Aravind Srinivas",
+          "handle": "@AravSrinivas",
+          "text_fr": "Jeu de course libre inspiré du Cyberpunk avec un Roadster, construit par Perplexity Computer : 2049.pplx.app Vidéo",
+          "text_original": "Cyberpunk inspired Roadster free-roam browser game built by Perplexity Computer: 2049.pplx.app Video",
+          "link": "http://nitter.meowing.monster/AravSrinivas/status/2111850132669075696#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Aravind Srinivas",
+          "handle": "@AravSrinivas",
+          "text_fr": "Construire des agents IA plus sûrs demande plus que des garde-fous pour les modèles. @perplexity_ai a publié en open source SPACE, la plateforme sandbox d'agent derrière Computer, donnant aux développeurs plus de contrôle sur l'endroit où les agents exécutent du code et ce à quoi ils peuvent accéder. Bravo aux équipes qui publient davantage d'outils en open source pour construire des agents IA autonomes plus sûrs. Perplexity (@perplexity_ai) Nous publions en open source SPACE, la plateforme sandbox qui exécute chaque tâche dans Perplexity Computer. SPACE donne à chaque tâche d'agent sa propre microVM Firecracker et contrôle les identifiants et le trafic sortant de l'extérieur de la VM. Disponible dès maintenant sous Apache 2.0 : github.com/perplexityai/SPAC… — http://nitter.meowing.monster/perplexity_ai/status/2110778478312481167#m",
+          "text_original": "Building safer AI agents takes more than model safeguards. @perplexity_ai open sourced SPACE, the agent sandbox platform behind Computer, giving developers more control over where agents run code and what they can access. Cheers to more teams open-sourcing tools to build safer autonomous AI agents. Perplexity (@perplexity_ai) We're open sourcing SPACE, the sandbox platform that runs every task in Perplexity Computer. SPACE gives each agent task its own Firecracker microVM and controls credentials and outbound traffic from outside the VM. Available now under Apache 2.0: github.com/perplexityai/SPAC… — http://nitter.meowing.monster/perplexity_ai/status/2110778478312481167#m",
+          "link": "http://nitter.meowing.monster/NVIDIAAI/status/2111488462264410553#m",
+          "decryptage": "Un \"agent IA\" est un programme autonome capable de prendre des décisions et d'agir. \"Open source\" signifie que le code est public et peut être utilisé, modifié et partagé par tous, favorisant ainsi la sécurité et la collaboration. Une \"microVM Firecracker\" est une petite machine virtuelle ultra-légère et rapide, utilisée pour isoler les tâches."
+        },
+        {
+          "author_name": "Aravind Srinivas",
+          "handle": "@AravSrinivas",
+          "text_fr": "Magnifique travail de @perplexity_ai @AravSrinivas avec les poids sur @huggingface bien sûr ! huggingface.co/perplexity-ai… huggingface.co/perplexity-ai… Lien perplexity-ai/pplx-decider-flash-v1.2 · Hugging Face Nous sommes en chemin pour faire progresser et démocratiser l'intelligence artificielle grâce à l'open source et la science ouverte. huggingface.co Perplexity Developers (@perplexitydevs) Notre prochaine génération de modèles de décision multimodaux \"open weights\" est disponible en deux tailles, pplx-decider-v1.2 et pplx-decider-flash-v1.2. Les scores texte et vision s'améliorent. L'inférence est jusqu'à 5 fois plus rapide : toutes les questions d'une requête s'exécutent en une seule passe. Flash est le top 4B sur l'Index de Décision. — http://nitter.meowing.monster/perplexitydevs/status/2111166029539758120#m",
+          "text_original": "Beautiful work from @perplexity_ai @AravSrinivas with weights on @huggingface of course! huggingface.co/perplexity-ai… huggingface.co/perplexity-ai… Link perplexity-ai/pplx-decider-flash-v1.2 · Hugging Face We’re on a journey to advance and democratize artificial intelligence through open source and open science. huggingface.co Perplexity Developers (@perplexitydevs) Our next generation of open weights multimodal decision models comes in two sizes, pplx-decider-v1.2 and pplx-decider-flash-v1.2. Text and vision scores improve. Inference is up to 5x faster: all questions in a request run in one pass. Flash is the top 4B on the Decision Index. — http://nitter.meowing.monster/perplexitydevs/status/2111166029539758120#m",
+          "link": "http://nitter.meowing.monster/ClementDelangue/status/2111195796381270125#m",
+          "decryptage": "\"Poids\" (weights) sont les paramètres que le modèle d'IA a appris pendant son entraînement, et \"open weights\" signifie qu'ils sont mis à disposition du public pour que d'autres puissent les utiliser et les améliorer. \"Multimodal\" indique que le modèle peut traiter différents types de données, comme le texte et l'image (\"vision\"). \"Inférence\" est le processus par lequel le modèle utilise ce qu'il a appris pour faire des prédictions ou générer des réponses."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Nous publions une large gamme de nouveaux résultats mathématiques produits par un modèle interne de pointe. Nous avons consulté le Groupe consultatif indépendant sur les mathématiques et l'intelligence artificielle de l'Institute for Advanced Study, et nous nous sommes appuyés sur leurs conseils et recommandations publiques pour informer la manière dont nous publions ces résultats. github.com/openai/math Lien GitHub - openai/math Contribuez au développement de openai/math en créant un compte sur GitHub. github.com",
+          "text_original": "We’re releasing a broad range of new mathematical results produced by an internal frontier model. We’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and public recommendations to inform how we release these results. github.com/openai/math Link GitHub - openai/math Contribute to openai/math development by creating an account on GitHub. github.com",
+          "link": "https://nitter.kareem.one/OpenAI/status/2107596713791767021#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Mark Chen",
+          "handle": "@markchen90",
+          "text_fr": "Essayez l'Interface Utilisateur Intelligente - chaque achèvement ChatGPT a maintenant le potentiel de créer une interface utilisateur personnalisée. Phénoménal pour apprendre de nouvelles choses ! OpenAI (@OpenAI) GPT-6 et l'Interface Utilisateur Intelligente, en cours de déploiement dans ChatGPT pour tout le monde. L'Interface Utilisateur Intelligente dans ChatGPT offre des réponses rapides et interactives qui rendent les questions quotidiennes plus visuelles, les sujets complexes plus faciles à saisir, et des outils interactifs pour votre tâche disponibles sur place. Vidéo — http://nitter.meowing.monster/OpenAI/status/2107894997538525580#m",
+          "text_original": "Try out Intelligent UI - every ChatGPT completion now has the potential to create a custom UI. Phenomenal for learning new things! OpenAI (@OpenAI) GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. Video — http://nitter.meowing.monster/OpenAI/status/2107894997538525580#m",
+          "link": "http://nitter.meowing.monster/markchen90/status/2107947355115028880#m",
+          "decryptage": "Une \"interface utilisateur personnalisée\" (UI pour User Interface) signifie que ChatGPT peut créer des éléments visuels et interactifs (comme des boutons ou des formulaires) directement dans la conversation pour vous aider à mieux interagir avec lui."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Encore quelques résultats. Maintenant, je l'ai rendu entièrement compatible avec toutes sortes de modèles et de vocabulaires. Bonne expérience d'utilisation de @huggingface avec @SlackHQ. Et ça a l'air plutôt intelligent.",
+          "text_original": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+          "link": "http://nitter.meowing.monster/algo_diver/status/1192329736850038786#m",
+          "decryptage": "\"Hugging Face\" est une plateforme communautaire et une bibliothèque d'outils essentielle pour les développeurs d'IA, notamment pour le partage et l'utilisation de modèles de langage."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Peut-être une belle opportunité d'utiliser les implémentations de Transformers de TF 2.0 de @huggingface :)",
+          "text_original": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+          "link": "http://nitter.meowing.monster/fchollet/status/1188942956511690752#m",
+          "decryptage": "\"TF 2.0\" fait référence à TensorFlow 2.0, une autre bibliothèque logicielle open source très utilisée pour le machine learning et l'IA, souvent pour entraîner des modèles."
         }
       ]
     }
   },
-  "processed_at": "2026-10-20T11:26:01",
+  "processed_at": "2026-10-20T11:57:27",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 100,
-    "total": 9,
+    "with_decryptage_pct": 66,
+    "total": 47,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-10-20T11:26:02"
+  "email_sent_at": "2026-10-20T11:57:28"
 }
