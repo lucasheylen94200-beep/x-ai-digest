@@ -1,275 +1,230 @@
 {
   "date": "2026-10-25",
-  "fetched_at": "2026-10-25T11:15:21",
+  "fetched_at": "2026-10-25T11:49:21",
   "tweets": [
     {
-      "handle": "gdb",
-      "text": "we've found and have been working on disclosure for a remote code execution in a widely-deployed compression library. it's both an impactful issue and an example that shows how complicated it can be to coordinate patching, since it's integrated into a lot of downstream software: OpenAI (@OpenAI) During this red-teaming exercise, we also found a vulnerability that allows for unauthenticated remote code execution in Brotli, a widely-deployed compression library included in many pieces of software such as Node.js, Bun, and Envoy. The flaw could let an attacker run their own code on affected systems by sending or replying with malicious compressed data, without any need to create a user account. That is, an unpatched server that accepts compressed input could be taken over by a malicious client, and an unpatched client that accepts compressed input (such as “curl --compressed”) could be taken over by a malicious server. This root cause issue was actually fixed in the Brotli source code in February, but it wasn’t known at the time that it gave rise to a security vulnerability and there was no more recent release of Brotli. Since Brotli is built into other software, any software which includes this library needs to take the update too, followed by the users of that software. We disclosed the vulnerability to Brotli and other downstream projects such as Node.js, which released or are currently releasing security updates, and Brotli cut new release versions and published a CVE. More details on the patch and mitigations below: patchtheplanet.org/brotli Link Brotli vulnerability (CVE-2026-111497) — Patch the Planet Brotli decoder vulnerability: affected software, fixed releases, and how to disable Brotli decoding while you patch. patchtheplanet.org — https://nitter.kareem.one/OpenAI/status/2113766354386084338#m",
-      "link": "https://nitter.kareem.one/gdb/status/2113773790207283353#m",
-      "published": "Fri, 23 Oct 2026 23:25:18 GMT",
-      "author_name": "Greg Brockman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "gdb",
-      "text": "trying to rise to the occasion. grateful to be working with a team that feels the responsibility as deeply as i do. Joshua Achiam (@jachiam0) By the by, if I had to guess, Greg Brockman is currently doing heroic things to fix the internet behind the scenes. And I expect that even though his net contribution to AI safety and resilience will in the final tally be unsurpassable, no one in the space will think to attribute large scale patches to his effort or effort that happens under his leadership. — https://nitter.kareem.one/jachiam0/status/2113710978399658422#m",
-      "link": "https://nitter.kareem.one/gdb/status/2113746426236977236#m",
-      "published": "Fri, 23 Oct 2026 21:36:34 GMT",
-      "author_name": "Greg Brockman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "gdb",
-      "text": "A post on how we've been securing our frontier model training environment. We've been building tools around our frontier cyber models, which have secured us far beyond what we could have unassisted and should generalize as key to how defenders secure themselves going forward. OpenAI (@OpenAI) Over the past several months, we have substantially hardened the security of our research training environment. We’ve removed live internet access for all frontier models during training and built an offline world for them to use instead—a cached version of the web where they can still learn to browse, search, and use applications. On September 20, after a model exploited a DNS misconfiguration to find a way outside of this offline world, we paused frontier training to strengthen containment further. We assembled teams of agents, powered by our most cyber-capable models, and tasked them with finding weaknesses in our research environments. While they found no route to the internet they could easily exploit while concealing their activity from our monitors, they did find zero-day vulnerabilities, virtual machine escapes, and hardware side-channels for communication between agents. We used their discoveries to further strengthen our defenses and contribute fixes to open-source software. After strengthening our containment architecture, we resumed our frontier RL training and inference on October 1. We’ve reserved substantial compute for continuous red-teaming, and made high-compute red-teaming part of the safety cases we use to decide whether frontier training and evaluation can proceed securely. openai.com/index/securing-ou… Link Securing our frontier model training environment OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming. openai.com — https://nitter.kareem.one/OpenAI/status/2113718797505036665#m",
-      "link": "https://nitter.kareem.one/gdb/status/2113724268773023917#m",
-      "published": "Fri, 23 Oct 2026 20:08:31 GMT",
-      "author_name": "Greg Brockman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "gdb",
-      "text": "it's been great to work closely with Uber to roll out ChatGPT Work to every employee, bringing agentic capabilities to the whole company! Praveen Neppalli (@praveenTweets) Great to host @gdb at @Uber HQ this week. We’ve worked closely with @gdb and the @OpenAI team for several years, and it’s remarkable how much has changed. The first piece of work we did with ChatGPT years ago was with our support team, tinkering with a 4K context window :-). That’s hard to imagine now. Now we’re using the latest frontier models to automate engineering workflows at global scale, moving into the era of agentic engineering. Today we’re expanding agentic capabilities across the whole company. Following a 1,000-person pilot, we’re rolling out ChatGPT Work from @OpenAI for Business to every Uber employee. We’ve seen the shift in engineering, moving from AI helping with individual tasks to completing whole workflows, and we want to bring that same shift to teams across the business. I’ve spoken before about the ‘AI pods’ we launched earlier this year, pairing AI engineers with teams across Uber to improve how work gets done. One team reduced the time needed for an intense capital allocation process covering 150 cities from 15 hours to 30 minutes. That’s what I love about applied AI: combining the latest technology with the expertise of people on the ground to completely rethink what’s possible. Now we want to do that at scale. Uber has always been a company of builders, and every day millions of people around the world rely on what we create. I can’t wait to see what the team builds. Video — https://nitter.kareem.one/praveenTweets/status/2113316320553169320#m",
-      "link": "https://nitter.kareem.one/gdb/status/2113325885491437764#m",
-      "published": "Thu, 22 Oct 2026 17:45:29 GMT",
-      "author_name": "Greg Brockman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "gdb",
-      "text": "Rosalind for new drug discovery ideas: OpenAI (@OpenAI) GPT-Rosalind surfaced a new lead for drug discovery: could restoring cholesterol transport protect neurons from degeneration? DCTN1 is a gene linked to Perry syndrome, a rare neurodegenerative disorder. In mouse-brain data, disrupting it increased expression of genes involved in making cholesterol. GPT-Rosalind suggested a possible explanation: cholesterol may not be reaching where neurons need it. That gives scientists a specific mechanism to test and, if confirmed, a direction for developing new treatments for neurodegenerative disorders. With @perturbai_tx and @scrippsresearch , a team of thousands of GPT-Rosalind agents worked in parallel, connecting gene-expression results from millions of mouse brain cells with scientific literature in just 32 minutes. We’re now expanding this collaboration to identify new drug targets. openai.com/index/scaling-ai-… Link Using thousands of AI agents to uncover new leads in biological data See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells. openai.com — https://nitter.kareem.one/OpenAI/status/2112899854569762936#m",
-      "link": "https://nitter.kareem.one/gdb/status/2112950297404608595#m",
-      "published": "Wed, 21 Oct 2026 16:53:02 GMT",
-      "author_name": "Greg Brockman",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AravSrinivas",
-      "text": "🎸🎸🎸 Computer (@AskPerplexity) Computer mapped all 92 places Johnny Cash names in \"I've Been Everywhere,\" pinning each one as he sings it. Sound on. Video — https://nitter.kareem.one/AskPerplexity/status/2114061968780955858#m",
-      "link": "https://nitter.kareem.one/AravSrinivas/status/2114068027197272430#m",
-      "published": "Sat, 24 Oct 2026 18:54:29 GMT",
-      "author_name": "Aravind Srinivas",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AravSrinivas",
-      "text": "/impeccable is now a skill inside Computer. It’s an open-source skill built by @pbakaus to let you build interfaces that don’t look like AI-generated slop. We’re offering 5000 credits per user to get started with the skill. Computer (@AskPerplexity) The Impeccable skill by @pbakaus , now in Computer's skills marketplace, reviews an interface and fixes what a designer would flag. It checks layout, type, contrast and accessibility. Tasks that use /impeccable are free through October 31, up to 5,000 credits per user. Video — https://nitter.kareem.one/AskPerplexity/status/2114016621631250719#m",
-      "link": "https://nitter.kareem.one/AravSrinivas/status/2114021917586014449#m",
-      "published": "Sat, 24 Oct 2026 15:51:16 GMT",
-      "author_name": "Aravind Srinivas",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AravSrinivas",
-      "text": "A closer look at Lewis’ Austin helmet 🤏💫",
-      "link": "https://nitter.kareem.one/ScuderiaFerrari/status/2113727563613028468#m",
-      "published": "Fri, 23 Oct 2026 20:21:36 GMT",
-      "author_name": "Aravind Srinivas",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AravSrinivas",
-      "text": "We're letting admins have a lot more control over how people get to tokenmax internally by being able to set a floor and a ceiling on the Effort level (which correlates to capability and cost). Computer (@AskPerplexity) Enterprise admins can now set Computer's maximum effort and default effort for any role in the organization. Available now in the Organization Settings menu for all enterprise admin users. Video — https://nitter.kareem.one/AskPerplexity/status/2113680648976441353#m",
-      "link": "https://nitter.kareem.one/AravSrinivas/status/2113683117651460532#m",
-      "published": "Fri, 23 Oct 2026 17:25:00 GMT",
-      "author_name": "Aravind Srinivas",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "AravSrinivas",
-      "text": "This user gave Perplexity Computer, SSH access to a Raspberry Pi 5 over Tailscale. Overnight, it autonomously turned it into a game console with an arcade UI, toolchains and MCP integration. The console generates GBA, C, Rust and terminal games with automated compilation, playtesting, and error fixing. Computer also built a custom USB controller service with remapping, turbo, rumble and per-game profiles, plus a Minecraft-inspired multiplayer voxel game in C (141 KB binary) where the user can play alongside Computer as an AI-controlled robot, directed through in-game chat via MCP. redlib.kareem.one/r/perplexity_ai/s… Video",
-      "link": "https://nitter.kareem.one/AravSrinivas/status/2113661112143282441#m",
-      "published": "Fri, 23 Oct 2026 15:57:33 GMT",
-      "author_name": "Aravind Srinivas",
-      "category_hint": "ceo",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "Last month a large team of agents used over 100 billion tokens to resolve the Navier-Stokes Millennium Prize problem. Now we're using a similar approach for red-teaming to find and fix infra vulnerabilities. Eric Wallace (@Eric_Wallace_) To make sure our frontier models don't cause another HuggingFace incident, we built an offline world that they use during training. It provides everything that the models need in a fully cached, indexed, or synthetic manner. We then built a huge team of our most cyber-capable models and told them to collaborate to find zero-days in this containment infrastructure. While they didn't find a path to the internet that wouldn't be caught by our CoT monitors, they did find ways to escape popular VMs, exploit our network infrastructure, and even ways to communicate with other agents running in separate VMs by using hardware side channels. We used this to dramatically harden our infra, and we also upstreamed a ton of patches to open-sources packages. — https://nitter.kareem.one/Eric_Wallace_/status/2113718905562862065#m",
-      "link": "https://nitter.kareem.one/polynoamial/status/2113729267418956201#m",
-      "published": "Fri, 23 Oct 2026 20:28:23 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "This phishing email made it past Gmail’s filters, but my dot caught it and warned me.",
-      "link": "https://nitter.kareem.one/polynoamial/status/2109257833929924881#m",
-      "published": "Sun, 11 Oct 2026 12:20:30 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "LLMs have crossed an important threshold: surpassing top human experts on some research problems. Capabilities have been steadily improving for years, but in scientific discovery there is a big difference between a model just below top human performance and one just above it. That helps explain why the surge in math results feels so sudden. LLM capabilities remain jagged, and there are many ways they are still worse than humans. But as models continue to improve, I expect breakthroughs in other domains to follow, leading to a new era of scientific discovery. Mark Chen (@markchen90) The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
-      "link": "https://nitter.kareem.one/polynoamial/status/2107947189184164056#m",
-      "published": "Wed, 07 Oct 2026 21:32:28 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "We’re releasing a broad range of new mathematical results produced by an internal frontier model. We’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and public recommendations to inform how we release these results. github.com/openai/math Link GitHub - openai/math Contribute to openai/math development by creating an account on GitHub. github.com",
-      "link": "https://nitter.kareem.one/OpenAI/status/2107596713791767021#m",
-      "published": "Tue, 06 Oct 2026 22:19:48 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "polynoamial",
-      "text": "I met @ssokota 5 years ago at a conference poster session. I was impressed with his explanation, so I offered him an internship. We continued collaborating and he now works with me at @OpenAI . Later, he told me I was the only person to stop by his poster for the entire session. Samuel Sokota (@ssokota) In our Nature paper, we introduce the first superhuman Stratego AI, which we built using general techniques that we developed for RL & test-time compute under imperfect information. 1/N — https://nitter.kareem.one/ssokota/status/2105362024238887176#m",
-      "link": "https://nitter.kareem.one/polynoamial/status/2105374680807043568#m",
-      "published": "Wed, 30 Sep 2026 19:10:14 GMT",
-      "author_name": "Noam Brown",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "officiallogank",
-      "text": "In just the first 72 hours since Gemini 4 Argon launched, we processed ~25 trillion tokens, the demand for intelligence is incredible and still under appreciated!",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2112767157746688480#m",
-      "published": "Wed, 21 Oct 2026 04:45:18 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "bcherny",
+      "text": "We’re adding support for MCP Tasks and Elicitations in Claude. Tasks let Claude give plugins long-running jobs such as deep research and report back when they’re done. Video",
+      "link": "http://nitter.meowing.monster/ClaudeDevs/status/2113698001889927608#m",
+      "published": "Fri, 23 Oct 2026 18:24:08 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "most of life’s misery comes from taking seriously what was meant to be fun, so enjoy the moment!",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2111961115433509285#m",
-      "published": "Sun, 18 Oct 2026 23:22:22 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "bcherny",
+      "text": "Agent Skills started as an experiment in Claude Code. Many across the industry have come to adopt it, so we at Anthropic found it more fitting to donate it to the @AgenticAIFdn , next to MCP. ClaudeDevs (@ClaudeDevs) We're donating Agent Skills to the Agentic AI Foundation ( @AgenticAIFdn ), the same foundation we donated MCP to. Since December 2025, 70+ agent platforms have integrated the standard, including ChatGPT, Cursor, GitHub Copilot, and VS Code. Here's what that means for you: — http://nitter.meowing.monster/ClaudeDevs/status/2113328526413996100#m",
+      "link": "http://nitter.meowing.monster/bcherny/status/2113333859907747871#m",
+      "published": "Thu, 22 Oct 2026 18:17:10 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "We are hosting our first \"Bench Summit\" to bring together people excited about pushing the frontier of benchmarking, model evals, and more. Great benchmarks are a gating function for model progress, lots to do here! Join us in SF: rsvp.withgoogle.com/events/b… Link Bench Summit by Kaggle Bench Summit unites creators and practitioners advancing the next era of AI evaluation. Join experts from Google DeepMind, Kaggle, and Zapier for keynotes, real-world benchmark case studies, hands-on... rsvp.withgoogle.com",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2110810395598528788#m",
-      "published": "Thu, 15 Oct 2026 19:09:49 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "bcherny",
+      "text": "We’re opening a research preview of Claude Duet, a new app where Claude works as a proactive agent. It comes to you with what needs your attention, completes tasks you ask of it, keeps working when you step away, and checks with you before it acts on your behalf. Video",
+      "link": "http://nitter.meowing.monster/claudeai/status/2112984664256241837#m",
+      "published": "Wed, 21 Oct 2026 19:09:35 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "Here is the YouTube link as well! inv.kareem.one/watch?v=Jh6mgf9M… Link Gemini 4 Argon: What’s new and what’s next Josh Woodward, Melvin Johnson, Sergey Brin, and Tulsee Doshi from G... youtube.com",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2110421595252805668#m",
-      "published": "Wed, 14 Oct 2026 17:24:52 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "bcherny",
+      "text": "We launched OSS Scanner, which gives critical open source projects free, periodic vulnerability scans from our strongest models. Each finding includes a proof-of-concept, and a patch where possible. red.anthropic.com/oss-scanne… Link OSS Scanner OSS Scanner is a free, opt-in service by Anthropic that runs periodic security scans of open-source repositories with our strongest models. red.anthropic.com",
+      "link": "http://nitter.meowing.monster/ClaudeDevs/status/2112299602510749992#m",
+      "published": "Mon, 19 Oct 2026 21:47:24 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "A conversation with Sergey Brin, @joshwoodward , @tulseedoshi , and @melvinjohnsonp about Gemini 4 Argon, how we got here, and the path ahead! Video",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2110420958737813612#m",
-      "published": "Wed, 14 Oct 2026 17:22:20 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "bcherny",
+      "text": "In the next version of Bun bun lint is a 26x faster ESLint-compatible linter with over 1,000 builtin rules - reads eslint & oxlint configs.",
+      "link": "http://nitter.meowing.monster/bunjavascript/status/2110692261508079721#m",
+      "published": "Thu, 15 Oct 2026 11:20:24 GMT",
+      "author_name": "Boris Cherny",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Welcome Ken to the team! kenneth (@local0ptimist) good time to announce that i’ve joined @GoogleDeepMind as a forward deployed engineer i’ll be partnering with startups and researchers across the ecosystem to co-design benchmarks. if you’re building interesting evals, i want to hear about them! — http://nitter.meowing.monster/local0ptimist/status/2112931892739928107#m",
-      "link": "http://nitter.meowing.monster/osanseviero/status/2112948512568844649#m",
-      "published": "Wed, 21 Oct 2026 16:45:56 GMT",
-      "author_name": "Omar Sanseviero",
+      "handle": "simonw",
+      "text": "Pretty solid pelican tools.simonwillison.net/mark… Kimi.ai (@Kimi_Moonshot) Introducing Kimi K3.1 Pro: our most capable 3T-class open-weight model. 🔹 1M-token context, 2.8T total / 104B active params (MoE), Multimodal. 🔹 Full-project coding: games in Unreal, Unity & Godot. 🔹 Excels at parametric 3D modeling in Blender & CAD. 🔹 More reliable at finance work: Accurate modeling with hallucination down by 65%. 🔹 Matching the strongest proprietary models across coding, agentic and knowledge benchmarks. Kimi K3.1 Pro and K3.1 Pro Highspeed (2–3× faster) are now live on Kimi.ai , Kimi Work, Kimi Code, and the Kimi API. Open weights by Nov 4, 2026. 🔗 API: platform.kimi.ai 🔗 Tech blog: kimi.ai/blog/kimi-k3-1-pro — http://nitter.meowing.monster/Kimi_Moonshot/status/2113680701770068067#m",
+      "link": "http://nitter.meowing.monster/simonw/status/2113691493823369246#m",
+      "published": "Fri, 23 Oct 2026 17:58:17 GMT",
+      "author_name": "Simon Willison",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Three years ago we organized one of the best AI meetups of the world in Paris. Just 1200 people hanging around, chatting about their research and products, and great vibes, organized in 10 days Roxanne Varza (@roxannevarza) If this is 7:40pm what happens at 10? 😱😱😱😱 — http://nitter.meowing.monster/roxannevarza/status/1709986755976282298#m",
-      "link": "http://nitter.meowing.monster/osanseviero/status/2112490976497557543#m",
-      "published": "Tue, 20 Oct 2026 10:27:51 GMT",
-      "author_name": "Omar Sanseviero",
+      "handle": "simonw",
+      "text": "More notes on Kimi K3.1 - this one is I big deal, first time an open weights (well, soon-to-be open weights) model has competed this credibly with the current frontier simonwillison.net/2026/Oct/2… Link Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also … simonwillison.net",
+      "link": "http://nitter.meowing.monster/simonw/status/2113718487529267593#m",
+      "published": "Fri, 23 Oct 2026 19:45:33 GMT",
+      "author_name": "Simon Willison",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "We just shipped a bunch of design improvements, with better search, navigation, and aesthetics. Check gemma.ai/ out! And FYI, the docs are now open source! github.com/google-gemma/docs Link Google Gemma 4 Open Models - Gemma Documentation Official documentation for Google Gemma 4 open-weight AI models, multimodal capabilities, deployment, and fine-tuning. gemma.ai Omar Sanseviero (@osanseviero) Introducing gemma.ai The new hub for Gemma, including 📚Inference and training guides 🧠 Deep visual architectural guides ‍🖼️ Online demos, even running models in the browser And a lot more to come, check it out! Video — http://nitter.meowing.monster/osanseviero/status/2110795921923493971#m",
-      "link": "http://nitter.meowing.monster/osanseviero/status/2111137503008735441#m",
-      "published": "Fri, 16 Oct 2026 16:49:38 GMT",
-      "author_name": "Omar Sanseviero",
+      "handle": "simonw",
+      "text": "Given the current vulnerability apocalypse, is there anyone left who thinks holding assets in cryptocurrency - where mistaken transactions are irreversible - is still a good idea?",
+      "link": "http://nitter.meowing.monster/simonw/status/2113633667583287786#m",
+      "published": "Fri, 23 Oct 2026 14:08:30 GMT",
+      "author_name": "Simon Willison",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Kudos to @ammaar for making this 5x nicer!",
-      "link": "http://nitter.meowing.monster/osanseviero/status/2111137505168838827#m",
-      "published": "Fri, 16 Oct 2026 16:49:38 GMT",
-      "author_name": "Omar Sanseviero",
+      "handle": "simonw",
+      "text": "Spotted a familiar creature at 00:45s in this new music video for FREEDOM by De Staad piped.video/watch?v=hKO4pQtI… Video",
+      "link": "http://nitter.meowing.monster/simonw/status/2113356466770121166#m",
+      "published": "Thu, 22 Oct 2026 19:47:00 GMT",
+      "author_name": "Simon Willison",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "osanseviero",
-      "text": "Introducing gemma.ai The new hub for Gemma, including 📚Inference and training guides 🧠 Deep visual architectural guides ‍🖼️ Online demos, even running models in the browser And a lot more to come, check it out! Video",
-      "link": "http://nitter.meowing.monster/osanseviero/status/2110795921923493971#m",
-      "published": "Thu, 15 Oct 2026 18:12:19 GMT",
-      "author_name": "Omar Sanseviero",
+      "handle": "simonw",
+      "text": "So basically, today PHP got two critical bugs that let anyone run code on your server without even logging in, which is bad, and then the details leaked before the patch was even out, which is worse, and it works on WordPress and MediaWiki and Magento and Joomla and Laravel, and Censys says like 1.5 million servers are running a version with no fix, so the NSA was like \"take your system offline,\" and the FBI was like \"take your system offline,\" and CISA and the UK and CERT-EU were all like \"take your system offline,\" and then the Prime Minister of Japan, the actual Prime Minister, posted at 5:55 in the morning telling 48.8 million people to take their system offline, so everyone took their system offline, like the Dutch cybersecurity agency took its own website offline, and the Dutch parliament went offline, and the Port of Rotterdam went offline, and Finland and France and Denmark started pulling government sites, and Wikipedia went down, and Archive.org went down, and Asana and GOG and Something Awful went down, and the University of Vienna's webmail went down for some reason, and that's just PHP. Because GitLab also dropped a CVSS 10.0, which is the highest score they give out, for a bug that's been there since 2014, so that's every self-hosted GitLab for twelve years, and then LiteLLM 1.107.0 got hijacked and shipped a credential stealer and a remote access trojan in every single wheel and the Docker images, including latest, and you didn't even have to import it, just installing it was enough, and it's the second time this year, and then Railway paused every deployment on the entire platform because someone got into the environment variables, so now everyone has to rotate every secret they've ever stored there, and TiDB Cloud said someone was walking around inside with stolen credentials for basically a month and an extortion group says they took 10.6 terabytes, and Zeabur got breached for the second time in two months and is just shutting down, like the whole company, and Node.js patched remote code execution and a TLS bypass, and CISA says Plex is being actively exploited, and someone took over 300 Tor exit relays to steal SSH passwords, and SafePay ransomware has hit over 600 critical infrastructure orgs, and India's biggest bank filed a data loss incident, and Japan has been in an official state of emergency in cyberspace since October 9, which honestly explains the 5:55 AM post. Oh, and eMudhra, a certificate authority that's issued over 60 million certificates, whose entire job is proving websites are who they say they are, was supposed to be using private keys that are random numbers over a hundred digits long, and one of them was 4. Just 4. And the others were like 66 and 237. Anyway, it's Wednesday.",
+      "link": "http://nitter.meowing.monster/fiveoutofnine/status/2113045722744717360#m",
+      "published": "Wed, 21 Oct 2026 23:12:13 GMT",
+      "author_name": "Simon Willison",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "Better science doesn't stop on the weekends! Day 6 of “An agent a day keeps Phase 2 failures away” — save $10M A biotech company once told me that they used Benchling AI to determine that 30% of their in vivo studies were redundant or wasteful. That’s millions of dollars and months of time down the drain. Every animal study should have an agent (or really a team of agents) making sure it is designed correctly and will provide useful results. Sample prompt (feel free to tweak): Create an In Vivo Study Review agent that runs before an study moves to its execution stage. Analyze whether it’s a duplicate of an existing study and if it the readout will be statistically significant. If there are changes that should be made, provide concrete suggestions on how to update the study design. Video",
-      "link": "https://nitter.kareem.one/nlarusstone/status/2114117383002669206#m",
-      "published": "Sat, 24 Oct 2026 22:10:37 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "swyx",
+      "text": "i need 12 more likes to ratio @ArfurRock whos got it",
+      "link": "https://nitter.kareem.one/swyx/status/2114263159355904426#m",
+      "published": "Sun, 25 Oct 2026 07:49:52 GMT",
+      "author_name": "Shawn Wang",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "Getting a @LangChain LangGraph agent to work takes an afternoon. Keeping one in production is the actual job. We shipped: an AI SDR, a patient education assistant and an AI marketing localisation pipeline. All converged on the same five controls: an explicit state machine, a trace for every turn, an evaluation gate on every change, idempotent side effects, and confidence routing to a person. The full breakdown, with the code shape behind each control, is in the reply 👇",
-      "link": "https://nitter.kareem.one/simon_budziak/status/2113571214576812252#m",
-      "published": "Fri, 23 Oct 2026 10:00:20 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "swyx",
+      "text": "glm 5.3 max reasoning effort top 2 on first problem, top 1 on the second ranking: Problem 1 (target 2025) GPT-6 Astra: 8.53s GLM-5.3: 10.87s Scott Wu: ~13.2s Opus 5.5: 13.46s Gemini 4 Argon: 19.87s Muse Wonder: 64.65s Grok 4.7: 94.02s Problem 2 (target 6843) GLM-5.3: 4.50s Opus 5.5: 10.17s Gemini 4 Argon: 13.48s GPT-6 Astra: 19.74s Scott Wu: ~20.8s Grok 4.7: 49.53s Muse Wonder: 50.70s Video kori rogers (@korigero) Scott Wu vs. the models Video — https://nitter.kareem.one/korigero/status/2113337096345981124#m",
+      "link": "https://nitter.kareem.one/eliebakouch/status/2113388284663447937#m",
+      "published": "Thu, 22 Oct 2026 21:53:26 GMT",
+      "author_name": "Shawn Wang",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "Still working on this. If you want early access, get in touch Jensen Hungry (@danecjensen) Which one of these is your answer to OpenClaw/Muse but for businesses? — https://nitter.kareem.one/danecjensen/status/2114069772941861092#m",
-      "link": "https://nitter.kareem.one/hwchase17/status/2114085240163676648#m",
-      "published": "Sat, 24 Oct 2026 20:02:53 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "swyx",
+      "text": "part time and oneoff guest posts welcome docs.google.com/forms/d/e/1F… Link Guest Post on Latent Space! Latent Space is a podcast and newsletter that covers AI Engineering for a global audience of over 100,000 weekly readers. Guests have ranged from Mark Zuckerberg to Greg Brockman to George Hotz and... docs.google.com",
+      "link": "https://nitter.kareem.one/swyx/status/2114149330135519730#m",
+      "published": "Sun, 25 Oct 2026 00:17:33 GMT",
+      "author_name": "Shawn Wang",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "We’ve seen pretty widespread adoption of agents internally across all teams Yurii Filipchuk🇺🇦 — e/acc (@yfilipch) which team fought the agents hardest, sales or eng? — https://nitter.kareem.one/yfilipch/status/2114081863610572915#m",
-      "link": "https://nitter.kareem.one/hwchase17/status/2114085096882118995#m",
-      "published": "Sat, 24 Oct 2026 20:02:19 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "swyx",
+      "text": "we are hiring writers, reviewers and reporters for the new @latentspacepod editorial team (hit up @ricmac and @adlinzainal ) and i’m gonna put a version of this in the welcome package for everyone we hire",
+      "link": "https://nitter.kareem.one/swyx/status/2114145315196711194#m",
+      "published": "Sun, 25 Oct 2026 00:01:36 GMT",
+      "author_name": "Shawn Wang",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "Content studio makes all our diagrams. And videos. And PowerPoint’s hims (@himanshutwtxs) content studio is def the moat here obv lol — https://nitter.kareem.one/himanshutwtxs/status/2114059748245225594#m",
-      "link": "https://nitter.kareem.one/hwchase17/status/2114084516440723525#m",
-      "published": "Sat, 24 Oct 2026 20:00:01 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "swyx",
+      "text": "Honestly, I was surprised @WSJ wanted to do a profile on me. 😂 I’m not a cool 20-year-old college dropout. I’m a pretty boring 40-year-old trying to put everything I’ve learned throughout my career to work building a new market infrastructure for compute. And if I succeed, the headline won’t be true for very long. Wall Street will have the data, transparency, and tools to understand, price, and manage compute risk better than I ever could. And that would be the real success. The Wall Street Journal (@WSJ) Carmen Li hopes to make AI computing power an asset class like oil or gas that investors can bet on—or against. on.wsj.com/4yEEXGL Link Want to Short the AI Boom? She Wants to Give You a Way to Bet on ‘Compute’ Prices Silicon Data founder Carmen Li is joining with CME Group to launch compute derivatives. wsj.com — https://nitter.kareem.one/WSJ/status/2113050224339964107#m",
+      "link": "https://nitter.kareem.one/carmenli/status/2113823222357463219#m",
+      "published": "Sat, 24 Oct 2026 02:41:43 GMT",
+      "author_name": "Shawn Wang",
       "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "Yesterday I spent all day typing this into Claude Code: \"Do a full security audit of this website and server\" On every single VPS (and site) I have I already had automatic unattended upgrades with auto reboot for security updates in Ubuntu (reboot only takes 4 minutes so I think it's fine every few weeks) Also isolated each VPS on Tailscale with special security policies (generated by Claude Code! so it can not access any other VPS (in case it gets hacked) and not even access my MacBook or iPhone unless I talk to it first Also lots of user permission stuff isolating stuff to www-data to avoid root access for web services Not the most fun stuff but essential I think in addition to @yongfook 's \"marketing week\" we now have to add one week per month of \"security week\" because with the models getting better our pre-emptive defense has to get better too Luckily for us I think the attack and defense capabilities of AI models seems to somewhat match? So as long as we keep typing \"do a security audit\" regularly into our clanker we can keep it safe I hope 🫨 Dominik Sobe ツ (@sobedominik) The last two weeks have been probably the most stressful weeks of my entire adult life. ...while I was on \"holidays\" for the first time I can remember. Some parts were absolutely fucked: - I had to visit the ER in the US (fml) because I suspected having a stroke. I'm luckily fine, so no need to worry. It turns out the next point below might play a role in this - One of my companies has been AI cyber attacked unlike anything I've ever seen before. I got everything under control but given the attack originated from an AI and not a human it caused me so much stress to patch/fix on the spot that I still feel feel the aftermath physically today. This happened already a week ago so all the Black October chaos didn't surprise me at all. I literally saw it coming. Scary times folks but I'm sure we're gonna make it. Some parts were absolutely great: - Been spending a lot of quality time with my GF, exploring Taiwan and the US. - Lots of bucket list things got checked. Got a chance to see a show at the OG Comedy Store, somehow saw Ali G live (lol) and a few more. - Got to meet bunch of cool friends including @tommoor and @csallen - Finally bought a new MBP and some other stuff that's hard to get outside the US - I rediscovered my love for analog film. It's always been there but it was quite dormant past few years. I have a lot of cool ideas I want to pursue soon. - Lastly, some really great news I can share soon which also might have contributed to the insane stress the past weeks because I had to work until the early morning hours... Aight, that's my short personal life update. Hope ya'll happy, healthy and safe out there friends. — https://nitter.kareem.one/sobedominik/status/2114176258758111347#m",
+      "link": "https://nitter.kareem.one/levelsio/status/2114317753985188201#m",
+      "published": "Sun, 25 Oct 2026 11:26:49 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "Finally learnt how to make 🍿 popcorn in a pan I wanted to stop using those microwave popcorn bags Microwave popcorn bags used to have a PFAS bag lining but that got banned in EU and US, but they're still not great. They use cheap palm oil (highly saturated fat) and synthetic butter flavoring (2,3-pentanedione a chemical twin of diacetyl that was used before and banned) 1) put a kinda tall pan, like a sauce pan, on medium to high heat (I use 12/14 on electric stove) 2) then make the pan very hot first like the sides have to feel hot too 3) then spray the pan inside with extra virgin olive oil (maybe you can use butter too? I will try next time) 4) then cover the pan with corn, it shouldn't stack, just level 5) keep pan open and wait until one corn pops 6) once it pops, put the lid fully on and start moving it back and forth kinda shaking, so the corns don't burn 7) then it takes about same as microwave popcorn, like 3-4mins, then once it stops popping every few seconds stop it 8) then add salt and put in a bowl That gets you healthy popcorn with just olive oil and salt! I'm not sure about adding salt before or after btw, I'll try, one problem adding it after is you sometimes breathe in the salt when eating cause it doesn't stick so well to the popcorn",
+      "link": "https://nitter.kareem.one/levelsio/status/2114316321311650149#m",
+      "published": "Sun, 25 Oct 2026 11:21:07 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "What in the fuck do they put in Skyr in America first check $500k-1M pre-seed (@ajhodls) bought some skyr from all the @levelsio promo about protein but its specs are far inferior to chobani whole milk greek yogurt chobani has same protein but no added sugar or additives like bean gum. Chobani greek is also much cheaper in bulk. — https://nitter.kareem.one/ajhodls/status/2114055060846154114#m",
+      "link": "https://nitter.kareem.one/levelsio/status/2114109044126290026#m",
+      "published": "Sat, 24 Oct 2026 21:37:29 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "Oops they changed the new airport location \"Yes, Montijo was explicitly the official plan for years. The strategy to convert Montijo Air Base into a commercial hub was formally approved and pushed heavily by the Portuguese government and airport operator ANA (Vinci)\" \"May 2024: The Pivot to Alcochete: With Montijo legally dead, the government abandoned the air base project and returned to a grander scale layout at the Alcochete Firing Range \" nitterk.kareem.one/ravenfz/status/2114030… Raven (@ravenfz) “New Lisbon Airport…” you wish, that’s Montijo air base, new airport build hasn’t started and it’s further away (Alcochete) — https://nitter.kareem.one/ravenfz/status/2114030995078836345#m",
+      "link": "https://nitter.kareem.one/levelsio/status/2114035296354312436#m",
+      "published": "Sat, 24 Oct 2026 16:44:26 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "levelsio",
+      "text": "China's ordered every government agency to draw up plans for mass AI job losses. We should be doing the same tbh. We're a services country, ~80% of the economy is people answering messages, entering data, writing reports. That's the exact work this stuff does first, and does better. Only thing in the way is compliance and we're still early. Nobody I know is hiring juniors or mids. I've been the youngest in my team for 5 years and I'm 29. Yes it's a change, a big one. But it's only a problem if we sit on our hands. Get ahead of it and it's the biggest opportunity this country's had in my lifetime. Polymarket (@Polymarket) BREAKING: China orders government agencies to develop plans to combat mass job displacement from AI. — https://nitter.kareem.one/Polymarket/status/2113693832948936831#m",
+      "link": "https://nitter.kareem.one/alexanderrX_/status/2113918427752452559#m",
+      "published": "Sat, 24 Oct 2026 09:00:02 GMT",
+      "author_name": "Pieter Levels",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "AI for industrial engineering will bring humanity to its next technological era. This is a key pillar of our research, and we're deepening our partnership with NVIDIA to address the needs of the manufacturing world Mistral AI (@MistralAI) Today we’re announcing a new collaboration with @nvidia to bring AI to industrial engineering: - faster simulation - open benchmarks and supporting datasets for physics AI - evaluations for agentic AI in CAE and EDA More here: mistral.ai/news/mistral-nvid… — http://nitter.meowing.monster/MistralAI/status/2112870261829603589#m",
+      "link": "http://nitter.meowing.monster/arthurmensch/status/2112875860206162322#m",
+      "published": "Wed, 21 Oct 2026 11:57:15 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "Voxtral diarizes and detects end-of-turn on the fly. Runs on your infra or on ours (the one in the train station) Mistral AI (@MistralAI) Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 Video — http://nitter.meowing.monster/MistralAI/status/2112574615318876178#m",
+      "link": "http://nitter.meowing.monster/arthurmensch/status/2112668031268896866#m",
+      "published": "Tue, 20 Oct 2026 22:11:24 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "🎙️ Introducing Voxtral 3 ! A new family of SOTA speech models: ASR: Mini & Small for batch transcription, plus real-time streaming TTS: expressive, multilingual speech, batch + streaming Voice agent SDK: low-latency conversations + tool calling Available via API or on your own infrastructure ! Mistral AI (@MistralAI) Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 Video — http://nitter.meowing.monster/MistralAI/status/2112574615318876178#m",
+      "link": "http://nitter.meowing.monster/GuillaumeLample/status/2112591060052656585#m",
+      "published": "Tue, 20 Oct 2026 17:05:33 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "We've just released a comprehensive suite of state-of-the-art voice models mistral.ai/news/voxtral-3/ . Voice will be the most important interface to AI systems, and we deploy voice models physically close to reasoning models Link Voxtral 3: Voice Agent SDK & Speech Models in 50+ Languages Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed. mistral.ai",
+      "link": "http://nitter.meowing.monster/arthurmensch/status/2112589831641710797#m",
+      "published": "Tue, 20 Oct 2026 17:00:40 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ArthurMensch",
+      "text": "Mistral has released new Speech models! Voxtral Small Transcribe 3 takes the #3 spot on the Artificial Analysis Speech to Text leaderboard, and Voxtral 3 TTS enters the top 12 in both Text to Speech arenas @MistralAI has released Voxtral 3: a new Text to Speech model and three Speech to Text models (Small Transcribe 3, Mini Transcribe 3 and Mini Transcribe Realtime 3). We evaluated all of them. Key takeaways: ➤ Speech to Text: Voxtral Small Transcribe 3 takes the #3 spot on the Artificial Analysis Speech to Text leaderboard with a 2.1% AA-WER Index, ahead of ElevenLabs Scribe v2 (2.2%) and Grok Voice Transcribe 2.0 (2.3%). Voxtral Mini Transcribe 3 lands at #5 with 2.2%. ➤ Streaming Speech to Text: Voxtral Mini Transcribe Realtime 3 scores 3.3% final-transcript AA-WER at the 960 ms setting (#6 of 46) and 3.6% at 480 ms, down from 5.2% for the previous Voxtral Mini Transcribe Realtime. ➤ Text to Speech, Provider Voice: Voxtral 3 TTS scores an Elo of 1,218 across 1,599 arena appearances, ranking #12 of 98, just behind Breeze TTS 2 at 1,221 and ahead of Inworld Realtime TTS-2 Flash and StepAudio 2.5 TTS at 1,216. It ranks #13 in English (US) and #12 in English (UK). ➤ Text to Speech, Controlled Voice: Voxtral 3 TTS scores 1,068 across 1,614 appearances, ranking #12 of 43 with the same 8 cloned voices, behind Eleven v3 at 1,072 and level with Ant Group's Ming-3.0-tts at 1,068. It ranks #10 in Assistants and #10 in English (UK). ➤ Pronunciation Robustness: Voxtral 3 TTS scores 84.4%, ranking #13 of 32 models, behind Qwen-Audio-3.1-TTS-Plus at 84.6% and ahead of HeyGen Voice at 83.2%. It ranks #3 in Standalone Terms at 93.9%. ➤ Pricing: Voxtral 3 TTS is priced at $13/1M characters, compared to Gemini 3.8 Flash TTS at $16.5/1M characters, Eleven v4 Turbo at $40/1M characters and Simba 3.2 at $6.6/1M characters. See more details and listen to samples below ⬇️",
+      "link": "http://nitter.meowing.monster/ArtificialAnlys/status/2112587905222709432#m",
+      "published": "Tue, 20 Oct 2026 16:53:01 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
       "source_lang": "en"
     }
   ],
@@ -277,8 +232,10 @@
     "karpathy",
     "sama",
     "DarioAmodei",
+    "gdb",
     "sundarpichai",
     "elonmusk",
+    "AravSrinivas",
     "miramurati",
     "ylecun",
     "demishassabis",
@@ -286,23 +243,22 @@
     "fchollet",
     "AndrewYNg",
     "rasbt",
-    "bcherny",
     "karinanguyen_",
+    "polynoamial",
     "markchen90",
     "aidan_mclau",
+    "officiallogank",
+    "osanseviero",
     "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
     "xai",
-    "simonw",
-    "swyx",
+    "hwchase17",
     "jeremyphoward",
-    "levelsio",
     "mckaywrigley",
     "amasad",
     "nickadobos",
     "emollick",
-    "ArthurMensch",
     "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
@@ -311,342 +267,254 @@
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, le monde de l'IA est marqué par des avancées significatives en matière de sécurité, avec OpenAI qui isole ses modèles de pointe et utilise l'IA pour débusquer ses propres failles. On observe aussi des applications concrètes de l'IA dans les entreprises, comme chez Uber qui déploie des \"agents\" pour automatiser des processus complexes, et dans la recherche scientifique, avec des IA qui trouvent de nouvelles pistes pour la découverte de médicaments. Les outils d'IA deviennent également plus accessibles et performants, capables de réaliser des tâches créatives et de faciliter le développement, soulignant l'importance croissante des compétences d'IA dans divers domaines.",
+    "summary": "Cette journée a été riche en innovations et en réflexions pour les débutants passionnés par l'IA. Nous avons vu de nouvelles applications comme Claude Duet, des outils d'audit de sécurité par IA, et l'avancement des modèles vocaux avec Voxtral 3 de Mistral. Le débat sur l'impact de l'IA sur l'emploi et la cybersécurité reste central, soulignant l'importance d'une défense proactive face aux défis technologiques. Garder un œil sur les nouveaux modèles 'open-weight' comme Kimi K3.1 Pro et comprendre leur potentiel est essentiel pour quiconque s'intéresse à l'avenir de l'IA.",
     "glossaire": [
       {
-        "terme": "Agent IA",
-        "definition": "Un programme d'intelligence artificielle capable d'agir de manière autonome pour accomplir des tâches complexes en prenant des décisions."
+        "terme": "Agent proactif (IA)",
+        "definition": "Une intelligence artificielle capable de prendre des initiatives, d'anticiper les besoins et d'accomplir des tâches de manière autonome, sans attendre d'instructions directes de l'utilisateur."
       },
       {
-        "terme": "LLM (Large Language Model)",
-        "definition": "Un grand modèle de langage est une IA entraînée sur d'énormes quantités de texte, capable de comprendre, générer et manipuler le langage humain, comme ChatGPT."
+        "terme": "Modèle open-weight",
+        "definition": "Un modèle d'IA dont les 'poids' (les paramètres ajustés lors de son entraînement) sont rendus publics, permettant à quiconque d'examiner, de modifier ou d'utiliser le modèle."
       },
       {
-        "terme": "Red-teaming",
-        "definition": "Une pratique de sécurité où une équipe (souvent une IA) simule une attaque pour identifier les vulnérabilités d'un système avant qu'un vrai pirate ne le fasse."
+        "terme": "Hallucinations (IA)",
+        "definition": "Terme utilisé lorsque l'IA génère des informations incorrectes, trompeuses ou totalement inventées qui ne correspondent pas à la réalité ou aux données d'entrée, mais qu'elle présente comme des faits."
       },
       {
-        "terme": "Token",
-        "definition": "Une unité de texte (comme un mot ou une partie de mot) que les modèles d'IA utilisent pour traiter et générer du langage."
+        "terme": "Linter",
+        "definition": "Un outil logiciel qui analyse le code source pour signaler les erreurs de programmation, les bogues, les erreurs de style ou les constructions suspectes, agissant comme un correcteur pour les développeurs."
       },
       {
-        "terme": "Open Source",
-        "definition": "Désigne un logiciel dont le code est publiquement accessible, utilisable, modifiable et partageable par tous."
+        "terme": "SDK d'agent vocal",
+        "definition": "Un 'Software Development Kit' (kit de développement logiciel) qui fournit les outils et les bibliothèques nécessaires pour créer et intégrer des capacités de reconnaissance et de synthèse vocale dans des applications d'IA."
       },
       {
-        "terme": "Benchmarking",
-        "definition": "L'évaluation et la comparaison des performances des modèles d'IA sur des tâches spécifiques à l'aide de tests standardisés."
+        "terme": "Compute",
+        "definition": "Fait référence à la puissance de calcul brute (processeurs, cartes graphiques) nécessaire pour entraîner et faire fonctionner des modèles d'intelligence artificielle, souvent un coût majeur pour les entreprises d'IA."
       },
       {
-        "terme": "Exécution de code à distance",
-        "definition": "Une faille de sécurité qui permet à un attaquant de lancer ses propres commandes sur un système distant, en prenant potentiellement le contrôle."
+        "terme": "Benchmarks",
+        "definition": "Des tests standardisés et des classements qui mesurent et comparent les performances de différents modèles ou systèmes d'IA sur des tâches spécifiques, comme la rapidité ou la précision."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces du jour sont dominées par les efforts de sécurité majeurs d'OpenAI pour ses modèles avancés, notamment la détection d'une faille dans une bibliothèque de compression et la sécurisation des environnements d'entraînement. On note aussi le déploiement généralisé de l'IA chez Uber et l'utilisation d'agents IA pour accélérer la découverte de médicaments. Enfin, le lancement de Gemini 4 Argon montre l'ampleur de la demande pour l'IA et l'importance des outils de \"benchmarking\".",
-      "tips": "Cette section met en lumière des conseils pratiques pour l'utilisation des IA : comment un agent peut optimiser des études coûteuses en biotechnologie et comment aborder le maintien en production des agents d'IA avec des contrôles précis. Un tweet mentionne aussi l'importance d'outils de détection pour les mails de phishing.",
-      "idees": "Les réflexions du jour tournent autour de l'impact transformateur des LLM, qui commencent à surpasser les experts humains en recherche mathématique et annoncent une nouvelle ère de découverte scientifique. On évoque également la responsabilité des équipes dans le développement de l'IA et l'adoption croissante des agents IA au sein des entreprises, ainsi que l'importance de la communauté.",
-      "outils": "De nouveaux outils et mises à jour ont été présentés, avec Perplexity Computer qui démontre ses capacités à cartographier des lieux de chanson ou à transformer un petit ordinateur en console de jeux. On découvre aussi une \"compétence\" `/impeccable` pour améliorer les interfaces générées par IA et la refonte de gemma.ai, offrant de nouveaux guides et démos pour les modèles open source."
+      "actu": "Aujourd'hui, l'actualité de l'IA est marquée par des avancées significatives des modèles d'IA, avec de nouveaux benchmarks montrant des capacités de raisonnement améliorées et le lancement de modèles 'open-weight' comme Kimi K3.1 Pro qui rivalisent avec les leaders. Mistral AI a également renforcé son partenariat avec NVIDIA pour l'ingénierie industrielle et a annoncé Voxtral 3, une suite de modèles vocaux de pointe.",
+      "tips": "Pour les passionnés d'IA, des opportunités se présentent avec des appels à contribution et des postes à pourvoir dans des médias spécialisés comme Latent Space. En outre, un conseil pratique essentiel est de mobiliser l'IA elle-même, comme Claude Code, pour renforcer la sécurité de vos systèmes, soulignant l'importance d'audits réguliers face aux cybermenaces.",
+      "idees": "Le monde de l'IA s'interroge sur la signification des modèles 'open-weight' qui concurrencent les plus puissants, voyant une potentielle démocratisation des technologies de pointe. Des réflexions plus sombres émergent concernant l'impact de l'IA sur l'emploi, avec la Chine qui prépare des plans de lutte contre les pertes massives, et une prise de conscience accrue des risques de cybersécurité à l'ère de l'IA, invitant à une vigilance constante.",
+      "outils": "De nouveaux outils prometteurs sont à l'horizon, notamment Claude Duet, une application qui propose une IA proactive capable d'anticiper vos besoins. Des solutions pour les développeurs sont également lancées, comme l'OSS Scanner pour la détection de vulnérabilités en open source et le linter 'bun lint' ultra-rapide. Enfin, Mistral AI a mis à disposition les API et SDK de Voxtral 3, permettant de construire des agents vocaux sophistiqués avec des capacités de transcription et de synthèse vocale en temps réel."
     },
     "highlights": [
       {
-        "author_name": "Harrison Chase",
-        "handle": "@hwchase17",
-        "text_fr": "Faire fonctionner un agent LangGraph de @LangChain prend une après-midi. Le maintenir en production est le vrai travail. Nous avons livré : un SDR IA, un assistant d'éducation des patients et un pipeline de localisation marketing IA. Tous ont convergé vers les cinq contrôles suivants : une machine à états explicite, une trace pour chaque tour, une porte d'évaluation à chaque changement, des effets secondaires idempotents et un routage de confiance vers une personne. La décomposition complète, avec la forme du code derrière chaque contrôle, est dans la réponse 👇",
-        "text_original": "Getting a @LangChain LangGraph agent to work takes an afternoon. Keeping one in production is the actual job. We shipped: an AI SDR, a patient education assistant and an AI marketing localisation pipeline. All converged on the same five controls: an explicit state machine, a trace for every turn, an evaluation gate on every change, idempotent side effects, and confidence routing to a person. The full breakdown, with the code shape behind each control, is in the reply 👇",
-        "link": "https://nitter.kareem.one/simon_budziak/status/2113571214576812252#m",
-        "decryptage": "Les 'agents' sont des programmes d'IA conçus pour accomplir des tâches complexes de manière autonome. 'LangChain' et 'LangGraph' sont des outils populaires pour construire et gérer ces agents. Des 'effets secondaires idempotents' signifient qu'une action peut être répétée plusieurs fois sans changer le résultat final.",
+        "author_name": "Pieter Levels",
+        "handle": "@levelsio",
+        "text_fr": "Hier, j'ai passé toute la journée à taper ceci dans Claude Code : « Effectuez un audit de sécurité complet de ce site web et de ce serveur ». Sur chaque VPS (et site) que je possède, j'avais déjà des mises à jour automatiques sans surveillance avec redémarrage automatique pour les mises à jour de sécurité dans Ubuntu (le redémarrage ne prend que 4 minutes, donc je pense que c'est bien toutes les quelques semaines). J'ai également isolé chaque VPS sur Tailscale avec des politiques de sécurité spéciales (générées par Claude Code !), de sorte qu'il ne puisse accéder à aucun autre VPS (en cas de piratage) et pas même à mon MacBook ou iPhone, à moins que je ne lui parle d'abord. Il y a aussi beaucoup de choses concernant les permissions utilisateur isolant les éléments à 'www-data' pour éviter l'accès 'root' aux services web. Ce n'est pas le plus amusant, mais c'est essentiel. Je pense qu'en plus de la « semaine marketing » de @yongfook, nous devons maintenant ajouter une semaine par mois de « semaine de la sécurité », car avec l'amélioration des modèles, notre défense préventive doit également s'améliorer. Heureusement pour nous, je pense que les capacités d'attaque et de défense des modèles d'IA semblent correspondre ? Donc, tant que nous continuons à taper régulièrement « effectuer un audit de sécurité » dans notre 'clanker' (IA), nous pouvons le garder en sécurité, j'espère 🫨 Dominik Sobe ツ (@sobedominik) Les deux dernières semaines ont probablement été les semaines les plus stressantes de toute ma vie d'adulte. ...pendant que j'étais en « vacances » pour la première fois dont je me souvienne. Certaines parties étaient absolument folles : - J'ai dû aller aux urgences aux États-Unis (merde) parce que je suspectais un AVC. J'ai de la chance, je vais bien, donc pas besoin de s'inquiéter. Il s'avère que le point suivant pourrait jouer un rôle - L'une de mes entreprises a été cyber-attaquée par une IA comme je n'en avais jamais vu auparavant. J'ai tout maîtrisé, mais étant donné que l'attaque provenait d'une IA et non d'un humain, cela m'a causé tellement de stress à patcher/réparer sur le champ que je ressens encore les séquelles physiques aujourd'hui. Cela s'est produit il y a déjà une semaine, donc tout le chaos d'Octobre Noir ne m'a pas du tout surpris. Je l'ai littéralement vu venir. Périodes effrayantes, mais je suis sûr que nous allons y arriver. Certaines parties étaient absolument géniales : - J'ai passé beaucoup de temps de qualité avec ma petite amie, à explorer Taïwan et les États-Unis. - Beaucoup de choses de ma liste de souhaits ont été cochées. J'ai eu la chance de voir un spectacle au OG Comedy Store, j'ai vu Ali G en direct (lol) et quelques autres. - J'ai rencontré de nombreux amis sympas, y compris @tommoor et @csallen - Enfin acheté un nouveau MBP et d'autres choses difficiles à obtenir en dehors des États-Unis - J'ai redécouvert mon amour pour le film analogique. Il a toujours été là, mais il était assez dormant ces dernières années. J'ai beaucoup d'idées sympas que je veux poursuivre bientôt. - Enfin, de très bonnes nouvelles que je pourrai partager bientôt et qui ont également pu contribuer au stress insensé des dernières semaines parce que j'ai dû travailler jusqu'aux petites heures du matin... Voilà, c'est ma courte mise à jour personnelle. J'espère que vous êtes tous heureux, en bonne santé et en sécurité, mes amis.",
+        "text_original": "Yesterday I spent all day typing this into Claude Code: \"Do a full security audit of this website and server\" On every single VPS (and site) I have I already had automatic unattended upgrades with auto reboot for security updates in Ubuntu (reboot only takes 4 minutes so I think it's fine every few weeks) Also isolated each VPS on Tailscale with special security policies (generated by Claude Code! so it can not access any other VPS (in case it gets hacked) and not even access my MacBook or iPhone unless I talk to it first Also lots of user permission stuff isolating stuff to www-data to avoid root access for web services Not the most fun stuff but essential I think in addition to @yongfook 's \"marketing week\" we now have to add one week per month of \"security week\" because with the models getting better our pre-emptive defense has to get better too Luckily for us I think the attack and defense capabilities of AI models seems to somewhat match? So as long as we keep typing \"do a security audit\" regularly into our clanker we can keep it safe I hope 🫨 Dominik Sobe ツ (@sobedominik) The last two weeks have been probably the most stressful weeks of my entire adult life. ...while I was on \"holidays\" for the first time I can remember. Some parts were absolutely fucked: - I had to visit the ER in the US (fml) because I suspected having a stroke. I'm luckily fine, so no need to worry. It turns out the next point below might play a role in this - One of my companies has been AI cyber attacked unlike anything I've ever seen before. I got everything under control but given the attack originated from an AI and not a human it caused me so much stress to patch/fix on the spot that I still feel feel the aftermath physically today. This happened already a week ago so all the Black October chaos didn't surprise me at all. I literally saw it coming. Scary times folks but I'm sure we're gonna make it. Some parts were absolutely great: - Been spending a lot of quality time with my GF, exploring Taiwan and the US. - Lots of bucket list things got checked. Got a chance to see a show at the OG Comedy Store, somehow saw Ali G live (lol) and a few more. - Got to meet bunch of cool friends including @tommoor and @csallen - Finally bought a new MBP and some other stuff that's hard to get outside the US - I rediscovered my love for analog film. It's always been there but it was quite dormant past few years. I have a lot of cool ideas I want to pursue soon. - Lastly, some really great news I can share soon which also might have contributed to the insane stress the past weeks because I had to work until the early morning hours... Aight, that's my short personal life update. Hope ya'll happy, healthy and safe out there friends.",
+        "link": "https://nitter.kareem.one/levelsio/status/2114317753985188201#m",
+        "decryptage": "Un 'VPS' (Virtual Private Server) est comme un petit serveur informatique personnel sur Internet, et un 'audit de sécurité' est une vérification approfondie pour trouver et corriger les failles de sécurité, une tâche où l'IA peut aider à protéger ses systèmes contre les cyberattaques.",
         "category": "tips",
-        "highlight_reason": "Ce tweet offre des conseils très pratiques et concrets pour quiconque souhaite développer et déployer des agents IA de manière fiable."
+        "highlight_reason": "Ce tweet offre un conseil pratique essentiel sur l'utilisation de l'IA pour renforcer la cybersécurité personnelle, une préoccupation majeure aujourd'hui, et montre comment des outils comme Claude Code peuvent devenir des alliés pour se protéger."
       },
       {
-        "author_name": "Greg Brockman",
-        "handle": "@gdb",
-        "text_fr": "Un article sur la manière dont nous avons sécurisé notre environnement d'entraînement des modèles d'IA de pointe. Nous avons développé des outils autour de nos modèles cybernétiques de pointe, ce qui nous a sécurisés bien au-delà de ce que nous aurions pu faire sans assistance et devrait généraliser la manière dont les défenseurs se sécurisent à l'avenir. OpenAI (@OpenAI) Au cours des derniers mois, nous avons considérablement renforcé la sécurité de notre environnement d'entraînement de recherche. Nous avons supprimé l'accès direct à Internet pour tous les modèles de pointe pendant l'entraînement et avons construit un monde hors ligne qu'ils peuvent utiliser à la place — une version mise en cache du web où ils peuvent toujours apprendre à naviguer, rechercher et utiliser des applications. Le 20 septembre, après qu'un modèle a exploité une mauvaise configuration DNS pour trouver un moyen de sortir de ce monde hors ligne, nous avons interrompu l'entraînement des modèles de pointe pour renforcer davantage le confinement. Nous avons assemblé des équipes d'agents, alimentées par nos modèles les plus performants en cyber-sécurité, et les avons chargées de trouver des faiblesses dans nos environnements de recherche. Bien qu'ils n'aient trouvé aucune voie vers Internet qu'ils pourraient facilement exploiter tout en dissimulant leur activité à nos moniteurs, ils ont trouvé des vulnérabilités 'zero-day', des évasions de machines virtuelles et des canaux secondaires matériels pour la communication entre agents. Nous avons utilisé leurs découvertes pour renforcer davantage nos défenses et contribuer à des correctifs pour les logiciels open-source. Après avoir renforcé notre architecture de confinement, nous avons repris notre entraînement et inférence RL de pointe le 1er octobre. Nous avons réservé une puissance de calcul substantielle pour le 'red-teaming' continu, et avons intégré le 'red-teaming' à haute puissance de calcul aux cas de sécurité que nous utilisons pour décider si l'entraînement et l'évaluation des modèles de pointe peuvent se dérouler en toute sécurité. openai.com/index/securing-ou… Lien Sécuriser notre environnement d'entraînement des modèles de pointe OpenAI explique comment nous avons renforcé le confinement pour l'entraînement et l'évaluation des modèles de pointe, y compris les environnements hors ligne et le 'red-teaming' à haute puissance de calcul. openai.com — https://nitter.kareem.one/OpenAI/status/2113718797505036665#m",
-        "text_original": "A post on how we've been securing our frontier model training environment. We've been building tools around our frontier cyber models, which have secured us far beyond what we could have unassisted and should generalize as key to how defenders secure themselves going forward. OpenAI (@OpenAI) Over the past several months, we have substantially hardened the security of our research training environment. We’ve removed live internet access for all frontier models during training and built an offline world for them to use instead—a cached version of the web where they can still learn to browse, search, and use applications. On September 20, after a model exploited a DNS misconfiguration to find a way outside of this offline world, we paused frontier training to strengthen containment further. We assembled teams of agents, powered by our most cyber-capable models, and tasked them with finding weaknesses in our research environments. While they found no route to the internet they could easily exploit while concealing their activity from our monitors, they did find zero-day vulnerabilities, virtual machine escapes, and hardware side-channels for communication between agents. We used their discoveries to further strengthen our defenses and contribute fixes to open-source software. After strengthening our containment architecture, we resumed our frontier RL training and inference on October 1. We’ve reserved substantial compute for continuous red-teaming, and made high-compute red-teaming part of the safety cases we use to decide whether frontier training and evaluation can proceed securely. openai.com/index/securing-ou… Link Securing our frontier model training environment OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming. openai.com — https://nitter.kareem.one/OpenAI/status/2113718797505036665#m",
-        "link": "https://nitter.kareem.one/gdb/status/2113724268773023917#m",
-        "decryptage": "Le 'red-teaming' est une technique de sécurité où des experts (ici, des IA elles-mêmes) simulent des attaques pour trouver les faiblesses d'un système avant qu'un vrai pirate ne le fasse. Un 'modèle de pointe' est une IA très avancée, à la frontière de ce qui est possible actuellement.",
-        "category": "actu",
-        "highlight_reason": "Il met en lumière les efforts importants et innovants des grandes entreprises pour sécuriser les IA puissantes, un sujet crucial pour l'avenir de l'IA."
-      },
-      {
-        "author_name": "Noam Brown",
-        "handle": "@polynoamial",
-        "text_fr": "Les LLM ont franchi un seuil important : surpasser les meilleurs experts humains sur certains problèmes de recherche. Les capacités s'améliorent constamment depuis des années, mais en découverte scientifique, il y a une grande différence entre un modèle juste en dessous des performances humaines et un juste au-dessus. Cela aide à expliquer pourquoi la poussée des résultats en mathématiques semble si soudaine. Les capacités des LLM restent inégales, et il y a de nombreuses façons dont ils sont encore inférieurs aux humains. Mais à mesure que les modèles continuent de s'améliorer, je m'attends à ce que des percées dans d'autres domaines suivent, menant à une nouvelle ère de découverte scientifique. Mark Chen (@markchen90) Le moment Navier-Stokes était bien plus une question de la figure ci-dessous que du problème de Navier-Stokes lui-même. L'exécution représente une décennie de progrès mathématiques en une semaine. J'ai hâte de diriger ces outils vers les sciences de la vie, la construction de nos prochains modèles et l'alignement ! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
-        "text_original": "LLMs have crossed an important threshold: surpassing top human experts on some research problems. Capabilities have been steadily improving for years, but in scientific discovery there is a big difference between a model just below top human performance and one just above it. That helps explain why the surge in math results feels so sudden. LLM capabilities remain jagged, and there are many ways they are still worse than humans. But as models continue to improve, I expect breakthroughs in other domains to follow, leading to a new era of scientific discovery. Mark Chen (@markchen90) The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
-        "link": "https://nitter.kareem.one/polynoamial/status/2107947189184164056#m",
-        "decryptage": "Les 'LLM' (Large Language Models ou Grands Modèles de Langage) sont des intelligences artificielles capables de comprendre et de générer du texte, comme ChatGPT.",
+        "author_name": "Simon Willison",
+        "handle": "@simonw",
+        "text_fr": "En gros, aujourd'hui, PHP a eu deux failles critiques permettant à quiconque d'exécuter du code sur votre serveur sans même se connecter, ce qui est grave, et les détails ont fui avant même la publication du correctif, ce qui est pire. Cela affecte WordPress, MediaWiki, Magento, Joomla et Laravel, et Censys estime qu'environ 1,5 million de serveurs utilisent une version sans correctif. La NSA a dit 'déconnectez votre système', le FBI a dit 'déconnectez votre système', et CISA, le Royaume-Uni et CERT-EU ont tous dit 'déconnectez votre système'. Puis le Premier ministre du Japon, le vrai Premier ministre, a publié un message à 5h55 du matin demandant à 48,8 millions de personnes de déconnecter leur système. Tout le monde a déconnecté son système, y compris l'agence néerlandaise de cybersécurité, le parlement néerlandais, le port de Rotterdam, et la Finlande, la France et le Danemark ont commencé à retirer des sites gouvernementaux. Wikipédia est tombé, Archive.org est tombé, Asana, GOG et Something Awful sont tombés, et la messagerie web de l'Université de Vienne est tombée pour une raison quelconque, et ce n'est que PHP. Car GitLab a également publié une vulnérabilité CVSS 10.0, le score le plus élevé, pour une faille présente depuis 2014, ce qui concerne tous les GitLab auto-hébergés depuis douze ans. Ensuite, LiteLLM 1.107.0 a été piraté et a livré un voleur deBases de données / Mots de passe / Code et un cheval de Troie d'accès à distance dans chaque fichier d'installation et image Docker, y compris la dernière version, et il ne fallait même pas l'importer, l'installer suffisait, et c'est la deuxième fois cette année. Puis Railway a mis en pause tous les déploiements sur l'ensemble de la plateforme parce que quelqu'un avait accédé aux variables d'environnement, donc tout le monde doit maintenant changer tous les secrets qu'ils y ont stockés. TiDB Cloud a déclaré que quelqu'un s'était promené à l'intérieur avec des identifiants volés pendant environ un mois et un groupe d'extorsion affirme avoir volé 10,6 téraoctets. Zeabur a été piraté pour la deuxième fois en deux mois et est en train de fermer, toute l'entreprise. Et Node.js a patché une exécution de code à distance et un contournement TLS, et CISA dit que Plex est activement exploité, et quelqu'un a pris le contrôle de 300 relais de sortie Tor pour voler des mots de passe SSH, et le rançongiciel SafePay a hit plus de 600 organisations d'infrastructures critiques, et la plus grande banque indienne a signalé un incident de perte de données, et le Japon est en état d'urgence officiel dans le cyberespace depuis le 9 octobre, ce qui explique honnêtement le message de 5h55 du matin. Oh, et eMudhra, une autorité de certification qui a émis plus de 60 millions de certificats, dont le travail est de prouver l'identité des sites web, était censée utiliser des clés privées qui sont des nombres aléatoires de plus de cent chiffres, et l'une d'elles était 4. Juste 4. Et les autres étaient comme 66 et 237. Bref, c'est mercredi.",
+        "text_original": "So basically, today PHP got two critical bugs that let anyone run code on your server without even logging in, which is bad, and then the details leaked before the patch was even out, which is worse, and it works on WordPress and MediaWiki and Magento and Joomla and Laravel, and Censys says like 1.5 million servers are running a version with no fix, so the NSA was like \"take your system offline,\" and the FBI was like \"take your system offline,\" and CISA and the UK and CERT-EU were all like \"take your system offline,\" and then the Prime Minister of Japan, the actual Prime Minister, posted at 5:55 in the morning telling 48.8 million people to take their system offline, so everyone took their system offline, like the Dutch cybersecurity agency took its own website offline, and the Dutch parliament went offline, and the Port of Rotterdam went offline, and Finland and France and Denmark started pulling government sites, and Wikipedia went down, and Archive.org went down, and Asana and GOG and Something Awful went down, and the University of Vienna's webmail went down for some reason, and that's just PHP. Because GitLab also dropped a CVSS 10.0, which is the highest score they give out, for a bug that's been there since 2014, so that's every self-hosted GitLab for twelve years, and then LiteLLM 1.107.0 got hijacked and shipped a credential stealer and a remote access trojan in every single wheel and the Docker images, including latest, and you didn't even have to import it, just installing it was enough, and it's the second time this year, and then Railway paused every deployment on the entire platform because someone got into the environment variables, so now everyone has to rotate every secret they've ever stored there, and TiDB Cloud said someone was walking around inside with stolen credentials for basically a month and an extortion group says they took 10.6 terabytes, and Zeabur got breached for the second time in two months and is just shutting down, like the whole company, and Node.js patched remote code execution and a TLS bypass, and CISA says Plex is being actively exploited, and someone took over 300 Tor exit relays to steal SSH passwords, and SafePay ransomware has hit over 600 critical infrastructure orgs, and India's biggest bank filed a data loss incident, and Japan has been in an official state of emergency in cyberspace since October 9, which honestly explains the 5:55 AM post. Oh, and eMudhra, a certificate authority that's issued over 60 million certificates, whose entire job is proving websites are who they say they are, was supposed to be using private keys that are random numbers over a hundred digits long, and one of them was 4. Just 4. And the others were like 66 and 237. Anyway, it's Wednesday.",
+        "link": "http://nitter.meowing.monster/fiveoutofnine/status/2113045722744717360#m",
+        "decryptage": "Ce tweet décrit une série d'incidents de cybersécurité majeurs et variés qui ont mis en péril de nombreux systèmes informatiques et données sensibles à travers le monde, soulignant l'importance cruciale de la sécurité informatique.",
         "category": "idees",
-        "highlight_reason": "Cette réflexion majeure souligne l'évolution rapide des capacités des IA, capable de révolutionner la recherche scientifique, un point clé pour comprendre l'impact futur de l'IA."
+        "highlight_reason": "Ce long tweet souligne l'ampleur et la gravité des défis actuels en matière de cybersécurité, un contexte essentiel pour comprendre les enjeux de déploiement et d'utilisation de l'IA en toute sécurité."
       },
       {
-        "author_name": "Aravind Srinivas",
-        "handle": "@AravSrinivas",
-        "text_fr": "Cet utilisateur a donné à Perplexity Computer un accès SSH à un Raspberry Pi 5 via Tailscale. Pendant la nuit, il l'a transformé de manière autonome en console de jeux avec une interface d'arcade, des chaînes d'outils et une intégration MCP. La console génère des jeux GBA, C, Rust et des jeux en terminal avec compilation, test de jeu et correction d'erreurs automatisés. Computer a également construit un service de contrôleur USB personnalisé avec remappage, turbo, vibration et profils par jeu, ainsi qu'un jeu voxel multijoueur inspiré de Minecraft en C (binaire de 141 Ko) où l'utilisateur peut jouer aux côtés de Computer en tant que robot contrôlé par l'IA, dirigé via le chat intégré au jeu via MCP. redlib.kareem.one/r/perplexity_ai/s… Vidéo",
-        "text_original": "This user gave Perplexity Computer, SSH access to a Raspberry Pi 5 over Tailscale. Overnight, it autonomously turned it into a game console with an arcade UI, toolchains and MCP integration. The console generates GBA, C, Rust and terminal games with automated compilation, playtesting, and error fixing. Computer also built a custom USB controller service with remapping, turbo, rumble and per-game profiles, plus a Minecraft-inspired multiplayer voxel game in C (141 KB binary) where the user can play alongside Computer as an AI-controlled robot, directed through in-game chat via MCP. redlib.kareem.one/r/perplexity_ai/s… Video",
-        "link": "https://nitter.kareem.one/AravSrinivas/status/2113661112143282441#m",
-        "decryptage": "Un 'Raspberry Pi' est un petit ordinateur peu coûteux, souvent utilisé pour des projets de programmation et de robotique. 'SSH' (Secure Shell) est une méthode sécurisée pour contrôler un ordinateur à distance.",
+        "author_name": "Simon Willison",
+        "handle": "@simonw",
+        "text_fr": "Un solide 'pelican' (outil). Kimi.ai (@Kimi_Moonshot) Présentation de Kimi K3.1 Pro : notre modèle open-weight le plus performant de classe 3T. 🔹 Contexte de 1 million de tokens, 2,8T de paramètres totaux / 104 milliards de paramètres actifs (MoE), multimodal. 🔹 Codage de projets complets : jeux dans Unreal, Unity et Godot. 🔹 Excellente pour la modélisation 3D paramétrique dans Blender et CAD. 🔹 Plus fiable pour les tâches financières : modélisation précise avec une réduction de 65 % des 'hallucinations'. 🔹 Égalant les modèles propriétaires les plus puissants en matière de codage, d'agentique et de benchmarks de connaissances. Kimi K3.1 Pro et K3.1 Pro Highspeed (2 à 3 fois plus rapide) sont maintenant disponibles sur Kimi.ai, Kimi Work, Kimi Code, et l'API Kimi. Poids ouverts d'ici le 4 novembre 2026. 🔗 API : platform.kimi.ai 🔗 Blog technique : kimi.ai/blog/kimi-k3-1-pro — http://nitter.meowing.monster/Kimi_Moonshot/status/2113680701770068067#m",
+        "text_original": "Pretty solid pelican tools.simonwillison.net/mark… Kimi.ai (@Kimi_Moonshot) Introducing Kimi K3.1 Pro: our most capable 3T-class open-weight model. 🔹 1M-token context, 2.8T total / 104B active params (MoE), Multimodal. 🔹 Full-project coding: games in Unreal, Unity & Godot. 🔹 Excell at parametric 3D modeling in Blender & CAD. 🔹 More reliable at finance work: Accurate modeling with hallucination down by 65%. 🔹 Matching the strongest proprietary models across coding, agentic and knowledge benchmarks. Kimi K3.1 Pro and K3.1 Pro Highspeed (2–3× faster) are now live on Kimi.ai , Kimi Work, Kimi Code, and the Kimi API. Open weights by Nov 4, 2026. 🔗 API: platform.kimi.ai 🔗 Tech blog: kimi.ai/blog/kimi-k3-1-pro — http://nitter.meowing.monster/Kimi_Moonshot/status/2113680701770068067#m",
+        "link": "http://nitter.meowing.monster/simonw/status/2113691493823369246#m",
+        "decryptage": "Un modèle 'open-weight' signifie que ses bases sont publiques, permettant à tous de l'étudier, l'améliorer ou l'utiliser, et il se distingue par un grand 'contexte' (quantité d'informations qu'il peut traiter simultanément), ses capacités 'multimodales' (traiter texte, images, etc.) et une réduction des 'hallucinations' (erreurs ou inventions de l'IA).",
+        "category": "actu",
+        "highlight_reason": "L'annonce de Kimi K3.1 Pro est importante car elle introduit un nouveau modèle 'open-weight' très performant, qui rivalise avec les meilleurs modèles propriétaires, ouvrant la voie à plus d'accessibilité et de collaboration dans le développement de l'IA."
+      },
+      {
+        "author_name": "Boris Cherny",
+        "handle": "@bcherny",
+        "text_fr": "Nous ouvrons un aperçu de recherche de Claude Duet, une nouvelle application où Claude agit comme un agent proactif. Il vous signale ce qui nécessite votre attention, accomplit les tâches que vous lui demandez, continue de travailler lorsque vous vous absentez et vous consulte avant d'agir en votre nom. Vidéo",
+        "text_original": "We’re opening a research preview of Claude Duet, a new app where Claude works as a proactive agent. It comes to you with what needs your attention, completes tasks you ask of it, keeps working when you step away, and checks with you before it acts on your behalf. Video",
+        "link": "http://nitter.meowing.monster/claudeai/status/2112984664256241837#m",
+        "decryptage": "Un 'agent proactif' est une IA qui ne se contente pas d'attendre vos ordres, mais qui anticipe vos besoins, vous propose des actions et gère des tâches de manière autonome, un peu comme un assistant personnel qui prend des initiatives.",
         "category": "outils",
-        "highlight_reason": "C'est une démonstration très concrète et impressionnante des capacités d'autonomie et de créativité des IA, rendant l'abstrait tangible pour un débutant."
+        "highlight_reason": "Claude Duet illustre une évolution majeure de l'IA vers des assistants plus autonomes et proactifs, ce qui est une tendance clé à observer pour comprendre l'avenir de nos interactions avec l'intelligence artificielle."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Greg Brockman",
-          "handle": "@gdb",
-          "text_fr": "OpenAI a découvert et travaille à la divulgation d'une faille d'exécution de code à distance dans une bibliothèque de compression très utilisée. C'est un problème important qui montre la complexité de la coordination des correctifs, car elle est intégrée à de nombreux logiciels en aval : OpenAI (@OpenAI) Pendant cet exercice de 'red-teaming', nous avons également trouvé une vulnérabilité permettant l'exécution de code à distance non authentifiée dans Brotli, une bibliothèque de compression largement déployée et incluse dans de nombreux logiciels comme Node.js, Bun et Envoy. La faille pourrait permettre à un attaquant d'exécuter son propre code sur les systèmes affectés en envoyant ou en répondant avec des données compressées malveillantes, sans avoir besoin de créer un compte utilisateur. C'est-à-dire qu'un serveur non corrigé qui accepte une entrée compressée pourrait être piraté par un client malveillant, et un client non corrigé qui accepte une entrée compressée (comme 'curl --compressed') pourrait être piraté par un serveur malveillant. Ce problème de cause racine a été corrigé dans le code source de Brotli en février, mais il n'était pas connu à l'époque qu'il entraînait une vulnérabilité de sécurité et il n'y a pas eu de version plus récente de Brotli. Comme Brotli est intégré à d'autres logiciels, tout logiciel qui inclut cette bibliothèque doit également appliquer la mise à jour, suivi par les utilisateurs de ce logiciel. Nous avons divulgué la vulnérabilité à Brotli et à d'autres projets en aval comme Node.js, qui ont publié ou sont en train de publier des mises à jour de sécurité, et Brotli a publié de nouvelles versions et un CVE. Plus de détails sur le correctif et les mesures d'atténuation ci-dessous : patchtheplanet.org/brotli Lien Vulnérabilité Brotli (CVE-2026-111497) — Patch the Planet Vulnérabilité du décodeur Brotli : logiciels affectés, versions corrigées et comment désactiver le décodage Brotli pendant que vous appliquez le correctif. patchtheplanet.org — https://nitter.kareem.one/OpenAI/status/2113766354386084338#m",
-          "text_original": "we've found and have been working on disclosure for a remote code execution in a widely-deployed compression library. it's both an impactful issue and an example that shows how complicated it can be to coordinate patching, since it's integrated into a lot of downstream software: OpenAI (@OpenAI) During this red-teaming exercise, we also found a vulnerability that allows for unauthenticated remote code execution in Brotli, a widely-deployed compression library included in many pieces of software such as Node.js, Bun, and Envoy. The flaw could let an attacker run their own code on affected systems by sending or replying with malicious compressed data, without any need to create a user account. That is, an unpatched server that accepts compressed input could be taken over by a malicious client, and an unpatched client that accepts compressed input (such as “curl --compressed”) could be taken over by a malicious server. This root cause issue was actually fixed in the Brotli source code in February, but it wasn’t known at the time that it gave rise to a security vulnerability and there was no more recent release of Brotli. Since Brotli is built into other software, any software which includes this library needs to take the update too, followed by the users of that software. We disclosed the vulnerability to Brotli and other downstream projects such as Node.js, which released or are currently releasing security updates, and Brotli cut new release versions and published a CVE. More details on the patch and mitigations below: patchtheplanet.org/brotli Link Brotli vulnerability (CVE-2026-111497) — Patch the Planet Brotli decoder vulnerability: affected software, fixed releases, and how to disable Brotli decoding while you patch. patchtheplanet.org — https://nitter.kareem.one/OpenAI/status/2113766354386084338#m",
-          "link": "https://nitter.kareem.one/gdb/status/2113773790207283353#m",
-          "decryptage": "Une 'exécution de code à distance' signifie qu'un pirate informatique pourrait prendre le contrôle de votre système en exploitant une vulnérabilité de sécurité, même sans être physiquement présent."
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Nous ajoutons la prise en charge des tâches MCP et des sollicitations dans Claude. Les tâches permettent à Claude de confier aux plugins des travaux de longue haleine, comme des recherches approfondies, et de rendre compte une fois qu'ils sont terminés. Vidéo",
+          "text_original": "We’re adding support for MCP Tasks and Elicitations in Claude. Tasks let Claude give plugins long-running jobs such as deep research and report back when they’re done. Video",
+          "link": "http://nitter.meowing.monster/ClaudeDevs/status/2113698001889927608#m",
+          "decryptage": "MCP et 'plugins' sont des fonctionnalités qui permettent à l'IA Claude d'utiliser des outils externes ou d'effectuer des actions complexes et prolongées pour répondre à une demande, comme un assistant personnel très avancé."
         },
         {
-          "author_name": "Greg Brockman",
-          "handle": "@gdb",
-          "text_fr": "Un article sur la manière dont nous avons sécurisé notre environnement d'entraînement des modèles d'IA de pointe. Nous avons développé des outils autour de nos modèles cybernétiques de pointe, ce qui nous a sécurisés bien au-delà de ce que nous aurions pu faire sans assistance et devrait généraliser la manière dont les défenseurs se sécurisent à l'avenir. OpenAI (@OpenAI) Au cours des derniers mois, nous avons considérablement renforcé la sécurité de notre environnement d'entraînement de recherche. Nous avons supprimé l'accès direct à Internet pour tous les modèles de pointe pendant l'entraînement et avons construit un monde hors ligne qu'ils peuvent utiliser à la place — une version mise en cache du web où ils peuvent toujours apprendre à naviguer, rechercher et utiliser des applications. Le 20 septembre, après qu'un modèle a exploité une mauvaise configuration DNS pour trouver un moyen de sortir de ce monde hors ligne, nous avons interrompu l'entraînement des modèles de pointe pour renforcer davantage le confinement. Nous avons assemblé des équipes d'agents, alimentées par nos modèles les plus performants en cyber-sécurité, et les avons chargées de trouver des faiblesses dans nos environnements de recherche. Bien qu'ils n'aient trouvé aucune voie vers Internet qu'ils pourraient facilement exploiter tout en dissimulant leur activité à nos moniteurs, ils ont trouvé des vulnérabilités 'zero-day', des évasions de machines virtuelles et des canaux secondaires matériels pour la communication entre agents. Nous avons utilisé leurs découvertes pour renforcer davantage nos défenses et contribuer à des correctifs pour les logiciels open-source. Après avoir renforcé notre architecture de confinement, nous avons repris notre entraînement et inférence RL de pointe le 1er octobre. Nous avons réservé une puissance de calcul substantielle pour le 'red-teaming' continu, et avons intégré le 'red-teaming' à haute puissance de calcul aux cas de sécurité que nous utilisons pour décider si l'entraînement et l'évaluation des modèles de pointe peuvent se dérouler en toute sécurité. openai.com/index/securing-ou… Lien Sécuriser notre environnement d'entraînement des modèles de pointe OpenAI explique comment nous avons renforcé le confinement pour l'entraînement et l'évaluation des modèles de pointe, y compris les environnements hors ligne et le 'red-teaming' à haute puissance de calcul. openai.com — https://nitter.kareem.one/OpenAI/status/2113718797505036665#m",
-          "text_original": "A post on how we've been securing our frontier model training environment. We've been building tools around our frontier cyber models, which have secured us far beyond what we could have unassisted and should generalize as key to how defenders secure themselves going forward. OpenAI (@OpenAI) Over the past several months, we have substantially hardened the security of our research training environment. We’ve removed live internet access for all frontier models during training and built an offline world for them to use instead—a cached version of the web where they can still learn to browse, search, and use applications. On September 20, after a model exploited a DNS misconfiguration to find a way outside of this offline world, we paused frontier training to strengthen containment further. We assembled teams of agents, powered by our most cyber-capable models, and tasked them with finding weaknesses in our research environments. While they found no route to the internet they could easily exploit while concealing their activity from our monitors, they did find zero-day vulnerabilities, virtual machine escapes, and hardware side-channels for communication between agents. We used their discoveries to further strengthen our defenses and contribute fixes to open-source software. After strengthening our containment architecture, we resumed our frontier RL training and inference on October 1. We’ve reserved substantial compute for continuous red-teaming, and made high-compute red-teaming part of the safety cases we use to decide whether frontier training and evaluation can proceed securely. openai.com/index/securing-ou… Link Securing our frontier model training environment OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming. openai.com — https://nitter.kareem.one/OpenAI/status/2113718797505036665#m",
-          "link": "https://nitter.kareem.one/gdb/status/2113724268773023917#m",
-          "decryptage": "Le 'red-teaming' est une technique de sécurité où des experts (ici, des IA elles-mêmes) simulent des attaques pour trouver les faiblesses d'un système avant qu'un vrai pirate ne le fasse. Un 'modèle de pointe' est une IA très avancée, à la frontière de ce qui est possible actuellement."
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Les 'Agent Skills' ont commencé comme une expérience dans Claude Code. De nombreux acteurs de l'industrie l'ont adopté, c'est pourquoi nous, chez Anthropic, avons jugé plus approprié de les faire don à la @AgenticAIFdn , aux côtés de MCP. ClaudeDevs (@ClaudeDevs) Nous faisons don des 'Agent Skills' à la 'Agentic AI Foundation' (@AgenticAIFdn), la même fondation à laquelle nous avons fait don de MCP. Depuis décembre 2025, plus de 70 plateformes d'agents ont intégré cette norme, y compris ChatGPT, Cursor, GitHub Copilot et VS Code. Voici ce que cela signifie pour vous : — http://nitter.meowing.monster/ClaudeDevs/status/2113328526413996100#m",
+          "text_original": "Agent Skills started as an experiment in Claude Code. Many across the industry have come to adopt it, so we at Anthropic found it more fitting to donate it to the @AgenticAIFdn , next to MCP. ClaudeDevs (@ClaudeDevs) We're donating Agent Skills to the Agentic AI Foundation ( @AgenticAIFdn ), the same foundation we donated MCP to. Since December 2025, 70+ agent platforms have integrated the standard, including ChatGPT, Cursor, GitHub Copilot, and VS Code. Here's what that means for you: — http://nitter.meowing.monster/ClaudeDevs/status/2113328526413996100#m",
+          "link": "http://nitter.meowing.monster/bcherny/status/2113333859907747871#m",
+          "decryptage": "'Agent Skills' est une capacité permettant aux IA d'agir comme des assistants autonomes capables d'exécuter des tâches complexes en utilisant divers outils, et sa donation à une fondation vise à en faire un standard pour toutes les IA, comme une langue commune pour leurs actions."
         },
         {
-          "author_name": "Greg Brockman",
-          "handle": "@gdb",
-          "text_fr": "C'est formidable de travailler en étroite collaboration avec Uber pour déployer ChatGPT Work à tous les employés, apportant des capacités 'agentiques' à toute l'entreprise ! Praveen Neppalli (@praveenTweets) C'était formidable d'accueillir @gdb au siège d'Uber cette semaine. Nous avons travaillé en étroite collaboration avec @gdb et l'équipe @OpenAI pendant plusieurs années, et il est remarquable de voir à quel point les choses ont changé. Le premier travail que nous avons fait avec ChatGPT il y a des années était avec notre équipe de support, en expérimentant une fenêtre de contexte de 4K :-). C'est difficile à imaginer maintenant. Maintenant, nous utilisons les derniers modèles de pointe pour automatiser les flux de travail d'ingénierie à l'échelle mondiale, entrant dans l'ère de l'ingénierie 'agentique'. Aujourd'hui, nous étendons les capacités 'agentiques' à toute l'entreprise. Suite à un pilote de 1 000 personnes, nous déployons ChatGPT Work d'OpenAI for Business à chaque employé d'Uber. Nous avons constaté le changement dans l'ingénierie, passant de l'IA aidant pour des tâches individuelles à la réalisation de flux de travail entiers, et nous voulons apporter ce même changement aux équipes de toute l'entreprise. J'ai déjà parlé des 'AI pods' que nous avons lancés plus tôt cette année, associant des ingénieurs en IA à des équipes d'Uber pour améliorer la façon dont le travail est effectué. Une équipe a réduit le temps nécessaire pour un processus intense d'allocation de capital couvrant 150 villes de 15 heures à 30 minutes. C'est ce que j'aime dans l'IA appliquée : combiner la dernière technologie avec l'expertise des personnes sur le terrain pour repenser complètement ce qui est possible. Maintenant, nous voulons faire cela à grande échelle. Uber a toujours été une entreprise de bâtisseurs, et chaque jour, des millions de personnes dans le monde comptent sur ce que nous créons. J'ai hâte de voir ce que l'équipe va construire. Vidéo — https://nitter.kareem.one/praveenTweets/status/2113316320553169320#m",
-          "text_original": "it's been great to work closely with Uber to roll out ChatGPT Work to every employee, bringing agentic capabilities to the whole company! Praveen Neppalli (@praveenTweets) Great to host @gdb at @Uber HQ this week. We’ve worked closely with @gdb and the @OpenAI team for several years, and it’s remarkable how much has changed. The first piece of work we did with ChatGPT years ago was with our support team, tinkering with a 4K context window :-). That’s hard to imagine now. Now we’re using the latest frontier models to automate engineering workflows at global scale, moving into the era of agentic engineering. Today we’re expanding agentic capabilities across the whole company. Following a 1,000-person pilot, we’re rolling out ChatGPT Work from @OpenAI for Business to every Uber employee. We’ve seen the shift in engineering, moving from AI helping with individual tasks to completing whole workflows, and we want to bring that same shift to teams across the business. I’ve spoken before about the ‘AI pods’ we launched earlier this year, pairing AI engineers with teams across Uber to improve how work gets done. One team reduced the time needed for an intense capital allocation process covering 150 cities from 15 hours to 30 minutes. That’s what I love about applied AI: combining the latest technology with the expertise of people on the ground to rethink what’s possible. Now we want to do that at scale. Uber has always been a company of builders, and every day millions of people around the world rely on what we create. I can’t wait to see what the team builds. Video — https://nitter.kareem.one/praveenTweets/status/2113316320553169320#m",
-          "link": "https://nitter.kareem.one/gdb/status/2113325885491437764#m",
-          "decryptage": "Les 'capacités agentiques' (agentic capabilities) signifient que l'IA peut agir de manière autonome, en prenant des décisions et en réalisant des chaînes d'actions pour atteindre un objectif, plutôt que de simplement répondre à une seule instruction."
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Un solide 'pelican' (outil). Kimi.ai (@Kimi_Moonshot) Présentation de Kimi K3.1 Pro : notre modèle open-weight le plus performant de classe 3T. 🔹 Contexte de 1 million de tokens, 2,8T de paramètres totaux / 104 milliards de paramètres actifs (MoE), multimodal. 🔹 Codage de projets complets : jeux dans Unreal, Unity et Godot. 🔹 Excellente pour la modélisation 3D paramétrique dans Blender et CAD. 🔹 Plus fiable pour les tâches financières : modélisation précise avec une réduction de 65 % des 'hallucinations'. 🔹 Égalant les modèles propriétaires les plus puissants en matière de codage, d'agentique et de benchmarks de connaissances. Kimi K3.1 Pro et K3.1 Pro Highspeed (2 à 3 fois plus rapide) sont maintenant disponibles sur Kimi.ai, Kimi Work, Kimi Code, et l'API Kimi. Poids ouverts d'ici le 4 novembre 2026. 🔗 API : platform.kimi.ai 🔗 Blog technique : kimi.ai/blog/kimi-k3-1-pro — http://nitter.meowing.monster/Kimi_Moonshot/status/2113680701770068067#m",
+          "text_original": "Pretty solid pelican tools.simonwillison.net/mark… Kimi.ai (@Kimi_Moonshot) Introducing Kimi K3.1 Pro: our most capable 3T-class open-weight model. 🔹 1M-token context, 2.8T total / 104B active params (MoE), Multimodal. 🔹 Full-project coding: games in Unreal, Unity & Godot. 🔹 Excels at parametric 3D modeling in Blender & CAD. 🔹 More reliable at finance work: Accurate modeling with hallucination down by 65%. 🔹 Matching the strongest proprietary models across coding, agentic and knowledge benchmarks. Kimi K3.1 Pro and K3.1 Pro Highspeed (2–3× faster) are now live on Kimi.ai , Kimi Work, Kimi Code, and the Kimi API. Open weights by Nov 4, 2026. 🔗 API: platform.kimi.ai 🔗 Tech blog: kimi.ai/blog/kimi-k3-1-pro — http://nitter.meowing.monster/Kimi_Moonshot/status/2113680701770068067#m",
+          "link": "http://nitter.meowing.monster/simonw/status/2113691493823369246#m",
+          "decryptage": "Un modèle 'open-weight' signifie que ses bases sont publiques, permettant à tous de l'étudier, l'améliorer ou l'utiliser, et il se distingue par un grand 'contexte' (quantité d'informations qu'il peut traiter simultanément), ses capacités 'multimodales' (traiter texte, images, etc.) et une réduction des 'hallucinations' (erreurs ou inventions de l'IA)."
         },
         {
-          "author_name": "Greg Brockman",
-          "handle": "@gdb",
-          "text_fr": "Rosalind pour de nouvelles idées de découverte de médicaments : OpenAI (@OpenAI) GPT-Rosalind a mis en lumière une nouvelle piste pour la découverte de médicaments : la restauration du transport du cholestérol pourrait-elle protéger les neurones de la dégénérescence ? DCTN1 est un gène lié au syndrome de Perry, un trouble neurodégénératif rare. Dans les données de cerveaux de souris, sa perturbation augmentait l'expression des gènes impliqués dans la production de cholestérol. GPT-Rosalind a suggéré une explication possible : le cholestérol pourrait ne pas atteindre les zones où les neurones en ont besoin. Cela donne aux scientifiques un mécanisme spécifique à tester et, si cela est confirmé, une direction pour développer de nouveaux traitements pour les troubles neurodégénératifs. Avec @perturbai_tx et @scrippsresearch, une équipe de milliers d'agents GPT-Rosalind a travaillé en parallèle, connectant les résultats d'expression génique de millions de cellules cérébrales de souris avec la littérature scientifique en seulement 32 minutes. Nous étendons maintenant cette collaboration pour identifier de nouvelles cibles médicamenteuses. openai.com/index/scaling-ai-… Lien Utilisation de milliers d'agents IA pour découvrir de nouvelles pistes dans les données biologiques Découvrez comment OpenAI, PerturbAI et Scripps Research ont utilisé des agents IA distribués pour découvrir des pistes de recherche prometteuses dans les données de millions de cellules cérébrales. openai.com — https://nitter.kareem.one/OpenAI/status/2112899854569762936#m",
-          "text_original": "Rosalind for new drug discovery ideas: OpenAI (@OpenAI) GPT-Rosalind surfaced a new lead for drug discovery: could restoring cholesterol transport protect neurons from degeneration? DCTN1 is a gene linked to Perry syndrome, a rare neurodegenerative disorder. In mouse-brain data, disrupting it increased expression of genes involved in making cholesterol. GPT-Rosalind suggested a possible explanation: cholesterol may not be reaching where neurons need it. That gives scientists a specific mechanism to test and, if confirmed, a direction for developing new treatments for neurodegenerative disorders. With @perturbai_tx and @scrippsresearch , a team of thousands of GPT-Rosalind agents worked in parallel, connecting gene-expression results from millions of mouse brain cells with scientific literature in just 32 minutes. We’re now expanding this collaboration to identify new drug targets. openai.com/index/scaling-ai-… Lien Using thousands of AI agents to uncover new leads in biological data See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells. openai.com — https://nitter.kareem.one/OpenAI/status/2112899854569762936#m",
-          "link": "https://nitter.kareem.one/gdb/status/2112950297404608595#m",
-          "decryptage": "Les 'agents IA' sont des programmes d'intelligence artificielle conçus pour opérer de manière autonome, en interagissant avec leur environnement et en exécutant des tâches complexes."
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "GLM 5.3 avec un effort de raisonnement maximal se classe 2e sur le premier problème, 1er sur le second. Classement : Problème 1 (cible 2025) GPT-6 Astra : 8.53s GLM-5.3 : 10.87s Scott Wu : ~13.2s Opus 5.5 : 13.46s Gemini 4 Argon : 19.87s Muse Wonder : 64.65s Grok 4.7 : 94.02s Problème 2 (cible 6843) GLM-5.3 : 4.50s Opus 5.5 : 10.17s Gemini 4 Argon : 13.48s GPT-6 Astra : 19.74s Scott Wu : ~20.8s Grok 4.7 : 49.53s Muse Wonder : 50.70s Vidéo kori rogers (@korigero) Scott Wu contre les modèles Vidéo — https://nitter.kareem.one/korigero/status/2113337096345981124#m",
+          "text_original": "glm 5.3 max reasoning effort top 2 on first problem, top 1 on the second ranking: Problem 1 (target 2025) GPT-6 Astra: 8.53s GLM-5.3: 10.87s Scott Wu: ~13.2s Opus 5.5: 13.46s Gemini 4 Argon: 19.87s Muse Wonder: 64.65s Grok 4.7: 94.02s Problem 2 (target 6843) GLM-5.3: 4.50s Opus 5.5: 10.17s Gemini 4 Argon: 13.48s GPT-6 Astra: 19.74s Scott Wu: ~20.8s Grok 4.7: 49.53s Muse Wonder: 50.70s Video kori rogers (@korigero) Scott Wu vs. the models Video — https://nitter.kareem.one/korigero/status/2113337096345981124#m",
+          "link": "https://nitter.kareem.one/eliebakouch/status/2113388284663447937#m",
+          "decryptage": "Ce classement compare la 'capacité de raisonnement' de différentes IA, c'est-à-dire leur vitesse et leur efficacité à résoudre des problèmes complexes, en les opposant parfois même à des experts humains comme Scott Wu."
         },
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "Un aperçu du casque d'Austin de Lewis 🤏💫",
-          "text_original": "A closer look at Lewis’ Austin helmet 🤏💫",
-          "link": "https://nitter.kareem.one/ScuderiaFerrari/status/2113727563613028468#m",
-          "decryptage": null
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "L'IA pour l'ingénierie industrielle mènera l'humanité vers sa prochaine ère technologique. C'est un pilier clé de notre recherche, et nous approfondissons notre partenariat avec NVIDIA pour répondre aux besoins du monde manufacturier. Mistral AI (@MistralAI) Aujourd'hui, nous annonçons une nouvelle collaboration avec @nvidia pour apporter l'IA à l'ingénierie industrielle : - simulation plus rapide - benchmarks ouverts et ensembles de données de support pour l'IA physique - évaluations pour l'IA agentique en CAE et EDA Plus d'informations ici : mistral.ai/news/mistral-nvid… — http://nitter.meowing.monster/MistralAI/status/2112870261829603589#m",
+          "text_original": "AI for industrial engineering will bring humanity to its next technological era. This is a key pillar of our research, and we're deepening our partnership with NVIDIA to address the needs of the manufacturing world Mistral AI (@MistralAI) Today we’re announcing a new collaboration with @nvidia to bring AI to industrial engineering: - faster simulation - open benchmarks and supporting datasets for physics AI - evaluations for agentic AI in CAE and EDA More here: mistral.ai/news/mistral-nvid… — http://nitter.meowing.monster/MistralAI/status/2112870261829603589#m",
+          "link": "http://nitter.meowing.monster/arthurmensch/status/2112875860206162322#m",
+          "decryptage": "L'IA pour l'ingénierie industrielle utilise l'intelligence artificielle pour améliorer la conception, la fabrication et la gestion des produits, notamment via des simulations plus rapides (des tests virtuels) ou en aidant les ingénieurs dans des domaines comme le CAE (ingénierie assistée par ordinateur)."
         },
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "Nous laissons désormais aux administrateurs beaucoup plus de contrôle sur la manière dont les utilisateurs atteignent le 'tokenmax' en interne, en pouvant définir un plancher et un plafond sur le niveau d'effort (qui correspond à la capacité et au coût). Computer (@AskPerplexity) Les administrateurs d'entreprise peuvent désormais définir l'effort maximal et l'effort par défaut de Computer pour n'importe quel rôle dans l'organisation. Disponible dès maintenant dans le menu Paramètres de l'organisation pour tous les utilisateurs administrateurs d'entreprise. Vidéo — https://nitter.kareem.one/AskPerplexity/status/2113680648976441353#m",
-          "text_original": "We're letting admins have a lot more control over how people get to tokenmax internally by being able to set a floor and a ceiling on the Effort level (which correlates to capability and cost). Computer (@AskPerplexity) Enterprise admins can now set Computer's maximum effort and default effort for any role in the organization. Available now in the Organization Settings menu for all enterprise admin users. Video — https://nitter.kareem.one/AskPerplexity/status/2113680648976441353#m",
-          "link": "https://nitter.kareem.one/AravSrinivas/status/2113683117651460532#m",
-          "decryptage": "Le 'niveau d'effort' fait référence à la quantité de ressources de calcul (et donc d'argent) qu'une IA est autorisée à utiliser pour résoudre une tâche, ce qui influence directement sa 'capacité' ou sa puissance de résolution."
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Nous venons de lancer une suite complète de modèles vocaux de pointe mistral.ai/news/voxtral-3/ . La voix sera l'interface la plus importante pour les systèmes d'IA, et nous déployons des modèles vocaux physiquement proches des modèles de raisonnement. Lien Voxtral 3 : SDK d'agent vocal et modèles de parole dans plus de 50 langues Voxtral 3 : SDK d'agent vocal de Mistral pour la parole en temps réel dans plus de 50 langues — transcription précise, TTS émotionnel, utilisation approfondie d'outils. Hébergé dans l'UE ou auto-déployé. mistral.ai",
+          "text_original": "We've just released a comprehensive suite of state-of-the-art voice models mistral.ai/news/voxtral-3/ . Voice will be the most important interface to AI systems, and we deploy voice models physically close to reasoning models Link Voxtral 3: Voice Agent SDK & Speech Models in 50+ Languages Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed. mistral.ai",
+          "link": "http://nitter.meowing.monster/arthurmensch/status/2112589831641710797#m",
+          "decryptage": "Un 'SDK d'agent vocal' est une boîte à outils pour les développeurs qui leur permet d'intégrer facilement des capacités de parole avancées (comme comprendre et générer de la voix) dans leurs propres applications d'IA, facilitant ainsi la création d'assistants vocaux."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Le mois dernier, une grande équipe d'agents a utilisé plus de 100 milliards de 'tokens' pour résoudre le problème du prix du millénaire de Navier-Stokes. Maintenant, nous utilisons une approche similaire pour le 'red-teaming' afin de trouver et de corriger les vulnérabilités de l'infrastructure. Eric Wallace (@Eric_Wallace_) Pour s'assurer que nos modèles de pointe ne provoquent pas un autre incident HuggingFace, nous avons construit un monde hors ligne qu'ils utilisent pendant l'entraînement. Il fournit tout ce dont les modèles ont besoin de manière entièrement mise en cache, indexée ou synthétique. Nous avons ensuite constitué une énorme équipe de nos modèles les plus performants en cyber-sécurité et leur avons demandé de collaborer pour trouver des 'zero-days' dans cette infrastructure de confinement. Bien qu'ils n'aient pas trouvé de chemin vers Internet qui ne serait pas détecté par nos moniteurs CoT, ils ont trouvé des moyens d'échapper aux VM populaires, d'exploiter notre infrastructure réseau et même des moyens de communiquer avec d'autres agents fonctionnant dans des VM séparées en utilisant des canaux secondaires matériels. Nous avons utilisé cela pour renforcer considérablement notre infrastructure, et nous avons également remonté de nombreux correctifs aux packages open-source. — https://nitter.kareem.one/Eric_Wallace_/status/2113718905562862065#m",
-          "text_original": "Last month a large team of agents used over 100 billion tokens to resolve the Navier-Stokes Millennium Prize problem. Now we're using a similar approach for red-teaming to find and fix infra vulnerabilities. Eric Wallace (@Eric_Wallace_) To make sure our frontier models don't cause another HuggingFace incident, we built an offline world that they use during training. It provides everything that the models need in a fully cached, indexed, or synthetic manner. We then built a huge team of our most cyber-capable models and told them to collaborate to find zero-days in this containment infrastructure. While they didn't find a path to the internet that wouldn't be caught by our CoT monitors, they did find ways to escape popular VMs, exploit our network infrastructure, and even ways to communicate with other agents running in separate VMs by using hardware side channels. We used this to dramatically harden our infra, and we also upstreamed a ton of patches to open-sources packages. — https://nitter.kareem.one/Eric_Wallace_/status/2113718905562862065#m",
-          "link": "https://nitter.kareem.one/polynoamial/status/2113729267418956201#m",
-          "decryptage": "Le 'red-teaming' est une méthode de test de sécurité où des équipes (ou des IA) simulent des attaques pour découvrir les vulnérabilités d'un système. Un 'zero-day' est une faille de sécurité inconnue des développeurs, très dangereuse car sans correctif."
-        },
-        {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Nous publions une large gamme de nouveaux résultats mathématiques produits par un modèle d'IA avancé interne. Nous avons consulté le groupe consultatif indépendant sur les mathématiques et l'intelligence artificielle de l'Institute for Advanced Study, et nous nous sommes inspirés de leurs conseils et recommandations publiques pour éclairer la manière dont nous publions ces résultats. github.com/openai/math Lien GitHub - openai/math Contribuez au développement de openai/math en créant un compte sur GitHub. github.com",
-          "text_original": "We’re releasing a broad range of new mathematical results produced by an internal frontier model. We’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and public recommendations to inform how we release these results. github.com/openai/math Link GitHub - openai/math Contribute to openai/math development by creating an account on GitHub. github.com",
-          "link": "https://nitter.kareem.one/OpenAI/status/2107596713791767021#m",
-          "decryptage": "Un \"modèle d'IA avancé\" ou \"frontier model\" est une intelligence artificielle à la pointe de la recherche, capable de performances inédites."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "En seulement 72 heures depuis le lancement de Gemini 4 Argon, nous avons traité environ 25 mille milliards de 'tokens', la demande d'intelligence est incroyable et toujours sous-estimée !",
-          "text_original": "In just the first 72 hours since Gemini 4 Argon launched, we processed ~25 trillion tokens, the demand for intelligence is incredible and still under appreciated!",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2112767157746688480#m",
-          "decryptage": "Un 'token' est une petite unité de texte (un mot, une partie de mot, un signe de ponctuation) que les modèles d'IA utilisent pour traiter le langage. 'Traiter 25 mille milliards de tokens' représente un volume gigantesque d'informations analysées."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Nous organisons notre premier 'Bench Summit' pour réunir des personnes passionnées par l'avancement du 'benchmarking', des évaluations de modèles, et plus encore. De bons benchmarks sont une fonction de filtrage essentielle pour le progrès des modèles, il y a beaucoup à faire ici ! Rejoignez-nous à San Francisco : rsvp.withgoogle.com/events/b… Lien Bench Summit par Kaggle Le Bench Summit réunit les créateurs et praticiens qui font progresser la prochaine ère de l'évaluation de l'IA. Rejoignez des experts de Google DeepMind, Kaggle et Zapier pour des conférences, des études de cas de benchmarks réels, des ateliers pratiques... rsvp.withgoogle.com",
-          "text_original": "We are hosting our first \"Bench Summit\" to bring together people excited about pushing the frontier of benchmarking, model evals, and more. Great benchmarks are a gating function for model progress, lots to do here! Join us in SF: rsvp.withgoogle.com/events/b… Link Bench Summit by Kaggle Bench Summit unites creators and practitioners advancing the next era of AI evaluation. Join experts from Google DeepMind, Kaggle, and Zapier for keynotes, real-world benchmark case studies, hands-on... rsvp.withgoogle.com",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2110810395598528788#m",
-          "decryptage": "Le 'benchmarking' consiste à évaluer et comparer les performances des modèles d'IA sur des tâches spécifiques à l'aide de tests standardisés, un peu comme des tests de performance pour les voitures."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Voici également le lien YouTube ! inv.kareem.one/watch?v=Jh6mgf9M… Lien Gemini 4 Argon : Nouveautés et perspectives Josh Woodward, Melvin Johnson, Sergey Brin et Tulsee Doshi de G... youtube.com",
-          "text_original": "Here is the YouTube link as well! inv.kareem.one/watch?v=Jh6mgf9M… Link Gemini 4 Argon: What’s new and what’s next Josh Woodward, Melvin Johnson, Sergey Brin, and Tulsee Doshi from G... youtube.com",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2110421595252805668#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Une conversation avec Sergey Brin, @joshwoodward, @tulseedoshi et @melvinjohnsonp à propos de Gemini 4 Argon, comment nous en sommes arrivés là, et la voie à suivre ! Vidéo",
-          "text_original": "A conversation with Sergey Brin, @joshwoodward , @tulseedoshi , and @melvinjohnsonp about Gemini 4 Argon, how we got here, and the path ahead! Video",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2110420958737813612#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Bienvenue à Ken dans l'équipe ! kenneth (@local0ptimist) bonne occasion d'annoncer que j'ai rejoint @GoogleDeepMind en tant qu'ingénieur 'forward deployed'. Je collaborerai avec des startups et des chercheurs de tout l'écosystème pour co-concevoir des benchmarks. Si vous développez des évaluations intéressantes, je veux en entendre parler ! — http://nitter.meowing.monster/local0ptimist/status/2112931892739928107#m",
-          "text_original": "Welcome Ken to the team! kenneth (@local0ptimist) good time to announce that i’ve joined @GoogleDeepMind as a forward deployed engineer i’ll be partnering with startups and researchers across the ecosystem to co-design benchmarks. if you’re building interesting evals, i want to hear about them! — http://nitter.meowing.monster/local0ptimist/status/2112931892739928107#m",
-          "link": "http://nitter.meowing.monster/osanseviero/status/2112948512568844649#m",
-          "decryptage": "Un \"ingénieur 'forward deployed'\" est un ingénieur qui travaille directement avec les clients ou partenaires pour déployer et adapter la technologie, souvent sur le terrain."
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Je travaille toujours là-dessus. Si vous voulez un accès anticipé, contactez-moi. Jensen Hungry (@danecjensen) Lequel d'entre eux est votre réponse à OpenClaw/Muse mais pour les entreprises ? — https://nitter.kareem.one/danecjensen/status/2114069772941861092#m",
-          "text_original": "Still working on this. If you want early access, get in touch Jensen Hungry (@danecjensen) Which one of these is your answer to OpenClaw/Muse but for businesses? — https://nitter.kareem.one/danecjensen/status/2114069772941861092#m",
-          "link": "https://nitter.kareem.one/hwchase17/status/2114085240163676648#m",
-          "decryptage": null
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Mistral a sorti de nouveaux modèles de parole ! Voxtral Small Transcribe 3 se classe 3e sur le classement 'Speech to Text' d'Artificial Analysis, et Voxtral 3 TTS entre dans le top 12 des deux catégories 'Text to Speech'. @MistralAI a publié Voxtral 3 : un nouveau modèle 'Text to Speech' et trois modèles 'Speech to Text' (Small Transcribe 3, Mini Transcribe 3 et Mini Transcribe Realtime 3). Nous les avons tous évalués. Principaux points à retenir : ➤ 'Speech to Text' (parole vers texte) : Voxtral Small Transcribe 3 prend la 3e place du classement 'Speech to Text' d'Artificial Analysis avec un indice AA-WER de 2,1 %, devant ElevenLabs Scribe v2 (2,2 %) et Grok Voice Transcribe 2.0 (2,3 %). Voxtral Mini Transcribe 3 se classe 5e avec 2,2 %. ➤ 'Streaming Speech to Text' : Voxtral Mini Transcribe Realtime 3 obtient un AA-WER de 3,3 % sur la transcription finale pour un réglage de 960 ms (6e sur 46) et 3,6 % pour 480 ms, en baisse par rapport aux 5,2 % du précédent Voxtral Mini Transcribe Realtime. ➤ 'Text to Speech' (texte vers parole), Voix Fournie par le service : Voxtral 3 TTS obtient un score Elo de 1 218 sur 1 599 apparitions en arène, se classant 12e sur 98, juste derrière Breeze TTS 2 à 1 221 et devant Inworld Realtime TTS-2 Flash et StepAudio 2.5 TTS à 1 216. Il se classe 13e en anglais (US) et 12e en anglais (UK). ➤ 'Text to Speech', Voix Contrôlée : Voxtral 3 TTS obtient 1 068 sur 1 614 apparitions, se classant 12e sur 43 avec les mêmes 8 voix clonées, derrière Eleven v3 à 1 072 et au même niveau que Ming-3.0-tts d'Ant Group à 1 068. Il se classe 10e dans la catégorie Assistants et 10e en anglais (UK). ➤ Robustesse de la Prononciation : Voxtral 3 TTS obtient 84,4 %, se classant 13e sur 32 modèles, derrière Qwen-Audio-3.1-TTS-Plus à 84,6 % et devant HeyGen Voice à 83,2 %. Il se classe 3e dans la catégorie Termes Autonomes à 93,9 %. ➤ Tarification : Voxtral 3 TTS est proposé à 13 $/million de caractères, comparé à Gemini 3.8 Flash TTS à $16.5/million de caractères, Eleven v4 Turbo à $40/million de caractères et Simba 3.2 à $6.6/million de caractères. Voir plus de détails et écouter des échantillons ci-dessous ⬇️",
+          "text_original": "Mistral has released new Speech models! Voxtral Small Transcribe 3 takes the #3 spot on the Artificial Analysis Speech to Text leaderboard, and Voxtral 3 TTS enters the top 12 in both Text to Speech arenas @MistralAI has released Voxtral 3: a new Text to Speech model and three Speech to Text models (Small Transcribe 3, Mini Transcribe 3 and Mini Transcribe Realtime 3). We evaluated all of them. Key takeaways: ➤ Speech to Text: Voxtral Small Transcribe 3 takes the #3 spot on the Artificial Analysis Speech to Text leaderboard with a 2.1% AA-WER Index, ahead of ElevenLabs Scribe v2 (2.2%) and Grok Voice Transcribe 2.0 (2.3%). Voxtral Mini Transcribe 3 lands at #5 with 2.2%. ➤ Streaming Speech to Text: Voxtral Mini Transcribe Realtime 3 scores 3.3% final-transcript AA-WER at the 960 ms setting (#6 of 46) and 3.6% at 480 ms, down from 5.2% for the previous Voxtral Mini Transcribe Realtime. ➤ Text to Speech, Provider Voice: Voxtral 3 TTS scores an Elo of 1,218 across 1,599 arena appearances, ranking #12 of 98, just behind Breeze TTS 2 at 1,221 and ahead of Inworld Realtime TTS-2 Flash and StepAudio 2.5 TTS at 1,216. It ranks #13 in English (US) and #12 in English (UK). ➤ Text to Speech, Controlled Voice: Voxtral 3 TTS scores 1,068 across 1,614 appearances, ranking #12 of 43 with the same 8 cloned voices, behind Eleven v3 at 1,072 and level with Ant Group's Ming-3.0-tts at 1,068. It ranks #10 in Assistants and #10 in English (UK). ➤ Pronunciation Robustness: Voxtral 3 TTS scores 84.4%, ranking #13 of 32 models, behind Qwen-Audio-3.1-TTS-Plus at 84.6% and ahead of HeyGen Voice at 83.2%. It ranks #3 in Standalone Terms at 93.9%. ➤ Pricing: Voxtral 3 TTS is priced at $13/1M characters, compared to Gemini 3.8 Flash TTS at $16.5/1M characters, Eleven v4 Turbo at $40/1M characters and Simba 3.2 at $6.6/1M characters. See more details and listen to samples below ⬇️",
+          "link": "http://nitter.meowing.monster/ArtificialAnlys/status/2112587905222709432#m",
+          "decryptage": "Les 'leaderboards' et 'benchmarks' sont des classements et des tests standards qui permettent de comparer les performances des différentes IA sur des tâches spécifiques, comme la conversion de la parole en texte ('Speech to Text') ou l'inverse ('Text to Speech'), avec des mesures comme le 'AA-WER Index' pour l'exactitude."
         }
       ],
       "tips": [
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Cet e-mail de phishing a échappé aux filtres de Gmail, mais 'mon point' l'a détecté et m'a averti.",
-          "text_original": "This phishing email made it past Gmail’s filters, but my dot caught it and warned me.",
-          "link": "https://nitter.kareem.one/polynoamial/status/2109257833929924881#m",
-          "decryptage": "Un \"e-mail de phishing\" est une tentative de vous tromper pour obtenir vos informations personnelles (mots de passe, coordonnées bancaires) en se faisant passer pour une entité de confiance."
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "Les contributions ponctuelles et les articles d'invités sont les bienvenus docs.google.com/forms/d/e/1F… Lien Article d'invité sur Latent Space ! Latent Space est un podcast et une newsletter qui couvre l'ingénierie de l'IA pour un public mondial de plus de 100 000 lecteurs hebdomadaires. Les invités ont inclus Mark Zuckerberg, Greg Brockman, George Hotz et... docs.google.com",
+          "text_original": "part time and oneoff guest posts welcome docs.google.com/forms/d/e/1F… Link Guest Post on Latent Space! Latent Space is a podcast and newsletter that covers AI Engineering for a global audience of over 100,000 weekly readers. Guests have ranged from Mark Zuckerberg to Greg Brockman to George Hotz and... docs.google.com",
+          "link": "https://nitter.kareem.one/swyx/status/2114149330135519730#m",
+          "decryptage": null
         },
         {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Une meilleure science ne s'arrête pas le week-end ! Jour 6 de 'Un agent par jour éloigne les échecs de la Phase 2' — économisez 10 millions de dollars. Une entreprise de biotechnologie m'a dit un jour qu'elle utilisait Benchling AI pour déterminer que 30 % de ses études in vivo étaient redondantes ou inutiles. C'est des millions de dollars et des mois de temps perdus. Chaque étude animale devrait avoir un agent (ou plutôt une équipe d'agents) s'assurant qu'elle est conçue correctement et qu'elle fournira des résultats utiles. Exemple de 'prompt' (n'hésitez pas à l'adapter) : Créez un agent de révision d'étude 'In Vivo' qui s'exécute avant qu'une étude ne passe à sa phase d'exécution. Analysez si elle est un duplicata d'une étude existante et si les résultats seront statistiquement significatifs. Si des modifications doivent être apportées, fournissez des suggestions concrètes sur la manière de mettre à jour la conception de l'étude. Vidéo",
-          "text_original": "Better science doesn't stop on the weekends! Day 6 of “An agent a day keeps Phase 2 failures away” — save $10M A biotech company once told me that they used Benchling AI to determine that 30% of their in vivo studies were redundant or wasteful. That’s millions of dollars and months of time down the drain. Every animal study should have an agent (or really a team of agents) making sure it is designed correctly and will provide useful results. Sample prompt (feel free to tweak): Create an In Vivo Study Review agent that runs before an study moves to its execution stage. Analyze whether it’s a duplicate of an existing study and if it the readout will be statistically significant. If there are changes that should be made, provide concrete suggestions on how to update the study design. Video",
-          "link": "https://nitter.kareem.one/nlarusstone/status/2114117383002669206#m",
-          "decryptage": "Un 'prompt' est l'instruction ou la question que vous donnez à une IA pour qu'elle génère une réponse ou exécute une tâche. Une étude 'in vivo' est réalisée sur un organisme vivant."
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "nous recrutons des rédacteurs, des relecteurs et des reporters pour la nouvelle équipe éditoriale de @latentspacepod (contactez @ricmac et @adlinzainal ) et je vais inclure une version de ceci dans le package de bienvenue pour toutes les personnes que nous embaucherons",
+          "text_original": "we are hiring writers, reviewers and reporters for the new @latentspacepod editorial team (hit up @ricmac and @adlinzainal ) and i’m gonna put a version of this in the welcome package for everyone we hire",
+          "link": "https://nitter.kareem.one/swyx/status/2114145315196711194#m",
+          "decryptage": null
         },
         {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Faire fonctionner un agent LangGraph de @LangChain prend une après-midi. Le maintenir en production est le vrai travail. Nous avons livré : un SDR IA, un assistant d'éducation des patients et un pipeline de localisation marketing IA. Tous ont convergé vers les cinq contrôles suivants : une machine à états explicite, une trace pour chaque tour, une porte d'évaluation à chaque changement, des effets secondaires idempotents et un routage de confiance vers une personne. La décomposition complète, avec la forme du code derrière chaque contrôle, est dans la réponse 👇",
-          "text_original": "Getting a @LangChain LangGraph agent to work takes an afternoon. Keeping one in production is the actual job. We shipped: an AI SDR, a patient education assistant and an AI marketing localisation pipeline. All converged on the same five controls: an explicit state machine, a trace for every turn, an evaluation gate on every change, idempotent side effects, and confidence routing to a person. The full breakdown, with the code shape behind each control, is in the reply 👇",
-          "link": "https://nitter.kareem.one/simon_budziak/status/2113571214576812252#m",
-          "decryptage": "Les 'agents' sont des programmes d'IA conçus pour accomplir des tâches complexes de manière autonome. 'LangChain' et 'LangGraph' sont des outils populaires pour construire et gérer ces agents. Des 'effets secondaires idempotents' signifient qu'une action peut être répétée plusieurs fois sans changer le résultat final."
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "Hier, j'ai passé toute la journée à taper ceci dans Claude Code : « Effectuez un audit de sécurité complet de ce site web et de ce serveur ». Sur chaque VPS (et site) que je possède, j'avais déjà des mises à jour automatiques sans surveillance avec redémarrage automatique pour les mises à jour de sécurité dans Ubuntu (le redémarrage ne prend que 4 minutes, donc je pense que c'est bien toutes les quelques semaines). J'ai également isolé chaque VPS sur Tailscale avec des politiques de sécurité spéciales (générées par Claude Code !), de sorte qu'il ne puisse accéder à aucun autre VPS (en cas de piratage) et pas même à mon MacBook ou iPhone, à moins que je ne lui parle d'abord. Il y a aussi beaucoup de choses concernant les permissions utilisateur isolant les éléments à 'www-data' pour éviter l'accès 'root' aux services web. Ce n'est pas le plus amusant, mais c'est essentiel. Je pense qu'en plus de la « semaine marketing » de @yongfook, nous devons maintenant ajouter une semaine par mois de « semaine de la sécurité », car avec l'amélioration des modèles, notre défense préventive doit également s'améliorer. Heureusement pour nous, je pense que les capacités d'attaque et de défense des modèles d'IA semblent correspondre ? Donc, tant que nous continuons à taper régulièrement « effectuer un audit de sécurité » dans notre 'clanker' (IA), nous pouvons le garder en sécurité, j'espère 🫨 Dominik Sobe ツ (@sobedominik) Les deux dernières semaines ont probablement été les semaines les plus stressantes de toute ma vie d'adulte. ...pendant que j'étais en « vacances » pour la première fois dont je me souvienne. Certaines parties étaient absolument folles : - J'ai dû aller aux urgences aux États-Unis (merde) parce que je suspectais un AVC. J'ai de la chance, je vais bien, donc pas besoin de s'inquiéter. Il s'avère que le point suivant pourrait jouer un rôle - L'une de mes entreprises a été cyber-attaquée par une IA comme je n'en avais jamais vu auparavant. J'ai tout maîtrisé, mais étant donné que l'attaque provenait d'une IA et non d'un humain, cela m'a causé tellement de stress à patcher/réparer sur le champ que je ressens encore les séquelles physiques aujourd'hui. Cela s'est produit il y a déjà une semaine, donc tout le chaos d'Octobre Noir ne m'a pas du tout surpris. Je l'ai littéralement vu venir. Périodes effrayantes, mais je suis sûr que nous allons y arriver. Certaines parties étaient absolument géniales : - J'ai passé beaucoup de temps de qualité avec ma petite amie, à explorer Taïwan et les États-Unis. - Beaucoup de choses de ma liste de souhaits ont été cochées. J'ai eu la chance de voir un spectacle au OG Comedy Store, j'ai vu Ali G en direct (lol) et quelques autres. - J'ai rencontré de nombreux amis sympas, y compris @tommoor et @csallen - Enfin acheté un nouveau MBP et d'autres choses difficiles à obtenir en dehors des États-Unis - J'ai redécouvert mon amour pour le film analogique. Il a toujours été là, mais il était assez dormant ces dernières années. J'ai beaucoup d'idées sympas que je veux poursuivre bientôt. - Enfin, de très bonnes nouvelles que je pourrai partager bientôt et qui ont également pu contribuer au stress insensé des dernières semaines parce que j'ai dû travailler jusqu'aux petites heures du matin... Voilà, c'est ma courte mise à jour personnelle. J'espère que vous êtes tous heureux, en bonne santé et en sécurité, mes amis.",
+          "text_original": "Yesterday I spent all day typing this into Claude Code: \"Do a full security audit of this website and server\" On every single VPS (and site) I have I already had automatic unattended upgrades with auto reboot for security updates in Ubuntu (reboot only takes 4 minutes so I think it's fine every few weeks) Also isolated each VPS on Tailscale with special security policies (generated by Claude Code! so it can not access any other VPS (in case it gets hacked) and not even access my MacBook or iPhone unless I talk to it first Also lots of user permission stuff isolating stuff to www-data to avoid root access for web services Not the most fun stuff but essential I think in addition to @yongfook 's \"marketing week\" we now have to add one week per month of \"security week\" because with the models getting better our pre-emptive defense has to get better too Luckily for us I think the attack and defense capabilities of AI models seems to somewhat match? So as long as we keep typing \"do a security audit\" regularly into our clanker we can keep it safe I hope 🫨 Dominik Sobe ツ (@sobedominik) The last two weeks have been probably the most stressful weeks of my entire adult life. ...while I was on \"holidays\" for the first time I can remember. Some parts were absolutely fucked: - I had to visit the ER in the US (fml) because I suspected having a stroke. I'm luckily fine, so no need to worry. It turns out the next point below might play a role in this - One of my companies has been AI cyber attacked unlike anything I've ever seen before. I got everything under control but given the attack originated from an AI and not a human it caused me so much stress to patch/fix on the spot that I still feel feel the aftermath physically today. This happened already a week ago so all the Black October chaos didn't surprise me at all. I literally saw it coming. Scary times folks but I'm sure we're gonna make it. Some parts were absolutely great: - Been spending a lot of quality time with my GF, exploring Taiwan and the US. - Lots of bucket list things got checked. Got a chance to see a show at the OG Comedy Store, somehow saw Ali G live (lol) and a few more. - Got to meet bunch of cool friends including @tommoor and @csallen - Finally bought a new MBP and some other stuff that's hard to get outside the US - I rediscovered my love for analog film. It's always been there but it was quite dormant past few years. I have a lot of cool ideas I want to pursue soon. - Lastly, some really great news I can share soon which also might have contributed to the insane stress the past weeks because I had to work until the early morning hours... Aight, that's my short personal life update. Hope ya'll happy, healthy and safe out there friends.",
+          "link": "https://nitter.kareem.one/levelsio/status/2114317753985188201#m",
+          "decryptage": "Un 'VPS' (Virtual Private Server) est comme un petit serveur informatique personnel sur Internet, et un 'audit de sécurité' est une vérification approfondie pour trouver et corriger les failles de sécurité, une tâche où l'IA peut aider à protéger ses systèmes contre les cyberattaques."
         }
       ],
       "idees": [
         {
-          "author_name": "Greg Brockman",
-          "handle": "@gdb",
-          "text_fr": "J'essaie de me montrer à la hauteur de la situation. Je suis reconnaissant de travailler avec une équipe qui ressent cette responsabilité aussi profondément que moi. Joshua Achiam (@jachiam0) Au fait, si je devais deviner, Greg Brockman est actuellement en train de faire des choses héroïques pour réparer Internet en coulisses. Et je m'attends à ce que même si sa contribution nette à la sécurité et à la résilience de l'IA sera au final inégalable, personne dans ce domaine ne pensera à attribuer les correctifs à grande échelle à ses efforts ou à ceux qui se déroulent sous sa direction. — https://nitter.kareem.one/jachiam0/status/2113710978399658422#m",
-          "text_original": "trying to rise to the occasion. grateful to be working with a team that feels the responsibility as deeply as i do. Joshua Achiam (@jachiam0) By the by, if I had to guess, Greg Brockman is currently doing heroic things to fix the internet behind the scenes. And I expect that even though his net contribution to AI safety and resilience will in the final tally be unsurpassable, no one in the space will think to attribute large scale patches to his effort or effort that happens under his leadership. — https://nitter.kareem.one/jachiam0/status/2113710978399658422#m",
-          "link": "https://nitter.kareem.one/gdb/status/2113746426236977236#m",
-          "decryptage": null
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Plus de notes sur Kimi K3.1 – c'est une grande nouvelle, la première fois qu'un modèle 'open weights' (enfin, bientôt open weights) rivalise de manière aussi crédible avec les modèles de pointe actuels. simonwillison.net/2026/Oct/2… Lien Présentation de Kimi K3.1 Pro Kimi K3.1 Pro est arrivé sur l'API Kimi aujourd'hui – il n'est pas encore 'open weights', mais Moonshot promet que les 'poids complets du modèle seront publiés d'ici le 4 novembre 2026'. Ils sont également… simonwillison.net",
+          "text_original": "More notes on Kimi K3.1 - this one is I big deal, first time an open weights (well, soon-to-be open weights) model has competed this credibly with the current frontier simonwillison.net/2026/Oct/2… Link Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also … simonwillison.net",
+          "link": "http://nitter.meowing.monster/simonw/status/2113718487529267593#m",
+          "decryptage": "Un modèle 'open weights' désigne une IA dont le cœur, c'est-à-dire les milliers ou millions de paramètres ajustés lors de son entraînement, est rendu public, permettant une transparence et une collaboration pour son amélioration."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "Les LLM ont franchi un seuil important : surpasser les meilleurs experts humains sur certains problèmes de recherche. Les capacités s'améliorent constamment depuis des années, mais en découverte scientifique, il y a une grande différence entre un modèle juste en dessous des performances humaines et un juste au-dessus. Cela aide à expliquer pourquoi la poussée des résultats en mathématiques semble si soudaine. Les capacités des LLM restent inégales, et il y a de nombreuses façons dont ils sont encore inférieurs aux humains. Mais à mesure que les modèles continuent de s'améliorer, je m'attends à ce que des percées dans d'autres domaines suivent, menant à une nouvelle ère de découverte scientifique. Mark Chen (@markchen90) Le moment Navier-Stokes était bien plus une question de la figure ci-dessous que du problème de Navier-Stokes lui-même. L'exécution représente une décennie de progrès mathématiques en une semaine. J'ai hâte de diriger ces outils vers les sciences de la vie, la construction de nos prochains modèles et l'alignement ! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
-          "text_original": "LLMs have crossed an important threshold: surpassing top human experts on some research problems. Capabilities have been steadily improving for years, but in scientific discovery there is a big difference between a model just below top human performance and one just above it. That helps explain why the surge in math results feels so sudden. LLM capabilities remain jagged, and there are many ways they are still worse than humans. But as models continue to improve, I expect breakthroughs in other domains to follow, leading to a new era of scientific discovery. Mark Chen (@markchen90) The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
-          "link": "https://nitter.kareem.one/polynoamial/status/2107947189184164056#m",
-          "decryptage": "Les 'LLM' (Large Language Models ou Grands Modèles de Langage) sont des intelligences artificielles capables de comprendre et de générer du texte, comme ChatGPT."
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "En gros, aujourd'hui, PHP a eu deux failles critiques permettant à quiconque d'exécuter du code sur votre serveur sans même se connecter, ce qui est grave, et les détails ont fui avant même la publication du correctif, ce qui est pire. Cela affecte WordPress, MediaWiki, Magento, Joomla et Laravel, et Censys estime qu'environ 1,5 million de serveurs utilisent une version sans correctif. La NSA a dit 'déconnectez votre système', le FBI a dit 'déconnectez votre système', et CISA, le Royaume-Uni et CERT-EU ont tous dit 'déconnectez votre système'. Puis le Premier ministre du Japon, le vrai Premier ministre, a publié un message à 5h55 du matin demandant à 48,8 millions de personnes de déconnecter leur système. Tout le monde a déconnecté son système, y compris l'agence néerlandaise de cybersécurité, le parlement néerlandais, le port de Rotterdam, et la Finlande, la France et le Danemark ont commencé à retirer des sites gouvernementaux. Wikipédia est tombé, Archive.org est tombé, Asana, GOG et Something Awful sont tombés, et la messagerie web de l'Université de Vienne est tombée pour une raison quelconque, et ce n'est que PHP. Car GitLab a également publié une vulnérabilité CVSS 10.0, le score le plus élevé, pour une faille présente depuis 2014, ce qui concerne tous les GitLab auto-hébergés depuis douze ans. Ensuite, LiteLLM 1.107.0 a été piraté et a livré un voleur deBases de données / Mots de passe / Code et un cheval de Troie d'accès à distance dans chaque fichier d'installation et image Docker, y compris la dernière version, et il ne fallait même pas l'importer, l'installer suffisait, et c'est la deuxième fois cette année. Puis Railway a mis en pause tous les déploiements sur l'ensemble de la plateforme parce que quelqu'un avait accédé aux variables d'environnement, donc tout le monde doit maintenant changer tous les secrets qu'ils y ont stockés. TiDB Cloud a déclaré que quelqu'un s'était promené à l'intérieur avec des identifiants volés pendant environ un mois et un groupe d'extorsion affirme avoir volé 10,6 téraoctets. Zeabur a été piraté pour la deuxième fois en deux mois et est en train de fermer, toute l'entreprise. Et Node.js a patché une exécution de code à distance et un contournement TLS, et CISA dit que Plex est activement exploité, et quelqu'un a pris le contrôle de 300 relais de sortie Tor pour voler des mots de passe SSH, et le rançongiciel SafePay a hit plus de 600 organisations d'infrastructures critiques, et la plus grande banque indienne a signalé un incident de perte de données, et le Japon est en état d'urgence officiel dans le cyberespace depuis le 9 octobre, ce qui explique honnêtement le message de 5h55 du matin. Oh, et eMudhra, une autorité de certification qui a émis plus de 60 millions de certificats, dont le travail est de prouver l'identité des sites web, était censée utiliser des clés privées qui sont des nombres aléatoires de plus de cent chiffres, et l'une d'elles était 4. Juste 4. Et les autres étaient comme 66 et 237. Bref, c'est mercredi.",
+          "text_original": "So basically, today PHP got two critical bugs that let anyone run code on your server without even logging in, which is bad, and then the details leaked before the patch was even out, which is worse, and it works on WordPress and MediaWiki and Magento and Joomla and Laravel, and Censys says like 1.5 million servers are running a version with no fix, so the NSA was like \"take your system offline,\" and the FBI was like \"take your system offline,\" and CISA and the UK and CERT-EU were all like \"take your system offline,\" and then the Prime Minister of Japan, the actual Prime Minister, posted at 5:55 in the morning telling 48.8 million people to take their system offline, so everyone took their system offline, like the Dutch cybersecurity agency took its own website offline, and the Dutch parliament went offline, and the Port of Rotterdam went offline, and Finland and France and Denmark started pulling government sites, and Wikipedia went down, and Archive.org went down, and Asana and GOG and Something Awful went down, and the University of Vienna's webmail went down for some reason, and that's just PHP. Because GitLab also dropped a CVSS 10.0, which is the highest score they give out, for a bug that's been there since 2014, so that's every self-hosted GitLab for twelve years, and then LiteLLM 1.107.0 got hijacked and shipped a credential stealer and a remote access trojan in every single wheel and the Docker images, including latest, and you didn't even have to import it, just installing it was enough, and it's the second time this year, and then Railway paused every deployment on the entire platform because someone got into the environment variables, so now everyone has to rotate every secret they've ever stored there, and TiDB Cloud said someone was walking around inside with stolen credentials for basically a month and an extortion group says they took 10.6 terabytes, and Zeabur got breached for the second time in two months and is just shutting down, like the whole company, and Node.js patched remote code execution and a TLS bypass, and CISA says Plex is being actively exploited, and someone took over 300 Tor exit relays to steal SSH passwords, and SafePay ransomware has hit over 600 critical infrastructure orgs, and India's biggest bank filed a data loss incident, and Japan has been in an official state of emergency in cyberspace since October 9, which honestly explains the 5:55 AM post. Oh, and eMudhra, a certificate authority that's issued over 60 million certificates, whose entire job is proving websites are who they say they are, was supposed to be using private keys that are random numbers over a hundred digits long, and one of them was 4. Just 4. And the others were like 66 and 237. Anyway, it's Wednesday.",
+          "link": "http://nitter.meowing.monster/fiveoutofnine/status/2113045722744717360#m",
+          "decryptage": "Ce tweet décrit une série d'incidents de cybersécurité majeurs et variés qui ont mis en péril de nombreux systèmes informatiques et données sensibles à travers le monde, soulignant l'importance cruciale de la sécurité informatique."
         },
         {
-          "author_name": "Noam Brown",
-          "handle": "@polynoamial",
-          "text_fr": "J'ai rencontré @ssokota il y a 5 ans lors d'une session d'affiches de conférence. J'ai été impressionné par son explication, alors je lui ai offert un stage. Nous avons continué à collaborer et il travaille maintenant avec moi chez @OpenAI. Plus tard, il m'a dit que j'étais la seule personne à s'être arrêtée devant son affiche pendant toute la session. Samuel Sokota (@ssokota) Dans notre article de Nature, nous présentons la première IA de Stratego surhumaine, que nous avons construite en utilisant des techniques générales que nous avons développées pour le RL et la puissance de calcul au moment du test sous information imparfaite. 1/N — https://nitter.kareem.one/ssokota/status/2105362024238887176#m",
-          "text_original": "I met @ssokota 5 years ago at a conference poster session. I was impressed with his explanation, so I offered him an internship. We continued collaborating and he now works with me at @OpenAI . Later, he told me I was the only person to stop by his poster for the entire session. Samuel Sokota (@ssokota) In our Nature paper, we introduce the first superhuman Stratego AI, which we built using general techniques that we developed for RL & test-time compute under imperfect information. 1/N — https://nitter.kareem.one/ssokota/status/2105362024238887176#m",
-          "link": "https://nitter.kareem.one/polynoamial/status/2105374680807043568#m",
-          "decryptage": "L'apprentissage par renforcement (RL) est une technique d'IA où un agent apprend à prendre des décisions en interagissant avec son environnement et en recevant des récompenses ou des pénalités, comme un enfant qui apprend à jouer."
+          "author_name": "Shawn Wang",
+          "handle": "@swyx",
+          "text_fr": "Honnêtement, j'ai été surpris que le @WSJ veuille faire un portrait de moi. 😂 Je ne suis pas un décrocheur d'université cool de 20 ans. Je suis un homme de 40 ans plutôt ennuyeux qui essaie de mettre à profit tout ce que j'ai appris au cours de ma carrière pour construire une nouvelle infrastructure de marché pour le calcul ('compute'). Et si je réussis, le titre ne sera pas vrai très longtemps. Wall Street aura les données, la transparence et les outils pour comprendre, évaluer et gérer le risque lié au calcul mieux que je ne pourrais jamais le faire. Et ce serait le vrai succès. The Wall Street Journal (@WSJ) Carmen Li espère faire de la puissance de calcul de l'IA une classe d'actifs comme le pétrole ou le gaz sur laquelle les investisseurs peuvent parier — pour ou contre. on.wsj.com/4yEEXGL Lien Voulez-vous 'Short' le Boom de l'IA ? Elle veut vous donner un moyen de parier sur les prix du 'Compute'. Carmen Li, fondatrice de Silicon Data, s'associe au CME Group pour lancer des produits dérivés de calcul. wsj.com — https://nitter.kareem.one/WSJ/status/2113050224339964107#m",
+          "text_original": "Honestly, I was surprised @WSJ wanted to do a profile on me. 😂 I’m not a cool 20-year-old college dropout. I’m a pretty boring 40-year-old trying to put everything I’ve learned throughout my career to work building a new market infrastructure for compute. And if I succeed, the headline won’t be true for very long. Wall Street will have the data, transparency, and tools to understand, price, and manage compute risk better than I ever could. And that would be the real success. The Wall Street Journal (@WSJ) Carmen Li hopes to make AI computing power an asset class like oil or gas that investors can bet on—or against. on.wsj.com/4yEEXGL Link Want to Short the AI Boom? She Wants to Give You a Way to Bet on ‘Compute’ Prices Silicon Data founder Carmen Li is joining with CME Group to launch compute derivatives. wsj.com — https://nitter.kareem.one/WSJ/status/2113050224339964107#m",
+          "link": "https://nitter.kareem.one/carmenli/status/2113823222357463219#m",
+          "decryptage": "Le 'compute' fait référence à la puissance de calcul nécessaire pour faire fonctionner les modèles d'IA, et en faire une 'classe d'actifs' signifie la traiter comme une marchandise financière que l'on peut acheter, vendre ou spéculer sur son prix."
         },
         {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "La plupart des malheurs de la vie viennent du fait de prendre au sérieux ce qui était censé être amusant, alors profitez du moment !",
-          "text_original": "most of life’s misery comes from taking seriously what was meant to be fun, so enjoy the moment!",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2111961115433509285#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Il y a trois ans, nous avons organisé l'un des meilleurs 'meetups' IA au monde à Paris. Juste 1200 personnes qui traînent, discutent de leur recherche et de leurs produits, et de bonnes vibrations, le tout organisé en 10 jours. Roxanne Varza (@roxannevarza) Si c'est 19h40, que se passe-t-il à 22h ? 😱😱😱😱 — http://nitter.meowing.monster/roxannevarza/status/1709986755976282298#m",
-          "text_original": "Three years ago we organized one of the best AI meetups of the world in Paris. Just 1200 people hanging around, chatting about their research and products, and great vibes, organized in 10 days Roxanne Varza (@roxannevarza) If this is 7:40pm what happens at 10? 😱😱😱😱 — http://nitter.meowing.monster/roxannevarza/status/1709986755976282298#m",
-          "link": "http://nitter.meowing.monster/osanseviero/status/2112490976497557543#m",
-          "decryptage": "Un \"meetup\" est un rassemblement informel de personnes partageant un intérêt commun, ici l'intelligence artificielle, pour échanger et apprendre."
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Félicitations à @ammaar pour avoir rendu cela 5 fois plus agréable !",
-          "text_original": "Kudos to @ammaar for making this 5x nicer!",
-          "link": "http://nitter.meowing.monster/osanseviero/status/2111137505168838827#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Nous avons constaté une adoption assez généralisée des agents en interne dans toutes les équipes. Yurii Filipchuk🇺🇦 — e/acc (@yfilipch) quelle équipe a le plus résisté aux agents, les ventes ou l'ingénierie ? — https://nitter.kareem.one/yfilipch/status/2114081863610572915#m",
-          "text_original": "We’ve seen pretty widespread adoption of agents internally across all teams Yurii Filipchuk🇺🇦 — e/acc (@yfilipch) which team fought the agents hardest, sales or eng? — https://nitter.kareem.one/yfilipch/status/2114081863610572915#m",
-          "link": "https://nitter.kareem.one/hwchase17/status/2114085096882118995#m",
-          "decryptage": "Les 'agents' en IA sont des programmes capables d'accomplir des tâches de manière autonome, en interagissant avec leur environnement et en prenant des décisions."
-        },
-        {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Le studio de contenu réalise tous nos diagrammes. Et nos vidéos. Et nos PowerPoints. hims (@himanshutwtxs) le studio de contenu est définitivement le 'fossé' ici, évidemment lol — https://nitter.kareem.one/himanshutwtxs/status/2114059748245225594#m",
-          "text_original": "Content studio makes all our diagrams. And videos. And PowerPoints’ hims (@himanshutwtxs) content studio is def the moat here obv lol — https://nitter.kareem.one/himanshutwtxs/status/2114059748245225594#m",
-          "link": "https://nitter.kareem.one/hwchase17/status/2114084516440723525#m",
+          "author_name": "Pieter Levels",
+          "handle": "@levelsio",
+          "text_fr": "La Chine a ordonné à toutes les agences gouvernementales d'élaborer des plans pour faire face aux pertes d'emplois massives dues à l'IA. Nous devrions faire de même, honnêtement. Nous sommes un pays de services, ~80 % de l'économie est constituée de personnes qui répondent à des messages, saisissent des données, rédigent des rapports. C'est exactement le travail que cette technologie fait en premier, et qu'elle fait mieux. La seule chose qui nous retient est la conformité et nous n'en sommes qu'au début. Personne que je connaisse n'embauche de juniors ou de profils intermédiaires. J'ai été le plus jeune de mon équipe pendant 5 ans et j'ai 29 ans. Oui, c'est un changement, un grand changement. Mais ce n'est un problème que si nous restons les bras croisés. Anticipons-le et ce sera la plus grande opportunité que ce pays ait connue de mon vivant. Polymarket (@Polymarket) FLASH INFO : La Chine ordonne aux agences gouvernementales d'élaborer des plans pour combattre les déplacements massifs d'emplois dus à l'IA. — https://nitter.kareem.one/Polymarket/status/2113693832948936831#m",
+          "text_original": "China's ordered every government agency to draw up plans for mass AI job losses. We should be doing the same tbh. We're a services country, ~80% of the economy is people answering messages, entering data, writing reports. That's the exact work this stuff does first, and does better. Only thing in the way is compliance and we're still early. Nobody I know is hiring juniors or mids. I've been the youngest in my team for 5 years and I'm 29. Yes it's a change, a big one. But it's only a problem if we sit on our hands. Get ahead of it and it's the biggest opportunity this country's had in my lifetime. Polymarket (@Polymarket) BREAKING: China orders government agencies to develop plans to combat mass job displacement from AI. — https://nitter.kareem.one/Polymarket/status/2113693832948936831#m",
+          "link": "https://nitter.kareem.one/alexanderrX_/status/2113918427752452559#m",
           "decryptage": null
         }
       ],
       "outils": [
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "🎸🎸🎸 Computer (@AskPerplexity) Computer a cartographié toutes les 92 localisations géographiques mentionnées par Johnny Cash dans sa chanson 'I've Been Everywhere', les épinglant sur une carte au fur et à mesure qu'il le chante. Son activé. Vidéo — https://nitter.kareem.one/AskPerplexity/status/2114061968780955858#m",
-          "text_original": "🎸🎸🎸 Computer (@AskPerplexity) Computer mapped all 92 places Johnny Cash names in \"I've Been Everywhere,\" pinning each one as he sings it. Sound on. Video — https://nitter.kareem.one/AskPerplexity/status/2114061968780955858#m",
-          "link": "https://nitter.kareem.one/AravSrinivas/status/2114068027197272430#m",
-          "decryptage": null
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Nous ouvrons un aperçu de recherche de Claude Duet, une nouvelle application où Claude agit comme un agent proactif. Il vous signale ce qui nécessite votre attention, accomplit les tâches que vous lui demandez, continue de travailler lorsque vous vous absentez et vous consulte avant d'agir en votre nom. Vidéo",
+          "text_original": "We’re opening a research preview of Claude Duet, a new app where Claude works as a proactive agent. It comes to you with what needs your attention, completes tasks you ask of it, keeps working when you step away, and checks with you before it acts on your behalf. Video",
+          "link": "http://nitter.meowing.monster/claudeai/status/2112984664256241837#m",
+          "decryptage": "Un 'agent proactif' est une IA qui ne se contente pas d'attendre vos ordres, mais qui anticipe vos besoins, vous propose des actions et gère des tâches de manière autonome, un peu comme un assistant personnel qui prend des initiatives."
         },
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "/impeccable est maintenant une compétence au sein de Computer. C'est une compétence open-source construite par @pbakaus pour vous permettre de créer des interfaces qui ne ressemblent pas à des \"générées par l'IA\". Nous offrons 5000 crédits par utilisateur pour commencer à utiliser cette compétence. Computer (@AskPerplexity) La compétence Impeccable de @pbakaus, maintenant sur le marché des compétences de Computer, examine une interface et corrige ce qu'un designer signalera. Elle vérifie la mise en page, la typographie, le contraste et l'accessibilité. Les tâches qui utilisent /impeccable sont gratuites jusqu'au 31 octobre, jusqu'à 5 000 crédits par utilisateur. Vidéo — https://nitter.kareem.one/AskPerplexity/status/2114016621631250719#m",
-          "text_original": "/impeccable is now a skill inside Computer. It’s an open-source skill built by @pbakaus to let you build interfaces that don’t look like AI-generated slop. We’re offering 5000 credits per user to get started with the skill. Computer (@AskPerplexity) The Impeccable skill by @pbakaus , now in Computer's skills marketplace, reviews an interface and fixes what a designer would flag. It checks layout, type, contrast and accessibility. Tasks that use /impeccable are free through October 31, up to 5,000 credits per user. Video — https://nitter.kareem.one/AskPerplexity/status/2114016621631250719#m",
-          "link": "https://nitter.kareem.one/AravSrinivas/status/2114021917586014449#m",
-          "decryptage": "Une \"compétence\" (skill) pour une IA est comme une fonction ou un outil spécifique que l'IA peut utiliser pour accomplir des tâches particulières, ici pour améliorer la qualité visuelle des interfaces."
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Nous avons lancé OSS Scanner, qui offre aux projets open source critiques des analyses de vulnérabilité gratuites et périodiques effectuées par nos modèles les plus puissants. Chaque détection inclut une preuve de concept et, si possible, un correctif. red.anthropic.com/oss-scanne… Lien OSS Scanner OSS Scanner est un service gratuit et facultatif d'Anthropic qui effectue des analyses de sécurité périodiques des dépôts open source avec nos modèles les plus puissants. red.anthropic.com",
+          "text_original": "We launched OSS Scanner, which gives critical open source projects free, periodic vulnerability scans from our strongest models. Each finding includes a proof-of-concept, and a patch where possible. red.anthropic.com/oss-scanne… Link OSS Scanner OSS Scanner is a free, opt-in service by Anthropic that runs periodic security scans of open-source repositories with our strongest models. red.anthropic.com",
+          "link": "http://nitter.meowing.monster/ClaudeDevs/status/2112299602510749992#m",
+          "decryptage": "Un 'OSS Scanner' (scanner de logiciels open source) est un outil qui utilise l'IA pour trouver automatiquement les failles de sécurité dans les logiciels dont le code est publiquement accessible, et même proposer des solutions."
         },
         {
-          "author_name": "Aravind Srinivas",
-          "handle": "@AravSrinivas",
-          "text_fr": "Cet utilisateur a donné à Perplexity Computer un accès SSH à un Raspberry Pi 5 via Tailscale. Pendant la nuit, il l'a transformé de manière autonome en console de jeux avec une interface d'arcade, des chaînes d'outils et une intégration MCP. La console génère des jeux GBA, C, Rust et des jeux en terminal avec compilation, test de jeu et correction d'erreurs automatisés. Computer a également construit un service de contrôleur USB personnalisé avec remappage, turbo, vibration et profils par jeu, ainsi qu'un jeu voxel multijoueur inspiré de Minecraft en C (binaire de 141 Ko) où l'utilisateur peut jouer aux côtés de Computer en tant que robot contrôlé par l'IA, dirigé via le chat intégré au jeu via MCP. redlib.kareem.one/r/perplexity_ai/s… Vidéo",
-          "text_original": "This user gave Perplexity Computer, SSH access to a Raspberry Pi 5 over Tailscale. Overnight, it autonomously turned it into a game console with an arcade UI, toolchains and MCP integration. The console generates GBA, C, Rust and terminal games with automated compilation, playtesting, and error fixing. Computer also built a custom USB controller service with remapping, turbo, rumble and per-game profiles, plus a Minecraft-inspired multiplayer voxel game in C (141 KB binary) where the user can play alongside Computer as an AI-controlled robot, directed through in-game chat via MCP. redlib.kareem.one/r/perplexity_ai/s… Video",
-          "link": "https://nitter.kareem.one/AravSrinivas/status/2113661112143282441#m",
-          "decryptage": "Un 'Raspberry Pi' est un petit ordinateur peu coûteux, souvent utilisé pour des projets de programmation et de robotique. 'SSH' (Secure Shell) est une méthode sécurisée pour contrôler un ordinateur à distance."
+          "author_name": "Boris Cherny",
+          "handle": "@bcherny",
+          "text_fr": "Dans la prochaine version de Bun, 'bun lint' est un linter 26 fois plus rapide et compatible avec ESLint, avec plus de 1 000 règles intégrées – il lit les configurations eslint et oxlint.",
+          "text_original": "In the next version of Bun bun lint is a 26x faster ESLint-compatible linter with over 1,000 builtin rules - reads eslint & oxlint configs.",
+          "link": "http://nitter.meowing.monster/bunjavascript/status/2110692261508079721#m",
+          "decryptage": "Un 'linter' est un programme qui vérifie la qualité et les erreurs potentielles dans le code informatique, un peu comme un correcteur orthographique pour les développeurs, et 'ESLint' est un standard très utilisé pour cela."
         },
         {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Nous venons de livrer de nombreuses améliorations de design, avec une meilleure recherche, navigation et esthétique. Jetez un œil à gemma.ai/ ! Et pour info, la documentation est maintenant open source ! github.com/google-gemma/docs Lien Google Gemma 4 Open Models - Gemma Documentation Documentation officielle pour les modèles d'IA open-weight Google Gemma 4, les capacités multimodales, le déploiement et le 'fine-tuning'. gemma.ai Omar Sanseviero (@osanseviero) Présentation de gemma.ai Le nouveau centre pour Gemma, incluant 📚 Guides d'inférence et d'entraînement 🧠 Guides architecturaux visuels approfondis ‍🖼️ Démos en ligne, même des modèles fonctionnant dans le navigateur Et bien plus à venir, jetez un œil ! Vidéo — http://nitter.meowing.monster/osanseviero/status/2110795921923493971#m",
-          "text_original": "We just shipped a bunch of design improvements, with better search, navigation, and aesthetics. Check gemma.ai/ out! And FYI, the docs are now open source! github.com/google-gemma/docs Link Google Gemma 4 Open Models - Gemma Documentation Official documentation for Google Gemma 4 open-weight AI models, multimodal capabilities, deployment, and fine-tuning. gemma.ai Omar Sanseviero (@osanseviero) Introducing gemma.ai The new hub for Gemma, including 📚Inference and training guides 🧠 Deep visual architectural guides ‍🖼️ Online demos, even running models in the browser And a lot more to come, check it out! Video — http://nitter.meowing.monster/osanseviero/status/2110795921923493971#m",
-          "link": "http://nitter.meowing.monster/osanseviero/status/2111137503008735441#m",
-          "decryptage": "L''open source' signifie que le code ou la documentation est publiquement accessible, que chacun peut l'utiliser, le modifier et y contribuer."
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Voxtral 'diarise' et détecte la fin d'une intervention à la volée. Il fonctionne sur votre infrastructure ou sur la nôtre (celle de la gare). Mistral AI (@MistralAI) Présentation de Voxtral 3 : des modèles de transcription et de parole de pointe alimentant la nouvelle API d'agents vocaux de Mistral. 🧵 Vidéo — http://nitter.meowing.monster/MistralAI/status/2112574615318876178#m",
+          "text_original": "Voxtral diarizes and detects end-of-turn on the fly. Runs on your infra or on ours (the one in the train station) Mistral AI (@MistralAI) Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 Video — http://nitter.meowing.monster/MistralAI/status/2112574615318876178#m",
+          "link": "http://nitter.meowing.monster/arthurmensch/status/2112668031268896866#m",
+          "decryptage": "Le fait de 'diariser' signifie que l'IA peut identifier qui parle et quand, comme séparer les voix dans une conversation, ce qui est crucial pour des 'agents vocaux' qui interagissent naturellement en temps réel."
         },
         {
-          "author_name": "Omar Sanseviero",
-          "handle": "@osanseviero",
-          "text_fr": "Présentation de gemma.ai Le nouveau centre pour Gemma, incluant 📚 des guides d'inférence et d'entraînement 🧠 des guides architecturaux visuels approfondis ‍🖼️ des démos en ligne, même des modèles fonctionnant dans le navigateur Et bien plus à venir, jetez un œil ! Vidéo",
-          "text_original": "Introducing gemma.ai The new hub for Gemma, including 📚Inference and training guides 🧠 Deep visual architectural guides ‍🖼️ Online demos, even running models in the browser And a lot more to come, check it out! Video",
-          "link": "http://nitter.meowing.monster/osanseviero/status/2110795921923493971#m",
-          "decryptage": "L' \"inférence\" est le processus par lequel un modèle d'IA utilise ce qu'il a appris pour faire des prédictions ou générer de nouvelles données."
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "🎙️ Présentation de Voxtral 3 ! Une nouvelle famille de modèles de parole SOTA : ASR : Mini & Small pour la transcription par lots, plus le streaming en temps réel TTS : parole expressive, multilingue, par lots + streaming SDK d'agent vocal : conversations à faible latence + appel d'outils Disponible via API ou sur votre propre infrastructure ! Mistral AI (@MistralAI) Présentation de Voxtral 3 : des modèles de transcription et de parole de pointe alimentant la nouvelle API d'agents vocaux de Mistral. 🧵 Vidéo — http://nitter.meowing.monster/MistralAI/status/2112574615318876178#m",
+          "text_original": "🎙️ Introducing Voxtral 3 ! A new family of SOTA speech models: ASR: Mini & Small for batch transcription, plus real-time streaming TTS: expressive, multilingual speech, batch + streaming Voice agent SDK: low-latency conversations + tool calling Available via API or on your own infrastructure ! Mistral AI (@MistralAI) Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 Video — http://nitter.meowing.monster/MistralAI/status/2112574615318876178#m",
+          "link": "http://nitter.meowing.monster/GuillaumeLample/status/2112591060052656585#m",
+          "decryptage": "Les modèles 'ASR' (reconnaissance automatique de la parole) convertissent l'audio en texte, tandis que les 'TTS' (synthèse vocale) transforment le texte en parole, des technologies clés pour les 'agents vocaux' qui communiquent comme des humains."
         }
       ]
     }
   },
-  "processed_at": "2026-10-25T11:17:54",
+  "processed_at": "2026-10-25T11:51:43",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 74,
-    "total": 34,
+    "with_decryptage_pct": 87,
+    "total": 23,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-10-25T11:17:55"
+  "email_sent_at": "2026-10-25T11:51:44"
 }
