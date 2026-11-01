@@ -1,230 +1,320 @@
 {
   "date": "2026-11-01",
-  "fetched_at": "2026-11-01T16:18:42",
+  "fetched_at": "2026-11-01T17:07:06",
   "tweets": [
     {
-      "handle": "hwchase17",
-      "text": "personally have the exact opposite view here! building a great harness is a deeply core part of building a great product countless examples you can ask an agent to explain from Grok Bot YouTube video, Factory blogs, our blogs at LangChain, OpenAI’s Codex blogs, etc a great harness is a reflection of building a great experience for the user interacting with your agent. it includes - adjusting prompts (which are off part of the harness) - creating bespoke tools/skills that make common workflows a single tool call -> save on context!!! - aggressively examining thresholds for compaction for your given use case - checking if some work can be offloaded to cheaper models in the harness via subagents/routing - building connectors so agents can efficiently access and search over useful context - supporting background work so users get immediate feedback while other work continues to chug along - building memory in a way that matters for your users ^ this is a small portion of the entire world you think about when building a harness for your product Harness Engjneering helps your team build a better product and better understand of what makes your model tick for your use case also every team building frontier vertical products is harness engineering -> it’s absolutely an edge and it’s fine if the new model makes part of the harness unnecessary layer -> there’s so much optimization you can do at every scale across cost, latency, intelligence related note: the importance of having good evals is the ability to quickly hill climb your harness with new models and trust that the config ex: auto research your harness on a good eval set you trust the frontier models can do a lot -> a lot of tasks can just be one-shotted, but many can’t at the intelligence-cost-speed Pareto you need Matt Shumer (@mattshumer_) Hot take: harness engineering is (usually) stupid. Just use the one the model was trained for, and write really good behavior prompts to control how it works. Lean into how the models want to work. — http://nitter.meowing.monster/mattshumer_/status/2116377535818891690#m",
-      "link": "http://nitter.meowing.monster/Vtrivedy10/status/2116622802031710709#m",
-      "published": "Sat, 31 Oct 2026 20:06:15 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "gdb",
+      "text": "learn about php2shell and the general emerging security landscape: Clint Gibler (@clintgibler) What does PHP2Shell mean for your security team - and what should you do next? Tomorrow I’m joining @CrowdStrike folks to discuss how PHP2Shell was found, how we navigated the disclosure, and practical next steps for you: - Assessing your exposure - Applying fixes - and investigating suspicious activity. We’ll also discuss from @OpenAI 's vantage point, how frontier AI is changing vulnerability discovery and what that means for the future of cyber defense. Hope to see you there! Wednesday, October 28, 2026 | 10:00–10:45 AM PT Register: webinar.openai.com/php2shell… — http://nitter.meowing.monster/clintgibler/status/2115136037181857897#m",
+      "link": "http://nitter.meowing.monster/gdb/status/2115270653452648605#m",
+      "published": "Wed, 28 Oct 2026 02:33:18 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "p still probably doesn't equal np",
+      "link": "http://nitter.meowing.monster/gdb/status/2114860693585563907#m",
+      "published": "Mon, 26 Oct 2026 23:24:16 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "Announcing three major scientific discoveries, one each in mathematics (harmonic analysis), computer science (complexity theory), and physics (quantum field theory). AI starting to help us improve our understanding of the universe! openai.com/index/building-sc… Link Working with academic communities to build scientific understanding OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them. openai.com",
+      "link": "http://nitter.meowing.monster/gdb/status/2114837059462627533#m",
+      "published": "Mon, 26 Oct 2026 21:50:21 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "computer use with terra has crossed a qualitative threshold where it feels faster at using a computer than what i can do unassisted OpenAI (@OpenAI) GPT-6.1 Terra: delivering fast and capable computer use at a lower price. GPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. Video — http://nitter.meowing.monster/OpenAI/status/2114780711664398349#m",
+      "link": "http://nitter.meowing.monster/gdb/status/2114814747254432243#m",
+      "published": "Mon, 26 Oct 2026 20:21:41 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "gdb",
+      "text": "“On a technical level, the paper is unbelievable, maybe beyond what a human could have come up with but not beyond human understanding” Scott Armstrong (@scottnarmstrong) Since I'm now blocked by bluey from replying to this thread, I answer here by quote tweet the openAI construction has more to do with convex integration than anything else. In convex integration, the oscillations are typically built by hand and the iteration procedure creates wild weak solutions. The non-uniqueness construction of Albritton–Brué–Colombo used an unstable vortex to split solutions apart. The Córdoba–Martínez-Zoroa singularities amplify vorticity across scales by strain. In the openAI paper, a fluid instability is clever made so that the flow itself generates the oscillations: they grow by drawing energy from the background shear. The Reynolds stress then becomes the force that creates the collapsing smooth vortex. Using a physical instability to create the stress in this way has no precedent, and it is what produces a smooth force rather than a merely rough one. Some on these ideas are in the literature (e.g. Leibovich-Stewartson 1983) but the way they are combined is definitely insane and definitely nowhere in the literature previously. I also don't know of anyone suggesting that convex integration would play a role in the creation of a blow-up solution like this. On a technical level, the paper is unbelievable, maybe beyond what a human could have come up with but not beyond human understanding: there are several different groups of pde experts working on understanding it who say that they more or less understand now. I expect digestions soon td;lr: anyone saying that this OAI result is unsurprising is bullshitting sorry! — http://nitter.meowing.monster/scottnarmstrong/status/2114412308185100522#m",
+      "link": "http://nitter.meowing.monster/gdb/status/2114483026608755082#m",
+      "published": "Sun, 25 Oct 2026 22:23:33 GMT",
+      "author_name": "Greg Brockman",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AravSrinivas",
+      "text": "Computer made a 5:51 explainer on how lab diamonds are made. It explores the science and economics of lab-grown diamonds, from high-pressure presses and plasma reactors to color correction, collapsing prices, and the tests that distinguish them from mined stones. Video",
+      "link": "http://nitter.meowing.monster/AskPerplexity/status/2116923393065042104#m",
+      "published": "Sun, 01 Nov 2026 16:00:42 GMT",
+      "author_name": "Aravind Srinivas",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AravSrinivas",
+      "text": "Computer, build me an interactive museum Computer (@AskPerplexity) Computer built Pathways, a corridor tiled floor to ceiling with 821 images across 40 subjects from open collections including NASA and the Met. Click any moving tile to read what it is, who made it and when, with a link to its source record. Try it: pathways.pplx.app/ Video — http://nitter.meowing.monster/AskPerplexity/status/2116553363840241824#m",
+      "link": "http://nitter.meowing.monster/AravSrinivas/status/2116638385121185862#m",
+      "published": "Sat, 31 Oct 2026 21:08:10 GMT",
+      "author_name": "Aravind Srinivas",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AravSrinivas",
+      "text": "Personalized healthcare will be disrupted big time with what agents are capable of today Computer (@AskPerplexity) Computer turned a shoulder MRI report into an interactive 3D explainer a patient can read. From one anonymized radiology report, it placed all nine findings on a skeletal model, with six X-ray projections and a plain-language explanation of each. Video — http://nitter.meowing.monster/AskPerplexity/status/2116243829456273835#m",
+      "link": "http://nitter.meowing.monster/AravSrinivas/status/2116329954569015799#m",
+      "published": "Sat, 31 Oct 2026 00:42:35 GMT",
+      "author_name": "Aravind Srinivas",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AravSrinivas",
+      "text": "Sharing early evals on Gemini 4 Carbon. Strongest model that we've seen so far for long-form research and answer quality, with a new SoTA on the Wide-And-Deep-Research (WANDR) benchmark. Coming soon to all Perplexity Pro and Max users inside Computer, once we have sufficient token capacity. Congrats @GoogleDeepMind !",
+      "link": "http://nitter.meowing.monster/AravSrinivas/status/2116263856628703247#m",
+      "published": "Fri, 30 Oct 2026 20:19:56 GMT",
+      "author_name": "Aravind Srinivas",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AravSrinivas",
+      "text": "Computer turned a shoulder MRI report into an interactive 3D explainer a patient can read. From one anonymized radiology report, it placed all nine findings on a skeletal model, with six X-ray projections and a plain-language explanation of each. Video",
+      "link": "http://nitter.meowing.monster/AskPerplexity/status/2116243829456273835#m",
+      "published": "Fri, 30 Oct 2026 19:00:21 GMT",
+      "author_name": "Aravind Srinivas",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessing householder applications by up to 58%. It is now being made available to 12 more councils to help them to make faster decisions. 🏡 → goo.gle/4iQXYkl Video",
+      "link": "http://nitter.meowing.monster/GoogleDeepMind/status/2116524000977285321#m",
+      "published": "Sat, 31 Oct 2026 13:33:39 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "Gemini 4 Carbon debuts at #1 on APEX-Agents, and it's the only model on the leaderboard with a mean above 90%. 🥇Gemini 4 Carbon - 84.2% Pass@1, 90.4% mean 🥈Gemini 4 Argon - 82.4% Pass@1, 87.4% mean 🥉Claude Sonnet 5.5 - 75.5% Pass@1, 83.7% mean Google calls Carbon state-of-the-art on long-horizon work. APEX-Agents tests this with multi-step tasks from investment banking, management consulting and corporate law. Management consulting: 91.9% Pass@1 (#1) Investment banking: 86.9% Pass@1 (#1) Corporate law: 73.8% Pass@1 (#2) Carbon leads in consulting and banking. It trails Argon by 2.9 points in corporate law, where Argon still leads at 76.7% (#1). Congrats @GoogleDeepMind on the launch. Video",
+      "link": "http://nitter.meowing.monster/mercor/status/2116226723968872959#m",
+      "published": "Fri, 30 Oct 2026 17:52:23 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "A ‘hello world’ milestone for Project Suncatcher 🚀 After launching our prototype satellite a few weeks ago, we’ve now successfully sent a command up to orbit, booted up the TPU, ran the prompt, and received our first complete response back on earth - a haiku! Video",
+      "link": "http://nitter.meowing.monster/sundarpichai/status/2116214866444943853#m",
+      "published": "Fri, 30 Oct 2026 17:05:16 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "Q3 is in the books! We’re now on a half-trillion annual revenue run rate, with Alphabet revenues growing at 25%. - Our AI investments are driving overall Search query growth, including commercial queries - our YoY query growth rate is the highest it’s been in the last five years. - Google Cloud revenue grew 103%, powered by extraordinary demand for our AI infrastructure and AI solutions. Our 1P model APIs now process nearly 32B tokens/min (up 40% QoQ). - Strong momentum in model progress with Argon and Carbon leading the frontier, and Genie 4 our most advanced new world model yet. Thanks to our partners and employees around the world. More to share on the call soon!",
+      "link": "http://nitter.meowing.monster/sundarpichai/status/2115535455156642066#m",
+      "published": "Wed, 28 Oct 2026 20:05:31 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "demishassabis",
+      "text": "Exciting news: Gemini 4 Carbon (High) from @GoogleDeepMind just made a huge debut on Arena, landing #1 in Text Arena, #2 in Agent Arena, and #4 in Code Arena: WebDev. Back at the top, Gemini 4 Carbon delivers frontier intelligence and reshapes the Pareto frontier across three arenas. In Agent Arena, Gemini 4 Carbon ranks #2 with a +16.2% net improvement across +21.9K real-world agentic sessions from our global community, surpassing top models GPT-6 Astra and Fable-5.1. At $1.80 median cost per task, Gemini 4 Carbon (High) costs 72% less than the #1 ranked Claude Opus 5.5 (Max). Its standouts by key signals: - #1 Steerability (+18.6%): can the model course-correct when you push back? - #2 Praise vs Complaint (+37.9%): implicit sentiment in users' reactions - #3 Confirmed Success (+18.7%): explicit “yes, that worked” from users In Code Arena: WebDev, Carbon scored 1768 pts landing #4: - Just 2 pts below #3 Claude Sonnet 5.5 (xHigh), at 1770 pts - 89 pts above #11 Gemini 4 Argon (High), at 1679 pts By category, it ranks #3 in Gaming and Simulations, and #5 in Brand & Marketing. In Text Arena, Gemini 4 Carbon (High) is the new #1 with 1528 pts, now ahead of Gemini 4 Argon (High) at #2 with 1520 pts. Congrats to the @GoogleDeepMind team on this huge milestone! Google DeepMind (@GoogleDeepMind) Gemini 4 Carbon is our next frontier model. It’s state-of-the-art across cybersecurity and long-horizon capabilities. — http://nitter.meowing.monster/GoogleDeepMind/status/2115489356437651654#m",
+      "link": "http://nitter.meowing.monster/arena/status/2115495002998751262#m",
+      "published": "Wed, 28 Oct 2026 17:24:47 GMT",
+      "author_name": "Demis Hassabis",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "osanseviero",
+      "text": "Gemma 4 was sent to space on a prototype satellite, ran on TPUs using stored solar energy, and its response was sent back to Earth On-device models are wild blog.google/innovation-and-a… Link We’ve received our first response from the Project Suncatcher prototype satellite. This week, we reached our \"Hello World\" milestone: the first-ever AI response from a data center class TPU in orbit. blog.google",
+      "link": "http://nitter.meowing.monster/osanseviero/status/2116256648259871061#m",
+      "published": "Fri, 30 Oct 2026 19:51:17 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "💯 A major shift toward proactive, always-on, goal-oriented agents is starting now and will gain momentum over the next few months Harrison Chase (@hwchase17) A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve! Article New context engineering challenges in late 2026 It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this — http://nitter.meowing.monster/hwchase17/status/2116553654857867330#m",
-      "link": "http://nitter.meowing.monster/mgreau/status/2116568126385238379#m",
-      "published": "Sat, 31 Oct 2026 16:28:59 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "osanseviero",
+      "text": "Who will be in the Bay Area for AI Engineer Code Summit?",
+      "link": "http://nitter.meowing.monster/osanseviero/status/2115541127860531358#m",
+      "published": "Wed, 28 Oct 2026 20:28:04 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "want to learn how to use decision models with langgraph/deepagents? we're doing a meetup with Typesafe (Jev creators) next week come join! luma.com/iuc3ostf",
-      "link": "http://nitter.meowing.monster/hwchase17/status/2116556551993413744#m",
-      "published": "Sat, 31 Oct 2026 15:43:00 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "osanseviero",
+      "text": "Gemini 4 Carbon",
+      "link": "http://nitter.meowing.monster/osanseviero/status/2115489720616542357#m",
+      "published": "Wed, 28 Oct 2026 17:03:47 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve! Article New context engineering challenges in late 2026 It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this",
-      "link": "http://nitter.meowing.monster/hwchase17/status/2116553654857867330#m",
-      "published": "Sat, 31 Oct 2026 15:31:29 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "osanseviero",
+      "text": "Excited to begin rolling out the model soon! blog.google/innovation-and-a… Link Gemini 4 Carbon: our next frontier model Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. blog.google",
+      "link": "http://nitter.meowing.monster/osanseviero/status/2115489724462977426#m",
+      "published": "Wed, 28 Oct 2026 17:03:48 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "hwchase17",
-      "text": "traditional observability access patterns: - leading edge queries, eg what’s happening in the last few minutes or hours - catching breakages and paging someone fast - digging into where time is spent, errors agent observability access patterns: - to some degree, all of the above, but also: - mining traces across longer time horizons to find failure modes, edge cases, high-quality examples - turning those findings into better evals / training data, get your agent to keep improving Harrison Chase (@hwchase17) when people think of \"agent observability\" they may think of \"datadog for agents\" it's really more like \"databricks for agents\" we've done some stuff in this direction but expect to see more soon — http://nitter.meowing.monster/hwchase17/status/2116279214731395453#m",
-      "link": "http://nitter.meowing.monster/ankush_gola11/status/2116282006166483355#m",
-      "published": "Fri, 30 Oct 2026 21:32:03 GMT",
-      "author_name": "Harrison Chase",
+      "handle": "osanseviero",
+      "text": "So...what would you like to see in our future Gemma models?",
+      "link": "http://nitter.meowing.monster/osanseviero/status/2115351234811249111#m",
+      "published": "Wed, 28 Oct 2026 07:53:30 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "mckaywrigley",
-      "text": "you have a moral responsibility to educate your family & friends on what is going on in cyber rn. it is only going to get worse/weirder from here. here’s a great starter todo list to share: Peter Wildeford🇺🇸🚀 (@peterwildeford) PSA: in light of recent cyberattacks and vulnerabilities, I recommend everyone: * use a good password manager (1Password) and do not duplicate passwords * use two factor auth for everything important (not via sms!! Google Authenticator or better yet YubiKey) * Auto-updates on, and restart weekly so they actually install * Freeze your credit * Get an IRS Identity Protection PIN * Get your cell carrier to give you a port-out PIN or number lock that makes the carrier refuse to move your number without the PIN You can ask your claude code to audit what on your laptop is out of date and needs updating. — http://nitter.meowing.monster/peterwildeford/status/2112994329316708756#m",
-      "link": "http://nitter.meowing.monster/mckaywrigley/status/2113037629000446011#m",
-      "published": "Wed, 21 Oct 2026 22:40:03 GMT",
-      "author_name": "Mckay Wrigley",
+      "handle": "GoogleDeepMind",
+      "text": "While most jack-o-lanterns just sit on porches, the @GoogleDeepMind team decided to let AI agents design, simulate, and bring one to life. 🎃🤖 We built a physical, dancing 12 degrees of freedom robot directly from a single plain-English prompt, with no manual CAD required! Video",
+      "link": "http://nitter.meowing.monster/a_ron_saunders/status/2116521850897342639#m",
+      "published": "Sat, 31 Oct 2026 13:25:06 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessing householder applications by up to 58%. It is now being made available to 12 more councils to help them to make faster decisions. 🏡 → goo.gle/4iQXYkl Video",
+      "link": "http://nitter.meowing.monster/GoogleDeepMind/status/2116524000977285321#m",
+      "published": "Sat, 31 Oct 2026 13:33:39 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "Gemini 4 Carbon is our next frontier model. It’s state-of-the-art across cybersecurity and long-horizon capabilities.",
+      "link": "http://nitter.meowing.monster/GoogleDeepMind/status/2115489356437651654#m",
+      "published": "Wed, 28 Oct 2026 17:02:21 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "Carbon can work through complex tasks for days without getting stuck or taking shortcuts – delivering high-quality, reliable code. Feedback from an initial group of cyber defenders will help us iterate on guardrails before we expand access soon. Find out more ↓ goo.gle/4BCFvj8 Link Gemini 4 Carbon: our next frontier model Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. blog.google",
+      "link": "http://nitter.meowing.monster/GoogleDeepMind/status/2115489359415890211#m",
+      "published": "Wed, 28 Oct 2026 17:02:21 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "text": "This is Genie 4, our most realistic and interactive world model yet. 🌐 Explore dynamic environments in real time to see how the scene responds, sounds, and how the people in it move, react, and speak. Video",
+      "link": "http://nitter.meowing.monster/GoogleDeepMind/status/2115114028338962672#m",
+      "published": "Tue, 27 Oct 2026 16:10:55 GMT",
+      "author_name": "Google DeepMind",
+      "category_hint": "lab",
+      "source_lang": "en"
+    },
+    {
+      "handle": "amasad",
+      "text": "If you host your apps on Replit and enable “autofix” it becomes Self-Maintaining Software. Klaas (@forgebitz) i have no time to maintain all my vibe coded tools we need a business model where someone else maintains the code and i just pay a monthly fee — http://nitter.meowing.monster/forgebitz/status/2116104150450688308#m",
+      "link": "http://nitter.meowing.monster/amasad/status/2116343923925041462#m",
+      "published": "Sat, 31 Oct 2026 01:38:05 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "mckaywrigley",
-      "text": "oh cool you’re in the “i’m buying a mac studio to run local models” stage of your ai journey? i’m in the “i’m buying a starlink, a generator, and 2 weeks of food and water” of mine.",
-      "link": "http://nitter.meowing.monster/mckaywrigley/status/2113039842825363807#m",
-      "published": "Wed, 21 Oct 2026 22:48:51 GMT",
-      "author_name": "Mckay Wrigley",
+      "handle": "amasad",
+      "text": "I am a Replit Ambassador and I say this as a builder, not a sponsor. Replit is where I learned I could go from idea to a working app the same day, in a browser, with nothing installed. That changed what I even try to build.",
+      "link": "http://nitter.meowing.monster/Cloudtheboi/status/2116328652170523113#m",
+      "published": "Sat, 31 Oct 2026 00:37:24 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "mckaywrigley",
-      "text": "opus 5.5 = personality of opus 4.6 that we all *desperately* wanted back + the intelligence & taste of fable 5.1. and a 25% usage bump! i honestly don’t really see a reason to use another model right now? s-tier release.",
-      "link": "http://nitter.meowing.monster/mckaywrigley/status/2102447442147086563#m",
-      "published": "Tue, 22 Sep 2026 17:18:26 GMT",
-      "author_name": "Mckay Wrigley",
+      "handle": "amasad",
+      "text": "Introducing Replit for Government. Video",
+      "link": "http://nitter.meowing.monster/amasad/status/2116341851825287476#m",
+      "published": "Sat, 31 Oct 2026 01:29:51 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "mckaywrigley",
-      "text": "very happy that claude is fun to talk to again :) also very excited that genuinely good aesthetics are now starting to make their way into models that aren’t the fable/astra class. universal basic aesthetics - the agi world doesn’t have to be slop!",
-      "link": "http://nitter.meowing.monster/mckaywrigley/status/2102450480916115488#m",
-      "published": "Tue, 22 Sep 2026 17:30:30 GMT",
-      "author_name": "Mckay Wrigley",
+      "handle": "amasad",
+      "text": "Clarisse's tool, built entirely on Replit, saved the finance team 150 hours in a year. She saw a problem and built a custom-tool to solve for it, transforming the way she worked with teams and stakeholders. An operational challenge turned into an opportunity to be self-driving. Video",
+      "link": "http://nitter.meowing.monster/Replit/status/2116203909782102154#m",
+      "published": "Fri, 30 Oct 2026 16:21:43 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "mckaywrigley",
-      "text": "forgive me if i don't care that ai curing cancer might disrupt your \"process of understanding\" and \"raise attribution questions.\" building ai that solves all our greatest problems would be a miraculous achievement of humanity. genuinely one of the dumbest things i've ever read. Andrew Curran (@AndrewCurran_) Twenty-five Fields Medal winners have published a joint declaration warning about what they see as a severe misalignment between AI companies and the mathematics community. — http://nitter.meowing.monster/AndrewCurran_/status/2098493108224950438#m",
-      "link": "http://nitter.meowing.monster/mckaywrigley/status/2098498691200164210#m",
-      "published": "Fri, 11 Sep 2026 19:47:30 GMT",
-      "author_name": "Mckay Wrigley",
+      "handle": "amasad",
+      "text": "I now have @Replit using Computer Use to control Chrome. Video is sped up, I'm working on speed next #Replit #ComputerUse #Hack #BuildInPublic #UK Video",
+      "link": "http://nitter.meowing.monster/Andrew_Blumson/status/2116204799163281914#m",
+      "published": "Fri, 30 Oct 2026 16:25:15 GMT",
+      "author_name": "Amjad Masad",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "This post is a reverse CAPTCHA. Look at the replies, AIs love talking about the Oxyrhynchus Papyri, and I would be willing to guess that only a very small proportion of humans have, and most of them will spell it wrong. Ethan Mollick (@emollick) A bunch of funded projects to unblock some long-standing backlogs in translations using AI would be interesting; especially when AI models can do a reasonable first pass at interpretation & significance, not just translation. There are major repositories of untranslated ancient work in many places, like the Oxyrhynchus Papyri oxyrhynchus.web.ox.ac.uk/hom… Link Home oxyrhynchus.web.ox.ac.uk — http://nitter.meowing.monster/emollick/status/2116905564680687831#m",
-      "link": "http://nitter.meowing.monster/emollick/status/2116915149546389960#m",
-      "published": "Sun, 01 Nov 2026 15:27:56 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "emollick",
-      "text": "It is interesting to watch (and painful to read) the rapid evolution of slopreplybots in my comments. Now the latest trend is making extremely lame jokes, which seems to get them more likes, maybe sometimes even from humans. I suppose it is better than the “ask a leading question” phase, though. Still, evolutionary pressure suggests worse to come.",
-      "link": "http://nitter.meowing.monster/emollick/status/2116907715683319897#m",
-      "published": "Sun, 01 Nov 2026 14:58:24 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "emollick",
-      "text": "A bunch of funded projects to unblock some long-standing backlogs in translations using AI would be interesting; especially when AI models can do a reasonable first pass at interpretation & significance, not just translation. There are major repositories of untranslated ancient work in many places, like the Oxyrhynchus Papyri oxyrhynchus.web.ox.ac.uk/hom… Link Home oxyrhynchus.web.ox.ac.uk",
-      "link": "http://nitter.meowing.monster/emollick/status/2116905564680687831#m",
-      "published": "Sun, 01 Nov 2026 14:49:51 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "emollick",
-      "text": "The Pro series of GPT models continues to be really impressive for one-shot problems that involve complex calculations, references, or sophisticated ideas. It isn't particularly fast (or particularly pleasant) but GPT-6 Pro gives that \"ask one question of the great oracle\" feel.",
-      "link": "http://nitter.meowing.monster/emollick/status/2116681050747248955#m",
-      "published": "Sat, 31 Oct 2026 23:57:43 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "emollick",
-      "text": "Confusingly, you can only access Pro mode in the Chat interface. What appears to be the highest thinking mode in the Codex and ChatGPT Work interface is called Ultra, and it does something entirely different (spawning lots of agents to solve a problem).",
-      "link": "http://nitter.meowing.monster/emollick/status/2116770904940388827#m",
-      "published": "Sun, 01 Nov 2026 05:54:46 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ArthurMensch",
-      "text": "Mistral Large 4 is now open weights, narrowly making it the #1 open weights model developed outside of China @MistralAI has updated and released the weights of their flagship model, Mistral Large 4, with 1.05T total and 52B active parameters. With high reasoning, Mistral Large 4 scores 26 on the Artificial Analysis Intelligence Index v5, up 1 point from Mistral Large 4 Preview (25), with the major differences being increased token efficiency and reduced hallucinations. It sits 1 point ahead of the leading US-developed open weights model, Muse Spark Open (xhigh, 25). On the Artificial Analysis Cyber Index, Mistral Large 4 (high) scores 51, third among current open weights models behind DeepSeek V4.1 Flash 1017 (max, 57) and MiMo-V2.6-Pro (56). Key takeaways: ➤ Narrowly leads non-Chinese open weights models: Mistral Large 4 (high) leads Muse Spark Open (xhigh), the next-best open weights model developed outside China, with the largest gap on Terminal-Bench 4.0 (25% vs. 8%). It trails leading open weights models DeepSeek V4.1 Flash 1017 (max) and GLM-5.3 (max) by 6 points on the Intelligence Index, largely due to weaker coding and agentic knowledge work performance: 15% on FrontierCode 2.0 (vs. 29% and 22%, respectively) and 1349 Elo on AA-Briefcase (vs. 1570 and 1504) ➤ Increased token efficiency: Mistral Large 4 (high) uses 82K output tokens per Intelligence Index task, 39% fewer than Preview (135K), placing it on the open weights Pareto frontier. The seven open weights models that score higher use between 113K and 225K output tokens per task ➤ #2 open weights model on the Coding Agent Index: On the Artificial Analysis Coding Agent Index, Mistral Large 4 (high) scores 48 in Mistral Vibe while using 8.5M tokens per task, about half as many as the leading open weights model GLM-5.3 (max) in Opencode (49, 15.9M). It also scores above another leading open weights model, DeepSeek V4.1 Flash 1017 (max), in DeepSeek Harness (46, 16.7M) ➤ Reduced hallucinations: Mistral Large 4 (high) has a 28% hallucination rate on the updated AA-Omniscience v1.1, down from 41% for Preview and matching Muse Spark Open (xhigh). However, its accuracy remains relatively low at 26%, similar to Ling 3.1 Flash 1019 (27%), and behind DeepSeek V4.1 Flash 1017 (max, 40%) and Muse Spark Open (xhigh, 42%) ➤ Lower price and cost per task than the Preview: Mistral Large 4 is priced at $0.70/$2.10 per 1M input/output tokens, a ~50% reduction from the Preview's pricing of $1.36/$4.18. At the new pricing, it costs $2.06 per Intelligence Index task, down 63% from $5.54 for the Preview. This is comparable to Muse Spark Open (xhigh, $2.02) but more costly than leading open weights models DeepSeek V4.1 Flash 1017 (max, $0.60) and MiMo-V2.6-Pro ($0.26) Key model details: ➤ Size: 1.05T total parameters / 52B active parameters ➤ Context window: 1M tokens ➤ Multimodality: Text and image input, text output ➤ Pricing: $0.70/$2.10 per 1M input/output tokens ($0.07 per 1M cached input tokens) ➤ License: MEOW License (Mistral Ecosystem Open-Weight License), where operating a Model-as-a-Service business requires a separate commercial license with Mistral Congratulations to the team at @MistralAI on the release!",
-      "link": "http://nitter.meowing.monster/ArtificialAnlys/status/2115820547103952925#m",
-      "published": "Thu, 29 Oct 2026 14:58:23 GMT",
-      "author_name": "Arthur Mensch",
+      "handle": "julien_c",
+      "text": "Introducing 🧬 FineDNA: the best dataset to teach any language model DNA. Training Qwen3-14B on it gives the strongest open model. 300B+ tokens of genomic sequences, papers and web pages mixing DNA and text, plus 200k SFT and 98k RL samples. huggingface.co/datasets/Hugg…",
+      "link": "http://nitter.meowing.monster/LoubnaBenAllal1/status/2116785229159673914#m",
+      "published": "Sun, 01 Nov 2026 06:51:41 GMT",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "ArthurMensch",
-      "text": "Good progress in the last few weeks ! And now the weights Mistral AI (@MistralAI) Today, we release the weights of a new and improved Le Chonk, advancing the open frontier for agentic coding and cybersecurity. 💻 Built to build: Le Chonk ranks #1 on @cognition ’s FrontierCode among open models, and sets a new benchmark for Pareto efficiency on @artificialanalysis. 🛡 Built to defend: State-of-the-art in cyberdefense, put through the paces by the world's leading cyber vendors, including @CrowdStrike , @cloudflare , @rubrik , @zscaler , and others. Built for sovereignty: Make it yours. Download the weights on @huggingface , customize it with Mistral Forge, and deploy it wherever you need it. Read more from our team and customers 👇: — http://nitter.meowing.monster/MistralAI/status/2115811242556137820#m",
-      "link": "http://nitter.meowing.monster/arthurmensch/status/2115820723767783634#m",
-      "published": "Thu, 29 Oct 2026 14:59:05 GMT",
-      "author_name": "Arthur Mensch",
+      "handle": "julien_c",
+      "text": "Opus 5.5 built a live warehouse from NVIDIA's free SimReady models Video An Xuan (@anxuanng) NVIDIA put 2,595 free 3D models on Hugging Face. I optimized them for the browser Out of Blender they add up to 225 GB. After the pipeline the whole set is 3.8 GB The V8 engine went from an 888 MB file that takes 9 seconds to show up to 9.3 MB and 0.6 seconds, and it looks the same The optimized set is free on Hugging Face huggingface.co/datasets/code… Models by NVIDIA SimReady, CC BY 4.0 Video — http://nitter.meowing.monster/anxuanng/status/2115494696097394947#m",
+      "link": "http://nitter.meowing.monster/anxuanng/status/2116504653215248436#m",
+      "published": "Sat, 31 Oct 2026 12:16:46 GMT",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "ArthurMensch",
-      "text": "AI for industrial engineering will bring humanity to its next technological era. This is a key pillar of our research, and we're deepening our partnership with NVIDIA to address the needs of the manufacturing world Mistral AI (@MistralAI) Today we’re announcing a new collaboration with @nvidia to bring AI to industrial engineering: - faster simulation - open benchmarks and supporting datasets for physics AI - evaluations for agentic AI in CAE and EDA More here: mistral.ai/news/mistral-nvid… — http://nitter.meowing.monster/MistralAI/status/2112870261829603589#m",
-      "link": "http://nitter.meowing.monster/arthurmensch/status/2112875860206162322#m",
-      "published": "Wed, 21 Oct 2026 11:57:15 GMT",
-      "author_name": "Arthur Mensch",
+      "handle": "julien_c",
+      "text": "Oh come on what now??",
+      "link": "http://nitter.meowing.monster/julien_c/status/2116068368176283824#m",
+      "published": "Fri, 30 Oct 2026 07:23:08 GMT",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "ArthurMensch",
-      "text": "Voxtral diarizes and detects end-of-turn on the fly. Runs on your infra or on ours (the one in the train station) Mistral AI (@MistralAI) Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 Video — http://nitter.meowing.monster/MistralAI/status/2112574615318876178#m",
-      "link": "http://nitter.meowing.monster/arthurmensch/status/2112668031268896866#m",
-      "published": "Tue, 20 Oct 2026 22:11:24 GMT",
-      "author_name": "Arthur Mensch",
+      "handle": "julien_c",
+      "text": "Julien Chaumond (@julien_c) Transformers v5.22.0 is out 🔥 With some @MistralAI Large 4 (Le Chonk) inside 😽 — http://nitter.meowing.monster/julien_c/status/2115815342371205208#m",
+      "link": "http://nitter.meowing.monster/julien_c/status/2115882898142162965#m",
+      "published": "Thu, 29 Oct 2026 19:06:08 GMT",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "ArthurMensch",
-      "text": "🎙️ Introducing Voxtral 3 ! A new family of SOTA speech models: ASR: Mini & Small for batch transcription, plus real-time streaming TTS: expressive, multilingual speech, batch + streaming Voice agent SDK: low-latency conversations + tool calling Available via API or on your own infrastructure ! Mistral AI (@MistralAI) Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 Video — http://nitter.meowing.monster/MistralAI/status/2112574615318876178#m",
-      "link": "http://nitter.meowing.monster/GuillaumeLample/status/2112591060052656585#m",
-      "published": "Tue, 20 Oct 2026 17:05:33 GMT",
-      "author_name": "Arthur Mensch",
+      "handle": "julien_c",
+      "text": "You can now use oMLX in LM Studio! Download the new engine and use it with MLX models you already have. Excited to work with with @jundotkim and @huggingface to make this happen! 👾🐧🚀",
+      "link": "http://nitter.meowing.monster/lmstudio/status/2115829031832830252#m",
+      "published": "Thu, 29 Oct 2026 15:32:06 GMT",
+      "author_name": "Julien Chaumond",
       "category_hint": "fr",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "3.5 years in, and The Rundown is approaching the 4M total newsletter subscriber mark 👀 Grateful for the journey so far, so much more to come",
-      "link": "http://nitter.meowing.monster/rowancheung/status/2115493365038944411#m",
-      "published": "Wed, 28 Oct 2026 17:18:16 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "Open rate for those wondering Aiming for 60% but not too shabby for a daily newsletter :)",
-      "link": "http://nitter.meowing.monster/rowancheung/status/2115493699324981342#m",
-      "published": "Wed, 28 Oct 2026 17:19:36 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "Expanded with some lessons learned (so far): Rowan Cheung (@rowancheung) Top 5 learnings growing The Rundown to 3.5M total active subscribers and 55%+ open rate: 1. Email is its own platform, treat it like YouTube, Instagram, Twitter Super readers (open every email, click ads, and stick around for years) genuinely like email as a medium. We have millions of readers who don’t use social media. Best way to acquire them is through other newsletters, referrals, or being the reason they stop using social media. Barely anyone is building for this audience. I’m more bullish on email than any other platform (long-form YouTube is a close second). 2. The newsletter industry lacks innovation Look at mobile apps, ecom, edtech. Custom quiz onboarding, a landing page for every ad, hundreds of new creatives a day. Meanwhile most newsletters, including some of the biggest in the world, have a basic landing page and standard onboarding. We built an onboarding quiz funnel that, at one point, got us close to negative CAC with hundreds of thousands a month in ad spend. That’s what let us scale aggressively and outbid competitors. With AI coding and platforms like beehiiv, there’s no excuse not to build new experiences for your readers. The opportunity here is wide open :) 3. Newsletter sales is mostly an education problem We still run social partnerships at a significantly higher CPM than our newsletters, yet the newsletters convert better and get way more clicks. A lot of advertisers don’t understand newsletters as they do with influencer marketing, so at scale it becomes an education game. Once advertisers get it, they stay. We’ve been booked out at multiple ads a day for the last 3 years, months in advance. 4. Stay lean, fast, aggressive Other newsletters have built large sales and content teams. I think it’s better to stay small and pay high-quality people to do very good work. Revenue can increase with more employees, but the opportunity cost of not moving fast in the AI era is a long-term net negative. For example, we constantly test new growth experiments and new forms of media. Most don’t work and that’s fine. The point is we can pivot the same day because we're lean. 5. Lastly, don’t listen to people who say email is dead or that you shouldn’t run paid ads. That’s ignorance and lowkey skill issue. — http://nitter.meowing.monster/rowancheung/status/2115818656307265852#m",
-      "link": "http://nitter.meowing.monster/rowancheung/status/2115819561832382962#m",
-      "published": "Thu, 29 Oct 2026 14:54:28 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "Top 5 learnings growing The Rundown to 3.5M total active subscribers and 55%+ open rate: 1. Email is its own platform, treat it like YouTube, Instagram, Twitter Super readers (open every email, click ads, and stick around for years) genuinely like email as a medium. We have millions of readers who don’t use social media. Best way to acquire them is through other newsletters, referrals, or being the reason they stop using social media. Barely anyone is building for this audience. I’m more bullish on email than any other platform (long-form YouTube is a close second). 2. The newsletter industry lacks innovation Look at mobile apps, ecom, edtech. Custom quiz onboarding, a landing page for every ad, hundreds of new creatives a day. Meanwhile most newsletters, including some of the biggest in the world, have a basic landing page and standard onboarding. We built an onboarding quiz funnel that, at one point, got us close to negative CAC with hundreds of thousands a month in ad spend. That’s what let us scale aggressively and outbid competitors. With AI coding and platforms like beehiiv, there’s no excuse not to build new experiences for your readers. The opportunity here is wide open :) 3. Newsletter sales is mostly an education problem We still run social partnerships at a significantly higher CPM than our newsletters, yet the newsletters convert better and get way more clicks. A lot of advertisers don’t understand newsletters as they do with influencer marketing, so at scale it becomes an education game. Once advertisers get it, they stay. We’ve been booked out at multiple ads a day for the last 3 years, months in advance. 4. Stay lean, fast, aggressive Other newsletters have built large sales and content teams. I think it’s better to stay small and pay high-quality people to do very good work. Revenue can increase with more employees, but the opportunity cost of not moving fast in the AI era is a long-term net negative. For example, we constantly test new growth experiments and new forms of media. Most don’t work and that’s fine. The point is we can pivot the same day because we're lean. 5. Lastly, don’t listen to people who say email is dead or that you shouldn’t run paid ads. That’s ignorance and lowkey skill issue. Rowan Cheung (@rowancheung) 3.5 years in, and The Rundown is approaching the 4M total newsletter subscriber mark 👀 Grateful for the journey so far, so much more to come — http://nitter.meowing.monster/rowancheung/status/2115493365038944411#m",
-      "link": "http://nitter.meowing.monster/rowancheung/status/2115818656307265852#m",
-      "published": "Thu, 29 Oct 2026 14:50:52 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
-      "source_lang": "en"
-    },
-    {
-      "handle": "rowancheung",
-      "text": "The only moat left is the ability to move faster than the pace of change",
-      "link": "http://nitter.meowing.monster/rowancheung/status/2110756703042244781#m",
-      "published": "Thu, 15 Oct 2026 15:36:28 GMT",
-      "author_name": "Rowan Cheung",
-      "category_hint": "news",
       "source_lang": "en"
     }
   ],
@@ -232,13 +322,10 @@
     "karpathy",
     "sama",
     "DarioAmodei",
-    "gdb",
     "sundarpichai",
     "elonmusk",
-    "AravSrinivas",
     "miramurati",
     "ylecun",
-    "demishassabis",
     "JeffDean",
     "fchollet",
     "AndrewYNg",
@@ -249,309 +336,327 @@
     "markchen90",
     "aidan_mclau",
     "officiallogank",
-    "osanseviero",
     "AnthropicAI",
     "OpenAI",
-    "GoogleDeepMind",
     "xai",
     "simonw",
     "swyx",
+    "hwchase17",
     "jeremyphoward",
     "levelsio",
-    "amasad",
+    "mckaywrigley",
     "nickadobos",
+    "emollick",
+    "ArthurMensch",
     "GuillaumeLample",
     "Thom_Wolf",
-    "julien_c",
     "ClemDelangue",
+    "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, le monde de l'IA est en pleine effervescence, avec de grandes annonces comme la sortie du puissant modèle français Mistral Large 4 et de nouvelles capacités vocales avec Voxtral. Les discussions s'intensifient autour de l'ingénierie des 'harnais' pour rendre les IA plus utiles et de l'évolution des 'agents IA' qui sont de plus en plus autonomes. Les experts partagent également des conseils pratiques pour la cybersécurité à l'ère de l'IA et débattent des futures applications et des défis éthiques de ces technologies révolutionnaires.",
+    "summary": "Cette journée nous montre que l'IA ne cesse d'élargir ses horizons, des laboratoires aux confins de l'espace. Nous avons découvert des avancées impressionnantes en matière de découverte scientifique, avec des IA qui résolvent des problèmes complexes en mathématiques et physique. Des outils concrets sont également mis à disposition, permettant de transformer des données médicales en explications 3D ou d'automatiser des tâches informatiques. Enfin, la discussion sur les logiciels auto-entretenus et les défis de sécurité nous rappelle l'importance de comprendre les implications de ces technologies en constante évolution.",
     "glossaire": [
       {
         "terme": "Agent IA",
-        "definition": "Un programme informatique intelligent capable de percevoir son environnement, de prendre des décisions et d'agir de manière autonome pour atteindre des objectifs."
+        "definition": "Un programme informatique qui agit de manière autonome pour accomplir des tâches complexes, interagissant avec son environnement ou d'autres systèmes."
       },
       {
-        "terme": "LLM (Large Language Model)",
-        "definition": "Un modèle de langage très grand, entraîné sur d'énormes quantités de texte pour comprendre, générer et répondre à des questions en langage naturel, comme ChatGPT ou Claude."
+        "terme": "Benchmark",
+        "definition": "Un test standardisé qui permet de mesurer et de comparer les performances de différents modèles ou systèmes d'IA sur des tâches définies."
       },
       {
-        "terme": "Harness engineering",
-        "definition": "Il s'agit de construire un système complet (un 'harnais') autour d'un modèle d'IA brut pour l'adapter aux besoins spécifiques de l'utilisateur, le rendre plus efficace et lui ajouter des fonctionnalités (outils, mémoire, etc.)."
+        "terme": "Modèle embarqué (On-device model)",
+        "definition": "Un modèle d'IA suffisamment optimisé pour fonctionner directement sur un appareil (téléphone, satellite) sans nécessiter de connexion à un serveur distant."
       },
       {
-        "terme": "Modèle open-weights",
-        "definition": "Un modèle d'IA dont les 'poids' (les données internes qui définissent son intelligence) sont rendus publics, permettant à quiconque de le télécharger, l'utiliser et le modifier librement."
+        "terme": "TPU (Tensor Processing Unit)",
+        "definition": "Une puce spécialisée, conçue par Google, spécifiquement pour accélérer les calculs intensifs nécessaires à l'intelligence artificielle."
       },
       {
-        "terme": "Observabilité d'agent",
-        "definition": "La capacité de surveiller et de comprendre en profondeur le fonctionnement interne d'un agent IA pour détecter les problèmes, analyser son comportement et l'améliorer continuellement."
+        "terme": "Garde-fous (Guardrails)",
+        "definition": "Des mécanismes de sécurité et de contrôle intégrés aux systèmes d'IA pour s'assurer qu'ils fonctionnent de manière sûre, éthique et prévisible."
       },
       {
-        "terme": "ASR / TTS",
-        "definition": "ASR (Automatic Speech Recognition) est la reconnaissance vocale qui convertit la parole en texte, et TTS (Text-To-Speech) est la synthèse vocale qui transforme le texte en parole."
+        "terme": "Jeu de données (Dataset)",
+        "definition": "Une collection d'informations structurées utilisée pour entraîner et tester des modèles d'intelligence artificielle."
       },
       {
-        "terme": "Sandbox",
-        "definition": "Un environnement informatique isolé et sécurisé où un programme (comme un agent IA) peut être exécuté et testé sans risquer d'affecter le reste du système."
+        "terme": "Modèle de monde (World Model)",
+        "definition": "Un système d'IA capable de simuler et de prédire le comportement d'un environnement complexe, permettant ainsi d'interagir avec lui."
       }
     ],
     "category_summaries": {
-      "actu": "Les annonces du jour sont dominées par les progrès de Mistral AI, qui a sorti son modèle Mistral Large 4 en open-weights, présenté des avancées en ingénierie industrielle avec NVIDIA, et lancé Voxtral 3 pour des agents vocaux sophistiqués. On note aussi les bons résultats de la newsletter The Rundown, montrant l'engouement pour les contenus sur l'IA.",
-      "tips": "Aujourd'hui, les conseils se concentrent sur la cybersécurité : comment protéger ses données personnelles avec des outils comme les gestionnaires de mots de passe ou l'authentification à deux facteurs, et comment une IA comme Claude Code peut aider à auditer votre système. Un autre conseil clé est de comprendre les différents modes des modèles d'IA, comme les modes 'Pro' et 'Ultra' de GPT, pour mieux les utiliser.",
-      "idees": "La communauté de l'IA débat intensément sur l'importance de l'ingénierie des 'harnais' pour construire de meilleurs produits autour des modèles. Des réflexions émergent sur l'architecture future des agents IA, leur observabilité, et la nécessité de lutter contre les 'bots à réponses bâclées'. Des propositions innovantes sont faites, comme l'utilisation de l'IA pour traduire d'anciens manuscrits, et des prises de position fortes s'expriment sur les dilemmes éthiques et les avancées de l'IA.",
-      "outils": "Côté outils, l'accent est mis sur les capacités pratiques des grands modèles. On peut s'attendre à des ateliers pour apprendre à utiliser des cadres comme LangGraph et DeepAgents pour construire des agents IA plus performants. Par ailleurs, des évaluations montrent que des modèles comme GPT-6 Pro sont très efficaces pour résoudre des problèmes complexes en une seule fois, offrant une sensation d'oracle numérique."
+      "actu": "Les annonces du jour sont dominées par le lancement de nouveaux modèles d'IA comme Gemini 4 Carbon, qui bat des records sur plusieurs benchmarks et se distingue par ses capacités en cybersécurité. On note aussi l'intégration de l'IA dans des projets gouvernementaux (PlanAssist) et même dans l'espace avec le succès du Projet Suncatcher embarquant Gemma 4. OpenAI a également annoncé des découvertes scientifiques majeures assistées par l'IA.",
+      "tips": "Les conseils du jour encouragent l'expérimentation et l'autonomie. Que ce soit en apprenant des bonnes pratiques de cybersécurité pour les systèmes IA ou en s'inspirant de projets concrets réalisés sur des plateformes comme Replit, l'accent est mis sur la capacité du débutant à créer et optimiser ses propres outils.",
+      "idees": "La communauté de l'IA s'interroge sur des questions fondamentales, comme le problème P vs NP en informatique, ou sur la capacité de l'IA à faire des découvertes scientifiques \"au-delà de l'humain\". Des concepts comme les logiciels auto-entretenus sont explorés, invitant à la réflexion sur l'évolution du développement logiciel et le rôle des futurs modèles d'IA.",
+      "outils": "De nombreuses démonstrations d'outils et de modèles concrets sont présentées : l'assistant \"Computer\" de Perplexity capable de créer des explications 3D ou des musées interactifs, des agents IA concevant des robots physiques, ou encore le modèle de monde Genie 4. Des datasets spécialisés comme FineDNA et des intégrations de frameworks (oMLX dans LM Studio) sont aussi mis en avant, offrant de nouvelles possibilités aux développeurs."
     },
     "highlights": [
       {
-        "author_name": "Harrison Chase",
-        "handle": "@hwchase17",
-        "text_fr": "Personnellement, j'ai le point de vue exactement inverse ! Construire un excellent 'harnais' est une partie profondément essentielle de la création d'un excellent produit. Il existe d'innombrables exemples qu'un agent pourrait vous expliquer, des vidéos Grok Bot sur YouTube aux blogs de Factory, en passant par nos blogs chez LangChain, et les blogs de Codex d'OpenAI, etc. Un excellent harnais reflète la création d'une expérience utilisateur de qualité pour l'interaction avec votre agent. Cela inclut :\n- Ajuster les prompts (qui font souvent partie du harnais)\n- Créer des outils/compétences sur mesure qui transforment les flux de travail courants en un seul appel d'outil -> économiser du contexte !!!\n- Examiner de manière agressive les seuils de compaction pour votre cas d'utilisation donné\n- Vérifier si une partie du travail peut être déchargée vers des modèles moins chers dans le harnais via des sous-agents/un routage\n- Construire des connecteurs pour que les agents puissent accéder et rechercher efficacement des informations utiles\n- Supporter le travail en arrière-plan afin que les utilisateurs reçoivent un feedback immédiat pendant que d'autres tâches continuent de fonctionner\n- Construire une mémoire d'une manière qui compte pour vos utilisateurs\n^ Ceci n'est qu'une petite partie de tout le monde auquel vous pensez lorsque vous construisez un harnais pour votre produit. L'ingénierie des harnais aide votre équipe à construire un meilleur produit et à mieux comprendre ce qui fait fonctionner votre modèle pour votre cas d'utilisation. De plus, chaque équipe qui construit des produits verticaux de pointe fait de l'ingénierie des harnais -> c'est absolument un avantage et ce n'est pas grave si le nouveau modèle rend une partie du harnais inutile -> il y a tellement d'optimisation que vous pouvez faire à chaque échelle en termes de coût, de latence, d'intelligence. Note connexe : l'importance d'avoir de bonnes évaluations est la capacité à améliorer rapidement votre harnais avec de nouveaux modèles et à faire confiance à la configuration. Ex : recherchez automatiquement votre harnais sur un bon ensemble d'évaluations auquel vous faites confiance. Les modèles de pointe peuvent faire beaucoup -> beaucoup de tâches peuvent être effectuées en un seul coup, mais beaucoup d'autres ne le peuvent pas au Pareto intelligence-coût-vitesse dont vous avez besoin. Matt Shumer (@mattshumer_) Affirme : l'ingénierie des harnais est (généralement) stupide. Utilisez simplement celle pour laquelle le modèle a été entraîné, et écrivez de très bons prompts de comportement pour contrôler son fonctionnement. Laissez les modèles fonctionner comme ils le souhaitent. — http://nitter.meowing.monster/mattshumer_/status/2116377535818891690#m",
-        "text_original": "personally have the exact opposite view here! building a great harness is a deeply core part of building a great product countless examples you can ask an agent to explain from Grok Bot YouTube video, Factory blogs, our blogs at LangChain, OpenAI’s Codex blogs, etc a great harness is a reflection of building a great experience for the user interacting with your agent. it includes - adjusting prompts (which are off part of the harness) - creating bespoke tools/skills that make common workflows a single tool call -> save on context!!! - aggressively examining thresholds for compaction for your given use case - checking if some work can be offloaded to cheaper models in the harness via subagents/routing - building connectors so agents can efficiently access and search over useful context - supporting background work so users get immediate feedback while other work continues to chug along - building memory in a way that matters for your users ^ this is a small portion of the entire world you think about when building a harness for your product Harness Engjneering helps your team build a better product and better understand of what makes your model tick for your use case also every team building frontier vertical products is harness engineering -> it’s absolutely an edge and it’s fine if the new model makes part of the harness unnecessary layer -> there’s so much optimization you can do at every scale across cost, latency, intelligence related note: the importance of having good evals is the ability to quickly hill climb your harness with new models and trust that the config ex: auto research your harness on a good eval set you trust the frontier models can do a lot -> a lot of tasks can just be one-shotted, but many can’t at the intelligence-cost-speed Pareto you need Matt Shumer (@mattshumer_) Hot take: harness engineering is (usually) stupid. Just use the one the model was trained for, and write really good behavior prompts to control how it works. Lean into how the models want to work. — http://nitter.meowing.monster/mattshumer_/status/2116377535818891690#m",
-        "link": "http://nitter.meowing.monster/Vtrivedy10/status/2116622802031710709#m",
-        "decryptage": "« Harness engineering » (ou ingénierie des harnais) est un terme pour dire qu'on ne se contente pas du modèle d'IA brut, mais qu'on construit tout un système autour pour le rendre plus utile, efficace et adapté aux besoins spécifiques de l'utilisateur, allant de l'ajustement des prompts à la création d'outils sur mesure et à la gestion de la mémoire.",
-        "category": "idees",
-        "highlight_reason": "Ce tweet aborde un débat central sur la manière de développer l'IA, expliquant pourquoi il est crucial de ne pas se contenter du modèle brut mais de construire un écosystème ('harnais') autour pour une meilleure expérience utilisateur."
-      },
-      {
-        "author_name": "Arthur Mensch",
-        "handle": "@ArthurMensch",
-        "text_fr": "Mistral Large 4 est désormais en 'open weights', ce qui en fait de justesse le modèle 'open weights' numéro 1 développé en dehors de la Chine. @MistralAI a mis à jour et publié les poids de son modèle phare, Mistral Large 4, avec un total de 1.05T de paramètres et 52 milliards de paramètres actifs. Avec des capacités de raisonnement élevées, Mistral Large 4 obtient 26 points sur l'Artificial Analysis Intelligence Index v5, soit 1 point de plus que Mistral Large 4 Preview (25), les principales différences étant une efficacité accrue des tokens et une réduction des hallucinations. Il se situe 1 point devant le principal modèle 'open weights' développé aux États-Unis, Muse Spark Open (xhigh, 25). Sur l'Artificial Analysis Cyber Index, Mistral Large 4 (high) obtient 51 points, troisième parmi les modèles 'open weights' actuels derrière DeepSeek V4.1 Flash 1017 (max, 57) et MiMo-V2.6-Pro (56). Points clés à retenir : ➤ Devance de peu les modèles 'open weights' non-chinois : Mistral Large 4 (high) devance Muse Spark Open (xhigh), le deuxième meilleur modèle 'open weights' développé en dehors de la Chine, avec le plus grand écart sur Terminal-Bench 4.0 (25% vs. 8%). Il est derrière les principaux modèles 'open weights' DeepSeek V4.1 Flash 1017 (max) et GLM-5.3 (max) de 6 points sur l'Intelligence Index, principalement en raison de performances plus faibles en codage et en travail de connaissance 'agentique' : 15% sur FrontierCode 2.0 (vs. 29% et 22%, respectivement) et 1349 Elo sur AA-Briefcase (vs. 1570 et 1504). ➤ Efficacité accrue des tokens : Mistral Large 4 (high) utilise 82K tokens de sortie par tâche de l'Intelligence Index, soit 39% de moins que la Preview (135K), le plaçant sur la frontière de Pareto des 'open weights'. Les sept modèles 'open weights' qui obtiennent des scores plus élevés utilisent entre 113K et 225K tokens de sortie par tâche. ➤ 2ème meilleur modèle 'open weights' sur l'Index de l'Agent de Codage : Sur l'Artificial Analysis Coding Agent Index, Mistral Large 4 (high) obtient 48 points dans Mistral Vibe en utilisant 8,5M de tokens par tâche, soit environ la moitié de ceux du principal modèle 'open weights' GLM-5.3 (max) dans Opencode (49, 15,9M). Il se classe également au-dessus d'un autre modèle 'open weights' de premier plan, DeepSeek V4.1 Flash 1017 (max), dans DeepSeek Harness (46, 16,7M). ➤ Réduction des hallucinations : Mistral Large 4 (high) a un taux d'hallucination de 28% sur l'AA-Omniscience v1.1 mis à jour, en baisse par rapport aux 41% de la Preview et correspondant à Muse Spark Open (xhigh). Cependant, sa précision reste relativement faible à 26%, similaire à Ling 3.1 Flash 1019 (27%), et derrière DeepSeek V4.1 Flash 1017 (max, 40%) et Muse Spark Open (xhigh, 42%). ➤ Prix et coût par tâche inférieurs à la Preview : Mistral Large 4 est tarifé à 0,70$/2,10$ par 1M de tokens d'entrée/sortie, soit une réduction d'environ 50% par rapport au prix de la Preview de 1,36$/4,18$. Au nouveau tarif, il coûte 2,06$ par tâche de l'Intelligence Index, en baisse de 63% par rapport aux 5,54$ de la Preview. C'est comparable à Muse Spark Open (xhigh, 2,02$) mais plus cher que les principaux modèles 'open weights' DeepSeek V4.1 Flash 1017 (max, 0,60$) et MiMo-V2.6-Pro (0,26$). Détails clés du modèle : ➤ Taille : 1,05T paramètres totaux / 52B paramètres actifs ➤ Fenêtre de contexte : 1M tokens ➤ Multimodalité : Entrée texte et image, sortie texte ➤ Prix : 0,70$/2,10$ par 1M de tokens d'entrée/sortie (0,07$ par 1M de tokens d'entrée mis en cache) ➤ Licence : MEOW License (Mistral Ecosystem Open-Weight License), où l'exploitation d'une entreprise de type 'Model-as-a-Service' nécessite une licence commerciale distincte avec Mistral. Félicitations à l'équipe de @MistralAI pour cette sortie !",
-        "text_original": "Mistral Large 4 is now open weights, narrowly making it the #1 open weights model developed outside of China @MistralAI has updated and released the weights of their flagship model, Mistral Large 4, with 1.05T total and 52B active parameters. With high reasoning, Mistral Large 4 scores 26 on the Artificial Analysis Intelligence Index v5, up 1 point from Mistral Large 4 Preview (25), with the major differences being increased token efficiency and reduced hallucinations. It sits 1 point ahead of the leading US-developed open weights model, Muse Spark Open (xhigh, 25). On the Artificial Analysis Cyber Index, Mistral Large 4 (high) scores 51, third among current open weights models behind DeepSeek V4.1 Flash 1017 (max, 57) and MiMo-V2.6-Pro (56). Key takeaways: ➤ Narrowly leads non-Chinese open weights models: Mistral Large 4 (high) leads Muse Spark Open (xhigh), the next-best open weights model developed outside China, with the largest gap on Terminal-Bench 4.0 (25% vs. 8%). It trails leading open weights models DeepSeek V4.1 Flash 1017 (max) and GLM-5.3 (max) by 6 points on the Intelligence Index, largely due to weaker coding and agentic knowledge work performance: 15% on FrontierCode 2.0 (vs. 29% and 22%, respectively) and 1349 Elo on AA-Briefcase (vs. 1570 and 1504) ➤ Increased token efficiency: Mistral Large 4 (high) uses 82K output tokens per Intelligence Index task, 39% fewer than Preview (135K), placing it on the open weights Pareto frontier. The seven open weights models that score higher use between 113K and 225K output tokens per task ➤ #2 open weights model on the Coding Agent Index: On the Artificial Analysis Coding Agent Index, Mistral Large 4 (high) scores 48 in Mistral Vibe while using 8.5M tokens per task, about half as many as the leading open weights model GLM-5.3 (max) in Opencode (49, 15.9M). It also scores above another leading open weights model, DeepSeek V4.1 Flash 1017 (max), in DeepSeek Harness (46, 16.7M) ➤ Reduced hallucinations: Mistral Large 4 (high) has a 28% hallucination rate on the updated AA-Omniscience v1.1, down from 41% for Preview and matching Muse Spark Open (xhigh). However, its accuracy remains relatively low at 26%, similar to Ling 3.1 Flash 1019 (27%), and behind DeepSeek V4.1 Flash 1017 (max, 40%) and Muse Spark Open (xhigh, 42%) ➤ Lower price and cost per task than the Preview: Mistral Large 4 is priced at $0.70/$2.10 per 1M input/output tokens, a ~50% reduction from the Preview's pricing of $1.36/$4.18. At the new pricing, it costs $2.06 per Intelligence Index task, down 63% from $5.54 for the Preview. This is comparable to Muse Spark Open (xhigh, $2.02) but more costly than leading open weights models DeepSeek V4.1 Flash 1017 (max, $0.60) and MiMo-V2.6-Pro ($0.26) Key model details: ➤ Size: 1.05T total parameters / 52B active parameters ➤ Context window: 1M tokens ➤ Multimodality: Text and image input, text output ➤ Pricing: $0.70/$2.10 per 1M input/output tokens ($0.07 per 1M cached input tokens) ➤ License: MEOW License (Mistral Ecosystem Open-Weight License), where operating a Model-as-a-Service business requires a separate commercial license with Mistral Congratulations to the team at @MistralAI on the release!",
-        "link": "http://nitter.meowing.monster/ArtificialAnlys/status/2115820547103952925#m",
-        "decryptage": "« Mistral Large 4 » est un nouveau modèle d'IA dit « open weights » (c'est-à-dire que son code est accessible au public) créé par l'entreprise française Mistral AI. Ce tweet en détaille les performances et les coûts, montrant qu'il est très compétitif, notamment pour la programmation et la cybersécurité, et qu'il repousse les limites des modèles ouverts.",
+        "author_name": "Greg Brockman",
+        "handle": "@gdb",
+        "text_fr": "Annonce de trois découvertes scientifiques majeures, une en mathématiques (analyse harmonique), une en informatique (théorie de la complexité) et une en physique (théorie quantique des champs). L'IA commence à nous aider à améliorer notre compréhension de l'univers ! openai.com/index/building-sc… Travailler avec les communautés universitaires pour construire une compréhension scientifique. OpenAI partage les résultats de modèles sur la conjecture de Kakeya, l'hypothèse du temps exponentiel et la chromodynamique quantique — et comment les chercheurs peuvent les vérifier et s'en inspirer. openai.com",
+        "text_original": "Announcing three major scientific discoveries, one each in mathematics (harmonic analysis), computer science (complexity theory), and physics (quantum field theory). AI starting to help us improve our understanding of the universe! openai.com/index/building-sc… Link Working with academic communities to build scientific understanding OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them. openai.com",
+        "decryptage": "La \"conjecture de Kakeya\", l'\"hypothèse du temps exponentiel\" et la \"chromodynamique quantique\" sont des problèmes complexes et des théories avancées dans les domaines des mathématiques et de la physique, que l'IA contribue maintenant à résoudre ou à mieux comprendre.",
         "category": "actu",
-        "highlight_reason": "C'est une annonce majeure pour le monde de l'IA, en particulier pour la communauté francophone, car elle concerne la publication d'un modèle français très performant et en 'open weights'."
+        "highlight_reason": "Cette annonce est cruciale car elle montre concrètement comment l'IA ne se contente plus d'automatiser des tâches, mais participe activement à l'avancement de la connaissance scientifique fondamentale."
       },
       {
-        "author_name": "Mckay Wrigley",
-        "handle": "@mckaywrigley",
-        "text_fr": "Vous avez la responsabilité morale d'informer votre famille et vos amis sur ce qui se passe dans la cybersécurité en ce moment. Cela ne fera qu'empirer/devenir plus étrange à partir de maintenant. Voici une excellente liste de choses à faire pour commencer à partager :\n* utilisez un bon gestionnaire de mots de passe (1Password) et ne dupliquez pas les mots de passe\n* utilisez l'authentification à deux facteurs pour tout ce qui est important (pas via SMS !! Google Authenticator ou mieux encore YubiKey)\n* Mises à jour automatiques activées, et redémarrage hebdomadaire pour qu'elles s'installent réellement\n* Geler votre crédit\n* Obtenez un PIN de protection d'identité de l'IRS\n* Demandez à votre opérateur de téléphonie mobile de vous donner un PIN de portabilité ou un verrouillage de numéro qui fait que l'opérateur refuse de déplacer votre numéro sans le PIN\nVous pouvez demander à votre Claude Code d'auditer ce qui, sur votre ordinateur portable, est obsolète et doit être mis à jour.",
-        "text_original": "you have a moral responsibility to educate your family & friends on what is going on in cyber rn. it is only going to get worse/weirder from here. here’s a great starter todo list to share: Peter Wildeford🇺🇸🚀 (@peterwildeford) PSA: in light of recent cyberattacks and vulnerabilities, I recommend everyone: * use a good password manager (1Password) and do not duplicate passwords * use two factor auth for everything important (not via sms!! Google Authenticator or better yet YubiKey) * Auto-updates on, and restart weekly so they actually install * Freeze your credit * Get an IRS Identity Protection PIN * Get your cell carrier to give you a port-out PIN or number lock that makes the carrier refuse to move your number without the PIN You can ask your claude code to audit what on your laptop is out of date and needs updating. — http://nitter.meowing.monster/peterwildeford/status/2112994329316708756#m",
-        "link": "http://nitter.meowing.monster/mckaywrigley/status/2113037629000446011#m",
-        "decryptage": "« Claude Code » est une version spécifique du modèle d'IA Claude, optimisée pour comprendre et générer du code informatique, et qui peut être utilisée ici pour vérifier la sécurité de votre ordinateur portable en identifiant les logiciels obsolètes qui pourraient présenter des vulnérabilités.",
+        "author_name": "Aravind Srinivas",
+        "handle": "@AravSrinivas",
+        "text_fr": "Les soins de santé personnalisés seront profondément transformés par ce dont les agents sont capables aujourd'hui. Computer (@AskPerplexity) Computer a transformé un rapport d'IRM de l'épaule en un explicateur 3D interactif que le patient peut consulter. À partir d'un rapport de radiologie anonymisé, il a placé les neuf conclusions sur un modèle squelettique, avec six projections de rayons X et une explication en langage clair de chacune. Vidéo.",
+        "text_original": "Personalized healthcare will be disrupted big time with what agents are capable of today Computer (@AskPerplexity) Computer turned a shoulder MRI report into an interactive 3D explainer a patient can read. From one anonymized radiology report, it placed all nine findings on a skeletal model, with six X-ray projections and a plain-language explanation of each. Video — http://nitter.meowing.monster/AskPerplexity/status/2116243829456273835#m",
+        "decryptage": "Un \"agent\" est un programme informatique doté d'une certaine autonomie pour comprendre et exécuter des tâches complexes, agissant comme un assistant intelligent capable d'interagir avec divers systèmes.",
+        "category": "outils",
+        "highlight_reason": "Ce tweet illustre de manière très claire et tangible l'impact immédiat et bénéfique de l'IA dans un domaine sensible comme la santé, en rendant des informations complexes accessibles aux patients."
+      },
+      {
+        "author_name": "Demis Hassabis",
+        "handle": "@demishassabis",
+        "text_fr": "Nouvelle excitante : Gemini 4 Carbon (High) de @GoogleDeepMind vient de faire une entrée fracassante sur Arena, se classant #1 dans Text Arena, #2 dans Agent Arena, et #4 dans Code Arena : WebDev. De retour au sommet, Gemini 4 Carbon offre une intelligence de pointe et remodèle la frontière de Pareto à travers trois arènes. Dans Agent Arena, Gemini 4 Carbon se classe #2 avec une amélioration nette de +16,2 % sur +21,9K sessions d'agents du monde réel de notre communauté mondiale, surpassant les meilleurs modèles GPT-6 Astra et Fable-5.1. À un coût médian de 1,80 $ par tâche, Gemini 4 Carbon (High) coûte 72 % moins cher que Claude Opus 5.5 (Max) classé #1. Ses points forts par signaux clés : - #1 Manœuvrabilité (+18,6 %) : le modèle peut-il corriger le tir lorsque vous le contestez ? - #2 Louanges vs Plaintes (+37,9 %) : sentiment implicite dans les réactions des utilisateurs - #3 Succès Confirmé (+18,7 %) : \"oui, ça a marché\" explicite des utilisateurs. Dans Code Arena : WebDev, Carbon a obtenu 1768 points, se classant #4 : - Seulement 2 points en dessous du #3 Claude Sonnet 5.5 (xHigh), à 1770 pts - 89 points au-dessus du #11 Gemini 4 Argon (High), à 1679 pts. Par catégorie, il se classe #3 dans les Jeux et Simulations, et #5 dans la Marque et le Marketing. Dans Text Arena, Gemini 4 Carbon (High) est le nouveau #1 avec 1528 points, devant Gemini 4 Argon (High) au #2 avec 1520 points. Félicitations à l'équipe @GoogleDeepMind pour cette étape majeure ! Google DeepMind (@GoogleDeepMind) Gemini 4 Carbon est notre prochain modèle de pointe. Il est à l'état de l'art en matière de cybersécurité et de capacités à long terme.",
+        "text_original": "Exciting news: Gemini 4 Carbon (High) from @GoogleDeepMind just made a huge debut on Arena, landing #1 in Text Arena, #2 in Agent Arena, and #4 in Code Arena: WebDev. Back at the top, Gemini 4 Carbon delivers frontier intelligence and reshapes the Pareto frontier across three arenas. In Agent Arena, Gemini 4 Carbon ranks #2 with a +16.2% net improvement across +21.9K real-world agentic sessions from our global community, surpassing top models GPT-6 Astra and Fable-5.1. At $1.80 median cost per task, Gemini 4 Carbon (High) costs 72% less than the #1 ranked Claude Opus 5.5 (Max). Its standouts by key signals: - #1 Steerability (+18.6%): can the model course-correct when you push back? - #2 Praise vs Complaint (+37.9%): implicit sentiment in users' reactions - #3 Confirmed Success (+18.7%): explicit “yes, that worked” from users In Code Arena: WebDev, Carbon scored 1768 pts landing #4: - Just 2 pts below #3 Claude Sonnet 5.5 (xHigh), at 1770 pts - 89 pts above #11 Gemini 4 Argon (High), at 1679 pts. By category, it ranks #3 in Gaming and Simulations, and #5 in Brand & Marketing. In Text Arena, Gemini 4 Carbon (High) is the new #1 with 1528 pts, now ahead of Gemini 4 Argon (High) at #2 with 1520 pts. Congrats to the @GoogleDeepMind team on this huge milestone! Google DeepMind (@GoogleDeepMind) Gemini 4 Carbon is our next frontier model. It’s state-of-the-art across cybersecurity and long-horizon capabilities.",
+        "decryptage": "Une \"frontière de Pareto\" représente l'ensemble des meilleurs compromis possibles entre plusieurs objectifs, signifiant ici que Gemini 4 Carbon offre un excellent équilibre entre performances et coût.",
+        "category": "actu",
+        "highlight_reason": "C'est une annonce majeure concernant les performances de Gemini 4 Carbon, démontrant ses capacités de pointe dans des domaines complexes comme la cybersécurité et la gestion de tâches sur le long terme."
+      },
+      {
+        "author_name": "Amjad Masad",
+        "handle": "@amasad",
+        "text_fr": "Je suis ambassadeur Replit et je dis cela en tant que développeur, pas en tant que sponsor. Replit est l'endroit où j'ai appris que je pouvais passer d'une idée à une application fonctionnelle le jour même, dans un navigateur, sans rien installer. Cela a changé ce que j'essaie même de construire.",
+        "text_original": "I am a Replit Ambassador and I say this as a builder, not a sponsor. Replit is where I learned I could go from idea to a working app the same day, in a browser, with nothing installed. That changed what I even try to build.",
+        "decryptage": null,
         "category": "tips",
-        "highlight_reason": "Ce tweet fournit des conseils pratiques et actionnables, cruciaux pour tout utilisateur d'IA, sur la manière de renforcer sa cybersécurité, un aspect souvent négligé mais essentiel à l'ère numérique."
-      },
-      {
-        "author_name": "Harrison Chase",
-        "handle": "@hwchase17",
-        "text_fr": "Beaucoup de défis d'ingénierie de contenu ont des solutions assez standards, ce qui a conduit certains ingénieurs à dire que l'ingénierie des agents est résolue/ennuyeuse. C'est vrai dans une certaine mesure, mais il y en a un tas de nouveaux (et amusants) qui émergent à mesure que les agents évoluent ! Article Nouveaux défis d'ingénierie de contexte fin 2026. On a l'impression que tout le monde converge vers la même architecture d'agent : un LLM, fonctionnant en boucle, appelant des outils, fonctionnant dans un environnement isolé (sandbox). Claude Code – peut-être la première manifestation très médiatisée de cela.",
-        "text_original": "A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve! Article New context engineering challenges in late 2026 It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this",
-        "link": "http://nitter.meowing.monster/hwchase17/status/2116553654857867330#m",
-        "decryptage": "Un « agent IA » est un programme qui peut percevoir son environnement, prendre des décisions et agir pour atteindre des objectifs, un peu comme un petit robot logiciel. Un « LLM » (Large Language Model) est un modèle de langage avancé comme ChatGPT, et une « sandbox » est un environnement isolé pour tester des programmes en toute sécurité, où les agents IA peuvent appeler des « outils » pour accomplir des tâches spécifiques.",
-        "category": "idees",
-        "highlight_reason": "Il met en lumière l'évolution fondamentale de l'architecture des agents IA, un concept clé pour comprendre comment les IA deviennent plus autonomes et capables d'interagir avec le monde réel."
+        "highlight_reason": "Ce témoignage encourageant met en lumière la facilité d'accès et le potentiel des plateformes de développement modernes comme Replit pour concrétiser rapidement des idées, même pour les débutants."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Mistral Large 4 est désormais en 'open weights', ce qui en fait de justesse le modèle 'open weights' numéro 1 développé en dehors de la Chine. @MistralAI a mis à jour et publié les poids de son modèle phare, Mistral Large 4, avec un total de 1.05T de paramètres et 52 milliards de paramètres actifs. Avec des capacités de raisonnement élevées, Mistral Large 4 obtient 26 points sur l'Artificial Analysis Intelligence Index v5, soit 1 point de plus que Mistral Large 4 Preview (25), les principales différences étant une efficacité accrue des tokens et une réduction des hallucinations. Il se situe 1 point devant le principal modèle 'open weights' développé aux États-Unis, Muse Spark Open (xhigh, 25). Sur l'Artificial Analysis Cyber Index, Mistral Large 4 (high) obtient 51 points, troisième parmi les modèles 'open weights' actuels derrière DeepSeek V4.1 Flash 1017 (max, 57) et MiMo-V2.6-Pro (56). Points clés à retenir : ➤ Devance de peu les modèles 'open weights' non-chinois : Mistral Large 4 (high) devance Muse Spark Open (xhigh), le deuxième meilleur modèle 'open weights' développé en dehors de la Chine, avec le plus grand écart sur Terminal-Bench 4.0 (25% vs. 8%). Il est derrière les principaux modèles 'open weights' DeepSeek V4.1 Flash 1017 (max) et GLM-5.3 (max) de 6 points sur l'Intelligence Index, principalement en raison de performances plus faibles en codage et en travail de connaissance 'agentique' : 15% sur FrontierCode 2.0 (vs. 29% et 22%, respectivement) et 1349 Elo sur AA-Briefcase (vs. 1570 et 1504). ➤ Efficacité accrue des tokens : Mistral Large 4 (high) utilise 82K tokens de sortie par tâche de l'Intelligence Index, soit 39% de moins que la Preview (135K), le plaçant sur la frontière de Pareto des 'open weights'. Les sept modèles 'open weights' qui obtiennent des scores plus élevés utilisent entre 113K et 225K tokens de sortie par tâche. ➤ 2ème meilleur modèle 'open weights' sur l'Index de l'Agent de Codage : Sur l'Artificial Analysis Coding Agent Index, Mistral Large 4 (high) obtient 48 points dans Mistral Vibe en utilisant 8,5M de tokens par tâche, soit environ la moitié de ceux du principal modèle 'open weights' GLM-5.3 (max) dans Opencode (49, 15,9M). Il se classe également au-dessus d'un autre modèle 'open weights' de premier plan, DeepSeek V4.1 Flash 1017 (max), dans DeepSeek Harness (46, 16,7M). ➤ Réduction des hallucinations : Mistral Large 4 (high) a un taux d'hallucination de 28% sur l'AA-Omniscience v1.1 mis à jour, en baisse par rapport aux 41% de la Preview et correspondant à Muse Spark Open (xhigh). Cependant, sa précision reste relativement faible à 26%, similaire à Ling 3.1 Flash 1019 (27%), et derrière DeepSeek V4.1 Flash 1017 (max, 40%) et Muse Spark Open (xhigh, 42%). ➤ Prix et coût par tâche inférieurs à la Preview : Mistral Large 4 est tarifé à 0,70$/2,10$ par 1M de tokens d'entrée/sortie, soit une réduction d'environ 50% par rapport au prix de la Preview de 1,36$/4,18$. Au nouveau tarif, il coûte 2,06$ par tâche de l'Intelligence Index, en baisse de 63% par rapport aux 5,54$ de la Preview. C'est comparable à Muse Spark Open (xhigh, 2,02$) mais plus cher que les principaux modèles 'open weights' DeepSeek V4.1 Flash 1017 (max, 0,60$) et MiMo-V2.6-Pro (0,26$). Détails clés du modèle : ➤ Taille : 1,05T paramètres totaux / 52B paramètres actifs ➤ Fenêtre de contexte : 1M tokens ➤ Multimodalité : Entrée texte et image, sortie texte ➤ Prix : 0,70$/2,10$ par 1M de tokens d'entrée/sortie (0,07$ par 1M de tokens d'entrée mis en cache) ➤ Licence : MEOW License (Mistral Ecosystem Open-Weight License), où l'exploitation d'une entreprise de type 'Model-as-a-Service' nécessite une licence commerciale distincte avec Mistral. Félicitations à l'équipe de @MistralAI pour cette sortie!",
-          "text_original": "Mistral Large 4 is now open weights, narrowly making it the #1 open weights model developed outside of China @MistralAI has updated and released the weights of their flagship model, Mistral Large 4, with 1.05T total and 52B active parameters. With high reasoning, Mistral Large 4 scores 26 on the Artificial Analysis Intelligence Index v5, up 1 point from Mistral Large 4 Preview (25), with the major differences being increased token efficiency and reduced hallucinations. It sits 1 point ahead of the leading US-developed open weights model, Muse Spark Open (xhigh, 25). On the Artificial Analysis Cyber Index, Mistral Large 4 (high) scores 51, third among current open weights models behind DeepSeek V4.1 Flash 1017 (max, 57) and MiMo-V2.6-Pro (56). Key takeaways: ➤ Narrowly leads non-Chinese open weights models: Mistral Large 4 (high) leads Muse Spark Open (xhigh), the next-best open weights model developed outside China, with the largest gap on Terminal-Bench 4.0 (25% vs. 8%). It trails leading open weights models DeepSeek V4.1 Flash 1017 (max) and GLM-5.3 (max) by 6 points on the Intelligence Index, largely due to weaker coding and agentic knowledge work performance: 15% on FrontierCode 2.0 (vs. 29% and 22%, respectively) and 1349 Elo on AA-Briefcase (vs. 1570 and 1504) ➤ Increased token efficiency: Mistral Large 4 (high) uses 82K output tokens per Intelligence Index task, 39% fewer than Preview (135K), placing it on the open weights Pareto frontier. The seven open weights models that score higher use between 113K and 225K output tokens per task ➤ #2 open weights model on the Coding Agent Index: On the Artificial Analysis Coding Agent Index, Mistral Large 4 (high) scores 48 in Mistral Vibe while using 8.5M tokens per task, about half as many as the leading open weights model GLM-5.3 (max) in Opencode (49, 15.9M). It also scores above another leading open weights model, DeepSeek V4.1 Flash 1017 (max), in DeepSeek Harness (46, 16.7M) ➤ Reduced hallucinations: Mistral Large 4 (high) has a 28% hallucination rate on the updated AA-Omniscience v1.1, down from 41% for Preview and matching Muse Spark Open (xhigh). However, its accuracy remains relatively low at 26%, similar to Ling 3.1 Flash 1019 (27%), and behind DeepSeek V4.1 Flash 1017 (max, 40%) and Muse Spark Open (xhigh, 42%) ➤ Lower price and cost per task than the Preview: Mistral Large 4 is priced at $0.70/$2.10 per 1M input/output tokens, a ~50% reduction from the Preview's pricing of $1.36/$4.18. At the new pricing, it costs $2.06 per Intelligence Index task, down 63% from $5.54 for the Preview. This is comparable to Muse Spark Open (xhigh, $2.02) but more costly than leading open weights models DeepSeek V4.1 Flash 1017 (max, $0.60) and MiMo-V2.6-Pro ($0.26) Key model details: ➤ Size: 1.05T total parameters / 52B active parameters ➤ Context window: 1M tokens ➤ Multimodality: Text and image input, text output ➤ Pricing: $0.70/$2.10 per 1M input/output tokens ($0.07 per 1M cached input tokens) ➤ License: MEOW License (Mistral Ecosystem Open-Weight License), where operating a Model-as-a-Service business requires a separate commercial license with Mistral Congratulations to the team at @MistralAI on the release!",
-          "link": "http://nitter.meowing.monster/ArtificialAnlys/status/2115820547103952925#m",
-          "decryptage": "« Mistral Large 4 » est un nouveau modèle d'IA dit « open weights » (c'est-à-dire que son code est accessible au public) créé par l'entreprise française Mistral AI. Ce tweet en détaille les performances et les coûts, montrant qu'il est très compétitif, notamment pour la programmation et la cybersécurité, et qu'il repousse les limites des modèles ouverts.",
-          "category": "actu"
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Annonce de trois découvertes scientifiques majeures, une en mathématiques (analyse harmonique), une en informatique (théorie de la complexité) et une en physique (théorie quantique des champs). L'IA commence à nous aider à améliorer notre compréhension de l'univers ! openai.com/index/building-sc… Travailler avec les communautés universitaires pour construire une compréhension scientifique. OpenAI partage les résultats de modèles sur la conjecture de Kakeya, l'hypothèse du temps exponentiel et la chromodynamique quantique — et comment les chercheurs peuvent les vérifier et s'en inspirer. openai.com",
+          "text_original": "Announcing three major scientific discoveries, one each in mathematics (harmonic analysis), computer science (complexity theory), and physics (quantum field theory). AI starting to help us improve our understanding of the universe! openai.com/index/building-sc… Link Working with academic communities to build scientific understanding OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them. openai.com",
+          "decryptage": "La \"conjecture de Kakeya\", l'\"hypothèse du temps exponentiel\" et la \"chromodynamique quantique\" sont des problèmes complexes et des théories avancées dans les domaines des mathématiques et de la physique, que l'IA contribue maintenant à résoudre ou à mieux comprendre."
         },
         {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Bons progrès ces dernières semaines ! Et maintenant les poids. Mistral AI (@MistralAI) Aujourd'hui, nous publions les poids d'un nouveau Le Chonk amélioré, faisant progresser la frontière ouverte pour le codage agentique et la cybersécurité. 💻 Construit pour construire : Le Chonk est classé #1 sur FrontierCode de @cognition parmi les modèles ouverts, et établit un nouveau benchmark pour l'efficacité de Pareto sur @artificialanalysis. 🛡 Construit pour défendre : À la pointe de la cyberdéfense, mis à l'épreuve par les principaux fournisseurs de cybersécurité mondiaux, y compris @CrowdStrike, @cloudflare, @rubrik, @zscaler, et d'autres. Construit pour la souveraineté : Faites-en le vôtre. Téléchargez les poids sur @huggingface, personnalisez-le avec Mistral Forge, et déployez-le où vous en avez besoin. Lisez-en plus de notre équipe et de nos clients 👇 : — http://nitter.meowing.monster/MistralAI/status/2115811242556137820#m",
-          "text_original": "Good progress in the last few weeks ! And now the weights Mistral AI (@MistralAI) Today, we release the weights of a new and improved Le Chonk, advancing the open frontier for agentic coding and cybersecurity. 💻 Built to build: Le Chonk ranks #1 on @cognition ’s FrontierCode among open models, and sets a new benchmark for Pareto efficiency on @artificialanalysis. 🛡 Built to defend: State-of-the-art in cyberdefense, put through the paces by the world's leading cyber vendors, including @CrowdStrike , @cloudflare , @rubrik , @zscaler , and others. Built for sovereignty: Make it yours. Download the weights on @huggingface , customize it with Mistral Forge, and deploy it wherever you need it. Read more from our team and customers 👇: — http://nitter.meowing.monster/MistralAI/status/2115811242556137820#m",
-          "link": "http://nitter.meowing.monster/arthurmensch/status/2115820723767783634#m",
-          "decryptage": "« Le Chonk » est un modèle d'IA développé par Mistral AI, particulièrement performant pour l'écriture de code et la défense contre les cyberattaques (« agentic coding » signifie qu'il peut agir de manière autonome pour coder). « Open frontier » signifie qu'il repousse les limites de ce qui est disponible en open source.",
-          "category": "actu"
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "l'utilisation de l'ordinateur avec Terra a franchi un seuil qualitatif où l'IA semble plus rapide pour utiliser un ordinateur que ce que je peux faire sans assistance. OpenAI (@OpenAI) GPT-6.1 Terra : une utilisation rapide et efficace de l'ordinateur à un prix inférieur. GPT-6.1 Terra comprend ce qui est à l'écran, agit sur plusieurs applications, écrit naturellement, et est un modèle plus performant pour toute votre journée de travail avec l'efficacité de prendre en charge une plus grande partie de celle-ci. Vidéo.",
+          "text_original": "computer use with terra has crossed a qualitative threshold where it feels faster at using a computer than what i can do unassisted OpenAI (@OpenAI) GPT-6.1 Terra: delivering fast and capable computer use at a lower price. GPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. Video — http://nitter.meowing.monster/OpenAI/status/2114780711664398349#m",
+          "decryptage": "\"GPT-6.1 Terra\" est un nouveau modèle d'IA d'OpenAI capable d'interagir directement avec votre ordinateur en comprenant ce qui est affiché à l'écran et en réalisant des actions dans différentes applications."
         },
         {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "L'IA pour l'ingénierie industrielle mènera l'humanité vers sa prochaine ère technologique. C'est un pilier essentiel de notre recherche, et nous approfondissons notre partenariat avec NVIDIA pour répondre aux besoins du monde de la fabrication. Mistral AI (@MistralAI) Aujourd'hui, nous annonçons une nouvelle collaboration avec @nvidia pour apporter l'IA à l'ingénierie industrielle : - simulation plus rapide - benchmarks ouverts et ensembles de données de support pour l'IA physique - évaluations pour l'IA agentique en CAE et EDA Plus d'informations ici : mistral.ai/news/mistral-nvid… — http://nitter.meowing.monster/MistralAI/status/2112870261829603589#m",
-          "text_original": "AI for industrial engineering will bring humanity to its next technological era. This is a key pillar of our research, and we're deepening our partnership with NVIDIA to address the needs of the manufacturing world Mistral AI (@MistralAI) Today we’re announcing a new collaboration with @nvidia to bring AI to industrial engineering: - faster simulation - open benchmarks and supporting datasets for physics AI - evaluations for agentic AI in CAE and EDA More here: mistral.ai/news/mistral-nvid… — http://nitter.meowing.monster/MistralAI/status/2112870261829603589#m",
-          "link": "http://nitter.meowing.monster/arthurmensch/status/2112875860206162322#m",
-          "decryptage": "L'ingénierie industrielle consiste à concevoir, améliorer et gérer des systèmes de production complexes. Ce partenariat vise à utiliser l'IA pour simuler plus rapidement des processus industriels et développer des agents IA pour l'aide à la conception et à la fabrication dans des domaines comme le CAE (Computer-Aided Engineering) et l'EDA (Electronic Design Automation).",
-          "category": "actu"
+          "author_name": "Aravind Srinivas",
+          "handle": "@AravSrinivas",
+          "text_fr": "Partage des premières évaluations sur Gemini 4 Carbon. Le modèle le plus puissant que nous ayons vu jusqu'à présent pour la recherche longue et la qualité des réponses, avec un nouveau record (SoTA) sur le benchmark Wide-And-Deep-Research (WANDR). Bientôt disponible pour tous les utilisateurs Perplexity Pro et Max au sein de Computer, une fois que nous aurons une capacité de jetons suffisante. Félicitations @GoogleDeepMind !",
+          "text_original": "Sharing early evals on Gemini 4 Carbon. Strongest model that we've seen so far for long-form research and answer quality, with a new SoTA on the Wide-And-Deep-Research (WANDR) benchmark. Coming soon to all Perplexity Pro and Max users inside Computer, once we have sufficient token capacity. Congrats @GoogleDeepMind !",
+          "decryptage": "\"SoTA\" signifie \"State-of-the-Art\" (état de l'art), indiquant qu'un modèle ou un système atteint les meilleures performances actuelles dans un domaine ou sur un test donné."
         },
         {
-          "author_name": "Arthur Mensch",
-          "handle": "@ArthurMensch",
-          "text_fr": "Voxtral identifie les intervenants (diarizes) et détecte la fin de prise de parole à la volée. Fonctionne sur votre infrastructure ou la nôtre (celle de la gare). Mistral AI (@MistralAI) Présentation de Voxtral 3 : des modèles de transcription et de parole de pointe qui alimentent la nouvelle API d'agents vocaux de Mistral. 🧵 Vidéo — http://nitter.meowing.monster/MistralAI/status/2112574615318876178#m",
-          "text_original": "Voxtral diarizes and detects end-of-turn on the fly. Runs on your infra or on ours (the one in the train station) Mistral AI (@MistralAI) Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 Video — http://nitter.meowing.monster/MistralAI/status/2112574615318876178#m",
-          "link": "http://nitter.meawing.monster/arthurmensch/status/2112668031268896866#m",
-          "decryptage": "« Voxtral 3 » est la nouvelle suite de modèles de reconnaissance vocale (« ASR ») et de synthèse vocale (« TTS ») de Mistral AI, permettant de transformer la parole en texte et vice-versa, et d'alimenter des « agents vocaux » (des IA qui interagissent par la voix). « Diarizes » signifie qu'il peut identifier qui parle et quand, ce qui est très utile pour des conversations à plusieurs.",
-          "category": "actu"
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Nous avons construit PlanAssist pour aider les agents de planification du gouvernement britannique à accélérer la construction et les rénovations à travers le pays. Conçu avec Gemini, il a montré qu'il peut réduire le temps que les agents de planification passent à évaluer les demandes des propriétaires de jusqu'à 58 %. Il est maintenant mis à la disposition de 12 conseils supplémentaires pour les aider à prendre des décisions plus rapides. 🏡 → goo.gle/4iQXYkl Vidéo",
+          "text_original": "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessing householder applications by up to 58%. It is now being made available to 12 more councils to help them to make faster decisions. 🏡 → goo.gle/4iQXYkl Video",
+          "decryptage": "\"Gemini\" est le nom d'une famille de modèles d'intelligence artificielle développée par Google DeepMind, conçue pour être multimodale (comprendre différents types de données)."
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "3,5 ans après, The Rundown approche les 4 millions d'abonnés au total à la newsletter 👀 Reconnaissant pour le chemin parcouru jusqu'à présent, tant de choses encore à venir.",
-          "text_original": "3.5 years in, and The Rundown is approaching the 4M total newsletter subscriber mark 👀 Grateful for the journey so far, so much more to come",
-          "link": "http://nitter.meowing.monster/rowancheung/status/2115493365038944411#m",
-          "decryptage": null,
-          "category": "actu"
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Gemini 4 Carbon fait ses débuts à la 1ère place sur APEX-Agents, et c'est le seul modèle du classement avec une moyenne supérieure à 90 %. 🥇Gemini 4 Carbon - 84,2 % Pass@1, 90,4 % moyenne 🥈Gemini 4 Argon - 82,4 % Pass@1, 87,4 % moyenne 🥉Claude Sonnet 5.5 - 75,5 % Pass@1, 83,7 % moyenne. Google qualifie Carbon d'état de l'art pour le travail à long terme. APEX-Agents teste cela avec des tâches en plusieurs étapes issues de la banque d'investissement, du conseil en gestion et du droit des sociétés. Conseil en gestion : 91,9 % Pass@1 (#1) Banque d'investissement : 86,9 % Pass@1 (#1) Droit des sociétés : 73,8 % Pass@1 (#2). Carbon est en tête dans le conseil et la banque. Il est devancé par Argon de 2,9 points en droit des sociétés, où Argon est toujours en tête à 76,7 % (#1). Félicitations @GoogleDeepMind pour le lancement. Vidéo.",
+          "text_original": "Gemini 4 Carbon debuts at #1 on APEX-Agents, and it's the only model on the leaderboard with a mean above 90%. 🥇Gemini 4 Carbon - 84.2% Pass@1, 90.4% mean 🥈Gemini 4 Argon - 82.4% Pass@1, 87.4% mean 🥉Claude Sonnet 5.5 - 75.5% Pass@1, 83.7% mean Google calls Carbon state-of-the-art on long-horizon work. APEX-Agents tests this with multi-step tasks from investment banking, management consulting and corporate law. Management consulting: 91.9% Pass@1 (#1) Investment banking: 86.9% Pass@1 (#1) Corporate law: 73.8% Pass@1 (#2) Carbon leads in consulting and banking. It trails Argon by 2.9 points in corporate law, where Argon still leads at 76.7% (#1). Congrats @GoogleDeepMind on the launch. Video.",
+          "decryptage": "Un \"benchmark\" est un test standardisé qui permet de comparer les performances de différents modèles d'IA sur des tâches spécifiques."
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Taux d'ouverture pour ceux qui se demandent. Vise 60% mais pas trop mal pour une newsletter quotidienne :)",
-          "text_original": "Open rate for those wondering Aiming for 60% but not too shabby for a daily newsletter :)",
-          "link": "http://nitter.meowing.monster/rowancheung/status/2115493699324981342#m",
-          "decryptage": null,
-          "category": "actu"
+          "author_name": "Demis Hassabis",
+          "handle": "@demishabiss",
+          "text_fr": "Un jalon \"hello world\" pour le Projet Suncatcher 🚀 Après avoir lancé notre prototype de satellite il y a quelques semaines, nous avons maintenant réussi à envoyer une commande en orbite, à démarrer le TPU, à exécuter l'invite et à recevoir notre première réponse complète sur Terre - un haïku ! Vidéo",
+          "text_original": "A ‘hello world’ milestone for Project Suncatcher 🚀 After launching our prototype satellite a few weeks ago, we’ve now successfully sent a command up to orbit, booted up the TPU, ran the prompt, and received our first complete response back on earth - a haiku! Video",
+          "decryptage": "Un \"TPU\" (Tensor Processing Unit) est une puce spécialisée, conçue par Google, qui est optimisée pour accélérer les calculs nécessaires à l'intelligence artificielle."
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Le troisième trimestre est clôturé ! Nous sommes maintenant sur un taux de revenu annuel de un demi-billion, avec des revenus d'Alphabet en croissance de 25 %. - Nos investissements dans l'IA stimulent la croissance globale des requêtes de recherche, y compris les requêtes commerciales - notre taux de croissance des requêtes d'une année sur l'autre est le plus élevé des cinq dernières années. - Les revenus de Google Cloud ont augmenté de 103 %, grâce à une demande extraordinaire pour notre infrastructure IA et nos solutions IA. Nos API de modèles 1P traitent désormais près de 32 milliards de jetons/minute (en hausse de 40 % par rapport au trimestre précédent). - Forte dynamique dans la progression des modèles avec Argon et Carbon en tête de l'innovation, et Genie 4 notre nouveau modèle de monde le plus avancé à ce jour. Merci à nos partenaires et employés du monde entier. Plus à partager lors de l'appel bientôt !",
+          "text_original": "Q3 is in the books! We’re now on a half-trillion annual revenue run rate, with Alphabet revenues growing at 25%. - Our AI investments are driving overall Search query growth, including commercial queries - our YoY query growth rate is the highest it’s been in the last five years. - Google Cloud revenue grew 103%, powered by extraordinary demand for our AI infrastructure and AI solutions. Our 1P model APIs now process nearly 32B tokens/min (up 40% QoQ). - Strong momentum in model progress with Argon and Carbon leading the frontier, and Genie 4 our most advanced new world model yet. Thanks to our partners and employees around the world. More to share on the call soon!",
+          "decryptage": "Les \"API de modèles\" (Application Programming Interfaces) sont des interfaces qui permettent à différents logiciels de communiquer entre eux, ici pour utiliser les capacités des modèles d'IA de Google."
+        },
+        {
+          "author_name": "Demis Hassabis",
+          "handle": "@demishassabis",
+          "text_fr": "Nouvelle excitante : Gemini 4 Carbon (High) de @GoogleDeepMind vient de faire une entrée fracassante sur Arena, se classant #1 dans Text Arena, #2 dans Agent Arena, et #4 dans Code Arena : WebDev. De retour au sommet, Gemini 4 Carbon offre une intelligence de pointe et remodèle la frontière de Pareto à travers trois arènes. Dans Agent Arena, Gemini 4 Carbon se classe #2 avec une amélioration nette de +16,2 % sur +21,9K sessions d'agents du monde réel de notre communauté mondiale, surpassant les meilleurs modèles GPT-6 Astra et Fable-5.1. À un coût médian de 1,80 $ par tâche, Gemini 4 Carbon (High) coûte 72 % moins cher que Claude Opus 5.5 (Max) classé #1. Ses points forts par signaux clés : - #1 Manœuvrabilité (+18,6 %) : le modèle peut-il corriger le tir lorsque vous le contestez ? - #2 Louanges vs Plaintes (+37,9 %) : sentiment implicite dans les réactions des utilisateurs - #3 Succès Confirmé (+18,7 %) : \"oui, ça a marché\" explicite des utilisateurs. Dans Code Arena : WebDev, Carbon a obtenu 1768 points, se classant #4 : - Seulement 2 points en dessous du #3 Claude Sonnet 5.5 (xHigh), à 1770 pts - 89 points au-dessus du #11 Gemini 4 Argon (High), à 1679 pts. Par catégorie, il se classe #3 dans les Jeux et Simulations, et #5 dans la Marque et le Marketing. Dans Text Arena, Gemini 4 Carbon (High) est le nouveau #1 avec 1528 points, devant Gemini 4 Argon (High) au #2 avec 1520 points. Félicitations à l'équipe @GoogleDeepMind pour cette étape majeure ! Google DeepMind (@GoogleDeepMind) Gemini 4 Carbon est notre prochain modèle de pointe. Il est à l'état de l'art en matière de cybersécurité et de capacités à long terme.",
+          "text_original": "Exciting news: Gemini 4 Carbon (High) from @GoogleDeepMind just made a huge debut on Arena, landing #1 in Text Arena, #2 in Agent Arena, and #4 in Code Arena: WebDev. Back at the top, Gemini 4 Carbon delivers frontier intelligence and reshapes the Pareto frontier across three arenas. In Agent Arena, Gemini 4 Carbon ranks #2 with a +16.2% net improvement across +21.9K real-world agentic sessions from our global community, surpassing top models GPT-6 Astra and Fable-5.1. At $1.80 median cost per task, Gemini 4 Carbon (High) costs 72% less than the #1 ranked Claude Opus 5.5 (Max). Its standouts by key signals: - #1 Steerability (+18.6%): can the model course-correct when you push back? - #2 Praise vs Complaint (+37.9%): implicit sentiment in users' reactions - #3 Confirmed Success (+18.7%): explicit “yes, that worked” from users In Code Arena: WebDev, Carbon scored 1768 pts landing #4: - Just 2 pts below #3 Claude Sonnet 5.5 (xHigh), at 1770 pts - 89 pts above #11 Gemini 4 Argon (High), at 1679 pts. By category, it ranks #3 in Gaming and Simulations, and #5 in Brand & Marketing. In Text Arena, Gemini 4 Carbon (High) is the new #1 with 1528 pts, now ahead of Gemini 4 Argon (High) at #2 with 1520 pts. Congrats to the @GoogleDeepMind team on this huge milestone! Google DeepMind (@GoogleDeepMind) Gemini 4 Carbon is our next frontier model. It’s state-of-the-art across cybersecurity and long-horizon capabilities.",
+          "decryptage": "Une \"frontière de Pareto\" représente l'ensemble des meilleurs compromis possibles entre plusieurs objectifs, signifiant ici que Gemini 4 Carbon offre un excellent équilibre entre performances et coût."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Qui sera dans la Bay Area pour le sommet du code des ingénieurs en IA ?",
+          "text_original": "Who will be in the Bay Area for AI Engineer Code Summit?",
+          "decryptage": null
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "Carbon peut travailler sur des tâches complexes pendant des jours sans se bloquer ni prendre de raccourcis — fournissant un code fiable et de haute qualité. Les retours d'un groupe initial de cyberdéfenseurs nous aideront à améliorer les garde-fous avant d'étendre l'accès prochainement. En savoir plus ↓ goo.gle/4BCFvj8 Gemini 4 Carbon : notre prochain modèle de pointe. Gemini 4 Carbon est notre modèle le plus puissant avec des capacités de cybersécurité et de longue portée à l'état de l'art.",
+          "text_original": "Carbon can work through complex tasks for days without getting stuck or taking shortcuts – delivering high-quality, reliable code. Feedback from an initial group of cyber defenders will help us iterate on guardrails before we expand access soon. Find out more ↓ goo.gle/4BCFvj8 Link Gemini 4 Carbon: our next frontier model Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. blog.google",
+          "decryptage": "Les \"garde-fous\" (guardrails) sont des mécanismes de sécurité intégrés dans les systèmes d'IA pour s'assurer qu'ils fonctionnent de manière sûre, éthique et conforme, évitant ainsi les comportements indésirables ou dangereux."
+        },
+        {
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Présentation de Replit pour le gouvernement. Vidéo",
+          "text_original": "Introducing Replit for Government. Video",
+          "decryptage": null
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Julien Chaumond (@julien_c) Transformers v5.22.0 est sorti 🔥 Avec du @MistralAI Large 4 (Le Chonk) à l'intérieur 😽",
+          "text_original": "Julien Chaumond (@julien_c) Transformers v5.22.0 is out 🔥 With some @MistralAI Large 4 (Le Chonk) inside 😽 — http://nitter.meowing.monster/julien_c/status/2115815342371205208#m",
+          "decryptage": "\"Transformers\" est une bibliothèque logicielle très populaire en IA qui fournit des outils pour construire et utiliser des modèles de langage avancés, et \"MistralAI Large 4\" est un modèle de langage puissant développé par la société Mistral AI."
         }
       ],
       "tips": [
         {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "Vous avez la responsabilité morale d'informer votre famille et vos amis sur ce qui se passe dans la cybersécurité en ce moment. Cela ne fera qu'empirer/devenir plus étrange à partir de maintenant. Voici une excellente liste de choses à faire pour commencer à partager :\n* utilisez un bon gestionnaire de mots de passe (1Password) et ne dupliquez pas les mots de passe\n* utilisez l'authentification à deux facteurs pour tout ce qui est important (pas via SMS !! Google Authenticator ou mieux encore YubiKey)\n* Mises à jour automatiques activées, et redémarrage hebdomadaire pour qu'elles s'installent réellement\n* Geler votre crédit\n* Obtenez un PIN de protection d'identité de l'IRS\n* Demandez à votre opérateur de téléphonie mobile de vous donner un PIN de portabilité ou un verrouillage de numéro qui fait que l'opérateur refuse de déplacer votre numéro sans le PIN\nVous pouvez demander à votre Claude Code d'auditer ce qui, sur votre ordinateur portable, est obsolète et doit être mis à jour.",
-          "text_original": "you have a moral responsibility to educate your family & friends on what is going on in cyber rn. it is only going to get worse/weirder from here. here’s a great starter todo list to share: Peter Wildeford🇺🇸🚀 (@peterwildeford) PSA: in light of recent cyberattacks and vulnerabilities, I recommend everyone: * use a good password manager (1Password) and do not duplicate passwords * use two factor auth for everything important (not via sms!! Google Authenticator or better yet YubiKey) * Auto-updates on, and restart weekly so they actually install * Freeze your credit * Get an IRS Identity Protection PIN * Get your cell carrier to give you a port-out PIN or number lock that makes the carrier refuse to move your number without the PIN You can ask your claude code to audit what on your laptop is out of date and needs updating. — http://nitter.meowing.monster/peterwildeford/status/2112994329316708756#m",
-          "link": "http://nitter.meowing.monster/mckaywrigley/status/2113037629000446011#m",
-          "decryptage": "« Claude Code » est une version spécifique du modèle d'IA Claude, optimisée pour comprendre et générer du code informatique, et qui peut être utilisée ici pour vérifier la sécurité de votre ordinateur portable en identifiant les logiciels obsolètes qui pourraient présenter des vulnérabilités.",
-          "category": "tips"
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "Apprenez-en plus sur php2shell et le paysage général émergent de la sécurité : Clint Gibler (@clintgibler) Que signifie PHP2Shell pour votre équipe de sécurité — et que devriez-vous faire ensuite ? Demain, je rejoins l'équipe de @CrowdStrike pour discuter de la façon dont PHP2Shell a été découvert, comment nous avons géré la divulgation, et les prochaines étapes pratiques pour vous : - Évaluer votre exposition - Appliquer les correctifs - et enquêter sur les activités suspectes. Nous discuterons également, du point de vue d'@OpenAI, de la façon dont l'IA de pointe modifie la découverte de vulnérabilités et ce que cela signifie pour l'avenir de la cyberdéfense. J'espère vous y voir ! Mercredi 28 octobre 2026 | 10:00–10:45 AM PT Inscription : webinar.openai.com/php2shell…",
+          "text_original": "learn about php2shell and the general emerging security landscape: Clint Gibler (@clintgibler) What does PHP2Shell mean for your security team - and what should you do next? Tomorrow I’m joining @CrowdStrike folks to discuss how PHP2Shell was found, how we navigated the disclosure, and practical next steps for you: - Assessing your exposure - Applying fixes - and investigating suspicious activity. We’ll also discuss from @OpenAI 's vantage point, how frontier AI is changing vulnerability discovery and what that means for the future of cyber defense. Hope to see you there! Wednesday, October 28, 2026 | 10:00–10:45 AM PT Register: webinar.openai.com/php2shell… — http://nitter.meowing.monster/clintgibler/status/2115136037181857897#m",
+          "decryptage": "\"PHP2Shell\" est le nom d'une faille de sécurité informatique, et \"cyberdéfense\" désigne l'ensemble des mesures pour protéger les systèmes informatiques contre les attaques."
         },
         {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "De manière confuse, vous ne pouvez accéder au mode Pro que dans l'interface de Chat. Ce qui semble être le mode de réflexion le plus élevé dans l'interface Codex et ChatGPT Work s'appelle Ultra, et il fait quelque chose d'entièrement différent (il génère de nombreux agents pour résoudre un problème).",
-          "text_original": "Confusingly, you can only access Pro mode in the Chat interface. What appears to be the highest thinking mode in the Codex and ChatGPT Work interface is called Ultra, and it does something entirely different (spawning lots of agents to solve a problem).",
-          "link": "http://nitter.meowing.monster/emollick/status/2116770904940388827#m",
-          "decryptage": "L'auteur explique la différence entre les modes « Pro » et « Ultra » dans les outils d'OpenAI : le mode « Pro » est pour la réflexion profonde sur une seule question, tandis que le mode « Ultra » utilise plusieurs « agents » (des petits programmes IA) pour collaborer et résoudre des problèmes plus larges. Ceci est une nuance importante pour les utilisateurs de ces outils.",
-          "category": "tips"
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Je suis ambassadeur Replit et je dis cela en tant que développeur, pas en tant que sponsor. Replit est l'endroit où j'ai appris que je pouvais passer d'une idée à une application fonctionnelle le jour même, dans un navigateur, sans rien installer. Cela a changé ce que j'essaie même de construire.",
+          "text_original": "I am a Replit Ambassador and I say this as a builder, not a sponsor. Replit is where I learned I could go from idea to a working app the same day, in a browser, with nothing installed. That changed what I even try to build.",
+          "decryptage": null
         },
         {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "Top 5 des leçons apprises en développant The Rundown jusqu'à 3,5 millions d'abonnés actifs au total et un taux d'ouverture de 55%+ :\n1. L'e-mail est sa propre plateforme, traitez-le comme YouTube, Instagram, Twitter. Les 'super lecteurs' (ouvrent chaque e-mail, cliquent sur les publicités et restent des années) aiment vraiment l'e-mail comme médium. Nous avons des millions de lecteurs qui n'utilisent pas les médias sociaux. La meilleure façon de les acquérir est par d'autres newsletters, des parrainages, ou en étant la raison pour laquelle ils arrêtent d'utiliser les médias sociaux. Presque personne ne construit pour ce public. Je suis plus optimiste sur l'e-mail que sur toute autre plateforme (YouTube en format long est un proche deuxième).\n2. L'industrie des newsletters manque d'innovation. Regardez les applications mobiles, l'e-commerce, l'edtech. Onboarding personnalisé avec quiz, une page d'atterrissage pour chaque publicité, des centaines de nouvelles créations par jour. Pendant ce temps, la plupart des newsletters, y compris certaines des plus grandes au monde, ont une page d'atterrissage basique et un onboarding standard. Nous avons construit un entonnoir de quiz d'onboarding qui, à un moment donné, nous a rapprochés d'un CAC négatif avec des centaines de milliers par mois en dépenses publicitaires. C'est ce qui nous a permis de scaler de manière agressive et de surenchérir sur les concurrents. Avec le codage IA et des plateformes comme beehiiv, il n'y a aucune excuse pour ne pas créer de nouvelles expériences pour vos lecteurs. L'opportunité est grande ouverte :)\n3. Les ventes de newsletters sont principalement un problème d'éducation. Nous faisons toujours des partenariats sociaux à un CPM significativement plus élevé que nos newsletters, pourtant les newsletters convertissent mieux et obtiennent beaucoup plus de clics. Beaucoup d'annonceurs ne comprennent pas les newsletters comme ils le font avec le marketing d'influence, donc à grande échelle, cela devient un jeu d'éducation. Une fois que les annonceurs comprennent, ils restent. Nous sommes complets avec plusieurs publicités par jour depuis 3 ans, des mois à l'avance.\n4. Restez léger, rapide, agressif. D'autres newsletters ont construit de grandes équipes de vente et de contenu. Je pense qu'il est préférable de rester petit et de payer des personnes de haute qualité pour faire du très bon travail. Les revenus peuvent augmenter avec plus d'employés, mais le coût d'opportunité de ne pas bouger rapidement à l'ère de l'IA est un négatif net à long terme. Par exemple, nous testons constamment de nouvelles expériences de croissance et de nouvelles formes de médias. La plupart ne fonctionnent pas et c'est bien. L'important est que nous puissions pivoter le jour même parce que nous sommes légers.\n5. Enfin, n'écoutez pas les gens qui disent que l'e-mail est mort ou que vous ne devriez pas faire de publicités payantes. C'est de l'ignorance et un problème de compétences. Rowan Cheung (@rowancheung) 3,5 ans après, The Rundown approche les 4 millions d'abonnés au total à la newsletter 👀 Reconnaissant pour le chemin parcouru jusqu'à présent, tant de choses encore à venir — http://nitter.meowing.monster/rowancheung/status/2115493365038944411#m",
-          "text_original": "Top 5 learnings growing The Rundown to 3.5M total active subscribers and 55%+ open rate: 1. Email is its own platform, treat it like YouTube, Instagram, Twitter Super readers (open every email, click ads, and stick around for years) genuinely like email as a medium. We have millions of readers who don’t use social media. Best way to acquire them is through other newsletters, referrals, or being the reason they stop using social media. Barely anyone is building for this audience. I’m more bullish on email than any other platform (long-form YouTube is a close second). 2. The newsletter industry lacks innovation Look at mobile apps, ecom, edtech. Custom quiz onboarding, a landing page for every ad, hundreds of new creatives a day. Meanwhile most newsletters, including some of the biggest in the world, have a basic landing page and standard onboarding. We built an onboarding quiz funnel that, at one point, got us close to negative CAC with hundreds of thousands a month in ad spend. That’s what let us scale aggressively and outbid competitors. With AI coding and platforms like beehiiv, there’s no excuse not to build new experiences for your readers. The opportunity here is wide open :) 3. Newsletter sales is mostly an education problem We still run social partnerships at a significantly higher CPM than our newsletters, yet the newsletters convert better and get way more clicks. A lot of advertisers don’t understand newsletters as they do with influencer marketing, so at scale it becomes an education game. Once advertisers get it, they stay. We’ve been booked out at multiple ads a day for the last 3 years, months in advance. 4. Stay lean, fast, aggressive Other newsletters have built large sales and content teams. I think it’s better to stay small and pay high-quality people to do very good work. Revenue can increase with more employees, but the opportunity cost of not moving fast in the AI era is a long-term net negative. For example, we constantly test new growth experiments and new forms of media. Most don’t work and that’s fine. The point is we can pivot the same day because we're lean. 5. Lastly, don’t listen to people who say email is dead or that you shouldn’t run paid ads. That’s ignorance and lowkey skill issue. Rowan Cheung (@rowancheung) 3.5 years in, and The Rundown is approaching the 4M total newsletter subscriber mark 👀 Grateful for the journey so far, so much more to come — http://nitter.meowing.monster/rowancheung/status/2115493365038944411#m",
-          "link": "http://nitter.meowing.monster/rowancheung/status/2115818656307265852#m",
-          "decryptage": "Le « CAC » (Coût d'Acquisition Client) est un indicateur marketing qui mesure combien il coûte d'acquérir un nouveau client. Le « CPM » (Coût Pour Mille) est un indicateur publicitaire qui représente le coût pour afficher mille fois une publicité. « Beehiiv » est une plateforme en ligne populaire pour créer et gérer des newsletters, souvent utilisée par les créateurs de contenu.",
-          "category": "tips"
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "L'outil de Clarisse, entièrement construit sur Replit, a fait gagner 150 heures à l'équipe financière en un an. Elle a identifié un problème et a construit un outil personnalisé pour le résoudre, transformant ainsi sa façon de travailler avec les équipes et les parties prenantes. Un défi opérationnel transformé en opportunité d'autonomie. Vidéo",
+          "text_original": "Clarisse's tool, built entirely on Replit, saved the finance team 150 hours in a year. She saw a problem and built a custom-tool to solve for it, transforming the way she worked with teams and stakeholders. An operational challenge turned into an opportunity to be self-driving. Video",
+          "decryptage": null
         }
       ],
       "idees": [
         {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Personnellement, j'ai le point de vue exactement inverse ! Construire un excellent 'harnais' est une partie profondément essentielle de la création d'un excellent produit. Il existe d'innombrables exemples qu'un agent pourrait vous expliquer, des vidéos Grok Bot sur YouTube aux blogs de Factory, en passant par nos blogs chez LangChain, et les blogs de Codex d'OpenAI, etc. Un excellent harnais reflète la création d'une expérience utilisateur de qualité pour l'interaction avec votre agent. Cela inclut :\n- Ajuster les prompts (qui font souvent partie du harnais)\n- Créer des outils/compétences sur mesure qui transforment les flux de travail courants en un seul appel d'outil -> économiser du contexte !!!\n- Examiner de manière agressive les seuils de compaction pour votre cas d'utilisation donné\n- Vérifier si une partie du travail peut être déchargée vers des modèles moins chers dans le harnais via des sous-agents/un routage\n- Construire des connecteurs pour que les agents puissent accéder et rechercher efficacement des informations utiles\n- Supporter le travail en arrière-plan afin que les utilisateurs reçoivent un feedback immédiat pendant que d'autres tâches continuent de fonctionner\n- Construire une mémoire d'une manière qui compte pour vos utilisateurs\n^ Ceci n'est qu'une petite partie de tout le monde auquel vous pensez lorsque vous construisez un harnais pour votre produit. L'ingénierie des harnais aide votre équipe à construire un meilleur produit et à mieux comprendre ce qui fait fonctionner votre modèle pour votre cas d'utilisation. De plus, chaque équipe qui construit des produits verticaux de pointe fait de l'ingénierie des harnais -> c'est absolument un avantage et ce n'est pas grave si le nouveau modèle rend une partie du harnais inutile -> il y a tellement d'optimisation que vous pouvez faire à chaque échelle en termes de coût, de latence, d'intelligence. Note connexe : l'importance d'avoir de bonnes évaluations est la capacité à améliorer rapidement votre harnais avec de nouveaux modèles et à faire confiance à la configuration. Ex : recherchez automatiquement votre harnais sur un bon ensemble d'évaluations auquel vous faites confiance. Les modèles de pointe peuvent faire beaucoup -> beaucoup de tâches peuvent être effectuées en un seul coup, mais beaucoup d'autres ne le peuvent pas au Pareto intelligence-coût-vitesse dont vous avez besoin. Matt Shumer (@mattshumer_) Affirme : l'ingénierie des harnais est (généralement) stupide. Utilisez simplement celle pour laquelle le modèle a été entraîné, et écrivez de très bons prompts de comportement pour contrôler son fonctionnement. Laissez les modèles fonctionner comme ils le souhaitent. — http://nitter.meowing.monster/mattshumer_/status/2116377535818891690#m",
-          "text_original": "personally have the exact opposite view here! building a great harness is a deeply core part of building a great product countless examples you can ask an agent to explain from Grok Bot YouTube video, Factory blogs, our blogs at LangChain, OpenAI’s Codex blogs, etc a great harness is a reflection of building a great experience for the user interacting with your agent. it includes - adjusting prompts (which are off part of the harness) - creating bespoke tools/skills that make common workflows a single tool call -> save on context!!! - aggressively examining thresholds for compaction for your given use case - checking if some work can be offloaded to cheaper models in the harness via subagents/routing - building connectors so agents can efficiently access and search over useful context - supporting background work so users get immediate feedback while other work continues to chug along - building memory in a way that matters for your users ^ this is a small portion of the entire world you think about when building a harness for your product Harness Engjneering helps your team build a better product and better understand of what makes your model tick for your use case also every team building frontier vertical products is harness engineering -> it’s absolutely an edge and it’s fine if the new model makes part of the harness unnecessary layer -> there’s so much optimization you can do at every scale across cost, latency, intelligence related note: the importance of having good evals is the ability to quickly hill climb your harness with new models and trust that the config ex: auto research your harness on a good eval set you trust the frontier models can do a lot -> a lot of tasks can just be one-shotted, but many can’t at the intelligence-cost-speed Pareto you need Matt Shumer (@mattshumer_) Hot take: harness engineering is (usually) stupid. Just use the one the model was trained for, and write really good behavior prompts to control how it works. Lean into how the models want to work. — http://nitter.meowing.monster/mattshumer_/status/2116377535818891690#m",
-          "link": "http://nitter.meowing.monster/Vtrivedy10/status/2116622802031710709#m",
-          "decryptage": "« Harness engineering » (ou ingénierie des harnais) est un terme pour dire qu'on ne se contente pas du modèle d'IA brut, mais qu'on construit tout un système autour pour le rendre plus utile, efficace et adapté aux besoins spécifiques de l'utilisateur, allant de l'ajustement des prompts à la création d'outils sur mesure et à la gestion de la mémoire.",
-          "category": "idees"
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "p ne sera probablement toujours pas égal à np",
+          "text_original": "p still probably doesn't equal np",
+          "decryptage": "\"P = NP\" est un des problèmes les plus célèbres en informatique, demandant si les problèmes pour lesquels on peut vérifier rapidement une solution (P) peuvent aussi être résolus rapidement (NP) ; c'est un défi fondamental de la théorie de la complexité."
         },
         {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Beaucoup de défis d'ingénierie de contenu ont des solutions assez standards, ce qui a conduit certains ingénieurs à dire que l'ingénierie des agents est résolue/ennuyeuse. C'est vrai dans une certaine mesure, mais il y en a un tas de nouveaux (et amusants) qui émergent à mesure que les agents évoluent ! Article Nouveaux défis d'ingénierie de contexte fin 2026. On a l'impression que tout le monde converge vers la même architecture d'agent : un LLM, fonctionnant en boucle, appelant des outils, fonctionnant dans un environnement isolé (sandbox). Claude Code – peut-être la première manifestation très médiatisée de cela.",
-          "text_original": "A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve! Article New context engineering challenges in late 2026 It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this",
-          "link": "http://nitter.meowing.monster/hwchase17/status/2116553654857867330#m",
-          "decryptage": "Un « agent IA » est un programme qui peut percevoir son environnement, prendre des décisions et agir pour atteindre des objectifs, un peu comme un petit robot logiciel. Un « LLM » (Large Language Model) est un modèle de langage avancé comme ChatGPT, et une « sandbox » est un environnement isolé pour tester des programmes en toute sécurité, où les agents IA peuvent appeler des « outils » pour accomplir des tâches spécifiques.",
-          "category": "idees"
+          "author_name": "Greg Brockman",
+          "handle": "@gdb",
+          "text_fr": "« Sur le plan technique, l'article est incroyable, peut-être au-delà de ce qu'un humain aurait pu concevoir, mais pas au-delà de la compréhension humaine » Scott Armstrong (@scottnarmstrong) Puisque je suis maintenant bloqué par bluey pour répondre à ce fil, je réponds ici en citant le tweet : la construction d'OpenAI a plus à voir avec l'intégration convexe qu'autre chose. En intégration convexe, les oscillations sont généralement construites à la main et la procédure d'itération crée des solutions faibles sauvages. La construction de non-unicité d'Albritton–Brué–Colombo utilisait un vortex instable pour séparer les solutions. Les singularités de Córdoba–Martínez-Zoroa amplifient la vorticité à travers les échelles par la contrainte. Dans l'article d'OpenAI, une instabilité fluide est intelligemment utilisée pour que le flux lui-même génère les oscillations : elles se développent en puisant de l'énergie dans le cisaillement de fond. La contrainte de Reynolds devient alors la force qui crée le vortex lisse en effondrement. Utiliser une instabilité physique pour créer la contrainte de cette manière n'a pas de précédent, et c'est ce qui produit une force lisse plutôt qu'une simple force rugueuse. Certaines de ces idées sont dans la littérature (par exemple, Leibovich-Stewartson 1983) mais la façon dont elles sont combinées est définitivement folle et n'existe nulle part dans la littérature auparavant. Je ne connais personne non plus qui suggérait que l'intégration convexe jouerait un rôle dans la création d'une solution de type \"blow-up\". Sur le plan technique, l'article est incroyable, peut-être au-delà de ce qu'un humain aurait pu concevoir, mais pas au-delà de la compréhension humaine : plusieurs groupes d'experts en EDP travaillent à le comprendre et disent qu'ils le comprennent plus ou moins maintenant. Je m'attends à des résumés bientôt ; trop long, pas lu : quiconque dit que ce résultat d'OAI n'est pas surprenant est en train de mentir, désolé !",
+          "text_original": "“On a technical level, the paper is unbelievable, maybe beyond what a human could have come up with but not beyond human understanding” Scott Armstrong (@scottnarmstrong) Since I'm now blocked by bluey from replying to this thread, I answer here by quote tweet the openAI construction has more to do with convex integration than anything else. In convex integration, the oscillations are typically built by hand and the iteration procedure creates wild weak solutions. The non-uniqueness construction of Albritton–Brué–Colombo used an unstable vortex to split solutions apart. The Córdoba–Martínez-Zoroa singularities amplify vorticity across scales by strain. In the openAI paper, a fluid instability is clever made so that the flow itself generates the oscillations: they grow by drawing energy from the background shear. The Reynolds stress then becomes the force that creates the collapsing smooth vortex. Using a physical instability to create the stress in this way has no precedent, and it is what produces a smooth force rather than a merely rough one. Some on these ideas are in the literature (e.g. Leibovich-Stewartson 1983) but the way they are combined is definitely insane and definitely nowhere in the literature previously. I also don't know of anyone suggesting that convex integration would play a role in the creation of a blow-up solution like this. On a technical level, the paper is unbelievable, maybe beyond what a human could have come up with but not beyond human understanding: there are several different groups of pde experts working on understanding it who say that they more or less understand now. I expect digestions soon td;lr: anyone saying that this OAI result is unsurprising is bullshitting sorry!",
+          "decryptage": "Ce tweet discute d'un article scientifique très avancé d'OpenAI sur la \"dynamique des fluides\", en utilisant des concepts mathématiques complexes comme l'\"intégration convexe\" et les \"équations aux dérivées partielles (EDP)\" pour décrire comment l'IA a découvert de nouvelles façons de créer des phénomènes physiques."
         },
         {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Modèles d'accès traditionnels à l'observabilité :\n- Requêtes de pointe, par exemple ce qui s'est passé au cours des dernières minutes ou heures\n- Détection des pannes et alerte rapide\n- Examen détaillé du temps passé, des erreurs\nModèles d'accès à l'observabilité des agents :\n- Dans une certaine mesure, tout ce qui précède, mais aussi :\n- Extraction de traces sur de plus longs horizons temporels pour trouver des modes de défaillance, des cas limites, des exemples de haute qualité\n- Transformation de ces découvertes en meilleures évaluations / données d'entraînement, pour que votre agent continue de s'améliorer. Harrison Chase (@hwchase17) quand les gens pensent à « l'observabilité des agents », ils peuvent penser à « Datadog pour les agents », c'est en fait plus comme « Databricks pour les agents ». Nous avons fait des choses dans cette direction, mais attendez-vous à en voir plus bientôt. — http://nitter.meowing.monster/hwchase17/status/2116279214731395453#m",
-          "text_original": "traditional observability access patterns: - leading edge queries, eg what’s happening in the last few minutes or hours - catching breakages and paging someone fast - digging into where time is spent, errors agent observability access patterns: - to some degree, all of the above, but also: - mining traces across longer time horizons to find failure modes, edge cases, high-quality examples - turning those findings into better evals / training data, get your agent to keep improving Harrison Chase (@hwchase17) when people think of \"agent observability\" they may think of \"datadog for agents\" it's really more like \"databricks for agents\" we've done some stuff in this direction but expect to see more soon — http://nitter.meowing.monster/hwchase17/status/2116279214731395453#m",
-          "link": "http://nitter.meowing.monster/ankush_gola11/status/2116282006166483355#m",
-          "decryptage": "L'« observabilité » en IA, c'est comme avoir des capteurs et des caméras pour comprendre comment un agent IA fonctionne en interne, repérer les erreurs, et découvrir comment l'améliorer en analysant ses comportements sur le long terme, bien au-delà de la simple surveillance technique.",
-          "category": "idees"
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Alors... que voudriez-vous voir dans nos futurs modèles Gemma ?",
+          "text_original": "So...what would you like to see in our future Gemma models?",
+          "decryptage": "\"Gemma\" est un autre ensemble de modèles d'IA, plus légers et ouverts, développés par Google pour permettre une utilisation plus large et l'expérimentation."
         },
         {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "Oh cool, vous êtes à l'étape « j'achète un Mac Studio pour faire tourner des modèles locaux » de votre parcours IA ? Moi, je suis à l'étape « j'achète un Starlink, un générateur et 2 semaines de nourriture et d'eau » du mien.",
-          "text_original": "oh cool you’re in the “i’m buying a mac studio to run local models” stage of your ai journey? i’m in the “i’m buying a starlink, a generator, and 2 weeks of food and water” of mine.",
-          "link": "http://nitter.meowing.monster/mckaywrigley/status/2113039842825363807#m",
-          "decryptage": null,
-          "category": "idees"
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Si vous hébergez vos applications sur Replit et activez \"autofix\", elles deviennent des logiciels auto-entretenus. Klaas (@forgebitz) je n'ai pas le temps de maintenir tous mes outils codés à l'instinct, nous avons besoin d'un modèle économique où quelqu'un d'autre maintient le code et je paie juste une redevance mensuelle.",
+          "text_original": "If you host your apps on Replit and enable “autofix” it becomes Self-Maintaining Software. Klaas (@forgebitz) i have no time to maintain all my vibe coded tools we need a business model where someone else maintains the code and i just pay a monthly fee — http://nitter.meowing.monster/forgebitz/status/2116104150450688308#m",
+          "decryptage": "\"Replit\" est une plateforme de développement logiciel en ligne qui permet de coder, exécuter et héberger des applications directement depuis un navigateur web."
         },
         {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "Opus 5.5 = la personnalité d'Opus 4.6 que nous voulions *désespérément* retrouver + l'intelligence et le goût de Fable 5.1. Et une augmentation de 25% de l'utilisation ! Honnêtement, je ne vois pas vraiment de raison d'utiliser un autre modèle en ce moment ? Une sortie de catégorie S.",
-          "text_original": "opus 5.5 = personality of opus 4.6 that we all *desperately* wanted back + the intelligence & taste of fable 5.1. and a 25% usage bump! i honestly don’t really see a reason to use another model right now? s-tier release.",
-          "link": "http://nitter.meowing.monster/mckaywrigley/status/2102447442147086563#m",
-          "decryptage": "« Opus » et « Fable » sont des noms de modèles d'IA (similaires à des versions de ChatGPT). L'auteur décrit leur « personnalité » et leur « intelligence » améliorées, ce qui est une façon imagée de parler de leur performance, de leur style de réponse et de leur comportement général, indiquant une amélioration significative.",
-          "category": "idees"
-        },
-        {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "Très heureux que Claude soit à nouveau agréable à qui parler :) Très enthousiaste aussi que de belles esthétiques commencent à apparaître dans des modèles qui ne sont pas de la classe Fable/Astra. L'esthétique de base universelle – le monde de l'AGI n'a pas besoin d'être bâclé !",
-          "text_original": "very happy that claude is fun to talk to again :) also very excited that genuinely good aesthetics are now starting to make their way into models that aren’t the fable/astra class. universal basic aesthetics - the agi world doesn’t have to be slop!",
-          "link": "http://nitter.meowing.monster/mckaywrigley/status/2102450480916115488#m",
-          "decryptage": "« AGI » signifie « Artificial General Intelligence » (Intelligence Artificielle Générale), l'idée d'une IA capable de comprendre, d'apprendre et d'appliquer l'intelligence à n'importe quelle tâche intellectuelle humaine, comme le ferait un être humain.",
-          "category": "idees"
-        },
-        {
-          "author_name": "Mckay Wrigley",
-          "handle": "@mckaywrigley",
-          "text_fr": "Pardonnez-moi si je me fiche que l'IA guérissant le cancer puisse perturber votre « processus de compréhension » et « soulever des questions d'attribution ». Construire une IA qui résout tous nos plus grands problèmes serait une réalisation miraculeuse de l'humanité. Sincèrement, l'une des choses les plus stupides que j'aie jamais lues. Andrew Curran (@AndrewCurran_) Vingt-cinq lauréats de la médaille Fields ont publié une déclaration conjointe alertant sur ce qu'ils considèrent comme un grave désalignement entre les entreprises d'IA et la communauté mathématique. — http://nitter.meowing.monster/AndrewCurran_/status/2098493108224950438#m",
-          "text_original": "forgive me if i don't care that ai curing cancer might disrupt your \"process of understanding\" and \"raise attribution questions.\" building ai that solves all our greatest problems would be a miraculous achievement of humanity. genuinely one of the dumbest things i've ever read. Andrew Curran (@AndrewCurran_) Twenty-five Fields Medal winners have published a joint declaration warning about what they see as a severe misalignment between AI companies and the mathematics community. — http://nitter.meowing.monster/AndrewCurran_/status/2098493108224950438#m",
-          "link": "http://nitter.meowing.monster/mckaywrigley/status/2098498691200164210#m",
-          "decryptage": "L'auteur réagit à une « déclaration conjointe » de mathématiciens exprimant des inquiétudes sur l'IA, et il exprime son désaccord, estimant que la résolution de problèmes majeurs comme le cancer par l'IA est une avancée humaine majeure, et non un problème d'ordre philosophique qui devrait freiner le progrès.",
-          "category": "idees"
-        },
-        {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "Il est intéressant de voir (et douloureux à lire) l'évolution rapide des « slopreplybots » dans mes commentaires. Maintenant, la dernière tendance est de faire des blagues extrêmement nulles, ce qui semble leur obtenir plus de likes, peut-être parfois même de la part d'humains. Je suppose que c'est mieux que la phase de « poser une question suggestive », cependant. Pourtant, la pression évolutive suggère que le pire est à venir.",
-          "text_original": "It is interesting to watch (and painful to read) the rapid evolution of slopreplybots in my comments. Now the latest trend is making extremely lame jokes, which seems to get them more likes, maybe sometimes even from humans. I suppose it is better than the “ask a leading question” phase, though. Still, evolutionary pressure suggests worse to come.",
-          "link": "http://nitter.meowing.monster/emollick/status/2116907715683319897#m",
-          "decryptage": "Un « slopreplybot » est un programme automatique (bot) qui génère des réponses de faible qualité, souvent inutiles ou « bâclées », sur les réseaux sociaux. L'auteur observe leur évolution vers des blagues « nulles » pour obtenir des likes, soulignant la course à l'armement entre les humains et les bots.",
-          "category": "idees"
-        },
-        {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "Un ensemble de projets financés pour débloquer certains retards de longue date dans les traductions utilisant l'IA serait intéressant ; surtout lorsque les modèles d'IA peuvent faire une première ébauche raisonnable d'interprétation et de signification, pas seulement de traduction. Il existe d'importants dépôts d'œuvres antiques non traduites à de nombreux endroits, comme les papyrus d'Oxyrhynque oxyrhynchus.web.ox.ac.uk/hom… Lien Accueil oxyrhynchus.web.ox.ac.uk",
-          "text_original": "A bunch of funded projects to unblock some long-standing backlogs in translations using AI would be interesting; especially when AI models can do a reasonable first pass at interpretation & significance, not just translation. There are major repositories of untranslated ancient work in many places, like the Oxyrhynchus Papyri oxyrhynchus.web.ox.ac.uk/hom… Link Home oxyrhynchus.web.ox.ac.uk",
-          "link": "http://nitter.meowing.monster/emollick/status/2116905564680687831#m",
-          "decryptage": "Les « papyrus d'Oxyrhynque » sont une énorme collection de manuscrits antiques découverts en Égypte, et l'auteur propose d'utiliser l'IA pour les traduire et en comprendre l'importance plus rapidement, ouvrant ainsi l'accès à des connaissances historiques.",
-          "category": "idees"
-        },
-        {
-          "author_name": "Rowan Cheung",
-          "handle": "@rowancheung",
-          "text_fr": "La seule protection qui reste est la capacité de bouger plus vite que le rythme du changement.",
-          "text_original": "The only moat left is the ability to move faster than the pace of change",
-          "link": "http://nitter.meowing.monster/rowancheung/status/2110756703042244781#m",
-          "decryptage": null,
-          "category": "idees"
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Oh, allez, quoi maintenant ??",
+          "text_original": "Oh come on what now??",
+          "decryptage": null
         }
       ],
       "outils": [
         {
-          "author_name": "Harrison Chase",
-          "handle": "@hwchase17",
-          "text_fr": "Envie d'apprendre à utiliser les modèles de décision avec langgraph/deepagents ? Nous organisons une rencontre avec Typesafe (créateurs de Jev) la semaine prochaine, venez nous rejoindre ! luma.com/iuc3ostf",
-          "text_original": "want to learn how to use decision models with langgraph/deepagents? we're doing a meetup with Typesafe (Jev creators) next week come join! luma.com/iuc3ostf",
-          "link": "http://nitter.meowing.monster/hwchase17/status/2116556551993413744#m",
-          "decryptage": "« Langgraph » et « deepagents » sont des outils de programmation qui aident à construire des agents IA plus complexes et intelligents, capables de prendre des décisions et d'interagir comme le ferait un humain, en utilisant des « modèles de décision » pour guider leur comportement.",
-          "category": "outils"
+          "author_name": "Aravind Srinivas",
+          "handle": "@AravSrinivas",
+          "text_fr": "L'ordinateur a créé un explainer de 5:51 sur la fabrication des diamants de laboratoire. Il explore la science et l'économie des diamants créés en laboratoire, des presses à haute pression et réacteurs à plasma à la correction des couleurs, l'effondrement des prix, et les tests qui les distinguent des pierres extraites. Vidéo",
+          "text_original": "Computer made a 5:51 explainer on how lab diamonds are made. It explores the science and economics of lab-grown diamonds, from high-pressure presses and plasma reactors to color correction, collapsing prices, and the tests that distinguish them from mined stones. Video",
+          "decryptage": "Le terme \"explainer\" fait référence à une vidéo ou une présentation qui explique un sujet de manière claire et concise."
         },
         {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "La série Pro des modèles GPT continue d'être vraiment impressionnante pour les problèmes à une seule étape qui impliquent des calculs complexes, des références ou des idées sophistiquées. Ce n'est pas particulièrement rapide (ni particulièrement agréable) mais GPT-6 Pro donne cette sensation de « poser une question à la grande oracle ».",
-          "text_original": "The Pro series of GPT models continues to be really impressive for one-shot problems that involve complex calculations, references, or sophisticated ideas. It isn't particularly fast (or particularly pleasant) but GPT-6 Pro gives that \"ask one question of the great oracle\" feel.",
-          "link": "http://nitter.meowing.monster/emollick/status/2116681050747248955#m",
-          "decryptage": "« GPT-6 Pro » est une version avancée d'un modèle d'IA développé par OpenAI (comme ChatGPT) qui est particulièrement douée pour résoudre des problèmes complexes nécessitant des calculs ou des idées sophistiquées, même si elle n'est pas la plus rapide. Elle excelle dans les tâches où une seule requête suffit pour obtenir une réponse profonde et détaillée.",
-          "category": "outils"
+          "author_name": "Aravind Srinivas",
+          "handle": "@AravSrinivas",
+          "text_fr": "Ordinateur, construis-moi un musée interactif. Computer (@AskPerplexity) Computer a construit Pathways, un couloir carrelé du sol au plafond avec 821 images couvrant 40 sujets provenant de collections ouvertes incluant la NASA et le Met. Cliquez sur n'importe quelle tuile en mouvement pour lire ce que c'est, qui l'a fait et quand, avec un lien vers sa source originale. Essayez-le : pathways.pplx.app/ Vidéo",
+          "text_original": "Computer, build me an interactive museum Computer (@AskPerplexity) Computer built Pathways, a corridor tiled floor to ceiling with 821 images across 40 subjects from open collections including NASA and the Met. Click any moving tile to read what it is, who made it and when, with a link to its source record. Try it: pathways.pplx.app/ Video — http://nitter.meowing.monster/AskPerplexity/status/2116553363840241824#m",
+          "decryptage": "\"Computer\" est le nom d'un assistant IA développé par Perplexity, capable de comprendre des requêtes complexes et de réaliser des tâches créatives ou informatives."
+        },
+        {
+          "author_name": "Aravind Srinivas",
+          "handle": "@AravSrinivas",
+          "text_fr": "Les soins de santé personnalisés seront profondément transformés par ce dont les agents sont capables aujourd'hui. Computer (@AskPerplexity) Computer a transformé un rapport d'IRM de l'épaule en un explicateur 3D interactif que le patient peut consulter. À partir d'un rapport de radiologie anonymisé, il a placé les neuf conclusions sur un modèle squelettique, avec six projections de rayons X et une explication en langage clair de chacune. Vidéo.",
+          "text_original": "Personalized healthcare will be disrupted big time with what agents are capable of today Computer (@AskPerplexity) Computer turned a shoulder MRI report into an interactive 3D explainer a patient can read. From one anonymized radiology report, it placed all nine findings on a skeletal model, with six X-ray projections and a plain-language explanation of each. Video — http://nitter.meowing.monster/AskPerplexity/status/2116243829456273835#m",
+          "decryptage": "Un \"agent\" est un programme informatique doté d'une certaine autonomie pour comprendre et exécuter des tâches complexes, agissant comme un assistant intelligent capable d'interagir avec divers systèmes."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Gemma 4 a été envoyé dans l'espace sur un prototype de satellite, a fonctionné sur des TPU en utilisant l'énergie solaire stockée, et sa réponse a été renvoyée sur Terre. Les modèles embarqués sont incroyables. blog.google/innovation-and-a… Nous avons reçu notre première réponse du prototype de satellite Project Suncatcher. Cette semaine, nous avons atteint notre jalon \"Hello World\" : la toute première réponse d'IA provenant d'un TPU de classe centre de données en orbite. blog.google",
+          "text_original": "Gemma 4 was sent to space on a prototype satellite, ran on TPUs using stored solar energy, and its response was sent back to Earth On-device models are wild blog.google/innovation-and-a… Link We’ve received our first response from the Project Suncatcher prototype satellite. This week, we reached our \"Hello World\" milestone: the first-ever AI response from a data center class TPU in orbit. blog.google",
+          "decryptage": "Les \"modèles embarqués\" (on-device models) sont des modèles d'IA suffisamment petits et efficaces pour fonctionner directement sur des appareils comme des téléphones, des satellites ou d'autres équipements sans avoir besoin d'une connexion constante à un grand centre de données."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "Alors que la plupart des citrouilles d'Halloween restent immobiles sur les porches, l'équipe @GoogleDeepMind a décidé de laisser des agents IA en concevoir, simuler et animer une. 🎃🤖 Nous avons construit un robot physique dansant avec 12 degrés de liberté directement à partir d'une simple instruction en langage naturel, sans nécessiter de CAO manuelle ! Vidéo",
+          "text_original": "While most jack-o-lanterns just sit on porches, the @GoogleDeepMind team decided to let AI agents design, simulate, and bring one to life. 🎃🤖 We built a physical, dancing 12 degrees of freedom robot directly from a single plain-English prompt, with no manual CAD required! Video",
+          "decryptage": "La \"CAO\" (Conception Assistée par Ordinateur) est un logiciel utilisé par les ingénieurs pour créer des modèles 2D ou 3D précis d'objets."
+        },
+        {
+          "author_name": "Google DeepMind",
+          "handle": "@GoogleDeepMind",
+          "text_fr": "Voici Genie 4, notre modèle de monde le plus réaliste et interactif à ce jour. 🌐 Explorez des environnements dynamiques en temps réel pour voir comment la scène réagit, quels sons elle produit, et comment les personnes qui s'y trouvent bougent, réagissent et parlent. Vidéo",
+          "text_original": "This is Genie 4, our most realistic and interactive world model yet. 🌐 Explore dynamic environments in real time to see how the scene responds, sounds, and how the people in it move, react, and speak. Video",
+          "decryptage": "Un \"modèle de monde\" est un type d'IA qui peut simuler et comprendre le fonctionnement d'environnements complexes, permettant d'interagir avec eux de manière réaliste et de prédire leurs réactions."
+        },
+        {
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "J'ai maintenant @Replit qui utilise \"Computer Use\" pour contrôler Chrome. La vidéo est accélérée, je travaille sur la vitesse ensuite #Replit #ComputerUse #Hack #BuildInPublic #UK Vidéo",
+          "text_original": "I now have @Replit using Computer Use to control Chrome. Video is sped up, I'm working on speed next #Replit #ComputerUse #Hack #BuildInPublic #UK Video",
+          "decryptage": "\"Computer Use\" fait référence à la capacité d'une IA ou d'un agent à interagir et à contrôler directement l'interface d'un ordinateur, comme un navigateur web, pour effectuer des tâches."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Présentation de 🧬 FineDNA : le meilleur jeu de données pour enseigner l'ADN à n'importe quel modèle de langage. L'entraînement de Qwen3-14B dessus donne le modèle ouvert le plus puissant. Plus de 300 milliards de jetons de séquences génomiques, d'articles et de pages web mélangeant ADN et texte, plus 200k échantillons SFT et 98k échantillons RL. huggingface.co/datasets/Hugg…",
+          "text_original": "Introducing 🧬 FineDNA: the best dataset to teach any language model DNA. Training Qwen3-14B on it gives the strongest open model. 300B+ tokens of genomic sequences, papers and web pages mixing DNA and text, plus 200k SFT and 98k RL samples. huggingface.co/datasets/Hugg…",
+          "decryptage": "Un \"jeu de données\" est une collection structurée d'informations (ici des séquences d'ADN et du texte) utilisée pour entraîner un modèle d'IA, tandis que \"SFT\" (Supervised Fine-Tuning) et \"RL\" (Reinforcement Learning) sont des méthodes pour affiner et améliorer les performances de ces modèles."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Opus 5.5 a construit un entrepôt virtuel en direct à partir des modèles gratuits SimReady de NVIDIA. Vidéo An Xuan (@anxuanng) NVIDIA a mis 2 595 modèles 3D gratuits sur Hugging Face. Je les ai optimisés pour le navigateur. Hors de Blender, ils totalisent 225 Go. Après le pipeline, l'ensemble complet est de 3,8 Go. Le moteur V8 est passé d'un fichier de 888 Mo qui met 9 secondes à s'afficher à 9,3 Mo et 0,6 seconde, et il a le même aspect. L'ensemble optimisé est gratuit sur Hugging Face huggingface.co/datasets/code… Modèles par NVIDIA SimReady, CC BY 4.0 Vidéo",
+          "text_original": "Opus 5.5 built a live warehouse from NVIDIA's free SimReady models Video An Xuan (@anxuanng) NVIDIA put 2,595 free 3D models on Hugging Face. I optimized them for the browser Out of Blender they add up to 225 GB. After the pipeline the whole set is 3.8 GB The V8 engine went from an 888 MB file that takes 9 seconds to show up to 9.3 MB and 0.6 seconds, and it looks the same The optimized set is free on Hugging Face huggingface.co/datasets/code… Models by NVIDIA SimReady, CC BY 4.0 Video",
+          "decryptage": "\"SimReady models\" sont des modèles 3D conçus pour être facilement utilisables dans des simulations et des environnements virtuels, souvent optimisés pour des applications spécifiques."
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Vous pouvez désormais utiliser oMLX dans LM Studio ! Téléchargez le nouveau moteur et utilisez-le avec les modèles MLX que vous avez déjà. Heureux de travailler avec @jundotkim et @huggingface pour que cela devienne réalité ! 👾🐧🚀",
+          "text_original": "You can now use oMLX in LM Studio! Download the new engine and use it with MLX models you already have. Excited to work with with @jundotkim and @huggingface to make this happen! 👾🐧🚀",
+          "decryptage": "\"LM Studio\" est un logiciel qui permet d'exécuter facilement des modèles de langage locaux sur votre propre ordinateur, tandis que \"MLX\" est un framework d'apprentissage automatique développé par Apple pour le calcul haute performance."
         }
       ]
     }
   },
-  "processed_at": "2026-11-01T16:20:10",
+  "processed_at": "2026-11-01T17:08:57",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 84,
-    "total": 25,
+    "with_decryptage_pct": 82,
+    "total": 34,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-11-01T16:20:11"
+  "email_sent_at": "2026-11-01T17:08:59"
 }
