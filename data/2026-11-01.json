@@ -1,0 +1,374 @@
+{
+  "date": "2026-11-01",
+  "fetched_at": "2026-11-01T13:11:56",
+  "tweets": [
+    {
+      "handle": "sundarpichai",
+      "text": "CHAMPIONS!! Unbelievable energy in Ballhalla tonight. History made 🏆 Let's go Valks!💜⚔️ Video",
+      "link": "http://nitter.meowing.monster/sundarpichai/status/2116722517239087535#m",
+      "published": "Sun, 01 Nov 2026 02:42:29 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "こんにちは、日本！Hello Japan! Waymo (@Waymo) Today, we’re announcing the next phase of our autonomous driving collaboration with @ToyotaMotorCorp to scale a fleet of bZ4X autonomous vehicles in Japan, beginning with testing and validation in 2027. Read more about our partnership here: waymo.com/blog/2026/10/toyot… __ 本日、 @ToyotaMotorCorp との自動運転分野における協業を新たな段階へと進めることを発表します。2027年に開始する試験および検証を皮切りに、日本国内で「bZ4X」の自動運転フリートの拡大を進めてまいります。 パートナーシップの詳細はこちらをご覧ください： waymo.com/blog/2026/10/toyot… — http://nitter.meowing.monster/Waymo/status/2116066556103069957#m",
+      "link": "http://nitter.meowing.monster/sundarpichai/status/2116233367020859888#m",
+      "published": "Fri, 30 Oct 2026 18:18:47 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "A ‘hello world’ milestone for Project Suncatcher 🚀 After launching our prototype satellite a few weeks ago, we’ve now successfully sent a command up to orbit, booted up the TPU, ran the prompt, and received our first complete response back on earth - a haiku! Video",
+      "link": "http://nitter.meowing.monster/sundarpichai/status/2116214866444943853#m",
+      "published": "Fri, 30 Oct 2026 17:05:16 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "Q3 is in the books! We’re now on a half-trillion annual revenue run rate, with Alphabet revenues growing at 25%. - Our AI investments are driving overall Search query growth, including commercial queries - our YoY query growth rate is the highest it’s been in the last five years. - Google Cloud revenue grew 103%, powered by extraordinary demand for our AI infrastructure and AI solutions. Our 1P model APIs now process nearly 32B tokens/min (up 40% QoQ). - Strong momentum in model progress with Argon and Carbon leading the frontier, and Genie 4 our most advanced new world model yet. Thanks to our partners and employees around the world. More to share on the call soon!",
+      "link": "http://nitter.meowing.monster/sundarpichai/status/2115535455156642066#m",
+      "published": "Wed, 28 Oct 2026 20:05:31 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "Read my full remarks here: blog.google/company-news/ins… Link Q3 2026 earnings call: Remarks from our CEO Read Sundar Pichai’s remarks during Alphabet’s Q3 2026 earnings call. blog.google",
+      "link": "http://nitter.meowing.monster/sundarpichai/status/2115557846066819074#m",
+      "published": "Wed, 28 Oct 2026 21:34:30 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Yann LeCun and Randall Balestriero just Proved the Platonic Representation Hypothesis, and found a better way to achieve it. The Platonic Representation Hypothesis suggests that AI models trained on different modalities, like images and text, eventually learn similar representations of the world. But this paper shows that how models are trained matters more than simply scaling them up. So they mathematically show that, under certain conditions, two JEPAs trained completely separately can learn essentially the same underlying representation of the world. One learns from different images of the same scene, while the other learns from different descriptions of that scene, without ever being trained on image-text pairs. Their approach achieves the same image-text alignment with 42x fewer training samples than next-token prediction. A 109M-parameter text JEPA even outperforms LLMs up to 72B parameters on cross-modal alignment benchmarks. alphaxiv.org/abs/2610.39302",
+      "link": "http://nitter.meowing.monster/askalphaxiv/status/2116779287390896418#m",
+      "published": "Sun, 01 Nov 2026 06:28:04 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "The Platonic Representation Hypothesis is now a Theorem ◼️ Train JEPAs separately, on any modalities: they provably learn the same representation up to one rotation. The result? A 109M JEPA-Text model that aligns with vision models better than 72B LLMs. w/ @ylecun 🧵 Video",
+      "link": "http://nitter.meowing.monster/randall_balestr/status/2116173210148601966#m",
+      "published": "Fri, 30 Oct 2026 14:19:44 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Energy-Based Models can now scale better than Diffusion models. Introducing TEM: Transformer Energy-based Models TLDR: • TEM outscales Diffusion without guidance • First scalable contrastive Energy-Based Models • Better generalization, test-time scaling, and OOD detection than Diffusion 🧵 Video",
+      "link": "http://nitter.meowing.monster/AlexiGlad/status/2115888540466749536#m",
+      "published": "Thu, 29 Oct 2026 19:28:34 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Can a JEPA world model provably avoid contraction and merging of latent states over long rollouts? Unconstrained autoregressive predictors may contract the latent distribution. Our Symplectic Hamiltonian JEPA (LeHami) replaces the predictor with an action-conditioned Hamiltonian flow over a latent state (q, p), integrated with an exactly symplectic leapfrog step. Volume is preserved at every rollout step, independently of the learned parameters or action sequence. With @randall_balestriero @ylecun Paper: arxiv.org/abs/2610.15267 Website: rominay.github.io/lehami-web… Code: github.com/rominay/LeHami 1/6... 🧵👇 Video",
+      "link": "http://nitter.meowing.monster/RominaYalov/status/2110363242673442957#m",
+      "published": "Wed, 14 Oct 2026 13:33:00 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Introducing Samaya Sterling, our new model post-trained for challenging financial research that outperforms the frontier! Sterling started off as a two person research effort to see if we could increase efficiency in agentic orchestration. To our surprise we were able to post-train a much smaller model (Nemotron 3.5 Lightning, a 30B mixture-of-experts model with 3B active parameters) to greater accuracy (58.9% vs 55.9% on FrontierFinance) and 11x lower cost ($0.61 vs $6.89) than Claude Fable 5.1, the best performing frontier model. We did this via a four-stage training process, two stages of SFT where the model first learns to research with our financial tools and how to construct a good agentic research strategy. The second two stages are RL, with an offline GRPO stage where the model further hones its research strategy from eight teachers that provide diverse approaches, and an online GRPO stage where the model can make end to end attempts and learn from its mistakes. We see substantial gains from the co-adaptation of the model and harness through post-training, both through the model learning to effectively use the high-quality financial tools, and better compaction approaches that let even a small model execute on longer and deeper research. We are exploring multiple follow-up directions, from multi-agent research swarms using this small model, to training firm-specific models to encode unique judgement, to training a larger model, where early results show even greater gains from the training process. The full research is linked below!",
+      "link": "http://nitter.meowing.monster/maithra_raghu/status/2115488643477590241#m",
+      "published": "Wed, 28 Oct 2026 16:59:31 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "WHOOP: $199/year to tell you that you didn't move Reachy Mini Hoverboard: $149, once, and your robot is free to roam and it's all open-source: plug in your favorite Opus / Qwen / Gemini Video",
+      "link": "https://nitter.kareem.one/Thom_Wolf/status/2116100229359349984#m",
+      "published": "Fri, 30 Oct 2026 09:29:44 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "give this robot an oscar Video",
+      "link": "https://nitter.kareem.one/Thom_Wolf/status/2115915072384192579#m",
+      "published": "Thu, 29 Oct 2026 21:13:59 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "@scale_ai is teaming with @huggingface to make robots better at long, multi-step tasks, and we’re open-sourcing all of it! Today @scale_AI is launching FineART-VLA, a model that helps robots complete longer tasks, building on our first open-source robotics dataset. Built with @huggingface 's LeRobot team, this is Scale’s first open-source robotics release. Thanks to @Thom_Wolf + team for the partnership. The momentum on open-source robotics is picking up steam, and high-quality data will determine how far it goes. Go build! labs.scale.com/blog/fineart Link FineART: Scale AI’s First Open-Source Robotics Dataset and Model We’re releasing FineART-VLA, an open model co-developed with Hugging Face's LeRobot team. It builds upon FineART, Scale’s first open-source robotics dat... labs.scale.com",
+      "link": "https://nitter.kareem.one/fdesouza/status/2115842021768466870#m",
+      "published": "Thu, 29 Oct 2026 16:23:43 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "A little peek inside the factory. Final adjustments to the Microduck injection molds are underway before our pre-production run. (Sorry for putting NSFW content on your feed 🫣)",
+      "link": "https://nitter.kareem.one/matth_lapeyre/status/2115755489912836302#m",
+      "published": "Thu, 29 Oct 2026 10:39:52 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "Thom_Wolf",
+      "text": "Meet NVIDIA Nemotron 3.5 Transcribe 🎙️ An open-weight, promptable 30B MoE model with ~4B active parameters that brings transcription in 40 languages, speaker attribution, translation, contextual prompting and audio understanding into one checkpoint. Watch it keep track of who said what when everyone’s talking at once. 1/ 🧵 Video",
+      "link": "https://nitter.kareem.one/NVIDIAAI/status/2115462300241141882#m",
+      "published": "Wed, 28 Oct 2026 15:14:50 GMT",
+      "author_name": "Thomas Wolf",
+      "category_hint": "fr",
+      "source_lang": "en"
+    }
+  ],
+  "failed_accounts": [
+    "karpathy",
+    "sama",
+    "DarioAmodei",
+    "gdb",
+    "elonmusk",
+    "AravSrinivas",
+    "miramurati",
+    "demishassabis",
+    "JeffDean",
+    "fchollet",
+    "AndrewYNg",
+    "rasbt",
+    "bcherny",
+    "karinanguyen_",
+    "polynoamial",
+    "markchen90",
+    "aidan_mclau",
+    "officiallogank",
+    "osanseviero",
+    "AnthropicAI",
+    "OpenAI",
+    "GoogleDeepMind",
+    "xai",
+    "simonw",
+    "swyx",
+    "hwchase17",
+    "jeremyphoward",
+    "levelsio",
+    "mckaywrigley",
+    "amasad",
+    "nickadobos",
+    "emollick",
+    "ArthurMensch",
+    "GuillaumeLample",
+    "julien_c",
+    "ClemDelangue",
+    "rowancheung",
+    "AlphaSignalAI"
+  ],
+  "processed": {
+    "summary": "Cette journée a été riche en annonces, montrant l'ampleur de l'impact de l'IA, de la recherche fondamentale aux applications concrètes. On retient que l'intelligence artificielle est un moteur de croissance économique majeur, même au niveau des géants de la tech. La recherche avance à grands pas avec de nouvelles théories sur la manière dont les modèles d'IA 'comprennent' le monde, et des outils open-source facilitent l'accès à la robotique et aux modèles avancés. Pour les débutants, il est essentiel de comprendre que l'IA se développe sur de multiples fronts, allant de la théorie profonde à la mise en pratique dans des domaines comme la conduite autonome ou la finance.",
+    "glossaire": [
+      {
+        "terme": "Modèle de Langage (LLM)",
+        "definition": "Un LLM (Large Language Model) est un grand programme d'IA entraîné sur d'énormes quantités de texte pour comprendre, générer et répondre à des questions en langage humain."
+      },
+      {
+        "terme": "Open-source",
+        "definition": "Un projet ou un logiciel est dit 'open-source' quand son code source est accessible à tous, ce qui permet à chacun de l'utiliser, de le modifier et de le partager librement."
+      },
+      {
+        "terme": "TPU",
+        "definition": "Un TPU (Tensor Processing Unit) est une puce informatique spécialisée, conçue par Google pour accélérer spécifiquement les calculs très gourmands des systèmes d'intelligence artificielle."
+      },
+      {
+        "terme": "Token",
+        "definition": "Un 'token' est une petite unité de texte, comme un mot, une partie de mot ou un signe de ponctuation, que les modèles d'IA traitent pour analyser et créer du langage."
+      },
+      {
+        "terme": "Véhicules autonomes",
+        "definition": "Les véhicules autonomes sont des voitures capables de se déplacer sans intervention humaine, grâce à des systèmes d'intelligence artificielle qui interprètent l'environnement et prennent des décisions."
+      },
+      {
+        "terme": "Modèles de diffusion",
+        "definition": "Les modèles de diffusion sont une catégorie d'IA générative particulièrement efficace pour créer des images réalistes ou d'autres types de médias à partir de descriptions ou d'exemples."
+      },
+      {
+        "terme": "Mixture of Experts (MoE)",
+        "definition": "Une architecture MoE (Mixture of Experts) est une méthode pour concevoir des modèles d'IA où différents petits réseaux neuronaux (experts) sont activés pour traiter différentes parties d'une tâche, rendant le modèle plus efficace."
+      }
+    ],
+    "category_summaries": {
+      "actu": "Les actualités du jour mettent en lumière l'impact économique de l'IA, avec Google qui annonce des résultats financiers solides tirés par ses investissements et innovations en IA, y compris de nouveaux modèles comme Argon ou Genie 4. Des partenariats stratégiques pour les véhicules autonomes et des avancées sur l'IA spatiale soulignent l'intégration de l'IA dans des secteurs clés. Enfin, des progrès en IA financière montrent comment l'intelligence artificielle devient plus performante et plus économe pour des tâches complexes.",
+      "tips": "Aujourd'hui, un conseil d'usage ressort, invitant à la personnalisation et à l'expérimentation dans la robotique. L'idée est d'utiliser des robots open-source et d'y 'brancher' différents modèles d'IA connus (comme Opus, Qwen ou Gemini) pour leur donner des capacités variées et adaptées à ses besoins, encourageant ainsi le bidouillage et la création.",
+      "idees": "La catégorie 'Idées' nous plonge dans la recherche fondamentale en IA, avec Yann LeCun qui prouve une hypothèse clé sur la façon dont les modèles d'IA apprennent des représentations du monde. Des réflexions sur de nouvelles architectures de modèles basés sur l'énergie, potentiellement plus performantes que les modèles de diffusion, montrent que les chercheurs continuent de repenser les fondements de l'IA pour en améliorer l'efficacité et les capacités.",
+      "outils": "Côté outils, la journée a été marquée par la présentation de plusieurs modèles et plateformes qui sont rendus disponibles ou dont le code est partagé. Cela inclut un nouveau modèle JEPA avec son code source, un modèle open-source pour la robotique facilitant les tâches complexes, et une IA de transcription multilingue par NVIDIA. Ces lancements visent à encourager la communauté à tester et développer de nouvelles applications."
+    },
+    "highlights": [
+      {
+        "author_name": "Sundar Pichai",
+        "handle": "@sundarpichai",
+        "text_fr": "Le 3ème trimestre est terminé ! Nous sommes désormais sur un rythme de chiffre d'affaires annuel d'un demi-billion de dollars, avec une croissance des revenus d'Alphabet de 25%. – Nos investissements en IA stimulent la croissance globale des requêtes de recherche, y compris les requêtes commerciales – notre taux de croissance annuel des requêtes est le plus élevé des cinq dernières années. – Les revenus de Google Cloud ont augmenté de 103%, tirés par une demande extraordinaire pour notre infrastructure et nos solutions d'IA. Nos API de modèles 1P traitent désormais près de 32 milliards de tokens/minute (en hausse de 40% par rapport au trimestre précédent). – Forte dynamique dans l'avancement des modèles avec Argon et Carbon à la pointe, et Genie 4 notre modèle de monde le plus avancé à ce jour. Merci à nos partenaires et employés du monde entier. Plus de détails à partager lors de la conférence bientôt !",
+        "text_original": "Q3 is in the books! We’re now on a half-trillion annual revenue run rate, with Alphabet revenues growing at 25%. - Our AI investments are driving overall Search query growth, including commercial queries - our YoY query growth rate is the highest it’s been in the last five years. - Google Cloud revenue grew 103%, powered by extraordinary demand for our AI infrastructure and AI solutions. Our 1P model APIs now process nearly 32B tokens/min (up 40% QoQ). - Strong momentum in model progress with Argon and Carbon leading the frontier, and Genie 4 our most advanced new world model yet. Thanks to our partners and employees around the world. More to share on the call soon!",
+        "link": "http://nitter.meowing.monster/sundarpichai/status/2115535455156642066#m",
+        "decryptage": "Un \"token\" est une petite unité de texte (un mot, une partie de mot, un signe de ponctuation) que les modèles d'IA traitent pour comprendre et générer du langage. Un \"modèle de monde\" est un type d'IA qui tente de comprendre et de simuler la façon dont le monde fonctionne.",
+        "category": "actu",
+        "highlight_reason": "Ce tweet montre clairement l'impact colossal de l'IA sur l'économie et la croissance des géants technologiques, un aspect crucial pour un débutant qui s'intéresse à l'IA dans le monde réel."
+      },
+      {
+        "author_name": "Yann LeCun",
+        "handle": "@ylecun",
+        "text_fr": "Yann LeCun et Randall Balestriero viennent de prouver l'Hypothèse de Représentation Platonicienne et ont trouvé une meilleure façon de l'atteindre. L'Hypothèse de Représentation Platonicienne suggère que les modèles d'IA entraînés sur différentes modalités, comme les images et le texte, apprennent finalement des représentations similaires du monde. Mais cet article montre que la manière dont les modèles sont entraînés est plus importante que de simplement les augmenter en taille. Ils démontrent ainsi mathématiquement que, sous certaines conditions, deux JEPAs entraînés complètement séparément peuvent apprendre essentiellement la même représentation sous-jacente du monde. L'un apprend à partir de différentes images de la même scène, tandis que l'autre apprend à partir de différentes descriptions de cette scène, sans jamais être entraîné sur des paires image-texte. Leur approche atteint le même alignement image-texte avec 42 fois moins d'échantillons d'entraînement que la prédiction du prochain token. Un JEPA textuel de 109 millions de paramètres surpasse même les LLMs allant jusqu'à 72 milliards de paramètres sur les benchmarks d'alignement transmodal. alphaxiv.org/abs/2610.39302",
+        "text_original": "Yann LeCun and Randall Balestriero just Proved the Platonic Representation Hypothesis, and found a better way to achieve it. The Platonic Representation Hypothesis suggests that AI models trained on different modalities, like images and text, eventually learn similar representations of the world. But this paper shows that how models are trained matters more than simply scaling them up. So they mathematically show that, under certain conditions, two JEPAs trained completely separately can learn essentially the same underlying representation of the world. One learns from different images of the same scene, while the other learns from different descriptions of that scene, without ever being trained on image-text pairs. Their approach achieves the same image-text alignment with 42x fewer training samples than next-token prediction. A 109M-parameter text JEPA even outperforms LLMs up to 72B parameters on cross-modal alignment benchmarks. alphaxiv.org/abs/2610.39302",
+        "link": "http://nitter.meowing.monster/askalphaxiv/status/2116779287390896418#m",
+        "decryptage": "Une \"hypothèse\" en science est une idée qu'on essaie de prouver, et ici, elle concerne la façon dont différentes IA peuvent percevoir le monde de manière similaire. Les \"JEPAs\" sont des modèles d'IA qui apprennent à prédire des parties manquantes d'une information, comme un morceau d'image ou de texte, et les \"LLMs\" (Large Language Models) sont de grands modèles de langage comme ChatGPT.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet présente une avancée théorique fondamentale d'un des 'parrains' de l'IA, essentielle pour comprendre comment les IA construisent leur compréhension du monde, un concept clé pour tout passionné."
+      },
+      {
+        "author_name": "Thomas Wolf",
+        "handle": "@Thom_Wolf",
+        "text_fr": "@scale_ai s'associe à @huggingface pour améliorer les robots dans l'exécution de tâches longues et complexes, et nous rendons tout cela open-source ! Aujourd'hui, @scale_AI lance FineART-VLA, un modèle qui aide les robots à accomplir des tâches plus longues, en s'appuyant sur notre premier ensemble de données open-source pour la robotique. Développé avec l'équipe LeRobot de @huggingface, il s'agit de la première publication open-source de Scale dans le domaine de la robotique. Merci à @Thom_Wolf + l'équipe pour ce partenariat. L'élan de la robotique open-source s'accélère, et la qualité des données déterminera son avancée. Allez construire ! labs.scale.com/blog/fineart Lien FineART : Le premier ensemble de données et modèle open-source de Scale AI pour la robotique Nous publions FineART-VLA, un modèle ouvert co-développé avec l'équipe LeRobot de Hugging Face. Il s'appuie sur FineART, le premier ensemble de données open-source de Scale en robotique... labs.scale.com",
+        "text_original": "@scale_ai is teaming with @huggingface to make robots better at long, multi-step tasks, and we’re open-sourcing all of it! Today @scale_AI is launching FineART-VLA, a model that helps robots complete longer tasks, building on our first open-source robotics dataset. Built with @huggingface 's LeRobot team, this is Scale’s first open-source robotics release. Thanks to @Thom_Wolf + team for the partnership. The momentum on open-source robotics is picking up steam, and high-quality data will determine how far it goes. Go build! labs.scale.com/blog/fineart Link FineART: Scale AI’s First Open-Source Robotics Dataset and Model We’re releasing FineART-VLA, an open model co-developed with Hugging Face's LeRobot team. It builds upon FineART, Scale’s first open-source robotics dat... labs.scale.com",
+        "link": "https://nitter.kareem.one/fdesouza/status/2115842021768466870#m",
+        "decryptage": "Un \"dataset\" est un ensemble de données utilisé pour entraîner un modèle d'IA, et un \"VLA\" (Vision-Language-Action) est un modèle capable de comprendre des instructions textuelles, d'interpréter des images et de générer des actions pour les robots.",
+        "category": "outils",
+        "highlight_reason": "Ce tweet met en avant l'importance de l'open-source dans la robotique et la collaboration entre des acteurs majeurs, offrant des outils concrets aux développeurs pour faire avancer ce domaine, ce qui est très inspirant pour un débutant."
+      }
+    ],
+    "by_category": {
+      "actu": [
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Bonjour le Japon ! Waymo (@Waymo) annonce aujourd'hui la prochaine phase de sa collaboration en matière de conduite autonome avec @ToyotaMotorCorp pour déployer une flotte de véhicules autonomes bZ4X au Japon, en commençant par les tests et la validation en 2027. Lisez-en davantage sur notre partenariat ici : waymo.com/blog/2026/10/toyot… __ Aujourd'hui, @ToyotaMotorCorp et nous annonçons une nouvelle étape dans notre collaboration en matière de conduite autonome. À partir des essais et de la validation en 2027, nous allons étendre notre flotte de véhicules autonomes « bZ4X » au Japon. Découvrez les détails de ce partenariat ici : waymo.com/blog/2026/10/toyot… — http://nitter.meowing.monster/Waymo/status/2116066556103069957#m",
+          "text_original": "こんにちは、日本！Hello Japan! Waymo (@Waymo) Today, we’re announcing the next phase of our autonomous driving collaboration with @ToyotaMotorCorp to scale a fleet of bZ4X autonomous vehicles in Japan, beginning with testing and validation in 2027. Read more about our partnership here: waymo.com/blog/2026/10/toyot… __ 本日、 @ToyotaMotorCorp との自動運転分野における協業を新たな段階へと進めることを発表します。2027年に開始する試験および検証を皮切りに、日本国内で「bZ4X」の自動運転フリートの拡大を進めてまいります。 パートナーシップの詳細はこちらをご覧ください： waymo.com/blog/2026/10/toyot… — http://nitter.meowing.monster/Waymo/status/2116066556103069957#m",
+          "link": "http://nitter.meowing.monster/sundarpichai/status/2116233367020859888#m",
+          "decryptage": "Les véhicules autonomes sont des voitures qui peuvent rouler toutes seules grâce à l'intelligence artificielle, sans conducteur humain."
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Un jalon \"hello world\" pour le Projet Suncatcher 🚀 Après avoir lancé notre satellite prototype il y a quelques semaines, nous avons maintenant réussi à envoyer une commande en orbite, démarrer le TPU, exécuter l'invite, et recevoir notre première réponse complète sur Terre – un haïku ! Vidéo",
+          "text_original": "A ‘hello world’ milestone for Project Suncatcher 🚀 After launching our prototype satellite a few weeks ago, we’ve now successfully sent a command up to orbit, booted up the TPU, ran the prompt, and received our first complete response back on earth - a haiku! Video",
+          "link": "http://nitter.meowing.monster/sundarpichai/status/2116214866444943853#m",
+          "decryptage": "Un TPU (Tensor Processing Unit) est une puce informatique spécialisée conçue par Google pour accélérer les calculs nécessaires à l'intelligence artificielle, comme l'entraînement des modèles."
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Le 3ème trimestre est terminé ! Nous sommes désormais sur un rythme de chiffre d'affaires annuel d'un demi-billion de dollars, avec une croissance des revenus d'Alphabet de 25%. – Nos investissements en IA stimulent la croissance globale des requêtes de recherche, y compris les requêtes commerciales – notre taux de croissance annuel des requêtes est le plus élevé des cinq dernières années. – Les revenus de Google Cloud ont augmenté de 103%, tirés par une demande extraordinaire pour notre infrastructure et nos solutions d'IA. Nos API de modèles 1P traitent désormais près de 32 milliards de tokens/minute (en hausse de 40% par rapport au trimestre précédent). – Forte dynamique dans l'avancement des modèles avec Argon et Carbon à la pointe, et Genie 4 notre modèle de monde le plus avancé à ce jour. Merci à nos partenaires et employés du monde entier. Plus de détails à partager lors de la conférence bientôt !",
+          "text_original": "Q3 is in the books! We’re now on a half-trillion annual revenue run rate, with Alphabet revenues growing at 25%. - Our AI investments are driving overall Search query growth, including commercial queries - our YoY query growth rate is the highest it’s been in the last five years. - Google Cloud revenue grew 103%, powered by extraordinary demand for our AI infrastructure and AI solutions. Our 1P model APIs now process nearly 32B tokens/min (up 40% QoQ). - Strong momentum in model progress with Argon and Carbon leading the frontier, and Genie 4 our most advanced new world model yet. Thanks to our partners and employees around the world. More to share on the call soon!",
+          "link": "http://nitter.meowing.monster/sundarpichai/status/2115535455156642066#m",
+          "decryptage": "Un \"token\" est une petite unité de texte (un mot, une partie de mot, un signe de ponctuation) que les modèles d'IA traitent pour comprendre et générer du langage. Un \"modèle de monde\" est un type d'IA qui tente de comprendre et de simuler la façon dont le monde fonctionne."
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Lisez l'intégralité de mes remarques ici : blog.google/company-news/ins… Lien de la conférence téléphonique sur les résultats du 3ème trimestre 2026 : Remarques de notre PDG Lisez les remarques de Sundar Pichai lors de la conférence téléphonique sur les résultats du 3ème trimestre 2026 d'Alphabet. blog.google",
+          "text_original": "Read my full remarks here: blog.google/company-news/ins… Link Q3 2026 earnings call: Remarks from our CEO Read Sundar Pichai’s remarks during Alphabet’s Q3 2026 earnings call. blog.google",
+          "link": "http://nitter.meowing.monster/sundarpichai/status/2115557846066819074#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Présentation de Samaya Sterling, notre nouveau modèle post-entraîné pour la recherche financière complexe, qui surpasse les modèles de pointe ! Sterling a débuté comme un effort de recherche à deux personnes pour voir si nous pouvions augmenter l'efficacité de l'orchestration agentique. À notre surprise, nous avons pu post-entraîner un modèle beaucoup plus petit (Nemotron 3.5 Lightning, un modèle \"mixture-of-experts\" de 30 milliards de paramètres avec 3 milliards de paramètres actifs) pour obtenir une précision supérieure (58,9% contre 55,9% sur FrontierFinance) et un coût 11 fois inférieur (0,61 $ contre 6,89 $) par rapport à Claude Fable 5.1, le modèle de pointe le plus performant.",
+          "text_original": "Introducing Samaya Sterling, our new model post-trained for challenging financial research that outperforms the frontier! Sterling started off as a two person research effort to see if we could increase efficiency in agentic orchestration. To our surprise we were able to post-train a much smaller model (Nemotron 3.5 Lightning, a 30B mixture-of-experts model with 3B active parameters) to greater accuracy (58.9% vs 55.9% on FrontierFinance) and 11x lower cost ($0.61 vs $6.89) than Claude Fable 5.1, the best performing frontier model. We did this via a four-stage training process, two stages of SFT where the model first learns to research with our financial tools and how to construct a good agentic research strategy. The second two stages are RL, with an offline GRPO stage where the model further hones its research strategy from eight teachers that provide diverse approaches, and an online GRPO stage where the model can make end to end attempts and learn from its mistakes. We see substantial gains from the co-adaptation of the model and harness through post-training, both through the model learning to effectively use the high-quality financial tools, and better compaction approaches that let even a small model execute on longer and deeper research. We are exploring multiple follow-up directions, from multi-agent research swarms using this small model, to training firm-specific models to encode unique judgement, to training a larger model, where early results show even greater gains from the training process. The full research is linked below!",
+          "link": "http://nitter.meowing.monster/maithra_raghu/status/2115488643477590241#m",
+          "decryptage": "Ce modèle, \"Samaya Sterling\", est une intelligence artificielle spécialisée dans la recherche financière qui, malgré sa petite taille, est plus performante et moins chère que des modèles plus grands. L'entraînement en plusieurs étapes (SFT, RL) est une technique où on apprend à l'IA étape par étape, comme un humain apprendrait, d'abord les bases, puis en s'améliorant par essais-erreurs."
+        }
+      ],
+      "tips": [
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "WHOOP : 199 $/an pour vous dire que vous n'avez pas bougé. Mini Hoverboard Reachy : 149 $, une seule fois, et votre robot est libre de se déplacer, et tout est open-source : branchez votre Opus / Qwen / Gemini préféré. Vidéo",
+          "text_original": "WHOOP: $199/year to tell you that you didn't move Reachy Mini Hoverboard: $149, once, and your robot is free to roam and it's all open-source: plug in your favorite Opus / Qwen / Gemini Video",
+          "link": "https://nitter.kareem.one/Thom_Wolf/status/2116100229359349984#m",
+          "decryptage": "\"Open-source\" signifie que le code source est public et peut être utilisé, modifié et partagé par tous, favorisant la collaboration. Opus, Qwen et Gemini sont différents modèles d'IA, souvent des grands modèles de langage, que l'on peut brancher à ce robot pour lui donner des capacités \"intelligentes\"."
+        }
+      ],
+      "idees": [
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Yann LeCun et Randall Balestriero viennent de prouver l'Hypothèse de Représentation Platonicienne et ont trouvé une meilleure façon de l'atteindre. L'Hypothèse de Représentation Platonicienne suggère que les modèles d'IA entraînés sur différentes modalités, comme les images et le texte, apprennent finalement des représentations similaires du monde. Mais cet article montre que la manière dont les modèles sont entraînés est plus importante que de simplement les augmenter en taille. Ils démontrent ainsi mathématiquement que, sous certaines conditions, deux JEPAs entraînés complètement séparément peuvent apprendre essentiellement la même représentation sous-jacente du monde. L'un apprend à partir de différentes images de la même scène, tandis que l'autre apprend à partir de différentes descriptions de cette scène, sans jamais être entraîné sur des paires image-texte. Leur approche atteint le même alignement image-texte avec 42 fois moins d'échantillons d'entraînement que la prédiction du prochain token. Un JEPA textuel de 109 millions de paramètres surpasse même les LLMs allant jusqu'à 72 milliards de paramètres sur les benchmarks d'alignement transmodal. alphaxiv.org/abs/2610.39302",
+          "text_original": "Yann LeCun and Randall Balestriero just Proved the Platonic Representation Hypothesis, and found a better way to achieve it. The Platonic Representation Hypothesis suggests that AI models trained on different modalities, like images and text, eventually learn similar representations of the world. But this paper shows that how models are trained matters more than simply scaling them up. So they mathematically show that, under certain conditions, two JEPAs trained completely separately can learn essentially the same underlying representation of the world. One learns from different images of the same scene, while the other learns from different descriptions of that scene, without ever being trained on image-text pairs. Their approach achieves the same image-text alignment with 42x fewer training samples than next-token prediction. A 109M-parameter text JEPA even outperforms LLMs up to 72B parameters on cross-modal alignment benchmarks. alphaxiv.org/abs/2610.39302",
+          "link": "http://nitter.meowing.monster/askalphaxiv/status/2116779287390896418#m",
+          "decryptage": "Une \"hypothèse\" en science est une idée qu'on essaie de prouver, et ici, elle concerne la façon dont différentes IA peuvent percevoir le monde de manière similaire. Les \"JEPAs\" sont des modèles d'IA qui apprennent à prédire des parties manquantes d'une information, comme un morceau d'image ou de texte, et les \"LLMs\" (Large Language Models) sont de grands modèles de langage comme ChatGPT."
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "L'Hypothèse de Représentation Platonicienne est désormais un Théorème ◼️ Entraînez les JEPAs séparément, sur n'importe quelles modalités : ils apprennent de manière prouvable la même représentation, à une rotation près. Le résultat ? Un modèle JEPA-Text de 109M qui s'aligne mieux avec les modèles de vision que les LLMs de 72 milliards de paramètres. avec @ylecun 🧵 Vidéo",
+          "text_original": "The Platonic Representation Hypothesis is now a Theorem ◼️ Train JEPAs separately, on any modalities: they provably learn the same representation up to one rotation. The result? A 109M JEPA-Text model that aligns with vision models better than 72B LLMs. w/ @ylecun 🧵 Video",
+          "link": "http://nitter.meowing.monster/randall_balestr/status/2116173210148601966#m",
+          "decryptage": "Un \"Théorème\" est une affirmation scientifique prouvée vraie, et ici, elle renforce l'idée que différentes IA peuvent construire des compréhensions du monde compatibles."
+        },
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Les modèles basés sur l'énergie peuvent désormais mieux s'adapter que les modèles de diffusion. Présentation des TEM : Transformer Energy-based Models En bref : • Les TEM surpassent les modèles de diffusion sans guidance • Premiers modèles basés sur l'énergie contrastive à grande échelle • Meilleure généralisation, mise à l'échelle au moment du test et détection OOD que les modèles de diffusion 🧵 Vidéo",
+          "text_original": "Energy-Based Models can now scale better than Diffusion models. Introducing TEM: Transformer Energy-based Models TLDR: • TEM outscales Diffusion without guidance • First scalable contrastive Energy-Based Models • Better generalization, test-time scaling, and OOD detection than Diffusion",
+          "link": "http://nitter.meowing.monster/AlexiGlad/status/2115888540466749536#m",
+          "decryptage": "Les \"modèles de diffusion\" sont une famille d'IA connue pour générer des images très réalistes, mais ces \"modèles basés sur l'énergie\" pourraient être plus efficaces pour certaines tâches et mieux s'adapter à de grandes quantités de données."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "donnez un oscar à ce robot Vidéo",
+          "text_original": "give this robot an oscar Video",
+          "link": "https://nitter.kareem.one/Thom_Wolf/status/2115915072384192579#m",
+          "decryptage": null
+        }
+      ],
+      "outils": [
+        {
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Un modèle de monde JEPA peut-il prouvablement éviter la contraction et la fusion des états latents sur de longues séquences ? Les prédicteurs autorégressifs non contraints peuvent contracter la distribution latente. Notre JEPA Hamiltonien Symplectique (LeHami) remplace le prédicteur par un flux Hamiltonien conditionné par l'action sur un état latent (q, p), intégré avec une étape de saut de grenouille exactement symplectique. Le volume est préservé à chaque étape de déroulement, indépendamment des paramètres appris ou de la séquence d'actions. Avec @randall_balestriero @ylecun Article : arxiv.org/abs/2610.15267 Site web : rominay.github.io/lehami-web… Code : github.com/rominay/LeHami 1/6... 🧵👇 Vidéo",
+          "text_original": "Can a JEPA world model provably avoid contraction and merging of latent states over long rollouts? Unconstrained autoregressive predictors may contract the latent distribution. Our Symplectic Hamiltonian JEPA (LeHami) replaces the predictor with an action-conditioned Hamiltonian flow over a latent state (q, p), integrated with an exactly symplectic leapfrog step. Volume is preserved at every rollout step, independently of the learned parameters or action sequence. With @randall_balestriero @ylecun Paper: arxiv.org/abs/2610.15267 Website: rominay.github.io/lehami-web… Code: github.com/rominay/LeHami 1/6... 🧵👇 Video",
+          "link": "http://nitter.meowing.monster/RominaYalov/status/2110363242673442957#m",
+          "decryptage": "Ce tweet décrit une nouvelle approche, LeHami, pour améliorer les modèles d'IA comme les JEPAs en utilisant des principes de physique (Hamiltonien Symplectique) pour que l'IA ne perde pas d'information ou ne simplifie pas trop sa compréhension du monde au fil du temps."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "@scale_ai s'associe à @huggingface pour améliorer les robots dans l'exécution de tâches longues et complexes, et nous rendons tout cela open-source ! Aujourd'hui, @scale_AI lance FineART-VLA, un modèle qui aide les robots à accomplir des tâches plus longues, en s'appuyant sur notre premier ensemble de données open-source pour la robotique. Développé avec l'équipe LeRobot de @huggingface, il s'agit de la première publication open-source de Scale dans le domaine de la robotique. Merci à @Thom_Wolf + l'équipe pour ce partenariat. L'élan de la robotique open-source s'accélère, et la qualité des données déterminera son avancée. Allez construire ! labs.scale.com/blog/fineart Lien FineART : Le premier ensemble de données et modèle open-source de Scale AI pour la robotique Nous publions FineART-VLA, un modèle ouvert co-développé avec l'équipe LeRobot de Hugging Face. Il s'appuie sur FineART, le premier ensemble de données open-source de Scale en robotique... labs.scale.com",
+          "text_original": "@scale_ai is teaming with @huggingface to make robots better at long, multi-step tasks, and we’re open-sourcing all of it! Today @scale_AI is launching FineART-VLA, a model that helps robots complete longer tasks, building on our first open-source robotics dataset. Built with @huggingface 's LeRobot team, this is Scale’s first open-source robotics release. Thanks to @Thom_Wolf + team for the partnership. The momentum on open-source robotics is picking up steam, and high-quality data will determine how far it goes. Go build! labs.scale.com/blog/fineart Link FineART: Scale AI’s First Open-Source Robotics Dataset and Model We’re releasing FineART-VLA, an open model co-developed with Hugging Face's LeRobot team. It builds upon FineART, Scale’s first open-source robotics dat... labs.scale.com",
+          "link": "https://nitter.kareem.one/fdesouza/status/2115842021768466870#m",
+          "decryptage": "Un \"dataset\" est un ensemble de données utilisé pour entraîner un modèle d'IA, et un \"VLA\" (Vision-Language-Action) est un modèle capable de comprendre des instructions textuelles, d'interpréter des images et de générer des actions pour les robots."
+        },
+        {
+          "author_name": "Thomas Wolf",
+          "handle": "@Thom_Wolf",
+          "text_fr": "Découvrez NVIDIA Nemotron 3.5 Transcribe 🎙️ Un modèle MoE de 30 milliards de paramètres (avec environ 4 milliards de paramètres actifs), open-weight et promptable, qui offre la transcription en 40 langues, l'attribution des locuteurs, la traduction, l'incitation contextuelle et la compréhension audio en un seul point de contrôle. Regardez-le suivre qui a dit quoi même quand tout le monde parle en même temps. 1/ 🧵 Vidéo",
+          "text_original": "Meet NVIDIA Nemotron 3.5 Transcribe 🎙️ An open-weight, promptable 30B MoE model with ~4B active parameters that brings transcription in 40 languages, speaker attribution, translation, contextual prompting and audio understanding into one checkpoint. Watch it keep track of who said what when everyone’s talking at once. 1/ 🧵 Video",
+          "link": "https://nitter.kareem.one/NVIDIAAI/status/2115462300241141882#m",
+          "decryptage": "Un modèle \"open-weight\" signifie que le modèle d'IA est partagé publiquement et peut être utilisé et ajusté par la communauté. \"MoE\" (Mixture of Experts) est une architecture de modèle qui permet d'utiliser différents petits modèles (experts) pour différentes parties d'une tâche, ce qui le rend plus efficace."
+        }
+      ]
+    }
+  },
+  "processed_at": "2026-11-01T13:13:10",
+  "validation": {
+    "translated_pct": 100,
+    "with_decryptage_pct": 88,
+    "total": 16,
+    "needs_retranslation_count": 0
+  },
+  "email_sent_at": "2026-11-01T13:13:11"
+}
