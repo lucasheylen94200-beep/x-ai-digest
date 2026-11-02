@@ -1,142 +1,7 @@
 {
   "date": "2026-11-02",
-  "fetched_at": "2026-11-02T17:02:13",
+  "fetched_at": "2026-11-02T17:26:14",
   "tweets": [
-    {
-      "handle": "ylecun",
-      "text": "The Trump administration is openly meddling in European democracies to promote far-right political parties that support Putin and to advance the commercial interests of Trump allies. trib.al/TZS4KWn Link The U.S. Is Bullying Europe Like Never Before The Trump administration tries to micromanage the domestic politics of American allies. theatlantic.com",
-      "link": "https://nitter.kareem.one/KenRoth/status/2117074849365373081#m",
-      "published": "Mon, 02 Nov 2026 02:02:32 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "Yann LeCun says: People in AI have made the same mistake for 70 years: if a machine can do a task humans see as intellectually complex, it must be smarter than humans. This is completely false We have computers that are superhuman at many tasks but we're still far from machines with human or even animal-level intelligence Video",
-      "link": "https://nitter.kareem.one/haider1/status/2116973549067878744#m",
-      "published": "Sun, 01 Nov 2026 19:20:00 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "Yann LeCun was right & nobody in this industry wants to say it out loud. 109 million parameters beat 72 billion. He has spent years saying scale is not the thing that makes a model understand the world. Meta bet the other way. He left in November and started his own lab in Paris. Last Thursday he published the proof. The theory everyone has been running on since 2024 is that if you train models big enough, on text, on images, on sound, they all end up with the same picture of reality inside them. Size does it. Nobody ever proved that part. Randall Balestriero and LeCun proved it. And the proof says size was never doing the work. What does the work is which two things you show a model together. A photo and the caption of that photo are two views of one thing. Models trained on pairs like that get there fast. Two paragraphs pulled from the same document are not two views of one thing. Models trained on those get there slowly and expensively. Next word prediction is the second kind. That is what every chatbot in the world runs on. In their tests the first method reached the same understanding after 21.6 million examples. Next word prediction needed 900 million. And a 109 million parameter text model ended up closer to an image model's view of the world than a 72 billion parameter language model was. 660 times smaller.",
-      "link": "https://nitter.kareem.one/heyshrutimishra/status/2116931531000156348#m",
-      "published": "Sun, 01 Nov 2026 16:33:02 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "Tout cela est correct. Merci. Sauf une chose : j'ai bien créé FAIR en 2013, y compris la branche parisienne en 2015, et montréalaise en 2017. Mais j'en ai quitté la direction en 2018 pour devenir Chief AI Scientist: je me suis refocalisé sur la recherche (Self-Supervised Learning, JEPA, World Models, etc). @AntoineBordes et @joellepineau étaient les co-directeurs de 2018 à 2023, jusqu a ce qu'Antoine parte pour Helsing et que Joëlle prenne la direction de FAIR. Je n'ai jamais été impliqué dans les LLMs, ni pour la recherche (à FAIR), ni pour le développement (qui était dans le groupe de produit GenAI). J'applaudissais des gradins. Mes seules contributions aux LLMs ont été de défendre Galactica (en octobre 2022) contre les attaques aux vitriol de la twittersphere, de promouvoir le projet Llama en interne (développé par une douzaine de chercheurs à FAIR-Paris, dont @GuillaumeLample et Timothée Lacroix), d'aider à convaincre Mark Zuckerberg de créer un groupe de produit autour de Llama (GenAI, créé début 2023), et de convaincre la direction de distribuer Llama-2 en open source/open weight. Je n'étais pas du tout impliqué dans la direction de GenAI après sa création, préférant travailler sur la prochaine révolution: l'IA physique. Si vous cherchez un responsable pour le déception qu'a été Llama-4, c'est plutôt la pression de sortir un produit (trop) rapidement, qui a conduit à un excès de conservatisme et un manque d'innovation de la part de l'équipe de GenAI. Mon avis est que l'équipe aurait dû prendre un peu plus de temps et intégrer les dernières techniques venant de la recherche à FAIR. Mais ils n'en ont pas eu le loisir. En particulier, conserver plus de pouvoir de décision quant aux choix techniques dans les mains des créateurs originaux de Llama à Paris, au lieu de déplacer les décisions à Menlo Park, aurait peut-être permis de conserver les meilleurs talents un peu plus longtemps et de produire de meilleurs résultats.",
-      "link": "https://nitter.kareem.one/ylecun/status/2116957849255342094#m",
-      "published": "Sun, 01 Nov 2026 18:17:37 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "ylecun",
-      "text": "Yann LeCun and Randall Balestriero just Proved the Platonic Representation Hypothesis, and found a better way to achieve it. The Platonic Representation Hypothesis suggests that AI models trained on different modalities, like images and text, eventually learn similar representations of the world. But this paper shows that how models are trained matters more than simply scaling them up. So they mathematically show that, under certain conditions, two JEPAs trained completely separately can learn essentially the same underlying representation of the world. One learns from different images of the same scene, while the other learns from different descriptions of that scene, without ever being trained on image-text pairs. Their approach achieves the same image-text alignment with 42x fewer training samples than next-token prediction. A 109M-parameter text JEPA even outperforms LLMs up to 72B parameters on cross-modal alignment benchmarks. alphaxiv.org/abs/2610.39302",
-      "link": "https://nitter.kareem.one/askalphaxiv/status/2116779287390896418#m",
-      "published": "Sun, 01 Nov 2026 06:28:04 GMT",
-      "author_name": "Yann LeCun",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "bcherny",
-      "text": "We're removing the 5-hour limit for verified Ultra accounts. Claude (@claudeai) We’re renaming our Max plans: Max 5x → Max Max 20x → Ultra Max is still $100/month, and Ultra is still $200. If you’re a subscriber, there’s nothing you need to do. We’re also removing the 5-hour limit for verified Ultra accounts, starting today with most existing subscribers. Newer accounts keep a temporary limit until they’re verified, which helps us prevent fraud and abuse. You'll get an email when it's removed. Weekly limits remain unchanged. View our plans here: claude.com/pricing — https://nitter.kareem.one/claudeai/status/2116220869479428500#m",
-      "link": "https://nitter.kareem.one/bcherny/status/2116222842413142111#m",
-      "published": "Fri, 30 Oct 2026 17:36:57 GMT",
-      "author_name": "Boris Cherny",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "bcherny",
-      "text": "I think October represents another inflection point in capabilities for coding agents and the models that drive them: Claude Opus 5.5 can now build video games that are actually fun simonwillison.net/2026/Oct/2… Link The October inflection point for vibe game development I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents … simonwillison.net",
-      "link": "https://nitter.kareem.one/simonw/status/2115444742595260551#m",
-      "published": "Wed, 28 Oct 2026 14:05:04 GMT",
-      "author_name": "Boris Cherny",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "bcherny",
-      "text": "Utah gave Claude Code to 34 developers across 10 state agencies. 80% had a working environment within 30 minutes, 71% reported saving 20+ hours by the end of the four-week pilot. Anthropic (@AnthropicAI) We're expanding our partnership with @USGSA . Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off. anthropic.com/news/expanding… Link Expanding our partnership with GSA to bring Claude to all levels of government Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems. anthropic.com — https://nitter.kareem.one/AnthropicAI/status/2115207004293853358#m",
-      "link": "https://nitter.kareem.one/bcherny/status/2115491259381072269#m",
-      "published": "Wed, 28 Oct 2026 17:09:54 GMT",
-      "author_name": "Boris Cherny",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "bcherny",
-      "text": "We’re adding support for MCP Tasks and Elicitations in Claude. Tasks let Claude give plugins long-running jobs such as deep research and report back when they’re done. Video",
-      "link": "https://nitter.kareem.one/ClaudeDevs/status/2113698001889927608#m",
-      "published": "Fri, 23 Oct 2026 18:24:08 GMT",
-      "author_name": "Boris Cherny",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "bcherny",
-      "text": "Agent Skills started as an experiment in Claude Code. Many across the industry have come to adopt it, so we at Anthropic found it more fitting to donate it to the @AgenticAIFdn , next to MCP. ClaudeDevs (@ClaudeDevs) We're donating Agent Skills to the Agentic AI Foundation ( @AgenticAIFdn ), the same foundation we donated MCP to. Since December 2025, 70+ agent platforms have integrated the standard, including ChatGPT, Cursor, GitHub Copilot, and VS Code. Here's what that means for you: — https://nitter.kareem.one/ClaudeDevs/status/2113328526413996100#m",
-      "link": "https://nitter.kareem.one/bcherny/status/2113333859907747871#m",
-      "published": "Thu, 22 Oct 2026 18:17:10 GMT",
-      "author_name": "Boris Cherny",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "osanseviero",
-      "text": "Gemma 4 was sent to space on a prototype satellite, ran on TPUs using stored solar energy, and its response was sent back to Earth On-device models are wild blog.google/innovation-and-a… Link We’ve received our first response from the Project Suncatcher prototype satellite. This week, we reached our \"Hello World\" milestone: the first-ever AI response from a data center class TPU in orbit. blog.google",
-      "link": "https://nitter.kareem.one/osanseviero/status/2116256648259871061#m",
-      "published": "Fri, 30 Oct 2026 19:51:17 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "osanseviero",
-      "text": "Who will be in the Bay Area for AI Engineer Code Summit?",
-      "link": "https://nitter.kareem.one/osanseviero/status/2115541127860531358#m",
-      "published": "Wed, 28 Oct 2026 20:28:04 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "osanseviero",
-      "text": "Excited to begin rolling out the model soon! blog.google/innovation-and-a… Link Gemini 4 Carbon: our next frontier model Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. blog.google",
-      "link": "https://nitter.kareem.one/osanseviero/status/2115489724462977426#m",
-      "published": "Wed, 28 Oct 2026 17:03:48 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "osanseviero",
-      "text": "Gemini 4 Carbon",
-      "link": "https://nitter.kareem.one/osanseviero/status/2115489720616542357#m",
-      "published": "Wed, 28 Oct 2026 17:03:47 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
-    {
-      "handle": "osanseviero",
-      "text": "So...what would you like to see in our future Gemma models?",
-      "link": "https://nitter.kareem.one/osanseviero/status/2115351234811249111#m",
-      "published": "Wed, 28 Oct 2026 07:53:30 GMT",
-      "author_name": "Omar Sanseviero",
-      "category_hint": "builder",
-      "source_lang": "en"
-    },
     {
       "handle": "nickadobos",
       "text": "All Software is splitting into 2 extremes - AI models + harnesses - memes: vibecoded diss tracks & trickshots lauren (@poteto) Day 28/ tibo's game has landed i spent $5.99 on this domain, but i had a blast making it with grok bot and cursor! i hope you enjoy it and find all the easter eggs 🤍 if i did it right you should be able to play it inside of X too tibo.dog Link tibo.dog Tibo and a pack of dogs against an endless swarm. Tap to play right here. tibo.dog — https://nitter.kareem.one/poteto/status/2117004709198475365#m",
@@ -192,16 +57,19 @@
     "elonmusk",
     "AravSrinivas",
     "miramurati",
+    "ylecun",
     "demishassabis",
     "JeffDean",
     "fchollet",
     "AndrewYNg",
     "rasbt",
+    "bcherny",
     "karinanguyen_",
     "polynoamial",
     "markchen90",
     "aidan_mclau",
     "officiallogank",
+    "osanseviero",
     "AnthropicAI",
     "OpenAI",
     "GoogleDeepMind",
@@ -223,218 +91,133 @@
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, on parle de l'évolution des IA et de leur taille. Yann LeCun remet en question l'idée que plus une IA est grande, plus elle est intelligente, en montrant que la façon dont on lui apprend est primordiale. Les IA de conversation comme Claude voient leurs offres évoluer, notamment pour les entreprises et les développeurs. Enfin, on voit que les IA commencent à sortir des sentiers battus, allant jusqu'à l'espace ou créant des jeux vidéo.",
+    "summary": "Cette journée nous offre un aperçu des différentes facettes de l'IA : de son impact sur la façon dont les logiciels sont conçus, jusqu'aux réflexions profondes sur la personnalisation à outrance et ses implications éthiques. Pour un débutant, il est important de retenir que l'IA ne se limite pas à des outils complexes, mais qu'elle influence aussi notre quotidien de manière subtile, tout en offrant de nouvelles façons de créer et d'interagir. On apprend également des astuces pratiques pour mieux utiliser les modèles d'IA au quotidien.",
     "glossaire": [
       {
-        "terme": "Paramètres",
-        "definition": "Ce sont les 'boutons' que l'IA ajuste pour apprendre et faire des prédictions, un peu comme les neurones dans notre cerveau."
+        "terme": "Modèles d'IA",
+        "definition": "Ce sont les programmes informatiques entraînés sur de grandes quantités de données pour réaliser des tâches spécifiques, comme générer du texte, reconnaître des images ou jouer à des jeux."
       },
       {
-        "terme": "JEPA (Joint-Embedding Predictive Architecture)",
-        "definition": "Une approche d'entraînement d'IA qui vise à prédire ce que l'on verrait si l'on regardait quelque chose sous un autre angle, en associant différentes informations."
+        "terme": "Grok Bot",
+        "definition": "Un modèle d'IA conversationnel créé par xAI, la startup d'Elon Musk, conçu pour répondre aux questions de manière parfois irrévérencieuse et créative."
       },
       {
-        "terme": "LLMs (Large Language Models)",
-        "definition": "Ce sont les grands modèles d'IA spécialisés dans la compréhension et la génération de texte, comme ceux qui font fonctionner les chatbots."
+        "terme": "Cursor",
+        "definition": "Un éditeur de code alimenté par l'IA qui aide les développeurs à écrire, modifier et déboguer du code plus efficacement, en proposant des suggestions ou des corrections."
       },
       {
-        "terme": "Open source / Open weight",
-        "definition": "Des modèles dont le code ou les 'paramètres' (le cerveau appris) sont rendus publics, permettant à d'autres de les utiliser, les modifier ou s'en inspirer."
+        "terme": "Hacker News",
+        "definition": "Un site web populaire auprès des professionnels de la technologie où sont partagés et discutés des articles sur l'informatique, les startups et la science."
       },
       {
-        "terme": "TPU (Tensor Processing Unit)",
-        "definition": "Une puce informatique conçue par Google, optimisée pour les calculs d'intelligence artificielle, plus rapide que les processeurs classiques pour ces tâches."
+        "terme": "RL avec Feedback Neural (RLNF)",
+        "definition": "Une technique avancée d'intelligence artificielle où un modèle apprend à s'améliorer en interprétant les signaux directement issus du cerveau humain, sans besoin de commandes explicites."
       },
       {
-        "terme": "Agents conversationnels (Chatbots)",
-        "definition": "Des programmes informatiques capables de converser avec des humains en langage naturel, souvent basés sur des LLMs."
+        "terme": "Infohazard",
+        "definition": "Un terme qui décrit une information ou un contenu potentiellement dangereux ou manipulateur, capable d'altérer la perception ou le comportement des personnes."
+      },
+      {
+        "terme": "Tokens",
+        "definition": "Les 'tokens' sont les petites unités de texte (mots ou parties de mots) que les modèles d'IA comme Claude utilisent pour traiter et générer des réponses, et qui ont un coût financier associé."
       }
     ],
     "category_summaries": {
-      "actu": "Les acteurs majeurs de l'IA comme Anthropic et Google continuent d'annoncer des évolutions pour leurs modèles (Claude, Gemini, Gemma) et leurs offres commerciales, notamment pour les entreprises et les gouvernements. L'IA prend de plus en plus de place dans le monde professionnel.",
-      "tips": "Des astuces sont partagées pour optimiser l'utilisation des IA, notamment Claude, en ajustant ses modes de fonctionnement pour des tâches spécifiques afin de gagner en efficacité et réduire les coûts. L'accent est mis sur l'actionnabilité et l'économie de ressources.",
-      "idees": "Yann LeCun continue de partager ses réflexions sur la manière dont les IA apprennent, remettant en question le paradigme de la taille des modèles au profit de la qualité de l'entraînement. D'autres réflexions portent sur l'impact potentiel des IA sur la société, notamment la personnalisation extrême et la création de contenus sur mesure.",
-      "outils": "De nouvelles applications et démonstrations d'IA émergent, allant de la création de jeux vidéo interactifs grâce aux IA de codage, à l'envoi d'un modèle d'IA dans l'espace. Ces exemples montrent la polyvalence et les avancées rapides des outils disponibles."
+      "actu": "Aujourd'hui, l'actualité tech met en lumière une préoccupation croissante pour la cybersécurité, indiquant un changement de priorités dans le domaine numérique. Il est clair que la protection des systèmes et des données devient un sujet central pour la communauté technologique.",
+      "tips": "Un conseil pratique important pour les utilisateurs de modèles d'IA comme Claude est de savoir comment optimiser leur usage. Apprendre à utiliser des modes spécifiques pour des tâches simples permet d'économiser des 'tokens' et d'obtenir des réponses plus rapides et ciblées, rendant l'interaction avec l'IA plus efficace.",
+      "idees": "Les discussions du jour explorent des thèmes profonds : les implications d'une IA ultra-personnalisée capable de réagir à nos signaux cérébraux, soulevant des questions éthiques et des craintes d'un 'Infohazard' informationnel. Elles abordent aussi des réflexions générales sur la gestion du stress face au passé, au présent et à l'avenir, montrant que même les grands penseurs de l'IA ont des préoccupations humaines.",
+      "outils": "Côté outils, on découvre un exemple concret de création avec l'IA : un jeu simple développé grâce à des assistants comme Grok Bot et Cursor. Cela illustre comment l'IA peut démocratiser la création logicielle et rendre des projets complexes plus accessibles même pour les débutants."
     },
     "highlights": [
       {
-        "author_name": "Yann LeCun",
-        "handle": "ylecun",
-        "text_fr": "Les gens dans l'IA ont fait la même erreur pendant 70 ans : si une machine peut faire une tâche que les humains considèrent comme intellectuellement complexe, elle doit être plus intelligente que les humains. C'est complètement faux. Nous avons des ordinateurs qui sont surhumains dans de nombreuses tâches, mais nous sommes encore loin de machines ayant une intelligence de niveau humain, voire animal.",
-        "text_original": "People in AI have made the same mistake for 70 years: if a machine can do a task humans see as intellectually complex, it must be smarter than humans. This is completely false We have computers that are superhuman at many tasks but we're still far from machines with human or even animal-level intelligence Video",
-        "link": "https://nitter.kareem.one/haider1/status/2116973549067878744#m",
-        "decryptage": "Yann LeCun explique que la performance sur une tâche difficile ne signifie pas une intelligence générale comparable à l'humain, une idée fausse persistante en IA.",
-        "category": "idees",
-        "highlight_reason": "Ce tweet remet en question une idée reçue fondamentale sur l'intelligence artificielle, incitant à une réflexion plus profonde sur ce que signifie 'être intelligent' pour une machine."
-      },
-      {
-        "author_name": "Yann LeCun",
-        "handle": "ylecun",
-        "text_fr": "Yann LeCun avait raison et personne dans cette industrie ne veut le dire à voix haute. 109 millions de paramètres battent 72 milliards. Il a passé des années à dire que la taille n'est pas ce qui fait qu'un modèle comprend le monde. Meta a parié dans l'autre sens. Il est parti en novembre et a créé son propre laboratoire à Paris. Jeudi dernier, il a publié la preuve. La théorie sur laquelle tout le monde s'est basé depuis 2024 est que si vous entraînez des modèles suffisamment grands, sur du texte, sur des images, sur du son, ils finissent tous par avoir la même image de la réalité à l'intérieur d'eux. La taille fait tout. Personne n'a jamais prouvé cette partie. Randall Balestriero et LeCun l'ont prouvé. Et la preuve dit que la taille n'a jamais fait le travail. Ce qui fait le travail, ce sont les deux choses que vous montrez ensemble à un modèle. Une photo et la légende de cette photo sont deux vues d'une même chose. Les modèles entraînés sur de telles paires y parviennent rapidement. Deux paragraphes tirés du même document ne sont pas deux vues d'une même chose. Les modèles entraînés sur ceux-ci y parviennent lentement et coûteusement. La prédiction du mot suivant est la deuxième chose. C'est sur cela que fonctionnent tous les chatbots du monde. Dans leurs tests, la première méthode a atteint la même compréhension après 21,6 millions d'exemples. La prédiction du mot suivant en a nécessité 900 millions. Et un modèle de texte de 109 millions de paramètres a fini par se rapprocher davantage de la vision du monde d'un modèle d'image qu'un modèle de langage de 72 milliards de paramètres. 660 fois plus petit.",
-        "text_original": "Yann LeCun says: People in AI have made the same mistake for 70 years: if a machine can do a task humans see as intellectually complex, it must be smarter than humans. This is completely false We have computers that are superhuman at many tasks but we're still far from machines with human or even animal-level intelligence Video",
-        "link": "https://nitter.kareem.one/heyshrutimishra/status/2116931531000156348#m",
-        "decryptage": "Ce tweet explique une découverte majeure : la taille d'une IA (le nombre de ses paramètres) est moins importante que la manière dont elle est entraînée pour comprendre le monde. Apprendre à partir d'images et de leurs descriptions est beaucoup plus efficace que de simplement prédire le mot suivant.",
-        "category": "idees",
-        "highlight_reason": "C'est la publication d'une preuve scientifique qui change la donne sur la façon de construire des IA efficaces, démontrant que la méthode d'apprentissage est plus cruciale que la taille brute du modèle."
-      },
-      {
-        "author_name": "Omar Sanseviero",
-        "handle": "osanseviero",
-        "text_fr": "Gemma 4 a été envoyé dans l'espace sur un satellite prototype, a fonctionné sur des TPU en utilisant l'énergie solaire stockée, et sa réponse a été renvoyée sur Terre. Les modèles embarqués sont incroyables blog.google/innovation-and-a… Lien Nous avons reçu notre première réponse du satellite prototype Project Suncatcher. Cette semaine, nous avons atteint notre jalon \"Hello World\" : la toute première réponse d'IA d'un TPU de classe centre de données en orbite.",
-        "text_original": "Gemma 4 was sent to space on a prototype satellite, ran on TPUs using stored solar energy, and its response was sent back to Earth On-device models are wild blog.google/innovation-and-a… Link We’ve received our first response from the Project Suncatcher prototype satellite. This week, we reached our \"Hello World\" milestone: the first-ever AI response from a data center class TPU in orbit.",
-        "link": "https://nitter.kareem.one/osanseviero/status/2116256648259871061#m",
-        "decryptage": "Une IA (Gemma 4) a été testée pour la première fois dans l'espace, fonctionnant sur un satellite avec une énergie solaire, montrant la miniaturisation et la robustesse des systèmes d'IA.",
+        "author_name": "Nick Dobos",
+        "handle": "@nickadobos",
+        "text_fr": "Tous les logiciels se divisent en 2 extrêmes : les modèles d'IA + leurs 'harnais' (outils d'intégration) — et des mèmes. lauren (@poteto) Jour 28/ le jeu de Tibo est sorti ! J'ai dépensé 5,99 $ pour ce domaine, mais je me suis éclaté à le créer avec Grok Bot et Cursor ! J'espère que vous l'apprécierez et que vous trouverez tous les œufs de Pâques 🤍 Si j'ai bien fait les choses, vous devriez pouvoir y jouer aussi directement sur X. tibo.dog Lien tibo.dog Tibo et une meute de chiens contre un essaim infini. Touchez pour jouer ici. tibo.dog",
+        "text_original": "All Software is splitting into 2 extremes - AI models + harnesses - memes: vibecoded diss tracks & trickshots lauren (@poteto) Day 28/ tibo's game has landed i spent $5.99 on this domain, but i had a blast making it with grok bot and cursor! i hope you enjoy it and find all the easter eggs 🤍 if i did it right you should be able to play it inside of X too tibo.dog Link tibo.dog Tibo and a pack of dogs against an endless swarm. Tap to play right here. tibo.dog",
+        "link": "https://nitter.kareem.one/NickADobos/status/2117011219714638169#m",
+        "decryptage": "Il est question de la façon dont les logiciels évoluent, se basant de plus en plus sur des intelligences artificielles ou sur des contenus viraux et légers, et de comment des outils d'IA peuvent aider à créer des jeux vidéo. Grok Bot et Cursor sont des assistants d'IA qui aident à écrire du code ou à générer du contenu.",
         "category": "outils",
-        "highlight_reason": "L'envoi d'une IA dans l'espace et son fonctionnement autonome est une prouesse technologique qui ouvre des perspectives fascinantes pour l'exploration spatiale et l'autonomie des systèmes embarqués."
+        "highlight_reason": "Ce tweet illustre concrètement comment l'IA est utilisée aujourd'hui pour créer des logiciels et des jeux, rendant la création plus accessible avec des outils comme Grok Bot et Cursor."
       },
       {
         "author_name": "Nick Dobos",
-        "handle": "nickadobos",
-        "text_fr": "Le monde n'est pas prêt pour ça. Imaginez des stars de cinéma avec des visages différents basés sur vos goûts en matière d'hommes/femmes. Imaginez chaque publicité, chaque message politique et chaque détail personnalisé pour vous déclencher, vous et vos neurones. Imaginez un flux de médias sociaux qui transforme tout cela pour créer le parfait Infohazard. Le calcul peut faire cela maintenant. Rahul Chhabra (@rahulchhabra07) Présentation de RL avec Rétroaction Neuronale (RLNF). Nous avons trouvé des moyens fiables d'entraîner des modèles d'IA à répondre aux préférences humaines à partir de signaux cérébraux purs. L'exemple ci-dessous est une image d'un visage qui se transforme en une version plus attrayante pour le sujet pendant qu'il la regarde. — https://nitter.kareem.one/rahulchhabra07/status/2115918744308658325#m",
-        "text_original": "The world is not ready for this. Imagine movie stars with different faces based on your taste in men/women. Imagine every ad, every political message, and every detail customized to trigger you, and your neurons. Imagine a social media feed that morphs it all to create the perfect Infohazard. Compute can do this now. Rahul Chhabra (@rahulchhabra07) Introducing RL with Neural Feedback (RLNF). We have found reliable ways to train AI models to respond to human preferences purely from brain signals. The example below is a picture of a face that self-transforms into a more attractive version for the subject as they are looking at it. — https://nitter.kareem.one/rahulchhabra07/status/2115918744308658325#m",
+        "handle": "@nickadobos",
+        "text_fr": "Le monde n'est pas prêt pour ça. Imaginez des stars de cinéma avec des visages différents selon vos goûts en matière d'hommes/femmes. Imaginez chaque publicité, chaque message politique, chaque détail personnalisé pour vous 'activer' et stimuler vos neurones. Imaginez un fil d'actualité sur les réseaux sociaux qui transforme tout pour créer le parfait 'Infohazard'. La puissance de calcul peut déjà faire cela. Rahul Chhabra (@rahulchhabra07) présente le RL avec Feedback Neural (RLNF). Nous avons trouvé des moyens fiables d'entraîner des modèles d'IA à répondre aux préférences humaines uniquement à partir des signaux cérébraux. L'exemple ci-dessous montre une image d'un visage qui se transforme en une version plus attrayante pour le sujet qui le regarde.",
+        "text_original": "The world is not ready for this. Imagine movie stars with different faces based on your taste in men/women. Imagine every ad, every political message, and every detail customized to trigger you, and your neurons. Imagine a social media feed that morphs it all to create the perfect Infohazard. Compute can do this now. Rahul Chhabra (@rahulchhabra07) Introducing RL with Neural Feedback (RLNF). We have found reliable ways to train AI models to respond to human preferences purely from brain signals. The example below is a picture of a face that self-transforms into a more attractive version for the subject as they are looking at it.",
         "link": "https://nitter.kareem.one/NickADobos/status/2116845449823006860#m",
-        "decryptage": "Une nouvelle technique permet d'entraîner des IA à modifier leur comportement (par exemple, des images) en fonction des réactions cérébrales humaines, ouvrant la voie à une personnalisation extrême et potentiellement dangereuse des contenus.",
+        "decryptage": "Le 'RL avec Feedback Neural' (ou RLNF) est une technique avancée où une IA apprend en recevant des signaux directement du cerveau humain, par exemple pour comprendre ce qu'une personne trouve beau ou intéressant. Un 'Infohazard' est un concept désignant une information ou un contenu si puissant et manipulateur qu'il peut perturber gravement la pensée ou le comportement humain.",
         "category": "idees",
-        "highlight_reason": "Ce tweet soulève des questions éthiques et sociétales majeures sur le potentiel de personnalisation extrême des IA et son impact sur notre perception de la réalité et notre réceptivité à l'information."
+        "highlight_reason": "Ce tweet soulève des questions fondamentales sur l'avenir de l'IA et ses implications éthiques, en montrant une technologie où l'IA peut répondre directement aux préférences cérébrales humaines, ce qui est à la fois fascinant et potentiellement dangereux."
+      },
+      {
+        "author_name": "Nick Dobos",
+        "handle": "@nickadobos",
+        "text_fr": "Ça, c'est de l'ingénierie ! Jinjing Liang (@JinjingLiang) présente le mode « retardmax » pour Claude 🥔. Le mode « Ultrathink » exécute la tâche avec un raisonnement maximal... mais si vous voulez le minimum ? Maintenant, vous pouvez. Juste « retardmax ». Besoin que Claude fasse quelque chose de simple comme : « commettre le code » ? Ne gaspillez pas vos tokens 💸, tapez simplement « retardmax ». Oui, c'est un vrai mod pour Claude. Vidéo.",
+        "text_original": "Now this is engineering Jinjing Liang (@JinjingLiang) Introducing “retardmax” mode for Claude 🥔 \"Ultrathink\" mode runs the turn at max reasoning... but what if you want lowest? Now you can. Just \"retardmax\". Need claude do something simple like: \"commit the code\"? Don't waste tokens 💸, just type 'retardmax' \" Yes it's a real Claud mod Video",
+        "link": "https://nitter.kareem.one/NickADobos/status/2116221817958613212#m",
+        "decryptage": "Claude est un modèle d'intelligence artificielle conversationnelle, similaire à ChatGPT. Les 'tokens' sont les unités de texte (mots ou parties de mots) que les IA traitent ; les utiliser en mode 'Ultrathink' coûte plus cher. Le mode 'retardmax' est une façon ironique de demander à l'IA de faire le minimum pour économiser ces 'tokens' et obtenir une réponse simple et rapide.",
+        "category": "tips",
+        "highlight_reason": "Ce conseil pratique montre comment optimiser l'utilisation d'un modèle d'IA comme Claude pour des tâches simples, en économisant des ressources ('tokens'), ce qui est très utile pour un débutant."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Boris Cherny",
-          "handle": "bcherny",
-          "text_fr": "Nous supprimons la limite de 5 heures pour les comptes Ultra vérifiés. Claude (@claudeai) Nous renommons nos plans Max : Max 5x → Max Max 20x → Ultra Max est toujours à 100 $/mois, et Ultra à 200 $. Si vous êtes abonné, vous n'avez rien à faire. Nous supprimons également la limite de 5 heures pour les comptes Ultra vérifiés, à compter d'aujourd'hui pour la plupart des abonnés existants. Les nouveaux comptes conservent une limite temporaire jusqu'à leur vérification, ce qui nous aide à prévenir la fraude et les abus. Vous recevrez un e-mail lorsqu'elle sera supprimée. Les limites hebdomadaires restent inchangées. Voir nos plans ici : claude.com/pricing — https://nitter.kareem.one/claudeai/status/2116220869479428500#m",
-          "text_original": "We're removing the 5-hour limit for verified Ultra accounts. Claude (@claudeai) We’re renaming our Max plans: Max 5x → Max Max 20x → Ultra Max is still $100/month, and Ultra is still $200. If you’re a subscriber, there’s nothing you need to do. We’re also removing the 5-hour limit for verified Ultra accounts, starting today with most existing subscribers. Newer accounts keep a temporary limit until they’re verified, which helps us prevent fraud and abuse. You'll get an email when it's removed. Weekly limits remain unchanged. View our plans here: claude.com/pricing — https://nitter.kareem.one/claudeai/status/2116220869479428500#m",
-          "link": "https://nitter.kareem.one/bcherny/status/2116222842413142111#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Boris Cherny",
-          "handle": "bcherny",
-          "text_fr": "L'Utah a donné Claude Code à 34 développeurs dans 10 agences d'État. 80% avaient un environnement de travail opérationnel en moins de 30 minutes, 71% ont déclaré avoir économisé 20+ heures à la fin du projet pilote de quatre semaines. Anthropic (@AnthropicAI) Nous étendons notre partenariat avec @USGSA. Dans le cadre d'un nouvel accord OneGov, nous apportons Claude aux gouvernements fédéraux, étatiques, locaux, tribaux et territoriaux à 40% de réduction. anthropic.com/news/expanding… Lien Nous étendons notre partenariat avec GSA pour apporter Claude à tous les niveaux de gouvernement Anthropic est une société de recherche et de sécurité en IA qui travaille à construire des systèmes d'IA fiables, interprétables et orientables. anthropic.com — https://nitter.kareem.one/AnthropicAI/status/2115207004293853358#m",
-          "text_original": "Utah gave Claude Code to 34 developers across 10 state agencies. 80% had a working environment within 30 minutes, 71% reported saving 20+ hours by the end of the four-week pilot. Anthropic (@AnthropicAI) We're expanding our partnership with @USGSA . Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off. anthropic.com/news/expanding… Link Expanding our partnership with GSA to bring Claude to all levels of government Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems. anthropic.com — https://nitter.kareem.one/AnthropicAI/status/2115207004293853358#m",
-          "link": "https://nitter.kareem.one/bcherny/status/2115491259381072269#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "osanseviero",
-          "text_fr": "Excité de commencer bientôt à déployer le modèle. blog.google/innovation-and-a… Lien Gemini 4 Carbon : notre prochain modèle de pointe Gemini 4 Carbon est notre modèle le plus performant avec des capacités de cybersécurité de pointe et de longue portée. blog.google",
-          "text_original": "Excited to begin rolling out the model soon! blog.google/innovation-and-a… Link Gemini 4 Carbon: our next frontier model Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. blog.google",
-          "link": "https://nitter.kareem.one/osanseviero/status/2115489724462977426#m",
-          "decryptage": null
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "osanseviero",
-          "text_fr": "Gemini 4 Carbon",
-          "text_original": "Gemini 4 Carbon",
-          "link": "https://nitter.kareem.one/osanseviero/status/2115489720616542357#m",
-          "decryptage": null
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Hacker News est littéralement devenu une 'actualité de hackers'. Spenser Skates (@spenserskates) : Quatre des cinq meilleurs articles sur HN en ce moment concernent des incidents de cybersécurité. Nous sommes officiellement entrés dans une nouvelle ère.",
+          "text_original": "hacker news literally became hacker news Spenser Skates (@spenserskates) 4 of the top 5 posts on HN right now are about cybersecurity incidents We've officially entered a new era",
+          "link": "https://nitter.kareem.one/ananayarora/status/2116412951427215363#m",
+          "decryptage": "Hacker News (souvent abrégé en HN) est un site web très populaire auprès des passionnés de technologie, où ils partagent et discutent d'actualités et d'articles techniques."
         }
       ],
       "tips": [
         {
-          "author_name": "Boris Cherny",
-          "handle": "bcherny",
-          "text_fr": "Nous ajoutons la prise en charge des tâches et des requêtes MCP dans Claude. Les tâches permettent à Claude de confier des travaux de longue haleine, comme des recherches approfondies, à des plugins et de rapporter lorsqu'ils sont terminés. Vidéo",
-          "text_original": "We’re adding support for MCP Tasks and Elicitations in Claude. Tasks let Claude give plugins long-running jobs such as deep research and report back when they’re done. Video",
-          "link": "https://nitter.kareem.one/ClaudeDevs/status/2113698001889927608#m",
-          "decryptage": "Les plugins connectés à Claude peuvent désormais recevoir des 'tâches' complexes et de longue durée, améliorant l'automatisation et la capacité de traitement de l'IA."
-        },
-        {
-          "author_name": "Boris Cherny",
-          "handle": "bcherny",
-          "text_fr": "Agent Skills a commencé comme une expérience dans Claude Code. Beaucoup dans l'industrie l'ont adopté, nous chez Anthropic avons trouvé plus approprié de le donner à la @AgenticAIFdn, à côté de MCP. ClaudeDevs (@ClaudeDevs) Nous faisons don de Agent Skills à l'Agentic AI Foundation ( @AgenticAIFdn ), la même fondation à laquelle nous avons donné MCP. Depuis décembre 2025, plus de 70 plateformes d'agents ont intégré la norme, y compris ChatGPT, Cursor, GitHub Copilot et VS Code. Voici ce que cela signifie pour vous : — https://nitter.kareem.one/ClaudeDevs/status/2113328526413996100#m",
-          "text_original": "Agent Skills started as an experiment in Claude Code. Many across the industry have come to adopt it, so we at Anthropic found it more fitting to donate it to the @AgenticAIFdn , next to MCP. ClaudeDevs (@ClaudeDevs) We're donating Agent Skills to the Agentic AI Foundation ( @AgenticAIFdn ), the same foundation we donated MCP to. Since December 2025, 70+ agent platforms have integrated the standard, including ChatGPT, Cursor, GitHub Copilot, and VS Code. Here's what that means for you: — https://nitter.kareem.one/ClaudeDevs/status/2113328526413996100#m",
-          "link": "https://nitter.kareem.one/bcherny/status/2113333859907747871#m",
-          "decryptage": "Une fonctionnalité développée pour Claude, 'Agent Skills', devient une norme ouverte pour l'industrie des IA, permettant une meilleure intégration entre différents outils comme ChatGPT ou GitHub Copilot."
-        },
-        {
           "author_name": "Nick Dobos",
-          "handle": "nickadobos",
-          "text_fr": "Maintenant, ça, c'est de l'ingénierie. Jinjing Liang (@JinjingLiang) Présentation du mode \"retardmax\" pour Claude 🥔 Le mode \"Ultrathink\" exécute le tour à pleine puissance de raisonnement... mais et si vous voulez le plus bas ? Maintenant, vous le pouvez. Tapez simplement 'retardmax'. Besoin que Claude fasse quelque chose de simple comme : \"commit the code\" ? Ne gaspillez pas de tokens 💸, tapez juste 'retardmax'. Oui, c'est un vrai mod Claude Vidéo — https://nitter.kareem.one/JinjingLiang/status/2116210786700054918#m",
-          "text_original": "Now this is engineering Jinjing Liang (@JinjingLiang) Introducing “retardmax” mode for Claude 🥔 \"Ultrathink\" mode runs the turn at max reasoning... but what if you want lowest? Now you can. Just \"retardmax\". Need claude do something simple like: \"commit the code\"? Don't waste tokens 💸, just type 'retardmax' \" Yes it's a real Claud mod Video — https://nitter.kareem.one/JinjingLiang/status/2116210786700054918#m",
+          "handle": "@nickadobos",
+          "text_fr": "Ça, c'est de l'ingénierie ! Jinjing Liang (@JinjingLiang) présente le mode « retardmax » pour Claude 🥔. Le mode « Ultrathink » exécute la tâche avec un raisonnement maximal... mais si vous voulez le minimum ? Maintenant, vous pouvez. Juste « retardmax ». Besoin que Claude fasse quelque chose de simple comme : « commettre le code » ? Ne gaspillez pas vos tokens 💸, tapez simplement « retardmax ». Oui, c'est un vrai mod pour Claude. Vidéo.",
+          "text_original": "Now this is engineering Jinjing Liang (@JinjingLiang) Introducing “retardmax” mode for Claude 🥔 \"Ultrathink\" mode runs the turn at max reasoning... but what if you want lowest? Now you can. Just \"retardmax\". Need claude do something simple like: \"commit the code\"? Don't waste tokens 💸, just type 'retardmax' \" Yes it's a real Claud mod Video",
           "link": "https://nitter.kareem.one/NickADobos/status/2116221817958613212#m",
-          "decryptage": "Il existe un mode 'retardmax' pour l'IA Claude, conçu pour des tâches simples afin d'économiser les ressources de calcul (tokens), par opposition à un mode 'ultrathink' plus gourmand."
+          "decryptage": "Claude est un modèle d'intelligence artificielle conversationnelle, similaire à ChatGPT. Les 'tokens' sont les unités de texte (mots ou parties de mots) que les IA traitent ; les utiliser en mode 'Ultrathink' coûte plus cher. Le mode 'retardmax' est une façon ironique de demander à l'IA de faire le minimum pour économiser ces 'tokens' et obtenir une réponse simple et rapide."
         }
       ],
       "idees": [
         {
-          "author_name": "Yann LeCun",
-          "handle": "ylecun",
-          "text_fr": "Yann LeCun avait raison et personne dans cette industrie ne veut le dire à voix haute. 109 millions de paramètres battent 72 milliards. Il a passé des années à dire que la taille n'est pas ce qui fait qu'un modèle comprend le monde. Meta a parié dans l'autre sens. Il est parti en novembre et a créé son propre laboratoire à Paris. Jeudi dernier, il a publié la preuve. La théorie sur laquelle tout le monde s'est basé depuis 2024 est que si vous entraînez des modèles suffisamment grands, sur du texte, sur des images, sur du son, ils finissent tous par avoir la même image de la réalité à l'intérieur d'eux. La taille fait tout. Personne n'a jamais prouvé cette partie. Randall Balestriero et LeCun l'ont prouvé. Et la preuve dit que la taille n'a jamais fait le travail. Ce qui fait le travail, ce sont les deux choses que vous montrez ensemble à un modèle. Une photo et la légende de cette photo sont deux vues d'une même chose. Les modèles entraînés sur de telles paires y parviennent rapidement. Deux paragraphes tirés du même document ne sont pas deux vues d'une même chose. Les modèles entraînés sur ceux-ci y parviennent lentement et coûteusement. La prédiction du mot suivant est la deuxième chose. C'est sur cela que fonctionnent tous les chatbots du monde. Dans leurs tests, la première méthode a atteint la même compréhension après 21,6 millions d'exemples. La prédiction du mot suivant en a nécessité 900 millions. Et un modèle de texte de 109 millions de paramètres a fini par se rapprocher davantage de la vision du monde d'un modèle d'image qu'un modèle de langage de 72 milliards de paramètres. 660 fois plus petit.",
-          "text_original": "Yann LeCun says: People in AI have made the same mistake for 70 years: if a machine can do a task humans see as intellectually complex, it must be smarter than humans. This is completely false We have computers that are superhuman at many tasks but we're still far from machines with human or even animal-level intelligence Video",
-          "link": "https://nitter.kareem.one/heyshrutimishra/status/2116931531000156348#m",
-          "decryptage": "Yann LeCun explique une découverte majeure : la taille d'une IA (le nombre de ses paramètres) est moins importante que la manière dont elle est entraînée pour comprendre le monde. Apprendre à partir d'images et de leurs descriptions est beaucoup plus efficace que de simplement prédire le mot suivant."
-        },
-        {
-          "author_name": "Yann LeCun",
-          "handle": "ylecun",
-          "text_fr": "Les gens dans l'IA ont fait la même erreur pendant 70 ans : si une machine peut faire une tâche que les humains considèrent comme intellectuellement complexe, elle doit être plus intelligente que les humains. C'est complètement faux. Nous avons des ordinateurs qui sont surhumains dans de nombreuses tâches, mais nous sommes encore loin de machines ayant une intelligence de niveau humain, voire animal.",
-          "text_original": "People in AI have made the same mistake for 70 years: if a machine can do a task humans see as intellectually complex, it must be smarter than humans. This is completely false We have computers that are superhuman at many tasks but we're still far from machines with human or even animal-level intelligence Video",
-          "link": "https://nitter.kareem.one/haider1/status/2116973549067878744#m",
-          "decryptage": "Yann LeCun explique que la performance sur une tâche difficile ne signifie pas une intelligence générale comparable à l'humain, une idée fausse persistante en IA."
-        },
-        {
-          "author_name": "Yann LeCun",
-          "handle": "ylecun",
-          "text_fr": "Tout cela est correct. Merci. Sauf une chose : j'ai bien créé FAIR en 2013, y compris la branche parisienne en 2015, et montréalaise en 2017. Mais j'en ai quitté la direction en 2018 pour devenir Chief AI Scientist: je me suis refocalisé sur la recherche (Self-Supervised Learning, JEPA, World Models, etc). @AntoineBordes et @joellepineau étaient les co-directeurs de 2018 à 2023, jusqu a ce qu'Antoine parte pour Helsing et que Joëlle prenne la direction de FAIR. Je n'ai jamais été impliqué dans les LLMs, ni pour la recherche (à FAIR), ni pour le développement (qui était dans le groupe de produit GenAI). J'applaudissais des gradins. Mes seules contributions aux LLMs ont été de défendre Galactica (en octobre 2022) contre les attaques aux vitriol de la twittosphère, de promouvoir le projet Llama en interne (développé par une douzaine de chercheurs à FAIR-Paris, dont @GuillaumeLample et Timothée Lacroix), d'aider à convaincre Mark Zuckerberg de créer un groupe de produit autour de Llama (GenAI, créé début 2023), et de convaincre la direction de distribuer Llama-2 en open source/open weight. Je n'étais pas du tout impliqué dans la direction de GenAI après sa création, préférant travailler sur la prochaine révolution: l'IA physique. Si vous cherchez un responsable pour le déception qu'a été Llama-4, c'est plutôt la pression de sortir un produit (trop) rapidement, qui a conduit à un excès de conservatisme et un manque d'innovation de la part de l'équipe de GenAI. Mon avis est que l'équipe aurait dû prendre un peu plus de temps et intégrer les dernières techniques venant de la recherche à FAIR. Mais ils n'en ont pas eu le loisir. En particulier, conserver plus de pouvoir de décision quant aux choix techniques dans les mains des créateurs originaux de Llama à Paris, au lieu de déplacer les décisions à Menlo Park, aurait peut-être permis de conserver les meilleurs talents un peu plus longtemps et de produire de meilleurs résultats.",
-          "text_original": "Tout cela est correct. Merci. Sauf une chose : j'ai bien créé FAIR en 2013, y compris la branche parisienne en 2015, et montréalaise en 2017. Mais j'en ai quitté la direction en 2018 pour devenir Chief AI Scientist: je me suis refocalisé sur la recherche (Self-Supervised Learning, JEPA, World Models, etc). @AntoineBordes et @joellepineau étaient les co-directeurs de 2018 à 2023, jusqu a ce qu'Antoine parte pour Helsing et que Joëlle prenne la direction de FAIR. Je n'ai jamais été impliqué dans les LLMs, ni pour la recherche (à FAIR), ni pour le développement (qui était dans le groupe de produit GenAI). J'applaudissais des gradins. Mes seules contributions aux LLMs ont été de défendre Galactica (en octobre 2022) contre les attaques aux vitriol de la twittersphere, de promouvoir le projet Llama en interne (développé par une douzaine de chercheurs à FAIR-Paris, dont @GuillaumeLample et Timothée Lacroix), d'aider à convaincre Mark Zuckerberg de créer un groupe de produit autour de Llama (GenAI, créé début 2023), et de convaincre la direction de distribuer Llama-2 en open source/open weight. Je n'étais pas du tout impliqué dans la direction de GenAI après sa création, préférant travailler sur la prochaine révolution: l'IA physique. Si vous cherchez un responsable pour le déception qu'a été Llama-4, c'est plutôt la pression de sortir un produit (trop) rapidement, qui a conduit à un excès de conservatisme et un manque d'innovation de la part de l'équipe de GenAI. Mon avis est que l'équipe aurait dû prendre un peu plus de temps et intégrer les dernières techniques venant de la recherche à FAIR. Mais ils n'en ont pas eu le loisir. En particulier, conserver plus de pouvoir de décision quant aux choix techniques dans les mains des créateurs originaux de Llama à Paris, au lieu de déplacer les décisions à Menlo Park, aurait peut-être permis de conserver les meilleurs talents un peu plus longtemps et de produire de meilleurs résultats.",
-          "link": "https://nitter.kareem.one/ylecun/status/2116957849255342094#m",
-          "decryptage": "Yann LeCun clarifie son rôle passé et présent dans la recherche et le développement d'IA chez Meta, expliquant qu'il s'est concentré sur des domaines de recherche futurs plutôt que sur les grands modèles de langage actuels (LLMs)."
-        },
-        {
-          "author_name": "Yann LeCun",
-          "handle": "ylecun",
-          "text_fr": "Yann LeCun et Randall Balestriero viennent de prouver l'Hypothèse de Représentation Platonicienne, et ont trouvé une meilleure façon de l'atteindre. L'Hypothèse de Représentation Platonicienne suggère que les modèles d'IA entraînés sur différentes modalités, comme les images et le texte, finissent par apprendre des représentations similaires du monde. Mais cet article montre que la façon dont les modèles sont entraînés est plus importante que le simple fait de les faire évoluer. Ils montrent ainsi mathématiquement que, sous certaines conditions, deux JEPA entraînées complètement séparément peuvent apprendre essentiellement la même représentation sous-jacente du monde. L'une apprend à partir de différentes images de la même scène, tandis que l'autre apprend à partir de différentes descriptions de cette scène, sans jamais avoir été entraînée sur des paires image-texte. Leur approche obtient le même alignement image-texte avec 42 fois moins d'échantillons d'entraînement que la prédiction du prochain token. Un JEPA texte de 109M de paramètres surpasse même les LLMs jusqu'à 72B paramètres sur les benchmarks d'alignement inter-modaux. alphaxiv.org/abs/2610.39302",
-          "text_original": "Yann LeCun and Randall Balestriero just Proved the Platonic Representation Hypothesis, and found a better way to achieve it. The Platonic Representation Hypothesis suggests that AI models trained on different modalities, like images and text, eventually learn similar representations of the world. But this paper shows that how models are trained matters more than simply scaling them up. So they mathematically show that, under certain conditions, two JEPAs trained completely separately can learn essentially the same underlying representation of the world. One learns from different images of the same scene, while the other learns from different descriptions of that scene, without ever being trained on image-text pairs. Their approach achieves the same image-text alignment with 42x fewer training samples than next-token prediction. A 109M-parameter text JEPA even outperforms LLMs up to 72B parameters on cross-modal alignment benchmarks. alphaxiv.org/abs/2610.39302",
-          "link": "https://nitter.kareem.one/askalphaxiv/status/2116779287390896418#m",
-          "decryptage": "Une nouvelle recherche prouve qu'il est possible d'entraîner des IA à avoir une compréhension cohérente du monde (Hypothèse de Représentation Platonicienne) en les associant à différentes vues d'une même chose (image/texte), de manière beaucoup plus efficace que les méthodes actuelles."
+          "author_name": "Nick Dobos",
+          "handle": "@nickadobos",
+          "text_fr": "Tant pis, on y va\" (ou \"on se lance",
+          "C'est comme ça": "st pour le stress lié au passé, et",
+          "présent.": "text_original\": \"\"fuck it we ball\" is for stress about the future, \"it is what it is\" is for stress about the past and \"this too shall pass\" is for stress about the present",
+          "link": "https://nitter.kareem.one/malinborderland/status/2116535917238190098#m",
+          "decryptage": null
         },
         {
           "author_name": "Nick Dobos",
-          "handle": "nickadobos",
-          "text_fr": "Le monde n'est pas prêt pour ça. Imaginez des stars de cinéma avec des visages différents basés sur vos goûts en matière d'hommes/femmes. Imaginez chaque publicité, chaque message politique et chaque détail personnalisé pour vous déclencher, vous et vos neurones. Imaginez un flux de médias sociaux qui transforme tout cela pour créer le parfait Infohazard. Le calcul peut faire cela maintenant. Rahul Chhabra (@rahulchhabra07) Présentation de RL avec Rétroaction Neuronale (RLNF). Nous avons trouvé des moyens fiables d'entraîner des modèles d'IA à répondre aux préférences humaines à partir de signaux cérébraux purs. L'exemple ci-dessous est une image d'un visage qui se transforme en une version plus attrayante pour le sujet pendant qu'il la regarde. — https://nitter.kareem.one/rahulchhabra07/status/2115918744308658325#m",
-          "text_original": "The world is not ready for this. Imagine movie stars with different faces based on your taste in men/women. Imagine every ad, every political message, and every detail customized to trigger you, and your neurons. Imagine a social media feed that morphs it all to create the perfect Infohazard. Compute can do this now. Rahul Chhabra (@rahulchhabra07) Introducing RL with Neural Feedback (RLNF). We have found reliable ways to train AI models to respond to human preferences purely from brain signals. The example below is a picture of a face that self-transforms into a more attractive version for the subject as they are looking at it. — https://nitter.kareem.one/rahulchhabra07/status/2115918744308658325#m",
+          "handle": "@nickadobos",
+          "text_fr": "Le monde n'est pas prêt pour ça. Imaginez des stars de cinéma avec des visages différents selon vos goûts en matière d'hommes/femmes. Imaginez chaque publicité, chaque message politique, chaque détail personnalisé pour vous 'activer' et stimuler vos neurones. Imaginez un fil d'actualité sur les réseaux sociaux qui transforme tout pour créer le parfait 'Infohazard'. La puissance de calcul peut déjà faire cela. Rahul Chhabra (@rahulchhabra07) présente le RL avec Feedback Neural (RLNF). Nous avons trouvé des moyens fiables d'entraîner des modèles d'IA à répondre aux préférences humaines uniquement à partir des signaux cérébraux. L'exemple ci-dessous montre une image d'un visage qui se transforme en une version plus attrayante pour le sujet qui le regarde.",
+          "text_original": "The world is not ready for this. Imagine movie stars with different faces based on your taste in men/women. Imagine every ad, every political message, and every detail customized to trigger you, and your neurons. Imagine a social media feed that morphs it all to create the perfect Infohazard. Compute can do this now. Rahul Chhabra (@rahulchhabra07) Introducing RL with Neural Feedback (RLNF). We have found reliable ways to train AI models to respond to human preferences purely from brain signals. The example below is a picture of a face that self-transforms into a more attractive version for the subject as they are looking at it.",
           "link": "https://nitter.kareem.one/NickADobos/status/2116845449823006860#m",
-          "decryptage": "Une nouvelle technique permet d'entraîner des IA à modifier leur comportement (par exemple, des images) en fonction des réactions cérébrales humaines, ouvrant la voie à une personnalisation extrême et potentiellement dangereuse des contenus."
+          "decryptage": "Le 'RL avec Feedback Neural' (ou RLNF) est une technique avancée où une IA apprend en recevant des signaux directement du cerveau humain, par exemple pour comprendre ce qu'une personne trouve beau ou intéressant. Un 'Infohazard' est un concept désignant une information ou un contenu si puissant et manipulateur qu'il peut perturber gravement la pensée ou le comportement humain."
         }
       ],
       "outils": [
         {
-          "author_name": "Boris Cherny",
-          "handle": "bcherny",
-          "text_fr": "Je pense qu'octobre représente un autre point d'inflexion dans les capacités des agents de codage et des modèles qui les pilotent : Claude Opus 5.5 peut désormais créer des jeux vidéo qui sont vraiment amusants simonwillison.net/2026/Oct/2… Lien Le point d'inflexion d'octobre pour le développement de jeux \"vibe\" J'ai déjà écrit sur la façon dont novembre 2025 a été un point d'inflexion pour les agents de codage – le point où Opus 4.5 et GPT-5.1 ont franchi un seuil qui signifiait que leurs agents de codage respectifs … simonwillison.net",
-          "text_original": "I think October represents another inflection point in capabilities for coding agents and the models that drive them: Claude Opus 5.5 can now build video games that are actually fun simonwillison.net/2026/Oct/2… Link The October inflection point for vibe game development I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents … simonwillison.net",
-          "link": "https://nitter.kareem.one/simonw/status/2115444742595260551#m",
-          "decryptage": "Claude Opus 5.5, une IA avancée, peut désormais créer des jeux vidéo qui sont considérés comme amusants, marquant une progression notable dans le domaine de la création assistée par IA."
-        },
-        {
-          "author_name": "Omar Sanseviero",
-          "handle": "osanseviero",
-          "text_fr": "Gemma 4 a été envoyé dans l'espace sur un satellite prototype, a fonctionné sur des TPU en utilisant l'énergie solaire stockée, et sa réponse a été renvoyée sur Terre. Les modèles embarqués sont incroyables blog.google/innovation-and-a… Lien Nous avons reçu notre première réponse du satellite prototype Project Suncatcher. Cette semaine, nous avons atteint notre jalon \"Hello World\" : la toute première réponse d'IA d'un TPU de classe centre de données en orbite.",
-          "text_original": "Gemma 4 was sent to space on a prototype satellite, ran on TPUs using stored solar energy, and its response was sent back to Earth On-device models are wild blog.google/innovation-and-a… Link We’ve received our first response from the Project Suncatcher prototype satellite. This week, we reached our \"Hello World\" milestone: the first-ever AI response from a data center class TPU in orbit.",
-          "link": "https://nitter.kareem.one/osanseviero/status/2116256648259871061#m",
-          "decryptage": "Une IA (Gemma 4) a été testée pour la première fois dans l'espace, fonctionnant sur un satellite avec une énergie solaire, montrant la miniaturisation et la robustesse des systèmes d'IA."
-        },
-        {
           "author_name": "Nick Dobos",
-          "handle": "nickadobos",
-          "text_fr": "Tous les logiciels se scindent en 2 extrêmes - modèles d'IA + harnais - mèmes : \"vibecoded diss tracks\" & \"trickshots\" lauren (@poteto) Jour 28/ le jeu de Tibo a atterri j'ai dépensé 5,99 $ pour ce domaine, mais j'ai passé un bon moment à le créer avec grok bot et cursor ! j'espère que vous apprécierez et que vous trouverez tous les œufs de Pâques 🤍 si j'ai bien fait, vous devriez pouvoir y jouer aussi dans X tibo.dog Lien tibo.dog Tibo et une meute de chiens contre un essaim sans fin. Appuyez pour jouer ici. tibo.dog — https://nitter.kareem.one/poteto/status/2117004709198475365#m",
-          "text_original": "All Software is splitting into 2 extremes - AI models + harnesses - memes: vibecoded diss tracks & trickshots lauren (@poteto) Day 28/ tibo's game has landed i spent $5.99 on this domain, but i had a blast making it with grok bot and cursor! i hope you enjoy it and find all the easter eggs 🤍 if i did it right you should be able to play it inside of X too tibo.dog Link tibo.dog Tibo and a pack of dogs against an endless swarm. Tap to play right here. tibo.dog — https://nitter.kareem.one/poteto/status/2117004709198475365#m",
+          "handle": "@nickadobos",
+          "text_fr": "Tous les logiciels se divisent en 2 extrêmes : les modèles d'IA + leurs 'harnais' (outils d'intégration) — et des mèmes. lauren (@poteto) Jour 28/ le jeu de Tibo est sorti ! J'ai dépensé 5,99 $ pour ce domaine, mais je me suis éclaté à le créer avec Grok Bot et Cursor ! J'espère que vous l'apprécierez et que vous trouverez tous les œufs de Pâques 🤍 Si j'ai bien fait les choses, vous devriez pouvoir y jouer aussi directement sur X. tibo.dog Lien tibo.dog Tibo et une meute de chiens contre un essaim infini. Touchez pour jouer ici. tibo.dog",
+          "text_original": "All Software is splitting into 2 extremes - AI models + harnesses - memes: vibecoded diss tracks & trickshots lauren (@poteto) Day 28/ tibo's game has landed i spent $5.99 on this domain, but i had a blast making it with grok bot and cursor! i hope you enjoy it and find all the easter eggs 🤍 if i did it right you should be able to play it inside of X too tibo.dog Link tibo.dog Tibo and a pack of dogs against an endless swarm. Tap to play right here. tibo.dog",
           "link": "https://nitter.kareem.one/NickADobos/status/2117011219714638169#m",
-          "decryptage": "Un exemple concret montre comment des outils d'IA (comme Grok bot et Cursor) peuvent être utilisés pour créer rapidement un jeu vidéo simple, accessible via une plateforme comme X."
+          "decryptage": "Il est question de la façon dont les logiciels évoluent, se basant de plus en plus sur des intelligences artificielles ou sur des contenus viraux et légers, et de comment des outils d'IA peuvent aider à créer des jeux vidéo. Grok Bot et Cursor sont des assistants d'IA qui aident à écrire du code ou à générer du contenu."
         }
       ]
     }
   },
-  "processed_at": "2026-11-02T17:03:37",
+  "processed_at": "2026-11-02T17:26:47",
   "validation": {
-    "translated_pct": 95,
-    "with_decryptage_pct": 79,
-    "total": 19,
-    "needs_retranslation_count": 1
+    "translated_pct": 100,
+    "with_decryptage_pct": 88,
+    "total": 8,
+    "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-11-02T17:03:38"
+  "email_sent_at": "2026-11-02T17:26:48"
 }
