@@ -1,0 +1,317 @@
+{
+  "date": "2026-11-02",
+  "fetched_at": "2026-11-02T16:20:01",
+  "tweets": [
+    {
+      "handle": "sundarpichai",
+      "text": "Great to see high quality benchmarks with headroom and look at that cost line for Carbon🚀 SemiAnalysis (@SemiAnalysis_) Today we’re releasing GDPx, a benchmark for measuring agentic capabilities across the most valuable domains. GDPx is a true frontier-level benchmark: even the best model scores just 12% (1/7)🧵 — https://nitter.kareem.one/SemiAnalysis_/status/2117075900575477855#m",
+      "link": "https://nitter.kareem.one/sundarpichai/status/2117113121102045347#m",
+      "published": "Mon, 02 Nov 2026 04:34:36 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "CHAMPIONS!! Unbelievable energy in Ballhalla tonight. History made 🏆 Let's go Valks!💜⚔️ Video",
+      "link": "https://nitter.kareem.one/sundarpichai/status/2116722517239087535#m",
+      "published": "Sun, 01 Nov 2026 02:42:29 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "こんにちは、日本！Hello Japan! Waymo (@Waymo) Today, we’re announcing the next phase of our autonomous driving collaboration with @ToyotaMotorCorp to scale a fleet of bZ4X autonomous vehicles in Japan, beginning with testing and validation in 2027. Read more about our partnership here: waymo.com/blog/2026/10/toyot… __ 本日、 @ToyotaMotorCorp との自動運転分野における協業を新たな段階へと進めることを発表します。2027年に開始する試験および検証を皮切りに、日本国内で「bZ4X」の自動運転フリートの拡大を進めてまいります。 パートナーシップの詳細はこちらをご覧ください： waymo.com/blog/2026/10/toyot… — https://nitter.kareem.one/Waymo/status/2116066556103069957#m",
+      "link": "https://nitter.kareem.one/sundarpichai/status/2116233367020859888#m",
+      "published": "Fri, 30 Oct 2026 18:18:47 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "A ‘hello world’ milestone for Project Suncatcher 🚀 After launching our prototype satellite a few weeks ago, we’ve now successfully sent a command up to orbit, booted up the TPU, ran the prompt, and received our first complete response back on earth - a haiku! Video",
+      "link": "https://nitter.kareem.one/sundarpichai/status/2116214866444943853#m",
+      "published": "Fri, 30 Oct 2026 17:05:16 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "sundarpichai",
+      "text": "Read my full remarks here: blog.google/company-news/ins… Link Q3 2026 earnings call: Remarks from our CEO Read Sundar Pichai’s remarks during Alphabet’s Q3 2026 earnings call. blog.google",
+      "link": "https://nitter.kareem.one/sundarpichai/status/2115557846066819074#m",
+      "published": "Wed, 28 Oct 2026 21:34:30 GMT",
+      "author_name": "Sundar Pichai",
+      "category_hint": "ceo",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "I love that agent engineering keeps getting new weird problems as these things evolve Harrison Chase (@hwchase17) A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve! Article New context engineering challenges in late 2026 It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this — https://nitter.kareem.one/hwchase17/status/2116553654857867330#m",
+      "link": "https://nitter.kareem.one/_loganfairchild/status/2117022599553351741#m",
+      "published": "Sun, 01 Nov 2026 22:34:54 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "personally have the exact opposite view here! building a great harness is a deeply core part of building a great product countless examples you can ask an agent to explain from Grok Bot YouTube video, Factory blogs, our blogs at LangChain, OpenAI’s Codex blogs, etc a great harness is a reflection of building a great experience for the user interacting with your agent. it includes - adjusting prompts (which are off part of the harness) - creating bespoke tools/skills that make common workflows a single tool call -> save on context!!! - aggressively examining thresholds for compaction for your given use case - checking if some work can be offloaded to cheaper models in the harness via subagents/routing - building connectors so agents can efficiently access and search over useful context - supporting background work so users get immediate feedback while other work continues to chug along - building memory in a way that matters for your users ^ this is a small portion of the entire world you think about when building a harness for your product Harness Engjneering helps your team build a better product and better understand of what makes your model tick for your use case also every team building frontier vertical products is harness engineering -> it’s absolutely an edge and it’s fine if the new model makes part of the harness unnecessary layer -> there’s so much optimization you can do at every scale across cost, latency, intelligence related note: the importance of having good evals is the ability to quickly hill climb your harness with new models and trust that the config ex: auto research your harness on a good eval set you trust the frontier models can do a lot -> a lot of tasks can just be one-shotted, but many can’t at the intelligence-cost-speed Pareto you need Matt Shumer (@mattshumer_) Hot take: harness engineering is (usually) stupid. Just use the one the model was trained for, and write really good behavior prompts to control how it works. Lean into how the models want to work. — https://nitter.kareem.one/mattshumer_/status/2116377535818891690#m",
+      "link": "https://nitter.kareem.one/Vtrivedy10/status/2116622802031710709#m",
+      "published": "Sat, 31 Oct 2026 20:06:15 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "💯 A major shift toward proactive, always-on, goal-oriented agents is starting now and will gain momentum over the next few months Harrison Chase (@hwchase17) A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve! Article New context engineering challenges in late 2026 It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this — https://nitter.kareem.one/hwchase17/status/2116553654857867330#m",
+      "link": "https://nitter.kareem.one/mgreau/status/2116568126385238379#m",
+      "published": "Sat, 31 Oct 2026 16:28:59 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "want to learn how to use decision models with langgraph/deepagents? we're doing a meetup with Typesafe (Jev creators) next week come join! luma.com/iuc3ostf",
+      "link": "https://nitter.kareem.one/hwchase17/status/2116556551993413744#m",
+      "published": "Sat, 31 Oct 2026 15:43:00 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "hwchase17",
+      "text": "A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve! Article New context engineering challenges in late 2026 It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this",
+      "link": "https://nitter.kareem.one/hwchase17/status/2116553654857867330#m",
+      "published": "Sat, 31 Oct 2026 15:31:29 GMT",
+      "author_name": "Harrison Chase",
+      "category_hint": "builder",
+      "source_lang": "en"
+    }
+  ],
+  "failed_accounts": [
+    "karpathy",
+    "sama",
+    "DarioAmodei",
+    "gdb",
+    "elonmusk",
+    "AravSrinivas",
+    "miramurati",
+    "ylecun",
+    "demishassabis",
+    "JeffDean",
+    "fchollet",
+    "AndrewYNg",
+    "rasbt",
+    "bcherny",
+    "karinanguyen_",
+    "polynoamial",
+    "markchen90",
+    "aidan_mclau",
+    "officiallogank",
+    "osanseviero",
+    "AnthropicAI",
+    "OpenAI",
+    "GoogleDeepMind",
+    "xai",
+    "simonw",
+    "swyx",
+    "jeremyphoward",
+    "levelsio",
+    "mckaywrigley",
+    "amasad",
+    "nickadobos",
+    "emollick",
+    "ArthurMensch",
+    "GuillaumeLample",
+    "Thom_Wolf",
+    "julien_c",
+    "ClemDelangue",
+    "rowancheung",
+    "AlphaSignalAI"
+  ],
+  "processed": {
+    "summary": "Aujourd'hui, le paysage de l'IA révèle des avancées concrètes et des réflexions stratégiques cruciales. Des entreprises majeures déploient des innovations comme les voitures autonomes au Japon ou des satellites équipés d'IA, tandis que de nouveaux outils d'évaluation affinent notre compréhension des capacités d'agent de l'IA. Pour les débutants, il est essentiel de comprendre que l'efficacité d'une IA ne dépend pas seulement de son \"cerveau\" (le modèle), mais aussi de son \"harnais\", c'est-à-dire l'ensemble des outils et stratégies qui la rendent utile et performante au quotidien.",
+    "glossaire": [
+      {
+        "terme": "Benchmark",
+        "definition": "Un benchmark est un test standardisé qui permet d'évaluer et de comparer les performances des différents modèles d'IA, comme un bulletin de notes pour machines."
+      },
+      {
+        "terme": "Capacités agentiques",
+        "definition": "Ce sont les compétences d'une IA à agir de manière autonome, à prendre des décisions et à réaliser des tâches complexes sans être dirigée à chaque étape, un peu comme un assistant personnel très indépendant."
+      },
+      {
+        "terme": "LLM (Large Language Model)",
+        "definition": "Acronyme pour \"Grand Modèle de Langage\", ce sont des modèles d'IA très avancés qui comprennent et génèrent du texte, comme les \"cerveaux\" derrière les chatbots modernes."
+      },
+      {
+        "terme": "Ingénierie des agents",
+        "definition": "C'est la discipline qui consiste à concevoir, développer et perfectionner des programmes d'IA capables d'agir de manière autonome pour accomplir des tâches complexes."
+      },
+      {
+        "terme": "Harness Engineering",
+        "definition": "Il s'agit de la conception de l'ensemble des systèmes et des stratégies qui entourent un modèle d'IA pour le rendre plus utile, efficace et convivial pour l'utilisateur."
+      },
+      {
+        "terme": "Prompt",
+        "definition": "C'est l'instruction ou la question que vous donnez à une IA pour qu'elle génère une réponse ou effectue une tâche, comme une commande vocale."
+      },
+      {
+        "terme": "TPU (Tensor Processing Unit)",
+        "definition": "Les TPU sont des processeurs spéciaux conçus par Google pour rendre les calculs d'intelligence artificielle beaucoup plus rapides, un peu comme des muscles surpuissants pour l'IA."
+      }
+    ],
+    "category_summaries": {
+      "actu": "Les annonces du jour témoignent des applications concrètes de l'IA dans des domaines variés, allant des flottes de véhicules autonomes au Japon avec Waymo et Toyota, aux premières réussites d'un satellite expérimental équipé d'IA générant même un haïku depuis l'orbite.",
+      "tips": "Cette catégorie met en lumière des conseils essentiels sur l'\"ingénierie du harnais\", soulignant l'importance d'optimiser l'environnement et les outils autour d'un modèle d'IA (ajustement des prompts, outils sur mesure, gestion de la mémoire) pour le rendre plus performant et convivial.",
+      "idees": "Les réflexions se concentrent sur l'évolution des agents IA, anticipant un virage vers des systèmes proactifs et autonomes. Il est discuté que, malgré une architecture d'agent de plus en plus standardisée (LLM en boucle, outils, sandbox), de nouveaux défis d'ingénierie de contexte passionnants continuent d'émerger.",
+      "outils": "L'outil clé présenté aujourd'hui est GDPx, un nouveau benchmark de pointe conçu pour mesurer les \"capacités agentiques\" des modèles d'IA. Il révèle que même les meilleures intelligences artificielles ont encore une marge de progression considérable dans leur capacité à agir de manière autonome."
+    },
+    "highlights": [
+      {
+        "author_name": "Sundar Pichai",
+        "handle": "@sundarpichai",
+        "text_fr": "Super de voir des benchmarks de haute qualité avec de la marge de progression, et regardez cette ligne de coût pour le Carbone 🚀 SemiAnalysis (@SemiAnalysis_) Aujourd'hui, nous lançons GDPx, un benchmark pour mesurer les capacités agentiques dans les domaines les plus précieux. GDPx est un véritable benchmark de pointe : même le meilleur modèle n'atteint que 12% (1/7)🧵 — https://nitter.kareem.one/SemiAnalysis_/status/2117075900575477855#m",
+        "text_original": "Great to see high quality benchmarks with headroom and look at that cost line for Carbon🚀 SemiAnalysis (@SemiAnalysis_) Today we’re releasing GDPx, a benchmark for measuring agentic capabilities across the most valuable domains. GDPx is a true frontier-level benchmark: even the best model scores just 12% (1/7)🧵 — https://nitter.kareem.one/SemiAnalysis_/status/2117075900575477855#m",
+        "link": "https://nitter.kareem.one/sundarpichai/status/2117113121102045347#m",
+        "decryptage": "\"Benchmark\": Un benchmark est un test standardisé qui permet d'évaluer et de comparer les performances des différents modèles d'IA, comme une sorte de bulletin de notes. \"Capacités agentiques\": Ce sont les compétences d'une IA à agir de manière autonome, à prendre des décisions et à réaliser des tâches complexes sans être dirigée à chaque étape.",
+        "category": "outils",
+        "highlight_reason": "C'est un nouvel \"outil\" essentiel pour mesurer les performances des IA les plus avancées, en particulier leurs capacités à agir de manière autonome, et il montre que le chemin est encore long pour les IA actuelles."
+      },
+      {
+        "author_name": "Sundar Pichai",
+        "handle": "@sundarpichai",
+        "text_fr": "Un jalon \"hello world\" pour le Projet Suncatcher 🚀 Après avoir lancé notre prototype de satellite il y a quelques semaines, nous avons maintenant réussi à envoyer une commande en orbite, à démarrer le TPU, à exécuter l'invite, et à recevoir notre première réponse complète sur Terre - un haïku ! Vidéo",
+        "text_original": "A ‘hello world’ milestone for Project Suncatcher 🚀 After launching our prototype satellite a few weeks ago, we’ve now successfully sent a command up to orbit, booted up the TPU, ran the prompt, and received our first complete response back on earth - a haiku! Video",
+        "link": "https://nitter.kareem.one/sundarpichai/status/2116214866444943853#m",
+        "decryptage": "\"TPU\": Les TPU (Tensor Processing Units) sont des processeurs spéciaux conçus par Google pour rendre les calculs d'intelligence artificielle beaucoup plus rapides, un peu comme des muscles surpuissants pour l'IA. \"Prompt\": C'est l'instruction ou la question que vous donnez à une IA, comme \"Écris un poème sur les chats\" – c'est la \"demande\" qui lance la génération.",
+        "category": "actu",
+        "highlight_reason": "Ce tweet illustre de manière concrète et très \"parlante\" l'application de l'IA dans des projets futuristes (satellite avec IA), rendant la technologie palpable avec la génération d'un haïku depuis l'espace."
+      },
+      {
+        "author_name": "Harrison Chase",
+        "handle": "@hwchase17",
+        "text_fr": "Personnellement, j'ai le point de vue exactement inverse ! Construire un excellent \"harnais\" est un élément essentiel de la création d'un excellent produit. De nombreux exemples peuvent être demandés à un agent d'expliquer, comme la vidéo YouTube de Grok Bot, les blogs de Factory, nos blogs chez LangChain, les blogs Codex d'OpenAI, etc. Un excellent harnais est le reflet d'une excellente expérience utilisateur lors de l'interaction avec votre agent. Cela inclut : - l'ajustement des prompts (qui font souvent partie du harnais) - la création d'outils/compétences sur mesure qui transforment les flux de travail courants en un seul appel d'outil -> économie de contexte !!! - l'examen agressif des seuils de compaction pour votre cas d'utilisation donné - la vérification si une partie du travail peut être déchargée sur des modèles moins chers dans le harnais via des sous-agents/du routage - la construction de connecteurs pour que les agents puissent accéder et rechercher efficacement des informations utiles - le support du travail en arrière-plan afin que les utilisateurs obtiennent un retour immédiat pendant que d'autres tâches se poursuivent - la construction de la mémoire d'une manière pertinente pour vos utilisateurs. Tout cela n'est qu'une petite partie de l'univers auquel vous pensez lorsque vous construisez un harnais pour votre produit. L'ingénierie du harnais aide votre équipe à construire un meilleur produit et à mieux comprendre ce qui fait fonctionner votre modèle pour votre cas d'utilisation. De plus, chaque équipe qui construit des produits verticaux de pointe fait de l'ingénierie de harnais -> c'est absolument un avantage concurrentiel, et ce n'est pas grave si le nouveau modèle rend une partie du harnais inutile -> il y a tellement d'optimisations que vous pouvez faire à chaque échelle concernant les coûts, la latence, l'intelligence. Note connexe : l'importance d'avoir de bonnes évaluations est la capacité de faire évoluer rapidement votre harnais avec de nouveaux modèles et de faire confiance à la configuration. Ex : auto-recherche de votre harnais sur un bon ensemble d'évaluations auquel vous faites confiance. Les modèles de pointe peuvent faire beaucoup -> beaucoup de tâches peuvent être réalisées en une seule fois, mais beaucoup ne le peuvent pas au niveau Pareto intelligence-coût-vitesse dont vous avez besoin. Matt Shumer (@mattshumer_) Affiliation : l'ingénierie du harnais est (généralement) stupide. Utilisez simplement celui pour lequel le modèle a été entraîné et écrivez de très bons prompts comportementaux pour contrôler son fonctionnement. Appuyez-vous sur la manière dont les modèles veulent fonctionner. — https://nitter.kareem.one/mattshumer_/status/2116377535818891690#m",
+        "text_original": "personally have the exact opposite view here! building a great harness is a deeply core part of building a great product countless examples you can ask an agent to explain from Grok Bot YouTube video, Factory blogs, our blogs at LangChain, OpenAI’s Codex blogs, etc a great harness is a reflection of building a great experience for the user interacting with your agent. it includes - adjusting prompts (which are off part of the harness) - creating bespoke tools/skills that make common workflows a single tool call -> save on context!!! - aggressively examining thresholds for compaction for your given use case - checking if some work can be offloaded to cheaper models in the harness via subagents/routing - building connectors so agents can efficiently access and search over useful context - supporting background work so users get immediate feedback while other work continues to chug along - building memory in a way that matters for your users ^ this is a small portion of the entire world you think about when building a harness for your product Harness Engjneering helps your team build a better product and better understand of what makes your model tick for your use case also every team building frontier vertical products is harness engineering -> it’s absolutely an edge and it’s fine if the new model makes part of the harness unnecessary layer -> there’s so much optimization you can do at every scale across cost, latency, intelligence related note: the importance of having good evals is the ability to quickly hill climb your harness with new models and trust that the config ex: auto research your harness on a good eval set you trust the frontier models can do a lot -> a lot of tasks can just be one-shotted, but many can’t at the intelligence-cost-speed Pareto you need Matt Shumer (@mattshumer_) Hot take: harness engineering is (usually) stupid. Just use the one the model was trained for, and write really good behavior prompts to control how it works. Lean into how the models want to work. — https://nitter.kareem.one/mattshumer_/status/2116377535818891690#m",
+        "link": "https://nitter.kareem.one/Vtrivedy10/status/2116622802031710709#m",
+        "decryptage": "\"Harness engineering\": C'est l'art de créer tout ce qui entoure un modèle d'IA (prompts, outils, gestion de la mémoire) pour le rendre vraiment utile, efficace et facile à utiliser pour l'utilisateur final. \"Prompts\": Les prompts sont les instructions ou les questions que vous donnez à l'IA, et Harrison explique qu'il faut les ajuster finement pour guider au mieux le modèle.",
+        "category": "tips",
+        "highlight_reason": "Ce tweet est très instructif car il explique en détail pourquoi l'ingénierie du \"harnais\" est cruciale pour rendre les modèles d'IA réellement utiles et performants, offrant des conseils pratiques pour améliorer l'expérience utilisateur."
+      },
+      {
+        "author_name": "Harrison Chase",
+        "handle": "@hwchase17",
+        "text_fr": "💯 Un changement majeur vers des agents proactifs, toujours actifs et orientés objectifs est en train de commencer et prendra de l'ampleur au cours des prochains mois. Harrison Chase (@hwchase17) commente que, malgré les progrès, de nouveaux défis d'ingénierie de contexte passionnants émergent à mesure que les agents IA évoluent, convergeant vers une architecture standard : un LLM en boucle, appelant des outils et s'exécutant dans un bac à sable, avec Claude Code comme exemple pionnier. — https://nitter.kareem.one/hwchase17/status/2116553654857867330#m",
+        "text_original": "💯 A major shift toward proactive, always-on, goal-oriented agents is starting now and will gain momentum over the next few months Harrison Chase (@hwchase17) A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve! Article New context engineering challenges in late 2026 It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this — https://nitter.kareem.one/hwchase17/status/2116553654857867330#m",
+        "link": "https://nitter.kareem.one/mgreau/status/2116568126385238379#m",
+        "decryptage": "\"Agents proactifs, toujours actifs et orientés objectifs\": Ce sont des intelligences artificielles conçues pour anticiper les besoins, travailler en continu et viser activement l'accomplissement de buts spécifiques, plutôt que de simplement réagir à des commandes.",
+        "category": "idees",
+        "highlight_reason": "Il offre une vision claire de la direction que prend l'IA, vers des agents plus autonomes et intelligents, ce qui est une information clé pour anticiper les futurs développements et usages de l'IA."
+      }
+    ],
+    "by_category": {
+      "actu": [
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "こんにちは、日本！Bonjour Japon ! Waymo (@Waymo) Aujourd'hui, nous annonçons la prochaine étape de notre collaboration en matière de conduite autonome avec @ToyotaMotorCorp pour déployer une flotte de véhicules autonomes bZ4X au Japon, en commençant par les tests et la validation en 2027. Pour en savoir plus sur notre partenariat : waymo.com/blog/2026/10/toyot… __ 本日、 @ToyotaMotorCorp との自動運転分野における協業を新たな段階へと進めることを発表します。2027年に開始する試験および検証を皮切りに、日本国内で「bZ4X」の自動運転フリートの拡大を進めてまいります。 パートナーシップの詳細はこちらをご覧ください： waymo.com/blog/2026/10/toyot… — https://nitter.kareem.one/Waymo/status/2116066556103069957#m",
+          "text_original": "こんにちは、日本！Hello Japan! Waymo (@Waymo) Today, we’re announcing the next phase of our autonomous driving collaboration with @ToyotaMotorCorp to scale a fleet of bZ4X autonomous vehicles in Japan, beginning with testing and validation in 2027. Read more about our partnership here: waymo.com/blog/2026/10/toyot… __ 本日、 @ToyotaMotorCorp との自動運転分野における協業を新たな段階へと進めることを発表します。2027年に開始する試験および検証を皮切りに、日本国内で「bZ4X」の自動運転フリートの拡大を進めてまいります。 パートナーシップの詳細はこちらをご覧ください： waymo.com/blog/2026/10/toyot… — https://nitter.kareem.one/Waymo/status/2116066556103069957#m",
+          "link": "https://nitter.kareem.one/sundarpichai/status/2116233367020859888#m",
+          "decryptage": "\"Conduite autonome\": Il s'agit de voitures capables de rouler toutes seules, sans intervention humaine, grâce à des systèmes d'IA et des capteurs, un peu comme un pilote automatique pour voiture.",
+          "category": "actu"
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Un jalon \"hello world\" pour le Projet Suncatcher 🚀 Après avoir lancé notre prototype de satellite il y a quelques semaines, nous avons maintenant réussi à envoyer une commande en orbite, à démarrer le TPU, à exécuter l'invite, et à recevoir notre première réponse complète sur Terre - un haïku ! Vidéo",
+          "text_original": "A ‘hello world’ milestone for Project Suncatcher 🚀 After launching our prototype satellite a few weeks ago, we’ve now successfully sent a command up to orbit, booted up the TPU, ran the prompt, and received our first complete response back on earth - a haiku! Video",
+          "link": "https://nitter.kareem.one/sundarpichai/status/2116214866444943853#m",
+          "decryptage": "\"TPU\": Les TPU (Tensor Processing Units) sont des processeurs spéciaux conçus par Google pour rendre les calculs d'intelligence artificielle beaucoup plus rapides, un peu comme des muscles surpuissants pour l'IA. \"Prompt\": C'est l'instruction ou la question que vous donnez à une IA, comme \"Écris un poème sur les chats\" – c'est la \"demande\" qui lance la génération.",
+          "category": "actu"
+        },
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Lisez mes commentaires complets ici : blog.google/company-news/ins… Lien Appel de résultats du T3 2026 : Commentaires de notre PDG Lisez les commentaires de Sundar Pichai lors de l'appel de résultats du T3 2026 d'Alphabet. blog.google",
+          "text_original": "Read my full remarks here: blog.google/company-news/ins… Link Q3 2026 earnings call: Remarks from our CEO Read Sundar Pichai’s remarks during Alphabet’s Q3 2026 earnings call. blog.google",
+          "link": "https://nitter.kareem.one/sundarpichai/status/2115557846066819074#m",
+          "decryptage": null,
+          "category": "actu"
+        }
+      ],
+      "tips": [
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "Personnellement, j'ai le point de vue exactement inverse ! Construire un excellent \"harnais\" est un élément essentiel de la création d'un excellent produit. De nombreux exemples peuvent être demandés à un agent d'expliquer, comme la vidéo YouTube de Grok Bot, les blogs de Factory, nos blogs chez LangChain, les blogs Codex d'OpenAI, etc. Un excellent harnais est le reflet d'une excellente expérience utilisateur lors de l'interaction avec votre agent. Cela inclut : - l'ajustement des prompts (qui font souvent partie du harnais) - la création d'outils/compétences sur mesure qui transforment les flux de travail courants en un seul appel d'outil -> économie de contexte !!! - l'examen agressif des seuils de compaction pour votre cas d'utilisation donné - la vérification si une partie du travail peut être déchargée sur des modèles moins chers dans le harnais via des sous-agents/du routage - la construction de connecteurs pour que les agents puissent accéder et rechercher efficacement des informations utiles - le support du travail en arrière-plan afin que les utilisateurs obtiennent un retour immédiat pendant que d'autres tâches se poursuivent - la construction de la mémoire d'une manière pertinente pour vos utilisateurs. Tout cela n'est qu'une petite partie de l'univers auquel vous pensez lorsque vous construisez un harnais pour votre produit. L'ingénierie du harnais aide votre équipe à construire un meilleur produit et à mieux comprendre ce qui fait fonctionner votre modèle pour votre cas d'utilisation. De plus, chaque équipe qui construit des produits verticaux de pointe fait de l'ingénierie de harnais -> c'est absolument un avantage concurrentiel, et ce n'est pas grave si le nouveau modèle rend une partie du harnais inutile -> il y a tellement d'optimisations que vous pouvez faire à chaque échelle concernant les coûts, la latence, l'intelligence. Note connexe : l'importance d'avoir de bonnes évaluations est la capacité de faire évoluer rapidement votre harnais avec de nouveaux modèles et de faire confiance à la configuration. Ex : auto-recherche de votre harnais sur un bon ensemble d'évaluations auquel vous faites confiance. Les modèles de pointe peuvent faire beaucoup -> beaucoup de tâches peuvent être réalisées en une seule fois, mais beaucoup ne le peuvent pas au niveau Pareto intelligence-coût-vitesse dont vous avez besoin. Matt Shumer (@mattshumer_) Affiliation : l'ingénierie du harnais est (généralement) stupide. Utilisez simplement celui pour lequel le modèle a été entraîné et écrivez de très bons prompts comportementaux pour contrôler son fonctionnement. Appuyez-vous sur la manière dont les modèles veulent fonctionner. — https://nitter.kareem.one/mattshumer_/status/2116377535818891690#m",
+          "text_original": "personally have the exact opposite view here! building a great harness is a deeply core part of building a great product countless examples you can ask an agent to explain from Grok Bot YouTube video, Factory blogs, our blogs at LangChain, OpenAI’s Codex blogs, etc a great harness is a reflection of building a great experience for the user interacting with your agent. it includes - adjusting prompts (which are off part of the harness) - creating bespoke tools/skills that make common workflows a single tool call -> save on context!!! - aggressively examining thresholds for compaction for your given use case - checking if some work can be offloaded to cheaper models in the harness via subagents/routing - building connectors so agents can efficiently access and search over useful context - supporting background work so users get immediate feedback while other work continues to chug along - building memory in a way that matters for your users ^ this is a small portion of the entire world you think about when building a harness for your product Harness Engjneering helps your team build a better product and better understand of what makes your model tick for your use case also every team building frontier vertical products is harness engineering -> it’s absolutely an edge and it’s fine if the new model makes part of the harness unnecessary layer -> there’s so much optimization you can do at every scale across cost, latency, intelligence related note: the importance of having good evals is the ability to quickly hill climb your harness with new models and trust that the config ex: auto research your harness on a good eval set you trust the frontier models can do a lot -> a lot of tasks can just be one-shotted, but many can’t at the intelligence-cost-speed Pareto you need Matt Shumer (@mattshumer_) Hot take: harness engineering is (usually) stupid. Just use the one the model was trained for, and write really good behavior prompts to control how it works. Lean into how the models want to work. — https://nitter.kareem.one/mattshumer_/status/2116377535818891690#m",
+          "link": "https://nitter.kareem.one/Vtrivedy10/status/2116622802031710709#m",
+          "decryptage": "\"Harness engineering\": C'est l'art de créer tout ce qui entoure un modèle d'IA (prompts, outils, gestion de la mémoire) pour le rendre vraiment utile, efficace et facile à utiliser pour l'utilisateur final. \"Prompts\": Les prompts sont les instructions ou les questions que vous donnez à l'IA, et Harrison explique qu'il faut les ajuster finement pour guider au mieux le modèle.",
+          "category": "tips"
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "Vous voulez apprendre à utiliser les modèles de décision avec langgraph/deepagents ? Nous organisons une rencontre avec Typesafe (les créateurs de Jev) la semaine prochaine, venez nous rejoindre ! luma.com/iuc3ostf",
+          "text_original": "want to learn how to use decision models with langgraph/deepagents? we're doing a meetup with Typesafe (Jev creators) next week come join! luma.com/iuc3ostf",
+          "link": "https://nitter.kareem.one/hwchase17/status/2116556551993413744#m",
+          "decryptage": "\"Modèles de décision\": Ce sont des outils IA qui aident à faire des choix en analysant des informations et en suivant une logique, comme un système qui vous dirait \"si A alors B\". \"LangGraph/DeepAgents\": Ce sont des outils pour les développeurs qui simplifient la création d'agents IA complexes, en les aidant à organiser leurs actions et leurs \"réflexions\".",
+          "category": "tips"
+        }
+      ],
+      "idees": [
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "J'adore que l'ingénierie des agents continue de rencontrer de nouveaux problèmes étranges à mesure que ces choses évoluent. Harrison Chase (@hwchase17) observe que bien que de nombreux défis dans la conception d'agents IA aient des solutions établies, de nouveaux défis passionnants apparaissent avec leur évolution. Il souligne que l'architecture commune actuelle des agents implique un LLM fonctionnant en boucle, utilisant des outils et s'exécutant dans un environnement sécurisé, citant Claude Code comme un exemple notable. — https://nitter.kareem.one/hwchase17/status/2116553654857867330#m",
+          "text_original": "I love that agent engineering keeps getting new weird problems as these things evolve Harrison Chase (@hwchase17) A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve! Article New context engineering challenges in late 2026 It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this — https://nitter.kareem.one/hwchase17/status/2116553654857867330#m",
+          "link": "https://nitter.kareem.one/_loganfairchild/status/2117022599553351741#m",
+          "decryptage": "\"Ingénierie des agents\": C'est la discipline qui consiste à concevoir, développer et perfectionner des programmes d'IA capables d'agir de manière autonome pour accomplir des tâches complexes. \"LLM\": Acronyme pour \"Large Language Model\", ce sont des modèles d'IA très avancés qui comprennent et génèrent du texte, comme les \"cerveaux\" derrière les chatbots modernes.",
+          "category": "idees"
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "💯 Un changement majeur vers des agents proactifs, toujours actifs et orientés objectifs est en train de commencer et prendra de l'ampleur au cours des prochains mois. Harrison Chase (@hwchase17) commente que, malgré les progrès, de nouveaux défis d'ingénierie de contexte passionnants émergent à mesure que les agents IA évoluent, convergeant vers une architecture standard : un LLM en boucle, appelant des outils et s'exécutant dans un bac à sable, avec Claude Code comme exemple pionnier. — https://nitter.kareem.one/hwchase17/status/2116553654857867330#m",
+          "text_original": "💯 A major shift toward proactive, always-on, goal-oriented agents is starting now and will gain momentum over the next few months Harrison Chase (@hwchase17) A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve! Article New context engineering challenges in late 2026 It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this — https://nitter.kareem.one/hwchase17/status/2116553654857867330#m",
+          "link": "https://nitter.kareem.one/mgreau/status/2116568126385238379#m",
+          "decryptage": "\"Agents proactifs, toujours actifs et orientés objectifs\": Ce sont des intelligences artificielles conçues pour anticiper les besoins, travailler en continu et viser activement l'accomplissement de buts spécifiques, plutôt que de simplement réagir à des commandes.",
+          "category": "idees"
+        },
+        {
+          "author_name": "Harrison Chase",
+          "handle": "@hwchase17",
+          "text_fr": "Beaucoup de défis d'ingénierie de contenu ont des solutions assez standard, ce qui a poussé certains ingénieurs à dire que l'ingénierie des agents est résolue/ennuyeuse. C'est vrai dans une certaine mesure, mais il y en a un tas de nouveaux (et amusants) qui émergent à mesure que les agents évoluent ! Article Nouveaux défis d'ingénierie de contexte fin 2026. On a l'impression que tout le monde converge vers la même architecture d'agent : un LLM, fonctionnant en boucle, appelant des outils, s'exécutant dans un bac à sable. Claude Code - peut-être la première manifestation de haut niveau de cela",
+          "text_original": "A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve! Article New context engineering challenges in late 2026 It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this",
+          "link": "https://nitter.kareem.one/hwchase17/status/2116553654857867330#m",
+          "decryptage": "\"Architecture d'agent\": C'est la manière dont un agent IA est construit et organisé, incluant ses composants (comme un LLM) et la façon dont ils travaillent ensemble pour accomplir des tâches. \"Sandbox\": Un \"bac à sable\" est un environnement numérique sécurisé où l'IA peut tester des choses sans risquer d'endommager le système principal.",
+          "category": "idees"
+        }
+      ],
+      "outils": [
+        {
+          "author_name": "Sundar Pichai",
+          "handle": "@sundarpichai",
+          "text_fr": "Super de voir des benchmarks de haute qualité avec de la marge de progression, et regardez cette ligne de coût pour le Carbone 🚀 SemiAnalysis (@SemiAnalysis_) Aujourd'hui, nous lançons GDPx, un benchmark pour mesurer les capacités agentiques dans les domaines les plus précieux. GDPx est un véritable benchmark de pointe : même le meilleur modèle n'atteint que 12% (1/7)🧵 — https://nitter.kareem.one/SemiAnalysis_/status/2117075900575477855#m",
+          "text_original": "Great to see high quality benchmarks with headroom and look at that cost line for Carbon🚀 SemiAnalysis (@SemiAnalysis_) Today we’re releasing GDPx, a benchmark for measuring agentic capabilities across the most valuable domains. GDPx is a true frontier-level benchmark: even the best model scores just 12% (1/7)🧵 — https://nitter.kareem.one/SemiAnalysis_/status/2117075900575477855#m",
+          "link": "https://nitter.kareem.one/sundarpichai/status/2117113121102045347#m",
+          "decryptage": "\"Benchmark\": Un benchmark est un test standardisé qui permet d'évaluer et de comparer les performances des différents modèles d'IA, comme une sorte de bulletin de notes. \"Capacités agentiques\": Ce sont les compétences d'une IA à agir de manière autonome, à prendre des décisions et à réaliser des tâches complexes sans être dirigée à chaque étape.",
+          "category": "outils"
+        }
+      ]
+    }
+  },
+  "processed_at": "2026-11-02T16:21:25",
+  "validation": {
+    "translated_pct": 100,
+    "with_decryptage_pct": 92,
+    "total": 13,
+    "needs_retranslation_count": 0
+  },
+  "email_sent_at": "2026-11-02T16:21:26"
+}
