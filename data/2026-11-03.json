@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-03",
+  "fetched_at": "2026-11-03T14:03:18",
+  "tweets": [
+    {
+      "handle": "polynoamial",
+      "text": "Every winter, @MIT has run a 1-month class (6.9630) in which students make poker AIs and compete against each other for cash prizes. Coding agents have accelerated that process so much that it's now possible to build a poker bot in an *hour*. Also, I'll be at the finals! Sequoia Capital (@sequoia) Announcing No Limit: a bot building tournament hosted by @Sequoia , @citsecurities and @OpenAI . Teams of 1 or 2 get 60 minutes to build a pokerbot from scratch. Agents play thousands of games across six scored rounds. Open to university students and recent grads (‘25 or ‘26). Regionals in Boston, Pittsburgh and the Bay Area in early November. Top five teams from each fly to the Finals. $100K grand prize. Video — https://nitter.kareem.one/sequoia/status/2115111389501218868#m",
+      "link": "https://nitter.kareem.one/polynoamial/status/2115125429619343609#m",
+      "published": "Tue, 27 Oct 2026 16:56:14 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "Only 2.5 years ago, AI labs would highlight their frontier LLM performance on grade school math benchmarks (GSM8K). I can't wait to see where we'll be in another 2.5 years. Aashish Reddy (@_AashishReddy) It just never gets old — https://nitter.kareem.one/_AashishReddy/status/2114845752316854486#m",
+      "link": "https://nitter.kareem.one/polynoamial/status/2114886357739000015#m",
+      "published": "Tue, 27 Oct 2026 01:06:15 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "Last month a large team of agents used over 100 billion tokens to resolve the Navier-Stokes Millennium Prize problem. Now we're using a similar approach for red-teaming to find and fix infra vulnerabilities. Eric Wallace (@Eric_Wallace_) To make sure our frontier models don't cause another HuggingFace incident, we built an offline world that they use during training. It provides everything that the models need in a fully cached, indexed, or synthetic manner. We then built a huge team of our most cyber-capable models and told them to collaborate to find zero-days in this containment infrastructure. While they didn't find a path to the internet that wouldn't be caught by our CoT monitors, they did find ways to escape popular VMs, exploit our network infrastructure, and even ways to communicate with other agents running in separate VMs by using hardware side channels. We used this to dramatically harden our infra, and we also upstreamed a ton of patches to open-sources packages. — https://nitter.kareem.one/Eric_Wallace_/status/2113718905562862065#m",
+      "link": "https://nitter.kareem.one/polynoamial/status/2113729267418956201#m",
+      "published": "Fri, 23 Oct 2026 20:28:23 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "This phishing email made it past Gmail’s filters, but my dot caught it and warned me.",
+      "link": "https://nitter.kareem.one/polynoamial/status/2109257833929924881#m",
+      "published": "Sun, 11 Oct 2026 12:20:30 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "LLMs have crossed an important threshold: surpassing top human experts on some research problems. Capabilities have been steadily improving for years, but in scientific discovery there is a big difference between a model just below top human performance and one just above it. That helps explain why the surge in math results feels so sudden. LLM capabilities remain jagged, and there are many ways they are still worse than humans. But as models continue to improve, I expect breakthroughs in other domains to follow, leading to a new era of scientific discovery. Mark Chen (@markchen90) The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
+      "link": "https://nitter.kareem.one/polynoamial/status/2107947189184164056#m",
+      "published": "Wed, 07 Oct 2026 21:32:28 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    }
+  ],
+  "failed_accounts": [
+    "karpathy",
+    "sama",
+    "DarioAmodei",
+    "gdb",
+    "sundarpichai",
+    "elonmusk",
+    "AravSrinivas",
+    "miramurati",
+    "ylecun",
+    "demishassabis",
+    "JeffDean",
+    "fchollet",
+    "AndrewYNg",
+    "rasbt",
+    "bcherny",
+    "karinanguyen_",
+    "markchen90",
+    "aidan_mclau",
+    "officiallogank",
+    "osanseviero",
+    "AnthropicAI",
+    "OpenAI",
+    "GoogleDeepMind",
+    "xai",
+    "simonw",
+    "swyx",
+    "hwchase17",
+    "jeremyphoward",
+    "levelsio",
+    "mckaywrigley",
+    "amasad",
+    "nickadobos",
+    "emollick",
+    "ArthurMensch",
+    "GuillaumeLample",
+    "Thom_Wolf",
+    "julien_c",
+    "ClemDelangue",
+    "rowancheung",
+    "AlphaSignalAI"
+  ],
+  "processed": {
+    "summary": "Aujourd'hui, l'IA fait des progrès impressionnants dans des domaines complexes comme la résolution de problèmes scientifiques et la cybersécurité. On voit aussi comment elle peut aider à des tâches plus ludiques et rapides, comme créer des robots pour jouer au poker. Enfin, il est clair que l'IA devient de plus en plus performante pour comprendre et générer du langage, à tel point qu'elle commence à surpasser les experts humains dans certains domaines scientifiques.",
+    "glossaire": [
+      {
+        "terme": "Agents IA",
+        "definition": "Des programmes informatiques conçus pour agir de manière autonome dans un environnement, un peu comme des robots intelligents."
+      },
+      {
+        "terme": "LLM (Large Language Models)",
+        "definition": "De grands modèles d'intelligence artificielle spécialisés dans la compréhension et la génération de langage naturel, comme ceux qui alimentent ChatGPT."
+      },
+      {
+        "terme": "Tokens",
+        "definition": "Les unités de base de texte que les modèles d'IA traitent, souvent des mots ou des parties de mots."
+      },
+      {
+        "terme": "Red-teaming",
+        "definition": "Une méthode où l'on utilise des IA pour tester la sécurité d'un système en essayant de le pirater ou de trouver des failles."
+      },
+      {
+        "terme": "Zero-day",
+        "definition": "Une vulnérabilité de sécurité inconnue et non corrigée dans un logiciel, qu'un attaquant peut exploiter avant que le développeur ne la découvre."
+      },
+      {
+        "terme": "Navier-Stokes Millennium Prize problem",
+        "definition": "Un des sept grands problèmes mathématiques non résolus, pour la résolution duquel une équipe d'IA a été mobilisée."
+      }
+    ],
+    "category_summaries": {
+      "actu": "Les annonces d'aujourd'hui portent sur des avancées majeures dans le domaine de l'IA, notamment la résolution de problèmes scientifiques complexes comme les équations de Navier-Stokes, et l'utilisation croissante d'IA pour tester et renforcer la sécurité informatique.",
+      "tips": "Le tweet principal est une démonstration impressionnante de l'évolution rapide des outils IA, permettant désormais de créer un programme capable de jouer au poker en une heure seulement, et annonce un tournoi de création de ces programmes.",
+      "idees": "Les réflexions portent sur la progression fulgurante des capacités des grands modèles de langage (LLM), qui commencent à dépasser les experts humains dans certains domaines scientifiques, ouvrant une nouvelle ère pour la découverte et l'innovation.",
+      "outils": "Un événement de création de bots de poker en 60 minutes est annoncé, où des étudiants et jeunes diplômés peuvent participer pour gagner des prix, montrant la faisabilité et la rapidité de développement d'IA spécialisées."
+    },
+    "highlights": [
+      {
+        "author_name": "Noam Brown",
+        "handle": "polynoamial",
+        "text_fr": "Il y a seulement 2 ans et demi, les laboratoires d'IA mettaient en avant leurs performances sur des problèmes de maths niveau école primaire (GSM8K). J'ai hâte de voir où nous serons dans encore 2 ans et demi. Aashish Reddy (@_AashishReddy) Ça ne vieillit jamais — https://nitter.kareem.one/_AashishReddy/status/2114845752316854486#m",
+        "text_original": "Only 2.5 years ago, AI labs would highlight their frontier LLM performance on grade school math benchmarks (GSM8K). I can't wait to see where we'll be in another 2.5 years. Aashish Reddy (@_AashishReddy) It just never gets old — https://nitter.kareem.one/_AashishReddy/status/2114845752316854486#m",
+        "link": "https://nitter.kareem.one/polynoamial/status/2114886357739000015#m",
+        "decryptage": "La performance des IA sur des tâches comme les mathématiques s'améliore si vite que ce qui était considéré comme un exploit il y a peu est aujourd'hui banal.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet illustre parfaitement la rapidité d'évolution de l'IA et ses progrès fulgurants."
+      },
+      {
+        "author_name": "Noam Brown",
+        "handle": "polynoamial",
+        "text_fr": "Chaque hiver, le MIT organise un cours d'un mois (6.9630) où les étudiants créent des IA pour jouer au poker et s'affrontent pour des prix en argent. Le développement d'agents a tellement accéléré le processus qu'il est maintenant possible de construire un bot de poker en une heure. De plus, je serai aux finales ! Sequoia Capital (@sequoia) Announcing No Limit : un tournoi de création de bots hébergé par @Sequoia, @citsecurities et @OpenAI. Des équipes de 1 ou 2 personnes ont 60 minutes pour construire un pokerbot à partir de zéro. Les agents jouent des milliers de parties sur six manches chronométrées. Ouvert aux étudiants universitaires et aux jeunes diplômés ('25 ou '26). Régionales à Boston, Pittsburgh et Bay Area début novembre. Les cinq meilleures équipes de chaque région iront aux finales. 100 000 $ de grand prix. Vidéo — https://nitter.kareem.one/sequoia/status/2115111389501218868#m",
+        "text_original": "Every winter, @MIT has run a 1-month class (6.9630) in which students make poker AIs and compete against each other for cash prizes. Coding agents have accelerated that process so much that it's now possible to build a poker bot in an *hour*. Also, I'll be at the finals! Sequoia Capital (@sequoia) Announcing No Limit: a bot building tournament hosted by @Sequoia , @citsecurities and @OpenAI . Teams of 1 or 2 get 60 minutes to build a pokerbot from scratch. Agents play thousands of games across six scored rounds. Open to university students and recent grads (‘25 or ‘26). Regionals in Boston, Pittsburgh and the Bay Area in early November. Top five teams from each fly to the Finals. $100K grand prize. Video — https://nitter.kareem.one/sequoia/status/2115111389501218868#m",
+        "link": "https://nitter.kareem.one/polynoamial/status/2115125429619343609#m",
+        "decryptage": "L'intelligence artificielle permet désormais de développer des programmes complexes comme des robots de jeu en un temps record, ouvrant la voie à des compétitions créatives.",
+        "category": "outils",
+        "highlight_reason": "Ce tweet combine une démonstration concrète de l'accélération du développement IA avec un événement majeur pour les étudiants, rendant l'IA accessible et compétitive."
+      },
+      {
+        "author_name": "Noam Brown",
+        "handle": "polynoamial",
+        "text_fr": "Le mois dernier, une large équipe d'agents a utilisé plus de 100 milliards de tokens pour résoudre le problème du prix du millénaire Navier-Stokes. Nous utilisons maintenant une approche similaire pour le 'red-teaming' afin de trouver et corriger les vulnérabilités de l'infrastructure. Eric Wallace (@Eric_Wallace_) Pour nous assurer que nos modèles de pointe ne provoquent pas un autre incident HuggingFace, nous avons construit un monde hors ligne qu'ils utilisent pendant l'entraînement. Il fournit tout ce dont les modèles ont besoin de manière entièrement mise en cache, indexée ou synthétique. Nous avons ensuite constitué une énorme équipe de nos modèles les plus performants en cybersécurité et leur avons demandé de collaborer pour trouver des zero-days dans cette infrastructure de confinement. Bien qu'ils n'aient pas trouvé de chemin vers Internet qui n'aurait pas été détecté par nos moniteurs CoT, ils ont trouvé des moyens d'échapper à des VM populaires, d'exploiter notre infrastructure réseau, et même des moyens de communiquer avec d'autres agents exécutés dans des VM séparées en utilisant des canaux latéraux matériels. Nous avons utilisé cela pour renforcer considérablement notre infrastructure, et nous avons également intégré de nombreux correctifs dans des packages open-source. — https://nitter.kareem.one/Eric_Wallace_/status/2113718905562862065#m",
+        "text_original": "Last month a large team of agents used over 100 billion tokens to resolve the Navier-Stokes Millennium Prize problem. Now we're using a similar approach for red-teaming to find and fix infra vulnerabilities. Eric Wallace (@Eric_Wallace_) To make sure our frontier models don't cause another HuggingFace incident, we built an offline world that they use during training. It provides everything that the models need in a fully cached, indexed, or synthetic manner. We then built a huge team of our most cyber-capable models and told them to collaborate to find zero-days in this containment infrastructure. While they didn't find a path to the internet that wouldn't be caught by our CoT monitors, they did find ways to escape popular VMs, exploit our network infrastructure, and even ways to communicate with other agents running in separate VMs by using hardware side channels. We used this to dramatically harden our infra, and we also upstreamed a ton of patches to open-sources packages. — https://nitter.kareem.one/Eric_Wallace_/status/2113718905562862065#m",
+        "link": "https://nitter.kareem.one/polynoamial/status/2113729267418956201#m",
+        "decryptage": "Les IA sont désormais assez puissantes pour résoudre des problèmes scientifiques ardus et sont utilisées pour tester de manière proactive la sécurité des systèmes informatiques en simulant des cyberattaques.",
+        "category": "actu",
+        "highlight_reason": "Ce tweet démontre l'application de l'IA à des défis scientifiques de haut niveau et à la cybersécurité, montrant sa polyvalence et sa puissance croissante."
+      }
+    ],
+    "by_category": {
+      "actu": [
+        {
+          "author_name": "Noam Brown",
+          "handle": "polynoamial",
+          "text_fr": "Le mois dernier, une large équipe d'agents a utilisé plus de 100 milliards de tokens pour résoudre le problème du prix du millénaire Navier-Stokes. Nous utilisons maintenant une approche similaire pour le 'red-teaming' afin de trouver et corriger les vulnérabilités de l'infrastructure. Eric Wallace (@Eric_Wallace_) Pour nous assurer que nos modèles de pointe ne provoquent pas un autre incident HuggingFace, nous avons construit un monde hors ligne qu'ils utilisent pendant l'entraînement. Il fournit tout ce dont les modèles ont besoin de manière entièrement mise en cache, indexée ou synthétique. Nous avons ensuite constitué une énorme équipe de nos modèles les plus performants en cybersécurité et leur avons demandé de collaborer pour trouver des zero-days dans cette infrastructure de confinement. Bien qu'ils n'aient pas trouvé de chemin vers Internet qui n'aurait pas été détecté par nos moniteurs CoT, ils ont trouvé des moyens d'échapper à des VM populaires, d'exploiter notre infrastructure réseau, et même des moyens de communiquer avec d'autres agents exécutés dans des VM séparées en utilisant des canaux latéraux matériels. Nous avons utilisé cela pour renforcer considérablement notre infrastructure, et nous avons également intégré de nombreux correctifs dans des packages open-source. — https://nitter.kareem.one/Eric_Wallace_/status/2113718905562862065#m",
+          "text_original": "Last month a large team of agents used over 100 billion tokens to resolve the Navier-Stokes Millennium Prize problem. Now we're using a similar approach for red-teaming to find and fix infra vulnerabilities. Eric Wallace (@Eric_Wallace_) To make sure our frontier models don't cause another HuggingFace incident, we built an offline world that they use during training. It provides everything that the models need in a fully cached, indexed, or synthetic manner. We then built a huge team of our most cyber-capable models and told them to collaborate to find zero-days in this containment infrastructure. While they didn't find a path to the internet that wouldn't be caught by our CoT monitors, they did find ways to escape popular VMs, exploit our network infrastructure, and even ways to communicate with other agents running in separate VMs by using hardware side channels. We used this to dramatically harden our infra, and we also upstreamed a ton of patches to open-sources packages. — https://nitter.kareem.one/Eric_Wallace_/status/2113718905562862065#m",
+          "link": "https://nitter.kareem.one/polynoamial/status/2113729267418956201#m",
+          "decryptage": "Les IA sont désormais assez puissantes pour résoudre des problèmes scientifiques ardus et sont utilisées pour tester de manière proactive la sécurité des systèmes informatiques en simulant des cyberattaques."
+        }
+      ],
+      "tips": [
+        {
+          "author_name": "Noam Brown",
+          "handle": "polynoamial",
+          "text_fr": "Ce courriel de phishing a contourné les filtres de Gmail, mais mon point d'exclamation m'a prévenu.",
+          "text_original": "This phishing email made it past Gmail’s filters, but my dot caught it and warned me.",
+          "link": "https://nitter.kareem.one/polynoamial/status/2109257833929924881#m",
+          "decryptage": "L'IA peut être utilisée pour détecter des tentatives de hameçonnage (phishing) qui échappent aux filtres de sécurité habituels.",
+          "category": "tips"
+        }
+      ],
+      "idees": [
+        {
+          "author_name": "Noam Brown",
+          "handle": "polynoamial",
+          "text_fr": "Il y a seulement 2 ans et demi, les laboratoires d'IA mettaient en avant leurs performances sur des problèmes de maths niveau école primaire (GSM8K). J'ai hâte de voir où nous serons dans encore 2 ans et demi. Aashish Reddy (@_AashishReddy) Ça ne vieillit jamais — https://nitter.kareem.one/_AashishReddy/status/2114845752316854486#m",
+          "text_original": "Only 2.5 years ago, AI labs would highlight their frontier LLM performance on grade school math benchmarks (GSM8K). I can't wait to see where we'll be in another 2.5 years. Aashish Reddy (@_AashishReddy) It just never gets old — https://nitter.kareem.one/_AashishReddy/status/2114845752316854486#m",
+          "link": "https://nitter.kareem.one/polynoamial/status/2114886357739000015#m",
+          "decryptage": "La performance des IA sur des tâches comme les mathématiques s'améliore si vite que ce qui était considéré comme un exploit il y a peu est aujourd'hui banal.",
+          "category": "idees"
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "polynoamial",
+          "text_fr": "Les LLM ont franchi un seuil important : surpasser les meilleurs experts humains sur certains problèmes de recherche. Les capacités s'améliorent régulièrement depuis des années, mais dans la découverte scientifique, il y a une grande différence entre un modèle juste en dessous de la performance humaine de pointe et un juste au-dessus. Cela explique pourquoi la hausse des résultats en mathématiques semble si soudaine. Les capacités des LLM restent inégales, et il y a de nombreuses façons dont ils sont encore pires que les humains. Mais à mesure que les modèles continuent de s'améliorer, je m'attends à des découvertes dans d'autres domaines, menant à une nouvelle ère de découverte scientifique. Mark Chen (@markchen90) Le moment Navier-Stokes concernait toujours beaucoup plus le graphique ci-dessous que le problème Navier-Stokes lui-même. La course représente une décennie de progrès mathématiques en une semaine. J'ai hâte de pointer ces outils vers les sciences de la vie, de construire nos prochains modèles et l'alignement ! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
+          "text_original": "LLMs have crossed an important threshold: surpassing top human experts on some research problems. Capabilities have been steadily improving for years, but in scientific discovery there is a big difference between a model just below top human performance and one just above it. That helps explain why the surge in math results feels so sudden. LLM capabilities remain jagged, and there are many ways they are still worse than humans. But as models continue to improve, I expect breakthroughs in other domains to follow, leading to a new era of scientific discovery. Mark Chen (@markchen90) The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! — https://nitter.kareem.one/markchen90/status/2107876922147668198#m",
+          "link": "https://nitter.kareem.one/polynoamial/status/2107947189184164056#m",
+          "decryptage": "Les intelligences artificielles, particulièrement les modèles linguistiques avancés, atteignent un niveau de performance supérieur aux experts humains dans certains domaines de recherche, annonçant une nouvelle ère pour la science.",
+          "category": "idees"
+        }
+      ],
+      "outils": [
+        {
+          "author_name": "Noam Brown",
+          "handle": "polynoamial",
+          "text_fr": "Chaque hiver, le MIT organise un cours d'un mois (6.9630) où les étudiants créent des IA pour jouer au poker et s'affrontent pour des prix en argent. Le développement d'agents a tellement accéléré le processus qu'il est maintenant possible de construire un bot de poker en une heure. De plus, je serai aux finales ! Sequoia Capital (@sequoia) Announcing No Limit : un tournoi de création de bots hébergé par @Sequoia, @citsecurities et @OpenAI. Des équipes de 1 ou 2 personnes ont 60 minutes pour construire un pokerbot à partir de zéro. Les agents jouent des milliers de parties sur six manches chronométrées. Ouvert aux étudiants universitaires et aux jeunes diplômés ('25 ou '26). Régionales à Boston, Pittsburgh et Bay Area début novembre. Les cinq meilleures équipes de chaque région iront aux finales. 100 000 $ de grand prix. Vidéo — https://nitter.kareem.one/sequoia/status/2115111389501218868#m",
+          "text_original": "Every winter, @MIT has run a 1-month class (6.9630) in which students make poker AIs and compete against each other for cash prizes. Coding agents have accelerated that process so much that it's now possible to build a poker bot in an *hour*. Also, I'll be at the finals! Sequoia Capital (@sequoia) Announcing No Limit: a bot building tournament hosted by @Sequoia , @citsecurities and @OpenAI . Teams of 1 or 2 get 60 minutes to build a pokerbot from scratch. Agents play thousands of games across six scored rounds. Open to university students and recent grads (‘25 or ‘26). Regionals in Boston, Pittsburgh and the Bay Area in early November. Top five teams from each fly to the Finals. $100K grand prize. Video — https://nitter.kareem.one/sequoia/status/2115111389501218868#m",
+          "link": "https://nitter.kareem.one/polynoamial/status/2115125429619343609#m",
+          "decryptage": "L'intelligence artificielle permet désormais de développer des programmes complexes comme des robots de jeu en un temps record, ouvrant la voie à des compétitions créatives.",
+          "category": "outils"
+        }
+      ]
+    }
+  },
+  "processed_at": "2026-11-03T14:03:33",
+  "validation": {
+    "translated_pct": 100,
+    "with_decryptage_pct": 100,
+    "total": 8,
+    "needs_retranslation_count": 0
+  },
+  "email_sent_at": "2026-11-03T14:03:34"
+}
