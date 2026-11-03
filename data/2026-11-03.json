@@ -1,50 +1,185 @@
 {
   "date": "2026-11-03",
-  "fetched_at": "2026-11-03T15:29:29",
+  "fetched_at": "2026-11-03T16:09:02",
   "tweets": [
     {
-      "handle": "emollick",
-      "text": "This would have cost $4.81 in Opus 5.5 API fees (but is a small part of my Claude subscription)",
-      "link": "https://nitter.kareem.one/emollick/status/2117510241353093170#m",
-      "published": "Tue, 03 Nov 2026 06:52:37 GMT",
-      "author_name": "Ethan Mollick",
+      "handle": "ylecun",
+      "text": "Another example that we should spend more time thinking about improving pretraining losses rather than just searching for more data/gpus! SIGReg is not the final answer, but certainly a good first step in that direction! Try it out, checkpoint is available! Lukas Kuhn (@lukaskuhn77) Introducing LeVJEPA 1.5 Large, the first step in scaling our method. It closes the gap to V-JEPA on both image and video benchmarks, trained with 5.6x less compute and over an order of magnitude less data. Video — https://nitter.kareem.one/lukaskuhn77/status/2117323261465735320#m",
+      "link": "https://nitter.kareem.one/randall_balestr/status/2117326982090310030#m",
+      "published": "Mon, 02 Nov 2026 18:44:25 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Introducing LeVJEPA 1.5 Large, the first step in scaling our method. It closes the gap to V-JEPA on both image and video benchmarks, trained with 5.6x less compute and over an order of magnitude less data. Video",
+      "link": "https://nitter.kareem.one/lukaskuhn77/status/2117323261465735320#m",
+      "published": "Mon, 02 Nov 2026 18:29:38 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Election Tuesday is just two days away. For those eligible to vote in the U.S., please make time to go to the polls to vote (or mail in your ballot if you haven't already). Voting is a great privilege of living in a democracy and how we all make our collective voices heard. 🗳️",
+      "link": "https://nitter.kareem.one/JeffDean/status/2117024473992056955#m",
+      "published": "Sun, 01 Nov 2026 22:42:21 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "The Trump administration is openly meddling in European democracies to promote far-right political parties that support Putin and to advance the commercial interests of Trump allies. trib.al/TZS4KWn Link The U.S. Is Bullying Europe Like Never Before The Trump administration tries to micromanage the domestic politics of American allies. theatlantic.com",
+      "link": "https://nitter.kareem.one/KenRoth/status/2117074849365373081#m",
+      "published": "Mon, 02 Nov 2026 02:02:32 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ylecun",
+      "text": "Yann LeCun says: People in AI have made the same mistake for 70 years: if a machine can do a task humans see as intellectually complex, it must be smarter than humans. This is completely false We have computers that are superhuman at many tasks but we're still far from machines with human or even animal-level intelligence Video",
+      "link": "https://nitter.kareem.one/haider1/status/2116973549067878744#m",
+      "published": "Sun, 01 Nov 2026 19:20:00 GMT",
+      "author_name": "Yann LeCun",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "rasbt",
+      "text": "You can find more details and higher res figures in the full gallery: sebastianraschka.com/llm-arc… Link LLM Architecture Gallery A gallery that collects architecture figures from The Big LLM Architecture Comparison and related articles, with fact sheets and links back to the original s... sebastianraschka.com",
+      "link": "https://nitter.kareem.one/rasbt/status/2117639575610831301#m",
+      "published": "Tue, 03 Nov 2026 15:26:33 GMT",
+      "author_name": "Sebastian Raschka",
       "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "\"Opus, great, now turn that into a movie, i know you can make it amazing. figure it out.\" Yes, that was the only prompt Video Ethan Mollick (@emollick) Opus 5.5: \"Give me 10 brilliant ideas for a science fiction short short story, pick the most brilliant and execute it terribly\" — https://nitter.kareem.one/emollick/status/2117372481191239762#m",
-      "link": "https://nitter.kareem.one/emollick/status/2117503772398178763#m",
-      "published": "Tue, 03 Nov 2026 06:26:55 GMT",
-      "author_name": "Ethan Mollick",
+      "handle": "rasbt",
+      "text": "Catching up on the 10 (!) open LLM architecture releases from the past month. Quite a lot happened in October. I guess we can call it \"Open October\"! 1. Kolibri-1 (78B): A notable model from Germany. Features classic Grouped Query Attention (GQA) and Sliding Window Attention (SWA) attention module. 2. Ling 3.1 Flash (560B): Uses Kimi Delta Attention and the eighth uses gated Multi-head Latent Attention (MLA) inspired by DeepSeek. 3. Muse Spark Open (816B): Besides Musse Glimmer, the first major open weight release from Meta (since Llama). Uses classic GQA + SWA but adds a LatentMoE. 4. Nemotron 3.5 Super VL (120B): Combines Mamba-2 layers with just eight attention layers. Also LatentMoE 5. Dory1.0 (4B): A looped transformer design. 6. Reflection Beam (501B): GQA+SWA architecture. 7. Recursive Flint (40B): Note that \"Recursive\" is the company name; the architecture is a fairly standard MoE with GQA and SWA. 8. MiniMax M3.1-Flash (428B): Uses their own MiniMax Sparse Attention module. 9. LFM3 (1.7B): Hybrid architecture that mixes short convolutions and attention. 10. Mistral Large 4 (1T) combines MLA with sparse attention. Will probably cover/discuss things in more depth in the coming weeks!",
+      "link": "https://nitter.kareem.one/rasbt/status/2117637894315626719#m",
+      "published": "Tue, 03 Nov 2026 15:19:52 GMT",
+      "author_name": "Sebastian Raschka",
       "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "Source: zou-group.github.io/llm-clai…",
-      "link": "https://nitter.kareem.one/emollick/status/2117446014617714909#m",
-      "published": "Tue, 03 Nov 2026 02:37:24 GMT",
-      "author_name": "Ethan Mollick",
+      "handle": "rasbt",
+      "text": "The complete reasoning-from-scratch video series is now up (and linked) here: magazine.sebastianraschka.co… (Taking a short break but will be back with LLM model and research updates in November!) Link Build Your Own Reasoning Model: A Full Video Course Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch. magazine.sebastianraschka.com",
+      "link": "https://nitter.kareem.one/rasbt/status/2114325097653669940#m",
+      "published": "Sun, 25 Oct 2026 11:56:00 GMT",
+      "author_name": "Sebastian Raschka",
       "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "This is a fantastic idea - a mass attempted replication of old findings of LLMs with new models. Much conventional wisdom is outdated. Recent models no longer invent citations and both hallucination rates & stereotyping has dropped. But they are still sycophantic & lean left.",
-      "link": "https://nitter.kareem.one/emollick/status/2117445039211086096#m",
-      "published": "Tue, 03 Nov 2026 02:33:32 GMT",
-      "author_name": "Ethan Mollick",
+      "handle": "rasbt",
+      "text": "And one more time, the YouTube link: inv.kareem.one/watch?v=msp69FR5… Link Build A Reasoning Model From Scratch 8: Distillation In this final video, we look into model distillation as a more effi... youtube.com",
+      "link": "https://nitter.kareem.one/rasbt/status/2111448141778256161#m",
+      "published": "Sat, 17 Oct 2026 13:24:00 GMT",
+      "author_name": "Sebastian Raschka",
       "category_hint": "educator",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "Opus 5.5: \"Give me 10 brilliant ideas for a science fiction short short story, pick the most brilliant and execute it terribly\"",
-      "link": "https://nitter.kareem.one/emollick/status/2117372481191239762#m",
-      "published": "Mon, 02 Nov 2026 21:45:13 GMT",
-      "author_name": "Ethan Mollick",
+      "handle": "rasbt",
+      "text": "Reasoning From Scratch round 8, the finale! This last lecture in the series covers distillation as an efficient alternative to the previous reinforcement learning training runs. (Planning to take a brief break, but I will be back!) 00:00 Introduction and series recap 01:07 Why distill a reasoning model? 02:51 Soft vs. hard distillation 11:06 On-policy vs. off-policy distillation 18:09 Preparing data for reasoning distillation 22:35 Loading the DeepSeek R1 MATH dataset 28:04 Inspecting reasoning traces and final answers 31:27 Tokenization and chat templates 35:58 Pre-tokenizing the training dataset 39:01 Sequence lengths and the 2,048-token limit 42:38 Creating training and validation splits 45:32 Loading the Qwen3-0.6B base model 46:24 Computing answer-token log probabilities 54:10 Cross-entropy loss for distillation 57:25 Training and validation loss helpers 1:02:03 Implementing the distillation training loop 1:07:26 Running the standalone training script 1:09:41 Plotting training and validation losses 1:11:31 Evaluating checkpoints on MATH-500 1:14:09 Comparing teachers and distillation results 1:16:34 Future directions for reasoning models 1:19:41 Bonus exercises and next steps Video",
+      "link": "https://nitter.kareem.one/rasbt/status/2111448141119856866#m",
+      "published": "Sat, 17 Oct 2026 13:24:00 GMT",
+      "author_name": "Sebastian Raschka",
       "category_hint": "educator",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "In updating a graphic showing U.S. company AI adoption over time according to a long-running U.S. Census Bureau survey, I found out that the Bureau's work has been sullied by that asinine \"Super Intelligence\" executive order simonwillison.net/2026/Nov/2… Link The U.S. Census Bureau and “Super Intelligence” I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in … simonwillison.net",
+      "link": "https://nitter.kareem.one/simonw/status/2117337139633607167#m",
+      "published": "Mon, 02 Nov 2026 19:24:46 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "X should have a zero tolerance policy for AI replies Like you do one and your account is suspended for life Replies are a nightmare now and it's never ever been this bad AI replies are an an existential threat to the future of this platform, because people will simply stop using it if the vast majority of replies are AI bots",
+      "link": "https://nitter.kareem.one/levelsio/status/2115805396753383750#m",
+      "published": "Thu, 29 Oct 2026 13:58:11 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "Wrote some more notes on this on my blog simonwillison.net/2026/Oct/2… Link Building a multiplayer game world with autonomous Fable-class models Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible … simonwillison.net",
+      "link": "https://nitter.kareem.one/simonw/status/2115858560823538152#m",
+      "published": "Thu, 29 Oct 2026 17:29:26 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "Inspired me to try out spawn.co on my phone. Here's me flying a dragon around a castle, I prompted both the castle and the dragon into existence using the in-game \"Savi\" chatbot",
+      "link": "https://nitter.kareem.one/simonw/status/2115822698341519520#m",
+      "published": "Thu, 29 Oct 2026 15:06:56 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "simonw",
+      "text": "Fascinating case study of the sharpest edge of what you can do with agentic engineering in the Fable era - my eyebrows raised at least a dozen times while reading this jacob (@jsnnsa) Article How I Built the Most AI-Pilled Company in the World Spawn is ten people. We spend 30x payroll on AI tokens and ship almost as much as Anthropic. In the last 30 days, Spawn shipped 77,000 substantial changes. That's about 108 an hour, around the clock. — https://nitter.kareem.one/jsnnsa/status/2115623382721126826#m",
+      "link": "https://nitter.kareem.one/simonw/status/2115821668350435645#m",
+      "published": "Thu, 29 Oct 2026 15:02:50 GMT",
+      "author_name": "Simon Willison",
+      "category_hint": "builder",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "We're presenting the SF AI Assistant Meetup with @merit_systems on October 19. ​This event is a space for power users and people interested in the world of AI Assistants to hang out, get to know one another, and share tips/tricks on how to best use these tools. RSVP: luma.com/wabd65c0 Link SF AI Assistants Meetup · Luma Hello SF AI Assistant lovers! Welcome to the first official SF meetup. This is a space for power users and people interested in the world of AI Assistants to… luma.com David Pawlan (@DavidPawlan) SF AI Assistant lovers, your time has come! October 19th. Get ready for an epic AI assistant meetup 🤖 To be announced: > more sponsors/partners > location > event agenda RSVP here: luma.com/wabd65c0 — https://nitter.kareem.one/DavidPawlan/status/2108302149956358181#m",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2108307164335157505#m",
+      "published": "Thu, 08 Oct 2026 21:22:53 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "Those 20 times are 22 GPU-hours against 1.14. Throughput on one 5090 was about 8.4K tokens/s against 124K. Full Breakdown: alphasignal.ai/news/looped-t… Link Looped transformers: three different machines | AlphaSignal Nanbeige4.2-3B is Apache 2.0 on Hugging Face, with num_hidden_layers: 22 and num_loops: 2 , and two passes kept about 75% of a standard Transformer's token alphasignal.ai",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895779054522805#m",
+      "published": "Wed, 07 Oct 2026 18:08:11 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "You’ve probably heard the buzz around Looped transformers, but which one? Over the past month, the same word covered three reuse tricks. Implementing the wrong one burns a training week. It also budgets a 3B file like a 3B decode. We opened a looped transformer open model, Nanbeige 4.2: > 22 layers, two passes > 44 applications, same weights > About twice the block compute > KV cache doubles with it It kept about 75% of a standard Transformer's token efficiency. Sharing the cache halved its memory. And quality gains were consistently lower. A second design carries state token to token. Sequence length is the depth. Training used 500 million tokens. That run cost about 20 times the GPU-hours. So, Which reuse trick is the viral tweet? If extra loops do not raise quality, what are you paying? Does the file still need a second cache? Full Breakdown ↓↓",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895777393541555#m",
+      "published": "Wed, 07 Oct 2026 18:08:10 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "It's time to solve one of the biggest challenges in vision-language models. Today's multimodal models can look at a biomedical image and give a convincing, sometimes correct, answer without actually understanding what they're seeing. A model might answer the medical question correctly while failing to identify basic visual context like the imaging modality, body part, specimen, or stain. So, I'm teaming up with Stanford to solve this problem. You should too. The MMBU Challenge tests whether models can actually recognize, localize, and understand what is in biomedical images, not just arrive at the right answer. 🏆 3 tracks 💻 $100K+ in compute and prizes 📅 Oct 1 to Dec 31 ⏰ Registration closes today",
+      "link": "https://nitter.kareem.one/LiorOnAI/status/2105377147431051624#m",
+      "published": "Wed, 30 Sep 2026 19:20:02 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
+      "source_lang": "en"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "text": "The article examines what belongs in AGENTS.md, design documents, and tests. Full breakdown ↓ alphasignal.ai/news/what-bel… Link What Belongs in AGENTS.md, Design Docs and Tests? | AlphaSignal The study tracks 247,694 instruction lifetimes across 1,867 repositories and reports average instruction-count growth of 226%. alphasignal.ai",
+      "link": "https://nitter.kareem.one/AlphaSignalAI/status/2104975648527986711#m",
+      "published": "Tue, 29 Sep 2026 16:44:37 GMT",
+      "author_name": "AlphaSignal",
+      "category_hint": "news",
       "source_lang": "en"
     }
   ],
@@ -57,12 +192,10 @@
     "elonmusk",
     "AravSrinivas",
     "miramurati",
-    "ylecun",
     "demishassabis",
     "JeffDean",
     "fchollet",
     "AndrewYNg",
-    "rasbt",
     "bcherny",
     "karinanguyen_",
     "polynoamial",
@@ -74,7 +207,6 @@
     "OpenAI",
     "GoogleDeepMind",
     "xai",
-    "simonw",
     "swyx",
     "hwchase17",
     "jeremyphoward",
@@ -82,137 +214,239 @@
     "mckaywrigley",
     "amasad",
     "nickadobos",
+    "emollick",
     "ArthurMensch",
     "GuillaumeLample",
     "Thom_Wolf",
     "julien_c",
     "ClemDelangue",
-    "rowancheung",
-    "AlphaSignalAI"
+    "rowancheung"
   ],
   "processed": {
-    "summary": "Aujourd'hui, pour le débutant en IA, il est important de noter l'évolution rapide des capacités et des coûts des modèles : des modèles comme Claude Opus 5.5 permettent des créations très originales mais impliquent des frais. Il faut savoir bien 'procéder' à l'IA avec des instructions claires et créatives. Les discussions actuelles montrent que l'IA progresse en fiabilité (moins d'hallucinations), mais conserve certaines limites comme des biais et une tendance à l'obséquiosité, nécessitant une utilisation critique et éclairée de ces outils.",
+    "summary": "Cette semaine, le monde de l'IA a été très actif, avec un accent particulier sur l'efficacité des modèles et leur architecture. Nous avons exploré de nouvelles approches pour entraîner les IA avec moins de ressources, discuté des implications de l'IA dans nos vies quotidiennes et découvert des outils pour approfondir nos connaissances techniques, notamment sur les modèles de raisonnement. Cela montre que l'innovation continue, tout en soulevant des questions importantes sur la nature de l'intelligence artificielle.",
     "glossaire": [
       {
-        "terme": "LLM (Large Language Model)",
-        "definition": "Un grand modèle linguistique, un type d'intelligence artificielle très puissant qui peut comprendre, générer et manipuler le langage humain."
+        "terme": "Fonctions de perte (Loss functions)",
+        "definition": "Ce sont des formules mathématiques qui mesurent à quel point les prédictions d'une IA sont éloignées de la réalité, aidant le modèle à s'améliorer en réduisant cette 'perte'."
       },
       {
-        "terme": "API (Application Programming Interface)",
-        "definition": "Une interface de programmation d'application, un ensemble de règles et d'outils qui permet à différents logiciels de communiquer entre eux, par exemple pour qu'une application utilise un modèle d'IA."
+        "terme": "Benchmarks",
+        "definition": "Ce sont des tests standards et des ensembles de données utilisés pour évaluer et comparer les performances de différents modèles d'IA sur des tâches spécifiques."
       },
       {
-        "terme": "Prompt",
-        "definition": "L'instruction, la question ou le texte que vous donnez à une IA pour qu'elle génère une réponse ou effectue une tâche spécifique."
+        "terme": "Apprentissage par renforcement (Reinforcement Learning)",
+        "definition": "Une méthode d'entraînement où l'IA apprend à prendre des décisions en interagissant avec un environnement, recevant des 'récompenses' ou des 'punitions' pour ses actions."
       },
       {
-        "terme": "Opus 5.5 / Claude",
-        "definition": "Des noms de modèles d'IA très avancés développés par l'entreprise Anthropic, capables de tâches complexes de compréhension et de génération de texte."
+        "terme": "Distillation",
+        "definition": "Une technique qui consiste à transférer les connaissances d'un grand modèle d'IA (le 'professeur') vers un modèle plus petit et plus rapide (l''élève'), le rendant plus efficace."
       },
       {
-        "terme": "Hallucination (IA)",
-        "definition": "Quand un modèle d'IA invente des informations, des faits ou des citations qui ne sont pas vrais ou ne peuvent pas être vérifiés."
+        "terme": "Tokenisation",
+        "definition": "Le processus qui découpe le texte en petites unités appelées 'jetons' (mots, parties de mots ou caractères) pour que les modèles d'IA puissent les traiter."
       },
       {
-        "terme": "Obséquieux (IA)",
-        "definition": "Désigne la tendance d'une IA à être excessivement flatteuse, à éviter la contradiction, ou à toujours chercher à donner raison à l'utilisateur, même si cela n'est pas optimal."
+        "terme": "Transformeurs en boucle (Looped Transformers)",
+        "definition": "Une conception de modèle d'IA qui réutilise les mêmes couches ou blocs de traitement plusieurs fois pour économiser de la puissance de calcul, cherchant à être plus efficace."
+      },
+      {
+        "terme": "Ingénierie agentique (Agentic Engineering)",
+        "definition": "Le développement de systèmes d'IA capables d'agir de manière autonome et de prendre des initiatives pour atteindre des objectifs complexes, agissant comme des 'agents intelligents'."
       }
     ],
     "category_summaries": {
-      "actu": "La nouvelle du jour met en lumière les coûts d'utilisation des modèles d'IA avancés comme Claude Opus 5.5 via leur API, rappelant que même si ces outils sont puissants, leur utilisation a un prix qui peut varier et qu'il est important de considérer.",
-      "tips": "Les conseils pratiques du jour montrent l'importance de maîtriser l'art du 'prompt' pour obtenir des résultats créatifs de l'IA, notamment pour la génération d'histoires ou de scénarios, même avec des instructions paradoxales pour tester les limites du modèle.",
-      "idees": "La réflexion principale souligne que la 'sagesse conventionnelle' sur les LLM est souvent dépassée : bien que les modèles récents aient amélioré leur fiabilité (moins d'hallucinations), ils conservent des biais comme l'obséquiosité ou une tendance politique, nécessitant une évaluation constante.",
-      "outils": "Un lien est partagé vers une ressource externe (un groupe de recherche ou un projet GitHub) liée aux LLM, suggérant des avenues pour approfondir la compréhension des avancées techniques et des études sur ces modèles."
+      "actu": "L'actualité de l'IA est marquée par l'annonce de nombreux nouveaux modèles et architectures de grands modèles de langage (LLM) qui sortent à un rythme effréné, souvent avec des caractéristiques innovantes. On note également des défis passionnants, comme celui de Stanford sur la compréhension des images médicales, et des événements pour rassembler la communauté autour des assistants IA.",
+      "tips": "Pour ceux qui veulent se salir les mains, plusieurs ressources détaillées sont disponibles. Une série de vidéos propose d'apprendre à construire un modèle de raisonnement de A à Z, en abordant des concepts clés comme la distillation. Des conseils pratiques sont également partagés pour structurer la documentation des projets d'IA, un aspect souvent négligé mais crucial.",
+      "idees": "Les réflexions du jour portent sur la nature même de l'intelligence artificielle : Yann LeCun nous met en garde contre la confusion entre la capacité d'une machine à faire une tâche complexe et sa 'vraie' intelligence. Des débats émergent aussi sur l'impact de l'IA sur les plateformes sociales et sur des méthodes d'entraînement comme les transformeurs en boucle, remettant en question les compromis entre qualité et efficacité.",
+      "outils": "Plusieurs nouveaux outils et ressources sont à disposition pour expérimenter l'IA. Yann LeCun nous invite à tester LeVJEPA 1.5 Large, un modèle prometteur entraîné avec moins de ressources. Une galerie d'architectures de LLM est disponible pour mieux comprendre comment ces modèles sont construits. Enfin, une série de vidéos complète permet de se lancer dans la construction de son propre modèle de raisonnement, offrant un apprentissage très pratique."
     },
     "highlights": [
       {
-        "author_name": "Ethan Mollick",
-        "handle": "@emollick",
-        "text_fr": "\"Opus, super, maintenant transforme ça en film, je sais que tu peux le rendre incroyable. Débrouille-toi.\" Oui, c'était la seule instruction (\"prompt\") pour la vidéo d'Ethan Mollick (@emollick). Opus 5.5 : \"Donne-moi 10 idées brillantes pour une nouvelle de science-fiction très courte, choisis la plus brillante et exécute-la de manière horrible.\"",
-        "text_original": "\"Opus, great, now turn that into a movie, i know you can make it amazing. figure it out.\" Yes, that was the only prompt Video Ethan Mollick (@emollick) Opus 5.5: \"Give me 10 brilliant ideas for a science fiction short short story, pick the most brilliant and execute it terribly\" — https://nitter.kareem.one/emollick/status/2117372481191239762#m",
-        "link": "https://nitter.kareem.one/emollick/status/2117503772398178763#m",
-        "decryptage": "Un \"prompt\" est l'instruction ou la question que vous donnez à une IA pour qu'elle génère une réponse ou effectue une tâche.",
-        "category": "tips",
-        "highlight_reason": "Cet exemple de 'prompt' montre comment interagir de manière créative et non conventionnelle avec l'IA pour obtenir des résultats surprenants et développer son potentiel."
-      },
-      {
-        "author_name": "Ethan Mollick",
-        "handle": "@emollick",
-        "text_fr": "C'est une idée fantastique : tenter une réplication massive d'anciennes découvertes concernant les LLM avec de nouveaux modèles. Beaucoup d'idées reçues sont dépassées. Les modèles récents n'inventent plus de citations, et les taux d'hallucination et de stéréotypie ont diminué. Mais ils sont toujours obséquieux et ont une tendance politique à gauche.",
-        "text_original": "This is a fantastic idea - a mass attempted replication of old findings of LLMs with new models. Much conventional wisdom is outdated. Recent models no longer invent citations and both hallucination rates & stereotyping has dropped. But they are still sycophantic & lean left.",
-        "link": "https://nitter.kareem.one/emollick/status/2117445039211086096#m",
-        "decryptage": "Les \"LLM\" (Large Language Models) sont des modèles d'IA très puissants qui comprennent et génèrent du texte. L'\"hallucination\" se produit quand un modèle d'IA invente des informations ou des faits qui ne sont pas vrais. \"Stéréotypie\" signifie que l'IA peut reproduire des préjugés existants. \"Obséquieux\" (sycophantic) veut dire que l'IA a tendance à être trop flatteuse ou à toujours donner raison à l'utilisateur.",
+        "author_name": "Yann LeCun",
+        "handle": "@ylecun",
+        "text_fr": "Yann LeCun déclare : Les gens de l'IA ont fait la même erreur pendant 70 ans : si une machine peut accomplir une tâche que les humains considèrent comme intellectuellement complexe, elle doit être plus intelligente que les humains. C'est complètement faux. Nous avons des ordinateurs qui sont surhumains à de nombreuses tâches mais nous sommes encore loin des machines avec une intelligence de niveau humain ou même animal. Vidéo",
+        "text_original": "Yann LeCun says: People in AI have made the same mistake for 70 years: if a machine can do a task humans see as intellectually complex, it must be smarter than humans. This is completely false We have computers that are superhuman at many tasks but we're still far from machines with human or even animal-level intelligence Video",
+        "link": "https://nitter.kareem.one/haider1/status/2116973549067878744#m",
+        "decryptage": null,
         "category": "idees",
-        "highlight_reason": "Ce tweet est crucial car il démystifie l'état actuel des IA, expliquant que si elles s'améliorent (moins d'hallucinations), elles conservent des biais importants qu'il faut connaître."
+        "highlight_reason": "C'est une piqûre de rappel essentielle pour ne pas fantasmer sur l'intelligence des IA et comprendre leurs limites actuelles."
       },
       {
-        "author_name": "Ethan Mollick",
-        "handle": "@emollick",
-        "text_fr": "Cela aurait coûté 4,81 $ en frais d'API pour Opus 5.5 (mais c'est une petite partie de mon abonnement Claude).",
-        "text_original": "This would have cost $4.81 in Opus 5.5 API fees (but is a small part of my Claude subscription)",
-        "link": "https://nitter.kareem.one/emollick/status/2117510241353093170#m",
-        "decryptage": "\"API\" signifie \"interface de programmation d'application\", c'est le moyen pour les développeurs d'utiliser un modèle d'IA comme Opus 5.5 ou Claude dans leurs propres logiciels ou services sans passer par une interface de discussion classique. \"Opus 5.5\" est une version très avancée du modèle d'IA de la famille \"Claude\", créé par l'entreprise Anthropic.",
-        "category": "actu",
-        "highlight_reason": "Il est important de comprendre que l'accès aux modèles d'IA les plus avancés a un coût, et ce tweet donne un exemple concret de ce que cela peut représenter en frais d'utilisation API."
+        "author_name": "Sebastian Raschka",
+        "handle": "@rasbt",
+        "text_fr": "La série complète de vidéos sur le raisonnement depuis zéro est maintenant disponible (et liée) ici : magazine.sebastianraschka.co… (Je fais une courte pause mais je reviendrai avec des mises à jour sur les modèles LLM et la recherche en novembre !) Lien Construisez votre propre modèle de raisonnement : Un cours vidéo complet Plus de 11 heures de vidéos de codage sur l l'évaluation, la mise à l'échelle au moment de l'inférence, l'apprentissage par renforcement et la distillation, avec Python et PyTorch. magazine.sebastianraschka.com",
+        "text_original": "The complete reasoning-from-scratch video series is now up (and linked) here: magazine.sebastianraschka.co… (Taking a short break but will be back with LLM model and research updates in November!) Link Build Your Own Reasoning Model: A Full Video Course Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch. magazine.sebastianraschka.com",
+        "link": "https://nitter.kareem.one/rasbt/status/2114325097653669940#m",
+        "decryptage": "L'\"apprentissage par renforcement\" est une méthode où l'IA apprend en recevant des récompenses pour de bonnes actions, et la \"distillation\" est une technique pour rendre un grand modèle plus petit et plus rapide.",
+        "category": "outils",
+        "highlight_reason": "Un excellent point de départ pour ceux qui veulent vraiment mettre la main à la pâte et comprendre comment les modèles de raisonnement sont construits."
+      },
+      {
+        "author_name": "Simon Willison",
+        "handle": "@simonw",
+        "text_fr": "Une étude de cas fascinante de la pointe de ce que l'on peut faire avec l'ingénierie agentique à l'ère Fable - j'ai levé les sourcils au moins une douzaine de fois en lisant ceci jacob (@jsnnsa) Article Comment j'ai construit l'entreprise la plus \"IA-dépendant\" du monde Spawn, c'est dix personnes. Nous dépensons 30 fois notre masse salariale en jetons IA et livrons presque autant qu'Anthropic. Au cours des 30 derniers jours, Spawn a livré 77 000 modifications substantielles. C'est environ 108 par heure, 24 heures sur 24.",
+        "text_original": "Fascinating case study of the sharpest edge of what you can do with agentic engineering in the Fable era - my eyebrows raised at least a dozen times while reading this jacob (@jsnnsa) Article How I Built the Most AI-Pilled Company in the World Spawn is ten people. We spend 30x payroll on AI tokens and ship almost as much as Anthropic. In the last 30 days, Spawn shipped 77,000 substantial changes. That's about 108 an hour, around the clock.",
+        "link": "https://nitter.kareem.one/simonw/status/2115821668350435645#m",
+        "decryptage": "L'\"ingénierie agentique\" consiste à créer des systèmes IA capables d'agir de manière autonome pour atteindre des objectifs, un peu comme des \"agents\" intelligents. Les \"jetons IA\" sont les unités de texte que les modèles d'IA traitent et facturent, comme des \"mots\" pour une IA.",
+        "category": "idees",
+        "highlight_reason": "Ce cas d'étude est un exemple frappant de la manière dont l'IA est utilisée de façon innovante pour construire des mondes virtuels complexes, montrant le futur du développement avec l'IA."
+      },
+      {
+        "author_name": "AlphaSignal",
+        "handle": "@AlphaSignalAI",
+        "text_fr": "Vous avez probablement entendu parler des transformeurs en boucle, mais lequel ? Au cours du mois dernier, le même mot a couvert trois astuces de réutilisation. Mettre en œuvre la mauvaise vous fait perdre une semaine d'entraînement. Cela budgétise également un fichier de 3 milliards comme un décodage de 3 milliards. Nous avons ouvert un modèle de transformeur en boucle, Nanbeige 4.2 : > 22 couches, deux passes > 44 applications, mêmes poids > Environ deux fois la puissance de calcul du bloc > Le cache KV double avec cela Il a conservé environ 75 % de l'efficacité des jetons d'un transformeur standard. Le partage du cache a réduit de moitié sa mémoire. Et les gains de qualité étaient constamment inférieurs. Une seconde conception transporte l'état jeton par jeton. La longueur de séquence est la profondeur. L'entraînement a utilisé 500 millions de jetons. Cette exécution a coûté environ 20 fois les heures-GPU. Alors, quelle astuce de réutilisation est le tweet viral ? Si les boucles supplémentaires n'augmentent pas la qualité, que payez-vous ? Le fichier a-t-il encore besoin d'un second cache ? Analyse complète ↓↓",
+        "text_original": "You’ve probably heard the buzz around Looped transformers, but which one? Over the past month, the same word covered three reuse tricks. Implementing the wrong one burns a training week. It also budgets a 3B file like a 3B decode. We opened a looped transformer open model, Nanbeige 4.2: > 22 layers, two passes > 44 applications, same weights > About twice the block compute > KV cache doubles with it It kept about 75% of a standard Transformer's token efficiency. Sharing the cache halved its memory. And quality gains were consistently lower. A second design carries state token to token. Sequence length is the depth. Training used 500 million tokens. That run cost about 20 times the GPU-hours. So, Which reuse trick is the viral tweet? If extra loops do not raise quality, what are you paying? Does the file still need a second cache? Full Breakdown ↓↓",
+        "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895777393541555#m",
+        "decryptage": "Les \"transformeurs en boucle\" sont des architectures d'IA qui réutilisent des parties de leur réseau pour traiter l'information de manière plus efficace, réduisant ainsi les coûts de calcul, même si cela peut parfois affecter la qualité. Le \"cache KV\" est une zone de mémoire spéciale où le modèle stocke des informations pour ne pas avoir à les recalculer constamment.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet lance une discussion importante sur les compromis entre l'efficacité et la qualité dans la conception des modèles d'IA, un aspect crucial pour les développeurs."
       }
     ],
     "by_category": {
       "actu": [
         {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "Cela aurait coûté 4,81 $ en frais d'API pour Opus 5.5 (mais c'est une petite partie de mon abonnement Claude).",
-          "text_original": "This would have cost $4.81 in Opus 5.5 API fees (but is a small part of my Claude subscription)",
-          "link": "https://nitter.kareem.one/emollick/status/2117510241353093170#m",
-          "decryptage": "\"API\" signifie \"interface de programmation d'application\", c'est le moyen pour les développeurs d'utiliser un modèle d'IA comme Opus 5.5 ou Claude dans leurs propres logiciels ou services sans passer par une interface de discussion classique. \"Opus 5.5\" est une version très avancée du modèle d'IA de la famille \"Claude\", créé par l'entreprise Anthropic."
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Je rattrape le retard sur les 10 (!) sorties d'architectures de LLM ouvertes du mois dernier. Il s'est passé beaucoup de choses en octobre. Je suppose qu'on peut appeler ça \"Octobre Ouvert\" ! 1. Kolibri-1 (78B) : Un modèle notable d'Allemagne. Il présente des modules d'attention classiques Grouped Query Attention (GQA) et Sliding Window Attention (SWA). 2. Ling 3.1 Flash (560B) : Utilise Kimi Delta Attention et le huitième utilise Gated Multi-head Latent Attention (MLA) inspiré par DeepSeek. 3. Muse Spark Open (816B) : Outre Musse Glimmer, la première version majeure de poids ouverts de Meta (depuis Llama). Utilise le classique GQA + SWA mais ajoute un LatentMoE. 4. Nemotron 3.5 Super VL (120B) : Combine des couches Mamba-2 avec seulement huit couches d'attention. Également LatentMoE. 5. Dory1.0 (4B) : Une conception de transformeur en boucle. 6. Reflection Beam (501B) : Architecture GQA+SWA. 7. Recursive Flint (40B) : Notez que \"Recursive\" est le nom de l'entreprise ; l'architecture est un MoE assez standard avec GQA et SWA. 8. MiniMax M3.1-Flash (428B) : Utilise leur propre module MiniMax Sparse Attention. 9. LFM3 (1.7B) : Architecture hybride qui mélange de courtes convolutions et de l'attention. 10. Mistral Large 4 (1T) combine MLA avec de l'attention sparse. Je couvrirai/discuterai probablement de ces sujets plus en détail dans les semaines à venir !",
+          "text_original": "Catching up on the 10 (!) open LLM architecture releases from the past month. Quite a lot happened in October. I guess we can call it \"Open October\"! 1. Kolibri-1 (78B): A notable model from Germany. Features classic Grouped Query Attention (GQA) and Sliding Window Attention (SWA) attention module. 2. Ling 3.1 Flash (560B): Uses Kimi Delta Attention and the eighth uses gated Multi-head Latent Attention (MLA) inspired by DeepSeek. 3. Muse Spark Open (816B): Besides Musse Glimmer, the first major open weight release from Meta (since Llama). Uses classic GQA + SWA but adds a LatentMoE. 4. Nemotron 3.5 Super VL (120B): Combines Mamba-2 layers with just eight attention layers. Also LatentMoE 5. Dory1.0 (4B): A looped transformer design. 6. Reflection Beam (501B): GQA+SWA architecture. 7. Recursive Flint (40B): Note that \"Recursive\" is the company name; the architecture is a fairly standard MoE with GQA and SWA. 8. MiniMax M3.1-Flash (428B): Uses their own MiniMax Sparse Attention module. 9. LFM3 (1.7B): Hybrid architecture that mixes short convolutions and attention. 10. Mistral Large 4 (1T) combines MLA with sparse attention. Will probably cover/discuss things in more depth in the coming weeks!",
+          "link": "https://nitter.kareem.one/rasbt/status/2117637894315626719#m",
+          "decryptage": "Ces noms barbares désignent différentes manières d'organiser les \"neurones\" virtuels d'un modèle d'IA (son \"architecture\") et de gérer la façon dont il \"prête attention\" à l'information (les \"modules d'attention\")."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Nous présentons le SF AI Assistant Meetup avec @merit_systems le 19 octobre. Cet événement est un espace pour les utilisateurs avancés et les personnes intéressées par le monde des Assistants IA pour se rencontrer, faire connaissance et partager des conseils/astuces sur la meilleure façon d'utiliser ces outils. RSVP : luma.com/wabd65c0 Lien SF AI Assistants Meetup · Luma Bonjour aux amateurs d'Assistants IA de San Francisco ! Bienvenue au premier meetup officiel de SF. C'est un espace pour les utilisateurs avancés et les personnes intéressées par le monde des Assistants IA pour... luma.com David Pawlan (@DavidPawlan) Amateurs d'Assistants IA de San Francisco, votre heure est venue ! Le 19 octobre. Préparez-vous pour un meetup épique sur les assistants IA 🤖 À annoncer : > plus de sponsors/partenaires > lieu > programme de l'événement RSVP ici : luma.com/wabd65c0",
+          "text_original": "We're presenting the SF AI Assistant Meetup with @merit_systems on October 19. ​This event is a space for power users and people interested in the world of AI Assistants to hang out, get to know one another, and share tips/tricks on how to best use these tools. RSVP: luma.com/wabd65c0 Link SF AI Assistants Meetup · Luma Hello SF AI Assistant lovers! Welcome to the first official SF meetup. This is a space for power users and people interested in the world of AI Assistants to… luma.com David Pawlan (@DavidPawlan) SF AI Assistant lovers, your time has come! October 19th. Get ready for an epic AI assistant meetup 🤖 To be announced: > more sponsors/partners > location > event agenda RSVP here: luma.com/wabd65c0",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2108307164335157505#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Il est temps de résoudre l'un des plus grands défis des modèles vision-langage. Les modèles multimodaux actuels peuvent regarder une image biomédicale et donner une réponse convaincante, parfois correcte, sans réellement comprendre ce qu'ils voient. Un modèle pourrait répondre correctement à la question médicale tout en échouant à identifier le contexte visuel de base comme la modalité d'imagerie, la partie du corps, le spécimen ou la coloration. Je m'associe donc à Stanford pour résoudre ce problème. Vous devriez aussi le faire. Le défi MMBU teste si les modèles peuvent réellement reconnaître, localiser et comprendre ce qui se trouve dans les images biomédicales, et pas seulement trouver la bonne réponse. 🏆 3 parcours 💻 Plus de 100 000 $ en calcul et prix 📅 Du 1er octobre au 31 décembre ⏰ Les inscriptions ferment aujourd'hui",
+          "text_original": "It's time to solve one of the biggest challenges in vision-language models. Today's multimodal models can look at a biomedical image and give a convincing, sometimes correct, answer without actually understanding what they're seeing. A model might answer the medical question correctly while failing to identify basic visual context like the imaging modality, body part, specimen, or stain. So, I'm teaming up with Stanford to solve this problem. You should too. The MMBU Challenge tests whether models can actually recognize, localize, and understand what is in biomedical images, not just arrive at the right answer. 🏆 3 tracks 💻 $100K+ in compute and prizes 📅 Oct 1 to Dec 31 ⏰ Registration closes today",
+          "link": "https://nitter.kareem.one/LiorOnAI/status/2105377147431051624#m",
+          "decryptage": "Les \"modèles vision-langage\" sont des IA qui peuvent comprendre et générer du texte à partir d'images, et les \"modèles multimodaux\" combinent plusieurs types de données, comme du texte et des images."
         }
       ],
       "tips": [
         {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "\"Opus, super, maintenant transforme ça en film, je sais que tu peux le rendre incroyable. Débrouille-toi.\" Oui, c'était la seule instruction (\"prompt\") pour la vidéo d'Ethan Mollick (@emollick). Opus 5.5 : \"Donne-moi 10 idées brillantes pour une nouvelle de science-fiction très courte, choisis la plus brillante et exécute-la de manière horrible.\"",
-          "text_original": "\"Opus, great, now turn that into a movie, i know you can make it amazing. figure it out.\" Yes, that was the only prompt Video Ethan Mollick (@emollick) Opus 5.5: \"Give me 10 brilliant ideas for a science fiction short short story, pick the most brilliant and execute it terribly\" — https://nitter.kareem.one/emollick/status/2117372481191239762#m",
-          "link": "https://nitter.kareem.one/emollick/status/2117503772398178763#m",
-          "decryptage": "Un \"prompt\" est l'instruction ou la question que vous donnez à une IA pour qu'elle génère une réponse ou effectue une tâche."
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Saison 8 de Raisonnement depuis Zéro, la finale ! Cette dernière conférence de la série couvre la distillation comme une alternative efficace aux précédents entraînements par apprentissage par renforcement. (Je prévois de prendre une courte pause, mais je reviendrai !) 00:00 Introduction et récapitulatif de la série 01:07 Pourquoi distiller un modèle de raisonnement ? 02:51 Distillation douce vs dure 11:06 Distillation en ligne vs hors ligne 18:09 Préparation des données pour la distillation de raisonnement 22:35 Chargement de l'ensemble de données DeepSeek R1 MATH 28:04 Inspection des traces de raisonnement et des réponses finales 31:27 Tokenisation et modèles de chat 35:58 Pré-tokenisation de l'ensemble de données d'entraînement 39:01 Longueurs de séquence et limite de 2 048 jetons 42:38 Création de divisions d'entraînement et de validation 45:32 Chargement du modèle de base Qwen3-0.6B 46:24 Calcul des probabilités logarithmiques des jetons de réponse 54:10 Perte d'entropie croisée pour la distillation 57:25 Assistants de perte d'entraînement et de validation 1:02:03 Implémentation de la boucle d'entraînement de distillation 1:07:26 Exécution du script d'entraînement autonome 1:09:41 Traçage des pertes d'entraînement et de validation 1:11:31 Évaluation des points de contrôle sur MATH-500 1:14:09 Comparaison des résultats des enseignants et de la distillation 1:16:34 Orientations futures pour les modèles de raisonnement 1:19:41 Exercices bonus et prochaines étapes Vidéo",
+          "text_original": "Reasoning From Scratch round 8, the finale! This last lecture in the series covers distillation as an efficient alternative to the previous reinforcement learning training runs. (Planning to take a brief break, but I will be back!) 00:00 Introduction and series recap 01:07 Why distill a reasoning model? 02:51 Soft vs. hard distillation 11:06 On-policy vs. off-policy distillation 18:09 Preparing data for reasoning distillation 22:35 Loading the DeepSeek R1 MATH dataset 28:04 Inspecting reasoning traces and final answers 31:27 Tokenization and chat templates 35:58 Pre-tokenizing the training dataset 39:01 Sequence lengths and the 2,048-token limit 42:38 Creating training and validation splits 45:32 Loading the Qwen3-0.6B base model 46:24 Computing answer-token log probabilities 54:10 Cross-entropy loss for distillation 57:25 Training and validation loss helpers 1:02:03 Implementing the distillation training loop 1:07:26 Running the standalone training script 1:09:41 Plotting training and validation losses 1:11:31 Evaluating checkpoints on MATH-500 1:14:09 Comparing teachers and distillation results 1:16:34 Future directions for reasoning models 1:19:41 Bonus exercises and next steps Video",
+          "link": "https://nitter.kareem.one/rasbt/status/2111448141119856866#m",
+          "decryptage": "La \"tokenisation\" est le processus de découper le texte en petites unités (mots, parties de mots) que l'IA peut comprendre, et la \"perte d'entropie croisée\" est un calcul qui aide l'IA à mesurer la différence entre ses prédictions et la réalité."
         },
         {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "Opus 5.5 : \"Donne-moi 10 idées brillantes pour une nouvelle de science-fiction très courte, choisis la plus brillante et exécute-la de manière horrible.\"",
-          "text_original": "Opus 5.5: \"Give me 10 brilliant ideas for a science fiction short short story, pick the most brilliant and execute it terribly\"",
-          "link": "https://nitter.kareem.one/emollick/status/2117372481191239762#m",
-          "decryptage": null
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "L'article examine ce qui doit figurer dans AGENTS.md, les documents de conception et les tests. Analyse complète ↓ alphasignal.ai/news/what-bel… Lien Que doit contenir AGENTS.md, les documents de conception et les tests ? | AlphaSignal L'étude suit 247 694 durées de vie d'instructions à travers 1 867 dépôts et rapporte une croissance moyenne du nombre d'instructions de 226 %.",
+          "text_original": "The article examines what belongs in AGENTS.md, design documents, and tests. Full breakdown ↓ alphasignal.ai/news/what-bel… Link What Belongs in AGENTS.md, Design Docs and Tests? | AlphaSignal The study tracks 247,694 instruction lifetimes across 1,867 repositories and reports average instruction-count growth of 226%.",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2104975648527986711#m",
+          "decryptage": "\"AGENTS.md\" est un fichier de documentation qui décrit comment un système d'IA basé sur des agents est construit et fonctionne. Les \"dépôts\" sont des lieux où le code et les fichiers d'un projet sont stockés, comme sur GitHub."
         }
       ],
       "idees": [
         {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "C'est une idée fantastique : tenter une réplication massive d'anciennes découvertes concernant les LLM avec de nouveaux modèles. Beaucoup d'idées reçues sont dépassées. Les modèles récents n'inventent plus de citations, et les taux d'hallucination et de stéréotypie ont diminué. Mais ils sont toujours obséquieux et ont une tendance politique à gauche.",
-          "text_original": "This is a fantastic idea - a mass attempted replication of old findings of LLMs with new models. Much conventional wisdom is outdated. Recent models no longer invent citations and both hallucination rates & stereotyping has dropped. But they are still sycophantic & lean left.",
-          "link": "https://nitter.kareem.one/emollick/status/2117445039211086096#m",
-          "decryptage": "Les \"LLM\" (Large Language Models) sont des modèles d'IA très puissants qui comprennent et génèrent du texte. L'\"hallucination\" se produit quand un modèle d'IA invente des informations ou des faits qui ne sont pas vrais. \"Stéréotypie\" signifie que l'IA peut reproduire des préjugés existants. \"Obséquieux\" (sycophantic) veut dire que l'IA a tendance à être trop flatteuse ou à toujours donner raison à l'utilisateur."
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Yann LeCun déclare : Les gens de l'IA ont fait la même erreur pendant 70 ans : si une machine peut accomplir une tâche que les humains considèrent comme intellectuellement complexe, elle doit être plus intelligente que les humains. C'est complètement faux. Nous avons des ordinateurs qui sont surhumains à de nombreuses tâches mais nous sommes encore loin des machines avec une intelligence de niveau humain ou même animal. Vidéo",
+          "text_original": "Yann LeCun says: People in AI have made the same mistake for 70 years: if a machine can do a task humans see as intellectually complex, it must be smarter than humans. This is completely false We have computers that are superhuman at many tasks but we're still far from machines with human or even animal-level intelligence Video",
+          "link": "https://nitter.kareem.one/haider1/status/2116973549067878744#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "En mettant à jour un graphique montrant l'adoption de l'IA par les entreprises américaines au fil du temps, selon une enquête de longue date du U.S. Census Bureau, j'ai découvert que le travail du Bureau avait été souillé par cet absurde décret exécutif sur la \"Super Intelligence\" simonwillison.net/2026/Nov/2… Lien Le U.S. Census Bureau et la \"Super Intelligence\" On m'a rappelé aujourd'hui le Taux d'adoption de l'IA en baisse pour les grandes entreprises, un graphique produit par Apollo Global Management en septembre 2025, qui semblait montrer un ralentissement de...",
+          "text_original": "In updating a graphic showing U.S. company AI adoption over time according to a long-running U.S. Census Bureau survey, I found out that the Bureau's work has been sullied by that asinine \"Super Intelligence\" executive order simonwillison.net/2026/Nov/2… Link The U.S. Census Bureau and “Super Intelligence” I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in … simonwillison.net",
+          "link": "https://nitter.kareem.one/simonw/status/2117337139633607167#m",
+          "decryptage": "La \"Super Intelligence\" est un concept d'IA hypothétique qui dépasserait largement l'intelligence humaine."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "X devrait avoir une politique de tolérance zéro pour les réponses d'IA. Si vous en faites une, votre compte est suspendu à vie. Les réponses sont un cauchemar maintenant et cela n'a jamais été aussi mauvais. Les réponses d'IA sont une menace existentielle pour l'avenir de cette plateforme, car les gens arrêteront tout simplement de l'utiliser si la grande majorité des réponses sont des bots IA.",
+          "text_original": "X should have a zero tolerance policy for AI replies Like you do one and your account is suspended for life Replies are a nightmare now and it's never ever been this bad AI replies are an an existential threat to the future of this platform, because people will simply stop using it if the vast majority of replies are AI bots",
+          "link": "https://nitter.kareem.one/levelsio/status/2115805396753383750#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Une étude de cas fascinante de la pointe de ce que l'on peut faire avec l'ingénierie agentique à l'ère Fable - j'ai levé les sourcils au moins une douzaine de fois en lisant ceci jacob (@jsnnsa) Article Comment j'ai construit l'entreprise la plus \"IA-dépendant\" du monde Spawn, c'est dix personnes. Nous dépensons 30 fois notre masse salariale en jetons IA et livrons presque autant qu'Anthropic. Au cours des 30 derniers jours, Spawn a livré 77 000 modifications substantielles. C'est environ 108 par heure, 24 heures sur 24.",
+          "text_original": "Fascinating case study of the sharpest edge of what you can do with agentic engineering in the Fable era - my eyebrows raised at least a dozen times while reading this jacob (@jsnnsa) Article How I Built the Most AI-Pilled Company in the World Spawn is ten people. We spend 30x payroll on AI tokens and ship almost as much as Anthropic. In the last 30 days, Spawn shipped 77,000 substantial changes. That's about 108 an hour, around the clock.",
+          "link": "https://nitter.kareem.one/simonw/status/2115821668350435645#m",
+          "decryptage": "L'\"ingénierie agentique\" consiste à créer des systèmes IA capables d'agir de manière autonome pour atteindre des objectifs, un peu comme des \"agents\" intelligents. Les \"jetons IA\" sont les unités de texte que les modèles d'IA traitent et facturent, comme des \"mots\" pour une IA."
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Vous avez probablement entendu parler des transformeurs en boucle, mais lequel ? Au cours du mois dernier, le même mot a couvert trois astuces de réutilisation. Mettre en œuvre la mauvaise vous fait perdre une semaine d'entraînement. Cela budgétise également un fichier de 3 milliards comme un décodage de 3 milliards. Nous avons ouvert un modèle de transformeur en boucle, Nanbeige 4.2 : > 22 couches, deux passes > 44 applications, mêmes poids > Environ deux fois la puissance de calcul du bloc > Le cache KV double avec cela Il a conservé environ 75 % de l'efficacité des jetons d'un transformeur standard. Le partage du cache a réduit de moitié sa mémoire. Et les gains de qualité étaient constamment inférieurs. Une seconde conception transporte l'état jeton par jeton. La longueur de séquence est la profondeur. L'entraînement a utilisé 500 millions de jetons. Cette exécution a coûté environ 20 fois les heures-GPU. Alors, quelle astuce de réutilisation est le tweet viral ? Si les boucles supplémentaires n'augmentent pas la qualité, que payez-vous ? Le fichier a-t-il encore besoin d'un second cache ? Analyse complète ↓↓",
+          "text_original": "You’ve probably heard the buzz around Looped transformers, but which one? Over the past month, the same word covered three reuse tricks. Implementing the wrong one burns a training week. It also budgets a 3B file like a 3B decode. We opened a looped transformer open model, Nanbeige 4.2: > 22 layers, two passes > 44 applications, same weights > About twice the block compute > KV cache doubles with it It kept about 75% of a standard Transformer's token efficiency. Sharing the cache halved its memory. And quality gains were consistently lower. A second design carries state token to token. Sequence length is the depth. Training used 500 million tokens. That run cost about 20 times the GPU-hours. So, Which reuse trick is the viral tweet? If extra loops do not raise quality, what are you paying? Does the file still need a second cache? Full Breakdown ↓↓",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895777393541555#m",
+          "decryptage": "Les \"transformeurs en boucle\" sont des architectures d'IA qui réutilisent des parties de leur réseau pour traiter l'information de manière plus efficace, réduisant ainsi les coûts de calcul, même si cela peut parfois affecter la qualité. Le \"cache KV\" est une zone de mémoire spéciale où le modèle stocke des informations pour ne pas avoir à les recalculer constamment."
         }
       ],
       "outils": [
         {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "Source : zou-group.github.io/llm-clai…",
-          "text_original": "Source: zou-group.github.io/llm-clai…",
-          "link": "https://nitter.kareem.one/emollick/status/2117446014617714909#m",
+          "author_name": "Yann LeCun",
+          "handle": "@ylecun",
+          "text_fr": "Un autre exemple qui montre que nous devrions passer plus de temps à améliorer les fonctions de perte de pré-entraînement plutôt que de simplement chercher plus de données/GPU ! SIGReg n'est pas la réponse finale, mais c'est certainement un bon premier pas dans cette direction ! Essayez-le, le point de contrôle est disponible ! Lukas Kuhn (@lukaskuhn77) présente LeVJEPA 1.5 Large, la première étape dans l'extension de notre méthode. Il comble l'écart avec V-JEPA sur les benchmarks d'images et de vidéos, entraîné avec 5,6 fois moins de puissance de calcul et un ordre de grandeur de données en moins.",
+          "text_original": "Another example that we should spend more time thinking about improving pretraining losses rather than just searching for more data/gpus! SIGReg is not the final answer, but certainly a good first step in that direction! Try it out, checkpoint is available! Lukas Kuhn (@lukaskuhn77) Introducing LeVJEPA 1.5 Large, the first step in scaling our method. It closes the gap to V-JEPA on both image and video benchmarks, trained with 5.6x less compute and over an order of magnitude less data. Video — https://nitter.kareem.one/lukaskuhn77/status/2117323261465735320#m",
+          "link": "https://nitter.kareem.one/randall_balestr/status/2117326982090310030#m",
+          "decryptage": "Les \"fonctions de perte\" sont comme des règles que l'IA utilise pour savoir à quel point elle s'est trompée, et les \"benchmarks\" sont des tests standards pour comparer les performances des modèles."
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "Vous pouvez trouver plus de détails et des figures en haute résolution dans la galerie complète : sebastianraschka.com/llm-arc… Lien Galerie d'architectures de LLM Une galerie qui rassemble des figures d'architecture de la Grande Comparaison d'Architectures de LLM et d'articles connexes, avec des fiches d'information et des liens vers les sources originales... sebastianraschka.com",
+          "text_original": "You can find more details and higher res figures in the full gallery: sebastianraschka.com/llm-arc… Link LLM Architecture Gallery A gallery that collects architecture figures from The Big LLM Architecture Comparison and related articles, with fact sheets and links back to the original s... sebastianraschka.com",
+          "link": "https://nitter.kareem.one/rasbt/status/2117639575610831301#m",
           "decryptage": null
+        },
+        {
+          "author_name": "Sebastian Raschka",
+          "handle": "@rasbt",
+          "text_fr": "La série complète de vidéos sur le raisonnement depuis zéro est maintenant disponible (et liée) ici : magazine.sebastianraschka.co… (Je fais une courte pause mais je reviendrai avec des mises à jour sur les modèles LLM et la recherche en novembre !) Lien Construisez votre propre modèle de raisonnement : Un cours vidéo complet Plus de 11 heures de vidéos de codage sur l l'évaluation, la mise à l'échelle au moment de l'inférence, l'apprentissage par renforcement et la distillation, avec Python et PyTorch. magazine.sebastianraschka.com",
+          "text_original": "The complete reasoning-from-scratch video series is now up (and linked) here: magazine.sebastianraschka.co… (Taking a short break but will be back with LLM model and research updates in November!) Link Build Your Own Reasoning Model: A Full Video Course Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch. magazine.sebastianraschka.com",
+          "link": "https://nitter.kareem.one/rasbt/status/2114325097653669940#m",
+          "decryptage": "L'\"apprentissage par renforcement\" est une méthode où l'IA apprend en recevant des récompenses pour de bonnes actions, et la \"distillation\" est une technique pour rendre un grand modèle plus petit et plus rapide."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "J'ai écrit d'autres notes à ce sujet sur mon blog simonwillison.net/2026/Oct/2… Lien Construire un monde de jeu multijoueur avec des modèles autonomes de classe Fable Ne vous laissez pas décourager par le titre accrocheur, cet article de Jacob Sansbury décrivant comment ils construisent Spawn est une exploration fascinante de ce qui est possible à la pointe de la technologie... simonwillison.net",
+          "text_original": "Wrote some more notes on this on my blog simonwillison.net/2026/Oct/2… Link Building a multiplayer game world with autonomous Fable-class models Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible … simonwillison.net",
+          "link": "https://nitter.kareem.one/simonw/status/2115858560823538152#m",
+          "decryptage": "Les \"modèles de classe Fable\" font référence à des IA avancées capables de simuler des comportements complexes et autonomes, souvent dans des environnements de jeu."
+        },
+        {
+          "author_name": "Simon Willison",
+          "handle": "@simonw",
+          "text_fr": "Ça m'a inspiré à essayer spawn.co sur mon téléphone. Me voici en train de faire voler un dragon autour d'un château, j'ai fait apparaître le château et le dragon en utilisant le chatbot \"Savi\" intégré au jeu.",
+          "text_original": "Inspired me to try out spawn.co on my phone. Here's me flying a dragon around a castle, I prompted both the castle and the dragon into existence using the in-game \"Savi\" chatbot",
+          "link": "https://nitter.kareem.one/simonw/status/2115822698341519520#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "AlphaSignal",
+          "handle": "@AlphaSignalAI",
+          "text_fr": "Ces 20 fois représentent 22 heures-GPU contre 1,14. Le débit sur une 5090 était d'environ 8,4K jetons/s contre 124K. Analyse complète : alphasignal.ai/news/looped-t… Lien Transformeurs en boucle : trois machines différentes | AlphaSignal Nanbeige4.2-3B est sous Apache 2.0 sur Hugging Face, avec num_hidden_layers: 22 et num_loops: 2, et deux passes ont conservé environ 75% des jetons d'un transformeur standard alphasignal.ai",
+          "text_original": "Those 20 times are 22 GPU-hours against 1.14. Throughput on one 5090 was about 8.4K tokens/s against 124K. Full Breakdown: alphasignal.ai/news/looped-t… Link Looped transformers: three different machines | AlphaSignal Nanbeige4.2-3B is Apache 2.0 on Hugging Face, with num_hidden_layers: 22 and num_loops: 2 , and two passes kept about 75% of a standard Transformer's token alphasignal.ai",
+          "link": "https://nitter.kareem.one/AlphaSignalAI/status/2107895779054522805#m",
+          "decryptage": "Un \"transformeur en boucle\" est une conception de modèle d'IA qui réutilise les mêmes couches plusieurs fois pour économiser de la puissance de calcul, et les \"jetons\" sont les petites unités de texte que l'IA traite."
         }
       ]
     }
   },
-  "processed_at": "2026-11-03T15:30:02",
+  "processed_at": "2026-11-03T16:10:20",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 75,
-    "total": 8,
+    "with_decryptage_pct": 70,
+    "total": 20,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-11-03T15:30:03"
+  "email_sent_at": "2026-11-03T16:10:22"
 }
