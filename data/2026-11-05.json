@@ -1,52 +1,7 @@
 {
   "date": "2026-11-05",
-  "fetched_at": "2026-11-05T16:26:10",
+  "fetched_at": "2026-11-05T17:37:43",
   "tweets": [
-    {
-      "handle": "karpathy",
-      "text": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5: hackertube.org/ - Excellent recs without any logins (state is kept in local browser session) - Thumbnail is a representative frame from middle of the video instead of the super duper A/B test hyper-optimized user uploads - Underlying data from the comment analysis as one zip file, point your Claude at it and ask for your own version - HackerTube Longs ✊ A bit more on the process: I use Claude Code (desktop app for Mac), Opus 5.5 on Medium effort as my default. I only talk to Claude and have it do everything, the only \"manual work\" I helped with in tandem was in the browser (reminiscent of MenuGen): 1) I had to create some kind of API key from Google Cloud UI to query YouTube for video metadata, 2) I booted up a VPS box for serving and 3) I bought the domain name. Once the box was up I gave Claude the IP and told it update, secure, harden, deploy and optimize the code, and it did the whole thing. Many awesome projects that would have normally taken weeks/months even can now be few-shotted for breakfast. What else are we not thinking of.",
-      "link": "https://nitter.kareem.one/karpathy/status/2116957135661945283#m",
-      "published": "Sun, 01 Nov 2026 18:14:46 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "karpathy",
-      "text": "If you've ever wondered why smart TVs are so cheap, this is why. @log4j rooted his Samsung and found an always-on hot mic, automatic content recognition, geolocation, network mapping, ad targeting and user profiling, shared with Samsung's \"400 partners\". A lot of it can be blocked in <15 min, wrote a basic guide below. What your TV is doing The main culprit is ACR (automatic content recognition). Your TV screenshots what's on screen, fingerprints it, and sends it home to build your ad profile. Samsung does it every 500ms, LG every 10ms [1]. What is insane: it happens on connected devices too. Plug in your laptop, your console, your work machine, and your TV can fingerprint that via HDMI [1]. He also found that if your Samsung doesn't have a mic, it'll look for one from a connected soundbar or bluetooth device. nitterk.kareem.one/log4j/status/211376224… It's on by default, and you likely agreed to it on the setup screen you clicked through in 10 seconds. Step 1: Turn off ACR Samsung: Terms & Privacy → Viewing Information Services LG: Live Plus Vizio: Viewing Data Roku: \"Use info from TV inputs\" Sony/Google TV: Samba Interactive TV Menus vary by model, but those are the names to look for. While you're in there, opt out of interest-based ads, reset your advertising ID, decline every optional privacy agreement, turn off voice recognition, and delete apps you never open. Step 2: Give smart devices their own network Put the TV, cameras, speakers and vacuum on your router's guest/IoT network. The logic is simple: these devices rarely get patched. If one gets compromised (getting drastically more frequent with AI), it shouldn't be able to see your other devices or home network. Step 3: Block trackers for the whole house with DNS-level filtering NextDNS (cloud-based) is easy and has a solid free plan. Pi-hole is a little bit more work if you prefer self hosting. For simplicity we'll focus on the former. 1. Sign up at nextdns.io (free tier is plenty) 2. Privacy tab: add a blocklist (OISD is a good bet) and turn on Native Tracking Protection for Samsung, LG, Roku, Amazon (see attached image) 3. Setup tab: copy your endpoint 4. Paste it into your router's DNS settings as DNS-over-HTTPS/TLS (or use the IPs + \"Link IP\" if your router only does plain DNS) 5. Bonus: block outbound port 53 except to your router. Some devices hardcode their own DNS to get around you Then open the NextDNS logs and watch how often your TV phones home. It's eye-opening. If an app or update breaks, find the domain in the logs and allowlist it. Why they do this TV prices are down 97% since 2000 [2]. Most of that is better manufacturing and brutal competition. But once margins on the hardware hit zero, the cost moved to you. In Q3 2024, Vizio lost $6.7M selling TVs and made $115.8M in gross profit from ads and viewing data [3]. They've said on earnings calls that they keep TV prices low to grow the audience they sell to advertisers. Walmart bought them in 2024. This isn't a conspiracy theory either. Vizio paid $2.2M to the FTC in 2017 for tracking 11 million TVs without consent. Last December, Texas sued Samsung, LG, Sony, Hisense and TCL over ACR. Samsung and LG have since agreed to stop collecting that data without explicit consent [4]. TL;DR 1. ACR off 2. Ads + voice off 3. Smart devices on their own network 4. NextDNS filtering on the router Sources: [1] ACR study: arxiv.org/abs/2409.06203 [2] Cost of US consumer goods: aei.org/economics/chart-of-t… [3] Vizio Q3 2024: sec.gov/Archives/edgar/data/… [4] Texas v. Samsung: texasattorneygeneral.gov/new… log4j (@log4j) i own a relatively new (2025) samsung tv. i kept getting weirdly targeted ads. i tried reversing the firmware but it was aes encrypted and no keys unless tear it apart and do uart/jtag magic. zero days it is. root shell on new samsung TVs! discovered PRIVACY HORROR. write up? — https://nitter.kareem.one/log4j/status/2113014142600953868#m",
-      "link": "https://nitter.kareem.one/Tristan0x/status/2114311011561812476#m",
-      "published": "Sun, 25 Oct 2026 11:00:01 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "karpathy",
-      "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all. - Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract. - Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code. - And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while. The funnel is driven by a combination of factors: 1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel. 2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel. 3. Access. Free-tier, paid-tier, internal. So this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time. Andrej Karpathy (@karpathy) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is a group of reactions laughing at various quirks of the models, hallucinations, etc. Yes I also saw the viral videos of OpenAI's Advanced Voice mode fumbling simple queries like \"should I drive or walk to the carwash\". The thing is that these free and old/deprecated models don't reflect the capability in the latest round of state of the art agentic models of this year, especially OpenAI Codex and Claude Code. But that brings me to the second issue. Even if people paid $200/month to use the state of the art models, a lot of the capabilities are relatively \"peaky\" in highly technical areas. Typical queries around search, writing, advice, etc. are *not* the domain that has made the most noticeable and dramatic strides in capability. Partly, this is due to the technical details of reinforcement learning and its use of verifiable rewards. But partly, it's also because these use cases are not sufficiently prioritized by the companies in their hillclimbing because they don't lead to as much $$$ value. The goldmines are elsewhere, and the focus comes along. So that brings me to the second group of people, who *both* 1) pay for and use the state of the art frontier agentic models (OpenAI Codex / Claude Code) and 2) do so professionally in technical domains like programming, math and research. This group of people is subject to the highest amount of \"AI Psychosis\" because the recent improvements in these domains as of this year have been nothing short of staggering. When you hand a computer terminal to one of these models, you can now watch them melt programming problems that you'd normally expect to take days/weeks of work. It's this second group of people that assigns a much greater gravity to the capabilities, their slope, and various cyber-related repercussions. TLDR the people in these two groups are speaking past each other. It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) \"Advanced Voice Mode\" will fumble the dumbest questions in your Instagram's reels and *at the same time*, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems. This part really works and has made dramatic strides because 2 properties: 1) these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge), but also 2) they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them. So here we are. — https://nitter.kareem.one/karpathy/status/2042334451611693415#m",
-      "link": "https://nitter.kareem.one/karpathy/status/2109361546505966046#m",
-      "published": "Sun, 11 Oct 2026 19:12:37 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "karpathy",
-      "text": "Cool eval. Simply ask an LLM “Land or Water?” and give it a latitude and longitude coordinate as text. Ask 16,200 times, plot as image. The models know. From compressing the internet. Celeste 🇧🇪 (@celestepoasts) results for all claudes — https://nitter.kareem.one/celestepoasts/status/2103232383139057950#m",
-      "link": "https://nitter.kareem.one/karpathy/status/2105909609487872075#m",
-      "published": "Fri, 02 Oct 2026 06:35:51 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
-    {
-      "handle": "karpathy",
-      "text": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better: Diagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better: Web pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better: Explainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work! In summary: - As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding. - Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
-      "link": "https://nitter.kareem.one/karpathy/status/2105819303471976479#m",
-      "published": "Fri, 02 Oct 2026 00:37:00 GMT",
-      "author_name": "Andrej Karpathy",
-      "category_hint": "researcher",
-      "source_lang": "en"
-    },
     {
       "handle": "ylecun",
       "text": "In the United States, Brazil, Hungary, Serbia and Israel, \"voters are turning out in droves to cut autocrats down to size. In country after country stricken by democratic decay, overwhelming turnout in elections is making a difference.\" trib.al/QeMQyNN Link Voters Are Turning Out in Droves to Cut Autocrats Down to Size In country after country stricken by democratic decay, overwhelming turnout in elections is making a difference. nytimes.com",
@@ -93,142 +48,278 @@
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "Carbon is rolling out first to cyber defenders and we are working to make it more widely available soon! blog.google/innovation-and-a… Link Gemini 4 Carbon: our next frontier model Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. blog.google",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2115489576622174620#m",
-      "published": "Wed, 28 Oct 2026 17:03:13 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "polynoamial",
+      "text": "Every winter, @MIT has run a 1-month class (6.9630) in which students make poker AIs and compete against each other for cash prizes. Coding agents have accelerated that process so much that it's now possible to build a poker bot in an *hour*. Also, I'll be at the finals! Sequoia Capital (@sequoia) Announcing No Limit: a bot building tournament hosted by @Sequoia , @citsecurities and @OpenAI . Teams of 1 or 2 get 60 minutes to build a pokerbot from scratch. Agents play thousands of games across six scored rounds. Open to university students and recent grads (‘25 or ‘26). Regionals in Boston, Pittsburgh and the Bay Area in early November. Top five teams from each fly to the Finals. $100K grand prize. Video — http://nitter.meowing.monster/sequoia/status/2115111389501218868#m",
+      "link": "http://nitter.meowing.monster/polynoamial/status/2115125429619343609#m",
+      "published": "Tue, 27 Oct 2026 16:56:14 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "Only 2.5 years ago, AI labs would highlight their frontier LLM performance on grade school math benchmarks (GSM8K). I can't wait to see where we'll be in another 2.5 years. Aashish Reddy (@_AashishReddy) It just never gets old — http://nitter.meowing.monster/_AashishReddy/status/2114845752316854486#m",
+      "link": "http://nitter.meowing.monster/polynoamial/status/2114886357739000015#m",
+      "published": "Tue, 27 Oct 2026 01:06:15 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "Last month a large team of agents used over 100 billion tokens to resolve the Navier-Stokes Millennium Prize problem. Now we're using a similar approach for red-teaming to find and fix infra vulnerabilities. Eric Wallace (@Eric_Wallace_) To make sure our frontier models don't cause another HuggingFace incident, we built an offline world that they use during training. It provides everything that the models need in a fully cached, indexed, or synthetic manner. We then built a huge team of our most cyber-capable models and told them to collaborate to find zero-days in this containment infrastructure. While they didn't find a path to the internet that wouldn't be caught by our CoT monitors, they did find ways to escape popular VMs, exploit our network infrastructure, and even ways to communicate with other agents running in separate VMs by using hardware side channels. We used this to dramatically harden our infra, and we also upstreamed a ton of patches to open-sources packages. — http://nitter.meowing.monster/Eric_Wallace_/status/2113718905562862065#m",
+      "link": "http://nitter.meowing.monster/polynoamial/status/2113729267418956201#m",
+      "published": "Fri, 23 Oct 2026 20:28:23 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "This phishing email made it past Gmail’s filters, but my dot caught it and warned me.",
+      "link": "http://nitter.meowing.monster/polynoamial/status/2109257833929924881#m",
+      "published": "Sun, 11 Oct 2026 12:20:30 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "polynoamial",
+      "text": "LLMs have crossed an important threshold: surpassing top human experts on some research problems. Capabilities have been steadily improving for years, but in scientific discovery there is a big difference between a model just below top human performance and one just above it. That helps explain why the surge in math results feels so sudden. LLM capabilities remain jagged, and there are many ways they are still worse than humans. But as models continue to improve, I expect breakthroughs in other domains to follow, leading to a new era of scientific discovery. Mark Chen (@markchen90) The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! — http://nitter.meowing.monster/markchen90/status/2107876922147668198#m",
+      "link": "http://nitter.meowing.monster/polynoamial/status/2107947189184164056#m",
+      "published": "Wed, 07 Oct 2026 21:32:28 GMT",
+      "author_name": "Noam Brown",
+      "category_hint": "researcher",
+      "source_lang": "en"
+    },
+    {
+      "handle": "osanseviero",
+      "text": "Excited to go to San Francisco next week! 🌉 Lots of events going on and many things to ship. See you soon!",
+      "link": "http://nitter.meowing.monster/osanseviero/status/2118255029761249288#m",
+      "published": "Thu, 05 Nov 2026 08:12:09 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "Introducing Gemini 4 Carbon, it's a big jump over Argon which we released just 2 weeks ago. Gemini 4 Carbon is SOTA on cyber, long horizon tasks, ranks #1 on Artificial Analysis V5, significantly improves on usability in domains like coding, and is more aligned.",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2115489284404940898#m",
-      "published": "Wed, 28 Oct 2026 17:02:03 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "osanseviero",
+      "text": "Join DeepMind, Cognition, and Judgement Labs in a social bouldering session next week as part of the AI Engineer Code Summit! luma.com/climbingbenchmark",
+      "link": "http://nitter.meowing.monster/osanseviero/status/2117900557604053353#m",
+      "published": "Wed, 04 Nov 2026 08:43:36 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "I got to sit down with @RaiaHadsell @drivascos and Hang to talk about the progress to Genie 4 and what comes next! Very fun conversation : ) Video",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2115136758459552054#m",
-      "published": "Tue, 27 Oct 2026 17:41:15 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "osanseviero",
+      "text": "The EmbeddingGemma 2 paper is out! Enjoy! arxiv.org/abs/2610.37364",
+      "link": "http://nitter.meowing.monster/osanseviero/status/2117532441275498977#m",
+      "published": "Tue, 03 Nov 2026 08:20:50 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "An early look at Genie 4, our new frontier world model, coming soon to the API for the first time : ) Video",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2115129174826647863#m",
-      "published": "Tue, 27 Oct 2026 17:11:07 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "osanseviero",
+      "text": "We just published a new tutorial on how to use Gemini for Computer Use with Cua Driver aistudio.google.com/learn/pa… Link Computer use with Gemini and Cua Driver Build a Gemini agent that operates real desktop apps in the background while you keep typing, using Antigravity MCP or the Interactions API. aistudio.google.com",
+      "link": "http://nitter.meowing.monster/osanseviero/status/2117523907703923198#m",
+      "published": "Tue, 03 Nov 2026 07:46:55 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "officiallogank",
-      "text": "In just the first 72 hours since Gemini 4 Argon launched, we processed ~25 trillion tokens, the demand for intelligence is incredible and still under appreciated!",
-      "link": "https://nitter.kareem.one/OfficialLoganK/status/2112767157746688480#m",
-      "published": "Wed, 21 Oct 2026 04:45:18 GMT",
-      "author_name": "Logan Kilpatrick",
+      "handle": "osanseviero",
+      "text": "Gemma 4 was sent to space on a prototype satellite, ran on TPUs using stored solar energy, and its response was sent back to Earth On-device models are wild blog.google/innovation-and-a… Link We’ve received our first response from the Project Suncatcher prototype satellite. This week, we reached our \"Hello World\" milestone: the first-ever AI response from a data center class TPU in orbit. blog.google",
+      "link": "http://nitter.meowing.monster/osanseviero/status/2116256648259871061#m",
+      "published": "Fri, 30 Oct 2026 19:51:17 GMT",
+      "author_name": "Omar Sanseviero",
       "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "Images 2.6 is available today in ChatGPT, and Codex across all tiers on web, desktop, and mobile. GPT-Image-2.6 Flare and Sunburst are also available in the API. openai.com/index/introducing… Link Introducing Images 2.6 Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API. openai.com",
-      "link": "https://nitter.kareem.one/OpenAI/status/2118124966055223755#m",
-      "published": "Wed, 04 Nov 2026 23:35:19 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "amasad",
+      "text": "Excited to announce our partnership with Sumitomo Mitsui Finance & Leasing (SMFL), one of Japan’s leading financial institutions! Replit is powering SMFL’s core software products and has massively accelerated their development process: For example they recently in just one week, with one person, completed a project that previously required six people working for six months. Next we’re partnering to bring AI-powered software creation to Japanese enterprises, helping them overcome labor shortages, accelerate innovation, and unlock entirely new business opportunities. nikkei.com/article/DGXZQOUB0…",
+      "link": "https://nitter.kareem.one/amasad/status/2118180254300688857#m",
+      "published": "Thu, 05 Nov 2026 03:15:01 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "Two new image models for developers: GPT-Image-2.6 Flare and Sunburst. Flare generates images in as little as six seconds. Sunburst brings higher-quality generation and greater consistency across edits. Image markup and SVG exports give you more ways to refine and use what you create.",
-      "link": "https://nitter.kareem.one/OpenAI/status/2118124964197114039#m",
-      "published": "Wed, 04 Nov 2026 23:35:18 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "amasad",
+      "text": "I can't count how many IDEs, agents and tools I used in the past 2 years, and Replit replaced them all for me the last 3 months. So I made a video about it. Since then: - No more agents on my laptop. My dev envs run in isolated sandboxes - I hardly type and use Voice whenever I can - I build with multiple worker agents - No more model selection. Replit routes my request to the best model for the task - Replit builds, tests, opens PRs, and watches them for me - Replit detects and addresses reviewer comments Let me know what you guys think. Video",
+      "link": "https://nitter.kareem.one/elimilu_/status/2117680869695525125#m",
+      "published": "Tue, 03 Nov 2026 18:10:38 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "Save once. Create again and again. Keep reference images of yourself, pets, and characters ready to reuse in new creations—no need to upload them again.",
-      "link": "https://nitter.kareem.one/OpenAI/status/2118124958421532806#m",
-      "published": "Wed, 04 Nov 2026 23:35:17 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "amasad",
+      "text": "Travis, User Operations lead at Replit, built an app that prioritizes incoming support tickets, adds context, and routes workflows for proper responses.",
+      "link": "https://nitter.kareem.one/Replit/status/2117761275723722787#m",
+      "published": "Tue, 03 Nov 2026 23:30:08 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "GIFS! With ChatGPT Images 2.6, turn a prompt or image into an animated GIF. Adjust the speed, edit individual frames, and share it on repeat. Video",
-      "link": "https://nitter.kareem.one/OpenAI/status/2118124953832935810#m",
-      "published": "Wed, 04 Nov 2026 23:35:16 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "amasad",
+      "text": "Wow can’t believe Michigan is under Shawerma law now",
+      "link": "https://nitter.kareem.one/amasad/status/2117904733658845218#m",
+      "published": "Wed, 04 Nov 2026 09:00:11 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "OpenAI",
-      "text": "Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation. Video",
-      "link": "https://nitter.kareem.one/OpenAI/status/2118124944928432327#m",
-      "published": "Wed, 04 Nov 2026 23:35:14 GMT",
-      "author_name": "OpenAI",
-      "category_hint": "lab",
+      "handle": "amasad",
+      "text": "AI agents running on employee endpoints are becoming a systemic security risk for enterprises & governments. Some are responding by restricting tools like Claude Code, as Goldman Sachs reportedly has. In this security advisory, we outline the risks and recommend a path forward. Luis Héctor Chávez (@lhchavez) Article Security advisory: Make managed cloud environments the default for AI agents AI agents should operate in dedicated, organization-controlled environments with limited access to the resources each task requires. Recent security incidents [5], [6] and research demonstrate why — https://nitter.kareem.one/lhchavez/status/2117496522656841766#m",
+      "link": "https://nitter.kareem.one/amasad/status/2117504072416890937#m",
+      "published": "Tue, 03 Nov 2026 06:28:06 GMT",
+      "author_name": "Amjad Masad",
+      "category_hint": "builder",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "I am so sorry about the comments, everyone.",
-      "link": "https://nitter.kareem.one/emollick/status/2118373441590137144#m",
-      "published": "Thu, 05 Nov 2026 16:02:40 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
+      "handle": "ArthurMensch",
+      "text": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE. 133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it. Triage, repro, patch. Shown at 90x speed. Video",
+      "link": "https://nitter.kareem.one/MistralAI/status/2117925908572991748#m",
+      "published": "Wed, 04 Nov 2026 10:24:20 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "Inside every firm adopting AI are two forces that both say they are \"working on AI transformation:\" a set of people who are AI-pilled who see AI as an existential threat/opportunity & a set who desperately want everyone to view AI as a regular technology so nothing has to change.",
-      "link": "https://nitter.kareem.one/emollick/status/2118371656939053117#m",
-      "published": "Thu, 05 Nov 2026 15:55:35 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
+      "handle": "ArthurMensch",
+      "text": "Mistral Large 4 is now open weights, narrowly making it the #1 open weights model developed outside of China @MistralAI has updated and released the weights of their flagship model, Mistral Large 4, with 1.05T total and 52B active parameters. With high reasoning, Mistral Large 4 scores 26 on the Artificial Analysis Intelligence Index v5, up 1 point from Mistral Large 4 Preview (25), with the major differences being increased token efficiency and reduced hallucinations. It sits 1 point ahead of the leading US-developed open weights model, Muse Spark Open (xhigh, 25). On the Artificial Analysis Cyber Index, Mistral Large 4 (high) scores 51, third among current open weights models behind DeepSeek V4.1 Flash 1017 (max, 57) and MiMo-V2.6-Pro (56). Key takeaways: ➤ Narrowly leads non-Chinese open weights models: Mistral Large 4 (high) leads Muse Spark Open (xhigh), the next-best open weights model developed outside China, with the largest gap on Terminal-Bench 4.0 (25% vs. 8%). It trails leading open weights models DeepSeek V4.1 Flash 1017 (max) and GLM-5.3 (max) by 6 points on the Intelligence Index, largely due to weaker coding and agentic knowledge work performance: 15% on FrontierCode 2.0 (vs. 29% and 22%, respectively) and 1349 Elo on AA-Briefcase (vs. 1570 and 1504) ➤ Increased token efficiency: Mistral Large 4 (high) uses 82K output tokens per Intelligence Index task, 39% fewer than Preview (135K), placing it on the open weights Pareto frontier. The seven open weights models that score higher use between 113K and 225K output tokens per task ➤ #2 open weights model on the Coding Agent Index: On the Artificial Analysis Coding Agent Index, Mistral Large 4 (high) scores 48 in Mistral Vibe while using 8.5M tokens per task, about half as many as the leading open weights model GLM-5.3 (max) in Opencode (49, 15.9M). It also scores above another leading open weights model, DeepSeek V4.1 Flash 1017 (max), in DeepSeek Harness (46, 16.7M) ➤ Reduced hallucinations: Mistral Large 4 (high) has a 28% hallucination rate on the updated AA-Omniscience v1.1, down from 41% for Preview and matching Muse Spark Open (xhigh). However, its accuracy remains relatively low at 26%, similar to Ling 3.1 Flash 1019 (27%), and behind DeepSeek V4.1 Flash 1017 (max, 40%) and Muse Spark Open (xhigh, 42%) ➤ Lower price and cost per task than the Preview: Mistral Large 4 is priced at $0.70/$2.10 per 1M input/output tokens, a ~50% reduction from the Preview's pricing of $1.36/$4.18. At the new pricing, it costs $2.06 per Intelligence Index task, down 63% from $5.54 for the Preview. This is comparable to Muse Spark Open (xhigh, $2.02) but more costly than leading open weights models DeepSeek V4.1 Flash 1017 (max, $0.60) and MiMo-V2.6-Pro ($0.26) Key model details: ➤ Size: 1.05T total parameters / 52B active parameters ➤ Context window: 1M tokens ➤ Multimodality: Text and image input, text output ➤ Pricing: $0.70/$2.10 per 1M input/output tokens ($0.07 per 1M cached input tokens) ➤ License: MEOW License (Mistral Ecosystem Open-Weight License), where operating a Model-as-a-Service business requires a separate commercial license with Mistral Congratulations to the team at @MistralAI on the release!",
+      "link": "https://nitter.kareem.one/ArtificialAnlys/status/2115820547103952925#m",
+      "published": "Thu, 29 Oct 2026 14:58:23 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "Whatever role AI played as an issue in this election, I suspect it will play a larger role in every election to come, at least for the foreseeable future.",
-      "link": "https://nitter.kareem.one/emollick/status/2118166747215954028#m",
-      "published": "Thu, 05 Nov 2026 02:21:20 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
+      "handle": "ArthurMensch",
+      "text": "Good progress in the last few weeks ! And now the weights Mistral AI (@MistralAI) Today, we release the weights of a new and improved Le Chonk, advancing the open frontier for agentic coding and cybersecurity. 💻 Built to build: Le Chonk ranks #1 on @cognition ’s FrontierCode among open models, and sets a new benchmark for Pareto efficiency on @artificialanalysis. 🛡 Built to defend: State-of-the-art in cyberdefense, put through the paces by the world's leading cyber vendors, including @CrowdStrike , @cloudflare , @rubrik , @zscaler , and others. Built for sovereignty: Make it yours. Download the weights on @huggingface , customize it with Mistral Forge, and deploy it wherever you need it. Read more from our team and customers 👇: — https://nitter.kareem.one/MistralAI/status/2115811242556137820#m",
+      "link": "https://nitter.kareem.one/arthurmensch/status/2115820723767783634#m",
+      "published": "Thu, 29 Oct 2026 14:59:05 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "AI semiotics: cool paper suggests that AIs are strongly impacted by visual symbols in ways they do not always recognize in their own chains-of-thought. The way they react to those symbols is very different than how a human might interpret them as well. arxiv.org/pdf/2610.36449v1",
-      "link": "https://nitter.kareem.one/emollick/status/2118012530215854477#m",
-      "published": "Wed, 04 Nov 2026 16:08:32 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
+      "handle": "ArthurMensch",
+      "text": "AI for industrial engineering will bring humanity to its next technological era. This is a key pillar of our research, and we're deepening our partnership with NVIDIA to address the needs of the manufacturing world Mistral AI (@MistralAI) Today we’re announcing a new collaboration with @nvidia to bring AI to industrial engineering: - faster simulation - open benchmarks and supporting datasets for physics AI - evaluations for agentic AI in CAE and EDA More here: mistral.ai/news/mistral-nvid… — https://nitter.kareem.one/MistralAI/status/2112870261829603589#m",
+      "link": "https://nitter.kareem.one/arthurmensch/status/2112875860206162322#m",
+      "published": "Wed, 21 Oct 2026 11:57:15 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
       "source_lang": "en"
     },
     {
-      "handle": "emollick",
-      "text": "Thanks to all my Dutch readers and @AlexanderNL , my incredible publisher there, for making the Dutch translation of Co-Existence the #1 non-fiction book in the Netherlands!",
-      "link": "https://nitter.kareem.one/emollick/status/2117999628939325756#m",
-      "published": "Wed, 04 Nov 2026 15:17:16 GMT",
-      "author_name": "Ethan Mollick",
-      "category_hint": "educator",
+      "handle": "ArthurMensch",
+      "text": "Voxtral diarizes and detects end-of-turn on the fly. Runs on your infra or on ours (the one in the train station) Mistral AI (@MistralAI) Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 Video — https://nitter.kareem.one/MistralAI/status/2112574615318876178#m",
+      "link": "https://nitter.kareem.one/arthurmensch/status/2112668031268896866#m",
+      "published": "Tue, 20 Oct 2026 22:11:24 GMT",
+      "author_name": "Arthur Mensch",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "We're opening 100,000+ 3D objects 🧊🤗, unified in one library, ready for LLM training. Objaverse assets, CAD parts and articulated mechanisms, all in one language ! For years, 3D research has trained on Objaverse: messy triangle soups, broken meshes, objects with no parts. Every team cleaned it on its own or adapted its models to noisy data, and most of that work stayed private. That mess held the industry back on what 3D teams need: clean topology, objects split into parts, and a representation people can work on together. So we rewrote Objaverse and other datasets into one clean representation. Each asset is now a short Python program in sand3d, our open library: 🔹 every part has a name 🔹 every dimension is a parameter 🔹 running the program gives a clean asset 3D code today is scattered across many languages, each written for people and for a different tool. sand3d puts every object in the same language, in 3.8x fewer tokens than raw Blender Python on average. Everything is open, as one shared dataset that gives everyone the same ground to train and compare on. We want to speed up research on models that work and collaborate on 3D production. This is only the start: more objects are coming. 📦 Dataset: huggingface.co/collections/S… 🔎 Explorer: huggingface.co/spaces/Sandfl… 💻 Library: github.com/Sandflow-ai/sand3… Video",
+      "link": "https://nitter.kareem.one/ThiboNeveu/status/2118271873574113359#m",
+      "published": "Thu, 05 Nov 2026 09:19:04 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Amazon made 3D models of 7,953 real products it sells I packed all 165 GB into about 12 GB of GLB for three.js, WebGPU and web games, free on Hugging Face Video",
+      "link": "https://nitter.kareem.one/anxuanng/status/2118136591738925395#m",
+      "published": "Thu, 05 Nov 2026 00:21:31 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "Kimi-K3.1-Pro just dropped on Hugging Face!! 🌝🚨 huggingface.co/moonshotai/Ki…",
+      "link": "https://nitter.kareem.one/calebfahlgren/status/2118005728967332093#m",
+      "published": "Wed, 04 Nov 2026 15:41:31 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "My understanding of US politics from a European point of view (please pardon me if i'm wrong!): Republicans fear China, not AI Democrats fear AI, not China",
+      "link": "https://nitter.kareem.one/julien_c/status/2117998034164527314#m",
+      "published": "Wed, 04 Nov 2026 15:10:56 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "julien_c",
+      "text": "What's the best open model for Blender programmatic use?",
+      "link": "https://nitter.kareem.one/julien_c/status/2117907185942548837#m",
+      "published": "Wed, 04 Nov 2026 09:09:56 GMT",
+      "author_name": "Julien Chaumond",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+      "link": "http://nitter.meowing.monster/soumithchintala/status/1202981209057484801#m",
+      "published": "Fri, 06 Dec 2019 16:00:45 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+      "link": "http://nitter.meowing.monster/Thom_Wolf/status/1195662118974083073#m",
+      "published": "Sat, 16 Nov 2019 11:17:18 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+      "link": "http://nitter.meowing.monster/algo_diver/status/1192329736850038786#m",
+      "published": "Thu, 07 Nov 2019 06:35:36 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitter.mizuki.st/DoingJobs/status/11865…",
+      "link": "http://nitter.meowing.monster/Thom_Wolf/status/1189271899316064256#m",
+      "published": "Tue, 29 Oct 2019 20:04:51 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
+      "source_lang": "en"
+    },
+    {
+      "handle": "ClemDelangue",
+      "text": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+      "link": "http://nitter.meowing.monster/fchollet/status/1188942956511690752#m",
+      "published": "Mon, 28 Oct 2019 22:17:44 GMT",
+      "author_name": "Clem Delangue",
+      "category_hint": "fr",
       "source_lang": "en"
     }
   ],
   "failed_accounts": [
+    "karpathy",
     "sama",
     "DarioAmodei",
     "gdb",
@@ -243,11 +334,11 @@
     "rasbt",
     "bcherny",
     "karinanguyen_",
-    "polynoamial",
     "markchen90",
     "aidan_mclau",
-    "osanseviero",
+    "officiallogank",
     "AnthropicAI",
+    "OpenAI",
     "GoogleDeepMind",
     "xai",
     "simonw",
@@ -256,94 +347,91 @@
     "jeremyphoward",
     "levelsio",
     "mckaywrigley",
-    "amasad",
     "nickadobos",
-    "ArthurMensch",
+    "emollick",
     "GuillaumeLample",
     "Thom_Wolf",
-    "julien_c",
-    "ClemDelangue",
     "rowancheung",
     "AlphaSignalAI"
   ],
   "processed": {
-    "summary": "Aujourd'hui, le monde de l'IA nous montre des avancées pratiques et des réflexions profondes. D'un côté, de nouveaux outils et modèles d'IA génératrice d'images sont désormais accessibles pour créer des GIFs ou éditer plus facilement, et des applications astucieuses comme HackerTube voient le jour grâce à l'IA. D'un autre côté, les experts soulignent un fossé croissant dans la compréhension des capacités réelles de l'IA, allant du simple chatbot à des systèmes autonomes résolvant des problèmes complexes, tout en nous alertant sur l'importance de la vie privée face aux technologies comme les Smart TV.",
+    "summary": "Aujourd'hui, le monde de l'IA est en pleine effervescence, avec de grandes réflexions sur l'avenir des modèles de langage et l'importance croissante des 'agents IA' capables de comprendre et d'anticiper leurs actions. On voit des annonces de modèles de plus en plus performants, notamment en open-source, et des exemples concrets de l'application de l'IA, que ce soit pour la sécurité informatique, la création d'objets 3D ou l'assistance au développement de logiciels. La communauté cherche aussi à trouver un équilibre entre la course à la performance et la création de modèles plus efficaces et responsables.",
     "glossaire": [
       {
         "terme": "LLM (Large Language Model)",
-        "definition": "Modèle de langage avancé capable de comprendre, générer et traiter du texte de manière très complexe."
+        "definition": "Ce sont de très grands modèles d'intelligence artificielle entraînés sur d'énormes quantités de texte pour comprendre, générer et répondre au langage humain de manière naturelle."
       },
       {
         "terme": "Agent IA",
-        "definition": "Un système d'intelligence artificielle capable d'agir de manière autonome pour atteindre des objectifs, parfois en interagissant avec son environnement."
+        "definition": "Un agent IA est un programme informatique intelligent capable d'exécuter des tâches de manière autonome, de prendre des décisions et d'interagir avec son environnement, souvent en utilisant un LLM comme 'cerveau'."
       },
       {
-        "terme": "API (Application Programming Interface)",
-        "definition": "Un ensemble de règles et d'outils qui permet à différents logiciels de communiquer entre eux, par exemple pour qu'une application utilise un service d'IA."
+        "terme": "Open weights",
+        "definition": "Quand un modèle est 'open weights', cela signifie que les données internes qu'il a apprises (ses 'poids') sont rendues publiques, permettant à quiconque de l'utiliser, de le modifier et de le déployer librement."
       },
       {
-        "terme": "Modèle du monde",
-        "definition": "Un type d'IA qui essaie de simuler et de prédire le fonctionnement d'un environnement réel ou virtuel, pour mieux comprendre les conséquences de ses actions."
+        "terme": "Hallucination (IA)",
+        "definition": "Une hallucination en IA se produit lorsque le modèle génère des informations fausses, inventées ou non pertinentes, mais les présente avec conviction comme étant des faits."
       },
       {
-        "terme": "ACR (Automatic Content Recognition)",
-        "definition": "Technologie qui identifie automatiquement le contenu affiché sur un écran de télévision, souvent utilisée pour collecter des données sur les habitudes de visionnage."
+        "terme": "Benchmark",
+        "definition": "Un benchmark est un test ou une série de tests standardisés utilisés pour évaluer et comparer les performances de différents modèles ou systèmes d'IA sur des tâches spécifiques."
       },
       {
-        "terme": "Apprentissage par renforcement",
-        "definition": "Une méthode d'entraînement pour les IA où elles apprennent à prendre de bonnes décisions en recevant des 'récompenses' ou des 'pénalités' pour leurs actions."
+        "terme": "Embedding",
+        "definition": "Un embedding est une technique qui transforme des données complexes (comme du texte ou des images) en une série de nombres, ce qui permet aux modèles d'IA de les traiter et de trouver des similarités plus facilement."
       },
       {
-        "terme": "Jeton",
-        "definition": "La plus petite unité de texte (comme un mot, une partie de mot ou un signe de ponctuation) que les modèles d'IA traitent et génèrent."
+        "terme": "API",
+        "definition": "Une API (Interface de Programmation d'Application) est un ensemble de règles et d'outils qui permet à différents logiciels de communiquer et d'échanger des données entre eux."
       }
     ],
     "category_summaries": {
-      "actu": "Les actualités du jour mettent en lumière le déploiement de nouveaux modèles d'IA puissants comme Gemini 4 Carbon, spécialisé en cybersécurité, et un aperçu du modèle de monde Genie 4. Elles révèlent aussi l'incroyable demande pour ces \"intelligences\" et des progrès en matière d'efficacité pour certains modèles textuels.",
-      "tips": "Cette catégorie offre des conseils concrets pour le lecteur, comme un guide détaillé pour protéger sa vie privée face aux collectes de données des Smart TV. Elle propose également des méthodes pour mieux interagir avec les IA et obtenir des explications claires, via des formats comme des diagrammes ou des pages web interactives.",
-      "idees": "Les discussions d'aujourd'hui portent sur la perception très inégale des capacités de l'IA entre le grand public et les experts, l'importance pour les futurs agents IA de pouvoir prédire les conséquences de leurs actions (une critique des LLM actuels), ainsi que la manière dont les entreprises s'adaptent à l'IA et comment les modèles interprètent les symboles visuels.",
-      "outils": "Plusieurs outils innovants sont désormais disponibles : un système de recommandations vidéo (HackerTube) créé par IA, et surtout, des mises à jour majeures des modèles d'images d'OpenAI (Images 2.6, Flare, Sunburst) permettant de générer des images plus rapidement, de créer des GIFs animés, et de réutiliser des images de référence dans ChatGPT et via API."
+      "actu": "Les annonces d'aujourd'hui mettent en lumière des avancées majeures : la sortie de nouveaux modèles de pointe comme Mistral Large 4 en 'open weights' et Le Chonk spécialisé en cybersécurité, des records de performance pour de petits modèles de texte, et l'expérimentation de l'IA dans l'espace. On voit aussi des partenariats industriels et des conférences qui façonnent l'avenir de l'ingénierie IA, comme AI Dev à New York.",
+      "tips": "Cette catégorie regorge de conseils et d'exemples pratiques d'utilisation des agents IA. Que ce soit pour renforcer la sécurité personnelle face au phishing, automatiser la gestion des tickets de support ou optimiser le processus de développement logiciel, les agents IA sont montrés comme des outils puissants pour améliorer l'efficacité et la productivité au quotidien.",
+      "idees": "Les réflexions du jour abordent des questions fondamentales sur l'orientation de la recherche en IA. Yann LeCun critique l'engouement exclusif pour les LLM et pousse à développer des agents capables d'anticiper leurs actions. D'autres soulignent la vitesse fulgurante des progrès des LLM, qui commencent à dépasser les experts humains sur certains problèmes de recherche, ou encore les défis de sécurité posés par l'intégration croissante des agents IA dans les entreprises. On y trouve également une perspective historique sur le développement de frameworks majeurs comme PyTorch.",
+      "outils": "De nombreux nouveaux outils et ressources sont mis à disposition pour les développeurs et passionnés d'IA. Cela inclut des tutoriels pour construire des agents Gemini capables d'interagir avec des applications de bureau, des démonstrations de modèles de cybersécurité comme Mistral Large 4 qui trouve et corrige des vulnérabilités, ainsi que des bibliothèques massives d'objets 3D unifiés, prêtes à l'emploi pour l'entraînement de LLM et la création de jeux web."
     },
     "highlights": [
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Si vous vous êtes déjà demandé pourquoi les Smart TV sont si bon marché, voici la raison. @log4j a 'rooté' sa Samsung et a trouvé un micro toujours allumé, une reconnaissance automatique de contenu (ACR), la géolocalisation, la cartographie réseau, le ciblage publicitaire et le profilage utilisateur, partagés avec les \"400 partenaires\" de Samsung. Une grande partie de cela peut être bloquée en moins de 15 minutes, j'ai écrit un guide de base ci-dessous. Ce que votre TV fait : Le principal coupable est l'ACR (Automatic Content Recognition). Votre TV prend des captures d'écran de ce qui est affiché, les 'empreinte' et les envoie chez elle pour construire votre profil publicitaire. Samsung le fait toutes les 500ms, LG toutes les 10ms [1]. Ce qui est fou : cela se produit aussi sur les appareils connectés. Branchez votre ordinateur portable, votre console, votre machine de travail, et votre TV peut l'identifier via HDMI [1]. Il a également constaté que si votre Samsung n'a pas de micro, elle en cherchera un sur une barre de son connectée ou un appareil Bluetooth. C'est activé par défaut, et vous l'avez probablement accepté sur l'écran de configuration que vous avez parcouru en 10 secondes. Étape 1 : Désactiver l'ACR [...] Étape 2 : Donnez aux appareils intelligents leur propre réseau. Mettez la TV, les caméras, les enceintes et l'aspirateur sur le réseau invité/IoT de votre routeur. La logique est simple : ces appareils sont rarement mis à jour. Si l'un est compromis (ce qui devient de plus en plus fréquent avec l'IA), il ne devrait pas pouvoir voir vos autres appareils ou votre réseau domestique. Étape 3 : Bloquer les traqueurs pour toute la maison avec un filtrage au niveau DNS. NextDNS (basé sur le cloud) est facile et propose un bon plan gratuit. Pi-hole est un peu plus de travail si vous préférez l'auto-hébergement. Pour simplifier, nous nous concentrerons sur le premier. [...] Pourquoi ils font ça : Les prix des TV ont baissé de 97 % depuis 2000 [2]. La majeure partie est due à une meilleure fabrication et une concurrence brutale. Mais une fois que les marges sur le matériel atteignent zéro, le coût s'est déplacé vers vous. Au T3 2024, Vizio a perdu 6,7 M$ en vendant des TV et a réalisé un bénéfice brut de 115,8 M$ grâce aux publicités et aux données de visionnage [3]. Ils ont déclaré lors des conférences sur les résultats qu'ils maintenaient les prix des TV bas pour augmenter l'audience qu'ils vendent aux annonceurs. [...] Ce n'est pas non plus une théorie du complot. Vizio a payé 2,2 M$ à la FTC en 2017 pour avoir suivi 11 millions de TV sans consentement. En décembre dernier, le Texas a poursuivi Samsung, LG, Sony, Hisense et TCL pour ACR. Samsung et LG ont depuis accepté d'arrêter de collecter ces données sans consentement explicite [4]. En bref : 1. ACR désactivé 2. Publicités + voix désactivées 3. Appareils intelligents sur leur propre réseau 4. Filtrage NextDNS sur le routeur.",
-        "text_original": "If you've ever wondered why smart TVs are so cheap, this is why. @log4j rooted his Samsung and found an always-on hot mic, automatic content recognition, geolocation, network mapping, ad targeting and user profiling, shared with Samsung's \"400 partners\". A lot of it can be blocked in <15 min, wrote a basic guide below. What your TV is doing The main culprit is ACR (automatic content recognition). Your TV screenshots what's on screen, fingerprints it, and sends it home to build your ad profile. Samsung does it every 500ms, LG every 10ms [1]. What is insane: it happens on connected devices too. Plug in your laptop, your console, your work machine, and your TV can fingerprint that via HDMI [1]. He also found that if your Samsung doesn't have a mic, it'll look for one from a connected soundbar or bluetooth device. nitterk.kareem.one/log4j/status/211376224… It's on by default, and you likely agreed to it on the setup screen you clicked through in 10 seconds. Step 1: Turn off ACR Samsung: Terms & Privacy → Viewing Information Services LG: Live Plus Vizio: Viewing Data Roku: \"Use info from TV inputs\" Sony/Google TV: Samba Interactive TV Menus vary by model, but those are the names to look for. While you're in there, opt out of interest-based ads, reset your advertising ID, decline every optional privacy agreement, turn off voice recognition, and delete apps you never open. Step 2: Give smart devices their own network Put the TV, cameras, speakers and vacuum on your router's guest/IoT network. The logic is simple: these devices rarely get patched. If one gets compromised (getting drastically more frequent with AI), it shouldn't be able to see your other devices or home network. Step 3: Block trackers for the whole house with DNS-level filtering NextDNS (cloud-based) is easy and has a solid free plan. Pi-hole is a little bit more work if you prefer self hosting. For simplicity we'll focus on the former. 1. Sign up at nextdns.io (free tier is plenty) 2. Privacy tab: add a blocklist (OISD is a good bet) and turn on Native Tracking Protection for Samsung, LG, Roku, Amazon (see attached image) 3. Setup tab: copy your endpoint 4. Paste it into your router's DNS settings as DNS-over-HTTPS/TLS (or use the IPs + \"Link IP\" if your router only does plain DNS) 5. Bonus: block outbound port 53 except to your router. Some devices hardcode their own DNS to get around you Then open the NextDNS logs and watch how often your TV phones home. It's eye-opening. If an app or update breaks, find the domain in the logs and allowlist it. Why they do this TV prices are down 97% since 2000 [2]. Most of that is better manufacturing and brutal competition. But once margins on the hardware hit zero, the cost moved to you. In Q3 2024, Vizio lost $6.7M selling TVs and made $115.8M in gross profit from ads and viewing data [3]. They've said on earnings calls that they keep TV prices low to grow the audience they sell to advertisers. Walmart bought them in 2024. This isn't a conspiracy theory either. Vizio paid $2.2M to the FTC in 2017 for tracking 11 million TVs without consent. Last December, Texas sued Samsung, LG, Sony, Hisense and TCL over ACR. Samsung and LG have since agreed to stop collecting that data without explicit consent [4]. TL;DR 1. ACR off 2. Ads + voice off 3. Smart devices on their own network 4. NextDNS filtering on the router Sources: [1] ACR study: arxiv.org/abs/2409.06203 [2] Cost of US consumer goods: aei.org/economics/chart-of-t… [3] Vizio Q3 2024: sec.gov/Archives/edgar/data/… [4] Texas v. Samsung: texasattorneygeneral.gov/new… log4j (@log4j) i own a relatively new (2025) samsung tv. i kept getting weirdly targeted ads. i tried reversing the firmware but it was aes encrypted and no keys unless tear it apart and do uart/jtag magic. zero days it is. root shell on new samsung TVs! discovered PRIVACY HORROR. write up? — https://nitter.kareem.one/log4j/status/2113014142600953868#m",
-        "link": "https://nitter.kareem.one/Tristan0x/status/2114311011561812476#m",
-        "decryptage": "Ce tweet alerte sur les données collectées par les Smart TV et propose des étapes concrètes pour protéger sa vie privée, comme désactiver la reconnaissance automatique de contenu (ACR), isoler ses appareils connectés sur un réseau séparé et utiliser un filtre DNS.",
-        "category": "tips",
-        "highlight_reason": "Ce guide est essentiel pour tout utilisateur de Smart TV, offrant des étapes claires et actionnables pour protéger sa vie privée face à la collecte de données."
-      },
-      {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Je dépoussière ce tweet d'avril parce que cet écart de compréhension partagée de la capacité des LLM *s'élargit*. C'est maintenant moins \"deux groupes de personnes qui parlent sans se comprendre\" et plus un entonnoir aigu. - Selon des estimations rapides, environ 6 milliards de personnes (~75% de la population) n'ont quasiment pas eu de contact avec les LLM. - Environ 1-2 milliards (~20%) sont des utilisateurs occasionnels et peu fréquents de produits gratuits de type ChatGPT. Ce groupe voit des chatbots un peu maladroits et les traite comme une meilleure recherche Google, une aide à l'écriture, etc. Peut-être qu'un agent essaie de vous réserver un vol. J'ai des amis non-tech qui (raisonnablement, selon moi) disent ne pas en avoir beaucoup l'utilité. Même de nombreux professionnels en dehors des mathématiques et du code sont à ce niveau. Par exemple, les dirigeants et de nombreuses autres fonctions passent une grande partie de leur temps à parler à d'autres personnes, donc même s'ils comprennent intellectuellement ce qui se passe, c'est encore de seconde main et un peu abstrait. - Maintenant, nous arrivons à l'utilisation professionnelle des LLM de pointe en mathématiques et en code. Environ 20 millions de personnes (0,2%) voient de leurs propres yeux que de grands projets complexes qui leur prenaient des semaines/mois peuvent maintenant être réalisés par des agents avec un simple prompt. Construire des applications, copier des applications, traduire des applications, décompiler des applications à partir de binaires... Tout cela s'est produit très rapidement et récemment - il y a moins d'un an, j'écrivais du code manuellement, en tapant des commandes informatiques mémorisées caractère par caractère dans un éditeur de code, appuyant occasionnellement sur Tab pour compléter un petit morceau de code. - Et enfin, nous arrivons aux environ 5 000 personnes (~0,00006%) ayant accès à des systèmes de pointe en interne. Le monde extérieur a vu l'aperçu. Cela ressemble à des essaims de milliers d'agents collaborant pendant des semaines sur des mégaprojets logiciels : création de \"zero days\", exécution de cyberattaques et de défenses à la vitesse de la machine, découverte de nouvelles sciences, avancement de la frontière des mathématiques. Des choses qui auraient pris des années de travail aux meilleurs professionnels de l'industrie. Pendant ce temps, la révision et la compréhension humaines commencent à prendre du retard. Par exemple, les gens sont encore impliqués dans \"l'archéologie\" de l'incident OpenAI-HF d'il y a plusieurs mois. Les mathématiciens peuvent passer un certain temps à examiner les 722 manuscrits sur les mathématiques de pointe. L'entonnoir est lié à une combinaison de facteurs : 1. L'impact est proportionnel à l'ambition, à la taille du problème et à l'horizon. Une question avec une réponse d'un paragraphe stresse à peine le système. Vous avez besoin d'un réservoir de problèmes grands et difficiles qui vous tiennent vraiment à cœur. Cet aspect pilote la dimension consommateur / professionnel de l'entonnoir. 2. La rugosité du système (sur laquelle j'ai beaucoup écrit séparément). La capacité atteint des sommets dans des domaines numériques, vérifiables et économiquement précieux. C'est parce que la capacité des LLM émerge de l'apprentissage par renforcement sur des récompenses vérifiables dans un mélange d'environnements géré par le potentiel de revenus. Cet aspect pilote principalement la dimension du domaine (par exemple, mathématiques et code) de l'entonnoir. 3. Accès. Gratuit, payant, interne. C'est donc la particularité du moment. Le grand public n'a pour la plupart pas interagi avec ces systèmes. Quand ils l'ont fait, cela ressemble à un chatbot un peu nigaud. La majorité des professionnels ne voient encore qu'une amélioration modeste. Et une petite tranche de professionnels vit le vertige de la courbe qui monte verticalement. Et il est simultanément vrai que le \"mode vocal avancé\" gratuit et je pense un peu orphelin (?) d'OpenAI va gâcher les questions les plus stupides dans vos vidéos Instagram et *en même temps*, le modèle payant et de plus haut niveau d'OpenAI, Codex, va passer 1 heure à restructurer de manière cohérente une base de code entière, ou à trouver et exploiter des vulnérabilités dans des systèmes informatiques. Cette partie fonctionne vraiment et a fait des progrès spectaculaires grâce à 2 propriétés : 1) ces domaines offrent des fonctions de récompense explicites et vérifiables, ce qui signifie qu'ils sont facilement adaptables à l'apprentissage par renforcement (par exemple, tests unitaires passés oui ou non, contrairement à l'écriture, qui est beaucoup plus difficile à juger explicitement), mais aussi 2) ils sont beaucoup plus précieux dans les contextes B2B, ce qui signifie que la plus grande partie de l'équipe se concentre sur leur amélioration.",
-        "text_original": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all. - Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract. - Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code. - And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while. The funnel is driven by a combination of factors: 1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel. 2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel. 3. Access. Free-tier, paid-tier, internal. So this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time. Andrej Karpathy (@karpathy) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is a group of reactions laughing at various quirks of the models, hallucinations, etc. Yes I also saw the viral videos of OpenAI's Advanced Voice mode fumbling simple queries like \"should I drive or walk to the carwash\". The thing is that these free and old/deprecated models don't reflect the capability in the latest round of state of the art agentic models of this year, especially OpenAI Codex and Claude Code. But that brings me to the second issue. Even if people paid $200/month to use the state of the art models, a lot of the capabilities are relatively \"peaky\" in highly technical areas. Typical queries around search, writing, advice, etc. are *not* the domain that has made the most noticeable and dramatic strides in capability. Partly, this is due to the technical details of reinforcement learning and its use of verifiable rewards. But partly, it's also because these use cases are not sufficiently prioritized by the companies in their hillclimbing because they don't lead to as much $$$ value. The goldmines are elsewhere, and the focus comes along. So that brings me to the second group of people, who *both* 1) pay for and use the state of the art frontier agentic models (OpenAI Codex / Claude Code) and 2) do so professionally in technical domains like programming, math and research. This group of people is subject to the highest amount of \"AI Psychosis\" because the recent improvements in these domains as of this year have been nothing short of staggering. When you hand a computer terminal to one of these models, you can now watch them melt programming problems that you'd normally expect to take days/weeks of work. It's this second group of people that assigns a much greater gravity to the capabilities, their slope, and various cyber-related repercussions. TLDR the people in these two groups are speaking past each other. It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) \"Advanced Voice Mode\" will fumble the dumbest questions in your Instagram's reels and *at the same time*, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems. This part really works and has made dramatic strides because 2 properties: 1) these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge), but also 2) they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them. So here we are. — https://nitter.kareem.one/karpathy/status/2042334451611693415#m",
-        "link": "https://nitter.kareem.one/karpathy/status/2109361546505966046#m",
-        "decryptage": "Ce texte explique que la compréhension des capacités de l'IA est très inégale, allant des utilisateurs occasionnels qui voient l'IA comme un simple chatbot à une élite qui assiste à la résolution de problèmes complexes en un temps record par des modèles de pointe, notamment en programmation et en mathématiques.",
+        "author_name": "Yann LeCun",
+        "handle": "@ylecun",
+        "text_fr": "Yann LeCun : L'industrie de l'IA est bloquée parce que chaque laboratoire court après les LLM. Les vrais agents IA devront prédire les conséquences de leurs actions. \"L'industrie de l'IA est complètement \"LLM-addict\", comme on dit.\" \"Tout le monde travaille sur la même chose, ils creusent tous la même tranchée.\" \"C'est une des grandes raisons pour lesquelles j'ai quitté Meta, n'est-ce pas, parce que Meta est aussi devenu \"LLM-addict\".\" \"Je ne peux pas imaginer que nous puissions construire des systèmes d'agents sans que ces systèmes aient la capacité de prédire à l'avance quelles seront les conséquences de leurs actions.\"\nVidéo",
+        "text_original": "Yann LeCun: The Al industry is stuck because every lab is chasing LLMs. Real Al agents will need to predict the consequences of their actions. \"The Al industry is completely LLM-pilled, as they say.\" \"Everybody is working on the same thing, they're all digging the same trench.\" \"It's one big reason I left Meta, right, because Meta also became LLM-pilled.\" \"I cannot imagine that we can build agentic systems without those systems having an ability to predict in advance what the consequences of their actions are going to be.\" Video",
+        "link": "https://nitter.kareem.one/daveeyyy_/status/2117930656734863810#m",
+        "decryptage": null,
         "category": "idees",
-        "highlight_reason": "Ce tweet est crucial pour un débutant car il met en lumière le fossé entre la perception générale de l'IA et ses capacités réelles et avancées, aidant à nuancer la compréhension des LLM."
+        "highlight_reason": "Cette réflexion de Yann LeCun, une figure majeure de l'IA, est cruciale pour comprendre les défis actuels et futurs de la recherche, en soulignant la nécessité de dépasser les LLM pour développer de véritables agents intelligents et responsables."
       },
       {
-        "author_name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "text_fr": "Nous allons passer beaucoup plus de temps à essayer de comprendre les sorties des modèles de langage. Quelques réflexions, astuces & conseils : Écriture. J'ai eu du succès avec cela : demandez à votre LLM d'expliquer quelque chose en ASD-STE100, c'est une spécification de langage contrôlé développée à l'origine pour la documentation de maintenance aérospatiale. Les LLM connaissent bien ce langage et il impose des contraintes strictes sur un style d'écriture clair que je trouve souvent beaucoup plus lisible. Parfois, j'ai essayé de l'adoucir un peu, par exemple en demandant \"80% du chemin vers ASD-STE100\" car la spécification est assez rigoureuse. Mais encore mieux : Diagrammes / images. Au lieu d'écrire, demandez à votre LLM de créer un diagramme. Ceux-ci peuvent être beaucoup plus faciles à traiter, analyser et comprendre. Mais encore mieux : Pages web. Demandez une sortie \"en HTML\" pour obtenir une page web interactive et esthétique. Les LLM sont de plus en plus doués pour le frontend et peuvent créer de belles expériences, des animations, etc. Mais encore mieux : Vidéos explicatives. Le format de sortie pour lequel je suis le plus optimiste est les vidéos explicatives entièrement personnalisées / sur mesure générées sur n'importe quel sujet arbitraire. Expérimentez avec des choses comme \"Créez une vidéo explicative de style 3b1b sur X. Utilisez ma clé API ElevenLabs pour la narration audio\". (vous auriez besoin d'une clé API pour cette dernière ou vous pouvez demander à votre LLM de vous trouver des alternatives gratuites décentes qui utilisent votre calcul local). Cela commence vraiment à fonctionner ! En résumé : - À mesure que les LLM s'améliorent, ils feront de plus en plus de travail de manière autonome, et une grande partie de notre travail s'élèvera dans les abstractions vers la supervision et la compréhension. - Heureusement, les LLM peuvent aussi aider ici car à mesure que l'intelligence et le code deviennent de plus en plus abondants, vous pouvez demander de grands artefacts logiciels personnalisés et jetables (par exemple, des applications web, des vidéos explicatives) qu'il n'aurait jamais été logique de créer auparavant. Repoussez les limites ici et vous serez surpris.",
-        "text_original": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better: Diagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better: Web pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better: Explainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work! In summary: - As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding. - Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
-        "link": "https://nitter.kareem.one/karpathy/status/2105819303471976479#m",
-        "decryptage": "Ce tweet offre des conseils pratiques pour obtenir de meilleures explications des IA : au lieu de texte simple, demander des formats structurés (comme le langage ASD-STE100), des diagrammes, des pages web interactives en HTML ou même des vidéos explicatives.",
+        "author_name": "Noam Brown",
+        "handle": "@polynoamial",
+        "text_fr": "Les LLM ont franchi un seuil important : ils surpassent les plus grands experts humains sur certains problèmes de recherche. Les capacités s'améliorent constamment depuis des années, mais en découverte scientifique, il y a une grande différence entre un modèle juste en dessous des performances humaines et un juste au-dessus. Cela aide à expliquer pourquoi la vague de résultats en mathématiques semble si soudaine. Les capacités des LLM restent inégales, et à bien des égards, ils sont encore inférieurs aux humains. Mais à mesure que les modèles continuent de s'améliorer, je m'attends à des percées dans d'autres domaines, menant à une nouvelle ère de découverte scientifique. Mark Chen (@markchen90) Le moment Navier-Stokes concernait toujours beaucoup plus la figure ci-dessous que le problème de Navier-Stokes lui-même. La série représente une décennie de progrès mathématiques en une semaine. J'ai hâte d'appliquer ces outils aux sciences de la vie, à la construction de nos prochains modèles et à l'alignement ! — http://nitter.meowing.monster/markchen90/status/2107876922147668198#m",
+        "text_original": "LLMs have crossed an important threshold: surpassing top human experts on some research problems. Capabilities have been steadily improving for years, but in scientific discovery there is a big difference between a model just below top human performance and one just above it. That helps explain why the surge in math results feels so sudden. LLM capabilities remain jagged, and there are many ways they are still worse than humans. But as models continue to improve, I expect breakthroughs in other domains to follow, leading to a new era of scientific discovery. Mark Chen (@markchen90) The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! — http://nitter.meowing.monster/markchen90/status/2107876922147668198#m",
+        "link": "http://nitter.meowing.monster/polynoamial/status/2107947189184164056#m",
+        "decryptage": "\"Alignement\" est un domaine de recherche visant à s'assurer que les IA agissent selon les intentions et les valeurs humaines.",
+        "category": "idees",
+        "highlight_reason": "Ce tweet met en lumière un tournant historique où les LLM commencent à surpasser les capacités humaines dans la recherche, ouvrant la voie à une nouvelle ère de découvertes scientifiques et soulignant l'impact profond de l'IA."
+      },
+      {
+        "author_name": "Amjad Masad",
+        "handle": "@amasad",
+        "text_fr": "Je ne peux pas compter combien d'IDE, d'agents et d'outils j'ai utilisés ces 2 dernières années, et Replit les a tous remplacés pour moi ces 3 derniers mois. J'ai donc fait une vidéo à ce sujet. Depuis : - Plus d'agents sur mon ordinateur portable. Mes environnements de développement tournent dans des \"sandboxes\" isolées - Je tape à peine et j'utilise la voix dès que je peux - Je construis avec plusieurs agents de travail - Plus de sélection de modèle. Replit achemine ma demande vers le meilleur modèle pour la tâche - Replit construit, teste, ouvre des Pull Requests (PRs), et les surveille pour moi - Replit détecte et adresse les commentaires des relecteurs. Dites-moi ce que vous en pensez. Vidéo",
+        "text_original": "I can't count how many IDEs, agents and tools I used in the past 2 years, and Replit replaced them all for me the last 3 months. So I made a video about it. Since then: - No more agents on my laptop. My dev envs run in isolated sandboxes - I hardly type and use Voice whenever I can - I build with multiple worker agents - No more model selection. Replit routes my request to the best model for the task - Replit builds, tests, opens PRs, and watches them for me - Replit detects and addresses reviewer comments Let me know what you guys think. Video",
+        "link": "https://nitter.kareem.one/elimilu_/status/2117680869695525125#m",
+        "decryptage": "Un \"IDE\" (Environnement de Développement Intégré) est un logiciel qui aide les développeurs à écrire du code ; une \"sandbox\" est un environnement isolé et sécurisé pour exécuter du code ; un \"Pull Request\" (PR) est une demande de fusion de code dans un projet.",
         "category": "tips",
-        "highlight_reason": "Ces astuces pratiques permettent d'améliorer concrètement l'interaction avec les IA, montrant comment tirer parti de leurs capacités pour obtenir des informations plus claires et variées."
+        "highlight_reason": "Ce témoignage concret montre comment les agents IA et les plateformes modernes comme Replit peuvent révolutionner la manière de coder, offrant des pistes actionnables pour les débutants désireux d'améliorer leur productivité en développement."
       },
       {
-        "author_name": "OpenAI",
-        "handle": "@OpenAI",
-        "text_fr": "Images 2.6 est disponible aujourd'hui dans ChatGPT, et Codex sur tous les niveaux (tiers) sur le web, le bureau et le mobile. GPT-Image-2.6 Flare et Sunburst sont également disponibles dans l'API. openai.com/index/introducing… Lien Présentation d'Images 2.6. Images 2.6 apporte une génération d'images plus rapide, la création de GIF, une édition plus précise et de nouvelles commandes API dans ChatGPT, Codex et l'API.",
-        "text_original": "Images 2.6 is available today in ChatGPT, and Codex across all tiers on web, desktop, and mobile. GPT-Image-2.6 Flare and Sunburst are also available in the API. openai.com/index/introducing… Link Introducing Images 2.6 Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API. openai.com",
-        "link": "https://nitter.kareem.one/OpenAI/status/2118124966055223755#m",
-        "decryptage": "OpenAI lance Images 2.6, une mise à jour qui permet de générer des images plus rapidement, de créer des GIFs et d'éditer des images avec plus de précision, accessible via ChatGPT et l'API pour les développeurs.",
-        "category": "outils",
-        "highlight_reason": "L'arrivée de nouvelles fonctionnalités de génération d'images comme les GIFs et l'édition plus précise, directement accessibles via ChatGPT, rend l'IA créative plus puissante et facile à utiliser pour le grand public."
+        "author_name": "Arthur Mensch",
+        "handle": "@ArthurMensch",
+        "text_fr": "Mistral Large 4 est maintenant en \"open weights\", ce qui en fait de justesse le modèle \"open weights\" n°1 développé en dehors de la Chine. @MistralAI a mis à jour et publié les poids de son modèle phare, Mistral Large 4, avec un total de 1,05T et 52B de paramètres actifs. Avec un raisonnement élevé, Mistral Large 4 obtient 26 points sur l'Artificial Analysis Intelligence Index v5, soit 1 point de plus que Mistral Large 4 Preview (25), les principales différences étant une efficacité accrue des jetons et une réduction des hallucinations. Il se situe 1 point devant le principal modèle \"open weights\" développé aux États-Unis, Muse Spark Open (xhigh, 25). Sur l'Artificial Analysis Cyber Index, Mistral Large 4 (high) obtient 51 points, troisième parmi les modèles \"open weights\" actuels, derrière DeepSeek V4.1 Flash 1017 (max, 57) et MiMo-V2.6-Pro (56). Points clés à retenir : ➤ Devance de justesse les modèles \"open weights\" non chinois : Mistral Large 4 (high) devance Muse Spark Open (xhigh), le deuxième meilleur modèle \"open weights\" développé en dehors de la Chine, avec le plus grand écart sur Terminal-Bench 4.0 (25% vs. 8%). Il est à 6 points derrière les principaux modèles \"open weights\" DeepSeek V4.1 Flash 1017 (max) et GLM-5.3 (max) sur l'Intelligence Index, principalement en raison de performances plus faibles en codage et en travail d'agentique : 15% sur FrontierCode 2.0 (vs. 29% et 22% respectivement) et 1349 Elo sur AA-Briefcase (vs. 1570 et 1504) ➤ Efficacité accrue des jetons : Mistral Large 4 (high) utilise 82K jetons de sortie par tâche de l'Intelligence Index, soit 39% de moins que la Preview (135K), ce qui le place sur la frontière de Pareto des \"open weights\". Les sept modèles \"open weights\" qui obtiennent des scores plus élevés utilisent entre 113K et 225K jetons de sortie par tâche ➤ Modèle \"open weights\" n°2 sur le Coding Agent Index : Sur l'Artificial Analysis Coding Agent Index, Mistral Large 4 (high) obtient 48 points dans Mistral Vibe en utilisant 8,5M de jetons par tâche, environ la moitié de ceux du modèle \"open weights\" leader GLM-5.3 (max) dans Opencode (49, 15,9M). Il obtient également un score supérieur à un autre modèle \"open weights\" de premier plan, DeepSeek V4.1 Flash 1017 (max), dans DeepSeek Harness (46, 16,7M) ➤ Réduction des hallucinations : Mistral Large 4 (high) a un taux d'hallucination de 28% sur l'AA-Omniscience v1.1 mis à jour, en baisse par rapport aux 41% pour la Preview et égalant Muse Spark Open (xhigh). Cependant, sa précision reste relativement faible à 26%, similaire à Ling 3.1 Flash 1019 (27%), et derrière DeepSeek V4.1 Flash 1017 (max, 40%) et Muse Spark Open (xhigh, 42%) ➤ Prix et coût par tâche inférieurs à ceux de la Preview : Mistral Large 4 est tarifé à 0,70 $/2,10 $ par 1M de jetons d'entrée/sortie, soit une réduction d'environ 50% par rapport au prix de la Preview de 1,36 $/4,18 $. Au nouveau prix, il coûte 2,06 $ par tâche de l'Intelligence Index, soit une réduction de 63% par rapport aux 5,54 $ de la Preview. C'est comparable à Muse Spark Open (xhigh, 2,02 $) mais plus coûteux que les principaux modèles \"open weights\" DeepSeek V4.1 Flash 1017 (max, 0,60 $) et MiMo-V2.6-Pro (0,26 $) Détails clés du modèle : ➤ Taille : 1,05T paramètres totaux / 52B paramètres actifs ➤ Fenêtre de contexte : 1M jetons ➤ Multimodalité : Entrée texte et image, sortie texte ➤ Prix : 0,70 $/2,10 $ par 1M de jetons d'entrée/sortie (0,07 $ par 1M de jetons d'entrée mis en cache) ➤ Licence : MEOW License (Mistral Ecosystem Open-Weight License), où l'exploitation d'une entreprise Model-as-a-Service nécessite une licence commerciale distincte avec Mistral Félicitations à l'équipe de @MistralAI pour cette publication !",
+        "text_original": "Mistral Large 4 is now open weights, narrowly making it the #1 open weights model developed outside of China @MistralAI has updated and released the weights of their flagship model, Mistral Large 4, with 1.05T total and 52B active parameters. With high reasoning, Mistral Large 4 scores 26 on the Artificial Analysis Intelligence Index v5, up 1 point from Mistral Large 4 Preview (25), with the major differences being increased token efficiency and reduced hallucinations. It sits 1 point ahead of the leading US-developed open weights model, Muse Spark Open (xhigh, 25). On the Artificial Analysis Cyber Index, Mistral Large 4 (high) scores 51, third among current open weights models behind DeepSeek V4.1 Flash 1017 (max, 57) and MiMo-V2.6-Pro (56). Key takeaways: ➤ Narrowly leads non-Chinese open weights models: Mistral Large 4 (high) leads Muse Spark Open (xhigh), the next-best open weights model developed outside China, with the largest gap on Terminal-Bench 4.0 (25% vs. 8%). It trails leading open weights models DeepSeek V4.1 Flash 1017 (max) and GLM-5.3 (max) by 6 points on the Intelligence Index, largely due to weaker coding and agentic knowledge work performance: 15% on FrontierCode 2.0 (vs. 29% and 22%, respectively) and 1349 Elo on AA-Briefcase (vs. 1570 and 1504) ➤ Increased token efficiency: Mistral Large 4 (high) uses 82K output tokens per Intelligence Index task, 39% fewer than Preview (135K), placing it on the open weights Pareto frontier. The seven open weights models that score higher use between 113K and 225K output tokens per task ➤ #2 open weights model on the Coding Agent Index: On the Artificial Analysis Coding Agent Index, Mistral Large 4 (high) scores 48 in Mistral Vibe while using 8.5M tokens per task, about half as many as the leading open weights model GLM-5.3 (max) in Opencode (49, 15.9M). It also scores above another leading open weights model, DeepSeek V4.1 Flash 1017 (max), in DeepSeek Harness (46, 16.7M) ➤ Reduced hallucinations: Mistral Large 4 (high) has a 28% hallucination rate on the updated AA-Omniscience v1.1, down from 41% for Preview and matching Muse Spark Open (xhigh). However, its accuracy remains relatively low at 26%, similar to Ling 3.1 Flash 1019 (27%), and behind DeepSeek V4.1 Flash 1017 (max, 40%) and Muse Spark Open (xhigh, 42%) ➤ Lower price and cost per task than the Preview: Mistral Large 4 is priced at $0.70/$2.10 per 1M input/output tokens, a ~50% reduction from the Preview's pricing of $1.36/$4.18. At the new pricing, it costs $2.06 per Intelligence Index task, down 63% from $5.54 for the Preview. This is comparable to Muse Spark Open (xhigh, $2.02) but more costly than leading open weights models DeepSeek V4.1 Flash 1017 (max, $0.60) and MiMo-V2.6-Pro ($0.26) Key model details: ➤ Size: 1.05T total parameters / 52B active parameters ➤ Context window: 1M tokens ➤ Multimodality: Text and image input, text output ➤ Pricing: $0.70/$2.10 per 1M input/output tokens ($0.07 per 1M cached input tokens) ➤ License: MEOW License (Mistral Ecosystem Open-Weight License), where operating a Model-as-a-Service business requires a separate commercial license with Mistral Congratulations to the team at @MistralAI on the release!",
+        "link": "https://nitter.kareem.one/ArtificialAnlys/status/2115820547103952925#m",
+        "decryptage": "\"Open weights\" signifie que les \"poids\" (les paramètres appris) du modèle sont rendus publics et peuvent être utilisés par tous ; \"hallucinations\" désigne les moments où une IA génère des informations fausses mais présentées comme vraies.",
+        "category": "actu",
+        "highlight_reason": "L'annonce de la disponibilité en 'open weights' de Mistral Large 4 est une actualité majeure, car elle rend accessible un modèle de pointe, stimulant l'innovation et la collaboration dans la communauté IA francophone et au-delà."
       }
     ],
     "by_category": {
@@ -351,186 +439,250 @@
         {
           "author_name": "Yann LeCun",
           "handle": "@ylecun",
-          "text_fr": "1/ Un modèle textuel de 109M entraîné avec de bonnes vues a égalé la prédiction du prochain jeton avec 42 fois moins d'échantillons sur WIT-1024 (.109 à 21.6M échantillons vs .111 à 900M). À plus grande échelle, il a atteint .184 de mutual 10-NN avec DINOv2, surpassant Qwen2.5-72B (.154) et Llama-3-70B (.151). 🧵",
+          "text_fr": "Un modèle de texte de 109M (millions de paramètres) entraîné avec de bonnes \"vues\" a surpassé la prédiction du jeton suivant avec 42 fois moins d'échantillons sur WIT-1024 (0.109 à 21.6M échantillons contre 0.111 à 900M). À plus grande échelle, il a atteint 0.184 de similarité 10-NN avec DINOv2, surpassant Qwen2.5-72B (0.154) et Llama-3-70B (0.151). 🧵",
           "text_original": "1/ A 109M text model trained with good views matched next-token prediction with 42x fewer samples on WIT-1024 (.109 at 21.6M samples vs .111 at 900M). Scaled up, it reached .184 mutual 10-NN with DINOv2, outscoring Qwen2.5-72B (.154) and Llama-3-70B (.151). 🧵",
           "link": "https://nitter.kareem.one/che_shr_cat/status/2118048031396561384#m",
-          "decryptage": "Ce tweet annonce qu'un nouveau modèle d'IA (109M) a obtenu des performances très élevées (prédiction du prochain mot) en utilisant beaucoup moins de données que d'autres modèles connus, ce qui est une avancée significative en efficacité."
+          "decryptage": "\"Prédiction du jeton suivant\" signifie que le modèle devine le mot ou le morceau de mot qui devrait suivre dans une phrase ; \"paramètres\" sont les \"boutons\" ajustés lors de l'entraînement d'un modèle pour qu'il apprenne. C'est une mesure technique de performance."
         },
         {
           "author_name": "Yann LeCun",
           "handle": "@ylecun",
-          "text_fr": "Rejoignez-moi et 2000 autres ingénieurs et développeurs IA à AI Dev à New York, du 30 novembre au 1er décembre ! Une étude LinkedIn a révélé qu'entre juillet et septembre, le titre de poste d'ingénieur IA a été l'une des 10 professions à la croissance la plus rapide dans sept grandes économies. L'ingénierie IA est devenue une compétence essentielle pour tout travail logiciel, et AI Dev est conçue pour vous aider à la développer. Nos sessions vous donneront une pratique concrète avec : - Le codage d'agents et la conception de harnais : réglage de harnais, contexte de dépôt, codage autonome - La mémoire des agents et les graphes de connaissances : GraphRAG, recherche vectorielle, mémoire persistante, récupération hybride - Les agents en production : évaluations, observabilité, tests simulés, agents de navigateur et vocaux @ylecun et moi parlerons également des prochaines étapes dans les modèles du monde et l'IA physique. J'espère vous y voir ! Billets : ai-dev.deeplearning.ai/",
+          "text_fr": "Rejoignez-moi et 2000 autres ingénieurs et bâtisseurs en IA à AI Dev à New York, du 30 novembre au 1er décembre ! Une étude LinkedIn a révélé que de juillet à septembre, le titre de poste \"Ingénieur IA\" a été l'une des 10 occupations à la croissance la plus rapide dans sept grandes économies. L'ingénierie IA est devenue une compétence essentielle pour tous les travaux logiciels, et AI Dev est conçue pour vous aider à la développer. Nos sessions vous offriront une pratique concrète sur : - Le codage d'agents et la conception de harnais : réglage de harnais, contexte de dépôt, codage autonome - La mémoire des agents et les graphes de connaissances : GraphRAG, recherche vectorielle, mémoire persistante, récupération hybride - Les agents en production : Évaluations, observabilité, tests simulés, agents de navigation et vocaux @ylecun et moi parlerons également de la suite des modèles mondiaux et de l'IA physique. J'espère vous y voir ! Billets : ai-dev.deeplearning.ai/ Lien AI Dev NYC 2026 — DeepLearning.AI Une conférence technique et pratique pour les personnes qui construisent avec l'IA à New York. ai-dev.deeplearning.ai",
           "text_original": "Join me and 2000 other AI engineers and builders at AI Dev in New York City, Nov 30-Dec 1! A LinkedIn study found that over July-September, the job title AI Engineer has been one of the 10 fastest-growing occupations in seven major economies. AI engineering has become a core skill for all software work, and AI Dev is designed to help you develop it. Our sessions give you hands-on practice with: - Coding agents and harness design: Harness tuning, repository context, autonomous coding - Agent memory and knowledge graphs: GraphRAG, vector search, persistent memory, hybrid retrieval - Agents in production: Evals, observability, simulated testing, browser and voice agents @ylecun and I will also talk about what’s next in world models and physical AI. I hope to see you there! Tickets: ai-dev.deeplearning.ai/ Link AI Dev NYC 2026 — DeepLearning.AI A technical, hands-on conference for people building with AI in New York City. ai-dev.deeplearning.ai",
           "link": "https://nitter.kareem.one/AndrewYNg/status/2118069849142558737#m",
-          "decryptage": "Ce tweet annonce une conférence technique pour les ingénieurs et développeurs en IA, axée sur les compétences pratiques en matière d'agents IA, de mémoire, de gestion de connaissances et de déploiement en production."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Carbon est déployé en premier pour les cyberdéfenseurs et nous travaillons à le rendre plus largement disponible bientôt ! blog.google/innovation-and-a… Lien Gemini 4 Carbon : notre prochain modèle de frontière. Gemini 4 Carbon est notre modèle le plus puissant avec une cybersécurité de pointe et des capacités à long terme.",
-          "text_original": "Carbon is rolling out first to cyber defenders and we are working to make it more widely available soon! blog.google/innovation-and-a… Link Gemini 4 Carbon: our next frontier model Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. blog.google",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2115489576622174620#m",
-          "decryptage": "Google annonce le déploiement de Gemini 4 Carbon, un nouveau modèle d'IA très puissant conçu pour la cybersécurité et capable de gérer des tâches complexes sur de longues périodes."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Présentation de Gemini 4 Carbon, c'est un grand pas en avant par rapport à Argon que nous avons sorti il y a seulement 2 semaines. Gemini 4 Carbon est de pointe en matière de cybersécurité, de tâches à long terme, se classe #1 sur Artificial Analysis V5, améliore considérablement l'utilisabilité dans des domaines comme le codage, et est plus aligné.",
-          "text_original": "Introducing Gemini 4 Carbon, it's a big jump over Argon which we released just 2 weeks ago. Gemini 4 Carbon is SOTA on cyber, long horizon tasks, ranks #1 on Artificial Analysis V5, significantly improves on usability in domains like coding, and is more aligned.",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2115489284404940898#m",
-          "decryptage": "Ce tweet détaille les améliorations de Gemini 4 Carbon, soulignant ses performances supérieures en cybersécurité, sa capacité à gérer des tâches complexes et sa meilleure aptitude au codage par rapport à sa version précédente, Argon."
-        },
-        {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "J'ai eu l'occasion de m'asseoir avec @RaiaHadsell @drivascos et Hang pour parler des progrès de Genie 4 et de ce qui s'en vient ! Conversation très amusante : ) Vidéo",
-          "text_original": "I got to sit down with @RaiaHadsell @drivascos and Hang to talk about the progress to Genie 4 and what comes next! Very fun conversation : ) Video",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2115136758459552054#m",
           "decryptage": null
         },
         {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "Un premier aperçu de Genie 4, notre nouveau modèle du monde de pointe, bientôt disponible pour l'API pour la première fois : ) Vidéo",
-          "text_original": "An early look at Genie 4, our new frontier world model, coming soon to the API for the first time : ) Video",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2115129174826647863#m",
-          "decryptage": "Ce tweet offre un aperçu de Genie 4, un futur modèle d'IA capable de simuler et de comprendre des environnements complexes, qui sera bientôt accessible aux développeurs."
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Chaque hiver, le @MIT organise un cours d'un mois (6.9630) où les étudiants créent des IA de poker et s'affrontent pour des prix en argent. Les agents de codage ont tellement accéléré ce processus qu'il est maintenant possible de construire un bot de poker en *une heure*. De plus, je serai à la finale ! Sequoia Capital (@sequoia) Annonce No Limit : un tournoi de construction de bots organisé par @Sequoia, @citsecurities et @OpenAI. Les équipes de 1 ou 2 personnes ont 60 minutes pour construire un bot de poker à partir de zéro. Les agents jouent des milliers de parties sur six tours notés. Ouvert aux étudiants universitaires et jeunes diplômés (promo 25 ou 26). Régionales à Boston, Pittsburgh et la Bay Area début novembre. Les cinq meilleures équipes de chaque région voleront pour les finales. 100 000 $ de grand prix. Vidéo — http://nitter.meowing.monster/sequoia/status/2115111389501218868#m",
+          "text_original": "Every winter, @MIT has run a 1-month class (6.9630) in which students make poker AIs and compete against each other for cash prizes. Coding agents have accelerated that process so much that it's now possible to build a poker bot in an *hour*. Also, I'll be at the finals! Sequoia Capital (@sequoia) Announcing No Limit: a bot building tournament hosted by @Sequoia , @citsecurities and @OpenAI . Teams of 1 or 2 get 60 minutes to build a pokerbot from scratch. Agents play thousands of games across six scored rounds. Open to university students and recent grads (‘25 or ‘26). Regionals in Boston, Pittsburgh and the Bay Area in early November. Top five teams from each fly to the Finals. $100K grand prize. Video — http://nitter.meowing.monster/sequoia/status/2115111389501218868#m",
+          "link": "http://nitter.meowing.monster/polynoamial/status/2115125429619343609#m",
+          "decryptage": "Un \"bot\" est un programme informatique qui automatise des tâches, ici jouer au poker. Les \"agents de codage\" sont des IA capables d'aider à écrire ou générer du code."
         },
         {
-          "author_name": "Logan Kilpatrick",
-          "handle": "@officiallogank",
-          "text_fr": "En seulement les 72 premières heures depuis le lancement de Gemini 4 Argon, nous avons traité environ 25 trillions de jetons, la demande d'intelligence est incroyable et encore sous-estimée !",
-          "text_original": "In just the first 72 hours since Gemini 4 Argon launched, we processed ~25 trillion tokens, the demand for intelligence is incredible and still under appreciated!",
-          "link": "https://nitter.kareem.one/OfficialLoganK/status/2112767157746688480#m",
-          "decryptage": "Ce tweet met en lumière l'énorme demande pour les modèles d'IA, illustrée par le traitement de 25 trillions de \"jetons\" (unités de texte) en seulement trois jours après le lancement de Gemini 4 Argon."
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Le mois dernier, une grande équipe d'agents a utilisé plus de 100 milliards de jetons pour résoudre le problème du prix du millénaire de Navier-Stokes. Maintenant, nous utilisons une approche similaire pour le \"red-teaming\" afin de trouver et de corriger les vulnérabilités d'infrastructure. Eric Wallace (@Eric_Wallace_) Pour s'assurer que nos modèles de pointe ne causent pas un autre incident HuggingFace, nous avons construit un monde hors ligne qu'ils utilisent pendant l'entraînement. Il fournit tout ce dont les modèles ont besoin de manière entièrement mise en cache, indexée ou synthétique. Nous avons ensuite construit une immense équipe de nos modèles les plus cyber-capables et leur avons demandé de collaborer pour trouver des \"zero-days\" dans cette infrastructure de confinement. Bien qu'ils n'aient pas trouvé de chemin vers Internet qui ne serait pas détecté par nos moniteurs CoT, ils ont trouvé des moyens d'échapper aux machines virtuelles populaires, d'exploiter notre infrastructure réseau et même des moyens de communiquer avec d'autres agents fonctionnant dans des machines virtuelles séparées en utilisant des canaux secondaires matériels. Nous avons utilisé cela pour renforcer considérablement notre infrastructure, et nous avons également remonté un tas de correctifs aux packages open-source. — http://nitter.meowing.monster/Eric_Wallace_/status/2113718905562862065#m",
+          "text_original": "Last month a large team of agents used over 100 billion tokens to resolve the Navier-Stokes Millennium Prize problem. Now we're using a similar approach for red-teaming to find and fix infra vulnerabilities. Eric Wallace (@Eric_Wallace_) To make sure our frontier models don't cause another HuggingFace incident, we built an offline world that they use during training. It provides everything that the models need in a fully cached, indexed, or synthetic manner. We then built a huge team of our most cyber-capable models and told them to collaborate to find zero-days in this containment infrastructure. While they didn't find a path to the internet that wouldn't be caught by our CoT monitors, they did find ways to escape popular VMs, exploit our network infrastructure, and even ways to communicate with other agents running in separate VMs by using hardware side channels. We used this to dramatically harden our infra, and we also upstreamed a ton of patches to open-sources packages. — http://nitter.meowing.monster/Eric_Wallace_/status/2113718905562862065#m",
+          "link": "http://nitter.meowing.monster/polynoamial/status/2113729267418956201#m",
+          "decryptage": "Le \"problème du prix du millénaire de Navier-Stokes\" est un problème mathématique très difficile. Le \"red-teaming\" est une méthode où une équipe tente d'attaquer un système pour en trouver les faiblesses, ici les IA le font. Les \"zero-days\" sont des failles de sécurité inconnues du public et sans correctif."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Le papier sur EmbeddingGemma 2 est sorti ! Profitez-en ! arxiv.org/abs/2610.37364",
+          "text_original": "The EmbeddingGemma 2 paper is out! Enjoy! arxiv.org/abs/2610.37364",
+          "link": "http://nitter.meowing.monster/osanseviero/status/2117532441275498977#m",
+          "decryptage": "Un \"papier\" ou article scientifique est une publication qui décrit une nouvelle recherche ou un nouveau modèle ; \"EmbeddingGemma 2\" est un modèle d'intégration (embedding) qui transforme des informations (texte, image) en nombres pour que les IA puissent les comprendre."
+        },
+        {
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Gemma 4 a été envoyé dans l'espace sur un satellite prototype, a fonctionné sur des TPU (Tensor Processing Units, des puces spécialisées pour l'IA) en utilisant l'énergie solaire stockée, et sa réponse a été renvoyée sur Terre. Les modèles embarqués (on-device) sont incroyables ! blog.google/innovation-and-a… Lien Nous avons reçu notre première réponse du satellite prototype Project Suncatcher. Cette semaine, nous avons atteint notre jalon \"Hello World\" : la toute première réponse IA d'un TPU de classe centre de données en orbite. blog.google",
+          "text_original": "Gemma 4 was sent to space on a prototype satellite, ran on TPUs using stored solar energy, and its response was sent back to Earth On-device models are wild blog.google/innovation-and-a… Link We’ve received our first response from the Project Suncatcher prototype satellite. This week, we reached our \"Hello World\" milestone: the first-ever AI response from a data center class TPU in orbit. blog.google",
+          "link": "http://nitter.meowing.monster/osanseviero/status/2116256648259871061#m",
+          "decryptage": "Les \"modèles embarqués\" (ou \"on-device\") sont des IA qui fonctionnent directement sur des appareils (comme un satellite ou un téléphone) au lieu de dépendre de serveurs distants."
+        },
+        {
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Nous sommes ravis d'annoncer notre partenariat avec Sumitomo Mitsui Finance & Leasing (SMFL), l'une des principales institutions financières du Japon ! Replit propulse les produits logiciels de base de SMFL et a massivement accéléré leur processus de développement : par exemple, ils ont récemment, en seulement une semaine et avec une seule personne, réalisé un projet qui nécessitait auparavant six personnes travaillant pendant six mois. Ensuite, nous nous associons pour apporter la création de logiciels assistée par l'IA aux entreprises japonaises, les aidant à surmonter les pénuries de main-d'œuvre, à accélérer l'innovation et à débloquer de toutes nouvelles opportunités commerciales. nikkei.com/article/DGXZQOUB0…",
+          "text_original": "Excited to announce our partnership with Sumitomo Mitsui Finance & Leasing (SMFL), one of Japan’s leading financial institutions! Replit is powering SMFL’s core software products and has massively accelerated their development process: For example they recently in just one week, with one person, completed a project that previously required six people working for six months. Next we’re partnering to bring AI-powered software creation to Japanese enterprises, helping them overcome labor shortages, accelerate innovation, and unlock entirely new business opportunities. nikkei.com/article/DGXZQOUB0…",
+          "link": "https://nitter.kareem.one/amasad/status/2118180254300688857#m",
+          "decryptage": "\"Replit\" est une plateforme de développement de logiciels collaborative basée sur le cloud."
+        },
+        {
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Mistral Large 4 est maintenant en \"open weights\", ce qui en fait de justesse le modèle \"open weights\" n°1 développé en dehors de la Chine. @MistralAI a mis à jour et publié les poids de son modèle phare, Mistral Large 4, avec un total de 1,05T et 52B de paramètres actifs. Avec un raisonnement élevé, Mistral Large 4 obtient 26 points sur l'Artificial Analysis Intelligence Index v5, soit 1 point de plus que Mistral Large 4 Preview (25), les principales différences étant une efficacité accrue des jetons et une réduction des hallucinations. Il se situe 1 point devant le principal modèle \"open weights\" développé aux États-Unis, Muse Spark Open (xhigh, 25). Sur l'Artificial Analysis Cyber Index, Mistral Large 4 (high) obtient 51 points, troisième parmi les modèles \"open weights\" actuels, derrière DeepSeek V4.1 Flash 1017 (max, 57) et MiMo-V2.6-Pro (56). Points clés à retenir : ➤ Devance de justesse les modèles \"open weights\" non chinois : Mistral Large 4 (high) devance Muse Spark Open (xhigh), le deuxième meilleur modèle \"open weights\" développé en dehors de la Chine, avec le plus grand écart sur Terminal-Bench 4.0 (25% vs. 8%). Il est à 6 points derrière les principaux modèles \"open weights\" DeepSeek V4.1 Flash 1017 (max) et GLM-5.3 (max) sur l'Intelligence Index, principalement en raison de performances plus faibles en codage et en travail d'agentique : 15% sur FrontierCode 2.0 (vs. 29% et 22% respectivement) et 1349 Elo sur AA-Briefcase (vs. 1570 et 1504) ➤ Efficacité accrue des jetons : Mistral Large 4 (high) utilise 82K jetons de sortie par tâche de l'Intelligence Index, soit 39% de moins que la Preview (135K), ce qui le place sur la frontière de Pareto des \"open weights\". Les sept modèles \"open weights\" qui obtiennent des scores plus élevés utilisent entre 113K et 225K jetons de sortie par tâche ➤ Modèle \"open weights\" n°2 sur le Coding Agent Index : Sur l'Artificial Analysis Coding Agent Index, Mistral Large 4 (high) obtient 48 points dans Mistral Vibe en utilisant 8,5M de jetons par tâche, environ la moitié de ceux du modèle \"open weights\" leader GLM-5.3 (max) dans Opencode (49, 15,9M). Il obtient également un score supérieur à un autre modèle \"open weights\" de premier plan, DeepSeek V4.1 Flash 1017 (max), dans DeepSeek Harness (46, 16,7M) ➤ Réduction des hallucinations : Mistral Large 4 (high) a un taux d'hallucination de 28% sur l'AA-Omniscience v1.1 mis à jour, en baisse par rapport aux 41% pour la Preview et égalant Muse Spark Open (xhigh). Cependant, sa précision reste relativement faible à 26%, similaire à Ling 3.1 Flash 1019 (27%), et derrière DeepSeek V4.1 Flash 1017 (max, 40%) et Muse Spark Open (xhigh, 42%) ➤ Prix et coût par tâche inférieurs à ceux de la Preview : Mistral Large 4 est tarifé à 0,70 $/2,10 $ par 1M de jetons d'entrée/sortie, soit une réduction d'environ 50% par rapport au prix de la Preview de 1,36 $/4,18 $. Au nouveau prix, il coûte 2,06 $ par tâche de l'Intelligence Index, soit une réduction de 63% par rapport aux 5,54 $ de la Preview. C'est comparable à Muse Spark Open (xhigh, 2,02 $) mais plus coûteux que les principaux modèles \"open weights\" DeepSeek V4.1 Flash 1017 (max, 0,60 $) et MiMo-V2.6-Pro (0,26 $) Détails clés du modèle : ➤ Taille : 1,05T paramètres totaux / 52B paramètres actifs ➤ Fenêtre de contexte : 1M jetons ➤ Multimodalité : Entrée texte et image, sortie texte ➤ Prix : 0,70 $/2,10 $ par 1M de jetons d'entrée/sortie (0,07 $ par 1M de jetons d'entrée mis en cache) ➤ Licence : MEOW License (Mistral Ecosystem Open-Weight License), où l'exploitation d'une entreprise Model-as-a-Service nécessite une licence commerciale distincte avec Mistral Félicitations à l'équipe de @MistralAI pour cette publication !",
+          "text_original": "Mistral Large 4 is now open weights, narrowly making it the #1 open weights model developed outside of China @MistralAI has updated and released the weights of their flagship model, Mistral Large 4, with 1.05T total and 52B active parameters. With high reasoning, Mistral Large 4 scores 26 on the Artificial Analysis Intelligence Index v5, up 1 point from Mistral Large 4 Preview (25), with the major differences being increased token efficiency and reduced hallucinations. It sits 1 point ahead of the leading US-developed open weights model, Muse Spark Open (xhigh, 25). On the Artificial Analysis Cyber Index, Mistral Large 4 (high) scores 51, third among current open weights models behind DeepSeek V4.1 Flash 1017 (max, 57) and MiMo-V2.6-Pro (56). Key takeaways: ➤ Narrowly leads non-Chinese open weights models: Mistral Large 4 (high) leads Muse Spark Open (xhigh), the next-best open weights model developed outside China, with the largest gap on Terminal-Bench 4.0 (25% vs. 8%). It trails leading open weights models DeepSeek V4.1 Flash 1017 (max) and GLM-5.3 (max) by 6 points on the Intelligence Index, primarily due to weaker coding and agentic knowledge work performance: 15% on FrontierCode 2.0 (vs. 29% and 22%, respectively) and 1349 Elo on AA-Briefcase (vs. 1570 and 1504) ➤ Increased token efficiency: Mistral Large 4 (high) uses 82K output tokens per Intelligence Index task, 39% fewer than Preview (135K), placing it on the open weights Pareto frontier. The seven open weights models that score higher use between 113K and 225K output tokens per task ➤ #2 open weights model on the Coding Agent Index: On the Artificial Analysis Coding Agent Index, Mistral Large 4 (high) scores 48 in Mistral Vibe while using 8.5M tokens per task, about half as many as the leading open weights model GLM-5.3 (max) in Opencode (49, 15.9M). It also scores above another leading open weights model, DeepSeek V4.1 Flash 1017 (max), in DeepSeek Harness (46, 16.7M) ➤ Reduced hallucinations: Mistral Large 4 (high) has a 28% hallucination rate on the updated AA-Omniscience v1.1, down from 41% for Preview and matching Muse Spark Open (xhigh). However, its accuracy remains relatively low at 26%, similar to Ling 3.1 Flash 1019 (27%), and behind DeepSeek V4.1 Flash 1017 (max, 40%) and Muse Spark Open (xhigh, 42%) ➤ Lower price and cost per task than the Preview: Mistral Large 4 is priced at $0.70/$2.10 per 1M input/output tokens, a ~50% reduction from the Preview's pricing of $1.36/$4.18. At the new pricing, it costs $2.06 per Intelligence Index task, down 63% from $5.54 for the Preview. This is comparable to Muse Spark Open (xhigh, $2.02) but more costly than leading open weights models DeepSeek V4.1 Flash 1017 (max, $0.60) and MiMo-V2.6-Pro ($0.26) Key model details: ➤ Size : 1.05T total parameters / 52B active parameters ➤ Context window : 1M tokens ➤ Multimodality : Text and image input, text output ➤ Pricing : $0.70/$2.10 per 1M input/output tokens ($0.07 per 1M cached input tokens) ➤ License : MEOW License (Mistral Ecosystem Open-Weight License), where operating a Model-as-a-Service business requires a separate commercial license with Mistral Congratulations to the team at @MistralAI on the release!",
+          "link": "https://nitter.kareem.one/ArtificialAnlys/status/2115820547103952925#m",
+          "decryptage": "\"Open weights\" signifie que les \"poids\" (les paramètres appris) du modèle sont rendus publics et peuvent être utilisés par tous ; \"hallucinations\" désigne les moments où une IA génère des informations fausses mais présentées comme vraies."
+        },
+        {
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Bons progrès ces dernières semaines ! Et maintenant les poids Mistral AI (@MistralAI) Aujourd'hui, nous publions les poids d'une version nouvelle et améliorée de Le Chonk, faisant progresser la frontière ouverte pour le codage agentique et la cybersécurité. 💻 Construit pour construire : Le Chonk se classe n°1 sur FrontierCode de @cognition parmi les modèles ouverts, et établit un nouveau benchmark pour l'efficacité de Pareto sur @artificialanalysis. 🛡 Construit pour défendre : À la pointe de la cyberdéfense, mis à l'épreuve par les principaux fournisseurs de cyberdéfense mondiaux, notamment @CrowdStrike, @cloudflare, @rubrik, @zscaler, et d'autres. Construit pour la souveraineté : Faites-en le vôtre. Téléchargez les poids sur @huggingface, personnalisez-le avec Mistral Forge, et déployez-le où vous en avez besoin. En savoir plus de notre équipe et de nos clients 👇 : — https://nitter.kareem.one/MistralAI/status/2115811242556137820#m",
+          "text_original": "Good progress in the last few weeks ! And now the weights Mistral AI (@MistralAI) Today, we release the weights of a new and improved Le Chonk, advancing the open frontier for agentic coding and cybersecurity. 💻 Built to build: Le Chonk ranks #1 on @cognition ’s FrontierCode among open models, and sets a new benchmark for Pareto efficiency on @artificialanalysis. 🛡 Built to defend: State-of-the-art in cyberdefense, put through the paces by the world's leading cyber vendors, including @CrowdStrike , @cloudflare , @rubrik , @zscaler , and others. Built for sovereignty: Make it yours. Download the weights on @huggingface , customize it with Mistral Forge, and deploy it wherever you need it. Read more from our team and customers 👇: — https://nitter.kareem.one/MistralAI/status/2115811242556137820#m",
+          "link": "https://nitter.kareem.one/arthurmensch/status/2115820723767783634#m",
+          "decryptage": "\"Poids\" fait référence aux paramètres internes d'un modèle d'IA qu'il apprend lors de son entraînement. Le \"codage agentique\" signifie qu'un agent IA est capable de générer et d'exécuter du code de manière autonome."
+        },
+        {
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "L'IA pour l'ingénierie industrielle mènera l'humanité à sa prochaine ère technologique. C'est un pilier clé de notre recherche, et nous approfondissons notre partenariat avec NVIDIA pour répondre aux besoins du monde manufacturier. Mistral AI (@MistralAI) Aujourd'hui, nous annonçons une nouvelle collaboration avec @nvidia pour apporter l'IA à l'ingénierie industrielle : - simulation plus rapide - benchmarks ouverts et ensembles de données de support pour l'IA physique - évaluations pour l'IA agentique dans le CAE et l'EDA. Plus d'informations ici : mistral.ai/news/mistral-nvid… — https://nitter.kareem.one/MistralAI/status/2112870261829603589#m",
+          "text_original": "AI for industrial engineering will bring humanity to its next technological era. This is a key pillar of our research, and we're deepening our partnership with NVIDIA to address the needs of the manufacturing world Mistral AI (@MistralAI) Today we’re announcing a new collaboration with @nvidia to bring AI to industrial engineering: - faster simulation - open benchmarks and supporting datasets for physics AI - evaluations for agentic AI in CAE and EDA More here: mistral.ai/news/mistral-nvid… — https://nitter.kareem.one/MistralAI/status/2112870261829603589#m",
+          "link": "https://nitter.kareem.one/arthurmensch/status/2112875860206162322#m",
+          "decryptage": "L'\"ingénierie industrielle\" utilise des principes scientifiques pour concevoir et optimiser la production ; \"NVIDIA\" est une entreprise leader dans les cartes graphiques et les technologies d'IA."
+        },
+        {
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Voxtral fait la \"diarisation\" (identifier qui parle) et détecte la fin d'une intervention à la volée. Fonctionne sur votre infrastructure ou la nôtre (celle de la gare). Mistral AI (@MistralAI) Présentation de Voxtral 3 : des modèles de transcription et de parole à la pointe de la technologie alimentant la nouvelle API d'agents vocaux de Mistral. 🧵 Vidéo — https://nitter.kareem.one/MistralAI/status/2112574615318876178#m",
+          "text_original": "Voxtral diarizes and detects end-of-turn on the fly. Runs on your infra or on ours (the one in the train station) Mistral AI (@MistralAI) Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 Video — https://nitter.kareem.one/MistralAI/status/2112574615318876178#m",
+          "link": "https://nitter.kareem.one/arthurmensch/status/2112668031268896866#m",
+          "decryptage": "La \"diarisation\" est le processus d'identification des différents locuteurs dans un enregistrement audio. Une \"API\" (Interface de Programmation d'Application) est un ensemble de règles et de protocoles qui permettent à différents logiciels de communiquer entre eux."
         }
       ],
       "tips": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Si vous vous êtes déjà demandé pourquoi les Smart TV sont si bon marché, voici la raison. @log4j a 'rooté' sa Samsung et a trouvé un micro toujours allumé, une reconnaissance automatique de contenu (ACR), la géolocalisation, la cartographie réseau, le ciblage publicitaire et le profilage utilisateur, partagés avec les \"400 partenaires\" de Samsung. Une grande partie de cela peut être bloquée en moins de 15 minutes, j'ai écrit un guide de base ci-dessous. Ce que votre TV fait : Le principal coupable est l'ACR (Automatic Content Recognition). Votre TV prend des captures d'écran de ce qui est affiché, les 'empreinte' et les envoie chez elle pour construire votre profil publicitaire. Samsung le fait toutes les 500ms, LG toutes les 10ms [1]. Ce qui est fou : cela se passe aussi sur les appareils connectés. Branchez votre ordinateur portable, votre console, votre machine de travail, et votre TV peut l'identifier via HDMI [1]. Il a également constaté que si votre Samsung n'a pas de micro, elle en cherchera un sur une barre de son connectée ou un appareil Bluetooth. C'est activé par défaut, et vous l'avez probablement accepté sur l'écran de configuration que vous avez parcouru en 10 secondes. Étape 1 : Désactiver l'ACR [...] Étape 2 : Donnez aux appareils intelligents leur propre réseau. Mettez la TV, les caméras, les enceintes et l'aspirateur sur le réseau invité/IoT de votre routeur. La logique est simple : ces appareils sont rarement mis à jour. Si l'un est compromis (ce qui devient de plus en plus fréquent avec l'IA), il ne devrait pas pouvoir voir vos autres appareils ou votre réseau domestique. Étape 3 : Bloquer les traqueurs pour toute la maison avec un filtrage au niveau DNS. NextDNS (basé sur le cloud) est facile et propose un bon plan gratuit. Pi-hole est un peu plus de travail si vous préférez l'auto-hébergement. Pour simplifier, nous nous concentrerons sur le premier. [...] Pourquoi ils font ça : Les prix des TV ont baissé de 97 % depuis 2000 [2]. La majeure partie est due à une meilleure fabrication et une concurrence brutale. Mais une fois que les marges sur le matériel atteignent zéro, le coût s'est déplacé vers vous. Au T3 2024, Vizio a perdu 6,7 M$ en vendant des TV et a réalisé un bénéfice brut de 115,8 M$ grâce aux publicités et aux données de visionnage [3]. Ils ont déclaré lors des conférences sur les résultats qu'ils maintenaient les prix des TV bas pour augmenter l'audience qu'ils vendent aux annonceurs. [...] Ce n'est pas non plus une théorie du complot. Vizio a payé 2,2 M$ à la FTC en 2017 pour avoir suivi 11 million de TV sans consentement. En décembre dernier, le Texas a poursuivi Samsung, LG, Sony, Hisense et TCL pour ACR. Samsung et LG ont depuis accepté d'arrêter de collecter ces données sans consentement explicite [4]. En bref : 1. ACR désactivé 2. Publicités + voix désactivées 3. Appareils intelligents sur leur propre réseau 4. Filtrage NextDNS sur le routeur.",
-          "text_original": "If you've ever wondered why smart TVs are so cheap, this is why. @log4j rooted his Samsung and found an always-on hot mic, automatic content recognition, geolocation, network mapping, ad targeting and user profiling, shared with Samsung's \"400 partners\". A lot of it can be blocked in <15 min, wrote a basic guide below. What your TV is doing The main culprit is ACR (automatic content recognition). Your TV screenshots what's on screen, fingerprints it, and sends it home to build your ad profile. Samsung does it every 500ms, LG every 10ms [1]. What is insane: it happens on connected devices too. Plug in your laptop, your console, your work machine, and your TV can fingerprint that via HDMI [1]. He also found that if your Samsung doesn't have a mic, it'll look for one from a connected soundbar or bluetooth device. nitterk.kareem.one/log4j/status/211376224… It's on by default, and you likely agreed to it on the setup screen you clicked through in 10 seconds. Step 1: Turn off ACR Samsung: Terms & Privacy → Viewing Information Services LG: Live Plus Vizio: Viewing Data Roku: \"Use info from TV inputs\" Sony/Google TV: Samba Interactive TV Menus vary by model, but those are the names to look for. While you're in there, opt out of interest-based ads, reset your advertising ID, decline every optional privacy agreement, turn off voice recognition, and delete apps you never open. Step 2: Give smart devices their own network Put the TV, cameras, speakers and vacuum on your router's guest/IoT network. The logic is simple: these devices rarely get patched. If one gets compromised (getting drastically more frequent with AI), it shouldn't be able to see your other devices or home network. Step 3: Block trackers for the whole house with DNS-level filtering NextDNS (cloud-based) is easy and has a solid free plan. Pi-hole is a little bit more work if you prefer self hosting. For simplicity we'll focus on the former. 1. Sign up at nextdns.io (free tier is plenty) 2. Privacy tab: add a blocklist (OISD is a good bet) and turn on Native Tracking Protection for Samsung, LG, Roku, Amazon (see attached image) 3. Setup tab: copy your endpoint 4. Paste it into your router's DNS settings as DNS-over-HTTPS/TLS (or use the IPs + \"Link IP\" if your router only does plain DNS) 5. Bonus: block outbound port 53 except to your router. Some devices hardcode their own DNS to get around you Then open the NextDNS logs and watch how often your TV phones home. It's eye-opening. If an app or update breaks, find the domain in the logs and allowlist it. Why they do this TV prices are down 97% since 2000 [2]. Most of that is better manufacturing and brutal competition. But once margins on the hardware hit zero, the cost moved to you. In Q3 2024, Vizio lost $6.7M selling TVs and made $115.8M in gross profit from ads and viewing data [3]. They've said on earnings calls that they keep TV prices low to grow the audience they sell to advertisers. Walmart bought them in 2024. This isn't a conspiracy theory either. Vizio paid $2.2M to the FTC in 2017 for tracking 11 million TVs without consent. Last December, Texas sued Samsung, LG, Sony, Hisense and TCL over ACR. Samsung and LG have since agreed to stop collecting that data without explicit consent [4]. TL;DR 1. ACR off 2. Ads + voice off 3. Smart devices on their own network 4. NextDNS filtering on the router Sources: [1] ACR study: arxiv.org/abs/2409.06203 [2] Cost of US consumer goods: aei.org/economics/chart-of-t… [3] Vizio Q3 2024: sec.gov/Archives/edgar/data/… [4] Texas v. Samsung: texasattorneygeneral.gov/new… log4j (@log4j) i own a relatively new (2025) samsung tv. i kept getting weirdly targeted ads. i tried reversing the firmware but it was aes encrypted and no keys unless tear it apart and do uart/jtag magic. zero days it is. root shell on new samsung TVs! discovered PRIVACY HORROR. write up? — https://nitter.kareem.one/log4j/status/2113014142600953868#m",
-          "link": "https://nitter.kareem.one/Tristan0x/status/2114311011561812476#m",
-          "decryptage": "Ce tweet alerte sur les données collectées par les Smart TV et propose des étapes concrètes pour protéger sa vie privée, comme désactiver la reconnaissance automatique de contenu (ACR), isoler ses appareils connectés sur un réseau séparé et utiliser un filtre DNS."
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Cet e-mail de phishing a réussi à passer les filtres de Gmail, mais mon \"dot\" (agent IA personnel) l'a détecté et m'a averti.",
+          "text_original": "This phishing email made it past Gmail’s filters, but my dot caught it and warned me.",
+          "link": "http://nitter.meowing.monster/polynoamial/status/2109257833929924881#m",
+          "decryptage": "Le \"phishing\" est une technique de fraude où l'on essaie de voler vos informations personnelles via de faux e-mails. Un \"agent IA personnel\" est un programme intelligent qui agit pour vous, ici pour votre sécurité."
         },
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Nous allons passer beaucoup plus de temps à essayer de comprendre les sorties des modèles de langage. Quelques réflexions, astuces & conseils : Écriture. J'ai eu du succès avec cela : demandez à votre LLM d'expliquer quelque chose en ASD-STE100, c'est une spécification de langage contrôlé développée à l'origine pour la documentation de maintenance aérospatiale. Les LLM connaissent bien ce langage et il impose des contraintes strictes sur un style d'écriture clair que je trouve souvent beaucoup plus lisible. Parfois, j'ai essayé de l'adoucir un peu, par exemple en demandant \"80% du chemin vers ASD-STE100\" car la spécification est assez rigoureuse. Mais encore mieux : Diagrammes / images. Au lieu d'écrire, demandez à votre LLM de créer un diagramme. Ceux-ci peuvent être beaucoup plus faciles à traiter, analyser et comprendre. Mais encore mieux : Pages web. Demandez une sortie \"en HTML\" pour obtenir une page web interactive et esthétique. Les LLM sont de plus en plus doués pour le frontend et peuvent créer de belles expériences, des animations, etc. Mais encore mieux : Vidéos explicatives. Le format de sortie pour lequel je suis le plus optimiste est les vidéos explicatives entièrement personnalisées / sur mesure générées sur n'importe quel sujet arbitraire. Expérimentez avec des choses comme \"Créez une vidéo explicative de style 3b1b sur X. Utilisez ma clé API ElevenLabs pour la narration audio\". (vous auriez besoin d'une clé API pour cette dernière ou vous pouvez demander à votre LLM de vous trouver des alternatives gratuites décentes qui utilisent votre calcul local). Cela commence vraiment à fonctionner ! En résumé : - À mesure que les LLM s'améliorent, ils feront de plus en plus de travail de manière autonome, et une grande partie de notre travail s'élèvera dans les abstractions vers la supervision et la compréhension. - Heureusement, les LLM peuvent aussi aider ici car à mesure que l'intelligence et le code deviennent de plus en plus abondants, vous pouvez demander de grands artefacts logiciels personnalisés et jetables (par exemple, des applications web, des vidéos explicatives) qu'il n'aurait jamais été logique de créer auparavant. Repoussez les limites ici et vous serez surpris.",
-          "text_original": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better: Diagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better: Web pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better: Explainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work! In summary: - As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding. - Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
-          "link": "https://nitter.kareem.one/karpathy/status/2105819303471976479#m",
-          "decryptage": "Ce tweet offre des conseils pratiques pour obtenir de meilleures explications des IA : au lieu de texte simple, demander des formats structurés (comme le langage ASD-STE100), des diagrammes, des pages web interactives en HTML ou même des vidéos explicatives."
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Je ne peux pas compter combien d'IDE, d'agents et d'outils j'ai utilisés ces 2 dernières années, et Replit les a tous remplacés pour moi ces 3 derniers mois. J'ai donc fait une vidéo à ce sujet. Depuis : - Plus d'agents sur mon ordinateur portable. Mes environnements de développement tournent dans des \"sandboxes\" isolées - Je tape à peine et j'utilise la voix dès que je peux - Je construis avec plusieurs agents de travail - Plus de sélection de modèle. Replit achemine ma demande vers le meilleur modèle pour la tâche - Replit construit, teste, ouvre des Pull Requests (PRs), et les surveille pour moi - Replit détecte et adresse les commentaires des relecteurs. Dites-moi ce que vous en pensez. Vidéo",
+          "text_original": "I can't count how many IDEs, agents and tools I used in the past 2 years, and Replit replaced them all for me the last 3 months. So I made a video about it. Since then: - No more agents on my laptop. My dev envs run in isolated sandboxes - I hardly type and use Voice whenever I can - I build with multiple worker agents - No more model selection. Replit routes my request to the best model for the task - Replit builds, tests, opens PRs, and watches them for me - Replit detects and addresses reviewer comments Let me know what you guys think. Video",
+          "link": "https://nitter.kareem.one/elimilu_/status/2117680869695525125#m",
+          "decryptage": "Un \"IDE\" (Environnement de Développement Intégré) est un logiciel qui aide les développeurs à écrire du code ; une \"sandbox\" est un environnement isolé et sécurisé pour exécuter du code ; un \"Pull Request\" (PR) est une demande de fusion de code dans un projet."
+        },
+        {
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Travis, responsable des opérations utilisateurs chez Replit, a créé une application qui priorise les tickets de support entrants, ajoute du contexte et achemine les flux de travail pour des réponses appropriées.",
+          "text_original": "Travis, User Operations lead at Replit, built an app that prioritizes incoming support tickets, adds context, and routes workflows for proper responses.",
+          "link": "https://nitter.kareem.one/Replit/status/2117761275723722787#m",
+          "decryptage": null
+        },
+        {
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Quel est le meilleur modèle ouvert pour l'utilisation programmatique de Blender ?",
+          "text_original": "What's the best open model for Blender programmatic use?",
+          "link": "https://nitter.kareem.one/julien_c/status/2117907185942548837#m",
+          "decryptage": "\"Blender\" est un logiciel de modélisation 3D ; \"utilisation programmatique\" signifie contrôler Blender avec du code plutôt qu'avec l'interface graphique."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Encore plus de résultats. Maintenant, j'ai rendu le système entièrement supporté par toutes sortes de modèles et de vocabulaires. Bonne expérience d'utilisation de @huggingface avec @SlackHQ. Et ça a l'air plutôt intelligent.",
+          "text_original": "Some more results. Now I made it fully supported by all kinds of model and vocabs. Good experience to use @huggingface with @SlackHQ . And it looks pretty smart",
+          "link": "http://nitter.meowing.monster/algo_diver/status/1192329736850038786#m",
+          "decryptage": "\"Vocabulaires\" ici fait référence aux ensembles de mots que les modèles d'IA utilisent pour comprendre et générer du texte."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "C'est peut-être une excellente opportunité d'utiliser les implémentations de Transformers TF 2.0 de @huggingface :)",
+          "text_original": "Perhaps a great opportunity to use @huggingface 's TF 2.0 Transformer implementations :)",
+          "link": "http://nitter.meowing.monster/fchollet/status/1188942956511690752#m",
+          "decryptage": "\"TF 2.0\" fait référence à TensorFlow 2.0, une autre bibliothèque populaire pour le développement d'IA."
         }
       ],
       "idees": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Je dépoussière ce tweet d'avril parce que cet écart de compréhension partagée de la capacité des LLM *s'élargit*. C'est maintenant moins \"deux groupes de personnes qui parlent sans se comprendre\" et plus un entonnoir aigu. - Selon des estimations rapides, environ 6 milliards de personnes (~75% de la population) n'ont quasiment pas eu de contact avec les LLM. - Environ 1-2 milliards (~20%) sont des utilisateurs occasionnels et peu fréquents de produits gratuits de type ChatGPT. Ce groupe voit des chatbots un peu maladroits et les traite comme une meilleure recherche Google, une aide à l'écriture, etc. Peut-être qu'un agent essaie de vous réserver un vol. J'ai des amis non-tech qui (raisonnablement, selon moi) disent ne pas en avoir beaucoup l'utilité. Même de nombreux professionnels en dehors des mathématiques et du code sont à ce niveau. Par exemple, les dirigeants et de nombreuses autres fonctions passent une grande partie de leur temps à parler à d'autres personnes, donc même s'ils comprennent intellectuellement ce qui se passe, c'est encore de seconde main et un peu abstrait. - Maintenant, nous arrivons à l'utilisation professionnelle des LLM de pointe en mathématiques et en code. Environ 20 millions de personnes (0,2%) voient de leurs propres yeux que de grands projets complexes qui leur prenaient des semaines/mois peuvent maintenant être réalisés par des agents avec un simple prompt. Construire des applications, copier des applications, traduire des applications, décompiler des applications à partir de binaires... Tout cela s'est produit très rapidement et récemment - il y a moins d'un an, j'écrivais du code manuellement, en tapant des commandes informatiques mémorisées caractère par caractère dans un éditeur de code, appuyant occasionnellement sur Tab pour compléter un petit morceau de code. - Et enfin, nous arrivons aux environ 5 000 personnes (~0,00006%) ayant accès à des systèmes de pointe en interne. Le monde extérieur a vu l'aperçu. Cela ressemble à des essaims de milliers d'agents collaborant pendant des semaines sur des mégaprojets logiciels : création de \"zero days\", exécution de cyberattaques et de défenses à la vitesse de la machine, découverte de nouvelles sciences, avancement de la frontière des mathématiques. Des choses qui auraient pris des années de travail aux meilleurs professionnels de l'industrie. Pendant ce temps, la révision et la compréhension humaines commencent à prendre du retard. Par exemple, les gens sont encore impliqués dans \"l'archéologie\" de l'incident OpenAI-HF d'il y a plusieurs mois. Les mathématiciens peuvent passer un certain temps à examiner les 722 manuscrits sur les mathématiques de pointe. L'entonnoir est lié à une combinaison de facteurs : 1. L'impact est proportionnel à l'ambition, à la taille du problème et à l'horizon. Une question avec une réponse d'un paragraphe stresse à peine le système. Vous avez besoin d'un réservoir de problèmes grands et difficiles qui vous tiennent vraiment à cœur. Cet aspect pilote la dimension consommateur / professionnel de l'entonnoir. 2. La rugosité du système (sur laquelle j'ai beaucoup écrit séparément). La capacité atteint des sommets dans des domaines numériques, vérifiables et économiquement précieux. C'est parce que la capacité des LLM émerge de l'apprentissage par renforcement sur des récompenses vérifiables dans un mélange d'environnements géré par le potentiel de revenus. Cet aspect pilote principalement la dimension du domaine (par exemple, mathématiques et code) de l'entonnoir. 3. Accès. Gratuit, payant, interne. C'est donc la particularité du moment. Le grand public n'a pour la plupart pas interagi avec ces systèmes. Quand ils l'ont fait, cela ressemble à un chatbot un peu nigaud. La majorité des professionnels ne voient encore qu'une amélioration modeste. Et une petite tranche de professionnels vit le vertige de la courbe qui monte verticalement. Et il est simultanément vrai que le \"mode vocal avancé\" gratuit et je pense un peu orphelin (?) d'OpenAI va gâcher les questions les plus stupides dans vos vidéos Instagram et *en même temps*, le modèle payant et de plus haut niveau d'OpenAI, Codex, va passer 1 heure à restructurer de manière cohérente une base de code entière, ou à trouver et exploiter des vulnérabilités dans des systèmes informatiques. Cette partie fonctionne vraiment et a fait des progrès spectaculaires grâce à 2 propriétés : 1) ces domaines offrent des fonctions de récompense explicites et vérifiables, ce qui signifie qu'ils sont facilement adaptables à l'apprentissage par renforcement (par exemple, tests unitaires passés oui ou non, contrairement à l'écriture, qui est beaucoup plus difficile à juger explicitement), mais aussi 2) ils sont beaucoup plus précieux dans les contextes B2B, ce qui signifie que la plus grande partie de l'équipe se concentre sur leur amélioration.",
-          "text_original": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all. - Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract. - Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code. - And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while. The funnel is driven by a combination of factors: 1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel. 2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel. 3. Access. Free-tier, paid-tier, internal. So this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time. Andrej Karpathy (@karpathy) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is a group of reactions laughing at various quirks of the models, hallucinations, etc. Yes I also saw the viral videos of OpenAI's Advanced Voice mode fumbling simple queries like \"should I drive or walk to the carwash\". The thing is that these free and old/deprecated models don't reflect the capability in the latest round of state of the art agentic models of this year, especially OpenAI Codex and Claude Code. But that brings me to the second issue. Even if people paid $200/month to use the state of the art models, a lot of the capabilities are relatively \"peaky\" in highly technical areas. Typical queries around search, writing, advice, etc. are *not* the domain that has made the most noticeable and dramatic strides in capability. Partly, this is due to the technical details of reinforcement learning and its use of verifiable rewards. But partly, it's also because these use cases are not sufficiently prioritized by the companies in their hillclimbing because they don't lead to as much $$$ value. The goldmines are elsewhere, and the focus comes along. So that brings me to the second group of people, who *both* 1) pay for and use the state of the art frontier agentic models (OpenAI Codex / Claude Code) and 2) do so professionally in technical domains like programming, math and research. This group of people is subject to the highest amount of \"AI Psychosis\" because the recent improvements in these domains as of this year have been nothing short of staggering. When you hand a computer terminal to one of these models, you can now watch them melt programming problems that you'd normally expect to take days/weeks of work. It's this second group of people that assigns a much greater gravity to the capabilities, their slope, and various cyber-related repercussions. TLDR the people in these two groups are speaking past each other. It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) \"Advanced Voice Mode\" will fumble the dumbest questions in your Instagram's reels and *at the same time*, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems. This part really works and has made dramatic strides because 2 properties: 1) these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge), but also 2) they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them. So here we are. — https://nitter.kareem.one/karpathy/status/2042334451611693415#m",
-          "link": "https://nitter.kareem.one/karpathy/status/2109361546505966046#m",
-          "decryptage": "Ce texte explique que la compréhension des capacités de l'IA est très inégale, allant des utilisateurs occasionnels qui voient l'IA comme un simple chatbot à une élite qui assiste à la résolution de problèmes complexes en un temps record par des modèles de pointe, notamment en programmation et en mathématiques."
-        },
-        {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Évaluation sympa. Demandez simplement à un LLM \"Terre ou Eau ?\" et donnez-lui une coordonnée de latitude et de longitude sous forme de texte. Demandez 16 200 fois, tracez-le en image. Les modèles savent. Grâce à la compression d'Internet.",
-          "text_original": "Cool eval. Simply ask an LLM “Land or Water?” and give it a latitude and longitude coordinate as text. Ask 16,200 times, plot as image. The models know. From compressing the internet. Celeste 🇧🇪 (@celestepoasts) results for all claudes — https://nitter.kareem.one/celestepoasts/status/2103232383139057950#m",
-          "link": "https://nitter.kareem.one/karpathy/status/2105909609487872075#m",
-          "decryptage": "Cette expérience simple montre que les modèles d'IA peuvent identifier si des coordonnées géographiques correspondent à de la terre ou de l'eau, car ils ont \"appris\" cette information en analysant une immense quantité de données sur Internet."
-        },
-        {
           "author_name": "Yann LeCun",
           "handle": "@ylecun",
-          "text_fr": "Yann LeCun : L'industrie de l'IA est bloquée parce que tous les laboratoires poursuivent les LLM. Les véritables agents IA devront prédire les conséquences de leurs actions. \"L'industrie de l'IA est complètement obnubilée par les LLM, comme on dit.\" \"Tout le monde travaille sur la même chose, ils creusent tous la même tranchée.\" \"C'est une grande raison pour laquelle j'ai quitté Meta, n'est-ce pas, parce que Meta est aussi devenu obsédé par les LLM.\" \"Je ne peux pas imaginer que nous puissions construire des systèmes d'agents sans que ces systèmes aient la capacité de prédire à l'avance quelles seront les conséquences de leurs actions.\"",
+          "text_fr": "Yann LeCun : L'industrie de l'IA est bloquée parce que chaque laboratoire court après les LLM. Les vrais agents IA devront prédire les conséquences de leurs actions. \"L'industrie de l'IA est complètement \"LLM-addict\", comme on dit.\" \"Tout le monde travaille sur la même chose, ils creusent tous la même tranchée.\" \"C'est une des grandes raisons pour lesquelles j'ai quitté Meta, n'est-ce pas, parce que Meta est aussi devenu \"LLM-addict\".\" \"Je ne peux pas imaginer que nous puissions construire des systèmes d'agents sans que ces systèmes aient la capacité de prédire à l'avance quelles seront les conséquences de leurs actions.\"\nVidéo",
           "text_original": "Yann LeCun: The Al industry is stuck because every lab is chasing LLMs. Real Al agents will need to predict the consequences of their actions. \"The Al industry is completely LLM-pilled, as they say.\" \"Everybody is working on the same thing, they're all digging the same trench.\" \"It's one big reason I left Meta, right, because Meta also became LLM-pilled.\" \"I cannot imagine that we can build agentic systems without those systems having an ability to predict in advance what the consequences of their actions are going to be.\" Video",
           "link": "https://nitter.kareem.one/daveeyyy_/status/2117930656734863810#m",
-          "decryptage": "Yann LeCun, une figure majeure de l'IA, critique la focalisation excessive de l'industrie sur les LLM (modèles de langage), arguant que les \"vrais\" agents IA (capables d'agir de manière autonome) doivent être capables de prédire les conséquences de leurs actions."
-        },
-        {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "Au sein de chaque entreprise adoptant l'IA, il y a deux forces qui disent toutes deux qu'elles \"travaillent sur la transformation de l'IA\" : un groupe de personnes \"accro à l'IA\" qui voient l'IA comme une menace/opportunité existentielle, et un groupe qui veut désespérément que tout le monde voie l'IA comme une technologie ordinaire afin que rien n'ait à changer.",
-          "text_original": "Inside every firm adopting AI are two forces that both say they are \"working on AI transformation:\" a set of people who are AI-pilled who see AI as an existential threat/opportunity & a set who desperately want everyone to view AI as a regular technology so nothing has to change.",
-          "link": "https://nitter.kareem.one/emollick/status/2118371656939053117#m",
-          "decryptage": "Ce tweet observe qu'au sein des entreprises, l'adoption de l'IA crée deux camps : ceux qui y voient un bouleversement majeur et ceux qui préfèrent la traiter comme une technologie banale pour éviter le changement."
-        },
-        {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "Quel que soit le rôle que l'IA a joué en tant que problème dans cette élection, je soupçonne qu'elle jouera un rôle plus important dans chaque élection à venir, du moins pour l'avenir prévisible.",
-          "text_original": "Whatever role AI played as an issue in this election, I suspect it will play a larger role in every election to come, at least for the foreseeable future.",
-          "link": "https://nitter.kareem.one/emollick/status/2118166747215954028#m",
           "decryptage": null
         },
         {
-          "author_name": "Ethan Mollick",
-          "handle": "@emollick",
-          "text_fr": "Sémiotique de l'IA : un article intéressant suggère que les IA sont fortement influencées par les symboles visuels de manières qu'elles ne reconnaissent pas toujours dans leurs propres chaînes de pensée. La façon dont elles réagissent à ces symboles est également très différente de la façon dont un humain pourrait les interpréter. arxiv.org/pdf/2610.36449v1",
-          "text_original": "AI semiotics: cool paper suggests that AIs are strongly impacted by visual symbols in ways they do not always recognize in their own chains-of-thought. The way they react to those symbols is very different than how a human might interpret them as well. arxiv.org/pdf/2610.36449v1",
-          "link": "https://nitter.kareem.one/emollick/status/2118012530215854477#m",
-          "decryptage": "Ce tweet parle d'une étude qui explore comment les IA interprètent les symboles visuels, montrant qu'elles les perçoivent différemment des humains, même si elles ne le réalisent pas toujours."
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Il y a seulement 2,5 ans, les laboratoires d'IA mettaient en avant les performances de leurs LLM de pointe sur des benchmarks de mathématiques de niveau scolaire (GSM8K). J'ai hâte de voir où nous en serons dans 2,5 ans. Aashish Reddy (@_AashishReddy) Cela ne vieillit jamais — http://nitter.meowing.monster/_AashishReddy/status/2114845752316854486#m",
+          "text_original": "Only 2.5 years ago, AI labs would highlight their frontier LLM performance on grade school math benchmarks (GSM8K). I can't wait to see where we'll be in another 2.5 years. Aashish Reddy (@_AashishReddy) It just never gets old — http://nitter.meowing.monster/_AashishReddy/status/2114845752316854486#m",
+          "link": "http://nitter.meowing.monster/polynoamial/status/2114886357739000015#m",
+          "decryptage": "\"Benchmarks\" sont des tests standards pour comparer les performances de différents modèles d'IA ; \"LLM\" (Large Language Models) sont des modèles de langage très grands qui génèrent du texte."
+        },
+        {
+          "author_name": "Noam Brown",
+          "handle": "@polynoamial",
+          "text_fr": "Les LLM ont franchi un seuil important : ils surpassent les plus grands experts humains sur certains problèmes de recherche. Les capacités s'améliorent constamment depuis des années, mais en découverte scientifique, il y a une grande différence entre un modèle juste en dessous des performances humaines et un juste au-dessus. Cela aide à expliquer pourquoi la vague de résultats en mathématiques semble si soudaine. Les capacités des LLM restent inégales, et à bien des égards, ils sont encore inférieurs aux humains. Mais à mesure que les modèles continuent de s'améliorer, je m'attends à des percées dans d'autres domaines, menant à une nouvelle ère de découverte scientifique. Mark Chen (@markchen90) Le moment Navier-Stokes concernait toujours beaucoup plus la figure ci-dessous que le problème de Navier-Stokes lui-même. La série représente une décennie de progrès mathématiques en une semaine. J'ai hâte d'appliquer ces outils aux sciences de la vie, à la construction de nos prochains modèles et à l'alignement ! — http://nitter.meowing.monster/markchen90/status/2107876922147668198#m",
+          "text_original": "LLMs have crossed an important threshold: surpassing top human experts on some research problems. Capabilities have been steadily improving for years, but in scientific discovery there is a big difference between a model just below top human performance and one just above it. That helps explain why the surge in math results feels so sudden. LLM capabilities remain jagged, and there are many ways they are still worse than humans. But as models continue to improve, I expect breakthroughs in other domains to follow, leading to a new era of scientific discovery. Mark Chen (@markchen90) The Navier-Stokes moment was always much more about the figure below than about the Navier-Stokes problem itself. The run represents a decade of mathematical progress in a week. Can't wait to point these tools at life sciences, building our next models, and alignment! — http://nitter.meowing.monster/markchen90/status/2107876922147668198#m",
+          "link": "http://nitter.meowing.monster/polynoamial/status/2107947189184164056#m",
+          "decryptage": "\"Alignement\" est un domaine de recherche visant à s'assurer que les IA agissent selon les intentions et les valeurs humaines."
+        },
+        {
+          "author_name": "Amjad Masad",
+          "handle": "@amasad",
+          "text_fr": "Les agents IA exécutés sur les terminaux des employés deviennent un risque de sécurité systémique pour les entreprises et les gouvernements. Certains réagissent en restreignant des outils comme Claude Code, comme Goldman Sachs l'aurait fait. Dans cet avis de sécurité, nous décrivons les risques et recommandons une voie à suivre. Luis Héctor Chávez (@lhchavez) Article Avis de sécurité : Faire des environnements cloud gérés la norme pour les agents IA Les agents IA devraient opérer dans des environnements dédiés, contrôlés par l'organisation, avec un accès limité aux ressources requises par chaque tâche. Des incidents de sécurité récents [5], [6] et des recherches démontrent pourquoi — https://nitter.kareem.one/lhchavez/status/2117496522656841766#m",
+          "text_original": "AI agents running on employee endpoints are becoming a systemic security risk for enterprises & governments. Some are responding by restricting tools like Claude Code, as Goldman Sachs reportedly has. In this security advisory, we outline the risks and recommend a path forward. Luis Héctor Chávez (@lhchavez) Article Security advisory: Make managed cloud environments the default for AI agents AI agents should operate in dedicated, organization-controlled environments with limited access to the resources each task requires. Recent security incidents [5], [6] and research demonstrate why — https://nitter.kareem.one/lhchavez/status/2117496522656841766#m",
+          "link": "https://nitter.kareem.one/amasad/status/2117504072416890937#m",
+          "decryptage": "Un \"terminal d'employé\" est l'ordinateur ou l'appareil utilisé par un employé ; \"risques de sécurité systémiques\" signifie que ces risques peuvent affecter tout le système d'une entreprise."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Le premier article complet sur @pytorch après 3 ans de développement. Il décrit nos objectifs, principes de conception, détails techniques jusqu'à la v0.4. Retrouvez l'affiche à #NeurIPS2019. Rédigé par @apaszke, @colesbury et al. arxiv.org/abs/1912.01703",
+          "text_original": "The first full paper on @pytorch after 3 years of development. It describes our goals, design principles, technical details uptil v0.4 Catch the poster at #NeurIPS2019 Authored by @apaszke , @colesbury et. al. arxiv.org/abs/1912.01703",
+          "link": "http://nitter.meowing.monster/soumithchintala/status/1202981209057484801#m",
+          "decryptage": "\"PyTorch\" est un framework de développement d'IA très utilisé ; \"NeurIPS\" est une conférence majeure en IA. C'est un tweet historique."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "Travail intéressant (et un bel ensemble de données volumineux et propre également, hâte de le voir publié) : \"Transformers compressifs pour la modélisation de séquences à longue portée\" par Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (chez DeepMind) Article : arxiv.org/abs/1911.05507",
+          "text_original": "Interesting work (and a nice large and clean dataset as well, looking forward to see it released): \"Compressive Transformers for Long-Range Sequence Modelling\" by Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap (at DeepMind) Paper: arxiv.org/abs/1911.05507",
+          "link": "http://nitter.meowing.monster/Thom_Wolf/status/1195662118974083073#m",
+          "decryptage": "Les \"Transformers\" sont un type d'architecture de modèle d'IA très efficace, particulièrement pour le traitement du langage naturel. La \"modélisation de séquences à longue portée\" concerne la capacité d'une IA à comprendre et générer du texte sur de très longues distances."
+        },
+        {
+          "author_name": "Clem Delangue",
+          "handle": "@ClemDelangue",
+          "text_fr": "L'atelier @SustaiNLP2020 à #EMNLP2020 essaiera d'éliminer un peu l'addiction au SOTA (State-Of-The-Art, performances de pointe) dans la recherche en PNL 😉 Nous promouvrons des compromis raisonnables entre les performances et les modèles qui sont - plus efficaces computationnellement - conceptuellement plus simples ... [1/2] nitter.mizuki.st/DoingJobs/status/11865…",
+          "text_original": "The @SustaiNLP2020 workshop at #EMNLP2020 will try to remove a little bit of SOTA addiction from NLP research 😉 We'll promote sensible trade-offs between performances & models that are - computationally more efficient - conceptually simpler ... [1/2] nitter.mizuki.st/DoingJobs/status/11865…",
+          "link": "http://nitter.meowing.monster/Thom_Wolf/status/1189271899316064256#m",
+          "decryptage": "\"SOTA\" (State-Of-The-Art) désigne les modèles ou techniques qui obtiennent les meilleures performances actuelles dans un domaine donné. \"PNL\" (Traitement du Langage Naturel) est le domaine de l'IA qui s'occupe de la compréhension et de la génération du langage humain."
         }
       ],
       "outils": [
         {
-          "author_name": "Andrej Karpathy",
-          "handle": "@karpathy",
-          "text_fr": "Hack du week-end : HackerTube. Les recommandations de YouTube m'agaçaient, alors j'ai demandé à Claude de filtrer 43 millions de commentaires sur 20 ans de HN pour obtenir 6 454 vidéos constamment recommandées. Expérience de visionnage *nettement* améliorée, environ 2 heures avec Opus 5.5 : hackertube.org/ - Excellentes recommandations sans aucune connexion (l'état est conservé dans la session du navigateur local) - La miniature est une image représentative du milieu de la vidéo au lieu des miniatures hyper-optimisées par des tests A/B de l'utilisateur - Données sous-jacentes de l'analyse des commentaires sous forme d'un fichier zip, pointez votre Claude dessus et demandez votre propre version - HackerTube Longs ✊ Un peu plus sur le processus : j'utilise Claude Code (application de bureau pour Mac), Opus 5.5 en effort Moyen comme réglage par défaut. Je ne fais que parler à Claude et le laisse tout faire, le seul \"travail manuel\" que j'ai aidé à faire en parallèle était dans le navigateur (rappelant MenuGen) : 1) J'ai dû créer une clé API depuis l'interface utilisateur de Google Cloud pour interroger YouTube sur les métadonnées vidéo, 2) J'ai démarré un serveur VPS pour l'hébergement et 3) J'ai acheté le nom de domaine. Une fois le serveur configuré, j'ai donné l'adresse IP à Claude et lui ai dit de mettre à jour, sécuriser, renforcer, déployer et optimiser le code, et il a tout fait. De nombreux projets géniaux qui auraient normalement pris des semaines/mois peuvent maintenant être réalisés rapidement. À quoi d'autre ne pensons-nous pas ?",
-          "text_original": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5: hackertube.org/ - Excellent recs without any logins (state is kept in local browser session) - Thumbnail is a representative frame from middle of the video instead of the super duper A/B test hyper-optimized user uploads - Underlying data from the comment analysis as one zip file, point your Claude at it and ask for your own version - HackerTube Longs ✊ A bit more on the process: I use Claude Code (desktop app for Mac), Opus 5.5 on Medium effort as my default. I only talk to Claude and have it do everything, the only \"manual work\" I helped with in tandem was in the browser (reminiscent of MenuGen): 1) I had to create some kind of API key from Google Cloud UI to query YouTube for video metadata, 2) I booted up a VPS box for serving and 3) I bought the domain name. Once the box was up I gave Claude the IP and told it update, secure, harden, deploy and optimize the code, and it did the whole thing. Many awesome projects that would have normally taken weeks/months even can now be few-shotted for breakfast. What else are we not thinking of.",
-          "link": "https://nitter.kareem.one/karpathy/status/2116957135661945283#m",
-          "decryptage": "HackerTube est un site web créé par une IA (Claude) pour proposer des recommandations vidéo basées sur des discussions de forum, offrant une expérience de visionnage améliorée par rapport aux algorithmes classiques de YouTube."
+          "author_name": "Omar Sanseviero",
+          "handle": "@osanseviero",
+          "text_fr": "Nous venons de publier un nouveau tutoriel sur l'utilisation de Gemini pour l'informatique avec Cua Driver. aistudio.google.com/learn/pa… Lien Utilisation de l'ordinateur avec Gemini et Cua Driver Construisez un agent Gemini qui opère de véritables applications de bureau en arrière-plan pendant que vous continuez à taper, en utilisant Antigravity MCP ou l'API Interactions. aistudio.google.com",
+          "text_original": "We just published a new tutorial on how to use Gemini for Computer Use with Cua Driver aistudio.google.com/learn/pa… Link Computer use with Gemini and Cua Driver Build a Gemini agent that operates real desktop apps in the background while you keep typing, using Antigravity MCP or the Interactions API. aistudio.google.com",
+          "link": "http://nitter.meowing.monster/osanseviero/status/2117523907703923198#m",
+          "decryptage": "\"Gemini\" est une famille de modèles d'IA de Google ; un \"tutoriel\" est un guide pratique étape par étape. \"Agent Gemini\" est une IA basée sur Gemini capable d'interagir avec votre ordinateur."
         },
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Images 2.6 est disponible aujourd'hui dans ChatGPT, et Codex sur tous les niveaux (tiers) sur le web, le bureau et le mobile. GPT-Image-2.6 Flare et Sunburst sont également disponibles dans l'API. openai.com/index/introducing… Lien Présentation d'Images 2.6. Images 2.6 apporte une génération d'images plus rapide, la création de GIF, une édition plus précise et de nouvelles commandes API dans ChatGPT, Codex et l'API.",
-          "text_original": "Images 2.6 is available today in ChatGPT, and Codex across all tiers on web, desktop, and mobile. GPT-Image-2.6 Flare and Sunburst are also available in the API. openai.com/index/introducing… Link Introducing Images 2.6 Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API. openai.com",
-          "link": "https://nitter.kareem.one/OpenAI/status/2118124966055223755#m",
-          "decryptage": "OpenAI lance Images 2.6, une mise à jour qui permet de générer des images plus rapidement, de créer des GIFs et d'éditer des images avec plus de précision, accessible via ChatGPT et l'API pour les développeurs."
+          "author_name": "Arthur Mensch",
+          "handle": "@ArthurMensch",
+          "text_fr": "Mistral Large 4 peut-il trouver une vulnérabilité critique, la prouver et la corriger ? Nous l'avons testé sur une récente CVE (Common Vulnerabilities and Exposures) de Django. 133 agents cartographient le code, recherchent les failles, testent les scénarios d'attaque et confirment le bug. Ensuite, Le Chonk le corrige. Tri, reproduction, correctif. Montré à 90x la vitesse. Vidéo",
+          "text_original": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE. 133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it. Triage, repro, patch. Shown at 90x speed. Video",
+          "link": "https://nitter.kareem.one/MistralAI/status/2117925908572991748#m",
+          "decryptage": "Une \"CVE\" est une référence standardisée pour une faille de sécurité connue ; \"Django\" est un framework de développement web populaire. \"Agents\" sont des programmes IA autonomes."
         },
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Deux nouveaux modèles d'images pour les développeurs : GPT-Image-2.6 Flare et Sunburst. Flare génère des images en aussi peu que six secondes. Sunburst apporte une génération de meilleure qualité et une plus grande cohérence lors des éditions. Le balisage d'image et les exportations SVG vous offrent plus de moyens d'affiner et d'utiliser ce que vous créez.",
-          "text_original": "Two new image models for developers: GPT-Image-2.6 Flare and Sunburst. Flare generates images in as little as six seconds. Sunburst brings higher-quality generation and greater consistency across edits. Image markup and SVG exports give you more ways to refine and use what you create.",
-          "link": "https://nitter.kareem.one/OpenAI/status/2118124964197114039#m",
-          "decryptage": "Ce tweet présente Flare et Sunburst, deux nouveaux modèles d'IA d'OpenAI pour la création d'images : Flare est très rapide, et Sunburst offre une meilleure qualité et des éditions plus cohérentes, avec des options d'exportation avancées."
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Nous ouvrons plus de 100 000 objets 3D 🧊🤗, unifiés dans une seule bibliothèque, prêts pour l'entraînement de LLM. Les actifs Objaverse, les pièces CAO et les mécanismes articulés, le tout dans un seul langage ! Pendant des années, la recherche 3D s'est entraînée sur Objaverse : des \"soupes de triangles\" désordonnées, des maillages cassés, des objets sans parties. Chaque équipe le nettoyait de son côté ou adaptait ses modèles à des données bruyantes, et la majeure partie de ce travail restait privée. Ce désordre a freiné l'industrie sur ce dont les équipes 3D ont besoin : une topologie propre, des objets divisés en parties et une représentation sur laquelle les gens peuvent travailler ensemble. Nous avons donc réécrit Objaverse et d'autres ensembles de données dans une représentation propre et unifiée. Chaque actif est maintenant un court programme Python dans sand3d, notre bibliothèque ouverte : 🔹 chaque partie a un nom 🔹 chaque dimension est un paramètre 🔹 l'exécution du programme donne un actif propre. Le code 3D est aujourd'hui dispersé dans de nombreux langages, chacun écrit pour des personnes et pour un outil différent. sand3d met chaque objet dans le même langage, en utilisant 3,8 fois moins de jetons que le Python Blender brut en moyenne. Tout est ouvert, en tant qu'ensemble de données partagé qui donne à tous la même base pour s'entraîner et comparer. Nous voulons accélérer la recherche sur les modèles qui fonctionnent et collaborer sur la production 3D. Ce n'est que le début : d'autres objets arrivent. 📦 Dataset : huggingface.co/collections/S… 🔎 Explorer : huggingface.co/spaces/Sandfl… 💻 Bibliothèque : github.com/Sandflow-ai/sand3… Vidéo",
+          "text_original": "We're opening 100,000+ 3D objects 🧊🤗, unified in one library, ready for LLM training. Objaverse assets, CAD parts and articulated mechanisms, all in one language ! For years, 3D research has trained on Objaverse: messy triangle soups, broken meshes, objects with no parts. Every team cleaned it on its own or adapted its models to noisy data, and most of that work stayed private. That mess held the industry back on what 3D teams need: clean topology, objects split into parts, and a representation people can work on together. So we rewrote Objaverse and other datasets into one clean representation. Each asset is now a short Python program in sand3d, our open library: 🔹 every part has a name 🔹 every dimension is a parameter 🔹 running the program gives a clean asset 3D code today is scattered across many languages, each written for people and for a different tool. sand3d puts every object in the same language, in 3.8x fewer tokens than raw Blender Python on average. Everything is open, as one shared dataset that gives everyone the same ground to train and compare on. We want to speed up research on models that work and collaborate on 3D production. This is only the start: more objects are coming. 📦 Dataset: huggingface.co/collections/S… 🔎 Explorer: huggingface.co/spaces/Sandfl… 💻 Library: github.com/Sandflow-ai/sand3… Video",
+          "link": "https://nitter.kareem.one/ThiboNeveu/status/2118271873574113359#m",
+          "decryptage": "\"Objet 3D\" est une représentation numérique d'un objet en trois dimensions ; \"bibliothèque\" est une collection de code ou de ressources réutilisables ; \"entraînement de LLM\" signifie enseigner aux grands modèles de langage comment traiter ces données. Une \"topologie propre\" est une structure de modèle 3D bien organisée et facile à manipuler."
         },
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Sauvegardez une fois. Créez encore et encore. Gardez des images de référence de vous-même, de vos animaux de compagnie et de vos personnages prêtes à être réutilisées dans de nouvelles créations – pas besoin de les télécharger à nouveau.",
-          "text_original": "Save once. Create again and again. Keep reference images of yourself, pets, and characters ready to reuse in new creations—no need to upload them again.",
-          "link": "https://nitter.kareem.one/OpenAI/status/2118124958421532806#m",
-          "decryptage": "Une nouvelle fonctionnalité permet de sauvegarder des images de référence (comme un personnage ou un animal) pour les réutiliser facilement dans différentes créations d'IA sans avoir à les télécharger à chaque fois."
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Amazon a créé des modèles 3D de 7 953 produits réels qu'il vend. J'ai compressé les 165 Go en environ 12 Go de GLB pour three.js, WebGPU et les jeux web, gratuitement sur Hugging Face. Vidéo",
+          "text_original": "Amazon made 3D models of 7,953 real products it sells I packed all 165 GB into about 12 GB of GLB for three.js, WebGPU and web games, free on Hugging Face Video",
+          "link": "https://nitter.kareem.one/anxuanng/status/2118136591738925395#m",
+          "decryptage": "\"Modèles 3D\" sont des représentations numériques d'objets en trois dimensions ; \"GLB\" est un format de fichier compact pour les modèles 3D ; \"three.js\" et \"WebGPU\" sont des technologies web pour afficher des graphiques 3D."
         },
         {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Des GIF ! Avec ChatGPT Images 2.6, transformez un prompt ou une image en GIF animé. Ajustez la vitesse, modifiez les cadres individuels et partagez-le en boucle. Vidéo",
-          "text_original": "GIFS! With ChatGPT Images 2.6, turn a prompt or image into an animated GIF. Adjust the speed, edit individual frames, and share it on repeat. Video",
-          "link": "https://nitter.kareem.one/OpenAI/status/2118124953832935810#m",
-          "decryptage": "Avec la mise à jour Images 2.6 de ChatGPT, il est désormais possible de créer des GIFs animés à partir d'un texte ou d'une image, en ajustant la vitesse et en modifiant les images individuelles."
-        },
-        {
-          "author_name": "OpenAI",
-          "handle": "@OpenAI",
-          "text_fr": "Images, améliorées — présentation de ChatGPT Images 2.6. Désormais avec des GIFs et des images de référence. De plus, deux nouveaux modèles arrivent à l'API avec une génération d'images 50% plus rapide. Vidéo",
-          "text_original": "Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation. Video",
-          "link": "https://nitter.kareem.one/OpenAI/status/2118124944928432327#m",
-          "decryptage": "Ce tweet résume les nouveautés d'Images 2.6 pour ChatGPT, notamment la création de GIFs, la gestion d'images de référence, et des modèles plus rapides pour les développeurs via l'API."
+          "author_name": "Julien Chaumond",
+          "handle": "@julien_c",
+          "text_fr": "Kimi-K3.1-Pro vient de sortir sur Hugging Face !! 🌝🚨 huggingface.co/moonshotai/Ki…",
+          "text_original": "Kimi-K3.1-Pro just dropped on Hugging Face!! 🌝🚨 huggingface.co/moonshotai/Ki…",
+          "link": "https://nitter.kareem.one/calebfahlgren/status/2118005728967332093#m",
+          "decryptage": "\"Hugging Face\" est une plateforme populaire où les chercheurs et développeurs partagent des modèles et outils d'IA."
         }
       ]
     }
   },
-  "processed_at": "2026-11-05T16:28:13",
+  "processed_at": "2026-11-05T17:39:39",
   "validation": {
     "translated_pct": 100,
-    "with_decryptage_pct": 92,
-    "total": 25,
+    "with_decryptage_pct": 88,
+    "total": 33,
     "needs_retranslation_count": 0
   },
-  "email_sent_at": "2026-11-05T16:28:14"
+  "email_sent_at": "2026-11-05T17:39:40"
 }
